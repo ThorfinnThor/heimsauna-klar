@@ -103,6 +103,7 @@ export function HomePage() {
           <p className="eyebrow">Schnellvergleich</p>
           <h2 id="comparison-title">Vier Wege zur Heimsauna.</h2>
           <p>Die entscheidenden Unterschiede liegen oft vor dem Produktvergleich: Einbauort, Anschluss und Platz setzen den Rahmen.</p>
+          <Link className="text-link" href="/de/planung/">Alle Planungsschritte öffnen <Arrow /></Link>
         </div>
         <div className="type-grid">
           {archetypes.map((item, index) => (

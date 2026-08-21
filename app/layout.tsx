@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { isIndexingEnabled, siteUrl } from "@/lib/site";
+import { websiteJsonLd } from "@/lib/structured-data";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -20,7 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <body>{children}</body>
+      <body>
+        <StructuredData data={websiteJsonLd()} />
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { ProductCatalog } from "@/app/_components/ProductCatalog";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
+import { StructuredData } from "@/app/_components/StructuredData";
 import Link from "next/link";
 import { collections, getCollectionProducts } from "@/lib/collections";
 import { products } from "@/lib/products";
+import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Sauna-Produkte mit geprüften technischen Daten",
@@ -14,11 +16,15 @@ export const metadata: Metadata = {
 export default function ProductsPage() {
   return (
     <main>
+      <StructuredData data={collectionPageJsonLd({ title: "Sauna-Produkte mit geprüften technischen Daten", description: metadata.description as string, path: "/de/produkte/" })} />
+      <StructuredData data={breadcrumbJsonLd([{ name: "Start", path: "/de/" }, { name: "Produkte", path: "/de/produkte/" }])} />
       <SiteHeader />
       <section className="page-hero page-shell">
+        <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Produkte</span></nav>
         <p className="eyebrow">Produktkatalog · Deutschland</p>
         <h1>Technische Daten,<span>bevor wir bewerten.</span></h1>
         <p>Jeder veröffentlichte Datensatz nennt seine Quelle, das letzte Prüfdatum und ob ein Produkt tatsächlich getestet wurde.</p>
+        <Link className="text-link" href="/de/planung/">Vorher Platz, Lüftung, Boden und Budget klären ↗</Link>
         <div className="catalog-metrics">
           <span><strong>{products.length}</strong> verifizierte Datensätze</span>
           <span><strong>0</strong> bezahlte Platzierungen</span>

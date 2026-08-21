@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
+import { StructuredData } from "@/app/_components/StructuredData";
 import {
   collections,
   getCollectionProducts,
@@ -8,6 +9,7 @@ import {
   type Collection,
 } from "@/lib/collections";
 import { formatGermanDate, formatPrice, formatVoltage, getLatestOfferCheck } from "@/lib/products";
+import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 const sectionLabels: Record<Collection["section"], string> = {
   "indoor-sauna": "Indoor-Sauna",
@@ -21,9 +23,16 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
   const minimumFootprint = Math.min(...candidates.map(getFootprintSquareMeters));
   const lowestPrice = Math.min(...candidates.map(getLowestPrice));
   const relatedCollections = collections.filter((item) => item.id !== collection.id);
+  const path = `/de/${collection.section}/${collection.slug}/`;
 
   return (
     <main>
+      <StructuredData data={collectionPageJsonLd({ title: collection.title, description: collection.description, path })} />
+      <StructuredData data={breadcrumbJsonLd([
+        { name: "Start", path: "/de/" },
+        { name: "Produkte", path: "/de/produkte/" },
+        { name: collection.title, path },
+      ])} />
       <SiteHeader />
       <article>
         <header className="collection-hero page-shell">

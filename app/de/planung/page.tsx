@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { planningGuides } from "@/lib/planning-guides";
+import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Sauna planen: Platz, Lüftung, Boden und Kosten",
@@ -12,6 +14,8 @@ export const metadata: Metadata = {
 export default function PlanningHubPage() {
   return (
     <main>
+      <StructuredData data={collectionPageJsonLd({ title: "Sauna planen", description: metadata.description as string, path: "/de/planung/" })} />
+      <StructuredData data={breadcrumbJsonLd([{ name: "Start", path: "/de/" }, { name: "Planung", path: "/de/planung/" }])} />
       <SiteHeader />
       <section className="page-hero page-shell">
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Planung</span></nav>

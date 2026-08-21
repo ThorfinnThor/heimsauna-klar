@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { formatGermanDate, formatPrice, getLatestOfferCheck, products } from "@/lib/products";
+import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "230-V-Sauna Vergleich: kompakte Modelle im Datencheck",
@@ -15,15 +17,22 @@ export default function ComparisonPage() {
 
   return (
     <main>
+      <StructuredData data={collectionPageJsonLd({ title: "230-V-Sauna Vergleich", description: metadata.description as string, path: "/de/vergleiche/230-v-sauna/" })} />
+      <StructuredData data={breadcrumbJsonLd([
+        { name: "Start", path: "/de/" },
+        { name: "Produkte", path: "/de/produkte/" },
+        { name: "230-V-Sauna", path: "/de/vergleiche/230-v-sauna/" },
+      ])} />
       <SiteHeader />
       <article>
         <header className="comparison-hero page-shell">
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
-            <Link href="/de/">Start</Link><span>/</span><span>Vergleiche</span><span>/</span><span>230-V-Sauna</span>
+            <Link href="/de/">Start</Link><span>/</span><Link href="/de/produkte/">Produkte</Link><span>/</span><span>230-V-Sauna</span>
           </nav>
           <p className="eyebrow">Datenvergleich · Stand {latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</p>
           <h1>230 V vergleichen,<span>ohne Äpfel mit Saunen zu mischen.</span></h1>
           <p>Diese Seite vergleicht nur Felder, die wir an einer Herstellerquelle nachvollziehen können. Sie ist keine bezahlte Rangliste und kein eigener Produkttest.</p>
+          <div className="guide-path-links" aria-label="Vergleich vorbereiten"><Link className="button button-primary" href="/de/saunatechnik/230-v-sauna/">230 V verstehen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf prüfen ↗</Link></div>
         </header>
 
         <section className="comparison-data page-shell" aria-labelledby="comparison-data-title">

@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { formatGermanDate, getLatestOfferCheck, products } from "@/lib/products";
 import { getPriceSnapshot, planningGuides, type PlanningGuide } from "@/lib/planning-guides";
+import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 
 function formatEuro(value: number) {
   return new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 2 }).format(value);
@@ -10,9 +12,16 @@ function formatEuro(value: number) {
 export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
   const relatedGuides = planningGuides.filter((item) => item.slug !== guide.slug);
   const latestOfferCheck = getLatestOfferCheck(products);
+  const path = `/de/planung/${guide.slug}/`;
 
   return (
     <main>
+      <StructuredData data={articleJsonLd({ title: guide.title, description: guide.description, path, updatedAt: guide.updated_at })} />
+      <StructuredData data={breadcrumbJsonLd([
+        { name: "Start", path: "/de/" },
+        { name: "Planung", path: "/de/planung/" },
+        { name: guide.title, path },
+      ])} />
       <SiteHeader />
       <article>
         <header className="guide-hero page-shell">
@@ -23,6 +32,10 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
           <h1>{guide.title}<span>{guide.accent}</span></h1>
           <p>{guide.description}</p>
           <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.summary}</p></div>
+          <div className="guide-path-links" aria-label="Planung anwenden">
+            <Link className="button button-primary" href="/de/produkte/">Produkte filtern ↗</Link>
+            <Link className="text-link" href="/de/#finder">Sauna-Finder starten ↗</Link>
+          </div>
         </header>
 
         <section className="planning-sections page-shell" aria-label="Planungsschritte">

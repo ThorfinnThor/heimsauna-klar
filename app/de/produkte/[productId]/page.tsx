@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
+import { StructuredData } from "@/app/_components/StructuredData";
+import { collections, getCollectionProducts } from "@/lib/collections";
 import { formatGermanDate, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
+import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ productId: string }> };
 
@@ -33,9 +36,30 @@ export default async function ProductPage({ params }: Props) {
   if (!product) notFound();
   const offer = product.commercial.offers[0];
   const familyProducts = getProductFamily(product);
+  const matchingCollections = collections
+    .filter((collection) => getCollectionProducts(collection).some((candidate) => candidate.product_id === product.product_id))
+    .slice(0, 3);
+  const planningLinks = product.power.voltage === 230
+    ? [
+        { href: "/de/planung/platzbedarf/", label: "Planungsseite", title: "Platzbedarf prüfen" },
+        { href: "/de/saunatechnik/230-v-sauna/", label: "Saunatechnik", title: "230 V richtig einordnen" },
+        { href: "/de/planung/sauna-kosten/", label: "Planungsseite", title: "Gesamtbudget kalkulieren" },
+      ]
+    : [
+        { href: "/de/planung/platzbedarf/", label: "Planungsseite", title: "Platzbedarf prüfen" },
+        { href: product.sauna.indoor_outdoor === "outdoor" ? "/de/planung/boden-und-fundament/" : "/de/planung/lueftung/", label: "Planungsseite", title: product.sauna.indoor_outdoor === "outdoor" ? "Fundament prüfen" : "Lüftung planen" },
+        { href: "/de/planung/sauna-kosten/", label: "Planungsseite", title: "Gesamtbudget kalkulieren" },
+      ];
+  const path = `/de/produkte/${product.product_id}/`;
 
   return (
     <main>
+      <StructuredData data={productJsonLd(product)} />
+      <StructuredData data={breadcrumbJsonLd([
+        { name: "Start", path: "/de/" },
+        { name: "Produkte", path: "/de/produkte/" },
+        { name: product.model, path },
+      ])} />
       <SiteHeader />
       <article>
         <header className="product-hero page-shell">
@@ -137,6 +161,18 @@ export default async function ProductPage({ params }: Props) {
             <p className="safety-box"><strong>Sicherheit:</strong> Herstelleranleitung und örtliche Anschlussbedingungen haben Vorrang. Arbeiten an Netzspannung gehören in die Hände einer Elektrofachkraft.</p>
           </div>
         </section>
+
+        <aside className="collection-related page-shell" aria-labelledby="product-next-title">
+          <div><p className="eyebrow">Vom Datensatz zur Entscheidung</p><h2 id="product-next-title">Weiter prüfen, bevor du kaufst.</h2></div>
+          <div className="collection-related-grid">
+            {planningLinks.map((item) => (
+              <Link href={item.href} key={item.href}><small>{item.label}</small><strong>{item.title}</strong><span>Öffnen ↗</span></Link>
+            ))}
+            {matchingCollections.map((collection) => (
+              <Link href={`/de/${collection.section}/${collection.slug}/`} key={collection.id}><small>{collection.kind}</small><strong>{collection.title}</strong><span>Weitere passende Modelle ↗</span></Link>
+            ))}
+          </div>
+        </aside>
       </article>
       <SiteFooter />
     </main>

@@ -722,6 +722,8 @@ footer {
 .price-snapshot-grid small { color: var(--clay-dark); font-size: 8px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
 .price-snapshot-grid strong { margin: 30px 0 10px; font-family: Georgia, serif; font-size: 27px; font-weight: 400; }
 .price-snapshot-grid span { margin-top: auto; color: var(--ink-soft); font-size: 9px; line-height: 1.5; }
+.guide-path-links { margin-top: 30px; display: flex; gap: 24px; align-items: center; }
+.comparison-intro .text-link { margin-top: 22px; display: inline-flex; }
 
 .legal-page { padding-block: 36px 110px; }
 .legal-page h1 { max-width: 930px; margin-bottom: 25px; font-size: clamp(58px, 7.5vw, 112px); }
@@ -759,6 +761,7 @@ footer {
   .planning-section { grid-template-columns: 60px 1fr; }
   .planning-section > div, .price-snapshot-head { grid-template-columns: 1fr; }
   .planning-section > div { grid-column: 2; }
+  .guide-path-links { align-items: flex-start; flex-direction: column; }
   .planning-section ul { grid-column: 1; }
   .price-snapshot-grid { grid-template-columns: repeat(2, 1fr); }
 }
