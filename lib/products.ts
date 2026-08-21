@@ -4,6 +4,7 @@ export type Product = {
   product_id: string;
   brand: string;
   model: string;
+  family: { id: string; name: string; variant: string } | null;
   category: "indoor" | "outdoor" | "infrared" | "portable" | "tent";
   status: "draft" | "verified" | "archived";
   dimensions_cm: { width: number; depth: number; height: number };
@@ -58,6 +59,11 @@ export type FinderFilters = {
 
 export function getProduct(productId: string) {
   return products.find((product) => product.product_id === productId);
+}
+
+export function getProductFamily(product: Product) {
+  if (!product.family) return [];
+  return products.filter((candidate) => candidate.family?.id === product.family?.id);
 }
 
 export function formatPrice(product: Product) {

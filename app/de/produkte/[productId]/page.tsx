@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
-import { formatGermanDate, formatPrice, getProduct, products } from "@/lib/products";
+import { formatGermanDate, formatPrice, getProduct, getProductFamily, products } from "@/lib/products";
 
 type Props = { params: Promise<{ productId: string }> };
 
@@ -32,6 +32,7 @@ export default async function ProductPage({ params }: Props) {
   const product = getProduct(productId);
   if (!product) notFound();
   const offer = product.commercial.offers[0];
+  const familyProducts = getProductFamily(product);
 
   return (
     <main>
@@ -68,6 +69,35 @@ export default async function ProductPage({ params }: Props) {
             <div><dt>Holz</dt><dd>{product.sauna.wood_type}</dd></div>
           </dl>
         </section>
+
+        {familyProducts.length > 1 && product.family && (
+          <section className="variant-section page-shell" aria-labelledby="variant-title">
+            <div className="variant-intro">
+              <p className="eyebrow">Produktreihe · {familyProducts.length} Varianten</p>
+              <h2 id="variant-title">{product.family.name} im Variantenvergleich.</h2>
+              <p>Die Modelle gehören zur gleichen Produktreihe, unterscheiden sich aber bei Ausführung, Maßen, Wärmeart oder Preis. Jeder Eintrag bleibt ein eigener, quellengeprüfter Datensatz.</p>
+            </div>
+            <div className="variant-grid">
+              {familyProducts.map((variant) => {
+                const isCurrent = variant.product_id === product.product_id;
+                const content = (
+                  <>
+                    <small>{isCurrent ? "Aktuelles Modell" : "Weitere Variante"}</small>
+                    <strong>{variant.family?.variant}</strong>
+                    <span>{variant.dimensions_cm.width} × {variant.dimensions_cm.depth} × {variant.dimensions_cm.height} cm</span>
+                    <span>{variant.sauna.type} · {formatPrice(variant)}</span>
+                  </>
+                );
+
+                return isCurrent ? (
+                  <div className="variant-card variant-card-current" key={variant.product_id}>{content}</div>
+                ) : (
+                  <Link className="variant-card" href={`/de/produkte/${variant.product_id}/`} key={variant.product_id}>{content}</Link>
+                );
+              })}
+            </div>
+          </section>
+        )}
 
         <section className="editorial-fit page-shell">
           <div className="fit-column fit-positive">

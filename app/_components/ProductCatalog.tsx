@@ -39,7 +39,13 @@ export function ProductCatalog({ products }: { products: Product[] }) {
 
     return products
       .filter((product) => {
-        const matchesQuery = !normalizedQuery || [product.brand, product.model, product.sauna.type]
+        const matchesQuery = !normalizedQuery || [
+          product.brand,
+          product.model,
+          product.sauna.type,
+          product.family?.name ?? "",
+          product.family?.variant ?? "",
+        ]
           .some((value) => value.toLocaleLowerCase("de-DE").includes(normalizedQuery));
         const matchesCategory = category === "all"
           || (category === "infrared" ? product.category === "infrared" : product.category !== "infrared");
@@ -60,6 +66,12 @@ export function ProductCatalog({ products }: { products: Product[] }) {
         return `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`, "de");
       });
   }, [capacity, category, products, query, sort]);
+
+  const familyCounts = useMemo(() => products.reduce((counts, product) => {
+    if (!product.family) return counts;
+    counts.set(product.family.id, (counts.get(product.family.id) ?? 0) + 1);
+    return counts;
+  }, new Map<string, number>()), [products]);
 
   const saunaProducts = visibleProducts.filter((product) => product.category !== "infrared");
   const infraredProducts = visibleProducts.filter((product) => product.category === "infrared");
@@ -132,8 +144,8 @@ export function ProductCatalog({ products }: { products: Product[] }) {
 
       {visibleProducts.length > 0 ? (
         <>
-          <ProductGroup id="sauna-bio" title="Sauna & Bio" products={saunaProducts} offset={0} />
-          <ProductGroup id="infrarotkabinen" title="Infrarotkabinen" products={infraredProducts} offset={saunaProducts.length} />
+          <ProductGroup id="sauna-bio" title="Sauna & Bio" products={saunaProducts} offset={0} familyCounts={familyCounts} />
+          <ProductGroup id="infrarotkabinen" title="Infrarotkabinen" products={infraredProducts} offset={saunaProducts.length} familyCounts={familyCounts} />
         </>
       ) : (
         <div className="catalog-empty">
@@ -146,7 +158,13 @@ export function ProductCatalog({ products }: { products: Product[] }) {
   );
 }
 
-function ProductGroup({ id, title, products, offset }: { id: string; title: string; products: Product[]; offset: number }) {
+function ProductGroup({ id, title, products, offset, familyCounts }: {
+  id: string;
+  title: string;
+  products: Product[];
+  offset: number;
+  familyCounts: Map<string, number>;
+}) {
   if (products.length === 0) return null;
 
   return (
@@ -161,6 +179,11 @@ function ProductGroup({ id, title, products, offset }: { id: string; title: stri
           <div>
             <p className="type-label">{product.brand} · {product.sauna.type}</p>
             <h3>{product.model}</h3>
+            {product.family && (
+              <p className="catalog-family-note">
+                Produktreihe {product.family.name} · Ausführung {product.family.variant} · {familyCounts.get(product.family.id)} Varianten
+              </p>
+            )}
             <p>{product.editorial.disclosure}</p>
           </div>
           <dl>

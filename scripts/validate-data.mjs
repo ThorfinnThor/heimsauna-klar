@@ -58,8 +58,8 @@ for (const item of archetypes) {
 
 const productIds = new Set();
 for (const product of products) {
-  const required = ["product_id", "brand", "model", "category", "status", "dimensions_cm", "people", "power", "sauna", "commercial", "editorial", "sources", "updated_at"];
-  const missing = required.filter((key) => product[key] === undefined || product[key] === null);
+  const required = ["product_id", "brand", "model", "family", "category", "status", "dimensions_cm", "people", "power", "sauna", "commercial", "editorial", "sources", "updated_at"];
+  const missing = required.filter((key) => product[key] === undefined);
   if (missing.length) throw new Error(`${product.product_id ?? "<unknown>"} is missing: ${missing.join(", ")}`);
   if (productIds.has(product.product_id)) throw new Error(`Duplicate product_id: ${product.product_id}`);
   if (!["draft", "verified", "archived"].includes(product.status)) {
@@ -67,6 +67,16 @@ for (const product of products) {
   }
   if (!["indoor", "outdoor", "infrared", "portable", "tent"].includes(product.category)) {
     throw new Error(`${product.product_id} has an unsupported category`);
+  }
+  if (product.family !== null) {
+    for (const key of ["id", "name", "variant"]) {
+      if (typeof product.family[key] !== "string" || product.family[key].trim() === "") {
+        throw new Error(`${product.product_id} has an invalid family ${key}`);
+      }
+    }
+    if (!/^[a-z0-9-]+$/.test(product.family.id)) {
+      throw new Error(`${product.product_id} has an invalid family id`);
+    }
   }
   for (const dimension of ["width", "depth", "height"]) {
     if (!(product.dimensions_cm[dimension] > 0)) throw new Error(`${product.product_id} has an invalid ${dimension}`);
@@ -131,6 +141,28 @@ for (const product of products) {
   productIds.add(product.product_id);
 }
 
+const families = new Map();
+for (const product of products.filter((item) => item.family !== null)) {
+  const familyProducts = families.get(product.family.id) ?? [];
+  familyProducts.push(product);
+  families.set(product.family.id, familyProducts);
+}
+for (const [familyId, familyProducts] of families) {
+  if (familyProducts.length < 2) throw new Error(`${familyId} must contain at least two products`);
+  if (new Set(familyProducts.map((product) => product.family.name)).size !== 1) {
+    throw new Error(`${familyId} has inconsistent family names`);
+  }
+  if (new Set(familyProducts.map((product) => product.brand)).size !== 1) {
+    throw new Error(`${familyId} cannot span multiple brands`);
+  }
+  if (new Set(familyProducts.map((product) => product.category)).size !== 1) {
+    throw new Error(`${familyId} cannot span multiple categories`);
+  }
+  if (new Set(familyProducts.map((product) => product.family.variant)).size !== familyProducts.length) {
+    throw new Error(`${familyId} has duplicate variant labels`);
+  }
+}
+
 const publishedSourceUrls = new Set(products.flatMap((product) => product.sources.map((source) => source.url)));
 for (const source of sourceQueue) {
   if (source.status === "verified" && !publishedSourceUrls.has(source.url)) {
@@ -146,4 +178,4 @@ for (const source of voltageGuide.sources) {
 }
 assertIsoDate(voltageGuide.updated_at, "230-V guide updated_at");
 
-console.log(`Data check passed: ${products.length} products, ${archetypes.length} sauna types, 1 sourced guide, ${sourceQueue.length} queued sources.`);
+console.log(`Data check passed: ${products.length} products in ${families.size} families, ${archetypes.length} sauna types, 1 sourced guide, ${sourceQueue.length} queued sources.`);
