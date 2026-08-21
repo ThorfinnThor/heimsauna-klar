@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 
 const products = JSON.parse(await readFile(new URL("../data/products.json", import.meta.url), "utf8"));
 const archetypes = JSON.parse(await readFile(new URL("../data/sauna-archetypes.json", import.meta.url), "utf8"));
+const collections = JSON.parse(await readFile(new URL("../content/de/collections.json", import.meta.url), "utf8"));
 const voltageGuide = JSON.parse(await readFile(new URL("../content/de/guides/230-v-sauna.json", import.meta.url), "utf8"));
 const legal = JSON.parse(await readFile(new URL("../content/de/legal.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
@@ -26,6 +27,35 @@ if (!Array.isArray(archetypes) || archetypes.length === 0) {
   throw new Error("data/sauna-archetypes.json must contain at least one entry");
 }
 if (!Array.isArray(sourceQueue) || sourceQueue.length === 0) throw new Error("data/source-queue.json must contain queued sources");
+
+if (!Array.isArray(collections) || collections.length === 0) throw new Error("content/de/collections.json must contain collections");
+const collectionRoutes = new Set();
+const collectionMatchers = {
+  mini_indoor: (product) => ["indoor", "infrared"].includes(product.category) && product.dimensions_cm.width * product.dimensions_cm.depth <= 30_000,
+  one_person_indoor: (product) => ["indoor", "infrared"].includes(product.category) && product.people.max === 1,
+  small_garden: (product) => product.category === "outdoor" && product.dimensions_cm.width * product.dimensions_cm.depth <= 50_000,
+  price_under_2500: (product) => product.commercial.offers.some((offer) => offer.price <= 2_500),
+};
+for (const collection of collections) {
+  for (const key of ["id", "section", "slug", "kind", "eyebrow", "title", "accent", "description", "intro", "rule", "sort"]) {
+    if (typeof collection[key] !== "string" || collection[key].trim() === "") throw new Error(`Collection is missing ${key}`);
+  }
+  if (!["indoor-sauna", "outdoor-sauna", "vergleiche"].includes(collection.section)) {
+    throw new Error(`Unsupported collection section: ${collection.id}`);
+  }
+  if (!["mini_indoor", "one_person_indoor", "small_garden", "price_under_2500"].includes(collection.rule)) {
+    throw new Error(`Unsupported collection rule: ${collection.id}`);
+  }
+  if (!["footprint", "price"].includes(collection.sort)) throw new Error(`Unsupported collection sort: ${collection.id}`);
+  if (!Array.isArray(collection.criteria) || collection.criteria.length < 3) throw new Error(`${collection.id} needs at least three criteria`);
+  if (!Array.isArray(collection.checks) || collection.checks.length < 3) throw new Error(`${collection.id} needs at least three checks`);
+  const route = `${collection.section}/${collection.slug}`;
+  if (collectionRoutes.has(route)) throw new Error(`Duplicate collection route: ${route}`);
+  collectionRoutes.add(route);
+  if (!products.some((product) => product.status === "verified" && collectionMatchers[collection.rule](product))) {
+    throw new Error(`${collection.id} has no matching verified products`);
+  }
+}
 
 const queueIds = new Set();
 for (const source of sourceQueue) {
@@ -213,4 +243,4 @@ if (affiliateOfferCount > 0 && legal.affiliate?.intro?.includes("nicht affiliier
   throw new Error("Affiliate offers are enabled, but the legal disclosure still says that all links are non-affiliate");
 }
 
-console.log(`Data check passed: ${products.length} products in ${families.size} families, ${archetypes.length} sauna types, 1 sourced guide, ${sourceQueue.length} queued sources.`);
+console.log(`Data check passed: ${products.length} products in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, 1 sourced guide, ${sourceQueue.length} queued sources.`);

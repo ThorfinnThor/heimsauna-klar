@@ -1,0 +1,94 @@
+[
+  {
+    "id": "mini-sauna",
+    "section": "indoor-sauna",
+    "slug": "mini-sauna",
+    "kind": "Kategorie",
+    "eyebrow": "Kleine Räume · datenbasierte Vorauswahl",
+    "title": "Mini-Sauna für kleine Räume",
+    "accent": "bis 3 m² Stellfläche.",
+    "description": "Verifizierte Mini-Saunen und kompakte Infrarotkabinen bis drei Quadratmeter Stellfläche – mit Maßen, Anschluss und Preisstand.",
+    "intro": "Hier erscheinen Innenkabinen mit höchstens 3,0 m² rechnerischer Stellfläche. Die Liste ist nach Stellfläche sortiert und keine Qualitätsrangliste.",
+    "rule": "mini_indoor",
+    "sort": "footprint",
+    "criteria": [
+      "Innenaufstellung oder Infrarotkabine",
+      "Breite × Tiefe höchstens 3,0 m²",
+      "Verifizierter Datensatz mit Herstellerquelle"
+    ],
+    "checks": [
+      "Außenmaß ist nicht gleich benötigte Raumfläche: Montage- und Wandabstände zusätzlich prüfen.",
+      "Türöffnung, Raumhöhe und Transportweg vor dem Kauf ausmessen.",
+      "Der angegebene Stromanschluss muss zur örtlichen Installation und Herstelleranleitung passen."
+    ]
+  },
+  {
+    "id": "1-person-sauna",
+    "section": "indoor-sauna",
+    "slug": "1-person-sauna",
+    "kind": "Kategorie",
+    "eyebrow": "Kompakte Einzelkabinen · Datenvergleich",
+    "title": "1-Person-Sauna und Infrarotkabine",
+    "accent": "für eine Person.",
+    "description": "Verifizierte Saunen und Infrarotkabinen, deren Herstellerkapazität auf eine Person begrenzt ist.",
+    "intro": "Aufgenommen werden Innenmodelle, deren veröffentlichte Maximalkapazität eine Person beträgt. Sortiert wird nach Stellfläche, nicht nach vermeintlicher Qualität.",
+    "rule": "one_person_indoor",
+    "sort": "footprint",
+    "criteria": [
+      "Vom Hersteller für maximal eine Person ausgewiesen",
+      "Für Innenräume vorgesehen",
+      "Maße und Preisstatus mit Quelle dokumentiert"
+    ],
+    "checks": [
+      "Sitzmaß und Innenraum lassen sich aus dem Außenmaß allein nicht sicher ableiten.",
+      "Infrarotkabine und finnische Sauna erzeugen unterschiedliche Wärmeprofile.",
+      "Auch kompakte Modelle benötigen passende Belüftung und einen freigegebenen Anschluss."
+    ]
+  },
+  {
+    "id": "kleine-gartensauna",
+    "section": "outdoor-sauna",
+    "slug": "kleine-gartensauna",
+    "kind": "Kategorie",
+    "eyebrow": "Kleiner Garten · nachvollziehbare Auswahl",
+    "title": "Kleine Gartensauna im Größenvergleich",
+    "accent": "bis 5 m² Stellfläche.",
+    "description": "Verifizierte Outdoor-Saunen bis fünf Quadratmeter rechnerischer Stellfläche im Vergleich nach Maß, Kapazität und Preis.",
+    "intro": "Diese Vorauswahl enthält Outdoor-Modelle mit höchstens 5,0 m² rechnerischer Stellfläche. Fundament, Dachüberstand und vorgeschriebene Abstände sind darin noch nicht enthalten.",
+    "rule": "small_garden",
+    "sort": "footprint",
+    "criteria": [
+      "Vom Hersteller für außen vorgesehen",
+      "Breite × Tiefe höchstens 5,0 m²",
+      "Verifizierter Datensatz mit nachvollziehbarer Quelle"
+    ],
+    "checks": [
+      "Benötigte Gesamtfläche kann durch Dachüberstand, Fundament und Abstände größer ausfallen.",
+      "Örtliche Bauvorgaben und Grundstücksabstände vor Bestellung klären.",
+      "Ofen, Zuleitung, Wetterschutz und Entwässerung gehören in die Gesamtplanung."
+    ]
+  },
+  {
+    "id": "sauna-bis-2500-euro",
+    "section": "vergleiche",
+    "slug": "sauna-bis-2500-euro",
+    "kind": "Preisvergleich",
+    "eyebrow": "Budgetrahmen · aktueller Angebotsstand",
+    "title": "Sauna bis 2.500 Euro",
+    "accent": "ohne versteckte Rangliste.",
+    "description": "Verifizierte Sauna-Angebote bis 2.500 Euro – transparent nach Preis sortiert und mit Prüfdatum, Maßen und Anschlussdaten.",
+    "intro": "Die Grenze bezieht sich auf den zuletzt dokumentierten Produktpreis. Aufbau, Lieferung, Elektroarbeiten, Fundament und Zubehör können zusätzliche Kosten verursachen.",
+    "rule": "price_under_2500",
+    "sort": "price",
+    "criteria": [
+      "Dokumentiertes Angebot von höchstens 2.500 Euro",
+      "Preis mit Prüfdatum und passender Quelle",
+      "Keine Sortierung nach Provision oder redaktionellem Score"
+    ],
+    "checks": [
+      "Lieferung, Montage, Anschluss und notwendiges Zubehör separat kalkulieren.",
+      "Ein niedriger Produktpreis sagt nichts über Verarbeitung oder reale Betriebskosten aus.",
+      "Preise sind Momentaufnahmen und werden beim Anbieter vor dem Kauf erneut geprüft."
+    ]
+  }
+]

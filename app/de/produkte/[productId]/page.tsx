@@ -40,7 +40,7 @@ export default async function ProductPage({ params }: Props) {
       <article>
         <header className="product-hero page-shell">
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
-            <a href="/de/">Start</a><span>/</span><Link href="/de/produkte/">Produkte</Link><span>/</span><span>{product.model}</span>
+            <Link href="/de/">Start</Link><span>/</span><Link href="/de/produkte/">Produkte</Link><span>/</span><span>{product.model}</span>
           </nav>
           <div className="product-title-grid">
             <div>

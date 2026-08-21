@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import legal from "@/content/de/legal.json";
 
@@ -14,7 +15,7 @@ export default function LegalPage() {
     <main>
       <SiteHeader />
       <article className="legal-page page-shell">
-        <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><a href="/de/">Start</a><span>/</span><span>Rechtliches</span></nav>
+        <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Rechtliches</span></nav>
         <p className="eyebrow">Vor Veröffentlichung ausfüllen</p>
         <h1>Rechtliches,<span>ohne Platzhalter zu verstecken.</span></h1>
         <p className="legal-intro">{legal.notice}</p>

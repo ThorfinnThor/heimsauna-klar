@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import guide from "@/content/de/guides/230-v-sauna.json";
 import { formatGermanDate, products } from "@/lib/products";
@@ -18,7 +19,7 @@ export default function GuidePage() {
       <article>
         <header className="guide-hero page-shell">
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
-            <a href="/de/">Start</a><span>/</span><span>Saunatechnik</span><span>/</span><span>230-V-Sauna</span>
+            <Link href="/de/">Start</Link><span>/</span><span>Saunatechnik</span><span>/</span><span>230-V-Sauna</span>
           </nav>
           <p className="eyebrow">Saunatechnik · aktualisiert {formatGermanDate(guide.updated_at)}</p>
           <h1>230 V ist ein Anschluss.<span>Noch keine Kaufentscheidung.</span></h1>
@@ -65,11 +66,11 @@ export default function GuidePage() {
           </div>
           <div className="matching-product-links">
             {matchingProducts.map((product) => (
-              <a href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
+              <Link href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
                 <small>{product.brand} · {product.sauna.type}</small>
                 <strong>{product.model}</strong>
                 <span>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm ↗</span>
-              </a>
+              </Link>
             ))}
           </div>
         </section>

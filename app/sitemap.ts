@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { collections } from "@/lib/collections";
 import { products } from "@/lib/products";
 import { isIndexingEnabled, siteUrl } from "@/lib/site";
 
@@ -13,6 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/de/produkte/`, lastModified: updated, changeFrequency: "weekly", priority: 0.8 },
     { url: `${siteUrl}/de/saunatechnik/230-v-sauna/`, lastModified: updated, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/de/vergleiche/230-v-sauna/`, lastModified: updated, changeFrequency: "weekly", priority: 0.8 },
+    ...collections.map((collection) => ({
+      url: `${siteUrl}/de/${collection.section}/${collection.slug}/`,
+      lastModified: updated,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
     ...products.map((product) => ({
       url: `${siteUrl}/de/produkte/${product.product_id}/`,
       lastModified: new Date(`${product.updated_at}T00:00:00Z`),

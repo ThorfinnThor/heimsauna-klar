@@ -646,6 +646,55 @@ footer {
 .comparison-method li { padding: 15px 0 15px 25px; position: relative; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 13px; line-height: 1.55; }
 .comparison-method li::before { content: "→"; position: absolute; left: 0; color: var(--clay); }
 
+.collection-index { padding-block: 86px; border-top: 1px solid var(--line); }
+.collection-index-head, .collection-results-head { margin-bottom: 42px; display: grid; grid-template-columns: 1fr 1fr; gap: 8vw; align-items: end; }
+.collection-index-head h2, .collection-results-head h2, .collection-method h2, .collection-checks h2, .collection-related h2 { margin: 0; font-size: clamp(42px, 4.6vw, 68px); line-height: .98; }
+.collection-index-head > p, .collection-results-head > p { margin: 0; color: var(--ink-soft); font-size: 13px; line-height: 1.65; }
+.collection-index-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.collection-index-grid a { min-height: 190px; padding: 26px; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background 160ms ease; }
+.collection-index-grid a:hover, .collection-related-grid a:hover { background: var(--cream); }
+.collection-index-grid small, .collection-related-grid small { color: var(--clay-dark); font-size: 9px; font-weight: 750; letter-spacing: .09em; text-transform: uppercase; }
+.collection-index-grid strong, .collection-related-grid strong { margin: 28px 0; font-family: Georgia, serif; font-size: 26px; font-weight: 400; }
+.collection-index-grid span, .collection-related-grid span { margin-top: auto; color: var(--ink-soft); font-size: 10px; }
+
+.collection-hero { padding-block: 36px 90px; }
+.collection-hero h1 { max-width: 1050px; margin-bottom: 28px; font-size: clamp(58px, 7.5vw, 112px); }
+.collection-hero h1 span { display: block; color: var(--clay); font-style: italic; }
+.collection-hero > p:not(.eyebrow) { max-width: 780px; margin: 0; color: var(--ink-soft); font-size: 17px; line-height: 1.65; }
+.collection-metrics { margin-top: 62px; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.collection-metrics span { padding: 22px 0; color: var(--ink-soft); font-size: 10px; }
+.collection-metrics span + span { padding-left: 22px; border-left: 1px solid var(--line); }
+.collection-metrics strong { display: block; margin-bottom: 5px; color: var(--ink); font-family: Georgia, serif; font-size: 23px; font-weight: 400; }
+
+.collection-method, .collection-checks, .collection-related { padding-block: 95px; display: grid; grid-template-columns: .8fr 1.2fr; gap: 9vw; border-top: 1px solid var(--line); }
+.collection-method ul { margin: 0 0 28px; padding: 0; list-style: none; }
+.collection-method li { padding: 15px 0 15px 25px; position: relative; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 13px; line-height: 1.55; }
+.collection-method li:last-child { border-bottom: 1px solid var(--line); }
+.collection-method li::before { content: "→"; position: absolute; left: 0; color: var(--clay); }
+.collection-method > div:last-child > p { margin: 0; color: var(--ink-soft); font-size: 11px; line-height: 1.65; }
+
+.collection-results { padding-block: 95px; border-top: 1px solid var(--line); }
+.collection-table-wrap { overflow-x: auto; border: 1px solid var(--line); }
+.collection-table { width: 100%; min-width: 1050px; border-collapse: collapse; }
+.collection-table th { padding: 15px; background: var(--ink); color: rgba(255,255,255,.76); font-size: 9px; font-weight: 750; letter-spacing: .09em; text-align: left; text-transform: uppercase; }
+.collection-table td { padding: 18px 15px; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 10px; vertical-align: middle; }
+.collection-table th + th, .collection-table td + td { border-left: 1px solid var(--line); }
+.collection-table tbody tr:hover { background: var(--cream); }
+.collection-table td:first-child { width: 29%; }
+.collection-table td small, .collection-table td a { display: block; }
+.collection-table td small { margin-bottom: 7px; color: var(--clay-dark); font-size: 8px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
+.collection-table td a { color: var(--ink); font-family: Georgia, serif; font-size: 18px; line-height: 1.2; }
+
+.collection-checks ol { margin: 0; padding: 0; list-style: none; }
+.collection-checks li { padding: 22px 0; display: grid; grid-template-columns: 50px 1fr; border-top: 1px solid var(--line); }
+.collection-checks li:last-child { border-bottom: 1px solid var(--line); }
+.collection-checks li span { color: var(--clay); font-size: 10px; font-weight: 750; }
+.collection-checks li p { margin: 0; color: var(--ink-soft); font-size: 13px; line-height: 1.6; }
+.collection-related { background: var(--cream); }
+.collection-related-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.collection-related-grid a { min-height: 210px; padding: 22px; display: flex; flex-direction: column; background: var(--paper); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.collection-related-grid strong { font-size: 21px; }
+
 .legal-page { padding-block: 36px 110px; }
 .legal-page h1 { max-width: 930px; margin-bottom: 25px; font-size: clamp(58px, 7.5vw, 112px); }
 .legal-page h1 span { display: block; color: var(--clay); font-style: italic; }
@@ -677,7 +726,8 @@ footer {
   .product-price-card { max-width: 430px; }
   .spec-section, .source-section, .guide-checks, .matching-products, .guide-sources { grid-template-columns: 1fr; gap: 45px; }
   .guide-sources .safety-box { grid-column: 1; }
-  .comparison-data-head, .comparison-method { grid-template-columns: 1fr; gap: 35px; }
+  .comparison-data-head, .comparison-method, .collection-index-head, .collection-results-head, .collection-method, .collection-checks, .collection-related { grid-template-columns: 1fr; gap: 35px; }
+  .collection-related-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 650px) {
@@ -706,6 +756,8 @@ footer {
   .product-preview-grid { grid-template-columns: 1fr; }
   .catalog-metrics { grid-template-columns: 1fr; }
   .catalog-metrics span + span { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
+  .collection-index-grid, .collection-metrics { grid-template-columns: 1fr; }
+  .collection-metrics span + span { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
   .catalog-controls { padding: 18px; grid-template-columns: 1fr; }
   .catalog-group { margin-bottom: 54px; }
   .catalog-group-head { align-items: flex-start; flex-direction: column; gap: 6px; }

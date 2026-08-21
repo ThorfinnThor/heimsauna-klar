@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { formatGermanDate, formatPrice, getLatestOfferCheck, products } from "@/lib/products";
 
@@ -18,7 +19,7 @@ export default function ComparisonPage() {
       <article>
         <header className="comparison-hero page-shell">
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
-            <a href="/de/">Start</a><span>/</span><span>Vergleiche</span><span>/</span><span>230-V-Sauna</span>
+            <Link href="/de/">Start</Link><span>/</span><span>Vergleiche</span><span>/</span><span>230-V-Sauna</span>
           </nav>
           <p className="eyebrow">Datenvergleich · Stand {latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</p>
           <h1>230 V vergleichen,<span>ohne Äpfel mit Saunen zu mischen.</span></h1>
@@ -35,13 +36,13 @@ export default function ComparisonPage() {
               <span>Produkt</span><span>Außenmaß B × T × H</span><span>Kapazität</span><span>Leistung</span><span>Preis</span>
             </div>
             {candidates.map((product) => (
-              <a className="product-comparison-row" href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
+              <Link className="product-comparison-row" href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
                 <span><small>{product.brand} · {product.sauna.type}</small><strong>{product.model}</strong></span>
                 <span>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</span>
                 <span>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</span>
                 <span>{product.power.kw ? `${product.power.kw} kW` : "nicht ausgewiesen"}</span>
                 <span>{formatPrice(product)} ↗</span>
-              </a>
+              </Link>
             ))}
           </div>
         </section>
