@@ -205,5 +205,50 @@
     "target_voltage": 230,
     "status": "verified",
     "notes": "Verified Finnish wood-door variant without roof ring; exact dimensions and 230-V data are explicit."
+  },
+  {
+    "queue_id": "weka-laadi-19101020000",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-1-130x105-naturbelassen/191.0102.00.00",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified outdoor model with overall dimensions, one liege, current base price and optional oven configuration from the official product page."
+  },
+  {
+    "queue_id": "weka-laadi-19101040000",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-3-130x240-naturbelassen/191.0104.00.00",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified outdoor model with two lieges, overall dimensions, current base price and optional oven configuration from the official product page."
+  },
+  {
+    "queue_id": "weka-schneeflocke-ws533202000001",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-schneeflocke-1-saunaofen-klassik-9-0-naturbelassen/ws533202000001",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified outdoor set with two lieges, included 9-kW electric oven and current manufacturer price; voltage is explicitly left unassigned where the page does not state it."
+  },
+  {
+    "queue_id": "weka-kuopio-533252560100",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-kuopio-wekaline-238x238-naturbelassen/533.2525.60100",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified outdoor model with three lieges, overall dimensions and current base price; oven and voltage remain configurable or unspecified."
+  },
+  {
+    "queue_id": "harvia-domo-large",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/DOMO-L/domo-large",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified Harvia indoor set with exact dimensions, 1–5-person capacity, two lieges and current direct-shop price; electrical connection must be checked before publication."
   }
 ]

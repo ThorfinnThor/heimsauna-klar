@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
-import { formatGermanDate, formatPrice, getProduct, getProductFamily, products } from "@/lib/products";
+import { formatGermanDate, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
 
 type Props = { params: Promise<{ productId: string }> };
 
@@ -51,9 +51,18 @@ export default async function ProductPage({ params }: Props) {
             <div className="product-price-card">
               <small>Preis beim Hersteller</small>
               <strong>{formatPrice(product)}</strong>
-              <span>Stand {formatGermanDate(offer.last_checked)}</span>
-              <a href={offer.url} rel="nofollow noreferrer" target="_blank">Herstellerseite öffnen ↗</a>
-              <em>Kein Affiliate-Link</em>
+              {offer ? (
+                <>
+                  <span>Stand {formatGermanDate(offer.last_checked)}</span>
+                  <a href={offer.url} rel="nofollow noreferrer" target="_blank">Herstellerseite öffnen ↗</a>
+                  <em>Kein Affiliate-Link</em>
+                </>
+              ) : (
+                <>
+                  <span>Aktueller Preis auf der geprüften Produktseite nicht ausgewiesen.</span>
+                  <em>Kein Affiliate-Link</em>
+                </>
+              )}
             </div>
           </div>
         </header>
@@ -63,7 +72,7 @@ export default async function ProductPage({ params }: Props) {
           <dl className="spec-grid">
             <div><dt>Außenmaß</dt><dd>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</dd></div>
             <div><dt>Kapazität</dt><dd>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</dd></div>
-            <div><dt>Spannung</dt><dd>{product.power.voltage} V</dd></div>
+            <div><dt>Spannung</dt><dd>{formatVoltage(product.power.voltage)}</dd></div>
             <div><dt>Leistung</dt><dd>{product.power.kw ? `${product.power.kw} kW` : "nicht ausgewiesen"}</dd></div>
             <div><dt>Wärmeart</dt><dd>{product.sauna.heater_type}</dd></div>
             <div><dt>Holz</dt><dd>{product.sauna.wood_type}</dd></div>

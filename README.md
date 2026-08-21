@@ -25,7 +25,7 @@ npm run build
 
 - `content/de/home.json`: German homepage copy
 - `data/sauna-archetypes.json`: type-level finder data
-- `data/products.json`: 23 verified manufacturer-sourced product records
+- `data/products.json`: 29 verified manufacturer-sourced product records
 - `data/schema/product.schema.json`: product contract
 
 Products must not be published as verified without an official manufacturer or manual source. The validator also rejects duplicate IDs, missing core fields, invalid or future check dates, duplicate offers/sources, and verified queue entries that have no published product record.

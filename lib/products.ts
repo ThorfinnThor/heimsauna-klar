@@ -77,6 +77,12 @@ export function formatPrice(product: Product) {
   return product.commercial.price_status === "from" ? `ab ${value}` : value;
 }
 
+export function formatVoltage(voltage: Product["power"]["voltage"]) {
+  if (typeof voltage === "number") return `${voltage} V`;
+  if (voltage === "wood") return "Holz";
+  return "nicht ausgewiesen";
+}
+
 export function formatGermanDate(value: string) {
   return new Intl.DateTimeFormat("de-DE", {
     day: "2-digit",
