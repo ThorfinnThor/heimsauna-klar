@@ -126,5 +126,133 @@
       {"title": "Harvia · offizieller deutscher Produktshop", "url": "https://shop.harvia.com/de-de/collection/alle-produkte", "checked_at": "2026-08-21"},
       {"title": "Karibu · Planung und Lieferumfang einer Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"}
     ]
+  },
+  {
+    "slug": "230-v-vs-400-v-sauna",
+    "eyebrow": "Planung · Anschluss und Leistung",
+    "title": "230 V oder 400 V für die Sauna?",
+    "accent": "Die Spannung ist nur ein Teil des Systems.",
+    "description": "230-V- und 400-V-Sauna sachlich vergleichen: Anschluss, Ofenleistung, Kabinenvolumen und die Rolle des Elektrofachbetriebs.",
+    "updated_at": "2026-08-21",
+    "summary": "230 V kann bei kompakten Systemen den Einstieg vereinfachen. Ob ein Modell passt, entscheidet aber die konkrete Ofenleistung, Absicherung, Kabinengröße und Herstelleranleitung – nicht die Zahl auf dem Etikett allein.",
+    "sections": [
+      {
+        "title": "Spannung und Leistung auseinanderhalten",
+        "copy": "230 V und 400 V beschreiben die Versorgung. Die Heizleistung wird in kW angegeben und muss zum Volumen sowie zum Aufbau der Kabine passen. Deshalb sind Spannung, Leistung und Modellzulassung gemeinsam zu prüfen.",
+        "points": ["Versorgungsspannung des konkreten Modells notieren", "Ofenleistung und zulässiges Kabinenvolumen vergleichen", "Nicht von einer Steckdose auf die Eignung schließen"]
+      },
+      {
+        "title": "Kompakt ist nicht automatisch unkompliziert",
+        "copy": "Auch ein 230-V-System braucht einen passenden Stromkreis und die Vorgaben des Herstellers. Bei 400-V-Systemen kommen in der Regel Anschluss- und Absicherungsfragen hinzu, die vor dem Kauf mit einem Elektrofachbetrieb geklärt werden sollten.",
+        "points": ["Stromkreis und Absicherung vorab prüfen lassen", "Anschlussart aus der Montageanleitung übernehmen", "Elektroarbeiten nicht selbst improvisieren"]
+      },
+      {
+        "title": "Die Kaufentscheidung am Raum ausrichten",
+        "copy": "Erst Raumvolumen, Nutzung und Montagebedingungen festlegen, dann die passende Versorgung auswählen. Die Herstellerunterlagen des gewählten Ofens sind für Anschluss, Fühler, Abstände und Lüftung maßgeblich.",
+        "points": ["Innenvolumen und Glasflächen erfassen", "Herstellerrechner oder Leistungstabelle verwenden", "Vor Bestellung Anschluss durch Fachbetrieb bestätigen"]
+      }
+    ],
+    "checklist": ["Spannung und kW des konkreten Modells dokumentieren", "Kabinenvolumen berechnen", "Stromkreis und Absicherung fachlich prüfen lassen", "Montage- und Lüftungsvorgaben lesen", "Anschluss erst nach Freigabe des Elektrofachbetriebs beauftragen"],
+    "sources": [
+      {"title": "Heimsauna Klar · 230-V-Sauna verständlich erklärt", "url": "https://heimsauna-klar.vercel.app/de/saunatechnik/230-v-sauna/", "checked_at": "2026-08-21"},
+      {"title": "Harvia · Ofenanleitung mit technischen Anschlussdaten", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306", "checked_at": "2026-08-21"},
+      {"title": "Harvia · Sauna volume calculator", "url": "https://www.harvia.com/en-US/sauna/saunas/sauna-calculator/", "checked_at": "2026-08-21"}
+    ]
+  },
+  {
+    "slug": "sauna-fuer-die-wohnung",
+    "eyebrow": "Planung · Wohnung und Innenraum",
+    "title": "Sauna für die Wohnung planen",
+    "accent": "Transport, Luft und Anschluss zuerst.",
+    "description": "Wohnungssauna realistisch vorbereiten: Raummaß, Transportweg, Boden, Lüftung, Anschluss und Abstimmung mit Vermieter oder Eigentümergemeinschaft.",
+    "updated_at": "2026-08-21",
+    "summary": "In einer Wohnung zählen neben dem Kabinenmaß vor allem Transportweg, Bodenlast, Türbereich, Luftführung und der vorhandene Anschluss. Bauliche oder elektrische Änderungen sollten vor der Bestellung abgestimmt werden.",
+    "sections": [
+      {
+        "title": "Der Raum muss mehr können als die Kabine",
+        "copy": "Miss die lichte Fläche, Deckenhöhe und den Türschwenkbereich. Addiere die Abstände aus der Modellanleitung und halte Zugang zu Lüftungsöffnungen sowie Steuerung frei.",
+        "points": ["Raum an mehreren Stellen messen", "Wand- und Deckenabstände aus der Anleitung übernehmen", "Tür, Wartung und Fluchtweg freihalten"]
+      },
+      {
+        "title": "Transport bis zum Aufstellort prüfen",
+        "copy": "Eine Kabine kann in Einzelteilen geliefert werden. Treppenhaus, Aufzug, Wohnungstür und enge Kurven gehören deshalb in die Planung. Frage den Anbieter nach Paketmaßen und Lieferbedingungen.",
+        "points": ["Paketmaße und Einzelgewichte anfordern", "Treppen, Aufzug und Türbreiten messen", "Lieferung und Entladung schriftlich klären"]
+      },
+      {
+        "title": "Feuchtigkeit und Strom gemeinsam planen",
+        "copy": "Die Lüftung muss einen zusammenhängenden Luftweg und die Trocknung ermöglichen. Anschluss und Absicherung richten sich nach dem konkreten Ofen; Arbeiten am festen Stromnetz gehören in die Hände eines Elektrofachbetriebs.",
+        "points": ["Zuluft, Abluft und Nachlüftung skizzieren", "Boden und angrenzende Bauteile auf Feuchte prüfen", "Anschluss vor Bestellung fachlich bestätigen"]
+      }
+    ],
+    "checklist": ["Kabinenmaß und erforderliche Abstände erfassen", "Transportweg bis zur Wohnung prüfen", "Boden und Feuchtesituation bewerten", "Lüftungs- und Trocknungsweg festlegen", "Vermieter oder Eigentümergemeinschaft bei baulichen Änderungen einbeziehen", "Elektroanschluss durch Fachbetrieb klären"],
+    "sources": [
+      {"title": "Karibu · Planung der eigenen Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"},
+      {"title": "Harvia · Ofenanleitung mit Saunaraum-Lüftung", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306", "checked_at": "2026-08-21"},
+      {"title": "Heimsauna Klar · Platzbedarf planen", "url": "https://heimsauna-klar.vercel.app/de/planung/platzbedarf/", "checked_at": "2026-08-21"}
+    ]
+  },
+  {
+    "slug": "sauna-im-keller",
+    "eyebrow": "Planung · Keller und Feuchtigkeit",
+    "title": "Sauna im Keller: Was vorher geklärt werden muss",
+    "accent": "Trocknung ist Teil der Konstruktion.",
+    "description": "Kellersauna planen: Feuchte, Luftführung, Boden, Zugang, Raumhöhe und Elektroanschluss vor dem Kauf strukturiert prüfen.",
+    "updated_at": "2026-08-21",
+    "summary": "Der Keller kann ein guter Saunaraum sein, wenn Feuchte, Luftwechsel und Trocknung funktionieren. Vor dem Kauf müssen außerdem Boden, Montageweg, Raumhöhe und der Anschluss des Ofens geklärt werden.",
+    "sections": [
+      {
+        "title": "Feuchte nicht erst nach dem Aufbau messen",
+        "copy": "Prüfe Wände, Boden und angrenzende Bauteile auf Feuchte, Geruch und sichtbare Schäden. Eine Sauna darf keine bereits problematische Bausubstanz verdecken; die Ursache muss vor dem Einbau geklärt sein.",
+        "points": ["Wände und Boden auf Feuchte prüfen", "Bestehende Schäden dokumentieren", "Bausubstanz vor der Montage fachlich bewerten"]
+      },
+      {
+        "title": "Luftweg und Trocknung festlegen",
+        "copy": "Zuluft, Abluft und Nachlüftung müssen zusammen funktionieren. Herstellerangaben zu Öffnungen, Fühlerposition und Wandabständen haben Vorrang. Plane die Trocknung nach jeder Nutzung als festen Betriebsablauf.",
+        "points": ["Lüftungsart des Raums bestimmen", "Zuluft und Abluft nicht zustellen", "Nachlüftung und Trocknungszeit einplanen"]
+      },
+      {
+        "title": "Zugang und Technik früh prüfen",
+        "copy": "Kellertüren, Treppen und enge Durchgänge bestimmen, ob die Kabine als Bausatz eingebracht werden kann. Der Ofenanschluss und die Absicherung müssen mit der Anleitung und dem Elektrofachbetrieb abgestimmt werden.",
+        "points": ["Paketmaße und Treppenlauf prüfen", "Raumhöhe inklusive Montagefreiraum messen", "Elektroanschluss vor Bestellung klären"]
+      }
+    ],
+    "checklist": ["Kellerwände und Boden auf Feuchte prüfen", "Kabinen- und Paketmaße mit dem Zugang abgleichen", "Lichte Raumhöhe und Montagefreiraum messen", "Luftweg und Trocknung dokumentieren", "Herstellerabstände freihalten", "Anschluss und Absicherung fachlich bestätigen"],
+    "sources": [
+      {"title": "Harvia · Ofenanleitung mit Saunaraum-Lüftung", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306", "checked_at": "2026-08-21"},
+      {"title": "Karibu · Planung der eigenen Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"},
+      {"title": "Heimsauna Klar · Sauna-Lüftung planen", "url": "https://heimsauna-klar.vercel.app/de/planung/lueftung/", "checked_at": "2026-08-21"}
+    ]
+  },
+  {
+    "slug": "sauna-bei-niedriger-deckenhoehe",
+    "eyebrow": "Planung · Raumhöhe und Sicherheit",
+    "title": "Sauna bei niedriger Deckenhöhe",
+    "accent": "Nicht quetschen, sondern Vorgaben prüfen.",
+    "description": "Niedrige Deckenhöhe bei einer Heimsauna bewerten: Kabinenhöhe, Montagefreiraum, Ofenabstände, Luftführung und konkrete Herstellergrenzen.",
+    "updated_at": "2026-08-21",
+    "summary": "Eine niedrige Decke kann die Auswahl einschränken, weil Kabinenhöhe, Montageablauf, Ofenabstände und Luftführung zusammenpassen müssen. Entscheidend ist die Anleitung des konkreten Systems, nicht ein allgemeiner Richtwert.",
+    "sections": [
+      {
+        "title": "Fertighöhe und Montagehöhe trennen",
+        "copy": "Miss die lichte Raumhöhe und vergleiche sie mit der fertigen Kabinenhöhe plus dem in der Montageanleitung vorgesehenen Freiraum. Ein Aufbau, der nur im fertigen Zustand passt, kann während der Montage unmöglich sein.",
+        "points": ["Lichte Raumhöhe an mehreren Stellen messen", "Fertigmaß und Montagefreiraum notieren", "Deckenelemente und Verschraubung einplanen"]
+      },
+      {
+        "title": "Ofen und Bänke nicht nach Gefühl platzieren",
+        "copy": "Bei niedriger Decke müssen Ofenabstände, Fühlerposition und Sitzebenen besonders sorgfältig geprüft werden. Die Anleitung des Ofens legt die zulässige Kombination aus Ofen, Schutzabständen und Raum fest.",
+        "points": ["Ofenabstände aus der Anleitung übernehmen", "Fühlerposition und Schutzbereich markieren", "Bänke und Kopfbereich auf Nutzbarkeit prüfen"]
+      },
+      {
+        "title": "Wenn das Maß nicht reicht",
+        "copy": "Passt die Kabine nicht sicher, sind ein anderes Modell, ein anderer Raum oder eine fachlich geprüfte Sonderlösung die Optionen. Keine Bauteile kürzen oder Lüftungswege verändern, ohne dass der Hersteller dies ausdrücklich freigibt.",
+        "points": ["Niedrigere Modelle mit vollständiger Anleitung suchen", "Umbauten nur schriftlich freigeben lassen", "Alternative Aufstellorte vergleichen"]
+      }
+    ],
+    "checklist": ["Raumhöhe und Unebenheiten messen", "Kabinenhöhe und Montagefreiraum vergleichen", "Ofen- und Fühlerabstände prüfen", "Bänke und Kopfbereich bewerten", "Lüftungsöffnungen frei halten", "Sonderumbauten vorab schriftlich freigeben lassen"],
+    "sources": [
+      {"title": "Karibu · Planung der eigenen Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"},
+      {"title": "Harvia · Sauna volume calculator", "url": "https://www.harvia.com/en-US/sauna/saunas/sauna-calculator/", "checked_at": "2026-08-21"},
+      {"title": "Harvia · Installationsanleitung mit Abständen und Raummaßen", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/734", "checked_at": "2026-08-21"}
+    ]
   }
 ]
