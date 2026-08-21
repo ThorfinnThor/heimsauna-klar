@@ -52,5 +52,104 @@
     "target_voltage": 230,
     "status": "skipped",
     "notes": "Skipped: current official page exposes dimensions and infrared details, but no model-specific 230-V field was captured; do not infer voltage from a generic WEKA page."
+  },
+  {
+    "queue_id": "karibu-sandra-6711",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-sandra/6711",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified distinct roof-ring variant with exact dimensions, price, and 230-V 3.6-kW configuration on the official page."
+  },
+  {
+    "queue_id": "karibu-antonia-6723",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-antonia/6723",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified distinct roof-ring variant with exact dimensions, price, and 230-V 3.6-kW configuration on the official page."
+  },
+  {
+    "queue_id": "karibu-selena-6729",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-selena/6729",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified integrated-control variant; dimensions and 230-V 3.6-kW configuration are explicit on the official page."
+  },
+  {
+    "queue_id": "karibu-saja-85911",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-saja/85911",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified Easy-Bio graphit-glass configuration with exact dimensions, price, and plug-ready 230-V data."
+  },
+  {
+    "queue_id": "karibu-saja-85924",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-saja/85924",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified clear-glass roof-ring configuration; used the official technical table dimensions for this variant."
+  },
+  {
+    "queue_id": "karibu-fanja-85872",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-fanja/85872",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified 3-person roof-ring variant with explicit external Finnish Plug & Play 3.6-kW configuration."
+  },
+  {
+    "queue_id": "weka-mila-54313107500",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-137x99-naturbelassen/543.1310.75.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified from the model page plus WEKA's official 230-V infrared-category source."
+  },
+  {
+    "queue_id": "weka-mila-54310107500",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-108x99-naturbelassen/543.1010.75.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified from the model page plus WEKA's official 230-V infrared-category source."
+  },
+  {
+    "queue_id": "weka-tanilla-eck-54210103320",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-eck-99x99-naturbelassen/542.1010.33.20",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified from the model page plus WEKA's official 230-V infrared-category source."
+  },
+  {
+    "queue_id": "weka-tanilla-54313103320",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-137x99-naturbelassen/543.1310.33.20",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified from the model page plus WEKA's official 230-V infrared-category source."
+  },
+  {
+    "queue_id": "weka-vaala-55010101930",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-99x98-naturbelassen/550.1010.19.30",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified from the model page plus WEKA's official 230-V infrared-category source."
   }
 ]

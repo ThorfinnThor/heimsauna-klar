@@ -334,5 +334,567 @@
       }
     ],
     "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "karibu-sauna-sandra-6711",
+    "brand": "Karibu",
+    "model": "Sauna Sandra (Dachkranz)",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 173, "depth": 159, "height": 191 },
+    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Steckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Plug-&-Play-3,6-kW-Konfiguration laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [{
+        "merchant": "Karibu",
+        "price": 1599.99,
+        "availability": "manufacturer-listed",
+        "url": "https://www.karibu.de/sauna-sandra/6711",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["Zwei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "Dachkranz-Variante"],
+      "cons": ["Nur ein Liegeplatz", "Nicht spiegelbar", "Erreichbare Temperatur hängt laut Hersteller von den Bedingungen ab"],
+      "ideal_for": ["Kleine beheizte Innenräume", "Ein bis zwei Personen", "Nutzer mit Wunsch nach Dachkranz"],
+      "not_for": ["Nutzer mit Bedarf an zwei Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [{
+      "type": "manufacturer",
+      "title": "Karibu Produktseite Sauna Sandra 6711",
+      "url": "https://www.karibu.de/sauna-sandra/6711",
+      "checked_at": "2026-08-21"
+    }],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "karibu-sauna-antonia-6723",
+    "brand": "Karibu",
+    "model": "Sauna Antonia (Dachkranz)",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 173, "depth": 159, "height": 191 },
+    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Steckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Plug-&-Play-3,6-kW-Konfiguration laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [{
+        "merchant": "Karibu",
+        "price": 1649.99,
+        "availability": "manufacturer-listed",
+        "url": "https://www.karibu.de/sauna-antonia/6723",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["Zwei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "Eckeinstieg mit Dachkranz"],
+      "cons": ["Nur ein Liegeplatz", "Nicht spiegelbar", "Erreichbare Temperatur hängt laut Hersteller von den Bedingungen ab"],
+      "ideal_for": ["Kleine beheizte Innenräume", "Ein bis zwei Personen", "Eckaufstellung"],
+      "not_for": ["Nutzer mit Bedarf an zwei Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [{
+      "type": "manufacturer",
+      "title": "Karibu Produktseite Sauna Antonia 6723",
+      "url": "https://www.karibu.de/sauna-antonia/6723",
+      "checked_at": "2026-08-21"
+    }],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "karibu-sauna-selena-6729",
+    "brand": "Karibu",
+    "model": "Sauna Selena (integrierte Steuerung)",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 195, "depth": 145, "height": 187 },
+    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Steckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Plug-&-Play-3,6-kW-Konfiguration mit integrierter Steuerung laut Hersteller; Anleitung und örtliche Anschlussbedingungen prüfen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [{
+        "merchant": "Karibu",
+        "price": 1799.99,
+        "availability": "manufacturer-listed",
+        "url": "https://www.karibu.de/sauna-selena/6729",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["Zwei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "Integrierte Steuerung"],
+      "cons": ["Nur ein Liegeplatz", "Nicht spiegelbar", "Erreichbare Temperatur hängt laut Hersteller von den Bedingungen ab"],
+      "ideal_for": ["Kleine beheizte Innenräume", "Ein bis zwei Personen", "Nutzer mit integrierter Steuerung"],
+      "not_for": ["Nutzer mit Bedarf an zwei Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [{
+      "type": "manufacturer",
+      "title": "Karibu Produktseite Sauna Selena 6729",
+      "url": "https://www.karibu.de/sauna-selena/6729",
+      "checked_at": "2026-08-21"
+    }],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "karibu-sauna-saja-85911",
+    "brand": "Karibu",
+    "model": "Sauna Saja (Easy Bio, Graphitglas)",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 151, "depth": 196, "height": 198 },
+    "people": { "min": 1, "max": 3, "seats": 3, "lying_places": 1 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Steckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Steckerfertiger 3,6-kW-Bio-Kombi-Ofen laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Bio-Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [{
+        "merchant": "Karibu",
+        "price": 2149.99,
+        "availability": "manufacturer-listed",
+        "url": "https://www.karibu.de/sauna-saja/85911",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["Drei Sitzplätze und ein Liegeplatz", "230-V-Easy-Bio-Konfiguration", "68-mm-vormontierte Wandelemente"],
+      "cons": ["Nur ein Liegeplatz", "Bio-Modus laut Hersteller bis etwa 70 °C", "Erreichbare Temperatur hängt von den Bedingungen ab"],
+      "ideal_for": ["Beheizte Innenräume", "Bis zu drei Personen", "Nutzer mit finnischem und feuchterem Bio-Modus"],
+      "not_for": ["Nutzer mit Bedarf an mehreren Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [{
+      "type": "manufacturer",
+      "title": "Karibu Produktseite Sauna Saja 85911",
+      "url": "https://www.karibu.de/sauna-saja/85911",
+      "checked_at": "2026-08-21"
+    }],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "karibu-sauna-saja-85924",
+    "brand": "Karibu",
+    "model": "Sauna Saja (Easy Bio, Klarglas, Dachkranz)",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 165, "depth": 210, "height": 202 },
+    "people": { "min": 1, "max": 3, "seats": 3, "lying_places": 1 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Steckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Steckerfertiger 3,6-kW-Bio-Kombi-Ofen laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Bio-Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "Karibu",
+        "price": 2849.99,
+        "availability": "manufacturer-listed",
+        "url": "https://www.karibu.de/sauna-saja/85924",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["Drei Sitzplätze und ein Liegeplatz", "230-V-Easy-Bio-Konfiguration", "Dachkranz und klare Ganzglastür"],
+      "cons": ["Nur ein Liegeplatz", "Größere Stellfläche als die Standardvariante", "Erreichbare Temperatur hängt von den Bedingungen ab"],
+      "ideal_for": ["Beheizte Innenräume", "Bis zu drei Personen", "Nutzer mit Wunsch nach Dachkranz"],
+      "not_for": ["Sehr kleine Räume", "Nutzer mit Bedarf an mehreren Liegeplätzen"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [{
+      "type": "manufacturer",
+      "title": "Karibu Produktseite Sauna Saja 85924",
+      "url": "https://www.karibu.de/sauna-saja/85924",
+      "checked_at": "2026-08-21"
+    }],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "karibu-sauna-fanja-85872",
+    "brand": "Karibu",
+    "model": "Sauna Fanja (Finnisch, Dachkranz)",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 210, "depth": 165, "height": 202 },
+    "people": { "min": 1, "max": 3, "seats": 3, "lying_places": 1 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Steckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Externe finnische Plug-&-Play-Steuerung laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [{
+        "merchant": "Karibu",
+        "price": 2099.99,
+        "availability": "manufacturer-listed",
+        "url": "https://www.karibu.de/sauna-fanja/85872",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["Drei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "Spiegelbar"],
+      "cons": ["Nur ein Liegeplatz", "Größere Stellfläche", "Erreichbare Temperatur hängt laut Hersteller von den Bedingungen ab"],
+      "ideal_for": ["Beheizte Innenräume", "Bis zu drei Personen", "Nutzer mit externer Steuerung"],
+      "not_for": ["Sehr kleine Räume", "Nutzer mit Bedarf an mehreren Liegeplätzen"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [{
+      "type": "manufacturer",
+      "title": "Karibu Produktseite Sauna Fanja 85872",
+      "url": "https://www.karibu.de/sauna-fanja/85872",
+      "checked_at": "2026-08-21"
+    }],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "weka-infrarotkabine-mila-137x99",
+    "brand": "WEKA",
+    "model": "Infrarotkabine Mila 137x99",
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": { "width": 137, "depth": 99, "height": 190 },
+    "people": { "min": 1, "max": 1, "seats": 1, "lying_places": 0 },
+    "power": {
+      "voltage": 230,
+      "kw": null,
+      "plug_type": "230-V-Anschluss laut WEKA-Infrarotkategorie",
+      "electrician_required": false,
+      "notes": "WEKA nennt für Infrarotkabinen einen 230-V-Anschluss; konkrete Anleitung und örtliche Anschlussbedingungen prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Linienstrahler",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Europäische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "WEKA",
+        "price": 3599,
+        "availability": "manufacturer-listed",
+        "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-137x99-naturbelassen/543.1310.75.00",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["Kompakte Grundfläche", "Rücken-, Bein- und Frontstrahler", "Ganzglastür"],
+      "cons": ["Für eine Person", "Keine klassische Saunaofen-Konfiguration", "Leistungsaufnahme auf der Produktseite nicht ausgewiesen"],
+      "ideal_for": ["Kleine Innenräume", "Einzelnutzung", "Nutzer mit Infrarotpräferenz"],
+      "not_for": ["Gemeinsame Nutzung zu zweit", "Nutzer mit klassischem Saunaaufguss"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      { "type": "manufacturer", "title": "WEKA Produktseite Infrarotkabine Mila 137x99", "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-137x99-naturbelassen/543.1310.75.00", "checked_at": "2026-08-21" },
+      { "type": "manufacturer", "title": "WEKA Infrarotkabinen-Angebot – 230-V-Anschluss", "url": "https://www.weka-holzbau.com/de/angebote/infrarotkabine-angebot/", "checked_at": "2026-08-21" }
+    ],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "weka-infrarotkabine-mila-108x99",
+    "brand": "WEKA",
+    "model": "Infrarotkabine Mila 108x99",
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": { "width": 108, "depth": 99, "height": 190 },
+    "people": { "min": 1, "max": 1, "seats": 1, "lying_places": 0 },
+    "power": {
+      "voltage": 230,
+      "kw": null,
+      "plug_type": "230-V-Anschluss laut WEKA-Infrarotkategorie",
+      "electrician_required": false,
+      "notes": "WEKA nennt für Infrarotkabinen einen 230-V-Anschluss; konkrete Anleitung und örtliche Anschlussbedingungen prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Linienstrahler",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Europäische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "WEKA",
+        "price": 2898.99,
+        "availability": "manufacturer-listed",
+        "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-108x99-naturbelassen/543.1010.75.00",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["Sehr kompakte Grundfläche", "Rücken-, Bein- und Frontstrahler", "Ganzglastür"],
+      "cons": ["Für eine Person", "Keine klassische Saunaofen-Konfiguration", "Leistungsaufnahme auf der Produktseite nicht ausgewiesen"],
+      "ideal_for": ["Sehr kleine Innenräume", "Einzelnutzung", "Nutzer mit Infrarotpräferenz"],
+      "not_for": ["Gemeinsame Nutzung zu zweit", "Nutzer mit klassischem Saunaaufguss"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      { "type": "manufacturer", "title": "WEKA Produktseite Infrarotkabine Mila 108x99", "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-108x99-naturbelassen/543.1010.75.00", "checked_at": "2026-08-21" },
+      { "type": "manufacturer", "title": "WEKA Infrarotkabinen-Angebot – 230-V-Anschluss", "url": "https://www.weka-holzbau.com/de/angebote/infrarotkabine-angebot/", "checked_at": "2026-08-21" }
+    ],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "weka-infrarotkabine-tanilla-eck-99x99",
+    "brand": "WEKA",
+    "model": "Infrarotkabine Tanilla Eck 99x99",
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": { "width": 99, "depth": 99, "height": 190 },
+    "people": { "min": 1, "max": 1, "seats": 1, "lying_places": 0 },
+    "power": {
+      "voltage": 230,
+      "kw": null,
+      "plug_type": "230-V-Anschluss laut WEKA-Infrarotkategorie",
+      "electrician_required": false,
+      "notes": "WEKA nennt für Infrarotkabinen einen 230-V-Anschluss; konkrete Anleitung und örtliche Anschlussbedingungen prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Linienstrahler",
+      "max_temp_c": 70,
+      "heat_up_time_min": null,
+      "wood_type": "Europäische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "WEKA",
+        "price": 2849,
+        "availability": "manufacturer-listed",
+        "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-eck-99x99-naturbelassen/542.1010.33.20",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["Quadratische Eckgrundfläche", "Digitale Systemsteuerung", "Integrierter Halogenspot"],
+      "cons": ["Für eine Person", "Keine klassische Saunaofen-Konfiguration", "Leistungsaufnahme auf der Produktseite nicht ausgewiesen"],
+      "ideal_for": ["Eckaufstellung", "Kleine Innenräume", "Einzelnutzung"],
+      "not_for": ["Gemeinsame Nutzung zu zweit", "Nutzer mit klassischem Saunaaufguss"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      { "type": "manufacturer", "title": "WEKA Produktseite Infrarotkabine Tanilla Eck 99x99", "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-eck-99x99-naturbelassen/542.1010.33.20", "checked_at": "2026-08-21" },
+      { "type": "manufacturer", "title": "WEKA Infrarotkabinen-Angebot – 230-V-Anschluss", "url": "https://www.weka-holzbau.com/de/angebote/infrarotkabine-angebot/", "checked_at": "2026-08-21" }
+    ],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "weka-infrarotkabine-tanilla-137x99",
+    "brand": "WEKA",
+    "model": "Infrarotkabine Tanilla 137x99",
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": { "width": 137, "depth": 99, "height": 190 },
+    "people": { "min": 1, "max": 1, "seats": 1, "lying_places": 0 },
+    "power": {
+      "voltage": 230,
+      "kw": null,
+      "plug_type": "230-V-Anschluss laut WEKA-Infrarotkategorie",
+      "electrician_required": false,
+      "notes": "WEKA nennt für Infrarotkabinen einen 230-V-Anschluss; konkrete Anleitung und örtliche Anschlussbedingungen prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Linienstrahler",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Europäische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "WEKA",
+        "price": 2749,
+        "availability": "manufacturer-listed",
+        "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-137x99-naturbelassen/543.1310.33.20",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["63-mm-Wandelemente", "Digitale Systemsteuerung", "Integrierter Halogenspot"],
+      "cons": ["Für eine Person", "Keine klassische Saunaofen-Konfiguration", "Leistungsaufnahme auf der Produktseite nicht ausgewiesen"],
+      "ideal_for": ["Kleine Innenräume", "Einzelnutzung", "Nutzer mit Infrarotpräferenz"],
+      "not_for": ["Gemeinsame Nutzung zu zweit", "Nutzer mit klassischem Saunaaufguss"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      { "type": "manufacturer", "title": "WEKA Produktseite Infrarotkabine Tanilla 137x99", "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-137x99-naturbelassen/543.1310.33.20", "checked_at": "2026-08-21" },
+      { "type": "manufacturer", "title": "WEKA Infrarotkabinen-Angebot – 230-V-Anschluss", "url": "https://www.weka-holzbau.com/de/angebote/infrarotkabine-angebot/", "checked_at": "2026-08-21" }
+    ],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "weka-infrarotkabine-vaala-99x98",
+    "brand": "WEKA",
+    "model": "Infrarotkabine Vaala 99x98",
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": { "width": 102, "depth": 100, "height": 196 },
+    "people": { "min": 1, "max": 1, "seats": 1, "lying_places": 0 },
+    "power": {
+      "voltage": 230,
+      "kw": null,
+      "plug_type": "230-V-Anschluss laut WEKA-Infrarotkategorie",
+      "electrician_required": false,
+      "notes": "WEKA nennt für Infrarotkabinen einen 230-V-Anschluss; konkrete Anleitung und örtliche Anschlussbedingungen prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Linienstrahler",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Europäische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "WEKA",
+        "price": 1399,
+        "availability": "manufacturer-listed",
+        "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-99x98-naturbelassen/550.1010.19.30",
+        "affiliate": false,
+        "last_checked": "2026-08-21"
+      }]
+    },
+    "editorial": {
+      "pros": ["Sehr kompakte Stellfläche", "Elektronische Steuerung", "Integrierte Deckenleuchte"],
+      "cons": ["Für eine Person", "Keine klassische Saunaofen-Konfiguration", "Leistungsaufnahme auf der Produktseite nicht ausgewiesen"],
+      "ideal_for": ["Sehr kleine Innenräume", "Einzelnutzung", "Nutzer mit Infrarotpräferenz"],
+      "not_for": ["Gemeinsame Nutzung zu zweit", "Nutzer mit klassischem Saunaaufguss"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      { "type": "manufacturer", "title": "WEKA Produktseite Infrarotkabine Vaala 99x98", "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-99x98-naturbelassen/550.1010.19.30", "checked_at": "2026-08-21" },
+      { "type": "manufacturer", "title": "WEKA Infrarotkabinen-Angebot – 230-V-Anschluss", "url": "https://www.weka-holzbau.com/de/angebote/infrarotkabine-angebot/", "checked_at": "2026-08-21" }
+    ],
+    "updated_at": "2026-08-21"
   }
 ]
