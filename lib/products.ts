@@ -71,6 +71,20 @@ export function formatPrice(product: Product) {
   return product.commercial.price_status === "from" ? `ab ${value}` : value;
 }
 
+export function formatGermanDate(value: string) {
+  return new Intl.DateTimeFormat("de-DE", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  }).format(new Date(`${value}T00:00:00Z`));
+}
+
+export function getLatestOfferCheck(productList: Product[]) {
+  return productList
+    .flatMap((product) => product.commercial.offers.map((offer) => offer.last_checked))
+    .sort((a, b) => b.localeCompare(a))[0] ?? null;
+}
+
 export function rankProducts(productList: Product[], filters: FinderFilters) {
   return productList
     .map((product) => {

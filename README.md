@@ -25,18 +25,18 @@ npm run build
 
 - `content/de/home.json`: German homepage copy
 - `data/sauna-archetypes.json`: type-level finder data
-- `data/products.json`: six verified manufacturer-sourced product records
+- `data/products.json`: 23 verified manufacturer-sourced product records
 - `data/schema/product.schema.json`: product contract
 
-Products must not be published as verified without at least one documented source. The validator rejects duplicate IDs and missing core fields.
+Products must not be published as verified without an official manufacturer or manual source. The validator also rejects duplicate IDs, missing core fields, invalid or future check dates, duplicate offers/sources, and verified queue entries that have no published product record.
 
 ## Deployment
 
-Set `NEXT_PUBLIC_SITE_URL` in Vercel to the canonical production origin, for example `https://brand.com`. Without it, preview/local builds use a local origin and tell crawlers not to index the site.
+Set `NEXT_PUBLIC_SITE_URL` in Vercel to the canonical production origin, for example `https://brand.com`. Indexing is a separate launch gate: pages remain `noindex` and `robots.txt` blocks crawling until `SITE_INDEXABLE=true` is explicitly set. Only enable that flag after the legal page, brand and canonical domain are final.
 
 ## Next product slice
 
-1. Confirm the brand name and production domain, then set `NEXT_PUBLIC_SITE_URL` in Vercel.
-2. Reconcile the two skipped queue entries before publishing more products.
-3. Select the next 10–20 real products and record source URLs plus verification dates.
-4. Add source-specific ingestion as a GitHub Action that opens a pull request; do not write directly to production.
+1. Confirm the operator details, brand name and final production domain.
+2. Review price semantics for configurable manufacturer pages and keep `from` separate from a selected configuration price.
+3. Add category filters and editorial grouping once the catalog grows beyond the current static list.
+4. Add source-specific ingestion only after a stable feed exists; generated pull requests are preferred over direct production writes.

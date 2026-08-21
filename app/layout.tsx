@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { isProductionSite, siteUrl } from "@/lib/site";
+import { isIndexingEnabled, siteUrl } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   description:
     "Unabhängige Planungshilfe für Heimsaunen: nach Platz, Stromanschluss, Budget und Nutzungsprofil.",
-  robots: isProductionSite ? { index: true, follow: true } : { index: false, follow: false },
+  robots: isIndexingEnabled ? { index: true, follow: true } : { index: false, follow: false },
 };
 
 export default function RootLayout({

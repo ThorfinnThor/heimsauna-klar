@@ -1,11 +1,16 @@
 import Link from "next/link";
 import home from "@/content/de/home.json";
 import archetypes from "@/data/sauna-archetypes.json";
-import { formatPrice, products } from "@/lib/products";
+import { formatGermanDate, formatPrice, getLatestOfferCheck, products } from "@/lib/products";
 import { SaunaFinder } from "./SaunaFinder";
 import { SiteFooter, SiteHeader } from "./SiteChrome";
 
 const Arrow = () => <span aria-hidden="true">↗</span>;
+const featuredProducts = [
+  ...products.filter((product) => product.category === "indoor").slice(0, 3),
+  ...products.filter((product) => product.category === "infrared").slice(0, 3),
+];
+const latestOfferCheck = getLatestOfferCheck(products);
 
 export function HomePage() {
   return (
@@ -56,13 +61,13 @@ export function HomePage() {
       <section className="catalog-preview" aria-labelledby="catalog-title">
         <div className="catalog-preview-head">
           <div>
-            <p className="eyebrow">Erste verifizierte Datensätze</p>
+            <p className="eyebrow">Auswahl verifizierter Datensätze</p>
             <h2 id="catalog-title">Produkte, ohne erfundene Rangliste.</h2>
           </div>
           <Link className="text-link" href="/de/produkte/">Zum Produktkatalog <span aria-hidden="true">↗</span></Link>
         </div>
         <div className="product-preview-grid">
-          {products.map((product) => (
+          {featuredProducts.map((product) => (
             <article className="product-preview-card" key={product.product_id}>
               <div className="product-preview-top">
                 <span>{product.sauna.type}</span>
@@ -81,7 +86,7 @@ export function HomePage() {
             </article>
           ))}
         </div>
-        <p className="catalog-note">Preise zuletzt am 21.08.2026 geprüft. Noch keine Affiliate-Links und keine eigenen Produkttests.</p>
+        <p className="catalog-note">Preise zuletzt {latestOfferCheck ? `am ${formatGermanDate(latestOfferCheck)}` : "noch nicht"} geprüft. Noch keine Affiliate-Links und keine eigenen Produkttests.</p>
       </section>
 
       <section className="finder-section" id="finder" aria-labelledby="finder-title">

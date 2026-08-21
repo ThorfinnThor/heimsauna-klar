@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
-import { formatPrice, getProduct, products } from "@/lib/products";
+import { formatGermanDate, formatPrice, getProduct, products } from "@/lib/products";
 
 type Props = { params: Promise<{ productId: string }> };
 
@@ -102,8 +102,4 @@ export default async function ProductPage({ params }: Props) {
       <SiteFooter />
     </main>
   );
-}
-
-function formatGermanDate(value: string) {
-  return new Intl.DateTimeFormat("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(`${value}T00:00:00Z`));
 }

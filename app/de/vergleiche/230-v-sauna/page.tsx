@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
-import { formatPrice, products } from "@/lib/products";
+import { formatGermanDate, formatPrice, getLatestOfferCheck, products } from "@/lib/products";
 
 export const metadata: Metadata = {
   title: "230-V-Sauna Vergleich: kompakte Modelle im Datencheck",
@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 
 export default function ComparisonPage() {
   const candidates = products.filter((product) => product.power.voltage === 230);
+  const latestOfferCheck = getLatestOfferCheck(candidates);
 
   return (
     <main>
@@ -19,7 +20,7 @@ export default function ComparisonPage() {
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
             <a href="/de/">Start</a><span>/</span><span>Vergleiche</span><span>/</span><span>230-V-Sauna</span>
           </nav>
-          <p className="eyebrow">Datenvergleich · Stand 21.08.2026</p>
+          <p className="eyebrow">Datenvergleich · Stand {latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</p>
           <h1>230 V vergleichen,<span>ohne Äpfel mit Saunen zu mischen.</span></h1>
           <p>Diese Seite vergleicht nur Felder, die wir an einer Herstellerquelle nachvollziehen können. Sie ist keine bezahlte Rangliste und kein eigener Produkttest.</p>
         </header>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import guide from "@/content/de/guides/230-v-sauna.json";
-import { products } from "@/lib/products";
+import { formatGermanDate, products } from "@/lib/products";
 
 export const metadata: Metadata = {
   title: "230-V-Sauna: Anschluss, Leistung und Grenzen verständlich erklärt",
@@ -20,7 +20,7 @@ export default function GuidePage() {
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
             <a href="/de/">Start</a><span>/</span><span>Saunatechnik</span><span>/</span><span>230-V-Sauna</span>
           </nav>
-          <p className="eyebrow">Saunatechnik · aktualisiert 21.08.2026</p>
+          <p className="eyebrow">Saunatechnik · aktualisiert {formatGermanDate(guide.updated_at)}</p>
           <h1>230 V ist ein Anschluss.<span>Noch keine Kaufentscheidung.</span></h1>
           <p>{guide.description}</p>
           <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.quick_answer}</p></div>

@@ -26,7 +26,7 @@ export default function ProductsPage() {
       <section className="catalog-list page-shell" aria-label="Verifizierte Produkte">
         {products.map((product, index) => (
           <article className="catalog-row" key={product.product_id}>
-            <span className="catalog-index">0{index + 1}</span>
+            <span className="catalog-index">{String(index + 1).padStart(2, "0")}</span>
             <div>
               <p className="type-label">{product.brand} · {product.sauna.type}</p>
               <h2>{product.model}</h2>

@@ -1,10 +1,12 @@
 import type { MetadataRoute } from "next";
 import { products } from "@/lib/products";
-import { siteUrl } from "@/lib/site";
+import { isIndexingEnabled, siteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  if (!isIndexingEnabled) return [];
+
   const updated = new Date("2026-08-21T00:00:00Z");
   return [
     { url: `${siteUrl}/de/`, lastModified: updated, changeFrequency: "weekly", priority: 1 },
