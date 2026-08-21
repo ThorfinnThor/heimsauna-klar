@@ -349,5 +349,59 @@
     "target_voltage": "none",
     "status": "verified",
     "notes": "Verified Harvia Urban Black Medium with exact dimensions, 1–3-person capacity, black-glass finish and current reseller price; final heater and voltage require confirmation."
+  },
+  {
+    "queue_id": "harvia-block-right-medium",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/en-de/product/SHB1620ALD/block-right-medium",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified Harvia Block Right Medium with exact dimensions, 1–4-person capacity, 6.8/7-kW heater options and current reseller price; final voltage requires confirmation."
+  },
+  {
+    "queue_id": "harvia-block-right-large",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/en-de/product/SHB2020ALD/block-right-large",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified Harvia Block Right Large with exact dimensions, 1–5-person capacity, up to 10.8-kW heater options and current reseller price; final voltage requires confirmation."
+  },
+  {
+    "queue_id": "harvia-fuji-aspen-small",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/en-de/product/FUJI-AS-S/fuji-aspen-small",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified Harvia Fuji Aspen Small with exact dimensions, two lieges, 7-kW Virta option and current reseller price; final voltage requires confirmation."
+  },
+  {
+    "queue_id": "harvia-fuji-aspen-large",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/en-de/product/FUJI-AS-L/fuji-aspen-large",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified Harvia Fuji Aspen Large with exact dimensions, two lieges, 9-kW Virta option and current reseller price; final voltage requires confirmation."
+  },
+  {
+    "queue_id": "harvia-ventura-medium",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/en-de/product/SHV1620/ventura-medium",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified Harvia Ventura Medium with exact dimensions, 1–4-person capacity, up to 7-kW heater options and current reseller price; final voltage requires confirmation."
+  },
+  {
+    "queue_id": "harvia-ventura-large",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/en-de/product/SHV2020/ventura-large",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified Harvia Ventura Large with exact dimensions, 1–5-person capacity, up to 10.8-kW heater options and current reseller price; final voltage requires confirmation."
   }
 ]
