@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
+import { getOfferDisclosure } from "@/lib/affiliate";
 import { formatGermanDate, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
@@ -73,13 +74,17 @@ export default async function ProductPage({ params }: Props) {
               <p className="product-lede">{product.editorial.disclosure}</p>
             </div>
             <div className="product-price-card">
-              <small>Preis beim Hersteller</small>
+              <small>{offer ? `Preis bei ${offer.merchant}` : "Preis beim Hersteller"}</small>
               <strong>{formatPrice(product)}</strong>
               {offer ? (
                 <>
                   <span>Stand {formatGermanDate(offer.last_checked)}</span>
-                  <a href={offer.url} rel="nofollow noreferrer" target="_blank">Herstellerseite öffnen ↗</a>
-                  <em>Kein Affiliate-Link</em>
+                  {offer.affiliate ? (
+                    <a href={offer.url} rel="sponsored nofollow noreferrer" target="_blank">Angebot bei {offer.merchant} öffnen ↗</a>
+                  ) : (
+                    <a href={offer.url} rel="nofollow noreferrer" target="_blank">Angebot bei {offer.merchant} öffnen ↗</a>
+                  )}
+                  <em>{getOfferDisclosure(offer)}</em>
                 </>
               ) : (
                 <>

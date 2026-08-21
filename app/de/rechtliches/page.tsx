@@ -32,7 +32,7 @@ export default function LegalPage() {
 
         <section className="legal-block" id="affiliate" aria-labelledby="affiliate-title">
           <p className="eyebrow">03</p>
-          <div><h2 id="affiliate-title">{legal.affiliate.title}</h2><p>{legal.affiliate.intro}</p>{legal.affiliate.sections.map((section) => <div className="legal-subsection" key={section.title}><h3>{section.title}</h3><p>{section.copy}</p></div>)}</div>
+          <div><h2 id="affiliate-title">{legal.affiliate.title}</h2><p>{legal.affiliate.intro}</p><p><Link className="text-link" href="/de/transparenz/affiliate/">Aktuellen Affiliate-Status und Programmprüfung öffnen ↗</Link></p>{legal.affiliate.sections.map((section) => <div className="legal-subsection" key={section.title}><h3>{section.title}</h3><p>{section.copy}</p></div>)}</div>
         </section>
       </article>
       <SiteFooter />

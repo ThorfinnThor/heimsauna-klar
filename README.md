@@ -30,6 +30,10 @@ npm run build
 
 Products must not be published as verified without an official manufacturer or manual source. The validator also rejects duplicate IDs, missing core fields, invalid or future check dates, duplicate offers/sources, and verified queue entries that have no published product record.
 
+## Affiliate link policy
+
+Affiliate links are disabled by default. Every offer merchant and target host must exist in `data/merchants.json`. Activating an affiliate offer additionally requires an approved program in the merchant registry, a user-visible disclosure, and `sponsored nofollow noreferrer` on the outbound link. Publisher credentials and tracking secrets must never be committed; only the final approved deeplink belongs in product data.
+
 ## Deployment
 
 Set `NEXT_PUBLIC_SITE_URL` in Vercel to the canonical production origin, for example `https://brand.com`. Indexing is a separate launch gate: pages remain `noindex` and `robots.txt` blocks crawling until `SITE_INDEXABLE=true` is explicitly set. Only enable that flag after the legal page, brand and canonical domain are final.

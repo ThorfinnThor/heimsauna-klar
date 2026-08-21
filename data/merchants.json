@@ -1,0 +1,35 @@
+[
+  {
+    "id": "karibu",
+    "name": "Karibu",
+    "kind": "manufacturer",
+    "allowed_hosts": ["karibu.de", "en.karibu.de"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": ["adcell-mein-saunashop"]
+  },
+  {
+    "id": "harvia",
+    "name": "Harvia",
+    "kind": "manufacturer",
+    "allowed_hosts": ["shop.harvia.com"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": []
+  },
+  {
+    "id": "weka",
+    "name": "WEKA",
+    "kind": "manufacturer",
+    "allowed_hosts": ["weka-holzbau.com"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": ["adcell-mein-saunashop"]
+  }
+]

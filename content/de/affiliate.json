@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-08-21",
+  "current_status": "inactive",
+  "title": "Affiliate-Transparenz",
+  "accent": "Provision darf nie die Auswahlregel verändern.",
+  "description": "So trennt Heimsauna Klar Herstellerquellen, Händlerangebote, Affiliate-Links und redaktionelle Auswahl technisch und sichtbar voneinander.",
+  "principles": [
+    {
+      "title": "Quelle bleibt Quelle",
+      "copy": "Technische Angaben werden weiterhin an Herstellerseite oder Montageanleitung geprüft. Ein vergüteter Händlerlink ersetzt diese Belege nicht."
+    },
+    {
+      "title": "Provision bleibt ohne Einfluss",
+      "copy": "Produkte werden nach messbaren Kriterien gefiltert. Eine mögliche Vergütung darf weder Aufnahme, Sortierung noch redaktionelle Aussage verändern."
+    },
+    {
+      "title": "Kennzeichnung direkt am Link",
+      "copy": "Jeder aktive Affiliate-Link wird am konkreten Link als Affiliate-Link bezeichnet und technisch mit sponsored und nofollow gekennzeichnet."
+    },
+    {
+      "title": "Preis bleibt Momentaufnahme",
+      "copy": "Der ausgewiesene Preis behält sein Prüfdatum. Maßgeblich sind Preis, Verfügbarkeit und Lieferumfang beim Anbieter zum Kaufzeitpunkt."
+    }
+  ],
+  "launch_gates": [
+    "Betreiber- und Impressumsdaten vollständig eintragen",
+    "Publisher-Konto und konkretes Händlerprogramm freigeschaltet haben",
+    "Jedes Produkt eindeutig mit dem Händlerangebot abgleichen",
+    "Trackinglink, Ziel-URL und Kennzeichnung gemeinsam prüfen",
+    "Datenschutz- und Affiliate-Hinweise vor Aktivierung aktualisieren",
+    "Stichprobe im Browser und automatischen Datencheck bestehen"
+  ],
+  "programs": [
+    {
+      "id": "adcell-mein-saunashop",
+      "name": "Mein-Saunashop",
+      "network": "ADCELL",
+      "program_id": "13383",
+      "status": "candidate",
+      "focus": "Saunen, Infrarotkabinen, Öfen und Zubehör; Karibu und WEKA werden ausdrücklich genannt.",
+      "commission_snapshot": "4–6 % pro Sale",
+      "cookie_days": 60,
+      "direct_linking": true,
+      "catalog_merchant_ids": ["karibu", "weka"],
+      "url": "https://www.adcell.de/partnerprogramme/mein-saunashop",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "adcell-koempf24",
+      "name": "KÖMPF24",
+      "network": "ADCELL",
+      "program_id": "11202",
+      "status": "candidate",
+      "focus": "Breites Haus- und Gartensortiment einschließlich Saunen; konkrete Produktdeckung muss einzeln geprüft werden.",
+      "commission_snapshot": "2,5–8 % pro Sale, abhängig von Kundentyp und Publishermodell",
+      "cookie_days": 30,
+      "direct_linking": true,
+      "catalog_merchant_ids": [],
+      "url": "https://www.adcell.de/partnerprogramme/11202",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "adcell-sauna24",
+      "name": "Sauna24",
+      "network": "ADCELL",
+      "program_id": "10533",
+      "status": "candidate",
+      "focus": "Saunabau, Saunaöfen und Zubehör; vor allem als spätere Ergänzung des Zubehörkatalogs relevant.",
+      "commission_snapshot": "8 % pro Sale",
+      "cookie_days": 90,
+      "direct_linking": true,
+      "catalog_merchant_ids": [],
+      "url": "https://www.adcell.de/partnerprogramme/sauna24",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "adcell-gartenhausplus",
+      "name": "GartenhausPlus.de",
+      "network": "ADCELL",
+      "program_id": "1902",
+      "status": "candidate",
+      "focus": "Gartenhäuser und Saunahäuser; als möglicher Händler für den Outdoor-Bereich zu prüfen.",
+      "commission_snapshot": "5–10 % pro Sale laut Programmkonditionen",
+      "cookie_days": 75,
+      "direct_linking": true,
+      "catalog_merchant_ids": [],
+      "url": "https://www.adcell.de/partnerprogramme/1902?showContact=1",
+      "checked_at": "2026-08-21"
+    }
+  ]
+}

@@ -29,7 +29,7 @@ export function SiteFooter() {
       <div className="footer-links">
         <Link href="/de/rechtliches/#impressum">Impressum</Link>
         <Link href="/de/rechtliches/#datenschutz">Datenschutz</Link>
-        <Link href="/de/rechtliches/#affiliate">Transparenz</Link>
+        <Link href="/de/transparenz/affiliate/">Transparenz</Link>
       </div>
       <p className="footer-note">Prototyp · Produktdaten und Markenname werden vor Veröffentlichung geprüft.</p>
     </footer>

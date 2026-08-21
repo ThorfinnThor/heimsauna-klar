@@ -5,6 +5,8 @@ const archetypes = JSON.parse(await readFile(new URL("../data/sauna-archetypes.j
 const collections = JSON.parse(await readFile(new URL("../content/de/collections.json", import.meta.url), "utf8"));
 const voltageGuide = JSON.parse(await readFile(new URL("../content/de/guides/230-v-sauna.json", import.meta.url), "utf8"));
 const legal = JSON.parse(await readFile(new URL("../content/de/legal.json", import.meta.url), "utf8"));
+const affiliatePolicy = JSON.parse(await readFile(new URL("../content/de/affiliate.json", import.meta.url), "utf8"));
+const merchants = JSON.parse(await readFile(new URL("../data/merchants.json", import.meta.url), "utf8"));
 const planningGuides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const today = new Date().toISOString().slice(0, 10);
@@ -28,6 +30,59 @@ if (!Array.isArray(archetypes) || archetypes.length === 0) {
   throw new Error("data/sauna-archetypes.json must contain at least one entry");
 }
 if (!Array.isArray(sourceQueue) || sourceQueue.length === 0) throw new Error("data/source-queue.json must contain queued sources");
+
+if (!Array.isArray(merchants) || merchants.length === 0) throw new Error("data/merchants.json must contain merchants");
+if (!affiliatePolicy.title || !Array.isArray(affiliatePolicy.principles) || affiliatePolicy.principles.length < 4) {
+  throw new Error("content/de/affiliate.json must contain the public affiliate policy");
+}
+if (!Array.isArray(affiliatePolicy.launch_gates) || affiliatePolicy.launch_gates.length < 5) {
+  throw new Error("Affiliate policy needs at least five launch gates");
+}
+if (!["inactive", "active"].includes(affiliatePolicy.current_status)) throw new Error("Affiliate policy has an invalid current status");
+assertIsoDate(affiliatePolicy.updated_at, "Affiliate policy updated_at");
+
+const affiliatePrograms = affiliatePolicy.programs;
+if (!Array.isArray(affiliatePrograms) || affiliatePrograms.length === 0) throw new Error("Affiliate policy must contain program candidates");
+const affiliateProgramIds = new Set();
+for (const program of affiliatePrograms) {
+  for (const key of ["id", "name", "network", "program_id", "status", "focus", "commission_snapshot", "url", "checked_at"]) {
+    if (typeof program[key] !== "string" || program[key].trim() === "") throw new Error(`Affiliate program is missing ${key}`);
+  }
+  if (affiliateProgramIds.has(program.id)) throw new Error(`Duplicate affiliate program id: ${program.id}`);
+  affiliateProgramIds.add(program.id);
+  if (!["candidate", "applied", "approved", "rejected"].includes(program.status)) throw new Error(`${program.id} has an invalid status`);
+  if (!(program.cookie_days > 0) || typeof program.direct_linking !== "boolean") throw new Error(`${program.id} has invalid conditions`);
+  if (!Array.isArray(program.catalog_merchant_ids)) throw new Error(`${program.id} needs catalog merchant ids`);
+  assertHttpsUrl(program.url, `Affiliate program URL for ${program.id}`);
+  assertIsoDate(program.checked_at, `Affiliate program check date for ${program.id}`);
+}
+
+const merchantIds = new Set();
+const merchantNames = new Set();
+const merchantsByName = new Map();
+for (const merchant of merchants) {
+  for (const key of ["id", "name", "kind", "allowed_hosts", "affiliate", "candidate_program_ids"]) {
+    if (merchant[key] === undefined) throw new Error(`Merchant is missing ${key}`);
+  }
+  if (merchantIds.has(merchant.id) || merchantNames.has(merchant.name)) throw new Error(`Duplicate merchant: ${merchant.name}`);
+  merchantIds.add(merchant.id);
+  merchantNames.add(merchant.name);
+  merchantsByName.set(merchant.name, merchant);
+  if (!["manufacturer", "retailer"].includes(merchant.kind)) throw new Error(`${merchant.id} has an invalid kind`);
+  if (!Array.isArray(merchant.allowed_hosts) || merchant.allowed_hosts.length === 0) throw new Error(`${merchant.id} needs allowed hosts`);
+  if (!merchant.allowed_hosts.every((host) => typeof host === "string" && host !== "" && !host.includes("/"))) throw new Error(`${merchant.id} has an invalid host`);
+  if (!["inactive", "active"].includes(merchant.affiliate?.status)) throw new Error(`${merchant.id} has an invalid affiliate status`);
+  if (merchant.affiliate.status === "inactive" && merchant.affiliate.program_id !== null) throw new Error(`${merchant.id} has an inactive affiliate program id`);
+  if (!Array.isArray(merchant.candidate_program_ids)) throw new Error(`${merchant.id} needs candidate program ids`);
+  for (const programId of merchant.candidate_program_ids) {
+    if (!affiliateProgramIds.has(programId)) throw new Error(`${merchant.id} references unknown candidate program ${programId}`);
+  }
+}
+for (const program of affiliatePrograms) {
+  for (const merchantId of program.catalog_merchant_ids) {
+    if (!merchantIds.has(merchantId)) throw new Error(`${program.id} references unknown merchant ${merchantId}`);
+  }
+}
 
 if (!Array.isArray(planningGuides) || planningGuides.length === 0) throw new Error("content/de/planning-guides.json must contain planning guides");
 const planningSlugs = new Set();
@@ -189,6 +244,18 @@ for (const product of products) {
     assertHttpsUrl(offer.url, `Offer URL for ${product.product_id}`);
     assertIsoDate(offer.last_checked, `Offer check date for ${product.product_id}`);
     if (typeof offer.affiliate !== "boolean") throw new Error(`${product.product_id} has an invalid affiliate flag`);
+    const registeredMerchant = merchantsByName.get(offer.merchant);
+    if (!registeredMerchant) throw new Error(`${product.product_id} uses unregistered merchant ${offer.merchant}`);
+    const offerHost = new URL(offer.url).hostname.replace(/^www\./, "");
+    if (!registeredMerchant.allowed_hosts.includes(offerHost)) {
+      throw new Error(`${product.product_id} uses unapproved host ${offerHost} for ${offer.merchant}`);
+    }
+    if (offer.affiliate) {
+      const program = affiliatePrograms.find((item) => item.id === registeredMerchant.affiliate.program_id);
+      if (registeredMerchant.affiliate.status !== "active" || program?.status !== "approved") {
+        throw new Error(`${product.product_id} enables an affiliate offer without an approved merchant program`);
+      }
+    }
     if (offer.affiliate) affiliateOfferCount += 1;
     const offerKey = `${offer.merchant}|${offer.url}`;
     if (offerKeys.has(offerKey)) throw new Error(`${product.product_id} has a duplicate offer`);
@@ -271,5 +338,8 @@ if (process.env.SITE_INDEXABLE === "true" && (legalText.includes("[ergänzen]") 
 if (affiliateOfferCount > 0 && legal.affiliate?.intro?.includes("nicht affiliiert")) {
   throw new Error("Affiliate offers are enabled, but the legal disclosure still says that all links are non-affiliate");
 }
+if ((affiliateOfferCount > 0) !== (affiliatePolicy.current_status === "active")) {
+  throw new Error("Affiliate policy status does not match active product offers");
+}
 
-console.log(`Data check passed: ${products.length} products in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, ${planningGuides.length + 1} sourced guides, ${sourceQueue.length} queued sources.`);
+console.log(`Data check passed: ${products.length} products in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, ${planningGuides.length + 1} sourced guides, ${merchants.length} merchants, ${affiliatePrograms.length} affiliate candidates, ${affiliateOfferCount} active affiliate links, ${sourceQueue.length} queued sources.`);

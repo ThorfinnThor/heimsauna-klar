@@ -697,11 +697,20 @@ footer {
 
 .planning-hub { padding-block: 95px 115px; border-top: 1px solid var(--line); }
 .planning-hub-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.planning-hub-grid a { min-height: 245px; padding: 28px; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background 160ms ease; }
-.planning-hub-grid a:hover { background: var(--cream); }
-.planning-hub-grid small { color: var(--clay-dark); font-size: 9px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
-.planning-hub-grid strong { margin: 34px 0 20px; font-family: Georgia, serif; font-size: 30px; font-weight: 400; }
-.planning-hub-grid span { margin-top: auto; color: var(--ink-soft); font-size: 11px; line-height: 1.6; }
+.planning-hub-grid > a { min-height: 245px; padding: 28px; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background 160ms ease; }
+.planning-hub-grid > a:hover { background: var(--cream); }
+.planning-hub-grid > a small { color: var(--clay-dark); font-size: 9px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
+.planning-hub-grid > a strong { margin: 34px 0 20px; font-family: Georgia, serif; font-size: 30px; font-weight: 400; }
+.planning-hub-grid > a span { margin-top: auto; color: var(--ink-soft); font-size: 11px; line-height: 1.6; }
+.planning-hub-grid .affiliate-principle { min-height: 285px; padding: 28px; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.affiliate-principle small { color: var(--clay-dark); font-size: 9px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
+.affiliate-principle h3 { margin: 30px 0 18px; font-family: Georgia, serif; font-size: 29px; font-weight: 400; }
+.affiliate-principle > span { margin: 0; }
+.affiliate-principle > a { margin-top: 24px; color: var(--ink); font-size: 10px; text-decoration: underline; text-underline-offset: 4px; }
+.affiliate-program-facts { margin: 24px 0 0; display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); }
+.affiliate-program-facts div { padding-top: 12px; }
+.affiliate-program-facts dt { color: var(--clay-dark); font-size: 8px; font-weight: 750; text-transform: uppercase; }
+.affiliate-program-facts dd { margin: 5px 0 0; color: var(--ink-soft); font-size: 10px; line-height: 1.45; }
 
 .planning-sections { border-top: 1px solid var(--line); }
 .planning-section { padding-block: 78px; display: grid; grid-template-columns: 80px .8fr 1.2fr; gap: 4vw; border-bottom: 1px solid var(--line); }
