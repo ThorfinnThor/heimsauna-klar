@@ -1,0 +1,338 @@
+[
+  {
+    "product_id": "karibu-sauna-sandra-6705",
+    "brand": "Karibu",
+    "model": "Sauna Sandra",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 145, "depth": 145, "height": 187 },
+    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "Haushaltssteckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Hersteller- und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Karibu",
+          "price": 1599.99,
+          "availability": "manufacturer-listed",
+          "url": "https://www.karibu.de/sauna-sandra/6705",
+          "affiliate": false,
+          "last_checked": "2026-08-21"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": ["Kompakte quadratische Grundfläche", "230-V-Konfiguration verfügbar", "Zwei Sitzplätze"],
+      "cons": ["Nur ein Liegeplatz", "Nicht spiegelbar", "Erreichbare Temperatur hängt laut Hersteller stark von den Bedingungen ab"],
+      "ideal_for": ["Kleine beheizte Innenräume", "Ein bis zwei Personen", "Niedrige Decken"],
+      "not_for": ["Nutzer mit Bedarf an zwei Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktseite Sauna Sandra 6705",
+        "url": "https://www.karibu.de/sauna-sandra/6705",
+        "checked_at": "2026-08-21"
+      }
+    ],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "weka-infrarotkabine-milo-1-f",
+    "brand": "WEKA",
+    "model": "Infrarotkabine Milo 1 F",
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": { "width": 109, "depth": 98, "height": 190 },
+    "people": { "min": 1, "max": 1, "seats": 1, "lying_places": 0 },
+    "power": {
+      "voltage": 230,
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die Produktseite nennt 230 V, aber keine vollständigen Anschlussdetails; Anleitung und örtliche Bedingungen prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Flächenstrahler",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Europäische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "WEKA",
+          "price": 2199,
+          "availability": "low-stock-listed",
+          "url": "https://www.weka-holzbau.com/infrarotkabine-milo-1-f/ws548101000001",
+          "affiliate": false,
+          "last_checked": "2026-08-21"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": ["Sehr kompakte Grundfläche", "230 V laut Hersteller", "Digitale Steuerung"],
+      "cons": ["Nur für eine Person", "Infrarot statt klassischem Saunaofen", "Leistungsaufnahme auf der Produktseite nicht ausgewiesen"],
+      "ideal_for": ["Sehr kleine Innenräume", "Einzelnutzung", "Nutzer mit Präferenz für Infrarotwärme"],
+      "not_for": ["Klassische Saunaaufgüsse", "Gemeinsame Nutzung zu zweit"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "WEKA Produktseite Infrarotkabine Milo 1 F",
+        "url": "https://www.weka-holzbau.com/infrarotkabine-milo-1-f/ws548101000001",
+        "checked_at": "2026-08-21"
+      }
+    ],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "karibu-sauna-antonia-6717",
+    "brand": "Karibu",
+    "model": "Sauna Antonia",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 145, "depth": 145, "height": 187 },
+    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Steckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Hersteller beschreibt den 3,6-kW-Ofen als steckerfertig; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Karibu",
+          "price": 1649.99,
+          "availability": "manufacturer-listed",
+          "url": "https://www.karibu.de/sauna-antonia/6717",
+          "affiliate": false,
+          "last_checked": "2026-08-21"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": ["Kompakte fünfeckige Grundfläche", "230-V-Konfiguration verfügbar", "Eckeinstieg"],
+      "cons": ["Nur ein Liegeplatz", "Nicht spiegelbar", "Erreichbare Temperatur hängt laut Hersteller stark von den Bedingungen ab"],
+      "ideal_for": ["Kleine beheizte Innenräume", "Ein bis zwei Personen", "Niedrige Decken"],
+      "not_for": ["Nutzer mit Bedarf an zwei Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktseite Sauna Antonia 6717",
+        "url": "https://www.karibu.de/sauna-antonia/6717",
+        "checked_at": "2026-08-21"
+      }
+    ],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "karibu-sauna-selena-6730",
+    "brand": "Karibu",
+    "model": "Sauna Selena (Finnisch)",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 195, "depth": 145, "height": 187 },
+    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Steckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Diese Aufzeichnung bezieht sich auf die finnische 3,6-kW-Konfiguration mit externer Steuerung; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Karibu",
+          "price": 1799.99,
+          "availability": "manufacturer-listed",
+          "url": "https://www.karibu.de/sauna-selena/6730",
+          "affiliate": false,
+          "last_checked": "2026-08-21"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": ["Zwei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "Fronteinstieg"],
+      "cons": ["Nicht spiegelbar", "Nur ein Liegeplatz", "Erreichbare Temperatur hängt laut Hersteller stark von den Bedingungen ab"],
+      "ideal_for": ["Kleine beheizte Innenräume", "Ein bis zwei Personen", "Niedrige Decken"],
+      "not_for": ["Nutzer mit Bedarf an zwei Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktseite Sauna Selena 6730",
+        "url": "https://www.karibu.de/sauna-selena/6730",
+        "checked_at": "2026-08-21"
+      }
+    ],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "karibu-sauna-eda-71099",
+    "brand": "Karibu",
+    "model": "Sauna Eda (Easy Bio)",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 148, "depth": 145, "height": 190.5 },
+    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 0 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Steckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Diese Aufzeichnung bezieht sich auf die Easy-Bio-Konfiguration; Hersteller beschreibt den Ofen als steckerfertig. Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Bio-Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Karibu",
+          "price": 1049.99,
+          "availability": "manufacturer-listed",
+          "url": "https://www.karibu.de/sauna-eda/71099",
+          "affiliate": false,
+          "last_checked": "2026-08-21"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": ["Kompakte Grundfläche", "230-V-Easy-Bio-Konfiguration", "Spiegelbar"],
+      "cons": ["Keine ausgewiesenen Liegeplätze in der technischen Tabelle", "Keine Dachdämmung ausgewiesen", "Erreichbare Temperatur hängt laut Hersteller stark von den Bedingungen ab"],
+      "ideal_for": ["Kleine beheizte Innenräume", "Ein bis zwei Personen", "Niedrige Decken"],
+      "not_for": ["Nutzer mit Bedarf an ausgewiesener Liegefläche", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktseite Sauna Eda 71099",
+        "url": "https://www.karibu.de/sauna-eda/71099",
+        "checked_at": "2026-08-21"
+      }
+    ],
+    "updated_at": "2026-08-21"
+  },
+  {
+    "product_id": "karibu-sauna-ria-71093",
+    "brand": "Karibu",
+    "model": "Sauna Ria",
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 148, "depth": 145, "height": 190.5 },
+    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 0 },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Steckdose laut Hersteller",
+      "electrician_required": false,
+      "notes": "Hersteller beschreibt den 3,6-kW-Ofen als steckerfertig; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro",
+      "max_temp_c": 80,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Karibu",
+          "price": 999.99,
+          "availability": "manufacturer-listed",
+          "url": "https://www.karibu.de/sauna-ria/71093",
+          "affiliate": false,
+          "last_checked": "2026-08-21"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": ["Kompakte Grundfläche", "230-V-Konfiguration", "Spiegelbar"],
+      "cons": ["Keine ausgewiesenen Liegeplätze in der technischen Tabelle", "Keine Dachdämmung ausgewiesen", "Erreichbare Temperatur hängt laut Hersteller stark von den Bedingungen ab"],
+      "ideal_for": ["Kleine beheizte Innenräume", "Ein bis zwei Personen", "Niedrige Decken"],
+      "not_for": ["Nutzer mit Bedarf an ausgewiesener Liegefläche", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktseite Sauna Ria 71093",
+        "url": "https://www.karibu.de/sauna-ria/71093",
+        "checked_at": "2026-08-21"
+      }
+    ],
+    "updated_at": "2026-08-21"
+  }
+]

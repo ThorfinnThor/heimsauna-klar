@@ -1,0 +1,41 @@
+{
+  "notice": "Vorab-Entwurf · Diese Seiten werden vor einer öffentlichen Veröffentlichung mit den vollständigen Betreiber-, Kontakt- und Hostingangaben ergänzt und rechtlich geprüft.",
+  "impressum": {
+    "title": "Impressum",
+    "intro": "Verantwortliche Stelle und ladungsfähige Anschrift werden vor Launch ergänzt.",
+    "fields": [
+      "Name / Unternehmen: [ergänzen]",
+      "Anschrift: [ergänzen]",
+      "E-Mail: [ergänzen]",
+      "Vertretungsberechtigte Person: [falls zutreffend ergänzen]"
+    ]
+  },
+  "privacy": {
+    "title": "Datenschutz",
+    "intro": "Der aktuelle Prototyp hat kein Login, keine Formulare, keine eingebetteten Analyse- oder Marketing-Skripte und keine personalisierten Empfehlungen.",
+    "sections": [
+      {
+        "title": "Technischer Betrieb",
+        "copy": "Vor dem Launch müssen Hosting, Server-Logs, Fehlerprotokolle, CDN und eventuelle Drittanbieter vollständig erfasst und in einer finalen Datenschutzerklärung beschrieben werden."
+      },
+      {
+        "title": "Analyse und Cookies",
+        "copy": "Es ist aktuell kein Analyseanbieter aktiviert. Ein späteres Messsystem wird erst nach Auswahl des Anbieters, Konfiguration der Einwilligung und Aktualisierung dieser Seite veröffentlicht."
+      }
+    ]
+  },
+  "affiliate": {
+    "title": "Affiliate- und Werbetransparenz",
+    "intro": "Die aktuell verlinkten Herstellerseiten sind nicht affiliiert. Es gibt keine bezahlten Platzierungen und keine gesponserten Rankings.",
+    "sections": [
+      {
+        "title": "Später mögliche Links",
+        "copy": "Wenn Händler- oder Herstellerlinks künftig vergütet werden, werden sie eindeutig gekennzeichnet. Redaktionelle Einordnung, Quellenlage und Vergütung bleiben getrennt dokumentiert."
+      },
+      {
+        "title": "Produktdaten",
+        "copy": "Preise und Verfügbarkeiten sind Momentaufnahmen mit Prüfdatum. Sie können sich beim Anbieter ändern."
+      }
+    ]
+  }
+}

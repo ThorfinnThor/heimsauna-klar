@@ -1,0 +1,21 @@
+import type { MetadataRoute } from "next";
+import { products } from "@/lib/products";
+import { siteUrl } from "@/lib/site";
+
+export const dynamic = "force-static";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const updated = new Date("2026-08-21T00:00:00Z");
+  return [
+    { url: `${siteUrl}/de/`, lastModified: updated, changeFrequency: "weekly", priority: 1 },
+    { url: `${siteUrl}/de/produkte/`, lastModified: updated, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${siteUrl}/de/saunatechnik/230-v-sauna/`, lastModified: updated, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/de/vergleiche/230-v-sauna/`, lastModified: updated, changeFrequency: "weekly", priority: 0.8 },
+    ...products.map((product) => ({
+      url: `${siteUrl}/de/produkte/${product.product_id}/`,
+      lastModified: new Date(`${product.updated_at}T00:00:00Z`),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })),
+  ];
+}

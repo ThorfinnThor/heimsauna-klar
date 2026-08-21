@@ -1,0 +1,56 @@
+[
+  {
+    "queue_id": "karibu-selena-6735",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-selena/6735",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "skipped",
+    "notes": "Skipped: the live page description and technical table expose conflicting exterior dimensions for the roof-ring variant; keep out until the exact configuration is reconciled."
+  },
+  {
+    "queue_id": "karibu-antonia-6717",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-antonia/6717",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Mini-sauna candidate; skip if the live page does not expose core dimensions and price."
+  },
+  {
+    "queue_id": "karibu-selena-6730",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-selena/6730",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Finnish-heater configuration; keep distinct from other Selena variants only if configuration changes the data."
+  },
+  {
+    "queue_id": "karibu-eda-71099",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-eda/71099",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Capture the Easy Bio configuration only from the live product page or linked manual."
+  },
+  {
+    "queue_id": "karibu-ria-71093",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-ria/71093",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Use exact live variant data; do not infer dimensions from the product family."
+  },
+  {
+    "queue_id": "weka-hamina-558131000000",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-hamina/558.1310.00.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "skipped",
+    "notes": "Skipped: current official page exposes dimensions and infrared details, but no model-specific 230-V field was captured; do not infer voltage from a generic WEKA page."
+  }
+]

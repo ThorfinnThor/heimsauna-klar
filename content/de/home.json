@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "lede": "Wir übersetzen Raum, Stromanschluss und Budget in eine belastbare Vorauswahl — bevor Produktversprechen und Preisaktionen die Entscheidung unnötig kompliziert machen."
+  },
+  "constraints": [
+    { "title": "Platz", "copy": "Außenmaß, Höhe und nötige Abstände" },
+    { "title": "Strom", "copy": "230 V, 400 V oder holzbefeuert" },
+    { "title": "Budget", "copy": "Produkt, Aufbau und laufende Kosten" }
+  ],
+  "principles": [
+    { "title": "Daten mit Quelle", "copy": "Maße, Leistung und Preise werden erst veröffentlicht, wenn Herkunft und Prüfdatum dokumentiert sind." },
+    { "title": "Einschränkungen zuerst", "copy": "Wir zeigen nicht nur, wofür ein Modell geeignet ist, sondern ebenso klar, wann es nicht passt." },
+    { "title": "Keine erfundenen Tests", "copy": "Herstellerdaten, eigene Messungen und redaktionelle Einschätzungen bleiben sichtbar voneinander getrennt." }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "title": "230-V-Sauna: Was ‚steckerfertig‘ wirklich bedeutet",
+  "description": "Eine 230-V-Sauna kann den Einstieg vereinfachen. Entscheidend bleiben aber Ofenleistung, Kabinenvolumen, Aufstellraum und die konkrete Herstelleranleitung.",
+  "updated_at": "2026-08-21",
+  "quick_answer": "230 V beschreibt zunächst die Versorgungsspannung, nicht automatisch die Heizleistung, erreichbare Temperatur oder Eignung für jeden Raum. Produkt und Ofen müssen als System betrachtet werden.",
+  "checks": [
+    {
+      "title": "Kabine und Ofen zusammen prüfen",
+      "copy": "Herstellerhandbücher ordnen Ofenleistungen bestimmten Kabinenvolumen zu. Ein stärkerer oder anders angeschlossener Ofen ist nicht automatisch mit jeder Kabine kompatibel."
+    },
+    {
+      "title": "Aufstellbedingungen ernst nehmen",
+      "copy": "Bauweise, Isolierung und Umgebungstemperatur beeinflussen das Ergebnis. Karibu weist beim 3,6-kW-Ofen ausdrücklich darauf hin, dass die erreichbare Temperatur von diesen Faktoren abhängt."
+    },
+    {
+      "title": "Anleitung schlägt Marketingbegriff",
+      "copy": "‚Plug & Play‘ ersetzt nicht die Prüfung der konkreten Herstellerangaben, der vorhandenen Steckdose und des Stromkreises. Netzspannungsarbeiten bleiben Facharbeit."
+    }
+  ],
+  "comparison": [
+    { "label": "Versorgung", "v230": "230 V", "v400": "typisch 400 V Drehstrom" },
+    { "label": "Typische V1-Produkte", "v230": "kompakte Kabinen und Infrarot", "v400": "größere klassische Kabinen" },
+    { "label": "Planungsfrage", "v230": "passt das System zum vorhandenen Stromkreis?", "v400": "ist Anschluss und Absicherung fachgerecht geplant?" },
+    { "label": "Unsere Empfehlung", "v230": "nach konkretem Modell filtern", "v400": "früh Elektrofachbetrieb einbeziehen" }
+  ],
+  "sources": [
+    {
+      "title": "Karibu: 230-V-Sauna und 400-V-Sauna im Vergleich",
+      "url": "https://www.karibu.de/sauna/innensauna/plug-and-play-sauna-steckerfertig-230v/",
+      "publisher": "Karibu"
+    },
+    {
+      "title": "Harvia Montageanleitung: Leistung, Spannung und Sicherheitsabstände prüfen",
+      "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306",
+      "publisher": "Harvia"
+    },
+    {
+      "title": "Karibu Sauna Sandra: technische Daten und Temperaturhinweis",
+      "url": "https://www.karibu.de/sauna-sandra/6705",
+      "publisher": "Karibu"
+    }
+  ]
+}
