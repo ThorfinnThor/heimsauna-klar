@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 const products = JSON.parse(await readFile(new URL("../data/products.json", import.meta.url), "utf8"));
 const archetypes = JSON.parse(await readFile(new URL("../data/sauna-archetypes.json", import.meta.url), "utf8"));
 const voltageGuide = JSON.parse(await readFile(new URL("../content/de/guides/230-v-sauna.json", import.meta.url), "utf8"));
+const legal = JSON.parse(await readFile(new URL("../content/de/legal.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const today = new Date().toISOString().slice(0, 10);
 const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
@@ -58,6 +59,7 @@ for (const item of archetypes) {
 
 const productIds = new Set();
 const productDisplayNames = new Set();
+let affiliateOfferCount = 0;
 for (const product of products) {
   const required = ["product_id", "brand", "model", "family", "category", "status", "dimensions_cm", "people", "power", "sauna", "commercial", "editorial", "sources", "updated_at"];
   const missing = required.filter((key) => product[key] === undefined);
@@ -71,6 +73,15 @@ for (const product of products) {
   }
   if (!["indoor", "outdoor", "infrared", "portable", "tent"].includes(product.category)) {
     throw new Error(`${product.product_id} has an unsupported category`);
+  }
+  if (!["indoor", "outdoor"].includes(product.sauna.indoor_outdoor)) {
+    throw new Error(`${product.product_id} has an unsupported installation location`);
+  }
+  if (["indoor", "outdoor"].includes(product.category) && product.sauna.indoor_outdoor !== product.category) {
+    throw new Error(`${product.product_id} category and installation location do not match`);
+  }
+  if (product.category === "infrared" && product.sauna.indoor_outdoor !== "indoor") {
+    throw new Error(`${product.product_id} infrared products must use an indoor installation location`);
   }
   if (product.family !== null) {
     for (const key of ["id", "name", "variant"]) {
@@ -119,6 +130,7 @@ for (const product of products) {
     assertHttpsUrl(offer.url, `Offer URL for ${product.product_id}`);
     assertIsoDate(offer.last_checked, `Offer check date for ${product.product_id}`);
     if (typeof offer.affiliate !== "boolean") throw new Error(`${product.product_id} has an invalid affiliate flag`);
+    if (offer.affiliate) affiliateOfferCount += 1;
     const offerKey = `${offer.merchant}|${offer.url}`;
     if (offerKeys.has(offerKey)) throw new Error(`${product.product_id} has a duplicate offer`);
     offerKeys.add(offerKey);
@@ -177,6 +189,12 @@ for (const source of sourceQueue) {
   if (source.status === "verified" && !publishedSourceUrls.has(source.url)) {
     throw new Error(`Verified queue entry has no published product source: ${source.queue_id}`);
   }
+  if (source.status === "verified") {
+    const linkedProducts = products.filter((product) => product.sources.some((item) => item.url === source.url));
+    if (linkedProducts.some((product) => product.category !== source.target_category)) {
+      throw new Error(`Verified queue category does not match published product: ${source.queue_id}`);
+    }
+  }
 }
 
 if (!voltageGuide.title || !Array.isArray(voltageGuide.sources) || voltageGuide.sources.length === 0) {
@@ -186,5 +204,13 @@ for (const source of voltageGuide.sources) {
   assertHttpsUrl(source.url, "230-V guide source URL");
 }
 assertIsoDate(voltageGuide.updated_at, "230-V guide updated_at");
+
+const legalText = JSON.stringify(legal);
+if (process.env.SITE_INDEXABLE === "true" && (legalText.includes("[ergänzen]") || legal.notice?.startsWith("Vorab-Entwurf"))) {
+  throw new Error("SITE_INDEXABLE cannot be enabled while the legal pages still contain draft placeholders");
+}
+if (affiliateOfferCount > 0 && legal.affiliate?.intro?.includes("nicht affiliiert")) {
+  throw new Error("Affiliate offers are enabled, but the legal disclosure still says that all links are non-affiliate");
+}
 
 console.log(`Data check passed: ${products.length} products in ${families.size} families, ${archetypes.length} sauna types, 1 sourced guide, ${sourceQueue.length} queued sources.`);
