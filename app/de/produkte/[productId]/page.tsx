@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProduct(productId);
   if (!product) return {};
   const title = `${product.brand} ${product.model}: Maße, Strom und Einordnung`;
-  const description = `${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm, ${product.power.voltage} V und Platz für bis zu ${product.people.max} Personen. Quellengeprüfter Datensatz.`;
+  const description = `${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm, ${formatVoltage(product.power.voltage)} und Platz für bis zu ${product.people.max} Personen. Quellengeprüfter Datensatz.`;
   return {
     title,
     description,
