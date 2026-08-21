@@ -5,6 +5,7 @@ const archetypes = JSON.parse(await readFile(new URL("../data/sauna-archetypes.j
 const collections = JSON.parse(await readFile(new URL("../content/de/collections.json", import.meta.url), "utf8"));
 const voltageGuide = JSON.parse(await readFile(new URL("../content/de/guides/230-v-sauna.json", import.meta.url), "utf8"));
 const legal = JSON.parse(await readFile(new URL("../content/de/legal.json", import.meta.url), "utf8"));
+const planningGuides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const today = new Date().toISOString().slice(0, 10);
 const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
@@ -27,6 +28,28 @@ if (!Array.isArray(archetypes) || archetypes.length === 0) {
   throw new Error("data/sauna-archetypes.json must contain at least one entry");
 }
 if (!Array.isArray(sourceQueue) || sourceQueue.length === 0) throw new Error("data/source-queue.json must contain queued sources");
+
+if (!Array.isArray(planningGuides) || planningGuides.length === 0) throw new Error("content/de/planning-guides.json must contain planning guides");
+const planningSlugs = new Set();
+for (const guide of planningGuides) {
+  for (const key of ["slug", "eyebrow", "title", "accent", "description", "updated_at", "summary"]) {
+    if (typeof guide[key] !== "string" || guide[key].trim() === "") throw new Error(`Planning guide is missing ${key}`);
+  }
+  if (planningSlugs.has(guide.slug)) throw new Error(`Duplicate planning guide slug: ${guide.slug}`);
+  planningSlugs.add(guide.slug);
+  assertIsoDate(guide.updated_at, `Planning guide date for ${guide.slug}`);
+  if (!Array.isArray(guide.sections) || guide.sections.length < 3) throw new Error(`${guide.slug} needs at least three sections`);
+  for (const section of guide.sections) {
+    if (!section.title || !section.copy || !Array.isArray(section.points) || section.points.length < 3) throw new Error(`${guide.slug} has an incomplete section`);
+  }
+  if (!Array.isArray(guide.checklist) || guide.checklist.length < 5) throw new Error(`${guide.slug} needs at least five checklist items`);
+  if (!Array.isArray(guide.sources) || guide.sources.length < 2) throw new Error(`${guide.slug} needs at least two sources`);
+  for (const source of guide.sources) {
+    if (!source.title) throw new Error(`${guide.slug} has a source without a title`);
+    assertHttpsUrl(source.url, `Planning guide source for ${guide.slug}`);
+    assertIsoDate(source.checked_at, `Planning guide source date for ${guide.slug}`);
+  }
+}
 
 if (!Array.isArray(collections) || collections.length === 0) throw new Error("content/de/collections.json must contain collections");
 const collectionRoutes = new Set();
@@ -249,4 +272,4 @@ if (affiliateOfferCount > 0 && legal.affiliate?.intro?.includes("nicht affiliier
   throw new Error("Affiliate offers are enabled, but the legal disclosure still says that all links are non-affiliate");
 }
 
-console.log(`Data check passed: ${products.length} products in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, 1 sourced guide, ${sourceQueue.length} queued sources.`);
+console.log(`Data check passed: ${products.length} products in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, ${planningGuides.length + 1} sourced guides, ${sourceQueue.length} queued sources.`);

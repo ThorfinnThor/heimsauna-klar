@@ -11,6 +11,7 @@ export function SiteHeader() {
       <nav className="nav" aria-label="Hauptnavigation">
         <Link href="/de/#finder">Sauna-Finder</Link>
         <Link href="/de/produkte/">Produkte</Link>
+        <Link href="/de/planung/">Planung</Link>
         <Link href="/de/saunatechnik/230-v-sauna/">230 V verstehen</Link>
       </nav>
       <Link className="header-cta" href="/de/#finder">Passenden Typ finden</Link>

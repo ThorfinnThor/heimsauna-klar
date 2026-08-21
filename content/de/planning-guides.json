@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "platzbedarf",
+    "eyebrow": "Planung · Innenraum und Kabine",
+    "title": "Wie viel Platz braucht eine Sauna?",
+    "accent": "Außenmaß ist erst der Anfang.",
+    "description": "Sauna-Platzbedarf richtig planen: Kabinenmaß, Herstellerabstände, Deckenhöhe, Montageweg und Ofenauslegung nachvollziehbar prüfen.",
+    "updated_at": "2026-08-21",
+    "summary": "Plane nicht nur Breite × Tiefe der Kabine. Entscheidend sind zusätzlich produktspezifische Wand- und Deckenabstände, Türöffnung, Montagezugang, Raumhöhe und der zur Raumkonstruktion passende Ofen.",
+    "sections": [
+      {
+        "title": "Vom Außenmaß zur realen Planungsfläche",
+        "copy": "Das Produktmaß beschreibt die Kabine, nicht automatisch den vollständig benötigten Raum. Addiere die in der konkreten Montageanleitung geforderten Abstände und prüfe, ob Lüftungsöffnungen frei bleiben. Karibu nennt für seine Kabinen beispielsweise mindestens zehn Zentimeter zur Außenwand und Decke; andere Systeme können abweichen.",
+        "points": ["Kabinenmaß B × T × H erfassen", "Abstände aus der Modellanleitung addieren", "Türschwenkbereich und Wartungszugang freihalten"]
+      },
+      {
+        "title": "Raumhöhe und Montageweg",
+        "copy": "Die lichte Raumhöhe muss nicht nur über der fertigen Kabine ausreichen. Deckenelemente, Verschraubung und Montageablauf benötigen Bewegungsraum. Prüfe außerdem Paketlängen, Treppen, Türen und enge Kurven auf dem Weg zum Aufstellort.",
+        "points": ["Lichte Höhe an mehreren Stellen messen", "Montagefolge vorab in der Anleitung lesen", "Transportweg bis zum Raum vollständig prüfen"]
+      },
+      {
+        "title": "Ofen nicht nur nach Grundfläche wählen",
+        "copy": "Harvia dimensioniert die Leistung nach dem berechneten Saunavolumen und berücksichtigt dabei unter anderem Glas sowie wärmespeichernde Flächen. Nutze daher den Rechner oder die Tabelle des tatsächlich gewählten Ofens; eine pauschale Ableitung aus der Stellfläche reicht nicht.",
+        "points": ["Innenvolumen statt Stellfläche verwenden", "Glas und ungedämmte Flächen berücksichtigen", "Zulässigen Volumenbereich des Ofens abgleichen"]
+      }
+    ],
+    "checklist": ["Aufstellraum an mehreren Punkten messen", "Modellspezifische Wand- und Deckenabstände notieren", "Türöffnung und Fluchtweg freihalten", "Anlieferungs- und Montageweg prüfen", "Ofenleistung anhand Herstellerunterlagen bestätigen"],
+    "sources": [
+      {"title": "Karibu · Planung der eigenen Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"},
+      {"title": "Harvia · Sauna volume calculator", "url": "https://www.harvia.com/en-US/sauna/saunas/sauna-calculator/", "checked_at": "2026-08-21"},
+      {"title": "Harvia · Installationsanleitung mit Saunaraum-Struktur", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/734", "checked_at": "2026-08-21"}
+    ]
+  },
+  {
+    "slug": "lueftung",
+    "eyebrow": "Planung · Zu- und Abluft",
+    "title": "Sauna-Lüftung planen",
+    "accent": "Luftweg vor Lochgröße.",
+    "description": "Sauna-Lüftung verständlich planen: Zu- und Abluft, Trocknung, Herstellerabstände und Unterschiede zwischen natürlicher und mechanischer Lüftung.",
+    "updated_at": "2026-08-21",
+    "summary": "Eine belastbare Lüftungsplanung verbindet Zuluft, Abluft und Trocknung. Position und Dimension hängen vom Ofen, der Kabine und davon ab, ob die Lüftung natürlich oder mechanisch arbeitet.",
+    "sections": [
+      {
+        "title": "Ein zusammenhängender Luftweg",
+        "copy": "Zuluft und Abluft dürfen nicht unabhängig voneinander betrachtet werden. Harvia beschreibt in einer Ofenanleitung einen sechsfachen Luftwechsel pro Stunde und unterschiedliche Zuluftpositionen für mechanische beziehungsweise natürliche Lüftung. Diese Angaben sind ein Planungsbeispiel, ersetzen aber nicht die Anleitung des gewählten Systems.",
+        "points": ["Lüftungsart festlegen", "Zuluftposition mit Ofen und Fühler abstimmen", "Abluft möglichst weit vom Ofen planen"]
+      },
+      {
+        "title": "Öffnungen und Hinterlüftung freihalten",
+        "copy": "Bei Fertigkabinen sind Lüftungsöffnungen Teil des Produkts. Karibu weist darauf hin, dass bodennahe Be- und Entlüftungsschlitze sowie die Hinterlüftung nicht durch eine zu enge Wandstellung blockiert werden dürfen.",
+        "points": ["Öffnungen am konkreten Modell lokalisieren", "Herstellerabstände nicht zustellen", "Verkleidungen und Möbel aus dem Luftweg halten"]
+      },
+      {
+        "title": "Trocknung nach der Nutzung",
+        "copy": "Neben der Luftführung während des Saunierens muss Feuchtigkeit anschließend abgeführt werden. Einige Systeme sehen dafür eine separate Trocknungsöffnung oder eine definierte Nachlüftung vor. Halte dich an die Betriebs- und Pflegehinweise der Kabine und des Ofens.",
+        "points": ["Trocknungsweg vor dem Einbau klären", "Nachlüftung in die Routine aufnehmen", "Feuchteschäden nicht mit Duft oder Reinigung überdecken"]
+      }
+    ],
+    "checklist": ["Natürliche oder mechanische Lüftung bestimmen", "Zuluft, Abluft und Trocknung gemeinsam skizzieren", "Fühlerposition aus der Ofenanleitung übernehmen", "Kabinenöffnungen und Wandabstände freihalten", "Plan bei Unsicherheit mit Fachbetrieb abstimmen"],
+    "sources": [
+      {"title": "Harvia · Ofenanleitung mit Saunaraum-Lüftung", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306", "checked_at": "2026-08-21"},
+      {"title": "Karibu · Planung der eigenen Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"}
+    ]
+  },
+  {
+    "slug": "boden-und-fundament",
+    "eyebrow": "Planung · tragfähiger Untergrund",
+    "title": "Sauna-Boden und Fundament",
+    "accent": "innen und außen getrennt planen.",
+    "description": "Untergrund für Indoor- und Outdoor-Saunen planen: ebener Boden, Fundament, Feuchtigkeitssperre, Verankerung und Unterlüftung.",
+    "updated_at": "2026-08-21",
+    "summary": "Innenkabinen benötigen einen festen, ebenen und zur Anleitung passenden Boden. Außensaunen brauchen zusätzlich ein fachgerecht ausgeführtes Fundament, Feuchtigkeitsschutz, Verankerung und eine funktionierende Unterlüftung.",
+    "sections": [
+      {
+        "title": "Indoor: fest, eben und reinigungsgeeignet",
+        "copy": "Karibu verlangt für seine Kabinen einen festen und geraden Untergrund und nennt Fliesen als geeignete Lösung. Prüfe dennoch die Anleitung des konkreten Modells, insbesondere wenn Fußbodenheizung, Gefälle oder feuchte Bausubstanz vorhanden sind.",
+        "points": ["Ebenheit und Gefälle kontrollieren", "Feuchte Bausubstanz vorab klären", "Bodenaufbau mit Modellanleitung abgleichen"]
+      },
+      {
+        "title": "Outdoor: Fundament als eigenes Bauprojekt",
+        "copy": "Die WEKA-Montageanleitung für ein Saunahaus setzt ein waagerechtes und rechtwinkliges Fundament voraus und empfiehlt ein Plattenfundament. Fundamentart, Frostsicherheit und Ausführung müssen zum Produkt, Boden und Standort passen.",
+        "points": ["Fundamentplan des Modells beschaffen", "Gelände und Höhen ausgleichen", "Rechtwinkligkeit über Diagonalen prüfen"]
+      },
+      {
+        "title": "Feuchtigkeit, Verankerung und Unterlüftung",
+        "copy": "WEKA empfiehlt zwischen Fundament und Bodenbalken eine Sperrschicht gegen aufsteigende Feuchtigkeit sowie eine Befestigung am Fundament. Die Zwischenräume der Bodenbalken dienen der Unterlüftung und sollen nicht abgedichtet werden.",
+        "points": ["Feuchtigkeitssperre vorsehen", "Verankerung gegen Windlast planen", "Unterlüftung dauerhaft offen halten"]
+      }
+    ],
+    "checklist": ["Modellspezifischen Fundamentplan anfordern", "Untergrund und Feuchtigkeit prüfen", "Fundament waagerecht und rechtwinklig ausführen", "Sperrschicht und Verankerung festlegen", "Örtliche Genehmigungs- und Abstandsregeln klären"],
+    "sources": [
+      {"title": "WEKA · Montageanleitung Saunahaus", "url": "https://www.weka-holzbau.com/media/ca/f3/a3/1767883840/MA800_0286_26_04.pdf?ts=1773994504", "checked_at": "2026-08-21"},
+      {"title": "Karibu · Planung der eigenen Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"},
+      {"title": "Karibu · Garantie und wichtige Aufbauhinweise", "url": "https://www.karibu.de/info/files/media/pages/services/kontrollzettel/saunasortiment/Kontollzettel-Sauna-DE.pdf", "checked_at": "2026-08-21"}
+    ]
+  },
+  {
+    "slug": "sauna-kosten",
+    "eyebrow": "Planung · Produktpreis und Projektbudget",
+    "title": "Was kostet eine Heimsauna?",
+    "accent": "Produktpreis ist nicht Gesamtpreis.",
+    "description": "Aktuelle Heimsauna-Produktpreise aus dem verifizierten Katalog plus die zusätzlichen Kostenblöcke für Lieferung, Aufbau, Fundament und Elektroarbeiten.",
+    "updated_at": "2026-08-21",
+    "summary": "Unser Katalog zeigt den dokumentierten Produktpreis. Für ein realistisches Projektbudget müssen Lieferung, Montage, Anschluss, Untergrund oder Fundament und notwendiges Zubehör separat geprüft werden.",
+    "catalog_snapshot": "product_prices",
+    "sections": [
+      {
+        "title": "Produktpreis als belastbare Ausgangsbasis",
+        "copy": "Die Preisübersicht auf dieser Seite wird beim statischen Build direkt aus den geprüften Angeboten im Produktkatalog berechnet. Sie zeigt Marktbreite und Median, ist aber kein Angebot und keine Prognose für dein konkretes Projekt.",
+        "points": ["Prüfdatum je Angebot beachten", "Lieferumfang des Modells öffnen", "Preis beim Anbieter vor Bestellung bestätigen"]
+      },
+      {
+        "title": "Zusatzposten getrennt kalkulieren",
+        "copy": "Je nach Produkt können Transport, Montage, Elektroanschluss, Fundament, Dacheindeckung, Wetterschutz, Ofen, Steuerung, Steine oder Beleuchtung fehlen. Eine einzige pauschale Zusatzsumme wäre deshalb irreführend.",
+        "points": ["Lieferung und Entladung", "Montage und notwendige Facharbeiten", "Untergrund, Fundament und Zubehör"]
+      },
+      {
+        "title": "Angebote vergleichbar machen",
+        "copy": "Vergleiche nicht nur Endbeträge. Notiere pro Angebot dieselben Positionen und kennzeichne, was enthalten, optional oder bauseits zu leisten ist. Erst danach wird sichtbar, welches Modell im eigenen Raum tatsächlich günstiger ist.",
+        "points": ["Gleiche Kostenblöcke je Modell verwenden", "Fehlende Positionen ausdrücklich markieren", "Preisänderungen mit Datum dokumentieren"]
+      }
+    ],
+    "checklist": ["Produkt und Lieferumfang festlegen", "Liefer- und Montagekosten anfragen", "Elektroarbeiten oder Ofenanschluss klären", "Boden beziehungsweise Fundament kalkulieren", "Reserve für Zubehör und ungeplante Arbeiten einplanen"],
+    "sources": [
+      {"title": "Heimsauna Klar · verifizierter Produktkatalog", "url": "https://heimsauna-klar.vercel.app/de/produkte/", "checked_at": "2026-08-21"},
+      {"title": "Harvia · offizieller deutscher Produktshop", "url": "https://shop.harvia.com/de-de/collection/alle-produkte", "checked_at": "2026-08-21"},
+      {"title": "Karibu · Planung und Lieferumfang einer Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"}
+    ]
+  }
+]
