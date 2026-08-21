@@ -151,5 +151,59 @@
     "target_voltage": 230,
     "status": "verified",
     "notes": "Verified from the model page plus WEKA's official 230-V infrared-category source."
+  },
+  {
+    "queue_id": "karibu-eda-71098",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-eda/71098",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified Finnish external-control variant with exact dimensions and current configuration price."
+  },
+  {
+    "queue_id": "karibu-eda-71097",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-eda/71097",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified integrated-control variant with exact dimensions and current configuration price."
+  },
+  {
+    "queue_id": "karibu-jella-6741",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-jella/6741",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified five-sided corner-entry model with exact dimensions and 230-V 3.6-kW configuration."
+  },
+  {
+    "queue_id": "karibu-saja-85918",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-saja/85918",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified integrated-control clear-glass variant with exact technical table data."
+  },
+  {
+    "queue_id": "karibu-saja-85894",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-saja/85894",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified Easy-Bio wood-door variant with exact technical table data."
+  },
+  {
+    "queue_id": "karibu-fanja-85868",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-fanja/85868",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified Finnish wood-door variant without roof ring; exact dimensions and 230-V data are explicit."
   }
 ]
