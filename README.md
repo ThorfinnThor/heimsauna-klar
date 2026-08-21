@@ -25,7 +25,8 @@ npm run build
 
 - `content/de/home.json`: German homepage copy
 - `data/sauna-archetypes.json`: type-level finder data
-- `data/products.json`: 29 verified manufacturer-sourced product records
+- `data/products.json`: 150 verified manufacturer-sourced product records
+- `data/launch-readiness.json`: machine-readable launch and indexing gates
 - `data/schema/product.schema.json`: product contract
 
 Products must not be published as verified without an official manufacturer or manual source. The validator also rejects duplicate IDs, missing core fields, invalid or future check dates, duplicate offers/sources, and verified queue entries that have no published product record.
@@ -36,11 +37,12 @@ Affiliate links are disabled by default. Every offer merchant and target host mu
 
 ## Deployment
 
-Set `NEXT_PUBLIC_SITE_URL` in Vercel to the canonical production origin, for example `https://brand.com`. Indexing is a separate launch gate: pages remain `noindex` and `robots.txt` blocks crawling until `SITE_INDEXABLE=true` is explicitly set. Only enable that flag after the legal page, brand and canonical domain are final.
+Set `NEXT_PUBLIC_SITE_URL` in Vercel to the canonical production origin, for example `https://brand.com`. Indexing is a separate launch gate: pages remain `noindex` and `robots.txt` blocks crawling until `SITE_INDEXABLE=true` is explicitly set and every required entry in `data/launch-readiness.json` is `ready`. The data check rejects an indexable build while a legal placeholder or launch blocker remains.
 
 ## Next product slice
 
 1. Confirm the operator details, brand name and final production domain.
-2. Review price semantics for configurable manufacturer pages and keep `from` separate from a selected configuration price.
-3. Add category filters and editorial grouping once the catalog grows beyond the current static list.
+2. Complete the legal review and mark the corresponding launch gates as ready.
+3. Apply to a suitable German partner program; map approved tracking links only after acceptance.
 4. Add source-specific ingestion only after a stable feed exists; generated pull requests are preferred over direct production writes.
+5. Enable indexing only after the final gate audit passes on the canonical domain.

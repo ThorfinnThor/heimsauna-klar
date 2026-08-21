@@ -18,7 +18,7 @@ export default function LegalPage() {
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Rechtliches</span></nav>
         <p className="eyebrow">Vor Veröffentlichung ausfüllen</p>
         <h1>Rechtliches,<span>ohne Platzhalter zu verstecken.</span></h1>
-        <p className="legal-intro">{legal.notice}</p>
+        <p className="legal-intro">{legal.notice} <Link className="text-link" href="/de/transparenz/launch/">Launch- und Indexierungsstatus öffnen ↗</Link></p>
 
         <section className="legal-block" id="impressum" aria-labelledby="impressum-title">
           <p className="eyebrow">01</p>

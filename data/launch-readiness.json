@@ -1,0 +1,80 @@
+{
+  "updated_at": "2026-08-21",
+  "market": "Deutschland",
+  "publication_status": "prototype",
+  "title": "Launch-Status",
+  "accent": "Indexierung bleibt bis zur echten Freigabe gesperrt.",
+  "description": "Der technische Prototyp ist öffentlich erreichbar, wird aber erst nach vollständigen Betreiberangaben, Rechtsprüfung, Markenentscheidung und finaler Domain für Suchmaschinen freigegeben.",
+  "gates": [
+    {
+      "id": "catalog_quality",
+      "title": "Produktkatalog und Datenprüfung",
+      "status": "ready",
+      "required_for_indexing": true,
+      "detail": "150 Produktdatensätze werden bei jedem Build gegen Quellen-, Preis-, Händler- und Schemakriterien geprüft."
+    },
+    {
+      "id": "source_traceability",
+      "title": "Quellen und Prüfstände",
+      "status": "ready",
+      "required_for_indexing": true,
+      "detail": "Veröffentlichte Produkte besitzen offizielle Hersteller- oder Handbuchquellen und datierte Prüfstände."
+    },
+    {
+      "id": "static_export",
+      "title": "Statische Auslieferung",
+      "status": "ready",
+      "required_for_indexing": true,
+      "detail": "Next.js erzeugt alle Seiten beim Build als statische Dateien; es gibt keine Laufzeitdatenbank."
+    },
+    {
+      "id": "privacy_minimization",
+      "title": "Datensparsame Technik",
+      "status": "ready",
+      "required_for_indexing": true,
+      "detail": "Der Prototyp nutzt keine Formulare, Nutzerkonten, Analyse- oder Marketing-Skripte."
+    },
+    {
+      "id": "affiliate_controls",
+      "title": "Affiliate-Schutzregeln",
+      "status": "ready",
+      "required_for_indexing": true,
+      "detail": "Affiliate-Links sind inaktiv und können ohne registrierten Händler sowie genehmigtes Programm nicht aktiviert werden."
+    },
+    {
+      "id": "operator_identity",
+      "title": "Betreiberangaben",
+      "status": "blocked",
+      "required_for_indexing": true,
+      "detail": "Name beziehungsweise Unternehmen, ladungsfähige Anschrift und Kontaktangaben fehlen noch."
+    },
+    {
+      "id": "legal_review",
+      "title": "Finale Rechtsprüfung",
+      "status": "blocked",
+      "required_for_indexing": true,
+      "detail": "Impressum und Datenschutzerklärung sind als sichtbarer Vorab-Entwurf markiert und noch nicht final geprüft."
+    },
+    {
+      "id": "brand_name",
+      "title": "Markenentscheidung",
+      "status": "blocked",
+      "required_for_indexing": true,
+      "detail": "Heimsauna Klar wird weiterhin ausdrücklich als Arbeitstitel geführt."
+    },
+    {
+      "id": "canonical_domain",
+      "title": "Finale Domain",
+      "status": "blocked",
+      "required_for_indexing": true,
+      "detail": "Die vercel.app-Adresse dient vorerst als Vorschau; die spätere Hauptdomain steht noch nicht fest."
+    },
+    {
+      "id": "affiliate_program",
+      "title": "Partnerprogramm-Freigabe",
+      "status": "planned",
+      "required_for_indexing": false,
+      "detail": "Für den redaktionellen Launch nicht erforderlich. Trackinglinks werden erst nach separater Programmaufnahme aktiviert."
+    }
+  ]
+}

@@ -7,6 +7,7 @@ const voltageGuide = JSON.parse(await readFile(new URL("../content/de/guides/230
 const legal = JSON.parse(await readFile(new URL("../content/de/legal.json", import.meta.url), "utf8"));
 const affiliatePolicy = JSON.parse(await readFile(new URL("../content/de/affiliate.json", import.meta.url), "utf8"));
 const merchants = JSON.parse(await readFile(new URL("../data/merchants.json", import.meta.url), "utf8"));
+const launchReadiness = JSON.parse(await readFile(new URL("../data/launch-readiness.json", import.meta.url), "utf8"));
 const planningGuides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const today = new Date().toISOString().slice(0, 10);
@@ -40,6 +41,31 @@ if (!Array.isArray(affiliatePolicy.launch_gates) || affiliatePolicy.launch_gates
 }
 if (!["inactive", "active"].includes(affiliatePolicy.current_status)) throw new Error("Affiliate policy has an invalid current status");
 assertIsoDate(affiliatePolicy.updated_at, "Affiliate policy updated_at");
+
+if (!launchReadiness.title || launchReadiness.market !== "Deutschland" || !Array.isArray(launchReadiness.gates)) {
+  throw new Error("data/launch-readiness.json must contain the German launch gate registry");
+}
+assertIsoDate(launchReadiness.updated_at, "Launch readiness updated_at");
+if (!["prototype", "launch-ready"].includes(launchReadiness.publication_status)) {
+  throw new Error("Launch readiness has an invalid publication status");
+}
+const launchGateIds = new Set();
+for (const gate of launchReadiness.gates) {
+  for (const key of ["id", "title", "status", "detail"]) {
+    if (typeof gate[key] !== "string" || gate[key].trim() === "") throw new Error(`Launch gate is missing ${key}`);
+  }
+  if (launchGateIds.has(gate.id)) throw new Error(`Duplicate launch gate id: ${gate.id}`);
+  launchGateIds.add(gate.id);
+  if (!["ready", "blocked", "planned"].includes(gate.status)) throw new Error(`${gate.id} has an invalid launch status`);
+  if (typeof gate.required_for_indexing !== "boolean") throw new Error(`${gate.id} needs required_for_indexing`);
+  if (gate.required_for_indexing && gate.status === "planned") throw new Error(`${gate.id} cannot be planned when required for indexing`);
+}
+const requiredLaunchGates = launchReadiness.gates.filter((gate) => gate.required_for_indexing);
+const blockingLaunchGates = requiredLaunchGates.filter((gate) => gate.status !== "ready");
+if (requiredLaunchGates.length === 0) throw new Error("Launch readiness needs indexing gates");
+if ((blockingLaunchGates.length === 0) !== (launchReadiness.publication_status === "launch-ready")) {
+  throw new Error("Launch publication status does not match the required gate states");
+}
 
 const affiliatePrograms = affiliatePolicy.programs;
 if (!Array.isArray(affiliatePrograms) || affiliatePrograms.length === 0) throw new Error("Affiliate policy must contain program candidates");
@@ -332,6 +358,9 @@ for (const source of voltageGuide.sources) {
 assertIsoDate(voltageGuide.updated_at, "230-V guide updated_at");
 
 const legalText = JSON.stringify(legal);
+if (process.env.SITE_INDEXABLE === "true" && blockingLaunchGates.length > 0) {
+  throw new Error(`SITE_INDEXABLE cannot be enabled while launch gates are open: ${blockingLaunchGates.map((gate) => gate.id).join(", ")}`);
+}
 if (process.env.SITE_INDEXABLE === "true" && (legalText.includes("[ergänzen]") || legal.notice?.startsWith("Vorab-Entwurf"))) {
   throw new Error("SITE_INDEXABLE cannot be enabled while the legal pages still contain draft placeholders");
 }
@@ -342,4 +371,4 @@ if ((affiliateOfferCount > 0) !== (affiliatePolicy.current_status === "active"))
   throw new Error("Affiliate policy status does not match active product offers");
 }
 
-console.log(`Data check passed: ${products.length} products in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, ${planningGuides.length + 1} sourced guides, ${merchants.length} merchants, ${affiliatePrograms.length} affiliate candidates, ${affiliateOfferCount} active affiliate links, ${sourceQueue.length} queued sources.`);
+console.log(`Data check passed: ${products.length} products in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, ${planningGuides.length + 1} sourced guides, ${merchants.length} merchants, ${affiliatePrograms.length} affiliate candidates, ${affiliateOfferCount} active affiliate links, ${requiredLaunchGates.length - blockingLaunchGates.length}/${requiredLaunchGates.length} launch gates ready, ${sourceQueue.length} queued sources.`);

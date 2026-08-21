@@ -711,6 +711,12 @@ footer {
 .affiliate-program-facts div { padding-top: 12px; }
 .affiliate-program-facts dt { color: var(--clay-dark); font-size: 8px; font-weight: 750; text-transform: uppercase; }
 .affiliate-program-facts dd { margin: 5px 0 0; color: var(--ink-soft); font-size: 10px; line-height: 1.45; }
+.launch-gate-card { position: relative; }
+.launch-status-badge { width: fit-content; margin: 22px 0 -12px; padding: 6px 9px; border: 1px solid var(--line); color: var(--ink-soft); font-size: 8px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
+.launch-gate-card[data-status="ready"] .launch-status-badge { border-color: #6e8b70; color: #47634a; }
+.launch-gate-card[data-status="blocked"] .launch-status-badge { border-color: var(--clay); color: var(--clay-dark); }
+.launch-gate-card[data-status="planned"] .launch-status-badge { border-style: dashed; }
+.collection-method code { padding: 2px 5px; background: var(--cream); color: var(--ink); font-size: .92em; }
 
 .planning-sections { border-top: 1px solid var(--line); }
 .planning-section { padding-block: 78px; display: grid; grid-template-columns: 80px .8fr 1.2fr; gap: 4vw; border-bottom: 1px solid var(--line); }
