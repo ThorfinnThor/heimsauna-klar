@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
+import { ProductCatalog } from "@/app/_components/ProductCatalog";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
-import { formatPrice, products } from "@/lib/products";
+import { products } from "@/lib/products";
 
 export const metadata: Metadata = {
   title: "Sauna-Produkte mit geprüften technischen Daten",
@@ -23,25 +24,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <section className="catalog-list page-shell" aria-label="Verifizierte Produkte">
-        {products.map((product, index) => (
-          <article className="catalog-row" key={product.product_id}>
-            <span className="catalog-index">{String(index + 1).padStart(2, "0")}</span>
-            <div>
-              <p className="type-label">{product.brand} · {product.sauna.type}</p>
-              <h2>{product.model}</h2>
-              <p>{product.editorial.disclosure}</p>
-            </div>
-            <dl>
-              <div><dt>Maße</dt><dd>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</dd></div>
-              <div><dt>Strom</dt><dd>{product.power.voltage} V{product.power.kw ? ` · ${product.power.kw} kW` : ""}</dd></div>
-              <div><dt>Kapazität</dt><dd>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</dd></div>
-              <div><dt>Preisstatus</dt><dd>{formatPrice(product)}</dd></div>
-            </dl>
-            <a className="catalog-row-link" href={`/de/produkte/${product.product_id}/`}>Datensatz ansehen <span aria-hidden="true">↗</span></a>
-          </article>
-        ))}
-      </section>
+      <ProductCatalog products={products} />
       <SiteFooter />
     </main>
   );
