@@ -1,7 +1,7 @@
 import Link from "next/link";
 import home from "@/content/de/home.json";
 import archetypes from "@/data/sauna-archetypes.json";
-import { formatGermanDate, formatPrice, getLatestOfferCheck, products } from "@/lib/products";
+import { formatGermanDate, formatPrice, formatVoltage, getLatestOfferCheck, products } from "@/lib/products";
 import { SaunaFinder } from "./SaunaFinder";
 import { SiteFooter, SiteHeader } from "./SiteChrome";
 
@@ -71,7 +71,7 @@ export function HomePage() {
             <article className="product-preview-card" key={product.product_id}>
               <div className="product-preview-top">
                 <span>{product.sauna.type}</span>
-                <span>{product.power.voltage} V</span>
+                <span>{formatVoltage(product.power.voltage)}</span>
               </div>
               <p>{product.brand}</p>
               <h3>{product.model}</h3>
@@ -81,7 +81,7 @@ export function HomePage() {
               </div>
               <div className="product-preview-bottom">
                 <strong>{formatPrice(product)}</strong>
-                <a href={`/de/produkte/${product.product_id}/`} aria-label={`${product.brand} ${product.model} ansehen`}>Details ↗</a>
+                <Link href={`/de/produkte/${product.product_id}/`} aria-label={`${product.brand} ${product.model} ansehen`}>Details ↗</Link>
               </div>
             </article>
           ))}

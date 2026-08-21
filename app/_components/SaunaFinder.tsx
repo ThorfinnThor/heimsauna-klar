@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Product } from "@/lib/products";
 import { formatPrice, rankProducts } from "@/lib/products";
@@ -89,10 +90,10 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
           <div className="finder-matches">
             <p>Aktuell passend im Katalog</p>
             {matchingProducts.slice(0, 2).map((product) => (
-              <a href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
+              <Link href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
                 <span><strong>{product.brand} {product.model}</strong><small>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm · {formatPrice(product)}</small></span>
                 <span aria-hidden="true">↗</span>
-              </a>
+              </Link>
             ))}
           </div>
         ) : (

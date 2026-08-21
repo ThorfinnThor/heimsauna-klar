@@ -57,11 +57,15 @@ for (const item of archetypes) {
 }
 
 const productIds = new Set();
+const productDisplayNames = new Set();
 for (const product of products) {
   const required = ["product_id", "brand", "model", "family", "category", "status", "dimensions_cm", "people", "power", "sauna", "commercial", "editorial", "sources", "updated_at"];
   const missing = required.filter((key) => product[key] === undefined);
   if (missing.length) throw new Error(`${product.product_id ?? "<unknown>"} is missing: ${missing.join(", ")}`);
   if (productIds.has(product.product_id)) throw new Error(`Duplicate product_id: ${product.product_id}`);
+  const displayName = `${product.brand}|${product.model}`;
+  if (productDisplayNames.has(displayName)) throw new Error(`Duplicate product display name: ${displayName}`);
+  productDisplayNames.add(displayName);
   if (!["draft", "verified", "archived"].includes(product.status)) {
     throw new Error(`${product.product_id} has an unsupported status`);
   }
@@ -129,6 +133,11 @@ for (const product of products) {
     }
     if (sourceUrls.has(source.url)) throw new Error(`${product.product_id} has a duplicate source URL`);
     sourceUrls.add(source.url);
+  }
+  for (const offer of product.commercial.offers) {
+    if (!sourceUrls.has(offer.url)) {
+      throw new Error(`${product.product_id} has an offer URL without a matching published source`);
+    }
   }
   if (product.status === "verified" && !product.sources.some((source) => ["manufacturer", "manual"].includes(source.type))) {
     throw new Error(`${product.product_id} needs an official manufacturer or manual source`);
