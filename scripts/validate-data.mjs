@@ -358,6 +358,16 @@ for (const source of voltageGuide.sources) {
 assertIsoDate(voltageGuide.updated_at, "230-V guide updated_at");
 
 const legalText = JSON.stringify(legal);
+assertIsoDate(legal.updated_at, "Legal content updated_at");
+if (!legalText.includes("Schayan Yousefian") || !legalText.includes("Erminger Weg 88") || !legalText.includes("89077 Ulm")) {
+  throw new Error("Legal content is missing the confirmed operator name or address");
+}
+if (!Array.isArray(legal.references) || legal.references.length < 4) throw new Error("Legal content needs official references");
+for (const reference of legal.references) {
+  if (typeof reference.title !== "string" || reference.title.trim() === "") throw new Error("Legal reference is missing a title");
+  assertHttpsUrl(reference.url, `Legal reference URL for ${reference.title}`);
+  assertIsoDate(reference.checked_at, `Legal reference date for ${reference.title}`);
+}
 if (process.env.SITE_INDEXABLE === "true" && blockingLaunchGates.length > 0) {
   throw new Error(`SITE_INDEXABLE cannot be enabled while launch gates are open: ${blockingLaunchGates.map((gate) => gate.id).join(", ")}`);
 }

@@ -1,26 +1,32 @@
 {
-  "notice": "Vorab-Entwurf · Diese Seiten werden vor einer öffentlichen Veröffentlichung mit den vollständigen Betreiber-, Kontakt- und Hostingangaben ergänzt und rechtlich geprüft.",
+  "updated_at": "2026-08-21",
+  "notice": "Arbeitsstand · Name, ladungsfähige Anschrift und Hostinganbieter sind eingetragen. Kontakt-E-Mail und abschließende rechtliche Prüfung fehlen noch; deshalb bleibt die Suchmaschinenindexierung gesperrt.",
   "impressum": {
     "title": "Impressum",
-    "intro": "Verantwortliche Stelle und ladungsfähige Anschrift werden vor Launch ergänzt.",
+    "intro": "Anbieterkennzeichnung gemäß § 5 Digitale-Dienste-Gesetz (DDG).",
     "fields": [
-      "Name / Unternehmen: [ergänzen]",
-      "Anschrift: [ergänzen]",
+      "Schayan Yousefian",
+      "Erminger Weg 88",
+      "89077 Ulm",
       "E-Mail: [ergänzen]",
-      "Vertretungsberechtigte Person: [falls zutreffend ergänzen]"
+      "Inhaltlich verantwortlich: Schayan Yousefian, Anschrift wie oben"
     ]
   },
   "privacy": {
     "title": "Datenschutz",
-    "intro": "Der aktuelle Prototyp hat kein Login, keine Formulare, keine eingebetteten Analyse- oder Marketing-Skripte und keine personalisierten Empfehlungen.",
+    "intro": "Verantwortlicher ist Schayan Yousefian, Erminger Weg 88, 89077 Ulm. Die Kontakt-E-Mail wird vor der Indexierungsfreigabe ergänzt. Der aktuelle Prototyp hat keine Nutzerkonten, Formulare oder personalisierten Empfehlungen.",
     "sections": [
       {
-        "title": "Technischer Betrieb",
-        "copy": "Vor dem Launch müssen Hosting, Server-Logs, Fehlerprotokolle, CDN und eventuelle Drittanbieter vollständig erfasst und in einer finalen Datenschutzerklärung beschrieben werden."
+        "title": "Hosting bei Vercel",
+        "copy": "Die statische Website wird über Vercel bereitgestellt. Bei Seitenaufrufen können technisch erforderliche Verbindungs- und Nutzungsdaten wie IP-Adresse, Zeitstempel, angeforderte Seite sowie Browser- und Geräteinformationen verarbeitet werden. Umfang, Rechtsgrundlage, Speicherdauer und mögliche Drittlandübermittlungen werden vor der Indexierungsfreigabe abschließend geprüft und konkretisiert."
       },
       {
-        "title": "Analyse und Cookies",
-        "copy": "Es ist aktuell kein Analyseanbieter aktiviert. Ein späteres Messsystem wird erst nach Auswahl des Anbieters, Konfiguration der Einwilligung und Aktualisierung dieser Seite veröffentlicht."
+        "title": "Kein eigenes Tracking",
+        "copy": "Es sind aktuell keine eigenen Analyse-, Werbe- oder Marketing-Skripte aktiviert. Ein späteres Messsystem wird erst nach Auswahl des Anbieters, Prüfung der Einwilligungsanforderungen und Aktualisierung dieser Erklärung veröffentlicht."
+      },
+      {
+        "title": "Betroffenenrechte und Kontakt",
+        "copy": "Auskunfts-, Berichtigungs-, Löschungs-, Einschränkungs-, Widerspruchs- und Beschwerdemöglichkeiten werden zusammen mit der Kontakt-E-Mail in der finalen Datenschutzerklärung vollständig beschrieben."
       }
     ]
   },
@@ -37,5 +43,27 @@
         "copy": "Preise und Verfügbarkeiten sind Momentaufnahmen mit Prüfdatum. Sie können sich beim Anbieter ändern."
       }
     ]
-  }
+  },
+  "references": [
+    {
+      "title": "§ 5 DDG · Allgemeine Informationspflichten",
+      "url": "https://www.gesetze-im-internet.de/ddg/__5.html",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "title": "§ 18 Medienstaatsvertrag · Informationspflichten",
+      "url": "https://www.gesetze-bayern.de/Content/Document/MStV/true",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "title": "Datenschutz-Grundverordnung · Artikel 13",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=de",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "title": "Vercel Privacy Notice",
+      "url": "https://vercel.com/legal/privacy-notice",
+      "checked_at": "2026-08-21"
+    }
+  ]
 }

@@ -46,14 +46,14 @@
       "title": "Betreiberangaben",
       "status": "blocked",
       "required_for_indexing": true,
-      "detail": "Name beziehungsweise Unternehmen, ladungsfähige Anschrift und Kontaktangaben fehlen noch."
+      "detail": "Name und ladungsfähige Anschrift sind eingetragen; die Kontakt-E-Mail fehlt noch."
     },
     {
       "id": "legal_review",
       "title": "Finale Rechtsprüfung",
       "status": "blocked",
       "required_for_indexing": true,
-      "detail": "Impressum und Datenschutzerklärung sind als sichtbarer Vorab-Entwurf markiert und noch nicht final geprüft."
+      "detail": "Pflichtangaben, Rechtsquellen und Hosting sind dokumentiert; die individuelle Schlussprüfung und vollständige Datenschutzerklärung fehlen noch."
     },
     {
       "id": "brand_name",
