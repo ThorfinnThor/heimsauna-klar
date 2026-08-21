@@ -63,11 +63,12 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
           <div className="collection-table-wrap">
             <table className="collection-table">
               <caption className="visually-hidden">{collection.title}: Vergleich der passenden Produktdatensätze</caption>
-              <thead><tr><th>Produkt</th><th>Stellfläche</th><th>Außenmaß B × T × H</th><th>Kapazität</th><th>Anschluss</th><th>Preis</th></tr></thead>
+              <thead><tr><th>Produkt</th><th>Aufstellung</th><th>Stellfläche</th><th>Außenmaß B × T × H</th><th>Kapazität</th><th>Anschluss</th><th>Preis</th></tr></thead>
               <tbody>
                 {candidates.map((product) => (
                   <tr key={product.product_id}>
                     <td><small>{product.brand} · {product.sauna.type}</small><Link href={`/de/produkte/${product.product_id}/`}>{product.model} ↗</Link></td>
+                    <td>{product.sauna.indoor_outdoor === "indoor" ? "Innen" : "Außen"}</td>
                     <td>{getFootprintSquareMeters(product).toLocaleString("de-DE", { maximumFractionDigits: 2 })} m²</td>
                     <td>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</td>
                     <td>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</td>

@@ -31,7 +31,7 @@
     "title": "1-Person-Sauna und Infrarotkabine",
     "accent": "für eine Person.",
     "description": "Verifizierte Saunen und Infrarotkabinen, deren Herstellerkapazität auf eine Person begrenzt ist.",
-    "intro": "Aufgenommen werden Innenmodelle, deren veröffentlichte Maximalkapazität eine Person beträgt. Sortiert wird nach Stellfläche, nicht nach vermeintlicher Qualität.",
+    "intro": "Aufgenommen werden Innenmodelle, deren veröffentlichte Maximalkapazität eine Person beträgt. Klassische Sauna und Infrarotkabine bleiben dabei unterschiedliche Wärmearten; sortiert wird nur nach Stellfläche.",
     "rule": "one_person_indoor",
     "sort": "footprint",
     "criteria": [
@@ -99,13 +99,13 @@
     "eyebrow": "Zwei Personen · Innenaufstellung",
     "title": "2-Personen-Sauna für zu Hause",
     "accent": "kompakt gemeinsam nutzen.",
-    "description": "Verifizierte Indoor-Saunen und Infrarotkabinen für maximal zwei Personen – mit Stellfläche, Anschluss und Preisstand.",
+    "description": "Verifizierte Indoor-Saunen und Infrarotkabinen mit einer ausgewiesenen Kapazität von zwei Personen – mit Stellfläche, Anschluss und Preisstand.",
     "intro": "Die Auswahl umfasst Innenmodelle, deren veröffentlichte Maximalkapazität zwei Personen beträgt. Sie ist nach Stellfläche sortiert und kein Komfort- oder Qualitätsranking.",
     "rule": "two_person_indoor",
     "sort": "footprint",
     "criteria": [
       "Indoor-Aufstellung oder Infrarotkabine",
-      "Herstellerkapazität: maximal zwei Personen",
+      "Herstellerkapazität: zwei Personen",
       "Maße und Angebotsstatus mit Quelle dokumentiert"
     ],
     "checks": [
@@ -121,7 +121,7 @@
     "kind": "Kategorie",
     "eyebrow": "Infrarot · kompakte Innenkabinen",
     "title": "Infrarotkabine im Datenvergleich",
-    "accent": "sechs Modelle, ein klares Raster.",
+    "accent": "nach Stellfläche geordnet.",
     "description": "Alle verifizierten Infrarotkabinen im Katalog, sortiert nach rechnerischer Stellfläche und ergänzt um Anschluss, Kapazität und Preis.",
     "intro": "Diese Seite enthält ausschließlich Datensätze mit dem Katalogtyp Infrarotkabine. Infrarotkabinen sind nicht automatisch mit einer finnischen Sauna gleichzusetzen.",
     "rule": "infrared",
@@ -161,26 +161,26 @@
     ]
   },
   {
-    "id": "kleine-gartensauna-bis-6-m2",
+    "id": "fasssauna",
     "section": "outdoor-sauna",
-    "slug": "kleine-gartensauna-bis-6-m2",
+    "slug": "fasssauna",
     "kind": "Kategorie",
-    "eyebrow": "Outdoor · mehr Auswahl für kleine Grundstücke",
-    "title": "Gartensauna bis 6 m² Stellfläche",
-    "accent": "mit Außenmaß statt Bauchgefühl.",
-    "description": "Verifizierte Outdoor-Saunen bis sechs Quadratmeter rechnerischer Stellfläche im Vergleich nach Maß, Kapazität und Preis.",
-    "intro": "Die Grenze beschreibt nur Breite × Tiefe des erfassten Produkts. Fundament, Dachüberstand, Wege und vorgeschriebene Abstände kommen zur Grundstücksplanung hinzu.",
-    "rule": "small_garden_6",
+    "eyebrow": "Outdoor · runde und Quadro-Bauformen",
+    "title": "Fasssauna im Datenvergleich",
+    "accent": "Bauform, Maß und Kapazität.",
+    "description": "Verifizierte Fasssaunen im Vergleich nach Stellfläche, Außenmaß, Kapazität, Anschluss und dokumentiertem Preis.",
+    "intro": "Diese Auswahl enthält Outdoor-Produkte, deren offizielle Modellbezeichnung sie als Fasssauna ausweist. Runde und Quadro-Varianten bleiben als eigenständige Datensätze sichtbar.",
+    "rule": "barrel_sauna",
     "sort": "footprint",
     "criteria": [
       "Vom Hersteller für Außenaufstellung vorgesehen",
-      "Breite × Tiefe höchstens 6,0 m²",
-      "Verifizierte Maße mit Quelle und Prüfdatum"
+      "Offizielle Modellbezeichnung enthält Fasssauna",
+      "Verifizierte Maße und Preise mit Prüfdatum"
     ],
     "checks": [
-      "Grundstücksfläche ist nicht dasselbe wie die reine Kabinenstellfläche.",
-      "Baugenehmigung, Grenzabstände und Fundament frühzeitig klären.",
-      "Strom, Holzofen, Schornstein und Wetterschutz verändern die Gesamtkosten."
+      "Runde und eckige Quadro-Bauformen benötigen unterschiedliche Fundamente und Stellflächen.",
+      "Dachüberstand, Vorraum, Grenzabstände und Genehmigung separat einplanen.",
+      "Ofen, Zuleitung, Schornstein und Wetterschutz verändern die Gesamtkosten."
     ]
   },
   {

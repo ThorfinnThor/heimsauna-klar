@@ -38,7 +38,7 @@ const collectionMatchers = {
   two_person_indoor: (product) => ["indoor", "infrared"].includes(product.category) && product.people.max === 2,
   infrared: (product) => product.category === "infrared",
   bio_sauna: (product) => product.sauna.type === "Bio-Sauna",
-  small_garden_6: (product) => product.category === "outdoor" && product.dimensions_cm.width * product.dimensions_cm.depth <= 60_000,
+  barrel_sauna: (product) => product.category === "outdoor" && product.model.toLowerCase().includes("fasssauna"),
   price_under_4000: (product) => product.commercial.offers.some((offer) => offer.price <= 4_000),
   four_person: (product) => product.people.max === 4,
 };
@@ -49,7 +49,7 @@ for (const collection of collections) {
   if (!["indoor-sauna", "outdoor-sauna", "vergleiche"].includes(collection.section)) {
     throw new Error(`Unsupported collection section: ${collection.id}`);
   }
-  if (!["mini_indoor", "one_person_indoor", "small_garden", "price_under_2500", "two_person_indoor", "infrared", "bio_sauna", "small_garden_6", "price_under_4000", "four_person"].includes(collection.rule)) {
+  if (!["mini_indoor", "one_person_indoor", "small_garden", "price_under_2500", "two_person_indoor", "infrared", "bio_sauna", "barrel_sauna", "price_under_4000", "four_person"].includes(collection.rule)) {
     throw new Error(`Unsupported collection rule: ${collection.id}`);
   }
   if (!["footprint", "price"].includes(collection.sort)) throw new Error(`Unsupported collection sort: ${collection.id}`);

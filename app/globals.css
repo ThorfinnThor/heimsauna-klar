@@ -675,7 +675,7 @@ footer {
 
 .collection-results { padding-block: 95px; border-top: 1px solid var(--line); }
 .collection-table-wrap { overflow-x: auto; border: 1px solid var(--line); }
-.collection-table { width: 100%; min-width: 1050px; border-collapse: collapse; }
+.collection-table { width: 100%; min-width: 1150px; border-collapse: collapse; }
 .collection-table th { padding: 15px; background: var(--ink); color: rgba(255,255,255,.76); font-size: 9px; font-weight: 750; letter-spacing: .09em; text-align: left; text-transform: uppercase; }
 .collection-table td { padding: 18px 15px; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 10px; vertical-align: middle; }
 .collection-table th + th, .collection-table td + td { border-left: 1px solid var(--line); }
