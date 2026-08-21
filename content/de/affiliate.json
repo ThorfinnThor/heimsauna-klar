@@ -86,6 +86,20 @@
       "catalog_merchant_ids": [],
       "url": "https://www.adcell.de/partnerprogramme/1902?showContact=1",
       "checked_at": "2026-08-21"
+    },
+    {
+      "id": "adcell-wellness-point",
+      "name": "Wellness-Point",
+      "network": "ADCELL",
+      "program_id": "5351",
+      "status": "candidate",
+      "focus": "Premium-Wellness mit Saunen, Infrarotkabinen und ergänzenden Home-Wellness-Produkten; für hochpreisige Indoor- und Wellness-Inhalte.",
+      "commission_snapshot": "8–12 % pro Sale, laut Programmbeschreibung 10 % auf valide Verkäufe",
+      "cookie_days": 60,
+      "direct_linking": true,
+      "catalog_merchant_ids": [],
+      "url": "https://www.adcell.de/partnerprogramme/wellness-point",
+      "checked_at": "2026-08-21"
     }
   ]
 }
