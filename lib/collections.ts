@@ -11,7 +11,7 @@ export type Collection = {
   accent: string;
   description: string;
   intro: string;
-  rule: "mini_indoor" | "one_person_indoor" | "small_garden" | "price_under_2500";
+  rule: "mini_indoor" | "one_person_indoor" | "small_garden" | "price_under_2500" | "two_person_indoor" | "infrared" | "bio_sauna" | "small_garden_6" | "price_under_4000" | "four_person";
   sort: "footprint" | "price";
   criteria: string[];
   checks: string[];
@@ -41,7 +41,15 @@ function matchesCollection(product: Product, rule: Collection["rule"]) {
   if (rule === "small_garden") {
     return product.category === "outdoor" && getFootprintSquareMeters(product) <= 5;
   }
-  return product.commercial.offers.some((offer) => offer.price <= 2_500);
+  if (rule === "price_under_2500") return product.commercial.offers.some((offer) => offer.price <= 2_500);
+  if (rule === "two_person_indoor") {
+    return ["indoor", "infrared"].includes(product.category) && product.people.max === 2;
+  }
+  if (rule === "infrared") return product.category === "infrared";
+  if (rule === "bio_sauna") return product.sauna.type === "Bio-Sauna";
+  if (rule === "small_garden_6") return product.category === "outdoor" && getFootprintSquareMeters(product) <= 6;
+  if (rule === "price_under_4000") return product.commercial.offers.some((offer) => offer.price <= 4_000);
+  return product.people.max === 4;
 }
 
 export function getCollectionProducts(collection: Collection) {

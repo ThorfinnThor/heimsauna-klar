@@ -90,5 +90,143 @@
       "Ein niedriger Produktpreis sagt nichts über Verarbeitung oder reale Betriebskosten aus.",
       "Preise sind Momentaufnahmen und werden beim Anbieter vor dem Kauf erneut geprüft."
     ]
+  },
+  {
+    "id": "2-personen-sauna",
+    "section": "indoor-sauna",
+    "slug": "2-personen-sauna",
+    "kind": "Kategorie",
+    "eyebrow": "Zwei Personen · Innenaufstellung",
+    "title": "2-Personen-Sauna für zu Hause",
+    "accent": "kompakt gemeinsam nutzen.",
+    "description": "Verifizierte Indoor-Saunen und Infrarotkabinen für maximal zwei Personen – mit Stellfläche, Anschluss und Preisstand.",
+    "intro": "Die Auswahl umfasst Innenmodelle, deren veröffentlichte Maximalkapazität zwei Personen beträgt. Sie ist nach Stellfläche sortiert und kein Komfort- oder Qualitätsranking.",
+    "rule": "two_person_indoor",
+    "sort": "footprint",
+    "criteria": [
+      "Indoor-Aufstellung oder Infrarotkabine",
+      "Herstellerkapazität: maximal zwei Personen",
+      "Maße und Angebotsstatus mit Quelle dokumentiert"
+    ],
+    "checks": [
+      "Sitzbankbreite und Innenhöhe können trotz ähnlicher Außenmaße stark variieren.",
+      "Für zwei Nutzer müssen Zugang, Belüftung und Wärmeleistung gemeinsam passen.",
+      "Anschluss und Absicherung vor der Bestellung mit Anleitung und Fachbetrieb abgleichen."
+    ]
+  },
+  {
+    "id": "infrarotkabine",
+    "section": "indoor-sauna",
+    "slug": "infrarotkabine",
+    "kind": "Kategorie",
+    "eyebrow": "Infrarot · kompakte Innenkabinen",
+    "title": "Infrarotkabine im Datenvergleich",
+    "accent": "sechs Modelle, ein klares Raster.",
+    "description": "Alle verifizierten Infrarotkabinen im Katalog, sortiert nach rechnerischer Stellfläche und ergänzt um Anschluss, Kapazität und Preis.",
+    "intro": "Diese Seite enthält ausschließlich Datensätze mit dem Katalogtyp Infrarotkabine. Infrarotkabinen sind nicht automatisch mit einer finnischen Sauna gleichzusetzen.",
+    "rule": "infrared",
+    "sort": "footprint",
+    "criteria": [
+      "Saunatyp: Infrarotkabine",
+      "Für Innenaufstellung dokumentiert",
+      "Technische Angaben und Preisquelle geprüft"
+    ],
+    "checks": [
+      "Wärmeart, Strahlerposition und Regelung sind modellabhängig.",
+      "Maximaltemperatur und Nutzungskonzept unterscheiden sich von klassischen Saunaöfen.",
+      "Raumhöhe, Belüftung und elektrischer Anschluss trotzdem vor Ort prüfen."
+    ]
+  },
+  {
+    "id": "bio-sauna",
+    "section": "vergleiche",
+    "slug": "bio-sauna",
+    "kind": "Typvergleich",
+    "eyebrow": "Bio-Sauna · Wärmeprofil einordnen",
+    "title": "Bio-Sauna im Vergleich",
+    "accent": "zwischen trocken und feucht.",
+    "description": "Verifizierte Bio-Sauna-Datensätze mit Maßen, Kapazität, Leistung und Preisstatus – ohne pauschale Komfortwertung.",
+    "intro": "Enthalten sind Produkte, deren Quelle den Typ Bio-Sauna ausweist. Die Bezeichnung allein ersetzt keine Prüfung von Steuerung, Feuchteoption und zulässigem Betriebsprofil.",
+    "rule": "bio_sauna",
+    "sort": "footprint",
+    "criteria": [
+      "Saunatyp laut Produktquelle: Bio-Sauna",
+      "Indoor- und Outdoor-Modelle bleiben als Aufstellort sichtbar",
+      "Keine Bewertung nach vermeintlichem Wellnesskomfort"
+    ],
+    "checks": [
+      "Ofen, Verdampfer und Steuerung müssen als zusammengehöriges System geprüft werden.",
+      "Feuchtebetrieb stellt andere Anforderungen an Raum, Lüftung und Pflege.",
+      "Herstellerangaben und örtliche Anschlussbedingungen haben Vorrang."
+    ]
+  },
+  {
+    "id": "kleine-gartensauna-bis-6-m2",
+    "section": "outdoor-sauna",
+    "slug": "kleine-gartensauna-bis-6-m2",
+    "kind": "Kategorie",
+    "eyebrow": "Outdoor · mehr Auswahl für kleine Grundstücke",
+    "title": "Gartensauna bis 6 m² Stellfläche",
+    "accent": "mit Außenmaß statt Bauchgefühl.",
+    "description": "Verifizierte Outdoor-Saunen bis sechs Quadratmeter rechnerischer Stellfläche im Vergleich nach Maß, Kapazität und Preis.",
+    "intro": "Die Grenze beschreibt nur Breite × Tiefe des erfassten Produkts. Fundament, Dachüberstand, Wege und vorgeschriebene Abstände kommen zur Grundstücksplanung hinzu.",
+    "rule": "small_garden_6",
+    "sort": "footprint",
+    "criteria": [
+      "Vom Hersteller für Außenaufstellung vorgesehen",
+      "Breite × Tiefe höchstens 6,0 m²",
+      "Verifizierte Maße mit Quelle und Prüfdatum"
+    ],
+    "checks": [
+      "Grundstücksfläche ist nicht dasselbe wie die reine Kabinenstellfläche.",
+      "Baugenehmigung, Grenzabstände und Fundament frühzeitig klären.",
+      "Strom, Holzofen, Schornstein und Wetterschutz verändern die Gesamtkosten."
+    ]
+  },
+  {
+    "id": "sauna-bis-4000-euro",
+    "section": "vergleiche",
+    "slug": "sauna-bis-4000-euro",
+    "kind": "Preisvergleich",
+    "eyebrow": "Budgetrahmen · breitere Vorauswahl",
+    "title": "Sauna bis 4.000 Euro",
+    "accent": "nach dokumentiertem Preis.",
+    "description": "Verifizierte Sauna-Angebote bis 4.000 Euro – mit Maßen, Kapazität, Anschlussdaten und transparentem Prüfdatum.",
+    "intro": "Die Preisgrenze bezieht sich auf mindestens ein dokumentiertes Angebot je Datensatz. Lieferung, Montage, Fundament, Elektroarbeiten und Zubehör sind nicht automatisch enthalten.",
+    "rule": "price_under_4000",
+    "sort": "price",
+    "criteria": [
+      "Mindestens ein geprüftes Angebot bis 4.000 Euro",
+      "Preisquelle und Prüfdatum bleiben am Produkt sichtbar",
+      "Sortierung nach Preis, nicht nach Provision oder Score"
+    ],
+    "checks": [
+      "Verfügbarkeit und Lieferkosten können sich kurzfristig ändern.",
+      "Ein Produktpreis ist nicht das vollständige Projektbudget.",
+      "Vor dem Kauf Anschluss, Aufbauumfang und Rückgabebedingungen prüfen."
+    ]
+  },
+  {
+    "id": "4-personen-sauna",
+    "section": "vergleiche",
+    "slug": "4-personen-sauna",
+    "kind": "Kapazitätsvergleich",
+    "eyebrow": "Vier Personen · Kapazität nachvollziehbar",
+    "title": "4-Personen-Sauna im Größenvergleich",
+    "accent": "für gemeinsame Saunazeit.",
+    "description": "Verifizierte Modelle mit einer ausgewiesenen Maximalkapazität von vier Personen, sortiert nach Stellfläche.",
+    "intro": "Die Liste umfasst Indoor- und Outdoor-Modelle mit Herstellerkapazität vier Personen. Kapazitätsangaben sagen allein nichts über Sitzkomfort oder reale Wärmeverteilung aus.",
+    "rule": "four_person",
+    "sort": "footprint",
+    "criteria": [
+      "Maximalkapazität laut Datensatz: vier Personen",
+      "Indoor- und Outdoor-Aufstellort klar getrennt",
+      "Außenmaß, Leistung und Preisstatus nachvollziehbar"
+    ],
+    "checks": [
+      "Sitzanordnung und nutzbare Innenfläche vor dem Kauf im Grundriss prüfen.",
+      "Mehr Personen können höhere Anforderungen an Leistung und Belüftung bedeuten.",
+      "Elektroanschluss, Fundament und Montageumfang separat kalkulieren."
+    ]
   }
 ]
