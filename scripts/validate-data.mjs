@@ -91,7 +91,7 @@ for (const program of affiliatePrograms) {
   affiliateProgramIds.add(program.id);
   if (!["candidate", "applied", "approved", "rejected"].includes(program.status)) throw new Error(`${program.id} has an invalid status`);
   if (!(program.cookie_days > 0) || typeof program.direct_linking !== "boolean") throw new Error(`${program.id} has invalid conditions`);
-  if (!Array.isArray(program.catalog_merchant_ids)) throw new Error(`${program.id} needs catalog merchant ids`);
+  if (!Array.isArray(program.advertiser_merchant_ids)) throw new Error(`${program.id} needs advertiser merchant ids`);
   assertHttpsUrl(program.url, `Affiliate program URL for ${program.id}`);
   assertIsoDate(program.checked_at, `Affiliate program check date for ${program.id}`);
 }
@@ -113,13 +113,32 @@ for (const merchant of merchants) {
   if (!["inactive", "active"].includes(merchant.affiliate?.status)) throw new Error(`${merchant.id} has an invalid affiliate status`);
   if (merchant.affiliate.status === "inactive" && merchant.affiliate.program_id !== null) throw new Error(`${merchant.id} has an inactive affiliate program id`);
   if (!Array.isArray(merchant.candidate_program_ids)) throw new Error(`${merchant.id} needs candidate program ids`);
+  if (merchant.affiliate.status === "active" && !merchant.candidate_program_ids.includes(merchant.affiliate.program_id)) {
+    throw new Error(`${merchant.id} activates a program that is not registered as a candidate`);
+  }
+  if (merchant.affiliate.status === "active") {
+    const activeProgram = affiliatePrograms.find((program) => program.id === merchant.affiliate.program_id);
+    if (activeProgram?.status !== "approved") throw new Error(`${merchant.id} activates an unapproved affiliate program`);
+  }
   for (const programId of merchant.candidate_program_ids) {
     if (!affiliateProgramIds.has(programId)) throw new Error(`${merchant.id} references unknown candidate program ${programId}`);
   }
 }
 for (const program of affiliatePrograms) {
-  for (const merchantId of program.catalog_merchant_ids) {
+  for (const merchantId of program.advertiser_merchant_ids) {
     if (!merchantIds.has(merchantId)) throw new Error(`${program.id} references unknown merchant ${merchantId}`);
+    const merchant = merchants.find((item) => item.id === merchantId);
+    if (!merchant.candidate_program_ids.includes(program.id)) {
+      throw new Error(`${program.id} and ${merchantId} need a bidirectional candidate mapping`);
+    }
+  }
+}
+for (const merchant of merchants) {
+  for (const programId of merchant.candidate_program_ids) {
+    const program = affiliatePrograms.find((item) => item.id === programId);
+    if (!program.advertiser_merchant_ids.includes(merchant.id)) {
+      throw new Error(`${merchant.id} and ${programId} need a bidirectional candidate mapping`);
+    }
   }
 }
 

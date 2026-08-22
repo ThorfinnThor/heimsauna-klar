@@ -35,6 +35,8 @@ Products must not be published as verified without an official manufacturer or m
 
 Affiliate links are disabled by default. Every offer merchant and target host must exist in `data/merchants.json`. Activating an affiliate offer additionally requires an approved program in the merchant registry, a user-visible disclosure, and `sponsored nofollow noreferrer` on the outbound link. Publisher credentials and tracking secrets must never be committed; only the final approved deeplink belongs in product data.
 
+Manufacturer sources and affiliate advertisers are separate merchant records. A retailer carrying Karibu or WEKA products does not turn the manufacturer URL into an affiliate destination. Candidate programs therefore reference their actual advertiser merchant, and an approved retailer offer must be matched to the exact catalog product before activation.
+
 ## Deployment
 
 The primary deployment target is the existing Cloudflare Worker project using

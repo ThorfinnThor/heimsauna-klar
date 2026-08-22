@@ -52,7 +52,7 @@ export default function AffiliateTransparencyPage() {
         <section className="collection-method page-shell" aria-labelledby="merchant-register-title">
           <div><p className="eyebrow">Händlerregister</p><h2 id="merchant-register-title">Jede Ziel-Domain ist freigegeben.</h2></div>
           <div>
-            <ul>{merchantCounts.map(({ merchant, count }) => <li key={merchant.id}><strong>{merchant.name}</strong> · {count} Angebote · {merchant.allowed_hosts.join(", ")} · Affiliate-Status: inaktiv</li>)}</ul>
+            <ul>{merchantCounts.map(({ merchant, count }) => <li key={merchant.id}><strong>{merchant.name}</strong> · {merchant.kind === "manufacturer" ? "Hersteller/Direktanbieter" : "Affiliate-Advertiser"} · {count} Angebote · {merchant.allowed_hosts.join(", ")} · Affiliate-Status: {merchant.affiliate.status === "active" ? "aktiv" : "inaktiv"}</li>)}</ul>
             <p>Ein abweichender Händlername oder eine nicht registrierte Domain lässt den Datencheck fehlschlagen.</p>
           </div>
         </section>

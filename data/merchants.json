@@ -8,7 +8,7 @@
       "status": "inactive",
       "program_id": null
     },
-    "candidate_program_ids": ["adcell-mein-saunashop"]
+    "candidate_program_ids": []
   },
   {
     "id": "harvia",
@@ -26,6 +26,17 @@
     "name": "WEKA",
     "kind": "manufacturer",
     "allowed_hosts": ["weka-holzbau.com"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": []
+  },
+  {
+    "id": "mein-saunashop",
+    "name": "Mein-Saunashop",
+    "kind": "retailer",
+    "allowed_hosts": ["mein-saunashop.de"],
     "affiliate": {
       "status": "inactive",
       "program_id": null

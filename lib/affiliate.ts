@@ -21,7 +21,7 @@ export type AffiliateProgram = {
   commission_snapshot: string;
   cookie_days: number;
   direct_linking: boolean;
-  catalog_merchant_ids: string[];
+  advertiser_merchant_ids: string[];
   url: string;
   checked_at: string;
 };

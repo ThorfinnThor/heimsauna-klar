@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21",
+  "updated_at": "2026-08-22",
   "current_status": "inactive",
   "title": "Affiliate-Transparenz",
   "accent": "Provision darf nie die Auswahlregel verändern.",
@@ -41,9 +41,9 @@
       "commission_snapshot": "4–6 % pro Sale",
       "cookie_days": 60,
       "direct_linking": true,
-      "catalog_merchant_ids": ["karibu", "weka"],
+      "advertiser_merchant_ids": ["mein-saunashop"],
       "url": "https://www.adcell.de/partnerprogramme/mein-saunashop",
-      "checked_at": "2026-08-21"
+      "checked_at": "2026-08-22"
     },
     {
       "id": "adcell-koempf24",
@@ -55,7 +55,7 @@
       "commission_snapshot": "2,5–8 % pro Sale, abhängig von Kundentyp und Publishermodell",
       "cookie_days": 30,
       "direct_linking": true,
-      "catalog_merchant_ids": [],
+      "advertiser_merchant_ids": [],
       "url": "https://www.adcell.de/partnerprogramme/11202",
       "checked_at": "2026-08-21"
     },
@@ -69,7 +69,7 @@
       "commission_snapshot": "8 % pro Sale",
       "cookie_days": 90,
       "direct_linking": true,
-      "catalog_merchant_ids": [],
+      "advertiser_merchant_ids": [],
       "url": "https://www.adcell.de/partnerprogramme/sauna24",
       "checked_at": "2026-08-21"
     },
@@ -83,7 +83,7 @@
       "commission_snapshot": "5–10 % pro Sale laut Programmkonditionen",
       "cookie_days": 75,
       "direct_linking": true,
-      "catalog_merchant_ids": [],
+      "advertiser_merchant_ids": [],
       "url": "https://www.adcell.de/partnerprogramme/1902?showContact=1",
       "checked_at": "2026-08-21"
     },
@@ -97,7 +97,7 @@
       "commission_snapshot": "8–12 % pro Sale, laut Programmbeschreibung 10 % auf valide Verkäufe",
       "cookie_days": 60,
       "direct_linking": true,
-      "catalog_merchant_ids": [],
+      "advertiser_merchant_ids": [],
       "url": "https://www.adcell.de/partnerprogramme/wellness-point",
       "checked_at": "2026-08-21"
     }
