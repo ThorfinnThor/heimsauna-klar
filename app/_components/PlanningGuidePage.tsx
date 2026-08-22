@@ -10,6 +10,7 @@ function formatEuro(value: number) {
 }
 
 export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
+  const guideVariant = getGuideVariant(guide.slug);
   const journey = getPlanningJourney(guide.slug);
   const relatedGuides = journey?.related_slugs.flatMap((slug) => {
     const relatedGuide = getPlanningGuide(slug);
@@ -42,28 +43,30 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
           </div>
         </header>
 
-        <section className="planning-sections page-shell" aria-label="Planungsschritte">
+        {guideVariant === "budget" && guide.catalog_snapshot === "product_prices" ? <GuidePriceSnapshot latestOfferCheck={latestOfferCheck} /> : null}
+
+        <section className={`planning-sections planning-sections-${guideVariant} page-shell`} aria-label="Planungsschritte">
           {guide.sections.map((section, index) => (
-            <section className="planning-section" key={section.title}>
-              <span>0{index + 1}</span>
-              <div><h2>{section.title}</h2><p>{section.copy}</p><ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul></div>
-            </section>
+            guideVariant === "technical" ? (
+              <section className="planning-section planning-section-technical" key={section.title}>
+                <header><span>0{index + 1}</span><h2>{section.title}</h2></header>
+                <div><p>{section.copy}</p><ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul></div>
+              </section>
+            ) : guideVariant === "budget" ? (
+              <section className="planning-section planning-section-budget" key={section.title}>
+                <span>0{index + 1}</span>
+                <div><h2>{section.title}</h2><div className="planning-budget-copy"><ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul><p>{section.copy}</p></div></div>
+              </section>
+            ) : (
+              <section className="planning-section" key={section.title}>
+                <span>0{index + 1}</span>
+                <div><h2>{section.title}</h2><p>{section.copy}</p><ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul></div>
+              </section>
+            )
           ))}
         </section>
 
-        {guide.catalog_snapshot === "product_prices" ? (
-          <section className="price-snapshot page-shell" aria-labelledby="price-snapshot-title">
-            <div className="price-snapshot-head">
-              <div><p className="eyebrow">Katalog-Momentaufnahme</p><h2 id="price-snapshot-title">Produktpreise, die wir belegen können.</h2></div>
-              <p>{latestOfferCheck ? `Angebote zuletzt bis ${formatGermanDate(latestOfferCheck)} geprüft.` : "Kein aktuelles Prüfdatum verfügbar."} Montage- und Projektkosten sind nicht enthalten.</p>
-            </div>
-            <div className="price-snapshot-grid">
-              {getPriceSnapshot().map((item) => (
-                <article key={item.id}><small>{item.label} · {item.count} Preise</small><strong>{formatEuro(item.median)}</strong><span>Median · Spanne {formatEuro(item.minimum)} bis {formatEuro(item.maximum)}</span></article>
-              ))}
-            </div>
-          </section>
-        ) : null}
+        {guideVariant !== "budget" && guide.catalog_snapshot === "product_prices" ? <GuidePriceSnapshot latestOfferCheck={latestOfferCheck} /> : null}
 
         <section className="guide-checks page-shell" aria-labelledby="planning-checklist-title">
           <div><p className="eyebrow">Arbeitsliste</p><h2 id="planning-checklist-title">Vor der Produktauswahl abhaken.</h2></div>
@@ -85,5 +88,27 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
       </article>
       <SiteFooter />
     </main>
+  );
+}
+
+function getGuideVariant(slug: string): "spatial" | "technical" | "budget" {
+  if (["sauna-kosten", "stromverbrauch-heimsauna"].includes(slug)) return "budget";
+  if (["lueftung", "230-v-vs-400-v-sauna", "saunagroesse-3-6-kw", "temperatur-3-6-kw-sauna"].includes(slug)) return "technical";
+  return "spatial";
+}
+
+function GuidePriceSnapshot({ latestOfferCheck }: { latestOfferCheck: string | undefined }) {
+  return (
+    <section className="price-snapshot page-shell" aria-labelledby="price-snapshot-title">
+      <div className="price-snapshot-head">
+        <div><p className="eyebrow">Katalog-Momentaufnahme</p><h2 id="price-snapshot-title">Produktpreise, die wir belegen können.</h2></div>
+        <p>{latestOfferCheck ? `Angebote zuletzt bis ${formatGermanDate(latestOfferCheck)} geprüft.` : "Kein aktuelles Prüfdatum verfügbar."} Montage- und Projektkosten sind nicht enthalten.</p>
+      </div>
+      <div className="price-snapshot-grid">
+        {getPriceSnapshot().map((item) => (
+          <article key={item.id}><small>{item.label} · {item.count} Preise</small><strong>{formatEuro(item.median)}</strong><span>Median · Spanne {formatEuro(item.minimum)} bis {formatEuro(item.maximum)}</span></article>
+        ))}
+      </div>
+    </section>
   );
 }

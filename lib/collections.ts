@@ -11,6 +11,15 @@ export type Collection = {
   accent: string;
   description: string;
   intro: string;
+  layout: "space" | "outdoor" | "budget" | "heat" | "capacity";
+  editorial: {
+    kicker: string;
+    title: string;
+    paragraphs: string[];
+    pointsTitle: string;
+    points: string[];
+    callout: string;
+  };
   rule: "mini_indoor" | "one_person_indoor" | "small_garden" | "price_under_2500" | "two_person_indoor" | "infrared" | "bio_sauna" | "barrel_sauna" | "price_under_4000" | "four_person";
   sort: "footprint" | "price";
   criteria: string[];

@@ -51,6 +51,8 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
           </div>
         </header>
 
+        {collection.layout === "budget" ? <CollectionEditorial collection={collection} /> : null}
+
         <section className="collection-method page-shell" aria-labelledby="collection-method-title">
           <div>
             <p className="eyebrow">Auswahlregel</p>
@@ -63,6 +65,8 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
             <p>Stand der Angebotsprüfung: <strong>{latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</strong>. Kein Modell wurde für diese Liste bezahlt oder redaktionell hochgestuft.</p>
           </div>
         </section>
+
+        {collection.layout === "outdoor" ? <CollectionEditorial collection={collection} /> : null}
 
         <section className="collection-results page-shell" aria-labelledby="collection-results-title">
           <div className="collection-results-head">
@@ -90,6 +94,8 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
           </div>
         </section>
 
+        {collection.layout === "space" || collection.layout === "capacity" ? <CollectionEditorial collection={collection} /> : null}
+
         <section className="collection-checks page-shell" aria-labelledby="collection-checks-title">
           <div><p className="eyebrow">Vor dem Kauf</p><h2 id="collection-checks-title">Drei Punkte, die die Tabelle nicht ersetzt.</h2></div>
           <ol>
@@ -98,6 +104,8 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
             ))}
           </ol>
         </section>
+
+        {collection.layout === "heat" ? <CollectionEditorial collection={collection} /> : null}
 
         <aside className="collection-related page-shell" aria-labelledby="collection-related-title">
           <div><p className="eyebrow">Weiter eingrenzen</p><h2 id="collection-related-title">Andere belastbare Vorauswahlen.</h2></div>
@@ -112,5 +120,81 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
       </article>
       <SiteFooter />
     </main>
+  );
+}
+
+function CollectionEditorial({ collection }: { collection: Collection }) {
+  const { editorial } = collection;
+  if (collection.layout === "budget") {
+    return (
+      <section className="collection-editorial collection-editorial-budget page-shell" aria-labelledby="collection-editorial-title">
+        <div>
+          <p className="eyebrow">{editorial.kicker}</p>
+          <h2 id="collection-editorial-title">{editorial.title}</h2>
+          <p className="editorial-callout">{editorial.callout}</p>
+        </div>
+        <div className="budget-reading">
+          {editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          <h3>{editorial.pointsTitle}</h3>
+          <ul>{editorial.points.map((point) => <li key={point}>{point}</li>)}</ul>
+        </div>
+      </section>
+    );
+  }
+
+  if (collection.layout === "outdoor") {
+    return (
+      <section className="collection-editorial collection-editorial-outdoor page-shell" aria-labelledby="collection-editorial-title">
+        <div>
+          <p className="eyebrow">{editorial.kicker}</p>
+          <h2 id="collection-editorial-title">{editorial.title}</h2>
+          {editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        </div>
+        <div className="outdoor-order">
+          <p className="editorial-callout">{editorial.callout}</p>
+          <p className="eyebrow">{editorial.pointsTitle}</p>
+          <ol>{editorial.points.map((point, index) => <li key={point}><span>0{index + 1}</span>{point}</li>)}</ol>
+        </div>
+      </section>
+    );
+  }
+
+  if (collection.layout === "heat") {
+    return (
+      <section className="collection-editorial collection-editorial-heat page-shell" aria-labelledby="collection-editorial-title">
+        <div className="heat-callout"><p className="eyebrow">{editorial.kicker}</p><blockquote id="collection-editorial-title">{editorial.callout}</blockquote></div>
+        <div>
+          <h2>{editorial.title}</h2>
+          {editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          <h3>{editorial.pointsTitle}</h3>
+          <ul>{editorial.points.map((point) => <li key={point}>{point}</li>)}</ul>
+        </div>
+      </section>
+    );
+  }
+
+  if (collection.layout === "capacity") {
+    return (
+      <section className="collection-editorial collection-editorial-capacity page-shell" aria-labelledby="collection-editorial-title">
+        <div><p className="eyebrow">{editorial.kicker}</p><h2 id="collection-editorial-title">{editorial.title}</h2><p className="editorial-callout">{editorial.callout}</p></div>
+        <div className="capacity-reading">
+          {editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          <div className="capacity-points">{editorial.points.map((point, index) => <div key={point}><span>0{index + 1}</span><p>{point}</p></div>)}</div>
+          <h3>{editorial.pointsTitle}</h3>
+        </div>
+      </section>
+    );
+  }
+
+  return (
+    <section className="collection-editorial collection-editorial-space page-shell" aria-labelledby="collection-editorial-title">
+      <div><p className="eyebrow">{editorial.kicker}</p><h2 id="collection-editorial-title">{editorial.title}</h2></div>
+      <div className="space-reading">
+        {editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        <p className="editorial-callout">{editorial.callout}</p>
+        <h3>{editorial.pointsTitle}</h3>
+        <ul>{editorial.points.map((point) => <li key={point}>{point}</li>)}</ul>
+      </div>
+    </section>
   );
 }

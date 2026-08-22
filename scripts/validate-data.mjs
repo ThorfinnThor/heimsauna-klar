@@ -213,7 +213,7 @@ const collectionMatchers = {
   four_person: (product) => product.people.max === 4,
 };
 for (const collection of collections) {
-  for (const key of ["id", "section", "slug", "kind", "eyebrow", "title", "accent", "description", "intro", "rule", "sort"]) {
+  for (const key of ["id", "section", "slug", "kind", "eyebrow", "title", "accent", "description", "intro", "layout", "rule", "sort"]) {
     if (typeof collection[key] !== "string" || collection[key].trim() === "") throw new Error(`Collection is missing ${key}`);
   }
   if (!["indoor-sauna", "outdoor-sauna", "vergleiche"].includes(collection.section)) {
@@ -223,6 +223,19 @@ for (const collection of collections) {
     throw new Error(`Unsupported collection rule: ${collection.id}`);
   }
   if (!["footprint", "price"].includes(collection.sort)) throw new Error(`Unsupported collection sort: ${collection.id}`);
+  if (!["space", "outdoor", "budget", "heat", "capacity"].includes(collection.layout)) throw new Error(`Unsupported collection layout: ${collection.id}`);
+  if (!collection.editorial || typeof collection.editorial !== "object") throw new Error(`${collection.id} needs editorial copy`);
+  for (const key of ["kicker", "title", "pointsTitle", "callout"]) {
+    if (typeof collection.editorial[key] !== "string" || collection.editorial[key].trim() === "") {
+      throw new Error(`${collection.id} editorial is missing ${key}`);
+    }
+  }
+  if (!Array.isArray(collection.editorial.paragraphs) || collection.editorial.paragraphs.length < 2 || collection.editorial.paragraphs.some((item) => typeof item !== "string" || item.trim() === "")) {
+    throw new Error(`${collection.id} editorial needs at least two paragraphs`);
+  }
+  if (!Array.isArray(collection.editorial.points) || collection.editorial.points.length < 3 || collection.editorial.points.some((item) => typeof item !== "string" || item.trim() === "")) {
+    throw new Error(`${collection.id} editorial needs at least three points`);
+  }
   if (!Array.isArray(collection.criteria) || collection.criteria.length < 3) throw new Error(`${collection.id} needs at least three criteria`);
   if (!Array.isArray(collection.checks) || collection.checks.length < 3) throw new Error(`${collection.id} needs at least three checks`);
   const route = `${collection.section}/${collection.slug}`;
