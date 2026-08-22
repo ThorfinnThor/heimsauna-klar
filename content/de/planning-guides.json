@@ -122,7 +122,7 @@
     ],
     "checklist": ["Produkt und Lieferumfang festlegen", "Liefer- und Montagekosten anfragen", "Elektroarbeiten oder Ofenanschluss klären", "Boden beziehungsweise Fundament kalkulieren", "Reserve für Zubehör und ungeplante Arbeiten einplanen"],
     "sources": [
-      {"title": "Heimsauna Klar · verifizierter Produktkatalog", "url": "https://heimsauna-klar.vercel.app/de/produkte/", "checked_at": "2026-08-21"},
+      {"title": "Heimsauna Klar · verifizierter Produktkatalog", "url": "https://heimsauna-klar.shuu9599.workers.dev/de/produkte/", "checked_at": "2026-08-21"},
       {"title": "Harvia · offizieller deutscher Produktshop", "url": "https://shop.harvia.com/de-de/collection/alle-produkte", "checked_at": "2026-08-21"},
       {"title": "Karibu · Planung und Lieferumfang einer Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"}
     ]
@@ -154,7 +154,7 @@
     ],
     "checklist": ["Spannung und kW des konkreten Modells dokumentieren", "Kabinenvolumen berechnen", "Stromkreis und Absicherung fachlich prüfen lassen", "Montage- und Lüftungsvorgaben lesen", "Anschluss erst nach Freigabe des Elektrofachbetriebs beauftragen"],
     "sources": [
-      {"title": "Heimsauna Klar · 230-V-Sauna verständlich erklärt", "url": "https://heimsauna-klar.vercel.app/de/saunatechnik/230-v-sauna/", "checked_at": "2026-08-21"},
+      {"title": "Heimsauna Klar · 230-V-Sauna verständlich erklärt", "url": "https://heimsauna-klar.shuu9599.workers.dev/de/saunatechnik/230-v-sauna/", "checked_at": "2026-08-21"},
       {"title": "Harvia · Ofenanleitung mit technischen Anschlussdaten", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306", "checked_at": "2026-08-21"},
       {"title": "Harvia · Sauna volume calculator", "url": "https://www.harvia.com/en-US/sauna/saunas/sauna-calculator/", "checked_at": "2026-08-21"}
     ]
@@ -188,7 +188,7 @@
     "sources": [
       {"title": "Karibu · Planung der eigenen Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"},
       {"title": "Harvia · Ofenanleitung mit Saunaraum-Lüftung", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306", "checked_at": "2026-08-21"},
-      {"title": "Heimsauna Klar · Platzbedarf planen", "url": "https://heimsauna-klar.vercel.app/de/planung/platzbedarf/", "checked_at": "2026-08-21"}
+      {"title": "Heimsauna Klar · Platzbedarf planen", "url": "https://heimsauna-klar.shuu9599.workers.dev/de/planung/platzbedarf/", "checked_at": "2026-08-21"}
     ]
   },
   {
@@ -220,7 +220,7 @@
     "sources": [
       {"title": "Harvia · Ofenanleitung mit Saunaraum-Lüftung", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306", "checked_at": "2026-08-21"},
       {"title": "Karibu · Planung der eigenen Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"},
-      {"title": "Heimsauna Klar · Sauna-Lüftung planen", "url": "https://heimsauna-klar.vercel.app/de/planung/lueftung/", "checked_at": "2026-08-21"}
+      {"title": "Heimsauna Klar · Sauna-Lüftung planen", "url": "https://heimsauna-klar.shuu9599.workers.dev/de/planung/lueftung/", "checked_at": "2026-08-21"}
     ]
   },
   {
@@ -253,6 +253,134 @@
       {"title": "Karibu · Planung der eigenen Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-21"},
       {"title": "Harvia · Sauna volume calculator", "url": "https://www.harvia.com/en-US/sauna/saunas/sauna-calculator/", "checked_at": "2026-08-21"},
       {"title": "Harvia · Installationsanleitung mit Abständen und Raummaßen", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/734", "checked_at": "2026-08-21"}
+    ]
+  },
+  {
+    "slug": "sauna-im-badezimmer",
+    "eyebrow": "Planung · Badezimmer und Feuchtigkeit",
+    "title": "Sauna im Badezimmer planen",
+    "accent": "Raumklima und Kabine zusammen denken.",
+    "description": "Sauna im Badezimmer realistisch planen: Platz, Boden, Feuchtigkeit, Lüftung, Trocknung und Elektroanschluss vor dem Kauf prüfen.",
+    "updated_at": "2026-08-22",
+    "summary": "Ein Badezimmer ist nicht automatisch ein geeigneter Saunaraum. Kabinenabstände, ein ebener Untergrund, freie Lüftungswege, zuverlässige Trocknung und der Anschluss des konkreten Ofens müssen zusammenpassen.",
+    "sections": [
+      {
+        "title": "Kabine und Badezimmer getrennt vermessen",
+        "copy": "Das Außenmaß der Kabine ist nur der Anfang. Karibu nennt für seine Kabinen beispielsweise mindestens zehn Zentimeter Abstand zu Außenwand und Decke, damit Luftzirkulation und Hinterlüftung funktionieren. Maßgeblich bleibt die Anleitung des gewählten Modells.",
+        "points": ["Kabinenmaß und lichte Raumhöhe erfassen", "Modellspezifische Wand- und Deckenabstände addieren", "Türöffnung, Wartung und Laufwege freihalten"]
+      },
+      {
+        "title": "Boden, Spritzwasser und Trocknung prüfen",
+        "copy": "Ein fester, ebener und für den Raum geeigneter Boden ist Voraussetzung. Gleichzeitig darf die Kabine keine vorhandenen Feuchteprobleme verdecken. Plane, wie Badezimmer und Saunakabine nach der Nutzung trocknen, und halte bodennahe Be- und Entlüftungsöffnungen frei.",
+        "points": ["Untergrund auf Ebenheit und Feuchteschäden prüfen", "Spritzwasserbereich und Reinigungsweg berücksichtigen", "Nachlüftung als festen Betriebsablauf festlegen"]
+      },
+      {
+        "title": "Luftführung und Elektroanschluss abstimmen",
+        "copy": "Zuluft, Abluft und Temperaturfühler beeinflussen den Betrieb des Ofens. Harvia weist darauf hin, dass Luftstrom nahe am Fühler die Messung verfälschen kann. Anschluss, Absicherung und Fühlerposition müssen deshalb aus den Unterlagen des konkreten Systems übernommen und fachlich umgesetzt werden.",
+        "points": ["Zuluft, Abluft und Trocknungsweg gemeinsam skizzieren", "Fühlerposition nicht eigenmächtig verändern", "Anschluss und Absicherung vor Bestellung klären"]
+      }
+    ],
+    "checklist": ["Badezimmer und Kabine vollständig vermessen", "Herstellerabstände und Lüftungsöffnungen markieren", "Boden und vorhandene Feuchte prüfen", "Trocknungsweg nach der Nutzung festlegen", "Ofen, Steuerung und Fühler anhand der Anleitung planen", "Elektroanschluss durch einen Fachbetrieb klären"],
+    "sources": [
+      {"title": "Karibu · Planung der eigenen Sauna", "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/saunaplanung", "checked_at": "2026-08-22"},
+      {"title": "Harvia · Einbauort des Temperatursensors", "url": "https://support.harvia.com/hc/de-de/articles/22159468429212-Einbauort-des-Temperatursensors", "checked_at": "2026-08-22"},
+      {"title": "Harvia · Ofenanleitung mit Saunaraum-Lüftung", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306", "checked_at": "2026-08-22"}
+    ]
+  },
+  {
+    "slug": "stromverbrauch-heimsauna",
+    "eyebrow": "Planung · Energie und Betriebskosten",
+    "title": "Stromverbrauch einer Heimsauna berechnen",
+    "accent": "Leistung ist noch kein Verbrauch.",
+    "description": "Stromverbrauch und Betriebskosten einer Heimsauna nachvollziehbar schätzen: kW, Aufheizzeit, Regelbetrieb, Zubehör und eigener Strompreis.",
+    "updated_at": "2026-08-22",
+    "summary": "Für eine einfache Obergrenze gilt: elektrische Leistung in kW × Betriebsdauer in Stunden = Energie in kWh. Der tatsächliche Verbrauch kann niedriger sein, weil die Regelung den Ofen nach dem Aufheizen nicht zwingend dauerhaft mit voller Nennleistung betreibt.",
+    "sections": [
+      {
+        "title": "kW und kWh nicht verwechseln",
+        "copy": "Die kW-Angabe beschreibt die Leistung des Ofens. Multiplizierst du sie mit der Betriebszeit in Stunden, erhältst du eine einfache kWh-Schätzung. Ein 3,6-kW-Ofen über zwei Stunden ergibt damit rechnerisch höchstens 7,2 kWh, wenn er die gesamte Zeit mit voller Nennleistung läuft.",
+        "points": ["Ofenleistung in kW aus dem Datenblatt übernehmen", "Aufheiz- und Nutzungszeit getrennt notieren", "kW × Stunden als einfache Obergrenze berechnen"]
+      },
+      {
+        "title": "Regelbetrieb und Zubehör einbeziehen",
+        "copy": "Nach dem Aufheizen schaltet die Temperaturregelung die Heizleistung abhängig von Sollwert und Messung ein und aus. Raumvolumen, Dämmung, Glasflächen, Lüftung und Umgebungstemperatur beeinflussen den Verlauf. Beleuchtung, Steuerung oder weiteres Zubehör kommen zusätzlich hinzu.",
+        "points": ["Aufheizphase und Haltephase unterscheiden", "Raumkonstruktion als Einflussfaktor dokumentieren", "Zusätzliche elektrische Verbraucher separat erfassen"]
+      },
+      {
+        "title": "Kosten mit dem eigenen Tarif rechnen",
+        "copy": "Multipliziere die geschätzten oder gemessenen kWh mit deinem persönlichen Arbeitspreis pro kWh. Eine pauschale nationale Preisannahme wäre für den einzelnen Vertrag ungenau. Für belastbare Werte ist eine geeignete Messung über mehrere typische Nutzungen besser als die reine Nennleistungsrechnung.",
+        "points": ["Eigenen Arbeitspreis statt Durchschnittswert verwenden", "Grundpreis nicht fälschlich je Saunagang ansetzen", "Schätzung später mit geeigneten Messwerten abgleichen"]
+      }
+    ],
+    "checklist": ["Nennleistung von Ofen und Zubehör notieren", "Aufheiz- und Nutzungsdauer realistisch ansetzen", "Einfache kWh-Obergrenze berechnen", "Eigenen Arbeitspreis aus dem Stromvertrag verwenden", "Für genauere Werte mehrere typische Nutzungen messen", "Änderungen an Temperatur oder Lüftung mit dokumentieren"],
+    "sources": [
+      {"title": "Harvia · Delta D36E 3,6 kW mit technischen Daten", "url": "https://www.harvia.com/de/produkts/HDE364M/delta-d36e-36-kw-schwarz/", "checked_at": "2026-08-22"},
+      {"title": "Harvia · Einbauort des Temperatursensors", "url": "https://support.harvia.com/hc/de-de/articles/22159468429212-Einbauort-des-Temperatursensors", "checked_at": "2026-08-22"},
+      {"title": "Verbraucherzentrale · Energiebedarf und Betriebskosten berechnen", "url": "https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/was-muessen-sie-fuer-die-planung-einer-lueftungsanlage-wissen-5411", "checked_at": "2026-08-22"}
+    ]
+  },
+  {
+    "slug": "saunagroesse-3-6-kw",
+    "eyebrow": "Planung · Ofenleistung und Raumvolumen",
+    "title": "Welche Saunagröße passt zu 3,6 kW?",
+    "accent": "Kubikmeter statt Quadratmeter.",
+    "description": "3,6-kW-Saunaofen passend dimensionieren: Innenvolumen, Glasflächen, Dämmung und den zugelassenen Volumenbereich des konkreten Modells prüfen.",
+    "updated_at": "2026-08-22",
+    "summary": "Eine allgemeine Quadratmeter-Regel reicht nicht. Hersteller ordnen einen 3,6-kW-Ofen einem wirksamen Saunavolumen zu und berücksichtigen dabei auch Glas sowie ungedämmte oder wärmespeichernde Flächen.",
+    "sections": [
+      {
+        "title": "Innenvolumen zuerst berechnen",
+        "copy": "Miss die Innenmaße der fertigen Kabine und berechne Länge × Breite × Höhe. Die Grundfläche allein lässt die Raumhöhe außer Acht und kann deshalb nicht zuverlässig zeigen, ob 3,6 kW passen.",
+        "points": ["Innenmaße statt Außenmaße verwenden", "Länge × Breite × Höhe in Metern rechnen", "Ergebnis in Kubikmetern dokumentieren"]
+      },
+      {
+        "title": "Wirksames Volumen kann größer sein",
+        "copy": "Harvia erklärt, dass Fenster sowie Flächen aus Glas, Stein, Beton oder ungedämmtem Massivholz den Leistungsbedarf erhöhen. Solche Flächen müssen nach der Methode des Herstellers zum berechneten Volumen hinzugerechnet werden.",
+        "points": ["Glasflächen vollständig erfassen", "Ungedämmte und wärmespeichernde Flächen markieren", "Herstellerrechner oder Modelltabelle verwenden"]
+      },
+      {
+        "title": "3,6 kW ist eine Leistungsklasse, keine Freigabe",
+        "copy": "Ein konkretes Beispiel: Harvia gibt für den Delta D36E mit 3,6 kW einen Saunavolumenbereich von 2 bis 4,5 m³ an. Dieser Bereich gilt für dieses Modell und seine Einbauvorgaben; für einen anderen 3,6-kW-Ofen kann die Herstellerangabe abweichen.",
+        "points": ["Zulässigen Volumenbereich des gewählten Ofens prüfen", "Mindesthöhe und Schutzabstände mit abgleichen", "Freigabe nicht von einem anderen 3,6-kW-Modell übertragen"]
+      }
+    ],
+    "checklist": ["Innenlänge, -breite und -höhe messen", "Reines Innenvolumen berechnen", "Glas und ungedämmte Flächen erfassen", "Wirksames Volumen nach Herstellermethode bestimmen", "Zulässigen Volumenbereich des konkreten Ofens abgleichen", "Einbauhöhe, Abstände und Anschluss ebenfalls prüfen"],
+    "sources": [
+      {"title": "Harvia · Delta D36E 3,6 kW mit Volumenbereich", "url": "https://www.harvia.com/de/produkts/HDE364M/delta-d36e-36-kw-schwarz/", "checked_at": "2026-08-22"},
+      {"title": "Harvia · Sauna volume calculator", "url": "https://www.harvia.com/en-US/sauna/saunas/sauna-calculator/", "checked_at": "2026-08-22"},
+      {"title": "Harvia · Auswahl der richtigen Ofenleistung", "url": "https://support.harvia.com/hc/de-de/articles/22158995674524-Wie-w%C3%A4hle-ich-die-richtige-Heizleistung-aus", "checked_at": "2026-08-22"}
+    ]
+  },
+  {
+    "slug": "temperatur-3-6-kw-sauna",
+    "eyebrow": "Planung · Temperatur und Regelung",
+    "title": "Wie heiß wird eine 3,6-kW-Sauna?",
+    "accent": "kW allein bestimmt keine Temperatur.",
+    "description": "Erreichbare Temperatur einer 3,6-kW-Sauna realistisch bewerten: Raumvolumen, Dämmung, Glas, Lüftung, Umgebung, Steuerung und Fühlerposition.",
+    "updated_at": "2026-08-22",
+    "summary": "Aus 3,6 kW lässt sich keine feste Maximal- oder Betriebstemperatur ableiten. Die Leistung muss zum wirksamen Raumvolumen passen; zusätzlich bestimmen Konstruktion, Lüftung, Umgebung, Steuerung und Sensorposition den Heizverlauf.",
+    "sections": [
+      {
+        "title": "Leistung beschreibt nicht das Temperaturziel",
+        "copy": "Die 3,6 kW geben die elektrische Nennleistung des Ofens an. Welche Temperatur eingestellt und stabil erreicht werden kann, hängt vom vollständigen System ab. Eine feste Temperaturzusage allein aus der kW-Angabe wäre deshalb nicht belastbar.",
+        "points": ["Nennleistung und Temperaturbereich getrennt betrachten", "Steuergerät und Ofen als System prüfen", "Keine Temperaturangabe auf fremde Modelle übertragen"]
+      },
+      {
+        "title": "Raum und Wärmeverluste entscheiden mit",
+        "copy": "Innenvolumen, Glas, ungedämmte Flächen, Lüftung und Umgebungstemperatur verändern den Leistungsbedarf. Ist der Ofen für das wirksame Volumen zu klein, verlängert sich die Aufheizung und das gewünschte Niveau kann unter ungünstigen Bedingungen verfehlt werden.",
+        "points": ["Wirksames Raumvolumen nach Herstellerangabe berechnen", "Glas und wärmespeichernde Flächen berücksichtigen", "Lüftung und Ausgangstemperatur dokumentieren"]
+      },
+      {
+        "title": "Fühler und Steuerung korrekt montieren",
+        "copy": "Der Temperaturfühler liefert der Steuerung den Messwert und kann zugleich Teil des Überhitzungsschutzes sein. Harvia warnt, dass eine falsche Position oder nahe Zuluft zu falschen Messwerten und schlechter Heizleistung führen kann. Die modellspezifische Anleitung hat daher Vorrang.",
+        "points": ["Fühlerposition exakt aus der Anleitung übernehmen", "Zuluftabstand zum Fühler beachten", "Sollwert und tatsächliches Raumgefühl nicht gleichsetzen"]
+      }
+    ],
+    "checklist": ["Zulässiges Saunavolumen des konkreten Ofens prüfen", "Glas-, Stein- und ungedämmte Flächen erfassen", "Temperaturbereich des Steuergeräts nachlesen", "Fühlerposition und Zuluft gemeinsam planen", "Aufheizverhalten unter realen Bedingungen beobachten", "Bei Abweichungen Montage und Auslegung fachlich prüfen lassen"],
+    "sources": [
+      {"title": "Harvia · Delta D36E 3,6 kW mit technischen Daten", "url": "https://www.harvia.com/de/produkts/HDE364M/delta-d36e-36-kw-schwarz/", "checked_at": "2026-08-22"},
+      {"title": "Harvia · Einbauort des Temperatursensors", "url": "https://support.harvia.com/hc/de-de/articles/22159468429212-Einbauort-des-Temperatursensors", "checked_at": "2026-08-22"},
+      {"title": "Harvia · Ofenanleitung mit Saunaraum-Lüftung", "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306", "checked_at": "2026-08-22"}
     ]
   }
 ]
