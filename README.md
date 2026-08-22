@@ -52,7 +52,7 @@ directly at `out/` and deliberately has no Worker `main` entry point.
 `npm run deploy:cloudflare` builds and uploads the static assets when a Cloudflare
 login is available.
 
-Set `NEXT_PUBLIC_SITE_URL` in the Cloudflare Pages environment to the canonical production origin, for example `https://brand.com`. Indexing is a separate launch gate: pages remain `noindex` and `robots.txt` blocks crawling until `SITE_INDEXABLE=true` is explicitly set and every required entry in `data/launch-readiness.json` is `ready`. The data check rejects an indexable build while a legal placeholder or launch blocker remains.
+Set `NEXT_PUBLIC_SITE_URL` in the Cloudflare Worker build variables to the canonical production origin. The current fallback is `https://heimsauna-klar.shuu9599.workers.dev`; replace it with the final custom domain later. Indexing is a separate launch gate: pages remain `noindex` and `robots.txt` blocks crawling until `SITE_INDEXABLE=true` is explicitly set and every required entry in `data/launch-readiness.json` is `ready`. The data check rejects an indexable build while a legal placeholder or launch blocker remains.
 
 ## Next product slice
 
