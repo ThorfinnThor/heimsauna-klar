@@ -6,6 +6,8 @@ import type { Product } from "@/lib/products";
 import { formatPower, formatPrice, formatVoltage, getLowestOffer } from "@/lib/products";
 
 type CategoryFilter = "all" | "sauna" | "infrared";
+type PlaceFilter = "all" | "indoor" | "outdoor";
+type PowerFilter = "all" | "230" | "not-stated";
 type CapacityFilter = "all" | "1" | "2" | "3-plus";
 type SortOption = "name" | "price" | "footprint" | "capacity";
 
@@ -18,6 +20,8 @@ function matchesCapacity(product: Product, capacity: CapacityFilter) {
 export function ProductCatalog({ products }: { products: Product[] }) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<CategoryFilter>("all");
+  const [place, setPlace] = useState<PlaceFilter>("all");
+  const [power, setPower] = useState<PowerFilter>("all");
   const [capacity, setCapacity] = useState<CapacityFilter>("all");
   const [sort, setSort] = useState<SortOption>("name");
 
@@ -36,8 +40,11 @@ export function ProductCatalog({ products }: { products: Product[] }) {
           .some((value) => value.toLocaleLowerCase("de-DE").includes(normalizedQuery));
         const matchesCategory = category === "all"
           || (category === "infrared" ? product.category === "infrared" : product.category !== "infrared");
+        const matchesPlace = place === "all" || product.sauna.indoor_outdoor === place;
+        const matchesPower = power === "all"
+          || (power === "230" ? product.power.voltage === 230 : product.power.voltage === "none");
 
-        return matchesQuery && matchesCategory && matchesCapacity(product, capacity);
+        return matchesQuery && matchesCategory && matchesPlace && matchesPower && matchesCapacity(product, capacity);
       })
       .sort((a, b) => {
         if (sort === "price") {
@@ -52,7 +59,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
 
         return `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`, "de");
       });
-  }, [capacity, category, products, query, sort]);
+  }, [capacity, category, place, power, products, query, sort]);
 
   const familyCounts = useMemo(() => products.reduce((counts, product) => {
     if (!product.family) return counts;
@@ -62,11 +69,13 @@ export function ProductCatalog({ products }: { products: Product[] }) {
 
   const saunaProducts = visibleProducts.filter((product) => product.category !== "infrared");
   const infraredProducts = visibleProducts.filter((product) => product.category === "infrared");
-  const hasActiveFilters = query !== "" || category !== "all" || capacity !== "all" || sort !== "name";
+  const hasActiveFilters = query !== "" || category !== "all" || place !== "all" || power !== "all" || capacity !== "all" || sort !== "name";
 
   const resetFilters = () => {
     setQuery("");
     setCategory("all");
+    setPlace("all");
+    setPower("all");
     setCapacity("all");
     setSort("name");
   };
@@ -94,6 +103,30 @@ export function ProductCatalog({ products }: { products: Product[] }) {
             <option value="all">Alle Bereiche</option>
             <option value="sauna">Sauna &amp; Bio</option>
             <option value="infrared">Infrarot</option>
+          </select>
+        </div>
+        <div className="catalog-control">
+          <label htmlFor="catalog-place">Aufstellort</label>
+          <select
+            id="catalog-place"
+            value={place}
+            onChange={(event) => setPlace(event.target.value as PlaceFilter)}
+          >
+            <option value="all">Innen &amp; außen</option>
+            <option value="indoor">Innenraum</option>
+            <option value="outdoor">Garten / außen</option>
+          </select>
+        </div>
+        <div className="catalog-control">
+          <label htmlFor="catalog-power">Anschluss</label>
+          <select
+            id="catalog-power"
+            value={power}
+            onChange={(event) => setPower(event.target.value as PowerFilter)}
+          >
+            <option value="all">Alle Anschlussstände</option>
+            <option value="230">230 V ausgewiesen</option>
+            <option value="not-stated">Nicht ausgewiesen</option>
           </select>
         </div>
         <div className="catalog-control">
