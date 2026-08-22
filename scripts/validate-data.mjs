@@ -298,6 +298,18 @@ for (const product of products) {
   if (product.power.kw !== null && !(product.power.kw > 0)) {
     throw new Error(`${product.product_id} has an invalid power rating`);
   }
+  if (product.power.plug_type !== null && (typeof product.power.plug_type !== "string" || product.power.plug_type.trim() === "")) {
+    throw new Error(`${product.product_id} has an invalid plug type`);
+  }
+  if (typeof product.power.electrician_required !== "boolean") {
+    throw new Error(`${product.product_id} has an invalid electrician requirement`);
+  }
+  if (typeof product.power.notes !== "string" || product.power.notes.trim() === "") {
+    throw new Error(`${product.product_id} needs a power evidence note`);
+  }
+  if (product.power.voltage === "none" && product.power.kw !== null && !product.power.electrician_required) {
+    throw new Error(`${product.product_id} has an unrated connection without an electrician check`);
+  }
   if (!Array.isArray(product.commercial.offers)) throw new Error(`${product.product_id} offers must be an array`);
   if (!["from", "current", "unavailable"].includes(product.commercial.price_status)) {
     throw new Error(`${product.product_id} has an unsupported price status`);

@@ -562,6 +562,8 @@ footer {
 .spec-grid div:nth-last-child(-n+2) { border-bottom: 1px solid var(--line); }
 .spec-grid dt { margin-bottom: 26px; color: var(--clay-dark); font-size: 9px; font-weight: 750; letter-spacing: .09em; text-transform: uppercase; }
 .spec-grid dd { margin: 0; font-family: Georgia, serif; font-size: 20px; }
+.power-evidence-note { margin: 18px 0 0; padding: 18px 20px; border-left: 3px solid var(--clay); background: var(--cream); color: var(--ink-soft); font-size: 14px; line-height: 1.65; }
+.power-evidence-note strong { color: var(--ink); }
 
 .variant-section { padding-block: 90px; border-top: 1px solid var(--line); }
 .variant-intro { max-width: 820px; margin-bottom: 42px; }
