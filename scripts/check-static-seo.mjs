@@ -44,6 +44,17 @@ const issues = [];
 const titles = [];
 const descriptions = [];
 const canonicals = [];
+const productCopy = [];
+
+function plainText(value) {
+  return value
+    .replace(/<[^>]+>/g, " ")
+    .replaceAll("&quot;", '"')
+    .replaceAll("&amp;", "&")
+    .replaceAll("&times;", "×")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
 for (const { file, route } of publicPages) {
   const html = await readFile(file, "utf8");
@@ -56,6 +67,18 @@ for (const { file, route } of publicPages) {
   if (!description) issues.push(`${route}: missing description`);
   if (!canonical) issues.push(`${route}: missing canonical`);
   if (h1Count !== 1) issues.push(`${route}: expected one h1, found ${h1Count}`);
+
+  if (route.startsWith("/de/produkte/") && route !== "/de/produkte/") {
+    const fragments = [...html.matchAll(/<p[^>]*data-product-copy="true"[^>]*>(.*?)<\/p>/gs)]
+      .map((match) => plainText(match[1]))
+      .filter(Boolean);
+    if (fragments.length < 4) issues.push(`${route}: expected at least four product-specific text fragments, found ${fragments.length}`);
+    if (fragments.some((fragment) => fragment.length < 70)) issues.push(`${route}: product-specific text fragment is too short`);
+    if (fragments.some((fragment) => fragment.includes("nicht ausgewiesen und nicht ausgewiesen dokumentiert"))) {
+      issues.push(`${route}: malformed missing-value sentence`);
+    }
+    for (const fragment of fragments) productCopy.push({ route, value: fragment });
+  }
 
   const expectedCanonical = route === "/" ? `${siteUrl}/de/` : `${siteUrl}${route}`;
   if (canonical && canonical !== expectedCanonical) {
@@ -80,7 +103,8 @@ for (const { file, route } of publicPages) {
 issues.push(...collectDuplicates(titles, "title"));
 issues.push(...collectDuplicates(descriptions, "description"));
 issues.push(...collectDuplicates(canonicals, "canonical"));
+issues.push(...collectDuplicates(productCopy, "product-specific copy"));
 
 if (issues.length > 0) throw new Error(`Static SEO check failed:\n${issues.join("\n")}`);
 
-console.log(`Static SEO check passed: ${publicPages.length} pages, unique titles, descriptions and canonicals, one h1 per page, valid JSON-LD.`);
+console.log(`Static SEO check passed: ${publicPages.length} pages, unique titles, descriptions, canonicals and product-specific copy, one h1 per page, valid JSON-LD.`);
