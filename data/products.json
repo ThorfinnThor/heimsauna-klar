@@ -34,6 +34,14 @@
           "url": "https://www.karibu.de/sauna-sandra/6705",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Mein-Saunashop",
+          "price": 1376.97,
+          "availability": "in-stock",
+          "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-sandra-mit-fronteinstieg",
+          "affiliate": false,
+          "last_checked": "2026-08-22"
         }
       ]
     },
@@ -52,9 +60,15 @@
         "title": "Karibu Produktseite Sauna Sandra 6705",
         "url": "https://www.karibu.de/sauna-sandra/6705",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Mein-Saunashop Produktseite Sauna Sandra",
+        "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-sandra-mit-fronteinstieg",
+        "checked_at": "2026-08-22"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "weka-infrarotkabine-milo-1-f",
@@ -148,6 +162,14 @@
           "url": "https://www.karibu.de/sauna-antonia/6717",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Mein-Saunashop",
+          "price": 1412.70,
+          "availability": "in-stock",
+          "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-antonia-mit-eckeinstieg",
+          "affiliate": false,
+          "last_checked": "2026-08-22"
         }
       ]
     },
@@ -166,9 +188,15 @@
         "title": "Karibu Produktseite Sauna Antonia 6717",
         "url": "https://www.karibu.de/sauna-antonia/6717",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Mein-Saunashop Produktseite Sauna Antonia",
+        "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-antonia-mit-eckeinstieg",
+        "checked_at": "2026-08-22"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "karibu-sauna-selena-6730",
@@ -205,6 +233,14 @@
           "url": "https://www.karibu.de/sauna-selena/6730",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Mein-Saunashop",
+          "price": 1543.69,
+          "availability": "in-stock",
+          "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-selena-mit-fronteinstieg",
+          "affiliate": false,
+          "last_checked": "2026-08-22"
         }
       ]
     },
@@ -223,9 +259,15 @@
         "title": "Karibu Produktseite Sauna Selena 6730",
         "url": "https://www.karibu.de/sauna-selena/6730",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Mein-Saunashop Produktseite Sauna Selena",
+        "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-selena-mit-fronteinstieg",
+        "checked_at": "2026-08-22"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "karibu-sauna-eda-71099",
@@ -693,6 +735,13 @@
         "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-137x99-naturbelassen/543.1310.75.00",
         "affiliate": false,
         "last_checked": "2026-08-21"
+      }, {
+        "merchant": "Mein-Saunashop",
+        "price": 2671.63,
+        "availability": "in-stock",
+        "url": "https://www.mein-saunashop.de/weka-infrarot-waermekabine-mila-2-543-graphit-gr-2",
+        "affiliate": false,
+        "last_checked": "2026-08-22"
       }]
     },
     "editorial": {
@@ -706,9 +755,10 @@
     },
     "sources": [
       { "type": "manufacturer", "title": "WEKA Produktseite Infrarotkabine Mila 137x99", "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-137x99-naturbelassen/543.1310.75.00", "checked_at": "2026-08-21" },
+      { "type": "merchant", "title": "Mein-Saunashop Produktseite Weka Mila Gr. 2", "url": "https://www.mein-saunashop.de/weka-infrarot-waermekabine-mila-2-543-graphit-gr-2", "checked_at": "2026-08-22" },
       { "type": "manufacturer", "title": "WEKA Infrarotkabinen-Angebot – 230-V-Anschluss", "url": "https://www.weka-holzbau.com/de/angebote/infrarotkabine-angebot/", "checked_at": "2026-08-21" }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "weka-infrarotkabine-mila-108x99",
@@ -744,6 +794,13 @@
         "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-108x99-naturbelassen/543.1010.75.00",
         "affiliate": false,
         "last_checked": "2026-08-21"
+      }, {
+        "merchant": "Mein-Saunashop",
+        "price": 2417.76,
+        "availability": "in-stock",
+        "url": "https://www.mein-saunashop.de/weka-infrarot-waermekabine-mila-1-543-graphit-gr-1",
+        "affiliate": false,
+        "last_checked": "2026-08-22"
       }]
     },
     "editorial": {
@@ -757,9 +814,10 @@
     },
     "sources": [
       { "type": "manufacturer", "title": "WEKA Produktseite Infrarotkabine Mila 108x99", "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-108x99-naturbelassen/543.1010.75.00", "checked_at": "2026-08-21" },
+      { "type": "merchant", "title": "Mein-Saunashop Produktseite Weka Mila Gr. 1", "url": "https://www.mein-saunashop.de/weka-infrarot-waermekabine-mila-1-543-graphit-gr-1", "checked_at": "2026-08-22" },
       { "type": "manufacturer", "title": "WEKA Infrarotkabinen-Angebot – 230-V-Anschluss", "url": "https://www.weka-holzbau.com/de/angebote/infrarotkabine-angebot/", "checked_at": "2026-08-21" }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "weka-infrarotkabine-tanilla-eck-99x99",
@@ -795,6 +853,13 @@
         "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-eck-99x99-naturbelassen/542.1010.33.20",
         "affiliate": false,
         "last_checked": "2026-08-21"
+      }, {
+        "merchant": "Mein-Saunashop",
+        "price": 2210,
+        "availability": "in-stock",
+        "url": "https://www.mein-saunashop.de/weka-infrarot-kabine-tanilla-eck-542-eck-inkl-lendenstuetze",
+        "affiliate": false,
+        "last_checked": "2026-08-22"
       }]
     },
     "editorial": {
@@ -808,9 +873,10 @@
     },
     "sources": [
       { "type": "manufacturer", "title": "WEKA Produktseite Infrarotkabine Tanilla Eck 99x99", "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-eck-99x99-naturbelassen/542.1010.33.20", "checked_at": "2026-08-21" },
+      { "type": "merchant", "title": "Mein-Saunashop Produktseite Weka Tanilla Eck", "url": "https://www.mein-saunashop.de/weka-infrarot-kabine-tanilla-eck-542-eck-inkl-lendenstuetze", "checked_at": "2026-08-22" },
       { "type": "manufacturer", "title": "WEKA Infrarotkabinen-Angebot – 230-V-Anschluss", "url": "https://www.weka-holzbau.com/de/angebote/infrarotkabine-angebot/", "checked_at": "2026-08-21" }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "weka-infrarotkabine-tanilla-137x99",
@@ -846,6 +912,13 @@
         "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-137x99-naturbelassen/543.1310.33.20",
         "affiliate": false,
         "last_checked": "2026-08-21"
+      }, {
+        "merchant": "Mein-Saunashop",
+        "price": 2309.99,
+        "availability": "in-stock",
+        "url": "https://www.mein-saunashop.de/weka-infrarot-kabine-tanilla-2-543-gr-2-inkl-lendenstuetze",
+        "affiliate": false,
+        "last_checked": "2026-08-22"
       }]
     },
     "editorial": {
@@ -859,9 +932,10 @@
     },
     "sources": [
       { "type": "manufacturer", "title": "WEKA Produktseite Infrarotkabine Tanilla 137x99", "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-137x99-naturbelassen/543.1310.33.20", "checked_at": "2026-08-21" },
+      { "type": "merchant", "title": "Mein-Saunashop Produktseite Weka Tanilla Gr. 2", "url": "https://www.mein-saunashop.de/weka-infrarot-kabine-tanilla-2-543-gr-2-inkl-lendenstuetze", "checked_at": "2026-08-22" },
       { "type": "manufacturer", "title": "WEKA Infrarotkabinen-Angebot – 230-V-Anschluss", "url": "https://www.weka-holzbau.com/de/angebote/infrarotkabine-angebot/", "checked_at": "2026-08-21" }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "weka-infrarotkabine-vaala-99x98",
@@ -897,6 +971,13 @@
         "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-99x98-naturbelassen/550.1010.19.30",
         "affiliate": false,
         "last_checked": "2026-08-21"
+      }, {
+        "merchant": "Mein-Saunashop",
+        "price": 1294.16,
+        "availability": "in-stock",
+        "url": "https://www.mein-saunashop.de/weka-infrarot-waermekabine-ir-kabine-550-vaala-gr-1",
+        "affiliate": false,
+        "last_checked": "2026-08-22"
       }]
     },
     "editorial": {
@@ -910,9 +991,10 @@
     },
     "sources": [
       { "type": "manufacturer", "title": "WEKA Produktseite Infrarotkabine Vaala 99x98", "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-99x98-naturbelassen/550.1010.19.30", "checked_at": "2026-08-21" },
+      { "type": "merchant", "title": "Mein-Saunashop Produktseite Weka Vaala Gr. 1", "url": "https://www.mein-saunashop.de/weka-infrarot-waermekabine-ir-kabine-550-vaala-gr-1", "checked_at": "2026-08-22" },
       { "type": "manufacturer", "title": "WEKA Infrarotkabinen-Angebot – 230-V-Anschluss", "url": "https://www.weka-holzbau.com/de/angebote/infrarotkabine-angebot/", "checked_at": "2026-08-21" }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "karibu-sauna-eda-71098",
@@ -957,10 +1039,10 @@
     "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
     "power": { "voltage": 230, "kw": 3.6, "plug_type": "230-V-Steckdose laut Hersteller", "electrician_required": false, "notes": "Steckerfertige 3,6-kW-Konfiguration laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektro", "max_temp_c": 80, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "current", "offers": [{ "merchant": "Karibu", "price": 2029.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-jella/6741", "affiliate": false, "last_checked": "2026-08-21" }] },
+    "commercial": { "currency": "EUR", "price_status": "current", "offers": [{ "merchant": "Karibu", "price": 2029.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-jella/6741", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 1579.42, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-jella-mit-eckeinstieg", "affiliate": false, "last_checked": "2026-08-22" }] },
     "editorial": { "pros": ["Zwei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "Eckeinstieg"], "cons": ["Nur ein Liegeplatz", "Nicht spiegelbar", "Erreichbare Temperatur hängt laut Hersteller von den Bedingungen ab"], "ideal_for": ["Kleine beheizte Innenräume", "Ein bis zwei Personen", "Eckaufstellung"], "not_for": ["Nutzer mit Bedarf an zwei Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
-    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Jella 6741", "url": "https://www.karibu.de/sauna-jella/6741", "checked_at": "2026-08-21" }],
-    "updated_at": "2026-08-21"
+    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Jella 6741", "url": "https://www.karibu.de/sauna-jella/6741", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Sauna Jella", "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-jella-mit-eckeinstieg", "checked_at": "2026-08-22" }],
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "karibu-sauna-saja-85918",
@@ -1021,10 +1103,10 @@
     "people": { "min": 1, "max": 1, "seats": 1, "lying_places": 1 },
     "power": { "voltage": "none", "kw": null, "plug_type": null, "electrician_required": false, "notes": "Das offizielle Produkt wird ohne Ofen angeboten; ein Ofenset ist optional. Spannung und Leistung hängen von der gewählten Konfiguration ab." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "outdoor", "heater_type": "Ofen optional", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Thermoholz" },
-    "commercial": { "currency": "EUR", "price_status": "current", "offers": [{ "merchant": "WEKA", "price": 3999, "availability": "manufacturer-listed", "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-1-130x105-naturbelassen/191.0102.00.00", "affiliate": false, "last_checked": "2026-08-21" }] },
+    "commercial": { "currency": "EUR", "price_status": "current", "offers": [{ "merchant": "WEKA", "price": 3999, "availability": "manufacturer-listed", "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-1-130x105-naturbelassen/191.0102.00.00", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 3500, "availability": "in-stock", "url": "https://www.mein-saunashop.de/weka-design-saunahaus-laadi-1-mit-thermoholz-28-42-mm", "affiliate": false, "last_checked": "2026-08-22" }] },
     "editorial": { "pros": ["Kompakte Außengrundfläche", "Thermoholz", "Eine Liege und ein Hocker laut Hersteller"], "cons": ["Ofen nicht im Basismodell enthalten", "Nur ein ausgewiesener Liegeplatz", "Gesamtmaß ist größer als das Sockelmaß"], "ideal_for": ["Kleine Gärten", "Eine Person", "Nutzer mit eigener Ofenauswahl"], "not_for": ["Mehrere Personen", "Keller oder Innenräume", "Direkte Plug-and-play-Nutzung ohne Ofenplanung"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
-    "sources": [{ "type": "manufacturer", "title": "WEKA Produktseite Saunahaus Laadi 1", "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-1-130x105-naturbelassen/191.0102.00.00", "checked_at": "2026-08-21" }],
-    "updated_at": "2026-08-21"
+    "sources": [{ "type": "manufacturer", "title": "WEKA Produktseite Saunahaus Laadi 1", "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-1-130x105-naturbelassen/191.0102.00.00", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Weka Laadi 1", "url": "https://www.mein-saunashop.de/weka-design-saunahaus-laadi-1-mit-thermoholz-28-42-mm", "checked_at": "2026-08-22" }],
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "weka-saunahaus-laadi-3-130x240",
@@ -1037,10 +1119,10 @@
     "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 2 },
     "power": { "voltage": "none", "kw": null, "plug_type": null, "electrician_required": false, "notes": "Das offizielle Produkt wird ohne Ofen angeboten; ein Ofenset ist optional. Spannung und Leistung hängen von der gewählten Konfiguration ab." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "outdoor", "heater_type": "Ofen optional", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Thermoholz" },
-    "commercial": { "currency": "EUR", "price_status": "current", "offers": [{ "merchant": "WEKA", "price": 5799, "availability": "manufacturer-listed", "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-3-130x240-naturbelassen/191.0104.00.00", "affiliate": false, "last_checked": "2026-08-21" }] },
+    "commercial": { "currency": "EUR", "price_status": "current", "offers": [{ "merchant": "WEKA", "price": 5799, "availability": "manufacturer-listed", "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-3-130x240-naturbelassen/191.0104.00.00", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 5310, "availability": "in-stock", "url": "https://www.mein-saunashop.de/weka-design-saunahaus-laadi-3-mit-thermoholz-28-42-mm", "affiliate": false, "last_checked": "2026-08-22" }] },
     "editorial": { "pros": ["Zwei Liegen laut Hersteller", "Thermoholz", "Große Variantenbreite beim Ofen"], "cons": ["Ofen nicht im Basismodell enthalten", "Große Gesamttiefe", "Außenaufstellung und Fundament erforderlich"], "ideal_for": ["Kleine Gärten mit ausreichender Tiefe", "Eine bis zwei Personen", "Nutzer mit eigener Ofenauswahl"], "not_for": ["Sehr kleine Stellflächen", "Keller oder Innenräume", "Direkte Nutzung ohne Ofenplanung"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
-    "sources": [{ "type": "manufacturer", "title": "WEKA Produktseite Saunahaus Laadi 3", "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-3-130x240-naturbelassen/191.0104.00.00", "checked_at": "2026-08-21" }],
-    "updated_at": "2026-08-21"
+    "sources": [{ "type": "manufacturer", "title": "WEKA Produktseite Saunahaus Laadi 3", "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-3-130x240-naturbelassen/191.0104.00.00", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Weka Laadi 3", "url": "https://www.mein-saunashop.de/weka-design-saunahaus-laadi-3-mit-thermoholz-28-42-mm", "checked_at": "2026-08-22" }],
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "weka-saunahaus-schneeflocke-1",
