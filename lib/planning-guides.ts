@@ -1,4 +1,5 @@
 import guideData from "@/content/de/planning-guides.json";
+import navigationData from "@/content/de/planning-navigation.json";
 import { products } from "@/lib/products";
 
 export type PlanningGuide = {
@@ -15,10 +16,36 @@ export type PlanningGuide = {
   sources: Array<{ title: string; url: string; checked_at: string }>;
 };
 
+export type PlanningGroup = {
+  id: string;
+  number: string;
+  eyebrow: string;
+  title: string;
+  description: string;
+  guide_slugs: string[];
+};
+
+export type PlanningJourney = {
+  related_slugs: string[];
+  product_href: string;
+  product_label: string;
+};
+
+type PlanningNavigation = {
+  groups: PlanningGroup[];
+  guide_paths: Record<string, PlanningJourney>;
+};
+
 export const planningGuides = guideData as PlanningGuide[];
+const planningNavigation = navigationData as PlanningNavigation;
+export const planningGroups = planningNavigation.groups;
 
 export function getPlanningGuide(slug: string) {
   return planningGuides.find((guide) => guide.slug === slug);
+}
+
+export function getPlanningJourney(slug: string) {
+  return planningNavigation.guide_paths[slug];
 }
 
 function median(values: number[]) {

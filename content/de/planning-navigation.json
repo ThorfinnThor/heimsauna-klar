@@ -1,0 +1,98 @@
+{
+  "groups": [
+    {
+      "id": "standort",
+      "number": "01",
+      "eyebrow": "Standort wählen",
+      "title": "Welcher Raum kann die Sauna tragen?",
+      "description": "Feuchtigkeit, Zugang und Nutzung unterscheiden sich je nach Aufstellort. Kläre zuerst, ob Wohnung, Keller oder Badezimmer als Gesamtraum funktionieren.",
+      "guide_slugs": ["sauna-fuer-die-wohnung", "sauna-im-keller", "sauna-im-badezimmer"]
+    },
+    {
+      "id": "raum-und-aufbau",
+      "number": "02",
+      "eyebrow": "Raum und Aufbau",
+      "title": "Passen Maß, Höhe und Untergrund?",
+      "description": "Außenmaß, Montagefreiraum, Herstellerabstände und Untergrund bestimmen, welche Kabine tatsächlich aufgestellt werden kann.",
+      "guide_slugs": ["platzbedarf", "sauna-bei-niedriger-deckenhoehe", "boden-und-fundament"]
+    },
+    {
+      "id": "technik",
+      "number": "03",
+      "eyebrow": "Technik abstimmen",
+      "title": "Passen Luftweg, Anschluss und Ofen?",
+      "description": "Lüftung, Spannung, Leistung, wirksames Volumen und Temperaturregelung müssen als ein System geprüft werden.",
+      "guide_slugs": ["lueftung", "230-v-vs-400-v-sauna", "saunagroesse-3-6-kw", "temperatur-3-6-kw-sauna"]
+    },
+    {
+      "id": "budget",
+      "number": "04",
+      "eyebrow": "Budget prüfen",
+      "title": "Was kosten Kauf und Betrieb wirklich?",
+      "description": "Produktpreis, Projektnebenkosten und Stromverbrauch gehören in getrennte, nachvollziehbare Rechnungen.",
+      "guide_slugs": ["sauna-kosten", "stromverbrauch-heimsauna"]
+    }
+  ],
+  "guide_paths": {
+    "platzbedarf": {
+      "related_slugs": ["sauna-bei-niedriger-deckenhoehe", "sauna-fuer-die-wohnung", "saunagroesse-3-6-kw"],
+      "product_href": "/de/indoor-sauna/mini-sauna/",
+      "product_label": "Kompakte Modelle vergleichen"
+    },
+    "lueftung": {
+      "related_slugs": ["sauna-im-badezimmer", "sauna-im-keller", "temperatur-3-6-kw-sauna"],
+      "product_href": "/de/produkte/",
+      "product_label": "Modelle mit Technikdaten ansehen"
+    },
+    "boden-und-fundament": {
+      "related_slugs": ["platzbedarf", "sauna-kosten", "lueftung"],
+      "product_href": "/de/outdoor-sauna/kleine-gartensauna/",
+      "product_label": "Kleine Gartensaunen vergleichen"
+    },
+    "sauna-kosten": {
+      "related_slugs": ["stromverbrauch-heimsauna", "boden-und-fundament", "230-v-vs-400-v-sauna"],
+      "product_href": "/de/vergleiche/sauna-bis-4000-euro/",
+      "product_label": "Modelle bis 4.000 Euro ansehen"
+    },
+    "230-v-vs-400-v-sauna": {
+      "related_slugs": ["stromverbrauch-heimsauna", "saunagroesse-3-6-kw", "temperatur-3-6-kw-sauna"],
+      "product_href": "/de/vergleiche/230-v-sauna/",
+      "product_label": "230-V-Modelle vergleichen"
+    },
+    "sauna-fuer-die-wohnung": {
+      "related_slugs": ["platzbedarf", "sauna-im-badezimmer", "sauna-bei-niedriger-deckenhoehe"],
+      "product_href": "/de/indoor-sauna/mini-sauna/",
+      "product_label": "Kompakte Innenmodelle ansehen"
+    },
+    "sauna-im-keller": {
+      "related_slugs": ["lueftung", "platzbedarf", "sauna-bei-niedriger-deckenhoehe"],
+      "product_href": "/de/produkte/",
+      "product_label": "Indoor-Modelle prüfen"
+    },
+    "sauna-bei-niedriger-deckenhoehe": {
+      "related_slugs": ["platzbedarf", "sauna-fuer-die-wohnung", "sauna-im-badezimmer"],
+      "product_href": "/de/indoor-sauna/mini-sauna/",
+      "product_label": "Kompakte Modelle vergleichen"
+    },
+    "sauna-im-badezimmer": {
+      "related_slugs": ["lueftung", "sauna-fuer-die-wohnung", "platzbedarf"],
+      "product_href": "/de/indoor-sauna/mini-sauna/",
+      "product_label": "Kompakte Innenmodelle ansehen"
+    },
+    "stromverbrauch-heimsauna": {
+      "related_slugs": ["sauna-kosten", "230-v-vs-400-v-sauna", "temperatur-3-6-kw-sauna"],
+      "product_href": "/de/vergleiche/230-v-sauna/",
+      "product_label": "230-V-Modelle mit Leistungsdaten"
+    },
+    "saunagroesse-3-6-kw": {
+      "related_slugs": ["temperatur-3-6-kw-sauna", "230-v-vs-400-v-sauna", "platzbedarf"],
+      "product_href": "/de/vergleiche/230-v-sauna/",
+      "product_label": "230-V-Modelle vergleichen"
+    },
+    "temperatur-3-6-kw-sauna": {
+      "related_slugs": ["saunagroesse-3-6-kw", "lueftung", "230-v-vs-400-v-sauna"],
+      "product_href": "/de/vergleiche/230-v-sauna/",
+      "product_label": "Passende Leistungsdaten vergleichen"
+    }
+  }
+}

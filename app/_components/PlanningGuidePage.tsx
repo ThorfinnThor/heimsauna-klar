@@ -2,7 +2,7 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { formatGermanDate, getLatestOfferCheck, products } from "@/lib/products";
-import { getPriceSnapshot, planningGuides, type PlanningGuide } from "@/lib/planning-guides";
+import { getPlanningGuide, getPlanningJourney, getPriceSnapshot, type PlanningGuide } from "@/lib/planning-guides";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 
 function formatEuro(value: number) {
@@ -10,7 +10,11 @@ function formatEuro(value: number) {
 }
 
 export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
-  const relatedGuides = planningGuides.filter((item) => item.slug !== guide.slug);
+  const journey = getPlanningJourney(guide.slug);
+  const relatedGuides = journey?.related_slugs.flatMap((slug) => {
+    const relatedGuide = getPlanningGuide(slug);
+    return relatedGuide ? [relatedGuide] : [];
+  }) ?? [];
   const latestOfferCheck = getLatestOfferCheck(products);
   const path = `/de/planung/${guide.slug}/`;
 
@@ -33,7 +37,7 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
           <p>{guide.description}</p>
           <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.summary}</p></div>
           <div className="guide-path-links" aria-label="Planung anwenden">
-            <Link className="button button-primary" href="/de/produkte/">Produkte filtern ↗</Link>
+            <Link className="button button-primary" href={journey?.product_href ?? "/de/produkte/"}>{journey?.product_label ?? "Produkte filtern"} ↗</Link>
             <Link className="text-link" href="/de/#finder">Sauna-Finder starten ↗</Link>
           </div>
         </header>
@@ -75,7 +79,7 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
         </section>
 
         <aside className="collection-related page-shell" aria-labelledby="related-planning-title">
-          <div><p className="eyebrow">Weiterplanen</p><h2 id="related-planning-title">Die nächsten offenen Punkte.</h2></div>
+          <div><p className="eyebrow">Weiterplanen</p><h2 id="related-planning-title">Drei passende nächste Schritte.</h2></div>
           <div className="collection-related-grid">{relatedGuides.map((item) => <Link href={`/de/planung/${item.slug}/`} key={item.slug}><small>Planungsseite</small><strong>{item.title}</strong><span>Weiterlesen ↗</span></Link>)}</div>
         </aside>
       </article>

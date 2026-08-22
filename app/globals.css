@@ -696,6 +696,15 @@ footer {
 .collection-related-grid strong { font-size: 21px; }
 
 .planning-hub { padding-block: 95px 115px; border-top: 1px solid var(--line); }
+.planning-phase-nav { max-width: 920px; margin-top: 38px; display: flex; flex-wrap: wrap; gap: 9px; }
+.planning-phase-nav a { padding: 10px 13px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-soft); font-size: 9px; font-weight: 750; letter-spacing: .06em; text-transform: uppercase; transition: background 160ms ease, color 160ms ease; }
+.planning-phase-nav a:hover { background: var(--ink); color: var(--paper); }
+.planning-phase { padding-top: 70px; scroll-margin-top: 24px; }
+.planning-phase + .planning-phase { margin-top: 18px; border-top: 1px solid var(--line); }
+.planning-phase-head { margin-bottom: 30px; display: grid; grid-template-columns: 70px minmax(0, 760px); gap: 28px; }
+.planning-phase-head > span { padding-top: 5px; color: var(--clay); font-size: 11px; font-weight: 750; }
+.planning-phase-head h3 { margin: 8px 0 14px; font-family: Georgia, serif; font-size: clamp(31px, 3.5vw, 50px); font-weight: 400; line-height: 1.02; }
+.planning-phase-head > div > p:last-child { margin: 0; color: var(--ink-soft); font-size: 12px; line-height: 1.65; }
 .planning-hub-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .planning-hub-grid > a { min-height: 245px; padding: 28px; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background 160ms ease; }
 .planning-hub-grid > a:hover { background: var(--cream); }
@@ -809,6 +818,7 @@ footer {
   .catalog-metrics span + span { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
   .collection-index-grid, .collection-metrics { grid-template-columns: 1fr; }
   .planning-hub-grid, .price-snapshot-grid { grid-template-columns: 1fr; }
+  .planning-phase-head { grid-template-columns: 42px 1fr; gap: 16px; }
   .planning-section { grid-template-columns: 34px 1fr; gap: 18px; }
   .planning-section > div { grid-column: 2; }
   .collection-metrics span + span { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }

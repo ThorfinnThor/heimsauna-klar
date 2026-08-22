@@ -9,6 +9,7 @@ const affiliatePolicy = JSON.parse(await readFile(new URL("../content/de/affilia
 const merchants = JSON.parse(await readFile(new URL("../data/merchants.json", import.meta.url), "utf8"));
 const launchReadiness = JSON.parse(await readFile(new URL("../data/launch-readiness.json", import.meta.url), "utf8"));
 const planningGuides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
+const planningNavigation = JSON.parse(await readFile(new URL("../content/de/planning-navigation.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const today = new Date().toISOString().slice(0, 10);
 const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
@@ -130,6 +131,40 @@ for (const guide of planningGuides) {
     assertHttpsUrl(source.url, `Planning guide source for ${guide.slug}`);
     assertIsoDate(source.checked_at, `Planning guide source date for ${guide.slug}`);
   }
+}
+
+if (!Array.isArray(planningNavigation.groups) || planningNavigation.groups.length === 0) {
+  throw new Error("content/de/planning-navigation.json must contain planning groups");
+}
+if (!planningNavigation.guide_paths || typeof planningNavigation.guide_paths !== "object") {
+  throw new Error("content/de/planning-navigation.json must contain guide paths");
+}
+const groupedPlanningSlugs = new Set();
+for (const group of planningNavigation.groups) {
+  for (const key of ["id", "number", "eyebrow", "title", "description"]) {
+    if (typeof group[key] !== "string" || group[key].trim() === "") throw new Error(`Planning group is missing ${key}`);
+  }
+  if (!Array.isArray(group.guide_slugs) || group.guide_slugs.length === 0) throw new Error(`${group.id} needs guide slugs`);
+  for (const slug of group.guide_slugs) {
+    if (!planningSlugs.has(slug)) throw new Error(`${group.id} references unknown planning guide ${slug}`);
+    if (groupedPlanningSlugs.has(slug)) throw new Error(`Planning guide ${slug} appears in more than one group`);
+    groupedPlanningSlugs.add(slug);
+  }
+}
+for (const slug of planningSlugs) {
+  if (!groupedPlanningSlugs.has(slug)) throw new Error(`Planning guide ${slug} is missing from the planning groups`);
+  const journey = planningNavigation.guide_paths[slug];
+  if (!journey) throw new Error(`Planning guide ${slug} is missing a journey`);
+  if (!Array.isArray(journey.related_slugs) || journey.related_slugs.length !== 3) throw new Error(`${slug} needs exactly three related guides`);
+  if (new Set(journey.related_slugs).size !== journey.related_slugs.length) throw new Error(`${slug} repeats a related guide`);
+  for (const relatedSlug of journey.related_slugs) {
+    if (relatedSlug === slug || !planningSlugs.has(relatedSlug)) throw new Error(`${slug} references invalid related guide ${relatedSlug}`);
+  }
+  if (typeof journey.product_href !== "string" || !journey.product_href.startsWith("/de/")) throw new Error(`${slug} needs an internal product href`);
+  if (typeof journey.product_label !== "string" || journey.product_label.trim() === "") throw new Error(`${slug} needs a product label`);
+}
+for (const slug of Object.keys(planningNavigation.guide_paths)) {
+  if (!planningSlugs.has(slug)) throw new Error(`Planning journey references unknown guide ${slug}`);
 }
 
 if (!Array.isArray(collections) || collections.length === 0) throw new Error("content/de/collections.json must contain collections");
