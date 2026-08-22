@@ -86,8 +86,17 @@ function availabilityUrl(value: string) {
 export function productJsonLd(product: Product): JsonLd {
   const path = `/de/produkte/${product.product_id}/`;
   const url = absoluteUrl(path);
-  const offer = product.commercial.offers[0];
-  const availability = offer ? availabilityUrl(offer.availability) : undefined;
+  const offers = product.commercial.offers.map((offer) => {
+    const availability = availabilityUrl(offer.availability);
+    return {
+      "@type": "Offer",
+      url: offer.url,
+      priceCurrency: product.commercial.currency,
+      price: offer.price,
+      seller: { "@type": "Organization", name: offer.merchant },
+      ...(availability ? { availability } : {}),
+    };
+  });
 
   return {
     "@context": "https://schema.org",
@@ -106,14 +115,6 @@ export function productJsonLd(product: Product): JsonLd {
       { "@type": "PropertyValue", name: "Spannung", value: typeof product.power.voltage === "number" ? `${product.power.voltage} V` : product.power.voltage },
       { "@type": "PropertyValue", name: "Wärmeart", value: product.sauna.heater_type },
     ],
-    ...(offer ? {
-      offers: {
-        "@type": "Offer",
-        url: offer.url,
-        priceCurrency: product.commercial.currency,
-        price: offer.price,
-        ...(availability ? { availability } : {}),
-      },
-    } : {}),
+    ...(offers.length > 0 ? { offers } : {}),
   };
 }

@@ -37,7 +37,7 @@
         },
         {
           "merchant": "Mein-Saunashop",
-          "price": 1376.97,
+          "price": 1525.83,
           "availability": "in-stock",
           "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-sandra-mit-fronteinstieg",
           "affiliate": false,
@@ -165,7 +165,7 @@
         },
         {
           "merchant": "Mein-Saunashop",
-          "price": 1412.70,
+          "price": 1561.55,
           "availability": "in-stock",
           "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-antonia-mit-eckeinstieg",
           "affiliate": false,
@@ -236,7 +236,7 @@
         },
         {
           "merchant": "Mein-Saunashop",
-          "price": 1543.69,
+          "price": 1900.93,
           "availability": "in-stock",
           "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-selena-mit-fronteinstieg",
           "affiliate": false,
@@ -1039,7 +1039,7 @@
     "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
     "power": { "voltage": 230, "kw": 3.6, "plug_type": "230-V-Steckdose laut Hersteller", "electrician_required": false, "notes": "Steckerfertige 3,6-kW-Konfiguration laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektro", "max_temp_c": 80, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "current", "offers": [{ "merchant": "Karibu", "price": 2029.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-jella/6741", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 1579.42, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-jella-mit-eckeinstieg", "affiliate": false, "last_checked": "2026-08-22" }] },
+    "commercial": { "currency": "EUR", "price_status": "current", "offers": [{ "merchant": "Karibu", "price": 2029.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-jella/6741", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 1728.27, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-jella-mit-eckeinstieg", "affiliate": false, "last_checked": "2026-08-22" }] },
     "editorial": { "pros": ["Zwei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "Eckeinstieg"], "cons": ["Nur ein Liegeplatz", "Nicht spiegelbar", "Erreichbare Temperatur hängt laut Hersteller von den Bedingungen ab"], "ideal_for": ["Kleine beheizte Innenräume", "Ein bis zwei Personen", "Eckaufstellung"], "not_for": ["Nutzer mit Bedarf an zwei Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
     "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Jella 6741", "url": "https://www.karibu.de/sauna-jella/6741", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Sauna Jella", "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-jella-mit-eckeinstieg", "checked_at": "2026-08-22" }],
     "updated_at": "2026-08-22"

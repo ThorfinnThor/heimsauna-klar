@@ -3,25 +3,11 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Product } from "@/lib/products";
-import { formatPower, formatVoltage } from "@/lib/products";
+import { formatPower, formatPrice, formatVoltage, getLowestOffer } from "@/lib/products";
 
 type CategoryFilter = "all" | "sauna" | "infrared";
 type CapacityFilter = "all" | "1" | "2" | "3-plus";
 type SortOption = "name" | "price" | "footprint" | "capacity";
-
-const priceFormatter = new Intl.NumberFormat("de-DE", {
-  style: "currency",
-  currency: "EUR",
-  maximumFractionDigits: 2,
-});
-
-function formatPrice(product: Product) {
-  const offer = product.commercial.offers[0];
-  if (!offer) return "Preis nicht verfügbar";
-
-  const value = priceFormatter.format(offer.price);
-  return product.commercial.price_status === "from" ? `ab ${value}` : value;
-}
 
 function matchesCapacity(product: Product, capacity: CapacityFilter) {
   if (capacity === "all") return true;
@@ -55,8 +41,8 @@ export function ProductCatalog({ products }: { products: Product[] }) {
       })
       .sort((a, b) => {
         if (sort === "price") {
-          return (a.commercial.offers[0]?.price ?? Number.POSITIVE_INFINITY)
-            - (b.commercial.offers[0]?.price ?? Number.POSITIVE_INFINITY);
+          return (getLowestOffer(a)?.price ?? Number.POSITIVE_INFINITY)
+            - (getLowestOffer(b)?.price ?? Number.POSITIVE_INFINITY);
         }
         if (sort === "footprint") {
           return (a.dimensions_cm.width * a.dimensions_cm.depth)

@@ -87,14 +87,25 @@ export function getProductFamily(product: Product) {
   return products.filter((candidate) => candidate.family?.id === product.family?.id);
 }
 
-export function formatPrice(product: Product) {
-  const offer = product.commercial.offers[0];
-  if (!offer) return "Preis nicht verfügbar";
-  const value = new Intl.NumberFormat("de-DE", {
+export function getLowestOffer(product: Product) {
+  return product.commercial.offers.reduce<Product["commercial"]["offers"][number] | undefined>(
+    (lowest, offer) => !lowest || offer.price < lowest.price ? offer : lowest,
+    undefined,
+  );
+}
+
+export function formatOfferPrice(offer: Product["commercial"]["offers"][number], currency: string) {
+  return new Intl.NumberFormat("de-DE", {
     style: "currency",
-    currency: product.commercial.currency,
+    currency,
     maximumFractionDigits: 2,
   }).format(offer.price);
+}
+
+export function formatPrice(product: Product) {
+  const offer = getLowestOffer(product);
+  if (!offer) return "Preis nicht verfügbar";
+  const value = formatOfferPrice(offer, product.commercial.currency);
   return product.commercial.price_status === "from" ? `ab ${value}` : value;
 }
 

@@ -5,7 +5,7 @@ import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
 import { getOfferDisclosure } from "@/lib/affiliate";
-import { formatGermanDate, formatPower, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
+import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ productId: string }> };
@@ -35,7 +35,7 @@ export default async function ProductPage({ params }: Props) {
   const { productId } = await params;
   const product = getProduct(productId);
   if (!product) notFound();
-  const offer = product.commercial.offers[0];
+  const offers = [...product.commercial.offers].sort((a, b) => a.price - b.price);
   const familyProducts = getProductFamily(product);
   const matchingCollections = collections
     .filter((collection) => getCollectionProducts(collection).some((candidate) => candidate.product_id === product.product_id))
@@ -74,18 +74,27 @@ export default async function ProductPage({ params }: Props) {
               <p className="product-lede">{product.editorial.disclosure}</p>
             </div>
             <div className="product-price-card">
-              <small>{offer ? `Preis bei ${offer.merchant}` : "Preis beim Hersteller"}</small>
+              <small>{offers.length > 1 ? `${offers.length} geprüfte Angebote` : "Geprüftes Angebot"}</small>
               <strong>{formatPrice(product)}</strong>
-              {offer ? (
-                <>
-                  <span>Stand {formatGermanDate(offer.last_checked)}</span>
-                  {offer.affiliate ? (
-                    <a href={offer.url} rel="sponsored nofollow noreferrer" target="_blank">Angebot bei {offer.merchant} öffnen ↗</a>
-                  ) : (
-                    <a href={offer.url} rel="nofollow noreferrer" target="_blank">Angebot bei {offer.merchant} öffnen ↗</a>
-                  )}
-                  <em>{getOfferDisclosure(offer)}</em>
-                </>
+              {offers.length > 0 ? (
+                <div className="product-offer-list">
+                  {offers.map((offer) => (
+                    <div className="product-offer" key={`${offer.merchant}-${offer.url}`}>
+                      <div>
+                        <b>{offer.merchant}</b>
+                        <span>{formatOfferPrice(offer, product.commercial.currency)} · Stand {formatGermanDate(offer.last_checked)}</span>
+                      </div>
+                      <a
+                        href={offer.url}
+                        rel={offer.affiliate ? "sponsored nofollow noreferrer" : "nofollow noreferrer"}
+                        target="_blank"
+                      >
+                        Angebot öffnen ↗
+                      </a>
+                      <em>{getOfferDisclosure(offer)}</em>
+                    </div>
+                  ))}
+                </div>
               ) : (
                 <>
                   <span>Aktueller Preis auf der geprüften Produktseite nicht ausgewiesen.</span>
