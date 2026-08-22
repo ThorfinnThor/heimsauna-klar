@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21",
+  "updated_at": "2026-08-22",
   "market": "Deutschland",
   "publication_status": "prototype",
   "title": "Launch-Status",
@@ -67,7 +67,7 @@
       "title": "Finale Domain",
       "status": "blocked",
       "required_for_indexing": true,
-      "detail": "Die vercel.app-Adresse dient vorerst als Vorschau; die spätere Hauptdomain steht noch nicht fest."
+      "detail": "Die workers.dev-Adresse dient vorerst als technische Vorschau; die spätere Hauptdomain steht noch nicht fest."
     },
     {
       "id": "affiliate_program",
