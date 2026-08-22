@@ -8,8 +8,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm run data:check && next build",
-    "build:cloudflare-pages": "npm run build",
-    "deploy:cloudflare-pages": "npm run build:cloudflare-pages && npx wrangler pages deploy out --project-name heimsauna-klar",
+    "build:cloudflare": "npm run build",
+    "deploy:cloudflare": "npm run build:cloudflare && npx wrangler deploy",
     "start": "next start",
     "lint": "eslint app scripts --ignore-pattern .next --ignore-pattern out",
     "data:check": "node scripts/validate-data.mjs",

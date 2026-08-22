@@ -7,8 +7,8 @@ Static-first German sauna decision platform. The current slice includes a conten
 - Next.js App Router with `output: "export"`
 - static HTML/CSS/JS generated into `out/`
 - editorial content and product data in checked-in JSON
-- the Cloudflare Pages build runs the data checks and creates the production export
-- Cloudflare Pages serves the generated site; there is no runtime database
+- Cloudflare Workers Builds runs the data checks and creates the production export
+- Cloudflare Static Assets serves the generated site; there is no runtime database or Worker script
 
 This keeps the early product simple and reviewable. There is currently no scheduled ingestion and therefore no GitHub Actions usage. An ingestion workflow should only be added once a real manufacturer or merchant feed has been selected. Generated pull requests are preferred over silent production writes so price and specification changes remain reviewable.
 
@@ -37,19 +37,20 @@ Affiliate links are disabled by default. Every offer merchant and target host mu
 
 ## Deployment
 
-The primary deployment target is Cloudflare Pages, not a Cloudflare Worker. In the
-Cloudflare dashboard select the framework preset **Next.js (Static HTML Export)**
-with:
+The primary deployment target is the existing Cloudflare Worker project using
+Static Assets. In **Settings → Build** configure:
 
 - Build command: `npm run build`
-- Build output directory: `out`
+- Deploy command: `npx wrangler deploy`
+- Non-production deploy command: `npx wrangler versions upload`
 - Production branch: `main`
 
 Do not use `npx opennextjs-cloudflare build` for this repository. That command is
 for the server-capable OpenNext Workers adapter and adds a second Worker bundle
-after the static Next.js export. The checked-in `wrangler.toml` documents the Pages
-output directory for direct Wrangler deployments. `npm run deploy:cloudflare-pages`
-builds and uploads `out/` when a Cloudflare login is available.
+after the static Next.js export. The checked-in `wrangler.toml` points Wrangler
+directly at `out/` and deliberately has no Worker `main` entry point.
+`npm run deploy:cloudflare` builds and uploads the static assets when a Cloudflare
+login is available.
 
 Set `NEXT_PUBLIC_SITE_URL` in the Cloudflare Pages environment to the canonical production origin, for example `https://brand.com`. Indexing is a separate launch gate: pages remain `noindex` and `robots.txt` blocks crawling until `SITE_INDEXABLE=true` is explicitly set and every required entry in `data/launch-readiness.json` is `ready`. The data check rejects an indexable build while a legal placeholder or launch blocker remains.
 
