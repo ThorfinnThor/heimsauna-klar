@@ -149,12 +149,26 @@ function getLowestPrice(product: Product) {
   return Math.min(...product.commercial.offers.map((offer) => offer.price));
 }
 
-function matchesFinderFilters(product: Product, filters: FinderFilters, ignored?: FinderRelaxation["key"]) {
+function matchesFinderPlace(product: Product, filters: Pick<FinderFilters, "place">) {
   const matchesPlace = filters.place === "mobile"
     ? product.category === "portable" || product.category === "tent"
     : product.sauna.indoor_outdoor === filters.place;
-  if (!matchesPlace) return false;
+  return matchesPlace;
+}
 
+function matchesFinderPlaceAndHeat(product: Product, filters: Pick<FinderFilters, "place" | "heat">) {
+  if (!matchesFinderPlace(product, filters)) return false;
+  if (filters.heat === "open") return true;
+  const isInfrared = product.category === "infrared";
+  return filters.heat === "infrared" ? isInfrared : !isInfrared;
+}
+
+export function hasFinderPowerVariant(productList: Product[], filters: Pick<FinderFilters, "place" | "heat">, voltage: number) {
+  return productList.some((product) => matchesFinderPlaceAndHeat(product, filters) && product.power.voltage === voltage);
+}
+
+function matchesFinderFilters(product: Product, filters: FinderFilters, ignored?: FinderRelaxation["key"]) {
+  if (!matchesFinderPlace(product, filters)) return false;
   if (ignored !== "heat" && filters.heat !== "open") {
     const isInfrared = product.category === "infrared";
     if (filters.heat === "infrared" ? !isInfrared : isInfrared) return false;

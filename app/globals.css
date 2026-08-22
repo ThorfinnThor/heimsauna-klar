@@ -363,6 +363,8 @@ legend span { margin-right: 12px; color: var(--clay); font-size: 10px; }
   text-align: center;
   transition: 150ms ease;
 }
+.segmented-control label.finder-option-disabled { cursor: not-allowed; }
+.segmented-control label.finder-option-disabled span { color: var(--ink-soft); background: #eee9df; border-style: dashed; opacity: .72; }
 .segmented-control input:checked + span { background: var(--ink); border-color: var(--ink); color: var(--white); }
 .segmented-control input:focus-visible + span { outline: 3px solid rgba(217, 95, 55, .45); outline-offset: 2px; }
 

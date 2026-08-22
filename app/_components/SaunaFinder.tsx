@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { findProductsForFinder, formatPrice, formatVoltage, type FinderFilters, type FinderRelaxation, type Product } from "@/lib/products";
+import { findProductsForFinder, formatPrice, formatVoltage, hasFinderPowerVariant, type FinderFilters, type FinderRelaxation, type Product } from "@/lib/products";
 
 type Archetype = {
   id: string;
@@ -28,6 +28,8 @@ const initialAnswers: FinderAnswers = {
 
 export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[]; products: Product[] }) {
   const [answers, setAnswers] = useState(initialAnswers);
+  const has230VoltProducts = hasFinderPowerVariant(products, answers, 230);
+  const has400VoltProducts = hasFinderPowerVariant(products, answers, 400);
 
   const recommendation = useMemo(() => {
     if (answers.place === "mobile") return archetypes.find((item) => item.id === "portable");
@@ -39,7 +41,14 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
   const finderResult = useMemo(() => findProductsForFinder(products, answers), [answers, products]);
 
   const update = <K extends keyof FinderAnswers>(key: K, value: FinderAnswers[K]) => {
-    setAnswers((current) => ({ ...current, [key]: value }));
+    setAnswers((current) => {
+      const next = { ...current, [key]: value } as FinderAnswers;
+      if ((key === "place" || key === "heat") && next.power !== "unknown") {
+        const voltage = next.power === "230" ? 230 : 400;
+        if (!hasFinderPowerVariant(products, next, voltage)) next.power = "unknown";
+      }
+      return next;
+    });
   };
 
   const applyRelaxation = (relaxation: FinderRelaxation) => {
@@ -78,7 +87,7 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
           legend="Welcher Anschluss ist vorhanden?"
           name="power"
           value={answers.power}
-          options={[["230", "230 V"], ["400", "400 V"], ["unknown", "Unbekannt"]]}
+          options={[["230", has230VoltProducts ? "230 V" : "230 V · für diese Auswahl nicht belegt", !has230VoltProducts], ["400", has400VoltProducts ? "400 V" : "400 V · noch keine Daten", !has400VoltProducts], ["unknown", "Unbekannt"]]}
           onChange={(value) => update("power", value as FinderAnswers["power"])}
         />
         <FinderQuestion
@@ -108,9 +117,11 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
           <span><small>Geprüfte Basis</small>{products.length} Datensätze</span>
         </div>
         <p className="result-caveat">
-          {answers.power === "unknown"
-            ? "Der Anschluss ist bewusst kein Filter. Die Produktfläche enthält noch keine Montage- und Wandabstände."
-            : "Alle Treffer erfüllen den ausgewählten Anschluss laut Datensatz. Die Produktfläche enthält noch keine Montage- und Wandabstände."}
+          {finderResult.matches.length === 0
+            ? "Für diese Kombination gibt es aktuell keinen harten Treffer im verifizierten Katalog. Das ist eine Datenlücke, keine Aussage zur Marktverfügbarkeit."
+            : answers.power === "unknown"
+              ? "Der Anschluss ist bewusst kein Filter. Die Produktfläche enthält noch keine Montage- und Wandabstände."
+              : "Alle angezeigten Treffer erfüllen den ausgewählten Anschluss laut Datensatz. Die Produktfläche enthält noch keine Montage- und Wandabstände."}
         </p>
         {finderResult.featuredMatches.length > 0 ? (
           <div className="finder-matches">
@@ -152,20 +163,21 @@ function FinderQuestion({ number, legend, name, value, options, onChange }: {
   legend: string;
   name: string;
   value: string;
-  options: string[][];
+  options: Array<[string, string, boolean?]>;
   onChange: (value: string) => void;
 }) {
   return (
     <fieldset>
       <legend><span>{number}</span>{legend}</legend>
       <div className="segmented-control">
-        {options.map(([optionValue, label]) => (
-          <label key={optionValue}>
+        {options.map(([optionValue, label, disabled]) => (
+          <label className={disabled ? "finder-option-disabled" : undefined} key={optionValue}>
             <input
               type="radio"
               name={name}
               value={optionValue}
               checked={value === optionValue}
+              disabled={disabled}
               onChange={() => onChange(optionValue)}
             />
             <span>{label}</span>
