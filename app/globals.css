@@ -347,7 +347,7 @@ fieldset:last-child { padding-bottom: 0; }
 legend { width: 100%; margin-bottom: 17px; color: var(--ink); font-size: 14px; font-weight: 750; }
 legend span { margin-right: 12px; color: var(--clay); font-size: 10px; }
 
-.segmented-control { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.segmented-control { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px; }
 .segmented-control label { cursor: pointer; }
 .segmented-control input { position: absolute; opacity: 0; pointer-events: none; }
 .segmented-control label span {
@@ -388,7 +388,15 @@ legend span { margin-right: 12px; color: var(--clay); font-size: 10px; }
 .finder-matches a strong, .finder-matches a small { display: block; }
 .finder-matches a strong { font-size: 12px; }
 .finder-matches a small { margin-top: 4px; color: rgba(255,255,255,.7); font-size: 9px; }
+.finder-match-reasons { margin-top: 5px; display: block; color: rgba(255,255,255,.78); font-size: 8px; line-height: 1.5; }
+.finder-matches .finder-catalog-link { margin-top: 7px; padding: 13px 0 0; justify-content: flex-start; border-top-color: rgba(255,255,255,.35); font-weight: 750; }
 .finder-empty { margin-top: 28px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.3); color: rgba(255,255,255,.7); font-size: 10px; line-height: 1.55; }
+.finder-empty > strong { display: block; color: var(--white); font-size: 12px; }
+.finder-empty > p { margin: 7px 0 0; }
+.finder-relaxations { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 7px; }
+.finder-relaxations button { padding: 8px 10px; background: transparent; border: 1px solid rgba(255,255,255,.4); border-radius: 999px; color: var(--white); cursor: pointer; font-size: 9px; }
+.finder-relaxations button:hover { background: rgba(255,255,255,.12); }
+.finder-relaxations button:focus-visible { outline: 3px solid rgba(255,255,255,.55); outline-offset: 2px; }
 
 .comparison-section {
   width: min(1400px, calc(100% - 56px));

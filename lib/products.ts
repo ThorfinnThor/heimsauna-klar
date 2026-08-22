@@ -53,8 +53,29 @@ export const products = (productData as Product[]).filter((product) => product.s
 
 export type FinderFilters = {
   place: "indoor" | "outdoor" | "mobile";
+  people: "1" | "2" | "4" | "flex";
+  footprint: "compact" | "standard" | "open";
   power: "230" | "400" | "unknown";
   budget: "lean" | "mid" | "open";
+};
+
+export type FinderMatch = {
+  product: Product;
+  footprintM2: number;
+  reasons: string[];
+};
+
+export type FinderRelaxation = {
+  key: "people" | "footprint" | "power" | "budget";
+  value: FinderFilters["people"] | FinderFilters["footprint"] | FinderFilters["power"] | FinderFilters["budget"];
+  label: string;
+  matchCount: number;
+};
+
+export type FinderResult = {
+  matches: FinderMatch[];
+  featuredMatches: FinderMatch[];
+  relaxations: FinderRelaxation[];
 };
 
 export function getProduct(productId: string) {
@@ -97,25 +118,102 @@ export function getLatestOfferCheck(productList: Product[]) {
     .sort((a, b) => b.localeCompare(a))[0] ?? null;
 }
 
-export function rankProducts(productList: Product[], filters: FinderFilters) {
-  return productList
+const footprintLimits = { compact: 3, standard: 6 } as const;
+const budgetLimits = { lean: 2500, mid: 6000 } as const;
+
+function getFootprintM2(product: Product) {
+  return product.dimensions_cm.width * product.dimensions_cm.depth / 10_000;
+}
+
+function getLowestPrice(product: Product) {
+  if (product.commercial.offers.length === 0) return null;
+  return Math.min(...product.commercial.offers.map((offer) => offer.price));
+}
+
+function matchesFinderFilters(product: Product, filters: FinderFilters, ignored?: FinderRelaxation["key"]) {
+  const matchesPlace = filters.place === "mobile"
+    ? product.category === "portable" || product.category === "tent"
+    : product.sauna.indoor_outdoor === filters.place;
+  if (!matchesPlace) return false;
+
+  if (ignored !== "people" && filters.people !== "flex" && product.people.max < Number(filters.people)) return false;
+  if (ignored !== "footprint" && filters.footprint !== "open" && getFootprintM2(product) > footprintLimits[filters.footprint]) return false;
+  if (ignored !== "power" && filters.power !== "unknown" && product.power.voltage !== Number(filters.power)) return false;
+
+  if (ignored !== "budget" && filters.budget !== "open") {
+    const price = getLowestPrice(product);
+    if (price === null || price > budgetLimits[filters.budget]) return false;
+  }
+
+  return true;
+}
+
+function getMatchReasons(product: Product, filters: FinderFilters, footprintM2: number) {
+  const reasons = [
+    filters.place === "outdoor" ? "für außen dokumentiert" : filters.place === "mobile" ? "mobil dokumentiert" : "für innen dokumentiert",
+    `bis ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"}`,
+    `${footprintM2.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² Produktfläche`,
+  ];
+
+  if (filters.power !== "unknown") reasons.push(`${filters.power} V ausgewiesen`);
+  if (filters.budget !== "open") reasons.push(`bis ${budgetLimits[filters.budget].toLocaleString("de-DE")} €`);
+  return reasons;
+}
+
+function selectDiverseMatches(matches: FinderMatch[], limit: number) {
+  const selected: FinderMatch[] = [];
+  const seenFamilies = new Set<string>();
+
+  for (const match of matches) {
+    const familyKey = match.product.family?.id ?? match.product.product_id;
+    if (seenFamilies.has(familyKey)) continue;
+    selected.push(match);
+    seenFamilies.add(familyKey);
+    if (selected.length === limit) return selected;
+  }
+
+  for (const match of matches) {
+    if (selected.some((candidate) => candidate.product.product_id === match.product.product_id)) continue;
+    selected.push(match);
+    if (selected.length === limit) break;
+  }
+
+  return selected;
+}
+
+export function findProductsForFinder(productList: Product[], filters: FinderFilters): FinderResult {
+  const requestedPeople = filters.people === "flex" ? null : Number(filters.people);
+  const matches = productList
+    .filter((product) => matchesFinderFilters(product, filters))
     .map((product) => {
-      const offer = product.commercial.offers[0];
-      const price = offer?.price ?? Number.POSITIVE_INFINITY;
-      const placeFit = filters.place === "mobile"
-        ? (product.category === "portable" || product.category === "tent" ? 4 : 0)
-        : product.sauna.indoor_outdoor === filters.place ? 4 : 0;
-      const powerFit = filters.power === "unknown" || product.power.voltage === Number(filters.power) ? 3 : 0;
-      const budgetFit = filters.budget === "open"
-        ? 2
-        : filters.budget === "lean" && price <= 2500
-          ? 2
-          : filters.budget === "mid" && price <= 6000
-            ? 2
-            : 0;
-      return { product, score: placeFit + powerFit + budgetFit };
+      const footprintM2 = getFootprintM2(product);
+      return { product, footprintM2, reasons: getMatchReasons(product, filters, footprintM2) };
     })
-    .filter(({ score }) => score >= 6)
-    .sort((a, b) => b.score - a.score || a.product.model.localeCompare(b.product.model, "de"))
-    .map(({ product }) => product);
+    .sort((a, b) => {
+      const capacityGapA = requestedPeople === null ? 0 : a.product.people.max - requestedPeople;
+      const capacityGapB = requestedPeople === null ? 0 : b.product.people.max - requestedPeople;
+      if (capacityGapA !== capacityGapB) return capacityGapA - capacityGapB;
+      if (a.footprintM2 !== b.footprintM2) return a.footprintM2 - b.footprintM2;
+      const priceA = getLowestPrice(a.product) ?? Number.POSITIVE_INFINITY;
+      const priceB = getLowestPrice(b.product) ?? Number.POSITIVE_INFINITY;
+      return priceA - priceB || `${a.product.brand} ${a.product.model}`.localeCompare(`${b.product.brand} ${b.product.model}`, "de");
+    });
+
+  const relaxationDefinitions: Array<Omit<FinderRelaxation, "matchCount"> & { active: boolean }> = [
+    { key: "people", value: "flex", label: "Personenzahl öffnen", active: filters.people !== "flex" },
+    { key: "footprint", value: "open", label: "Fläche öffnen", active: filters.footprint !== "open" },
+    { key: "power", value: "unknown", label: "Anschluss offenlassen", active: filters.power !== "unknown" },
+    { key: "budget", value: "open", label: "Budget öffnen", active: filters.budget !== "open" },
+  ];
+  const relaxations = relaxationDefinitions.flatMap(({ active, ...relaxation }) => {
+    if (!active) return [];
+    const matchCount = productList.filter((product) => matchesFinderFilters(product, filters, relaxation.key)).length;
+    return matchCount > 0 ? [{ ...relaxation, matchCount }] : [];
+  });
+
+  return {
+    matches,
+    featuredMatches: selectDiverseMatches(matches, 4),
+    relaxations,
+  };
 }

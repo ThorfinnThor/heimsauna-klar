@@ -91,9 +91,9 @@ export function HomePage() {
 
       <section className="finder-section" id="finder" aria-labelledby="finder-title">
         <div className="section-heading">
-          <p className="eyebrow">Sauna-Finder · erster Prototyp</p>
-          <h2 id="finder-title">Drei Angaben. Eine klare Richtung.</h2>
-          <p>Noch ohne Verkaufsranglisten: Der erste Schritt grenzt den technisch sinnvollen Sauna-Typ ein.</p>
+          <p className="eyebrow">Sauna-Finder · statisch aus dem Produktkatalog</p>
+          <h2 id="finder-title">Fünf Angaben. Konkrete Kandidaten.</h2>
+          <p>Standort, Personenzahl, reine Produktfläche, Anschluss und Budget werden auf alle 150 verifizierten Datensätze angewendet. „Noch offen“ setzt bewusst keinen Filter.</p>
         </div>
         <SaunaFinder archetypes={archetypes} products={products} />
       </section>

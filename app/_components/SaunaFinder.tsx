@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import type { Product } from "@/lib/products";
-import { formatPrice, rankProducts } from "@/lib/products";
+import { findProductsForFinder, formatPrice, formatVoltage, type FinderFilters, type FinderRelaxation, type Product } from "@/lib/products";
 
 type Archetype = {
   id: string;
@@ -16,15 +15,13 @@ type Archetype = {
   status: string;
 };
 
-type FinderAnswers = {
-  place: "indoor" | "outdoor" | "mobile";
-  power: "230" | "400" | "unknown";
-  budget: "lean" | "mid" | "open";
-};
+type FinderAnswers = FinderFilters;
 
 const initialAnswers: FinderAnswers = {
   place: "indoor",
-  power: "230",
+  people: "2",
+  footprint: "compact",
+  power: "unknown",
   budget: "mid",
 };
 
@@ -38,10 +35,14 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
     return archetypes.find((item) => item.id === "indoor-230v");
   }, [answers, archetypes]);
 
-  const matchingProducts = useMemo(() => rankProducts(products, answers), [answers, products]);
+  const finderResult = useMemo(() => findProductsForFinder(products, answers), [answers, products]);
 
   const update = <K extends keyof FinderAnswers>(key: K, value: FinderAnswers[K]) => {
     setAnswers((current) => ({ ...current, [key]: value }));
+  };
+
+  const applyRelaxation = (relaxation: FinderRelaxation) => {
+    setAnswers((current) => ({ ...current, [relaxation.key]: relaxation.value } as FinderAnswers));
   };
 
   return (
@@ -57,6 +58,22 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
         />
         <FinderQuestion
           number="02"
+          legend="Für wie viele Personen soll sie reichen?"
+          name="people"
+          value={answers.people}
+          options={[["1", "1 Person"], ["2", "2 Personen"], ["4", "4 Personen"], ["flex", "Noch offen"]]}
+          onChange={(value) => update("people", value as FinderAnswers["people"])}
+        />
+        <FinderQuestion
+          number="03"
+          legend="Wie groß darf die reine Produktfläche sein?"
+          name="footprint"
+          value={answers.footprint}
+          options={[["compact", "Bis 3 m²"], ["standard", "Bis 6 m²"], ["open", "Noch offen"]]}
+          onChange={(value) => update("footprint", value as FinderAnswers["footprint"])}
+        />
+        <FinderQuestion
+          number="04"
           legend="Welcher Anschluss ist vorhanden?"
           name="power"
           value={answers.power}
@@ -64,7 +81,7 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
           onChange={(value) => update("power", value as FinderAnswers["power"])}
         />
         <FinderQuestion
-          number="03"
+          number="05"
           legend="Wie ist der Budgetrahmen?"
           name="budget"
           value={answers.budget}
@@ -73,31 +90,48 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
         />
       </div>
 
-      <div className="finder-result" aria-live="polite">
-        <p className="result-kicker">Deine sinnvolle Startrichtung</p>
+      <div className="finder-result" aria-live="polite" aria-atomic="false">
+        <p className="result-kicker">Datenbasierte Vorauswahl</p>
         <h3>{recommendation?.title}</h3>
         <p>{recommendation?.summary}</p>
         <div className="result-facts">
-          <span><small>Typischer Platz</small>{recommendation?.space}</span>
-          <span><small>Anschluss</small>{recommendation?.power}</span>
+          <span><small>Harte Treffer</small>{finderResult.matches.length}</span>
+          <span><small>Geprüfte Basis</small>{products.length} Datensätze</span>
         </div>
         <p className="result-caveat">
           {answers.power === "unknown"
-            ? "Den vorhandenen Anschluss vor der Produktauswahl fachlich klären."
-            : "Im nächsten Schritt werden echte, quellengeprüfte Modelle aus dem Produktkatalog gefiltert."}
+            ? "Der Anschluss ist bewusst kein Filter. Die Produktfläche enthält noch keine Montage- und Wandabstände."
+            : "Alle Treffer erfüllen den ausgewählten Anschluss laut Datensatz. Die Produktfläche enthält noch keine Montage- und Wandabstände."}
         </p>
-        {matchingProducts.length > 0 ? (
+        {finderResult.featuredMatches.length > 0 ? (
           <div className="finder-matches">
-            <p>Aktuell passend im Katalog</p>
-            {matchingProducts.slice(0, 2).map((product) => (
+            <p>{Math.min(4, finderResult.matches.length)} von {finderResult.matches.length} passenden Datensätzen</p>
+            {finderResult.featuredMatches.map(({ product, reasons }) => (
               <Link href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
-                <span><strong>{product.brand} {product.model}</strong><small>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm · {formatPrice(product)}</small></span>
+                <span>
+                  <strong>{product.brand} {product.model}</strong>
+                  <small>{formatVoltage(product.power.voltage)} · {formatPrice(product)}</small>
+                  <span className="finder-match-reasons">{reasons.join(" · ")}</span>
+                </span>
                 <span aria-hidden="true">↗</span>
               </Link>
             ))}
+            <Link className="finder-catalog-link" href="/de/produkte/">Gesamten Katalog öffnen <span aria-hidden="true">↗</span></Link>
           </div>
         ) : (
-          <p className="finder-empty">Für diese Kombination ist noch kein verifizierter Datensatz im Katalog. Das ist eine Datenlücke, keine Kaufempfehlung.</p>
+          <div className="finder-empty">
+            <strong>Keine harte Übereinstimmung</strong>
+            <p>Für diese Kombination ist noch kein verifizierter Datensatz im Katalog. Das ist eine Datenlücke, keine Aussage zur Marktverfügbarkeit.</p>
+            {finderResult.relaxations.length > 0 ? (
+              <div className="finder-relaxations" aria-label="Einzelne Filter öffnen">
+                {finderResult.relaxations.map((relaxation) => (
+                  <button type="button" onClick={() => applyRelaxation(relaxation)} key={relaxation.key}>
+                    {relaxation.label} · {relaxation.matchCount} Treffer
+                  </button>
+                ))}
+              </div>
+            ) : null}
+          </div>
         )}
       </div>
     </div>
