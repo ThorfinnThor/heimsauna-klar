@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import affiliate from "@/content/de/affiliate.json";
-import { affiliatePrograms, getAffiliateStats, getMerchantOfferCounts } from "@/lib/affiliate";
+import { affiliatePrograms, getAffiliateStats, getMerchantOfferCounts, merchants } from "@/lib/affiliate";
 import { formatGermanDate } from "@/lib/products";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
@@ -62,11 +62,14 @@ export default function AffiliateTransparencyPage() {
           <div className="planning-hub-grid">
             {affiliatePrograms.map((program) => (
               <article className="affiliate-principle" key={program.id}>
-                <small>{program.network} · Programm {program.program_id}</small>
+                <small>{program.network} · Programm {program.program_id} · {program.status === "candidate" ? "Kandidat" : program.status}</small>
                 <h3>{program.name}</h3>
                 <span>{program.focus}</span>
                 <dl className="affiliate-program-facts"><div><dt>Provision</dt><dd>{program.commission_snapshot}</dd></div><div><dt>Cookie</dt><dd>{program.cookie_days} Tage</dd></div></dl>
-                <a href={program.url} target="_blank" rel="noreferrer">Programmquelle · geprüft {formatGermanDate(program.checked_at)} ↗</a>
+                <p><strong>Advertiser-Abdeckung:</strong> {program.advertiser_merchant_ids.length > 0
+                  ? program.advertiser_merchant_ids.map((merchantId) => merchants.find((merchant) => merchant.id === merchantId)?.name ?? merchantId).join(", ")
+                  : "Noch keinem Katalog-Händler zugeordnet"}</p>
+                <a href={program.url} target="_blank" rel="noreferrer">Bewerbungsseite öffnen · geprüft {formatGermanDate(program.checked_at)} ↗</a>
               </article>
             ))}
           </div>
