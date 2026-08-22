@@ -8,7 +8,7 @@ import {
   getLowestPrice,
   type Collection,
 } from "@/lib/collections";
-import { formatGermanDate, formatPrice, formatVoltage, getLatestOfferCheck } from "@/lib/products";
+import { formatGermanDate, formatPower, formatPrice, formatVoltage, getLatestOfferCheck } from "@/lib/products";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 const sectionLabels: Record<Collection["section"], string> = {
@@ -81,7 +81,7 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
                     <td>{getFootprintSquareMeters(product).toLocaleString("de-DE", { maximumFractionDigits: 2 })} m²</td>
                     <td>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</td>
                     <td>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</td>
-                    <td>{formatVoltage(product.power.voltage)}{product.power.kw ? ` · ${product.power.kw} kW` : ""}</td>
+                    <td>{formatVoltage(product.power.voltage)}{product.power.kw ? ` · ${formatPower(product.power.kw)}` : ""}</td>
                     <td>{formatPrice(product)}</td>
                   </tr>
                 ))}

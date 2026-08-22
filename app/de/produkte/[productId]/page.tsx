@@ -5,7 +5,7 @@ import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
 import { getOfferDisclosure } from "@/lib/affiliate";
-import { formatGermanDate, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
+import { formatGermanDate, formatPower, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ productId: string }> };
@@ -103,7 +103,7 @@ export default async function ProductPage({ params }: Props) {
               <div><dt>Außenmaß</dt><dd>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</dd></div>
               <div><dt>Kapazität</dt><dd>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</dd></div>
               <div><dt>Spannung</dt><dd>{formatVoltage(product.power.voltage)}</dd></div>
-              <div><dt>Leistung</dt><dd>{product.power.kw ? `${product.power.kw} kW` : "nicht ausgewiesen"}</dd></div>
+              <div><dt>Leistung</dt><dd>{formatPower(product.power.kw)}</dd></div>
               <div><dt>Wärmeart</dt><dd>{product.sauna.heater_type}</dd></div>
               <div><dt>Holz</dt><dd>{product.sauna.wood_type}</dd></div>
             </dl>

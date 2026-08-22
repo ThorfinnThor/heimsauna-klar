@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Product } from "@/lib/products";
-import { formatVoltage } from "@/lib/products";
+import { formatPower, formatVoltage } from "@/lib/products";
 
 type CategoryFilter = "all" | "sauna" | "infrared";
 type CapacityFilter = "all" | "1" | "2" | "3-plus";
@@ -189,7 +189,7 @@ function ProductGroup({ id, title, products, offset, familyCounts }: {
           </div>
           <dl>
             <div><dt>Maße</dt><dd>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</dd></div>
-            <div><dt>Strom</dt><dd>{formatVoltage(product.power.voltage)}{product.power.kw ? ` · ${product.power.kw} kW` : ""}</dd></div>
+            <div><dt>Strom</dt><dd>{formatVoltage(product.power.voltage)}{product.power.kw ? ` · ${formatPower(product.power.kw)}` : ""}</dd></div>
             <div><dt>Kapazität</dt><dd>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</dd></div>
             <div><dt>Preisstatus</dt><dd>{formatPrice(product)}</dd></div>
           </dl>

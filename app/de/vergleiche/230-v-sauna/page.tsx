@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
-import { formatGermanDate, formatPrice, getLatestOfferCheck, products } from "@/lib/products";
+import { formatGermanDate, formatPower, formatPrice, getLatestOfferCheck, products } from "@/lib/products";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -49,7 +49,7 @@ export default function ComparisonPage() {
                 <span><small>{product.brand} · {product.sauna.type}</small><strong>{product.model}</strong></span>
                 <span>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</span>
                 <span>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</span>
-                <span>{product.power.kw ? `${product.power.kw} kW` : "nicht ausgewiesen"}</span>
+                <span>{formatPower(product.power.kw)}</span>
                 <span>{formatPrice(product)} ↗</span>
               </Link>
             ))}

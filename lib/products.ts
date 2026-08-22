@@ -104,6 +104,11 @@ export function formatVoltage(voltage: Product["power"]["voltage"]) {
   return "nicht ausgewiesen";
 }
 
+export function formatPower(kw: Product["power"]["kw"]) {
+  if (kw === null) return "nicht ausgewiesen";
+  return `${kw.toLocaleString("de-DE", { maximumFractionDigits: 2 })} kW`;
+}
+
 export function formatGermanDate(value: string) {
   return new Intl.DateTimeFormat("de-DE", {
     day: "2-digit",
