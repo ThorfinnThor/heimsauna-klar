@@ -82,6 +82,7 @@ export default async function ProductPage({ params }: Props) {
                     <div className="product-offer" key={`${offer.merchant}-${offer.url}`}>
                       <div>
                         <b>{offer.merchant}</b>
+                        {offer.configuration ? <span>{offer.configuration}</span> : null}
                         <span>{formatOfferPrice(offer, product.commercial.currency)} · Stand {formatGermanDate(offer.last_checked)}</span>
                       </div>
                       <a
@@ -89,8 +90,9 @@ export default async function ProductPage({ params }: Props) {
                         rel={offer.affiliate ? "sponsored nofollow noreferrer" : "nofollow noreferrer"}
                         target="_blank"
                       >
-                        Angebot öffnen ↗
+                        {offer.selection_required ? "Konfigurator öffnen ↗" : "Angebot öffnen ↗"}
                       </a>
+                      {offer.selection_required ? <span className="product-offer-note">Konfiguration im Shop erneut auswählen und Preis prüfen.</span> : null}
                       <em>{getOfferDisclosure(offer)}</em>
                     </div>
                   ))}

@@ -559,6 +559,7 @@ footer {
 .product-offer > div { margin-bottom: 9px; display: flex; flex-direction: column; gap: 3px; align-items: flex-start; }
 .product-offer b { font-size: 10px; }
 .product-offer span { color: var(--ink-soft); font-size: 8px; }
+.product-offer .product-offer-note { margin-top: 7px; line-height: 1.45; }
 
 .spec-section { padding-block: 90px; display: grid; grid-template-columns: .75fr 1.25fr; gap: 8vw; border-top: 1px solid var(--line); }
 .spec-section h2, .source-section h2, .guide-checks h2, .voltage-comparison h2, .matching-products h2, .guide-sources h2 { font-size: clamp(42px, 4.6vw, 68px); }

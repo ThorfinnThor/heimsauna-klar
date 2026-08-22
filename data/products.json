@@ -582,7 +582,9 @@
         "availability": "in-stock",
         "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
         "affiliate": false,
-        "last_checked": "2026-08-22"
+        "last_checked": "2026-08-22",
+        "configuration": "Easy Bio · Graphitglas · ohne Dachkranz",
+        "selection_required": true
       }]
     },
     "editorial": {
@@ -647,7 +649,9 @@
         "availability": "in-stock",
         "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
         "affiliate": false,
-        "last_checked": "2026-08-22"
+        "last_checked": "2026-08-22",
+        "configuration": "Easy Bio · Klarglas · mit Dachkranz",
+        "selection_required": true
       }]
     },
     "editorial": {
@@ -712,7 +716,9 @@
         "availability": "in-stock",
         "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg",
         "affiliate": false,
-        "last_checked": "2026-08-22"
+        "last_checked": "2026-08-22",
+        "configuration": "3,6 kW finnisch · mit Dachkranz",
+        "selection_required": true
       }]
     },
     "editorial": {
@@ -1091,7 +1097,7 @@
     "people": { "min": 1, "max": 3, "seats": 3, "lying_places": 1 },
     "power": { "voltage": 230, "kw": 3.6, "plug_type": "230-V-Steckdose laut Hersteller", "electrician_required": false, "notes": "Steckerfertiger 3,6-kW-Ofen mit integrierter Steuerung laut Hersteller; Anleitung und örtliche Anschlussbedingungen prüfen." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektro", "max_temp_c": 80, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2149.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-saja/85918", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 1978.16, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg", "affiliate": false, "last_checked": "2026-08-22" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2149.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-saja/85918", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 1978.16, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg", "affiliate": false, "last_checked": "2026-08-22", "configuration": "3,6 kW integriert · Klarglas · ohne Dachkranz", "selection_required": true }] },
     "editorial": { "pros": ["Drei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "68-mm-vormontierte Wandelemente"], "cons": ["Nur ein Liegeplatz", "Größere Stellfläche", "Erreichbare Temperatur hängt laut Hersteller von den Bedingungen ab"], "ideal_for": ["Beheizte Innenräume", "Bis zu drei Personen", "Nutzer mit integrierter Steuerung"], "not_for": ["Sehr kleine Räume", "Nutzer mit Bedarf an mehreren Liegeplätzen"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
     "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Saja 85918", "url": "https://www.karibu.de/sauna-saja/85918", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Sauna Saja", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg", "checked_at": "2026-08-22" }],
     "updated_at": "2026-08-22"
@@ -1107,7 +1113,7 @@
     "people": { "min": 1, "max": 3, "seats": 3, "lying_places": 1 },
     "power": { "voltage": 230, "kw": 3.6, "plug_type": "230-V-Steckdose laut Hersteller", "electrician_required": false, "notes": "Steckerfertiger 3,6-kW-Bio-Kombi-Ofen laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen." },
     "sauna": { "type": "Bio-Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektro", "max_temp_c": 80, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2099.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-saja/85894", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 2341.35, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg", "affiliate": false, "last_checked": "2026-08-22" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2099.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-saja/85894", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 2341.35, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg", "affiliate": false, "last_checked": "2026-08-22", "configuration": "Easy Bio · Holztür · ohne Dachkranz", "selection_required": true }] },
     "editorial": { "pros": ["Drei Sitzplätze und ein Liegeplatz", "230-V-Easy-Bio-Konfiguration", "Gedämmte Holztür"], "cons": ["Nur ein Liegeplatz", "Bio-Modus laut Hersteller bis etwa 70 °C", "Erreichbare Temperatur hängt von den Bedingungen ab"], "ideal_for": ["Beheizte Innenräume", "Bis zu drei Personen", "Nutzer mit Bio-Modus und Holztür"], "not_for": ["Nutzer mit Bedarf an mehreren Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
     "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Saja 85894", "url": "https://www.karibu.de/sauna-saja/85894", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Sauna Saja", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg", "checked_at": "2026-08-22" }],
     "updated_at": "2026-08-22"
@@ -1123,7 +1129,7 @@
     "people": { "min": 1, "max": 3, "seats": 3, "lying_places": 1 },
     "power": { "voltage": 230, "kw": 3.6, "plug_type": "230-V-Steckdose laut Hersteller", "electrician_required": false, "notes": "Externe finnische Plug-&-Play-Steuerung laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektro", "max_temp_c": 80, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2099.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-fanja/85868", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 2144.87, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg", "affiliate": false, "last_checked": "2026-08-22" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2099.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-fanja/85868", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 2144.87, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg", "affiliate": false, "last_checked": "2026-08-22", "configuration": "3,6 kW finnisch · Holztür · ohne Dachkranz", "selection_required": true }] },
     "editorial": { "pros": ["Drei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "Spiegelbar"], "cons": ["Nur ein Liegeplatz", "Größere Stellfläche", "Erreichbare Temperatur hängt laut Hersteller von den Bedingungen ab"], "ideal_for": ["Beheizte Innenräume", "Bis zu drei Personen", "Nutzer mit Holztür"], "not_for": ["Sehr kleine Räume", "Nutzer mit Bedarf an mehreren Liegeplätzen"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
     "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Fanja 85868", "url": "https://www.karibu.de/sauna-fanja/85868", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Sauna Fanja", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg", "checked_at": "2026-08-22" }],
     "updated_at": "2026-08-22"
@@ -1619,9 +1625,9 @@
     "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 2 },
     "power": { "voltage": "none", "kw": null, "plug_type": null, "electrician_required": false, "notes": "Ohne Saunatechnik; Ofen und Anschlussart sind optional und müssen passend ausgelegt werden." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "outdoor", "heater_type": "Ofen optional", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 3499.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/saunahaus-ares-1/212M", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 2930.55, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-1-hybridhaus-mit-metallrahmen", "affiliate": false, "last_checked": "2026-08-22" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 3499.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/saunahaus-ares-1/214", "affiliate": false, "last_checked": "2026-08-22" }, { "merchant": "Mein-Saunashop", "price": 2930.55, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-1-hybridhaus-mit-metallrahmen", "affiliate": false, "last_checked": "2026-08-22", "configuration": "Naturbelassen · ohne Ofen", "selection_required": true }] },
     "editorial": { "pros": ["Zwei Liegeplätze", "Terrasse und Sichtschutz", "Kompakte Außenmaße"], "cons": ["Ofen nicht enthalten", "Dacheindeckung optional", "Fundament erforderlich"], "ideal_for": ["Kleine bis mittlere Gärten", "Bis zu vier Personen", "Nutzer mit Terrasse"], "not_for": ["Innenaufstellung", "Ungeklärte Ofeninstallation", "Sehr kleine Grundstücke"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
-    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Saunahaus Ares 1", "url": "https://www.karibu.de/saunahaus-ares-1/212M", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Saunahaus Ares 1", "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-1-hybridhaus-mit-metallrahmen", "checked_at": "2026-08-22" }],
+    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Saunahaus Ares 1 · Artikel 214", "url": "https://www.karibu.de/saunahaus-ares-1/214", "checked_at": "2026-08-22" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Saunahaus Ares 1", "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-1-hybridhaus-mit-metallrahmen", "checked_at": "2026-08-22" }],
     "updated_at": "2026-08-22"
   },
   {
@@ -1635,9 +1641,9 @@
     "people": { "min": 1, "max": 5, "seats": 5, "lying_places": 2 },
     "power": { "voltage": "none", "kw": null, "plug_type": null, "electrician_required": false, "notes": "Ohne Saunatechnik; Ofen und Anschlussart sind optional und müssen passend ausgelegt werden." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "outdoor", "heater_type": "Ofen optional", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 3799.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/saunahaus-ares-2/258M", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 3168.70, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-2-hybridhaus-mit-metallrahmen-38-mm", "affiliate": false, "last_checked": "2026-08-22" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 3799.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/saunahaus-ares-2/34043", "affiliate": false, "last_checked": "2026-08-22" }, { "merchant": "Mein-Saunashop", "price": 3168.70, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-2-hybridhaus-mit-metallrahmen-38-mm", "affiliate": false, "last_checked": "2026-08-22", "configuration": "Naturbelassen · ohne Ofen", "selection_required": true }] },
     "editorial": { "pros": ["Bis zu fünf Personen", "Zwei Liegeplätze", "Terrasse und Lamellen-Sichtschutz"], "cons": ["Ofen nicht enthalten", "Dacheindeckung optional", "Fundament erforderlich"], "ideal_for": ["Mittlere Gärten", "Familien und Gäste", "Nutzer mit Terrasse"], "not_for": ["Innenaufstellung", "Ungeklärte Ofeninstallation", "Sehr kleine Grundstücke"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
-    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Saunahaus Ares 2", "url": "https://www.karibu.de/saunahaus-ares-2/258M", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Saunahaus Ares 2", "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-2-hybridhaus-mit-metallrahmen-38-mm", "checked_at": "2026-08-22" }],
+    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Saunahaus Ares 2 · Artikel 34043", "url": "https://www.karibu.de/saunahaus-ares-2/34043", "checked_at": "2026-08-22" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Saunahaus Ares 2", "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-2-hybridhaus-mit-metallrahmen-38-mm", "checked_at": "2026-08-22" }],
     "updated_at": "2026-08-22"
   },
   {
@@ -1699,7 +1705,7 @@
     "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 2 },
     "power": { "voltage": "none", "kw": null, "plug_type": null, "electrician_required": false, "notes": "Ohne Ofen; optionaler Ofen und Anschlussart sind bauseits zu klären." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "outdoor", "heater_type": "Ofen optional", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 1999.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/fasssauna-quadro-1/109M", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 1680.85, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-saunahaus-fasssauna-quadro-1-38-mm", "affiliate": false, "last_checked": "2026-08-22" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 1999.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/fasssauna-quadro-1/109M", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 1680.85, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-saunahaus-fasssauna-quadro-1-38-mm", "affiliate": false, "last_checked": "2026-08-22", "configuration": "Naturbelassen · ohne Ofen", "selection_required": true }] },
     "editorial": { "pros": ["Sehr kompakte Grundfläche", "Zwei Liegeplätze", "Steck-Schraub-System"], "cons": ["Nur zwei Sitzplätze", "Ofen nicht enthalten", "Dacheindeckung einplanen"], "ideal_for": ["Kleine Gärten", "Zwei Personen", "Kompakte Außensauna"], "not_for": ["Innenaufstellung", "Große Gruppen", "Ungeklärte Ofeninstallation"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
     "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Fasssauna Quadro 1", "url": "https://www.karibu.de/fasssauna-quadro-1/109M", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Fasssauna Quadro 1", "url": "https://www.mein-saunashop.de/karibu-saunahaus-fasssauna-quadro-1-38-mm", "checked_at": "2026-08-22" }],
     "updated_at": "2026-08-22"
@@ -1715,7 +1721,7 @@
     "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 3 },
     "power": { "voltage": "none", "kw": null, "plug_type": null, "electrician_required": false, "notes": "Ohne Ofen; optionaler Ofen und Anschlussart sind bauseits zu klären." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "outdoor", "heater_type": "Ofen optional", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2449.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/fasssauna-quadro-1-plus/35445M", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 2056.12, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-saunahaus-fasssauna-quadro-1-plus-38-mm", "affiliate": false, "last_checked": "2026-08-22" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2449.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/fasssauna-quadro-1-plus/35445M", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 2056.12, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-saunahaus-fasssauna-quadro-1-plus-38-mm", "affiliate": false, "last_checked": "2026-08-22", "configuration": "Naturbelassen · ohne Ofen", "selection_required": true }] },
     "editorial": { "pros": ["Drei Liegeplätze", "Vier Sitzplätze", "Kompakte Plus-Grundfläche"], "cons": ["Ofen nicht enthalten", "Dacheindeckung einplanen", "Runder Innenraum nicht für jeden Grundriss ideal"], "ideal_for": ["Kleine bis mittlere Gärten", "Bis zu vier Personen", "Nutzer mit Fassdesign"], "not_for": ["Innenaufstellung", "Ungeklärte Ofeninstallation", "Sehr kleine Stellflächen"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
     "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Fasssauna Quadro 1 Plus", "url": "https://www.karibu.de/fasssauna-quadro-1-plus/35445M", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Fasssauna Quadro 1 Plus", "url": "https://www.mein-saunashop.de/karibu-saunahaus-fasssauna-quadro-1-plus-38-mm", "checked_at": "2026-08-22" }],
     "updated_at": "2026-08-22"

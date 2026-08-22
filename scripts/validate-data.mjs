@@ -348,6 +348,15 @@ for (const product of products) {
     assertHttpsUrl(offer.url, `Offer URL for ${product.product_id}`);
     assertIsoDate(offer.last_checked, `Offer check date for ${product.product_id}`);
     if (typeof offer.affiliate !== "boolean") throw new Error(`${product.product_id} has an invalid affiliate flag`);
+    if (offer.configuration !== undefined && (typeof offer.configuration !== "string" || offer.configuration.trim() === "")) {
+      throw new Error(`${product.product_id} has an invalid offer configuration`);
+    }
+    if (offer.selection_required !== undefined && typeof offer.selection_required !== "boolean") {
+      throw new Error(`${product.product_id} has an invalid offer selection requirement`);
+    }
+    if (offer.selection_required && !offer.configuration) {
+      throw new Error(`${product.product_id} requires an offer configuration when shop selection is required`);
+    }
     const registeredMerchant = merchantsByName.get(offer.merchant);
     if (!registeredMerchant) throw new Error(`${product.product_id} uses unregistered merchant ${offer.merchant}`);
     const offerHost = new URL(offer.url).hostname.replace(/^www\./, "");

@@ -34,6 +34,8 @@ export type Product = {
       url: string;
       affiliate: boolean;
       last_checked: string;
+      configuration?: string;
+      selection_required?: boolean;
     }>;
   };
   editorial: {
