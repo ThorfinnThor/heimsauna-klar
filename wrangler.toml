@@ -1,0 +1,5 @@
+name = "heimsauna-klar"
+pages_build_output_dir = "./out"
+
+# This repository is a static Next.js export. It intentionally does not use
+# the OpenNext Workers adapter or a `main` Worker entry point.
