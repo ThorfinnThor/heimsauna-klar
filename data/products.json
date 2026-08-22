@@ -576,6 +576,13 @@
         "url": "https://www.karibu.de/sauna-saja/85911",
         "affiliate": false,
         "last_checked": "2026-08-21"
+      }, {
+        "merchant": "Mein-Saunashop",
+        "price": 2341.35,
+        "availability": "in-stock",
+        "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
+        "affiliate": false,
+        "last_checked": "2026-08-22"
       }]
     },
     "editorial": {
@@ -592,8 +599,13 @@
       "title": "Karibu Produktseite Sauna Saja 85911",
       "url": "https://www.karibu.de/sauna-saja/85911",
       "checked_at": "2026-08-21"
+    }, {
+      "type": "merchant",
+      "title": "Mein-Saunashop Produktseite Sauna Saja",
+      "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
+      "checked_at": "2026-08-22"
     }],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "karibu-sauna-saja-85924",
@@ -629,6 +641,13 @@
         "url": "https://www.karibu.de/sauna-saja/85924",
         "affiliate": false,
         "last_checked": "2026-08-21"
+      }, {
+        "merchant": "Mein-Saunashop",
+        "price": 2393.74,
+        "availability": "in-stock",
+        "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
+        "affiliate": false,
+        "last_checked": "2026-08-22"
       }]
     },
     "editorial": {
@@ -645,8 +664,13 @@
       "title": "Karibu Produktseite Sauna Saja 85924",
       "url": "https://www.karibu.de/sauna-saja/85924",
       "checked_at": "2026-08-21"
+    }, {
+      "type": "merchant",
+      "title": "Mein-Saunashop Produktseite Sauna Saja",
+      "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
+      "checked_at": "2026-08-22"
     }],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "karibu-sauna-fanja-85872",
@@ -682,6 +706,13 @@
         "url": "https://www.karibu.de/sauna-fanja/85872",
         "affiliate": false,
         "last_checked": "2026-08-21"
+      }, {
+        "merchant": "Mein-Saunashop",
+        "price": 2197.26,
+        "availability": "in-stock",
+        "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg",
+        "affiliate": false,
+        "last_checked": "2026-08-22"
       }]
     },
     "editorial": {
@@ -698,8 +729,13 @@
       "title": "Karibu Produktseite Sauna Fanja 85872",
       "url": "https://www.karibu.de/sauna-fanja/85872",
       "checked_at": "2026-08-21"
+    }, {
+      "type": "merchant",
+      "title": "Mein-Saunashop Produktseite Sauna Fanja",
+      "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg",
+      "checked_at": "2026-08-22"
     }],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "weka-infrarotkabine-mila-137x99",
@@ -1055,10 +1091,10 @@
     "people": { "min": 1, "max": 3, "seats": 3, "lying_places": 1 },
     "power": { "voltage": 230, "kw": 3.6, "plug_type": "230-V-Steckdose laut Hersteller", "electrician_required": false, "notes": "Steckerfertiger 3,6-kW-Ofen mit integrierter Steuerung laut Hersteller; Anleitung und örtliche Anschlussbedingungen prüfen." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektro", "max_temp_c": 80, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2149.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-saja/85918", "affiliate": false, "last_checked": "2026-08-21" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2149.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-saja/85918", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 1978.16, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg", "affiliate": false, "last_checked": "2026-08-22" }] },
     "editorial": { "pros": ["Drei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "68-mm-vormontierte Wandelemente"], "cons": ["Nur ein Liegeplatz", "Größere Stellfläche", "Erreichbare Temperatur hängt laut Hersteller von den Bedingungen ab"], "ideal_for": ["Beheizte Innenräume", "Bis zu drei Personen", "Nutzer mit integrierter Steuerung"], "not_for": ["Sehr kleine Räume", "Nutzer mit Bedarf an mehreren Liegeplätzen"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
-    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Saja 85918", "url": "https://www.karibu.de/sauna-saja/85918", "checked_at": "2026-08-21" }],
-    "updated_at": "2026-08-21"
+    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Saja 85918", "url": "https://www.karibu.de/sauna-saja/85918", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Sauna Saja", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg", "checked_at": "2026-08-22" }],
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "karibu-sauna-saja-85894",
@@ -1071,10 +1107,10 @@
     "people": { "min": 1, "max": 3, "seats": 3, "lying_places": 1 },
     "power": { "voltage": 230, "kw": 3.6, "plug_type": "230-V-Steckdose laut Hersteller", "electrician_required": false, "notes": "Steckerfertiger 3,6-kW-Bio-Kombi-Ofen laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen." },
     "sauna": { "type": "Bio-Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektro", "max_temp_c": 80, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2099.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-saja/85894", "affiliate": false, "last_checked": "2026-08-21" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2099.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-saja/85894", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 2341.35, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg", "affiliate": false, "last_checked": "2026-08-22" }] },
     "editorial": { "pros": ["Drei Sitzplätze und ein Liegeplatz", "230-V-Easy-Bio-Konfiguration", "Gedämmte Holztür"], "cons": ["Nur ein Liegeplatz", "Bio-Modus laut Hersteller bis etwa 70 °C", "Erreichbare Temperatur hängt von den Bedingungen ab"], "ideal_for": ["Beheizte Innenräume", "Bis zu drei Personen", "Nutzer mit Bio-Modus und Holztür"], "not_for": ["Nutzer mit Bedarf an mehreren Liegeplätzen", "Unbeheizte Aufstellräume ohne Herstellerfreigabe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
-    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Saja 85894", "url": "https://www.karibu.de/sauna-saja/85894", "checked_at": "2026-08-21" }],
-    "updated_at": "2026-08-21"
+    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Saja 85894", "url": "https://www.karibu.de/sauna-saja/85894", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Sauna Saja", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg", "checked_at": "2026-08-22" }],
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "karibu-sauna-fanja-85868",
@@ -1087,10 +1123,10 @@
     "people": { "min": 1, "max": 3, "seats": 3, "lying_places": 1 },
     "power": { "voltage": 230, "kw": 3.6, "plug_type": "230-V-Steckdose laut Hersteller", "electrician_required": false, "notes": "Externe finnische Plug-&-Play-Steuerung laut Hersteller; Anleitung und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektro", "max_temp_c": 80, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2099.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-fanja/85868", "affiliate": false, "last_checked": "2026-08-21" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2099.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/sauna-fanja/85868", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 2144.87, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg", "affiliate": false, "last_checked": "2026-08-22" }] },
     "editorial": { "pros": ["Drei Sitzplätze und ein Liegeplatz", "230-V-Konfiguration", "Spiegelbar"], "cons": ["Nur ein Liegeplatz", "Größere Stellfläche", "Erreichbare Temperatur hängt laut Hersteller von den Bedingungen ab"], "ideal_for": ["Beheizte Innenräume", "Bis zu drei Personen", "Nutzer mit Holztür"], "not_for": ["Sehr kleine Räume", "Nutzer mit Bedarf an mehreren Liegeplätzen"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
-    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Fanja 85868", "url": "https://www.karibu.de/sauna-fanja/85868", "checked_at": "2026-08-21" }],
-    "updated_at": "2026-08-21"
+    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Sauna Fanja 85868", "url": "https://www.karibu.de/sauna-fanja/85868", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Sauna Fanja", "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg", "checked_at": "2026-08-22" }],
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "weka-saunahaus-laadi-1-130x105",
