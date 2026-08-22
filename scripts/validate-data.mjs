@@ -11,6 +11,7 @@ const launchReadiness = JSON.parse(await readFile(new URL("../data/launch-readin
 const planningGuides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
 const planningNavigation = JSON.parse(await readFile(new URL("../content/de/planning-navigation.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
+const powerEvidence = JSON.parse(await readFile(new URL("../data/power-evidence.json", import.meta.url), "utf8"));
 const today = new Date().toISOString().slice(0, 10);
 const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -32,6 +33,17 @@ if (!Array.isArray(archetypes) || archetypes.length === 0) {
   throw new Error("data/sauna-archetypes.json must contain at least one entry");
 }
 if (!Array.isArray(sourceQueue) || sourceQueue.length === 0) throw new Error("data/source-queue.json must contain queued sources");
+if (powerEvidence.scope !== "data/products.json" || powerEvidence.schema_version !== 1) {
+  throw new Error("data/power-evidence.json has an invalid scope or schema version");
+}
+assertIsoDate(powerEvidence.updated_at, "Power evidence updated_at");
+if (!Array.isArray(powerEvidence.assignment_rules) || powerEvidence.assignment_rules.length < 4) {
+  throw new Error("Power evidence needs explicit assignment rules");
+}
+if (!Array.isArray(powerEvidence.official_reference_sources) || powerEvidence.official_reference_sources.length < 3) {
+  throw new Error("Power evidence needs official reference sources");
+}
+for (const source of powerEvidence.official_reference_sources) assertHttpsUrl(source.url, "Power evidence source URL");
 
 if (!Array.isArray(merchants) || merchants.length === 0) throw new Error("data/merchants.json must contain merchants");
 if (!affiliatePolicy.title || !Array.isArray(affiliatePolicy.principles) || affiliatePolicy.principles.length < 4) {
@@ -384,6 +396,20 @@ for (const source of sourceQueue) {
   }
 }
 
+const explicitVoltageProducts = products.filter((product) => typeof product.power.voltage === "number");
+const voltageNeutralProducts = products.filter((product) => product.power.voltage === "none");
+const noOvenOrUnconfiguredProducts = voltageNeutralProducts.filter((product) => product.power.kw === null);
+const electricVoltageUnstatedProducts = voltageNeutralProducts.filter((product) => product.power.kw !== null);
+if (powerEvidence.snapshot.products !== products.length
+  || powerEvidence.snapshot.voltage_not_assigned !== voltageNeutralProducts.length
+  || powerEvidence.snapshot.no_oven_or_unconfigured !== noOvenOrUnconfiguredProducts.length
+  || powerEvidence.snapshot.electric_heater_voltage_unstated !== electricVoltageUnstatedProducts.length
+  || powerEvidence.snapshot.explicit_voltage["230"] !== products.filter((product) => product.power.voltage === 230).length
+  || powerEvidence.snapshot.explicit_voltage["400"] !== products.filter((product) => product.power.voltage === 400).length
+  || powerEvidence.snapshot.explicit_voltage["120"] !== products.filter((product) => product.power.voltage === 120).length) {
+  throw new Error("Power evidence snapshot is out of sync with data/products.json");
+}
+
 if (!voltageGuide.title || !Array.isArray(voltageGuide.sources) || voltageGuide.sources.length === 0) {
   throw new Error("230-V guide must have a title and at least one source");
 }
@@ -416,4 +442,4 @@ if ((affiliateOfferCount > 0) !== (affiliatePolicy.current_status === "active"))
   throw new Error("Affiliate policy status does not match active product offers");
 }
 
-console.log(`Data check passed: ${products.length} products in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, ${planningGuides.length + 1} sourced guides, ${merchants.length} merchants, ${affiliatePrograms.length} affiliate candidates, ${affiliateOfferCount} active affiliate links, ${requiredLaunchGates.length - blockingLaunchGates.length}/${requiredLaunchGates.length} launch gates ready, ${sourceQueue.length} queued sources.`);
+console.log(`Data check passed: ${products.length} products in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, ${planningGuides.length + 1} sourced guides, ${merchants.length} merchants, ${affiliatePrograms.length} affiliate candidates, ${affiliateOfferCount} active affiliate links, ${requiredLaunchGates.length - blockingLaunchGates.length}/${requiredLaunchGates.length} launch gates ready, ${sourceQueue.length} queued sources, ${explicitVoltageProducts.length} explicit voltage records, ${voltageNeutralProducts.length} voltage-neutral records.`);

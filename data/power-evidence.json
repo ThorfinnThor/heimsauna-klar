@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-22",
+  "scope": "data/products.json",
+  "method": "Only assign a voltage when the exact manufacturer configuration states it. Do not infer 400 V from heater power alone.",
+  "snapshot": {
+    "products": 150,
+    "explicit_voltage": {
+      "230": 24,
+      "400": 0,
+      "120": 0
+    },
+    "voltage_not_assigned": 126,
+    "no_oven_or_unconfigured": 61,
+    "electric_heater_voltage_unstated": 65
+  },
+  "assignment_rules": [
+    "A 230-V value requires an exact product or configuration page that states 230 V or steckerfertig for that model.",
+    "A 400-V value requires an exact product or configuration page or manual that states 400 V for that model.",
+    "Products sold without an oven or with a selectable oven remain voltage-neutral until a configuration is chosen.",
+    "An electric heater with a stated kW rating but no stated voltage remains voltage-neutral and carries an electrician check note."
+  ],
+  "official_reference_sources": [
+    {
+      "title": "Karibu: Saunaofen – so viel kW benötigst du!",
+      "url": "https://www.karibu.de/info/wissenswertes/sauna-wissen/welcher-saunaofen",
+      "publisher": "Karibu"
+    },
+    {
+      "title": "Karibu: 230-V-Sauna und 400-V-Sauna im Vergleich",
+      "url": "https://www.karibu.de/sauna/innensauna/spezielle-sauna/plug-and-play-sauna-steckerfertig-230v/",
+      "publisher": "Karibu"
+    },
+    {
+      "title": "WEKA: SHG sauna oven manual",
+      "url": "https://www.weka-holzbau.com/out/media/productpdf/ma/MA800-0286-02-19.pdf",
+      "publisher": "WEKA"
+    }
+  ]
+}
