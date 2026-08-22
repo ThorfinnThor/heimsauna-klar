@@ -1635,10 +1635,10 @@
     "people": { "min": 1, "max": 5, "seats": 5, "lying_places": 2 },
     "power": { "voltage": "none", "kw": null, "plug_type": null, "electrician_required": false, "notes": "Ohne Saunatechnik; Ofen und Anschlussart sind optional und müssen passend ausgelegt werden." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "outdoor", "heater_type": "Ofen optional", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 3799.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/saunahaus-ares-2/258M", "affiliate": false, "last_checked": "2026-08-21" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 3799.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/saunahaus-ares-2/258M", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 3168.70, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-2-hybridhaus-mit-metallrahmen-38-mm", "affiliate": false, "last_checked": "2026-08-22" }] },
     "editorial": { "pros": ["Bis zu fünf Personen", "Zwei Liegeplätze", "Terrasse und Lamellen-Sichtschutz"], "cons": ["Ofen nicht enthalten", "Dacheindeckung optional", "Fundament erforderlich"], "ideal_for": ["Mittlere Gärten", "Familien und Gäste", "Nutzer mit Terrasse"], "not_for": ["Innenaufstellung", "Ungeklärte Ofeninstallation", "Sehr kleine Grundstücke"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
-    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Saunahaus Ares 2", "url": "https://www.karibu.de/saunahaus-ares-2/258M", "checked_at": "2026-08-21" }],
-    "updated_at": "2026-08-21"
+    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Saunahaus Ares 2", "url": "https://www.karibu.de/saunahaus-ares-2/258M", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Saunahaus Ares 2", "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-2-hybridhaus-mit-metallrahmen-38-mm", "checked_at": "2026-08-22" }],
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "karibu-saunahaus-mainburg-2-35976",
@@ -1715,10 +1715,10 @@
     "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 3 },
     "power": { "voltage": "none", "kw": null, "plug_type": null, "electrician_required": false, "notes": "Ohne Ofen; optionaler Ofen und Anschlussart sind bauseits zu klären." },
     "sauna": { "type": "Finnische Sauna", "indoor_outdoor": "outdoor", "heater_type": "Ofen optional", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Nordische Fichte" },
-    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2449.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/fasssauna-quadro-1-plus/35445M", "affiliate": false, "last_checked": "2026-08-21" }] },
+    "commercial": { "currency": "EUR", "price_status": "from", "offers": [{ "merchant": "Karibu", "price": 2449.99, "availability": "manufacturer-listed", "url": "https://www.karibu.de/fasssauna-quadro-1-plus/35445M", "affiliate": false, "last_checked": "2026-08-21" }, { "merchant": "Mein-Saunashop", "price": 2056.12, "availability": "in-stock", "url": "https://www.mein-saunashop.de/karibu-saunahaus-fasssauna-quadro-1-plus-38-mm", "affiliate": false, "last_checked": "2026-08-22" }] },
     "editorial": { "pros": ["Drei Liegeplätze", "Vier Sitzplätze", "Kompakte Plus-Grundfläche"], "cons": ["Ofen nicht enthalten", "Dacheindeckung einplanen", "Runder Innenraum nicht für jeden Grundriss ideal"], "ideal_for": ["Kleine bis mittlere Gärten", "Bis zu vier Personen", "Nutzer mit Fassdesign"], "not_for": ["Innenaufstellung", "Ungeklärte Ofeninstallation", "Sehr kleine Stellflächen"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis aktueller Herstellerangaben; kein eigener Produkttest." },
-    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Fasssauna Quadro 1 Plus", "url": "https://www.karibu.de/fasssauna-quadro-1-plus/35445M", "checked_at": "2026-08-21" }],
-    "updated_at": "2026-08-21"
+    "sources": [{ "type": "manufacturer", "title": "Karibu Produktseite Fasssauna Quadro 1 Plus", "url": "https://www.karibu.de/fasssauna-quadro-1-plus/35445M", "checked_at": "2026-08-21" }, { "type": "merchant", "title": "Mein-Saunashop Produktseite Fasssauna Quadro 1 Plus", "url": "https://www.mein-saunashop.de/karibu-saunahaus-fasssauna-quadro-1-plus-38-mm", "checked_at": "2026-08-22" }],
+    "updated_at": "2026-08-22"
   },
   {
     "product_id": "karibu-saunahaus-hygge-86314",
