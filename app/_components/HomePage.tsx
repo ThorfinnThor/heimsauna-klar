@@ -92,8 +92,8 @@ export function HomePage() {
       <section className="finder-section" id="finder" aria-labelledby="finder-title">
         <div className="section-heading">
           <p className="eyebrow">Sauna-Finder · statisch aus dem Produktkatalog</p>
-          <h2 id="finder-title">Fünf Angaben. Konkrete Kandidaten.</h2>
-          <p>Standort, Personenzahl, reine Produktfläche, Anschluss und Budget werden auf alle 150 verifizierten Datensätze angewendet. „Noch offen“ setzt bewusst keinen Filter.</p>
+          <h2 id="finder-title">Sechs Angaben. Konkrete Kandidaten.</h2>
+          <p>Standort, Personenzahl, reine Produktfläche, Anschluss, Budget und Wärmeart werden auf alle 150 verifizierten Datensätze angewendet. „Noch offen“ oder „Egal“ setzt bewusst keinen Filter.</p>
         </div>
         <SaunaFinder archetypes={archetypes} products={products} />
       </section>

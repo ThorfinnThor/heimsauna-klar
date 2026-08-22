@@ -23,6 +23,7 @@ const initialAnswers: FinderAnswers = {
   footprint: "compact",
   power: "unknown",
   budget: "mid",
+  heat: "open",
 };
 
 export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[]; products: Product[] }) {
@@ -31,7 +32,7 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
   const recommendation = useMemo(() => {
     if (answers.place === "mobile") return archetypes.find((item) => item.id === "portable");
     if (answers.place === "outdoor") return archetypes.find((item) => item.id === "outdoor-small");
-    if (answers.budget === "lean") return archetypes.find((item) => item.id === "infrared-compact");
+    if (answers.heat === "infrared" || (answers.heat === "open" && answers.budget === "lean")) return archetypes.find((item) => item.id === "infrared-compact");
     return archetypes.find((item) => item.id === "indoor-230v");
   }, [answers, archetypes]);
 
@@ -87,6 +88,14 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
           value={answers.budget}
           options={[["lean", "Bis 2.500 €"], ["mid", "Bis 6.000 €"], ["open", "Offen"]]}
           onChange={(value) => update("budget", value as FinderAnswers["budget"])}
+        />
+        <FinderQuestion
+          number="06"
+          legend="Welche Wärmeart bevorzugst du?"
+          name="heat"
+          value={answers.heat}
+          options={[["traditional", "Klassische Sauna"], ["infrared", "Infrarot"], ["open", "Egal"]]}
+          onChange={(value) => update("heat", value as FinderAnswers["heat"])}
         />
       </div>
 

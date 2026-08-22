@@ -59,6 +59,7 @@ export type FinderFilters = {
   footprint: "compact" | "standard" | "open";
   power: "230" | "400" | "unknown";
   budget: "lean" | "mid" | "open";
+  heat: "traditional" | "infrared" | "open";
 };
 
 export type FinderMatch = {
@@ -68,8 +69,8 @@ export type FinderMatch = {
 };
 
 export type FinderRelaxation = {
-  key: "people" | "footprint" | "power" | "budget";
-  value: FinderFilters["people"] | FinderFilters["footprint"] | FinderFilters["power"] | FinderFilters["budget"];
+  key: "people" | "footprint" | "power" | "budget" | "heat";
+  value: FinderFilters["people"] | FinderFilters["footprint"] | FinderFilters["power"] | FinderFilters["budget"] | FinderFilters["heat"];
   label: string;
   matchCount: number;
 };
@@ -154,6 +155,11 @@ function matchesFinderFilters(product: Product, filters: FinderFilters, ignored?
     : product.sauna.indoor_outdoor === filters.place;
   if (!matchesPlace) return false;
 
+  if (ignored !== "heat" && filters.heat !== "open") {
+    const isInfrared = product.category === "infrared";
+    if (filters.heat === "infrared" ? !isInfrared : isInfrared) return false;
+  }
+
   if (ignored !== "people" && filters.people !== "flex" && product.people.max < Number(filters.people)) return false;
   if (ignored !== "footprint" && filters.footprint !== "open" && getFootprintM2(product) > footprintLimits[filters.footprint]) return false;
   if (ignored !== "power" && filters.power !== "unknown" && product.power.voltage !== Number(filters.power)) return false;
@@ -175,6 +181,8 @@ function getMatchReasons(product: Product, filters: FinderFilters, footprintM2: 
 
   if (filters.power !== "unknown") reasons.push(`${filters.power} V ausgewiesen`);
   if (filters.budget !== "open") reasons.push(`bis ${budgetLimits[filters.budget].toLocaleString("de-DE")} €`);
+  if (filters.heat === "infrared") reasons.push("Infrarotkabine");
+  if (filters.heat === "traditional") reasons.push("klassische Saunakabine");
   return reasons;
 }
 
@@ -222,6 +230,7 @@ export function findProductsForFinder(productList: Product[], filters: FinderFil
     { key: "footprint", value: "open", label: "Fläche öffnen", active: filters.footprint !== "open" },
     { key: "power", value: "unknown", label: "Anschluss offenlassen", active: filters.power !== "unknown" },
     { key: "budget", value: "open", label: "Budget öffnen", active: filters.budget !== "open" },
+    { key: "heat", value: "open", label: "Wärmeart öffnen", active: filters.heat !== "open" },
   ];
   const relaxations = relaxationDefinitions.flatMap(({ active, ...relaxation }) => {
     if (!active) return [];
