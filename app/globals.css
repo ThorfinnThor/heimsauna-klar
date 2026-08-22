@@ -545,6 +545,7 @@ footer {
 .breadcrumbs a { text-decoration: underline; text-underline-offset: 3px; }
 .product-hero { padding-block: 36px 90px; }
 .product-title-grid { display: grid; grid-template-columns: 1fr 300px; gap: 9vw; align-items: end; }
+.product-title-grid > * { min-width: 0; }
 .product-hero h1 { max-width: 780px; }
 .product-lede { max-width: 640px; margin: 28px 0 0; color: var(--ink-soft); font-size: 16px; line-height: 1.6; }
 .product-price-card { padding: 26px; display: flex; flex-direction: column; background: var(--cream); border: 1px solid var(--line); }
@@ -555,9 +556,9 @@ footer {
 .product-price-card em { margin-top: 9px; color: var(--ink-soft); font-size: 8px; font-style: normal; text-align: center; }
 .product-offer-list { margin-top: 18px; display: grid; gap: 12px; }
 .product-offer { padding-top: 12px; display: grid; border-top: 1px solid var(--line); }
-.product-offer > div { margin-bottom: 9px; display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.product-offer > div { margin-bottom: 9px; display: flex; flex-direction: column; gap: 3px; align-items: flex-start; }
 .product-offer b { font-size: 10px; }
-.product-offer span { color: var(--ink-soft); font-size: 8px; text-align: right; }
+.product-offer span { color: var(--ink-soft); font-size: 8px; }
 
 .spec-section { padding-block: 90px; display: grid; grid-template-columns: .75fr 1.25fr; gap: 8vw; border-top: 1px solid var(--line); }
 .spec-section h2, .source-section h2, .guide-checks h2, .voltage-comparison h2, .matching-products h2, .guide-sources h2 { font-size: clamp(42px, 4.6vw, 68px); }
