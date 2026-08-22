@@ -40,6 +40,7 @@ export default async function ProductPage({ params }: Props) {
   const matchingCollections = collections
     .filter((collection) => getCollectionProducts(collection).some((candidate) => candidate.product_id === product.product_id))
     .slice(0, 3);
+  const productFrame = getProductFrame(product);
   const planningLinks = product.power.voltage === 230
     ? [
         { href: "/de/planung/platzbedarf/", label: "Planungsseite", title: "Platzbedarf prüfen" },
@@ -107,6 +108,8 @@ export default async function ProductPage({ params }: Props) {
           </div>
         </header>
 
+        {product.category === "outdoor" ? <ProductEditorialFrame product={product} frame={productFrame} /> : null}
+
         <section className="spec-section page-shell" aria-labelledby="spec-title">
           <div><p className="eyebrow">Kerndaten</p><h2 id="spec-title">Passt das Modell technisch?</h2></div>
           <div>
@@ -123,6 +126,8 @@ export default async function ProductPage({ params }: Props) {
             </p>
           </div>
         </section>
+
+        {product.category === "infrared" ? <ProductEditorialFrame product={product} frame={productFrame} /> : null}
 
         {familyProducts.length > 1 && product.family && (
           <section className="variant-section page-shell" aria-labelledby="variant-title">
@@ -152,6 +157,8 @@ export default async function ProductPage({ params }: Props) {
             </div>
           </section>
         )}
+
+        {product.category !== "outdoor" && product.category !== "infrared" ? <ProductEditorialFrame product={product} frame={productFrame} /> : null}
 
         <section className="editorial-fit page-shell">
           <div className="fit-column fit-positive">
@@ -197,5 +204,60 @@ export default async function ProductPage({ params }: Props) {
       </article>
       <SiteFooter />
     </main>
+  );
+}
+
+type ProductFrame = {
+  className: string;
+  kicker: string;
+  title: string;
+  intro: string;
+  detail: string;
+};
+
+function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): ProductFrame {
+  if (product.category === "outdoor") {
+    return {
+      className: "product-frame-outdoor",
+      kicker: "Standort vor Bestellung",
+      title: "Outdoor-Daten beginnen nicht am Warenkorb.",
+      intro: "Außenmaß und Kapazität machen ein Modell auffindbar. Ob es auf deinem Grundstück funktioniert, entscheidet zusätzlich die Fläche für Fundament, Zugang, Wetterschutz und Anschluss.",
+      detail: `Dieses Modell ist für außen dokumentiert und misst ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} cm. Prüfe die reale Aufstellfläche einschließlich Abständen, Entwässerung und Montageweg.`,
+    };
+  }
+  if (product.category === "infrared") {
+    return {
+      className: "product-frame-heat",
+      kicker: "Wärmeprofil statt Größenranking",
+      title: "Eine Infrarotkabine ist kein kleiner Saunaofen.",
+      intro: "Die kompakte Bauform kann für manche Räume ideal sein, aber das Nutzungsprinzip bleibt ein anderes. Strahler, Temperaturbereich, Regelung und Aufheizverhalten gehören in den Vergleich.",
+      detail: `Die Quelle weist dieses Modell als ${product.sauna.heater_type} mit ${formatVoltage(product.power.voltage)} aus. Die Angaben beschreiben den Datensatz, nicht ein eigenes Praxistestergebnis.`,
+    };
+  }
+  return {
+    className: "product-frame-indoor",
+    kicker: "Raum- und Anschlusslogik",
+    title: "Passt das Modell in deinen Alltag?",
+    intro: "Ein quellengeprüftes Außenmaß ist ein guter Start, ersetzt aber keine Prüfung von Tür, Montageweg, Raumhöhe und Anschlussbedingungen.",
+    detail: `Für bis zu ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"} sind ${formatVoltage(product.power.voltage)} und ${formatPower(product.power.kw)} dokumentiert. Herstelleranleitung und Fachplanung entscheiden über die konkrete Eignung.`,
+  };
+}
+
+function ProductEditorialFrame({ product, frame }: { product: NonNullable<ReturnType<typeof getProduct>>; frame: ProductFrame }) {
+  return (
+    <section className={`product-frame page-shell ${frame.className}`} aria-labelledby="product-frame-title">
+      <div>
+        <p className="eyebrow">{frame.kicker}</p>
+        <h2 id="product-frame-title">{frame.title}</h2>
+        <p>{frame.intro}</p>
+      </div>
+      <div className="product-frame-reading">
+        <p className="product-frame-detail">{frame.detail}</p>
+        <div className="product-frame-columns">
+          <div><small>Spricht dafür</small><ul>{product.editorial.pros.slice(0, 3).map((item) => <li key={item}>{item}</li>)}</ul></div>
+          <div><small>Vorher klären</small><ul>{product.editorial.cons.slice(0, 3).map((item) => <li key={item}>{item}</li>)}</ul></div>
+        </div>
+      </div>
+    </section>
   );
 }

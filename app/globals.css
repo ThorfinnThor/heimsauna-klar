@@ -565,6 +565,28 @@ footer {
 
 .spec-section { padding-block: 90px; display: grid; grid-template-columns: .75fr 1.25fr; gap: 8vw; border-top: 1px solid var(--line); }
 .spec-section h2, .source-section h2, .guide-checks h2, .voltage-comparison h2, .matching-products h2, .guide-sources h2 { font-size: clamp(42px, 4.6vw, 68px); }
+.product-frame { padding-block: 88px; display: grid; grid-template-columns: .8fr 1.2fr; gap: 9vw; border-top: 1px solid var(--line); }
+.product-frame h2 { margin: 0 0 22px; font-size: clamp(40px, 4.5vw, 66px); line-height: .98; }
+.product-frame > div > p:not(.eyebrow), .product-frame-detail { color: var(--ink-soft); font-size: 14px; line-height: 1.7; }
+.product-frame-reading { align-self: end; }
+.product-frame-detail { margin: 0 0 30px; padding: 22px; background: var(--cream); border-left: 3px solid var(--clay); }
+.product-frame-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 4vw; }
+.product-frame-columns small { color: var(--clay-dark); font-size: 9px; font-weight: 750; letter-spacing: .09em; text-transform: uppercase; }
+.product-frame-columns ul { margin: 12px 0 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.product-frame-columns li { padding: 12px 0 12px 20px; position: relative; border-bottom: 1px solid var(--line); color: var(--ink-soft); font-size: 11px; line-height: 1.55; }
+.product-frame-columns li::before { content: "→"; position: absolute; left: 0; color: var(--clay); }
+.product-frame-outdoor { background: var(--ink); color: var(--white); }
+.product-frame-outdoor .eyebrow { color: #e78b68; }
+.product-frame-outdoor h2 { color: var(--white); }
+.product-frame-outdoor > div > p:not(.eyebrow), .product-frame-outdoor .product-frame-detail, .product-frame-outdoor .product-frame-columns li { color: rgba(255,255,255,.76); }
+.product-frame-outdoor .product-frame-detail { background: transparent; border-color: #e78b68; }
+.product-frame-outdoor .product-frame-columns small { color: #e78b68; }
+.product-frame-heat { background: var(--clay); color: var(--white); }
+.product-frame-heat .eyebrow { color: rgba(255,255,255,.72); }
+.product-frame-heat h2 { color: var(--white); font-family: Georgia, serif; font-weight: 400; }
+.product-frame-heat > div > p:not(.eyebrow), .product-frame-heat .product-frame-detail, .product-frame-heat .product-frame-columns li { color: rgba(255,255,255,.82); }
+.product-frame-heat .product-frame-detail { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.7); }
+.product-frame-heat .product-frame-columns small { color: rgba(255,255,255,.78); }
 .spec-grid { margin: 0; display: grid; grid-template-columns: repeat(2, 1fr); }
 .spec-grid div { min-height: 120px; padding: 22px; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .spec-grid div:nth-child(even), .spec-grid div:last-child { border-right: 1px solid var(--line); }
@@ -841,7 +863,7 @@ footer {
   .product-title-grid { grid-template-columns: 1fr; }
   .variant-grid { grid-template-columns: 1fr; }
   .product-price-card { max-width: 430px; }
-  .spec-section, .source-section, .guide-checks, .matching-products, .guide-sources { grid-template-columns: 1fr; gap: 45px; }
+  .spec-section, .source-section, .guide-checks, .matching-products, .guide-sources, .product-frame { grid-template-columns: 1fr; gap: 45px; }
   .guide-sources .safety-box { grid-column: 1; }
   .comparison-data-head, .comparison-method, .collection-index-head, .collection-results-head, .collection-method, .collection-checks, .collection-related, .collection-editorial-space, .collection-editorial-outdoor, .collection-editorial-budget, .collection-editorial-heat, .collection-editorial-capacity { grid-template-columns: 1fr; gap: 35px; }
   .collection-related-grid { grid-template-columns: 1fr; }
@@ -896,6 +918,7 @@ footer {
   .catalog-row { grid-template-columns: 30px 1fr; }
   .catalog-row dl, .catalog-row-link { grid-column: 2; }
   .product-title-grid { gap: 45px; }
+  .product-frame-columns { grid-template-columns: 1fr; gap: 26px; }
   .spec-grid { grid-template-columns: 1fr; }
   .spec-grid div { border-right: 1px solid var(--line); border-bottom: 0 !important; }
   .spec-grid div:last-child { border-bottom: 1px solid var(--line) !important; }
