@@ -163,6 +163,18 @@ function matchesFinderPlaceAndHeat(product: Product, filters: Pick<FinderFilters
   return filters.heat === "infrared" ? isInfrared : !isInfrared;
 }
 
+export function hasFinderPlaceVariant(productList: Product[], place: FinderFilters["place"]) {
+  return productList.some((product) => matchesFinderPlace(product, { place }));
+}
+
+export function hasFinderHeatVariant(
+  productList: Product[],
+  filters: Pick<FinderFilters, "place">,
+  heat: Exclude<FinderFilters["heat"], "open">,
+) {
+  return productList.some((product) => matchesFinderPlaceAndHeat(product, { ...filters, heat }));
+}
+
 export function hasFinderPowerVariant(productList: Product[], filters: Pick<FinderFilters, "place" | "heat">, voltage: number) {
   return productList.some((product) => matchesFinderPlaceAndHeat(product, filters) && product.power.voltage === voltage);
 }

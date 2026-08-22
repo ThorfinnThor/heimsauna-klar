@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { findProductsForFinder, formatPrice, formatVoltage, hasFinderPowerVariant, type FinderFilters, type FinderRelaxation, type Product } from "@/lib/products";
+import { findProductsForFinder, formatPrice, formatVoltage, hasFinderHeatVariant, hasFinderPlaceVariant, hasFinderPowerVariant, type FinderFilters, type FinderRelaxation, type Product } from "@/lib/products";
 
 type Archetype = {
   id: string;
@@ -28,6 +28,11 @@ const initialAnswers: FinderAnswers = {
 
 export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[]; products: Product[] }) {
   const [answers, setAnswers] = useState(initialAnswers);
+  const hasIndoorProducts = hasFinderPlaceVariant(products, "indoor");
+  const hasOutdoorProducts = hasFinderPlaceVariant(products, "outdoor");
+  const hasMobileProducts = hasFinderPlaceVariant(products, "mobile");
+  const hasTraditionalProducts = hasFinderHeatVariant(products, answers, "traditional");
+  const hasInfraredProducts = hasFinderHeatVariant(products, answers, "infrared");
   const has230VoltProducts = hasFinderPowerVariant(products, answers, 230);
   const has400VoltProducts = hasFinderPowerVariant(products, answers, 400);
 
@@ -43,6 +48,9 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
   const update = <K extends keyof FinderAnswers>(key: K, value: FinderAnswers[K]) => {
     setAnswers((current) => {
       const next = { ...current, [key]: value } as FinderAnswers;
+      if (key === "place" && next.heat !== "open" && !hasFinderHeatVariant(products, next, next.heat)) {
+        next.heat = "open";
+      }
       if ((key === "place" || key === "heat") && next.power !== "unknown") {
         const voltage = next.power === "230" ? 230 : 400;
         if (!hasFinderPowerVariant(products, next, voltage)) next.power = "unknown";
@@ -63,7 +71,11 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
           legend="Wo soll die Sauna stehen?"
           name="place"
           value={answers.place}
-          options={[["indoor", "Innenraum"], ["outdoor", "Garten"], ["mobile", "Flexibel"]]}
+          options={[
+            ["indoor", hasIndoorProducts ? "Innenraum" : "Innenraum · noch keine Daten", !hasIndoorProducts],
+            ["outdoor", hasOutdoorProducts ? "Garten" : "Garten · noch keine Daten", !hasOutdoorProducts],
+            ["mobile", hasMobileProducts ? "Flexibel" : "Flexibel · noch keine Daten", !hasMobileProducts],
+          ]}
           onChange={(value) => update("place", value as FinderAnswers["place"])}
         />
         <FinderQuestion
@@ -103,7 +115,11 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
           legend="Welche Wärmeart bevorzugst du?"
           name="heat"
           value={answers.heat}
-          options={[["traditional", "Klassische Sauna"], ["infrared", "Infrarot"], ["open", "Egal"]]}
+          options={[
+            ["traditional", hasTraditionalProducts ? "Klassische Sauna" : "Klassische Sauna · für diesen Standort nicht belegt", !hasTraditionalProducts],
+            ["infrared", hasInfraredProducts ? "Infrarot" : "Infrarot · für diesen Standort nicht belegt", !hasInfraredProducts],
+            ["open", "Egal"],
+          ]}
           onChange={(value) => update("heat", value as FinderAnswers["heat"])}
         />
       </div>
