@@ -1,5 +1,9 @@
 name = "heimsauna-klar"
-pages_build_output_dir = "./out"
+compatibility_date = "2026-08-21"
 
-# This repository is a static Next.js export. It intentionally does not use
-# the OpenNext Workers adapter or a `main` Worker entry point.
+# Static-assets-only Worker: there is intentionally no `main` entry point and
+# no OpenNext runtime bundle.
+[assets]
+directory = "./out"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
