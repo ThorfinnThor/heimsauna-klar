@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21",
+  "updated_at": "2026-08-22",
   "notice": "Arbeitsstand · Name, ladungsfähige Anschrift und Hostinganbieter sind eingetragen. Kontakt-E-Mail und abschließende rechtliche Prüfung fehlen noch; deshalb bleibt die Suchmaschinenindexierung gesperrt.",
   "impressum": {
     "title": "Impressum",
@@ -17,8 +17,8 @@
     "intro": "Verantwortlicher ist Schayan Yousefian, Erminger Weg 88, 89077 Ulm. Die Kontakt-E-Mail wird vor der Indexierungsfreigabe ergänzt. Der aktuelle Prototyp hat keine Nutzerkonten, Formulare oder personalisierten Empfehlungen.",
     "sections": [
       {
-        "title": "Hosting bei Vercel",
-        "copy": "Die statische Website wird über Vercel bereitgestellt. Bei Seitenaufrufen können technisch erforderliche Verbindungs- und Nutzungsdaten wie IP-Adresse, Zeitstempel, angeforderte Seite sowie Browser- und Geräteinformationen verarbeitet werden. Umfang, Rechtsgrundlage, Speicherdauer und mögliche Drittlandübermittlungen werden vor der Indexierungsfreigabe abschließend geprüft und konkretisiert."
+        "title": "Hosting bei Cloudflare",
+        "copy": "Die statische Website wird über Cloudflare Workers bereitgestellt. Bei Seitenaufrufen können technisch erforderliche Verbindungs- und Nutzungsdaten wie IP-Adresse, Zeitstempel, angeforderte Seite sowie Browser- und Geräteinformationen verarbeitet werden. Umfang, Rechtsgrundlage, Speicherdauer und mögliche Drittlandübermittlungen werden vor der Indexierungsfreigabe abschließend geprüft und konkretisiert."
       },
       {
         "title": "Kein eigenes Tracking",
@@ -61,9 +61,9 @@
       "checked_at": "2026-08-21"
     },
     {
-      "title": "Vercel Privacy Notice",
-      "url": "https://vercel.com/legal/privacy-notice",
-      "checked_at": "2026-08-21"
+      "title": "Cloudflare Privacy Policy",
+      "url": "https://www.cloudflare.com/privacypolicy/",
+      "checked_at": "2026-08-22"
     }
   ]
 }

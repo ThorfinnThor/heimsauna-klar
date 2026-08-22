@@ -64,7 +64,7 @@ export default function LaunchStatusPage() {
           <div><p className="eyebrow">Aktuelle Sperre</p><h2 id="launch-blockers-title">Diese Angaben brauchen wir noch.</h2></div>
           <div>
             <ul>{launchBlockers.map((gate) => <li key={gate.id}><strong>{gate.title}</strong> · {gate.detail}</li>)}</ul>
-            <p>Selbst wenn in Vercel versehentlich <code>SITE_INDEXABLE=true</code> gesetzt wird, bricht der Datencheck mit diesen offenen Gates ab.</p>
+            <p>Selbst wenn in der Cloudflare-Build-Umgebung versehentlich <code>SITE_INDEXABLE=true</code> gesetzt wird, bricht der Datencheck mit diesen offenen Gates ab.</p>
           </div>
         </section>
       </article>
