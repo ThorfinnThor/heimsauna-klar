@@ -7,12 +7,13 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "npm run data:check && next build",
+    "build": "npm run data:check && next build && npm run links:check",
     "build:cloudflare": "npm run build",
     "deploy:cloudflare": "npm run build:cloudflare && npx wrangler deploy",
     "start": "next start",
     "lint": "eslint app scripts --ignore-pattern .next --ignore-pattern out",
     "data:check": "node scripts/validate-data.mjs",
+    "links:check": "node scripts/check-internal-links.mjs",
     "test": "npm run data:check && npm run build"
   },
   "dependencies": {
