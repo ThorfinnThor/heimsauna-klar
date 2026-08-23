@@ -587,6 +587,32 @@ footer {
 .product-frame-heat > div > p:not(.eyebrow), .product-frame-heat .product-frame-detail, .product-frame-heat .product-frame-columns li { color: rgba(255,255,255,.82); }
 .product-frame-heat .product-frame-detail { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.7); }
 .product-frame-heat .product-frame-columns small { color: rgba(255,255,255,.78); }
+.family-editorial { padding-block: 82px; display: grid; grid-template-columns: .8fr 1.2fr; gap: 9vw; border-top: 1px solid var(--line); }
+.family-editorial h2 { margin: 0 0 22px; font-size: clamp(38px, 4.2vw, 62px); line-height: .99; }
+.family-editorial h3 { margin: 27px 0 13px; color: var(--clay-dark); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.family-editorial p { color: var(--ink-soft); font-size: 13px; line-height: 1.7; }
+.family-editorial-callout { padding: 20px; background: var(--cream); border-left: 3px solid var(--clay); }
+.family-editorial ul { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.family-editorial li { padding: 13px 0 13px 22px; position: relative; border-bottom: 1px solid var(--line); color: var(--ink-soft); font-size: 11px; line-height: 1.55; }
+.family-editorial li::before { content: "→"; position: absolute; left: 0; color: var(--clay); }
+.family-editorial-outdoor { background: var(--ink); color: var(--white); }
+.family-editorial-outdoor h2 { color: var(--white); }
+.family-editorial-outdoor p { color: rgba(255,255,255,.76); }
+.family-editorial-outdoor .eyebrow { color: #e78b68; }
+.family-editorial-order { padding: 24px; border: 1px solid rgba(255,255,255,.25); }
+.family-editorial-order .family-editorial-callout { background: transparent; border-color: #e78b68; }
+.family-editorial-order ol { margin: 0; padding: 0; list-style: none; }
+.family-editorial-order li { display: grid; grid-template-columns: 28px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid rgba(255,255,255,.22); color: rgba(255,255,255,.78); font-size: 11px; line-height: 1.5; }
+.family-editorial-order li span { color: #e78b68; font-size: 10px; font-weight: 750; }
+.family-editorial-technical { background: var(--clay); color: var(--white); }
+.family-editorial-technical h2 { color: var(--white); font-family: Georgia, serif; font-weight: 400; }
+.family-editorial-technical p, .family-editorial-technical li { color: rgba(255,255,255,.82); }
+.family-editorial-technical .eyebrow { color: rgba(255,255,255,.72); }
+.family-editorial-technical .family-editorial-callout { padding: 26px; background: rgba(255,255,255,.1); border-left-color: rgba(255,255,255,.76); }
+.family-editorial-technical blockquote { margin: 56px 0 0; font-family: Georgia, serif; font-size: clamp(31px, 3.2vw, 51px); line-height: 1.04; }
+.family-editorial-technical h3 { color: rgba(255,255,255,.74); }
+.family-editorial-technical ul { border-color: rgba(255,255,255,.35); }
+.family-editorial-technical li { border-color: rgba(255,255,255,.25); }
 .spec-grid { margin: 0; display: grid; grid-template-columns: repeat(2, 1fr); }
 .spec-grid div { min-height: 120px; padding: 22px; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .spec-grid div:nth-child(even), .spec-grid div:last-child { border-right: 1px solid var(--line); }
@@ -863,7 +889,7 @@ footer {
   .product-title-grid { grid-template-columns: 1fr; }
   .variant-grid { grid-template-columns: 1fr; }
   .product-price-card { max-width: 430px; }
-  .spec-section, .source-section, .guide-checks, .matching-products, .guide-sources, .product-frame { grid-template-columns: 1fr; gap: 45px; }
+  .spec-section, .source-section, .guide-checks, .matching-products, .guide-sources, .product-frame, .family-editorial { grid-template-columns: 1fr; gap: 45px; }
   .guide-sources .safety-box { grid-column: 1; }
   .comparison-data-head, .comparison-method, .collection-index-head, .collection-results-head, .collection-method, .collection-checks, .collection-related, .collection-editorial-space, .collection-editorial-outdoor, .collection-editorial-budget, .collection-editorial-heat, .collection-editorial-capacity { grid-template-columns: 1fr; gap: 35px; }
   .collection-related-grid { grid-template-columns: 1fr; }

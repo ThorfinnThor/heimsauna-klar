@@ -129,6 +129,8 @@ export default async function ProductPage({ params }: Props) {
 
         {product.category === "infrared" ? <ProductEditorialFrame product={product} frame={productFrame} /> : null}
 
+        {familyProducts.length > 1 && product.family ? <FamilyEditorial product={product} familyProducts={familyProducts} /> : null}
+
         {familyProducts.length > 1 && product.family && (
           <section className="variant-section page-shell" aria-labelledby="variant-title">
             <div className="variant-intro">
@@ -296,6 +298,115 @@ function ProductEditorialFrame({ product, frame }: { product: NonNullable<Return
           <div><small>Vorher klären</small><ul>{product.editorial.cons.slice(0, 3).map((item) => <li key={item}>{item}</li>)}</ul></div>
         </div>
       </div>
+    </section>
+  );
+}
+
+type FamilyEditorial = {
+  className: string;
+  kicker: string;
+  title: string;
+  paragraphs: string[];
+  pointsTitle: string;
+  points: string[];
+  callout: string;
+};
+
+function getFamilyEditorial(product: NonNullable<ReturnType<typeof getProduct>>, familyProducts: NonNullable<ReturnType<typeof getProduct>>[]): FamilyEditorial {
+  const family = product.family;
+  if (!family) throw new Error("Family editorial requires a product family");
+  const variants = familyProducts.map((item) => item.family?.variant ?? item.model);
+  const footprints = familyProducts.map((item) => item.dimensions_cm.width * item.dimensions_cm.depth / 10_000);
+  const minFootprint = Math.min(...footprints).toLocaleString("de-DE", { maximumFractionDigits: 2 });
+  const maxFootprint = Math.max(...footprints).toLocaleString("de-DE", { maximumFractionDigits: 2 });
+  const maxPeople = Math.max(...familyProducts.map((item) => item.people.max));
+  const categories = new Set(familyProducts.map((item) => item.category));
+  const outdoor = categories.has("outdoor");
+  const infrared = categories.has("infrared");
+  const voltageLabels = [...new Set(familyProducts.map((item) => formatVoltage(item.power.voltage)))];
+  const variantList = variants.slice(0, 3).join(", ");
+  const variant = productHash(family.id) % 4;
+
+  if (outdoor) {
+    return {
+      className: "family-editorial family-editorial-outdoor",
+      kicker: "Familienblick · Standort und Ausführung",
+      title: `${family.name} ist eine Reihe von Standortentscheidungen.`,
+      paragraphs: [
+        `Die ${family.name}-Varianten liegen bei etwa ${minFootprint} bis ${maxFootprint} m² rechnerischer Produktfläche und reichen bis zu ${maxPeople} Personen. Das beschreibt die Produktspanne, nicht automatisch die benötigte Grundstücksfläche.`,
+        `Verglichen werden hier unter anderem ${variantList}. Fundament, Zugang, Wetterschutz und die Ofen- beziehungsweise Anschlussplanung bleiben je Variante zu prüfen.`,
+      ],
+      pointsTitle: "Die Reihe sinnvoll lesen",
+      points: ["Sockelmaß und reale Aufstellfläche trennen", "Lieferumfang von Ofen und Dach prüfen", `Spannungsangaben der Reihe: ${voltageLabels.join(" / ")}`],
+      callout: "Bei einer Outdoor-Familie ist die passende Variante die, die zum Grundstück und zum Bauumfang passt.",
+    };
+  }
+
+  if (infrared) {
+    return {
+      className: "family-editorial family-editorial-technical",
+      kicker: "Familienblick · Wärmeprofil und Raum",
+      title: `${family.name}: gleiche Idee, andere Stellfläche.`,
+      paragraphs: [
+        `Die ${family.name}-Varianten bleiben Infrarotkabinen, unterscheiden sich aber bei ${variantList}. Die rechnerische Produktfläche reicht von ${minFootprint} bis ${maxFootprint} m².`,
+        `Damit ist die Reihe interessant für unterschiedliche Räume, aber nicht für eine pauschale Rangliste. Strahler, Regelung, Zugang und der konkrete Anschluss gehören zum jeweiligen Modell.`,
+      ],
+      pointsTitle: "Vor der Größenwahl",
+      points: ["Innenmaß und Sitzposition aus der Anleitung prüfen", "Wärmeart nicht mit einer Ofensauna gleichsetzen", `Anschlussdaten je Variante abgleichen: ${voltageLabels.join(" / ")}`],
+      callout: "Kompakter innerhalb einer Familie heißt nicht automatisch besser — nur anders nutzbar.",
+    };
+  }
+
+  const rangeCopy = variant % 2 === 0
+    ? {
+        className: "family-editorial family-editorial-range",
+        kicker: "Familienblick · Varianten statt Sieger",
+        title: `${family.name} lässt sich über die Ausführung lesen.`,
+        paragraphs: [
+          `Die Reihe umfasst ${familyProducts.length} dokumentierte Varianten. Sie bewegen sich zwischen ${minFootprint} und ${maxFootprint} m² Produktfläche und sind für bis zu ${maxPeople} Personen ausgewiesen.`,
+          `Die Unterschiede liegen bei ${variantList}. Deshalb sollte zuerst die Nutzung feststehen und erst danach die passende Konfiguration aus der Reihe gewählt werden.`,
+        ],
+        pointsTitle: "Was sich je Variante ändern kann",
+        points: ["Grundriss und Türposition", "Ofen, Steuerung und Leistungsangabe", "Glas, Holz und Lieferumfang"],
+        callout: `Die ${family.name}-Reihe ist eine Auswahl an Konfigurationen, kein Qualitätsranking.`,
+      }
+    : {
+        className: "family-editorial family-editorial-space",
+        kicker: "Familienblick · Raum und Nutzung",
+        title: `${family.name}: zuerst den Raum, dann die Variante.`,
+        paragraphs: [
+          `Für ${family.name} sind ${familyProducts.length} Varianten mit unterschiedlichen Ausführungen dokumentiert. Die kleinste und größte rechnerische Produktfläche liegen bei ${minFootprint} beziehungsweise ${maxFootprint} m².`,
+          `Die Kapazität reicht in dieser Reihe bis zu ${maxPeople} Personen. Ein größerer Grundriss kann Zugang und Komfort verändern, sagt aber allein noch nichts über Wärmeverteilung oder Montageaufwand aus.`,
+        ],
+        pointsTitle: "Gemeinsamkeiten nicht überbewerten",
+        points: ["Außenmaß gegen Raumabstände rechnen", "Innenraum und Bankanordnung vergleichen", "Anschluss und Montageanleitung je Modell prüfen"],
+        callout: `Die passende ${family.name}-Variante ist die, deren Ausführung zu deinem Raum und Ablauf passt.`,
+      };
+  return rangeCopy;
+}
+
+function FamilyEditorial({ product, familyProducts }: { product: NonNullable<ReturnType<typeof getProduct>>; familyProducts: NonNullable<ReturnType<typeof getProduct>>[] }) {
+  const editorial = getFamilyEditorial(product, familyProducts);
+  if (editorial.className.includes("outdoor")) {
+    return (
+      <section className={`${editorial.className} page-shell`} aria-labelledby="family-editorial-title">
+        <div><p className="eyebrow">{editorial.kicker}</p><h2 id="family-editorial-title">{editorial.title}</h2>{editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
+        <div className="family-editorial-order"><p className="family-editorial-callout">{editorial.callout}</p><p className="eyebrow">{editorial.pointsTitle}</p><ol>{editorial.points.map((point, index) => <li key={point}><span>0{index + 1}</span>{point}</li>)}</ol></div>
+      </section>
+    );
+  }
+  if (editorial.className.includes("technical")) {
+    return (
+      <section className={`${editorial.className} page-shell`} aria-labelledby="family-editorial-title">
+        <div className="family-editorial-callout"><p className="eyebrow">{editorial.kicker}</p><blockquote id="family-editorial-title">{editorial.callout}</blockquote></div>
+        <div><h2>{editorial.title}</h2>{editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<h3>{editorial.pointsTitle}</h3><ul>{editorial.points.map((point) => <li key={point}>{point}</li>)}</ul></div>
+      </section>
+    );
+  }
+  return (
+    <section className={`${editorial.className} page-shell`} aria-labelledby="family-editorial-title">
+      <div><p className="eyebrow">{editorial.kicker}</p><h2 id="family-editorial-title">{editorial.title}</h2></div>
+      <div>{editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<p className="family-editorial-callout">{editorial.callout}</p><h3>{editorial.pointsTitle}</h3><ul>{editorial.points.map((point) => <li key={point}>{point}</li>)}</ul></div>
     </section>
   );
 }
