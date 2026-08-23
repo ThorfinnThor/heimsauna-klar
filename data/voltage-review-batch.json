@@ -8,6 +8,11 @@
     "keep_neutral": "The manufacturer page identifies an electric heater or kW rating, but does not state the voltage for the exact cabin configuration. Keep power.voltage=none and retain the electrician check.",
     "assign": "Use only when the exact product/configuration page or manual states the voltage. No records in this batch met that threshold."
   },
+  "summary": {
+    "reviewed": 24,
+    "assigned": 0,
+    "kept_neutral": 24
+  },
   "entries": [
     {
       "product_id": "weka-saunahaus-schneeflocke-1",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-22",
+  "updated_at": "2026-08-23",
   "scope": "data/products.json",
   "method": "Only assign a voltage when the exact manufacturer configuration states it. Do not infer 400 V from heater power alone.",
   "snapshot": {
@@ -19,6 +19,15 @@
     "A 400-V value requires an exact product or configuration page or manual that states 400 V for that model.",
     "Products sold without an oven or with a selectable oven remain voltage-neutral until a configuration is chosen.",
     "An electric heater with a stated kW rating but no stated voltage remains voltage-neutral and carries an electrician check note."
+  ],
+  "review_batches": [
+    {
+      "batch_id": "voltage-neutral-2026-08-23-01",
+      "path": "data/voltage-review-batch.json",
+      "reviewed": 24,
+      "assigned": 0,
+      "kept_neutral": 24
+    }
   ],
   "official_reference_sources": [
     {

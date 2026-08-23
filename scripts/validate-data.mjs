@@ -52,6 +52,14 @@ assertIsoDate(voltageReviewBatch.updated_at, "Voltage review batch updated_at");
 if (!voltageReviewBatch.batch_id || !voltageReviewBatch.method || !Array.isArray(voltageReviewBatch.entries) || voltageReviewBatch.entries.length === 0) {
   throw new Error("Voltage review batch needs an id, method, and entries");
 }
+if (!voltageReviewBatch.decision_legend
+  || typeof voltageReviewBatch.decision_legend.keep_neutral !== "string"
+  || typeof voltageReviewBatch.decision_legend.assign !== "string") {
+  throw new Error("Voltage review batch needs a decision legend");
+}
+if (!voltageReviewBatch.summary || typeof voltageReviewBatch.summary !== "object") {
+  throw new Error("Voltage review batch needs a summary");
+}
 
 if (!Array.isArray(merchants) || merchants.length === 0) throw new Error("data/merchants.json must contain merchants");
 if (!affiliatePolicy.title || !Array.isArray(affiliatePolicy.principles) || affiliatePolicy.principles.length < 4) {
@@ -492,6 +500,29 @@ for (const entry of voltageReviewBatch.entries) {
   }
   const queueEntry = sourceQueue.find((source) => source.queue_id === entry.source_queue_id);
   if (!queueEntry || queueEntry.url !== entry.review_url) throw new Error(`Voltage review queue link is out of sync: ${entry.product_id}`);
+  if (queueEntry.status !== "verified" || queueEntry.target_voltage !== "none") {
+    throw new Error(`Voltage review queue entry must be verified and voltage-neutral: ${entry.product_id}`);
+  }
+}
+
+const reviewBatchAssigned = voltageReviewBatch.entries.filter((entry) => entry.decision === "assign").length;
+const reviewBatchKeptNeutral = voltageReviewBatch.entries.filter((entry) => entry.decision === "keep_neutral").length;
+if (voltageReviewBatch.summary.reviewed !== voltageReviewBatch.entries.length
+  || voltageReviewBatch.summary.assigned !== reviewBatchAssigned
+  || voltageReviewBatch.summary.kept_neutral !== reviewBatchKeptNeutral) {
+  throw new Error("Voltage review batch summary is out of sync");
+}
+if (!Array.isArray(powerEvidence.review_batches)) throw new Error("Power evidence needs review batch references");
+const evidenceBatch = powerEvidence.review_batches.find((batch) => batch.batch_id === voltageReviewBatch.batch_id);
+if (!evidenceBatch
+  || evidenceBatch.path !== "data/voltage-review-batch.json"
+  || evidenceBatch.reviewed !== voltageReviewBatch.summary.reviewed
+  || evidenceBatch.assigned !== voltageReviewBatch.summary.assigned
+  || evidenceBatch.kept_neutral !== voltageReviewBatch.summary.kept_neutral) {
+  throw new Error("Power evidence review batch reference is out of sync");
+}
+if (powerEvidence.updated_at < voltageReviewBatch.updated_at) {
+  throw new Error("Power evidence cannot predate its latest review batch");
 }
 
 const explicitVoltageProducts = products.filter((product) => typeof product.power.voltage === "number");
