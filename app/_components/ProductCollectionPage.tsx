@@ -105,7 +105,7 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
           </ol>
         </section>
 
-        {collection.layout === "heat" ? <CollectionEditorial collection={collection} /> : null}
+        {collection.layout === "heat" || collection.layout === "technical" || collection.layout === "tradeoff" ? <CollectionEditorial collection={collection} /> : null}
 
         <aside className="collection-related page-shell" aria-labelledby="collection-related-title">
           <div><p className="eyebrow">Weiter eingrenzen</p><h2 id="collection-related-title">Andere belastbare Vorauswahlen.</h2></div>
@@ -168,6 +168,40 @@ function CollectionEditorial({ collection }: { collection: Collection }) {
           {editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           <h3>{editorial.pointsTitle}</h3>
           <ul>{editorial.points.map((point) => <li key={point}>{point}</li>)}</ul>
+        </div>
+      </section>
+    );
+  }
+
+  if (collection.layout === "technical") {
+    return (
+      <section className="collection-editorial collection-editorial-technical page-shell" aria-labelledby="collection-editorial-title">
+        <div className="technical-callout">
+          <p className="eyebrow">{editorial.kicker}</p>
+          <blockquote id="collection-editorial-title">{editorial.callout}</blockquote>
+        </div>
+        <div>
+          <h2>{editorial.title}</h2>
+          {editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          <h3>{editorial.pointsTitle}</h3>
+          <ul>{editorial.points.map((point) => <li key={point}>{point}</li>)}</ul>
+        </div>
+      </section>
+    );
+  }
+
+  if (collection.layout === "tradeoff") {
+    return (
+      <section className="collection-editorial collection-editorial-tradeoff page-shell" aria-labelledby="collection-editorial-title">
+        <div>
+          <p className="eyebrow">{editorial.kicker}</p>
+          <h2 id="collection-editorial-title">{editorial.title}</h2>
+          {editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        </div>
+        <div className="tradeoff-reading">
+          <p className="editorial-callout">{editorial.callout}</p>
+          <h3>{editorial.pointsTitle}</h3>
+          <ol>{editorial.points.map((point, index) => <li key={point}><span>0{index + 1}</span>{point}</li>)}</ol>
         </div>
       </section>
     );

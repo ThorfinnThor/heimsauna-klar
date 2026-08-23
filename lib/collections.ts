@@ -11,7 +11,7 @@ export type Collection = {
   accent: string;
   description: string;
   intro: string;
-  layout: "space" | "outdoor" | "budget" | "heat" | "capacity";
+  layout: "space" | "outdoor" | "budget" | "heat" | "capacity" | "technical" | "tradeoff";
   editorial: {
     kicker: string;
     title: string;
@@ -20,7 +20,7 @@ export type Collection = {
     points: string[];
     callout: string;
   };
-  rule: "mini_indoor" | "one_person_indoor" | "small_garden" | "price_under_2500" | "two_person_indoor" | "infrared" | "bio_sauna" | "barrel_sauna" | "price_under_4000" | "four_person";
+  rule: "mini_indoor" | "one_person_indoor" | "small_garden" | "price_under_2500" | "two_person_indoor" | "infrared" | "bio_sauna" | "barrel_sauna" | "price_under_4000" | "four_person" | "three_person" | "finnish" | "area_under_6";
   sort: "footprint" | "price";
   criteria: string[];
   checks: string[];
@@ -58,6 +58,9 @@ function matchesCollection(product: Product, rule: Collection["rule"]) {
   if (rule === "bio_sauna") return product.sauna.type === "Bio-Sauna";
   if (rule === "barrel_sauna") return product.category === "outdoor" && product.model.toLocaleLowerCase("de").includes("fasssauna");
   if (rule === "price_under_4000") return product.commercial.offers.some((offer) => offer.price <= 4_000);
+  if (rule === "three_person") return product.people.max === 3;
+  if (rule === "finnish") return product.sauna.type === "Finnische Sauna";
+  if (rule === "area_under_6") return getFootprintSquareMeters(product) <= 6;
   return product.people.max === 4;
 }
 

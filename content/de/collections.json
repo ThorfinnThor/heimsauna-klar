@@ -348,5 +348,110 @@
       "Mehr Personen können höhere Anforderungen an Leistung und Belüftung bedeuten.",
       "Elektroanschluss, Fundament und Montageumfang separat kalkulieren."
     ]
+  },
+  {
+    "id": "3-personen-sauna",
+    "section": "indoor-sauna",
+    "slug": "3-personen-sauna",
+    "kind": "Kapazitätsvergleich",
+    "eyebrow": "Drei Personen · Raum und Nutzung",
+    "title": "3-Personen-Sauna für zu Hause",
+    "accent": "zwischen kompakt und gemeinsam.",
+    "description": "Verifizierte Sauna- und Infrarot-Datensätze mit ausgewiesener Kapazität für drei Personen – mit Fläche, Anschluss und Preisstand.",
+    "intro": "Diese Auswahl filtert Modelle, deren veröffentlichte Maximalkapazität drei Personen beträgt. Sortiert wird nach rechnerischer Stellfläche, nicht nach Komfort oder redaktionellem Score.",
+    "layout": "capacity",
+    "editorial": {
+      "kicker": "Drei Personen · Alltag planen",
+      "title": "Drei Plätze müssen im Raum funktionieren.",
+      "paragraphs": [
+        "Die Kapazitätsangabe stammt aus dem jeweiligen Datensatz. Sie beantwortet, wie viele Personen vorgesehen sind, aber nicht, wie bequem der Zugang ist oder wie sich die Wärme im Innenraum verteilt.",
+        "Die Tabelle verbindet deshalb Kapazität, Stellfläche und Aufstellort. So bleibt sichtbar, ob die Auswahl eher für einen knappen Innenraum oder für ein größeres Projekt gedacht ist."
+      ],
+      "pointsTitle": "Vor der gemeinsamen Nutzung prüfen",
+      "points": ["Bankbreite und Innenhöhe", "Leistung und Luftführung", "Tür, Zugang und Anschluss"],
+      "callout": "Drei Personen auf dem Datenblatt sind ein Startpunkt für den Grundriss."
+    },
+    "rule": "three_person",
+    "sort": "footprint",
+    "criteria": [
+      "Maximalkapazität laut Datensatz: drei Personen",
+      "Innen- und Infrarotmodelle bleiben als Wärmeart sichtbar",
+      "Maße, Preisstatus und Quellenstand dokumentiert"
+    ],
+    "checks": [
+      "Außenmaß und Sitzanordnung getrennt betrachten; aus der Fläche folgt kein Komfortwert.",
+      "Bei drei Nutzern werden Zugang, Lüftung und Wärmeleistung gemeinsam relevant.",
+      "Anschluss, Absicherung und Montageweg vor der Bestellung mit der Anleitung abgleichen."
+    ]
+  },
+  {
+    "id": "finnische-sauna",
+    "section": "vergleiche",
+    "slug": "finnische-sauna",
+    "kind": "Typvergleich",
+    "eyebrow": "Finnische Sauna · Ofen und Raum",
+    "title": "Finnische Sauna im Datenvergleich",
+    "accent": "mit klassischem Wärmeprinzip.",
+    "description": "Verifizierte finnische Sauna-Datensätze nach Stellfläche, Kapazität, Aufstellort, Anschluss und dokumentiertem Preis verglichen.",
+    "intro": "Enthalten sind Produkte, deren Datensatz den Typ Finnische Sauna ausweist. Die Seite ordnet technische Felder ein, ohne aus dem Wärmetyp eine pauschale Qualitäts- oder Komfortwertung abzuleiten.",
+    "layout": "technical",
+    "editorial": {
+      "kicker": "Wärmetyp · Technik zuerst",
+      "title": "Der Ofen setzt den Rahmen — der Raum entscheidet mit.",
+      "paragraphs": [
+        "Eine finnische Sauna wird über ein klassisches Ofenprinzip beschrieben. Für die konkrete Planung bleiben Leistung, Kabinenvolumen, Abstände, Lüftung und Anschluss des jeweiligen Modells maßgeblich.",
+        "Die Auswahl zeigt daher keine Bestenliste. Sie macht die dokumentierten Unterschiede sichtbar und lässt offene Punkte dort offen, wo die Quelle keine belastbare Aussage trägt."
+      ],
+      "pointsTitle": "Technische Felder gemeinsam lesen",
+      "points": ["Kabinenvolumen und Ofenleistung", "Anschluss, Absicherung und Zuleitung", "Abstände, Lüftung und Montageanleitung"],
+      "callout": "Finnisch beschreibt das Wärmeprinzip — nicht die passende Größe für jeden Raum."
+    },
+    "rule": "finnish",
+    "sort": "footprint",
+    "criteria": [
+      "Saunatyp laut verifizierter Quelle: Finnische Sauna",
+      "Innen- und Outdoor-Aufstellort werden getrennt ausgewiesen",
+      "Technische Felder und Preisstand bleiben am Produkt nachvollziehbar"
+    ],
+    "checks": [
+      "Ofenleistung muss zum Kabinenvolumen und zur Herstellerfreigabe passen.",
+      "Elektroanschluss, Fühlerposition und Sicherheitsabstände fachlich prüfen lassen.",
+      "Bei Outdoor-Modellen zusätzlich Fundament, Wetterschutz und Entwässerung planen."
+    ]
+  },
+  {
+    "id": "sauna-bis-6-m2",
+    "section": "vergleiche",
+    "slug": "sauna-bis-6-m2",
+    "kind": "Größenvergleich",
+    "eyebrow": "Bis 6 m² · Stellfläche richtig lesen",
+    "title": "Sauna bis 6 m² Stellfläche",
+    "accent": "für die nächste Planungsstufe.",
+    "description": "Verifizierte Innen- und Outdoor-Saunen bis sechs Quadratmeter rechnerischer Produktfläche – mit Maß, Kapazität, Anschluss und Preisstand.",
+    "intro": "Die Auswahl umfasst Datensätze mit höchstens 6,0 m² aus Breite × Tiefe. Wandabstände, Fundament, Dachüberstand, Zugang und Montagefläche sind bewusst nicht in dieser Kennzahl enthalten.",
+    "layout": "tradeoff",
+    "editorial": {
+      "kicker": "Stellfläche · nicht Grundstücksfläche",
+      "title": "Sechs Quadratmeter sind eine Produktgrenze, kein fertiger Grundriss.",
+      "paragraphs": [
+        "Die rechnerische Produktfläche hilft, Modelle in einer ähnlichen Größenordnung zu finden. Sie sagt aber nicht, wie viel Platz die Montage, der Zugang oder ein Outdoor-Fundament tatsächlich benötigen.",
+        "Darum stehen Indoor- und Outdoor-Modelle gemeinsam in der Vorauswahl, werden aber über Aufstellort, Außenmaß und Anschluss klar unterscheidbar."
+      ],
+      "pointsTitle": "Die nächste Entscheidungsebene",
+      "points": ["Reale Raum- oder Grundstücksfläche vermessen", "Montageweg und Abstände ergänzen", "Anschluss, Fundament und Wetterschutz kalkulieren"],
+      "callout": "Die passende 6-m²-Sauna ist die, deren Gesamtprojekt in den Standort passt."
+    },
+    "rule": "area_under_6",
+    "sort": "footprint",
+    "criteria": [
+      "Breite × Tiefe höchstens 6,0 m²",
+      "Aufstellort und Wärmeart bleiben je Datensatz sichtbar",
+      "Verifizierte Maß-, Preis- und Quellenangaben"
+    ],
+    "checks": [
+      "Innen: Wandabstände, Deckenhöhe und Transportweg zur Produktfläche addieren.",
+      "Außen: Fundament, Dachüberstand, Grenzabstände und Zugang separat planen.",
+      "Eine kleinere Stellfläche ersetzt keine Prüfung von Anschluss und Montageanleitung."
+    ]
   }
 ]
