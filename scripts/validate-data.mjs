@@ -12,6 +12,7 @@ const planningGuides = JSON.parse(await readFile(new URL("../content/de/planning
 const planningNavigation = JSON.parse(await readFile(new URL("../content/de/planning-navigation.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const powerEvidence = JSON.parse(await readFile(new URL("../data/power-evidence.json", import.meta.url), "utf8"));
+const voltageReviewBatch = JSON.parse(await readFile(new URL("../data/voltage-review-batch.json", import.meta.url), "utf8"));
 const today = new Date().toISOString().slice(0, 10);
 const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -44,6 +45,13 @@ if (!Array.isArray(powerEvidence.official_reference_sources) || powerEvidence.of
   throw new Error("Power evidence needs official reference sources");
 }
 for (const source of powerEvidence.official_reference_sources) assertHttpsUrl(source.url, "Power evidence source URL");
+if (voltageReviewBatch.schema_version !== 1 || voltageReviewBatch.scope !== "data/products.json") {
+  throw new Error("Voltage review batch has an invalid schema or scope");
+}
+assertIsoDate(voltageReviewBatch.updated_at, "Voltage review batch updated_at");
+if (!voltageReviewBatch.batch_id || !voltageReviewBatch.method || !Array.isArray(voltageReviewBatch.entries) || voltageReviewBatch.entries.length === 0) {
+  throw new Error("Voltage review batch needs an id, method, and entries");
+}
 
 if (!Array.isArray(merchants) || merchants.length === 0) throw new Error("data/merchants.json must contain merchants");
 if (!affiliatePolicy.title || !Array.isArray(affiliatePolicy.principles) || affiliatePolicy.principles.length < 4) {
@@ -464,6 +472,26 @@ for (const source of sourceQueue) {
       throw new Error(`Verified queue category does not match published product: ${source.queue_id}`);
     }
   }
+}
+
+const reviewBatchProductIds = new Set();
+for (const entry of voltageReviewBatch.entries) {
+  for (const key of ["product_id", "source_queue_id", "review_url", "decision", "reason"]) {
+    if (typeof entry[key] !== "string" || entry[key].trim() === "") throw new Error(`Voltage review entry is missing ${key}`);
+  }
+  if (reviewBatchProductIds.has(entry.product_id)) throw new Error(`Voltage review batch repeats ${entry.product_id}`);
+  reviewBatchProductIds.add(entry.product_id);
+  const product = products.find((item) => item.product_id === entry.product_id);
+  if (!product) throw new Error(`Voltage review batch references unknown product: ${entry.product_id}`);
+  if (product.power.voltage !== "none") throw new Error(`Voltage review batch product is no longer neutral: ${entry.product_id}`);
+  if (entry.decision !== "keep_neutral") throw new Error(`Unsupported voltage review decision: ${entry.product_id}`);
+  if (entry.observed_power_kw !== product.power.kw) throw new Error(`Voltage review kW is out of sync: ${entry.product_id}`);
+  assertHttpsUrl(entry.review_url, `Voltage review URL for ${entry.product_id}`);
+  if (!product.sources.some((source) => source.url === entry.review_url)) {
+    throw new Error(`Voltage review URL is not a published product source: ${entry.product_id}`);
+  }
+  const queueEntry = sourceQueue.find((source) => source.queue_id === entry.source_queue_id);
+  if (!queueEntry || queueEntry.url !== entry.review_url) throw new Error(`Voltage review queue link is out of sync: ${entry.product_id}`);
 }
 
 const explicitVoltageProducts = products.filter((product) => typeof product.power.voltage === "number");

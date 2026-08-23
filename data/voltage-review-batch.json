@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "batch_id": "voltage-neutral-2026-08-23-01",
+  "updated_at": "2026-08-23",
+  "scope": "data/products.json",
+  "method": "Review the exact manufacturer product page and its published heater configuration. Assign 230 V or 400 V only when that exact cabin/configuration states the voltage; heater power alone is not sufficient.",
+  "decision_legend": {
+    "keep_neutral": "The manufacturer page identifies an electric heater or kW rating, but does not state the voltage for the exact cabin configuration. Keep power.voltage=none and retain the electrician check.",
+    "assign": "Use only when the exact product/configuration page or manual states the voltage. No records in this batch met that threshold."
+  },
+  "entries": [
+    {
+      "product_id": "weka-saunahaus-schneeflocke-1",
+      "source_queue_id": "weka-schneeflocke-ws533202000001",
+      "review_url": "https://www.weka-holzbau.com/de/p/saunahaus-schneeflocke-1-saunaofen-klassik-9-0-naturbelassen/ws533202000001",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The WEKA product page names the 9.0 kW classic heater but does not state the cabin voltage."
+    },
+    {
+      "product_id": "harvia-domo-large",
+      "source_queue_id": "harvia-domo-large",
+      "review_url": "https://shop.harvia.com/de-de/product/DOMO-L/domo-large",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop lists a 9.0 kW Top Steel set, but the cabin configuration page does not state its supply voltage."
+    },
+    {
+      "product_id": "harvia-domo-small",
+      "source_queue_id": "harvia-domo-small",
+      "review_url": "https://shop.harvia.com/en-de/product/DOMO-S/domo-small",
+      "observed_power_kw": 6,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop lists a 6.0 kW Top Steel set, but the cabin configuration page does not state its supply voltage."
+    },
+    {
+      "product_id": "harvia-domo-medium",
+      "source_queue_id": "harvia-domo-medium",
+      "review_url": "https://shop.harvia.com/en-de/product/DOMO-M/domo-medium",
+      "observed_power_kw": 6,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop lists a 6.0 kW Top Steel set, but the cabin configuration page does not state its supply voltage."
+    },
+    {
+      "product_id": "harvia-utu-mini",
+      "source_queue_id": "harvia-utu-mini",
+      "review_url": "https://shop.harvia.com/de-de/product/SHU0909/utu-mini",
+      "observed_power_kw": 3.6,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers Delta 3.6 kW and combi options, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-panorama-mini",
+      "source_queue_id": "harvia-panorama-mini",
+      "review_url": "https://shop.harvia.com/en-de/product/PANORAMA-MN/panorama-mini",
+      "observed_power_kw": 3.6,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers Delta 3.6 kW and combi options, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-panorama-small",
+      "source_queue_id": "harvia-panorama-small",
+      "review_url": "https://shop.harvia.com/en-de/product/PANORAMA-S/panorama-small",
+      "observed_power_kw": 6,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers several heaters up to 6.8 kW, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-panorama-large",
+      "source_queue_id": "harvia-panorama-large",
+      "review_url": "https://shop.harvia.com/en-de/product/PANORAMA-L/panorama-large",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers electric and combi options up to 9.0 kW, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-utu-small",
+      "source_queue_id": "harvia-utu-small",
+      "review_url": "https://shop.harvia.com/en-de/product/SHU1212/utu-small",
+      "observed_power_kw": 3.6,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers Delta 3.6 kW and combi options, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-utu-medium",
+      "source_queue_id": "harvia-utu-medium",
+      "review_url": "https://shop.harvia.com/en-de/product/SHU1616/utu-medium",
+      "observed_power_kw": 7,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers electric/combi options up to 7.0 kW, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-urban-black-small",
+      "source_queue_id": "harvia-urban-black-small",
+      "review_url": "https://shop.harvia.com/en-de/product/URB1212FG/urban-black-small",
+      "observed_power_kw": 3.6,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers multiple heaters, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-urban-black-medium",
+      "source_queue_id": "harvia-urban-black-medium",
+      "review_url": "https://shop.harvia.com/en-de/product/URB1616FG/urban-black-medium",
+      "observed_power_kw": 6,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers multiple heaters, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-block-right-medium",
+      "source_queue_id": "harvia-block-right-medium",
+      "review_url": "https://shop.harvia.com/en-de/product/SHB1620ALD/block-right-medium",
+      "observed_power_kw": 6.8,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers electric/combi options up to 7.0 kW, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-block-right-large",
+      "source_queue_id": "harvia-block-right-large",
+      "review_url": "https://shop.harvia.com/en-de/product/SHB2020ALD/block-right-large",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers electric/combi options up to 10.8 kW, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-fuji-aspen-small",
+      "source_queue_id": "harvia-fuji-aspen-small",
+      "review_url": "https://shop.harvia.com/en-de/product/FUJI-AS-S/fuji-aspen-small",
+      "observed_power_kw": 7,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop identifies a 7.0 kW Virta option, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-fuji-aspen-large",
+      "source_queue_id": "harvia-fuji-aspen-large",
+      "review_url": "https://shop.harvia.com/en-de/product/FUJI-AS-L/fuji-aspen-large",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop identifies a 9.0 kW Virta option, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-ventura-medium",
+      "source_queue_id": "harvia-ventura-medium",
+      "review_url": "https://shop.harvia.com/en-de/product/SHV1620/ventura-medium",
+      "observed_power_kw": 6,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers multiple electric/combi options, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "harvia-ventura-large",
+      "source_queue_id": "harvia-ventura-large",
+      "review_url": "https://shop.harvia.com/en-de/product/SHV2020/ventura-large",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Harvia shop offers multiple electric/combi options, but does not state the selected cabin configuration voltage."
+    },
+    {
+      "product_id": "karibu-saunahaus-hytti-1-exclusive-99937",
+      "source_queue_id": "karibu-saunahaus-hytti-1-exclusive-99937",
+      "review_url": "https://www.karibu.de/saunahaus-hytti-1-exklusive/99937",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Karibu product page identifies a 9 kW outdoor set but does not state the exact supply voltage for this configuration."
+    },
+    {
+      "product_id": "karibu-saunahaus-miramar-510",
+      "source_queue_id": "karibu-saunahaus-miramar-510",
+      "review_url": "https://www.karibu.de/saunahaus-miramar/510",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Karibu product page identifies a 9 kW outdoor set but does not state the exact supply voltage for this configuration."
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-3-36281",
+      "source_queue_id": "karibu-saunahaus-mainburg-3-36281",
+      "review_url": "https://www.karibu.de/saunahaus-mainburg-3/36281",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Karibu product page identifies a 9 kW outdoor set but does not state the exact supply voltage for this configuration."
+    },
+    {
+      "product_id": "karibu-saunahaus-angkor-3-185",
+      "source_queue_id": "karibu-saunahaus-angkor-3-185",
+      "review_url": "https://www.karibu.de/saunahaus-angkor-3/185",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Karibu product page identifies a 9 kW outdoor set but does not state the exact supply voltage for this configuration."
+    },
+    {
+      "product_id": "karibu-fasssauna-3-92830",
+      "source_queue_id": "karibu-fasssauna-3-92830",
+      "review_url": "https://www.karibu.de/fasssauna-3/92830",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Karibu product page identifies a 9 kW outdoor set but does not state the exact supply voltage for this configuration."
+    },
+    {
+      "product_id": "karibu-fasshaus-3-27454",
+      "source_queue_id": "karibu-fasshaus-3-27454",
+      "review_url": "https://www.karibu.de/fasshaus-3/27454",
+      "observed_power_kw": 9,
+      "decision": "keep_neutral",
+      "reason": "The Karibu product page identifies a 9 kW outdoor set but does not state the exact supply voltage for this configuration."
+    }
+  ]
+}
