@@ -65,6 +65,14 @@ export default function ComparisonPage() {
               <li>Kein Ranking nach Provision: Die aktuellen Links sind nicht affiliiert.</li>
             </ul>
             <p className="safety-box"><strong>Elektrik:</strong> Herstelleranleitung, Stromkreis und örtliche Bedingungen prüfen. Arbeiten an Netzspannung gehören in die Hände einer Elektrofachkraft.</p>
+            <div className="collection-planning">
+              <p className="eyebrow">Versorgung im Zusammenhang</p>
+              <p>Spannung und Ofenleistung werden erst zusammen mit Raumvolumen, Absicherung und Herstellerfreigabe zu einer belastbaren Auswahl.</p>
+              <div className="collection-planning-links">
+                <Link href="/de/planung/230-v-vs-400-v-sauna/"><small>Anschluss und Leistung</small><strong>230 V oder 400 V einordnen</strong><span>Planung öffnen ↗</span></Link>
+                <Link href="/de/planung/saunagroesse-3-6-kw/"><small>Ofen und Raumvolumen</small><strong>Welche Größe passt zu 3,6 kW?</strong><span>Planung öffnen ↗</span></Link>
+              </div>
+            </div>
           </div>
         </section>
       </article>

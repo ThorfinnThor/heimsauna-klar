@@ -11,7 +11,7 @@
     "intro": "Hier erscheinen Innenkabinen mit höchstens 3,0 m² rechnerischer Stellfläche. Die Liste ist nach Stellfläche sortiert und keine Qualitätsrangliste.",
     "layout": "space",
     "related_ids": ["1-person-sauna", "2-personen-sauna", "sauna-bis-6-m2"],
-    "planning": {"kicker": "Raum vor Auswahl", "intro": "Kleine Maße helfen erst, wenn Raumhöhe, Tür und Montageweg geklärt sind.", "guide_ids": ["platzbedarf", "sauna-fuer-die-wohnung"]},
+    "planning": {"kicker": "Raum vor Auswahl", "intro": "Kleine Maße helfen erst, wenn Raumhöhe, Tür, Montageweg und die Trocknung des Aufstellraums geklärt sind.", "guide_ids": ["sauna-bei-niedriger-deckenhoehe", "sauna-im-keller"]},
     "editorial": {
       "kicker": "Raumlogik · vor dem Preis",
       "title": "Die kleinste Fläche ist nicht automatisch die beste Lösung.",
@@ -418,7 +418,7 @@
     "intro": "Enthalten sind Produkte, deren Datensatz den Typ Finnische Sauna ausweist. Die Seite ordnet technische Felder ein, ohne aus dem Wärmetyp eine pauschale Qualitäts- oder Komfortwertung abzuleiten.",
     "layout": "technical",
     "related_ids": ["bio-sauna", "infrarotkabine", "4-personen-sauna"],
-    "planning": {"kicker": "Ofen und Luftweg", "intro": "Die klassische Wärmeart macht Ofenleistung, wirksames Volumen und Lüftung zu den entscheidenden nächsten Fragen.", "guide_ids": ["lueftung", "230-v-vs-400-v-sauna"]},
+    "planning": {"kicker": "Leistung und Temperatur", "intro": "Bei klassischer Saunawärme müssen Ofenleistung, wirksames Volumen und der erwartete Heizverlauf zusammenpassen.", "guide_ids": ["lueftung", "temperatur-3-6-kw-sauna"]},
     "editorial": {
       "kicker": "Wärmetyp · Technik zuerst",
       "title": "Der Ofen setzt den Rahmen — der Raum entscheidet mit.",
