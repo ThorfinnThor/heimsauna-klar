@@ -232,6 +232,15 @@ for (const collection of collections) {
   for (const relatedId of collection.related_ids) {
     if (!collections.some((item) => item.id === relatedId)) throw new Error(`${collection.id} references unknown related collection ${relatedId}`);
   }
+  if (!collection.planning || typeof collection.planning !== "object") throw new Error(`${collection.id} needs planning links`);
+  for (const key of ["kicker", "intro"]) {
+    if (typeof collection.planning[key] !== "string" || collection.planning[key].trim() === "") throw new Error(`${collection.id} planning is missing ${key}`);
+  }
+  if (!Array.isArray(collection.planning.guide_ids) || collection.planning.guide_ids.length !== 2) throw new Error(`${collection.id} needs exactly two planning links`);
+  if (new Set(collection.planning.guide_ids).size !== collection.planning.guide_ids.length) throw new Error(`${collection.id} repeats planning links`);
+  for (const guideSlug of collection.planning.guide_ids) {
+    if (!planningSlugs.has(guideSlug)) throw new Error(`${collection.id} references unknown planning guide ${guideSlug}`);
+  }
   if (!collection.editorial || typeof collection.editorial !== "object") throw new Error(`${collection.id} needs editorial copy`);
   for (const key of ["kicker", "title", "pointsTitle", "callout"]) {
     if (typeof collection.editorial[key] !== "string" || collection.editorial[key].trim() === "") {

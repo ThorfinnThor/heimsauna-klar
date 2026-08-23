@@ -13,6 +13,11 @@ export type Collection = {
   intro: string;
   layout: "space" | "outdoor" | "budget" | "heat" | "capacity" | "technical" | "tradeoff";
   related_ids: string[];
+  planning: {
+    kicker: string;
+    intro: string;
+    guide_ids: string[];
+  };
   editorial: {
     kicker: string;
     title: string;

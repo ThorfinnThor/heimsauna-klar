@@ -8,6 +8,7 @@ import {
   getLowestPrice,
   type Collection,
 } from "@/lib/collections";
+import { getPlanningGuide } from "@/lib/planning-guides";
 import { formatGermanDate, formatPower, formatPrice, formatVoltage, getLatestOfferCheck } from "@/lib/products";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
@@ -23,6 +24,7 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
   const minimumFootprint = Math.min(...candidates.map(getFootprintSquareMeters));
   const lowestPrice = Math.min(...candidates.map(getLowestPrice));
   const relatedCollections = collection.related_ids.map((id) => collections.find((item) => item.id === id)).filter((item): item is Collection => Boolean(item));
+  const planningGuides = collection.planning.guide_ids.map(getPlanningGuide).filter((guide): guide is NonNullable<typeof guide> => Boolean(guide));
   const path = `/de/${collection.section}/${collection.slug}/`;
 
   return (
@@ -63,6 +65,13 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
               {collection.criteria.map((criterion) => <li key={criterion}>{criterion}</li>)}
             </ul>
             <p>Stand der Angebotsprüfung: <strong>{latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</strong>. Kein Modell wurde für diese Liste bezahlt oder redaktionell hochgestuft.</p>
+            <div className="collection-planning">
+              <p className="eyebrow">{collection.planning.kicker}</p>
+              <p>{collection.planning.intro}</p>
+              <div className="collection-planning-links">
+                {planningGuides.map((guide) => <Link href={`/de/planung/${guide.slug}/`} key={guide.slug}><small>{guide.eyebrow}</small><strong>{guide.title}</strong><span>Planung öffnen ↗</span></Link>)}
+              </div>
+            </div>
           </div>
         </section>
 

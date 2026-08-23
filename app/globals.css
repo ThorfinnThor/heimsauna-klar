@@ -741,6 +741,14 @@ footer {
 .collection-method li:last-child { border-bottom: 1px solid var(--line); }
 .collection-method li::before { content: "→"; position: absolute; left: 0; color: var(--clay); }
 .collection-method > div:last-child > p { margin: 0; color: var(--ink-soft); font-size: 11px; line-height: 1.65; }
+.collection-planning { margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--line); }
+.collection-planning > p:not(.eyebrow) { margin: 0; }
+.collection-planning-links { margin-top: 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.collection-planning-links a { min-width: 0; padding: 14px; display: flex; flex-direction: column; gap: 7px; background: var(--cream); color: var(--ink); }
+.collection-planning-links a:hover { background: var(--paper); }
+.collection-planning-links small { color: var(--clay-dark); font-size: 8px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
+.collection-planning-links strong { font-family: Georgia, serif; font-size: 16px; font-weight: 400; line-height: 1.15; }
+.collection-planning-links span { color: var(--ink-soft); font-size: 10px; }
 
 .collection-editorial { padding-block: 95px; border-top: 1px solid var(--line); }
 .collection-editorial h2 { margin: 0; font-size: clamp(42px, 4.6vw, 68px); line-height: .98; }

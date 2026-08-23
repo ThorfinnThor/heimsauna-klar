@@ -11,6 +11,7 @@
     "intro": "Hier erscheinen Innenkabinen mit höchstens 3,0 m² rechnerischer Stellfläche. Die Liste ist nach Stellfläche sortiert und keine Qualitätsrangliste.",
     "layout": "space",
     "related_ids": ["1-person-sauna", "2-personen-sauna", "sauna-bis-6-m2"],
+    "planning": {"kicker": "Raum vor Auswahl", "intro": "Kleine Maße helfen erst, wenn Raumhöhe, Tür und Montageweg geklärt sind.", "guide_ids": ["platzbedarf", "sauna-fuer-die-wohnung"]},
     "editorial": {
       "kicker": "Raumlogik · vor dem Preis",
       "title": "Die kleinste Fläche ist nicht automatisch die beste Lösung.",
@@ -47,6 +48,7 @@
     "intro": "Aufgenommen werden Innenmodelle, deren veröffentlichte Maximalkapazität eine Person beträgt. Klassische Sauna und Infrarotkabine bleiben dabei unterschiedliche Wärmearten; sortiert wird nur nach Stellfläche.",
     "layout": "space",
     "related_ids": ["mini-sauna", "2-personen-sauna", "infrarotkabine"],
+    "planning": {"kicker": "Kapazität einordnen", "intro": "Eine Person auf dem Datenblatt beantwortet noch nicht die Fragen zu Sitzmaß, Zugang und Wärmeart.", "guide_ids": ["platzbedarf", "sauna-fuer-die-wohnung"]},
     "editorial": {
       "kicker": "Allein nutzen · richtig einordnen",
       "title": "Eine Person heißt nicht nur: weniger Außenmaß.",
@@ -83,6 +85,7 @@
     "intro": "Diese Vorauswahl enthält Outdoor-Modelle mit höchstens 5,0 m² rechnerischer Stellfläche. Fundament, Dachüberstand und vorgeschriebene Abstände sind darin noch nicht enthalten.",
     "layout": "outdoor",
     "related_ids": ["fasssauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
+    "planning": {"kicker": "Standort vor Produkt", "intro": "Außenmaß ist nur der Anfang: Fundament, Entwässerung und Grenzabstände entscheiden mit.", "guide_ids": ["boden-und-fundament", "sauna-kosten"]},
     "editorial": {
       "kicker": "Standort zuerst · Produkt danach",
       "title": "Im Garten zählt die Fläche außerhalb der Kabine.",
@@ -119,6 +122,7 @@
     "intro": "Die Grenze bezieht sich auf den zuletzt dokumentierten Produktpreis. Aufbau, Lieferung, Elektroarbeiten, Fundament und Zubehör können zusätzliche Kosten verursachen.",
     "layout": "budget",
     "related_ids": ["sauna-bis-4000-euro", "mini-sauna", "1-person-sauna"],
+    "planning": {"kicker": "Preis richtig lesen", "intro": "Der dokumentierte Produktpreis ist eine Startzahl; Lieferung, Anschluss und Betrieb gehören in die Rechnung.", "guide_ids": ["sauna-kosten", "stromverbrauch-heimsauna"]},
     "editorial": {
       "kicker": "Budget · vollständige Projektkosten",
       "title": "2.500 Euro kaufen ein Produkt — noch kein Saunaprojekt.",
@@ -155,6 +159,7 @@
     "intro": "Die Auswahl umfasst Innenmodelle, deren veröffentlichte Maximalkapazität zwei Personen beträgt. Sie ist nach Stellfläche sortiert und kein Komfort- oder Qualitätsranking.",
     "layout": "space",
     "related_ids": ["1-person-sauna", "3-personen-sauna", "mini-sauna"],
+    "planning": {"kicker": "Gemeinsam planen", "intro": "Zwei Plätze müssen mit Bankbreite, Zugang, Luftweg und Leistung zusammenpassen.", "guide_ids": ["platzbedarf", "lueftung"]},
     "editorial": {
       "kicker": "Zwei Personen · Alltag statt Prospektzahl",
       "title": "Kapazität ist der Anfang des Vergleichs, nicht sein Ergebnis.",
@@ -191,6 +196,7 @@
     "intro": "Diese Seite enthält ausschließlich Datensätze mit dem Katalogtyp Infrarotkabine. Infrarotkabinen sind nicht automatisch mit einer finnischen Sauna gleichzusetzen.",
     "layout": "heat",
     "related_ids": ["1-person-sauna", "bio-sauna", "sauna-bis-2500-euro"],
+    "planning": {"kicker": "Wärmeart zuerst", "intro": "Infrarot ist kein kleiner Ofen: Wärmeprofil, Regelung und Raumanschluss sollten separat geprüft werden.", "guide_ids": ["sauna-fuer-die-wohnung", "stromverbrauch-heimsauna"]},
     "editorial": {
       "kicker": "Wärmeprofil · nicht nur Größe",
       "title": "Infrarot ist eine eigene Nutzungsidee.",
@@ -227,6 +233,7 @@
     "intro": "Enthalten sind Produkte, deren Quelle den Typ Bio-Sauna ausweist. Die Bezeichnung allein ersetzt keine Prüfung von Steuerung, Feuchteoption und zulässigem Betriebsprofil.",
     "layout": "heat",
     "related_ids": ["finnische-sauna", "infrarotkabine", "sauna-bis-4000-euro"],
+    "planning": {"kicker": "Feuchte und Luftweg", "intro": "Bio-Betrieb verändert die Anforderungen an Lüftung, Trocknung und die Auswahl des Raums.", "guide_ids": ["lueftung", "sauna-im-badezimmer"]},
     "editorial": {
       "kicker": "Bio · System statt Etikett",
       "title": "Feuchteoptionen verändern die Planung.",
@@ -263,6 +270,7 @@
     "intro": "Diese Auswahl enthält Outdoor-Produkte, deren offizielle Modellbezeichnung sie als Fasssauna ausweist. Runde und Quadro-Varianten bleiben als eigenständige Datensätze sichtbar.",
     "layout": "outdoor",
     "related_ids": ["kleine-gartensauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
+    "planning": {"kicker": "Außenaufstellung vorbereiten", "intro": "Die runde oder längliche Form ändert nichts daran, dass Fundament, Zugang und Wetterschutz geplant werden müssen.", "guide_ids": ["boden-und-fundament", "sauna-kosten"]},
     "editorial": {
       "kicker": "Bauform · Standort · Betrieb",
       "title": "Die runde Form entscheidet nicht allein über das Projekt.",
@@ -299,6 +307,7 @@
     "intro": "Die Preisgrenze bezieht sich auf mindestens ein dokumentiertes Angebot je Datensatz. Lieferung, Montage, Fundament, Elektroarbeiten und Zubehör sind nicht automatisch enthalten.",
     "layout": "budget",
     "related_ids": ["sauna-bis-2500-euro", "finnische-sauna", "4-personen-sauna"],
+    "planning": {"kicker": "Gesamtbudget statt Etikett", "intro": "Auch unter 4.000 Euro bleiben Montage, Fundament, Anschluss und laufender Betrieb eigene Kostenblöcke.", "guide_ids": ["sauna-kosten", "boden-und-fundament"]},
     "editorial": {
       "kicker": "Budget · mehr Auswahl, mehr Variablen",
       "title": "Bis 4.000 Euro erweitert die Auswahl — nicht die Gewissheit.",
@@ -335,6 +344,7 @@
     "intro": "Die Liste umfasst Indoor- und Outdoor-Modelle mit Herstellerkapazität vier Personen. Kapazitätsangaben sagen allein nichts über Sitzkomfort oder reale Wärmeverteilung aus.",
     "layout": "capacity",
     "related_ids": ["3-personen-sauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
+    "planning": {"kicker": "Mehr Platz, mehr Prüfung", "intro": "Bei vier Personen werden Raumvolumen, Luftwechsel, Zugang und Ofenleistung schnell zu einem gemeinsamen System.", "guide_ids": ["platzbedarf", "lueftung"]},
     "editorial": {
       "kicker": "Kapazität · Raumgefühl · Betrieb",
       "title": "Vier Personen brauchen mehr als vier Plätze.",
@@ -371,6 +381,7 @@
     "intro": "Diese Auswahl filtert Modelle für die Innenaufstellung, deren veröffentlichte Maximalkapazität drei Personen beträgt. Sortiert wird nach rechnerischer Stellfläche, nicht nach Komfort oder redaktionellem Score.",
     "layout": "capacity",
     "related_ids": ["2-personen-sauna", "4-personen-sauna", "mini-sauna"],
+    "planning": {"kicker": "Kapazität ist kein Raummaß", "intro": "Drei Personen brauchen nicht nur eine Herstellerzahl, sondern passenden Zugang, Luftweg und Aufstellfläche.", "guide_ids": ["platzbedarf", "lueftung"]},
     "editorial": {
       "kicker": "Drei Personen · Alltag planen",
       "title": "Drei Plätze müssen im Raum funktionieren.",
@@ -407,6 +418,7 @@
     "intro": "Enthalten sind Produkte, deren Datensatz den Typ Finnische Sauna ausweist. Die Seite ordnet technische Felder ein, ohne aus dem Wärmetyp eine pauschale Qualitäts- oder Komfortwertung abzuleiten.",
     "layout": "technical",
     "related_ids": ["bio-sauna", "infrarotkabine", "4-personen-sauna"],
+    "planning": {"kicker": "Ofen und Luftweg", "intro": "Die klassische Wärmeart macht Ofenleistung, wirksames Volumen und Lüftung zu den entscheidenden nächsten Fragen.", "guide_ids": ["lueftung", "230-v-vs-400-v-sauna"]},
     "editorial": {
       "kicker": "Wärmetyp · Technik zuerst",
       "title": "Der Ofen setzt den Rahmen — der Raum entscheidet mit.",
@@ -443,6 +455,7 @@
     "intro": "Die Auswahl umfasst Datensätze mit höchstens 6,0 m² aus Breite × Tiefe. Wandabstände, Fundament, Dachüberstand, Zugang und Montagefläche sind bewusst nicht in dieser Kennzahl enthalten.",
     "layout": "tradeoff",
     "related_ids": ["kleine-gartensauna", "mini-sauna", "4-personen-sauna"],
+    "planning": {"kicker": "Fläche nicht isoliert lesen", "intro": "Sechs Quadratmeter Produktfläche sagen noch nichts über Wandabstände, Deckenhöhe oder den Montageweg.", "guide_ids": ["platzbedarf", "lueftung"]},
     "editorial": {
       "kicker": "Stellfläche · nicht Grundstücksfläche",
       "title": "Sechs Quadratmeter sind eine Produktgrenze, kein fertiger Grundriss.",
