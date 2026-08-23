@@ -12,6 +12,7 @@ export type Collection = {
   description: string;
   intro: string;
   layout: "space" | "outdoor" | "budget" | "heat" | "capacity" | "technical" | "tradeoff";
+  related_ids: string[];
   editorial: {
     kicker: string;
     title: string;

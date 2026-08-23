@@ -10,6 +10,7 @@
     "description": "Verifizierte Mini-Saunen und kompakte Infrarotkabinen bis drei Quadratmeter Stellfläche – mit Maßen, Anschluss und Preisstand.",
     "intro": "Hier erscheinen Innenkabinen mit höchstens 3,0 m² rechnerischer Stellfläche. Die Liste ist nach Stellfläche sortiert und keine Qualitätsrangliste.",
     "layout": "space",
+    "related_ids": ["1-person-sauna", "2-personen-sauna", "sauna-bis-6-m2"],
     "editorial": {
       "kicker": "Raumlogik · vor dem Preis",
       "title": "Die kleinste Fläche ist nicht automatisch die beste Lösung.",
@@ -45,6 +46,7 @@
     "description": "Verifizierte Saunen und Infrarotkabinen, deren Herstellerkapazität auf eine Person begrenzt ist.",
     "intro": "Aufgenommen werden Innenmodelle, deren veröffentlichte Maximalkapazität eine Person beträgt. Klassische Sauna und Infrarotkabine bleiben dabei unterschiedliche Wärmearten; sortiert wird nur nach Stellfläche.",
     "layout": "space",
+    "related_ids": ["mini-sauna", "2-personen-sauna", "infrarotkabine"],
     "editorial": {
       "kicker": "Allein nutzen · richtig einordnen",
       "title": "Eine Person heißt nicht nur: weniger Außenmaß.",
@@ -80,6 +82,7 @@
     "description": "Verifizierte Outdoor-Saunen bis fünf Quadratmeter rechnerischer Stellfläche im Vergleich nach Maß, Kapazität und Preis.",
     "intro": "Diese Vorauswahl enthält Outdoor-Modelle mit höchstens 5,0 m² rechnerischer Stellfläche. Fundament, Dachüberstand und vorgeschriebene Abstände sind darin noch nicht enthalten.",
     "layout": "outdoor",
+    "related_ids": ["fasssauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
     "editorial": {
       "kicker": "Standort zuerst · Produkt danach",
       "title": "Im Garten zählt die Fläche außerhalb der Kabine.",
@@ -115,6 +118,7 @@
     "description": "Verifizierte Sauna-Angebote bis 2.500 Euro – transparent nach Preis sortiert und mit Prüfdatum, Maßen und Anschlussdaten.",
     "intro": "Die Grenze bezieht sich auf den zuletzt dokumentierten Produktpreis. Aufbau, Lieferung, Elektroarbeiten, Fundament und Zubehör können zusätzliche Kosten verursachen.",
     "layout": "budget",
+    "related_ids": ["sauna-bis-4000-euro", "mini-sauna", "1-person-sauna"],
     "editorial": {
       "kicker": "Budget · vollständige Projektkosten",
       "title": "2.500 Euro kaufen ein Produkt — noch kein Saunaprojekt.",
@@ -150,6 +154,7 @@
     "description": "Verifizierte Indoor-Saunen und Infrarotkabinen mit einer ausgewiesenen Kapazität von zwei Personen – mit Stellfläche, Anschluss und Preisstand.",
     "intro": "Die Auswahl umfasst Innenmodelle, deren veröffentlichte Maximalkapazität zwei Personen beträgt. Sie ist nach Stellfläche sortiert und kein Komfort- oder Qualitätsranking.",
     "layout": "space",
+    "related_ids": ["1-person-sauna", "3-personen-sauna", "mini-sauna"],
     "editorial": {
       "kicker": "Zwei Personen · Alltag statt Prospektzahl",
       "title": "Kapazität ist der Anfang des Vergleichs, nicht sein Ergebnis.",
@@ -185,6 +190,7 @@
     "description": "Alle verifizierten Infrarotkabinen im Katalog, sortiert nach rechnerischer Stellfläche und ergänzt um Anschluss, Kapazität und Preis.",
     "intro": "Diese Seite enthält ausschließlich Datensätze mit dem Katalogtyp Infrarotkabine. Infrarotkabinen sind nicht automatisch mit einer finnischen Sauna gleichzusetzen.",
     "layout": "heat",
+    "related_ids": ["1-person-sauna", "bio-sauna", "sauna-bis-2500-euro"],
     "editorial": {
       "kicker": "Wärmeprofil · nicht nur Größe",
       "title": "Infrarot ist eine eigene Nutzungsidee.",
@@ -220,6 +226,7 @@
     "description": "Verifizierte Bio-Sauna-Datensätze mit Maßen, Kapazität, Leistung und Preisstatus – ohne pauschale Komfortwertung.",
     "intro": "Enthalten sind Produkte, deren Quelle den Typ Bio-Sauna ausweist. Die Bezeichnung allein ersetzt keine Prüfung von Steuerung, Feuchteoption und zulässigem Betriebsprofil.",
     "layout": "heat",
+    "related_ids": ["finnische-sauna", "infrarotkabine", "sauna-bis-4000-euro"],
     "editorial": {
       "kicker": "Bio · System statt Etikett",
       "title": "Feuchteoptionen verändern die Planung.",
@@ -255,6 +262,7 @@
     "description": "Verifizierte Fasssaunen im Vergleich nach Stellfläche, Außenmaß, Kapazität, Anschluss und dokumentiertem Preis.",
     "intro": "Diese Auswahl enthält Outdoor-Produkte, deren offizielle Modellbezeichnung sie als Fasssauna ausweist. Runde und Quadro-Varianten bleiben als eigenständige Datensätze sichtbar.",
     "layout": "outdoor",
+    "related_ids": ["kleine-gartensauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
     "editorial": {
       "kicker": "Bauform · Standort · Betrieb",
       "title": "Die runde Form entscheidet nicht allein über das Projekt.",
@@ -290,6 +298,7 @@
     "description": "Verifizierte Sauna-Angebote bis 4.000 Euro – mit Maßen, Kapazität, Anschlussdaten und transparentem Prüfdatum.",
     "intro": "Die Preisgrenze bezieht sich auf mindestens ein dokumentiertes Angebot je Datensatz. Lieferung, Montage, Fundament, Elektroarbeiten und Zubehör sind nicht automatisch enthalten.",
     "layout": "budget",
+    "related_ids": ["sauna-bis-2500-euro", "finnische-sauna", "4-personen-sauna"],
     "editorial": {
       "kicker": "Budget · mehr Auswahl, mehr Variablen",
       "title": "Bis 4.000 Euro erweitert die Auswahl — nicht die Gewissheit.",
@@ -325,6 +334,7 @@
     "description": "Verifizierte Modelle mit einer ausgewiesenen Maximalkapazität von vier Personen, sortiert nach Stellfläche.",
     "intro": "Die Liste umfasst Indoor- und Outdoor-Modelle mit Herstellerkapazität vier Personen. Kapazitätsangaben sagen allein nichts über Sitzkomfort oder reale Wärmeverteilung aus.",
     "layout": "capacity",
+    "related_ids": ["3-personen-sauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
     "editorial": {
       "kicker": "Kapazität · Raumgefühl · Betrieb",
       "title": "Vier Personen brauchen mehr als vier Plätze.",
@@ -360,6 +370,7 @@
     "description": "Verifizierte Innenmodelle mit ausgewiesener Kapazität für drei Personen – mit Stellfläche, Wärmeart, Anschluss und Preisstand.",
     "intro": "Diese Auswahl filtert Modelle für die Innenaufstellung, deren veröffentlichte Maximalkapazität drei Personen beträgt. Sortiert wird nach rechnerischer Stellfläche, nicht nach Komfort oder redaktionellem Score.",
     "layout": "capacity",
+    "related_ids": ["2-personen-sauna", "4-personen-sauna", "mini-sauna"],
     "editorial": {
       "kicker": "Drei Personen · Alltag planen",
       "title": "Drei Plätze müssen im Raum funktionieren.",
@@ -395,6 +406,7 @@
     "description": "Verifizierte finnische Sauna-Datensätze nach Stellfläche, Kapazität, Aufstellort, Anschluss und dokumentiertem Preis verglichen.",
     "intro": "Enthalten sind Produkte, deren Datensatz den Typ Finnische Sauna ausweist. Die Seite ordnet technische Felder ein, ohne aus dem Wärmetyp eine pauschale Qualitäts- oder Komfortwertung abzuleiten.",
     "layout": "technical",
+    "related_ids": ["bio-sauna", "infrarotkabine", "4-personen-sauna"],
     "editorial": {
       "kicker": "Wärmetyp · Technik zuerst",
       "title": "Der Ofen setzt den Rahmen — der Raum entscheidet mit.",
@@ -430,6 +442,7 @@
     "description": "Verifizierte Innen- und Outdoor-Saunen bis sechs Quadratmeter rechnerischer Produktfläche – mit Maß, Kapazität, Anschluss und Preisstand.",
     "intro": "Die Auswahl umfasst Datensätze mit höchstens 6,0 m² aus Breite × Tiefe. Wandabstände, Fundament, Dachüberstand, Zugang und Montagefläche sind bewusst nicht in dieser Kennzahl enthalten.",
     "layout": "tradeoff",
+    "related_ids": ["kleine-gartensauna", "mini-sauna", "4-personen-sauna"],
     "editorial": {
       "kicker": "Stellfläche · nicht Grundstücksfläche",
       "title": "Sechs Quadratmeter sind eine Produktgrenze, kein fertiger Grundriss.",

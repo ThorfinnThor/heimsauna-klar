@@ -22,7 +22,7 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
   const latestOfferCheck = getLatestOfferCheck(candidates);
   const minimumFootprint = Math.min(...candidates.map(getFootprintSquareMeters));
   const lowestPrice = Math.min(...candidates.map(getLowestPrice));
-  const relatedCollections = collections.filter((item) => item.id !== collection.id);
+  const relatedCollections = collection.related_ids.map((id) => collections.find((item) => item.id === id)).filter((item): item is Collection => Boolean(item));
   const path = `/de/${collection.section}/${collection.slug}/`;
 
   return (
