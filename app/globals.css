@@ -654,6 +654,7 @@ footer {
 .safety-box { padding: 18px; background: var(--cream); border-left: 3px solid var(--clay); color: var(--ink-soft); font-size: 11px !important; line-height: 1.6; }
 
 .guide-hero { padding-block: 36px 90px; }
+.guide-hero h1 { overflow-wrap: anywhere; }
 .guide-hero h1 span { display: block; }
 .quick-answer { max-width: 880px; margin-top: 55px; padding: 28px; display: grid; grid-template-columns: 130px 1fr; gap: 25px; background: var(--ink); color: var(--white); }
 .quick-answer strong { color: #e78b68; font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
@@ -915,7 +916,7 @@ footer {
   .capacity-points { grid-template-columns: 1fr; }
   .planning-section { grid-template-columns: 60px 1fr; }
   .planning-section-technical, .planning-section-technical > div, .planning-budget-copy { grid-template-columns: 1fr; }
-  .planning-section-technical > div { gap: 24px; }
+  .planning-section.planning-section-technical > div { grid-column: 1; gap: 24px; }
   .planning-section-technical ul, .planning-budget-copy ul, .planning-budget-copy p { grid-column: 1; grid-row: auto; }
   .planning-section > div, .price-snapshot-head { grid-template-columns: 1fr; }
   .planning-section > div { grid-column: 2; }
