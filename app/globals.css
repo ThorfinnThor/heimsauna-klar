@@ -588,7 +588,8 @@ footer {
 .product-frame-heat .product-frame-detail { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.7); }
 .product-frame-heat .product-frame-columns small { color: rgba(255,255,255,.78); }
 .family-editorial { padding-block: 82px; display: grid; grid-template-columns: .8fr 1.2fr; gap: 9vw; border-top: 1px solid var(--line); }
-.family-editorial h2 { margin: 0 0 22px; font-size: clamp(38px, 4.2vw, 62px); line-height: .99; }
+.family-editorial > * { min-width: 0; }
+.family-editorial h2 { margin: 0 0 22px; overflow-wrap: anywhere; font-size: clamp(38px, 4.2vw, 62px); line-height: .99; }
 .family-editorial h3 { margin: 27px 0 13px; color: var(--clay-dark); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
 .family-editorial p { color: var(--ink-soft); font-size: 13px; line-height: 1.7; }
 .family-editorial-callout { padding: 20px; background: var(--cream); border-left: 3px solid var(--clay); }
