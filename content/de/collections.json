@@ -357,25 +357,25 @@
     "eyebrow": "Drei Personen · Raum und Nutzung",
     "title": "3-Personen-Sauna für zu Hause",
     "accent": "zwischen kompakt und gemeinsam.",
-    "description": "Verifizierte Sauna- und Infrarot-Datensätze mit ausgewiesener Kapazität für drei Personen – mit Fläche, Anschluss und Preisstand.",
-    "intro": "Diese Auswahl filtert Modelle, deren veröffentlichte Maximalkapazität drei Personen beträgt. Sortiert wird nach rechnerischer Stellfläche, nicht nach Komfort oder redaktionellem Score.",
+    "description": "Verifizierte Innenmodelle mit ausgewiesener Kapazität für drei Personen – mit Stellfläche, Wärmeart, Anschluss und Preisstand.",
+    "intro": "Diese Auswahl filtert Modelle für die Innenaufstellung, deren veröffentlichte Maximalkapazität drei Personen beträgt. Sortiert wird nach rechnerischer Stellfläche, nicht nach Komfort oder redaktionellem Score.",
     "layout": "capacity",
     "editorial": {
       "kicker": "Drei Personen · Alltag planen",
       "title": "Drei Plätze müssen im Raum funktionieren.",
       "paragraphs": [
         "Die Kapazitätsangabe stammt aus dem jeweiligen Datensatz. Sie beantwortet, wie viele Personen vorgesehen sind, aber nicht, wie bequem der Zugang ist oder wie sich die Wärme im Innenraum verteilt.",
-        "Die Tabelle verbindet deshalb Kapazität, Stellfläche und Aufstellort. So bleibt sichtbar, ob die Auswahl eher für einen knappen Innenraum oder für ein größeres Projekt gedacht ist."
+        "Die Tabelle verbindet deshalb Kapazität, Stellfläche und Wärmeart. So bleibt sichtbar, wie unterschiedlich groß Innenmodelle trotz gleicher ausgewiesener Personenzahl ausfallen."
       ],
       "pointsTitle": "Vor der gemeinsamen Nutzung prüfen",
       "points": ["Bankbreite und Innenhöhe", "Leistung und Luftführung", "Tür, Zugang und Anschluss"],
       "callout": "Drei Personen auf dem Datenblatt sind ein Startpunkt für den Grundriss."
     },
-    "rule": "three_person",
+    "rule": "three_person_indoor",
     "sort": "footprint",
     "criteria": [
       "Maximalkapazität laut Datensatz: drei Personen",
-      "Innen- und Infrarotmodelle bleiben als Wärmeart sichtbar",
+      "Für die Innenaufstellung dokumentiert; die Wärmeart bleibt sichtbar",
       "Maße, Preisstatus und Quellenstand dokumentiert"
     ],
     "checks": [

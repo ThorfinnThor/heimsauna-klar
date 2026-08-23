@@ -211,7 +211,7 @@ const collectionMatchers = {
   barrel_sauna: (product) => product.category === "outdoor" && product.model.toLowerCase().includes("fasssauna"),
   price_under_4000: (product) => product.commercial.offers.some((offer) => offer.price <= 4_000),
   four_person: (product) => product.people.max === 4,
-  three_person: (product) => product.people.max === 3,
+  three_person_indoor: (product) => ["indoor", "infrared"].includes(product.category) && product.people.max === 3,
   finnish: (product) => product.sauna.type === "Finnische Sauna",
   area_under_6: (product) => product.dimensions_cm.width * product.dimensions_cm.depth <= 60_000,
 };
@@ -222,7 +222,7 @@ for (const collection of collections) {
   if (!["indoor-sauna", "outdoor-sauna", "vergleiche"].includes(collection.section)) {
     throw new Error(`Unsupported collection section: ${collection.id}`);
   }
-  if (!["mini_indoor", "one_person_indoor", "small_garden", "price_under_2500", "two_person_indoor", "infrared", "bio_sauna", "barrel_sauna", "price_under_4000", "four_person", "three_person", "finnish", "area_under_6"].includes(collection.rule)) {
+  if (!["mini_indoor", "one_person_indoor", "small_garden", "price_under_2500", "two_person_indoor", "infrared", "bio_sauna", "barrel_sauna", "price_under_4000", "four_person", "three_person_indoor", "finnish", "area_under_6"].includes(collection.rule)) {
     throw new Error(`Unsupported collection rule: ${collection.id}`);
   }
   if (!["footprint", "price"].includes(collection.sort)) throw new Error(`Unsupported collection sort: ${collection.id}`);
