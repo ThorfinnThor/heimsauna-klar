@@ -41,8 +41,8 @@
     },
     "lueftung": {
       "related_slugs": ["sauna-im-badezimmer", "sauna-im-keller", "temperatur-3-6-kw-sauna"],
-      "product_href": "/de/produkte/",
-      "product_label": "Modelle mit Technikdaten ansehen"
+      "product_href": "/de/vergleiche/sauna-bis-6-m2/",
+      "product_label": "Saunen bis 6 m² mit Technikdaten ansehen"
     },
     "boden-und-fundament": {
       "related_slugs": ["platzbedarf", "sauna-kosten", "lueftung"],
@@ -66,8 +66,8 @@
     },
     "sauna-im-keller": {
       "related_slugs": ["lueftung", "platzbedarf", "sauna-bei-niedriger-deckenhoehe"],
-      "product_href": "/de/produkte/",
-      "product_label": "Indoor-Modelle prüfen"
+      "product_href": "/de/indoor-sauna/1-person-sauna/",
+      "product_label": "Kompakte Indoor-Modelle prüfen"
     },
     "sauna-bei-niedriger-deckenhoehe": {
       "related_slugs": ["platzbedarf", "sauna-fuer-die-wohnung", "sauna-im-badezimmer"],
@@ -86,13 +86,13 @@
     },
     "saunagroesse-3-6-kw": {
       "related_slugs": ["temperatur-3-6-kw-sauna", "230-v-vs-400-v-sauna", "platzbedarf"],
-      "product_href": "/de/vergleiche/230-v-sauna/",
-      "product_label": "230-V-Modelle vergleichen"
+      "product_href": "/de/vergleiche/sauna-bis-6-m2/",
+      "product_label": "Saunen bis 6 m² vergleichen"
     },
     "temperatur-3-6-kw-sauna": {
       "related_slugs": ["saunagroesse-3-6-kw", "lueftung", "230-v-vs-400-v-sauna"],
-      "product_href": "/de/vergleiche/230-v-sauna/",
-      "product_label": "Passende Leistungsdaten vergleichen"
+      "product_href": "/de/vergleiche/finnische-sauna/",
+      "product_label": "Finnische Saunen nach Technik vergleichen"
     }
   }
 }
