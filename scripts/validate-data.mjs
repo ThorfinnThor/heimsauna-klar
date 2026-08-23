@@ -10,6 +10,7 @@ const merchants = JSON.parse(await readFile(new URL("../data/merchants.json", im
 const launchReadiness = JSON.parse(await readFile(new URL("../data/launch-readiness.json", import.meta.url), "utf8"));
 const planningGuides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
 const planningNavigation = JSON.parse(await readFile(new URL("../content/de/planning-navigation.json", import.meta.url), "utf8"));
+const pagePresentations = JSON.parse(await readFile(new URL("../content/de/page-presentations.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const powerEvidence = JSON.parse(await readFile(new URL("../data/power-evidence.json", import.meta.url), "utf8"));
 const voltageReviewBatch = JSON.parse(await readFile(new URL("../data/voltage-review-batch.json", import.meta.url), "utf8"));
@@ -277,6 +278,70 @@ for (const collection of collections) {
   if (!products.some((product) => product.status === "verified" && collectionMatchers[collection.rule](product))) {
     throw new Error(`${collection.id} has no matching verified products`);
   }
+}
+
+if (pagePresentations.schema_version !== 1) throw new Error("Page presentations have an unsupported schema version");
+assertIsoDate(pagePresentations.updated_at, "Page presentations updated_at");
+if (!pagePresentations.collections || !pagePresentations.planning_guides) {
+  throw new Error("Page presentations need collection and planning guide profiles");
+}
+
+const collectionModules = ["insight", "editorial", "method", "results", "checks"];
+const planningModules = ["insight", "sections", "checks", "sources"];
+
+function validateInsight(insight, label, minimumCopyLength) {
+  if (!insight || typeof insight !== "object") throw new Error(`${label} needs an editorial insight`);
+  for (const key of ["kicker", "title"]) {
+    if (typeof insight[key] !== "string" || insight[key].trim() === "") throw new Error(`${label} insight is missing ${key}`);
+  }
+  if (!Array.isArray(insight.copy) || insight.copy.length < 2 || insight.copy.some((item) => typeof item !== "string" || item.trim() === "")) {
+    throw new Error(`${label} insight needs at least two paragraphs`);
+  }
+  if (insight.copy.join(" ").length < minimumCopyLength) throw new Error(`${label} insight copy is too thin`);
+  if (!Array.isArray(insight.points) || insight.points.length < 3 || insight.points.some((item) => typeof item !== "string" || item.trim() === "")) {
+    throw new Error(`${label} insight needs at least three decision points`);
+  }
+}
+
+function validateExactKeys(actual, expected, label) {
+  const actualSet = new Set(Object.keys(actual));
+  for (const id of expected) if (!actualSet.has(id)) throw new Error(`${label} is missing ${id}`);
+  for (const id of actualSet) if (!expected.has(id)) throw new Error(`${label} references unknown page ${id}`);
+}
+
+const collectionIds = new Set(collections.map((collection) => collection.id));
+const planningGuideSlugs = new Set(planningGuides.map((guide) => guide.slug));
+validateExactKeys(pagePresentations.collections, collectionIds, "Collection presentations");
+validateExactKeys(pagePresentations.planning_guides, planningGuideSlugs, "Planning presentations");
+
+const collectionProfiles = new Map();
+for (const [id, presentation] of Object.entries(pagePresentations.collections)) {
+  if (!["editorial", "compact", "index", "split"].includes(presentation.hero)) throw new Error(`${id} has an invalid collection hero`);
+  if (!["table", "cards", "ledger"].includes(presentation.results)) throw new Error(`${id} has an invalid results view`);
+  if (!["split", "panel", "steps"].includes(presentation.method)) throw new Error(`${id} has an invalid method view`);
+  if (!Array.isArray(presentation.flow) || presentation.flow.length !== collectionModules.length || new Set(presentation.flow).size !== collectionModules.length || collectionModules.some((module) => !presentation.flow.includes(module))) {
+    throw new Error(`${id} must use every collection module exactly once`);
+  }
+  validateInsight(presentation.insight, id, 400);
+  const profile = [presentation.hero, presentation.results, presentation.method, presentation.flow.join("-")].join("|");
+  if (collectionProfiles.has(profile)) throw new Error(`${id} duplicates the presentation profile of ${collectionProfiles.get(profile)}`);
+  collectionProfiles.set(profile, id);
+}
+
+const planningProfiles = new Map();
+for (const [slug, presentation] of Object.entries(pagePresentations.planning_guides)) {
+  const guide = planningGuides.find((item) => item.slug === slug);
+  if (!["summary", "split", "briefing", "question", "compact"].includes(presentation.hero)) throw new Error(`${slug} has an invalid planning hero`);
+  if (!["staggered", "technical", "timeline", "cards", "ledger", "alternating"].includes(presentation.sections)) throw new Error(`${slug} has an invalid section view`);
+  if (!["callout", "matrix", "brief"].includes(presentation.insight_style)) throw new Error(`${slug} has an invalid insight view`);
+  const requiredModules = guide.catalog_snapshot === "product_prices" ? [...planningModules, "snapshot"] : planningModules;
+  if (!Array.isArray(presentation.flow) || presentation.flow.length !== requiredModules.length || new Set(presentation.flow).size !== requiredModules.length || requiredModules.some((module) => !presentation.flow.includes(module))) {
+    throw new Error(`${slug} must use every applicable planning module exactly once`);
+  }
+  validateInsight(presentation.insight, slug, 280);
+  const profile = [presentation.hero, presentation.sections, presentation.insight_style, presentation.flow.join("-")].join("|");
+  if (planningProfiles.has(profile)) throw new Error(`${slug} duplicates the presentation profile of ${planningProfiles.get(profile)}`);
+  planningProfiles.set(profile, slug);
 }
 
 const queueIds = new Set();

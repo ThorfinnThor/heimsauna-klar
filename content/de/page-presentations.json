@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-23",
+  "collections": {
+    "mini-sauna": {
+      "hero": "editorial",
+      "results": "cards",
+      "method": "split",
+      "flow": ["insight", "editorial", "method", "results", "checks"],
+      "insight": {
+        "kicker": "Raumlogik",
+        "title": "Klein ist nur dann praktisch, wenn der Raum danach noch funktioniert.",
+        "copy": [
+          "Die reine Stellfläche ist bei einer Mini-Sauna nur der Anfang. Türbewegung, Einstieg und der Weg zu Dusche oder Fenster entscheiden darüber, ob ein kompaktes Modell im Alltag angenehm bleibt. Deshalb ordnet diese Auswahl zuerst nach Außenmaß und nicht nach Werbeversprechen.",
+          "Eine knappe Nische kann technisch passen und trotzdem unbrauchbar sein. Übertrage Breite und Tiefe mit Klebeband auf den Boden, ergänze die Abstände aus der Montageanleitung und prüfe, ob Schranktüren, Heizkörper oder Laufwege in diesen Bereich ragen."
+        ],
+        "points": ["Außenmaß und Montageabstand getrennt einzeichnen", "Türanschlag und freien Einstieg mitprüfen", "Lüftungsweg nicht als Restfläche behandeln"]
+      }
+    },
+    "1-person-sauna": {
+      "hero": "compact",
+      "results": "table",
+      "method": "panel",
+      "flow": ["method", "insight", "results", "editorial", "checks"],
+      "insight": {
+        "kicker": "Alleinnutzung",
+        "title": "Ein Sitzplatz spart Fläche, aber nicht automatisch Planungsaufwand.",
+        "copy": [
+          "Bei Ein-Personen-Modellen ist die innere Ergonomie wichtiger als eine möglichst kleine Zahl im Datenblatt. Sitzbreite, Beinfreiheit und Einstieg müssen zur Person passen; bei einer Infrarotkabine kommt die Position der Strahler hinzu.",
+          "Wer überwiegend allein sauniert, kann mit einem kleinen Modell Energie und Raum sparen. Die elektrische Anschlussart, die Belüftung des Aufstellraums und die Freigaben des Herstellers bleiben dennoch dieselben harten Prüfpunkte wie bei größeren Kabinen."
+        ],
+        "points": ["Innenmaß statt nur Außenmaß vergleichen", "Sitzposition und Strahlerlage abgleichen", "Anschluss vor der Bestellung bestätigen"]
+      }
+    },
+    "kleine-gartensauna": {
+      "hero": "split",
+      "results": "ledger",
+      "method": "steps",
+      "flow": ["editorial", "insight", "method", "checks", "results"],
+      "insight": {
+        "kicker": "Grundstück zuerst",
+        "title": "Die kleinste Gartensauna ist nicht automatisch das kleinste Bauvorhaben.",
+        "copy": [
+          "Eine kompakte Außenkabine reduziert die Produktfläche, nicht aber zwingend Fundament, Dachentwässerung, Zuwegung oder Leitungsweg. Für die echte Projektgröße zählt deshalb die gesamte beanspruchte Zone auf dem Grundstück.",
+          "Prüfe vor dem Modellvergleich, wo Wasser ablaufen kann, wie Bauteile für Wartung erreichbar bleiben und welche örtlichen Vorgaben gelten. Erst danach lässt sich beurteilen, ob ein kleines Saunahaus oder eine andere Bauform besser in die verfügbare Fläche passt."
+        ],
+        "points": ["Fundamentkante und Dachüberstand ergänzen", "Zuwegung für Bauteile und Wartung sichern", "Örtliche Abstände und Genehmigung vorprüfen"]
+      }
+    },
+    "sauna-bis-2500-euro": {
+      "hero": "index",
+      "results": "cards",
+      "method": "panel",
+      "flow": ["insight", "method", "editorial", "results", "checks"],
+      "insight": {
+        "kicker": "Budgetgrenze",
+        "title": "2.500 Euro sind ein Produktfilter, noch kein vollständiges Projektbudget.",
+        "copy": [
+          "Die Auswahl berücksichtigt dokumentierte Angebotspreise bis zur Grenze. Nicht automatisch enthalten sind Lieferung, Montage, Elektroarbeiten, Untergrund, Zubehör oder die Anpassung des Raums. Ein günstiger Bausatz kann dadurch im Gesamtprojekt teurer werden als ein vollständigeres Angebot.",
+          "Vergleiche deshalb nicht nur den Einstiegspreis, sondern den Lieferumfang und die offenen Gewerke. Besonders wichtig ist, ob Ofen, Steuerung und notwendige Leitungen enthalten oder lediglich als kompatible Ergänzung genannt sind."
+        ],
+        "points": ["Lieferumfang schriftlich abgleichen", "Elektro- und Montagekosten separat reservieren", "Variantenpreis nicht mit Grundmodell verwechseln"]
+      }
+    },
+    "2-personen-sauna": {
+      "hero": "editorial",
+      "results": "ledger",
+      "method": "split",
+      "flow": ["editorial", "method", "insight", "results", "checks"],
+      "insight": {
+        "kicker": "Nutzung zu zweit",
+        "title": "Zwei ausgewiesene Plätze sagen wenig über die gemeinsame Sitzqualität.",
+        "copy": [
+          "Herstellerangaben zur Personenzahl sind eine Kapazitätsangabe, kein Komfortmaß. Entscheidend sind Banklänge, Innenbreite, Türposition und die Frage, ob beide Personen gleichzeitig eine natürliche Sitzhaltung einnehmen können.",
+          "Für den Vergleich lohnt sich ein einfacher Realitätscheck: gewünschte Sitzbreite pro Person festlegen, Innenmaße aus der Anleitung prüfen und erst danach das Außenmaß in den Raum übertragen. So bleibt die Entscheidung nicht an einer einzigen Marketingzahl hängen."
+        ],
+        "points": ["Innenbreite pro Sitzplatz berechnen", "Türposition gegen die Sitzbank prüfen", "Gemeinsame Nutzung als Maßstab festlegen"]
+      }
+    },
+    "infrarotkabine": {
+      "hero": "compact",
+      "results": "cards",
+      "method": "steps",
+      "flow": ["method", "editorial", "results", "insight", "checks"],
+      "insight": {
+        "kicker": "Wärmeprinzip",
+        "title": "Infrarot ist keine kleinere finnische Sauna, sondern eine andere Nutzungsidee.",
+        "copy": [
+          "Infrarotkabinen erwärmen den Körper anders und arbeiten meist mit niedrigeren Lufttemperaturen als klassische Saunen. Deshalb sind Aufheizzeit, Strahleranordnung und Sitzposition für den Vergleich aussagekräftiger als eine direkte Gleichsetzung über die Kilowattzahl.",
+          "Kläre vor dem Kauf, welche Strahlertechnik verbaut ist, welche Körperzonen erreicht werden und welche elektrische Absicherung verlangt wird. Medizinische Wirkversprechen gehören nicht in die Produktauswahl; bei gesundheitlichen Fragen ist fachlicher Rat notwendig."
+        ],
+        "points": ["Strahlerart und Position dokumentieren", "Gewünschtes Wärmegefühl vorher festlegen", "Gesundheitsversprechen nicht als Kaufbeleg werten"]
+      }
+    },
+    "bio-sauna": {
+      "hero": "split",
+      "results": "table",
+      "method": "split",
+      "flow": ["insight", "results", "editorial", "method", "checks"],
+      "insight": {
+        "kicker": "Klima statt Etikett",
+        "title": "Für eine Bio-Sauna zählt die regelbare Kombination aus Temperatur und Feuchte.",
+        "copy": [
+          "Die Bezeichnung beschreibt ein milderes Saunaklima, wird im Markt aber nicht immer mit identischem technischen Umfang verwendet. Relevant sind eine geeignete Ofen- und Steuerungskombination, Wasserbehälter oder Verdampfer sowie die dafür freigegebene Kabine.",
+          "Prüfe in der Herstellerdokumentation, welche Betriebsarten tatsächlich unterstützt werden. Eine bloße Modellbezeichnung ersetzt weder die Angabe zur Steuerung noch die Vorgaben für Lüftung, Materialschutz und Reinigung."
+        ],
+        "points": ["Betriebsarten in der Anleitung nachlesen", "Verdampfer und Steuerung gemeinsam prüfen", "Feuchtebetrieb bei Material und Lüftung berücksichtigen"]
+      }
+    },
+    "fasssauna": {
+      "hero": "index",
+      "results": "ledger",
+      "method": "panel",
+      "flow": ["editorial", "insight", "results", "method", "checks"],
+      "insight": {
+        "kicker": "Runde Bauform",
+        "title": "Die Fassform spart Innenvolumen, verlangt außen aber saubere Details.",
+        "copy": [
+          "Die gekrümmte Hülle kann schnell aufheizen und wirkt kompakt, doch die nutzbare Stand- und Sitzfläche folgt nicht der maximalen Außenbreite. Bankgeometrie, Kopffreiheit und eine eventuell vorgelagerte Terrasse müssen separat bewertet werden.",
+          "Im Außenbereich werden Dachabdeckung, Spannbänder, Stirnwände und Sockel zu dauerhaften Wartungspunkten. Der Produktvergleich ist daher erst vollständig, wenn auch Untergrund, Wasserführung und der Zugang für Nachspannen oder Nachbehandeln feststehen."
+        ],
+        "points": ["Nutzbare Innenbreite statt Durchmesser bewerten", "Dach- und Stirnseitenschutz klären", "Wartungszugang rund um das Fass freihalten"]
+      }
+    },
+    "sauna-bis-4000-euro": {
+      "hero": "editorial",
+      "results": "table",
+      "method": "steps",
+      "flow": ["method", "insight", "editorial", "checks", "results"],
+      "insight": {
+        "kicker": "Kostenkontrolle",
+        "title": "Mit 4.000 Euro wächst die Auswahl – und die Zahl schwer vergleichbarer Pakete.",
+        "copy": [
+          "In dieser Preisspanne stehen einfache Kabinen, größere Bausätze und rabattierte Varianten nebeneinander. Ein Preisvergleich ohne Lieferumfang kann deshalb falsche Sicherheit erzeugen: Ofen, Steuerung, Dachpaket oder Montage sind je nach Angebot enthalten, optional oder ausgeschlossen.",
+          "Lege vor dem Vergleich eine feste Soll-Liste an. Erst wenn jedes Angebot gegen dieselben Positionen geprüft wird, zeigt die Budgetgrenze, welches Modell wirklich passt und wo zusätzliche Projektkosten entstehen."
+        ],
+        "points": ["Identische Soll-Liste für alle Angebote verwenden", "Rabatt und regulären Variantenpreis trennen", "Puffer für fehlende Gewerke einplanen"]
+      }
+    },
+    "4-personen-sauna": {
+      "hero": "compact",
+      "results": "ledger",
+      "method": "steps",
+      "flow": ["insight", "method", "results", "checks", "editorial"],
+      "insight": {
+        "kicker": "Kapazität",
+        "title": "Vier Plätze verändern Raum, Leistung und Nutzung gleichzeitig.",
+        "copy": [
+          "Eine Vier-Personen-Sauna benötigt nicht nur mehr Stellfläche. Größere Innenvolumen können eine andere Ofenleistung und Anschlussplanung verlangen, während längere Bänke die mögliche Türposition und die Bewegungsfläche vor der Kabine beeinflussen.",
+          "Entscheide zuerst, ob vier Personen regelmäßig oder nur gelegentlich gemeinsam saunieren. Für den Alltag kann eine komfortable kleinere Kabine sinnvoller sein als ein großes Modell, dessen Fläche und Leistung überwiegend ungenutzt bleiben."
+        ],
+        "points": ["Regelmäßige statt maximale Belegung planen", "Innenvolumen mit Leistung abgleichen", "Bewegungsfläche vor der Tür ergänzen"]
+      }
+    },
+    "3-personen-sauna": {
+      "hero": "split",
+      "results": "cards",
+      "method": "panel",
+      "flow": ["editorial", "results", "insight", "method", "checks"],
+      "insight": {
+        "kicker": "Zwischengröße",
+        "title": "Drei Plätze sind oft ein Kompromiss zwischen Liegelänge und Grundfläche.",
+        "copy": [
+          "Modelle für drei Personen nutzen den Innenraum unterschiedlich: als durchgehende Bank, über Eck oder auf mehreren Ebenen. Die gleiche Kapazitätsangabe kann daher sehr verschiedene Sitz- und Liegemöglichkeiten bedeuten.",
+          "Vergleiche zuerst die geplante Nutzung und danach die Geometrie. Wer allein liegen möchte, braucht eine andere Banklänge als drei sitzende Personen; die Produktfläche allein beantwortet diese Frage nicht."
+        ],
+        "points": ["Sitz- oder Liegenutzung vorab festlegen", "Bankgeometrie in Grundriss und Schnitt prüfen", "Kapazität nicht mit Komfort gleichsetzen"]
+      }
+    },
+    "finnische-sauna": {
+      "hero": "index",
+      "results": "table",
+      "method": "split",
+      "flow": ["insight", "editorial", "results", "checks", "method"],
+      "insight": {
+        "kicker": "Technischer Kern",
+        "title": "Die klassische Sauna ist ein abgestimmtes System, nicht nur eine heiße Kabine.",
+        "copy": [
+          "Ofenleistung, Kabinenvolumen, Steuerung, Lüftung und Materialaufbau wirken zusammen. Ein einzelner hoher Temperaturwert sagt wenig darüber aus, ob das Modell am vorgesehenen Ort fachgerecht angeschlossen und gleichmäßig betrieben werden kann.",
+          "Für eine belastbare Vorauswahl müssen Leistung und Anschluss aus der Dokumentation stammen. Danach folgen örtliche Prüfung, Montageabstände und der Abgleich mit den Vorgaben des konkreten Ofens und der Steuerung."
+        ],
+        "points": ["Ofenleistung gegen Kabinenvolumen prüfen", "Steuerung und Anschluss gemeinsam dokumentieren", "Montageanleitung als verbindliche Basis verwenden"]
+      }
+    },
+    "sauna-bis-6-m2": {
+      "hero": "editorial",
+      "results": "cards",
+      "method": "steps",
+      "flow": ["method", "results", "editorial", "insight", "checks"],
+      "insight": {
+        "kicker": "Flächengrenze",
+        "title": "Sechs Quadratmeter Produktfläche können deutlich mehr Planungsfläche beanspruchen.",
+        "copy": [
+          "Diese Auswahl begrenzt bewusst nur Breite mal Tiefe des dokumentierten Produkts. Dachüberstände, Montagefugen, Wandabstände, Türbewegung und Wartungszonen sind darin nicht enthalten und unterscheiden sich je nach Bauform.",
+          "Nutze die Grenze deshalb zur Marktübersicht, nicht als Freigabe für einen vorhandenen Platz. Der nächste Schritt ist immer ein maßstäblicher Stellplan mit den Angaben aus der Anleitung des konkreten Modells."
+        ],
+        "points": ["Produkt- und Projektfläche getrennt ausweisen", "Abstände aus der konkreten Anleitung ergänzen", "Tür- und Wartungszonen sichtbar einzeichnen"]
+      }
+    }
+  },
+  "planning_guides": {
+    "platzbedarf": {
+      "hero": "question",
+      "sections": "staggered",
+      "insight_style": "matrix",
+      "flow": ["insight", "sections", "checks", "sources"],
+      "insight": {
+        "kicker": "Vom Raum zum Maß",
+        "title": "Vier Flächen statt einer einzigen Zahl erfassen.",
+        "copy": ["Für die Planung zählen Produktgrundfläche, Montageabstände, Tür- und Bewegungsfläche sowie der freie Weg für Zu- und Abluft. Erst ihre Überlagerung zeigt, ob ein Standort wirklich funktioniert.", "Ein maßstäblicher Grundriss verhindert, dass ein formal passendes Außenmaß später mit Heizkörper, Dusche, Schrank oder Verkehrsweg kollidiert."],
+        "points": ["Produktkontur einzeichnen", "Montagezone ergänzen", "Bewegung und Lüftung markieren"]
+      }
+    },
+    "lueftung": {
+      "hero": "briefing",
+      "sections": "technical",
+      "insight_style": "brief",
+      "flow": ["sections", "insight", "checks", "sources"],
+      "insight": {
+        "kicker": "Luftweg",
+        "title": "Zuluft und Abluft werden als zusammenhängender Weg geplant.",
+        "copy": ["Eine Öffnung allein beschreibt noch keine funktionierende Lüftung. Position, Querschnitt und der umgebende Raum müssen zu Kabine und Ofen passen.", "Übernimm deshalb keine pauschalen Maße aus Ratgebern, sondern zeichne die vom Hersteller geforderte Luftführung in den konkreten Raumplan ein."],
+        "points": ["Ofenposition zuerst festlegen", "Zu- und Abluft gemeinsam zeichnen", "Herstellermaß nicht verallgemeinern"]
+      }
+    },
+    "boden-und-fundament": {
+      "hero": "split",
+      "sections": "timeline",
+      "insight_style": "callout",
+      "flow": ["insight", "checks", "sections", "sources"],
+      "insight": {
+        "kicker": "Lastabtrag",
+        "title": "Der Untergrund wird vor der Lieferung geklärt, nicht beim Aufbau.",
+        "copy": ["Tragfähigkeit, Ebenheit, Feuchteschutz und Wasserführung bestimmen, ob die Konstruktion dauerhaft standsicher bleibt. Außen kommen Frost und Entwässerung hinzu.", "Die Produktzeichnung liefert Abmessungen, ersetzt aber keine Beurteilung des vorhandenen Bodens oder des geplanten Fundaments durch zuständige Fachleute."],
+        "points": ["Lasten und Auflager ermitteln", "Feuchteweg klären", "Aufbauhöhe in Zugänge einrechnen"]
+      }
+    },
+    "sauna-kosten": {
+      "hero": "summary",
+      "sections": "ledger",
+      "insight_style": "matrix",
+      "flow": ["snapshot", "insight", "sections", "checks", "sources"],
+      "insight": {
+        "kicker": "Gesamtkosten",
+        "title": "Produktpreis, Einbau und Betrieb gehören in getrennte Kostenblöcke.",
+        "copy": ["Ein belastbares Budget zeigt nicht nur den Kaufpreis, sondern auch Lieferung, Montage, Elektroarbeiten, Untergrund, Zubehör und einen Puffer für standortabhängige Arbeiten.", "Die Katalogpreise auf dieser Seite sind eine dokumentierte Momentaufnahme. Sie sind keine Handwerkerangebote und erlauben ohne konkreten Lieferumfang keinen vollständigen Projektvergleich."],
+        "points": ["Einmalkosten gliedern", "Laufende Kosten separat rechnen", "Unbekannte Positionen als Puffer zeigen"]
+      }
+    },
+    "230-v-vs-400-v-sauna": {
+      "hero": "briefing",
+      "sections": "cards",
+      "insight_style": "callout",
+      "flow": ["insight", "sections", "sources", "checks"],
+      "insight": {
+        "kicker": "Anschlussentscheidung",
+        "title": "Spannungsangabe, Leistung und Installationsweg dürfen nicht vermischt werden.",
+        "copy": ["230 V bedeutet nicht automatisch gewöhnliche Steckdose, und 400 V ist keine pauschale Qualitätsstufe. Entscheidend sind das konkrete Gerät, seine Leistungsaufnahme und die Herstelleranforderungen.", "Die Anschlussmöglichkeit muss vor dem Kauf durch eine Elektrofachkraft am Standort geprüft werden; Produktdaten dienen nur zur Vorauswahl."],
+        "points": ["Konkreten Anschlusswert belegen", "Absicherung vor Ort prüfen lassen", "Keine Steckdosenannahme treffen"]
+      }
+    },
+    "sauna-fuer-die-wohnung": {
+      "hero": "split",
+      "sections": "alternating",
+      "insight_style": "brief",
+      "flow": ["sections", "checks", "insight", "sources"],
+      "insight": {
+        "kicker": "Wohnkontext",
+        "title": "Die Wohnung ist Teil der technischen Planung.",
+        "copy": ["Lüftung, Feuchte, Boden, Anschluss und Transportweg müssen mit dem vorhandenen Gebäude funktionieren. In Miet- oder Eigentumsverhältnissen kommen Zustimmungen und gemeinschaftliche Regeln hinzu.", "Dokumentiere Standort und Eingriffe, bevor ein Modell gewählt wird. So bleibt erkennbar, welche Lösung ohne Umbau realistisch ist."],
+        "points": ["Zustimmungen früh klären", "Transportweg vermessen", "Feuchte und Anschluss zusammen prüfen"]
+      }
+    },
+    "sauna-im-keller": {
+      "hero": "question",
+      "sections": "technical",
+      "insight_style": "callout",
+      "flow": ["checks", "insight", "sections", "sources"],
+      "insight": {
+        "kicker": "Bestandsraum",
+        "title": "Im Keller ist Feuchteführung wichtiger als freie Grundfläche.",
+        "copy": ["Kühle Bauteile, geringe Deckenhöhe und eingeschränkte Lüftung können den Standort anspruchsvoll machen. Sichtbar trockene Oberflächen sind noch kein Nachweis für einen geeigneten Aufbau.", "Prüfe Raumzustand und Luftweg unabhängig von der Sauna. Erst danach sollte die Kabine mit ihren Abständen und Betriebsbedingungen eingeplant werden."],
+        "points": ["Bestandsfeuchte bewerten", "Luftwechsel des Raums klären", "Decke und Transportweg vermessen"]
+      }
+    },
+    "sauna-bei-niedriger-deckenhoehe": {
+      "hero": "compact",
+      "sections": "staggered",
+      "insight_style": "brief",
+      "flow": ["insight", "checks", "sources", "sections"],
+      "insight": {
+        "kicker": "Vertikaler Raum",
+        "title": "Die Kabinenhöhe ist nur eine von mehreren Höhenlinien.",
+        "copy": ["Zur Produkthöhe kommen Aufbauweg, Montagefuge, mögliche Leitungsführung und die erforderlichen Abstände. Auch Türhöhe und Bankposition beeinflussen, ob die Nutzung angenehm bleibt.", "Erstelle deshalb zusätzlich zum Grundriss einen Schnitt. Er macht Konflikte sichtbar, die in einer Flächenangabe vollständig verschwinden."],
+        "points": ["Raumschnitt zeichnen", "Montagehöhe ergänzen", "Tür und Sitzhöhe prüfen"]
+      }
+    },
+    "sauna-im-badezimmer": {
+      "hero": "summary",
+      "sections": "cards",
+      "insight_style": "matrix",
+      "flow": ["sections", "insight", "sources", "checks"],
+      "insight": {
+        "kicker": "Nassraum",
+        "title": "Spritzwasserzone und Saunastandort werden getrennt beurteilt.",
+        "copy": ["Ein Badezimmer ist nicht automatisch ein geeigneter Saunaaufstellraum. Elektrische Schutzbereiche, Lüftung, Bodenaufbau und die Freigaben des Modells müssen gemeinsam betrachtet werden.", "Die Nähe zur Dusche kann praktisch sein, darf aber keine Abstände oder Installationsanforderungen verdrängen. Maßgeblich sind die konkrete Planung und die Prüfung durch Fachleute."],
+        "points": ["Schutzbereiche bestimmen lassen", "Lüftung nach Nutzung prüfen", "Boden und Abstände dokumentieren"]
+      }
+    },
+    "stromverbrauch-heimsauna": {
+      "hero": "compact",
+      "sections": "timeline",
+      "insight_style": "callout",
+      "flow": ["insight", "sources", "sections", "checks"],
+      "insight": {
+        "kicker": "Rechenweg",
+        "title": "Leistung mal Zeit ist der Start, nicht das Ende der Verbrauchsschätzung.",
+        "copy": ["Der Ofen läuft während einer Sitzung nicht zwingend dauerhaft mit Nennleistung. Aufheizphase, Regelbetrieb, Raumtemperatur, Kabinengröße und Nutzung verändern das Ergebnis.", "Arbeite mit einer transparenten Bandbreite und deinem Stromtarif. Eine einzelne Eurozahl ohne Annahmen wirkt präzise, ist aber für die Planung kaum belastbar."],
+        "points": ["Aufheizen und Halten trennen", "Tarif und Nutzungsdauer offenlegen", "Bandbreite statt Scheingenauigkeit nutzen"]
+      }
+    },
+    "saunagroesse-3-6-kw": {
+      "hero": "question",
+      "sections": "ledger",
+      "insight_style": "matrix",
+      "flow": ["sources", "insight", "sections", "checks"],
+      "insight": {
+        "kicker": "Leistungszuordnung",
+        "title": "3,6 kW wird gegen Volumen und Bauart geprüft, nicht gegen Personenzahl.",
+        "copy": ["Die notwendige Ofenleistung hängt vom Kabinenvolumen und von wärmeabgebenden Flächen ab. Glas, massive Bauteile oder abweichende Konstruktionen können die einfache Kubikmeterbetrachtung verändern.", "Nutze die Herstellerzuordnung des konkreten Ofens und der Kabine. Diese Seite erklärt die Prüfreihenfolge, ersetzt aber keine technische Freigabe."],
+        "points": ["Innenvolumen berechnen", "Sonderflächen berücksichtigen", "Herstellerbereiche abgleichen"]
+      }
+    },
+    "temperatur-3-6-kw-sauna": {
+      "hero": "briefing",
+      "sections": "alternating",
+      "insight_style": "callout",
+      "flow": ["checks", "sections", "insight", "sources"],
+      "insight": {
+        "kicker": "Temperaturerwartung",
+        "title": "Kilowatt allein bestimmen weder Höchsttemperatur noch Aufheizzeit.",
+        "copy": ["Leistung wirkt zusammen mit Volumen, Dämmung, Glasanteil, Lüftung und Ausgangstemperatur. Deshalb lässt sich aus 3,6 kW ohne Systemdaten keine seriöse Temperaturgarantie ableiten.", "Vergleiche die freigegebene Kombination aus Ofen und Kabine und orientiere dich an der Anleitung. Messort und Regelung beeinflussen zusätzlich, welche Temperatur angezeigt wird."],
+        "points": ["System statt Einzelwert betrachten", "Messort der Temperatur beachten", "Aufheizzeit nicht versprechen"]
+      }
+    }
+  }
+}
