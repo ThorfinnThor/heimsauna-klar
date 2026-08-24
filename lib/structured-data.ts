@@ -1,5 +1,5 @@
 import { siteUrl } from "@/lib/site";
-import type { Product } from "@/lib/products";
+import { formatVoltage, type Product } from "@/lib/products";
 
 export type JsonLd = Record<string, unknown>;
 
@@ -112,7 +112,7 @@ export function productJsonLd(product: Product): JsonLd {
     additionalProperty: [
       { "@type": "PropertyValue", name: "Außenmaß", value: `${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm` },
       { "@type": "PropertyValue", name: "Kapazität", value: `bis ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"}` },
-      { "@type": "PropertyValue", name: "Spannung", value: typeof product.power.voltage === "number" ? `${product.power.voltage} V` : product.power.voltage },
+      { "@type": "PropertyValue", name: "Spannung", value: formatVoltage(product.power.voltage) },
       { "@type": "PropertyValue", name: "Wärmeart", value: product.sauna.heater_type },
     ],
     ...(offers.length > 0 ? { offers } : {}),

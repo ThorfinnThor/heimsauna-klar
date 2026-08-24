@@ -56,6 +56,13 @@ function plainText(value) {
     .trim();
 }
 
+function containsInternalSentinel(value) {
+  if (value === "none") return true;
+  if (Array.isArray(value)) return value.some(containsInternalSentinel);
+  if (value && typeof value === "object") return Object.values(value).some(containsInternalSentinel);
+  return false;
+}
+
 for (const { file, route } of publicPages) {
   const html = await readFile(file, "utf8");
   const title = html.match(/<title>(.*?)<\/title>/s)?.[1] ?? "";
@@ -87,7 +94,10 @@ for (const { file, route } of publicPages) {
 
   for (const [index, match] of [...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].entries()) {
     try {
-      JSON.parse(match[1].replaceAll("&quot;", '"'));
+      const structuredData = JSON.parse(match[1].replaceAll("&quot;", '"'));
+      if (containsInternalSentinel(structuredData)) {
+        issues.push(`${route}: JSON-LD block ${index + 1} exposes the internal sentinel "none"`);
+      }
     } catch (error) {
       issues.push(`${route}: invalid JSON-LD block ${index + 1}: ${error.message}`);
     }
