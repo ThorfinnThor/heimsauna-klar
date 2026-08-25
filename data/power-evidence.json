@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-24",
+  "updated_at": "2026-08-25",
   "scope": "data/products.json",
   "method": "Only assign a voltage when the exact manufacturer configuration states it. Do not infer 400 V from heater power alone.",
   "snapshot": {
-    "products": 205,
+    "products": 215,
     "explicit_voltage": {
       "230": 41,
       "400": 0,
       "120": 0
     },
-    "voltage_not_assigned": 164,
-    "no_oven_or_unconfigured": 83,
-    "electric_heater_voltage_unstated": 81
+    "voltage_not_assigned": 174,
+    "no_oven_or_unconfigured": 92,
+    "electric_heater_voltage_unstated": 82
   },
   "assignment_rules": [
     "A 230-V value requires an exact product or configuration page that states 230 V or steckerfertig for that model.",
