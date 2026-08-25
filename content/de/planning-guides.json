@@ -19,9 +19,9 @@
         "points": ["Lichte Höhe an mehreren Stellen messen", "Montagefolge vorab in der Anleitung lesen", "Transportweg bis zum Raum vollständig prüfen"]
       },
       {
-        "title": "Ofen nicht nur nach Grundfläche wählen",
+        "title": "Ofen anhand des Kabinenvolumens auswählen",
         "copy": "Harvia dimensioniert die Leistung nach dem berechneten Saunavolumen und berücksichtigt dabei unter anderem Glas sowie wärmespeichernde Flächen. Nutze daher den Rechner oder die Tabelle des tatsächlich gewählten Ofens; eine pauschale Ableitung aus der Stellfläche reicht nicht.",
-        "points": ["Innenvolumen statt Stellfläche verwenden", "Glas und ungedämmte Flächen berücksichtigen", "Zulässigen Volumenbereich des Ofens abgleichen"]
+        "points": ["Innenvolumen für die Ofenauswahl berechnen", "Glas und ungedämmte Flächen berücksichtigen", "Zulässigen Volumenbereich des Ofens abgleichen"]
       }
     ],
     "checklist": ["Aufstellraum an mehreren Punkten messen", "Modellspezifische Wand- und Deckenabstände notieren", "Türöffnung und Fluchtweg freihalten", "Anlieferungs- und Montageweg prüfen", "Ofenleistung anhand Herstellerunterlagen bestätigen"],
@@ -98,7 +98,7 @@
     "slug": "sauna-kosten",
     "eyebrow": "Planung · Produktpreis und Projektbudget",
     "title": "Was kostet eine Heimsauna?",
-    "accent": "Produktpreis ist nicht Gesamtpreis.",
+    "accent": "Alle Kostenblöcke erfassen.",
     "description": "Aktuelle Heimsauna-Produktpreise aus dem verifizierten Katalog plus die zusätzlichen Kostenblöcke für Lieferung, Aufbau, Fundament und Elektroarbeiten.",
     "updated_at": "2026-08-21",
     "summary": "Unser Katalog zeigt den dokumentierten Produktpreis. Für ein realistisches Projektbudget müssen Lieferung, Montage, Anschluss, Untergrund oder Fundament und notwendiges Zubehör separat geprüft werden.",
@@ -142,7 +142,7 @@
         "points": ["Versorgungsspannung des konkreten Modells notieren", "Ofenleistung und zulässiges Kabinenvolumen vergleichen", "Nicht von einer Steckdose auf die Eignung schließen"]
       },
       {
-        "title": "Kompakt ist nicht automatisch unkompliziert",
+        "title": "Kompakte Kabinen brauchen eine genaue Raumplanung",
         "copy": "Auch ein 230-V-System braucht einen passenden Stromkreis und die Vorgaben des Herstellers. Bei 400-V-Systemen kommen in der Regel Anschluss- und Absicherungsfragen hinzu, die vor dem Kauf mit einem Elektrofachbetrieb geklärt werden sollten.",
         "points": ["Stromkreis und Absicherung vorab prüfen lassen", "Anschlussart aus der Montageanleitung übernehmen", "Elektroarbeiten nicht selbst improvisieren"]
       },
@@ -201,7 +201,7 @@
     "summary": "Der Keller kann ein guter Saunaraum sein, wenn Feuchte, Luftwechsel und Trocknung funktionieren. Vor dem Kauf müssen außerdem Boden, Montageweg, Raumhöhe und der Anschluss des Ofens geklärt werden.",
     "sections": [
       {
-        "title": "Feuchte nicht erst nach dem Aufbau messen",
+        "title": "Feuchte bereits vor dem Aufbau prüfen",
         "copy": "Prüfe Wände, Boden und angrenzende Bauteile auf Feuchte, Geruch und sichtbare Schäden. Eine Sauna darf keine bereits problematische Bausubstanz verdecken; die Ursache muss vor dem Einbau geklärt sein.",
         "points": ["Wände und Boden auf Feuchte prüfen", "Bestehende Schäden dokumentieren", "Bausubstanz vor der Montage fachlich bewerten"]
       },
@@ -227,7 +227,7 @@
     "slug": "sauna-bei-niedriger-deckenhoehe",
     "eyebrow": "Planung · Raumhöhe und Sicherheit",
     "title": "Sauna bei niedriger Deckenhöhe",
-    "accent": "Nicht quetschen, sondern Vorgaben prüfen.",
+    "accent": "Kabinenhöhe und Montagefreiraum prüfen.",
     "description": "Niedrige Deckenhöhe bei einer Heimsauna bewerten: Kabinenhöhe, Montagefreiraum, Ofenabstände, Luftführung und konkrete Herstellergrenzen.",
     "updated_at": "2026-08-21",
     "summary": "Eine niedrige Decke kann die Auswahl einschränken, weil Kabinenhöhe, Montageablauf, Ofenabstände und Luftführung zusammenpassen müssen. Entscheidend ist die Anleitung des konkreten Systems, nicht ein allgemeiner Richtwert.",
@@ -238,7 +238,7 @@
         "points": ["Lichte Raumhöhe an mehreren Stellen messen", "Fertigmaß und Montagefreiraum notieren", "Deckenelemente und Verschraubung einplanen"]
       },
       {
-        "title": "Ofen und Bänke nicht nach Gefühl platzieren",
+        "title": "Ofen und Bänke anhand der Planung platzieren",
         "copy": "Bei niedriger Decke müssen Ofenabstände, Fühlerposition und Sitzebenen besonders sorgfältig geprüft werden. Die Anleitung des Ofens legt die zulässige Kombination aus Ofen, Schutzabständen und Raum fest.",
         "points": ["Ofenabstände aus der Anleitung übernehmen", "Fühlerposition und Schutzbereich markieren", "Bänke und Kopfbereich auf Nutzbarkeit prüfen"]
       },
@@ -297,7 +297,7 @@
     "summary": "Für eine einfache Obergrenze gilt: elektrische Leistung in kW × Betriebsdauer in Stunden = Energie in kWh. Der tatsächliche Verbrauch kann niedriger sein, weil die Regelung den Ofen nach dem Aufheizen nicht zwingend dauerhaft mit voller Nennleistung betreibt.",
     "sections": [
       {
-        "title": "kW und kWh nicht verwechseln",
+        "title": "Leistung und Energieverbrauch unterscheiden",
         "copy": "Die kW-Angabe beschreibt die Leistung des Ofens. Multiplizierst du sie mit der Betriebszeit in Stunden, erhältst du eine einfache kWh-Schätzung. Ein 3,6-kW-Ofen über zwei Stunden ergibt damit rechnerisch höchstens 7,2 kWh, wenn er die gesamte Zeit mit voller Nennleistung läuft.",
         "points": ["Ofenleistung in kW aus dem Datenblatt übernehmen", "Aufheiz- und Nutzungszeit getrennt notieren", "kW × Stunden als einfache Obergrenze berechnen"]
       },
@@ -309,7 +309,7 @@
       {
         "title": "Kosten mit dem eigenen Tarif rechnen",
         "copy": "Multipliziere die geschätzten oder gemessenen kWh mit deinem persönlichen Arbeitspreis pro kWh. Eine pauschale nationale Preisannahme wäre für den einzelnen Vertrag ungenau. Für belastbare Werte ist eine geeignete Messung über mehrere typische Nutzungen besser als die reine Nennleistungsrechnung.",
-        "points": ["Eigenen Arbeitspreis statt Durchschnittswert verwenden", "Grundpreis nicht fälschlich je Saunagang ansetzen", "Schätzung später mit geeigneten Messwerten abgleichen"]
+        "points": ["Mit dem eigenen Stromtarif rechnen", "Grundpreis nicht fälschlich je Saunagang ansetzen", "Schätzung später mit geeigneten Messwerten abgleichen"]
       }
     ],
     "checklist": ["Nennleistung von Ofen und Zubehör notieren", "Aufheiz- und Nutzungsdauer realistisch ansetzen", "Einfache kWh-Obergrenze berechnen", "Eigenen Arbeitspreis aus dem Stromvertrag verwenden", "Für genauere Werte mehrere typische Nutzungen messen", "Änderungen an Temperatur oder Lüftung mit dokumentieren"],
@@ -323,7 +323,7 @@
     "slug": "saunagroesse-3-6-kw",
     "eyebrow": "Planung · Ofenleistung und Raumvolumen",
     "title": "Welche Saunagröße passt zu 3,6 kW?",
-    "accent": "Kubikmeter statt Quadratmeter.",
+    "accent": "Kabinenvolumen in Kubikmetern.",
     "description": "3,6-kW-Saunaofen passend dimensionieren: Innenvolumen, Glasflächen, Dämmung und den zugelassenen Volumenbereich des konkreten Modells prüfen.",
     "updated_at": "2026-08-22",
     "summary": "Eine allgemeine Quadratmeter-Regel reicht nicht. Hersteller ordnen einen 3,6-kW-Ofen einem wirksamen Saunavolumen zu und berücksichtigen dabei auch Glas sowie ungedämmte oder wärmespeichernde Flächen.",
@@ -331,7 +331,7 @@
       {
         "title": "Innenvolumen zuerst berechnen",
         "copy": "Miss die Innenmaße der fertigen Kabine und berechne Länge × Breite × Höhe. Die Grundfläche allein lässt die Raumhöhe außer Acht und kann deshalb nicht zuverlässig zeigen, ob 3,6 kW passen.",
-        "points": ["Innenmaße statt Außenmaße verwenden", "Länge × Breite × Höhe in Metern rechnen", "Ergebnis in Kubikmetern dokumentieren"]
+        "points": ["Mit den Innenmaßen rechnen", "Länge × Breite × Höhe in Metern rechnen", "Ergebnis in Kubikmetern dokumentieren"]
       },
       {
         "title": "Wirksames Volumen kann größer sein",
@@ -361,7 +361,7 @@
     "summary": "Aus 3,6 kW lässt sich keine feste Maximal- oder Betriebstemperatur ableiten. Die Leistung muss zum wirksamen Raumvolumen passen; zusätzlich bestimmen Konstruktion, Lüftung, Umgebung, Steuerung und Sensorposition den Heizverlauf.",
     "sections": [
       {
-        "title": "Leistung beschreibt nicht das Temperaturziel",
+        "title": "Leistungsangabe und Temperaturziel getrennt prüfen",
         "copy": "Die 3,6 kW geben die elektrische Nennleistung des Ofens an. Welche Temperatur eingestellt und stabil erreicht werden kann, hängt vom vollständigen System ab. Eine feste Temperaturzusage allein aus der kW-Angabe wäre deshalb nicht belastbar.",
         "points": ["Nennleistung und Temperaturbereich getrennt betrachten", "Steuergerät und Ofen als System prüfen", "Keine Temperaturangabe auf fremde Modelle übertragen"]
       },

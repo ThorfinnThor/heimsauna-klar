@@ -45,6 +45,14 @@ const titles = [];
 const descriptions = [];
 const canonicals = [];
 const productCopy = [];
+const editorialStylePatterns = [
+  { pattern: /Klarheit vor Kaufdruck/i, label: "marketing slogan 'Klarheit vor Kaufdruck'" },
+  { pattern: /Nicht irgendeine Sauna/i, label: "marketing slogan 'Nicht irgendeine Sauna'" },
+  { pattern: /erfundene Rangliste/i, label: "phrase 'erfundene Rangliste'" },
+  { pattern: /Harte Treffer/i, label: "finder phrase 'Harte Treffer'" },
+  { pattern: /Keine harte Übereinstimmung/i, label: "finder phrase 'Keine harte Übereinstimmung'" },
+  { pattern: /\bnicht\b[^.!?]{0,100}\bsondern\b/i, label: "formulaic 'nicht … sondern …' construction" },
+];
 
 function plainText(value) {
   return value
@@ -69,11 +77,15 @@ for (const { file, route } of publicPages) {
   const description = html.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? "";
   const canonical = html.match(/<link rel="canonical" href="([^"]*)"/)?.[1] ?? "";
   const h1Count = (html.match(/<h1(?:\s[^>]*)?>/g) ?? []).length;
+  const pageText = plainText(html);
 
   if (!title) issues.push(`${route}: missing title`);
   if (!description) issues.push(`${route}: missing description`);
   if (!canonical) issues.push(`${route}: missing canonical`);
   if (h1Count !== 1) issues.push(`${route}: expected one h1, found ${h1Count}`);
+  for (const { pattern, label } of editorialStylePatterns) {
+    if (pattern.test(pageText)) issues.push(`${route}: contains ${label}`);
+  }
 
   if (route.startsWith("/de/produkte/") && route !== "/de/produkte/") {
     const fragments = [...html.matchAll(/<p[^>]*data-product-copy="true"[^>]*>(.*?)<\/p>/gs)]

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "lede": "Wir übersetzen Raum, Stromanschluss und Budget in eine belastbare Vorauswahl — bevor Produktversprechen und Preisaktionen die Entscheidung unnötig kompliziert machen."
+    "lede": "Der Sauna-Finder berücksichtigt Raum, Stromanschluss, Budget und gewünschte Wärmeart. Im Katalog kannst du anschließend technische Daten und Preise vergleichen."
   },
   "constraints": [
     { "title": "Platz", "copy": "Außenmaß, Höhe und nötige Abstände" },
@@ -9,7 +9,7 @@
   ],
   "principles": [
     { "title": "Daten mit Quelle", "copy": "Maße, Leistung und Preise werden erst veröffentlicht, wenn Herkunft und Prüfdatum dokumentiert sind." },
-    { "title": "Einschränkungen zuerst", "copy": "Wir zeigen nicht nur, wofür ein Modell geeignet ist, sondern ebenso klar, wann es nicht passt." },
+    { "title": "Einsatz und Grenzen", "copy": "Zu jedem Modell nennen wir geeignete Einsatzbereiche und bekannte Einschränkungen." },
     { "title": "Keine erfundenen Tests", "copy": "Herstellerdaten, eigene Messungen und redaktionelle Einschätzungen bleiben sichtbar voneinander getrennt." }
   ]
 }

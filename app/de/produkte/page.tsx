@@ -22,19 +22,19 @@ export default function ProductsPage() {
       <section className="page-hero page-shell">
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Produkte</span></nav>
         <p className="eyebrow">Produktkatalog · Deutschland</p>
-        <h1>Technische Daten,<span>bevor wir bewerten.</span></h1>
-        <p>Jeder veröffentlichte Datensatz nennt seine Quelle, das letzte Prüfdatum und ob ein Produkt tatsächlich getestet wurde.</p>
+        <h1>Sauna-Produkte<span>im Vergleich.</span></h1>
+        <p>Zu jedem veröffentlichten Produkt findest du Quelle, Prüfdatum, Maße, Anschlussdaten und den aktuellen Teststatus.</p>
         <Link className="text-link" href="/de/planung/">Vorher Platz, Lüftung, Boden und Budget klären ↗</Link>
         <div className="catalog-metrics">
           <span><strong>{products.length}</strong> verifizierte Datensätze</span>
           <span><strong>0</strong> bezahlte Platzierungen</span>
-          <span><strong>0</strong> behauptete Tests ohne Test</span>
+          <span><strong>0</strong> eigene Produkttests</span>
         </div>
       </section>
 
       <section className="collection-index page-shell" aria-labelledby="collection-index-title">
         <div className="collection-index-head">
-          <div><p className="eyebrow">Vorauswahlen nach echten Grenzen</p><h2 id="collection-index-title">Nicht „die Besten“ — sondern die, die passen könnten.</h2></div>
+          <div><p className="eyebrow">Gefilterte Übersichten</p><h2 id="collection-index-title">Vergleiche nach Platz, Personenzahl und Preis.</h2></div>
           <p>Diese Seiten filtern den Katalog nach messbaren Kriterien wie Stellfläche, Personenzahl, Aufstellort oder Preis.</p>
         </div>
         <div className="collection-index-grid">

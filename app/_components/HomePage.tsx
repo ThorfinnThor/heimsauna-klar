@@ -21,8 +21,8 @@ export function HomePage() {
         <div className="hero-copy">
           <p className="eyebrow">Unabhängig planen · technisch passend kaufen</p>
           <h1 id="hero-title">
-            Nicht irgendeine Sauna.
-            <span>Die, die bei dir wirklich passt.</span>
+            Welche Sauna passt
+            <span>zu deinem Zuhause?</span>
           </h1>
           <p className="hero-lede">{home.hero.lede}</p>
           <div className="hero-actions">
@@ -62,7 +62,7 @@ export function HomePage() {
         <div className="catalog-preview-head">
           <div>
             <p className="eyebrow">Auswahl verifizierter Datensätze</p>
-            <h2 id="catalog-title">Produkte, ohne erfundene Rangliste.</h2>
+            <h2 id="catalog-title">Saunen mit nachvollziehbaren Produktdaten.</h2>
           </div>
           <Link className="text-link" href="/de/produkte/">Zum Produktkatalog <span aria-hidden="true">↗</span></Link>
         </div>
@@ -91,11 +91,11 @@ export function HomePage() {
 
       <section className="finder-section" id="finder" aria-labelledby="finder-title">
         <div className="section-heading">
-          <p className="eyebrow">Sauna-Finder · statisch aus dem Produktkatalog</p>
-          <h2 id="finder-title">Sechs Angaben. Konkrete Kandidaten.</h2>
-          <p>Standort, Personenzahl, reine Produktfläche, Anschluss, Budget und Wärmeart werden auf alle {products.length} verifizierten Datensätze angewendet. „Noch offen“ oder „Egal“ setzt bewusst keinen Filter.</p>
+          <p className="eyebrow">Sauna-Finder</p>
+          <h2 id="finder-title">Produkte nach deinen Angaben filtern.</h2>
+          <p>Wähle Standort, Personenzahl, Produktfläche, Anschluss, Budget und Wärmeart. Nach dem Klick auf „Suchen“ öffnet sich der Produktkatalog mit den passenden Datensätzen.</p>
         </div>
-        <SaunaFinder archetypes={archetypes} products={products} />
+        <SaunaFinder />
       </section>
 
       <section className="comparison-section" id="vergleich" aria-labelledby="comparison-title">
@@ -117,7 +117,6 @@ export function HomePage() {
                 <div><dt>Strom</dt><dd>{item.power}</dd></div>
                 <div><dt>Ideal für</dt><dd>{item.idealFor}</dd></div>
               </dl>
-              <span className="type-status">{item.status}</span>
             </article>
           ))}
         </div>
@@ -125,8 +124,8 @@ export function HomePage() {
 
       <section className="principles" id="prinzipien" aria-labelledby="principles-title">
         <div>
-          <p className="eyebrow eyebrow-light">Unser redaktioneller Standard</p>
-          <h2 id="principles-title">Klarheit vor Kaufdruck.</h2>
+          <p className="eyebrow eyebrow-light">Prüfung der Angaben</p>
+          <h2 id="principles-title">So prüfen wir Produktdaten.</h2>
         </div>
         <ol>
           {home.principles.map((item, index) => (

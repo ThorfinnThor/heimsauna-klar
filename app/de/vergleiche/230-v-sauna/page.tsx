@@ -31,7 +31,7 @@ export default function ComparisonPage() {
           </nav>
           <p className="eyebrow">Datenvergleich · Stand {latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</p>
           <h1>230 V vergleichen,<span>ohne Äpfel mit Saunen zu mischen.</span></h1>
-          <p>Diese Seite vergleicht nur Felder, die wir an einer Herstellerquelle nachvollziehen können. Sie ist keine bezahlte Rangliste und kein eigener Produkttest.</p>
+          <p>Diese Seite vergleicht belegte Herstellerangaben zu Anschluss, Leistung, Abmessungen und Preisstand. Eigene Produkttests liegen nicht vor.</p>
           <div className="guide-path-links" aria-label="Vergleich vorbereiten"><Link className="button button-primary" href="/de/saunatechnik/230-v-sauna/">230 V verstehen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf prüfen ↗</Link></div>
         </header>
 
@@ -57,12 +57,12 @@ export default function ComparisonPage() {
         </section>
 
         <section className="comparison-method page-shell">
-          <div><p className="eyebrow">Einordnung</p><h2>Was diese Tabelle nicht behauptet.</h2></div>
+          <div><p className="eyebrow">Einordnung</p><h2>Grenzen der Vergleichsdaten.</h2></div>
           <div>
             <ul>
-              <li>Keine Aussage über reale Aufheizzeit oder Komfort — dafür fehlt ein eigener Test.</li>
-              <li>Keine pauschale Aussage, dass 230 V für jeden Raum oder Stromkreis geeignet ist.</li>
-              <li>Kein Ranking nach Provision: Die aktuellen Links sind nicht affiliiert.</li>
+              <li>Aufheizzeit und Komfort wurden bisher nicht selbst getestet.</li>
+              <li>Die Eignung von 230 V hängt vom konkreten Gerät, Raum und Stromkreis ab.</li>
+              <li>Die aktuellen Händlerlinks sind nicht affiliiert; Provisionen beeinflussen die Sortierung nicht.</li>
             </ul>
             <p className="safety-box"><strong>Elektrik:</strong> Herstelleranleitung, Stromkreis und örtliche Bedingungen prüfen. Arbeiten an Netzspannung gehören in die Hände einer Elektrofachkraft.</p>
             <div className="collection-planning">

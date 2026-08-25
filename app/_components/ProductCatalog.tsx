@@ -1,15 +1,65 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
-import type { Product } from "@/lib/products";
-import { formatPower, formatPrice, formatVoltage, getLowestOffer } from "@/lib/products";
+import { useMemo, useState, useSyncExternalStore } from "react";
+import type { FinderFilters, Product } from "@/lib/products";
+import { findProductsForFinder, formatPower, formatPrice, formatVoltage, getLowestOffer } from "@/lib/products";
 
 type CategoryFilter = "all" | "sauna" | "infrared";
 type PlaceFilter = "all" | "indoor" | "outdoor";
 type PowerFilter = "all" | "230" | "not-stated";
 type CapacityFilter = "all" | "1" | "2" | "3-plus";
 type SortOption = "name" | "price" | "footprint" | "capacity";
+
+const finderValues = {
+  place: ["indoor", "outdoor", "mobile"],
+  people: ["1", "2", "4", "flex"],
+  footprint: ["compact", "standard", "open"],
+  power: ["230", "400", "unknown"],
+  budget: ["lean", "mid", "open"],
+  heat: ["traditional", "infrared", "open"],
+} as const;
+
+function readFinderFilters(search: string): FinderFilters | null {
+  const params = new URLSearchParams(search);
+  if (params.get("finder") !== "1") return null;
+
+  const values: Partial<Record<keyof FinderFilters, string>> = {};
+  for (const key of Object.keys(finderValues) as Array<keyof FinderFilters>) {
+    const value = params.get(key);
+    if (!value || !(finderValues[key] as readonly string[]).includes(value)) return null;
+    values[key] = value;
+  }
+  return values as FinderFilters;
+}
+
+function subscribeToLocation(callback: () => void) {
+  window.addEventListener("popstate", callback);
+  window.addEventListener("catalog-location-change", callback);
+  return () => {
+    window.removeEventListener("popstate", callback);
+    window.removeEventListener("catalog-location-change", callback);
+  };
+}
+
+function getLocationSearch() {
+  return window.location.search;
+}
+
+function getServerLocationSearch() {
+  return "";
+}
+
+function finderSelectionLabels(filters: FinderFilters) {
+  return [
+    filters.place === "indoor" ? "Innenraum" : filters.place === "outdoor" ? "Garten" : "Flexibel",
+    filters.people === "flex" ? "Personenzahl offen" : `${filters.people} ${filters.people === "1" ? "Person" : "Personen"}`,
+    filters.footprint === "compact" ? "bis 3 m²" : filters.footprint === "standard" ? "bis 6 m²" : "Fläche offen",
+    filters.power === "unknown" ? "Anschluss unbekannt" : `${filters.power} V`,
+    filters.budget === "lean" ? "bis 2.500 €" : filters.budget === "mid" ? "bis 6.000 €" : "Budget offen",
+    filters.heat === "traditional" ? "Klassische Sauna" : filters.heat === "infrared" ? "Infrarot" : "Wärmeart offen",
+  ];
+}
 
 function matchesCapacity(product: Product, capacity: CapacityFilter) {
   if (capacity === "all") return true;
@@ -24,11 +74,22 @@ export function ProductCatalog({ products }: { products: Product[] }) {
   const [power, setPower] = useState<PowerFilter>("all");
   const [capacity, setCapacity] = useState<CapacityFilter>("all");
   const [sort, setSort] = useState<SortOption>("name");
+  const locationSearch = useSyncExternalStore(subscribeToLocation, getLocationSearch, getServerLocationSearch);
+  const finderFilters = useMemo(() => readFinderFilters(locationSearch), [locationSearch]);
+
+  const finderResult = useMemo(
+    () => finderFilters ? findProductsForFinder(products, finderFilters) : null,
+    [finderFilters, products],
+  );
 
   const visibleProducts = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase("de-DE");
 
-    return products
+    const finderProducts = finderResult
+      ? finderResult.matches.map((match) => match.product)
+      : products;
+
+    return finderProducts
       .filter((product) => {
         const matchesQuery = !normalizedQuery || [
           product.brand,
@@ -59,7 +120,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
 
         return `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`, "de");
       });
-  }, [capacity, category, place, power, products, query, sort]);
+  }, [capacity, category, finderResult, place, power, products, query, sort]);
 
   const familyCounts = useMemo(() => products.reduce((counts, product) => {
     if (!product.family) return counts;
@@ -69,7 +130,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
 
   const saunaProducts = visibleProducts.filter((product) => product.category !== "infrared");
   const infraredProducts = visibleProducts.filter((product) => product.category === "infrared");
-  const hasActiveFilters = query !== "" || category !== "all" || place !== "all" || power !== "all" || capacity !== "all" || sort !== "name";
+  const hasActiveFilters = finderFilters !== null || query !== "" || category !== "all" || place !== "all" || power !== "all" || capacity !== "all" || sort !== "name";
 
   const resetFilters = () => {
     setQuery("");
@@ -78,10 +139,32 @@ export function ProductCatalog({ products }: { products: Product[] }) {
     setPower("all");
     setCapacity("all");
     setSort("name");
+    window.history.replaceState(null, "", "/de/produkte/#catalog-results");
+    window.dispatchEvent(new Event("catalog-location-change"));
   };
 
   return (
-    <section className="catalog-list page-shell" aria-label="Verifizierte Produkte">
+    <section className="catalog-list page-shell" id="catalog-results" aria-label="Verifizierte Produkte">
+      {finderFilters && finderResult ? (
+        <div className="catalog-finder-summary">
+          <div>
+            <p className="result-kicker">Sauna-Finder</p>
+            <h2>{finderResult.matches.length} Treffer</h2>
+            <p>
+              {finderResult.matches.length > 0
+                ? "Diese Produkte entsprechen den ausgewählten Angaben im aktuellen Katalog. Montageabstände und örtliche Anschlussbedingungen müssen zusätzlich geprüft werden."
+                : "Im aktuellen Katalog passt kein Datensatz zu allen Angaben. Ändere die Auswahl oder öffne den vollständigen Katalog."}
+            </p>
+          </div>
+          <div className="catalog-finder-selection" aria-label="Gewählte Kriterien">
+            {finderSelectionLabels(finderFilters).map((label) => <span key={label}>{label}</span>)}
+          </div>
+          <div className="catalog-finder-actions">
+            <Link href="/de/#finder">Auswahl ändern</Link>
+            <button type="button" onClick={resetFilters}>Alle Produkte anzeigen</button>
+          </div>
+        </div>
+      ) : null}
       <div className="catalog-controls">
         <div className="catalog-control catalog-search">
           <label htmlFor="catalog-query">Suchbegriff</label>
@@ -170,7 +253,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
       ) : (
         <div className="catalog-empty">
           <h2>Keine passenden Datensätze</h2>
-          <p>Ändere die Filter oder setze sie zurück. Das Ergebnis ist keine Aussage zur Marktverfügbarkeit.</p>
+          <p>Ändere die Filter oder setze sie zurück, um weitere Produkte anzuzeigen.</p>
           <button type="button" onClick={resetFilters}>Alle Produkte anzeigen</button>
         </div>
       )}

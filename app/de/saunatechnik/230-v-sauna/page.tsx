@@ -85,7 +85,7 @@ export default function GuidePage() {
         </section>
 
         <section className="guide-sources page-shell">
-          <div><p className="eyebrow">Quellen</p><h2>Nachvollziehbar statt pauschal.</h2></div>
+          <div><p className="eyebrow">Quellen</p><h2>Technische Angaben und ihre Herkunft.</h2></div>
           <ol>
             {guide.sources.map((source) => (
               <li key={source.url}><span>{source.publisher}</span><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>

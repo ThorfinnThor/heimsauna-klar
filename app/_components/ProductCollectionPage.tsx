@@ -131,7 +131,7 @@ function CollectionMethod({ collection, latestOfferCheck, planningGuides, varian
 }) {
   return (
     <section className={`collection-method collection-method-${variant} page-shell`} aria-labelledby="collection-method-title" data-page-module="method">
-      <div><p className="eyebrow">Auswahlregel</p><h2 id="collection-method-title">Nachvollziehbar statt „Top 10“.</h2></div>
+      <div><p className="eyebrow">Auswahlregel</p><h2 id="collection-method-title">So entsteht diese Produktauswahl.</h2></div>
       <div>
         <ul>{collection.criteria.map((criterion) => <li key={criterion}>{criterion}</li>)}</ul>
         <p>Stand der Angebotsprüfung: <strong>{latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</strong>. Kein Modell wurde für diese Liste bezahlt oder redaktionell hochgestuft.</p>
@@ -194,7 +194,7 @@ function CollectionResultsLedger({ candidates }: { candidates: Product[] }) {
 function CollectionChecks({ collection }: { collection: Collection }) {
   return (
     <section className="collection-checks page-shell" aria-labelledby="collection-checks-title" data-page-module="checks">
-      <div><p className="eyebrow">Vor dem Kauf</p><h2 id="collection-checks-title">Drei Punkte, die der Datenvergleich nicht ersetzt.</h2></div>
+      <div><p className="eyebrow">Vor dem Kauf</p><h2 id="collection-checks-title">Drei Prüfpunkte für die Planung vor Ort.</h2></div>
       <ol>{collection.checks.map((check, index) => <li key={check}><span>0{index + 1}</span><p>{check}</p></li>)}</ol>
     </section>
   );

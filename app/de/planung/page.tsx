@@ -7,7 +7,7 @@ import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Sauna planen: Platz, Lüftung, Boden und Kosten",
-  description: "Die wichtigsten Planungsschritte vor dem Saunakauf – quellenbasiert, produktspezifisch und ohne pauschale Versprechen.",
+  description: "Die wichtigsten Planungsschritte vor dem Saunakauf – quellenbasiert, produktspezifisch und mit konkreten Prüfpunkten.",
   alternates: { canonical: "/de/planung/" },
 };
 

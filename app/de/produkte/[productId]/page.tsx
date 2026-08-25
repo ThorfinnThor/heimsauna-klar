@@ -176,7 +176,7 @@ export default async function ProductPage({ params }: Props) {
         <section className="source-section page-shell">
           <div>
             <p className="eyebrow">Transparenz</p>
-            <h2>Was wir wissen — und was nicht.</h2>
+            <h2>Datenlage zum Produkt.</h2>
           </div>
           <div>
             <p data-product-copy="true">Die Einordnung zu {product.brand} {product.model} stützt sich auf {product.sources.length === 1 ? "eine geprüfte Produktquelle" : `${product.sources.length} geprüfte Produktquellen`}. Eigene Messwerte zu Aufbau, Innenraum oder Betrieb liegen nicht vor.</p>
@@ -250,7 +250,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
     ];
     return {
       className: "product-frame-heat",
-      kicker: "Wärmeprofil statt Größenranking",
+      kicker: "Wärmeprofil und Abmessungen",
       title: `${product.model}: Wärmeart und Raumbedarf einordnen.`,
       intro: intros[variant],
       detail: `${powerSentence} Bei ${product.model} sollten außerdem Strahlerposition, Regelung und das gewünschte Wärmegefühl mit der Herstellerbeschreibung abgeglichen werden.`,
@@ -259,7 +259,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
   const intros = [
     `${product.model} benötigt rechnerisch ${footprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² Produktfläche und ist für bis zu ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"} ausgewiesen. „${strength}“ ist ein belastbares Merkmal; „${concern}“ muss vor dem Kauf geklärt werden.`,
     `Für ${useCase} kann ${product.model} aufgrund von „${strength}“ interessant sein. Mit ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm gehört die Kabine zur ${footprintLabel} Größenklasse; „${concern}“ bleibt ein Gegenpunkt.`,
-    `${product.brand} dokumentiert für ${product.model} „${strength}“ sowie „${secondStrength}“. Zusammen mit der Kapazität von bis zu ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"} entsteht ein klares Profil, aber keine pauschale Kaufempfehlung.`,
+    `${product.brand} dokumentiert für ${product.model} „${strength}“ sowie „${secondStrength}“. Die Kapazität ist mit bis zu ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"} angegeben. Ob das Modell zum Standort passt, hängt zusätzlich von Raum und Anschluss ab.`,
   ];
   return {
     className: "product-frame-indoor",
@@ -349,18 +349,18 @@ function getFamilyEditorial(product: NonNullable<ReturnType<typeof getProduct>>,
       title: `${family.name}: gleiche Idee, andere Stellfläche.`,
       paragraphs: [
         `Die ${family.name}-Varianten bleiben Infrarotkabinen, unterscheiden sich aber bei ${variantList}. Die rechnerische Produktfläche reicht von ${minFootprint} bis ${maxFootprint} m².`,
-        `Damit ist die Reihe interessant für unterschiedliche Räume, aber nicht für eine pauschale Rangliste. Strahler, Regelung, Zugang und der konkrete Anschluss gehören zum jeweiligen Modell.`,
+        `Die Reihe deckt unterschiedliche Raumgrößen ab. Strahler, Regelung, Zugang und der konkrete Anschluss müssen für jedes Modell einzeln geprüft werden.`,
       ],
       pointsTitle: "Vor der Größenwahl",
       points: ["Innenmaß und Sitzposition aus der Anleitung prüfen", "Wärmeart nicht mit einer Ofensauna gleichsetzen", `Anschlussdaten je Variante abgleichen: ${voltageLabels.join(" / ")}`],
-      callout: "Kompakter innerhalb einer Familie heißt nicht automatisch besser — nur anders nutzbar.",
+      callout: "Vergleiche die Varianten anhand von Raummaß, Sitzposition und Anschluss.",
     };
   }
 
   const rangeCopy = variant % 2 === 0
     ? {
         className: "family-editorial family-editorial-range",
-        kicker: "Familienblick · Varianten statt Sieger",
+        kicker: "Familienblick · Varianten einordnen",
         title: `${family.name} lässt sich über die Ausführung lesen.`,
         paragraphs: [
           `Die Reihe umfasst ${familyProducts.length} dokumentierte Varianten. Sie bewegen sich zwischen ${minFootprint} und ${maxFootprint} m² Produktfläche und sind für bis zu ${maxPeople} Personen ausgewiesen.`,
@@ -368,7 +368,7 @@ function getFamilyEditorial(product: NonNullable<ReturnType<typeof getProduct>>,
         ],
         pointsTitle: "Was sich je Variante ändern kann",
         points: ["Grundriss und Türposition", "Ofen, Steuerung und Leistungsangabe", "Glas, Holz und Lieferumfang"],
-        callout: `Die ${family.name}-Reihe ist eine Auswahl an Konfigurationen, kein Qualitätsranking.`,
+        callout: `Die ${family.name}-Reihe umfasst unterschiedliche Größen und Konfigurationen für verschiedene Einbausituationen.`,
       }
     : {
         className: "family-editorial family-editorial-space",

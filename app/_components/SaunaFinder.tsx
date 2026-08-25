@@ -1,19 +1,8 @@
 "use client";
 
-import Link from "next/link";
-import { useMemo, useState } from "react";
-import { findProductsForFinder, formatPrice, formatVoltage, hasFinderHeatVariant, hasFinderPlaceVariant, hasFinderPowerVariant, type FinderFilters, type FinderRelaxation, type Product } from "@/lib/products";
-
-type Archetype = {
-  id: string;
-  label: string;
-  title: string;
-  summary: string;
-  space: string;
-  power: string;
-  idealFor: string;
-  status: string;
-};
+import { useRouter } from "next/navigation";
+import { type FormEvent, useState } from "react";
+import type { FinderFilters } from "@/lib/products";
 
 type FinderAnswers = FinderFilters;
 
@@ -26,56 +15,29 @@ const initialAnswers: FinderAnswers = {
   heat: "open",
 };
 
-export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[]; products: Product[] }) {
+export function SaunaFinder() {
+  const router = useRouter();
   const [answers, setAnswers] = useState(initialAnswers);
-  const hasIndoorProducts = hasFinderPlaceVariant(products, "indoor");
-  const hasOutdoorProducts = hasFinderPlaceVariant(products, "outdoor");
-  const hasMobileProducts = hasFinderPlaceVariant(products, "mobile");
-  const hasTraditionalProducts = hasFinderHeatVariant(products, answers, "traditional");
-  const hasInfraredProducts = hasFinderHeatVariant(products, answers, "infrared");
-  const has230VoltProducts = hasFinderPowerVariant(products, answers, 230);
-  const has400VoltProducts = hasFinderPowerVariant(products, answers, 400);
-
-  const recommendation = useMemo(() => {
-    if (answers.place === "mobile") return archetypes.find((item) => item.id === "portable");
-    if (answers.place === "outdoor") return archetypes.find((item) => item.id === "outdoor-small");
-    if (answers.heat === "infrared" || (answers.heat === "open" && answers.budget === "lean")) return archetypes.find((item) => item.id === "infrared-compact");
-    return archetypes.find((item) => item.id === "indoor-230v");
-  }, [answers, archetypes]);
-
-  const finderResult = useMemo(() => findProductsForFinder(products, answers), [answers, products]);
 
   const update = <K extends keyof FinderAnswers>(key: K, value: FinderAnswers[K]) => {
-    setAnswers((current) => {
-      const next = { ...current, [key]: value } as FinderAnswers;
-      if (key === "place" && next.heat !== "open" && !hasFinderHeatVariant(products, next, next.heat)) {
-        next.heat = "open";
-      }
-      if ((key === "place" || key === "heat") && next.power !== "unknown") {
-        const voltage = next.power === "230" ? 230 : 400;
-        if (!hasFinderPowerVariant(products, next, voltage)) next.power = "unknown";
-      }
-      return next;
-    });
+    setAnswers((current) => ({ ...current, [key]: value }));
   };
 
-  const applyRelaxation = (relaxation: FinderRelaxation) => {
-    setAnswers((current) => ({ ...current, [relaxation.key]: relaxation.value } as FinderAnswers));
+  const submit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const params = new URLSearchParams({ finder: "1", ...answers });
+    router.push(`/de/produkte/?${params.toString()}#catalog-results`);
   };
 
   return (
-    <div className="finder-card">
+    <form className="finder-card finder-form" onSubmit={submit}>
       <div className="finder-questions">
         <FinderQuestion
           number="01"
           legend="Wo soll die Sauna stehen?"
           name="place"
           value={answers.place}
-          options={[
-            ["indoor", hasIndoorProducts ? "Innenraum" : "Innenraum · noch keine Daten", !hasIndoorProducts],
-            ["outdoor", hasOutdoorProducts ? "Garten" : "Garten · noch keine Daten", !hasOutdoorProducts],
-            ["mobile", hasMobileProducts ? "Flexibel" : "Flexibel · noch keine Daten", !hasMobileProducts],
-          ]}
+          options={[["indoor", "Innenraum"], ["outdoor", "Garten"], ["mobile", "Flexibel"]]}
           onChange={(value) => update("place", value as FinderAnswers["place"])}
         />
         <FinderQuestion
@@ -99,7 +61,7 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
           legend="Welcher Anschluss ist vorhanden?"
           name="power"
           value={answers.power}
-          options={[["230", has230VoltProducts ? "230 V" : "230 V · für diese Auswahl nicht belegt", !has230VoltProducts], ["400", has400VoltProducts ? "400 V" : "400 V · noch keine Daten", !has400VoltProducts], ["unknown", "Unbekannt"]]}
+          options={[["230", "230 V"], ["400", "400 V"], ["unknown", "Unbekannt"]]}
           onChange={(value) => update("power", value as FinderAnswers["power"])}
         />
         <FinderQuestion
@@ -115,62 +77,15 @@ export function SaunaFinder({ archetypes, products }: { archetypes: Archetype[];
           legend="Welche Wärmeart bevorzugst du?"
           name="heat"
           value={answers.heat}
-          options={[
-            ["traditional", hasTraditionalProducts ? "Klassische Sauna" : "Klassische Sauna · für diesen Standort nicht belegt", !hasTraditionalProducts],
-            ["infrared", hasInfraredProducts ? "Infrarot" : "Infrarot · für diesen Standort nicht belegt", !hasInfraredProducts],
-            ["open", "Egal"],
-          ]}
+          options={[["traditional", "Klassische Sauna"], ["infrared", "Infrarot"], ["open", "Egal"]]}
           onChange={(value) => update("heat", value as FinderAnswers["heat"])}
         />
-      </div>
-
-      <div className="finder-result" aria-live="polite" aria-atomic="false">
-        <p className="result-kicker">Datenbasierte Vorauswahl</p>
-        <h3>{recommendation?.title}</h3>
-        <p>{recommendation?.summary}</p>
-        <div className="result-facts">
-          <span><small>Harte Treffer</small>{finderResult.matches.length}</span>
-          <span><small>Geprüfte Basis</small>{products.length} Datensätze</span>
+        <div className="finder-submit-row">
+          <p>Die Ergebnisse öffnen im Produktkatalog. Dort kannst du die Auswahl weiter eingrenzen.</p>
+          <button className="button button-primary" type="submit">Suchen <span aria-hidden="true">↗</span></button>
         </div>
-        <p className="result-caveat">
-          {finderResult.matches.length === 0
-            ? "Für diese Kombination gibt es aktuell keinen harten Treffer im verifizierten Katalog. Das ist eine Datenlücke, keine Aussage zur Marktverfügbarkeit."
-            : answers.power === "unknown"
-              ? "Der Anschluss ist bewusst kein Filter. Die Produktfläche enthält noch keine Montage- und Wandabstände."
-              : "Alle angezeigten Treffer erfüllen den ausgewählten Anschluss laut Datensatz. Die Produktfläche enthält noch keine Montage- und Wandabstände."}
-        </p>
-        {finderResult.featuredMatches.length > 0 ? (
-          <div className="finder-matches">
-            <p>{Math.min(4, finderResult.matches.length)} von {finderResult.matches.length} passenden Datensätzen</p>
-            {finderResult.featuredMatches.map(({ product, reasons }) => (
-              <Link href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
-                <span>
-                  <strong>{product.brand} {product.model}</strong>
-                  <small>{formatVoltage(product.power.voltage)} · {formatPrice(product)}</small>
-                  <span className="finder-match-reasons">{reasons.join(" · ")}</span>
-                </span>
-                <span aria-hidden="true">↗</span>
-              </Link>
-            ))}
-            <Link className="finder-catalog-link" href="/de/produkte/">Gesamten Katalog öffnen <span aria-hidden="true">↗</span></Link>
-          </div>
-        ) : (
-          <div className="finder-empty">
-            <strong>Keine harte Übereinstimmung</strong>
-            <p>Für diese Kombination ist noch kein verifizierter Datensatz im Katalog. Das ist eine Datenlücke, keine Aussage zur Marktverfügbarkeit.</p>
-            {finderResult.relaxations.length > 0 ? (
-              <div className="finder-relaxations" aria-label="Einzelne Filter öffnen">
-                {finderResult.relaxations.map((relaxation) => (
-                  <button type="button" onClick={() => applyRelaxation(relaxation)} key={relaxation.key}>
-                    {relaxation.label} · {relaxation.matchCount} Treffer
-                  </button>
-                ))}
-              </div>
-            ) : null}
-          </div>
-        )}
       </div>
-    </div>
+    </form>
   );
 }
 
@@ -179,21 +94,20 @@ function FinderQuestion({ number, legend, name, value, options, onChange }: {
   legend: string;
   name: string;
   value: string;
-  options: Array<[string, string, boolean?]>;
+  options: Array<[string, string]>;
   onChange: (value: string) => void;
 }) {
   return (
     <fieldset>
       <legend><span>{number}</span>{legend}</legend>
       <div className="segmented-control">
-        {options.map(([optionValue, label, disabled]) => (
-          <label className={disabled ? "finder-option-disabled" : undefined} key={optionValue}>
+        {options.map(([optionValue, label]) => (
+          <label key={optionValue}>
             <input
               type="radio"
               name={name}
               value={optionValue}
               checked={value === optionValue}
-              disabled={disabled}
               onChange={() => onChange(optionValue)}
             />
             <span>{label}</span>
