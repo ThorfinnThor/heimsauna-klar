@@ -43,14 +43,14 @@ export default function AffiliateTransparencyPage() {
         </header>
 
         <section className="planning-hub page-shell" aria-labelledby="affiliate-principles-title">
-          <div className="collection-index-head"><div><p className="eyebrow">Feste Regeln</p><h2 id="affiliate-principles-title">Monetarisierung mit sichtbaren Grenzen.</h2></div><p>Diese Regeln gelten unabhängig von Händler, Netzwerk oder Provisionshöhe.</p></div>
+          <div className="collection-index-head"><div><p className="eyebrow">Feste Regeln</p><h2 id="affiliate-principles-title">Regeln für vergütete Händlerlinks</h2></div><p>Diese Regeln gelten für jeden Händler und jedes Netzwerk.</p></div>
           <div className="planning-hub-grid">
             {affiliate.principles.map((principle, index) => <article className="affiliate-principle" key={principle.title}><small>0{index + 1}</small><h3>{principle.title}</h3><span>{principle.copy}</span></article>)}
           </div>
         </section>
 
         <section className="collection-method page-shell" aria-labelledby="merchant-register-title">
-          <div><p className="eyebrow">Händlerregister</p><h2 id="merchant-register-title">Jede Ziel-Domain ist freigegeben.</h2></div>
+          <div><p className="eyebrow">Händlerregister</p><h2 id="merchant-register-title">Zugelassene Händler und Domains</h2></div>
           <div>
             <ul>{merchantCounts.map(({ merchant, count }) => <li key={merchant.id}><strong>{merchant.name}</strong> · {merchant.kind === "manufacturer" ? "Hersteller/Direktanbieter" : "Affiliate-Advertiser"} · {count} Angebote · {merchant.allowed_hosts.join(", ")} · Affiliate-Status: {merchant.affiliate.status === "active" ? "aktiv" : "inaktiv"}</li>)}</ul>
             <p>Ein abweichender Händlername oder eine nicht registrierte Domain lässt den Datencheck fehlschlagen.</p>
@@ -58,7 +58,7 @@ export default function AffiliateTransparencyPage() {
         </section>
 
         <section className="planning-hub page-shell" aria-labelledby="program-candidates-title">
-          <div className="collection-index-head"><div><p className="eyebrow">Deutschland · noch nicht beantragt</p><h2 id="program-candidates-title">Belegte Partnerprogramm-Kandidaten.</h2></div><p>Konditionen sind Momentaufnahmen. Vor einer Bewerbung werden Programmstatus, Produktsortiment und Bedingungen erneut geprüft.</p></div>
+          <div className="collection-index-head"><div><p className="eyebrow">Deutschland · noch nicht beantragt</p><h2 id="program-candidates-title">Programme für die Bewerbung</h2></div><p>Konditionen sind Momentaufnahmen mit Prüfdatum. Ein Programm wird erst nach Annahme und Produktabgleich aktiviert.</p></div>
           <div className="planning-hub-grid">
             {affiliatePrograms.map((program) => (
               <article className="affiliate-principle" key={program.id}>
@@ -76,7 +76,7 @@ export default function AffiliateTransparencyPage() {
         </section>
 
         <section className="guide-checks page-shell" aria-labelledby="affiliate-gates-title">
-          <div><p className="eyebrow">Aktivierungssperren</p><h2 id="affiliate-gates-title">Erst freischalten, wenn alles stimmt.</h2></div>
+          <div><p className="eyebrow">Aktivierungssperren</p><h2 id="affiliate-gates-title">Voraussetzungen vor der Aktivierung</h2></div>
           <ol>{affiliate.launch_gates.map((gate, index) => <li key={gate}><span>0{index + 1}</span><div><p>{gate}</p></div></li>)}</ol>
         </section>
       </article>

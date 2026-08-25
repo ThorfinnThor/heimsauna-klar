@@ -14,7 +14,12 @@ const pagePresentations = JSON.parse(await readFile(new URL("../content/de/page-
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const powerEvidence = JSON.parse(await readFile(new URL("../data/power-evidence.json", import.meta.url), "utf8"));
 const voltageReviewBatch = JSON.parse(await readFile(new URL("../data/voltage-review-batch.json", import.meta.url), "utf8"));
-const today = new Date().toISOString().slice(0, 10);
+const today = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Europe/Berlin",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+}).format(new Date());
 const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
 
 function assertIsoDate(value, label) {
@@ -108,6 +113,10 @@ for (const program of affiliatePrograms) {
   affiliateProgramIds.add(program.id);
   if (!["candidate", "applied", "approved", "rejected"].includes(program.status)) throw new Error(`${program.id} has an invalid status`);
   if (!(program.cookie_days > 0) || typeof program.direct_linking !== "boolean") throw new Error(`${program.id} has invalid conditions`);
+  if (!Array.isArray(program.tracking_hosts)
+    || !program.tracking_hosts.every((host) => typeof host === "string" && host !== "" && !host.includes("/"))) {
+    throw new Error(`${program.id} has invalid tracking hosts`);
+  }
   if (!Array.isArray(program.advertiser_merchant_ids)) throw new Error(`${program.id} needs advertiser merchant ids`);
   assertHttpsUrl(program.url, `Affiliate program URL for ${program.id}`);
   assertIsoDate(program.checked_at, `Affiliate program check date for ${program.id}`);
@@ -479,6 +488,16 @@ for (const product of products) {
       if (registeredMerchant.affiliate.status !== "active" || program?.status !== "approved") {
         throw new Error(`${product.product_id} enables an affiliate offer without an approved merchant program`);
       }
+      if (offer.affiliate_program_id !== program.id) {
+        throw new Error(`${product.product_id} has an affiliate offer without the active program id`);
+      }
+      assertHttpsUrl(offer.affiliate_url, `Affiliate URL for ${product.product_id}`);
+      const trackingHost = new URL(offer.affiliate_url).hostname.replace(/^www\./, "");
+      if (!program.tracking_hosts.includes(trackingHost)) {
+        throw new Error(`${product.product_id} uses unapproved affiliate tracking host ${trackingHost}`);
+      }
+    } else if (offer.affiliate_url !== undefined || offer.affiliate_program_id !== undefined) {
+      throw new Error(`${product.product_id} has tracking fields on a non-affiliate offer`);
     }
     if (offer.affiliate) affiliateOfferCount += 1;
     const offerKey = `${offer.merchant}|${offer.url}`;
@@ -510,6 +529,17 @@ for (const product of products) {
     throw new Error(`${product.product_id} updated_at predates its latest evidence`);
   }
   productIds.add(product.product_id);
+}
+
+const productsByPrimaryManufacturerUrl = new Map();
+for (const product of products) {
+  const primaryManufacturerSource = product.sources.find((source) => source.type === "manufacturer");
+  if (!primaryManufacturerSource) continue;
+  const existingProduct = productsByPrimaryManufacturerUrl.get(primaryManufacturerSource.url);
+  if (existingProduct) {
+    throw new Error(`Duplicate primary manufacturer source: ${existingProduct} and ${product.product_id}`);
+  }
+  productsByPrimaryManufacturerUrl.set(primaryManufacturerSource.url, product.product_id);
 }
 
 const families = new Map();

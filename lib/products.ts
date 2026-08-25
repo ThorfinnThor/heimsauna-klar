@@ -33,6 +33,8 @@ export type Product = {
       availability: string;
       url: string;
       affiliate: boolean;
+      affiliate_url?: string;
+      affiliate_program_id?: string;
       last_checked: string;
       configuration?: string;
       selection_required?: boolean;

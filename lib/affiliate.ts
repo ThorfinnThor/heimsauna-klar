@@ -21,6 +21,7 @@ export type AffiliateProgram = {
   commission_snapshot: string;
   cookie_days: number;
   direct_linking: boolean;
+  tracking_hosts: string[];
   advertiser_merchant_ids: string[];
   url: string;
   checked_at: string;
@@ -55,4 +56,8 @@ export function getAffiliateStats() {
 
 export function getOfferDisclosure(offer: Product["commercial"]["offers"][number]) {
   return offer.affiliate ? "Affiliate-Link" : "Kein Affiliate-Link";
+}
+
+export function getOfferHref(offer: Product["commercial"]["offers"][number]) {
+  return offer.affiliate && offer.affiliate_url ? offer.affiliate_url : offer.url;
 }

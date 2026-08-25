@@ -42,5 +42,49 @@
       "program_id": null
     },
     "candidate_program_ids": ["adcell-mein-saunashop"]
+  },
+  {
+    "id": "koempf24",
+    "name": "KÖMPF24",
+    "kind": "retailer",
+    "allowed_hosts": ["koempf24.de"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": ["adcell-koempf24"]
+  },
+  {
+    "id": "sauna24",
+    "name": "Sauna24",
+    "kind": "retailer",
+    "allowed_hosts": ["sauna24.de"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": ["adcell-sauna24"]
+  },
+  {
+    "id": "gartenhausplus",
+    "name": "GartenhausPlus.de",
+    "kind": "retailer",
+    "allowed_hosts": ["gartenhausplus.de"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": ["adcell-gartenhausplus"]
+  },
+  {
+    "id": "wellness-point",
+    "name": "Wellness-Point",
+    "kind": "retailer",
+    "allowed_hosts": ["wellness-point.com"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": ["adcell-wellness-point"]
   }
 ]

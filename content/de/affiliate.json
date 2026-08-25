@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-08-22",
+  "updated_at": "2026-08-26",
   "current_status": "inactive",
   "title": "Affiliate-Transparenz",
-  "accent": "Provision darf nie die Auswahlregel verändern.",
-  "description": "So trennt Heimsauna Klar Herstellerquellen, Händlerangebote, Affiliate-Links und redaktionelle Auswahl technisch und sichtbar voneinander.",
+  "accent": "Aktuell sind 0 Affiliate-Links aktiv.",
+  "description": "Herstellerquellen bleiben unverändert. Vergütete Händlerlinks werden erst nach Programmfreigabe und exakter Produktzuordnung ergänzt.",
   "principles": [
     {
-      "title": "Quelle bleibt Quelle",
-      "copy": "Technische Angaben werden weiterhin an Herstellerseite oder Montageanleitung geprüft. Ein vergüteter Händlerlink ersetzt diese Belege nicht."
+      "title": "Herstellerquelle",
+      "copy": "Technische Angaben werden an der Herstellerseite oder Montageanleitung geprüft. Ein vergüteter Händlerlink ersetzt diese Belege nicht."
     },
     {
-      "title": "Provision bleibt ohne Einfluss",
-      "copy": "Produkte werden nach messbaren Kriterien gefiltert. Eine mögliche Vergütung darf weder Aufnahme, Sortierung noch redaktionelle Aussage verändern."
+      "title": "Sortierung",
+      "copy": "Aufnahme, Filter und Sortierung richten sich nach den dokumentierten Produktdaten. Die Höhe einer Provision wird dafür nicht verwendet."
     },
     {
-      "title": "Kennzeichnung direkt am Link",
+      "title": "Kennzeichnung",
       "copy": "Jeder aktive Affiliate-Link wird am konkreten Link als Affiliate-Link bezeichnet und technisch mit sponsored und nofollow gekennzeichnet."
     },
     {
-      "title": "Preis bleibt Momentaufnahme",
+      "title": "Preisstand",
       "copy": "Der ausgewiesene Preis behält sein Prüfdatum. Maßgeblich sind Preis, Verfügbarkeit und Lieferumfang beim Anbieter zum Kaufzeitpunkt."
     }
   ],
@@ -41,9 +41,10 @@
       "commission_snapshot": "4–6 % pro Sale",
       "cookie_days": 60,
       "direct_linking": true,
+      "tracking_hosts": [],
       "advertiser_merchant_ids": ["mein-saunashop"],
       "url": "https://www.adcell.de/partnerprogramme/mein-saunashop",
-      "checked_at": "2026-08-22"
+      "checked_at": "2026-08-26"
     },
     {
       "id": "adcell-koempf24",
@@ -55,9 +56,10 @@
       "commission_snapshot": "2,5–8 % pro Sale, abhängig von Kundentyp und Publishermodell",
       "cookie_days": 30,
       "direct_linking": true,
-      "advertiser_merchant_ids": [],
+      "tracking_hosts": [],
+      "advertiser_merchant_ids": ["koempf24"],
       "url": "https://www.adcell.de/partnerprogramme/11202",
-      "checked_at": "2026-08-21"
+      "checked_at": "2026-08-26"
     },
     {
       "id": "adcell-sauna24",
@@ -69,9 +71,10 @@
       "commission_snapshot": "8 % pro Sale",
       "cookie_days": 90,
       "direct_linking": true,
-      "advertiser_merchant_ids": [],
+      "tracking_hosts": [],
+      "advertiser_merchant_ids": ["sauna24"],
       "url": "https://www.adcell.de/partnerprogramme/sauna24",
-      "checked_at": "2026-08-21"
+      "checked_at": "2026-08-26"
     },
     {
       "id": "adcell-gartenhausplus",
@@ -83,9 +86,10 @@
       "commission_snapshot": "5–10 % pro Sale laut Programmkonditionen",
       "cookie_days": 75,
       "direct_linking": true,
-      "advertiser_merchant_ids": [],
-      "url": "https://www.adcell.de/partnerprogramme/1902?showContact=1",
-      "checked_at": "2026-08-21"
+      "tracking_hosts": [],
+      "advertiser_merchant_ids": ["gartenhausplus"],
+      "url": "https://www.adcell.de/partnerprogramme/1902",
+      "checked_at": "2026-08-26"
     },
     {
       "id": "adcell-wellness-point",
@@ -97,9 +101,10 @@
       "commission_snapshot": "8–12 % pro Sale, laut Programmbeschreibung 10 % auf valide Verkäufe",
       "cookie_days": 60,
       "direct_linking": true,
-      "advertiser_merchant_ids": [],
-      "url": "https://www.adcell.de/partnerprogramme/wellness-point",
-      "checked_at": "2026-08-21"
+      "tracking_hosts": [],
+      "advertiser_merchant_ids": ["wellness-point"],
+      "url": "https://www.adcell.de/partnerprogramme/5351",
+      "checked_at": "2026-08-26"
     }
   ]
 }

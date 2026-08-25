@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22",
+  "updated_at": "2026-08-26",
   "notice": "Arbeitsstand · Name, ladungsfähige Anschrift und Hostinganbieter sind eingetragen. Kontakt-E-Mail und abschließende rechtliche Prüfung fehlen noch; deshalb bleibt die Suchmaschinenindexierung gesperrt.",
   "impressum": {
     "title": "Impressum",
@@ -14,7 +14,7 @@
   },
   "privacy": {
     "title": "Datenschutz",
-    "intro": "Verantwortlicher ist Schayan Yousefian, Erminger Weg 88, 89077 Ulm. Die Kontakt-E-Mail wird vor der Indexierungsfreigabe ergänzt. Der aktuelle Prototyp hat keine Nutzerkonten, Formulare oder personalisierten Empfehlungen.",
+    "intro": "Verantwortlicher ist Schayan Yousefian, Erminger Weg 88, 89077 Ulm. Die Kontakt-E-Mail wird vor der Indexierungsfreigabe ergänzt. Der Sauna-Finder verarbeitet die Auswahl lokal im Browser und sendet keine Angaben an einen Server. Es gibt keine Nutzerkonten oder personalisierten Empfehlungen.",
     "sections": [
       {
         "title": "Hosting bei Cloudflare",

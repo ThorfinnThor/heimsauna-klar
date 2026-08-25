@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
-import { getOfferDisclosure } from "@/lib/affiliate";
+import { getOfferDisclosure, getOfferHref } from "@/lib/affiliate";
 import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
@@ -87,7 +87,7 @@ export default async function ProductPage({ params }: Props) {
                         <span>{formatOfferPrice(offer, product.commercial.currency)} · Stand {formatGermanDate(offer.last_checked)}</span>
                       </div>
                       <a
-                        href={offer.url}
+                        href={getOfferHref(offer)}
                         rel={offer.affiliate ? "sponsored nofollow noreferrer" : "nofollow noreferrer"}
                         target="_blank"
                       >
