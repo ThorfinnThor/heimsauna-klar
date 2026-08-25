@@ -4,15 +4,15 @@
   "scope": "data/products.json",
   "method": "Only assign a voltage when the exact manufacturer configuration states it. Do not infer 400 V from heater power alone.",
   "snapshot": {
-    "products": 235,
+    "products": 240,
     "explicit_voltage": {
-      "230": 61,
+      "230": 62,
       "400": 0,
       "120": 0
     },
-    "voltage_not_assigned": 174,
-    "no_oven_or_unconfigured": 92,
-    "electric_heater_voltage_unstated": 82
+    "voltage_not_assigned": 178,
+    "no_oven_or_unconfigured": 95,
+    "electric_heater_voltage_unstated": 83
   },
   "assignment_rules": [
     "A 230-V value requires an exact product or configuration page that states 230 V or steckerfertig for that model.",
