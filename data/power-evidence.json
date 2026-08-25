@@ -4,9 +4,9 @@
   "scope": "data/products.json",
   "method": "Only assign a voltage when the exact manufacturer configuration states it. Do not infer 400 V from heater power alone.",
   "snapshot": {
-    "products": 225,
+    "products": 235,
     "explicit_voltage": {
-      "230": 51,
+      "230": 61,
       "400": 0,
       "120": 0
     },
