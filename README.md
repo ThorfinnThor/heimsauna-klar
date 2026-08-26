@@ -25,7 +25,7 @@ npm run build
 
 - `content/de/home.json`: German homepage copy
 - `data/sauna-archetypes.json`: type-level finder data
-- `data/products.json`: 342 verified, manufacturer-sourced product records
+- `data/products.json`: 349 verified, manufacturer-sourced product records
 - `data/launch-readiness.json`: machine-readable launch and indexing gates
 - `data/schema/product.schema.json`: product contract
 

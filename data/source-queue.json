@@ -3067,5 +3067,68 @@
     "target_voltage": 400,
     "status": "verified",
     "notes": "Händlerseite nennt für die Saunaöfen 3N AC 400 V; Haus-, Kabinenmaße und 9-kW-Konfiguration am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "morzh-cube-2-4",
+    "manufacturer": "Morzh Deutschland",
+    "url": "https://morzh.de/produkt/cube-fuer-2-4-personen/",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Morzh-Produktseite mit Preis, 2–4 Personen, Maßen und Holzofenbetrieb; am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "morzh-cube-xl",
+    "manufacturer": "Morzh Deutschland",
+    "url": "https://morzh.de/produkt/morzh-cube-xl/",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Morzh-Produktseite mit Preis, bis 4 Personen, Maßen und Holzofenbetrieb; am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "morzh-lux-2-3",
+    "manufacturer": "Morzh Deutschland",
+    "url": "https://morzh.de/produkt/lux-fuer-2-3-personen/",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Morzh-Produktseite mit Preis, 2–3 Personen, Maßen und Holzofenbetrieb; am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "morzh-lux-xl",
+    "manufacturer": "Morzh Deutschland",
+    "url": "https://morzh.de/produkt/morzh-lux-xl/",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Morzh-Produktseite mit Preis, bis 4 Personen, Maßen und Holzofenbetrieb; am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "morzh-max-4-8",
+    "manufacturer": "Morzh Deutschland",
+    "url": "https://morzh.de/produkt/max-fuer-4-8-personen/",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Morzh-Produktseite mit Preis, 4–8 Personen, Maßen und variabler Trennwand; am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "morzh-max-xl-bis-12",
+    "manufacturer": "Morzh Deutschland",
+    "url": "https://morzh.de/produkt/max-xl-bis-12-personen/",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Morzh-Produktseite mit Preis, bis 12 Personen, Maßen und variabler Trennwand; am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "morzh-cube-double",
+    "manufacturer": "Morzh Deutschland",
+    "url": "https://morzh.de/produkt/morz-cube-double/",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Morzh-Produktseite mit Preis, bis 10 Personen, Maßen und Holzofenbetrieb; am 2026-08-26 geprüft."
   }
 ]

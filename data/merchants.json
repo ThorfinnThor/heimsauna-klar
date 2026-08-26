@@ -97,5 +97,16 @@
       "program_id": null
     },
     "candidate_program_ids": []
+  },
+  {
+    "id": "morzh-deutschland",
+    "name": "Morzh Deutschland",
+    "kind": "retailer",
+    "allowed_hosts": ["morzh.de"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": []
   }
 ]
