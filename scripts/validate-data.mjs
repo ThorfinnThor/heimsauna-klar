@@ -531,6 +531,30 @@ for (const product of products) {
   productIds.add(product.product_id);
 }
 
+const verifiedProducts = products.filter((product) => product.status === "verified");
+const finderCoverageChecks = [
+  ["indoor placement", (product) => product.sauna.indoor_outdoor === "indoor"],
+  ["outdoor placement", (product) => product.sauna.indoor_outdoor === "outdoor"],
+  ["mobile placement", (product) => ["portable", "tent"].includes(product.category)],
+  ["one-person capacity", (product) => product.people.max >= 1],
+  ["two-person capacity", (product) => product.people.max >= 2],
+  ["four-person capacity", (product) => product.people.max >= 4],
+  ["compact footprint", (product) => product.dimensions_cm.width * product.dimensions_cm.depth <= 30_000],
+  ["standard footprint", (product) => product.dimensions_cm.width * product.dimensions_cm.depth <= 60_000],
+  ["230-V connection", (product) => product.power.voltage === 230],
+  ["400-V connection", (product) => product.power.voltage === 400],
+  ["lean budget", (product) => product.commercial.offers.some((offer) => offer.price <= 2500)],
+  ["mid budget", (product) => product.commercial.offers.some((offer) => offer.price <= 6000)],
+  ["traditional heat", (product) => product.category !== "infrared"],
+  ["infrared heat", (product) => product.category === "infrared"],
+  ["indoor 400-V combination", (product) => product.sauna.indoor_outdoor === "indoor" && product.power.voltage === 400],
+  ["outdoor 400-V combination", (product) => product.sauna.indoor_outdoor === "outdoor" && product.power.voltage === 400],
+  ["priced mobile combination", (product) => ["portable", "tent"].includes(product.category) && product.commercial.offers.length > 0],
+];
+for (const [label, matcher] of finderCoverageChecks) {
+  if (!verifiedProducts.some(matcher)) throw new Error(`Finder coverage is missing: ${label}`);
+}
+
 const productsByPrimaryManufacturerUrl = new Map();
 for (const product of products) {
   const primaryManufacturerSource = product.sources.find((source) => source.type === "manufacturer");

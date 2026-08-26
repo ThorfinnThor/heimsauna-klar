@@ -551,6 +551,8 @@ footer {
 .catalog-row h3 { margin: 0 0 10px; font-family: Georgia, serif; font-size: 30px; font-weight: 400; }
 .catalog-row > div > p:last-child { margin: 0; color: var(--ink-soft); font-size: 11px; line-height: 1.55; }
 .catalog-row .catalog-family-note { margin: -2px 0 9px; color: var(--clay-dark); font-size: 9px; font-weight: 700; line-height: 1.45; }
+.catalog-row .catalog-finder-difference { margin: 12px 0 0; padding: 10px 12px; background: var(--cream); border-left: 3px solid var(--clay); color: var(--ink-soft); font-size: 10px; line-height: 1.55; }
+.catalog-row .catalog-finder-difference strong { color: var(--ink); }
 .catalog-row dl { margin: 0; }
 .catalog-row dl div { padding: 7px 0; display: grid; grid-template-columns: 80px 1fr; border-bottom: 1px solid var(--line); font-size: 10px; }
 .catalog-row dt { color: var(--ink-soft); }

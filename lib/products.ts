@@ -70,6 +70,10 @@ export type FinderMatch = {
   reasons: string[];
 };
 
+export type FinderAlternative = FinderMatch & {
+  differences: string[];
+};
+
 export type FinderRelaxation = {
   key: "people" | "footprint" | "power" | "budget" | "heat";
   value: FinderFilters["people"] | FinderFilters["footprint"] | FinderFilters["power"] | FinderFilters["budget"] | FinderFilters["heat"];
@@ -80,6 +84,7 @@ export type FinderRelaxation = {
 export type FinderResult = {
   matches: FinderMatch[];
   featuredMatches: FinderMatch[];
+  alternativeMatches: FinderAlternative[];
   relaxations: FinderRelaxation[];
 };
 
@@ -214,8 +219,48 @@ function getMatchReasons(product: Product, filters: FinderFilters, footprintM2: 
   return reasons;
 }
 
-function selectDiverseMatches(matches: FinderMatch[], limit: number) {
-  const selected: FinderMatch[] = [];
+function getAlternativeDifferences(product: Product, filters: FinderFilters, footprintM2: number) {
+  const differences: string[] = [];
+
+  if (filters.heat !== "open") {
+    const isInfrared = product.category === "infrared";
+    if (filters.heat === "infrared" ? !isInfrared : isInfrared) {
+      differences.push(filters.heat === "infrared" ? "klassische Wärme statt Infrarot" : "Infrarot statt klassischer Sauna");
+    }
+  }
+
+  if (filters.people !== "flex" && product.people.max < Number(filters.people)) {
+    differences.push(`bis ${product.people.max} statt ${filters.people} Personen`);
+  }
+
+  if (filters.footprint !== "open" && footprintM2 > footprintLimits[filters.footprint]) {
+    differences.push(`${footprintM2.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² statt bis ${footprintLimits[filters.footprint]} m²`);
+  }
+
+  if (filters.power !== "unknown" && product.power.voltage !== Number(filters.power)) {
+    const actualPower = product.power.voltage === "wood"
+      ? "Holzofen"
+      : product.power.voltage === "none"
+        ? "Anschluss nicht ausgewiesen"
+        : `${product.power.voltage} V`;
+    differences.push(`${actualPower} statt ${filters.power} V`);
+  }
+
+  if (filters.budget !== "open") {
+    const lowestPrice = getLowestPrice(product);
+    const budgetLimit = budgetLimits[filters.budget];
+    if (lowestPrice === null) {
+      differences.push("Preis nicht verfügbar");
+    } else if (lowestPrice > budgetLimit) {
+      differences.push(`${lowestPrice.toLocaleString("de-DE", { style: "currency", currency: product.commercial.currency })} statt bis ${budgetLimit.toLocaleString("de-DE")} €`);
+    }
+  }
+
+  return differences;
+}
+
+function selectDiverseMatches<T extends FinderMatch>(matches: T[], limit: number) {
+  const selected: T[] = [];
   const seenFamilies = new Set<string>();
 
   for (const match of matches) {
@@ -266,9 +311,37 @@ export function findProductsForFinder(productList: Product[], filters: FinderFil
     return matchCount > 0 ? [{ ...relaxation, matchCount }] : [];
   });
 
+  const alternativeMatches = matches.length > 0
+    ? []
+    : selectDiverseMatches(
+      productList
+        .filter((product) => matchesFinderPlace(product, filters))
+        .map((product) => {
+          const footprintM2 = getFootprintM2(product);
+          return {
+            product,
+            footprintM2,
+            reasons: getMatchReasons(product, filters, footprintM2),
+            differences: getAlternativeDifferences(product, filters, footprintM2),
+          };
+        })
+        .sort((a, b) => {
+          if (a.differences.length !== b.differences.length) return a.differences.length - b.differences.length;
+          const requestedCapacity = filters.people === "flex" ? null : Number(filters.people);
+          const capacityGapA = requestedCapacity === null ? 0 : Math.abs(a.product.people.max - requestedCapacity);
+          const capacityGapB = requestedCapacity === null ? 0 : Math.abs(b.product.people.max - requestedCapacity);
+          if (capacityGapA !== capacityGapB) return capacityGapA - capacityGapB;
+          const priceA = getLowestPrice(a.product) ?? Number.POSITIVE_INFINITY;
+          const priceB = getLowestPrice(b.product) ?? Number.POSITIVE_INFINITY;
+          return priceA - priceB || a.footprintM2 - b.footprintM2;
+        }),
+      4,
+    );
+
   return {
     matches,
     featuredMatches: selectDiverseMatches(matches, 4),
+    alternativeMatches,
     relaxations,
   };
 }

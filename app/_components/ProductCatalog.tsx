@@ -6,8 +6,8 @@ import type { FinderFilters, Product } from "@/lib/products";
 import { findProductsForFinder, formatPower, formatPrice, formatVoltage, getLowestOffer } from "@/lib/products";
 
 type CategoryFilter = "all" | "sauna" | "infrared";
-type PlaceFilter = "all" | "indoor" | "outdoor";
-type PowerFilter = "all" | "230" | "not-stated";
+type PlaceFilter = "all" | "indoor" | "outdoor" | "mobile";
+type PowerFilter = "all" | "230" | "400" | "wood" | "not-stated";
 type CapacityFilter = "all" | "1" | "2" | "3-plus";
 type SortOption = "name" | "price" | "footprint" | "capacity";
 
@@ -86,7 +86,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
     const normalizedQuery = query.trim().toLocaleLowerCase("de-DE");
 
     const finderProducts = finderResult
-      ? finderResult.matches.map((match) => match.product)
+      ? (finderResult.matches.length > 0 ? finderResult.matches : finderResult.alternativeMatches).map((match) => match.product)
       : products;
 
     return finderProducts
@@ -101,9 +101,10 @@ export function ProductCatalog({ products }: { products: Product[] }) {
           .some((value) => value.toLocaleLowerCase("de-DE").includes(normalizedQuery));
         const matchesCategory = category === "all"
           || (category === "infrared" ? product.category === "infrared" : product.category !== "infrared");
-        const matchesPlace = place === "all" || product.sauna.indoor_outdoor === place;
+        const matchesPlace = place === "all"
+          || (place === "mobile" ? product.category === "portable" || product.category === "tent" : product.sauna.indoor_outdoor === place);
         const matchesPower = power === "all"
-          || (power === "230" ? product.power.voltage === 230 : product.power.voltage === "none");
+          || (power === "not-stated" ? product.power.voltage === "none" : product.power.voltage === (power === "wood" ? "wood" : Number(power)));
 
         return matchesQuery && matchesCategory && matchesPlace && matchesPower && matchesCapacity(product, capacity);
       })
@@ -128,6 +129,10 @@ export function ProductCatalog({ products }: { products: Product[] }) {
     return counts;
   }, new Map<string, number>()), [products]);
 
+  const finderDifferenceByProduct = useMemo(() => new Map(
+    finderResult?.alternativeMatches.map((match) => [match.product.product_id, match.differences]) ?? [],
+  ), [finderResult]);
+
   const saunaProducts = visibleProducts.filter((product) => product.category !== "infrared");
   const infraredProducts = visibleProducts.filter((product) => product.category === "infrared");
   const hasActiveFilters = finderFilters !== null || query !== "" || category !== "all" || place !== "all" || power !== "all" || capacity !== "all" || sort !== "name";
@@ -149,11 +154,11 @@ export function ProductCatalog({ products }: { products: Product[] }) {
         <div className="catalog-finder-summary">
           <div>
             <p className="result-kicker">Sauna-Finder</p>
-            <h2>{finderResult.matches.length} Treffer</h2>
+            <h2>{finderResult.matches.length > 0 ? `${finderResult.matches.length} Treffer` : "Keine genaue Übereinstimmung"}</h2>
             <p>
               {finderResult.matches.length > 0
                 ? "Diese Produkte entsprechen den ausgewählten Angaben im aktuellen Katalog. Montageabstände und örtliche Anschlussbedingungen müssen zusätzlich geprüft werden."
-                : "Im aktuellen Katalog passt kein Datensatz zu allen Angaben. Ändere die Auswahl oder öffne den vollständigen Katalog."}
+                : `${finderResult.alternativeMatches.length} nächstliegende Datensätze werden mit ihren Abweichungen angezeigt. So bleibt sichtbar, welches Kriterium für eine passende Auswahl geändert werden müsste.`}
             </p>
           </div>
           <div className="catalog-finder-selection" aria-label="Gewählte Kriterien">
@@ -198,6 +203,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
             <option value="all">Innen &amp; außen</option>
             <option value="indoor">Innenraum</option>
             <option value="outdoor">Garten / außen</option>
+            <option value="mobile">Mobil / Zelt</option>
           </select>
         </div>
         <div className="catalog-control">
@@ -209,6 +215,8 @@ export function ProductCatalog({ products }: { products: Product[] }) {
           >
             <option value="all">Alle Anschlussstände</option>
             <option value="230">230 V ausgewiesen</option>
+            <option value="400">400 V ausgewiesen</option>
+            <option value="wood">Holzofen</option>
             <option value="not-stated">Nicht ausgewiesen</option>
           </select>
         </div>
@@ -247,8 +255,8 @@ export function ProductCatalog({ products }: { products: Product[] }) {
 
       {visibleProducts.length > 0 ? (
         <>
-          <ProductGroup id="sauna-bio" title="Sauna & Bio" products={saunaProducts} offset={0} familyCounts={familyCounts} />
-          <ProductGroup id="infrarotkabinen" title="Infrarotkabinen" products={infraredProducts} offset={saunaProducts.length} familyCounts={familyCounts} />
+          <ProductGroup id="sauna-bio" title="Sauna & Bio" products={saunaProducts} offset={0} familyCounts={familyCounts} finderDifferenceByProduct={finderDifferenceByProduct} />
+          <ProductGroup id="infrarotkabinen" title="Infrarotkabinen" products={infraredProducts} offset={saunaProducts.length} familyCounts={familyCounts} finderDifferenceByProduct={finderDifferenceByProduct} />
         </>
       ) : (
         <div className="catalog-empty">
@@ -261,12 +269,13 @@ export function ProductCatalog({ products }: { products: Product[] }) {
   );
 }
 
-function ProductGroup({ id, title, products, offset, familyCounts }: {
+function ProductGroup({ id, title, products, offset, familyCounts, finderDifferenceByProduct }: {
   id: string;
   title: string;
   products: Product[];
   offset: number;
   familyCounts: Map<string, number>;
+  finderDifferenceByProduct: Map<string, string[]>;
 }) {
   if (products.length === 0) return null;
 
@@ -288,6 +297,11 @@ function ProductGroup({ id, title, products, offset, familyCounts }: {
               </p>
             )}
             <p>{product.editorial.disclosure}</p>
+            {finderDifferenceByProduct.get(product.product_id)?.length ? (
+              <p className="catalog-finder-difference">
+                <strong>Abweichung zur Auswahl:</strong> {finderDifferenceByProduct.get(product.product_id)?.join(" · ")}
+              </p>
+            ) : null}
           </div>
           <dl>
             <div><dt>Maße</dt><dd>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</dd></div>
