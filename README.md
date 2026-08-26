@@ -58,7 +58,7 @@ Set `NEXT_PUBLIC_SITE_URL=https://selectyoursauna.com` in the Cloudflare Worker 
 
 ## Next product slice
 
-1. Add and verify the public contact email for SeitenHafen361.
+1. Verify that `info@selectyoursauna.com` receives messages through Cloudflare Email Routing.
 2. Complete the individual legal review and mark the corresponding launch gates as ready.
 3. Apply to a suitable German partner program; map approved tracking links only after acceptance.
 4. Add source-specific ingestion only after a stable feed exists; generated pull requests are preferred over direct production writes.

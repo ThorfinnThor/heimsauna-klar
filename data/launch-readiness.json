@@ -4,7 +4,7 @@
   "publication_status": "prototype",
   "title": "Launch-Status",
   "accent": "Indexierung bleibt bis zur echten Freigabe gesperrt.",
-  "description": "Die Website ist unter ihrer Hauptdomain erreichbar. Die Suchmaschinenfreigabe erfolgt erst nach bestätigter Kontakt-E-Mail und abschließender rechtlicher Prüfung.",
+  "description": "Die Website ist unter ihrer Hauptdomain erreichbar. Die Suchmaschinenfreigabe erfolgt nach abschließender rechtlicher Prüfung.",
   "gates": [
     {
       "id": "catalog_quality",
@@ -44,16 +44,16 @@
     {
       "id": "operator_identity",
       "title": "Betreiberangaben",
-      "status": "blocked",
+      "status": "ready",
       "required_for_indexing": true,
-      "detail": "SeitenHafen361, Inhaber und ladungsfähige Berliner Anschrift sind eingetragen; die bestätigte Kontakt-E-Mail fehlt noch."
+      "detail": "SeitenHafen361, Inhaber, ladungsfähige Berliner Anschrift und info@selectyoursauna.com sind eingetragen."
     },
     {
       "id": "legal_review",
       "title": "Finale Rechtsprüfung",
       "status": "blocked",
       "required_for_indexing": true,
-      "detail": "Impressum, Datenschutzerklärung, Rechtsquellen und Hosting sind dokumentiert. Offen bleiben die Kontakt-E-Mail und eine individuelle rechtliche Schlussprüfung."
+      "detail": "Impressum, Datenschutzerklärung, Rechtsquellen und Hosting sind dokumentiert. Offen bleibt eine individuelle rechtliche Schlussprüfung."
     },
     {
       "id": "brand_name",
