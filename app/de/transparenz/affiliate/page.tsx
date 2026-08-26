@@ -7,7 +7,7 @@ import { affiliatePrograms, getAffiliateStats, getMerchantOfferCounts, merchants
 import { formatGermanDate } from "@/lib/products";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
-const description = "Aktueller Affiliate-Status, Händlerabdeckung, Kennzeichnungsregeln und geprüfte Partnerprogramm-Kandidaten von Heimsauna Klar.";
+const description = "Aktueller Affiliate-Status, Händlerabdeckung, Kennzeichnungsregeln und geprüfte Partnerprogramm-Kandidaten von Select Your Sauna.";
 
 export const metadata: Metadata = {
   title: "Affiliate-Transparenz: Status, Regeln und Partnerprogramme",

@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Sauna-Produkte mit geprüften technischen Daten",
-  description: "Ein wachsender Katalog für Heimsaunen mit Quellen, Prüfdatum und transparentem Teststatus.",
+  description: "Ein wachsender Katalog für Heimsaunen mit Quellen, Prüfdatum und nachvollziehbarer redaktioneller Einordnung.",
   alternates: { canonical: "/de/produkte/" },
 };
 
@@ -23,12 +23,11 @@ export default function ProductsPage() {
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Produkte</span></nav>
         <p className="eyebrow">Produktkatalog · Deutschland</p>
         <h1>Sauna-Produkte<span>im Vergleich.</span></h1>
-        <p>Zu jedem veröffentlichten Produkt findest du Quelle, Prüfdatum, Maße, Anschlussdaten und den aktuellen Teststatus.</p>
+        <p>Zu jedem veröffentlichten Produkt findest du Quelle, Prüfdatum, Maße, Anschlussdaten und die Grundlage unserer Einordnung.</p>
         <Link className="text-link" href="/de/planung/">Vorher Platz, Lüftung, Boden und Budget klären ↗</Link>
         <div className="catalog-metrics">
           <span><strong>{products.length}</strong> verifizierte Datensätze</span>
           <span><strong>0</strong> bezahlte Platzierungen</span>
-          <span><strong>0</strong> eigene Produkttests</span>
         </div>
       </section>
 

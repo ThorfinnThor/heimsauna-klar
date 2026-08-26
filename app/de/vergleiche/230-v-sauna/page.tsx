@@ -31,7 +31,7 @@ export default function ComparisonPage() {
           </nav>
           <p className="eyebrow">Datenvergleich · Stand {latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</p>
           <h1>230 V vergleichen,<span>ohne Äpfel mit Saunen zu mischen.</span></h1>
-          <p>Diese Seite vergleicht belegte Herstellerangaben zu Anschluss, Leistung, Abmessungen und Preisstand. Eigene Produkttests liegen nicht vor.</p>
+          <p>Diese Seite vergleicht belegte Herstellerangaben zu Anschluss, Leistung, Abmessungen und Preisstand. Eigene Nutzung und Montage liegen nicht vor.</p>
           <div className="guide-path-links" aria-label="Vergleich vorbereiten"><Link className="button button-primary" href="/de/saunatechnik/230-v-sauna/">230 V verstehen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf prüfen ↗</Link></div>
         </header>
 
@@ -60,7 +60,7 @@ export default function ComparisonPage() {
           <div><p className="eyebrow">Einordnung</p><h2>Grenzen der Vergleichsdaten.</h2></div>
           <div>
             <ul>
-              <li>Aufheizzeit und Komfort wurden bisher nicht selbst getestet.</li>
+              <li>Aufheizzeit und Komfort lassen sich aus den vorliegenden Quellen nicht belastbar bewerten.</li>
               <li>Die Eignung von 230 V hängt vom konkreten Gerät, Raum und Stromkreis ab.</li>
               <li>Die aktuellen Händlerlinks sind nicht affiliiert; Provisionen beeinflussen die Sortierung nicht.</li>
             </ul>

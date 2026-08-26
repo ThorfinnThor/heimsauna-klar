@@ -374,7 +374,7 @@ for (const source of sourceQueue) {
 
 const archetypeIds = new Set();
 for (const item of archetypes) {
-  for (const key of ["id", "label", "title", "summary", "space", "power", "idealFor", "status"]) {
+  for (const key of ["id", "label", "title", "summary", "space", "power", "idealFor"]) {
     if (typeof item[key] !== "string" || item[key].trim() === "") {
       throw new Error(`Archetype ${item.id ?? "<unknown>"} is missing ${key}`);
     }
@@ -668,7 +668,7 @@ assertIsoDate(voltageGuide.updated_at, "230-V guide updated_at");
 
 const legalText = JSON.stringify(legal);
 assertIsoDate(legal.updated_at, "Legal content updated_at");
-if (!legalText.includes("Schayan Yousefian") || !legalText.includes("Erminger Weg 88") || !legalText.includes("89077 Ulm")) {
+if (!legalText.includes("SeitenHafen361") || !legalText.includes("Schayan Yousefian") || !legalText.includes("Freienwalder Str. 34") || !legalText.includes("13359 Berlin")) {
   throw new Error("Legal content is missing the confirmed operator name or address");
 }
 if (!Array.isArray(legal.references) || legal.references.length < 4) throw new Error("Legal content needs official references");
@@ -680,8 +680,8 @@ for (const reference of legal.references) {
 if (process.env.SITE_INDEXABLE === "true" && blockingLaunchGates.length > 0) {
   throw new Error(`SITE_INDEXABLE cannot be enabled while launch gates are open: ${blockingLaunchGates.map((gate) => gate.id).join(", ")}`);
 }
-if (process.env.SITE_INDEXABLE === "true" && (legalText.includes("[ergänzen]") || legal.notice?.startsWith("Vorab-Entwurf"))) {
-  throw new Error("SITE_INDEXABLE cannot be enabled while the legal pages still contain draft placeholders");
+if (process.env.SITE_INDEXABLE === "true" && !/^\S+@\S+\.\S+$/.test(legal.impressum?.email ?? "")) {
+  throw new Error("SITE_INDEXABLE cannot be enabled without a confirmed legal contact email");
 }
 if (affiliateOfferCount > 0 && legal.affiliate?.intro?.includes("nicht affiliiert")) {
   throw new Error("Affiliate offers are enabled, but the legal disclosure still says that all links are non-affiliate");

@@ -2,7 +2,7 @@ import { readdir, readFile, stat } from "node:fs/promises";
 import path from "node:path";
 
 const outputRoot = path.resolve("out");
-const productionFallbackUrl = "https://heimsauna-klar.shuu9599.workers.dev";
+const productionFallbackUrl = "https://selectyoursauna.com";
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? productionFallbackUrl).replace(/\/$/, "");
 
 async function collectHtmlFiles(directory) {

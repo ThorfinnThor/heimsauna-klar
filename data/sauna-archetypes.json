@@ -6,8 +6,7 @@
     "summary": "Die naheliegende Richtung für kleine Innenräume. Je nach Kabine und Ofen kommen 230 V oder ein fachgerecht geplanter 400-V-Anschluss infrage.",
     "space": "ab ca. 1,5 m²",
     "power": "230 V oder 400 V",
-    "idealFor": "Wohnung, Bad, Keller",
-    "status": "Schwerpunkt zum Launch"
+    "idealFor": "Wohnung, Bad, Keller"
   },
   {
     "id": "infrared-compact",
@@ -16,8 +15,7 @@
     "summary": "Oft die einfachere Option bei knapper Fläche und kleinerem Budget, mit einem anderen Wärmegefühl als eine klassische Sauna.",
     "space": "ab ca. 1,0 m²",
     "power": "meist 230 V",
-    "idealFor": "1 Person, wenig Platz",
-    "status": "Im Datenaufbau"
+    "idealFor": "1 Person, wenig Platz"
   },
   {
     "id": "outdoor-small",
@@ -26,8 +24,7 @@
     "summary": "Mehr Freiheit bei der Größe, dafür müssen Fundament, Wetterschutz, Genehmigung und Zuleitung gemeinsam geplant werden.",
     "space": "ab ca. 4 m²",
     "power": "230/400 V oder Holz",
-    "idealFor": "kleiner Garten",
-    "status": "Sekundärer Cluster"
+    "idealFor": "kleiner Garten"
   },
   {
     "id": "portable",
@@ -36,7 +33,6 @@
     "summary": "Eine flexible Lösung ohne dauerhaften Einbau. Aufbau, Wärmespeicherung und Nutzungskomfort unterscheiden sich deutlich von Kabinen.",
     "space": "variabel",
     "power": "elektrisch oder Holz",
-    "idealFor": "saisonal, mobil",
-    "status": "Sekundärer Cluster"
+    "idealFor": "saisonal, mobil"
   }
 ]

@@ -23,7 +23,7 @@ export function websiteJsonLd(): JsonLd {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${siteUrl}/#website`,
-    name: "Heimsauna Klar",
+    name: "Select Your Sauna",
     url: `${siteUrl}/`,
     inLanguage: "de-DE",
   };

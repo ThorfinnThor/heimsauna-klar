@@ -5,10 +5,9 @@ import legal from "@/content/de/legal.json";
 import { formatGermanDate } from "@/lib/products";
 
 export const metadata: Metadata = {
-  title: "Rechtliches und Transparenz",
-  description: "Vorab-Entwurf für Impressum, Datenschutz sowie Affiliate- und Werbetransparenz.",
+  title: "Impressum und Datenschutz",
+  description: "Impressum, Datenschutzerklärung und Affiliate-Transparenz von Select Your Sauna und SeitenHafen361.",
   alternates: { canonical: "/de/rechtliches/" },
-  robots: { index: false, follow: false },
 };
 
 export default function LegalPage() {
@@ -17,13 +16,20 @@ export default function LegalPage() {
       <SiteHeader />
       <article className="legal-page page-shell">
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Rechtliches</span></nav>
-        <p className="eyebrow">Arbeitsstand · geprüft {formatGermanDate(legal.updated_at)}</p>
-        <h1>Rechtliches,<span>ohne Platzhalter zu verstecken.</span></h1>
-        <p className="legal-intro">{legal.notice} <Link className="text-link" href="/de/transparenz/launch/">Launch- und Indexierungsstatus öffnen ↗</Link></p>
+        <p className="eyebrow">Rechtliches · Stand {formatGermanDate(legal.updated_at)}</p>
+        <h1>Impressum<span>und Datenschutz.</span></h1>
+        <p className="legal-intro">{legal.notice}</p>
 
         <section className="legal-block" id="impressum" aria-labelledby="impressum-title">
           <p className="eyebrow">01</p>
-          <div><h2 id="impressum-title">{legal.impressum.title}</h2><p>{legal.impressum.intro}</p><ul>{legal.impressum.fields.map((field) => <li key={field}>{field}</li>)}</ul></div>
+          <div>
+            <h2 id="impressum-title">{legal.impressum.title}</h2>
+            <p>{legal.impressum.intro}</p>
+            <ul>{legal.impressum.fields.map((field) => <li key={field}>{field}</li>)}</ul>
+            {legal.impressum.email
+              ? <p>E-Mail: <a className="text-link" href={`mailto:${legal.impressum.email}`}>{legal.impressum.email}</a></p>
+              : <p><strong>Kontakt-E-Mail:</strong> wird ergänzt.</p>}
+          </div>
         </section>
 
         <section className="legal-block" id="datenschutz" aria-labelledby="privacy-title">
@@ -38,7 +44,7 @@ export default function LegalPage() {
 
         <section className="legal-block" id="rechtsquellen" aria-labelledby="legal-references-title">
           <p className="eyebrow">04</p>
-          <div><h2 id="legal-references-title">Rechtsquellen</h2><p>Diese offiziellen Quellen strukturieren den Entwurf. Sie ersetzen keine individuelle Rechtsberatung.</p><ul>{legal.references.map((reference) => <li key={reference.url}><a className="text-link" href={reference.url} target="_blank" rel="noreferrer">{reference.title} · geprüft {formatGermanDate(reference.checked_at)} ↗</a></li>)}</ul></div>
+          <div><h2 id="legal-references-title">Rechtsquellen</h2><p>Diese offiziellen Quellen bilden die Grundlage der Angaben. Sie ersetzen keine individuelle Rechtsberatung.</p><ul>{legal.references.map((reference) => <li key={reference.url}><a className="text-link" href={reference.url} target="_blank" rel="noreferrer">{reference.title} · geprüft {formatGermanDate(reference.checked_at)} ↗</a></li>)}</ul></div>
         </section>
       </article>
       <SiteFooter />

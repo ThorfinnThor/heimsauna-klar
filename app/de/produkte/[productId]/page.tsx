@@ -72,7 +72,7 @@ export default async function ProductPage({ params }: Props) {
             <div>
               <p className="eyebrow">{product.brand} · Herstellerdaten geprüft {formatGermanDate(product.updated_at)}</p>
               <h1>{product.model}</h1>
-              <p className="product-lede" data-product-copy="true">Einordnung des {product.brand} {product.model} anhand geprüfter Herstellerdaten; kein eigener Aufbau- oder Praxistest.</p>
+              <p className="product-lede" data-product-copy="true">Einordnung des {product.brand} {product.model} anhand geprüfter Herstellerdaten. Eigener Aufbau und eigene Nutzung liegen nicht vor.</p>
             </div>
             <div className="product-price-card">
               <small>{offers.length > 1 ? `${offers.length} geprüfte Angebote` : "Geprüftes Angebot"}</small>

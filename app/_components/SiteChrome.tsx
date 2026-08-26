@@ -3,10 +3,9 @@ import Link from "next/link";
 export function SiteHeader() {
   return (
     <header className="site-header">
-      <Link className="brand" href="/de/" aria-label="Heimsauna Klar Startseite">
-        <span className="brand-mark" aria-hidden="true">HK</span>
-        <span>Heimsauna Klar</span>
-        <span className="brand-tag">Arbeitstitel</span>
+      <Link className="brand" href="/de/" aria-label="Select Your Sauna Startseite">
+        <span className="brand-mark" aria-hidden="true">SYS</span>
+        <span>Select Your Sauna</span>
       </Link>
       <nav className="nav" aria-label="Hauptnavigation">
         <Link href="/de/#finder">Sauna-Finder</Link>
@@ -23,16 +22,15 @@ export function SiteFooter() {
   return (
     <footer>
       <Link className="brand brand-footer" href="/de/">
-        <span className="brand-mark">HK</span><span>Heimsauna Klar</span>
+        <span className="brand-mark">SYS</span><span>Select Your Sauna</span>
       </Link>
       <p>Eine unabhängige Planungs- und Kaufplattform für private Saunen.</p>
       <div className="footer-links">
         <Link href="/de/rechtliches/#impressum">Impressum</Link>
         <Link href="/de/rechtliches/#datenschutz">Datenschutz</Link>
         <Link href="/de/transparenz/affiliate/">Affiliate</Link>
-        <Link href="/de/transparenz/launch/">Launch-Status</Link>
       </div>
-      <p className="footer-note">Prototyp · Produktdaten und Markenname werden vor Veröffentlichung geprüft.</p>
+      <p className="footer-note">Betreiber: SeitenHafen361 · Inhaber Schayan Yousefian</p>
     </footer>
   );
 }

@@ -7,8 +7,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Heimsauna Klar — die passende Sauna für dein Zuhause",
-    template: "%s | Heimsauna Klar",
+    default: "Select Your Sauna — die passende Sauna für dein Zuhause",
+    template: "%s | Select Your Sauna",
   },
   description:
     "Unabhängige Planungshilfe für Heimsaunen: nach Platz, Stromanschluss, Budget und Nutzungsprofil.",

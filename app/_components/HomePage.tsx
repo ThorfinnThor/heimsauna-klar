@@ -86,7 +86,7 @@ export function HomePage() {
             </article>
           ))}
         </div>
-        <p className="catalog-note">Preise zuletzt {latestOfferCheck ? `am ${formatGermanDate(latestOfferCheck)}` : "noch nicht"} geprüft. Noch keine Affiliate-Links und keine eigenen Produkttests.</p>
+        <p className="catalog-note">Preise zuletzt {latestOfferCheck ? `am ${formatGermanDate(latestOfferCheck)}` : "noch nicht"} geprüft. Produktangaben und redaktionelle Einordnung bleiben getrennt nachvollziehbar.</p>
       </section>
 
       <section className="finder-section" id="finder" aria-labelledby="finder-title">

@@ -1,32 +1,58 @@
 {
   "updated_at": "2026-08-26",
-  "notice": "Arbeitsstand · Name, ladungsfähige Anschrift und Hostinganbieter sind eingetragen. Kontakt-E-Mail und abschließende rechtliche Prüfung fehlen noch; deshalb bleibt die Suchmaschinenindexierung gesperrt.",
+  "notice": "Betreiber dieser Website ist das Einzelunternehmen SeitenHafen361. Die Website dient der unabhängigen Information und dem Vergleich von Saunaprodukten. Eine bestätigte Kontakt-E-Mail wird noch ergänzt; bis dahin bleibt die Suchmaschinenindexierung deaktiviert.",
   "impressum": {
     "title": "Impressum",
-    "intro": "Anbieterkennzeichnung gemäß § 5 Digitale-Dienste-Gesetz (DDG).",
+    "intro": "Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG). SeitenHafen361 ist die Geschäftsbezeichnung des von Schayan Yousefian geführten Einzelunternehmens.",
     "fields": [
-      "Schayan Yousefian",
-      "Erminger Weg 88",
-      "89077 Ulm",
-      "E-Mail: [ergänzen]",
-      "Inhaltlich verantwortlich: Schayan Yousefian, Anschrift wie oben"
-    ]
+      "SeitenHafen361",
+      "Inhaber: Schayan Yousefian",
+      "Freienwalder Str. 34",
+      "13359 Berlin",
+      "Deutschland",
+      "Verantwortlich für journalistisch-redaktionelle Inhalte gemäß § 18 Abs. 2 MStV: Schayan Yousefian, Anschrift wie oben"
+    ],
+    "email": ""
   },
   "privacy": {
-    "title": "Datenschutz",
-    "intro": "Verantwortlicher ist Schayan Yousefian, Erminger Weg 88, 89077 Ulm. Die Kontakt-E-Mail wird vor der Indexierungsfreigabe ergänzt. Der Sauna-Finder verarbeitet die Auswahl lokal im Browser und sendet keine Angaben an einen Server. Es gibt keine Nutzerkonten oder personalisierten Empfehlungen.",
+    "title": "Datenschutzerklärung",
+    "intro": "Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist Schayan Yousefian, SeitenHafen361, Freienwalder Str. 34, 13359 Berlin. Die Kontakt-E-Mail ist im Impressum angegeben, sobald sie bestätigt wurde.",
     "sections": [
       {
-        "title": "Hosting bei Cloudflare",
-        "copy": "Die statische Website wird über Cloudflare Workers bereitgestellt. Bei Seitenaufrufen können technisch erforderliche Verbindungs- und Nutzungsdaten wie IP-Adresse, Zeitstempel, angeforderte Seite sowie Browser- und Geräteinformationen verarbeitet werden. Umfang, Rechtsgrundlage, Speicherdauer und mögliche Drittlandübermittlungen werden vor der Indexierungsfreigabe abschließend geprüft und konkretisiert."
+        "title": "Bereitstellung der Website über Cloudflare",
+        "copy": "Die statische Website wird über Dienste von Cloudflare bereitgestellt. Beim Aufruf können technisch erforderliche Daten verarbeitet werden, insbesondere IP-Adresse, Datum und Uhrzeit, aufgerufene Adresse, übertragene Datenmenge, Referrer sowie Browser- und Systeminformationen. Die Verarbeitung dient der sicheren, schnellen und stabilen Auslieferung sowie der Abwehr missbräuchlicher Zugriffe. Rechtsgrundlage ist Art. 6 Abs. 1 Buchst. f DSGVO; das berechtigte Interesse liegt im sicheren und zuverlässigen Betrieb dieser Website. Empfänger dieser Daten kann Cloudflare als technischer Dienstleister sein."
       },
       {
-        "title": "Kein eigenes Tracking",
-        "copy": "Es sind aktuell keine eigenen Analyse-, Werbe- oder Marketing-Skripte aktiviert. Ein späteres Messsystem wird erst nach Auswahl des Anbieters, Prüfung der Einwilligungsanforderungen und Aktualisierung dieser Erklärung veröffentlicht."
+        "title": "Drittlandverarbeitung",
+        "copy": "Cloudflare ist international tätig. Eine Verarbeitung außerhalb der Europäischen Union oder des Europäischen Wirtschaftsraums kann deshalb nicht ausgeschlossen werden. Cloudflare beschreibt die eingesetzten Übermittlungsmechanismen und Garantien in seinen Datenschutz- und Vertragsunterlagen."
       },
       {
-        "title": "Betroffenenrechte und Kontakt",
-        "copy": "Auskunfts-, Berichtigungs-, Löschungs-, Einschränkungs-, Widerspruchs- und Beschwerdemöglichkeiten werden zusammen mit der Kontakt-E-Mail in der finalen Datenschutzerklärung vollständig beschrieben."
+        "title": "Speicherdauer",
+        "copy": "Technische Protokolldaten werden nur so lange verarbeitet, wie dies für Auslieferung, Sicherheit, Fehleranalyse und die Erfüllung gesetzlicher Pflichten erforderlich ist. Die konkrete Speicherdauer kann von Art und Zweck des jeweiligen Cloudflare-Dienstes sowie den dortigen Kontoeinstellungen abhängen."
+      },
+      {
+        "title": "Sauna-Finder und Produktfilter",
+        "copy": "Auswahlen im Sauna-Finder und in den Produktfiltern werden ausschließlich im Browser verarbeitet. Die Website übermittelt diese Angaben nicht an eine eigene Datenbank und erstellt daraus keine Nutzerprofile. Es gibt keine Nutzerkonten, Kontaktformulare oder personalisierten Empfehlungen."
+      },
+      {
+        "title": "Cookies, Analyse und Marketing",
+        "copy": "Select Your Sauna setzt derzeit keine eigenen Analyse-, Werbe- oder Marketingdienste und keine hierfür bestimmten Cookies ein. Technisch notwendige Vorgänge des Hosting- und Sicherheitsdienstleisters bleiben hiervon unberührt. Falls später Analyse- oder Marketingdienste hinzukommen, wird diese Datenschutzerklärung vor ihrer Aktivierung angepasst und eine erforderliche Einwilligung eingeholt."
+      },
+      {
+        "title": "Externe Produkt- und Quellenlinks",
+        "copy": "Die Website enthält Links zu Herstellern, Händlern, Dokumentationen und Behörden. Erst beim Anklicken wird die jeweilige externe Website aufgerufen. Für die dortige Datenverarbeitung ist der jeweilige Anbieter verantwortlich. Aktuell sind keine Affiliate-Trackinglinks aktiviert."
+      },
+      {
+        "title": "Rechte betroffener Personen",
+        "copy": "Betroffene Personen haben nach Maßgabe der DSGVO insbesondere Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Soweit eine Verarbeitung auf einer Einwilligung beruht, kann diese mit Wirkung für die Zukunft widerrufen werden. Zur Ausübung dieser Rechte kann die im Impressum genannte Kontaktadresse genutzt werden."
+      },
+      {
+        "title": "Beschwerderecht",
+        "copy": "Betroffene Personen können sich gemäß Art. 77 DSGVO bei einer Datenschutzaufsichtsbehörde beschweren. Für den Betreiber ist insbesondere die Berliner Beauftragte für Datenschutz und Informationsfreiheit, Alt-Moabit 59–61, 10555 Berlin, erreichbar."
+      },
+      {
+        "title": "Änderungen dieser Datenschutzerklärung",
+        "copy": "Diese Datenschutzerklärung wird angepasst, wenn sich eingesetzte Dienste, Datenverarbeitungen oder gesetzliche Anforderungen ändern. Maßgeblich ist die auf dieser Seite veröffentlichte Fassung mit dem oben angegebenen Stand."
       }
     ]
   },
@@ -48,22 +74,37 @@
     {
       "title": "§ 5 DDG · Allgemeine Informationspflichten",
       "url": "https://www.gesetze-im-internet.de/ddg/__5.html",
-      "checked_at": "2026-08-21"
+      "checked_at": "2026-08-26"
     },
     {
       "title": "§ 18 Medienstaatsvertrag · Informationspflichten",
       "url": "https://www.gesetze-bayern.de/Content/Document/MStV/true",
-      "checked_at": "2026-08-21"
+      "checked_at": "2026-08-26"
     },
     {
       "title": "Datenschutz-Grundverordnung · Artikel 13",
       "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=de",
-      "checked_at": "2026-08-21"
+      "checked_at": "2026-08-26"
+    },
+    {
+      "title": "Berliner Beauftragte für Datenschutz · Rechte betroffener Personen",
+      "url": "https://www.datenschutz-berlin.de/buergerinnen-und-buerger/rechte/",
+      "checked_at": "2026-08-26"
+    },
+    {
+      "title": "Berliner Beauftragte für Datenschutz · Beschwerde",
+      "url": "https://www.datenschutz-berlin.de/buergerinnen-und-buerger/beschwerde/",
+      "checked_at": "2026-08-26"
     },
     {
       "title": "Cloudflare Privacy Policy",
-      "url": "https://www.cloudflare.com/privacypolicy/",
-      "checked_at": "2026-08-22"
+      "url": "https://www.cloudflare.com/de-de/privacypolicy/",
+      "checked_at": "2026-08-26"
+    },
+    {
+      "title": "Cloudflare Data Processing Addendum",
+      "url": "https://www.cloudflare.com/cloudflare-customer-dpa/",
+      "checked_at": "2026-08-26"
     }
   ]
 }
