@@ -3022,5 +3022,50 @@
     "target_voltage": "none",
     "status": "verified",
     "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "mobiba-mb-10-m3-wabetarnung",
+    "manufacturer": "Mobiba Deutschland",
+    "url": "https://mobibadeutschland.de/zeltsauna-mobiba-mb-10-m3",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Mobiba-Produktseite mit 2–4 Personen, 1,99 × 1,99 × 1,95 m und gelistetem Holzofen; am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "mobiba-mb-103-m3-firmentarnung",
+    "manufacturer": "Mobiba Deutschland",
+    "url": "https://mobibadeutschland.de/mobile-sauna-mobiba-mb-103-m3-firmentarnung",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Mobiba-Produktseite mit 3–4 Personen, 2,81 × 1,99 × 1,99 m und Holzofenbetrieb; am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "mobiba-mb-15-wabetarnung",
+    "manufacturer": "Mobiba Deutschland",
+    "url": "https://mobibadeutschland.de/saunazelt-mobiba-mb-15",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Mobiba-Produktseite mit 3–4 Personen, 2,55 × 2,55 × 2,20 m und Holzofenbetrieb; am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "weka-valida-3-gtf-400v",
+    "manufacturer": "WEKA",
+    "url": "https://www.mein-saunashop.de/weka-sauna-valida-3-537-gtf-gr-3-ohne-saunaofen",
+    "target_category": "indoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Händlerkonfiguration nennt 7,5-kW-Ofenset und 3N AC 400 V; Maße und zwei Liegen am 2026-08-26 geprüft."
+  },
+  {
+    "queue_id": "weka-mikkeli-400v-9kw",
+    "manufacturer": "WEKA",
+    "url": "https://www.mein-saunashop.de/weka-blockbohlen-saunahaus-mikkeli-inkl-elementsauna",
+    "target_category": "outdoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Händlerseite nennt für die Saunaöfen 3N AC 400 V; Haus-, Kabinenmaße und 9-kW-Konfiguration am 2026-08-26 geprüft."
   }
 ]

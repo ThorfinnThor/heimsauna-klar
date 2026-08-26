@@ -28208,5 +28208,370 @@
       }
     ],
     "updated_at": "2026-08-26"
+  },
+  {
+    "product_id": "mobiba-mb-10-m3-wabetarnung",
+    "brand": "Mobiba",
+    "model": "MB-10 M3 · Wabetarnung",
+    "family": null,
+    "category": "tent",
+    "status": "verified",
+    "dimensions_cm": {"width": 199, "depth": 199, "height": 195},
+    "people": {"min": 2, "max": 4, "seats": 4, "lying_places": 0},
+    "power": {
+      "voltage": "wood",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Mobiba führt dieses mobile Saunazelt mit Holzofen; eine elektrische Anschlussleistung ist für die dokumentierte Konfiguration nicht ausgewiesen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Holzofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Gewebe-Saunazelt"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [{
+        "merchant": "Mobiba Deutschland",
+        "price": 520,
+        "availability": "preorder-listed",
+        "url": "https://mobibadeutschland.de/zeltsauna-mobiba-mb-10-m3",
+        "affiliate": false,
+        "last_checked": "2026-08-26"
+      }]
+    },
+    "editorial": {
+      "pros": [
+        "Zeltformat mit 1,99 × 1,99 m Grundmaß und dokumentierter Kapazität von 2 bis 4 Personen.",
+        "Holzofenbetrieb macht das Modell unabhängig von einem festen Elektroanschluss.",
+        "Das geringe Pack- und Aufbaukonzept passt zu wechselnden Einsatzorten."
+      ],
+      "cons": [
+        "Die Quelle nennt keine Liegeplätze und keine elektrische Leistungsaufnahme.",
+        "Als Zelt braucht das Modell einen ebenen, geschützten Stellplatz und sichere Ofenführung.",
+        "Der Produktstand ist als Vorbestellung ausgewiesen; Verfügbarkeit vor Kauf erneut prüfen."
+      ],
+      "ideal_for": [
+        "Mobile Saunanutzung im Garten oder bei Outdoor-Aufenthalten.",
+        "Zwei bis vier Personen, die einen Holzofen bevorzugen.",
+        "Projekte ohne dauerhaft installierte Saunakabine."
+      ],
+      "not_for": [
+        "Innenräume ohne geeignete Abgas- und Brandschutzlösung.",
+        "Käufer, die feste Liegeflächen oder eine schlüsselfertige Kabine erwarten.",
+        "Aufstellorte ohne sicheren, trockenen Untergrund."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung aus den Produktangaben von Mobiba Deutschland; kein eigener Produkttest und keine Montageprüfung."
+    },
+    "sources": [{
+      "type": "manufacturer",
+      "title": "Mobiba Deutschland – offizieller Vertrieb, MB-10 M3 Wabetarnung",
+      "url": "https://mobibadeutschland.de/zeltsauna-mobiba-mb-10-m3",
+      "checked_at": "2026-08-26"
+    }],
+    "updated_at": "2026-08-26"
+  },
+  {
+    "product_id": "mobiba-mb-103-m3-firmentarnung",
+    "brand": "Mobiba",
+    "model": "MB-103 M3 · Firmentarnung",
+    "family": null,
+    "category": "tent",
+    "status": "verified",
+    "dimensions_cm": {"width": 281, "depth": 199, "height": 199},
+    "people": {"min": 3, "max": 4, "seats": 4, "lying_places": 0},
+    "power": {
+      "voltage": "wood",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die mobile MB-103-Konfiguration ist mit Holzofen dokumentiert; eine elektrische Anschlussleistung wird auf der Produktseite nicht angegeben."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Holzofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Gewebe-Saunazelt"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [{
+        "merchant": "Mobiba Deutschland",
+        "price": 965,
+        "availability": "out-of-stock-listed",
+        "url": "https://mobibadeutschland.de/mobile-sauna-mobiba-mb-103-m3-firmentarnung",
+        "affiliate": false,
+        "last_checked": "2026-08-26"
+      }]
+    },
+    "editorial": {
+      "pros": [
+        "Mit 2,81 × 1,99 m bietet das Zelt mehr Längsfläche als kompakte MB-10-Varianten.",
+        "Die Produktseite weist 3 bis 4 Personen und einen Holzofenbetrieb aus.",
+        "Keine feste Elektroinstallation am Einsatzort erforderlich."
+      ],
+      "cons": [
+        "Die Quelle weist keine Liegeplätze und keine elektrische Leistung aus.",
+        "Für Ofen, Abgasführung und Funkenschutz bleibt eine sichere Outdoor-Aufstellung nötig.",
+        "Der gelistete Artikel ist derzeit nicht verfügbar."
+      ],
+      "ideal_for": [
+        "Gruppen bis vier Personen mit mobilem Einsatzplan.",
+        "Grundstücke oder Outdoor-Flächen, an denen eine feste Kabine nicht gewünscht ist.",
+        "Holzofen-Nutzer ohne 230- oder 400-V-Festlegung."
+      ],
+      "not_for": [
+        "Wohnräume oder geschlossene Innenaufstellungen.",
+        "Sofortprojekte mit zugesicherter Lieferbarkeit.",
+        "Standorte ohne ausreichenden Platz für Abspannung und Sicherheitsabstände."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung aus den Produktangaben von Mobiba Deutschland; kein eigener Produkttest und keine Montageprüfung."
+    },
+    "sources": [{
+      "type": "manufacturer",
+      "title": "Mobiba Deutschland – offizieller Vertrieb, MB-103 M3 Firmentarnung",
+      "url": "https://mobibadeutschland.de/mobile-sauna-mobiba-mb-103-m3-firmentarnung",
+      "checked_at": "2026-08-26"
+    }],
+    "updated_at": "2026-08-26"
+  },
+  {
+    "product_id": "mobiba-mb-15-wabetarnung",
+    "brand": "Mobiba",
+    "model": "MB-15 · Wabetarnung",
+    "family": null,
+    "category": "tent",
+    "status": "verified",
+    "dimensions_cm": {"width": 255, "depth": 255, "height": 220},
+    "people": {"min": 3, "max": 4, "seats": 4, "lying_places": 0},
+    "power": {
+      "voltage": "wood",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Das mobile MB-15-Saunazelt wird mit Holzofen geführt; die Produktseite nennt keine elektrische Anschlussleistung."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Holzofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Gewebe-Saunazelt"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [{
+        "merchant": "Mobiba Deutschland",
+        "price": 780,
+        "availability": "out-of-stock-listed",
+        "url": "https://mobibadeutschland.de/saunazelt-mobiba-mb-15",
+        "affiliate": false,
+        "last_checked": "2026-08-26"
+      }]
+    },
+    "editorial": {
+      "pros": [
+        "Quadratisches 2,55 × 2,55 m Zeltmaß und dokumentierte Kapazität bis vier Personen.",
+        "Holzofen statt Elektroanschluss erleichtert wechselnde Einsatzorte.",
+        "Die größere Grundfläche schafft mehr Bewegungsraum als ein kompaktes Einpersonenzelt."
+      ],
+      "cons": [
+        "Keine ausgewiesenen Liegeplätze oder elektrische Leistungsdaten.",
+        "Brandschutz, Abgasführung und sicherer Untergrund müssen vor Ort geplant werden.",
+        "Die Produktseite kennzeichnet das Modell als nicht verfügbar."
+      ],
+      "ideal_for": [
+        "Outdoor-Gruppen bis vier Personen.",
+        "Temporäre Saunaprojekte mit Holzofen.",
+        "Nutzer, die kein festes Saunahaus errichten möchten."
+      ],
+      "not_for": [
+        "Innenaufstellungen ohne geprüfte Abgaslösung.",
+        "Käufer, die eine dauerhaft wetterfeste Kabine erwarten.",
+        "Einsatzorte ohne ausreichende Abspann- und Sicherheitsfläche."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung aus den Produktangaben von Mobiba Deutschland; kein eigener Produkttest und keine Montageprüfung."
+    },
+    "sources": [{
+      "type": "manufacturer",
+      "title": "Mobiba Deutschland – offizieller Vertrieb, MB-15 Wabetarnung",
+      "url": "https://mobibadeutschland.de/saunazelt-mobiba-mb-15",
+      "checked_at": "2026-08-26"
+    }],
+    "updated_at": "2026-08-26"
+  },
+  {
+    "product_id": "weka-valida-3-gtf-400v",
+    "brand": "WEKA",
+    "model": "Valida 3 GTF · 7,5 kW / 400 V",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {"width": 189, "depth": 189, "height": 203.5},
+    "people": {"min": 1, "max": 3, "seats": 3, "lying_places": 2},
+    "power": {
+      "voltage": 400,
+      "kw": 7.5,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Für das ausgewählte 7,5-kW-Ofenset nennt der Händler einen Starkstromanschluss 3N AC 400 V; Anschluss von Ofen und Steuerung ausschließlich durch eine autorisierte Fachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektro-Ofenset",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "Mein-Saunashop",
+        "price": 2510,
+        "availability": "in-stock-listed",
+        "url": "https://www.mein-saunashop.de/weka-sauna-valida-3-537-gtf-gr-3-ohne-saunaofen",
+        "affiliate": false,
+        "last_checked": "2026-08-26",
+        "configuration": "Kabine plus 7,5 kW Saunaofen OS inkl. Steuerung; 3N AC 400 V",
+        "selection_required": true
+      }]
+    },
+    "editorial": {
+      "pros": [
+        "189 × 189 × 203,5 cm Außenmaß und zwei ausgewiesene Liegen.",
+        "Die gewählte 7,5-kW-Konfiguration ist mit 3N AC 400 V dokumentiert.",
+        "Glastür und Fensterelement bringen Tageslicht in die Kabine."
+      ],
+      "cons": [
+        "Die 400-V-Installation darf nicht selbst angeschlossen werden.",
+        "Die Ofenvariante muss im Händlerkonfigurator ausdrücklich ausgewählt werden.",
+        "Die Außenmaße enthalten noch keine Wand- und Montageabstände."
+      ],
+      "ideal_for": [
+        "Innenräume mit vorbereitetem 400-V-Anschluss.",
+        "Ein bis drei Personen mit zwei Liegeflächen.",
+        "Planungen, bei denen Licht durch Fenster und Glastür gewünscht ist."
+      ],
+      "not_for": [
+        "Räume ohne ausreichende Höhe und Luftzirkulationsabstände.",
+        "230-V-Projekte ohne alternative Ofenkonfiguration.",
+        "Montage ohne qualifizierte Elektrofachkraft."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung aus WEKA-Technikunterlagen und der Händlerkonfiguration; kein eigener Produkttest und keine Elektroprüfung."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Mein-Saunashop – WEKA Valida 3 GTF mit Ofenauswahl",
+        "url": "https://www.mein-saunashop.de/weka-sauna-valida-3-537-gtf-gr-3-ohne-saunaofen",
+        "checked_at": "2026-08-26"
+      },
+      {
+        "type": "manual",
+        "title": "WEKA Valida 3 GTF – technische Daten",
+        "url": "https://cdn.koempf24.de/product/311ad9/sauna-537-gt-valida-gr-3-mit-glastuer-td/weka-sauna-valida-gr-3-gtf-technische-daten.pdf",
+        "checked_at": "2026-08-26"
+      }
+    ],
+    "updated_at": "2026-08-26"
+  },
+  {
+    "product_id": "weka-mikkeli-400v-9kw",
+    "brand": "WEKA",
+    "model": "Saunahaus Mikkeli · 9 kW / 400 V",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {"width": 300, "depth": 280, "height": 251},
+    "people": {"min": 1, "max": 2, "seats": 2, "lying_places": 2},
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Die Mikkeli-Produktseite nennt für Saunaöfen einen Starkstromanschluss 3N AC 400 V; der Anschluss von Ofen und Steuerung ist einer zertifizierten Elektrofachkraft vorbehalten."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Elektro-Ofenset",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordisches Holz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "Mein-Saunashop",
+        "price": 3676.78,
+        "availability": "in-stock-listed",
+        "url": "https://www.mein-saunashop.de/weka-blockbohlen-saunahaus-mikkeli-inkl-elementsauna",
+        "affiliate": false,
+        "last_checked": "2026-08-26",
+        "configuration": "Saunahaus mit 9 kW Kompaktofen und integrierter Steuerung; 3N AC 400 V",
+        "selection_required": true
+      }]
+    },
+    "editorial": {
+      "pros": [
+        "Gartenhaus mit 300 × 280 × 251 cm Außenmaß und integrierter Saunakabine.",
+        "Zwei Liegen und ein ausgewiesener 400-V-Anschluss decken die dokumentierte Konfiguration ab.",
+        "Der separate Hauskörper schafft einen geschützten Vorbereich vor der Saunatür."
+      ],
+      "cons": [
+        "Fundament, Anlieferung und Entwässerung sind Teil der Außenplanung.",
+        "Die 400-V-Elektroinstallation gehört in die Hände einer Fachkraft.",
+        "Die Sauna nimmt im Garten deutlich mehr Platz ein als die reine Kabinenfläche."
+      ],
+      "ideal_for": [
+        "Gärten mit Platz für Hauskörper, Fundament und Zugang.",
+        "Ein bis zwei Personen mit zwei Liegeflächen.",
+        "Projekte mit vorhandenem 400-V-Anschluss und Wunsch nach einem eigenen Saunahaus."
+      ],
+      "not_for": [
+        "Kleine Stellflächen ohne zusätzliche Wege- und Wartungsbereiche.",
+        "Aufstellung ohne geklärtes Fundament und LKW-Zugang.",
+        "Eigenständige Elektroinstallation ohne zertifizierte Fachkraft."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung aus der WEKA-/Mein-Saunashop-Produktdokumentation; kein eigener Produkttest, keine Fundament- oder Elektroprüfung."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Mein-Saunashop – WEKA Blockbohlen-Saunahaus Mikkeli",
+        "url": "https://www.mein-saunashop.de/weka-blockbohlen-saunahaus-mikkeli-inkl-elementsauna",
+        "checked_at": "2026-08-26"
+      },
+      {
+        "type": "manual",
+        "title": "WEKA SHG Saunaofen – Anschluss- und Sicherheitshinweise",
+        "url": "https://www.weka-holzbau.com/out/media/productpdf/ma/MA800-0286-02-19.pdf",
+        "checked_at": "2026-08-26"
+      }
+    ],
+    "updated_at": "2026-08-26"
   }
 ]
