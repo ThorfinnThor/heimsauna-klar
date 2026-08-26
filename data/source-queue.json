@@ -404,186 +404,2623 @@
     "status": "verified",
     "notes": "Verified Harvia Ventura Large with exact dimensions, 1–5-person capacity, up to 10.8-kW heater options and current reseller price; final voltage requires confirmation."
   },
-  { "queue_id": "karibu-saunahaus-olbia-66606", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-olbia-ohne-ofen/66606", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Olbia page with exact exterior dimensions, two lying places, four seats and current manufacturer price." },
-  { "queue_id": "karibu-saunahaus-monterey-34032", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-monterey/34032", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Monterey page with exact exterior dimensions, three lying places, five seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-hytti-3-93863m", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-hytti-3/93863M", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Hytti 3 page with exact exterior dimensions, three lying places, five seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-hytti-2-97707", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-hytti-2/97707", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Hytti 2 page with exact exterior dimensions, two lying places, four seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-hytti-1-exclusive-99937", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-hytti-1-exklusive/99937", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Hytti 1 Exclusive page with exact dimensions, 9-kW configuration and current from-price; final voltage requires confirmation." },
-  { "queue_id": "karibu-saunahaus-skrollan-1-86283", "manufacturer": "Karibu", "url": "https://www.karibu.de/Saunahaus-Skrollan-1-mit-Vorraum", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Skrollan 1 page with exact dimensions, two lying places, four seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-cuben-80796", "manufacturer": "Karibu", "url": "https://www.karibu.de/Saunahaus-Cuben-mit-Vorraum", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Cuben page with exact dimensions, three lying places, five seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-ares-1-214", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-ares-1/214", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified exact official Ares 1 article 214 with dimensions, two lying places, four seats, no oven and current from-price." },
-  { "queue_id": "karibu-saunahaus-ares-2-34043", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-ares-2/34043", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified exact official Ares 2 article 34043 with dimensions, two lying places, five seats, no oven and current from-price." },
-  { "queue_id": "karibu-saunahaus-mainburg-2-35976", "manufacturer": "Karibu", "url": "https://www.karibu.de/Mainburg-2", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 2 page with exact dimensions, two lying places, four seats and current from-price." },
-  { "queue_id": "karibu-fasssauna-1-92821m", "manufacturer": "Karibu", "url": "https://www.karibu.de/fasssauna-1/92821M", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasssauna 1 page with exact dimensions, two lying places, two seats and current from-price." },
-  { "queue_id": "karibu-fasssauna-2-92829", "manufacturer": "Karibu", "url": "https://www.karibu.de/fasssauna-2/92822M", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasssauna 2 page with exact dimensions, two lying places, four seats and current from-price." },
-  { "queue_id": "karibu-fasssauna-quadro-1-109m", "manufacturer": "Karibu", "url": "https://www.karibu.de/fasssauna-quadro-1/109M", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Quadro 1 page with exact dimensions, two lying places, two seats and current from-price." },
-  { "queue_id": "karibu-fasssauna-quadro-1-plus-35445m", "manufacturer": "Karibu", "url": "https://www.karibu.de/fasssauna-quadro-1-plus/35445M", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Quadro 1 Plus page with exact dimensions, three lying places, four seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-hygge-86314", "manufacturer": "Karibu", "url": "https://www.karibu.de/Saunahaus-Hygge-mit-Vorraum", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Hygge page with exact dimensions, three lying places, five seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-laguna-196", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-laguna/196", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Laguna page with exact dimensions, three lying places, five seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-miramar-510", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-miramar/510", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Miramar page with exact dimensions, three lying places, five seats and 9-kW configuration; final voltage requires confirmation." },
-  { "queue_id": "karibu-saunahaus-skrollan-2-86299", "manufacturer": "Karibu", "url": "https://www.karibu.de/Saunahaus-Skrollan-2-mit-Vorraum", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Skrollan 2 page with exact dimensions, two lying places, four seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-skrollan-3-86304", "manufacturer": "Karibu", "url": "https://www.karibu.de/Saunahaus-Skrollan-3-mit-Vorraum", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Skrollan 3 page with exact dimensions, three lying places, five seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-mainburg-1-35866", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-mainburg-1/35866", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 1 page with exact dimensions, two lying places, four seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-mainburg-3-36281", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-mainburg-3/36281", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 3 configuration with exact dimensions, 9-kW heater and current from-price; final voltage requires confirmation." },
-  { "queue_id": "karibu-saunahaus-mainburg-4-36295", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-mainburg-4/36295", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 4 page with exact dimensions, two lying places, four seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-mainburg-5-36307", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-mainburg-5/36307", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 5 page with exact dimensions, two lying places, five seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-angkor-2-181", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-angkor-2/181", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Angkor 2 page with exact dimensions, two lying places, five seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-angkor-3-185", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-angkor-3/185", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Angkor 3 configuration with exact dimensions, 9-kW heater and current from-price; final voltage requires confirmation." },
-  { "queue_id": "karibu-saunahaus-ares-4-66789", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-ares-4/66789", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Ares 4 page with exact dimensions, three lying places, five seats and current from-price." },
-  { "queue_id": "karibu-fasssauna-breit-67219m", "manufacturer": "Karibu", "url": "https://www.karibu.de/fasssauna-breit/67219M", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasssauna breit page with exact dimensions, three lying places, five seats and current from-price." },
-  { "queue_id": "karibu-fasssauna-3-92830", "manufacturer": "Karibu", "url": "https://www.karibu.de/fasssauna-3/92830", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasssauna 3 configuration with exact dimensions, 9-kW heater and current from-price; final voltage requires confirmation." },
-  { "queue_id": "karibu-fasshaus-3-27454", "manufacturer": "Karibu", "url": "https://www.karibu.de/fasshaus-3/27454", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasshaus 3 page with exact dimensions, three lying places, five seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-delano-66702", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-delano/66702", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Delano page with exact dimensions, three lying places, five seats and current from-price." },
-  { "queue_id": "karibu-saunahaus-laguna-198", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-laguna/198", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Laguna 9-kW Finnish configuration." },
-  { "queue_id": "karibu-saunahaus-laguna-199", "manufacturer": "Karibu", "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=199", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Laguna 9-kW Bio product document." },
-  { "queue_id": "karibu-saunahaus-laguna-27908-huum", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-laguna-ofen-und-huum-wifi-steuergeraet/27908", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Laguna HUUM WIFI configuration." },
-  { "queue_id": "karibu-saunahaus-delano-66708", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-delano/66708", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Delano 9-kW Bio configuration." },
-  { "queue_id": "karibu-saunahaus-delano-66710", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-delano/66710", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Delano 9-kW Bio anthracite configuration." },
-  { "queue_id": "karibu-saunahaus-monterey-douglasie-70710", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-monterey-douglasie/70710", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Monterey Douglasie configuration with 11-kW heater." },
-  { "queue_id": "karibu-fasssauna-1-5-66613m", "manufacturer": "Karibu", "url": "https://www.karibu.de/fasssauna-1-5/66613M", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasssauna 1.5 page." },
-  { "queue_id": "karibu-fasssauna-quadro-2-66638", "manufacturer": "Karibu", "url": "https://www.karibu.de/ch/fasssauna-quadro-2/66638", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Quadro 2 configuration with 9-kW Bio heater." },
-  { "queue_id": "karibu-saunahaus-olbia-66607", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-olbia-inkl.-9kw-ofen-finnisch-und-steuerung-easy/66607", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Olbia 9-kW Finnish configuration." },
-  { "queue_id": "karibu-saunahaus-olbia-66608", "manufacturer": "Karibu", "url": "https://en.karibu.de/saunahaus-olbia-inkl.-9kw-bio-ofen-und-steuerung-easy/66608", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Olbia 9-kW Bio configuration." },
-  { "queue_id": "karibu-saunahaus-mainburg-4-36293", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-mainburg-4/36293", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 4 9-kW Finnish configuration." },
-  { "queue_id": "karibu-saunahaus-mainburg-4-36297", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-mainburg-4/36297", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 4 9-kW Bio configuration." },
-  { "queue_id": "karibu-saunahaus-mainburg-5-36302", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-mainburg-5/36302", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 5 9-kW Finnish configuration." },
-  { "queue_id": "karibu-saunahaus-mainburg-5-36306", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-mainburg-5/36306", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 5 9-kW Bio configuration." },
-  { "queue_id": "karibu-fasshaus-2-27450", "manufacturer": "Karibu", "url": "https://www.karibu.de/fasshaus-2/27450", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasshaus 2 page with exact dimensions and current from-price." },
-  { "queue_id": "karibu-fasshaus-2-27451", "manufacturer": "Karibu", "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=27451", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasshaus 2 Finnish product document." },
-  { "queue_id": "karibu-fasshaus-2-27452", "manufacturer": "Karibu", "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=27452", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasshaus 2 Bio product document." },
-  { "queue_id": "karibu-fasshaus-3-1128", "manufacturer": "Karibu", "url": "https://www.karibu.de/fasshaus-fasssauna-3-aktionsset-huum-wifi-steuergeraet-sparset/1128", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasshaus 3 HUUM WiFi action set." },
-  { "queue_id": "karibu-saunahaus-ares-1-anbaudach-65875m", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-ares-1-mit-2-70-m-anbaudach/65875M", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Ares 1 with 2.70 m canopy." },
-  { "queue_id": "karibu-saunahaus-ares-1-anbaudach-65879", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-ares-1-mit-2-70-m-anbaudach/65879", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Ares 1 canopy WiFi configuration." },
-  { "queue_id": "karibu-saunahaus-ares-2-anbaudach-65922", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-ares-2-mit-2-70-m-anbaudach/65922", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Ares 2 with 2.70 m canopy." },
-  { "queue_id": "karibu-saunahaus-ares-2-anbaudach-65933", "manufacturer": "Karibu", "url": "https://www.karibu.de/saunahaus-ares-2-mit-2-70-m-anbaudach/65933", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Ares 2 Bio WiFi canopy configuration." },
-  { "queue_id": "karibu-saunahaus-mainburg-4-36294", "manufacturer": "Karibu", "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=36294", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 4 Bio product document." },
-  { "queue_id": "karibu-saunahaus-mainburg-4-36296", "manufacturer": "Karibu", "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=36296", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 4 Finnish product document." },
-  { "queue_id": "karibu-saunahaus-mainburg-5-36309", "manufacturer": "Karibu", "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=36309", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Mainburg 5 Bio product document." },
-  { "queue_id": "karibu-saunahaus-angkor-2-182", "manufacturer": "Karibu", "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=182", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Angkor 2 9-kW product document." },
-  { "queue_id": "karibu-fasssauna-breit-67221", "manufacturer": "Karibu", "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=67221", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Fasssauna breit Bio product document." },
-  { "queue_id": "karibu-saunahaus-angkor-3-186", "manufacturer": "Karibu", "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=186", "target_category": "outdoor", "target_voltage": "none", "status": "verified", "notes": "Verified official Angkor 3 Bio product document." },
-  {"queue_id":"karibu-28107","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-marla-4-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28107","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28105","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-marla-2-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28105","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28106","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-marla-3-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28106","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28104","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-marla-1-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28104","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-alcinda","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Alcinda","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28090","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-hannah-4-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28090","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28100","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-mila-7-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-ainur","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Ainur","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28088","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-hannah-2-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28088","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28092","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-hannah-5-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28092","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-amara","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Amara","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-sinai-3","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Sinai-3","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-askja","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Askja","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28089","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-hannah-3-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28089","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-34283m","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-airi/34283M","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28099","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-mila-6-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28099","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28098","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-mila-5-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28098","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-sahib-2","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Sahib-2","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28097","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-mila-4-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28097","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28096","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-mila-3-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28096","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-tanami","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Tanami","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28095","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-mila-2-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28095","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-66609m","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-avari-4/66609M","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-sonara","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Sonara","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-malin","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Malin","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28094","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-mila-1-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28094","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-amelia-3","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Amelia-3","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-gobin","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Gobin","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-28087","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-hannah-1-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28087","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-mojave","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Mojave","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-fiona-3","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Fiona-3","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-jarin","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Jarin","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-66736m","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-gateway/66736M","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-arvika","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Arvika","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-sahib-1","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Sahib-1","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-88m","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-irava-3/88M","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-horna","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Horna","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-rodin","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Rodin","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-67329m","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-nome/67329M","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-93461","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-kalle-7/93461","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-93462","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-kalle-8/93462","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-nybro","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Nybro","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-lilja","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Lilja","target_category":"indoor","target_voltage":230,"status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-siirin","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Siirin","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-sauna-amelia-1","manufacturer":"Karibu","url":"https://www.karibu.de/Sauna-Amelia-1","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"karibu-93459","manufacturer":"Karibu","url":"https://www.karibu.de/sauna-kalle-5/93459","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."},
-  {"queue_id":"harvia-kammi-barrel-large","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/KAMMI-BAR-220/kammi-barrel-large","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current shop-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-kammi-cube-large","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/KAMMI-CUBE-220/kammi-cube-large","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current shop-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-kaski-panorama-180","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/KASKI-180-P/kaski-panorama-180","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-kaski-panorama-220","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/KASKI-220-P/kaski-panorama-220","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-kaski-panorama-240-canopy","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/KASKI-240-P-C/kaski-panorama-240-canopy","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-solide-vision","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/SLD-VIS/solide-vision","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current shop-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-alpina-panorama-medium","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/ALP-M-P-DGR/alpina-panorama-medium","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-lux-medium","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/LUX-MC/lux-medium","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-urban-white-small","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/URW1212FG/urban-white-small","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-urban-white-medium","manufacturer":"Harvia","url":"https://shop.harvia.com/en-de/product/URW1616FG/urban-white-medium","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-alpina-panorama-large","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/ALP-L-P-DGR/alpina-panorama-large","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-lux-large","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/LUX-LC/lux-large","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."},
-  {"queue_id":"harvia-lindea-small","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/LINDEA-V-S-T-L/lindea-small","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; heater power and voltage are not specified for the selected configuration."},
-  {"queue_id":"harvia-lindea-large","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/LINDEA-V-L-T-L/lindea-large","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verified official Harvia product page with dimensions, capacity and current reseller-listed price; heater power and voltage are not specified for the selected configuration."},
-  {"queue_id":"harvia-soma-sienna-duo","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/SGV1210MT/soma-sienna-duo","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current price."},
-  {"queue_id":"harvia-onni-sienna-one","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/SGN1010MT/onni-sienna-one","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."},
-  {"queue_id":"harvia-onni-onyx-one","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/SGN1010CBT/onni-onyx-one","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."},
-  {"queue_id":"harvia-onni-sienna-duo","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/SGN1310MT/onni-sienna-duo","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."},
-  {"queue_id":"harvia-onni-onyx-duo","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/SGN1310CBT/onni-onyx-duo","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."},
-  {"queue_id":"harvia-minimy","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/MINIMY-120-B/minimy","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."},
-  {"queue_id":"harvia-vitamy","manufacturer":"Harvia","url":"https://shop.harvia.com/de-de/product/VITAMY-164-B/vitamy","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."},
-{"queue_id":"weka-kemi-188x140-glastuer","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-188x140-glastuer/529.1520.32122","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-kemi-188x188-glastuer","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-188x188-glastuer/529.2020.30100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-kemi-238x188-glastuer","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-238x188-glastuer/529.2520.30100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-kemi-eck-188x140","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-eck-188x140-eckeinstieg-glastuer/528.2015.30102","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-kemi-eck-188x188","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-eck-188x188-eckeinstieg-glastuer/528.2020.30102","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-kemi-panorama-209x168","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-panorama-209x168-2-fenster-glastuer/529.2116.32100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-kemi-panorama-209x210","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-panorama-209x210-2-fenster-glastuer/529.2121.32100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-bergen-196x195-fenster","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholzsauna-bergen-196x195-fenster-glastuer/530.2020.42100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-bergen-246x195-fenster","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholzsauna-bergen-246x195-fenster-glastuer/531.2520.42100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-turku-195x195-fenster","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholzsauna-turku-195x195-fenster-eckeinstieg-glastuer/536.2020.42100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-turku-245x195-fenster","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholzsauna-turku-245x195-fenster-eckeinstieg-glastuer/536.2520.42100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-cubilis-195x145","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholzsauna-cubilis-wekaline-195x145-fenster-glastuer/536.2015.52102","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-cubilis-195x195","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholzsauna-cubilis-wekaline-195x195-fenster-glastuer/536.2020.52102","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-valida-139x139","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholzsauna-valida-139x139-glastuer/537.1515.40.00","target_category":"indoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-farsund-390x187-fenster","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-farsund-390x187-glastuer-ruheraum-fenster-naturbelassen/533.3920.80100","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-luua-234x249","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-luua-234x249-glastuer-satteldach-vormontiert-schwarz/191.0109.00.00","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-luua-cube-210x254","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-luua-cube-210-0x254-5-glastuer-flachdach-vormontiert-schwarz/191.0108.00.00","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-viira-1-150x202","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-viira-1-149-6x201-6-glastuer-dachbahnen-naturbelassen/191.0100.00.00","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-viira-2-229x229","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-viira-2-229x229-glastuer-fenster-dachbahn-naturbelassen/191.0101.00.00","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-polaris-1-75kw","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-polaris-1-298x298-saunaofen-klassik-7-5-naturbelassen/ws149303000001","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-polaris-2-75kw","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-polaris-2-298x298-saunaofen-bioaktiv-7-5-naturbelassen/ws149303000002","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-winterzauber-1-9kw","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-winterzauber-1-saunaofen-klassik-9-0-anthrazit/ws533252500001","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-winterzauber-2-9kw","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-winterzauber-2-saunaofen-bioaktiv-9-0-anthrazit/ws533252500002","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-salo-601x298-grau","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-salo-601x298-einzeltuer-anbau-grau/213.3030.45294","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."},
-{"queue_id":"weka-hamina-108x102","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/infrarotkabine-hamina-108-00x102-50-ganzglastuer-halogenspot-naturbelassen/558.1010.00.00","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."},
-{"queue_id":"weka-hamina-136x102","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/infrarotkabine-hamina-136-50x102-50-ganzglastuer-halogenspot-naturbelassen/558.1310.00.00","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."},
-{"queue_id":"weka-osby-140x99","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/infrarotkabine-osby-140x99-2-fensterelemente-ganzglastuer-weiss/556.1310.00.00","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."},
-{"queue_id":"weka-osby-212x125","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/infrarotkabine-osby-212x125-2-fensterelemente-ganzglastuer-weiss/556.2012.00.00","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."},
-{"queue_id":"weka-osby-eck-200x138","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/infrarotkabine-osby-eck-200x138-2-fensterelemente-eckeinstieg-weiss/557.1913.00.00","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."},
-{"queue_id":"weka-ranua-109x98","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/infrarotkabine-ranua-109x98-ganzglastuer-naturbelassen/548.1010.42.00","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."},
-{"queue_id":"weka-ranua-140x98","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/infrarotkabine-ranua-140x98-ganzglastuer-naturbelassen/548.1310.42.00","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."},
-{"queue_id":"weka-tanilla-108x99","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-108x99-ganzglastuer-naturbelassen/543.1010.33.20","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."},
-{"queue_id":"weka-vaala-127x98","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-127x98-steuerung-ganzglastuer-naturbelassen/550.1310.19.30","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."},
-{"queue_id":"weka-uppsala-212x121-klassik","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/infrarotsauna-uppsala-212x121-3-6-kw-klassik-glastuer/547.2012.13.00","target_category":"infrared","target_voltage":230,"status":"verified","notes":"Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."}
-,
-{"queue_id":"weka-saunahaus-elva-230x180","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-elva-230x180-naturbelassen/191.0110.00.00","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"WEKA page verified dimensions, four lieges and current price; oven voltage remains configuration-dependent."},
-{"queue_id":"weka-saunahaus-keila-190x211","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-keila-190x211-glastuer-ruheraum-naturbelassen/191.0111.00.00","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"WEKA page verified overall dimensions, two sauna lieges and current price; optional oven voltage remains configuration-dependent."},
-{"queue_id":"weka-elementsauna-kaarina-151x192","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/elementsauna-kaarina-151x192-glastuer/506.1520.10100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"WEKA page verified overall dimensions, one liege and current price; oven is optional."},
-{"queue_id":"weka-elementsauna-kaarina-175x192","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/elementsauna-kaarina-175x192-2-fenster-glastuer/506.1820.50100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"WEKA page verified overall dimensions, one liege, two windows and current price; oven is optional."},
-{"queue_id":"weka-elementsauna-halmstad-192x175-glastuer","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/elementsauna-halmstad-192x175-glastuer/506.2018.10100","target_category":"indoor","target_voltage":"none","status":"verified","notes":"WEKA page verified overall dimensions, two lieges and current price; oven is optional."},
-{"queue_id":"weka-elementsauna-halmstad-192x175-holztuer","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/elementsauna-halmstad-192x175-holztuer/506.2018.00.00","target_category":"indoor","target_voltage":"none","status":"verified","notes":"WEKA page verified overall dimensions, two lieges and current price; oven is optional."},
-{"queue_id":"weka-elementsauna-laukkala-139x139","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholz-elementsauna-laukkala-139x139-saunaleuchte-glastuer/528.1515.50.01","target_category":"indoor","target_voltage":"none","status":"verified","notes":"WEKA page verified overall dimensions, two seat benches and current price; oven is optional."},
-{"queue_id":"weka-elementsauna-laukkala-187x188","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/massivholz-elementsauna-laukkala-187x188-glastuer/528.2015.51.02","target_category":"indoor","target_voltage":"none","status":"verified","notes":"WEKA page verified overall dimensions, two lieges and current price; oven is optional."},
-{"queue_id":"weka-fasssauna-198-207x186","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/fasssauna-198-207-6x186-6-glastuer-naturbelassen/198.2125.80100","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"WEKA page verified overall dimensions, two lieges and current price; optional oven voltage remains configuration-dependent."},
-{"queue_id":"weka-saunahaus-sonnenwende-plus-390x187","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-sonnenwende-plus-ruheraum-dachbahnen-saunaofen-klassik-9-0/ws533392000001","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"WEKA page verified overall dimensions, three lieges and included 9-kW classic oven; exact voltage remains unassigned."},
-{"queue_id":"karibu-ventura-71108","manufacturer":"Karibu","url":"https://www.karibu.de/saunahaus-ventura/71108M","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu page with 219 x 224 cm exterior dimensions, three lieges, five seats and current price; oven remains configurable."},
-{"queue_id":"karibu-cuben-80800","manufacturer":"Karibu","url":"https://www.karibu.de/saunahaus-cuben-mit-vorraum/80800","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu page with 276 x 276 cm dimensions, three lieges, five seats and current price; voltage remains configuration-dependent."},
-{"queue_id":"karibu-mainburg-3-36285","manufacturer":"Karibu","url":"https://www.karibu.de/saunahaus-mainburg-3/36285","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu page with 369 x 369 cm dimensions, two selectable sauna sets, five seats and current price; oven remains configurable."},
-{"queue_id":"karibu-angkor-3-186","manufacturer":"Karibu","url":"https://www.karibu.de/saunahaus-angkor-3/186","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official Karibu page with 276 x 276 cm dimensions, three lieges, five seats and current price; voltage remains configuration-dependent."},
-{"queue_id":"weka-kurikka-14930301046","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-kurikka-298x298-einzeltuer-2-fenster-naturbelassen/149.3030.10.46","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official WEKA page with 380 x 380 cm overall dimensions, two lieges, two windows and current price; oven is optional."},
-{"queue_id":"weka-saunahaus-412-4126250803","manufacturer":"WEKA","url":"https://www.weka-holzbau.com/de/p/saunahaus-412/4126250803","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Verified official WEKA page with 300 x 300 cm dimensions, three lieges and included 9-kW oven; exact voltage remains unassigned."},
-{"queue_id":"karibu-hytti-0-359","manufacturer":"Karibu","url":"https://www.karibu.de/saunahaus-hytti-0/359","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Official Karibu page verifies 196 x 113 x 228 cm, one liege, two seats and a 9-kW Bio configuration; exact voltage remains unassigned."},
-{"queue_id":"karibu-hytti-1-93866","manufacturer":"Karibu","url":"https://www.karibu.de/saunahaus-hytti-1/93866","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Official Karibu page verifies 196 x 146 x 228 cm, one liege, three seats and a 9-kW Bio configuration; exact voltage remains unassigned."},
-{"queue_id":"karibu-hytti-2-exclusive-99902m","manufacturer":"Karibu","url":"https://www.karibu.de/saunahaus-hytti-2-exklusive/99902M","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Official Karibu page verifies 196 x 196 x 228 cm, two lieges, four seats and a configuration without oven."},
-{"queue_id":"karibu-hytti-3-exclusive-99904m","manufacturer":"Karibu","url":"https://www.karibu.de/saunahaus-hytti-3-exklusive/99904M","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Official Karibu page verifies 231 x 196 x 228 cm, three lieges, five seats and a configuration without oven."},
-{"queue_id":"karibu-hytti-6-123m","manufacturer":"Karibu","url":"https://www.karibu.de/saunahaus-hytti-6/123M","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Official Karibu page verifies 396 x 231 x 217 cm, a separate anteroom, three lieges, five seats and a configuration without oven."},
-{"queue_id":"karibu-paradise-66711m","manufacturer":"Karibu","url":"https://www.karibu.de/saunahaus-paradise/66711M","target_category":"outdoor","target_voltage":"none","status":"verified","notes":"Official Karibu page verifies 431 x 428 x 244 cm, a large anteroom, three lieges, five seats and a configuration without oven."}
+  {
+    "queue_id": "karibu-saunahaus-olbia-66606",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-olbia-ohne-ofen/66606",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Olbia page with exact exterior dimensions, two lying places, four seats and current manufacturer price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-monterey-34032",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-monterey/34032",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Monterey page with exact exterior dimensions, three lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-hytti-3-93863m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-hytti-3/93863M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Hytti 3 page with exact exterior dimensions, three lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-hytti-2-97707",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-hytti-2/97707",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Hytti 2 page with exact exterior dimensions, two lying places, four seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-hytti-1-exclusive-99937",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-hytti-1-exklusive/99937",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Hytti 1 Exclusive page with exact dimensions, 9-kW configuration and current from-price; final voltage requires confirmation."
+  },
+  {
+    "queue_id": "karibu-saunahaus-skrollan-1-86283",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Saunahaus-Skrollan-1-mit-Vorraum",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Skrollan 1 page with exact dimensions, two lying places, four seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-cuben-80796",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Saunahaus-Cuben-mit-Vorraum",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Cuben page with exact dimensions, three lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-ares-1-214",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-ares-1/214",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified exact official Ares 1 article 214 with dimensions, two lying places, four seats, no oven and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-ares-2-34043",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-ares-2/34043",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified exact official Ares 2 article 34043 with dimensions, two lying places, five seats, no oven and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-2-35976",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Mainburg-2",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 2 page with exact dimensions, two lying places, four seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-fasssauna-1-92821m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/fasssauna-1/92821M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasssauna 1 page with exact dimensions, two lying places, two seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-fasssauna-2-92829",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/fasssauna-2/92822M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasssauna 2 page with exact dimensions, two lying places, four seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-fasssauna-quadro-1-109m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/fasssauna-quadro-1/109M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Quadro 1 page with exact dimensions, two lying places, two seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-fasssauna-quadro-1-plus-35445m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/fasssauna-quadro-1-plus/35445M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Quadro 1 Plus page with exact dimensions, three lying places, four seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-hygge-86314",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Saunahaus-Hygge-mit-Vorraum",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Hygge page with exact dimensions, three lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-laguna-196",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-laguna/196",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Laguna page with exact dimensions, three lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-miramar-510",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-miramar/510",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Miramar page with exact dimensions, three lying places, five seats and 9-kW configuration; final voltage requires confirmation."
+  },
+  {
+    "queue_id": "karibu-saunahaus-skrollan-2-86299",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Saunahaus-Skrollan-2-mit-Vorraum",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Skrollan 2 page with exact dimensions, two lying places, four seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-skrollan-3-86304",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Saunahaus-Skrollan-3-mit-Vorraum",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Skrollan 3 page with exact dimensions, three lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-1-35866",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-mainburg-1/35866",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 1 page with exact dimensions, two lying places, four seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-3-36281",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-mainburg-3/36281",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 3 configuration with exact dimensions, 9-kW heater and current from-price; final voltage requires confirmation."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-4-36295",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-mainburg-4/36295",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 4 page with exact dimensions, two lying places, four seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-5-36307",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-mainburg-5/36307",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 5 page with exact dimensions, two lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-angkor-2-181",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-angkor-2/181",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Angkor 2 page with exact dimensions, two lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-angkor-3-185",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-angkor-3/185",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Angkor 3 configuration with exact dimensions, 9-kW heater and current from-price; final voltage requires confirmation."
+  },
+  {
+    "queue_id": "karibu-saunahaus-ares-4-66789",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-ares-4/66789",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Ares 4 page with exact dimensions, three lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-fasssauna-breit-67219m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/fasssauna-breit/67219M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasssauna breit page with exact dimensions, three lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-fasssauna-3-92830",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/fasssauna-3/92830",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasssauna 3 configuration with exact dimensions, 9-kW heater and current from-price; final voltage requires confirmation."
+  },
+  {
+    "queue_id": "karibu-fasshaus-3-27454",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/fasshaus-3/27454",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasshaus 3 page with exact dimensions, three lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-delano-66702",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-delano/66702",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Delano page with exact dimensions, three lying places, five seats and current from-price."
+  },
+  {
+    "queue_id": "karibu-saunahaus-laguna-198",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-laguna/198",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Laguna 9-kW Finnish configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-laguna-199",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=199",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Laguna 9-kW Bio product document."
+  },
+  {
+    "queue_id": "karibu-saunahaus-laguna-27908-huum",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-laguna-ofen-und-huum-wifi-steuergeraet/27908",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Laguna HUUM WIFI configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-delano-66708",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-delano/66708",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Delano 9-kW Bio configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-delano-66710",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-delano/66710",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Delano 9-kW Bio anthracite configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-monterey-douglasie-70710",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-monterey-douglasie/70710",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Monterey Douglasie configuration with 11-kW heater."
+  },
+  {
+    "queue_id": "karibu-fasssauna-1-5-66613m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/fasssauna-1-5/66613M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasssauna 1.5 page."
+  },
+  {
+    "queue_id": "karibu-fasssauna-quadro-2-66638",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/ch/fasssauna-quadro-2/66638",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Quadro 2 configuration with 9-kW Bio heater."
+  },
+  {
+    "queue_id": "karibu-saunahaus-olbia-66607",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-olbia-inkl.-9kw-ofen-finnisch-und-steuerung-easy/66607",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Olbia 9-kW Finnish configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-olbia-66608",
+    "manufacturer": "Karibu",
+    "url": "https://en.karibu.de/saunahaus-olbia-inkl.-9kw-bio-ofen-und-steuerung-easy/66608",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Olbia 9-kW Bio configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-4-36293",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-mainburg-4/36293",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 4 9-kW Finnish configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-4-36297",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-mainburg-4/36297",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 4 9-kW Bio configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-5-36302",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-mainburg-5/36302",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 5 9-kW Finnish configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-5-36306",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-mainburg-5/36306",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 5 9-kW Bio configuration."
+  },
+  {
+    "queue_id": "karibu-fasshaus-2-27450",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/fasshaus-2/27450",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasshaus 2 page with exact dimensions and current from-price."
+  },
+  {
+    "queue_id": "karibu-fasshaus-2-27451",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=27451",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasshaus 2 Finnish product document."
+  },
+  {
+    "queue_id": "karibu-fasshaus-2-27452",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=27452",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasshaus 2 Bio product document."
+  },
+  {
+    "queue_id": "karibu-fasshaus-3-1128",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/fasshaus-fasssauna-3-aktionsset-huum-wifi-steuergeraet-sparset/1128",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasshaus 3 HUUM WiFi action set."
+  },
+  {
+    "queue_id": "karibu-saunahaus-ares-1-anbaudach-65875m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-ares-1-mit-2-70-m-anbaudach/65875M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Ares 1 with 2.70 m canopy."
+  },
+  {
+    "queue_id": "karibu-saunahaus-ares-1-anbaudach-65879",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-ares-1-mit-2-70-m-anbaudach/65879",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Ares 1 canopy WiFi configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-ares-2-anbaudach-65922",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-ares-2-mit-2-70-m-anbaudach/65922",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Ares 2 with 2.70 m canopy."
+  },
+  {
+    "queue_id": "karibu-saunahaus-ares-2-anbaudach-65933",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-ares-2-mit-2-70-m-anbaudach/65933",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Ares 2 Bio WiFi canopy configuration."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-4-36294",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=36294",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 4 Bio product document."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-4-36296",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=36296",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 4 Finnish product document."
+  },
+  {
+    "queue_id": "karibu-saunahaus-mainburg-5-36309",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=36309",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Mainburg 5 Bio product document."
+  },
+  {
+    "queue_id": "karibu-saunahaus-angkor-2-182",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=182",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Angkor 2 9-kW product document."
+  },
+  {
+    "queue_id": "karibu-fasssauna-breit-67221",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=67221",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Fasssauna breit Bio product document."
+  },
+  {
+    "queue_id": "karibu-saunahaus-angkor-3-186",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=186",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Angkor 3 Bio product document."
+  },
+  {
+    "queue_id": "karibu-28107",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-marla-4-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28107",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28105",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-marla-2-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28105",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28106",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-marla-3-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28106",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28104",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-marla-1-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28104",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-alcinda",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Alcinda",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28090",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-hannah-4-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28090",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28100",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-mila-7-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-ainur",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Ainur",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28088",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-hannah-2-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28088",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28092",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-hannah-5-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28092",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-amara",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Amara",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-sinai-3",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Sinai-3",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-askja",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Askja",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28089",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-hannah-3-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28089",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-34283m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-airi/34283M",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28099",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-mila-6-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28099",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28098",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-mila-5-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28098",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-sahib-2",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Sahib-2",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28097",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-mila-4-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28097",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28096",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-mila-3-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28096",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-tanami",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Tanami",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28095",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-mila-2-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28095",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-66609m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-4/66609M",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-sonara",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Sonara",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-malin",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Malin",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28094",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-mila-1-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28094",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-3",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Amelia-3",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-gobin",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Gobin",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-28087",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-hannah-1-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28087",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-mojave",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Mojave",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-fiona-3",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Fiona-3",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-jarin",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Jarin",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-66736m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-gateway/66736M",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-arvika",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Arvika",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-sahib-1",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Sahib-1",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-88m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-irava-3/88M",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-horna",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Horna",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-rodin",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Rodin",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-67329m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-nome/67329M",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-93461",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-kalle-7/93461",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-93462",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-kalle-8/93462",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-nybro",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Nybro",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-lilja",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Lilja",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-siirin",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Siirin",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-1",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/Sauna-Amelia-1",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "karibu-93459",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-kalle-5/93459",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu product page with dimensions, capacity and current manufacturer-listed price."
+  },
+  {
+    "queue_id": "harvia-kammi-barrel-large",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/KAMMI-BAR-220/kammi-barrel-large",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current shop-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-kammi-cube-large",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/KAMMI-CUBE-220/kammi-cube-large",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current shop-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-kaski-panorama-180",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/KASKI-180-P/kaski-panorama-180",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-kaski-panorama-220",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/KASKI-220-P/kaski-panorama-220",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-kaski-panorama-240-canopy",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/KASKI-240-P-C/kaski-panorama-240-canopy",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-solide-vision",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/SLD-VIS/solide-vision",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current shop-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-alpina-panorama-medium",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/ALP-M-P-DGR/alpina-panorama-medium",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-lux-medium",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/LUX-MC/lux-medium",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-urban-white-small",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/URW1212FG/urban-white-small",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-urban-white-medium",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/en-de/product/URW1616FG/urban-white-medium",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-alpina-panorama-large",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/ALP-L-P-DGR/alpina-panorama-large",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-lux-large",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/LUX-LC/lux-large",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; exact voltage is not stated for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-lindea-small",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/LINDEA-V-S-T-L/lindea-small",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; heater power and voltage are not specified for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-lindea-large",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/LINDEA-V-L-T-L/lindea-large",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity and current reseller-listed price; heater power and voltage are not specified for the selected configuration."
+  },
+  {
+    "queue_id": "harvia-soma-sienna-duo",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/SGV1210MT/soma-sienna-duo",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current price."
+  },
+  {
+    "queue_id": "harvia-onni-sienna-one",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/SGN1010MT/onni-sienna-one",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."
+  },
+  {
+    "queue_id": "harvia-onni-onyx-one",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/SGN1010CBT/onni-onyx-one",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."
+  },
+  {
+    "queue_id": "harvia-onni-sienna-duo",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/SGN1310MT/onni-sienna-duo",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."
+  },
+  {
+    "queue_id": "harvia-onni-onyx-duo",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/SGN1310CBT/onni-onyx-duo",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."
+  },
+  {
+    "queue_id": "harvia-minimy",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/MINIMY-120-B/minimy",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."
+  },
+  {
+    "queue_id": "harvia-vitamy",
+    "manufacturer": "Harvia",
+    "url": "https://shop.harvia.com/de-de/product/VITAMY-164-B/vitamy",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verified official Harvia product page with dimensions, capacity, 230-V infrared voltage and current reseller price."
+  },
+  {
+    "queue_id": "weka-kemi-188x140-glastuer",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-188x140-glastuer/529.1520.32122",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-kemi-188x188-glastuer",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-188x188-glastuer/529.2020.30100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-kemi-238x188-glastuer",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-238x188-glastuer/529.2520.30100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-kemi-eck-188x140",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-eck-188x140-eckeinstieg-glastuer/528.2015.30102",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-kemi-eck-188x188",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-eck-188x188-eckeinstieg-glastuer/528.2020.30102",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-kemi-panorama-209x168",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-panorama-209x168-2-fenster-glastuer/529.2116.32100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-kemi-panorama-209x210",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-panorama-209x210-2-fenster-glastuer/529.2121.32100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-bergen-196x195-fenster",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-bergen-196x195-fenster-glastuer/530.2020.42100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-bergen-246x195-fenster",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-bergen-246x195-fenster-glastuer/531.2520.42100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-turku-195x195-fenster",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-turku-195x195-fenster-eckeinstieg-glastuer/536.2020.42100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-turku-245x195-fenster",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-turku-245x195-fenster-eckeinstieg-glastuer/536.2520.42100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-cubilis-195x145",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-cubilis-wekaline-195x145-fenster-glastuer/536.2015.52102",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-cubilis-195x195",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-cubilis-wekaline-195x195-fenster-glastuer/536.2020.52102",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-valida-139x139",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-valida-139x139-glastuer/537.1515.40.00",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-farsund-390x187-fenster",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-farsund-390x187-glastuer-ruheraum-fenster-naturbelassen/533.3920.80100",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-luua-234x249",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-luua-234x249-glastuer-satteldach-vormontiert-schwarz/191.0109.00.00",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-luua-cube-210x254",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-luua-cube-210-0x254-5-glastuer-flachdach-vormontiert-schwarz/191.0108.00.00",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-viira-1-150x202",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-viira-1-149-6x201-6-glastuer-dachbahnen-naturbelassen/191.0100.00.00",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-viira-2-229x229",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-viira-2-229x229-glastuer-fenster-dachbahn-naturbelassen/191.0101.00.00",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-polaris-1-75kw",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-polaris-1-298x298-saunaofen-klassik-7-5-naturbelassen/ws149303000001",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-polaris-2-75kw",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-polaris-2-298x298-saunaofen-bioaktiv-7-5-naturbelassen/ws149303000002",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-winterzauber-1-9kw",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-winterzauber-1-saunaofen-klassik-9-0-anthrazit/ws533252500001",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-winterzauber-2-9kw",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-winterzauber-2-saunaofen-bioaktiv-9-0-anthrazit/ws533252500002",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-salo-601x298-grau",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-salo-601x298-einzeltuer-anbau-grau/213.3030.45294",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; Netzspannung der Ofenkonfiguration bleibt neutral, sofern nicht konkret ausgewiesen."
+  },
+  {
+    "queue_id": "weka-hamina-108x102",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-hamina-108-00x102-50-ganzglastuer-halogenspot-naturbelassen/558.1010.00.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."
+  },
+  {
+    "queue_id": "weka-hamina-136x102",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-hamina-136-50x102-50-ganzglastuer-halogenspot-naturbelassen/558.1310.00.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."
+  },
+  {
+    "queue_id": "weka-osby-140x99",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-osby-140x99-2-fensterelemente-ganzglastuer-weiss/556.1310.00.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."
+  },
+  {
+    "queue_id": "weka-osby-212x125",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-osby-212x125-2-fensterelemente-ganzglastuer-weiss/556.2012.00.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."
+  },
+  {
+    "queue_id": "weka-osby-eck-200x138",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-osby-eck-200x138-2-fensterelemente-eckeinstieg-weiss/557.1913.00.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."
+  },
+  {
+    "queue_id": "weka-ranua-109x98",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-ranua-109x98-ganzglastuer-naturbelassen/548.1010.42.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."
+  },
+  {
+    "queue_id": "weka-ranua-140x98",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-ranua-140x98-ganzglastuer-naturbelassen/548.1310.42.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."
+  },
+  {
+    "queue_id": "weka-tanilla-108x99",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-108x99-ganzglastuer-naturbelassen/543.1010.33.20",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."
+  },
+  {
+    "queue_id": "weka-vaala-127x98",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-127x98-steuerung-ganzglastuer-naturbelassen/550.1310.19.30",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."
+  },
+  {
+    "queue_id": "weka-uppsala-212x121-klassik",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/infrarotsauna-uppsala-212x121-3-6-kw-klassik-glastuer/547.2012.13.00",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Verifizierte offizielle WEKA-Produktseite mit Außenmaßen, Kapazitäts-/Liegedaten und aktuellem Preis; 230-V-Infrarotspannung ist ausgewiesen."
+  },
+  {
+    "queue_id": "weka-saunahaus-elva-230x180",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-elva-230x180-naturbelassen/191.0110.00.00",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "WEKA page verified dimensions, four lieges and current price; oven voltage remains configuration-dependent."
+  },
+  {
+    "queue_id": "weka-saunahaus-keila-190x211",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-keila-190x211-glastuer-ruheraum-naturbelassen/191.0111.00.00",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "WEKA page verified overall dimensions, two sauna lieges and current price; optional oven voltage remains configuration-dependent."
+  },
+  {
+    "queue_id": "weka-elementsauna-kaarina-151x192",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/elementsauna-kaarina-151x192-glastuer/506.1520.10100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "WEKA page verified overall dimensions, one liege and current price; oven is optional."
+  },
+  {
+    "queue_id": "weka-elementsauna-kaarina-175x192",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/elementsauna-kaarina-175x192-2-fenster-glastuer/506.1820.50100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "WEKA page verified overall dimensions, one liege, two windows and current price; oven is optional."
+  },
+  {
+    "queue_id": "weka-elementsauna-halmstad-192x175-glastuer",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/elementsauna-halmstad-192x175-glastuer/506.2018.10100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "WEKA page verified overall dimensions, two lieges and current price; oven is optional."
+  },
+  {
+    "queue_id": "weka-elementsauna-halmstad-192x175-holztuer",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/elementsauna-halmstad-192x175-holztuer/506.2018.00.00",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "WEKA page verified overall dimensions, two lieges and current price; oven is optional."
+  },
+  {
+    "queue_id": "weka-elementsauna-laukkala-139x139",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-laukkala-139x139-saunaleuchte-glastuer/528.1515.50.01",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "WEKA page verified overall dimensions, two seat benches and current price; oven is optional."
+  },
+  {
+    "queue_id": "weka-elementsauna-laukkala-187x188",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-laukkala-187x188-glastuer/528.2015.51.02",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "WEKA page verified overall dimensions, two lieges and current price; oven is optional."
+  },
+  {
+    "queue_id": "weka-fasssauna-198-207x186",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/fasssauna-198-207-6x186-6-glastuer-naturbelassen/198.2125.80100",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "WEKA page verified overall dimensions, two lieges and current price; optional oven voltage remains configuration-dependent."
+  },
+  {
+    "queue_id": "weka-saunahaus-sonnenwende-plus-390x187",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-sonnenwende-plus-ruheraum-dachbahnen-saunaofen-klassik-9-0/ws533392000001",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "WEKA page verified overall dimensions, three lieges and included 9-kW classic oven; exact voltage remains unassigned."
+  },
+  {
+    "queue_id": "karibu-ventura-71108",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-ventura/71108M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu page with 219 x 224 cm exterior dimensions, three lieges, five seats and current price; oven remains configurable."
+  },
+  {
+    "queue_id": "karibu-cuben-80800",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-cuben-mit-vorraum/80800",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu page with 276 x 276 cm dimensions, three lieges, five seats and current price; voltage remains configuration-dependent."
+  },
+  {
+    "queue_id": "karibu-mainburg-3-36285",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-mainburg-3/36285",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu page with 369 x 369 cm dimensions, two selectable sauna sets, five seats and current price; oven remains configurable."
+  },
+  {
+    "queue_id": "karibu-angkor-3-186",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-angkor-3/186",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official Karibu page with 276 x 276 cm dimensions, three lieges, five seats and current price; voltage remains configuration-dependent."
+  },
+  {
+    "queue_id": "weka-kurikka-14930301046",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-kurikka-298x298-einzeltuer-2-fenster-naturbelassen/149.3030.10.46",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official WEKA page with 380 x 380 cm overall dimensions, two lieges, two windows and current price; oven is optional."
+  },
+  {
+    "queue_id": "weka-saunahaus-412-4126250803",
+    "manufacturer": "WEKA",
+    "url": "https://www.weka-holzbau.com/de/p/saunahaus-412/4126250803",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Verified official WEKA page with 300 x 300 cm dimensions, three lieges and included 9-kW oven; exact voltage remains unassigned."
+  },
+  {
+    "queue_id": "karibu-hytti-0-359",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-hytti-0/359",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Official Karibu page verifies 196 x 113 x 228 cm, one liege, two seats and a 9-kW Bio configuration; exact voltage remains unassigned."
+  },
+  {
+    "queue_id": "karibu-hytti-1-93866",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-hytti-1/93866",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Official Karibu page verifies 196 x 146 x 228 cm, one liege, three seats and a 9-kW Bio configuration; exact voltage remains unassigned."
+  },
+  {
+    "queue_id": "karibu-hytti-2-exclusive-99902m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-hytti-2-exklusive/99902M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Official Karibu page verifies 196 x 196 x 228 cm, two lieges, four seats and a configuration without oven."
+  },
+  {
+    "queue_id": "karibu-hytti-3-exclusive-99904m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-hytti-3-exklusive/99904M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Official Karibu page verifies 231 x 196 x 228 cm, three lieges, five seats and a configuration without oven."
+  },
+  {
+    "queue_id": "karibu-hytti-6-123m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-hytti-6/123M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Official Karibu page verifies 396 x 231 x 217 cm, a separate anteroom, three lieges, five seats and a configuration without oven."
+  },
+  {
+    "queue_id": "karibu-paradise-66711m",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/saunahaus-paradise/66711M",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Official Karibu page verifies 431 x 428 x 244 cm, a large anteroom, three lieges, five seats and a configuration without oven."
+  },
+  {
+    "queue_id": "karibu-sauna-adelina-6168",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-adelina/6168",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-adelina-6169",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-adelina/6169",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-adelina-6755",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-adelina/6755",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-adelina-6756",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-adelina/6756",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-adelina-6758",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-adelina/6758",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-adelina-6759",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-adelina/6759",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-adelina-6760",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-adelina/6760",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-adelina-6761",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-adelina/6761",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-ainur-6098",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-ainur/6098",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-ainur-6099",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-ainur/6099",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-ainur-6100",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-ainur/6100",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-ainur-6101",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-ainur/6101",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-ainur-6102",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-ainur/6102",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-ainur-6103",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-ainur/6103",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-ainur-6104",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-ainur/6104",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-ainur-6105",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-ainur/6105",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-airi-34283",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-airi/34283",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-airi-34291",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-airi/34291",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-airi-34292",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-airi/34292",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-airi-34294",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-airi/34294",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-airi-34301",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-airi/34301",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-airi-34309",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-airi/34309",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-airi-34315",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-airi/34315",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-airi-34316",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-airi/34316",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-alcinda-2503",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-alcinda/2503",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-alcinda-6106",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-alcinda/6106",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-alcinda-6107",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-alcinda/6107",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-alcinda-6108",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-alcinda/6108",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-alcinda-6109",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-alcinda/6109",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-alcinda-6110",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-alcinda/6110",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-alcinda-6111",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-alcinda/6111",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-alcinda-6112",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-alcinda/6112",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amara-71285",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amara/71285",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amara-71286",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amara/71286",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amara-71287",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amara/71287",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amara-71288",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amara/71288",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amara-71289",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amara/71289",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amara-71290",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amara/71290",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amara-71291",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amara/71291",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amara-71292",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amara/71292",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-1-66743",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-1/66743",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-1-66744",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-1/66744",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-1-66745",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-1/66745",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-1-66746",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-1/66746",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-1-66747",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-1/66747",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-1-66748",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-1/66748",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-1-66749",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-1/66749",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-1-66750",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-1/66750",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-3-66760",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-3/66760",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-3-66762",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-3/66762",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-3-66763",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-3/66763",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-3-66764",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-3/66764",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-3-66765",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-3/66765",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-3-66767",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-3/66767",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-3-66768",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-3/66768",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-amelia-3-66769",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-amelia-3/66769",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-arvika-6197",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-arvika/6197",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-arvika-6217",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-arvika/6217",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-arvika-6218",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-arvika/6218",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-arvika-6219",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-arvika/6219",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-1-93001",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-1/93001",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-1-93002",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-1/93002",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-1-93003",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-1/93003",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-1-93004",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-1/93004",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-2-93005",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-2/93005",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-2-93006",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-2/93006",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-2-93007",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-2/93007",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-2-93008",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-2/93008",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-3-66880",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-3/66880",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-3-66883",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-3/66883",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-3-66884",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-3/66884",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-3-66886",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-3/66886",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-4-66609",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-4/66609",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-4-66610",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-4/66610",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-4-66611",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-4/66611",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-avari-4-66612",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-avari-4/66612",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-46837",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/46837",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-47113",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/47113",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-47829",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/47829",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-56735",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/56735",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-59630",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/59630",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-59631",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/59631",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-59632",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/59632",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-59633",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/59633",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-75629",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/75629",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-75630",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/75630",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-75631",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/75631",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-75632",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/75632",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-75633",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/75633",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-75634",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/75634",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-75635",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/75635",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-75636",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/75636",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "karibu-sauna-bodin-75650",
+    "manufacturer": "Karibu",
+    "url": "https://www.karibu.de/sauna-bodin/75650",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte Karibu-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-412-4126250801",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-412/4126250801",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-412-4126250802",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-412/4126250802",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-412-4126250803-batch2",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-412/4126250803",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-412-4126350801",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-412/4126350801",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-412-4126350802",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-412/4126350802",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-412-4126350803",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-412/4126350803",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-412-4126450801",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-412/4126450801",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-412-4126450802",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-412/4126450802",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-412-4126450803",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-412/4126450803",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-kaapi-200x115-glastur-grungrau-534201187000",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x115-glastuer-gruengrau/534201187000",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-kaapi-200x115-glastur-naturbelassen-534201180000",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x115-glastuer-naturbelassen/534201180000",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-kaapi-200x150-glastur-grungrau-534201587000",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x150-glastuer-gruengrau/534201587000",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-kaapi-200x150-glastur-naturbelassen-534201580000",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x150-glastuer-naturbelassen/534201580000",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-kaapi-200x200-glastur-grungrau-534202087000",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x200-glastuer-gruengrau/534202087000",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-kaapi-200x200-glastur-naturbelassen-534202080000",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x200-glastuer-naturbelassen/534202080000",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-kaapi-235x200-glastur-grungrau-534242087000",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-kaapi-235x200-glastuer-gruengrau/534242087000",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  },
+  {
+    "queue_id": "weka-saunahaus-kaapi-235x200-glastur-naturbelassen-534242080000",
+    "manufacturer": "WEKA",
+    "url": "https://weka-holzbau.com/p/saunahaus-kaapi-235x200-glastuer-naturbelassen/534242080000",
+    "target_category": "outdoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Geprüfte WEKA-Produktseite; Maße, Kapazität und Konfiguration am 2026-08-26 erfasst."
+  }
 ]
