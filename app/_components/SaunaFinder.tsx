@@ -58,10 +58,10 @@ export function SaunaFinder() {
         />
         <FinderQuestion
           number="04"
-          legend="Welcher Anschluss ist vorhanden?"
+          legend="Welche Energieversorgung ist möglich?"
           name="power"
           value={answers.power}
-          options={[["230", "230 V"], ["400", "400 V"], ["unknown", "Unbekannt"]]}
+          options={[["230", "230 V"], ["400", "400 V"], ["wood", "Holzofen"], ["unknown", "Noch offen"]]}
           onChange={(value) => update("power", value as FinderAnswers["power"])}
         />
         <FinderQuestion

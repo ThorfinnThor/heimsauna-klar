@@ -543,6 +543,7 @@ const finderCoverageChecks = [
   ["standard footprint", (product) => product.dimensions_cm.width * product.dimensions_cm.depth <= 60_000],
   ["230-V connection", (product) => product.power.voltage === 230],
   ["400-V connection", (product) => product.power.voltage === 400],
+  ["wood-fired connection", (product) => product.power.voltage === "wood"],
   ["lean budget", (product) => product.commercial.offers.some((offer) => offer.price <= 2500)],
   ["mid budget", (product) => product.commercial.offers.some((offer) => offer.price <= 6000)],
   ["traditional heat", (product) => product.category !== "infrared"],
@@ -550,6 +551,7 @@ const finderCoverageChecks = [
   ["indoor 400-V combination", (product) => product.sauna.indoor_outdoor === "indoor" && product.power.voltage === 400],
   ["outdoor 400-V combination", (product) => product.sauna.indoor_outdoor === "outdoor" && product.power.voltage === 400],
   ["priced mobile combination", (product) => ["portable", "tent"].includes(product.category) && product.commercial.offers.length > 0],
+  ["wood-fired mobile combination", (product) => ["portable", "tent"].includes(product.category) && product.power.voltage === "wood"],
 ];
 for (const [label, matcher] of finderCoverageChecks) {
   if (!verifiedProducts.some(matcher)) throw new Error(`Finder coverage is missing: ${label}`);

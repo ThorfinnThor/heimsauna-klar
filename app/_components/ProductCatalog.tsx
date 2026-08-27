@@ -15,7 +15,7 @@ const finderValues = {
   place: ["indoor", "outdoor", "mobile"],
   people: ["1", "2", "4", "flex"],
   footprint: ["compact", "standard", "open"],
-  power: ["230", "400", "unknown"],
+  power: ["230", "400", "wood", "unknown"],
   budget: ["lean", "mid", "open"],
   heat: ["traditional", "infrared", "open"],
 } as const;
@@ -55,7 +55,7 @@ function finderSelectionLabels(filters: FinderFilters) {
     filters.place === "indoor" ? "Innenraum" : filters.place === "outdoor" ? "Garten" : "Flexibel",
     filters.people === "flex" ? "Personenzahl offen" : `${filters.people} ${filters.people === "1" ? "Person" : "Personen"}`,
     filters.footprint === "compact" ? "bis 3 m²" : filters.footprint === "standard" ? "bis 6 m²" : "Fläche offen",
-    filters.power === "unknown" ? "Anschluss unbekannt" : `${filters.power} V`,
+    filters.power === "unknown" ? "Anschluss offen" : filters.power === "wood" ? "Holzofen" : `${filters.power} V`,
     filters.budget === "lean" ? "bis 2.500 €" : filters.budget === "mid" ? "bis 6.000 €" : "Budget offen",
     filters.heat === "traditional" ? "Klassische Sauna" : filters.heat === "infrared" ? "Infrarot" : "Wärmeart offen",
   ];

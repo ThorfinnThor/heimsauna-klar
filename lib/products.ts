@@ -59,7 +59,7 @@ export type FinderFilters = {
   place: "indoor" | "outdoor" | "mobile";
   people: "1" | "2" | "4" | "flex";
   footprint: "compact" | "standard" | "open";
-  power: "230" | "400" | "unknown";
+  power: "230" | "400" | "wood" | "unknown";
   budget: "lean" | "mid" | "open";
   heat: "traditional" | "infrared" | "open";
 };
@@ -181,8 +181,17 @@ export function hasFinderHeatVariant(
   return productList.some((product) => matchesFinderPlaceAndHeat(product, { ...filters, heat }));
 }
 
-export function hasFinderPowerVariant(productList: Product[], filters: Pick<FinderFilters, "place" | "heat">, voltage: number) {
+export function hasFinderPowerVariant(productList: Product[], filters: Pick<FinderFilters, "place" | "heat">, voltage: number | "wood") {
   return productList.some((product) => matchesFinderPlaceAndHeat(product, filters) && product.power.voltage === voltage);
+}
+
+function matchesFinderPower(product: Product, power: FinderFilters["power"]) {
+  if (power === "unknown") return true;
+  return product.power.voltage === (power === "wood" ? "wood" : Number(power));
+}
+
+function formatFinderPower(power: Exclude<FinderFilters["power"], "unknown">) {
+  return power === "wood" ? "Holzofen" : `${power} V`;
 }
 
 function matchesFinderFilters(product: Product, filters: FinderFilters, ignored?: FinderRelaxation["key"]) {
@@ -194,7 +203,7 @@ function matchesFinderFilters(product: Product, filters: FinderFilters, ignored?
 
   if (ignored !== "people" && filters.people !== "flex" && product.people.max < Number(filters.people)) return false;
   if (ignored !== "footprint" && filters.footprint !== "open" && getFootprintM2(product) > footprintLimits[filters.footprint]) return false;
-  if (ignored !== "power" && filters.power !== "unknown" && product.power.voltage !== Number(filters.power)) return false;
+  if (ignored !== "power" && !matchesFinderPower(product, filters.power)) return false;
 
   if (ignored !== "budget" && filters.budget !== "open") {
     const price = getLowestPrice(product);
@@ -211,7 +220,7 @@ function getMatchReasons(product: Product, filters: FinderFilters, footprintM2: 
     `${footprintM2.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² Produktfläche`,
   ];
 
-  if (filters.power !== "unknown") reasons.push(`${filters.power} V ausgewiesen`);
+  if (filters.power !== "unknown") reasons.push(`${formatFinderPower(filters.power)} ausgewiesen`);
   if (filters.budget !== "open") reasons.push(`bis ${budgetLimits[filters.budget].toLocaleString("de-DE")} €`);
   if (filters.heat === "infrared") reasons.push("Infrarotkabine");
   if (filters.heat === "traditional") reasons.push("klassische Saunakabine");
@@ -236,13 +245,13 @@ function getAlternativeDifferences(product: Product, filters: FinderFilters, foo
     differences.push(`${footprintM2.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² statt bis ${footprintLimits[filters.footprint]} m²`);
   }
 
-  if (filters.power !== "unknown" && product.power.voltage !== Number(filters.power)) {
+  if (filters.power !== "unknown" && !matchesFinderPower(product, filters.power)) {
     const actualPower = product.power.voltage === "wood"
       ? "Holzofen"
       : product.power.voltage === "none"
         ? "Anschluss nicht ausgewiesen"
         : `${product.power.voltage} V`;
-    differences.push(`${actualPower} statt ${filters.power} V`);
+    differences.push(`${actualPower} statt ${formatFinderPower(filters.power)}`);
   }
 
   if (filters.budget !== "open") {

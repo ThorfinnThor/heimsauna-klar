@@ -30273,7 +30273,7 @@
       "indoor_outdoor": "outdoor",
       "heater_type": "Mobiler Holzofen",
       "max_temp_c": 110,
-      "heat_up_time_min": 25,
+      "heat_up_time_min": null,
       "wood_type": "Oxford-240T-Zeltplane"
     },
     "commercial": {
