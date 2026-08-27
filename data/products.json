@@ -28728,4 +28728,1355 @@
     "sources": [{"type": "manufacturer", "title": "Morzh Deutschland – Cube Double", "url": "https://morzh.de/produkt/morz-cube-double/", "checked_at": "2026-08-26"}],
     "updated_at": "2026-08-26"
   }
+,
+  {
+    "product_id": "dewello-kenora-140",
+    "brand": "Dewello",
+    "model": "KENORA 140 × 140 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 140,
+      "depth": 140,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.715,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": 65,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 3099,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-kenora-140cm-x-140cm/a-722",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "140 × 140 cm Grundfläche für eine bis 3 Personen.",
+        "Dual-Therm-Infrarot mit 2,715 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 3 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite KENORA 140 × 140 cm",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-kenora-140cm-x-140cm/a-722",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-lakefield-pro-140",
+    "brand": "Dewello",
+    "model": "LAKEFIELD PRO 140 × 140 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 140,
+      "depth": 140,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.07,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock / Zeder"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 2889,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-lakefield-pro-140x140cm/a-447",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "140 × 140 cm Grundfläche für eine bis 2 Personen.",
+        "Dual-Therm-Infrarot mit 2,07 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite LAKEFIELD PRO 140 × 140 cm",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-lakefield-pro-140x140cm/a-447",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-windsor-120",
+    "brand": "Dewello",
+    "model": "WINDSOR 120 × 100 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 120,
+      "depth": 100,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.05,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Keramik- und Karbonstrahler",
+      "max_temp_c": 65,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 1399,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/saunen/infrarotkabinen/tronitechnik-infrarotsauna-2-personen-infrarotkabine-sauna-keramikstrahler-bodenstrahler-120cm-x-100cm-x-190cm/a-348",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "120 × 100 cm Grundfläche für eine bis 2 Personen.",
+        "Keramik- und Karbonstrahler mit 2,05 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite WINDSOR 120 × 100 cm",
+        "url": "https://www.tronitechnik.de/saunen/infrarotkabinen/tronitechnik-infrarotsauna-2-personen-infrarotkabine-sauna-keramikstrahler-bodenstrahler-120cm-x-100cm-x-190cm/a-348",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-kenora-130",
+    "brand": "Dewello",
+    "model": "KENORA 130 × 105 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 130,
+      "depth": 105,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.07,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": 65,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 2399,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/infrarotkabine-kenora-130x105/a-720",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "130 × 105 cm Grundfläche für eine bis 2 Personen.",
+        "Dual-Therm-Infrarot mit 2,07 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite KENORA 130 × 105 cm",
+        "url": "https://www.tronitechnik.de/infrarotkabine-kenora-130x105/a-720",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-kingston-130",
+    "brand": "Dewello",
+    "model": "KINGSTON 130 × 105 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 130,
+      "depth": 105,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.2,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 2199,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-kingston-130x105cm/a-485",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "130 × 105 cm Grundfläche für eine bis 2 Personen.",
+        "Dual-Therm-Infrarot mit 2,2 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite KINGSTON 130 × 105 cm",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-kingston-130x105cm/a-485",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-ottawa-140",
+    "brand": "Dewello",
+    "model": "OTTAWA 140 × 120 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 140,
+      "depth": 120,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.49,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Vollspektrum- und Karbonstrahler",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "unavailable",
+      "offers": []
+    },
+    "editorial": {
+      "pros": [
+        "140 × 120 cm Grundfläche für eine bis 2 Personen.",
+        "Vollspektrum- und Karbonstrahler mit 2,49 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Ein aktueller Verkaufspreis ist auf der geprüften Seite nicht zuverlässig ausgewiesen.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite OTTAWA 140 × 120 cm",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-infrarotsauna-ottawa/a-497",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-calgary-90",
+    "brand": "Dewello",
+    "model": "CALGARY 90 × 90 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 90,
+      "depth": 90,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 1,
+      "seats": 1,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 1.3,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Vollspektrumstrahler",
+      "max_temp_c": 65,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "unavailable",
+      "offers": []
+    },
+    "editorial": {
+      "pros": [
+        "90 × 90 cm Grundfläche für eine Person.",
+        "Vollspektrumstrahler mit 1,3 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Ein aktueller Verkaufspreis ist auf der geprüften Seite nicht zuverlässig ausgewiesen.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Einzelnutzung im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Kompakte Räume mit begrenzter Grundfläche."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite CALGARY 90 × 90 cm",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-infrarotsauna-calgary-90-x-90cm-mit-vollspektrumstrahler/a-490",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-saltcoats-120",
+    "brand": "Dewello",
+    "model": "SALTCOATS 120 × 120 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 120,
+      "depth": 120,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.06,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": 65,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 1899,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/infrarotkabine-saltcoats-120cm-x-120cm/a-495",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "120 × 120 cm Grundfläche für eine bis 2 Personen.",
+        "Dual-Therm-Infrarot mit 2,06 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite SALTCOATS 120 × 120 cm",
+        "url": "https://www.tronitechnik.de/infrarotkabine-saltcoats-120cm-x-120cm/a-495",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "tronitechnik-manila-140",
+    "brand": "TroniTechnik",
+    "model": "MANILA 140 × 100 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 140,
+      "depth": 100,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.2,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Vollspektrumstrahler",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "unavailable",
+      "offers": []
+    },
+    "editorial": {
+      "pros": [
+        "140 × 100 cm Grundfläche für eine bis 2 Personen.",
+        "Vollspektrumstrahler mit 2,2 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Ein aktueller Verkaufspreis ist auf der geprüften Seite nicht zuverlässig ausgewiesen.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite MANILA 140 × 100 cm",
+        "url": "https://www.tronitechnik.de/tronitechnik-infrarotkabine-manila-140x100/a-704",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-pierson-pro-135",
+    "brand": "Dewello",
+    "model": "PIERSON PRO 135 × 105 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 135,
+      "depth": 105,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.1,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock / Zeder"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 2799,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-pierson-pro-135x105cm/a-459",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "135 × 105 cm Grundfläche für eine bis 2 Personen.",
+        "Dual-Therm-Infrarot mit 2,1 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite PIERSON PRO 135 × 105 cm",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-pierson-pro-135x105cm/a-459",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-montreal-140",
+    "brand": "Dewello",
+    "model": "MONTREAL 140 × 140 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 140,
+      "depth": 140,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.83,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock / Walnuss"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 2049,
+          "availability": "out-of-stock-listed",
+          "url": "https://www.tronitechnik.de/dewello-walnuss-sauna-montreal-140x140/a-494",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "140 × 140 cm Grundfläche für eine bis 2 Personen.",
+        "Dual-Therm-Infrarot mit 2,83 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite MONTREAL 140 × 140 cm",
+        "url": "https://www.tronitechnik.de/dewello-walnuss-sauna-montreal-140x140/a-494",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-haley-160",
+    "brand": "Dewello",
+    "model": "HALEY 160 × 160 cm Vollspektrum",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 160,
+      "depth": 160,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.6,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Vollspektrum- und Karbonstrahler",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 2199,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-haley-160x160cm/a-358",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "160 × 160 cm Grundfläche für eine bis 4 Personen.",
+        "Vollspektrum- und Karbonstrahler mit 2,6 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 4 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite HALEY 160 × 160 cm Vollspektrum",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-haley-160x160cm/a-358",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "tronitechnik-manila-120",
+    "brand": "TroniTechnik",
+    "model": "MANILA 120 × 100 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 120,
+      "depth": 100,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 1.6,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Vollspektrumstrahler",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 1149,
+          "availability": "out-of-stock-listed",
+          "url": "https://www.tronitechnik.de/tronitechnik-infrarotkabine-manila-120x100/a-702",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "120 × 100 cm Grundfläche für eine bis 2 Personen.",
+        "Vollspektrumstrahler mit 1,6 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite MANILA 120 × 100 cm",
+        "url": "https://www.tronitechnik.de/tronitechnik-infrarotkabine-manila-120x100/a-702",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-pierson-135",
+    "brand": "Dewello",
+    "model": "PIERSON 135 × 105 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 135,
+      "depth": 105,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.1,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": 65,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 1799,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-pierson-135x105cm/a-351",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "135 × 105 cm Grundfläche für eine bis 2 Personen.",
+        "Dual-Therm-Infrarot mit 2,1 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite PIERSON 135 × 105 cm",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-pierson-135x105cm/a-351",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-pierson-90",
+    "brand": "Dewello",
+    "model": "PIERSON 90 × 90 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 90,
+      "depth": 90,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 1,
+      "seats": 1,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 1.46,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": 65,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 1499,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-pierson-90x90cm/a-387",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "90 × 90 cm Grundfläche für eine Person.",
+        "Dual-Therm-Infrarot mit 1,46 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Einzelnutzung im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Kompakte Räume mit begrenzter Grundfläche."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite PIERSON 90 × 90 cm",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-pierson-90x90cm/a-387",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-toronto-102",
+    "brand": "Dewello",
+    "model": "TORONTO 102 × 102 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 102,
+      "depth": 102,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 1,
+      "seats": 1,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 1.71,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock / Zeder"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 2089,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-102x102cm/a-394",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "102 × 102 cm Grundfläche für eine Person.",
+        "Dual-Therm-Infrarot mit 1,71 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Einzelnutzung im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Kompakte Räume mit begrenzter Grundfläche."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite TORONTO 102 × 102 cm",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-102x102cm/a-394",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "dewello-toronto-127",
+    "brand": "Dewello",
+    "model": "TORONTO 127 × 106 cm",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 127,
+      "depth": 106,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 2.2,
+      "plug_type": "230-V-Haushaltssteckdose",
+      "electrician_required": false,
+      "notes": "Die TroniTechnik-Produktseite weist eine 220–230-V- bzw. 230-V-Steckdose aus; örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
+    },
+    "sauna": {
+      "type": "Infrarotkabine",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Dual-Therm-Infrarot",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlock / Zeder"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 2489,
+          "availability": "in-stock",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-127x106cm/a-395",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "127 × 106 cm Grundfläche für eine bis 2 Personen.",
+        "Dual-Therm-Infrarot mit 2,2 kW Gesamtleistung laut Produktseite.",
+        "Steckfertige Nutzung und integrierte Bedienung laut Anbieter."
+      ],
+      "cons": [
+        "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
+        "Lieferzeit und Verfügbarkeit können sich kurzfristig ändern.",
+        "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
+      ],
+      "ideal_for": [
+        "Ein bis 2 Personen im Innenraum.",
+        "Haushalte mit vorhandener 230-V-Steckdose.",
+        "Nutzer mit Wunsch nach mehr Sitzbreite."
+      ],
+      "not_for": [
+        "Nutzer, die hohe Aufgusstemperaturen einer klassischen Sauna suchen.",
+        "Aufstellorte ohne trockenen, ebenen Boden und ausreichende Lüftung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der TroniTechnik-Produktseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "TroniTechnik Produktseite TORONTO 127 × 106 cm",
+        "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-127x106cm/a-395",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  }
 ]

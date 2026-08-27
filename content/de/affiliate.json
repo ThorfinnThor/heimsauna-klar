@@ -105,6 +105,21 @@
       "advertiser_merchant_ids": ["wellness-point"],
       "url": "https://www.adcell.de/partnerprogramme/5351",
       "checked_at": "2026-08-26"
+    },
+    {
+      "id": "awin-tronitechnik",
+      "name": "TroniTechnik",
+      "network": "Awin",
+      "program_id": "16584",
+      "status": "candidate",
+      "focus": "Infrarotkabinen, Saunen und Wellnessprodukte; besonders relevant für den Ausbau der Infrarot-Kategorie.",
+      "commission_snapshot": "3 % pro Sale laut Advertiser-Profil",
+      "cookie_days": 30,
+      "direct_linking": true,
+      "tracking_hosts": [],
+      "advertiser_merchant_ids": ["tronitechnik"],
+      "url": "https://ui.awin.com/merchant-profile/16584",
+      "checked_at": "2026-08-27"
     }
   ]
 }

@@ -3131,4 +3131,158 @@
     "status": "verified",
     "notes": "Morzh-Produktseite mit Preis, bis 10 Personen, Maßen und Holzofenbetrieb; am 2026-08-26 geprüft."
   }
+,
+  {
+    "queue_id": "dewello-kenora-140",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-kenora-140cm-x-140cm/a-722",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-lakefield-pro-140",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-lakefield-pro-140x140cm/a-447",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-windsor-120",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/saunen/infrarotkabinen/tronitechnik-infrarotsauna-2-personen-infrarotkabine-sauna-keramikstrahler-bodenstrahler-120cm-x-100cm-x-190cm/a-348",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-kenora-130",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/infrarotkabine-kenora-130x105/a-720",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-kingston-130",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-kingston-130x105cm/a-485",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-ottawa-140",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-infrarotsauna-ottawa/a-497",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-calgary-90",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-infrarotsauna-calgary-90-x-90cm-mit-vollspektrumstrahler/a-490",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-saltcoats-120",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/infrarotkabine-saltcoats-120cm-x-120cm/a-495",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "tronitechnik-manila-140",
+    "manufacturer": "TroniTechnik",
+    "url": "https://www.tronitechnik.de/tronitechnik-infrarotkabine-manila-140x100/a-704",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-pierson-pro-135",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-pierson-pro-135x105cm/a-459",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-montreal-140",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-walnuss-sauna-montreal-140x140/a-494",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-haley-160",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-haley-160x160cm/a-358",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "tronitechnik-manila-120",
+    "manufacturer": "TroniTechnik",
+    "url": "https://www.tronitechnik.de/tronitechnik-infrarotkabine-manila-120x100/a-702",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-pierson-135",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-pierson-135x105cm/a-351",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-pierson-90",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-pierson-90x90cm/a-387",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-toronto-102",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-102x102cm/a-394",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-toronto-127",
+    "manufacturer": "Dewello",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-127x106cm/a-395",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  }
 ]

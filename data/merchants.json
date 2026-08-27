@@ -108,5 +108,16 @@
       "program_id": null
     },
     "candidate_program_ids": []
+  },
+  {
+    "id": "tronitechnik",
+    "name": "TroniTechnik",
+    "kind": "retailer",
+    "allowed_hosts": ["tronitechnik.de"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": ["awin-tronitechnik"]
   }
 ]
