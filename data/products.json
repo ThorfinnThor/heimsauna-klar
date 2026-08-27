@@ -30324,5 +30324,87 @@
       }
     ],
     "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "mobiba-rb-200-k5-sp-zhiga-3",
+    "brand": "Mobiba",
+    "model": "RB-200/K5 SP + Zhiga-3",
+    "family": null,
+    "category": "tent",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 200,
+      "depth": 200,
+      "height": 170
+    },
+    "people": {
+      "min": 2,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "wood",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Das Set enthält den dampferzeugenden Holzofen Zhiga-3; eine elektrische Anschlussleistung ist nicht ausgewiesen."
+    },
+    "sauna": {
+      "type": "Russische Banja",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Dampferzeugender Holzofen Zhiga-3",
+      "max_temp_c": 110,
+      "heat_up_time_min": null,
+      "wood_type": "Rucksack-Saunazelt"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Mobiba Deutschland",
+          "price": 880,
+          "availability": "in-stock",
+          "url": "https://mobibadeutschland.de/zeltsauna-rucksacksauna-rb-200-k5-sp-ofen-zhiga-3",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "200 × 200 × 170 cm und 2 bis 4 Personen bei 15,8 kg Transportgewicht laut Produktseite.",
+        "Der Zhiga-3-Holzofen bietet Dampferzeugung und ein größeres Ofenset als die Zhiga-2-Variante.",
+        "GKF-Gestänge, Schwingtür mit Thermoschleuse und abnehmbares Fenster sind dokumentiert."
+      ],
+      "cons": [
+        "Die kompakte Höhe von 170 cm begrenzt die Stehreserve.",
+        "Der Holzofen verlangt einen sicheren Outdoor-Aufbau mit Rauchrohr- und Brandschutzabständen.",
+        "Die Quelle weist auf ein größeres Transportmaß gegenüber Zhiga-2 hin."
+      ],
+      "ideal_for": [
+        "Zwei bis vier Personen bei mobilen Touren und Camping.",
+        "Outdoor-Nutzer, die mehr Ofen- und Dampfleistung als beim Zhiga-2-Set suchen.",
+        "Stellplätze ohne festen Elektroanschluss."
+      ],
+      "not_for": [
+        "Innenräume ohne genehmigte Rauchgas- und Brandschutzlösung.",
+        "Nutzer, die eine hohe Stehhöhe oder feste Liegeplätze erwarten.",
+        "Touren, bei denen minimales Packmaß wichtiger ist als Ofenleistung."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der Produktseite von Mobiba Deutschland; keine eigene Nutzung oder Montageprüfung."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Mobiba Deutschland – Rucksacksauna RB-200/K5 SP mit Zhiga-3",
+        "url": "https://mobibadeutschland.de/zeltsauna-rucksacksauna-rb-200-k5-sp-ofen-zhiga-3",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
   }
 ]
