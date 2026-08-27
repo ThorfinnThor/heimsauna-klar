@@ -30078,5 +30078,251 @@
       }
     ],
     "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "saunazeltpro-panorama-210-set",
+    "brand": "SaunaZeltPro",
+    "model": "Panorama 210 Preisvorteil-Set",
+    "family": null,
+    "category": "tent",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 210,
+      "depth": 210,
+      "height": 210
+    },
+    "people": {
+      "min": 2,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "wood",
+      "kw": 11,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Das Set enthält den holzbefeuerten HitzeWerk-Ofen 1.5 GT; eine elektrische Anschlussleistung ist nicht ausgewiesen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Holzofen HitzeWerk 1.5 GT",
+      "max_temp_c": 100,
+      "heat_up_time_min": 30,
+      "wood_type": "3-Lagen-Saunazelt mit Panorama-Fenstern"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Mobiba Deutschland",
+          "price": 1500,
+          "availability": "in-stock",
+          "url": "https://mobibadeutschland.de/set-saunazeltpro-panorama-210-mit-ofen-hitzewerk-1.5-gt",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "210 × 210 × 210 cm Innenmaß und dokumentierte Kapazität für 2 bis 4 Personen.",
+        "Set aus Zelt, HitzeWerk-Ofen, Schornstein, 20 kg Saunasteinen und Transporttaschen.",
+        "Panorama-Fenster, zwei Eingänge und regulierbare Lüftungsöffnungen sind laut Produktseite vorgesehen."
+      ],
+      "cons": [
+        "Der Betrieb erfolgt mit trockenem Scheitholz; elektrische Anschlussdaten fehlen.",
+        "Ofen, Rauchrohr und Zelt erfordern einen sicheren, feuerfesten Aufbau mit ausreichender Belüftung.",
+        "Die angegebene Aufheizzeit hängt von Außentemperatur, Brennstoff und Aufbau ab."
+      ],
+      "ideal_for": [
+        "Garten- und Campingplätze mit sicherer Holzofen-Aufstellung.",
+        "Zwei bis vier Personen, die ein Komplettset suchen.",
+        "Mobile Nutzung mit schnellerem Aufbau als bei einer festen Kabine."
+      ],
+      "not_for": [
+        "Innenräume oder Stellplätze ohne geeignete Rauchgas- und Brandschutzlösung.",
+        "Haushalte, die ausschließlich elektrisch heizen möchten.",
+        "Aufstellorte ohne ebenen, trockenen und ausreichend großen Untergrund."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der Produktseite von Mobiba Deutschland; keine eigene Nutzung oder Montageprüfung."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Mobiba Deutschland – SaunaZeltPro Panorama 210 mit HitzeWerk 1.5 GT",
+        "url": "https://mobibadeutschland.de/set-saunazeltpro-panorama-210-mit-ofen-hitzewerk-1.5-gt",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "mobiba-rb-200-k5-sp-zhiga-2",
+    "brand": "Mobiba",
+    "model": "RB-200/K5 SP + Zhiga-2",
+    "family": null,
+    "category": "tent",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 200,
+      "depth": 200,
+      "height": 170
+    },
+    "people": {
+      "min": 2,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "wood",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Das Set enthält den dampferzeugenden Holzofen Zhiga-2; eine elektrische Anschlussleistung ist nicht ausgewiesen."
+    },
+    "sauna": {
+      "type": "Russische Banja",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Dampferzeugender Holzofen Zhiga-2",
+      "max_temp_c": 110,
+      "heat_up_time_min": null,
+      "wood_type": "Rucksack-Saunazelt"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Mobiba Deutschland",
+          "price": 935,
+          "availability": "preorder-listed",
+          "url": "https://mobibadeutschland.de/zeltsauna-rucksacksauna-rb-200-k5-sp-ofen-zhiga-2",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Kompakte 200 × 200 cm Grundfläche und 14,5 kg Transportgewicht laut Produktseite.",
+        "Zhiga-2 kombiniert Holzofen, Dampferzeugung und Wasserbehälter in einer transportablen Einheit.",
+        "Schwingtür, Thermoschleuse und abnehmbares 67 × 67 cm Fenster sind dokumentiert."
+      ],
+      "cons": [
+        "Die Quelle führt eine Vorbestell-Lieferzeit von bis zu zwei Monaten.",
+        "Holzofenbetrieb und Rauchrohrdurchführung verlangen einen sicheren Outdoor-Aufbau.",
+        "Die kompakte Höhe von 170 cm ist für große Nutzer weniger komfortabel."
+      ],
+      "ideal_for": [
+        "Mobile Nutzung bei Camping, Trekking oder schwer zugänglichen Stellplätzen.",
+        "Zwei bis vier Personen mit Wunsch nach höherer Luftfeuchte.",
+        "Outdoor-Projekte ohne festen Stromanschluss."
+      ],
+      "not_for": [
+        "Innenräume ohne genehmigte Rauchgas- und Brandschutzlösung.",
+        "Nutzer, die eine geräumige Stehhöhe oder feste Liegeflächen benötigen.",
+        "Spontane Käufe ohne Bereitschaft, die Vorbestellzeit zu berücksichtigen."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der Produktseite von Mobiba Deutschland; keine eigene Nutzung oder Montageprüfung."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Mobiba Deutschland – Rucksacksauna RB-200/K5 SP mit Zhiga-2",
+        "url": "https://mobibadeutschland.de/zeltsauna-rucksacksauna-rb-200-k5-sp-ofen-zhiga-2",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
+  },
+  {
+    "product_id": "mobiba-mb-18-22",
+    "brand": "Mobiba",
+    "model": "MB-18/22",
+    "family": null,
+    "category": "tent",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 300,
+      "depth": 200,
+      "height": 204
+    },
+    "people": {
+      "min": 2,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "wood",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die MB-18/22 ist für passende mobile Holzöfen vorgesehen; eine elektrische Anschlussleistung ist nicht ausgewiesen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Mobiler Holzofen",
+      "max_temp_c": 110,
+      "heat_up_time_min": 25,
+      "wood_type": "Oxford-240T-Zeltplane"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Mobiba Deutschland",
+          "price": 779,
+          "availability": "preorder-listed",
+          "url": "https://mobibadeutschland.de/saunazelt-mobiba-mb-18-22",
+          "affiliate": false,
+          "last_checked": "2026-08-27"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "3 × 2 m Grundfläche, bis zu 4 Personen und rund 11,3 kg Transportgewicht.",
+        "Die Produktseite nennt eine Schwingtür mit Thermoschleuse und ein rundes 123-cm-Panoramafenster.",
+        "Die Konstruktion kann mit passenden Mobiba-Zeltöfen als Sauna betrieben werden."
+      ],
+      "cons": [
+        "Das Modell wird mit einer Vorbestell-Lieferzeit von bis zu zwei Monaten geführt.",
+        "Ein Ofen ist nicht im Grundpreis enthalten; die passende Ofenauswahl muss separat geprüft werden.",
+        "Für den Betrieb sind Rauchrohr, Abstände, Belüftung und feuerfester Untergrund zu planen."
+      ],
+      "ideal_for": [
+        "Camper und Outdoor-Nutzer mit Bedarf an mehr Grundfläche.",
+        "Bis zu vier Personen, die eine mobile Sauna auch mit Liegebank nutzen möchten.",
+        "Garten- oder Reiseaufstellungen ohne feste Kabine."
+      ],
+      "not_for": [
+        "Innenräume ohne geeignete Abgas- und Brandschutzlösung.",
+        "Käufer, die ein vollständiges Zelt-Ofen-Komplettset erwarten.",
+        "Aufstellorte ohne ebenen, trockenen und ausreichend großen Untergrund."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung auf Basis der Produktseite von Mobiba Deutschland; keine eigene Nutzung oder Montageprüfung."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Mobiba Deutschland – Saunazelt MB-18/22",
+        "url": "https://mobibadeutschland.de/saunazelt-mobiba-mb-18-22",
+        "checked_at": "2026-08-27"
+      }
+    ],
+    "updated_at": "2026-08-27"
   }
 ]

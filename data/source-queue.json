@@ -3284,5 +3284,32 @@
     "target_voltage": 230,
     "status": "verified",
     "notes": "Produktseite mit Abmessungen, Personenangabe und expliziter 230-V-Anschlussangabe; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "saunazeltpro-panorama-210-set",
+    "manufacturer": "SaunaZeltPro",
+    "url": "https://mobibadeutschland.de/set-saunazeltpro-panorama-210-mit-ofen-hitzewerk-1.5-gt",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Produktseite mit 210 × 210 × 210 cm, 2–4 Personen, 1.500 EUR und HitzeWerk-Holzofen; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "mobiba-rb-200-k5-sp-zhiga-2",
+    "manufacturer": "Mobiba Deutschland",
+    "url": "https://mobibadeutschland.de/zeltsauna-rucksacksauna-rb-200-k5-sp-ofen-zhiga-2",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Produktseite mit 200 × 200 × 170 cm, 2–4 Personen, 935 EUR und Zhiga-2-Holzofen; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "mobiba-mb-18-22",
+    "manufacturer": "Mobiba Deutschland",
+    "url": "https://mobibadeutschland.de/saunazelt-mobiba-mb-18-22",
+    "target_category": "tent",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Produktseite mit 300 × 200 × 204 cm, bis 4 Personen, 779 EUR und passenden mobilen Holzöfen; am 2026-08-27 geprüft."
   }
 ]
