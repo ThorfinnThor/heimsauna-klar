@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-26",
+  "updated_at": "2026-08-27",
   "scope": "data/products.json",
   "method": "Only assign a voltage when the exact manufacturer configuration states it. Do not infer 400 V from heater power alone.",
   "snapshot": {
-    "products": 370,
+    "products": 377,
     "explicit_voltage": {
       "120": 0,
-      "230": 58,
+      "230": 65,
       "400": 2
     },
     "voltage_not_assigned": 296,

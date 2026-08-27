@@ -3320,5 +3320,68 @@
     "target_voltage": "wood",
     "status": "verified",
     "notes": "Produktseite mit 200 × 200 × 170 cm, 2–4 Personen, 880 EUR und Zhiga-3-Holzofen; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-melville-130",
+    "manufacturer": "TroniTechnik",
+    "url": "https://www.tronitechnik.de/infrarotkabine-melville-130x105-dual-therm/a-687",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit 130 × 105 × 190 cm, 1–2 Personen, 2.168 W und 230-V-Steckdose; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-hamlin-90",
+    "manufacturer": "TroniTechnik",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-hamlin-90x90cm/a-381",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit 90 × 90 × 190 cm, einer Person, 1.360 W und 230-V-Steckdose; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-milton-90",
+    "manufacturer": "TroniTechnik",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-milton-90x90cm/a-440",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit 90 × 90 × 190 cm, einer Person, 1.360 W und 230-V-Steckdose; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-lakefield-120",
+    "manufacturer": "TroniTechnik",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-lakefield-120x120cm/a-350",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit 120 × 120 × 190 cm, 1–2 Personen, 2.050 W und 230-V-Steckdose; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-kenora-160",
+    "manufacturer": "TroniTechnik",
+    "url": "https://www.tronitechnik.de/infrarotkabine-kenora-150x120/a-721",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit 160 × 120 × 190 cm, 1–3 Personen, 2.840 W und 230-V-Steckdose; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-toronto-160",
+    "manufacturer": "TroniTechnik",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-160x110cm/a-396",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Technische Daten mit 160 × 110 × 190 cm, 1–3 Personen, 2.530 W und 230-V-Steckdose; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "dewello-calgary-115",
+    "manufacturer": "TroniTechnik",
+    "url": "https://www.tronitechnik.de/dewello-infrarotkabine-infrarotsauna-calgary-115-x-105cm-vollspektrumstrahler/a-491",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Produktseite mit 115 × 105 × 190 cm, 1–2 Personen, 1.600 W und 230-V-Steckdose; am 2026-08-27 geprüft."
   }
 ]

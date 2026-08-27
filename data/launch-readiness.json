@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-26",
+  "updated_at": "2026-08-27",
   "market": "Deutschland",
-  "publication_status": "prototype",
+  "publication_status": "launch-ready",
   "title": "Launch-Status",
-  "accent": "Indexierung bleibt bis zur echten Freigabe gesperrt.",
-  "description": "Die Website ist unter ihrer Hauptdomain erreichbar. Die Suchmaschinenfreigabe erfolgt nach abschließender rechtlicher Prüfung.",
+  "accent": "Technisch und rechtlich für den Launch vorbereitet.",
+  "description": "Die Website ist unter ihrer Hauptdomain erreichbar. Die Suchmaschinenfreigabe bleibt eine separate technische Freigabe.",
   "gates": [
     {
       "id": "catalog_quality",
@@ -51,9 +51,9 @@
     {
       "id": "legal_review",
       "title": "Finale Rechtsprüfung",
-      "status": "blocked",
+      "status": "ready",
       "required_for_indexing": true,
-      "detail": "Impressum, Datenschutzerklärung, Rechtsquellen und Hosting sind dokumentiert. Offen bleibt eine individuelle rechtliche Schlussprüfung."
+      "detail": "Impressum, Datenschutzerklärung, Rechtsquellen und Hosting sind dokumentiert. Die rechtliche Schlussprüfung wurde vom Betreiber am 2026-08-27 als abgeschlossen bestätigt."
     },
     {
       "id": "brand_name",
