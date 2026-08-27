@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import type { FinderFilters, Product } from "@/lib/products";
-import { findProductsForFinder, formatPower, formatPrice, formatVoltage, getLowestOffer } from "@/lib/products";
+import { findProductsForFinder, formatPower, formatPrice, formatVoltage, getLowestOffer, matchesProductPlace } from "@/lib/products";
 
 type CategoryFilter = "all" | "sauna" | "infrared";
 type PlaceFilter = "all" | "indoor" | "outdoor" | "mobile";
@@ -101,8 +101,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
           .some((value) => value.toLocaleLowerCase("de-DE").includes(normalizedQuery));
         const matchesCategory = category === "all"
           || (category === "infrared" ? product.category === "infrared" : product.category !== "infrared");
-        const matchesPlace = place === "all"
-          || (place === "mobile" ? product.category === "portable" || product.category === "tent" : product.sauna.indoor_outdoor === place);
+        const matchesPlace = place === "all" || matchesProductPlace(product, place);
         const matchesPower = power === "all"
           || (power === "not-stated" ? product.power.voltage === "none" : product.power.voltage === (power === "wood" ? "wood" : Number(power)));
 

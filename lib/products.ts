@@ -156,22 +156,21 @@ function getLowestPrice(product: Product) {
   return Math.min(...product.commercial.offers.map((offer) => offer.price));
 }
 
-function matchesFinderPlace(product: Product, filters: Pick<FinderFilters, "place">) {
-  const matchesPlace = filters.place === "mobile"
-    ? product.category === "portable" || product.category === "tent"
-    : product.sauna.indoor_outdoor === filters.place;
-  return matchesPlace;
+export function matchesProductPlace(product: Product, place: FinderFilters["place"]) {
+  if (place === "mobile") return product.category === "portable" || product.category === "tent";
+  if (place === "outdoor") return product.category === "outdoor";
+  return product.category === "indoor" || product.category === "infrared";
 }
 
 function matchesFinderPlaceAndHeat(product: Product, filters: Pick<FinderFilters, "place" | "heat">) {
-  if (!matchesFinderPlace(product, filters)) return false;
+  if (!matchesProductPlace(product, filters.place)) return false;
   if (filters.heat === "open") return true;
   const isInfrared = product.category === "infrared";
   return filters.heat === "infrared" ? isInfrared : !isInfrared;
 }
 
 export function hasFinderPlaceVariant(productList: Product[], place: FinderFilters["place"]) {
-  return productList.some((product) => matchesFinderPlace(product, { place }));
+  return productList.some((product) => matchesProductPlace(product, place));
 }
 
 export function hasFinderHeatVariant(
@@ -187,7 +186,7 @@ export function hasFinderPowerVariant(productList: Product[], filters: Pick<Find
 }
 
 function matchesFinderFilters(product: Product, filters: FinderFilters, ignored?: FinderRelaxation["key"]) {
-  if (!matchesFinderPlace(product, filters)) return false;
+  if (!matchesProductPlace(product, filters.place)) return false;
   if (ignored !== "heat" && filters.heat !== "open") {
     const isInfrared = product.category === "infrared";
     if (filters.heat === "infrared" ? !isInfrared : isInfrared) return false;
@@ -315,7 +314,7 @@ export function findProductsForFinder(productList: Product[], filters: FinderFil
     ? []
     : selectDiverseMatches(
       productList
-        .filter((product) => matchesFinderPlace(product, filters))
+        .filter((product) => matchesProductPlace(product, filters.place))
         .map((product) => {
           const footprintM2 = getFootprintM2(product);
           return {
