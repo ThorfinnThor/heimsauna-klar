@@ -17,6 +17,7 @@
     "seo:check": "node scripts/check-static-seo.mjs",
     "diversity:check": "node scripts/check-content-diversity.mjs",
     "security:check": "node scripts/check-security-headers.mjs",
+    "awin:discover": "node scripts/awin/discover-feeds.mjs",
     "test": "npm run data:check && npm run build"
   },
   "dependencies": {
