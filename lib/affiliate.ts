@@ -30,6 +30,10 @@ export type AffiliateProgram = {
 export const merchants = merchantData as Merchant[];
 export const affiliatePrograms = affiliateContent.programs as AffiliateProgram[];
 
+export type AffiliatePlacement = "product-detail" | "catalog" | "finder" | "comparison";
+
+const SAFE_TRACKING_REF = /^[a-z0-9][a-z0-9_-]{0,49}$/i;
+
 export function getMerchant(name: string) {
   return merchants.find((merchant) => merchant.name === name);
 }
@@ -48,16 +52,74 @@ export function getAffiliateStats() {
   const offers = products.flatMap((product) => product.commercial.offers);
   return {
     offerCount: offers.length,
-    affiliateOfferCount: offers.filter((offer) => offer.affiliate).length,
+    affiliateOfferCount: offers.filter((offer) => getActiveAffiliateProgram(offer) !== null).length,
     merchantCount: merchants.length,
     candidateProgramCount: affiliatePrograms.filter((program) => program.status === "candidate").length,
   };
 }
 
 export function getOfferDisclosure(offer: Product["commercial"]["offers"][number]) {
-  return offer.affiliate ? "Affiliate-Link" : "Kein Affiliate-Link";
+  return getActiveAffiliateProgram(offer) ? "Affiliate-Link" : "Kein Affiliate-Link";
 }
 
-export function getOfferHref(offer: Product["commercial"]["offers"][number]) {
-  return offer.affiliate && offer.affiliate_url ? offer.affiliate_url : offer.url;
+export function getOfferLink(
+  productId: string,
+  offer: Product["commercial"]["offers"][number],
+  placement: AffiliatePlacement = "product-detail",
+) {
+  const program = getActiveAffiliateProgram(offer);
+  if (!program || !offer.affiliate_url) {
+    return {
+      href: offer.url,
+      affiliate: false,
+    } as const;
+  }
+
+  return {
+    href: addNetworkTrackingRefs(offer.affiliate_url, program.network, productId, placement),
+    affiliate: true,
+  } as const;
+}
+
+function getActiveAffiliateProgram(offer: Product["commercial"]["offers"][number]) {
+  if (!offer.affiliate || !offer.affiliate_url || !offer.affiliate_program_id) return null;
+  const merchant = getMerchant(offer.merchant);
+  if (merchant?.affiliate.status !== "active" || merchant.affiliate.program_id !== offer.affiliate_program_id) return null;
+  const program = affiliatePrograms.find((candidate) => candidate.id === offer.affiliate_program_id);
+  return program?.status === "approved" ? program : null;
+}
+
+function addNetworkTrackingRefs(
+  href: string,
+  network: string,
+  productId: string,
+  placement: AffiliatePlacement,
+) {
+  try {
+    const url = new URL(href);
+    if (url.protocol !== "https:") return href;
+    const productRef = shortProductRef(productId);
+    const placementRef = safeTrackingRef(placement);
+    const normalizedNetwork = network.toLowerCase();
+
+    if (normalizedNetwork === "awin") {
+      url.searchParams.set("clickref", "sauna");
+      url.searchParams.set("clickref2", placementRef);
+      url.searchParams.set("clickref3", productRef);
+    } else if (normalizedNetwork === "adcell") {
+      url.searchParams.set("subId", `${placementRef}|${productRef}`);
+    }
+
+    return url.toString();
+  } catch {
+    return href;
+  }
+}
+
+function safeTrackingRef(value: string) {
+  return SAFE_TRACKING_REF.test(value) ? value : "product-detail";
+}
+
+function shortProductRef(productId: string) {
+  return productId.toLowerCase().replace(/[^a-z0-9]/g, "").slice(-24) || "product";
 }

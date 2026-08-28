@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
-import { getOfferDisclosure, getOfferHref } from "@/lib/affiliate";
+import { getOfferDisclosure, getOfferLink } from "@/lib/affiliate";
 import { createPageMetadata } from "@/lib/metadata";
 import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
@@ -78,24 +78,27 @@ export default async function ProductPage({ params }: Props) {
               <strong>{formatPrice(product)}</strong>
               {offers.length > 0 ? (
                 <div className="product-offer-list">
-                  {offers.map((offer) => (
-                    <div className="product-offer" key={`${offer.merchant}-${offer.url}`}>
-                      <div>
-                        <b>{offer.merchant}</b>
-                        {offer.configuration ? <span>{offer.configuration}</span> : null}
-                        <span>{formatOfferPrice(offer, product.commercial.currency)} · Stand {formatGermanDate(offer.last_checked)}</span>
+                  {offers.map((offer) => {
+                    const offerLink = getOfferLink(product.product_id, offer);
+                    return (
+                      <div className="product-offer" key={`${offer.merchant}-${offer.url}`}>
+                        <div>
+                          <b>{offer.merchant}</b>
+                          {offer.configuration ? <span>{offer.configuration}</span> : null}
+                          <span>{formatOfferPrice(offer, product.commercial.currency)} · Stand {formatGermanDate(offer.last_checked)}</span>
+                        </div>
+                        <a
+                          href={offerLink.href}
+                          rel={offerLink.affiliate ? "sponsored nofollow noreferrer" : "nofollow noreferrer"}
+                          target="_blank"
+                        >
+                          {offer.selection_required ? "Konfigurator öffnen ↗" : "Angebot öffnen ↗"}
+                        </a>
+                        {offer.selection_required ? <span className="product-offer-note">Konfiguration im Shop erneut auswählen und Preis prüfen.</span> : null}
+                        <em>{getOfferDisclosure(offer)}</em>
                       </div>
-                      <a
-                        href={getOfferHref(offer)}
-                        rel={offer.affiliate ? "sponsored nofollow noreferrer" : "nofollow noreferrer"}
-                        target="_blank"
-                      >
-                        {offer.selection_required ? "Konfigurator öffnen ↗" : "Angebot öffnen ↗"}
-                      </a>
-                      {offer.selection_required ? <span className="product-offer-note">Konfiguration im Shop erneut auswählen und Preis prüfen.</span> : null}
-                      <em>{getOfferDisclosure(offer)}</em>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               ) : (
                 <>
