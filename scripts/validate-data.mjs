@@ -8,6 +8,7 @@ const legal = JSON.parse(await readFile(new URL("../content/de/legal.json", impo
 const affiliatePolicy = JSON.parse(await readFile(new URL("../content/de/affiliate.json", import.meta.url), "utf8"));
 const merchants = JSON.parse(await readFile(new URL("../data/merchants.json", import.meta.url), "utf8"));
 const launchReadiness = JSON.parse(await readFile(new URL("../data/launch-readiness.json", import.meta.url), "utf8"));
+const sitePublication = JSON.parse(await readFile(new URL("../data/site-publication.json", import.meta.url), "utf8"));
 const planningGuides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
 const planningNavigation = JSON.parse(await readFile(new URL("../content/de/planning-navigation.json", import.meta.url), "utf8"));
 const pagePresentations = JSON.parse(await readFile(new URL("../content/de/page-presentations.json", import.meta.url), "utf8"));
@@ -81,6 +82,13 @@ if (!launchReadiness.title || launchReadiness.market !== "Deutschland" || !Array
   throw new Error("data/launch-readiness.json must contain the German launch gate registry");
 }
 assertIsoDate(launchReadiness.updated_at, "Launch readiness updated_at");
+assertIsoDate(sitePublication.updated_at, "Site publication updated_at");
+assertHttpsUrl(sitePublication.production_url, "Site publication production URL");
+if (sitePublication.production_url.endsWith("/")) throw new Error("Site publication production URL must not end with a slash");
+if (typeof sitePublication.indexing_enabled !== "boolean") throw new Error("Site publication indexing_enabled must be a boolean");
+if (process.env.SITE_INDEXABLE !== undefined && !["true", "false"].includes(process.env.SITE_INDEXABLE)) {
+  throw new Error("SITE_INDEXABLE override must be true or false");
+}
 if (!["prototype", "launch-ready"].includes(launchReadiness.publication_status)) {
   throw new Error("Launch readiness has an invalid publication status");
 }
@@ -679,10 +687,13 @@ for (const reference of legal.references) {
   assertHttpsUrl(reference.url, `Legal reference URL for ${reference.title}`);
   assertIsoDate(reference.checked_at, `Legal reference date for ${reference.title}`);
 }
-if (process.env.SITE_INDEXABLE === "true" && blockingLaunchGates.length > 0) {
+const indexingRequested = process.env.SITE_INDEXABLE === undefined
+  ? sitePublication.indexing_enabled
+  : process.env.SITE_INDEXABLE === "true";
+if (indexingRequested && blockingLaunchGates.length > 0) {
   throw new Error(`SITE_INDEXABLE cannot be enabled while launch gates are open: ${blockingLaunchGates.map((gate) => gate.id).join(", ")}`);
 }
-if (process.env.SITE_INDEXABLE === "true" && !/^\S+@\S+\.\S+$/.test(legal.impressum?.email ?? "")) {
+if (indexingRequested && !/^\S+@\S+\.\S+$/.test(legal.impressum?.email ?? "")) {
   throw new Error("SITE_INDEXABLE cannot be enabled without a confirmed legal contact email");
 }
 if (affiliateOfferCount > 0 && legal.affiliate?.intro?.includes("nicht affiliiert")) {

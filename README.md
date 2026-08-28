@@ -54,7 +54,7 @@ directly at `out/` and deliberately has no Worker `main` entry point.
 `npm run deploy:cloudflare` builds and uploads the static assets when a Cloudflare
 login is available.
 
-Set `NEXT_PUBLIC_SITE_URL=https://selectyoursauna.com` in the Cloudflare Worker build variables. The same domain is the checked-in production fallback. Indexing is a separate launch gate: pages remain `noindex` and `robots.txt` blocks crawling until `SITE_INDEXABLE=true` is explicitly set and every required entry in `data/launch-readiness.json` is `ready`. The data check rejects an indexable build while a legal contact address or launch blocker remains.
+The canonical production URL and the reviewed indexing decision live in `data/site-publication.json`. This keeps the static publication state versioned and reviewable. `NEXT_PUBLIC_SITE_URL` and `SITE_INDEXABLE` remain optional build-time overrides; non-production Cloudflare branches are forced to `noindex`. Every required entry in `data/launch-readiness.json` must still be `ready`, and the data check rejects an indexable build while a legal contact address or launch blocker remains.
 
 ## Next product slice
 
@@ -62,4 +62,4 @@ Set `NEXT_PUBLIC_SITE_URL=https://selectyoursauna.com` in the Cloudflare Worker 
 2. Complete the individual legal review and mark the corresponding launch gates as ready.
 3. Apply to a suitable German partner program; map approved tracking links only after acceptance.
 4. Add source-specific ingestion only after a stable feed exists; generated pull requests are preferred over direct production writes.
-5. Enable indexing only after the final gate audit passes on the canonical domain.
+5. Monitor the indexed launch and submit the generated sitemap to the selected search consoles.
