@@ -25,13 +25,17 @@ export function normalizeMerchantUrl(raw) {
   }
 }
 
-export function normalizeAffiliateUrl(raw) {
+export function normalizeAffiliateUrl(raw, advertiserId) {
   try {
     const url = new URL(raw);
     const host = url.hostname.replace(/^www\./, "").toLowerCase();
     if (url.protocol !== "https:" || url.username || url.password || url.port || !AWIN_TRACKING_HOSTS.has(host)) {
       return undefined;
     }
+    const linkedAdvertiserId = url.searchParams.get("m") ?? url.searchParams.get("awinmid");
+    const publisherId = url.searchParams.get("a") ?? url.searchParams.get("awinaffid");
+    if (advertiserId && linkedAdvertiserId !== advertiserId) return undefined;
+    if (!/^\d+$/.test(linkedAdvertiserId ?? "") || !/^\d+$/.test(publisherId ?? "")) return undefined;
     return url.toString();
   } catch {
     return undefined;
@@ -56,7 +60,7 @@ function feedAffiliateUrl(row) {
   return field(row, "aw_deep_link", "aw deep link", "affiliate_url", "affiliate url", "tracking_url", "tracking url");
 }
 
-export function matchExactOffers(products, { merchantName, merchantId, programId }, rows) {
+export function matchExactOffers(products, { merchantName, merchantId, programId, advertiserId }, rows) {
   const offersByUrl = new Map();
   for (const product of products) {
     for (const [offerIndex, offer] of product.commercial.offers.entries()) {
@@ -73,7 +77,7 @@ export function matchExactOffers(products, { merchantName, merchantId, programId
   for (const row of rows) {
     const merchantUrl = normalizeMerchantUrl(feedMerchantUrl(row));
     if (!merchantUrl || !offersByUrl.has(merchantUrl)) continue;
-    const affiliateUrl = normalizeAffiliateUrl(feedAffiliateUrl(row));
+    const affiliateUrl = normalizeAffiliateUrl(feedAffiliateUrl(row), advertiserId);
     if (!affiliateUrl) {
       invalidTrackingLinks += 1;
       continue;

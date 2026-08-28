@@ -54,6 +54,7 @@ for (const target of targets) {
     merchantName: merchant.name,
     merchantId: target.merchantId,
     programId,
+    advertiserId: target.advertiserId,
   }, advertiserRows);
   allMatches.push(...result.matches);
   targetReports.push({

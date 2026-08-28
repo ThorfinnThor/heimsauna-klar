@@ -505,6 +505,14 @@ for (const product of products) {
       if (!program.tracking_hosts.includes(trackingHost)) {
         throw new Error(`${product.product_id} uses unapproved affiliate tracking host ${trackingHost}`);
       }
+      if (program.network.toLowerCase() === "awin") {
+        const trackingUrl = new URL(offer.affiliate_url);
+        const advertiserId = trackingUrl.searchParams.get("m") ?? trackingUrl.searchParams.get("awinmid");
+        const publisherId = trackingUrl.searchParams.get("a") ?? trackingUrl.searchParams.get("awinaffid");
+        if (advertiserId !== program.program_id || !/^\d+$/.test(publisherId ?? "")) {
+          throw new Error(`${product.product_id} has an Awin link with an invalid publisher or advertiser id`);
+        }
+      }
     } else if (offer.affiliate_url !== undefined || offer.affiliate_program_id !== undefined) {
       throw new Error(`${product.product_id} has tracking fields on a non-affiliate offer`);
     }

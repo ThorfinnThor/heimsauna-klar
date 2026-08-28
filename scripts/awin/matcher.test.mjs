@@ -27,7 +27,7 @@ test("affiliate activation requires an exact canonical merchant URL", () => {
     product_id: "artsauna-kiruna-120",
     commercial: { offers: [{ merchant: "Artsauna", url: "https://artsauna.de/products/infrarotkabine-kiruna-120", affiliate: false }] },
   }];
-  const target = { merchantName: "Artsauna", merchantId: "artsauna", programId: "awin-artsauna" };
+  const target = { merchantName: "Artsauna", merchantId: "artsauna", programId: "awin-artsauna", advertiserId: "100" };
   const exact = matchExactOffers(products, target, [{
     merchant_deep_link: "https://www.artsauna.de/products/infrarotkabine-kiruna-120/?variant=1",
     aw_deep_link: "https://www.awin1.com/cread.php?awinmid=100&awinaffid=3037577",
@@ -43,8 +43,10 @@ test("affiliate activation requires an exact canonical merchant URL", () => {
 });
 
 test("tracking links are restricted to Awin HTTPS hosts", () => {
-  assert.ok(normalizeAffiliateUrl("https://www.awin1.com/cread.php?x=1"));
-  assert.equal(normalizeAffiliateUrl("http://www.awin1.com/cread.php?x=1"), undefined);
-  assert.equal(normalizeAffiliateUrl("https://example.com/cread.php?x=1"), undefined);
+  assert.ok(normalizeAffiliateUrl("https://www.awin1.com/cread.php?awinmid=100&awinaffid=3037577", "100"));
+  assert.equal(normalizeAffiliateUrl("https://www.awin1.com/cread.php?awinmid=999&awinaffid=3037577", "100"), undefined);
+  assert.equal(normalizeAffiliateUrl("https://www.awin1.com/cread.php?awinmid=100", "100"), undefined);
+  assert.equal(normalizeAffiliateUrl("http://www.awin1.com/cread.php?awinmid=100&awinaffid=3037577", "100"), undefined);
+  assert.equal(normalizeAffiliateUrl("https://example.com/cread.php?awinmid=100&awinaffid=3037577", "100"), undefined);
   assert.equal(normalizeMerchantUrl("https://www.homedeluxe.de/example/?x=1#y"), "https://homedeluxe.de/example");
 });
