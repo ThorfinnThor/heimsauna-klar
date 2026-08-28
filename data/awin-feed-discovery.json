@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-28T14:29:31.703Z",
+  "source": "Awin authenticated product feed list",
+  "secret_included": false,
+  "advertisers": [
+    {
+      "merchant_id": "artsauna",
+      "expected_name": "Artsauna",
+      "status": "found",
+      "advertiser_id": "106021",
+      "advertiser_names": [
+        "Artsauna DE"
+      ],
+      "feeds": [
+        {
+          "membershipStatus": "active",
+          "feedId": "97646",
+          "feedName": "Default",
+          "language": "German",
+          "lastUpdated": null,
+          "productCount": null
+        }
+      ]
+    },
+    {
+      "merchant_id": "home-deluxe",
+      "expected_name": "Home Deluxe",
+      "status": "found",
+      "advertiser_id": "43199",
+      "advertiser_names": [
+        "Home Deluxe DE"
+      ],
+      "feeds": [
+        {
+          "membershipStatus": "active",
+          "feedId": "84368",
+          "feedName": "Default",
+          "language": "German",
+          "lastUpdated": null,
+          "productCount": null
+        }
+      ]
+    }
+  ]
+}

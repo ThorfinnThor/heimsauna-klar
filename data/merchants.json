@@ -3,7 +3,10 @@
     "id": "karibu",
     "name": "Karibu",
     "kind": "manufacturer",
-    "allowed_hosts": ["karibu.de", "en.karibu.de"],
+    "allowed_hosts": [
+      "karibu.de",
+      "en.karibu.de"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
@@ -14,7 +17,9 @@
     "id": "harvia",
     "name": "Harvia",
     "kind": "manufacturer",
-    "allowed_hosts": ["shop.harvia.com"],
+    "allowed_hosts": [
+      "shop.harvia.com"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
@@ -25,7 +30,9 @@
     "id": "weka",
     "name": "WEKA",
     "kind": "manufacturer",
-    "allowed_hosts": ["weka-holzbau.com"],
+    "allowed_hosts": [
+      "weka-holzbau.com"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
@@ -36,62 +43,84 @@
     "id": "mein-saunashop",
     "name": "Mein-Saunashop",
     "kind": "retailer",
-    "allowed_hosts": ["mein-saunashop.de"],
+    "allowed_hosts": [
+      "mein-saunashop.de"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
     },
-    "candidate_program_ids": ["adcell-mein-saunashop"]
+    "candidate_program_ids": [
+      "adcell-mein-saunashop"
+    ]
   },
   {
     "id": "koempf24",
     "name": "KÖMPF24",
     "kind": "retailer",
-    "allowed_hosts": ["koempf24.de"],
+    "allowed_hosts": [
+      "koempf24.de"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
     },
-    "candidate_program_ids": ["adcell-koempf24"]
+    "candidate_program_ids": [
+      "adcell-koempf24"
+    ]
   },
   {
     "id": "sauna24",
     "name": "Sauna24",
     "kind": "retailer",
-    "allowed_hosts": ["sauna24.de"],
+    "allowed_hosts": [
+      "sauna24.de"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
     },
-    "candidate_program_ids": ["adcell-sauna24"]
+    "candidate_program_ids": [
+      "adcell-sauna24"
+    ]
   },
   {
     "id": "gartenhausplus",
     "name": "GartenhausPlus.de",
     "kind": "retailer",
-    "allowed_hosts": ["gartenhausplus.de"],
+    "allowed_hosts": [
+      "gartenhausplus.de"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
     },
-    "candidate_program_ids": ["adcell-gartenhausplus"]
+    "candidate_program_ids": [
+      "adcell-gartenhausplus"
+    ]
   },
   {
     "id": "wellness-point",
     "name": "Wellness-Point",
     "kind": "retailer",
-    "allowed_hosts": ["wellness-point.com"],
+    "allowed_hosts": [
+      "wellness-point.com"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
     },
-    "candidate_program_ids": ["adcell-wellness-point"]
+    "candidate_program_ids": [
+      "adcell-wellness-point"
+    ]
   },
   {
     "id": "mobiba-deutschland",
     "name": "Mobiba Deutschland",
     "kind": "retailer",
-    "allowed_hosts": ["mobibadeutschland.de"],
+    "allowed_hosts": [
+      "mobibadeutschland.de"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
@@ -102,7 +131,9 @@
     "id": "morzh-deutschland",
     "name": "Morzh Deutschland",
     "kind": "retailer",
-    "allowed_hosts": ["morzh.de"],
+    "allowed_hosts": [
+      "morzh.de"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
@@ -113,33 +144,46 @@
     "id": "tronitechnik",
     "name": "TroniTechnik",
     "kind": "retailer",
-    "allowed_hosts": ["tronitechnik.de"],
+    "allowed_hosts": [
+      "tronitechnik.de"
+    ],
     "affiliate": {
       "status": "inactive",
       "program_id": null
     },
-    "candidate_program_ids": ["awin-tronitechnik"]
+    "candidate_program_ids": [
+      "awin-tronitechnik"
+    ]
   },
   {
     "id": "artsauna",
     "name": "Artsauna",
     "kind": "retailer",
-    "allowed_hosts": ["artsauna.de"],
+    "allowed_hosts": [
+      "artsauna.de"
+    ],
     "affiliate": {
-      "status": "inactive",
-      "program_id": null
+      "status": "active",
+      "program_id": "awin-artsauna"
     },
-    "candidate_program_ids": []
+    "candidate_program_ids": [
+      "awin-artsauna"
+    ]
   },
   {
     "id": "home-deluxe",
     "name": "Home Deluxe",
     "kind": "manufacturer",
-    "allowed_hosts": ["homedeluxe.de", "manuals.homedeluxe.de"],
+    "allowed_hosts": [
+      "homedeluxe.de",
+      "manuals.homedeluxe.de"
+    ],
     "affiliate": {
-      "status": "inactive",
-      "program_id": null
+      "status": "active",
+      "program_id": "awin-home-deluxe"
     },
-    "candidate_program_ids": []
+    "candidate_program_ids": [
+      "awin-home-deluxe"
+    ]
   }
 ]

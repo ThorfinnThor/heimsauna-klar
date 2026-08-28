@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-28T14:29:31.703Z",
+  "source": "Awin authenticated product feeds",
+  "secret_included": false,
+  "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
+  "products_total": 432,
+  "newly_matched_offers": 48,
+  "active_affiliate_offers": 48,
+  "targets": [
+    {
+      "merchant_id": "artsauna",
+      "advertiser_id": "106021",
+      "advertiser_name": "Artsauna DE",
+      "feed_id": "97646",
+      "feed_name": "Default",
+      "feed_rows": 57,
+      "catalog_offers": 15,
+      "exact_matches": 15,
+      "invalid_tracking_links": 0,
+      "unmatched_product_ids": []
+    },
+    {
+      "merchant_id": "home-deluxe",
+      "advertiser_id": "43199",
+      "advertiser_name": "Home Deluxe DE",
+      "feed_id": "84368",
+      "feed_name": "Default",
+      "feed_rows": 4359,
+      "catalog_offers": 34,
+      "exact_matches": 33,
+      "invalid_tracking_links": 0,
+      "unmatched_product_ids": [
+        "home-deluxe-shadow-m"
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-26",
-  "current_status": "inactive",
+  "updated_at": "2026-08-28",
+  "current_status": "active",
   "title": "Affiliate-Transparenz",
-  "accent": "Aktuell sind 0 Affiliate-Links aktiv.",
-  "description": "Herstellerquellen bleiben unverändert. Vergütete Händlerlinks werden erst nach Programmfreigabe und exakter Produktzuordnung ergänzt.",
+  "accent": "48 Affiliate-Links sind aktiv.",
+  "description": "Vergütete Awin-Links werden nur für exakt zugeordnete Händlerangebote eingesetzt. Herstellerquellen, Produktauswahl und Sortierung bleiben davon unabhängig.",
   "principles": [
     {
       "title": "Herstellerquelle",
@@ -42,7 +42,9 @@
       "cookie_days": 60,
       "direct_linking": true,
       "tracking_hosts": [],
-      "advertiser_merchant_ids": ["mein-saunashop"],
+      "advertiser_merchant_ids": [
+        "mein-saunashop"
+      ],
       "url": "https://www.adcell.de/partnerprogramme/mein-saunashop",
       "checked_at": "2026-08-26"
     },
@@ -57,7 +59,9 @@
       "cookie_days": 30,
       "direct_linking": true,
       "tracking_hosts": [],
-      "advertiser_merchant_ids": ["koempf24"],
+      "advertiser_merchant_ids": [
+        "koempf24"
+      ],
       "url": "https://www.adcell.de/partnerprogramme/11202",
       "checked_at": "2026-08-26"
     },
@@ -72,7 +76,9 @@
       "cookie_days": 90,
       "direct_linking": true,
       "tracking_hosts": [],
-      "advertiser_merchant_ids": ["sauna24"],
+      "advertiser_merchant_ids": [
+        "sauna24"
+      ],
       "url": "https://www.adcell.de/partnerprogramme/sauna24",
       "checked_at": "2026-08-26"
     },
@@ -87,7 +93,9 @@
       "cookie_days": 75,
       "direct_linking": true,
       "tracking_hosts": [],
-      "advertiser_merchant_ids": ["gartenhausplus"],
+      "advertiser_merchant_ids": [
+        "gartenhausplus"
+      ],
       "url": "https://www.adcell.de/partnerprogramme/1902",
       "checked_at": "2026-08-26"
     },
@@ -102,7 +110,9 @@
       "cookie_days": 60,
       "direct_linking": true,
       "tracking_hosts": [],
-      "advertiser_merchant_ids": ["wellness-point"],
+      "advertiser_merchant_ids": [
+        "wellness-point"
+      ],
       "url": "https://www.adcell.de/partnerprogramme/5351",
       "checked_at": "2026-08-26"
     },
@@ -117,9 +127,49 @@
       "cookie_days": 30,
       "direct_linking": true,
       "tracking_hosts": [],
-      "advertiser_merchant_ids": ["tronitechnik"],
+      "advertiser_merchant_ids": [
+        "tronitechnik"
+      ],
       "url": "https://ui.awin.com/merchant-profile/16584",
       "checked_at": "2026-08-27"
+    },
+    {
+      "id": "awin-artsauna",
+      "name": "Artsauna",
+      "network": "Awin",
+      "program_id": "106021",
+      "status": "approved",
+      "focus": "Infrarotkabinen sowie Indoor- und Outdoor-Saunen von Artsauna.",
+      "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
+      "cookie_days": null,
+      "direct_linking": true,
+      "tracking_hosts": [
+        "awin1.com"
+      ],
+      "advertiser_merchant_ids": [
+        "artsauna"
+      ],
+      "url": "https://ui.awin.com/merchant-profile/106021",
+      "checked_at": "2026-08-28"
+    },
+    {
+      "id": "awin-home-deluxe",
+      "name": "Home Deluxe",
+      "network": "Awin",
+      "program_id": "43199",
+      "status": "approved",
+      "focus": "Infrarotkabinen sowie traditionelle Indoor- und Outdoor-Saunen von Home Deluxe.",
+      "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
+      "cookie_days": null,
+      "direct_linking": true,
+      "tracking_hosts": [
+        "awin1.com"
+      ],
+      "advertiser_merchant_ids": [
+        "home-deluxe"
+      ],
+      "url": "https://ui.awin.com/merchant-profile/43199",
+      "checked_at": "2026-08-28"
     }
   ]
 }

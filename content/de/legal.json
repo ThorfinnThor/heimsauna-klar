@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26",
+  "updated_at": "2026-08-28",
   "notice": "Betreiber dieser Website ist das Einzelunternehmen SeitenHafen361. Die Website dient der unabhängigen Information und dem Vergleich von Saunaprodukten.",
   "impressum": {
     "title": "Impressum",
@@ -36,11 +36,11 @@
       },
       {
         "title": "Cookies, Analyse und Marketing",
-        "copy": "Select Your Sauna setzt derzeit keine eigenen Analyse-, Werbe- oder Marketingdienste und keine hierfür bestimmten Cookies ein. Technisch notwendige Vorgänge des Hosting- und Sicherheitsdienstleisters bleiben hiervon unberührt. Falls später Analyse- oder Marketingdienste hinzukommen, wird diese Datenschutzerklärung vor ihrer Aktivierung angepasst und eine erforderliche Einwilligung eingeholt."
+        "copy": "Select Your Sauna setzt keine eigenen Analyse- oder Werbeskripte und keine hierfür bestimmten Cookies ein. Eine Verbindung zum Affiliate-Netzwerk entsteht erst, wenn ein entsprechend gekennzeichneter Link bewusst angeklickt wird. Technisch notwendige Vorgänge des Hosting- und Sicherheitsdienstleisters bleiben hiervon unberührt."
       },
       {
         "title": "Externe Produkt- und Quellenlinks",
-        "copy": "Die Website enthält Links zu Herstellern, Händlern, Dokumentationen und Behörden. Erst beim Anklicken wird die jeweilige externe Website aufgerufen. Für die dortige Datenverarbeitung ist der jeweilige Anbieter verantwortlich. Aktuell sind keine Affiliate-Trackinglinks aktiviert."
+        "copy": "Die Website enthält Links zu Herstellern, Händlern, Dokumentationen und Behörden. Als Affiliate-Link gekennzeichnete Händlerlinks führen über Awin zum Anbieter. Erst beim Anklicken wird die externe Adresse aufgerufen; Awin und der Händler können dabei technisch erforderliche Aufrufdaten verarbeiten. Für die weitere Datenverarbeitung gelten die Hinweise des jeweiligen Anbieters."
       },
       {
         "title": "Rechte betroffener Personen",
@@ -58,15 +58,19 @@
   },
   "affiliate": {
     "title": "Affiliate- und Werbetransparenz",
-    "intro": "Die aktuell verlinkten Herstellerseiten sind nicht affiliiert. Es gibt keine bezahlten Platzierungen und keine gesponserten Rankings.",
+    "intro": "Einzelne, ausdrücklich gekennzeichnete Händlerlinks sind Affiliate-Links. Erfolgt nach einem solchen Klick ein qualifizierter Kauf, kann SeitenHafen361 eine Vergütung erhalten; für Nutzerinnen und Nutzer ändert sich der Preis dadurch nicht.",
     "sections": [
       {
-        "title": "Später mögliche Links",
-        "copy": "Wenn Händler- oder Herstellerlinks künftig vergütet werden, werden sie eindeutig gekennzeichnet. Redaktionelle Einordnung, Quellenlage und Vergütung bleiben getrennt dokumentiert."
+        "title": "Kennzeichnung und Technik",
+        "copy": "Aktive Affiliate-Links sind direkt am Link als Affiliate-Link bezeichnet und technisch mit sponsored und nofollow gekennzeichnet. Die Weiterleitung erfolgt über das Partnernetzwerk Awin zum jeweiligen Händler."
+      },
+      {
+        "title": "Redaktionelle Unabhängigkeit",
+        "copy": "Provisionen bestimmen weder die Aufnahme eines Produkts noch Filter, Sortierung oder redaktionelle Einordnung. Es gibt keine bezahlten Platzierungen und keine gesponserten Ranglisten."
       },
       {
         "title": "Produktdaten",
-        "copy": "Preise und Verfügbarkeiten sind Momentaufnahmen mit Prüfdatum. Sie können sich beim Anbieter ändern."
+        "copy": "Preise und Verfügbarkeiten sind Momentaufnahmen mit Prüfdatum. Maßgeblich sind die Angaben des Händlers zum Kaufzeitpunkt."
       }
     ]
   },
