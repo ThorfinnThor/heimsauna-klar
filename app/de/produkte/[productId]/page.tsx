@@ -187,7 +187,11 @@ export default async function ProductPage({ params }: Props) {
                 </li>
               ))}
             </ul>
-            <p className="safety-box"><strong>Sicherheit:</strong> Herstelleranleitung und örtliche Anschlussbedingungen haben Vorrang. Arbeiten an Netzspannung gehören in die Hände einer Elektrofachkraft.</p>
+            {product.power.voltage === "wood" ? (
+              <p className="safety-box"><strong>Holzfeuerstätte:</strong> Herstelleranleitung, Emissionsnachweis und örtliche Vorgaben haben Vorrang. Aufstellung und Abnahme vor dem Kauf mit dem zuständigen bevollmächtigten Bezirksschornsteinfeger klären.</p>
+            ) : (
+              <p className="safety-box"><strong>Elektrik:</strong> Herstelleranleitung und örtliche Anschlussbedingungen haben Vorrang. Arbeiten an Netzspannung gehören in die Hände einer Elektrofachkraft.</p>
+            )}
           </div>
         </section>
 
