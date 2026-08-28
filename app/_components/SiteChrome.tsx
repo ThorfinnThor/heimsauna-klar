@@ -26,6 +26,7 @@ export function SiteFooter() {
       </Link>
       <p>Eine unabhängige Planungs- und Kaufplattform für private Saunen.</p>
       <div className="footer-links">
+        <Link href="/de/ueber-uns/">Über uns &amp; Methodik</Link>
         <Link href="/de/rechtliches/#impressum">Impressum</Link>
         <Link href="/de/rechtliches/#datenschutz">Datenschutz</Link>
         <Link href="/de/transparenz/affiliate/">Affiliate</Link>

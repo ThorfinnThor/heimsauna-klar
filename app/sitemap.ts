@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/de/`, lastModified: updated, changeFrequency: "weekly", priority: 1 },
     { url: `${siteUrl}/de/produkte/`, lastModified: updated, changeFrequency: "weekly", priority: 0.8 },
     { url: `${siteUrl}/de/planung/`, lastModified: updated, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/de/ueber-uns/`, lastModified: updated, changeFrequency: "monthly", priority: 0.6 },
     { url: `${siteUrl}/de/rechtliches/`, lastModified: updated, changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteUrl}/de/transparenz/affiliate/`, lastModified: updated, changeFrequency: "monthly", priority: 0.5 },
     { url: `${siteUrl}/de/saunatechnik/230-v-sauna/`, lastModified: updated, changeFrequency: "monthly", priority: 0.8 },

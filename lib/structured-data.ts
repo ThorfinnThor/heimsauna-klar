@@ -26,6 +26,48 @@ export function websiteJsonLd(): JsonLd {
     name: "Select Your Sauna",
     url: `${siteUrl}/`,
     inLanguage: "de-DE",
+    publisher: { "@id": `${siteUrl}/#organization` },
+  };
+}
+
+export function organizationJsonLd(): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
+    name: "Select Your Sauna",
+    legalName: "SeitenHafen361",
+    url: `${siteUrl}/`,
+    description: "Unabhängige deutschsprachige Planungs- und Vergleichsplattform für private Saunen.",
+    email: "info@selectyoursauna.com",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Freienwalder Str. 34",
+      postalCode: "13359",
+      addressLocality: "Berlin",
+      addressCountry: "DE",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "Redaktionelle und allgemeine Anfragen",
+      email: "info@selectyoursauna.com",
+      availableLanguage: ["de"],
+    },
+  };
+}
+
+export function aboutPageJsonLd({ title, description, path }: PageData): JsonLd {
+  const url = absoluteUrl(path);
+  return {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": `${url}#webpage`,
+    name: title,
+    description,
+    url,
+    inLanguage: "de-DE",
+    isPartOf: { "@id": `${siteUrl}/#website` },
+    mainEntity: { "@id": `${siteUrl}/#organization` },
   };
 }
 
@@ -75,6 +117,7 @@ export function articleJsonLd({
     inLanguage: "de-DE",
     mainEntityOfPage: url,
     isPartOf: { "@id": `${siteUrl}/#website` },
+    publisher: { "@id": `${siteUrl}/#organization` },
   };
 }
 
