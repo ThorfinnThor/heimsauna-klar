@@ -18,6 +18,8 @@
     "diversity:check": "node scripts/check-content-diversity.mjs",
     "security:check": "node scripts/check-security-headers.mjs",
     "awin:discover": "node scripts/awin/discover-feeds.mjs",
+    "awin:sync": "node scripts/awin/sync-affiliate-offers.mjs",
+    "awin:test": "node --test scripts/awin/*.test.mjs",
     "test": "npm run data:check && npm run build"
   },
   "dependencies": {

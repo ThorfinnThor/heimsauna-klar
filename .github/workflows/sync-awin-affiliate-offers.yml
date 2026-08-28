@@ -1,0 +1,48 @@
+name: Sync approved Awin affiliate offers
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: awin-affiliate-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      AWIN_FEED_LIST_URL: ${{ secrets.AWIN_FEED_LIST_URL }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Require feed-list secret
+        shell: bash
+        run: |
+          if [ -z "$AWIN_FEED_LIST_URL" ]; then
+            echo "AWIN_FEED_LIST_URL is not configured." >&2
+            exit 1
+          fi
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run awin:test
+      - run: npm run awin:sync
+      - run: npm run test
+      - name: Commit verified affiliate data
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- data/products.json data/merchants.json data/awin-feed-discovery.json data/awin-affiliate-sync-report.json content/de/affiliate.json content/de/legal.json data/launch-readiness.json)" ]; then
+            echo "No verified affiliate changes."
+            exit 0
+          fi
+          git config user.name "selectyoursauna-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/products.json data/merchants.json data/awin-feed-discovery.json data/awin-affiliate-sync-report.json content/de/affiliate.json content/de/legal.json data/launch-readiness.json
+          git commit -m "chore(data): sync approved Awin affiliate offers"
+          git push

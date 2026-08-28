@@ -8,6 +8,7 @@ import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 const description = "Aktueller Affiliate-Status, Händlerabdeckung, Kennzeichnungsregeln und geprüfte Partnerprogramm-Kandidaten von Select Your Sauna.";
+const programStatus = { candidate: "Kandidat", applied: "Beworben", approved: "Freigegeben", rejected: "Abgelehnt" } as const;
 
 export const metadata = createPageMetadata({
   title: "Affiliate-Transparenz: Status, Regeln und Partnerprogramme",
@@ -39,6 +40,7 @@ export default function AffiliateTransparencyPage() {
             <span><strong>{stats.affiliateOfferCount}</strong> aktive Affiliate-Links</span>
             <span><strong>{stats.offerCount}</strong> dokumentierte Angebote</span>
             <span><strong>{stats.candidateProgramCount}</strong> geprüfte Kandidaten</span>
+            <span><strong>{stats.approvedProgramCount}</strong> freigegebene Programme</span>
           </div>
         </header>
 
@@ -58,14 +60,14 @@ export default function AffiliateTransparencyPage() {
         </section>
 
         <section className="planning-hub page-shell" aria-labelledby="program-candidates-title">
-          <div className="collection-index-head"><div><p className="eyebrow">Deutschland · noch nicht beantragt</p><h2 id="program-candidates-title">Programme für die Bewerbung</h2></div><p>Konditionen sind Momentaufnahmen mit Prüfdatum. Ein Programm wird erst nach Annahme und Produktabgleich aktiviert.</p></div>
+          <div className="collection-index-head"><div><p className="eyebrow">Partnerprogramme · aktueller Stand</p><h2 id="program-candidates-title">Bewerbungen und Freigaben</h2></div><p>Konditionen und Status werden mit Prüfdatum dokumentiert. Eine Freigabe allein aktiviert noch keinen Produktlink.</p></div>
           <div className="planning-hub-grid">
             {affiliatePrograms.map((program) => (
               <article className="affiliate-principle" key={program.id}>
-                <small>{program.network} · Programm {program.program_id} · {program.status === "candidate" ? "Kandidat" : program.status}</small>
+                <small>{program.network} · Programm {program.program_id} · {programStatus[program.status]}</small>
                 <h3>{program.name}</h3>
                 <span>{program.focus}</span>
-                <dl className="affiliate-program-facts"><div><dt>Provision</dt><dd>{program.commission_snapshot}</dd></div><div><dt>Cookie</dt><dd>{program.cookie_days} Tage</dd></div></dl>
+                <dl className="affiliate-program-facts"><div><dt>Provision</dt><dd>{program.commission_snapshot}</dd></div><div><dt>Cookie</dt><dd>{program.cookie_days === null ? "Im Partnerkonto prüfen" : `${program.cookie_days} Tage`}</dd></div></dl>
                 <p><strong>Advertiser-Abdeckung:</strong> {program.advertiser_merchant_ids.length > 0
                   ? program.advertiser_merchant_ids.map((merchantId) => merchants.find((merchant) => merchant.id === merchantId)?.name ?? merchantId).join(", ")
                   : "Noch keinem Katalog-Händler zugeordnet"}</p>

@@ -120,7 +120,8 @@ for (const program of affiliatePrograms) {
   if (affiliateProgramIds.has(program.id)) throw new Error(`Duplicate affiliate program id: ${program.id}`);
   affiliateProgramIds.add(program.id);
   if (!["candidate", "applied", "approved", "rejected"].includes(program.status)) throw new Error(`${program.id} has an invalid status`);
-  if (!(program.cookie_days > 0) || typeof program.direct_linking !== "boolean") throw new Error(`${program.id} has invalid conditions`);
+  if (!(program.cookie_days === null || (typeof program.cookie_days === "number" && program.cookie_days > 0))
+    || typeof program.direct_linking !== "boolean") throw new Error(`${program.id} has invalid conditions`);
   if (!Array.isArray(program.tracking_hosts)
     || !program.tracking_hosts.every((host) => typeof host === "string" && host !== "" && !host.includes("/"))) {
     throw new Error(`${program.id} has invalid tracking hosts`);

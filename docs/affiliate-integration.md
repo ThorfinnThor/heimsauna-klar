@@ -14,6 +14,20 @@ Solange eine Ebene fehlt, verwendet die Website weiterhin die normale URL aus `o
 - ADCELL: `subId=product-detail|<produkt-id>`.
 - Es werden keine E-Mail-Adressen, Nutzerkennungen, Suchbegriffe oder Finder-Eingaben übertragen.
 
+## Awin-Produktfeeds
+
+Artsauna und Home Deluxe werden über die von Awin bereitgestellte Feed-Liste synchronisiert. Die authentifizierte Feed-List-URL liegt ausschließlich im Repository-Secret `AWIN_FEED_LIST_URL`. Der Import:
+
+1. berücksichtigt nur freigeschaltete deutschsprachige Awin-Feeds,
+2. wählt je Advertiser deterministisch den aktuellsten Feed,
+3. akzeptiert Feed-Downloads nur von bekannten Awin-Domains,
+4. aktiviert nur Angebote, deren Händler-Produkt-URL exakt mit einer bereits redaktionell geprüften Katalog-URL übereinstimmt,
+5. übernimmt ausschließlich den Awin-Trackinglink; technische Produktdaten, Preise und Quellen werden nicht ungeprüft überschrieben.
+
+Unscharfe Produktnamen, Modellähnlichkeiten und nicht eindeutige URLs landen nur im bereinigten Sync-Bericht. Feed-URLs und Zugangstoken werden weder in Berichten noch im Repository gespeichert.
+
+Der manuelle Workflow `Sync approved Awin affiliate offers` führt vor einem Commit die Feed-Tests, den Datencheck und den vollständigen statischen Build aus. Eine automatische Zeitplanung wird erst nach einem erfolgreichen Erstlauf aktiviert.
+
 ## Benötigte Angaben nach einer Freigabe
 
 Für jedes freigeschaltete Programm werden benötigt:
@@ -21,10 +35,10 @@ Für jedes freigeschaltete Programm werden benötigt:
 - Netzwerk und Advertiser- beziehungsweise Programm-ID
 - Status der Bewerbung
 - erlaubte Tracking-Domain
-- der im Netzwerk erzeugte Deeplink für jedes konkrete Produkt
-- die unveränderte Ziel-URL beim Händler zum Gegencheck
+- bei Awin: die geschützte Feed-Liste; Trackinglink und unveränderte Händler-URL werden daraus gemeinsam gelesen
+- bei Netzwerken ohne Produktfeed: der erzeugte Deeplink und die unveränderte Ziel-URL zum Gegencheck
 
-Trackinglinks dürfen direkt im Repository stehen, weil sie im ausgelieferten HTML ohnehin öffentlich sichtbar sind. API-Schlüssel, Feed-Listen-URLs und Zugangsdaten gehören dagegen ausschließlich in GitHub Secrets und werden nicht für die manuelle Erstintegration benötigt.
+Trackinglinks dürfen direkt im Repository stehen, weil sie im ausgelieferten HTML ohnehin öffentlich sichtbar sind. API-Schlüssel, Feed-Listen-URLs und Zugangsdaten gehören dagegen ausschließlich in GitHub Secrets.
 
 ## Aktivierung
 

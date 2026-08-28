@@ -19,7 +19,7 @@ export type AffiliateProgram = {
   status: "candidate" | "applied" | "approved" | "rejected";
   focus: string;
   commission_snapshot: string;
-  cookie_days: number;
+  cookie_days: number | null;
   direct_linking: boolean;
   tracking_hosts: string[];
   advertiser_merchant_ids: string[];
@@ -55,6 +55,7 @@ export function getAffiliateStats() {
     affiliateOfferCount: offers.filter((offer) => getActiveAffiliateProgram(offer) !== null).length,
     merchantCount: merchants.length,
     candidateProgramCount: affiliatePrograms.filter((program) => program.status === "candidate").length,
+    approvedProgramCount: affiliatePrograms.filter((program) => program.status === "approved").length,
   };
 }
 

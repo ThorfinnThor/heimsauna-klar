@@ -1,29 +1,33 @@
 import { gunzipSync } from "node:zlib";
 
-const MAX_DOWNLOAD_BYTES = 25_000_000;
-const MAX_ROWS = 2_000;
+const DEFAULT_MAX_DOWNLOAD_BYTES = 25_000_000;
+const DEFAULT_MAX_ROWS = 2_000;
 
-export async function readFeedRows(url) {
+export async function readFeedRows(url, {
+  maxDownloadBytes = DEFAULT_MAX_DOWNLOAD_BYTES,
+  maxRows = DEFAULT_MAX_ROWS,
+  userAgent = "SelectYourSauna-FeedDiscovery/1.0",
+} = {}) {
   const response = await fetch(url, {
     redirect: "follow",
-    headers: { "user-agent": "SelectYourSauna-FeedDiscovery/1.0" },
+    headers: { "user-agent": userAgent },
     signal: AbortSignal.timeout(120_000),
   });
   if (!response.ok) throw new Error(`Awin download failed with status ${response.status}`);
   const declaredBytes = Number(response.headers.get("content-length"));
-  if (Number.isFinite(declaredBytes) && declaredBytes > MAX_DOWNLOAD_BYTES) {
+  if (Number.isFinite(declaredBytes) && declaredBytes > maxDownloadBytes) {
     throw new Error("Awin feed list exceeds the download limit");
   }
 
   const compressed = Buffer.from(await response.arrayBuffer());
-  if (compressed.length > MAX_DOWNLOAD_BYTES) throw new Error("Awin feed list exceeds the download limit");
+  if (compressed.length > maxDownloadBytes) throw new Error("Awin feed list exceeds the download limit");
   const data = compressed[0] === 0x1f && compressed[1] === 0x8b
-    ? gunzipSync(compressed, { maxOutputLength: MAX_DOWNLOAD_BYTES })
+    ? gunzipSync(compressed, { maxOutputLength: maxDownloadBytes })
     : compressed;
-  return parseCsv(data.toString("utf8").replace(/^\uFEFF/, ""));
+  return parseCsv(data.toString("utf8").replace(/^\uFEFF/, ""), { maxRows });
 }
 
-export function parseCsv(text) {
+export function parseCsv(text, { maxRows = DEFAULT_MAX_ROWS } = {}) {
   const delimiter = detectDelimiter(text);
   const records = [];
   let record = [];
@@ -51,7 +55,7 @@ export function parseCsv(text) {
       value = "";
       if (record.some(Boolean)) records.push(record);
       record = [];
-      if (records.length > MAX_ROWS + 1) throw new Error("Awin feed list exceeds the row limit");
+      if (records.length > maxRows + 1) throw new Error("Awin feed list exceeds the row limit");
     } else if (character !== "\r") {
       value += character;
     }
@@ -63,6 +67,7 @@ export function parseCsv(text) {
   if (quoted) throw new Error("Awin feed list contains an unterminated CSV field");
   const [headers, ...rows] = records;
   if (!headers?.length) throw new Error("Awin feed list is empty");
+  if (rows.length > maxRows) throw new Error("Awin feed list exceeds the row limit");
   return rows.map((row) => Object.fromEntries(headers.map((header, index) => [header, row[index] ?? ""])));
 }
 
