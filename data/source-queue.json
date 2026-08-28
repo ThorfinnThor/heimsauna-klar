@@ -3707,5 +3707,122 @@
     "target_voltage": "none",
     "status": "verified",
     "notes": "Offizielle Produktseite: 230 × 260 × 220 cm, 4–6 Personen, elektrischer 10,5-kW-Ofen; Netzspannung nicht ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-aruna-s",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/indoor-saunen/traditionelle-sauna-aruna-s_29343_74636/",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 100 × 110 × 190 cm, 1–2 Personen, 3,6 kW und 230 V AC; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-aruna-m",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/indoor-saunen/traditionelle-sauna-aruna-m_29348_74637/",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 130 × 110 × 190 cm, 1–2 Personen, 3,6 kW und 230 V AC; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-aruna-l",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/indoor-saunen/traditionelle-sauna-aruna-l_29353_74638/",
+    "target_category": "indoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 130 × 130 × 190 cm, 2–3 Personen, 3,6 kW und 230 V AC; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-shadow-xl",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/traditionelle-sauna-shadow-xl_20342_49259/",
+    "target_category": "indoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 200 × 150 × 190 cm, 5 Personen, 8 kW und 380–400 V AC; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-shadow-big-xl",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/traditionelle-sauna-shadow-xl-big_20588_49577/",
+    "target_category": "indoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 200 × 200 × 190 cm, 6 Personen, 8 kW und 380–400 V AC; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-skyline-l",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/traditionelle-sauna-skyline-l_2987_1569/",
+    "target_category": "indoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 150 × 120 × 190 cm, 3 Personen, 4,5 kW und 400 V Starkstrom; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-skyline-xl",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/traditionelle-sauna-skyline-xl_7220_5443/",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 150 × 150 × 200 cm, 3 Personen, 6-kW-Ofen und Starkstrom; konkrete Netzspannung nicht ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-skyline-big-xl",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/traditionelle-sauna-skyline-big-xl_2982_1565/",
+    "target_category": "indoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 200 × 200 × 210 cm, 6 Personen, 8 kW und 400 V Starkstrom; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-skyline-big-xl-kunststeinwand",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/traditionelle-sauna-skyline-big-xl-mit-kunststeinwand_8621_6767/",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 200 × 200 × 210 cm, 6 Personen und 8-kW-Ofen mit Starkstrom; konkrete Netzspannung nicht ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-lahti-xl",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/outdoor-fasssauna-lahti-xl_20004_48669/",
+    "target_category": "outdoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 189 × 220 × 191,5 cm, 4 Personen, 8 kW und AC 380 V; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-lagom-deluxe",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/fasssauna-mit-holzofen-lagom-deluxe_27593_71858/",
+    "target_category": "outdoor",
+    "target_voltage": "wood",
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 210 × 240 × 210 cm ohne Kamin, 4–6 Personen und 15-kW-Holzofen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-cube-xl",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/outdoor-sauna-cube-xl_21482_51137/",
+    "target_category": "outdoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 192,8 × 220 × 194 cm, 6 Personen, 8 kW und AC 380 V; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "home-deluxe-redsun-m",
+    "manufacturer": "Home Deluxe",
+    "url": "https://www.homedeluxe.de/infrarotkabine-redsun-m_2056_1138/",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Offizielle Produktseite: 120 × 105 × 190 cm, 2 Personen, 1.750 W und gewöhnliche 230-V-Steckdose; am 2026-08-28 geprüft."
   }
 ]
