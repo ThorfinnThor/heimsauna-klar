@@ -130,5 +130,16 @@
       "program_id": null
     },
     "candidate_program_ids": []
+  },
+  {
+    "id": "home-deluxe",
+    "name": "Home Deluxe",
+    "kind": "manufacturer",
+    "allowed_hosts": ["homedeluxe.de", "manuals.homedeluxe.de"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": []
   }
 ]
