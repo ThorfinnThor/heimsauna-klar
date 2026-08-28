@@ -119,5 +119,16 @@
       "program_id": null
     },
     "candidate_program_ids": ["awin-tronitechnik"]
+  },
+  {
+    "id": "artsauna",
+    "name": "Artsauna",
+    "kind": "retailer",
+    "allowed_hosts": ["artsauna.de"],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": []
   }
 ]

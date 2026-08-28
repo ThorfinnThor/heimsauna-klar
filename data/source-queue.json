@@ -3383,5 +3383,140 @@
     "target_voltage": 230,
     "status": "verified",
     "notes": "Produktseite mit 115 × 105 × 190 cm, 1–2 Personen, 1.600 W und 230-V-Steckdose; am 2026-08-27 geprüft."
+  },
+  {
+    "queue_id": "artsauna-kiruna-120",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/infrarotkabine-kiruna-120",
+    "target_category": "infrared",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 120 × 105 × 190 cm, 2 Personen, 2.040 W und Haushaltssteckdose; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-trondheim-90-natur",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/infrarotkabine-trondheim-90-natur",
+    "target_category": "infrared",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 90 × 90 × 190 cm, einer Person, Dual-Technologie und 1.299 € aktuellem Preis; Spannung nicht separat ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-trondheim-90-schwarz",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/infrarotkabine-trondheim-90",
+    "target_category": "infrared",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 90 × 90 × 190 cm, einer Person, Dual-Technologie und 1.299 € aktuellem Preis; schwarze Variante, Spannung nicht separat ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-trondheim-120-natur",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/infrarotkabine-trondheim-120-natur-neu",
+    "target_category": "infrared",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 120 × 105 × 190 cm, 2 Personen, 2.200 W und 1.399 € aktuellem Preis; Spannung nicht separat ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-trondheim-120-schwarz",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/infrarotkabine-trondheim-120",
+    "target_category": "infrared",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 120 × 105 × 190 cm, 2 Personen, 2.200 W und 1.399 € aktuellem Preis; schwarze Variante, Spannung nicht separat ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-aarhus-140",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/infrarotsauna-aarhus140",
+    "target_category": "infrared",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 140 × 120 × 190 cm, 2 Personen, Dual-Technologie und 1.999 € aktuellem Preis; Spannung nicht separat ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-malmo-140-natur",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/infrarotkabine-malmo140-natur",
+    "target_category": "infrared",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 140 × 140 × 190 cm, 3 Personen, Dual-Technologie und 2.499 € aktuellem Preis; Spannung nicht separat ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-malmo-140-schwarz",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/infrarotkabine-malmo140-schwarz",
+    "target_category": "infrared",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 140 × 140 × 190 cm, 3 Personen, Dual-Technologie und 2.499 € aktuellem Preis; schwarze Variante, Spannung nicht separat ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-bergen-115",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/infrarotkabine-bergen115",
+    "target_category": "infrared",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 115 × 105 × 190 cm, 2 Personen, 1.800 W und 1.499 € aktuellem Preis; Spannung nicht separat ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-aalborg",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/infrarotkabine-warmekabine-aalborg-mit-triplex-heizsystem-hemlockholz",
+    "target_category": "infrared",
+    "target_voltage": "none",
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 120 × 120 × 190 cm, 2 Personen, Dual-Technologie und 1.699 € aktuellem Preis; Spannung nicht separat ausgewiesen; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-visby-180",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/outdoor-sauna-visby180",
+    "target_category": "outdoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 180 × 180 × 210 cm, 6 Personen, 9-kW-Ofen und explizitem 400-V-3N-Anschluss; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-visby-300",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/outdoor-sauna-visby300",
+    "target_category": "outdoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 300 × 180 × 220 cm, 8 Personen, 12-kW-Ofen und explizitem 400-V-3N-Anschluss; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-fjora-m",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/cube-fasssauna-fjora-m",
+    "target_category": "outdoor",
+    "target_voltage": 230,
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 192 × 120 × 194 cm, 3 Personen, 3,6-kW-Ofen und explizitem 230-V-Anschluss; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-fjora-l",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/fasssauna-quadratisch-fjora",
+    "target_category": "outdoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 180 × 228 × 225 cm, 6 Personen und 9-kW-Ofen; 400-V-3N-Konfiguration auf der technischen Angabe; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "artsauna-fjora-xl",
+    "manufacturer": "Artsauna",
+    "url": "https://artsauna.de/products/cube-fasssauna-fjora-xl",
+    "target_category": "outdoor",
+    "target_voltage": 400,
+    "status": "verified",
+    "notes": "Offizielle Artsauna-Seite mit 228 × 220 × 225 cm, 6 Personen und 9-kW-Ofen; 400-V-3N-Konfiguration auf der technischen Angabe; am 2026-08-28 geprüft."
   }
 ]
