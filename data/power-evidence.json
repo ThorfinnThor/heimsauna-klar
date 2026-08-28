@@ -4,7 +4,7 @@
   "scope": "data/products.json",
   "method": "Only assign a voltage when the exact manufacturer configuration states it. A stated 220–240 V AC range is normalized to nominal 230 V; do not infer 400 V from heater power alone.",
   "snapshot": {
-    "products": 426,
+    "products": 432,
     "explicit_voltage": {
       "120": 0,
       "230": 75,
