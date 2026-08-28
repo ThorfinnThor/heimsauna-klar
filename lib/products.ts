@@ -55,6 +55,22 @@ export type Product = {
 
 export const products = (productData as Product[]).filter((product) => product.status === "verified");
 
+export function getCatalogStats(productList: Product[] = products) {
+  const categoryCounts = {
+    indoor: productList.filter((product) => product.category === "indoor").length,
+    outdoor: productList.filter((product) => product.category === "outdoor").length,
+    infrared: productList.filter((product) => product.category === "infrared").length,
+    mobile: productList.filter((product) => product.category === "portable" || product.category === "tent").length,
+  };
+
+  return {
+    total: productList.length,
+    categoryCounts,
+    sourceCount: productList.reduce((total, product) => total + product.sources.length, 0),
+    latestUpdate: productList.map((product) => product.updated_at).sort((a, b) => b.localeCompare(a))[0] ?? null,
+  };
+}
+
 export type FinderFilters = {
   place: "indoor" | "outdoor" | "mobile";
   people: "1" | "2" | "4" | "flex";

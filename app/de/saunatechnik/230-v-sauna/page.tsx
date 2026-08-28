@@ -18,7 +18,13 @@ export default function GuidePage() {
 
   return (
     <main>
-      <StructuredData data={articleJsonLd({ title: "230-V-Sauna: Anschluss, Leistung und Grenzen", description: guide.description, path: "/de/saunatechnik/230-v-sauna/", updatedAt: guide.updated_at })} />
+      <StructuredData data={articleJsonLd({
+        title: "230-V-Sauna: Anschluss, Leistung und Grenzen",
+        description: guide.description,
+        path: "/de/saunatechnik/230-v-sauna/",
+        updatedAt: guide.updated_at,
+        sources: guide.sources.map((source) => source.url),
+      })} />
       <StructuredData data={breadcrumbJsonLd([
         { name: "Start", path: "/de/" },
         { name: "Planung", path: "/de/planung/" },
@@ -30,9 +36,10 @@ export default function GuidePage() {
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
             <Link href="/de/">Start</Link><span>/</span><Link href="/de/planung/">Planung</Link><span>/</span><span>230-V-Sauna</span>
           </nav>
-          <p className="eyebrow">Saunatechnik · aktualisiert {formatGermanDate(guide.updated_at)}</p>
+          <p className="eyebrow">Saunatechnik</p>
           <h1>230 V ist ein Anschluss.<span>Noch keine Kaufentscheidung.</span></h1>
           <p>{guide.description}</p>
+          <p className="content-byline">Redaktion: <Link href="/de/ueber-uns/">Select Your Sauna</Link> · aktualisiert {formatGermanDate(guide.updated_at)}</p>
           <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.quick_answer}</p></div>
           <div className="guide-path-links" aria-label="Nächste Schritte"><Link className="button button-primary" href="/de/vergleiche/230-v-sauna/">230-V-Modelle vergleichen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf zuerst prüfen ↗</Link></div>
         </header>

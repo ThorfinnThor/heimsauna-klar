@@ -30,7 +30,7 @@ export default function ComparisonPage() {
             <Link href="/de/">Start</Link><span>/</span><Link href="/de/produkte/">Produkte</Link><span>/</span><span>230-V-Sauna</span>
           </nav>
           <p className="eyebrow">Datenvergleich · Stand {latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</p>
-          <h1>230 V vergleichen,<span>ohne Äpfel mit Saunen zu mischen.</span></h1>
+          <h1>230-V-Saunen vergleichen.<span>Nach Maß, Leistung und Preis.</span></h1>
           <p>Diese Seite vergleicht belegte Herstellerangaben zu Anschluss, Leistung, Abmessungen und Preisstand. Eigene Nutzung und Montage liegen nicht vor.</p>
           <div className="guide-path-links" aria-label="Vergleich vorbereiten"><Link className="button button-primary" href="/de/saunatechnik/230-v-sauna/">230 V verstehen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf prüfen ↗</Link></div>
         </header>
@@ -38,7 +38,7 @@ export default function ComparisonPage() {
         <section className="comparison-data page-shell" aria-labelledby="comparison-data-title">
           <div className="comparison-data-head">
             <div><p className="eyebrow">Kompakte Übersicht</p><h2 id="comparison-data-title">{candidates.length} verifizierte Datensätze.</h2></div>
-            <p>Sortierung folgt keinem geheimen Score. Öffne den Datensatz, prüfe die Quelle und entscheide nach deinen Constraints.</p>
+            <p>Die Übersicht dient als technische Vorauswahl. Öffne anschließend den einzelnen Datensatz, prüfe die Quellen und gleiche die Angaben mit deinem Raum und Stromanschluss ab.</p>
           </div>
           <div className="product-comparison-table">
             <div className="product-comparison-row product-comparison-heading">

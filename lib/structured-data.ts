@@ -105,7 +105,8 @@ export function articleJsonLd({
   description,
   path,
   updatedAt,
-}: PageData & { updatedAt: string }): JsonLd {
+  sources,
+}: PageData & { updatedAt: string; sources: string[] }): JsonLd {
   const url = absoluteUrl(path);
   return {
     "@context": "https://schema.org",
@@ -117,7 +118,14 @@ export function articleJsonLd({
     inLanguage: "de-DE",
     mainEntityOfPage: url,
     isPartOf: { "@id": `${siteUrl}/#website` },
+    author: {
+      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
+      name: "Select Your Sauna",
+      url: absoluteUrl("/de/ueber-uns/"),
+    },
     publisher: { "@id": `${siteUrl}/#organization` },
+    citation: sources,
   };
 }
 

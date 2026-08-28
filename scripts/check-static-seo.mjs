@@ -128,6 +128,15 @@ for (const { file, route } of publicPages) {
       if (containsInternalSentinel(structuredData)) {
         issues.push(`${route}: JSON-LD block ${index + 1} exposes the internal sentinel "none"`);
       }
+      if (structuredData["@type"] === "Article") {
+        if (structuredData.author?.["@type"] !== "Organization" || !structuredData.author?.url) {
+          issues.push(`${route}: Article JSON-LD needs a linked organization author`);
+        }
+        if (!structuredData.dateModified) issues.push(`${route}: Article JSON-LD needs dateModified`);
+        if (!Array.isArray(structuredData.citation) || structuredData.citation.length === 0) {
+          issues.push(`${route}: Article JSON-LD needs visible source citations`);
+        }
+      }
     } catch (error) {
       issues.push(`${route}: invalid JSON-LD block ${index + 1}: ${error.message}`);
     }

@@ -3,7 +3,7 @@ import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import Link from "next/link";
 import { collections, getCollectionProducts } from "@/lib/collections";
-import { products } from "@/lib/products";
+import { formatGermanDate, getCatalogStats, products } from "@/lib/products";
 import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
@@ -14,6 +14,8 @@ export const metadata = createPageMetadata({
 });
 
 export default function ProductsPage() {
+  const stats = getCatalogStats(products);
+
   return (
     <main>
       <StructuredData data={collectionPageJsonLd({ title: "Sauna-Produkte mit geprüften technischen Daten", description: metadata.description as string, path: "/de/produkte/" })} />
@@ -21,12 +23,13 @@ export default function ProductsPage() {
       <SiteHeader />
       <section className="page-hero page-shell">
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Produkte</span></nav>
-        <p className="eyebrow">Produktkatalog · Deutschland</p>
+        <p className="eyebrow">Produktkatalog · Deutschland · Stand {stats.latestUpdate ? formatGermanDate(stats.latestUpdate) : "nicht verfügbar"}</p>
         <h1>Sauna-Produkte<span>im Vergleich.</span></h1>
-        <p>Zu jedem veröffentlichten Produkt findest du Quelle, Prüfdatum, Maße, Anschlussdaten und die Grundlage unserer Einordnung.</p>
+        <p>Der Katalog umfasst {stats.total} verifizierte Produktdatensätze: {stats.categoryCounts.indoor} Indoor-Saunen, {stats.categoryCounts.outdoor} Outdoor-Saunen, {stats.categoryCounts.infrared} Infrarotkabinen und {stats.categoryCounts.mobile} mobile Saunen. Zu jedem Produkt findest du Quellen, Prüfdatum, Maße, Anschlussdaten und die Grundlage unserer Einordnung.</p>
         <Link className="text-link" href="/de/planung/">Vorher Platz, Lüftung, Boden und Budget klären ↗</Link>
         <div className="catalog-metrics">
-          <span><strong>{products.length}</strong> verifizierte Datensätze</span>
+          <span><strong>{stats.total}</strong> verifizierte Datensätze</span>
+          <span><strong>{stats.sourceCount}</strong> dokumentierte Quellen</span>
           <span><strong>0</strong> bezahlte Platzierungen</span>
         </div>
       </section>

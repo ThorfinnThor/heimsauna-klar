@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "npm run data:check && next build --webpack && npm run links:check && npm run seo:check && npm run diversity:check && npm run security:check",
+    "build": "npm run data:check && next build --webpack && npm run links:check && npm run seo:check && npm run diversity:check && npm run security:check && npm run discovery:check",
     "build:cloudflare": "npm run build",
     "deploy:cloudflare": "npm run build:cloudflare && npx wrangler deploy",
     "start": "next start",
@@ -17,6 +17,7 @@
     "seo:check": "node scripts/check-static-seo.mjs",
     "diversity:check": "node scripts/check-content-diversity.mjs",
     "security:check": "node scripts/check-security-headers.mjs",
+    "discovery:check": "node scripts/check-discovery-files.mjs",
     "awin:discover": "node scripts/awin/discover-feeds.mjs",
     "awin:sync": "node scripts/awin/sync-affiliate-offers.mjs",
     "awin:test": "node --test scripts/awin/*.test.mjs",

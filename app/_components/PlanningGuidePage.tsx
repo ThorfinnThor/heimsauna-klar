@@ -34,7 +34,13 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
 
   return (
     <main>
-      <StructuredData data={articleJsonLd({ title: guide.title, description: guide.description, path, updatedAt: guide.updated_at })} />
+      <StructuredData data={articleJsonLd({
+        title: guide.title,
+        description: guide.description,
+        path,
+        updatedAt: guide.updated_at,
+        sources: guide.sources.map((source) => source.url),
+      })} />
       <StructuredData data={breadcrumbJsonLd([
         { name: "Start", path: "/de/" },
         { name: "Planung", path: "/de/planung/" },
@@ -63,9 +69,10 @@ function PlanningHero({ guide, presentation, productHref, productLabel }: {
         <Link href="/de/">Start</Link><span>/</span><Link href="/de/planung/">Planung</Link><span>/</span><span>{guide.title}</span>
       </nav>
       <div className="guide-hero-copy">
-        <p className="eyebrow">{guide.eyebrow} · aktualisiert {formatGermanDate(guide.updated_at)}</p>
+        <p className="eyebrow">{guide.eyebrow}</p>
         <h1>{guide.title}<span>{guide.accent}</span></h1>
         <p>{guide.description}</p>
+        <p className="content-byline">Redaktion: <Link href="/de/ueber-uns/">Select Your Sauna</Link> · aktualisiert {formatGermanDate(guide.updated_at)}</p>
       </div>
       <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.summary}</p></div>
       <div className="guide-path-links" aria-label="Planung anwenden">
