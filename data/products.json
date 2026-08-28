@@ -2558,8 +2558,17 @@
     },
     "commercial": {
       "currency": "EUR",
-      "price_status": "unavailable",
-      "offers": []
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "WEKA",
+          "price": 3249,
+          "availability": "in-stock-listed",
+          "url": "https://www.weka-holzbau.com/p/saunahaus-schneeflocke-2-saunaofen-bioaktiv-9-0-naturbelassen/ws533202000002",
+          "affiliate": false,
+          "last_checked": "2026-08-28"
+        }
+      ]
     },
     "editorial": {
       "pros": [
@@ -2568,7 +2577,7 @@
         "Große Zu- und Abluftöffnungen"
       ],
       "cons": [
-        "Preis auf der geprüften Produktseite nicht ausgewiesen",
+        "Lieferzeit beträgt laut Produktseite 4–6 Wochen",
         "Netzspannung nicht ausgewiesen",
         "Außenfundament und Elektroplanung erforderlich"
       ],
@@ -2594,7 +2603,7 @@
         "checked_at": "2026-08-21"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-28"
   },
   {
     "product_id": "weka-saunahaus-kuopio-238x238",
@@ -29649,8 +29658,17 @@
     },
     "commercial": {
       "currency": "EUR",
-      "price_status": "unavailable",
-      "offers": []
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 2199,
+          "availability": "in-stock-listed",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-infrarotsauna-ottawa/a-497",
+          "affiliate": false,
+          "last_checked": "2026-08-28"
+        }
+      ]
     },
     "editorial": {
       "pros": [
@@ -29660,7 +29678,7 @@
       ],
       "cons": [
         "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
-        "Ein aktueller Verkaufspreis ist auf der geprüften Seite nicht zuverlässig ausgewiesen.",
+        "Die Produktseite nennt eine Lieferzeit von 6–9 Wochen.",
         "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
       ],
       "ideal_for": [
@@ -29684,7 +29702,7 @@
         "checked_at": "2026-08-27"
       }
     ],
-    "updated_at": "2026-08-27"
+    "updated_at": "2026-08-28"
   },
   {
     "product_id": "dewello-calgary-90",
@@ -29721,8 +29739,17 @@
     },
     "commercial": {
       "currency": "EUR",
-      "price_status": "unavailable",
-      "offers": []
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 1199,
+          "availability": "in-stock-listed",
+          "url": "https://www.tronitechnik.de/dewello-infrarotkabine-infrarotsauna-calgary-90-x-90cm-mit-vollspektrumstrahler/a-490",
+          "affiliate": false,
+          "last_checked": "2026-08-28"
+        }
+      ]
     },
     "editorial": {
       "pros": [
@@ -29732,7 +29759,7 @@
       ],
       "cons": [
         "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
-        "Ein aktueller Verkaufspreis ist auf der geprüften Seite nicht zuverlässig ausgewiesen.",
+        "Die Produktseite nennt eine Lieferzeit von 4–6 Wochen.",
         "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
       ],
       "ideal_for": [
@@ -29756,7 +29783,7 @@
         "checked_at": "2026-08-27"
       }
     ],
-    "updated_at": "2026-08-27"
+    "updated_at": "2026-08-28"
   },
   {
     "product_id": "dewello-saltcoats-120",
@@ -29874,8 +29901,17 @@
     },
     "commercial": {
       "currency": "EUR",
-      "price_status": "unavailable",
-      "offers": []
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "TroniTechnik",
+          "price": 1299,
+          "availability": "out-of-stock-listed",
+          "url": "https://www.tronitechnik.de/tronitechnik-infrarotkabine-manila-140x100/a-704",
+          "affiliate": false,
+          "last_checked": "2026-08-28"
+        }
+      ]
     },
     "editorial": {
       "pros": [
@@ -29885,7 +29921,7 @@
       ],
       "cons": [
         "Die Kabine ist für Infrarotwärme ausgelegt und ersetzt keine klassische Sauna mit Saunaofen.",
-        "Ein aktueller Verkaufspreis ist auf der geprüften Seite nicht zuverlässig ausgewiesen.",
+        "Die Produktseite weist das Modell aktuell als ausverkauft aus; die Lieferzeit ist unbekannt.",
         "Montageabstände, Raumlüftung und die tatsächliche Stellfläche müssen separat geprüft werden."
       ],
       "ideal_for": [
@@ -29909,7 +29945,7 @@
         "checked_at": "2026-08-27"
       }
     ],
-    "updated_at": "2026-08-27"
+    "updated_at": "2026-08-28"
   },
   {
     "product_id": "dewello-pierson-pro-135",
