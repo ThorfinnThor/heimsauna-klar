@@ -2,20 +2,20 @@
   "schema_version": 1,
   "updated_at": "2026-08-28",
   "scope": "data/products.json",
-  "method": "Only assign a voltage when the exact manufacturer configuration states it. Do not infer 400 V from heater power alone.",
+  "method": "Only assign a voltage when the exact manufacturer configuration states it. A stated 220–240 V AC range is normalized to nominal 230 V; do not infer 400 V from heater power alone.",
   "snapshot": {
     "products": 413,
     "explicit_voltage": {
       "120": 0,
-      "230": 69,
+      "230": 71,
       "400": 9
     },
-    "voltage_not_assigned": 321,
-    "no_oven_or_unconfigured": 148,
-    "electric_heater_voltage_unstated": 173
+    "voltage_not_assigned": 319,
+    "no_oven_or_unconfigured": 147,
+    "electric_heater_voltage_unstated": 172
   },
   "assignment_rules": [
-    "A 230-V value requires an exact product or configuration page that states 230 V or steckerfertig for that model.",
+    "A 230-V value requires an exact product or configuration page that states 230 V, a 220–240 V AC range, or steckerfertig for that model.",
     "A 400-V value requires an exact product or configuration page or manual that states 400 V for that model.",
     "Products sold without an oven or with a selectable oven remain voltage-neutral until a configuration is chosen.",
     "An electric heater with a stated kW rating but no stated voltage remains voltage-neutral and carries an electrician check note."

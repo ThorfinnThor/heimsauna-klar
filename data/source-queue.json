@@ -3605,7 +3605,7 @@
     "manufacturer": "Home Deluxe",
     "url": "https://www.homedeluxe.de/infrarotkabine-redsun-deluxe-m_14914_23346/",
     "target_category": "infrared",
-    "target_voltage": "none",
+    "target_voltage": 230,
     "status": "verified",
     "notes": "Offizielle Produktseite: 120 × 105 × 190 cm, 1–2 Personen, 1.950 W und 220–240-V-Steckdose; am 2026-08-28 geprüft."
   },
@@ -3648,11 +3648,11 @@
   {
     "queue_id": "home-deluxe-shadow-m",
     "manufacturer": "Home Deluxe",
-    "url": "https://www.homedeluxe.de//en/sauna-infrared-cabin/traditional-sauna-shadow-m_20331_49248/",
+    "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/traditionelle-saunen/traditionelle-sauna-shadow-m_20331_49248/",
     "target_category": "indoor",
-    "target_voltage": "none",
+    "target_voltage": 230,
     "status": "verified",
-    "notes": "Offizielle SHADOW-M-Produktseite: 120 × 120 × 190 cm, 2 Personen, klassischer Elektroofen; Spannung in der geprüften Zusammenfassung nicht eindeutig; am 2026-08-28 geprüft."
+    "notes": "Deutsche Herstellerseite: 120 × 120 × 190 cm, 2 Personen, 3,6-kW-Ofen und 220–240 V AC ohne Starkstrom; am 2026-08-28 geprüft."
   },
   {
     "queue_id": "home-deluxe-shadow-l",

@@ -220,10 +220,11 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
   const footprint = product.dimensions_cm.width * product.dimensions_cm.depth / 10_000;
   const footprintLabel = footprint <= 3 ? "kompakten" : footprint <= 6 ? "mittleren" : "großen";
   const specificPros = product.editorial.pros.filter((item) => !["Innenaufstellung", "Außenaufstellung"].includes(item));
-  const strength = specificPros[0] ?? product.editorial.pros[0] ?? "die dokumentierte Ausstattung";
-  const secondStrength = specificPros[1] ?? product.editorial.pros[1] ?? "die ausgewiesenen Abmessungen";
-  const concern = product.editorial.cons[0] ?? "den konkreten Lieferumfang";
-  const useCase = product.editorial.ideal_for[0] ?? "den vorgesehenen Aufstellort";
+  const asSentenceFragment = (value: string) => value.replace(/[.!?]+$/, "");
+  const strength = asSentenceFragment(specificPros[0] ?? product.editorial.pros[0] ?? "die dokumentierte Ausstattung");
+  const secondStrength = asSentenceFragment(specificPros[1] ?? product.editorial.pros[1] ?? "die ausgewiesenen Abmessungen");
+  const concern = asSentenceFragment(product.editorial.cons[0] ?? "den konkreten Lieferumfang");
+  const useCase = asSentenceFragment(product.editorial.ideal_for[0] ?? "den vorgesehenen Aufstellort");
   const powerSentence = getPowerSentence(product);
   const variant = productHash(product.product_id) % 3;
 
@@ -238,7 +239,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
       kicker: "Standort vor Bestellung",
       title: `${product.model}: Standort und Ausstattung zusammen prüfen.`,
       intro: intros[variant],
-      detail: `${powerSentence} Für die reale Aufstellfläche von ${product.model} kommen zu den Produktmaßen noch Herstellerabstände, Fundament, Entwässerung und Montagezugang hinzu.`,
+      detail: `${powerSentence} Zur Produktfläche kommen noch Herstellerabstände, Fundament, Entwässerung und Montagezugang hinzu.`,
     };
   }
   if (product.category === "infrared") {
@@ -252,7 +253,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
       kicker: "Wärmeprofil und Abmessungen",
       title: `${product.model}: Wärmeart und Raumbedarf einordnen.`,
       intro: intros[variant],
-      detail: `${powerSentence} Bei ${product.model} sollten außerdem Strahlerposition, Regelung und das gewünschte Wärmegefühl mit der Herstellerbeschreibung abgeglichen werden.`,
+      detail: `${powerSentence} Zusätzlich sollten Strahlerposition, Regelung und das gewünschte Wärmegefühl mit der Herstellerbeschreibung abgeglichen werden.`,
     };
   }
   const intros = [
@@ -265,7 +266,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
     kicker: "Raum- und Anschlusslogik",
     title: `${product.model}: Maße und Nutzung zusammen lesen.`,
     intro: intros[variant],
-    detail: `${powerSentence} Für ${product.model} sind zusätzlich Türöffnung, Transportweg, Raumhöhe und die Abstände aus der konkreten Montageanleitung zu prüfen.`,
+    detail: `${powerSentence} Zusätzlich sind Türöffnung, Transportweg, Raumhöhe und die Abstände aus der konkreten Montageanleitung zu prüfen.`,
   };
 }
 
