@@ -155,7 +155,7 @@ function updatePublicDisclosures({ affiliatePolicy: policy, legal: legalContent,
   const cookies = legalContent.privacy.sections.find((section) => section.title === "Cookies, Analyse und Marketing");
   if (count > 0) {
     if (externalLinks) externalLinks.copy = "Die Website enthält Links zu Herstellern, Händlern, Dokumentationen und Behörden. Als Affiliate-Link gekennzeichnete Händlerlinks führen über Awin zum Anbieter. Erst beim Anklicken wird die externe Adresse aufgerufen; Awin und der Händler können dabei technisch erforderliche Aufrufdaten verarbeiten. Für die weitere Datenverarbeitung gelten die Hinweise des jeweiligen Anbieters.";
-    if (cookies) cookies.copy = "Select Your Sauna setzt keine eigenen Analyse- oder Werbeskripte und keine hierfür bestimmten Cookies ein. Affiliate-Tracking ist nicht in die Seite eingebettet, sondern beginnt erst nach dem bewussten Anklicken eines gekennzeichneten Affiliate-Links. Technisch notwendige Vorgänge des Hosting- und Sicherheitsdienstleisters bleiben hiervon unberührt.";
+    if (cookies) cookies.copy = "Select Your Sauna setzt keine eigenen Analyse- oder Werbeskripte und keine hierfür bestimmten Cookies ein. Eine Verbindung zum Affiliate-Netzwerk entsteht erst, wenn ein entsprechend gekennzeichneter Link bewusst angeklickt wird. Technisch notwendige Vorgänge des Hosting- und Sicherheitsdienstleisters bleiben hiervon unberührt.";
     legalContent.affiliate.intro = "Einzelne, ausdrücklich gekennzeichnete Händlerlinks sind Affiliate-Links. Erfolgt nach einem solchen Klick ein qualifizierter Kauf, kann SeitenHafen361 eine Vergütung erhalten; für Nutzerinnen und Nutzer ändert sich der Preis dadurch nicht.";
     legalContent.affiliate.sections = [
       {
