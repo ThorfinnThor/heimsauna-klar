@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import legal from "@/content/de/legal.json";
 import { formatGermanDate } from "@/lib/products";
+import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Impressum und Datenschutz",
   description: "Impressum, Datenschutzerklärung und Affiliate-Transparenz von Select Your Sauna und SeitenHafen361.",
-  alternates: { canonical: "/de/rechtliches/" },
-};
+  path: "/de/rechtliches/",
+});
 
 export default function LegalPage() {
   return (

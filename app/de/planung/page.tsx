@@ -1,15 +1,15 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { getPlanningGuide, planningGroups } from "@/lib/planning-guides";
+import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Sauna planen: Platz, Lüftung, Boden und Kosten",
   description: "Die wichtigsten Planungsschritte vor dem Saunakauf – quellenbasiert, produktspezifisch und mit konkreten Prüfpunkten.",
-  alternates: { canonical: "/de/planung/" },
-};
+  path: "/de/planung/",
+});
 
 export default function PlanningHubPage() {
   return (

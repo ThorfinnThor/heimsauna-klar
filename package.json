@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "npm run data:check && next build --webpack && npm run links:check && npm run seo:check && npm run diversity:check",
+    "build": "npm run data:check && next build --webpack && npm run links:check && npm run seo:check && npm run diversity:check && npm run security:check",
     "build:cloudflare": "npm run build",
     "deploy:cloudflare": "npm run build:cloudflare && npx wrangler deploy",
     "start": "next start",
@@ -16,6 +16,7 @@
     "links:check": "node scripts/check-internal-links.mjs",
     "seo:check": "node scripts/check-static-seo.mjs",
     "diversity:check": "node scripts/check-content-diversity.mjs",
+    "security:check": "node scripts/check-security-headers.mjs",
     "test": "npm run data:check && npm run build"
   },
   "dependencies": {

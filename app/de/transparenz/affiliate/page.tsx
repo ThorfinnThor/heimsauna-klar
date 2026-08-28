@@ -1,19 +1,19 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import affiliate from "@/content/de/affiliate.json";
 import { affiliatePrograms, getAffiliateStats, getMerchantOfferCounts, merchants } from "@/lib/affiliate";
 import { formatGermanDate } from "@/lib/products";
+import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 const description = "Aktueller Affiliate-Status, Händlerabdeckung, Kennzeichnungsregeln und geprüfte Partnerprogramm-Kandidaten von Select Your Sauna.";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Affiliate-Transparenz: Status, Regeln und Partnerprogramme",
   description,
-  alternates: { canonical: "/de/transparenz/affiliate/" },
-};
+  path: "/de/transparenz/affiliate/",
+});
 
 export default function AffiliateTransparencyPage() {
   const stats = getAffiliateStats();

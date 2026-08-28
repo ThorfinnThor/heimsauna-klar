@@ -76,12 +76,24 @@ for (const { file, route } of publicPages) {
   const title = html.match(/<title>(.*?)<\/title>/s)?.[1] ?? "";
   const description = html.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? "";
   const canonical = html.match(/<link rel="canonical" href="([^"]*)"/)?.[1] ?? "";
+  const openGraphTitle = html.match(/<meta property="og:title" content="([^"]*)"/)?.[1] ?? "";
+  const openGraphDescription = html.match(/<meta property="og:description" content="([^"]*)"/)?.[1] ?? "";
+  const openGraphUrl = html.match(/<meta property="og:url" content="([^"]*)"/)?.[1] ?? "";
+  const openGraphImage = html.match(/<meta property="og:image" content="([^"]*)"/)?.[1] ?? "";
+  const twitterCard = html.match(/<meta name="twitter:card" content="([^"]*)"/)?.[1] ?? "";
+  const twitterImage = html.match(/<meta name="twitter:image" content="([^"]*)"/)?.[1] ?? "";
   const h1Count = (html.match(/<h1(?:\s[^>]*)?>/g) ?? []).length;
   const pageText = plainText(html);
 
   if (!title) issues.push(`${route}: missing title`);
   if (!description) issues.push(`${route}: missing description`);
   if (!canonical) issues.push(`${route}: missing canonical`);
+  if (!openGraphTitle) issues.push(`${route}: missing og:title`);
+  if (!openGraphDescription) issues.push(`${route}: missing og:description`);
+  if (!openGraphUrl) issues.push(`${route}: missing og:url`);
+  if (!openGraphImage) issues.push(`${route}: missing og:image`);
+  if (twitterCard !== "summary_large_image") issues.push(`${route}: expected twitter:card summary_large_image`);
+  if (!twitterImage) issues.push(`${route}: missing twitter:image`);
   if (h1Count !== 1) issues.push(`${route}: expected one h1, found ${h1Count}`);
   for (const { pattern, label } of editorialStylePatterns) {
     if (pattern.test(pageText)) issues.push(`${route}: contains ${label}`);
@@ -102,6 +114,12 @@ for (const { file, route } of publicPages) {
   const expectedCanonical = route === "/" ? `${siteUrl}/de/` : `${siteUrl}${route}`;
   if (canonical && canonical !== expectedCanonical) {
     issues.push(`${route}: canonical is ${canonical}, expected ${expectedCanonical}`);
+  }
+  if (openGraphUrl && openGraphUrl !== expectedCanonical) {
+    issues.push(`${route}: og:url is ${openGraphUrl}, expected ${expectedCanonical}`);
+  }
+  if (openGraphImage && !openGraphImage.startsWith(`${siteUrl}/`)) {
+    issues.push(`${route}: og:image must use the production origin`);
   }
 
   for (const [index, match] of [...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].entries()) {

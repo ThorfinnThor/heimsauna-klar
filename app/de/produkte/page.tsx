@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
 import { ProductCatalog } from "@/app/_components/ProductCatalog";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import Link from "next/link";
 import { collections, getCollectionProducts } from "@/lib/collections";
 import { products } from "@/lib/products";
+import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Sauna-Produkte mit geprüften technischen Daten",
   description: "Ein wachsender Katalog für Heimsaunen mit Quellen, Prüfdatum und nachvollziehbarer redaktioneller Einordnung.",
-  alternates: { canonical: "/de/produkte/" },
-};
+  path: "/de/produkte/",
+});
 
 export default function ProductsPage() {
   return (

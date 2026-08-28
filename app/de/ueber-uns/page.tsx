@@ -1,18 +1,18 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { aboutPageJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
+import { createPageMetadata } from "@/lib/metadata";
 
 const path = "/de/ueber-uns/";
 const title = "Über Select Your Sauna: Redaktion und Methodik";
 const description = "Wer Select Your Sauna betreibt, wie Produktdaten geprüft werden und nach welchen Regeln die Planungshilfen und Vergleiche entstehen.";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title,
   description,
-  alternates: { canonical: path },
-};
+  path,
+});
 
 export default function AboutPage() {
   return (

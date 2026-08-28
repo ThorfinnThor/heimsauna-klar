@@ -1,15 +1,15 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { formatGermanDate, formatPower, formatPrice, getLatestOfferCheck, products } from "@/lib/products";
+import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "230-V-Sauna Vergleich: kompakte Modelle im Datencheck",
   description: "Ein transparenter Vergleich verifizierter 230-V-Sauna- und Infrarot-Datensätze nach Maßen, Kapazität, Leistung und Preisstatus.",
-  alternates: { canonical: "/de/vergleiche/230-v-sauna/" },
-};
+  path: "/de/vergleiche/230-v-sauna/",
+});
 
 export default function ComparisonPage() {
   const candidates = products.filter((product) => product.power.voltage === 230);

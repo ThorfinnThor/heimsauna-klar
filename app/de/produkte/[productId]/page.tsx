@@ -5,6 +5,7 @@ import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
 import { getOfferDisclosure, getOfferHref } from "@/lib/affiliate";
+import { createPageMetadata } from "@/lib/metadata";
 import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
@@ -22,13 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return {};
   const title = `${product.brand} ${product.model}: Maße, Strom und Einordnung`;
   const description = `${product.brand} ${product.model}: ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm, ${formatVoltage(product.power.voltage)} und Platz für bis zu ${product.people.max} Personen. Quellengeprüfter Datensatz.`;
-  return {
+  return createPageMetadata({
     title,
     description,
-    alternates: { canonical: `/de/produkte/${product.product_id}/` },
-    openGraph: { title, description, images: [] },
-    twitter: { card: "summary", title, description, images: [] },
-  };
+    path: `/de/produkte/${product.product_id}/`,
+  });
 }
 
 export default async function ProductPage({ params }: Props) {

@@ -1,16 +1,17 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import guide from "@/content/de/guides/230-v-sauna.json";
 import { formatGermanDate, products } from "@/lib/products";
+import { createPageMetadata } from "@/lib/metadata";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "230-V-Sauna: Anschluss, Leistung und Grenzen verständlich erklärt",
   description: guide.description,
-  alternates: { canonical: "/de/saunatechnik/230-v-sauna/" },
-};
+  path: "/de/saunatechnik/230-v-sauna/",
+  type: "article",
+});
 
 export default function GuidePage() {
   const matchingProducts = products.filter((product) => product.power.voltage === 230);
