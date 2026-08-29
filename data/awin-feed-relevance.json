@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T15:33:04.127Z",
+  "generated_at": "2026-08-29T15:34:56.150Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
-  "matching_policy": "Relevance signals only; no product data or affiliate links activated",
+  "matching_policy": "Relevance signals only; a small sanitized candidate sample is included; no product records or affiliate links activated",
   "audits": [
     {
       "advertiserId": "125144",
