@@ -73,7 +73,8 @@
       "narrative_angle": "Breite, Türbewegung und Sitzraum werden aus der Perspektive enger Wohnräume gelesen.",
       "filter": { "categories": ["infrared"], "people_exact": 1 },
       "evidence_basis": "Außenmaße, Stellfläche, Sitzplätze und Strahlerangaben",
-      "status": "published"
+      "status": "published",
+      "published_commit": "8aa1399"
     },
     {
       "id": "infrared-two-person",
@@ -84,7 +85,8 @@
       "narrative_angle": "Die nominelle Kapazität wird mit Grundfläche und Kabinenproportionen verbunden.",
       "filter": { "categories": ["infrared"], "people_exact": 2 },
       "evidence_basis": "Kapazität, Maße, Stellfläche und Heiztechnik",
-      "status": "published"
+      "status": "published",
+      "published_commit": "8aa1399"
     },
     {
       "id": "infrared-three-plus",
@@ -95,7 +97,8 @@
       "narrative_angle": "Größere Kabinen werden nach Platzverteilung, Heiztechnik und Anschluss verglichen.",
       "filter": { "categories": ["infrared"], "people_min": 3 },
       "evidence_basis": "Kapazität, Maße, Spannung und Strahlerangaben",
-      "status": "published"
+      "status": "published",
+      "published_commit": "8aa1399"
     },
     {
       "id": "finnish-two-person",
@@ -106,7 +109,8 @@
       "narrative_angle": "Kompaktheit, Ofenkonfiguration und realer Bewegungsraum werden gemeinsam betrachtet.",
       "filter": { "categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 2 },
       "evidence_basis": "Saunatyp, Kapazität, Außenmaße und Ofenangaben",
-      "status": "published"
+      "status": "published",
+      "published_commit": "8aa1399"
     },
     {
       "id": "finnish-three-person",
@@ -117,7 +121,8 @@
       "narrative_angle": "Sitz- und Liegekonzept erklären, weshalb ähnlich große Außenmaße unterschiedlich nutzbar sein können.",
       "filter": { "categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 3 },
       "evidence_basis": "Kapazität, Sitzplätze, Liegeplätze, Maße und Ofenstatus",
-      "status": "published"
+      "status": "published",
+      "published_commit": "8aa1399"
     },
     {
       "id": "finnish-four-person",
