@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T16:50:35.336Z",
+  "generated_at": "2026-08-29T16:52:03.658Z",
   "source": "Awin authenticated Artsauna DE product feed",
   "secret_included": false,
   "activation_policy": "Candidate tokens only; no catalog records, offers, prices, or affiliate links changed",
@@ -9,115 +9,10 @@
   "feed_id": "97646",
   "feed_name": "Default",
   "feed_rows": 55,
-  "candidates_total": 9,
-  "unlinked_candidates": 7,
+  "candidates_total": 2,
+  "unlinked_candidates": 0,
   "already_linked_candidates": 2,
   "candidates": [
-    {
-      "product_id": "artsauna-kiruna-120",
-      "catalog_name": "Artsauna Kiruna 120",
-      "feed_product_name": "Infrarotkabine Kiruna 130 Premium",
-      "merchant_url": "https://artsauna.de/products/infrarotkabine-kiruna130-premium",
-      "feed_price": "1999.00",
-      "matched_identity_tokens": [
-        "kiruna"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false,
-      "candidates_for_merchant_url": 1,
-      "ambiguous_merchant_url": false
-    },
-    {
-      "product_id": "artsauna-kiruna-120",
-      "catalog_name": "Artsauna Kiruna 120",
-      "feed_product_name": "Infrarotkabine Kiruna 160",
-      "merchant_url": "https://artsauna.de/products/infrarotkabine-kiruna160-mit-dual-technologie",
-      "feed_price": "1499.00",
-      "matched_identity_tokens": [
-        "kiruna"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false,
-      "candidates_for_merchant_url": 1,
-      "ambiguous_merchant_url": false
-    },
-    {
-      "product_id": "artsauna-kiruna-120",
-      "catalog_name": "Artsauna Kiruna 120",
-      "feed_product_name": "Infrarotkabine Kiruna 90",
-      "merchant_url": "https://artsauna.de/products/infrarotkabine-kiruna90-mit-dual-technologie",
-      "feed_price": "1049.00",
-      "matched_identity_tokens": [
-        "kiruna"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false,
-      "candidates_for_merchant_url": 1,
-      "ambiguous_merchant_url": false
-    },
-    {
-      "product_id": "artsauna-kiruna-120",
-      "catalog_name": "Artsauna Kiruna 120",
-      "feed_product_name": "Infrarotkabine Kiruna 90 Premium",
-      "merchant_url": "https://artsauna.de/products/infrarotkabine-kiruna90-premium",
-      "feed_price": "1699.00",
-      "matched_identity_tokens": [
-        "kiruna"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false,
-      "candidates_for_merchant_url": 1,
-      "ambiguous_merchant_url": false
-    },
-    {
-      "product_id": "artsauna-malmo-140-schwarz",
-      "catalog_name": "Artsauna Malmö 140 – Schwarz",
-      "feed_product_name": "Infrarotkabine Helsinki 150 - Schwarz",
-      "merchant_url": "https://artsauna.de/products/infrarotkabine-helsinki-150-mit-dual-technology-schwarz",
-      "feed_price": "1799.00",
-      "matched_identity_tokens": [
-        "schwarz"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false,
-      "candidates_for_merchant_url": 3,
-      "ambiguous_merchant_url": true
-    },
-    {
-      "product_id": "artsauna-trondheim-120-schwarz",
-      "catalog_name": "Artsauna Trondheim 120 – Schwarz",
-      "feed_product_name": "Infrarotkabine Helsinki 150 - Schwarz",
-      "merchant_url": "https://artsauna.de/products/infrarotkabine-helsinki-150-mit-dual-technology-schwarz",
-      "feed_price": "1799.00",
-      "matched_identity_tokens": [
-        "schwarz"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false,
-      "candidates_for_merchant_url": 3,
-      "ambiguous_merchant_url": true
-    },
-    {
-      "product_id": "artsauna-trondheim-90-schwarz",
-      "catalog_name": "Artsauna Trondheim 90 – Schwarz",
-      "feed_product_name": "Infrarotkabine Helsinki 150 - Schwarz",
-      "merchant_url": "https://artsauna.de/products/infrarotkabine-helsinki-150-mit-dual-technology-schwarz",
-      "feed_price": "1799.00",
-      "matched_identity_tokens": [
-        "schwarz"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false,
-      "candidates_for_merchant_url": 3,
-      "ambiguous_merchant_url": true
-    },
     {
       "product_id": "artsauna-aalborg",
       "catalog_name": "Artsauna Aalborg",
@@ -142,7 +37,9 @@
       "matched_identity_tokens": [
         "kiruna"
       ],
-      "matched_variant_tokens": [],
+      "matched_variant_tokens": [
+        "120"
+      ],
       "reason": "rare-model-token",
       "already_linked": true,
       "candidates_for_merchant_url": 1,
