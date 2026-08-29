@@ -14,6 +14,23 @@ const PRODUCT_NAME_FIELDS = [
   "title",
 ];
 
+const PRODUCT_URL_FIELDS = [
+  "merchant_deep_link",
+  "merchant deep link",
+  "merchant_product_url",
+  "merchant product url",
+  "product_url",
+  "product url",
+  "deep_link",
+  "deep link",
+  "link",
+  "url",
+];
+
+const BRAND_FIELDS = ["brand", "brand_name", "brand name", "manufacturer"];
+const CATEGORY_FIELDS = ["category", "category_name", "category name", "product_type", "product type"];
+const PRICE_FIELDS = ["price", "sale_price", "sale price", "current_price", "current price"];
+
 function normalizedKey(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "");
 }
@@ -25,9 +42,23 @@ function field(row, names) {
   return typeof value === "string" && value.trim() ? value.trim() : undefined;
 }
 
+function cleanHttpsUrl(value) {
+  if (!value) return undefined;
+  try {
+    const url = new URL(value);
+    if (url.protocol !== "https:" || url.username || url.password || url.port) return undefined;
+    url.search = "";
+    url.hash = "";
+    return url.toString();
+  } catch {
+    return undefined;
+  }
+}
+
 export function auditFeedRows(rows) {
   const counts = Object.fromEntries(Object.keys(SIGNAL_GROUPS).map((group) => [group, 0]));
   const samples = [];
+  const sampleProducts = [];
   let signalRows = 0;
 
   for (const row of rows) {
@@ -41,6 +72,16 @@ export function auditFeedRows(rows) {
     if (matchedGroups.length > 0) {
       const name = field(row, PRODUCT_NAME_FIELDS);
       if (name && !samples.includes(name) && samples.length < 8) samples.push(name);
+      if (name && /sauna|infrarot|dampfbad/i.test(name) && sampleProducts.length < 12) {
+        const url = cleanHttpsUrl(field(row, PRODUCT_URL_FIELDS));
+        sampleProducts.push({
+          name,
+          ...(url ? { url } : {}),
+          ...(field(row, BRAND_FIELDS) ? { brand: field(row, BRAND_FIELDS) } : {}),
+          ...(field(row, CATEGORY_FIELDS) ? { category: field(row, CATEGORY_FIELDS) } : {}),
+          ...(field(row, PRICE_FIELDS) ? { price: field(row, PRICE_FIELDS) } : {}),
+        });
+      }
     }
   }
 
@@ -49,5 +90,6 @@ export function auditFeedRows(rows) {
     signalRows,
     counts,
     sampleProductNames: samples,
+    sampleProducts,
   };
 }

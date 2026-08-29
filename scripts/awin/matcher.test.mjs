@@ -34,6 +34,10 @@ test("feed relevance audit counts signal rows without activating products", () =
   assert.equal(audit.counts.sauna, 1);
   assert.equal(audit.counts.infrared, 1);
   assert.deepEqual(audit.sampleProductNames, ["Gartensauna Fjord", "Infrarotkabine"]);
+  assert.deepEqual(audit.sampleProducts, [
+    { name: "Gartensauna Fjord" },
+    { name: "Infrarotkabine", category: "Wellness" },
+  ]);
 });
 
 test("affiliate activation requires an exact canonical merchant URL", () => {
