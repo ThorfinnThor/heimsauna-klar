@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T15:34:56.150Z",
+  "generated_at": "2026-08-29T15:48:24.080Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Relevance signals only; a small sanitized candidate sample is included; no product records or affiliate links activated",
@@ -65,73 +65,85 @@
           "name": "Infrarot-Thermometer / Pyrometer BP17",
           "url": "https://de.trotec.com/shop/infrarot-thermometer-pyrometer-bp17.html",
           "brand": "Trotec",
-          "category": "Power Tools"
+          "category": "Power Tools",
+          "price": "30.99"
         },
         {
           "name": "Infrarot Heizstrahler IR 2000 S",
           "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-2000-s.html",
           "brand": "Trotec",
-          "category": "Radiators"
+          "category": "Radiators",
+          "price": "29.99"
         },
         {
           "name": "Infrarot-Heizplatte / Infrarotheizung TIH 1100 S",
           "url": "https://de.trotec.com/shop/infrarot-heizplatte-infrarotheizung-tih-1100-s.html",
           "brand": "Trotec",
-          "category": "Radiators"
+          "category": "Radiators",
+          "price": "119.99"
         },
         {
           "name": "Infrarot-Thermometer / Pyrometer TP7 Multipunkt Laser",
           "url": "https://de.trotec.com/shop/infrarot-thermometer-pyrometer-tp7-multipunkt-laser.html",
           "brand": "Trotec",
-          "category": "Power Tools"
+          "category": "Power Tools",
+          "price": "119"
         },
         {
           "name": "Infrarot-Heizplatte / Infrarotheizung TIH 900 S",
           "url": "https://de.trotec.com/shop/infrarot-heizplatte-infrarotheizung-tih-900-s.html",
           "brand": "Trotec",
-          "category": "Radiators"
+          "category": "Radiators",
+          "price": "139.99"
         },
         {
           "name": "Infrarot Heizstrahler IR 2050",
           "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-2050.html",
           "brand": "Trotec",
-          "category": "Radiators"
+          "category": "Radiators",
+          "price": "69.99"
         },
         {
           "name": "Infrarot Heizstrahler IR 1200 S",
           "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-1200-s.html",
           "brand": "Trotec",
-          "category": "Radiators"
+          "category": "Radiators",
+          "price": "22.99"
         },
         {
           "name": "Infrarot-Thermometer / Pyrometer TP10 Multipunkt Laser",
           "url": "https://de.trotec.com/shop/infrarot-thermometer-pyrometer-tp10-multipunkt-laser.html",
           "brand": "Trotec",
-          "category": "Power Tools"
+          "category": "Power Tools",
+          "price": "439.11"
         },
         {
           "name": "Infrarot-Heizstrahler IR 3050",
           "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-3050.html",
           "brand": "Trotec",
-          "category": "Radiators"
+          "category": "Radiators",
+          "price": "109.99"
         },
         {
           "name": "Infrarot Heizstrahler IR 2570 S",
           "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-2570-s.html",
           "brand": "Trotec",
-          "category": "Radiators"
+          "category": "Radiators",
+          "price": "59.99"
         },
         {
           "name": "Infrarot Heizstrahler IR 2010 S",
           "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-2010-s.html",
           "brand": "Trotec",
-          "category": "Radiators"
+          "category": "Radiators",
+          "price": "129.99"
         },
         {
           "name": "Ölbefeuertes Infrarot-Heizgerät XL91",
           "url": "https://de.trotec.com/shop/infrarot-oelheizer-master-xl-91.html",
           "brand": "Master",
-          "category": "Radiators"
+          "category": "Radiators",
+          "price": "2963.1"
         }
       ],
       "status": "audited"
@@ -165,73 +177,85 @@
           "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine günstig",
           "url": "https://benz24.de/weka-saunaofen-klassik-inkl-12.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "291.48"
         },
         {
           "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine günstig",
           "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "425.64"
         },
         {
           "name": "weka Saunaofenset mit Saunasteinen günstig",
           "url": "https://benz24.de/weka-saunaofenset-mit-saunasteinen-und.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "278.21"
         },
         {
           "name": "weka Technikpaket inklusive Steuerung, Anschlusskabel und Saunasteinen günstig",
           "url": "https://benz24.de/weka-technikpaket-inklusive-steuerung-anschlusskabel.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "491.85"
         },
         {
           "name": "weka Profiset Saunaofen 11,0 kW inkl. Saunasteine und Ofenschutz günstig",
           "url": "https://benz24.de/weka-profiset-saunaofen-110-kw.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "1568.06"
         },
         {
           "name": "weka Saunaofen Kompakt inkl. 12 kg Saunasteinen günstig",
           "url": "https://benz24.de/weka-saunaofen-kompakt-inkl-12.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "246.51"
         },
         {
           "name": "weka Gartensauna Saunahaus Farsund mit Vorraum günstig",
           "url": "https://benz24.de/weka-gartensauna-saunahaus-farsund-mit.html",
           "brand": "WEKA",
-          "category": "Garden Tools"
+          "category": "Garden Tools",
+          "price": "4267.39"
         },
         {
           "name": "Karibu Saunahaus Skrollan 1 Naturbelassen günstig",
           "url": "https://benz24.de/karibu-saunahaus-skrollan-1-naturbelassen.html",
           "brand": "Karibu",
-          "category": "Garden Tools"
+          "category": "Garden Tools",
+          "price": "3389.00"
         },
         {
           "name": "Karibu Saunahaus Skrollan 1 Terragrau günstig",
           "url": "https://benz24.de/karibu-saunahaus-skrollan-1-terragrau.html",
           "brand": "Karibu",
-          "category": "Garden Tools"
+          "category": "Garden Tools",
+          "price": "3901.00"
         },
         {
           "name": "Karibu Saunahaus Skrollan 2 Naturbelassen günstig",
           "url": "https://benz24.de/karibu-saunahaus-skrollan-2-naturbelassen.html",
           "brand": "Karibu",
-          "category": "Garden Tools"
+          "category": "Garden Tools",
+          "price": "3479.00"
         },
         {
           "name": "Karibu Saunahaus Skrollan 2 Terragrau günstig",
           "url": "https://benz24.de/karibu-saunahaus-skrollan-2-terragrau.html",
           "brand": "Karibu",
-          "category": "Garden Tools"
+          "category": "Garden Tools",
+          "price": "4019.00"
         },
         {
           "name": "Karibu Saunahaus Skrollan 3 Naturbleassen günstig",
           "url": "https://benz24.de/karibu-saunahaus-skrollan-3-naturbleassen.html",
           "brand": "Karibu",
-          "category": "Garden Tools"
+          "category": "Garden Tools",
+          "price": "4059.00"
         }
       ],
       "status": "audited"
@@ -265,73 +289,85 @@
           "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine günstig",
           "url": "https://benz24.at/weka-saunaofen-klassik-inkl-12.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "293.93"
         },
         {
           "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine günstig",
           "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "429.22"
         },
         {
           "name": "weka Saunaofenset mit Saunasteinen günstig",
           "url": "https://benz24.at/weka-saunaofenset-mit-saunasteinen-und.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "280.55"
         },
         {
           "name": "weka Technikpaket inklusive Steuerung, Anschlusskabel und Saunasteinen günstig",
           "url": "https://benz24.at/weka-technikpaket-inklusive-steuerung-anschlusskabel.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "495.98"
         },
         {
           "name": "weka Profiset Saunaofen 11,0 kW inkl. Saunasteine und Ofenschutz günstig",
           "url": "https://benz24.at/weka-profiset-saunaofen-110-kw.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "1581.24"
         },
         {
           "name": "weka Saunaofen Kompakt inkl. 12 kg Saunasteinen günstig",
           "url": "https://benz24.at/weka-saunaofen-kompakt-inkl-12.html",
           "brand": "WEKA",
-          "category": "Garden"
+          "category": "Garden",
+          "price": "248.58"
         },
         {
           "name": "weka Gartensauna Saunahaus Farsund mit Vorraum günstig",
           "url": "https://benz24.at/weka-gartensauna-saunahaus-farsund-mit.html",
           "brand": "WEKA",
-          "category": "Garden Tools"
+          "category": "Garden Tools",
+          "price": "4303.25"
         },
         {
           "name": "Karibu Fasssauna 2 naturbelassen günstig",
           "url": "https://benz24.at/karibu-fasssauna-2-naturbelassen.html",
           "brand": "Karibu",
-          "category": "Garden Tools"
+          "category": "Garden Tools",
+          "price": "3235.97"
         },
         {
           "name": "Karibu Fasssauna 3 naturbelassen günstig",
           "url": "https://benz24.at/karibu-fasssauna-3-naturbelassen.html",
           "brand": "Karibu",
-          "category": "Garden Tools"
+          "category": "Garden Tools",
+          "price": "4496.47"
         },
         {
           "name": "weka Sauna Ecksauna VARBERG naturbelassene Fichte inklusive Ofen günstig",
           "url": "https://benz24.at/weka-sauna-ecksauna-varberg-naturbelassene.html",
           "brand": "WEKA",
-          "category": "Appliance Spares"
+          "category": "Appliance Spares",
+          "price": "2827.37"
         },
         {
           "name": "weka Aufgusskübel 5 Liter für Sauna günstig",
           "url": "https://benz24.at/weka-aufgusskuebel-5-liter-fuer.html",
           "brand": "WEKA",
-          "category": "DIY"
+          "category": "DIY",
+          "price": "35.18"
         },
         {
           "name": "weka Schöpfkelle für Sauna aus hochwertigem Spezialholz günstig",
           "url": "https://benz24.at/weka-schoepfkelle-fuer-sauna-aus.html",
           "brand": "WEKA",
-          "category": "DIY"
+          "category": "DIY",
+          "price": "15.52"
         }
       ],
       "status": "audited"
@@ -359,19 +395,23 @@
       "sampleProducts": [
         {
           "name": "Innensauna 205x168cm / 40mm",
-          "url": "https://www.intergardshop.de/innensauna-fichte-205x168cm"
+          "url": "https://www.intergardshop.de/innensauna-fichte-205x168cm",
+          "price": "2506.87"
         },
         {
           "name": "Innensauna 205x205cm / 40mm",
-          "url": "https://www.intergardshop.de/innensauna-fichte-205x205cm"
+          "url": "https://www.intergardshop.de/innensauna-fichte-205x205cm",
+          "price": "2723.23"
         },
         {
           "name": "Innensauna Eckmodell 205x205cm / 40mm",
-          "url": "https://www.intergardshop.de/innensauna-fichte-eckmodell"
+          "url": "https://www.intergardshop.de/innensauna-fichte-eckmodell",
+          "price": "2801.90"
         },
         {
           "name": "Saunaheizung Saunaofen 8kw / 380v",
-          "url": "https://www.intergardshop.de/innensauna-sauna-heizung"
+          "url": "https://www.intergardshop.de/innensauna-sauna-heizung",
+          "price": "539.93"
         }
       ],
       "status": "audited"
@@ -423,73 +463,85 @@
           "name": "Dampfdusche mit Wasserfall und Dampfsauna BLACK PEARL - 100 x 100 cm",
           "url": "https://www.homedeluxe.de/dampfdusche-black-pearl-100-x-100-cm_1936_1024/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "1049.00"
         },
         {
           "name": "Dampfdusche mit Wasserfall und Dampfsauna BLACK PEARL  - 120 x 80 cm Rechts",
           "url": "https://www.homedeluxe.de/dampfdusche-black-pearl-120-x-80-cm-rechts_1939_1026/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "1099.00"
         },
         {
           "name": "Dampfdusche mit Wasserfall und Dampfsauna BLACK PEARL - 120 x 80 cm Links",
           "url": "https://www.homedeluxe.de/dampfdusche-black-pearl-120-x-80-cm-links_1940_1027/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "1099.00"
         },
         {
           "name": "Dampfdusche mit Wasserfall und Dampfsauna WHITE PEARL - 90 x 90 cm",
           "url": "https://www.homedeluxe.de/dampfdusche-white-pearl-90-x-90-cm_1941_1028/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "999.00"
         },
         {
           "name": "Dampfdusche mit Wasserfall und Dampfsauna WHITE PEARL - 100 x 100 cm",
           "url": "https://www.homedeluxe.de/dampfdusche-white-pearl-100-x-100-cm_1942_1029/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "1049.00"
         },
         {
           "name": "Dampfdusche mit Wasserfall und Dampfsauna WHITE PEARL - 120 x 80 cm Links",
           "url": "https://www.homedeluxe.de/dampfdusche-white-pearl-120-x-80-cm-links_1944_1031/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "1099.00"
         },
         {
           "name": "Dampfdusche mit Whirlpoolfunktion und Dampfsauna EXCLUSIVE - 150 x 150 cm Schwarz",
           "url": "https://www.homedeluxe.de/dampfdusche-exclusive-schwarz_1951_1038/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "1899.00"
         },
         {
           "name": "Dampfdusche mit Whirlpoolfunktion und Dampfsauna EXCLUSIO - 135 x 135 cm Schwarz",
           "url": "https://www.homedeluxe.de/dampfdusche-exclusio-schwarz_1964_1051/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "1649.00"
         },
         {
           "name": "Dampfdusche mit Whirlpoolfunktion und Dampfsauna EXCLUSIVE - 150 x 150 cm Weiß",
           "url": "https://www.homedeluxe.de/dampfdusche-exclusive-weiss_1978_1064/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "1899.00"
         },
         {
           "name": "Dampfdusche mit Wasserfall und Dampfsauna LUXORY - 120 x 90 cm Schwarz",
           "url": "https://www.homedeluxe.de/dampfdusche-black-luxory-xl_1984_1067/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "2299.00"
         },
         {
           "name": "Infrarotkabine REDSUN M - 120 x 105 cm für 2 Personen",
           "url": "https://www.homedeluxe.de/infrarotkabine-redsun-m_2056_1138/",
           "brand": "Home Deluxe",
-          "category": "House Accessories"
+          "category": "House Accessories",
+          "price": "999.00"
         },
         {
           "name": "Dampfdusche mit Wasserfall und Dampfsauna LUXORY - 120 x 90 cm Weiß",
           "url": "https://www.homedeluxe.de/dampfdusche-white-luxory-xl_2552_1221/",
           "brand": "Home Deluxe",
-          "category": "Showers"
+          "category": "Showers",
+          "price": "2299.00"
         }
       ],
       "status": "audited"
@@ -604,70 +656,82 @@
           "name": "Infrarotkabine Helsinki 150",
           "url": "https://artsauna.de/products/infrarotkabine-warmekabine-helsinki-150-mit-triplex-heizsystem-hemlockholz",
           "brand": "Artsauna",
-          "category": "House Accessories"
+          "category": "House Accessories",
+          "price": "1899.00"
         },
         {
           "name": "Infrarotkabine Aalborg",
           "url": "https://artsauna.de/products/infrarotkabine-warmekabine-aalborg-mit-triplex-heizsystem-hemlockholz",
-          "brand": "Artsauna"
+          "brand": "Artsauna",
+          "price": "1699.00"
         },
         {
           "name": "Infrarotkabine Kolding",
           "url": "https://artsauna.de/products/infrarotkabine-warmekabine-kolding-mit-triplex-heizsystem-hemlockholz",
-          "brand": "Artsauna"
+          "brand": "Artsauna",
+          "price": "1999.00"
         },
         {
           "name": "Infrarotkabine Esbjerg",
           "url": "https://artsauna.de/products/infrarotkabine-warmekabine-esbjerg-mit-triplex-heizsystem-hemlockholz",
-          "brand": "Artsauna"
+          "brand": "Artsauna",
+          "price": "1999.00"
         },
         {
           "name": "Infrarotkabine Kiruna 90",
           "url": "https://artsauna.de/products/infrarotkabine-kiruna90-mit-dual-technologie",
           "brand": "Artsauna",
-          "category": "House Accessories"
+          "category": "House Accessories",
+          "price": "1049.00"
         },
         {
           "name": "Infrarotkabine Kiruna 160",
           "url": "https://artsauna.de/products/infrarotkabine-kiruna160-mit-dual-technologie",
           "brand": "Artsauna",
-          "category": "House Accessories"
+          "category": "House Accessories",
+          "price": "1499.00"
         },
         {
           "name": "Infrarotkabine Helsinki 150 - Schwarz",
           "url": "https://artsauna.de/products/infrarotkabine-helsinki-150-mit-dual-technology-schwarz",
           "brand": "Artsauna",
-          "category": "House Accessories"
+          "category": "House Accessories",
+          "price": "1799.00"
         },
         {
           "name": "Infrarotkabine Kiruna 120",
           "url": "https://artsauna.de/products/infrarotkabine-kiruna-120",
           "brand": "Artsauna",
-          "category": "House Accessories"
+          "category": "House Accessories",
+          "price": "1149.00"
         },
         {
           "name": "Infrarotkabine Nyborg S120K",
           "url": "https://artsauna.de/products/infrarotkabine-nyborg-s120k",
           "brand": "Artsauna",
-          "category": "House Accessories"
+          "category": "House Accessories",
+          "price": "1099.00"
         },
         {
           "name": "Infrarotkabine Nyborg E150V",
           "url": "https://artsauna.de/products/infrarotkabine-warmekabine-nyborg-e150v",
           "brand": "Artsauna",
-          "category": "House Accessories"
+          "category": "House Accessories",
+          "price": "1599.00"
         },
         {
           "name": "Infrarotkabine Nyborg S120V",
           "url": "https://artsauna.de/products/infrarotkabine-nyborg-s120v",
           "brand": "Artsauna",
-          "category": "House Accessories"
+          "category": "House Accessories",
+          "price": "1199.00"
         },
         {
           "name": "Infrarotkabine Nyborg S90V",
           "url": "https://artsauna.de/products/infrarotkabine-nyborg-s90v",
           "brand": "Artsauna",
-          "category": "House Accessories"
+          "category": "House Accessories",
+          "price": "1049.00"
         }
       ],
       "status": "audited"
