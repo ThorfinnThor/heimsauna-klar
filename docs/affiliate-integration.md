@@ -28,6 +28,8 @@ Unscharfe Produktnamen, Modellähnlichkeiten und nicht eindeutige URLs landen nu
 
 Der manuelle Workflow `Sync approved Awin affiliate offers` führt vor einem Commit die Feed-Tests, den Datencheck und den vollständigen statischen Build aus. Eine automatische Zeitplanung wird erst nach einem erfolgreichen Erstlauf aktiviert.
 
+Der einmalige Workflow `Audit Awin feed relevance` wertet freigeschaltete deutsche Feeds nur nach Sauna-Signalen aus. Er schreibt ausschließlich zusammengefasste Zählwerte und wenige Produktnamen; neue Produkte, Preise und Affiliate-Links werden dabei nicht aktiviert.
+
 ## Benötigte Angaben nach einer Freigabe
 
 Für jedes freigeschaltete Programm werden benötigt:
