@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T15:28:10.974Z",
+  "generated_at": "2026-08-29T15:30:19.107Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Relevance signals only; no product data or affiliate links activated",
@@ -168,55 +168,7 @@
           "category": "Garden"
         },
         {
-          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 3,6 kW",
-          "url": "https://benz24.de/weka-saunaofen-klassik-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 4,5 kW",
-          "url": "https://benz24.de/weka-saunaofen-klassik-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 7,5 kW",
-          "url": "https://benz24.de/weka-saunaofen-klassik-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 9 kW",
-          "url": "https://benz24.de/weka-saunaofen-klassik-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
           "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine günstig",
-          "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 3,6 kW",
-          "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 4,5 kW",
-          "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 7,5 kW",
-          "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 9 kW",
           "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
           "brand": "WEKA",
           "category": "Garden"
@@ -228,10 +180,58 @@
           "category": "Garden"
         },
         {
-          "name": "weka Saunaofenset mit Saunasteinen, 3,6 kW, Digital,Saunaofen Klassik",
-          "url": "https://benz24.de/weka-saunaofenset-mit-saunasteinen-und.html",
+          "name": "weka Technikpaket inklusive Steuerung, Anschlusskabel und Saunasteinen günstig",
+          "url": "https://benz24.de/weka-technikpaket-inklusive-steuerung-anschlusskabel.html",
           "brand": "WEKA",
           "category": "Garden"
+        },
+        {
+          "name": "weka Profiset Saunaofen 11,0 kW inkl. Saunasteine und Ofenschutz günstig",
+          "url": "https://benz24.de/weka-profiset-saunaofen-110-kw.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofen Kompakt inkl. 12 kg Saunasteinen günstig",
+          "url": "https://benz24.de/weka-saunaofen-kompakt-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Gartensauna Saunahaus Farsund mit Vorraum günstig",
+          "url": "https://benz24.de/weka-gartensauna-saunahaus-farsund-mit.html",
+          "brand": "WEKA",
+          "category": "Garden Tools"
+        },
+        {
+          "name": "Karibu Saunahaus Skrollan 1 Naturbelassen günstig",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-1-naturbelassen.html",
+          "brand": "Karibu",
+          "category": "Garden Tools"
+        },
+        {
+          "name": "Karibu Saunahaus Skrollan 1 Terragrau günstig",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-1-terragrau.html",
+          "brand": "Karibu",
+          "category": "Garden Tools"
+        },
+        {
+          "name": "Karibu Saunahaus Skrollan 2 Naturbelassen günstig",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-2-naturbelassen.html",
+          "brand": "Karibu",
+          "category": "Garden Tools"
+        },
+        {
+          "name": "Karibu Saunahaus Skrollan 2 Terragrau günstig",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-2-terragrau.html",
+          "brand": "Karibu",
+          "category": "Garden Tools"
+        },
+        {
+          "name": "Karibu Saunahaus Skrollan 3 Naturbleassen günstig",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-3-naturbleassen.html",
+          "brand": "Karibu",
+          "category": "Garden Tools"
         }
       ],
       "status": "audited"
@@ -268,55 +268,7 @@
           "category": "Garden"
         },
         {
-          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 3,6 kW",
-          "url": "https://benz24.at/weka-saunaofen-klassik-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 4,5 kW",
-          "url": "https://benz24.at/weka-saunaofen-klassik-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 7,5 kW",
-          "url": "https://benz24.at/weka-saunaofen-klassik-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 9 kW",
-          "url": "https://benz24.at/weka-saunaofen-klassik-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
           "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine günstig",
-          "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 3,6 kW",
-          "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 4,5 kW",
-          "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 7,5 kW",
-          "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
-          "brand": "WEKA",
-          "category": "Garden"
-        },
-        {
-          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 9 kW",
           "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
           "brand": "WEKA",
           "category": "Garden"
@@ -328,10 +280,58 @@
           "category": "Garden"
         },
         {
-          "name": "weka Saunaofenset mit Saunasteinen, 3,6 kW, Digital,Saunaofen Klassik",
-          "url": "https://benz24.at/weka-saunaofenset-mit-saunasteinen-und.html",
+          "name": "weka Technikpaket inklusive Steuerung, Anschlusskabel und Saunasteinen günstig",
+          "url": "https://benz24.at/weka-technikpaket-inklusive-steuerung-anschlusskabel.html",
           "brand": "WEKA",
           "category": "Garden"
+        },
+        {
+          "name": "weka Profiset Saunaofen 11,0 kW inkl. Saunasteine und Ofenschutz günstig",
+          "url": "https://benz24.at/weka-profiset-saunaofen-110-kw.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofen Kompakt inkl. 12 kg Saunasteinen günstig",
+          "url": "https://benz24.at/weka-saunaofen-kompakt-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Gartensauna Saunahaus Farsund mit Vorraum günstig",
+          "url": "https://benz24.at/weka-gartensauna-saunahaus-farsund-mit.html",
+          "brand": "WEKA",
+          "category": "Garden Tools"
+        },
+        {
+          "name": "Karibu Fasssauna 2 naturbelassen günstig",
+          "url": "https://benz24.at/karibu-fasssauna-2-naturbelassen.html",
+          "brand": "Karibu",
+          "category": "Garden Tools"
+        },
+        {
+          "name": "Karibu Fasssauna 3 naturbelassen günstig",
+          "url": "https://benz24.at/karibu-fasssauna-3-naturbelassen.html",
+          "brand": "Karibu",
+          "category": "Garden Tools"
+        },
+        {
+          "name": "weka Sauna Ecksauna VARBERG naturbelassene Fichte inklusive Ofen günstig",
+          "url": "https://benz24.at/weka-sauna-ecksauna-varberg-naturbelassene.html",
+          "brand": "WEKA",
+          "category": "Appliance Spares"
+        },
+        {
+          "name": "weka Aufgusskübel 5 Liter für Sauna günstig",
+          "url": "https://benz24.at/weka-aufgusskuebel-5-liter-fuer.html",
+          "brand": "WEKA",
+          "category": "DIY"
+        },
+        {
+          "name": "weka Schöpfkelle für Sauna aus hochwertigem Spezialholz günstig",
+          "url": "https://benz24.at/weka-schoepfkelle-fuer-sauna-aus.html",
+          "brand": "WEKA",
+          "category": "DIY"
         }
       ],
       "status": "audited"
