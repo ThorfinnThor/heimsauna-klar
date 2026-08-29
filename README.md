@@ -10,7 +10,7 @@ Static-first German sauna decision platform. The current slice includes a conten
 - Cloudflare Workers Builds runs the data checks and creates the production export
 - Cloudflare Static Assets serves the generated site; there is no runtime database or Worker script
 
-This keeps the early product simple and reviewable. There is currently no scheduled ingestion and therefore no GitHub Actions usage. An ingestion workflow should only be added once a real manufacturer or merchant feed has been selected. Generated pull requests are preferred over silent production writes so price and specification changes remain reviewable.
+This keeps the early product simple and reviewable. There is currently no scheduled ingestion; the Awin workflows run manually on dispatch and only update verified affiliate metadata. An ingestion workflow should only be expanded once a real manufacturer or merchant feed has been selected. Generated pull requests are preferred over silent production writes so price and specification changes remain reviewable.
 
 ## Commands
 

@@ -6,7 +6,7 @@ Select Your Sauna übernimmt das Freigabemodell von PassendPlanen, bleibt aber v
 2. Der Händler in `data/merchants.json` hat den Affiliate-Status `active` und verweist auf genau dieses Programm.
 3. Das konkrete Angebot in `data/products.json` besitzt `affiliate: true`, dieselbe `affiliate_program_id` und einen geprüften `affiliate_url`.
 
-Solange eine Ebene fehlt, verwendet die Website weiterhin die normale URL aus `offer.url` und kennzeichnet den Link als „Kein Affiliate-Link“.
+Solange eine Ebene fehlt, verwendet die Website weiterhin die normale URL aus `offer.url`. Diese direkten Händlerlinks erhalten keine zusätzliche Affiliate-Kennzeichnung; nur tatsächlich vergütete Links werden am konkreten Link als „Affiliate-Link“ ausgewiesen.
 
 ## Tracking-Referenzen
 
