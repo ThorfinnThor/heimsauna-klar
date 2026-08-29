@@ -14,7 +14,7 @@
       "filter": { "categories": ["indoor"], "price_max": 2000 },
       "evidence_basis": "Preis, Lieferumfang, Maße und Ofenangaben der verifizierten Angebote",
       "status": "published",
-      "published_commit": "pending"
+      "published_commit": "6d39b17"
     },
     {
       "id": "outdoor-under-5000",
@@ -26,7 +26,7 @@
       "filter": { "categories": ["outdoor"], "price_max": 5000 },
       "evidence_basis": "Angebotspreise, Außenmaße, Ofenstatus und bestehende Fundamentquellen",
       "status": "published",
-      "published_commit": "pending"
+      "published_commit": "6d39b17"
     },
     {
       "id": "infrared-under-2000",
@@ -38,7 +38,7 @@
       "filter": { "categories": ["infrared"], "price_max": 2000 },
       "evidence_basis": "Maße, Kapazität, Heiztechnik und Preise der Produktdatensätze",
       "status": "published",
-      "published_commit": "pending"
+      "published_commit": "6d39b17"
     },
     {
       "id": "five-person",
@@ -50,7 +50,7 @@
       "filter": { "people_exact": 5 },
       "evidence_basis": "Personenangaben, Sitzplätze, Liegeplätze und Außenmaße",
       "status": "published",
-      "published_commit": "pending"
+      "published_commit": "6d39b17"
     },
     {
       "id": "six-plus-person",
@@ -62,7 +62,7 @@
       "filter": { "people_min": 6 },
       "evidence_basis": "Kapazität, Stellfläche, Höhe und Anschlussdaten",
       "status": "published",
-      "published_commit": "pending"
+      "published_commit": "6d39b17"
     },
     {
       "id": "infrared-one-person",
