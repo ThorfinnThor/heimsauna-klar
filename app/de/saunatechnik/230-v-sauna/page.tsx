@@ -15,6 +15,12 @@ export const metadata = createPageMetadata({
 
 export default function GuidePage() {
   const matchingProducts = products.filter((product) => product.power.voltage === 230);
+  const brandRepresentatives = matchingProducts.filter((product, index, list) => (
+    list.findIndex((candidate) => candidate.brand === product.brand) === index
+  ));
+  const previewProducts = [...brandRepresentatives, ...matchingProducts]
+    .filter((product, index, list) => list.findIndex((candidate) => candidate.product_id === product.product_id) === index)
+    .slice(0, 12);
 
   return (
     <main>
@@ -79,16 +85,17 @@ export default function GuidePage() {
           <div>
             <p className="eyebrow">Im aktuellen Katalog</p>
             <h2 id="matching-title">Verifizierte 230-V-Datensätze.</h2>
-            <p>Die Liste zeigt Modelle, deren Kerndaten wir an der Herstellerquelle geprüft haben. Sortiert wird nach den dokumentierten Daten, nicht nach einem redaktionellen Ranking.</p>
+            <p>Diese kompakte Auswahl zeigt zwölf Modelle verschiedener Marken. Alle {matchingProducts.length} Datensätze stehen auf der Vergleichsseite mit ihren dokumentierten Maßen, Anschlussdaten und Preisständen bereit.</p>
           </div>
           <div className="matching-product-links">
-            {matchingProducts.map((product) => (
+            {previewProducts.map((product) => (
               <Link href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
                 <small>{product.brand} · {product.sauna.type}</small>
                 <strong>{product.model}</strong>
                 <span>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm ↗</span>
               </Link>
             ))}
+            <Link className="matching-product-more" href="/de/vergleiche/230-v-sauna/">Alle {matchingProducts.length} 230-V-Datensätze vergleichen <span aria-hidden="true">↗</span></Link>
           </div>
         </section>
 

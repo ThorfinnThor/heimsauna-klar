@@ -709,6 +709,8 @@ footer {
 .matching-product-links small { grid-column: 1 / -1; margin-bottom: 7px; color: var(--clay-dark); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; }
 .matching-product-links strong { font-family: Georgia, serif; font-size: 22px; font-weight: 400; }
 .matching-product-links span { align-self: end; color: var(--ink-soft); font-size: 9px; }
+.matching-product-links a.matching-product-more { padding: 18px 20px; display: flex; justify-content: space-between; gap: 20px; background: var(--ink); color: var(--white); font-size: 10px; font-weight: 750; }
+.matching-product-links a.matching-product-more span { color: inherit; font-size: inherit; }
 
 .guide-sources { padding-block: 95px; display: grid; grid-template-columns: .8fr 1.2fr; gap: 9vw; border-top: 1px solid var(--line); }
 .guide-sources ol { margin: 0; padding: 0; list-style: none; }
