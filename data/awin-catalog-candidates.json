@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T16:14:30.702Z",
+  "generated_at": "2026-08-29T16:16:02.156Z",
   "source": "Awin authenticated Benz24 Deutschland product feed",
   "secret_included": false,
   "activation_policy": "Candidate tokens only; no catalog records, offers, prices, or affiliate links changed",
@@ -9,8 +9,8 @@
   "feed_id": "43829",
   "feed_name": "BENZ24 Deutschland",
   "feed_rows": 92061,
-  "candidates_total": 95,
-  "unlinked_candidates": 92,
+  "candidates_total": 31,
+  "unlinked_candidates": 28,
   "already_linked_candidates": 3,
   "candidates": [
     {
@@ -24,7 +24,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "karibu-cuben-80800",
@@ -37,97 +39,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "karibu-sauna-saja-85918",
-      "catalog_name": "Karibu Sauna Saja (integrierte Steuerung, Klarglas)",
-      "feed_product_name": "Karibu Saunahaus Skrollan 1 Naturbelassen, ohne Ofen, Klarglas",
-      "merchant_url": "https://benz24.de/karibu-saunahaus-skrollan-1-naturbelassen.html",
-      "feed_price": "3389.00",
-      "matched_identity_tokens": [
-        "klarglas"
-      ],
-      "matched_variant_tokens": [
-        "klarglas"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "karibu-sauna-saja-85918",
-      "catalog_name": "Karibu Sauna Saja (integrierte Steuerung, Klarglas)",
-      "feed_product_name": "Karibu Saunahaus Skrollan 2 Naturbelassen, ohne Ofen, Klarglas",
-      "merchant_url": "https://benz24.de/karibu-saunahaus-skrollan-2-naturbelassen.html",
-      "feed_price": "3479.00",
-      "matched_identity_tokens": [
-        "klarglas"
-      ],
-      "matched_variant_tokens": [
-        "klarglas"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "karibu-sauna-saja-85918",
-      "catalog_name": "Karibu Sauna Saja (integrierte Steuerung, Klarglas)",
-      "feed_product_name": "Karibu Saunahaus Skrollan 3 Naturbleassen, ohne Ofen, Klarglas",
-      "merchant_url": "https://benz24.de/karibu-saunahaus-skrollan-3-naturbleassen.html",
-      "feed_price": "4059.00",
-      "matched_identity_tokens": [
-        "klarglas"
-      ],
-      "matched_variant_tokens": [
-        "klarglas"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "karibu-sauna-saja-85924",
-      "catalog_name": "Karibu Sauna Saja (Easy Bio, Klarglas, Dachkranz)",
-      "feed_product_name": "Karibu Saunahaus Skrollan 1 Naturbelassen, ohne Ofen, Klarglas",
-      "merchant_url": "https://benz24.de/karibu-saunahaus-skrollan-1-naturbelassen.html",
-      "feed_price": "3389.00",
-      "matched_identity_tokens": [
-        "klarglas"
-      ],
-      "matched_variant_tokens": [
-        "klarglas"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "karibu-sauna-saja-85924",
-      "catalog_name": "Karibu Sauna Saja (Easy Bio, Klarglas, Dachkranz)",
-      "feed_product_name": "Karibu Saunahaus Skrollan 2 Naturbelassen, ohne Ofen, Klarglas",
-      "merchant_url": "https://benz24.de/karibu-saunahaus-skrollan-2-naturbelassen.html",
-      "feed_price": "3479.00",
-      "matched_identity_tokens": [
-        "klarglas"
-      ],
-      "matched_variant_tokens": [
-        "klarglas"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "karibu-sauna-saja-85924",
-      "catalog_name": "Karibu Sauna Saja (Easy Bio, Klarglas, Dachkranz)",
-      "feed_product_name": "Karibu Saunahaus Skrollan 3 Naturbleassen, ohne Ofen, Klarglas",
-      "merchant_url": "https://benz24.de/karibu-saunahaus-skrollan-3-naturbleassen.html",
-      "feed_price": "4059.00",
-      "matched_identity_tokens": [
-        "klarglas"
-      ],
-      "matched_variant_tokens": [
-        "klarglas"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "karibu-saunahaus-cuben-80796",
@@ -140,7 +54,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "karibu-saunahaus-cuben-80796",
@@ -153,7 +69,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "karibu-saunahaus-hygge-86314",
@@ -166,7 +84,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "karibu-saunahaus-skrollan-1-86283",
@@ -181,7 +101,9 @@
         "1"
       ],
       "reason": "family-and-variant-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "karibu-saunahaus-skrollan-2-86299",
@@ -196,7 +118,9 @@
         "2"
       ],
       "reason": "family-and-variant-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "karibu-saunahaus-skrollan-3-86304",
@@ -211,7 +135,9 @@
         "3"
       ],
       "reason": "family-and-variant-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "weka-bergen-196x195-fenster",
@@ -224,7 +150,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-bergen-246x195-fenster",
@@ -237,7 +165,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-cubilis-195x145",
@@ -250,7 +180,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-cubilis-195x195",
@@ -263,128 +195,26 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-elementsauna-halmstad-192x175-glastuer",
-      "catalog_name": "WEKA Elementsauna Halmstad 192 × 175 cm · Glastür",
-      "feed_product_name": "weka Elementsauna HALMSTAD Sparset natur, mit 7,5 kW OS Klassikofen, 194x144 cm,Glastür",
-      "merchant_url": "https://benz24.de/weka-elementsauna-halmstad-sparset-natu.html",
-      "feed_price": "2424.51",
-      "matched_identity_tokens": [
-        "halmstad"
-      ],
-      "matched_variant_tokens": [
-        "glastuer"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-elementsauna-halmstad-192x175-holztuer",
-      "catalog_name": "WEKA Elementsauna Halmstad 192 × 175 cm · Holztür",
-      "feed_product_name": "weka Elementsauna HALMSTAD Sparset natur, mit 7,5 kW OS Klassikofen, 194x144 cm,Holztür",
-      "merchant_url": "https://benz24.de/weka-elementsauna-halmstad-sparset-natu.html",
-      "feed_price": "2424.51",
-      "matched_identity_tokens": [
-        "halmstad",
-        "holztuer"
-      ],
-      "matched_variant_tokens": [
-        "holztuer"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-elementsauna-halmstad-192x175-holztuer",
-      "catalog_name": "WEKA Elementsauna Halmstad 192 × 175 cm · Holztür",
-      "feed_product_name": "weka Elementsauna VARBERG Sparset natur, mit 7,5 kW OS Klassikofen, 194x194 cm,Holztür",
-      "merchant_url": "https://benz24.de/weka-elementsauna-varberg-sparset-natu.html",
-      "feed_price": "2894.20",
-      "matched_identity_tokens": [
-        "holztuer"
-      ],
-      "matched_variant_tokens": [
-        "holztuer"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-elementsauna-halmstad-192x175-holztuer",
-      "catalog_name": "WEKA Elementsauna Halmstad 192 × 175 cm · Holztür",
-      "feed_product_name": "weka Sauna Ecksauna VARBERG Fichte, Holztür, 194x144 cm",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-varberg-fichte.html",
-      "feed_price": "2018.95",
-      "matched_identity_tokens": [
-        "holztuer"
-      ],
-      "matched_variant_tokens": [
-        "holztuer"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-elementsauna-halmstad-192x175-holztuer",
-      "catalog_name": "WEKA Elementsauna Halmstad 192 × 175 cm · Holztür",
-      "feed_product_name": "weka Sauna Ecksauna VARBERG naturbelassene Fichte inklusive Ofen, Holztür, 194x194 cm,mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-varberg-naturbelassene.html",
-      "feed_price": "2852.60",
-      "matched_identity_tokens": [
-        "holztuer"
-      ],
-      "matched_variant_tokens": [
-        "holztuer"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-elementsauna-halmstad-192x175-holztuer",
-      "catalog_name": "WEKA Elementsauna Halmstad 192 × 175 cm · Holztür",
-      "feed_product_name": "weka Sauna Massivholzsauna BERGEN Premium, Holztür, 198x148 cm",
-      "merchant_url": "https://benz24.de/weka-sauna-massivholzsauna-bergen-premium.html",
-      "feed_price": "2255.00",
-      "matched_identity_tokens": [
-        "holztuer"
-      ],
-      "matched_variant_tokens": [
-        "holztuer"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-elementsauna-kaarina-151x192",
-      "catalog_name": "WEKA Elementsauna Kaarina 151 × 192 cm · Glastür",
-      "feed_product_name": "weka Sauna Elementsauna KAARINA Fichte, mit Ganzglastür & ohne Fenster",
-      "merchant_url": "https://benz24.de/weka-sauna-elementsauna-kaarina-fichte.html",
-      "feed_price": "2222.98",
-      "matched_identity_tokens": [
-        "kaarina"
-      ],
-      "matched_variant_tokens": [
-        "fenster"
-      ],
-      "reason": "family-and-variant-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-elementsauna-kaarina-175x192",
       "catalog_name": "WEKA Elementsauna Kaarina 175 × 192 cm · 2 Fenster · Glastür",
-      "feed_product_name": "weka Sauna Elementsauna KAARINA Fichte, mit Ganzglastür & ohne Fenster",
+      "feed_product_name": "weka Sauna Elementsauna KAARINA Fichte, mit Ganzglastür & 2 Fenster",
       "merchant_url": "https://benz24.de/weka-sauna-elementsauna-kaarina-fichte.html",
-      "feed_price": "2222.98",
+      "feed_price": "2297.18",
       "matched_identity_tokens": [
         "kaarina"
       ],
       "matched_variant_tokens": [
-        "fenster"
+        "2"
       ],
       "reason": "family-and-variant-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "weka-farsund-390x187-fenster",
@@ -397,33 +227,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-kemi-panorama-209x168",
-      "catalog_name": "WEKA Massivholz-Elementsauna Kemi Panorama 209 × 168 cm",
-      "feed_product_name": "weka Sauna Elementsauna KEMI mit Panorama-Glasfront günstig",
-      "merchant_url": "https://benz24.de/weka-sauna-elementsauna-kemi-mit.html",
-      "feed_price": "3462.14",
-      "matched_identity_tokens": [
-        "panorama"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-kemi-panorama-209x210",
-      "catalog_name": "WEKA Massivholz-Elementsauna Kemi Panorama 209 × 210 cm",
-      "feed_product_name": "weka Sauna Elementsauna KEMI mit Panorama-Glasfront günstig",
-      "merchant_url": "https://benz24.de/weka-sauna-elementsauna-kemi-mit.html",
-      "feed_price": "3462.14",
-      "matched_identity_tokens": [
-        "panorama"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "weka-kurikka-14930301046",
@@ -436,7 +242,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "weka-mikkeli-400v-9kw",
@@ -449,215 +257,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Design-Saunahaus CUBILIS Sparset natur, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-design-saunahaus-cubilis-sparset-natur.html",
-      "feed_price": "12229.26",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Design Saunahaus KUOPIO Sparset anthrazit, mit 9,0 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-anthraz.html",
-      "feed_price": "5547.87",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Design Saunahaus KUOPIO Sparset natur, mit 9,0 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-natu.html",
-      "feed_price": "4698.06",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Elementsauna HALMSTAD Sparset natur, mit 7,5 kW OS Klassikofen, 194x144 cm,Holztür",
-      "merchant_url": "https://benz24.de/weka-elementsauna-halmstad-sparset-natu.html",
-      "feed_price": "2424.51",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Elementsauna VARBERG Sparset natur, mit 7,5 kW OS Klassikofen, 194x144 cm,Glastür",
-      "merchant_url": "https://benz24.de/weka-elementsauna-varberg-sparset-natu.html",
-      "feed_price": "2618.63",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Premium Massivholz Elementsauna KEMI Eck Sparset, mit 7,5 kW OS Klassikofen, 195x145 cm,Glastür",
-      "merchant_url": "https://benz24.de/weka-premium-massivholz-elementsauna-kemi-ec.html",
-      "feed_price": "3193.14",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Premium Massivholz Elementsauna KEMI Sparset, mit 7,5 kW OS Klassikofen, 195x145 cm",
-      "merchant_url": "https://benz24.de/weka-premium-massivholz-elementsauna-kemi-sparset.html",
-      "feed_price": "3157.49",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Sauna Ecksauna KIRUNA mit Glastür und Ofen, mit 4,5 kW OS Klassikofen, 194x177 cm",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-kiruna-mit.html",
-      "feed_price": "3328.24",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Sauna Ecksauna VALIDA Sparset inklusive Ofen und Zubehör, mit 5,4 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-valida-sparset.html",
-      "feed_price": "2173.30",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Sauna Ecksauna VARBERG naturbelassene Fichte inklusive Ofen, Holztür, 194x194 cm,mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-varberg-naturbelassene.html",
-      "feed_price": "2852.60",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Sauna Elementsauna KEMI mit Panorama-Glasfront, mit 7,5 kW OS Klassikofen, 193x162 cm",
-      "merchant_url": "https://benz24.de/weka-sauna-elementsauna-kemi-mit.html",
-      "feed_price": "3462.14",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Saunahaus KURIKKA Sparset natur, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-kurikka-sparset-natur.html",
-      "feed_price": "6114.93",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Saunahaus MIKKELI Sparset natur, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-mikkeli-sparset-natur.html",
-      "feed_price": "4389.27",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Saunahaus NAANTALI Sparset, mit 9,0 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-naantali-sparset.html",
-      "feed_price": "3066.32",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Saunahaus SALO Sparset grau, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-salo-sparset-gra.html",
-      "feed_price": "7474.50",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-polaris-1-75kw",
-      "catalog_name": "WEKA Saunahaus Polaris 1 · 7,5 kW Klassikofen",
-      "feed_product_name": "weka Saunahaus SALO Sparset rot, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-salo-sparset-ro.html",
-      "feed_price": "7474.50",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "weka-salo-601x298-grau",
@@ -671,7 +273,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "weka-salo-601x298-grau",
@@ -684,7 +288,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "weka-saunahaus-kuopio-238x238",
@@ -697,7 +303,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "weka-saunahaus-kuopio-238x238",
@@ -710,228 +318,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Design-Saunahaus CUBILIS Sparset natur, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-design-saunahaus-cubilis-sparset-natur.html",
-      "feed_price": "12229.26",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Design Saunahaus KUOPIO Sparset anthrazit, mit 9,0 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-anthraz.html",
-      "feed_price": "5547.87",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Design Saunahaus KUOPIO Sparset natur, mit 9,0 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-natu.html",
-      "feed_price": "4698.06",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Elementsauna HALMSTAD Sparset natur, mit 7,5 kW OS Klassikofen, 194x144 cm,Holztür",
-      "merchant_url": "https://benz24.de/weka-elementsauna-halmstad-sparset-natu.html",
-      "feed_price": "2424.51",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Elementsauna VARBERG Sparset natur, mit 7,5 kW OS Klassikofen, 194x144 cm,Glastür",
-      "merchant_url": "https://benz24.de/weka-elementsauna-varberg-sparset-natu.html",
-      "feed_price": "2618.63",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Massivholzsauna VALIDA PLUS Sparset inklusive Ofen günstig",
-      "merchant_url": "https://benz24.de/weka-massivholzsauna-valida-plus-sparset.html",
-      "feed_price": "2173.96",
-      "matched_identity_tokens": [
-        "plus"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Premium Massivholz Elementsauna KEMI Eck Sparset, mit 7,5 kW OS Klassikofen, 195x145 cm,Glastür",
-      "merchant_url": "https://benz24.de/weka-premium-massivholz-elementsauna-kemi-ec.html",
-      "feed_price": "3193.14",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Premium Massivholz Elementsauna KEMI Sparset, mit 7,5 kW OS Klassikofen, 195x145 cm",
-      "merchant_url": "https://benz24.de/weka-premium-massivholz-elementsauna-kemi-sparset.html",
-      "feed_price": "3157.49",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Sauna Ecksauna KIRUNA mit Glastür und Ofen, mit 4,5 kW OS Klassikofen, 194x177 cm",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-kiruna-mit.html",
-      "feed_price": "3328.24",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Sauna Ecksauna VALIDA Sparset inklusive Ofen und Zubehör, mit 5,4 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-valida-sparset.html",
-      "feed_price": "2173.30",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Sauna Ecksauna VARBERG naturbelassene Fichte inklusive Ofen, Holztür, 194x194 cm,mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-varberg-naturbelassene.html",
-      "feed_price": "2852.60",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Sauna Elementsauna KEMI mit Panorama-Glasfront, mit 7,5 kW OS Klassikofen, 193x162 cm",
-      "merchant_url": "https://benz24.de/weka-sauna-elementsauna-kemi-mit.html",
-      "feed_price": "3462.14",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Saunahaus KURIKKA Sparset natur, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-kurikka-sparset-natur.html",
-      "feed_price": "6114.93",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Saunahaus MIKKELI Sparset natur, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-mikkeli-sparset-natur.html",
-      "feed_price": "4389.27",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Saunahaus NAANTALI Sparset, mit 9,0 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-naantali-sparset.html",
-      "feed_price": "3066.32",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Saunahaus SALO Sparset grau, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-salo-sparset-gra.html",
-      "feed_price": "7474.50",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "catalog_name": "WEKA Saunahaus Sonnenwende Plus · Ruheraum · Klassikofen 9,0 kW",
-      "feed_product_name": "weka Saunahaus SALO Sparset rot, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-salo-sparset-ro.html",
-      "feed_price": "7474.50",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "weka-valida-139x139",
@@ -944,7 +333,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-valida-139x139",
@@ -957,7 +348,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-valida-139x139",
@@ -970,7 +363,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-valida-139x139",
@@ -983,7 +378,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-valida-3-gtf-400v",
@@ -996,7 +393,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-valida-3-gtf-400v",
@@ -1009,7 +408,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-valida-3-gtf-400v",
@@ -1022,7 +423,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "weka-valida-3-gtf-400v",
@@ -1035,215 +438,9 @@
       ],
       "matched_variant_tokens": [],
       "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Design-Saunahaus CUBILIS Sparset natur, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-design-saunahaus-cubilis-sparset-natur.html",
-      "feed_price": "12229.26",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Design Saunahaus KUOPIO Sparset anthrazit, mit 9,0 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-anthraz.html",
-      "feed_price": "5547.87",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Design Saunahaus KUOPIO Sparset natur, mit 9,0 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-natu.html",
-      "feed_price": "4698.06",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Elementsauna HALMSTAD Sparset natur, mit 7,5 kW OS Klassikofen, 194x144 cm,Holztür",
-      "merchant_url": "https://benz24.de/weka-elementsauna-halmstad-sparset-natu.html",
-      "feed_price": "2424.51",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Elementsauna VARBERG Sparset natur, mit 7,5 kW OS Klassikofen, 194x144 cm,Glastür",
-      "merchant_url": "https://benz24.de/weka-elementsauna-varberg-sparset-natu.html",
-      "feed_price": "2618.63",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Premium Massivholz Elementsauna KEMI Eck Sparset, mit 7,5 kW OS Klassikofen, 195x145 cm,Glastür",
-      "merchant_url": "https://benz24.de/weka-premium-massivholz-elementsauna-kemi-ec.html",
-      "feed_price": "3193.14",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Premium Massivholz Elementsauna KEMI Sparset, mit 7,5 kW OS Klassikofen, 195x145 cm",
-      "merchant_url": "https://benz24.de/weka-premium-massivholz-elementsauna-kemi-sparset.html",
-      "feed_price": "3157.49",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Sauna Ecksauna KIRUNA mit Glastür und Ofen, mit 4,5 kW OS Klassikofen, 194x177 cm",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-kiruna-mit.html",
-      "feed_price": "3328.24",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Sauna Ecksauna VALIDA Sparset inklusive Ofen und Zubehör, mit 5,4 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-valida-sparset.html",
-      "feed_price": "2173.30",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Sauna Ecksauna VARBERG naturbelassene Fichte inklusive Ofen, Holztür, 194x194 cm,mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-sauna-ecksauna-varberg-naturbelassene.html",
-      "feed_price": "2852.60",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Sauna Elementsauna KEMI mit Panorama-Glasfront, mit 7,5 kW OS Klassikofen, 193x162 cm",
-      "merchant_url": "https://benz24.de/weka-sauna-elementsauna-kemi-mit.html",
-      "feed_price": "3462.14",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Saunahaus KURIKKA Sparset natur, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-kurikka-sparset-natur.html",
-      "feed_price": "6114.93",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Saunahaus MIKKELI Sparset natur, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-mikkeli-sparset-natur.html",
-      "feed_price": "4389.27",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Saunahaus NAANTALI Sparset, mit 9,0 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-naantali-sparset.html",
-      "feed_price": "3066.32",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Saunahaus SALO Sparset grau, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-salo-sparset-gra.html",
-      "feed_price": "7474.50",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
-    },
-    {
-      "product_id": "weka-winterzauber-1-9kw",
-      "catalog_name": "WEKA Saunahaus Winterzauber 1 · 9,0 kW Klassikofen",
-      "feed_product_name": "weka Saunahaus SALO Sparset rot, mit 7,5 kW OS Klassikofen",
-      "merchant_url": "https://benz24.de/weka-saunahaus-salo-sparset-ro.html",
-      "feed_price": "7474.50",
-      "matched_identity_tokens": [
-        "klassikofen"
-      ],
-      "matched_variant_tokens": [],
-      "reason": "rare-model-token",
-      "already_linked": false
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
     },
     {
       "product_id": "karibu-saunahaus-skrollan-1-86283",
@@ -1258,7 +455,9 @@
         "1"
       ],
       "reason": "family-and-variant-token",
-      "already_linked": true
+      "already_linked": true,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "karibu-saunahaus-skrollan-2-86299",
@@ -1273,7 +472,9 @@
         "2"
       ],
       "reason": "family-and-variant-token",
-      "already_linked": true
+      "already_linked": true,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     },
     {
       "product_id": "karibu-saunahaus-skrollan-3-86304",
@@ -1288,7 +489,9 @@
         "3"
       ],
       "reason": "family-and-variant-token",
-      "already_linked": true
+      "already_linked": true,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
     }
   ]
 }
