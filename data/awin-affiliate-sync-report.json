@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T15:52:50.739Z",
+  "generated_at": "2026-08-29T16:20:22.418Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
   "products_total": 432,
-  "newly_matched_offers": 51,
-  "active_affiliate_offers": 51,
+  "newly_matched_offers": 56,
+  "active_affiliate_offers": 56,
   "targets": [
     {
       "merchant_id": "artsauna",
@@ -41,8 +41,8 @@
       "feed_id": "43829",
       "feed_name": "BENZ24 Deutschland",
       "feed_rows": 92061,
-      "catalog_offers": 3,
-      "exact_matches": 3,
+      "catalog_offers": 8,
+      "exact_matches": 8,
       "invalid_tracking_links": 0,
       "unmatched_product_ids": []
     },
