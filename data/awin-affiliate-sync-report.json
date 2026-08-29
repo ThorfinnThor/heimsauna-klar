@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-28T14:29:31.703Z",
+  "generated_at": "2026-08-29T10:25:20.998Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
@@ -14,7 +14,7 @@
       "advertiser_name": "Artsauna DE",
       "feed_id": "97646",
       "feed_name": "Default",
-      "feed_rows": 57,
+      "feed_rows": 55,
       "catalog_offers": 15,
       "exact_matches": 15,
       "invalid_tracking_links": 0,
