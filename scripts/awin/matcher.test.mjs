@@ -118,6 +118,30 @@ test("catalog candidate audit requires matching brand, family and variant tokens
   assert.equal(candidates[0].ambiguous_merchant_url, false);
 });
 
+test("catalog candidate audit keeps numeric and color variants aligned without a family", () => {
+  const products = [
+    {
+      product_id: "artsauna-kiruna-120",
+      brand: "Artsauna",
+      model: "Kiruna 120",
+      family: null,
+      commercial: { offers: [] },
+    },
+    {
+      product_id: "artsauna-trondheim-90-schwarz",
+      brand: "Artsauna",
+      model: "Trondheim 90 – Schwarz",
+      family: null,
+      commercial: { offers: [] },
+    },
+  ];
+  const candidates = findCatalogCandidates(products, [
+    { product_name: "Infrarotkabine Kiruna 160", brand: "Artsauna", merchant_deep_link: "https://artsauna.de/products/kiruna160" },
+    { product_name: "Infrarotkabine Trondheim 90 Schwarz", brand: "Artsauna", merchant_deep_link: "https://artsauna.de/products/trondheim90-schwarz" },
+  ], { merchantName: "Artsauna" });
+  assert.deepEqual(candidates.map((candidate) => candidate.product_id), ["artsauna-trondheim-90-schwarz"]);
+});
+
 test("affiliate activation requires an exact canonical merchant URL", () => {
   const products = [{
     product_id: "artsauna-kiruna-120",
