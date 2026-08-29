@@ -45,7 +45,7 @@ const report = {
   generated_at: new Date().toISOString(),
   source: "Awin authenticated product feeds",
   secret_included: false,
-  matching_policy: "Relevance signals only; no product data or affiliate links activated",
+  matching_policy: "Relevance signals only; a small sanitized candidate sample is included; no product records or affiliate links activated",
   audits,
 };
 
