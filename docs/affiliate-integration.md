@@ -30,6 +30,8 @@ Der manuelle Workflow `Sync approved Awin affiliate offers` führt vor einem Com
 
 Der einmalige Workflow `Audit Awin feed relevance` wertet freigeschaltete deutsche Feeds nur nach Sauna-Signalen aus. Er schreibt zusammengefasste Zählwerte und eine kleine, deduplizierte Kandidatenstichprobe mit Produktnamen sowie – sofern im Feed vorhanden – bereinigter Händler-URL, Marke, Kategorie und Preis. Neue Produktdatensätze und Affiliate-Links werden dabei nicht aktiviert; die Stichprobe dient ausschließlich der anschließenden Quellenprüfung.
 
+Der manuelle Workflow `Audit Awin catalog candidates` vergleicht den deutschen Benz24-Feed mit dem bestehenden Katalog. Er verlangt übereinstimmende Marken-, Familien- und Variantenmerkmale und schreibt nur einen bereinigten Prüfbericht. Das Ergebnis darf nicht direkt aktiviert werden: Modell, Ausführung, Maße und Herstellerquelle werden vor dem Ergänzen eines Händlerangebots redaktionell geprüft.
+
 ## Benötigte Angaben nach einer Freigabe
 
 Für jedes freigeschaltete Programm werden benötigt:

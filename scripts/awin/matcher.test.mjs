@@ -3,6 +3,7 @@ import test from "node:test";
 import { applyMatches, matchExactOffers, normalizeAffiliateUrl, normalizeMerchantUrl } from "./matcher.mjs";
 import { assertFeedListUrl, normalizeFeedUrl, parseEligibleFeeds, resolveTargetFeeds } from "./feed-list.mjs";
 import { auditFeedRows } from "./relevance.mjs";
+import { findCatalogCandidates } from "./catalog-candidates.mjs";
 import { parseCsv } from "./source.mjs";
 
 test("feed-list discovery keeps approved German Awin feeds", () => {
@@ -79,6 +80,34 @@ test("feed relevance samples read standard Awin price and category fields", () =
       price: "4999.00 EUR",
     },
   ]);
+});
+
+test("catalog candidate audit requires matching brand, family and variant tokens", () => {
+  const products = [
+    {
+      product_id: "karibu-skrollan-1",
+      brand: "Karibu",
+      model: "Saunahaus Skrollan 1 mit Vorraum",
+      family: { id: "karibu-skrollan", name: "Skrollan", variant: "1 · 336 × 196 cm" },
+      commercial: { offers: [] },
+    },
+    {
+      product_id: "karibu-skrollan-2",
+      brand: "Karibu",
+      model: "Saunahaus Skrollan 2 mit Vorraum",
+      family: { id: "karibu-skrollan", name: "Skrollan", variant: "2 · 337 × 231 cm" },
+      commercial: { offers: [] },
+    },
+  ];
+  const candidates = findCatalogCandidates(products, [{
+    product_name: "Karibu Saunahaus Skrollan 2 Naturbelassen günstig",
+    brand: "Karibu",
+    merchant_deep_link: "https://benz24.de/skrollan-2.html",
+    product_price: "3479.00",
+  }], { merchantName: "Benz24" });
+  assert.deepEqual(candidates.map((candidate) => candidate.product_id), ["karibu-skrollan-2"]);
+  assert.equal(candidates[0].activation_policy, undefined);
+  assert.equal(candidates[0].already_linked, false);
 });
 
 test("affiliate activation requires an exact canonical merchant URL", () => {
