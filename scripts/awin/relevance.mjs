@@ -59,6 +59,7 @@ export function auditFeedRows(rows) {
   const counts = Object.fromEntries(Object.keys(SIGNAL_GROUPS).map((group) => [group, 0]));
   const samples = [];
   const sampleProducts = [];
+  const sampleProductKeys = new Set();
   let signalRows = 0;
 
   for (const row of rows) {
@@ -72,8 +73,16 @@ export function auditFeedRows(rows) {
     if (matchedGroups.length > 0) {
       const name = field(row, PRODUCT_NAME_FIELDS);
       if (name && !samples.includes(name) && samples.length < 8) samples.push(name);
-      if (name && /sauna|infrarot|dampfbad/i.test(name) && sampleProducts.length < 12) {
-        const url = cleanHttpsUrl(field(row, PRODUCT_URL_FIELDS));
+      const url = cleanHttpsUrl(field(row, PRODUCT_URL_FIELDS));
+      const sampleKey = url || name?.toLowerCase().replace(/\s+/g, " ").trim();
+      if (
+        name &&
+        /sauna|infrarot|dampfbad/i.test(name) &&
+        sampleKey &&
+        !sampleProductKeys.has(sampleKey) &&
+        sampleProducts.length < 12
+      ) {
+        sampleProductKeys.add(sampleKey);
         sampleProducts.push({
           name,
           ...(url ? { url } : {}),
