@@ -4712,6 +4712,16 @@
           "selection_required": true,
           "affiliate_url": "https://www.awin1.com/pclick.php?p=31473506797&a=3037577&m=18314",
           "affiliate_program_id": "awin-benz24"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 3901,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-1-terragrau.html",
+          "affiliate": false,
+          "last_checked": "2026-08-29",
+          "configuration": "Terragrau · Ofenvariante im Shop auswählen",
+          "selection_required": true
         }
       ]
     },
@@ -4751,6 +4761,12 @@
         "type": "merchant",
         "title": "Benz24 Produktseite Karibu Saunahaus Skrollan 1 Naturbelassen",
         "url": "https://benz24.de/karibu-saunahaus-skrollan-1-naturbelassen.html",
+        "checked_at": "2026-08-29"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite Karibu Saunahaus Skrollan 1 Terragrau",
+        "url": "https://benz24.de/karibu-saunahaus-skrollan-1-terragrau.html",
         "checked_at": "2026-08-29"
       }
     ],
@@ -5548,6 +5564,16 @@
           "url": "https://www.karibu.de/Saunahaus-Hygge-mit-Vorraum",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 6415.7,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/karibu-saunahaus-hygge-terragrau.html",
+          "affiliate": false,
+          "last_checked": "2026-08-29",
+          "configuration": "Terragrau · Ofenvariante im Shop auswählen",
+          "selection_required": true
         }
       ]
     },
@@ -5582,9 +5608,15 @@
         "title": "Karibu Produktseite Saunahaus Hygge mit Vorraum",
         "url": "https://www.karibu.de/Saunahaus-Hygge-mit-Vorraum",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite Karibu Saunahaus Hygge Terragrau",
+        "url": "https://benz24.de/karibu-saunahaus-hygge-terragrau.html",
+        "checked_at": "2026-08-29"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-29"
   },
   {
     "product_id": "karibu-saunahaus-laguna-196",
@@ -5810,6 +5842,16 @@
           "selection_required": true,
           "affiliate_url": "https://www.awin1.com/pclick.php?p=31473506801&a=3037577&m=18314",
           "affiliate_program_id": "awin-benz24"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 4019,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-2-terragrau.html",
+          "affiliate": false,
+          "last_checked": "2026-08-29",
+          "configuration": "Terragrau · Ofenvariante im Shop auswählen",
+          "selection_required": true
         }
       ]
     },
@@ -5849,6 +5891,12 @@
         "type": "merchant",
         "title": "Benz24 Produktseite Karibu Saunahaus Skrollan 2 Naturbelassen",
         "url": "https://benz24.de/karibu-saunahaus-skrollan-2-naturbelassen.html",
+        "checked_at": "2026-08-29"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite Karibu Saunahaus Skrollan 2 Terragrau",
+        "url": "https://benz24.de/karibu-saunahaus-skrollan-2-terragrau.html",
         "checked_at": "2026-08-29"
       }
     ],
@@ -5914,6 +5962,16 @@
           "selection_required": true,
           "affiliate_url": "https://www.awin1.com/pclick.php?p=31473506805&a=3037577&m=18314",
           "affiliate_program_id": "awin-benz24"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 4439.9,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-3-terragrau.html",
+          "affiliate": false,
+          "last_checked": "2026-08-29",
+          "configuration": "Terragrau · Ofenvariante im Shop auswählen",
+          "selection_required": true
         }
       ]
     },
@@ -5953,6 +6011,12 @@
         "type": "merchant",
         "title": "Benz24 Produktseite Karibu Saunahaus Skrollan 3 Naturbelassen",
         "url": "https://benz24.de/karibu-saunahaus-skrollan-3-naturbleassen.html",
+        "checked_at": "2026-08-29"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite Karibu Saunahaus Skrollan 3 Terragrau",
+        "url": "https://benz24.de/karibu-saunahaus-skrollan-3-terragrau.html",
         "checked_at": "2026-08-29"
       }
     ],
@@ -17812,6 +17876,16 @@
           "url": "https://www.weka-holzbau.com/de/p/elementsauna-kaarina-175x192-2-fenster-glastuer/506.1820.50100",
           "affiliate": false,
           "last_checked": "2026-08-25"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 2297.18,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/weka-sauna-elementsauna-kaarina-fichte.html",
+          "affiliate": false,
+          "last_checked": "2026-08-29",
+          "configuration": "175 × 192 cm · 2 Fenster · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -17846,9 +17920,15 @@
         "title": "WEKA Produktseite Elementsauna Kaarina 175 × 192 cm",
         "url": "https://www.weka-holzbau.com/de/p/elementsauna-kaarina-175x192-2-fenster-glastuer/506.1820.50100",
         "checked_at": "2026-08-25"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite WEKA Elementsauna Kaarina mit 2 Fenstern",
+        "url": "https://benz24.de/weka-sauna-elementsauna-kaarina-fichte.html",
+        "checked_at": "2026-08-29"
       }
     ],
-    "updated_at": "2026-08-25"
+    "updated_at": "2026-08-29"
   },
   {
     "product_id": "weka-elementsauna-halmstad-192x175-glastuer",
