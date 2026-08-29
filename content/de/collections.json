@@ -661,5 +661,160 @@
       "related_kicker": "Fläche enger fassen",
       "related_title": "Mini-Sauna, kleine Gartensauna und Vierergröße danebenstellen."
     }
+  },
+  {
+    "id": "indoor-under-2000",
+    "section": "vergleiche",
+    "slug": "indoor-sauna-bis-2000-euro",
+    "kind": "Preisvergleich",
+    "eyebrow": "Indoor · begrenztes Budget",
+    "title": "Indoor-Sauna bis 2.000 Euro",
+    "accent": "nach dokumentiertem Preis.",
+    "description": "Indoor-Saunen bis 2.000 Euro mit dokumentierten Maßen, Wärmearten, Anschlussangaben und sichtbaren Datenlücken.",
+    "intro": "Die Auswahl enthält Innenkabinen, für die mindestens ein verifiziertes Angebot bis 2.000 Euro vorliegt. Der Preis beschreibt das Produktangebot und nicht automatisch Lieferung, Montage, Anschluss oder zusätzlich benötigte Ausstattung.",
+    "layout": "budget",
+    "filters": {"categories": ["indoor"], "price_max": 2000},
+    "sort": "price",
+    "related_ids": ["sauna-bis-2500-euro", "mini-sauna", "2-personen-sauna"],
+    "planning": {"kicker": "Preis und Lieferumfang trennen", "intro": "Ein günstiges Innenmodell kann eine separate Ofen-, Montage- oder Anschlussplanung verlangen. Diese Positionen gehören neben den Produktpreis in die Rechnung.", "guide_ids": ["sauna-kosten", "stromverbrauch-heimsauna"]},
+    "editorial": {
+      "kicker": "Enger Preisrahmen · offene Positionen",
+      "title": "Unter 2.000 Euro entscheidet der Lieferumfang über die Vergleichbarkeit.",
+      "paragraphs": [
+        "Ein Angebot unter 2.000 Euro kann eine komplette Kabine, einen Bausatz oder eine Variante ohne Ofen beschreiben. Der sichtbare Preis ist deshalb nur dann vergleichbar, wenn die gewünschte Ausstattung und die enthaltenen Bauteile übereinstimmen.",
+        "Die Produktfläche und die Anschlussangabe bleiben auch bei einem kleinen Budget relevant. Eine kompakte Kabine passt nicht automatisch in jeden Raum, und eine fehlende Elektroposition wird nicht zu einer kostenlosen Position.",
+        "Die Liste ordnet nach dem niedrigsten dokumentierten Angebot. Sie enthält keine Qualitätsrangliste und keine Aussage darüber, welches Modell für einen bestimmten Raum die beste Wahl ist. Dafür müssen Innenmaß, Wärmeart und Lieferumfang einzeln geprüft werden."
+      ],
+      "pointsTitle": "Preisvergleich richtig lesen",
+      "points": ["Grundmodell und gewünschte Variante abgleichen", "Ofen und Steuerung im Lieferumfang suchen", "Lieferung und Montage separat notieren", "Stromanschluss vor der Bestellung prüfen"],
+      "callout": "Der Einstiegspreis wird erst mit dem Lieferumfang zu einer brauchbaren Zahl."
+    },
+    "criteria": ["Innenaufstellung ist im Datensatz ausgewiesen", "Mindestens ein Angebot liegt bei höchstens 2.000 Euro", "Preis, Maße und Wärmeart sind quellenbezogen dokumentiert"],
+    "checks": ["Prüfen, ob der Preis eine Kabine, einen Bausatz oder eine Variante ohne Ofen betrifft.", "Lieferung, Montage, Untergrund und Elektroarbeiten als eigene Kostenpositionen führen.", "Außenmaß und Türbereich mit dem vorgesehenen Raum abgleichen.", "Preis und Verfügbarkeit beim Anbieter vor der Bestellung erneut prüfen."],
+    "module_copy": {"method_kicker": "Einschlusskriterium", "method_title": "Ein verifiziertes Innenangebot bis 2.000 Euro genügt für die Liste.", "method_note": "Der jüngste Angebotsstand dieser Auswahl wurde geprüft am", "results_kicker": "Modelle im Budgetrahmen", "results_title": "{count} Indoor-Saunen liegen mit einem Angebot bei höchstens 2.000 Euro.", "results_intro": "Die Reihenfolge folgt dem niedrigsten dokumentierten Preis. Lieferumfang, Ofenstatus und Anschluss bleiben im einzelnen Datensatz sichtbar.", "checks_kicker": "Vom Preis zum Projekt", "checks_title": "Vier Angaben verhindern einen unvollständigen Budgetvergleich.", "related_kicker": "Budget anders einordnen", "related_title": "Die nächste Preisstufe und kompakte Raumkategorien danebenstellen."}
+  },
+  {
+    "id": "outdoor-under-5000",
+    "section": "outdoor-sauna",
+    "slug": "gartensauna-bis-5000-euro",
+    "kind": "Preisvergleich",
+    "eyebrow": "Garten · Produktpreis und Projektkosten",
+    "title": "Gartensauna bis 5.000 Euro",
+    "accent": "nach dokumentiertem Angebot.",
+    "description": "Gartensaunen bis 5.000 Euro mit Außenmaßen, Kapazität, Wärmeart und Hinweisen zu Fundament, Lieferung und Anschluss.",
+    "intro": "Diese Auswahl endet bei einem dokumentierten Produktpreis von 5.000 Euro. Fundament, Dach, Entwässerung, Lieferung, Montage und Stromversorgung gehören nicht automatisch zum Angebot.",
+    "layout": "outdoor",
+    "filters": {"categories": ["outdoor"], "price_max": 5000},
+    "sort": "price",
+    "related_ids": ["kleine-gartensauna", "fasssauna", "sauna-bis-4000-euro"],
+    "planning": {"kicker": "Das Grundstück mitrechnen", "intro": "Außenmaß, Fundamentkante, Dachüberstand, Zugang und Leitungsweg bilden zusammen die Fläche des Vorhabens.", "guide_ids": ["boden-und-fundament", "sauna-kosten"]},
+    "editorial": {
+      "kicker": "Gartenprojekt · nicht nur der Kaufpreis",
+      "title": "Bei einer Gartensauna liegen die wichtigsten Zusatzkosten außerhalb des Produktdatensatzes.",
+      "paragraphs": [
+        "Ein Preis bis 5.000 Euro beschreibt zunächst die angebotene Sauna. Je nach Modell kommen Fundament, Dachabdichtung, Lieferung bis zum Grundstück, Montage und eine elektrische oder holzbefeuerte Heizlösung hinzu.",
+        "Die passende Größe hängt nicht allein von der Zahl im Angebot ab. Dachüberstand, Türbereich und Wartungszugang brauchen Platz, während der Untergrund eben, tragfähig und vor stehender Nässe geschützt sein muss.",
+        "Die Ergebnisse helfen beim Einordnen des Marktes. Ob ein konkretes Modell auf dem Grundstück funktioniert, entscheidet der Abgleich aus Produktzeichnung, Anlieferungsweg, örtlichen Vorgaben und den Bedingungen des eigenen Standorts."
+      ],
+      "pointsTitle": "Außenkosten neben dem Produktpreis",
+      "points": ["Fundament und Geländehöhe klären", "Anlieferung bis zum Aufbauort kalkulieren", "Dach und Wasserführung prüfen", "Heizung, Zuleitung oder Schornsteinweg abstimmen"],
+      "callout": "Das Budget muss die gesamte Außenanlage abdecken, nicht nur das Saunahaus."
+    },
+    "criteria": ["Produktkategorie Outdoor ist verifiziert", "Mindestens ein Angebot liegt bei höchstens 5.000 Euro", "Außenmaß, Kapazität und Preisquelle sind dokumentiert"],
+    "checks": ["Fundament, Dachüberstand und Wartungszone zur Produktfläche addieren.", "Anlieferung mit Torbreite, Kurven und Abladepunkt abgleichen.", "Strom oder Holzofen samt Sicherheits- und Leitungsplanung berücksichtigen.", "Örtliche Vorgaben vor einer verbindlichen Bestellung prüfen."],
+    "module_copy": {"method_kicker": "Preisgrenze der Auswahl", "method_title": "Ein verifiziertes Outdoor-Angebot bis 5.000 Euro führt in diesen Vergleich.", "method_note": "Der aktuelle Preisstand der enthaltenen Gartensaunen wurde geprüft am", "results_kicker": "Gartenmodelle im Budgetrahmen", "results_title": "{count} Gartensaunen haben ein dokumentiertes Angebot bis 5.000 Euro.", "results_intro": "Die Liste folgt dem niedrigsten Preis. Fundament, Montage und Grundstücksarbeiten werden nicht in den Produktpreis eingerechnet.", "checks_kicker": "Produktpreis und Standort verbinden", "checks_title": "Vier Außenfragen gehören in dieselbe Kalkulation.", "related_kicker": "Gartenfläche und Preis anders begrenzen", "related_title": "Kleine Gartensaunen, Fässer und die niedrigere Preisstufe vergleichen."}
+  },
+  {
+    "id": "infrared-under-2000",
+    "section": "indoor-sauna",
+    "slug": "infrarotkabine-bis-2000-euro",
+    "kind": "Preisvergleich",
+    "eyebrow": "Infrarot · kompakter Preisrahmen",
+    "title": "Infrarotkabine bis 2.000 Euro",
+    "accent": "mit belegten Strahlerdaten.",
+    "description": "Infrarotkabinen bis 2.000 Euro im Datenvergleich nach Stellfläche, Kapazität, Heiztechnik und Anschluss.",
+    "intro": "Aufgenommen werden Infrarotkabinen mit mindestens einem dokumentierten Angebot bis 2.000 Euro. Die Preisgrenze sagt nichts über Strahlerkomfort, Materialqualität oder eine gesundheitliche Wirkung aus.",
+    "layout": "heat",
+    "filters": {"categories": ["infrared"], "price_max": 2000},
+    "sort": "footprint",
+    "related_ids": ["infrarotkabine", "1-person-sauna", "2-personen-sauna"],
+    "planning": {"kicker": "Kabine und Anschluss zusammen prüfen", "intro": "Sitzposition, Strahleranordnung, Belüftung des Raumes und elektrische Absicherung müssen zur konkreten Kabine passen.", "guide_ids": ["sauna-fuer-die-wohnung", "stromverbrauch-heimsauna"]},
+    "editorial": {
+      "kicker": "Infrarot · Daten statt Versprechen",
+      "title": "Bei einer günstigen Infrarotkabine zählt die belegte Technik.",
+      "paragraphs": [
+        "Der Preis filtert die Angebote, ersetzt aber keine technische Beschreibung. Für die Vorauswahl sind Strahlerart, Anzahl, Position, Sitzplätze und die dokumentierte elektrische Leistung aussagekräftiger als ein werblicher Produktname.",
+        "Kleine Kabinen unterscheiden sich stark in Breite und Sitzwinkel. Übertrage die Außenkontur in den Raum und prüfe, ob die vorgesehene Sitzposition tatsächlich im Wirkbereich der ausgewiesenen Strahler liegt.",
+        "Der Vergleich beschreibt veröffentlichte Produktdaten. Er enthält keine eigenen Messungen und keine medizinischen Empfehlungen. Menschen mit gesundheitlichen Fragen sollten die Nutzung mit einer geeigneten Fachperson besprechen."
+      ],
+      "pointsTitle": "Technische Angaben am Angebot prüfen",
+      "points": ["Strahlertechnik und Position vergleichen", "Sitzbreite und Einstieg ausmessen", "Leistung und Spannung abgleichen", "Raumlüftung nach der Nutzung sicherstellen"],
+      "callout": "Der Preis ist der Filter, die dokumentierte Heiztechnik ist die Entscheidungsgrundlage."
+    },
+    "criteria": ["Kategorie Infrarotkabine ist verifiziert", "Mindestens ein Angebot liegt bei höchstens 2.000 Euro", "Maße, Heiztechnik und Anschluss sind im Datensatz ausgewiesen"],
+    "checks": ["Strahlerart nicht aus Produktbildern oder Modellnamen ableiten.", "Sitzposition und Kabinenbreite anhand der Zeichnung prüfen.", "230 V nicht mit einer bestimmten Leistungsaufnahme gleichsetzen.", "Medizinische Wirkversprechen nicht aus Produktangaben ableiten."],
+    "module_copy": {"method_kicker": "Aufnahme in den Preisvergleich", "method_title": "Infrarotkabinen mit einem Angebot bis 2.000 Euro werden nach Fläche geordnet.", "method_note": "Der letzte dokumentierte Preisstand dieser Kabinen stammt vom", "results_kicker": "Kabinen mit engem Preisrahmen", "results_title": "{count} Infrarotkabinen erfüllen die Preisgrenze.", "results_intro": "Die Reihenfolge folgt der Stellfläche. Strahlertechnik, Sitzposition und Anschluss müssen am einzelnen Modell geprüft werden.", "checks_kicker": "Technik nicht aus dem Preis lesen", "checks_title": "Vier Angaben machen den Vergleich belastbar.", "related_kicker": "Wärmeart und Kapazität ändern", "related_title": "Die breite Infrarot-Auswahl sowie Einzel- und Zweierkabinen danebenstellen."}
+  },
+  {
+    "id": "five-person",
+    "section": "vergleiche",
+    "slug": "5-personen-sauna",
+    "kind": "Kapazitätsvergleich",
+    "eyebrow": "Kapazität · fünf Plätze",
+    "title": "Sauna für 5 Personen",
+    "accent": "nach Herstellerangabe.",
+    "description": "Saunen mit ausgewiesener Kapazität für fünf Personen im Vergleich nach Stellfläche, Liegeplätzen, Wärmeart und Preis.",
+    "intro": "Die Seite enthält Produkte, deren Herstellerangabe eine Maximalkapazität von fünf Personen nennt. Das ist ein Einschlusskriterium und kein eigener Komforttest.",
+    "layout": "capacity",
+    "filters": {"people_exact": 5},
+    "sort": "footprint",
+    "related_ids": ["4-personen-sauna", "3-personen-sauna", "sauna-bis-6-m2"],
+    "planning": {"kicker": "Kapazität in Raum übersetzen", "intro": "Fünf Plätze brauchen neben der Kabine Bewegungsfläche, einen passenden Zugang und eine Ofen- oder Strahlerplanung für das tatsächliche Volumen.", "guide_ids": ["platzbedarf", "saunagroesse-3-6-kw"]},
+    "editorial": {
+      "kicker": "Fünf Personen · Nutzung statt Etikett",
+      "title": "Die Kapazitätsangabe zeigt die Obergrenze, nicht die Sitzqualität.",
+      "paragraphs": [
+        "Eine Sauna für fünf Personen kann mehrere Sitzebenen, eine lange Bank oder eine gemischte Sitz- und Liegefläche haben. Ohne Innenzeichnung lässt sich nicht beurteilen, wie bequem die Gruppe sitzt und ob alle Plätze gleichzeitig nutzbar sind.",
+        "Das größere Volumen wirkt sich auf Aufheizen, Lüftung und erforderliche Heizleistung aus. Bei Außenmodellen kommen Fundament, Anlieferung und Wartungszugang hinzu; die Produktfläche bleibt nur ein Teil des Raumplans.",
+        "Die Liste nutzt die Herstellerkapazität, weil sie zwischen Modellen vergleichbar erfasst werden kann. Sie behauptet weder eine bestimmte Aufenthaltsqualität noch eine eigene Prüfung der Kabinen."
+      ],
+      "pointsTitle": "Fünf Plätze realistisch planen",
+      "points": ["Regelmäßige statt seltene Belegung festlegen", "Innenbreite und Bankaufteilung prüfen", "Volumen, Ofenleistung und Lüftung abgleichen", "Tür- und Bewegungsfläche außerhalb der Kabine einplanen"],
+      "callout": "Eine Kapazitätszahl wird erst mit Innenmaßen und Nutzung zu einer brauchbaren Planung."
+    },
+    "criteria": ["Herstellerkapazität beträgt genau fünf Personen", "Verifizierter Datensatz mit Maßen und Wärmeart", "Sortierung nach rechnerischer Produktfläche"],
+    "checks": ["Kapazität nicht als Komfort- oder Belastungstest lesen.", "Innenzeichnung und Bankaufteilung beim Anbieter anfordern oder prüfen.", "Heizleistung und Raumvolumen gemeinsam betrachten.", "Außenmodelle mit Fundament und Anlieferungsweg ergänzen."],
+    "module_copy": {"method_kicker": "Kapazitätsfilter", "method_title": "Hier erscheinen nur Modelle mit ausgewiesener Maximalkapazität von fünf Personen.", "method_note": "Die jüngste Prüfung der passenden Datensätze erfolgte am", "results_kicker": "Fünf Plätze im Katalog", "results_title": "{count} Produkte sind für fünf Personen ausgewiesen.", "results_intro": "Die Stellfläche ordnet die Auswahl. Bankgeometrie, Innenmaß und Wärmeart müssen im jeweiligen Datensatz geprüft werden.", "checks_kicker": "Kapazität in Nutzung übersetzen", "checks_title": "Vier Punkte trennen Herstellerangabe und Alltag.", "related_kicker": "Kapazität enger oder weiter fassen", "related_title": "Drei-, Vier- und Sechs-Personen-Auswahlen nebeneinanderstellen."}
+  },
+  {
+    "id": "six-plus-person",
+    "section": "vergleiche",
+    "slug": "sauna-ab-6-personen",
+    "kind": "Kapazitätsvergleich",
+    "eyebrow": "Große Modelle · Raum und Leistung",
+    "title": "Sauna ab 6 Personen",
+    "accent": "für größere Gruppen.",
+    "description": "Saunen mit ausgewiesener Kapazität ab sechs Personen nach Außenmaß, Produktfläche, Heiztechnik und Preis.",
+    "intro": "In dieser Auswahl stehen Modelle mit einer Herstellerkapazität von mindestens sechs Personen. Die Daten helfen bei der Vorauswahl eines großen Projekts, ersetzen aber keine Gebäude- und Anschlussplanung.",
+    "layout": "tradeoff",
+    "filters": {"people_min": 6},
+    "sort": "footprint",
+    "related_ids": ["4-personen-sauna", "kleine-gartensauna", "sauna-bis-6-m2"],
+    "planning": {"kicker": "Große Kabine, großer Plan", "intro": "Anlieferung, Fundament, Raumhöhe, Wärmeleistung und Wartungszugang müssen vor dem Modellvergleich geklärt werden.", "guide_ids": ["sauna-kosten", "boden-und-fundament"]},
+    "editorial": {
+      "kicker": "Große Gruppe · konkrete Folgen",
+      "title": "Ab sechs Personen wird aus der Kabine ein eigenes Bau- und Technikprojekt.",
+      "paragraphs": [
+        "Ein großes Modell braucht nicht nur mehr Stellfläche. Das Kabinenvolumen, die Bankanordnung, die Türbreite und die Wege für Bauteile verändern die Anforderungen an Raum, Fundament und Montage.",
+        "Bei der Heiztechnik ist die Herstellerzuordnung des konkreten Modells entscheidend. Die Produktdaten zeigen Spannung und Leistung nur dort, wo sie belegt sind; fehlende Werte werden nicht durch Schätzungen ersetzt.",
+        "Die Kapazitätsangabe richtet die Auswahl auf Gruppen aus. Wie viele Personen tatsächlich bequem sitzen, hängt von Banktiefe, Innenhöhe, Nutzungsdauer und der gewünschten Liegeposition ab."
+      ],
+      "pointsTitle": "Große Modelle vor Ort prüfen",
+      "points": ["Anlieferungsroute und Abladefläche vermessen", "Fundament und Tragfähigkeit klären", "Volumen mit Ofen- und Lüftungsdaten abgleichen", "Wartungs- und Bewegungszone freihalten"],
+      "callout": "Bei großen Saunen muss der Standort die Technik und die Montage gleichermaßen tragen."
+    },
+    "criteria": ["Herstellerkapazität beträgt mindestens sechs Personen", "Maße, Wärmeart und Preisquelle sind verifiziert", "Sortierung nach rechnerischer Produktfläche"],
+    "checks": ["Kapazitätsangabe und bequeme Sitzordnung nicht gleichsetzen.", "Lieferweg und Paketmaße vor einer Bestellung klären.", "Heizleistung, Anschluss und Raumvolumen anhand der Anleitung abstimmen.", "Fundament, Wartungszugang und örtliche Anforderungen als eigenes Projekt planen."],
+    "module_copy": {"method_kicker": "Aufnahme in die Großauswahl", "method_title": "Berücksichtigt werden Produkte mit ausgewiesener Maximalkapazität ab sechs Personen.", "method_note": "Der Datenstand der enthaltenen Großmodelle wurde geprüft am", "results_kicker": "Große Kapazitäten", "results_title": "{count} Produkte sind für mindestens sechs Personen ausgewiesen.", "results_intro": "Die Reihenfolge folgt der Produktfläche. Standort, Fundament, Anlieferung und Heizleistung benötigen eine separate Prüfung.", "checks_kicker": "Vom Katalog zum Bauvorhaben", "checks_title": "Vier Standortfragen müssen vor dem Angebot geklärt sein.", "related_kicker": "Weniger Plätze oder kleinere Fläche", "related_title": "Vier-Personen-Modelle und engere Flächengrenzen vergleichen."}
   }
 ]

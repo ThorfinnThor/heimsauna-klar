@@ -13,29 +13,32 @@
       "narrative_angle": "Der Preisrahmen wird über Lieferumfang, Ofenstatus und Platzbedarf eingeordnet, nicht über eine Rangliste.",
       "filter": { "categories": ["indoor"], "price_max": 2000 },
       "evidence_basis": "Preis, Lieferumfang, Maße und Ofenangaben der verifizierten Angebote",
-      "status": "planned"
+      "status": "published",
+      "published_commit": "pending"
     },
     {
       "id": "outdoor-under-5000",
-      "section": "vergleiche",
+      "section": "outdoor-sauna",
       "slug": "gartensauna-bis-5000-euro",
       "working_title": "Gartensauna bis 5.000 Euro",
       "search_intent": "Welche Gartensaunen bleiben beim dokumentierten Produktpreis unter 5.000 Euro und welche Projektkosten kommen außerhalb des Angebots hinzu?",
       "narrative_angle": "Produktpreis und vollständiges Gartenprojekt werden sichtbar voneinander getrennt.",
       "filter": { "categories": ["outdoor"], "price_max": 5000 },
       "evidence_basis": "Angebotspreise, Außenmaße, Ofenstatus und bestehende Fundamentquellen",
-      "status": "planned"
+      "status": "published",
+      "published_commit": "pending"
     },
     {
       "id": "infrared-under-2000",
-      "section": "vergleiche",
+      "section": "indoor-sauna",
       "slug": "infrarotkabine-bis-2000-euro",
       "working_title": "Infrarotkabine bis 2.000 Euro",
       "search_intent": "Welche Infrarotkabinen sind bis 2.000 Euro dokumentiert und worin unterscheiden sich Platzangebot und Strahlerangaben?",
       "narrative_angle": "Nutzbarer Innenraum und dokumentierte Heiztechnik stehen vor dekorativen Ausstattungsmerkmalen.",
       "filter": { "categories": ["infrared"], "price_max": 2000 },
       "evidence_basis": "Maße, Kapazität, Heiztechnik und Preise der Produktdatensätze",
-      "status": "planned"
+      "status": "published",
+      "published_commit": "pending"
     },
     {
       "id": "five-person",
@@ -46,7 +49,8 @@
       "narrative_angle": "Die Herstellerkapazität wird mit Fläche und dokumentierten Liegeplätzen abgeglichen.",
       "filter": { "people_exact": 5 },
       "evidence_basis": "Personenangaben, Sitzplätze, Liegeplätze und Außenmaße",
-      "status": "planned"
+      "status": "published",
+      "published_commit": "pending"
     },
     {
       "id": "six-plus-person",
@@ -57,7 +61,8 @@
       "narrative_angle": "Große Kapazität wird als Raum- und Anschlussfrage behandelt.",
       "filter": { "people_min": 6 },
       "evidence_basis": "Kapazität, Stellfläche, Höhe und Anschlussdaten",
-      "status": "planned"
+      "status": "published",
+      "published_commit": "pending"
     },
     {
       "id": "infrared-one-person",

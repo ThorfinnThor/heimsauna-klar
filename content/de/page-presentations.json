@@ -197,6 +197,66 @@
         ],
         "points": ["Produkt- und Projektfläche getrennt ausweisen", "Abstände aus der konkreten Anleitung ergänzen", "Tür- und Wartungszonen sichtbar einzeichnen"]
       }
+    },
+    "indoor-under-2000": {
+      "hero": "index",
+      "results": "cards",
+      "method": "panel",
+      "flow": ["insight", "editorial", "results", "method", "checks"],
+      "insight": {
+        "kicker": "Budget mit offenen Positionen",
+        "title": "Ein niedriger Produktpreis wird erst mit dem Lieferumfang vergleichbar.",
+        "copy": ["Bei Innenkabinen bis 2.000 Euro können Grundmodell, Ofenpaket und Zubehör unterschiedlich zusammengestellt sein. Der Preisfilter macht diese Angebote auffindbar, aber er ersetzt nicht die Prüfung der Variante, die tatsächlich bestellt werden soll.", "Die Darstellung beginnt deshalb mit der Budgetfrage und führt anschließend zu den Produktdaten. So bleibt sichtbar, ob eine günstige Kabine für den vorhandenen Raum, die gewünschte Wärmeart und den geplanten Anschluss überhaupt in Betracht kommt."],
+        "points": ["Variante und Lieferumfang abgleichen", "Anschluss vorab klären", "Zusatzkosten getrennt notieren"]
+      }
+    },
+    "outdoor-under-5000": {
+      "hero": "split",
+      "results": "ledger",
+      "method": "panel",
+      "flow": ["editorial", "insight", "method", "checks", "results"],
+      "insight": {
+        "kicker": "Gartenprojekt im Preisrahmen",
+        "title": "Das Saunahaus ist nur ein Teil der Außenkalkulation.",
+        "copy": ["Fundament, Entwässerung, Dach, Lieferung und Montage entstehen am Grundstück und tauchen in einem reinen Produktfeed häufig nicht auf. Der Vergleich stellt den dokumentierten Kaufpreis deshalb neben die Fragen, die vor einer Bestellung am Standort beantwortet werden müssen.", "Die Ergebnisliste kommt erst nach dieser Einordnung. Das hilft bei der Suche nach einer passenden Größenordnung, ohne den Preis eines einzelnen Angebots als vollständiges Projektbudget auszugeben."],
+        "points": ["Fundament separat kalkulieren", "Anlieferungsweg vermessen", "Zuleitung oder Ofenweg prüfen"]
+      }
+    },
+    "infrared-under-2000": {
+      "hero": "compact",
+      "results": "table",
+      "method": "split",
+      "flow": ["method", "results", "insight", "editorial", "checks"],
+      "insight": {
+        "kicker": "Strahlerdaten im Vordergrund",
+        "title": "Bei Infrarotkabinen führt der Preis direkt zu technischen Rückfragen.",
+        "copy": ["Zwei Kabinen im gleichen Preisrahmen können sich bei Strahlerart, Sitzwinkel, Breite und elektrischer Leistung deutlich unterscheiden. Die Tabelle zeigt diese Angaben dort, wo sie belegt sind, und lässt unbelegte Eigenschaften offen.", "Die redaktionelle Einordnung erklärt, wie die Sitzposition und der Aufstellraum in die Auswahl gehören. Damit wird aus dem Preisfilter eine technische Vorauswahl und keine verkürzte Empfehlung über das günstigste Modell."],
+        "points": ["Strahlerposition lesen", "Sitzraum ausmessen", "Spannung und Leistung trennen"]
+      }
+    },
+    "five-person": {
+      "hero": "editorial",
+      "results": "ledger",
+      "method": "steps",
+      "flow": ["editorial", "insight", "method", "results", "checks"],
+      "insight": {
+        "kicker": "Kapazität als Ausgangspunkt",
+        "title": "Fünf Plätze brauchen eine konkrete Vorstellung von der Nutzung.",
+        "copy": ["Die Herstellerangabe für fünf Personen ist für den Filter eindeutig, beschreibt aber weder Bankbreite noch Bewegungsfreiheit. Die Seite legt deshalb offen, welche Maße und Liegeplätze im Datensatz vorhanden sind und welche Fragen beim Anbieter offenbleiben.", "Die redaktionelle Reihenfolge folgt der Nutzung einer Gruppe. Erst werden Innenraum und Zugang eingeordnet, danach kommen Volumen, Technik und die passende Produktliste. So bleibt die Kapazität eine Planungsgröße und wird nicht zu einer erfundenen Komfortbewertung."],
+        "points": ["Bankaufteilung prüfen", "Volumen und Heizleistung abgleichen", "Bewegungszone ergänzen"]
+      }
+    },
+    "six-plus-person": {
+      "hero": "split",
+      "results": "cards",
+      "method": "panel",
+      "flow": ["insight", "method", "editorial", "checks", "results"],
+      "insight": {
+        "kicker": "Große Modelle anders lesen",
+        "title": "Ab sechs Personen wird die Standortplanung zum Hauptthema.",
+        "copy": ["Große Kabinen verändern Anlieferung, Fundament, Raumhöhe und Heizleistung. Die Auswahl beginnt deshalb mit den Folgen der Größe und führt erst danach in die Produktdaten. Das verhindert, dass eine Kapazitätszahl ohne baulichen Kontext stehen bleibt.", "Die Ergebnisse zeigen dokumentierte Produkte mit ihrer Fläche, Kapazität und Technik. Fehlende Leistungs- oder Anschlussangaben bleiben sichtbar, damit die Liste keine Genauigkeit vortäuscht, die der jeweilige Datensatz nicht hergibt."],
+        "points": ["Anlieferung vorab klären", "Fundament und Wartung einplanen", "Anschlussdaten belegen"]
+      }
     }
   },
   "planning_guides": {

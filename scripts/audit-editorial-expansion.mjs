@@ -81,7 +81,9 @@ for (const entry of plan.collections) {
   if (collectionIds.has(entry.id)) throw new Error(`Duplicate planned collection id: ${entry.id}`);
   collectionIds.add(entry.id);
   const route = `${entry.section}/${entry.slug}`;
-  if (collectionRoutes.has(route) || existingRoutes.has(route)) throw new Error(`Duplicate planned collection route: ${route}`);
+  if (collectionRoutes.has(route)) throw new Error(`Duplicate planned collection route: ${route}`);
+  if (existingRoutes.has(route) && entry.status !== "published") throw new Error(`Planned collection route already exists: ${route}`);
+  if (entry.status === "published" && !existingRoutes.has(route)) throw new Error(`Published collection route is not in collections.json: ${route}`);
   collectionRoutes.add(route);
   if (!entry.filter || typeof entry.filter !== "object" || Array.isArray(entry.filter)) throw new Error(`${entry.id} needs a filter object`);
   for (const key of Object.keys(entry.filter)) {
