@@ -41,7 +41,10 @@ const STOP_WORDS = new Set([
   "cm",
   "kw",
 ]);
-const MODEL_VARIANT_WORDS = new Set(["schwarz", "natur", "grau", "rot", "weiss", "weiß", "terragrau"]);
+const MODEL_VARIANT_WORDS = new Set([
+  "schwarz", "natur", "grau", "rot", "weiss", "weiß", "terragrau",
+  "xs", "s", "m", "l", "xl", "xxl", "xxxl",
+]);
 
 const PRODUCT_NAME_FIELDS = ["product_name", "product name", "product_title", "product title", "name", "title"];
 const PRODUCT_URL_FIELDS = [
@@ -72,8 +75,15 @@ function tokens(value, { includeGeneric = false } = {}) {
   return [...new Set(normalizedText(value).split(/\s+/).filter((token) =>
     token &&
     (includeGeneric || !STOP_WORDS.has(token)) &&
-    (/^\d+(?:\.\d+)?$/.test(token) || token.length >= 3)
+    (/^\d+(?:\.\d+)?$/.test(token) || token.length >= 3 || MODEL_VARIANT_WORDS.has(token))
   ))];
+}
+
+function variantTokens(value) {
+  const normalized = normalizedText(value);
+  const regular = tokens(value);
+  const shortVariants = normalized.split(/\s+/).filter((token) => MODEL_VARIANT_WORDS.has(token));
+  return [...new Set([...regular, ...shortVariants])];
 }
 
 function brandMatches(product, rowName, rowBrand) {
@@ -126,12 +136,19 @@ export function findCatalogCandidates(products, rows, { merchantName, maxCandida
       const matchedIdentity = rareTextTokens.filter((token) => feedTokens.has(token));
       if (matchedIdentity.length === 0) continue;
 
-      const variantTokens = product.family
-        ? tokens(product.family.variant)
+      const productVariantTokens = product.family
+        ? variantTokens(product.family.variant)
         : modelTokens.filter((token) => /^\d/.test(token) || MODEL_VARIANT_WORDS.has(token));
-      const matchedVariant = variantTokens.filter((token) => feedTokens.has(token));
+      const matchedVariant = productVariantTokens.filter((token) => feedTokens.has(token));
+      const familyVariantAnchors = product.family
+        ? productVariantTokens.filter((token) => MODEL_VARIANT_WORDS.has(token))
+        : [];
+      const matchedFamilyAnchors = familyVariantAnchors.filter((token) => feedTokens.has(token));
       const familySize = product.family ? familySizes.get(product.family.id) ?? 1 : 1;
-      if ((product.family ? familySize > 1 : variantTokens.length > 0) && matchedVariant.length === 0) continue;
+      if (product.family && familySize > 1) {
+        if ((familyVariantAnchors.length > 0 && matchedFamilyAnchors.length === 0)
+          || (familyVariantAnchors.length === 0 && matchedVariant.length === 0)) continue;
+      } else if (!product.family && productVariantTokens.length > 0 && matchedVariant.length === 0) continue;
 
       const key = `${product.product_id}|${merchantUrl}`;
       if (seen.has(key)) continue;

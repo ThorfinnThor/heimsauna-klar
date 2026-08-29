@@ -142,6 +142,29 @@ test("catalog candidate audit keeps numeric and color variants aligned without a
   assert.deepEqual(candidates.map((candidate) => candidate.product_id), ["artsauna-trondheim-90-schwarz"]);
 });
 
+test("catalog candidate audit distinguishes short size labels in a product family", () => {
+  const products = [
+    {
+      product_id: "home-deluxe-sahara-l",
+      brand: "Home Deluxe",
+      model: "SAHARA L",
+      family: { id: "home-deluxe-sahara", name: "SAHARA", variant: "L · 150 × 120 cm" },
+      commercial: { offers: [] },
+    },
+    {
+      product_id: "home-deluxe-sahara-xxl",
+      brand: "Home Deluxe",
+      model: "SAHARA XXL",
+      family: { id: "home-deluxe-sahara", name: "SAHARA", variant: "XXL · 150 × 150 cm" },
+      commercial: { offers: [] },
+    },
+  ];
+  const candidates = findCatalogCandidates(products, [
+    { product_name: "Infrarotkabine SAHARA L - 150 x 120 cm", brand: "Home Deluxe", merchant_deep_link: "https://homedeluxe.de/sahara-l" },
+  ], { merchantName: "Home Deluxe" });
+  assert.deepEqual(candidates.map((candidate) => candidate.product_id), ["home-deluxe-sahara-l"]);
+});
+
 test("affiliate activation requires an exact canonical merchant URL", () => {
   const products = [{
     product_id: "artsauna-kiruna-120",
