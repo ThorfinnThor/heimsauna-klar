@@ -194,10 +194,12 @@
       "benz24.de"
     ],
     "affiliate": {
-      "status": "inactive",
-      "program_id": null
+      "status": "active",
+      "program_id": "awin-benz24"
     },
-    "candidate_program_ids": []
+    "candidate_program_ids": [
+      "awin-benz24"
+    ]
   },
   {
     "id": "intergard",
@@ -210,6 +212,8 @@
       "status": "inactive",
       "program_id": null
     },
-    "candidate_program_ids": []
+    "candidate_program_ids": [
+      "awin-intergard"
+    ]
   }
 ]

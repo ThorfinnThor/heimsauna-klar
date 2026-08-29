@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T10:25:20.998Z",
+  "generated_at": "2026-08-29T15:52:50.739Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
   "products_total": 432,
-  "newly_matched_offers": 48,
-  "active_affiliate_offers": 48,
+  "newly_matched_offers": 51,
+  "active_affiliate_offers": 51,
   "targets": [
     {
       "merchant_id": "artsauna",
@@ -33,6 +33,30 @@
       "unmatched_product_ids": [
         "home-deluxe-shadow-m"
       ]
+    },
+    {
+      "merchant_id": "benz24",
+      "advertiser_id": "18314",
+      "advertiser_name": "Benz24 DE/AT",
+      "feed_id": "43829",
+      "feed_name": "BENZ24 Deutschland",
+      "feed_rows": 92061,
+      "catalog_offers": 3,
+      "exact_matches": 3,
+      "invalid_tracking_links": 0,
+      "unmatched_product_ids": []
+    },
+    {
+      "merchant_id": "intergard",
+      "advertiser_id": "24966",
+      "advertiser_name": "InterGard Heim und Garten DE",
+      "feed_id": "60713",
+      "feed_name": "Feed Deutsch",
+      "feed_rows": 3650,
+      "catalog_offers": 0,
+      "exact_matches": 0,
+      "invalid_tracking_links": 0,
+      "unmatched_product_ids": []
     }
   ]
 }

@@ -4706,10 +4706,12 @@
           "price": 3389,
           "availability": "feed-listed",
           "url": "https://benz24.de/karibu-saunahaus-skrollan-1-naturbelassen.html",
-          "affiliate": false,
+          "affiliate": true,
           "last_checked": "2026-08-29",
           "configuration": "Naturbelassen · Ofen- und Türvariante im Shop auswählen",
-          "selection_required": true
+          "selection_required": true,
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=31473506797&a=3037577&m=18314",
+          "affiliate_program_id": "awin-benz24"
         }
       ]
     },
@@ -5802,10 +5804,12 @@
           "price": 3479,
           "availability": "feed-listed",
           "url": "https://benz24.de/karibu-saunahaus-skrollan-2-naturbelassen.html",
-          "affiliate": false,
+          "affiliate": true,
           "last_checked": "2026-08-29",
           "configuration": "Naturbelassen · Ofen- und Türvariante im Shop auswählen",
-          "selection_required": true
+          "selection_required": true,
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=31473506801&a=3037577&m=18314",
+          "affiliate_program_id": "awin-benz24"
         }
       ]
     },
@@ -5904,10 +5908,12 @@
           "price": 4059,
           "availability": "feed-listed",
           "url": "https://benz24.de/karibu-saunahaus-skrollan-3-naturbleassen.html",
-          "affiliate": false,
+          "affiliate": true,
           "last_checked": "2026-08-29",
           "configuration": "Naturbelassen · Ofen- und Türvariante im Shop auswählen",
-          "selection_required": true
+          "selection_required": true,
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=31473506805&a=3037577&m=18314",
+          "affiliate_program_id": "awin-benz24"
         }
       ]
     },

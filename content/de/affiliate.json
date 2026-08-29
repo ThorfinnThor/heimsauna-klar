@@ -2,7 +2,7 @@
   "updated_at": "2026-08-29",
   "current_status": "active",
   "title": "Affiliate-Transparenz",
-  "accent": "48 Affiliate-Links sind aktiv.",
+  "accent": "51 Affiliate-Links sind aktiv.",
   "description": "Vergütete Awin-Links werden nur für exakt zugeordnete Händlerangebote eingesetzt. Herstellerquellen, Produktauswahl und Sortierung bleiben davon unabhängig.",
   "principles": [
     {
@@ -169,6 +169,42 @@
         "home-deluxe"
       ],
       "url": "https://ui.awin.com/merchant-profile/43199",
+      "checked_at": "2026-08-29"
+    },
+    {
+      "id": "awin-benz24",
+      "name": "Benz24",
+      "network": "Awin",
+      "program_id": "18314",
+      "status": "approved",
+      "focus": "Saunahäuser und Kabinen etablierter Hersteller; Zuordnung ausschließlich über die exakte Benz24-Produkt-URL.",
+      "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
+      "cookie_days": null,
+      "direct_linking": true,
+      "tracking_hosts": [
+        "awin1.com"
+      ],
+      "advertiser_merchant_ids": [
+        "benz24"
+      ],
+      "url": "https://ui.awin.com/merchant-profile/18314",
+      "checked_at": "2026-08-29"
+    },
+    {
+      "id": "awin-intergard",
+      "name": "InterGard",
+      "network": "Awin",
+      "program_id": "24966",
+      "status": "approved",
+      "focus": "Innensaunen von InterGard; Aktivierung erst nach vollständiger technischer Quellenprüfung.",
+      "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
+      "cookie_days": null,
+      "direct_linking": true,
+      "tracking_hosts": [],
+      "advertiser_merchant_ids": [
+        "intergard"
+      ],
+      "url": "https://ui.awin.com/merchant-profile/24966",
       "checked_at": "2026-08-29"
     }
   ]
