@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { applyMatches, matchExactOffers, normalizeAffiliateUrl, normalizeMerchantUrl } from "./matcher.mjs";
 import { assertFeedListUrl, normalizeFeedUrl, parseEligibleFeeds, resolveTargetFeeds } from "./feed-list.mjs";
+import { auditFeedRows } from "./relevance.mjs";
 import { parseCsv } from "./source.mjs";
 
 test("feed-list discovery keeps approved German Awin feeds", () => {
@@ -20,6 +21,19 @@ test("feed endpoints reject arbitrary hosts and unsafe variants", () => {
   assert.equal(normalizeFeedUrl("http://productdata.awin.com/feed.csv"), undefined);
   assert.equal(normalizeFeedUrl("http://datafeed.api.productserve.com/datafeed/download/apikey/x/fid/1/"), "https://datafeed.api.productserve.com/datafeed/download/apikey/x/fid/1/");
   assert.throws(() => assertFeedListUrl("https://example.com/feedList"));
+});
+
+test("feed relevance audit counts signal rows without activating products", () => {
+  const audit = auditFeedRows([
+    { title: "Gartensauna Fjord", description: "Saunahaus aus Holz" },
+    { title: "Infrarotkabine", category: "Wellness" },
+    { title: "Gartenliege" },
+  ]);
+  assert.equal(audit.rowsScanned, 3);
+  assert.equal(audit.signalRows, 2);
+  assert.equal(audit.counts.sauna, 1);
+  assert.equal(audit.counts.infrared, 1);
+  assert.deepEqual(audit.sampleProductNames, ["Gartensauna Fjord", "Infrarotkabine"]);
 });
 
 test("affiliate activation requires an exact canonical merchant URL", () => {
