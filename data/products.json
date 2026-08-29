@@ -36337,5 +36337,263 @@
       }
     ],
     "updated_at": "2026-08-28"
+  },
+  {
+    "product_id": "intergard-innensauna-205x168-40",
+    "brand": "InterGard",
+    "model": "Innensauna 205 × 168 cm · 40 mm",
+    "family": {
+      "id": "intergard-innensauna-40mm",
+      "name": "InterGard Innensauna 40 mm",
+      "variant": "205 × 168 cm · rechteckig"
+    },
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 205,
+      "depth": 168,
+      "height": 207
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 1
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die Kabine wird ohne Saunaofen angeboten. Leistung, Spannung, Steuerung und Elektroinstallation hängen vom separat gewählten Ofen ab."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Ofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordeuropäische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "InterGard",
+          "price": 2506.87,
+          "availability": "feed-listed",
+          "url": "https://www.intergardshop.de/innensauna-fichte-205x168cm",
+          "affiliate": false,
+          "last_checked": "2026-08-29"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Mit 205 × 168 cm bleibt die Kabine schmaler als die beiden größeren InterGard-Varianten.",
+        "40-mm-Massivholzwände, isoliertes Dach, Holzfliesen und ein Wandventil gehören laut Produktseite zur Ausstattung.",
+        "Die Innenmaße von 197 × 160 cm sind für Stellplatz- und Bankplanung separat ausgewiesen."
+      ],
+      "cons": [
+        "Der Saunaofen ist nicht enthalten; Anschluss und Leistung müssen vor der Bestellung festgelegt werden.",
+        "Die Produktseite nennt keine offizielle Personenzahl. Zwei Plätze sind eine konservative Planungsannahme aus der Innenfläche.",
+        "Das Attributfeld nennt Kiefer, während Titel und Beschreibung nordeuropäische Fichte ausweisen; die Holzdeklaration sollte vor Kauf bestätigt werden."
+      ],
+      "ideal_for": [
+        "Ein bis zwei Personen mit begrenzter Raumtiefe.",
+        "Innenräume, in denen eine massive Holzkabine und freie Ofenwahl gewünscht sind.",
+        "Planungen mit mindestens 205 × 168 × 207 cm Produktmaß plus Montage- und Lüftungsabständen."
+      ],
+      "not_for": [
+        "Käufe ohne separate Ofen-, Steuerungs- und Elektroplanung.",
+        "Mehrere vollwertige Liegeplätze.",
+        "Räume ohne geklärte Lüftung, Feuchteschutz und Transportweg."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung aus der InterGard-Produktseite und dem freigegebenen Awin-Feed; keine eigene Montage oder Nutzung. Die Kapazität ist ein konservativer Planungswert und keine Herstellerangabe."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "InterGard Produktseite Innensauna 205 × 168 cm · 40 mm",
+        "url": "https://www.intergardshop.de/innensauna-fichte-205x168cm",
+        "checked_at": "2026-08-29"
+      }
+    ],
+    "updated_at": "2026-08-29"
+  },
+  {
+    "product_id": "intergard-innensauna-205x205-40",
+    "brand": "InterGard",
+    "model": "Innensauna 205 × 205 cm · 40 mm",
+    "family": {
+      "id": "intergard-innensauna-40mm",
+      "name": "InterGard Innensauna 40 mm",
+      "variant": "205 × 205 cm · rechteckig"
+    },
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 205,
+      "depth": 205,
+      "height": 207
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 1
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die Produktseite führt die Heizung als Option. Der benötigte Anschluss ergibt sich erst aus dem gewählten Ofen und muss fachlich geplant werden."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Ofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordeuropäische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "InterGard",
+          "price": 2723.23,
+          "availability": "feed-listed",
+          "url": "https://www.intergardshop.de/innensauna-fichte-205x205cm",
+          "affiliate": false,
+          "last_checked": "2026-08-29"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der quadratische Grundriss bietet 197 × 197 cm dokumentiertes Innenmaß.",
+        "Die 40-mm-Massivholzkonstruktion umfasst ein isoliertes Dach, Holzfliesen, Kopfstützen und ein Lüftungsventil.",
+        "Die bronzefarbene Glastür bringt Sichtbezug in die geschlossene Fichtenkabine."
+      ],
+      "cons": [
+        "Ofen und Anschluss sind nicht Bestandteil des ausgewiesenen Kabinenpreises.",
+        "InterGard veröffentlicht keine Personenkapazität; drei Sitzplätze sind hier bewusst als vorsichtiger Planungswert geführt.",
+        "Fichte in Titel und Beschreibung steht einem generischen Kiefer-Eintrag im Attributfeld gegenüber."
+      ],
+      "ideal_for": [
+        "Zwei bis drei Personen mit Wunsch nach einem annähernd quadratischen Innenraum.",
+        "Keller-, Bad- oder Wellnessräume mit Platz für 205 × 205 × 207 cm plus Abstände.",
+        "Projekte, bei denen der Saunaofen unabhängig von der Kabine ausgewählt wird."
+      ],
+      "not_for": [
+        "Schmale Nischen unter 205 cm Raumtiefe.",
+        "Eine sofort betriebsbereite Komplettlösung mit dokumentierter Ofenleistung.",
+        "Planungen ohne überprüften Bodenaufbau und Luftwechsel."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Datengrundlage sind die aktuelle InterGard-Produktseite und der freigegebene Awin-Feed; ein eigener Praxistest liegt nicht vor. Der Kapazitätswert ist redaktionell konservativ abgeleitet."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "InterGard Produktseite Innensauna 205 × 205 cm · 40 mm",
+        "url": "https://www.intergardshop.de/innensauna-fichte-205x205cm",
+        "checked_at": "2026-08-29"
+      }
+    ],
+    "updated_at": "2026-08-29"
+  },
+  {
+    "product_id": "intergard-innensauna-eck-205x205-40",
+    "brand": "InterGard",
+    "model": "Innensauna Eckmodell 205 × 205 cm · 40 mm",
+    "family": {
+      "id": "intergard-innensauna-40mm",
+      "name": "InterGard Innensauna 40 mm",
+      "variant": "205 × 205 cm · Eckmodell"
+    },
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 205,
+      "depth": 205,
+      "height": 207
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 1
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Der Ofen ist optional. Die spätere Anschlussart und eine passende Steuerung sind abhängig vom ausgewählten Heizgerät."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Ofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordeuropäische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "InterGard",
+          "price": 2801.9,
+          "availability": "feed-listed",
+          "url": "https://www.intergardshop.de/innensauna-fichte-eckmodell",
+          "affiliate": false,
+          "last_checked": "2026-08-29"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Zwei dokumentierte Espe-Bänke mit 196 × 57 und 141 × 57 cm nutzen den Eckgrundriss gezielt aus.",
+        "Innenmaß, Wandhöhe und 40-mm-Wandstärke sind für die Raumplanung konkret angegeben.",
+        "Isoliertes Dach, Bodenfliesen aus Holz, Kopfstützen und Wandventil gehören zum beschriebenen Lieferumfang."
+      ],
+      "cons": [
+        "Für die 4,0-m²-Kabine ist kein Ofen enthalten oder technisch fest zugeordnet.",
+        "Drei Sitzplätze sind ein konservativer Planungswert; InterGard nennt keine verbindliche Personenzahl.",
+        "Die Materialbezeichnung ist auf der Seite nicht vollständig konsistent und sollte bei materialkritischen Projekten schriftlich bestätigt werden."
+      ],
+      "ideal_for": [
+        "Räume, in denen ein Eckzugang günstiger liegt als eine gerade Front.",
+        "Bis zu drei Personen mit einer langen 196-cm-Bank.",
+        "Individuelle Kombination aus Massivholzkabine, Ofen und Steuerung."
+      ],
+      "not_for": [
+        "Sehr schmale Innenräume oder Stellflächen unter 205 × 205 cm.",
+        "Käufer, die einen enthaltenen Ofen und fest ausgewiesenen Stromanschluss erwarten.",
+        "Montageorte ohne freien Türbereich und sicheren Lüftungsweg."
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung aus der InterGard-Produktseite und dem Awin-Produktfeed; keine eigene Montage- oder Wärmeprüfung. Die Kapazität wird als vorsichtiger Planungswert geführt."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "InterGard Produktseite Innensauna Eckmodell 205 × 205 cm · 40 mm",
+        "url": "https://www.intergardshop.de/innensauna-fichte-eckmodell",
+        "checked_at": "2026-08-29"
+      }
+    ],
+    "updated_at": "2026-08-29"
   }
 ]
