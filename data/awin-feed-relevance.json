@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-29T12:42:45.180Z",
+  "source": "Awin authenticated product feeds",
+  "secret_included": false,
+  "matching_policy": "Relevance signals only; no product data or affiliate links activated",
+  "audits": [
+    {
+      "advertiserId": "125144",
+      "advertiserName": "ANTHBOT DE",
+      "feedId": "F3145",
+      "feedName": null,
+      "language": "German",
+      "rowsScanned": 167,
+      "signalRows": 3,
+      "counts": {
+        "sauna": 0,
+        "infrared": 3,
+        "outdoor": 0,
+        "accessory": 0
+      },
+      "sampleProductNames": [
+        "Ladestation Set für Genie-Serie - DE Standard / Genie 600",
+        "Ladestation Set für Genie-Serie - DE Standard / Genie 1000",
+        "Ladestation Set für Genie-Serie - DE Standard / Genie 3000"
+      ],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "11830",
+      "advertiserName": "Globus Baumarkt DE",
+      "feedId": "24925",
+      "feedName": "Allgemein",
+      "language": "German",
+      "status": "error",
+      "error": "Cannot create a Buffer larger than 250000000 bytes"
+    },
+    {
+      "advertiserId": "14288",
+      "advertiserName": "Trotec DACH",
+      "feedId": "34321",
+      "feedName": "Awin-DE",
+      "language": "German",
+      "rowsScanned": 1313,
+      "signalRows": 33,
+      "counts": {
+        "sauna": 0,
+        "infrared": 33,
+        "outdoor": 0,
+        "accessory": 0
+      },
+      "sampleProductNames": [
+        "Thermografie-Software Professional",
+        "Pyrometer-Taupunktscanner BP25",
+        "Infrarot-Thermometer / Pyrometer BP17",
+        "Infrarot Heizstrahler IR 2000 S",
+        "Infrarot-Heizplatte / Infrarotheizung TIH 1100 S",
+        "Infrarot-Thermometer / Pyrometer TP7 Multipunkt Laser",
+        "Infrarot-Heizplatte / Infrarotheizung TIH 900 S",
+        "Infrarot Heizstrahler IR 2050"
+      ],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "18314",
+      "advertiserName": "Benz24 DE/AT",
+      "feedId": "43829",
+      "feedName": "BENZ24 Deutschland",
+      "language": "German",
+      "rowsScanned": 92061,
+      "signalRows": 1227,
+      "counts": {
+        "sauna": 1087,
+        "infrared": 151,
+        "outdoor": 92,
+        "accessory": 106
+      },
+      "sampleProductNames": [
+        "TraumGarten Lichtschranke für E-Antrieb günstig",
+        "Remmers Hartwachs-Siegel HWS 112 farblos günstig",
+        "Remmers Hartwachs-Siegel HWS 112 farblos, 1 l",
+        "Remmers Hartwachs-Siegel HWS 112 farblos, 5 l",
+        "weka Saunaofen Klassik inkl. 12 kg Saunasteine günstig",
+        "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 3,6 kW",
+        "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 4,5 kW",
+        "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 7,5 kW"
+      ],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "18314",
+      "advertiserName": "Benz24 DE/AT",
+      "feedId": "54737",
+      "feedName": "BENZ24 Österreich",
+      "language": "German",
+      "rowsScanned": 74852,
+      "signalRows": 257,
+      "counts": {
+        "sauna": 210,
+        "infrared": 48,
+        "outdoor": 11,
+        "accessory": 91
+      },
+      "sampleProductNames": [
+        "TraumGarten Lichtschranke für E-Antrieb günstig",
+        "weka Saunaofen Klassik inkl. 12 kg Saunasteine günstig",
+        "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 3,6 kW",
+        "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 4,5 kW",
+        "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 7,5 kW",
+        "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 9 kW",
+        "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine günstig",
+        "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 3,6 kW"
+      ],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "24966",
+      "advertiserName": "InterGard Heim und Garten DE",
+      "feedId": "60713",
+      "feedName": "Feed Deutsch",
+      "language": "German",
+      "rowsScanned": 3650,
+      "signalRows": 4,
+      "counts": {
+        "sauna": 4,
+        "infrared": 0,
+        "outdoor": 0,
+        "accessory": 1
+      },
+      "sampleProductNames": [
+        "Innensauna 205x168cm / 40mm",
+        "Innensauna 205x205cm / 40mm",
+        "Innensauna Eckmodell 205x205cm / 40mm",
+        "Saunaheizung Saunaofen 8kw / 380v"
+      ],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "30763",
+      "advertiserName": "Ecovacs DE",
+      "feedId": "98163",
+      "feedName": "Ecovacs DE Product Feed",
+      "language": "German",
+      "rowsScanned": 14,
+      "signalRows": 0,
+      "counts": {
+        "sauna": 0,
+        "infrared": 0,
+        "outdoor": 0,
+        "accessory": 0
+      },
+      "sampleProductNames": [],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "43199",
+      "advertiserName": "Home Deluxe DE",
+      "feedId": "84368",
+      "feedName": "Default",
+      "language": "German",
+      "rowsScanned": 4359,
+      "signalRows": 130,
+      "counts": {
+        "sauna": 127,
+        "infrared": 86,
+        "outdoor": 16,
+        "accessory": 57
+      },
+      "sampleProductNames": [
+        "Dampfdusche mit Wasserfall und Dampfsauna BLACK PEARL - 100 x 100 cm",
+        "Dampfdusche mit Wasserfall und Dampfsauna BLACK PEARL  - 120 x 80 cm Rechts",
+        "Dampfdusche mit Wasserfall und Dampfsauna BLACK PEARL - 120 x 80 cm Links",
+        "Dampfdusche mit Wasserfall und Dampfsauna WHITE PEARL - 90 x 90 cm",
+        "Dampfdusche mit Wasserfall und Dampfsauna WHITE PEARL - 100 x 100 cm",
+        "Dampfdusche mit Wasserfall und Dampfsauna WHITE PEARL - 120 x 80 cm Links",
+        "Duschkabine mit Badewanne ALLIN 2IN1 - 170 x 90 Schwarz Links",
+        "Duschkabine mit Badewanne ALLIN 2IN1 - 170 x 90 Schwarz Rechts"
+      ],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "48707",
+      "advertiserName": "Woodstore24 DE/AT",
+      "feedId": "87312",
+      "feedName": "Idealo Daten Feed",
+      "language": "German",
+      "rowsScanned": 3295,
+      "signalRows": 27,
+      "counts": {
+        "sauna": 27,
+        "infrared": 0,
+        "outdoor": 0,
+        "accessory": 0
+      },
+      "sampleProductNames": [
+        "Fassadenverkleidung aus Fichte/ Tanne - Massivholz, 12,5 x 96 mm, Schrägprofil, A-Sortierung (PE = 10 Stk.) - Länge 4,20 m",
+        "Fassadenverkleidung aus Fichte/ Tanne - Massivholz, 12,5 x 96 mm, Schrägprofil, A-Sortierung (PE = 10 Stk.) - Länge: 4,50 m",
+        "Fassadenverkleidung aus Fichte/ Tanne - Massivholz, 12,5 x 96 mm, Schrägprofil, A-Sortierung (PE = 10 Stk.) - Länge: 4,80 m",
+        "Fassadenverkleidung aus Fichte/ Tanne - Massivholz, 19 x 96 mm, Schrägprofil (PE = 6 Stk.) - Länge: 4,20 m",
+        "Fassadenverkleidung aus Fichte/ Tanne - Massivholz, 19 x 96 mm, Schrägprofil (PE = 6 Stk.) - Länge: 4,50 m",
+        "Fassadenverkleidung aus Fichte/ Tanne - Massivholz, 19 x 96 mm, Schrägprofil (PE = 6 Stk.) - Länge: 4,80 m",
+        "Fassadenverkleidung aus Fichte/ Tanne - Massivholz, 19 x 96 mm, Schrägprofil, weiß grundiert (PE = 6 Stk.) - Länge: 4,20 m",
+        "Fassadenverkleidung aus Fichte/ Tanne - Massivholz, 19 x 96 mm, Schrägprofil, weiß grundiert (PE = 6 Stk.) - Länge: 4,50 m"
+      ],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "48707",
+      "advertiserName": "Woodstore24 DE/AT",
+      "feedId": "99428",
+      "feedName": "Produkte DE",
+      "language": "German",
+      "rowsScanned": 1386,
+      "signalRows": 0,
+      "counts": {
+        "sauna": 0,
+        "infrared": 0,
+        "outdoor": 0,
+        "accessory": 0
+      },
+      "sampleProductNames": [],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "48707",
+      "advertiserName": "Woodstore24 DE/AT",
+      "feedId": "115823",
+      "feedName": "Feed DE 2026",
+      "language": "German",
+      "rowsScanned": 2214,
+      "signalRows": 0,
+      "counts": {
+        "sauna": 0,
+        "infrared": 0,
+        "outdoor": 0,
+        "accessory": 0
+      },
+      "sampleProductNames": [],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "69012",
+      "advertiserName": "LaminatDEPOT DE",
+      "feedId": "115897",
+      "feedName": "Default",
+      "language": "German",
+      "rowsScanned": 412,
+      "signalRows": 0,
+      "counts": {
+        "sauna": 0,
+        "infrared": 0,
+        "outdoor": 0,
+        "accessory": 0
+      },
+      "sampleProductNames": [],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "106021",
+      "advertiserName": "Artsauna DE",
+      "feedId": "97646",
+      "feedName": "Default",
+      "language": "German",
+      "rowsScanned": 55,
+      "signalRows": 55,
+      "counts": {
+        "sauna": 55,
+        "infrared": 30,
+        "outdoor": 12,
+        "accessory": 20
+      },
+      "sampleProductNames": [
+        "Infrarotkabine Helsinki 150",
+        "Infrarotkabine Aalborg",
+        "Infrarotkabine Kolding",
+        "Infrarotkabine Esbjerg",
+        "Infrarotkabine Kiruna 90",
+        "Infrarotkabine Kiruna 160",
+        "Infrarotkabine Helsinki 150 - Schwarz",
+        "Infrarotkabine Kiruna 120"
+      ],
+      "status": "audited"
+    },
+    {
+      "advertiserId": "107808",
+      "advertiserName": "Korodrogerie DE",
+      "feedId": "116646",
+      "feedName": "Channable_DE",
+      "language": "German",
+      "rowsScanned": 788,
+      "signalRows": 0,
+      "counts": {
+        "sauna": 0,
+        "infrared": 0,
+        "outdoor": 0,
+        "accessory": 0
+      },
+      "sampleProductNames": [],
+      "status": "audited"
+    }
+  ]
+}
