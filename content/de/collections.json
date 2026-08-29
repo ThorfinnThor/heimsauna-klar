@@ -7,20 +7,21 @@
     "eyebrow": "Kleine Räume · Maße und Anschluss",
     "title": "Mini-Sauna für kleine Räume",
     "accent": "bis 3 m² Stellfläche.",
-    "description": "Verifizierte Mini-Saunen und kompakte Infrarotkabinen bis drei Quadratmeter Stellfläche – mit Maßen, Anschluss und Preisstand.",
-    "intro": "Hier erscheinen Innenkabinen mit höchstens 3,0 m² rechnerischer Stellfläche. Sortiert wird nach dem dokumentierten Flächenbedarf.",
+    "description": "Mini-Saunen und kompakte Infrarotkabinen bis drei Quadratmeter Stellfläche mit belegten Maßen, Anschlussdaten und Preisen.",
+    "intro": "Diese Auswahl endet bei 3,0 m² rechnerischer Produktfläche. Sie enthält klassische Innenkabinen und Infrarotkabinen, weil beide für kleine Räume gesucht werden. Wärmeart und technische Daten bleiben im Vergleich getrennt sichtbar.",
     "layout": "space",
     "related_ids": ["1-person-sauna", "2-personen-sauna", "sauna-bis-6-m2"],
-    "planning": {"kicker": "Raum vor Auswahl", "intro": "Kleine Maße helfen erst, wenn Raumhöhe, Tür, Montageweg und die Trocknung des Aufstellraums geklärt sind.", "guide_ids": ["sauna-bei-niedriger-deckenhoehe", "sauna-im-keller"]},
+    "planning": {"kicker": "Der Raum setzt die Grenze", "intro": "Raumhöhe, geöffnete Tür, Montageweg und Trocknung können ein kompaktes Modell trotz passender Stellfläche ausschließen.", "guide_ids": ["sauna-bei-niedriger-deckenhoehe", "sauna-im-keller"]},
     "editorial": {
       "kicker": "Raumlogik · vor dem Preis",
       "title": "Bei kleinen Kabinen zählt die gesamte Planungsfläche.",
       "paragraphs": [
-        "Bei kleinen Räumen entscheidet nicht nur die rechnerische Stellfläche. Tür, Montageweg, Deckenhöhe und die Abstände aus der Anleitung können aus einer scheinbar passenden Kabine ein unpraktisches Projekt machen.",
-        "Die Auswahl unten zeigt deshalb Maße und Anschluss gemeinsam. Eine Infrarotkabine bleibt als andere Wärmeart sichtbar; sie ist keine verkleinerte finnische Sauna."
+        "Eine Kabine mit 2,2 m² Produktfläche benötigt im Raum mehr als diese 2,2 m². Die Abstände aus der Montageanleitung, der Türschwenkbereich und ein nutzbarer Einstieg kommen hinzu. Bei niedriger Decke kann auch die Montage des Dachelements die Auswahl begrenzen.",
+        "Klassische Sauna und Infrarotkabine stehen hier nebeneinander, weil beide in kleinen Räumen angeboten werden. Das macht sie nicht technisch gleich. Strahler, Saunaofen, Temperaturprofil und Anschluss werden am einzelnen Datensatz ausgewiesen.",
+        "Für eine belastbare Vorauswahl kann die Produktkontur mit Klebeband auf dem Boden markiert werden. Wandabstände und die geöffnete Tür gehören in dieselbe Markierung. So fallen Konflikte mit Heizkörpern, Schränken oder Laufwegen auf, bevor ein Angebot bestellt wird."
       ],
       "pointsTitle": "Vor dem Öffnen eines Angebots",
-      "points": ["Raum an mehreren Stellen messen", "Montage- und Transportweg prüfen", "Wand-, Decken- und Lüftungsabstände dokumentieren"],
+      "points": ["Raum und Deckenhöhe an mehreren Stellen messen", "Produktkontur samt geöffneter Tür markieren", "Montage- und Transportweg mit Paketmaßen prüfen", "Wand-, Decken- und Lüftungsabstände aus der Anleitung ergänzen"],
       "callout": "Die reale Planungsfläche bestimmt, welche Kabinengröße infrage kommt."
     },
     "rule": "mini_indoor",
@@ -31,10 +32,23 @@
       "Verifizierter Datensatz mit Herstellerquelle"
     ],
     "checks": [
-      "Außenmaß ist nicht gleich benötigte Raumfläche: Montage- und Wandabstände zusätzlich prüfen.",
+      "Das Außenmaß entspricht nicht der benötigten Raumfläche. Montage- und Wandabstände kommen hinzu.",
       "Türöffnung, Raumhöhe und Transportweg vor dem Kauf ausmessen.",
-      "Der angegebene Stromanschluss muss zur örtlichen Installation und Herstelleranleitung passen."
-    ]
+      "Der angegebene Stromanschluss muss zur örtlichen Installation und Herstelleranleitung passen.",
+      "Bei Infrarot und klassischer Sauna die unterschiedliche Wärmeart bewusst auswählen."
+    ],
+    "module_copy": {
+      "method_kicker": "Grenze dieser Auswahl",
+      "method_title": "Berücksichtigt werden Innenmodelle bis 3,0 m² Produktfläche.",
+      "method_note": "Die dokumentierten Angebote wurden zuletzt geprüft am",
+      "results_kicker": "Kompakte Modelle nach Fläche",
+      "results_title": "{count} Kabinen erfüllen die Flächengrenze.",
+      "results_intro": "Im Datensatz stehen Außenmaß, Wärmeart, Anschluss, Preisquelle und bekannte Datenlücken. Die Reihenfolge folgt ausschließlich der Produktfläche.",
+      "checks_kicker": "Passt die Kabine wirklich in die Nische?",
+      "checks_title": "Vier Prüfungen schließen die häufigsten Raumkonflikte aus.",
+      "related_kicker": "Kleine Auswahl anders eingrenzen",
+      "related_title": "Personenzahl und größere Flächengrenzen im Vergleich."
+    }
   },
   {
     "id": "1-person-sauna",
@@ -53,11 +67,12 @@
       "kicker": "Allein nutzen · richtig einordnen",
       "title": "Bei Ein-Personen-Kabinen entscheiden Innenmaß und Sitzposition.",
       "paragraphs": [
-        "Eine Ein-Personen-Kapazität beschreibt die Herstellerangabe, nicht automatisch Sitzkomfort, Wärmeverteilung oder einen besonders kleinen Raum.",
-        "Die Tabelle trennt diese Fragen bewusst: Kapazität ist das Einschlusskriterium, Stellfläche die Sortierung und die Wärmeart bleibt am Datensatz sichtbar."
+        "Die Angabe für eine Person stammt vom Hersteller und dient hier als eindeutiges Einschlusskriterium. Sie verrät nicht, wie breit die Bank ist, wie viel Kopfraum bleibt oder ob die Sitzposition zu den Strahlern einer Infrarotkabine passt.",
+        "Wer allein sauniert, muss nicht automatisch das kleinste Außenmaß wählen. Etwas mehr Innenraum kann den Einstieg erleichtern oder eine angenehmere Sitzhaltung ermöglichen. Umgekehrt kann eine größere Glasfläche den Wärmebedarf beeinflussen.",
+        "Die Ergebnistabelle sortiert nach Stellfläche. Eine redaktionelle Komfortnote wäre ohne vollständige Innenmaße und eigene Nutzungserfahrung nicht belastbar und wird deshalb nicht vergeben."
       ],
       "pointsTitle": "Worauf die Zahl nicht antwortet",
-      "points": ["Sitzbreite und Innenhöhe", "Wärmeart und Aufheizverhalten", "Belüftung und Anschluss"],
+      "points": ["Bankbreite, Sitztiefe und Innenhöhe", "Türposition und bequemer Einstieg", "Wärmeart und Anordnung der Wärmequelle", "Belüftung und Anschluss"],
       "callout": "Für eine Person kann eine größere Kabine die bessere Alltagserfahrung sein."
     },
     "rule": "one_person_indoor",
@@ -70,8 +85,21 @@
     "checks": [
       "Sitzmaß und Innenraum lassen sich aus dem Außenmaß allein nicht sicher ableiten.",
       "Infrarotkabine und finnische Sauna erzeugen unterschiedliche Wärmeprofile.",
-      "Auch kompakte Modelle benötigen passende Belüftung und einen freigegebenen Anschluss."
-    ]
+      "Auch kompakte Modelle benötigen passende Belüftung und einen freigegebenen Anschluss.",
+      "Die Herstellerkapazität darf nicht als Ergebnis eines Komforttests gelesen werden."
+    ],
+    "module_copy": {
+      "method_kicker": "Kapazitätsfilter",
+      "method_title": "Nur Modelle mit ausgewiesener Maximalkapazität von einer Person erscheinen hier.",
+      "method_note": "Der jüngste Preisstand in dieser Auswahl stammt vom",
+      "results_kicker": "Einzelkabinen im Katalog",
+      "results_title": "{count} Modelle sind für eine Person ausgewiesen.",
+      "results_intro": "Stellfläche ordnet die Liste. Innenmaß, Wärmeart und Anschluss müssen im jeweiligen Produktdatensatz geprüft werden.",
+      "checks_kicker": "Komfort lässt sich nicht aus der Personenzahl ablesen",
+      "checks_title": "Diese vier Angaben machen eine Einzelkabine beurteilbar.",
+      "related_kicker": "Mehr Platz oder anderes Wärmeprinzip",
+      "related_title": "Mini-Saunen, Zweierkabinen und Infrarot separat ansehen."
+    }
   },
   {
     "id": "kleine-gartensauna",
@@ -85,16 +113,17 @@
     "intro": "Diese Vorauswahl enthält Outdoor-Modelle mit höchstens 5,0 m² rechnerischer Stellfläche. Fundament, Dachüberstand und vorgeschriebene Abstände sind darin noch nicht enthalten.",
     "layout": "outdoor",
     "related_ids": ["fasssauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
-    "planning": {"kicker": "Standort vor Produkt", "intro": "Außenmaß ist nur der Anfang: Fundament, Entwässerung und Grenzabstände entscheiden mit.", "guide_ids": ["boden-und-fundament", "sauna-kosten"]},
+    "planning": {"kicker": "Die freie Gartenfläche reicht als Maß nicht aus", "intro": "Fundament, Dachüberstand, Entwässerung, Wartungszugang und örtliche Abstände vergrößern die beanspruchte Zone.", "guide_ids": ["boden-und-fundament", "sauna-kosten"]},
     "editorial": {
       "kicker": "Standort und Produkt zusammen betrachten",
       "title": "Im Garten zählt die Fläche außerhalb der Kabine.",
       "paragraphs": [
-        "Die 5-m²-Grenze beschreibt nur Breite × Tiefe des Produkts. Fundament, Dachüberstand, Zugang, Grenzabstände und Arbeitsraum gehören zur tatsächlichen Standortentscheidung.",
-        "Darum ist diese Seite eine Standort-Vorauswahl und kein Versprechen, dass jedes Modell auf jedes Grundstück passt."
+        "Die Grenze von 5,0 m² entsteht aus Breite mal Tiefe des Produkts. Ein Dachüberstand, die Fundamentkante und die Fläche vor der Tür sind darin nicht enthalten. Auch seitlicher Zugang für Montage, Pflege und spätere Reparaturen kann zusätzlichen Raum verlangen.",
+        "Auf einem kleinen Grundstück wird die Leitungsführung schnell relevant. Strom oder ein Schornsteinweg, Entwässerung und der Zugang für Bauteile müssen erreichbar bleiben, ohne vorhandene Wege oder Bepflanzung dauerhaft zu blockieren.",
+        "Diese Seite zeigt passende Produktdatensätze. Ob ein Modell gebaut werden darf und wie sein Fundament auszuführen ist, hängt von Produkt, Boden, Grundstück und örtlichen Vorgaben ab."
       ],
       "pointsTitle": "Reihenfolge für die Planung",
-      "points": ["Grundstück und Abstände klären", "Fundament und Entwässerung planen", "Ofen, Zuleitung und Wetterschutz abstimmen"],
+      "points": ["Gesamtzone mit Dach, Tür und Wartungszugang zeichnen", "Fundament und Höhenlage an das Gelände anpassen", "Entwässerung und Spritzwasserschutz lösen", "Ofen, Zuleitung oder Schornsteinweg abstimmen"],
       "callout": "Fundament und Zuleitung müssen zum ausgewählten Modell passen."
     },
     "rule": "small_garden",
@@ -107,8 +136,21 @@
     "checks": [
       "Benötigte Gesamtfläche kann durch Dachüberstand, Fundament und Abstände größer ausfallen.",
       "Örtliche Bauvorgaben und Grundstücksabstände vor Bestellung klären.",
-      "Ofen, Zuleitung, Wetterschutz und Entwässerung gehören in die Gesamtplanung."
-    ]
+      "Ofen, Zuleitung, Wetterschutz und Entwässerung gehören in die Gesamtplanung.",
+      "Anlieferung langer Bauteile über Tor, Weg und Kurven prüfen."
+    ],
+    "module_copy": {
+      "method_kicker": "Was hier als klein gilt",
+      "method_title": "Der Filter endet bei 5,0 m² rechnerischer Produktfläche.",
+      "method_note": "Der aktuelle Angebotsstand der passenden Gartensaunen wurde geprüft am",
+      "results_kicker": "Außenmodelle unter der Flächengrenze",
+      "results_title": "{count} Gartensaunen bleiben unter 5,0 m².",
+      "results_intro": "Die Liste ordnet nach Produktfläche. Fundament, Dach und Standortabstände sind nicht eingerechnet und müssen am ausgewählten Modell ergänzt werden.",
+      "checks_kicker": "Vom Produktmaß zur bebauten Zone",
+      "checks_title": "Vier Standortfragen gehören vor die Bestellung.",
+      "related_kicker": "Andere Bauformen und Budgets",
+      "related_title": "Fasssauna, 6-m²-Auswahl und Preisrahmen weiter vergleichen."
+    }
   },
   {
     "id": "sauna-bis-2500-euro",
@@ -118,20 +160,21 @@
     "eyebrow": "Budgetrahmen · aktueller Angebotsstand",
     "title": "Sauna bis 2.500 Euro",
     "accent": "nach dokumentiertem Preis.",
-    "description": "Verifizierte Sauna-Angebote bis 2.500 Euro – transparent nach Preis sortiert und mit Prüfdatum, Maßen und Anschlussdaten.",
+    "description": "Sauna-Angebote bis 2.500 Euro nach dokumentiertem Preis sortiert und mit Prüfdatum, Maßen sowie Anschlussdaten eingeordnet.",
     "intro": "Die Grenze bezieht sich auf den zuletzt dokumentierten Produktpreis. Aufbau, Lieferung, Elektroarbeiten, Fundament und Zubehör können zusätzliche Kosten verursachen.",
     "layout": "budget",
     "related_ids": ["sauna-bis-4000-euro", "mini-sauna", "1-person-sauna"],
     "planning": {"kicker": "Preis richtig lesen", "intro": "Der dokumentierte Produktpreis ist eine Startzahl; Lieferung, Anschluss und Betrieb gehören in die Rechnung.", "guide_ids": ["sauna-kosten", "stromverbrauch-heimsauna"]},
     "editorial": {
       "kicker": "Budget · vollständige Projektkosten",
-      "title": "2.500 Euro kaufen ein Produkt — noch kein Saunaprojekt.",
+      "title": "Bis 2.500 Euro unterscheiden sich vor allem Vollständigkeit und Technik des Angebots.",
       "paragraphs": [
-        "Die Grenze bezieht sich auf ein dokumentiertes Angebot. Lieferung, Aufbau, Anschluss, Fundament und Zubehör können den Endbetrag deutlich verändern.",
-        "Wir sortieren nach Preis, weil das hier die gestellte Frage ist. Daraus folgt keine Aussage über Qualität, Komfort oder die günstigste Lösung im Betrieb."
+        "Die Preisgrenze bezieht sich auf mindestens ein dokumentiertes Angebot des Datensatzes. Sie sagt nicht, dass Ofen, Steuerung, Lieferung oder Montage enthalten sind. Bei Varianten kann der sichtbare Einstiegspreis außerdem zu einer anderen Ausstattung gehören als die gewünschte Konfiguration.",
+        "Ein vollständiger Vergleich braucht für jedes Modell dieselben Kostenpositionen. Fehlt der Preis für Elektroarbeiten, Fundament oder Zubehör, bleibt diese Position offen. Sie darf nicht mit null Euro in die Rechnung eingehen.",
+        "Die Sortierung nach Angebotspreis beantwortet ausschließlich die Budgetfrage. Verarbeitung, Sitzkomfort und laufende Kosten werden daraus nicht abgeleitet."
       ],
       "pointsTitle": "Kostenblöcke, die du separat prüfen musst",
-      "points": ["Lieferung und Entladung", "Montage, Fundament und Anpassungen", "Elektroarbeiten, Ofen und Zubehör"],
+      "points": ["Lieferung bis zum Standort und Entladung", "Montage, Boden oder Fundament", "Elektroarbeiten und Leitungsweg", "Ofen, Steuerung, Steine und weiteres Zubehör"],
       "callout": "Der Produktpreis ist eine belastbare Startzahl, aber kein Gesamtbudget."
     },
     "rule": "price_under_2500",
@@ -144,8 +187,21 @@
     "checks": [
       "Lieferung, Montage, Anschluss und notwendiges Zubehör separat kalkulieren.",
       "Ein niedriger Produktpreis sagt nichts über Verarbeitung oder reale Betriebskosten aus.",
-      "Preise sind Momentaufnahmen und werden beim Anbieter vor dem Kauf erneut geprüft."
-    ]
+      "Preise sind Momentaufnahmen und müssen beim Anbieter vor dem Kauf erneut geprüft werden.",
+      "Grundmodell und gewünschte Variante anhand der Artikelnummer abgleichen."
+    ],
+    "module_copy": {
+      "method_kicker": "Preisfilter ohne Rangliste",
+      "method_title": "Ein dokumentiertes Angebot bis 2.500 Euro reicht für die Aufnahme.",
+      "method_note": "Die jüngste Angebotsprüfung innerhalb dieser Budgetauswahl erfolgte am",
+      "results_kicker": "Produkte im engen Budgetrahmen",
+      "results_title": "{count} Datensätze enthalten ein Angebot bis 2.500 Euro.",
+      "results_intro": "Die günstigste dokumentierte Variante bestimmt die Reihenfolge. Lieferumfang, Technik und zusätzliche Projektkosten stehen im Produktdatensatz oder bleiben als offene Prüfung sichtbar.",
+      "checks_kicker": "Was im Preis fehlen kann",
+      "checks_title": "Vier Positionen verhindern einen unvollständigen Budgetvergleich.",
+      "related_kicker": "Budget erweitern oder Größe begrenzen",
+      "related_title": "4.000-Euro-Auswahl und kompakte Modelle danebenstellen."
+    }
   },
   {
     "id": "2-personen-sauna",
@@ -164,11 +220,12 @@
       "kicker": "Zwei Personen · Platz im Alltag",
       "title": "Kapazität, Sitzmaß und Zugang gemeinsam prüfen.",
       "paragraphs": [
-        "Zwei Personen können auf dem Datenblatt passen und im Alltag trotzdem unterschiedliche Anforderungen an Bankbreite, Zugang und Wärmegefühl haben.",
-        "Die Liste hält diese Unsicherheit offen: Sie zeigt die dokumentierte Kapazität, die Fläche und den Anschluss, ohne aus Außenmaßen einen Komfortwert zu erfinden."
+        "Zwei ausgewiesene Plätze können als schmale Bank nebeneinander, als Ecklösung oder in einer Infrarotkabine vor verschiedenen Strahlern angeordnet sein. Die Personenzahl allein beschreibt keine dieser Varianten.",
+        "Wer regelmäßig zu zweit sauniert, sollte Innenbreite, Sitztiefe und Türposition aus der Zeichnung des Herstellers prüfen. Eine Probeaufteilung im Raum hilft bei der Außenplanung, ersetzt aber keine fehlenden Innenmaße.",
+        "Kapazität bestimmt die Aufnahme in diese Liste. Sortiert wird nach Stellfläche. Eine Aussage über Komfort oder Wärmeverteilung entsteht daraus nicht."
       ],
       "pointsTitle": "Gemeinsam prüfen",
-      "points": ["Sitzanordnung und Innenhöhe", "Türöffnung und Zugang", "Leistung, Lüftung und Anschluss"],
+      "points": ["Banklänge und Sitztiefe für zwei Personen", "Innenhöhe und Türposition", "Ofen oder Strahleranordnung", "Leistung, Lüftung und Anschluss"],
       "callout": "Für zwei Personen sind Bankbreite, Zugang und Innenhöhe entscheidend."
     },
     "rule": "two_person_indoor",
@@ -181,8 +238,21 @@
     "checks": [
       "Sitzbankbreite und Innenhöhe können trotz ähnlicher Außenmaße stark variieren.",
       "Für zwei Nutzer müssen Zugang, Belüftung und Wärmeleistung gemeinsam passen.",
-      "Anschluss und Absicherung vor der Bestellung mit Anleitung und Fachbetrieb abgleichen."
-    ]
+      "Anschluss und Absicherung vor der Bestellung mit Anleitung und Fachbetrieb abgleichen.",
+      "Bei regelmäßiger Nutzung zu zweit die Innenzeichnung stärker gewichten als das Außenmaß."
+    ],
+    "module_copy": {
+      "method_kicker": "Zwei Personen als Herstellerangabe",
+      "method_title": "Die Auswahl umfasst Indoor-Modelle mit Maximalkapazität zwei.",
+      "method_note": "Die Preise dieser Zweierkabinen reichen bis zu einem Prüfstand vom",
+      "results_kicker": "Flächenvergleich für zwei Plätze",
+      "results_title": "{count} Innenmodelle sind für zwei Personen ausgewiesen.",
+      "results_intro": "Außenfläche schafft eine erste Ordnung. Innenmaße und Sitzanordnung müssen in der Anleitung des einzelnen Modells gelesen werden.",
+      "checks_kicker": "Zu zweit im tatsächlichen Innenraum",
+      "checks_title": "Vier Maße und Technikangaben sind aussagekräftiger als die Kapazitätszahl.",
+      "related_kicker": "Kapazität nach oben oder unten verschieben",
+      "related_title": "Einzelkabinen, Dreiermodelle und Mini-Saunen vergleichen."
+    }
   },
   {
     "id": "infrarotkabine",
@@ -196,16 +266,17 @@
     "intro": "Diese Seite enthält ausschließlich Datensätze mit dem Katalogtyp Infrarotkabine. Infrarotkabinen sind nicht automatisch mit einer finnischen Sauna gleichzusetzen.",
     "layout": "heat",
     "related_ids": ["1-person-sauna", "bio-sauna", "sauna-bis-2500-euro"],
-    "planning": {"kicker": "Wärmeart zuerst", "intro": "Infrarot ist kein kleiner Ofen: Wärmeprofil, Regelung und Raumanschluss sollten separat geprüft werden.", "guide_ids": ["sauna-fuer-die-wohnung", "stromverbrauch-heimsauna"]},
+    "planning": {"kicker": "Strahler statt Saunaofen", "intro": "Wärmeprofil, Strahleranordnung, Regelung und Anschluss gehören zur Beurteilung einer Infrarotkabine.", "guide_ids": ["sauna-fuer-die-wohnung", "stromverbrauch-heimsauna"]},
     "editorial": {
       "kicker": "Wärmeprofil · Strahler · Regelung",
       "title": "Infrarot ist eine eigene Nutzungsidee.",
       "paragraphs": [
-        "Die Katalogbezeichnung Infrarotkabine sagt mehr über das Wärmeprinzip als über einen Qualitätsrang. Strahler, Regelung, Temperaturbereich und Nutzung unterscheiden sich je Modell.",
-        "Darum ist die Tabelle als technische Orientierung gedacht. Wer eine klassische Sauna mit Ofen sucht, sollte diese Liste nicht wegen kleiner Maße als Ersatz lesen."
+        "Eine Infrarotkabine erwärmt über Strahler und wird nicht über einen klassischen Saunaofen definiert. Wo die Strahler sitzen, welche Körperbereiche sie erreichen und wie die Steuerung arbeitet, kann sich zwischen äußerlich ähnlichen Kabinen unterscheiden.",
+        "Die kompakte Bauform und ein dokumentierter 230-V-Anschluss machen ein Modell nicht automatisch für jeden Raum geeignet. Türbereich, Lüftung, Herstellerabstände und der vorgesehene Stromkreis bleiben Teil der Planung.",
+        "Temperaturangaben und medizinische Wirkversprechen sind kein Ersatz für technische Unterlagen. Diese Auswahl beschränkt sich auf belegte Produktdaten. Bei gesundheitlichen Fragen ist medizinischer Rat außerhalb des Produktvergleichs erforderlich."
       ],
       "pointsTitle": "Vor dem Vergleich klären",
-      "points": ["Strahler und Steuerung", "Temperatur- und Nutzungsprofil", "Raum, Lüftung und 230-V-Anschluss"],
+      "points": ["Strahlerart, Position und abgedeckte Körperzonen", "Sitzabstand und Innengeometrie", "Steuerung und dokumentierter Temperaturbereich", "Raum, Lüftung und elektrischer Anschluss"],
       "callout": "Bei kompakten Infrarotkabinen bestimmen Strahlerposition und Sitzabstand das Wärmegefühl."
     },
     "rule": "infrared",
@@ -218,8 +289,21 @@
     "checks": [
       "Wärmeart, Strahlerposition und Regelung sind modellabhängig.",
       "Maximaltemperatur und Nutzungskonzept unterscheiden sich von klassischen Saunaöfen.",
-      "Raumhöhe, Belüftung und elektrischer Anschluss trotzdem vor Ort prüfen."
-    ]
+      "Raumhöhe, Belüftung und elektrischer Anschluss müssen vor Ort geprüft werden.",
+      "Gesundheitsversprechen nicht als technischen Produktbeleg werten."
+    ],
+    "module_copy": {
+      "method_kicker": "Eindeutige Wärmeart",
+      "method_title": "Nur als Infrarotkabine belegte Datensätze werden aufgenommen.",
+      "method_note": "Der neueste dokumentierte Preis in dieser Kategorie wurde geprüft am",
+      "results_kicker": "Strahlerkabinen nach Stellfläche",
+      "results_title": "{count} Infrarotkabinen sind im Katalog verifiziert.",
+      "results_intro": "Die Produktseiten zeigen Anschluss, Kapazität, Außenmaß und verfügbare Technikangaben. Fehlende Details zur Strahleranordnung bleiben als Datenlücke erkennbar.",
+      "checks_kicker": "Wärmequelle im Sitzraum",
+      "checks_title": "Vier technische Fragen unterscheiden ähnliche Kabinen.",
+      "related_kicker": "Andere Wärmearten",
+      "related_title": "Einzelkabine, Bio-Sauna und klassisches Budgetmodell abgleichen."
+    }
   },
   {
     "id": "bio-sauna",
@@ -238,11 +322,12 @@
       "kicker": "Bio · Technik und Betriebsart",
       "title": "Feuchteoptionen verändern die Planung.",
       "paragraphs": [
-        "Bei einer Bio-Sauna müssen Verdampfer, Steuerung, zulässige Feuchte und Pflegeanforderungen gemeinsam zum Raum passen.",
-        "Die Auswahl zeigt verifizierte Typangaben. Das Wärmegefühl lässt sich aus Herstellerdaten allein nicht beurteilen."
+        "Der Begriff Bio-Sauna beschreibt im Markt kein überall identisches Ausstattungspaket. Entscheidend ist, welche Betriebsarten Ofen und Steuerung des konkreten Modells freigeben und ob ein Verdampfer tatsächlich Bestandteil des Systems ist.",
+        "Feuchtebetrieb betrifft mehr als die Temperatureinstellung. Luftführung, Trocknung, Materialpflege und der geeignete Aufstellraum müssen zu den Herstellerangaben passen. Ein Modellname allein belegt diese Voraussetzungen nicht.",
+        "Der Vergleich zeigt belegte Typ- und Technikangaben. Das persönliche Wärmeempfinden oder die Wirkung einer bestimmten Betriebsart wird nicht aus Produktdaten abgeleitet."
       ],
       "pointsTitle": "Technikfragen vor dem Kauf",
-      "points": ["Ofen und Verdampfer als Einheit", "Steuerung und Betriebsprofile", "Lüftung, Trocknung und Pflege"],
+      "points": ["Ofen, Verdampfer und Wasserbehälter", "Steuerung und freigegebene Betriebsprofile", "Materialvorgaben für Feuchtebetrieb", "Lüftung, Trocknung und Pflege"],
       "callout": "Prüfe, welches Betriebsprofil der Raum dauerhaft tragen kann."
     },
     "rule": "bio_sauna",
@@ -255,8 +340,21 @@
     "checks": [
       "Ofen, Verdampfer und Steuerung müssen als zusammengehöriges System geprüft werden.",
       "Feuchtebetrieb stellt andere Anforderungen an Raum, Lüftung und Pflege.",
-      "Herstellerangaben und örtliche Anschlussbedingungen haben Vorrang."
-    ]
+      "Herstellerangaben und örtliche Anschlussbedingungen haben Vorrang.",
+      "Die Bezeichnung Bio-Sauna nicht als vollständige technische Spezifikation lesen."
+    ],
+    "module_copy": {
+      "method_kicker": "Typangabe mit Quellenbeleg",
+      "method_title": "Aufgenommen werden Produkte, deren Quelle sie als Bio-Sauna ausweist.",
+      "method_note": "Die Angebotsdaten dieser Typauswahl reichen bis zum Prüfdatum",
+      "results_kicker": "Modelle mit Bio-Betrieb",
+      "results_title": "{count} Datensätze tragen eine belegte Bio-Sauna-Zuordnung.",
+      "results_intro": "Aufstellort, Leistung und Preis bleiben sichtbar. Betriebsarten und Verdampfertechnik müssen in der Produktunterlage des jeweiligen Modells bestätigt werden.",
+      "checks_kicker": "Feuchtebetrieb technisch belegen",
+      "checks_title": "Vier Unterlagen zeigen, was die Bezeichnung tatsächlich umfasst.",
+      "related_kicker": "Wärmeprofile gegenüberstellen",
+      "related_title": "Finnische Sauna und Infrarotkabine getrennt vergleichen."
+    }
   },
   {
     "id": "fasssauna",
@@ -275,11 +373,12 @@
       "kicker": "Bauform · Standort · Betrieb",
       "title": "Fundament, Zugang und Wetterschutz bestimmen das Projekt.",
       "paragraphs": [
-        "Fasssaunen und Quadro-Varianten werden oft über die Optik verglichen. Für die Planung sind Fundament, Zugang, Vorraum, Schornstein oder Zuleitung und Wetterschutz mindestens genauso wichtig.",
-        "Die Tabelle hält die Modelle als einzelne Datensätze sichtbar, damit Bauform und technische Angaben nicht zu einer pauschalen Empfehlung verschmelzen."
+        "Bei einer runden Fasssauna entspricht die größte Außenbreite nicht der nutzbaren Breite an jeder Stelle. Bankhöhe, Wandkrümmung und Durchmesser bestimmen, wie viel Schulter- und Kopfraum tatsächlich vorhanden ist. Quadro-Varianten nutzen den Querschnitt anders und bleiben deshalb als eigene Bauform sichtbar.",
+        "Unter dem Fass tragen Auflager oder Bodenbalken die Konstruktion. Deren Position muss zum Fundamentplan des Modells passen. Dachabdeckung, Spannbänder, Stirnseiten und der Übergang zum Sockel bleiben der Witterung ausgesetzt und benötigen den vorgesehenen Pflegezugang.",
+        "Ein Vorraum oder eine Terrasse verlängert das Produkt und verändert Weg, Dachfläche und Kosten. Für einen Holzofen kommen die dokumentierten Anforderungen des Ofens und des Abgaswegs hinzu. Bei einem Elektroofen sind Zuleitung und Anschluss zu planen."
       ],
       "pointsTitle": "Vor dem Modellvergleich",
-      "points": ["Stellfläche inklusive Zugang und Dach", "Fundament und Verankerung", "Ofen, Schornstein oder Strom"],
+      "points": ["Nutzbare Innenbreite an Bank- und Kopfhöhe", "Gesamtlänge mit Vorraum oder Terrasse", "Fundament, Auflager und Verankerung", "Ofen, Abgasweg oder elektrische Zuleitung", "Dachschutz und Wartungszugang"],
       "callout": "Bei Outdoor-Saunen beginnt der Vergleich auf dem Grundstück."
     },
     "rule": "barrel_sauna",
@@ -292,8 +391,21 @@
     "checks": [
       "Runde und eckige Quadro-Bauformen benötigen unterschiedliche Fundamente und Stellflächen.",
       "Dachüberstand, Vorraum, Grenzabstände und Genehmigung separat einplanen.",
-      "Ofen, Zuleitung, Schornstein und Wetterschutz verändern die Gesamtkosten."
-    ]
+      "Ofen, Zuleitung, Schornstein und Wetterschutz verändern die Gesamtkosten.",
+      "Spannbänder und äußere Holzflächen für spätere Pflege erreichbar halten."
+    ],
+    "module_copy": {
+      "method_kicker": "Bauform eindeutig benannt",
+      "method_title": "Die offizielle Modellbezeichnung muss Fasssauna enthalten.",
+      "method_note": "Der jüngste Angebotsstand der Fasssaunen wurde kontrolliert am",
+      "results_kicker": "Runde und Quadro-Modelle",
+      "results_title": "{count} Fasssaunen erfüllen die dokumentierte Bauformregel.",
+      "results_intro": "Stellfläche schafft eine Ordnung, bildet aber weder Innenkrümmung noch Terrasse, Dach und Fundament ab. Diese Angaben werden am Modell ergänzt.",
+      "checks_kicker": "Rundbau im Garten",
+      "checks_title": "Fünf Details bestimmen Nutzraum und dauerhafte Außenaufstellung.",
+      "related_kicker": "Outdoor-Auswahl verbreitern",
+      "related_title": "Kleine Gartensaunen, 6-m²-Modelle und Budgetgrenzen ansehen."
+    }
   },
   {
     "id": "sauna-bis-4000-euro",
@@ -303,7 +415,7 @@
     "eyebrow": "Budgetrahmen · breitere Vorauswahl",
     "title": "Sauna bis 4.000 Euro",
     "accent": "nach dokumentiertem Preis.",
-    "description": "Verifizierte Sauna-Angebote bis 4.000 Euro – mit Maßen, Kapazität, Anschlussdaten und transparentem Prüfdatum.",
+    "description": "Sauna-Angebote bis 4.000 Euro mit dokumentiertem Preis, Maßen, Kapazität, Anschlussdaten und Prüfdatum vergleichen.",
     "intro": "Die Preisgrenze bezieht sich auf mindestens ein dokumentiertes Angebot je Datensatz. Lieferung, Montage, Fundament, Elektroarbeiten und Zubehör sind nicht automatisch enthalten.",
     "layout": "budget",
     "related_ids": ["sauna-bis-2500-euro", "finnische-sauna", "4-personen-sauna"],
@@ -312,12 +424,13 @@
       "kicker": "Budget · mehr Auswahl, mehr Variablen",
       "title": "Bis 4.000 Euro treffen verschiedene Bauformen und Lieferumfänge aufeinander.",
       "paragraphs": [
-        "Mit einem größeren Preisrahmen kommen unterschiedliche Bauformen, Kapazitäten und Angebotsbedingungen zusammen. Ein Preisfilter macht diese Modelle auffindbar, ersetzt aber keine technische Einordnung.",
-        "Achte auf Konfigurationen, Lieferumfang und Preisstand. Ein dokumentiertes Angebot bleibt eine Momentaufnahme und kann sich beim Händler ändern."
+        "Unterhalb von 4.000 Euro finden sich kompakte Innenkabinen, Infrarotmodelle und je nach Angebot auch größere Bausätze. Diese Produkte verfolgen unterschiedliche Nutzungsideen und lassen sich über den Preis allein nicht sinnvoll gegeneinander bewerten.",
+        "Ofen, Steuerung, Dachpaket, Lieferung oder Montage können enthalten, optional oder ausgeschlossen sein. Eine identische Kostenliste pro Modell macht diese Unterschiede sichtbar. Der günstigere Produktpreis muss dadurch nicht zum niedrigeren Projektbudget führen.",
+        "Jedes Angebot ist mit einem Prüfdatum verbunden. Varianten, Rabatte und Verfügbarkeit werden vor einer Bestellung beim Anbieter kontrolliert."
       ],
       "pointsTitle": "Preis richtig lesen",
-      "points": ["Konfiguration und Lieferumfang", "Lieferung, Aufbau und Anschluss", "Preisdatum und Verfügbarkeit"],
-      "callout": "Mehr Budget kann mehr Optionen bedeuten, aber auch mehr Vergleichsarbeit."
+      "points": ["Artikelnummer, Konfiguration und Lieferumfang", "Lieferung, Entladung und Aufbau", "Anschluss, Ofen und Steuerung", "Preisdatum, Rabatt und Verfügbarkeit"],
+      "callout": "Mehr Modelle im Budget machen einen einheitlichen Vergleich des Lieferumfangs notwendig."
     },
     "rule": "price_under_4000",
     "sort": "price",
@@ -329,8 +442,21 @@
     "checks": [
       "Verfügbarkeit und Lieferkosten können sich kurzfristig ändern.",
       "Ein Produktpreis ist nicht das vollständige Projektbudget.",
-      "Vor dem Kauf Anschluss, Aufbauumfang und Rückgabebedingungen prüfen."
-    ]
+      "Vor dem Kauf Anschluss, Aufbauumfang und Rückgabebedingungen prüfen.",
+      "Rabattierte Varianten anhand der Artikelnummer mit dem Datensatz abgleichen."
+    ],
+    "module_copy": {
+      "method_kicker": "Breiter Preisrahmen",
+      "method_title": "Mindestens ein belegtes Angebot bis 4.000 Euro ist erforderlich.",
+      "method_note": "Die jüngste Preisprüfung in dieser Auswahl erfolgte am",
+      "results_kicker": "Bauformen innerhalb des Budgets",
+      "results_title": "{count} Produkte liegen mit einem Angebot bei höchstens 4.000 Euro.",
+      "results_intro": "Die Preisreihenfolge ist keine Qualitätswertung. Produktseite und Anbieter zeigen, welche Variante und welcher Lieferumfang zum dokumentierten Betrag gehören.",
+      "checks_kicker": "Pakete vergleichbar machen",
+      "checks_title": "Vier Kontrollen trennen einen günstigen Preis von einem vollständigen Angebot.",
+      "related_kicker": "Engeres Budget oder anderer Produkttyp",
+      "related_title": "2.500-Euro-Auswahl, finnische Sauna und Vierergröße danebenstellen."
+    }
   },
   {
     "id": "4-personen-sauna",
@@ -349,12 +475,13 @@
       "kicker": "Kapazität · Raumgefühl · Betrieb",
       "title": "Vier Personen brauchen mehr als vier Plätze.",
       "paragraphs": [
-        "Die Herstellerkapazität ist ein klarer Filter, aber kein Maß für Sitzkomfort, Aufheizverhalten oder Luftführung. Bei vier Nutzern werden Zugang, Bankanordnung, Leistung und Raumvolumen besonders relevant.",
-        "Diese Auswahl sortiert nach Stellfläche und hält Indoor/Outdoor sichtbar. Die eigentliche Entscheidung entsteht erst aus Grundriss, Nutzung und Anschluss."
+        "Vier Personen benötigen nicht nur vier markierte Sitzplätze. Die Bankanordnung muss Einstieg und Bewegung zulassen, während Innenvolumen, Ofenleistung und Luftführung zur gleichzeitigen Nutzung passen müssen.",
+        "Für gelegentliche Runden mit vier Personen kann ein anderes Raumkonzept sinnvoll sein als für die regelmäßige Familiennutzung. Der Grundriss sollte deshalb die übliche Belegung abbilden und nicht allein die maximal mögliche Zahl.",
+        "Innen- und Outdoor-Modelle bleiben in dieser Auswahl sichtbar, werden aber nicht als gleichwertige Projekte behandelt. Fundament und Wetterschutz betreffen nur die Außenaufstellung, während im Innenraum Transportweg und Gebäudelüftung stärker ins Gewicht fallen."
       ],
       "pointsTitle": "Die Kapazitätszahl einordnen",
-      "points": ["Sitzplan und nutzbare Innenfläche", "Leistung, Volumen und Wärmeverteilung", "Lüftung, Zugang und Montage"],
-      "callout": "Vier Personen auf dem Etikett sind ein Prüfpunkt — keine Komfortgarantie."
+      "points": ["Bankplan für die regelmäßige Belegung", "Nutzbare Innenfläche und Türbereich", "Ofenleistung und wirksames Volumen", "Lüftung, Zugang und Montage"],
+      "callout": "Die ausgewiesene Kapazität ist keine Bewertung des Sitzkomforts."
     },
     "rule": "four_person",
     "sort": "footprint",
@@ -366,8 +493,21 @@
     "checks": [
       "Sitzanordnung und nutzbare Innenfläche vor dem Kauf im Grundriss prüfen.",
       "Mehr Personen können höhere Anforderungen an Leistung und Belüftung bedeuten.",
-      "Elektroanschluss, Fundament und Montageumfang separat kalkulieren."
-    ]
+      "Elektroanschluss, Fundament und Montageumfang separat kalkulieren.",
+      "Regelmäßige und maximale Belegung bei der Planung unterscheiden."
+    ],
+    "module_copy": {
+      "method_kicker": "Maximalkapazität vier",
+      "method_title": "Die Personenzahl muss im verifizierten Datensatz ausgewiesen sein.",
+      "method_note": "Der aktuelle Angebotsstand dieser Vierergrößen reicht bis zum",
+      "results_kicker": "Vierergröße nach Produktfläche",
+      "results_title": "{count} Modelle sind für bis zu vier Personen dokumentiert.",
+      "results_intro": "Die Liste mischt keine Komfortwertung in die Flächensortierung. Aufstellort, Innengeometrie und Technik werden im Datensatz getrennt geprüft.",
+      "checks_kicker": "Regelmäßige Belegung statt Maximalzahl",
+      "checks_title": "Vier Planungsfragen zeigen, ob die Größe im Alltag sinnvoll ist.",
+      "related_kicker": "Kapazität und Budget variieren",
+      "related_title": "Dreiermodelle, 6-m²-Auswahl und Angebote bis 4.000 Euro."
+    }
   },
   {
     "id": "3-personen-sauna",
@@ -377,7 +517,7 @@
     "eyebrow": "Drei Personen · Raum und Nutzung",
     "title": "3-Personen-Sauna für zu Hause",
     "accent": "zwischen kompakt und gemeinsam.",
-    "description": "Verifizierte Innenmodelle mit ausgewiesener Kapazität für drei Personen – mit Stellfläche, Wärmeart, Anschluss und Preisstand.",
+    "description": "Verifizierte Innenmodelle für drei Personen mit Stellfläche, Wärmeart, Anschluss und dokumentiertem Preis vergleichen.",
     "intro": "Diese Auswahl filtert Modelle für die Innenaufstellung, deren veröffentlichte Maximalkapazität drei Personen beträgt. Sortiert wird nach rechnerischer Stellfläche, nicht nach Komfort oder redaktionellem Score.",
     "layout": "capacity",
     "related_ids": ["2-personen-sauna", "4-personen-sauna", "mini-sauna"],
@@ -386,11 +526,12 @@
       "kicker": "Drei Personen · Alltag planen",
       "title": "Drei Plätze müssen im Raum funktionieren.",
       "paragraphs": [
-        "Die Kapazitätsangabe stammt aus dem jeweiligen Datensatz. Sie beantwortet, wie viele Personen vorgesehen sind, aber nicht, wie bequem der Zugang ist oder wie sich die Wärme im Innenraum verteilt.",
-        "Die Tabelle verbindet deshalb Kapazität, Stellfläche und Wärmeart. So bleibt sichtbar, wie unterschiedlich groß Innenmodelle trotz gleicher ausgewiesener Personenzahl ausfallen."
+        "Drei Personen können auf einer durchgehenden Bank, über Eck oder auf mehreren Ebenen vorgesehen sein. Diese Geometrie entscheidet, ob drei Menschen sitzen können oder ob eine Person allein ausreichend Liegelänge findet.",
+        "Bei einem Modell mit Infrarotstrahlern kommt die Position der Wärmequellen hinzu. Bei einer klassischen Sauna werden Ofen, Innenvolumen und Luftführung relevant. Die gemeinsame Kapazitätsangabe macht beide Systeme nicht technisch gleich.",
+        "Die Stellfläche dient nur als Sortierung. Eine Komfortaussage würde Innenmaße, Bankzeichnung und Nutzung erfordern und wird nicht aus der Personenzahl erfunden."
       ],
       "pointsTitle": "Vor der gemeinsamen Nutzung prüfen",
-      "points": ["Bankbreite und Innenhöhe", "Leistung und Luftführung", "Tür, Zugang und Anschluss"],
+      "points": ["Bankgeometrie für Sitzen oder Liegen", "Innenhöhe und freier Türbereich", "Ofenleistung oder Strahleranordnung", "Luftführung und Anschluss"],
       "callout": "Drei Personen auf dem Datenblatt sind ein Startpunkt für den Grundriss."
     },
     "rule": "three_person_indoor",
@@ -403,8 +544,21 @@
     "checks": [
       "Außenmaß und Sitzanordnung getrennt betrachten; aus der Fläche folgt kein Komfortwert.",
       "Bei drei Nutzern werden Zugang, Lüftung und Wärmeleistung gemeinsam relevant.",
-      "Anschluss, Absicherung und Montageweg vor der Bestellung mit der Anleitung abgleichen."
-    ]
+      "Anschluss, Absicherung und Montageweg vor der Bestellung mit der Anleitung abgleichen.",
+      "Gewünschte Liegelänge nicht aus der Kapazitätszahl ableiten."
+    ],
+    "module_copy": {
+      "method_kicker": "Drei Plätze im Innenmodell",
+      "method_title": "Nur Indoor-Produkte mit ausgewiesener Maximalkapazität drei werden gezeigt.",
+      "method_note": "Die jüngsten Angebotsdaten dieser Kategorie wurden geprüft am",
+      "results_kicker": "Zwischengröße im Flächenvergleich",
+      "results_title": "{count} Innenkabinen sind für drei Personen ausgewiesen.",
+      "results_intro": "Stellfläche und Wärmeart stehen nebeneinander. Bankform und Innenmaße werden im Produktdatensatz oder der Herstellerzeichnung geprüft.",
+      "checks_kicker": "Sitzen, liegen oder beides",
+      "checks_title": "Vier Angaben übersetzen die Kapazität in eine reale Nutzung.",
+      "related_kicker": "Benachbarte Größen",
+      "related_title": "Zweier-, Vierer- und besonders kompakte Modelle vergleichen."
+    }
   },
   {
     "id": "finnische-sauna",
@@ -420,14 +574,15 @@
     "related_ids": ["bio-sauna", "infrarotkabine", "4-personen-sauna"],
     "planning": {"kicker": "Leistung und Temperatur", "intro": "Bei klassischer Saunawärme müssen Ofenleistung, wirksames Volumen und der erwartete Heizverlauf zusammenpassen.", "guide_ids": ["lueftung", "temperatur-3-6-kw-sauna"]},
     "editorial": {
-      "kicker": "Wärmetyp · Technik zuerst",
-      "title": "Der Ofen setzt den Rahmen — der Raum entscheidet mit.",
+      "kicker": "Wärmetyp · technisches System",
+      "title": "Ofen, Raum und Steuerung bilden ein gemeinsames System.",
       "paragraphs": [
-        "Eine finnische Sauna wird über ein klassisches Ofenprinzip beschrieben. Für die konkrete Planung bleiben Leistung, Kabinenvolumen, Abstände, Lüftung und Anschluss des jeweiligen Modells maßgeblich.",
-        "Die Auswahl zeigt daher keine Bestenliste. Sie macht die dokumentierten Unterschiede sichtbar und lässt offene Punkte dort offen, wo die Quelle keine belastbare Aussage trägt."
+        "Die finnische Sauna wird hier über den belegten Saunatyp und ein klassisches Ofensystem abgegrenzt. Für die Auslegung zählt das wirksame Kabinenvolumen einschließlich Glas und wärmeabgebender Flächen, nicht nur die Grundfläche.",
+        "Steuerung, Temperaturfühler, Zu- und Abluft sowie Schutzabstände müssen zur Anleitung des jeweiligen Ofens passen. Ein dokumentierter 230-V- oder 400-V-Wert beschreibt dabei nur einen Teil der elektrischen Planung.",
+        "Die Ergebnisliste ordnet technische Daten und Preise. Sie behauptet weder eigene Produkttests noch eine allgemeine beste Sauna. Wo eine Quelle keine belastbare Angabe liefert, bleibt das Feld offen."
       ],
       "pointsTitle": "Technische Felder gemeinsam lesen",
-      "points": ["Kabinenvolumen und Ofenleistung", "Anschluss, Absicherung und Zuleitung", "Abstände, Lüftung und Montageanleitung"],
+      "points": ["Wirksames Kabinenvolumen und Ofenleistung", "Ofen, Steuerung und Fühlerposition", "Anschluss, Absicherung und Zuleitung", "Schutzabstände, Lüftung und Montageanleitung"],
       "callout": "Für die passende Größe zählen Raum, Kabinenvolumen und geplante Nutzung."
     },
     "rule": "finnish",
@@ -440,8 +595,21 @@
     "checks": [
       "Ofenleistung muss zum Kabinenvolumen und zur Herstellerfreigabe passen.",
       "Elektroanschluss, Fühlerposition und Sicherheitsabstände fachlich prüfen lassen.",
-      "Bei Outdoor-Modellen zusätzlich Fundament, Wetterschutz und Entwässerung planen."
-    ]
+      "Bei Outdoor-Modellen zusätzlich Fundament, Wetterschutz und Entwässerung planen.",
+      "Offene technische Angaben nicht durch Annahmen aus ähnlichen Modellen ergänzen."
+    ],
+    "module_copy": {
+      "method_kicker": "Klassischer Saunatyp",
+      "method_title": "Die Quelle muss das Produkt als finnische Sauna ausweisen.",
+      "method_note": "Der jüngste Angebotsstand dieser technischen Auswahl stammt vom",
+      "results_kicker": "Ofensaunen nach Stellfläche",
+      "results_title": "{count} Produkte sind als finnische Sauna belegt.",
+      "results_intro": "Produktseiten führen Aufstellort, Leistung, Anschluss und Quellenstand zusammen. Die Sortierung nach Fläche ist keine Leistungs- oder Qualitätswertung.",
+      "checks_kicker": "Technisches System statt Einzelwert",
+      "checks_title": "Vier Zusammenhänge müssen in den Unterlagen des Modells stimmen.",
+      "related_kicker": "Andere Typen und Größen",
+      "related_title": "Bio-Sauna, Infrarot und Vierergröße getrennt betrachten."
+    }
   },
   {
     "id": "sauna-bis-6-m2",
@@ -451,7 +619,7 @@
     "eyebrow": "Bis 6 m² · Stellfläche richtig lesen",
     "title": "Sauna bis 6 m² Stellfläche",
     "accent": "für die nächste Planungsstufe.",
-    "description": "Verifizierte Innen- und Outdoor-Saunen bis sechs Quadratmeter rechnerischer Produktfläche – mit Maß, Kapazität, Anschluss und Preisstand.",
+    "description": "Innen- und Outdoor-Saunen bis sechs Quadratmeter rechnerischer Produktfläche mit Maßen, Kapazität, Anschluss und Preisstand vergleichen.",
     "intro": "Die Auswahl umfasst Datensätze mit höchstens 6,0 m² aus Breite × Tiefe. Wandabstände, Fundament, Dachüberstand, Zugang und Montagefläche sind bewusst nicht in dieser Kennzahl enthalten.",
     "layout": "tradeoff",
     "related_ids": ["kleine-gartensauna", "mini-sauna", "4-personen-sauna"],
@@ -460,11 +628,12 @@
       "kicker": "Stellfläche und zusätzliche Abstände",
       "title": "Sechs Quadratmeter sind eine Produktgrenze, kein fertiger Grundriss.",
       "paragraphs": [
-        "Die rechnerische Produktfläche hilft, Modelle in einer ähnlichen Größenordnung zu finden. Sie sagt aber nicht, wie viel Platz die Montage, der Zugang oder ein Outdoor-Fundament tatsächlich benötigen.",
-        "Darum stehen Indoor- und Outdoor-Modelle gemeinsam in der Vorauswahl, werden aber über Aufstellort, Außenmaß und Anschluss klar unterscheidbar."
+        "Die 6-m²-Grenze entsteht aus dokumentierter Breite mal Tiefe. Bei einer Innenkabine kommen Wand- und Deckenabstände, geöffnete Tür und Montageweg hinzu. Bei einem Außenmodell vergrößern Fundament, Dachüberstand, Zugang und örtliche Abstände die benötigte Zone.",
+        "Eine gemeinsame Flächengrenze macht die sehr unterschiedlichen Projekte auffindbar, aber nicht austauschbar. Aufstellort und Wärmeart bleiben daher direkt am Produkt sichtbar.",
+        "Für den eigenen Standort wird die Produktkontur in einen maßstäblichen Raum- oder Grundstücksplan übertragen. Nur die modellspezifischen Unterlagen liefern die zusätzlichen Abstände."
       ],
-      "pointsTitle": "Die nächste Entscheidungsebene",
-      "points": ["Reale Raum- oder Grundstücksfläche vermessen", "Montageweg und Abstände ergänzen", "Anschluss, Fundament und Wetterschutz kalkulieren"],
+      "pointsTitle": "Aus Produktfläche wird Planungsfläche",
+      "points": ["Raum oder Grundstück mit festen Hindernissen vermessen", "Herstellerabstände und Türbewegung ergänzen", "Montage- und Anlieferungsweg einzeichnen", "Anschluss, Fundament und Wetterschutz passend zur Aufstellung kalkulieren"],
       "callout": "Die passende 6-m²-Sauna ist die, deren Gesamtprojekt in den Standort passt."
     },
     "rule": "area_under_6",
@@ -475,9 +644,22 @@
       "Verifizierte Maß-, Preis- und Quellenangaben"
     ],
     "checks": [
-      "Innen: Wandabstände, Deckenhöhe und Transportweg zur Produktfläche addieren.",
-      "Außen: Fundament, Dachüberstand, Grenzabstände und Zugang separat planen.",
-      "Eine kleinere Stellfläche ersetzt keine Prüfung von Anschluss und Montageanleitung."
-    ]
+      "Innen müssen Wandabstände, Deckenhöhe und Transportweg zur Produktfläche ergänzt werden.",
+      "Außen gehören Fundament, Dachüberstand, Grundstücksabstände und Zugang in den Plan.",
+      "Eine kleinere Stellfläche ersetzt keine Prüfung von Anschluss und Montageanleitung.",
+      "Indoor- und Outdoor-Modelle trotz gemeinsamer Flächengrenze als verschiedene Projekte behandeln."
+    ],
+    "module_copy": {
+      "method_kicker": "Rechnerische Flächengrenze",
+      "method_title": "Breite mal Tiefe darf höchstens 6,0 m² ergeben.",
+      "method_note": "Der jüngste Angebotsstand der enthaltenen Modelle wurde geprüft am",
+      "results_kicker": "Große Vorauswahl nach Fläche",
+      "results_title": "{count} Produkte bleiben innerhalb von 6,0 m².",
+      "results_intro": "Aufstellort und Technik trennen die sehr unterschiedlichen Projekte. Die Produktfläche enthält keine Montagezonen, Fundamente oder Dachüberstände.",
+      "checks_kicker": "Flächengrenze in den Standort übertragen",
+      "checks_title": "Vier Ergänzungen machen aus 6 m² einen brauchbaren Plan.",
+      "related_kicker": "Fläche enger fassen",
+      "related_title": "Mini-Sauna, kleine Gartensauna und Vierergröße danebenstellen."
+    }
   }
 ]

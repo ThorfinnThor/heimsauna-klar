@@ -188,9 +188,13 @@ for (const guide of planningGuides) {
   assertIsoDate(guide.updated_at, `Planning guide date for ${guide.slug}`);
   if (!Array.isArray(guide.sections) || guide.sections.length < 3) throw new Error(`${guide.slug} needs at least three sections`);
   for (const section of guide.sections) {
-    if (!section.title || !section.copy || !Array.isArray(section.points) || section.points.length < 3) throw new Error(`${guide.slug} has an incomplete section`);
+    if (!section.title || !section.copy || !Array.isArray(section.points) || (section.points.length > 0 && section.points.length < 3)) throw new Error(`${guide.slug} has an incomplete section`);
   }
   if (!Array.isArray(guide.checklist) || guide.checklist.length < 5) throw new Error(`${guide.slug} needs at least five checklist items`);
+  if (!guide.module_copy || typeof guide.module_copy !== "object") throw new Error(`${guide.slug} needs page-specific module copy`);
+  for (const key of ["checklist_kicker", "checklist_title", "sources_kicker", "sources_title", "source_note", "related_kicker", "related_title"]) {
+    if (typeof guide.module_copy[key] !== "string" || guide.module_copy[key].trim() === "") throw new Error(`${guide.slug} module copy is missing ${key}`);
+  }
   if (!Array.isArray(guide.sources) || guide.sources.length < 2) throw new Error(`${guide.slug} needs at least two sources`);
   for (const source of guide.sources) {
     if (!source.title) throw new Error(`${guide.slug} has a source without a title`);
@@ -290,6 +294,11 @@ for (const collection of collections) {
   }
   if (!Array.isArray(collection.criteria) || collection.criteria.length < 3) throw new Error(`${collection.id} needs at least three criteria`);
   if (!Array.isArray(collection.checks) || collection.checks.length < 3) throw new Error(`${collection.id} needs at least three checks`);
+  if (!collection.module_copy || typeof collection.module_copy !== "object") throw new Error(`${collection.id} needs page-specific module copy`);
+  for (const key of ["method_kicker", "method_title", "method_note", "results_kicker", "results_title", "results_intro", "checks_kicker", "checks_title", "related_kicker", "related_title"]) {
+    if (typeof collection.module_copy[key] !== "string" || collection.module_copy[key].trim() === "") throw new Error(`${collection.id} module copy is missing ${key}`);
+  }
+  if (!collection.module_copy.results_title.includes("{count}")) throw new Error(`${collection.id} results title needs a {count} placeholder`);
   const route = `${collection.section}/${collection.slug}`;
   if (collectionRoutes.has(route)) throw new Error(`Duplicate collection route: ${route}`);
   collectionRoutes.add(route);
@@ -316,8 +325,8 @@ function validateInsight(insight, label, minimumCopyLength) {
     throw new Error(`${label} insight needs at least two paragraphs`);
   }
   if (insight.copy.join(" ").length < minimumCopyLength) throw new Error(`${label} insight copy is too thin`);
-  if (!Array.isArray(insight.points) || insight.points.length < 3 || insight.points.some((item) => typeof item !== "string" || item.trim() === "")) {
-    throw new Error(`${label} insight needs at least three decision points`);
+  if (!Array.isArray(insight.points) || (insight.points.length > 0 && insight.points.length < 3) || insight.points.some((item) => typeof item !== "string" || item.trim() === "")) {
+    throw new Error(`${label} insight needs either no list or at least three decision points`);
   }
 }
 

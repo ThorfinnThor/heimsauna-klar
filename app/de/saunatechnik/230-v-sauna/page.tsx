@@ -7,7 +7,7 @@ import { createPageMetadata } from "@/lib/metadata";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 
 export const metadata = createPageMetadata({
-  title: "230-V-Sauna: Anschluss, Leistung und Grenzen verständlich erklärt",
+  title: "230-V-Sauna mit Anschluss, Leistung und Grenzen erklärt",
   description: guide.description,
   path: "/de/saunatechnik/230-v-sauna/",
   type: "article",
@@ -25,7 +25,7 @@ export default function GuidePage() {
   return (
     <main>
       <StructuredData data={articleJsonLd({
-        title: "230-V-Sauna: Anschluss, Leistung und Grenzen",
+        title: "230-V-Sauna mit Anschluss, Leistung und Grenzen",
         description: guide.description,
         path: "/de/saunatechnik/230-v-sauna/",
         updatedAt: guide.updated_at,
@@ -47,11 +47,11 @@ export default function GuidePage() {
           <p>{guide.description}</p>
           <p className="content-byline">Redaktion: <Link href="/de/ueber-uns/">Select Your Sauna</Link> · aktualisiert {formatGermanDate(guide.updated_at)}</p>
           <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.quick_answer}</p></div>
-          <div className="guide-path-links" aria-label="Nächste Schritte"><Link className="button button-primary" href="/de/vergleiche/230-v-sauna/">230-V-Modelle vergleichen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf zuerst prüfen ↗</Link></div>
+          <div className="guide-path-links" aria-label="Passende Inhalte"><Link className="button button-primary" href="/de/vergleiche/230-v-sauna/">230-V-Modelle vergleichen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf berechnen ↗</Link></div>
         </header>
 
         <section className="guide-checks page-shell" aria-labelledby="checks-title">
-          <div><p className="eyebrow">Vor dem Produktvergleich</p><h2 id="checks-title">Diese drei Prüfungen sparen Fehlkäufe.</h2></div>
+          <div><p className="eyebrow">Vier getrennte technische Fragen</p><h2 id="checks-title">Was die Angabe 230 V offenlässt.</h2></div>
           <ol>
             {guide.checks.map((item, index) => (
               <li key={item.title}><span>0{index + 1}</span><div><h3>{item.title}</h3><p>{item.copy}</p></div></li>
@@ -85,7 +85,7 @@ export default function GuidePage() {
           <div>
             <p className="eyebrow">Im aktuellen Katalog</p>
             <h2 id="matching-title">Verifizierte 230-V-Datensätze.</h2>
-            <p>Diese kompakte Auswahl zeigt zwölf Modelle verschiedener Marken. Alle {matchingProducts.length} Datensätze stehen auf der Vergleichsseite mit ihren dokumentierten Maßen, Anschlussdaten und Preisständen bereit.</p>
+            <p>Die Vorschau verteilt sich auf verschiedene Marken und ist auf zwölf Modelle begrenzt. Auf der Vergleichsseite stehen alle {matchingProducts.length} Datensätze mit dokumentierten Maßen, Anschlussdaten und Preisständen.</p>
           </div>
           <div className="matching-product-links">
             {previewProducts.map((product) => (
@@ -106,7 +106,7 @@ export default function GuidePage() {
               <li key={source.url}><span>{source.publisher}</span><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>
             ))}
           </ol>
-          <p className="safety-box"><strong>Wichtig:</strong> Diese Seite ersetzt weder die Herstelleranleitung noch die Prüfung durch eine Elektrofachkraft. Maßgeblich sind das konkrete Produkt, der vorhandene Stromkreis und die örtlichen Bedingungen.</p>
+          <p className="safety-box"><strong>Hinweis</strong> Diese Seite ersetzt weder die Herstelleranleitung noch die Prüfung durch eine Elektrofachkraft. Maßgeblich sind das konkrete Produkt, der vorhandene Stromkreis und die örtlichen Bedingungen.</p>
         </section>
       </article>
       <SiteFooter />

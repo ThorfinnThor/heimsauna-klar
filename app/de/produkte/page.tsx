@@ -26,7 +26,7 @@ export default function ProductsPage() {
         <p className="eyebrow">Produktkatalog · Deutschland · Stand {stats.latestUpdate ? formatGermanDate(stats.latestUpdate) : "nicht verfügbar"}</p>
         <h1>Sauna-Produkte<span>im Vergleich.</span></h1>
         <p>Der Katalog umfasst {stats.total} verifizierte Produktdatensätze: {stats.categoryCounts.indoor} Indoor-Saunen, {stats.categoryCounts.outdoor} Outdoor-Saunen, {stats.categoryCounts.infrared} Infrarotkabinen und {stats.categoryCounts.mobile} mobile Saunen. Zu jedem Produkt findest du Quellen, Prüfdatum, Maße, Anschlussdaten und die Grundlage unserer Einordnung.</p>
-        <Link className="text-link" href="/de/planung/">Vorher Platz, Lüftung, Boden und Budget klären ↗</Link>
+        <Link className="text-link" href="/de/planung/">Planung zu Platz, Lüftung, Boden und Budget ↗</Link>
         <div className="catalog-metrics">
           <span><strong>{stats.total}</strong> verifizierte Datensätze</span>
           <span><strong>{stats.sourceCount}</strong> dokumentierte Quellen</span>

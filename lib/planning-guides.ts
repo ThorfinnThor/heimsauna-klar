@@ -13,6 +13,15 @@ export type PlanningGuide = {
   catalog_snapshot?: "product_prices";
   sections: Array<{ title: string; copy: string; points: string[] }>;
   checklist: string[];
+  module_copy: {
+    checklist_kicker: string;
+    checklist_title: string;
+    sources_kicker: string;
+    sources_title: string;
+    source_note: string;
+    related_kicker: string;
+    related_title: string;
+  };
   sources: Array<{ title: string; url: string; checked_at: string }>;
 };
 

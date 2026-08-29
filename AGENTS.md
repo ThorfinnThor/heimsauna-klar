@@ -18,6 +18,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Vary structure only when it improves comprehension. Do not introduce decorative randomness, thin filler, arbitrary word counts, or multiple pages that answer the same intent without distinct user value.
 - Never imply first-hand product testing when no such test took place. State the research method and data limits transparently, and preserve source links for factual planning guidance.
 - Reusable product-detail layouts are acceptable because their user task is consistent, but their decision copy, specifications, limitations, and related guidance must be product-specific.
+- Write direct, natural German without recurring AI-style transitions or slogan pairs. In particular, avoid stock phrases such as "Im nächsten Schritt", "Zuerst solltest du", "Es ist wichtig zu beachten", "Zusammenfassend lässt sich sagen" and command patterns built as "erst ... dann ...".
+- Do not force a list, FAQ, conclusion, or fixed number of sections onto every page. Use these structures only when they make the concrete topic easier to understand.
+- In ordinary prose, prefer complete flowing sentences over frequent colons, em dashes, fragments, or padded marketing language.
 - Keep the automated content-quality and presentation-diversity checks green. Do not enable search-engine indexing while launch gates or editorial verification remain open.
 
 <!-- END:project-seo-quality-rules -->

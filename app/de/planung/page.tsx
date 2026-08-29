@@ -6,8 +6,8 @@ import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 export const metadata = createPageMetadata({
-  title: "Sauna planen: Platz, Lüftung, Boden und Kosten",
-  description: "Die wichtigsten Planungsschritte vor dem Saunakauf – quellenbasiert, produktspezifisch und mit konkreten Prüfpunkten.",
+  title: "Sauna planen mit Platz, Lüftung, Boden und Kosten",
+  description: "Planungshilfen zu Platz, Lüftung, Untergrund, Technik und Kosten mit Quellen und produktspezifischen Prüfpunkten.",
   path: "/de/planung/",
 });
 
@@ -20,14 +20,14 @@ export default function PlanningHubPage() {
       <section className="page-hero page-shell">
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Planung</span></nav>
         <p className="eyebrow">Sauna planen · vor dem Produktvergleich</p>
-        <h1>Sauna planen:<span>Raum, Anschluss und Budget prüfen.</span></h1>
-        <p>Vier Planungsphasen übersetzen Herstelleranleitungen und aktuelle Produktdaten in prüfbare Entscheidungen für dein Zuhause.</p>
+        <h1>Sauna planen<span>Raum, Anschluss und Budget belastbar prüfen.</span></h1>
+        <p>Die Themen sind nach Standort, Aufbau, Technik und Budget geordnet. Jeder Ratgeber beantwortet eine eigene Planungsfrage mit Herstellerunterlagen und nachvollziehbaren Grenzen.</p>
         <nav className="planning-phase-nav" aria-label="Planungsphasen">
           {planningGroups.map((group) => <Link href={`#${group.id}`} key={group.id}>{group.number} {group.eyebrow}</Link>)}
         </nav>
       </section>
       <section className="planning-hub page-shell" aria-labelledby="planning-hub-title">
-        <div className="collection-index-head"><div><p className="eyebrow">Planungszentrale</p><h2 id="planning-hub-title">Vom Standort zum realistischen Budget.</h2></div><p>Jede Seite nennt ihre Quellen, ihr Prüfdatum und die Grenzen pauschaler Regeln. Beginne bei der ersten noch ungeklärten Phase.</p></div>
+        <div className="collection-index-head"><div><p className="eyebrow">Themen nach Planungsfrage</p><h2 id="planning-hub-title">Der passende Einstieg hängt vom bereits bekannten Standort ab.</h2></div><p>Jede Seite nennt Quellen, Prüfdatum und die Grenzen pauschaler Regeln. Wer den Aufstellraum schon festgelegt hat, kann direkt bei Aufbau oder Technik einsteigen.</p></div>
         {planningGroups.map((group) => {
           const guides = group.guide_slugs.flatMap((slug) => {
             const guide = getPlanningGuide(slug);

@@ -50,7 +50,7 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
       <article data-page-kind="planning-guide" data-page-profile={getPlanningProfile(presentation)}>
         <PlanningHero guide={guide} presentation={presentation} productHref={journey?.product_href ?? "/de/produkte/"} productLabel={journey?.product_label ?? "Produkte filtern"} />
         {presentation.flow.map((module) => <PlanningModuleBlock context={context} module={module} key={module} />)}
-        <PlanningRelated guides={relatedGuides} />
+        <PlanningRelated guide={guide} guides={relatedGuides} />
       </article>
       <SiteFooter />
     </main>
@@ -98,7 +98,7 @@ function PlanningInsight({ presentation }: { presentation: PlanningPresentation 
       <div><p className="eyebrow">{insight.kicker}</p><h2 id="planning-insight-title">{insight.title}</h2></div>
       <div className="planning-insight-reading">
         {insight.copy.map((paragraph) => <p data-editorial-copy="true" key={paragraph}>{paragraph}</p>)}
-        <ul>{insight.points.map((point) => <li key={point}>{point}</li>)}</ul>
+        {insight.points.length > 0 ? <ul>{insight.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}
       </div>
     </section>
   );
@@ -118,18 +118,18 @@ function PlanningSection({ section, index, variant }: {
   variant: PlanningPresentation["sections"];
 }) {
   const number = `0${index + 1}`;
-  if (variant === "technical") return <section className="planning-section planning-section-technical"><header><span>{number}</span><h2>{section.title}</h2></header><div><p data-editorial-copy="true">{section.copy}</p><ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul></div></section>;
-  if (variant === "timeline") return <section className="planning-section planning-section-timeline"><span>{number}</span><div><p className="eyebrow">Planungsschritt</p><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p></div><ol>{section.points.map((point, pointIndex) => <li key={point}><small>{index + 1}.{pointIndex + 1}</small>{point}</li>)}</ol></section>;
-  if (variant === "cards") return <article className="planning-section planning-section-card"><span>{number}</span><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p><ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul></article>;
-  if (variant === "ledger") return <section className="planning-section planning-section-ledger"><header><span>{number}</span><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p></header><dl>{section.points.map((point, pointIndex) => <div key={point}><dt>{String(pointIndex + 1).padStart(2, "0")}</dt><dd>{point}</dd></div>)}</dl></section>;
-  if (variant === "alternating") return <section className="planning-section planning-section-alternating"><div><span>{number}</span><h2>{section.title}</h2></div><div><p data-editorial-copy="true">{section.copy}</p><ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul></div></section>;
-  return <section className="planning-section planning-section-staggered"><span>{number}</span><div><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p><ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul></div></section>;
+  if (variant === "technical") return <section className="planning-section planning-section-technical"><header><span>{number}</span><h2>{section.title}</h2></header><div><p data-editorial-copy="true">{section.copy}</p>{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
+  if (variant === "timeline") return <section className="planning-section planning-section-timeline"><span>{number}</span><div><p className="eyebrow">Planungsabschnitt</p><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p></div>{section.points.length > 0 ? <ol>{section.points.map((point, pointIndex) => <li key={point}><small>{index + 1}.{pointIndex + 1}</small>{point}</li>)}</ol> : null}</section>;
+  if (variant === "cards") return <article className="planning-section planning-section-card"><span>{number}</span><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</article>;
+  if (variant === "ledger") return <section className="planning-section planning-section-ledger"><header><span>{number}</span><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p></header>{section.points.length > 0 ? <dl>{section.points.map((point, pointIndex) => <div key={point}><dt>{String(pointIndex + 1).padStart(2, "0")}</dt><dd>{point}</dd></div>)}</dl> : null}</section>;
+  if (variant === "alternating") return <section className="planning-section planning-section-alternating"><div><span>{number}</span><h2>{section.title}</h2></div><div><p data-editorial-copy="true">{section.copy}</p>{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
+  return <section className="planning-section planning-section-staggered"><span>{number}</span><div><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
 }
 
 function PlanningChecks({ guide }: { guide: PlanningGuide }) {
   return (
     <section className="guide-checks page-shell" aria-labelledby="planning-checklist-title" data-page-module="checks">
-      <div><p className="eyebrow">Arbeitsliste</p><h2 id="planning-checklist-title">Vor der Produktauswahl abhaken.</h2></div>
+      <div><p className="eyebrow">{guide.module_copy.checklist_kicker}</p><h2 id="planning-checklist-title">{guide.module_copy.checklist_title}</h2></div>
       <ol>{guide.checklist.map((item, index) => <li key={item}><span>0{index + 1}</span><div><p>{item}</p></div></li>)}</ol>
     </section>
   );
@@ -138,19 +138,19 @@ function PlanningChecks({ guide }: { guide: PlanningGuide }) {
 function PlanningSources({ guide }: { guide: PlanningGuide }) {
   return (
     <section className="guide-sources page-shell" aria-labelledby="planning-sources-title" data-page-module="sources">
-      <div><p className="eyebrow">Primärquellen</p><h2 id="planning-sources-title">Anleitung vor Allgemeinregel.</h2></div>
+      <div><p className="eyebrow">{guide.module_copy.sources_kicker}</p><h2 id="planning-sources-title">{guide.module_copy.sources_title}</h2></div>
       <div>
         <ol>{guide.sources.map((source) => <li key={source.url}><span>{formatGermanDate(source.checked_at)}</span><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>)}</ol>
-        <p className="safety-box"><strong>Wichtig:</strong> Diese Seite ist eine Planungshilfe. Montageanleitung, Statik, örtliche Bauvorgaben und Arbeiten an der Elektroinstallation gehören zur Prüfung durch die jeweils zuständigen Fachleute.</p>
+        <p className="safety-box"><strong>Hinweis</strong> {guide.module_copy.source_note}</p>
       </div>
     </section>
   );
 }
 
-function PlanningRelated({ guides }: { guides: PlanningGuide[] }) {
+function PlanningRelated({ guide, guides }: { guide: PlanningGuide; guides: PlanningGuide[] }) {
   return (
     <aside className="collection-related page-shell" aria-labelledby="related-planning-title" data-page-module="related">
-      <div><p className="eyebrow">Weiterplanen</p><h2 id="related-planning-title">Drei passende nächste Schritte.</h2></div>
+      <div><p className="eyebrow">{guide.module_copy.related_kicker}</p><h2 id="related-planning-title">{guide.module_copy.related_title}</h2></div>
       <div className="collection-related-grid">{guides.map((item) => <Link href={`/de/planung/${item.slug}/`} key={item.slug}><small>Planungsseite</small><strong>{item.title}</strong><span>Weiterlesen ↗</span></Link>)}</div>
     </aside>
   );

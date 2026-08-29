@@ -68,7 +68,7 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
           hero={presentation.hero}
         />
         {presentation.flow.map((module) => <CollectionModuleBlock context={pageContext} module={module} key={module} />)}
-        <CollectionRelated collections={relatedCollections} />
+        <CollectionRelated collection={collection} collections={relatedCollections} />
       </article>
       <SiteFooter />
     </main>
@@ -117,7 +117,7 @@ function CollectionInsight({ presentation }: { presentation: CollectionPresentat
       <div><p className="eyebrow">{insight.kicker}</p><h2 id="collection-insight-title">{insight.title}</h2></div>
       <div className="collection-insight-reading">
         {insight.copy.map((paragraph) => <p data-editorial-copy="true" key={paragraph}>{paragraph}</p>)}
-        <ul>{insight.points.map((point) => <li key={point}>{point}</li>)}</ul>
+        {insight.points.length > 0 ? <ul>{insight.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}
       </div>
     </section>
   );
@@ -131,10 +131,10 @@ function CollectionMethod({ collection, latestOfferCheck, planningGuides, varian
 }) {
   return (
     <section className={`collection-method collection-method-${variant} page-shell`} aria-labelledby="collection-method-title" data-page-module="method">
-      <div><p className="eyebrow">Auswahlregel</p><h2 id="collection-method-title">So entsteht diese Produktauswahl.</h2></div>
+      <div><p className="eyebrow">{collection.module_copy.method_kicker}</p><h2 id="collection-method-title">{collection.module_copy.method_title}</h2></div>
       <div>
         <ul>{collection.criteria.map((criterion) => <li key={criterion}>{criterion}</li>)}</ul>
-        <p>Stand der Angebotsprüfung: <strong>{latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</strong>. Kein Modell wurde für diese Liste bezahlt oder redaktionell hochgestuft.</p>
+        <p>{collection.module_copy.method_note} <strong>{latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</strong>.</p>
         <div className="collection-planning">
           <p className="eyebrow">{collection.planning.kicker}</p><p>{collection.planning.intro}</p>
           <div className="collection-planning-links">{planningGuides.map((guide) => <Link href={`/de/planung/${guide.slug}/`} key={guide.slug}><small>{guide.eyebrow}</small><strong>{guide.title}</strong><span>Planung öffnen ↗</span></Link>)}</div>
@@ -148,8 +148,8 @@ function CollectionResults({ collection, candidates, variant }: { collection: Co
   return (
     <section className={`collection-results collection-results-${variant} page-shell`} aria-labelledby="collection-results-title" data-page-module="results">
       <div className="collection-results-head">
-        <div><p className="eyebrow">Datenvergleich</p><h2 id="collection-results-title">{candidates.length} Modelle im direkten Überblick.</h2></div>
-        <p>Öffne den einzelnen Datensatz für Herstellerquelle, Prüfdatum, Varianten und bekannte Einschränkungen.</p>
+        <div><p className="eyebrow">{collection.module_copy.results_kicker}</p><h2 id="collection-results-title">{collection.module_copy.results_title.replace("{count}", String(candidates.length))}</h2></div>
+        <p>{collection.module_copy.results_intro}</p>
       </div>
       {variant === "table" ? <CollectionResultsTable collection={collection} candidates={candidates} /> : null}
       {variant === "cards" ? <CollectionResultsCards candidates={candidates} /> : null}
@@ -194,16 +194,16 @@ function CollectionResultsLedger({ candidates }: { candidates: Product[] }) {
 function CollectionChecks({ collection }: { collection: Collection }) {
   return (
     <section className="collection-checks page-shell" aria-labelledby="collection-checks-title" data-page-module="checks">
-      <div><p className="eyebrow">Vor dem Kauf</p><h2 id="collection-checks-title">Drei Prüfpunkte für die Planung vor Ort.</h2></div>
+      <div><p className="eyebrow">{collection.module_copy.checks_kicker}</p><h2 id="collection-checks-title">{collection.module_copy.checks_title}</h2></div>
       <ol>{collection.checks.map((check, index) => <li key={check}><span>0{index + 1}</span><p>{check}</p></li>)}</ol>
     </section>
   );
 }
 
-function CollectionRelated({ collections: relatedCollections }: { collections: Collection[] }) {
+function CollectionRelated({ collection, collections: relatedCollections }: { collection: Collection; collections: Collection[] }) {
   return (
     <aside className="collection-related page-shell" aria-labelledby="collection-related-title" data-page-module="related">
-      <div><p className="eyebrow">Weiter eingrenzen</p><h2 id="collection-related-title">Andere belastbare Vorauswahlen.</h2></div>
+      <div><p className="eyebrow">{collection.module_copy.related_kicker}</p><h2 id="collection-related-title">{collection.module_copy.related_title}</h2></div>
       <div className="collection-related-grid">{relatedCollections.map((item) => <Link href={`/de/${item.section}/${item.slug}/`} key={item.id}><small>{item.kind}</small><strong>{item.title}</strong><span>{getCollectionProducts(item).length} Datensätze ↗</span></Link>)}</div>
     </aside>
   );

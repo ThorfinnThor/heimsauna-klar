@@ -5,7 +5,7 @@
       "number": "01",
       "eyebrow": "Standort wählen",
       "title": "Welcher Raum kann die Sauna tragen?",
-      "description": "Feuchtigkeit, Zugang und Nutzung unterscheiden sich je nach Aufstellort. Kläre zuerst, ob Wohnung, Keller oder Badezimmer als Gesamtraum funktionieren.",
+      "description": "Feuchtigkeit, Zugang und Nutzung unterscheiden sich je nach Aufstellort. Wohnung, Keller oder Badezimmer müssen jeweils als vollständiger Raum mit Luftführung, Boden und Anschluss funktionieren.",
       "guide_slugs": ["sauna-fuer-die-wohnung", "sauna-im-keller", "sauna-im-badezimmer"]
     },
     {

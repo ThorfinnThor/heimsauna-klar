@@ -1,27 +1,31 @@
 {
-  "title": "230-V-Sauna: Was ‚steckerfertig‘ wirklich bedeutet",
-  "description": "Eine 230-V-Sauna kann den Einstieg vereinfachen. Entscheidend bleiben aber Ofenleistung, Kabinenvolumen, Aufstellraum und die konkrete Herstelleranleitung.",
-  "updated_at": "2026-08-21",
-  "quick_answer": "230 V beschreibt zunächst die Versorgungsspannung, nicht automatisch die Heizleistung, erreichbare Temperatur oder Eignung für jeden Raum. Produkt und Ofen müssen als System betrachtet werden.",
+  "title": "230-V-Sauna und die tatsächlichen Anforderungen an den Anschluss",
+  "description": "Was 230 V bei einer Sauna über Versorgung, Leistung und Anschluss aussagt und welche Angaben vor der Produktauswahl fehlen können.",
+  "updated_at": "2026-08-29",
+  "quick_answer": "230 V bezeichnet die Versorgungsspannung. Daraus lassen sich weder Steckertyp noch Heizleistung, Absicherung oder erreichbare Temperatur ableiten. Verlässlich sind nur die Anschlussunterlagen der exakten Produktvariante zusammen mit einer Prüfung des vorhandenen Stromkreises.",
   "checks": [
     {
-      "title": "Kabine und Ofen zusammen prüfen",
-      "copy": "Herstellerhandbücher ordnen Ofenleistungen bestimmten Kabinenvolumen zu. Ein stärkerer oder anders angeschlossener Ofen ist nicht automatisch mit jeder Kabine kompatibel."
+      "title": "Volt, Kilowatt und Stecker sind drei verschiedene Angaben",
+      "copy": "Die Versorgungsspannung steht neben der Nennleistung und der konkreten Anschlussart. Ein Modell mit 230 V kann je nach Herstelleranforderung andere Bedingungen an Stromkreis und Absicherung stellen. Die Produktvariante muss deshalb mit Artikelnummer und Anleitung eindeutig feststehen."
     },
     {
-      "title": "Aufstellbedingungen ernst nehmen",
-      "copy": "Bauweise, Isolierung und Umgebungstemperatur beeinflussen das Ergebnis. Karibu weist beim 3,6-kW-Ofen ausdrücklich darauf hin, dass die erreichbare Temperatur von diesen Faktoren abhängt."
+      "title": "Die Ofenleistung gehört zum wirksamen Kabinenvolumen",
+      "copy": "Hersteller ordnen ihre Öfen einem bestimmten Volumenbereich zu. Glas, ungedämmte Flächen und der Aufbau der Kabine können den Wärmebedarf verändern. Ein anderer Ofen mit derselben Spannung oder Leistung ist dadurch nicht automatisch kompatibel."
     },
     {
-      "title": "Anleitung schlägt Marketingbegriff",
-      "copy": "‚Plug & Play‘ ersetzt nicht die Prüfung der konkreten Herstellerangaben, der vorhandenen Steckdose und des Stromkreises. Netzspannungsarbeiten bleiben Facharbeit."
+      "title": "Der vorhandene Stromkreis muss zum Modell passen",
+      "copy": "Eine erreichbare Steckdose belegt weder die passende Absicherung noch die Freigabe für das Gerät. Der Elektrofachbetrieb kann Stromkreis, Leitungsweg und Herstelleranforderungen beurteilen. Arbeiten am festen Netz bleiben Facharbeit."
+    },
+    {
+      "title": "Temperaturversprechen brauchen mehr als eine Leistungszahl",
+      "copy": "Bauweise, Isolierung, Lüftung, Umgebungstemperatur und Sensorposition beeinflussen den Heizverlauf. Karibu weist bei einem 3,6-kW-Ofen ausdrücklich auf solche Bedingungen hin. Eine feste Temperatur wird daraus für andere Modelle nicht abgeleitet."
     }
   ],
   "comparison": [
     { "label": "Versorgung", "v230": "230 V", "v400": "typisch 400 V Drehstrom" },
-    { "label": "Typische V1-Produkte", "v230": "kompakte Kabinen und Infrarot", "v400": "größere klassische Kabinen" },
-    { "label": "Planungsfrage", "v230": "passt das System zum vorhandenen Stromkreis?", "v400": "ist Anschluss und Absicherung fachgerecht geplant?" },
-    { "label": "Unsere Empfehlung", "v230": "nach konkretem Modell filtern", "v400": "früh Elektrofachbetrieb einbeziehen" }
+    { "label": "Häufige Produktgruppen", "v230": "kompakte Kabinen und Infrarotmodelle", "v400": "klassische Saunen mit höherer Ofenleistung" },
+    { "label": "Offene Standortfrage", "v230": "Stromkreis, Anschlussart und Absicherung", "v400": "Leitungsweg, Anschluss und Absicherung" },
+    { "label": "Belastbare Auswahlbasis", "v230": "exakte Modellunterlagen und Vor-Ort-Prüfung", "v400": "exakte Modellunterlagen und Vor-Ort-Prüfung" }
   ],
   "sources": [
     {

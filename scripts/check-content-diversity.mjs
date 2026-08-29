@@ -5,9 +5,42 @@ const outputRoot = path.resolve("out");
 const collections = JSON.parse(await readFile(new URL("../content/de/collections.json", import.meta.url), "utf8"));
 const guides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
 const presentations = JSON.parse(await readFile(new URL("../content/de/page-presentations.json", import.meta.url), "utf8"));
+const voltageGuide = JSON.parse(await readFile(new URL("../content/de/guides/230-v-sauna.json", import.meta.url), "utf8"));
 const issues = [];
 const renderedProfiles = new Map();
 const editorialFragments = new Map();
+const forbiddenStylePatterns = [
+  [/Im nächsten Schritt/i, "Im nächsten Schritt"],
+  [/Zuerst solltest du dir überlegen/i, "Zuerst solltest du dir überlegen"],
+  [/Doch bevor wir dazu kommen/i, "Doch bevor wir dazu kommen"],
+  [/Es ist wichtig zu beachten/i, "Es ist wichtig zu beachten"],
+  [/In der heutigen Zeit/i, "In der heutigen Zeit"],
+  [/Letztendlich kommt es darauf an/i, "Letztendlich kommt es darauf an"],
+  [/Zusammenfassend lässt sich sagen/i, "Zusammenfassend lässt sich sagen"],
+  [/Erst verstehen, was du brauchst\.\s*Dann Produkte vergleichen/i, "Erst verstehen, dann vergleichen"],
+  [/Klarheit vor Kaufdruck/i, "Klarheit vor Kaufdruck"],
+  [/Produkte, ohne erfundene Rangliste/i, "Produkte ohne erfundene Rangliste"],
+  [/Nicht irgendeine Sauna/i, "Nicht irgendeine Sauna"],
+  [/Harte Treffer/i, "Harte Treffer"],
+];
+
+function collectStrings(value, location, output = []) {
+  if (typeof value === "string") output.push({ value, location });
+  else if (Array.isArray(value)) value.forEach((item, index) => collectStrings(item, `${location}[${index}]`, output));
+  else if (value && typeof value === "object") Object.entries(value).forEach(([key, item]) => collectStrings(item, `${location}.${key}`, output));
+  return output;
+}
+
+for (const entry of [
+  ...collectStrings(collections, "collections"),
+  ...collectStrings(guides, "planning-guides"),
+  ...collectStrings(presentations, "page-presentations"),
+  ...collectStrings(voltageGuide, "230-v-guide"),
+]) {
+  for (const [pattern, label] of forbiddenStylePatterns) {
+    if (pattern.test(entry.value)) issues.push(`${entry.location}: forbidden editorial phrase "${label}"`);
+  }
+}
 
 function decodeText(value) {
   return value

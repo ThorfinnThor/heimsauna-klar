@@ -30,6 +30,18 @@ export type Collection = {
   sort: "footprint" | "price";
   criteria: string[];
   checks: string[];
+  module_copy: {
+    method_kicker: string;
+    method_title: string;
+    method_note: string;
+    results_kicker: string;
+    results_title: string;
+    results_intro: string;
+    checks_kicker: string;
+    checks_title: string;
+    related_kicker: string;
+    related_title: string;
+  };
 };
 
 export const collections = collectionData as Collection[];
