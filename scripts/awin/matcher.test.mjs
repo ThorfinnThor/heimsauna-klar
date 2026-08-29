@@ -10,10 +10,21 @@ test("feed-list discovery keeps approved German Awin feeds", () => {
     "Advertiser ID,Advertiser Name,Membership Status,Feed ID,Language,Last Update,Products,URL",
     "100,Artsauna DE,Joined,10,German,27/08/2026,15,https://productdata.awin.com/datafeed/download/apikey/x/fid/10/",
     "200,Home Deluxe DE,active,20,de_DE,2026-08-27,34,https://ui.awin.com/productdata-darwin-download/publisher/3037577/token_123/1/feed/F20.csv.gz",
-    "300,Unrelated,Not Joined,30,German,2026-08-27,5,https://productdata.awin.com/datafeed/download/apikey/x/fid/30/",
+    "300,Benz24 DE/AT,active,30,German,2026-08-27,100,https://productdata.awin.com/datafeed/download/apikey/x/fid/30/",
+    "300,Benz24 DE/AT,active,31,German,2026-08-28,110,https://productdata.awin.com/datafeed/download/apikey/x/fid/31/",
+    "400,InterGard Heim und Garten DE,active,40,German,2026-08-27,4,https://productdata.awin.com/datafeed/download/apikey/x/fid/40/",
+    "500,Unrelated,Not Joined,50,German,2026-08-27,5,https://productdata.awin.com/datafeed/download/apikey/x/fid/50/",
   ].join("\n"));
+  rows[2]["Feed Name"] = "BENZ24 Deutschland";
+  rows[3]["Feed Name"] = "BENZ24 Österreich";
   const targets = resolveTargetFeeds(parseEligibleFeeds(rows));
-  assert.deepEqual(targets.map((target) => [target.merchantId, target.advertiserId]), [["artsauna", "100"], ["home-deluxe", "200"]]);
+  assert.deepEqual(targets.map((target) => [target.merchantId, target.advertiserId]), [
+    ["artsauna", "100"],
+    ["home-deluxe", "200"],
+    ["benz24", "300"],
+    ["intergard", "400"],
+  ]);
+  assert.equal(targets.find((target) => target.merchantId === "benz24").entry.feedId, "30");
 });
 
 test("feed endpoints reject arbitrary hosts and unsafe variants", () => {

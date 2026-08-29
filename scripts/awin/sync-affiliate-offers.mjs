@@ -10,6 +10,12 @@ const TARGET_DETAILS = {
   "home-deluxe": {
     focus: "Infrarotkabinen sowie traditionelle Indoor- und Outdoor-Saunen von Home Deluxe.",
   },
+  benz24: {
+    focus: "Saunahäuser und Kabinen etablierter Hersteller; Zuordnung ausschließlich über die exakte Benz24-Produkt-URL.",
+  },
+  intergard: {
+    focus: "Innensaunen von InterGard; Aktivierung erst nach vollständiger technischer Quellenprüfung.",
+  },
 };
 
 const rawUrl = process.env.AWIN_FEED_LIST_URL?.trim();
@@ -181,10 +187,17 @@ function updatePublicDisclosures({ affiliatePolicy: policy, legal: legalContent,
     ? `${count} exakt zugeordnete Awin-Links sind aktiv; nicht freigegebene Programme und nicht passende Feed-Zeilen bleiben gesperrt.`
     : "Affiliate-Links sind inaktiv und können ohne registrierten Händler sowie genehmigtes Programm nicht aktiviert werden.";
   if (program) {
+    const approvedAwinNames = policy.programs
+      .filter((item) => item.network.toLowerCase() === "awin" && item.status === "approved")
+      .map((item) => item.name)
+      .sort((left, right) => left.localeCompare(right, "de"));
+    const approvedPrograms = approvedAwinNames.length > 1
+      ? `${approvedAwinNames.slice(0, -1).join(", ")} und ${approvedAwinNames.at(-1)}`
+      : approvedAwinNames[0] ?? "Kein Awin-Programm";
     program.status = "ready";
     program.detail = count > 0
-      ? `Artsauna und Home Deluxe sind bei Awin freigegeben; ${count} exakt zugeordnete Produktlinks sind aktiv.`
-      : "Artsauna und Home Deluxe sind bei Awin freigegeben; für die Aktivierung fehlt noch eine exakte Produktzuordnung aus dem Feed.";
+      ? `${approvedPrograms} sind bei Awin freigegeben; ${count} exakt zugeordnete Produktlinks sind aktiv.`
+      : `${approvedPrograms} sind bei Awin freigegeben; für die Aktivierung fehlt noch eine exakte Produktzuordnung aus dem Feed.`;
   }
 }
 

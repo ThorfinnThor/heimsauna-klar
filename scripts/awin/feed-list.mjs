@@ -2,6 +2,17 @@ const ELIGIBLE_MEMBERSHIP = new Set(["active", "joined"]);
 const GERMAN_LANGUAGE = /^(?:de|de[-_]de|german|deutsch)$/i;
 const DARWIN_FEED_PATH = /^\/productdata-darwin-download\/publisher\/\d+\/[A-Za-z0-9_-]+\/\d+\/feed\/F?\d+\.csv\.gz$/;
 const MAX_AUTO_FEEDS = 100;
+const TARGETS = [
+  { merchantId: "artsauna", label: "Artsauna", matches: (name) => normalizedKey(name).includes("artsauna") },
+  { merchantId: "home-deluxe", label: "Home Deluxe", matches: (name) => normalizedKey(name).includes("homedeluxe") },
+  {
+    merchantId: "benz24",
+    label: "Benz24",
+    matches: (name) => normalizedKey(name).includes("benz24"),
+    preferredFeed: (entry) => normalizedKey(entry.feedName ?? "").includes("deutschland"),
+  },
+  { merchantId: "intergard", label: "InterGard", matches: (name) => normalizedKey(name).includes("intergard") },
+];
 
 function normalizedKey(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "");
@@ -102,12 +113,7 @@ export function selectPreferredFeed(entries) {
 }
 
 export function discoverTargets(entries) {
-  const targets = [
-    { merchantId: "artsauna", label: "Artsauna", matches: (name) => normalizedKey(name).includes("artsauna") },
-    { merchantId: "home-deluxe", label: "Home Deluxe", matches: (name) => normalizedKey(name).includes("homedeluxe") },
-  ];
-
-  return targets.map((target) => {
+  return TARGETS.map((target) => {
     const matches = entries.filter((entry) => target.matches(entry.advertiserName));
     const advertiserIds = [...new Set(matches.map((entry) => entry.advertiserId))];
     return {
@@ -129,17 +135,15 @@ export function discoverTargets(entries) {
 }
 
 export function resolveTargetFeeds(entries) {
-  const targets = [
-    { merchantId: "artsauna", label: "Artsauna", matches: (name) => normalizedKey(name).includes("artsauna") },
-    { merchantId: "home-deluxe", label: "Home Deluxe", matches: (name) => normalizedKey(name).includes("homedeluxe") },
-  ];
-  return targets.map((target) => {
+  return TARGETS.map((target) => {
     const matches = entries.filter((entry) => target.matches(entry.advertiserName));
     const advertiserIds = [...new Set(matches.map((entry) => entry.advertiserId))];
     if (advertiserIds.length !== 1) {
       throw new Error(`${target.label} feed discovery is ${advertiserIds.length === 0 ? "missing" : "ambiguous"}`);
     }
-    const preferred = selectPreferredFeed(matches.filter((entry) => entry.advertiserId === advertiserIds[0]));
+    const advertiserFeeds = matches.filter((entry) => entry.advertiserId === advertiserIds[0]);
+    const preferredFeeds = target.preferredFeed ? advertiserFeeds.filter(target.preferredFeed) : advertiserFeeds;
+    const preferred = selectPreferredFeed(preferredFeeds.length > 0 ? preferredFeeds : advertiserFeeds);
     if (!preferred) throw new Error(`${target.label} has no eligible German product feed`);
     return { ...target, advertiserId: advertiserIds[0], entry: preferred };
   });

@@ -4700,6 +4700,16 @@
           "url": "https://www.karibu.de/Saunahaus-Skrollan-1-mit-Vorraum",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 3389,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-1-naturbelassen.html",
+          "affiliate": false,
+          "last_checked": "2026-08-29",
+          "configuration": "Naturbelassen · Ofen- und Türvariante im Shop auswählen",
+          "selection_required": true
         }
       ]
     },
@@ -4734,9 +4744,15 @@
         "title": "Karibu Produktseite Saunahaus Skrollan 1 mit Vorraum",
         "url": "https://www.karibu.de/Saunahaus-Skrollan-1-mit-Vorraum",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite Karibu Saunahaus Skrollan 1 Naturbelassen",
+        "url": "https://benz24.de/karibu-saunahaus-skrollan-1-naturbelassen.html",
+        "checked_at": "2026-08-29"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-29"
   },
   {
     "product_id": "karibu-saunahaus-cuben-80796",
@@ -5780,6 +5796,16 @@
           "url": "https://www.karibu.de/Saunahaus-Skrollan-2-mit-Vorraum",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 3479,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-2-naturbelassen.html",
+          "affiliate": false,
+          "last_checked": "2026-08-29",
+          "configuration": "Naturbelassen · Ofen- und Türvariante im Shop auswählen",
+          "selection_required": true
         }
       ]
     },
@@ -5814,9 +5840,15 @@
         "title": "Karibu Produktseite Saunahaus Skrollan 2 mit Vorraum",
         "url": "https://www.karibu.de/Saunahaus-Skrollan-2-mit-Vorraum",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite Karibu Saunahaus Skrollan 2 Naturbelassen",
+        "url": "https://benz24.de/karibu-saunahaus-skrollan-2-naturbelassen.html",
+        "checked_at": "2026-08-29"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-29"
   },
   {
     "product_id": "karibu-saunahaus-skrollan-3-86304",
@@ -5866,6 +5898,16 @@
           "url": "https://www.karibu.de/Saunahaus-Skrollan-3-mit-Vorraum",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 4059,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/karibu-saunahaus-skrollan-3-naturbleassen.html",
+          "affiliate": false,
+          "last_checked": "2026-08-29",
+          "configuration": "Naturbelassen · Ofen- und Türvariante im Shop auswählen",
+          "selection_required": true
         }
       ]
     },
@@ -5900,9 +5942,15 @@
         "title": "Karibu Produktseite Saunahaus Skrollan 3 mit Vorraum",
         "url": "https://www.karibu.de/Saunahaus-Skrollan-3-mit-Vorraum",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite Karibu Saunahaus Skrollan 3 Naturbelassen",
+        "url": "https://benz24.de/karibu-saunahaus-skrollan-3-naturbleassen.html",
+        "checked_at": "2026-08-29"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-08-29"
   },
   {
     "product_id": "karibu-saunahaus-mainburg-1-35866",

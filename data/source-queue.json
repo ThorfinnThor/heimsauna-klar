@@ -3878,5 +3878,32 @@
     "target_voltage": "wood",
     "status": "verified",
     "notes": "Offizielle Produktseite: Max XL Bundle, 230 × 400 × 197 cm, bis 12 Personen, Intent-2-Holzofen und Zubehör; Preis ab 2.241 €; am 2026-08-28 geprüft."
+  },
+  {
+    "queue_id": "intergard-innensauna-205x168-40",
+    "manufacturer": "InterGard",
+    "url": "https://www.intergardshop.de/innensauna-fichte-205x168cm",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "queued",
+    "notes": "Awin-Feed und Händlerübersicht bestätigen Name, Preis und Lieferstatus. Höhe, Personenanzahl, Ausstattung und Anschlussdaten fehlen noch; nicht veröffentlichen, bis eine vollständige Produktquelle vorliegt."
+  },
+  {
+    "queue_id": "intergard-innensauna-205x205-40",
+    "manufacturer": "InterGard",
+    "url": "https://www.intergardshop.de/innensauna-fichte-205x205cm",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "queued",
+    "notes": "Awin-Feed und Händlerübersicht bestätigen Name, Preis und Lieferstatus. Höhe, Personenanzahl, Ausstattung und Anschlussdaten fehlen noch; nicht veröffentlichen, bis eine vollständige Produktquelle vorliegt."
+  },
+  {
+    "queue_id": "intergard-innensauna-eck-205x205-40",
+    "manufacturer": "InterGard",
+    "url": "https://www.intergardshop.de/innensauna-fichte-eckmodell",
+    "target_category": "indoor",
+    "target_voltage": "none",
+    "status": "queued",
+    "notes": "Awin-Feed und Händlerübersicht bestätigen Name, Preis und Lieferstatus. Höhe, Personenanzahl, Ausstattung und Anschlussdaten fehlen noch; nicht veröffentlichen, bis eine vollständige Produktquelle vorliegt."
   }
 ]
