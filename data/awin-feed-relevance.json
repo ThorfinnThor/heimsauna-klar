@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T12:42:45.180Z",
+  "generated_at": "2026-08-29T15:28:10.974Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Relevance signals only; no product data or affiliate links activated",
@@ -24,6 +24,7 @@
         "Ladestation Set für Genie-Serie - DE Standard / Genie 1000",
         "Ladestation Set für Genie-Serie - DE Standard / Genie 3000"
       ],
+      "sampleProducts": [],
       "status": "audited"
     },
     {
@@ -59,6 +60,80 @@
         "Infrarot-Heizplatte / Infrarotheizung TIH 900 S",
         "Infrarot Heizstrahler IR 2050"
       ],
+      "sampleProducts": [
+        {
+          "name": "Infrarot-Thermometer / Pyrometer BP17",
+          "url": "https://de.trotec.com/shop/infrarot-thermometer-pyrometer-bp17.html",
+          "brand": "Trotec",
+          "category": "Power Tools"
+        },
+        {
+          "name": "Infrarot Heizstrahler IR 2000 S",
+          "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-2000-s.html",
+          "brand": "Trotec",
+          "category": "Radiators"
+        },
+        {
+          "name": "Infrarot-Heizplatte / Infrarotheizung TIH 1100 S",
+          "url": "https://de.trotec.com/shop/infrarot-heizplatte-infrarotheizung-tih-1100-s.html",
+          "brand": "Trotec",
+          "category": "Radiators"
+        },
+        {
+          "name": "Infrarot-Thermometer / Pyrometer TP7 Multipunkt Laser",
+          "url": "https://de.trotec.com/shop/infrarot-thermometer-pyrometer-tp7-multipunkt-laser.html",
+          "brand": "Trotec",
+          "category": "Power Tools"
+        },
+        {
+          "name": "Infrarot-Heizplatte / Infrarotheizung TIH 900 S",
+          "url": "https://de.trotec.com/shop/infrarot-heizplatte-infrarotheizung-tih-900-s.html",
+          "brand": "Trotec",
+          "category": "Radiators"
+        },
+        {
+          "name": "Infrarot Heizstrahler IR 2050",
+          "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-2050.html",
+          "brand": "Trotec",
+          "category": "Radiators"
+        },
+        {
+          "name": "Infrarot Heizstrahler IR 1200 S",
+          "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-1200-s.html",
+          "brand": "Trotec",
+          "category": "Radiators"
+        },
+        {
+          "name": "Infrarot-Thermometer / Pyrometer TP10 Multipunkt Laser",
+          "url": "https://de.trotec.com/shop/infrarot-thermometer-pyrometer-tp10-multipunkt-laser.html",
+          "brand": "Trotec",
+          "category": "Power Tools"
+        },
+        {
+          "name": "Infrarot-Heizstrahler IR 3050",
+          "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-3050.html",
+          "brand": "Trotec",
+          "category": "Radiators"
+        },
+        {
+          "name": "Infrarot Heizstrahler IR 2570 S",
+          "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-2570-s.html",
+          "brand": "Trotec",
+          "category": "Radiators"
+        },
+        {
+          "name": "Infrarot Heizstrahler IR 2010 S",
+          "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-2010-s.html",
+          "brand": "Trotec",
+          "category": "Radiators"
+        },
+        {
+          "name": "Ölbefeuertes Infrarot-Heizgerät XL91",
+          "url": "https://de.trotec.com/shop/infrarot-oelheizer-master-xl-91.html",
+          "brand": "Master",
+          "category": "Radiators"
+        }
+      ],
       "status": "audited"
     },
     {
@@ -84,6 +159,80 @@
         "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 3,6 kW",
         "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 4,5 kW",
         "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 7,5 kW"
+      ],
+      "sampleProducts": [
+        {
+          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine günstig",
+          "url": "https://benz24.de/weka-saunaofen-klassik-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 3,6 kW",
+          "url": "https://benz24.de/weka-saunaofen-klassik-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 4,5 kW",
+          "url": "https://benz24.de/weka-saunaofen-klassik-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 7,5 kW",
+          "url": "https://benz24.de/weka-saunaofen-klassik-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 9 kW",
+          "url": "https://benz24.de/weka-saunaofen-klassik-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine günstig",
+          "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 3,6 kW",
+          "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 4,5 kW",
+          "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 7,5 kW",
+          "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 9 kW",
+          "url": "https://benz24.de/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofenset mit Saunasteinen günstig",
+          "url": "https://benz24.de/weka-saunaofenset-mit-saunasteinen-und.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofenset mit Saunasteinen, 3,6 kW, Digital,Saunaofen Klassik",
+          "url": "https://benz24.de/weka-saunaofenset-mit-saunasteinen-und.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        }
       ],
       "status": "audited"
     },
@@ -111,6 +260,80 @@
         "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine günstig",
         "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 3,6 kW"
       ],
+      "sampleProducts": [
+        {
+          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine günstig",
+          "url": "https://benz24.at/weka-saunaofen-klassik-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 3,6 kW",
+          "url": "https://benz24.at/weka-saunaofen-klassik-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 4,5 kW",
+          "url": "https://benz24.at/weka-saunaofen-klassik-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 7,5 kW",
+          "url": "https://benz24.at/weka-saunaofen-klassik-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofen Klassik inkl. 12 kg Saunasteine, 9 kW",
+          "url": "https://benz24.at/weka-saunaofen-klassik-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine günstig",
+          "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 3,6 kW",
+          "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 4,5 kW",
+          "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 7,5 kW",
+          "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Dampfbad-Kombiofen BioAktiv inkl. 12 kg Saunasteine, 9 kW",
+          "url": "https://benz24.at/weka-dampfbad-kombiofen-bioaktiv-inkl-12.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofenset mit Saunasteinen günstig",
+          "url": "https://benz24.at/weka-saunaofenset-mit-saunasteinen-und.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        },
+        {
+          "name": "weka Saunaofenset mit Saunasteinen, 3,6 kW, Digital,Saunaofen Klassik",
+          "url": "https://benz24.at/weka-saunaofenset-mit-saunasteinen-und.html",
+          "brand": "WEKA",
+          "category": "Garden"
+        }
+      ],
       "status": "audited"
     },
     {
@@ -133,6 +356,24 @@
         "Innensauna Eckmodell 205x205cm / 40mm",
         "Saunaheizung Saunaofen 8kw / 380v"
       ],
+      "sampleProducts": [
+        {
+          "name": "Innensauna 205x168cm / 40mm",
+          "url": "https://www.intergardshop.de/innensauna-fichte-205x168cm"
+        },
+        {
+          "name": "Innensauna 205x205cm / 40mm",
+          "url": "https://www.intergardshop.de/innensauna-fichte-205x205cm"
+        },
+        {
+          "name": "Innensauna Eckmodell 205x205cm / 40mm",
+          "url": "https://www.intergardshop.de/innensauna-fichte-eckmodell"
+        },
+        {
+          "name": "Saunaheizung Saunaofen 8kw / 380v",
+          "url": "https://www.intergardshop.de/innensauna-sauna-heizung"
+        }
+      ],
       "status": "audited"
     },
     {
@@ -150,6 +391,7 @@
         "accessory": 0
       },
       "sampleProductNames": [],
+      "sampleProducts": [],
       "status": "audited"
     },
     {
@@ -175,6 +417,80 @@
         "Dampfdusche mit Wasserfall und Dampfsauna WHITE PEARL - 120 x 80 cm Links",
         "Duschkabine mit Badewanne ALLIN 2IN1 - 170 x 90 Schwarz Links",
         "Duschkabine mit Badewanne ALLIN 2IN1 - 170 x 90 Schwarz Rechts"
+      ],
+      "sampleProducts": [
+        {
+          "name": "Dampfdusche mit Wasserfall und Dampfsauna BLACK PEARL - 100 x 100 cm",
+          "url": "https://www.homedeluxe.de/dampfdusche-black-pearl-100-x-100-cm_1936_1024/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        },
+        {
+          "name": "Dampfdusche mit Wasserfall und Dampfsauna BLACK PEARL  - 120 x 80 cm Rechts",
+          "url": "https://www.homedeluxe.de/dampfdusche-black-pearl-120-x-80-cm-rechts_1939_1026/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        },
+        {
+          "name": "Dampfdusche mit Wasserfall und Dampfsauna BLACK PEARL - 120 x 80 cm Links",
+          "url": "https://www.homedeluxe.de/dampfdusche-black-pearl-120-x-80-cm-links_1940_1027/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        },
+        {
+          "name": "Dampfdusche mit Wasserfall und Dampfsauna WHITE PEARL - 90 x 90 cm",
+          "url": "https://www.homedeluxe.de/dampfdusche-white-pearl-90-x-90-cm_1941_1028/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        },
+        {
+          "name": "Dampfdusche mit Wasserfall und Dampfsauna WHITE PEARL - 100 x 100 cm",
+          "url": "https://www.homedeluxe.de/dampfdusche-white-pearl-100-x-100-cm_1942_1029/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        },
+        {
+          "name": "Dampfdusche mit Wasserfall und Dampfsauna WHITE PEARL - 120 x 80 cm Links",
+          "url": "https://www.homedeluxe.de/dampfdusche-white-pearl-120-x-80-cm-links_1944_1031/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        },
+        {
+          "name": "Dampfdusche mit Whirlpoolfunktion und Dampfsauna EXCLUSIVE - 150 x 150 cm Schwarz",
+          "url": "https://www.homedeluxe.de/dampfdusche-exclusive-schwarz_1951_1038/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        },
+        {
+          "name": "Dampfdusche mit Whirlpoolfunktion und Dampfsauna EXCLUSIO - 135 x 135 cm Schwarz",
+          "url": "https://www.homedeluxe.de/dampfdusche-exclusio-schwarz_1964_1051/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        },
+        {
+          "name": "Dampfdusche mit Whirlpoolfunktion und Dampfsauna EXCLUSIVE - 150 x 150 cm Weiß",
+          "url": "https://www.homedeluxe.de/dampfdusche-exclusive-weiss_1978_1064/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        },
+        {
+          "name": "Dampfdusche mit Wasserfall und Dampfsauna LUXORY - 120 x 90 cm Schwarz",
+          "url": "https://www.homedeluxe.de/dampfdusche-black-luxory-xl_1984_1067/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        },
+        {
+          "name": "Infrarotkabine REDSUN M - 120 x 105 cm für 2 Personen",
+          "url": "https://www.homedeluxe.de/infrarotkabine-redsun-m_2056_1138/",
+          "brand": "Home Deluxe",
+          "category": "House Accessories"
+        },
+        {
+          "name": "Dampfdusche mit Wasserfall und Dampfsauna LUXORY - 120 x 90 cm Weiß",
+          "url": "https://www.homedeluxe.de/dampfdusche-white-luxory-xl_2552_1221/",
+          "brand": "Home Deluxe",
+          "category": "Showers"
+        }
       ],
       "status": "audited"
     },
@@ -202,6 +518,7 @@
         "Fassadenverkleidung aus Fichte/ Tanne - Massivholz, 19 x 96 mm, Schrägprofil, weiß grundiert (PE = 6 Stk.) - Länge: 4,20 m",
         "Fassadenverkleidung aus Fichte/ Tanne - Massivholz, 19 x 96 mm, Schrägprofil, weiß grundiert (PE = 6 Stk.) - Länge: 4,50 m"
       ],
+      "sampleProducts": [],
       "status": "audited"
     },
     {
@@ -219,6 +536,7 @@
         "accessory": 0
       },
       "sampleProductNames": [],
+      "sampleProducts": [],
       "status": "audited"
     },
     {
@@ -236,6 +554,7 @@
         "accessory": 0
       },
       "sampleProductNames": [],
+      "sampleProducts": [],
       "status": "audited"
     },
     {
@@ -253,6 +572,7 @@
         "accessory": 0
       },
       "sampleProductNames": [],
+      "sampleProducts": [],
       "status": "audited"
     },
     {
@@ -279,6 +599,77 @@
         "Infrarotkabine Helsinki 150 - Schwarz",
         "Infrarotkabine Kiruna 120"
       ],
+      "sampleProducts": [
+        {
+          "name": "Infrarotkabine Helsinki 150",
+          "url": "https://artsauna.de/products/infrarotkabine-warmekabine-helsinki-150-mit-triplex-heizsystem-hemlockholz",
+          "brand": "Artsauna",
+          "category": "House Accessories"
+        },
+        {
+          "name": "Infrarotkabine Aalborg",
+          "url": "https://artsauna.de/products/infrarotkabine-warmekabine-aalborg-mit-triplex-heizsystem-hemlockholz",
+          "brand": "Artsauna"
+        },
+        {
+          "name": "Infrarotkabine Kolding",
+          "url": "https://artsauna.de/products/infrarotkabine-warmekabine-kolding-mit-triplex-heizsystem-hemlockholz",
+          "brand": "Artsauna"
+        },
+        {
+          "name": "Infrarotkabine Esbjerg",
+          "url": "https://artsauna.de/products/infrarotkabine-warmekabine-esbjerg-mit-triplex-heizsystem-hemlockholz",
+          "brand": "Artsauna"
+        },
+        {
+          "name": "Infrarotkabine Kiruna 90",
+          "url": "https://artsauna.de/products/infrarotkabine-kiruna90-mit-dual-technologie",
+          "brand": "Artsauna",
+          "category": "House Accessories"
+        },
+        {
+          "name": "Infrarotkabine Kiruna 160",
+          "url": "https://artsauna.de/products/infrarotkabine-kiruna160-mit-dual-technologie",
+          "brand": "Artsauna",
+          "category": "House Accessories"
+        },
+        {
+          "name": "Infrarotkabine Helsinki 150 - Schwarz",
+          "url": "https://artsauna.de/products/infrarotkabine-helsinki-150-mit-dual-technology-schwarz",
+          "brand": "Artsauna",
+          "category": "House Accessories"
+        },
+        {
+          "name": "Infrarotkabine Kiruna 120",
+          "url": "https://artsauna.de/products/infrarotkabine-kiruna-120",
+          "brand": "Artsauna",
+          "category": "House Accessories"
+        },
+        {
+          "name": "Infrarotkabine Nyborg S120K",
+          "url": "https://artsauna.de/products/infrarotkabine-nyborg-s120k",
+          "brand": "Artsauna",
+          "category": "House Accessories"
+        },
+        {
+          "name": "Infrarotkabine Nyborg E150V",
+          "url": "https://artsauna.de/products/infrarotkabine-warmekabine-nyborg-e150v",
+          "brand": "Artsauna",
+          "category": "House Accessories"
+        },
+        {
+          "name": "Infrarotkabine Nyborg S120V",
+          "url": "https://artsauna.de/products/infrarotkabine-nyborg-s120v",
+          "brand": "Artsauna",
+          "category": "House Accessories"
+        },
+        {
+          "name": "Infrarotkabine Nyborg S90V",
+          "url": "https://artsauna.de/products/infrarotkabine-nyborg-s90v",
+          "brand": "Artsauna",
+          "category": "House Accessories"
+        }
+      ],
       "status": "audited"
     },
     {
@@ -296,6 +687,7 @@
         "accessory": 0
       },
       "sampleProductNames": [],
+      "sampleProducts": [],
       "status": "audited"
     }
   ]
