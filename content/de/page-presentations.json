@@ -257,6 +257,66 @@
         "copy": ["Große Kabinen verändern Anlieferung, Fundament, Raumhöhe und Heizleistung. Die Auswahl beginnt deshalb mit den Folgen der Größe und führt erst danach in die Produktdaten. Das verhindert, dass eine Kapazitätszahl ohne baulichen Kontext stehen bleibt.", "Die Ergebnisse zeigen dokumentierte Produkte mit ihrer Fläche, Kapazität und Technik. Fehlende Leistungs- oder Anschlussangaben bleiben sichtbar, damit die Liste keine Genauigkeit vortäuscht, die der jeweilige Datensatz nicht hergibt."],
         "points": ["Anlieferung vorab klären", "Fundament und Wartung einplanen", "Anschlussdaten belegen"]
       }
+    },
+    "infrared-one-person": {
+      "hero": "compact",
+      "results": "ledger",
+      "method": "steps",
+      "flow": ["editorial", "insight", "method", "checks", "results"],
+      "insight": {
+        "kicker": "Einzelplatz im Raum",
+        "title": "Eine Einpersonen-Kabine wird über Sitzposition und Zugang beurteilt.",
+        "copy": ["Die Kapazitätsangabe grenzt die Auswahl ein, erklärt aber weder Sitzbreite noch Abstand der Wärmequellen. Die Seite stellt deshalb die räumlichen Angaben vor die Produktliste und lässt fehlende Innenmaße als offene Prüfung stehen.", "Die kompakte Darstellung ist für eine schnelle Vorauswahl gedacht. Sie führt von Tür, Sitz und Anschluss in die einzelnen Datensätze, ohne eine Wirkung oder einen Komfort zu behaupten, der nicht gemessen wurde."],
+        "points": ["Sitzmaß prüfen", "Türanschlag abgleichen", "Strahlerposition lesen"]
+      }
+    },
+    "infrared-two-person": {
+      "hero": "index",
+      "results": "cards",
+      "method": "split",
+      "flow": ["insight", "results", "method", "editorial", "checks"],
+      "insight": {
+        "kicker": "Zwei Sitzpositionen",
+        "title": "Bei zwei Plätzen muss die dokumentierte Heiztechnik beide Positionen erreichen.",
+        "copy": ["Ein Preis- oder Kapazitätsvergleich kann die Strahleranordnung nicht ersetzen. Breite, Sitzwinkel und Abstand zur Tür entscheiden darüber, ob zwei Personen die Kabine wie vorgesehen nutzen können.", "Die Ergebnisse stehen hier früh, weil die Produktauswahl der häufigste Einstieg ist. Die Einordnung danach erklärt, welche Angaben am Modell geprüft werden müssen und wo der Feed keine belastbare Aussage enthält."],
+        "points": ["Strahler für beide Plätze prüfen", "Innenbreite ausmessen", "Leistung und Spannung trennen"]
+      }
+    },
+    "infrared-three-plus": {
+      "hero": "split",
+      "results": "table",
+      "method": "panel",
+      "flow": ["method", "insight", "editorial", "results", "checks"],
+      "insight": {
+        "kicker": "Größere Infrarotkabinen",
+        "title": "Mehr Plätze bringen mehr Raum und zusätzliche technische Fragen.",
+        "copy": ["Bei drei oder mehr ausgewiesenen Plätzen reicht ein Blick auf die Außenmaße nicht. Sitzverteilung, Strahlerabdeckung, Leistung und elektrische Absicherung müssen als zusammengehörige Angaben gelesen werden.", "Die Tabelle hält belegte Werte und offene Stellen nebeneinander. So kann ein größeres Modell gefunden werden, ohne aus der Kapazität eine pauschale Aussage über Wärme oder Alltagstauglichkeit abzuleiten."],
+        "points": ["Sitzanordnung vergleichen", "Strahlerabdeckung abgleichen", "Anschluss am Standort prüfen"]
+      }
+    },
+    "finnish-two-person": {
+      "hero": "editorial",
+      "results": "ledger",
+      "method": "split",
+      "flow": ["results", "editorial", "insight", "method", "checks"],
+      "insight": {
+        "kicker": "Klassisches Klima zu zweit",
+        "title": "Eine finnische Zweierkabine ist ein abgestimmtes System aus Ofen und Raum.",
+        "copy": ["Kapazität, Kabinenvolumen, Ofenleistung, Steuerung und Lüftung hängen zusammen. Die Produktliste zeigt die belegten Daten, während die redaktionelle Einordnung erklärt, welche Kombination am Standort geprüft werden muss.", "Die Darstellung setzt die Ergebnisse an den Anfang, weil die Suche meist mit einem konkreten Modell beginnt. Danach folgen Raum- und Technikfragen, die eine vorschnelle Entscheidung über das kleinste Außenmaß verhindern."],
+        "points": ["Volumen und Ofen abgleichen", "Bankgeometrie prüfen", "Luftweg im Raumplan ergänzen"]
+      }
+    },
+    "finnish-three-person": {
+      "hero": "compact",
+      "results": "table",
+      "method": "panel",
+      "flow": ["insight", "method", "checks", "editorial", "results"],
+      "insight": {
+        "kicker": "Drei Plätze mit klassischem Ofen",
+        "title": "Die Nutzung der Bänke entscheidet, wie viel Kabinenfläche sinnvoll ist.",
+        "copy": ["Drei Personen können auf einer langen Bank sitzen, über Eck verteilt sein oder eine Liegefläche teilen. Die Kapazitätsangabe bleibt deshalb der Filter; Bankhöhe, Innenbreite und Türposition liefern die Entscheidungshilfe.", "Die technische Prüfung folgt dem Raum. Volumen, Ofenleistung, Anschluss und Lüftung werden am konkreten Modell gesucht, damit ähnlich klingende Kabinen nicht wegen einer einzigen Zahl gleich behandelt werden."],
+        "points": ["Sitz- und Liegekonzept prüfen", "Ofenbereich mit Volumen vergleichen", "Tür und Luftweg einzeichnen"]
+      }
     }
   },
   "planning_guides": {

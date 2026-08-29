@@ -73,7 +73,7 @@
       "narrative_angle": "Breite, Türbewegung und Sitzraum werden aus der Perspektive enger Wohnräume gelesen.",
       "filter": { "categories": ["infrared"], "people_exact": 1 },
       "evidence_basis": "Außenmaße, Stellfläche, Sitzplätze und Strahlerangaben",
-      "status": "planned"
+      "status": "published"
     },
     {
       "id": "infrared-two-person",
@@ -84,7 +84,7 @@
       "narrative_angle": "Die nominelle Kapazität wird mit Grundfläche und Kabinenproportionen verbunden.",
       "filter": { "categories": ["infrared"], "people_exact": 2 },
       "evidence_basis": "Kapazität, Maße, Stellfläche und Heiztechnik",
-      "status": "planned"
+      "status": "published"
     },
     {
       "id": "infrared-three-plus",
@@ -95,7 +95,7 @@
       "narrative_angle": "Größere Kabinen werden nach Platzverteilung, Heiztechnik und Anschluss verglichen.",
       "filter": { "categories": ["infrared"], "people_min": 3 },
       "evidence_basis": "Kapazität, Maße, Spannung und Strahlerangaben",
-      "status": "planned"
+      "status": "published"
     },
     {
       "id": "finnish-two-person",
@@ -106,7 +106,7 @@
       "narrative_angle": "Kompaktheit, Ofenkonfiguration und realer Bewegungsraum werden gemeinsam betrachtet.",
       "filter": { "categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 2 },
       "evidence_basis": "Saunatyp, Kapazität, Außenmaße und Ofenangaben",
-      "status": "planned"
+      "status": "published"
     },
     {
       "id": "finnish-three-person",
@@ -117,7 +117,7 @@
       "narrative_angle": "Sitz- und Liegekonzept erklären, weshalb ähnlich große Außenmaße unterschiedlich nutzbar sein können.",
       "filter": { "categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 3 },
       "evidence_basis": "Kapazität, Sitzplätze, Liegeplätze, Maße und Ofenstatus",
-      "status": "planned"
+      "status": "published"
     },
     {
       "id": "finnish-four-person",
