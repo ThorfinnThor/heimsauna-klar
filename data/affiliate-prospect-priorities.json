@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-30",
+  "market": "Deutschland",
+  "purpose": "Priorisierung relevanter Affiliate-Programme für den bestehenden Sauna- und Infrarotkatalog.",
+  "method": "Programme werden nach Produktdeckung, verfügbarer Feed- oder Deeplink-Unterstützung und dem Abstand zu bereits aktiven Angeboten priorisiert. Konditionen müssen vor einer Bewerbung im jeweiligen Publisher-Konto erneut geprüft werden.",
+  "tiers": [
+    {
+      "priority": 1,
+      "label": "Jetzt beantragen",
+      "reason": "Diese Programme decken genau die Produktgruppen ab, für die bereits viele redaktionelle Seiten und Produktdatensätze bestehen.",
+      "programs": [
+        {
+          "name": "Mein-Saunashop",
+          "network": "ADCELL",
+          "program_url": "https://www.adcell.de/partnerprogramme/mein-saunashop",
+          "repo_program_id": "adcell-mein-saunashop",
+          "repo_status": "candidate",
+          "catalog_fit": "Indoor- und Outdoor-Saunen, Infrarotkabinen, Öfen und Zubehör; CSV und Deeplink vorhanden.",
+          "next_action": "Bewerbung senden und nach Freigabe den CSV-Feed auf Karibu-, WEKA- und Saunashop-Angebote prüfen."
+        },
+        {
+          "name": "Sauna24",
+          "network": "ADCELL",
+          "program_url": "https://www.adcell.de/partnerprogramme/sauna24",
+          "repo_program_id": "adcell-sauna24",
+          "repo_status": "candidate",
+          "catalog_fit": "Saunabau, Saunaöfen, Saunasets und Zubehör; CSV und Deeplink vorhanden.",
+          "next_action": "Bewerbung senden und zuerst Ofen-, Steuerungs- und Zubehörseiten zuordnen."
+        },
+        {
+          "name": "Wellness-Point",
+          "network": "ADCELL",
+          "program_url": "https://www.adcell.de/partnerprogramme/5351",
+          "repo_program_id": "adcell-wellness-point",
+          "repo_status": "candidate",
+          "catalog_fit": "Premium-Infrarotkabinen und Saunen; CSV und Deeplink vorhanden.",
+          "next_action": "Bewerbung senden und die Zuordnung auf exakt belegte Produkt-URLs begrenzen."
+        },
+        {
+          "name": "KÖMPF24",
+          "network": "ADCELL",
+          "program_url": "https://www.adcell.de/partnerprogramme/11202",
+          "repo_program_id": "adcell-koempf24",
+          "repo_status": "candidate",
+          "catalog_fit": "Gartensaunen und Haus-Garten-Sortiment; CSV, Deeplink und Preisvergleich sind laut Programmbeschreibung vorgesehen.",
+          "next_action": "Bewerbung senden und Outdoor-Produkte nur mit exakter Händler-URL aktivieren."
+        },
+        {
+          "name": "GartenhausPlus.de",
+          "network": "ADCELL",
+          "program_url": "https://www.adcell.de/partnerprogramme/1902",
+          "repo_program_id": "adcell-gartenhausplus",
+          "repo_status": "candidate",
+          "catalog_fit": "Gartenhäuser und Saunahäuser; vor allem für Outdoor- und Fundamentseiten relevant.",
+          "next_action": "Programmstatus im ADCELL-Konto bestätigen und anschließend Outdoor-Feed prüfen."
+        },
+        {
+          "name": "TroniTechnik",
+          "network": "Awin",
+          "program_url": "https://ui.awin.com/merchant-profile/16584",
+          "repo_program_id": "awin-tronitechnik",
+          "repo_status": "candidate",
+          "catalog_fit": "Infrarotkabinen, Saunen und Wellnessprodukte; besonders relevant für Dewello- und TroniTechnik-Angebote.",
+          "next_action": "Awin-Bewerbung senden und nach Freigabe den verfügbaren Produktfeed mit den bestehenden Modell-URLs abgleichen."
+        }
+      ]
+    },
+    {
+      "priority": 2,
+      "label": "Später ergänzen",
+      "reason": "Diese Programme erhöhen den Warenkorb oder schließen Herstellerlücken, sind aber für den Kernkatalog weniger dringend.",
+      "programs": [
+        {
+          "name": "Saunadreams",
+          "network": "ADCELL",
+          "program_url": "https://www.adcell.de/partnerprogramme/saunadreams",
+          "repo_status": "not_registered",
+          "catalog_fit": "Aufgüsse, Emulsionen und Sauna-Zubehör; kein Ersatz für Kabinenprogramme.",
+          "next_action": "Erst bewerben, wenn Zubehör- und Pflegeinhalte als eigener Katalogbereich geplant sind."
+        }
+      ]
+    },
+    {
+      "priority": 3,
+      "label": "Direkt beim Anbieter prüfen",
+      "reason": "Für diese Marken ist im aktuellen Netzwerkbestand kein verifiziertes Programm hinterlegt. Eine direkte Händler- oder Herstelleranfrage ist sinnvoll, ohne einen bestehenden Affiliate-Status zu unterstellen.",
+      "programs": [
+        { "name": "Karibu", "network": "direct-or-network-check", "repo_status": "no_program_verified", "catalog_fit": "224 Produkte im Katalog; größte nicht monetarisierte Marke.", "next_action": "Nach einem offiziellen Partnerprogramm oder autorisierten Händler mit Feed fragen." },
+        { "name": "WEKA", "network": "direct-or-network-check", "repo_status": "no_program_verified", "catalog_fit": "76 Produkte im Katalog; relevant für Indoor- und Gartensauna.", "next_action": "Nach Herstellerprogramm oder Händlerprogramm mit exakten Produktlinks fragen." },
+        { "name": "Harvia", "network": "direct-or-network-check", "repo_status": "no_program_verified", "catalog_fit": "39 Produkte; vor allem Öfen und Technik.", "next_action": "Nach deutschem Shop- oder Händlerprogramm für Öfen und Steuerungen fragen." },
+        { "name": "Dewello", "network": "direct-or-network-check", "repo_status": "no_program_verified", "catalog_fit": "22 Infrarotkabinen; TroniTechnik ist als möglicher Vertriebsweg bereits Kandidat.", "next_action": "Zuerst TroniTechnik prüfen, danach Dewello nach einem offiziellen Partnerweg fragen." },
+        { "name": "Saunaloft", "network": "direct-or-network-check", "repo_status": "no_program_verified", "catalog_fit": "Relevanter Händler für Dewello- und Outdoor-Angebote.", "next_action": "Nach einem eigenen Partnerprogramm oder einer Awin-/ADCELL-Zuordnung fragen." },
+        { "name": "Bast Sauna", "network": "direct-or-network-check", "repo_status": "no_program_verified", "catalog_fit": "Mögliche Ergänzung für hochwertige Saunahaus-Angebote.", "next_action": "Direkten Affiliate- oder Content-Partnerschaftskontakt ermitteln." },
+        { "name": "Demmelhuber", "network": "direct-or-network-check", "repo_status": "no_program_verified", "catalog_fit": "Mögliche Ergänzung im individuellen oder hochwertigen Saunabau.", "next_action": "Direkten Kooperationsweg anfragen." }
+      ]
+    }
+  ],
+  "do_not_apply": [
+    {
+      "name": "SaunaTempel24",
+      "network": "ADCELL",
+      "reason": "Das auf ADCELL gelistete Programm wurde laut Programmbeschreibung am 01.07.2020 beendet.",
+      "source_url": "https://www.adcell.de/partnerprogramme/saunatempel24"
+    }
+  ],
+  "active_programs_already_available": ["Artsauna", "Home Deluxe", "Benz24", "InterGard"],
+  "operational_rule": "Kein Affiliate-Link wird aktiviert, bevor Händler, Ziel-URL, Produktidentität und Tracking-Parameter im Feed gemeinsam geprüft wurden."
+}
