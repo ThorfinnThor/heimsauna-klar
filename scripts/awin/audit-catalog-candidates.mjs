@@ -5,24 +5,28 @@ import { readFeedRows } from "./source.mjs";
 
 const rawUrl = process.env.AWIN_FEED_LIST_URL?.trim();
 if (!rawUrl) throw new Error("AWIN_FEED_LIST_URL is not configured");
+const requestedMerchantId = process.env.AWIN_CANDIDATE_MERCHANT_ID?.trim() || "benz24";
 
 const [products, feedListRows] = await Promise.all([
   readFile("data/products.json", "utf8").then(JSON.parse),
   readFeedRows(assertFeedListUrl(rawUrl)),
 ]);
 const targets = resolveTargetFeeds(parseEligibleFeeds(feedListRows));
-const target = targets.find((candidate) => candidate.merchantId === "benz24");
-if (!target) throw new Error("Benz24 target feed is missing");
+const target = targets.find((candidate) => candidate.merchantId === requestedMerchantId);
+if (!target) throw new Error(`Candidate target feed is missing: ${requestedMerchantId}`);
 const rows = await readFeedRows(target.entry.feedUrl, {
   maxDownloadBytes: 250_000_000,
   maxRows: 250_000,
   userAgent: "SelectYourSauna-AwinCatalogCandidateAudit/1.0",
 });
-const candidates = findCatalogCandidates(products, rows, { merchantName: "Benz24" });
+const candidates = findCatalogCandidates(products, rows, { merchantName: target.label });
+const reportPath = target.merchantId === "benz24"
+  ? "data/awin-catalog-candidates.json"
+  : `data/awin-catalog-candidates-${target.merchantId}.json`;
 const report = {
   schema_version: 1,
   generated_at: new Date().toISOString(),
-  source: "Awin authenticated Benz24 Deutschland product feed",
+  source: `Awin authenticated ${target.entry.advertiserName} product feed`,
   secret_included: false,
   activation_policy: "Candidate tokens only; no catalog records, offers, prices, or affiliate links changed",
   advertiser_id: target.advertiserId,
@@ -36,5 +40,5 @@ const report = {
   candidates,
 };
 
-await writeFile("data/awin-catalog-candidates.json", `${JSON.stringify(report, null, 2)}\n`, "utf8");
-console.log(`Benz24 catalog audit: ${report.unlinked_candidates} unlinked and ${report.already_linked_candidates} already linked candidates.`);
+await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+console.log(`${target.entry.advertiserName} catalog audit: ${report.unlinked_candidates} unlinked and ${report.already_linked_candidates} already linked candidates (${reportPath}).`);

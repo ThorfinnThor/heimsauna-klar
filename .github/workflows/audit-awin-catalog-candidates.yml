@@ -2,6 +2,17 @@ name: Audit Awin catalog candidates
 
 on:
   workflow_dispatch:
+    inputs:
+      merchant_id:
+        description: "Awin target to audit"
+        required: true
+        default: "benz24"
+        type: choice
+        options:
+          - benz24
+          - artsauna
+          - home-deluxe
+          - intergard
 
 permissions:
   contents: write
@@ -15,6 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       AWIN_FEED_LIST_URL: ${{ secrets.AWIN_FEED_LIST_URL }}
+      AWIN_CANDIDATE_MERCHANT_ID: ${{ inputs.merchant_id }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -38,7 +50,7 @@ jobs:
         run: |
           git config user.name "selectyoursauna-data-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/awin-catalog-candidates.json
+          git add data/awin-catalog-candidates*.json
           git diff --cached --quiet && echo "No candidate changes." && exit 0
           git commit -m "chore(data): audit Awin catalog candidates"
           git push
