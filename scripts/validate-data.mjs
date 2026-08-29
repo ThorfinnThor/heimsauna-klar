@@ -239,6 +239,23 @@ for (const slug of Object.keys(planningNavigation.guide_paths)) {
 
 if (!Array.isArray(collections) || collections.length === 0) throw new Error("content/de/collections.json must contain collections");
 const collectionRoutes = new Set();
+const supportedCollectionFilterKeys = new Set([
+  "brands",
+  "categories",
+  "depth_max",
+  "footprint_max",
+  "footprint_min",
+  "heater_contains",
+  "height_max",
+  "lying_places_min",
+  "people_exact",
+  "people_min",
+  "price_max",
+  "sauna_types",
+  "voltages",
+  "width_max",
+  "wood_contains",
+]);
 const collectionMatchers = {
   mini_indoor: (product) => ["indoor", "infrared"].includes(product.category) && product.dimensions_cm.width * product.dimensions_cm.depth <= 30_000,
   one_person_indoor: (product) => ["indoor", "infrared"].includes(product.category) && product.people.max === 1,
@@ -254,15 +271,47 @@ const collectionMatchers = {
   finnish: (product) => product.sauna.type === "Finnische Sauna",
   area_under_6: (product) => product.dimensions_cm.width * product.dimensions_cm.depth <= 60_000,
 };
+
+function matchesCollectionFilter(product, filter) {
+  const price = Math.min(...product.commercial.offers.map((offer) => offer.price));
+  const footprint = product.dimensions_cm.width * product.dimensions_cm.depth / 10_000;
+  const includesFolded = (value, needle) => value.toLocaleLowerCase("de").includes(needle.toLocaleLowerCase("de"));
+  if (filter.brands && !filter.brands.includes(product.brand)) return false;
+  if (filter.categories && !filter.categories.includes(product.category)) return false;
+  if (filter.sauna_types && !filter.sauna_types.includes(product.sauna.type)) return false;
+  if (filter.voltages && !filter.voltages.includes(product.power.voltage)) return false;
+  if (filter.people_exact !== undefined && product.people.max !== filter.people_exact) return false;
+  if (filter.people_min !== undefined && product.people.max < filter.people_min) return false;
+  if (filter.price_max !== undefined && price > filter.price_max) return false;
+  if (filter.footprint_min !== undefined && footprint < filter.footprint_min) return false;
+  if (filter.footprint_max !== undefined && footprint > filter.footprint_max) return false;
+  if (filter.width_max !== undefined && product.dimensions_cm.width > filter.width_max) return false;
+  if (filter.depth_max !== undefined && product.dimensions_cm.depth > filter.depth_max) return false;
+  if (filter.height_max !== undefined && product.dimensions_cm.height > filter.height_max) return false;
+  if (filter.lying_places_min !== undefined && product.people.lying_places < filter.lying_places_min) return false;
+  if (filter.heater_contains && !includesFolded(product.sauna.heater_type, filter.heater_contains)) return false;
+  if (filter.wood_contains && !includesFolded(product.sauna.wood_type, filter.wood_contains)) return false;
+  return true;
+}
+
 for (const collection of collections) {
-  for (const key of ["id", "section", "slug", "kind", "eyebrow", "title", "accent", "description", "intro", "layout", "rule", "sort"]) {
+  for (const key of ["id", "section", "slug", "kind", "eyebrow", "title", "accent", "description", "intro", "layout", "sort"]) {
     if (typeof collection[key] !== "string" || collection[key].trim() === "") throw new Error(`Collection is missing ${key}`);
   }
   if (!["indoor-sauna", "outdoor-sauna", "vergleiche"].includes(collection.section)) {
     throw new Error(`Unsupported collection section: ${collection.id}`);
   }
-  if (!["mini_indoor", "one_person_indoor", "small_garden", "price_under_2500", "two_person_indoor", "infrared", "bio_sauna", "barrel_sauna", "price_under_4000", "four_person", "three_person_indoor", "finnish", "area_under_6"].includes(collection.rule)) {
+  if (Boolean(collection.rule) === Boolean(collection.filters)) throw new Error(`${collection.id} needs exactly one legacy rule or declarative filter`);
+  if (collection.rule && !Object.hasOwn(collectionMatchers, collection.rule)) {
     throw new Error(`Unsupported collection rule: ${collection.id}`);
+  }
+  if (collection.filters) {
+    if (typeof collection.filters !== "object" || Array.isArray(collection.filters) || Object.keys(collection.filters).length === 0) {
+      throw new Error(`${collection.id} needs a non-empty filter object`);
+    }
+    for (const key of Object.keys(collection.filters)) {
+      if (!supportedCollectionFilterKeys.has(key)) throw new Error(`${collection.id} uses unsupported filter ${key}`);
+    }
   }
   if (!["footprint", "price"].includes(collection.sort)) throw new Error(`Unsupported collection sort: ${collection.id}`);
   if (!["space", "outdoor", "budget", "heat", "capacity", "technical", "tradeoff"].includes(collection.layout)) throw new Error(`Unsupported collection layout: ${collection.id}`);
@@ -302,7 +351,10 @@ for (const collection of collections) {
   const route = `${collection.section}/${collection.slug}`;
   if (collectionRoutes.has(route)) throw new Error(`Duplicate collection route: ${route}`);
   collectionRoutes.add(route);
-  if (!products.some((product) => product.status === "verified" && collectionMatchers[collection.rule](product))) {
+  const collectionMatcher = collection.rule
+    ? collectionMatchers[collection.rule]
+    : (product) => matchesCollectionFilter(product, collection.filters);
+  if (!products.some((product) => product.status === "verified" && collectionMatcher(product))) {
     throw new Error(`${collection.id} has no matching verified products`);
   }
 }

@@ -12,7 +12,7 @@
     "deploy:cloudflare": "npm run build:cloudflare && npx wrangler deploy",
     "start": "next start",
     "lint": "eslint app scripts --ignore-pattern .next --ignore-pattern out",
-    "data:check": "node scripts/validate-data.mjs",
+    "data:check": "node scripts/validate-data.mjs && node scripts/audit-editorial-expansion.mjs",
     "links:check": "node scripts/check-internal-links.mjs",
     "seo:check": "node scripts/check-static-seo.mjs",
     "diversity:check": "node scripts/check-content-diversity.mjs",
