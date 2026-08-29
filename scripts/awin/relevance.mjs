@@ -46,7 +46,18 @@ function cleanHttpsUrl(value) {
   if (!value) return undefined;
   try {
     const url = new URL(value);
-    if (url.protocol !== "https:" || url.username || url.password || url.port) return undefined;
+    const hostname = url.hostname.toLowerCase();
+    if (
+      url.protocol !== "https:" ||
+      url.username ||
+      url.password ||
+      url.port ||
+      hostname === "awin.com" ||
+      hostname.endsWith(".awin.com") ||
+      /(^|\.)awin\d*\.com$/.test(hostname)
+    ) {
+      return undefined;
+    }
     url.search = "";
     url.hash = "";
     return url.toString();

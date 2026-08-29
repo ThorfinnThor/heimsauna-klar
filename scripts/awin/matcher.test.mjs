@@ -40,6 +40,17 @@ test("feed relevance audit counts signal rows without activating products", () =
   ]);
 });
 
+test("feed relevance samples exclude Awin tracking hosts", () => {
+  const audit = auditFeedRows([
+    { title: "Saunaofen", link: "https://www.awin1.com/cread.php?s=secret" },
+    { title: "Gartensauna", link: "https://merchant.example/sauna" },
+  ]);
+  assert.deepEqual(audit.sampleProducts, [
+    { name: "Saunaofen" },
+    { name: "Gartensauna", url: "https://merchant.example/sauna" },
+  ]);
+});
+
 test("affiliate activation requires an exact canonical merchant URL", () => {
   const products = [{
     product_id: "artsauna-kiruna-120",
