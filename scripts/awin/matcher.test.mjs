@@ -51,6 +51,25 @@ test("feed relevance samples exclude Awin tracking hosts", () => {
   ]);
 });
 
+test("feed relevance samples read standard Awin price and category fields", () => {
+  const audit = auditFeedRows([
+    {
+      product_name: "Saunahaus Nord",
+      merchant_deep_link: "https://merchant.example/saunahaus-nord?variant=1",
+      merchant_category: "Gartensaunen",
+      product_price: "4999.00 EUR",
+    },
+  ]);
+  assert.deepEqual(audit.sampleProducts, [
+    {
+      name: "Saunahaus Nord",
+      url: "https://merchant.example/saunahaus-nord",
+      category: "Gartensaunen",
+      price: "4999.00 EUR",
+    },
+  ]);
+});
+
 test("affiliate activation requires an exact canonical merchant URL", () => {
   const products = [{
     product_id: "artsauna-kiruna-120",

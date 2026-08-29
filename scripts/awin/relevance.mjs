@@ -28,8 +28,28 @@ const PRODUCT_URL_FIELDS = [
 ];
 
 const BRAND_FIELDS = ["brand", "brand_name", "brand name", "manufacturer"];
-const CATEGORY_FIELDS = ["category", "category_name", "category name", "product_type", "product type"];
-const PRICE_FIELDS = ["price", "sale_price", "sale price", "current_price", "current price"];
+const CATEGORY_FIELDS = [
+  "category",
+  "category_name",
+  "category name",
+  "merchant_category",
+  "merchant category",
+  "product_type",
+  "product type",
+];
+const PRICE_FIELDS = [
+  "price",
+  "product_price",
+  "product price",
+  "merchant_product_price",
+  "merchant product price",
+  "search_price",
+  "search price",
+  "sale_price",
+  "sale price",
+  "current_price",
+  "current price",
+];
 
 function normalizedKey(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "");
