@@ -37,7 +37,7 @@ export default function GuidePage() {
             <Link href="/de/">Start</Link><span>/</span><Link href="/de/planung/">Planung</Link><span>/</span><span>230-V-Sauna</span>
           </nav>
           <p className="eyebrow">Saunatechnik</p>
-          <h1>230 V ist ein Anschluss.<span>Noch keine Kaufentscheidung.</span></h1>
+          <h1>230 V bei der Sauna einordnen</h1>
           <p>{guide.description}</p>
           <p className="content-byline">Redaktion: <Link href="/de/ueber-uns/">Select Your Sauna</Link> · aktualisiert {formatGermanDate(guide.updated_at)}</p>
           <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.quick_answer}</p></div>
@@ -79,7 +79,7 @@ export default function GuidePage() {
           <div>
             <p className="eyebrow">Im aktuellen Katalog</p>
             <h2 id="matching-title">Verifizierte 230-V-Datensätze.</h2>
-            <p>Diese Liste ist noch keine Bestenliste. Sie zeigt nur Produkte, deren Kerndaten wir an der Herstellerquelle geprüft haben.</p>
+            <p>Die Liste zeigt Modelle, deren Kerndaten wir an der Herstellerquelle geprüft haben. Sortiert wird nach den dokumentierten Daten, nicht nach einem redaktionellen Ranking.</p>
           </div>
           <div className="matching-product-links">
             {matchingProducts.map((product) => (

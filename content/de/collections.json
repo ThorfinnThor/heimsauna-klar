@@ -21,7 +21,7 @@
       ],
       "pointsTitle": "Vor dem Öffnen eines Angebots",
       "points": ["Raum an mehreren Stellen messen", "Montage- und Transportweg prüfen", "Wand-, Decken- und Lüftungsabstände dokumentieren"],
-      "callout": "Erst die reale Planungsfläche klären, dann die kleinste Kabine suchen."
+      "callout": "Die reale Planungsfläche bestimmt, welche Kabinengröße infrage kommt."
     },
     "rule": "mini_indoor",
     "sort": "footprint",
@@ -87,7 +87,7 @@
     "related_ids": ["fasssauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
     "planning": {"kicker": "Standort vor Produkt", "intro": "Außenmaß ist nur der Anfang: Fundament, Entwässerung und Grenzabstände entscheiden mit.", "guide_ids": ["boden-und-fundament", "sauna-kosten"]},
     "editorial": {
-      "kicker": "Standort zuerst · Produkt danach",
+      "kicker": "Standort und Produkt zusammen betrachten",
       "title": "Im Garten zählt die Fläche außerhalb der Kabine.",
       "paragraphs": [
         "Die 5-m²-Grenze beschreibt nur Breite × Tiefe des Produkts. Fundament, Dachüberstand, Zugang, Grenzabstände und Arbeitsraum gehören zur tatsächlichen Standortentscheidung.",

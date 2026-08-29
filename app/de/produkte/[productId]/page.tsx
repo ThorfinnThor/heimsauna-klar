@@ -80,6 +80,7 @@ export default async function ProductPage({ params }: Props) {
                 <div className="product-offer-list">
                   {offers.map((offer) => {
                     const offerLink = getOfferLink(product.product_id, offer);
+                    const disclosure = getOfferDisclosure(offer);
                     return (
                       <div className="product-offer" key={`${offer.merchant}-${offer.url}`}>
                         <div>
@@ -95,7 +96,7 @@ export default async function ProductPage({ params }: Props) {
                           {offer.selection_required ? "Konfigurator öffnen ↗" : "Angebot öffnen ↗"}
                         </a>
                         {offer.selection_required ? <span className="product-offer-note">Konfiguration im Shop erneut auswählen und Preis prüfen.</span> : null}
-                        <em>{getOfferDisclosure(offer)}</em>
+                        {disclosure ? <em>{disclosure}</em> : null}
                       </div>
                     );
                   })}
@@ -103,7 +104,6 @@ export default async function ProductPage({ params }: Props) {
               ) : (
                 <>
                   <span>Aktueller Preis auf der geprüften Produktseite nicht ausgewiesen.</span>
-                  <em>Kein Affiliate-Link</em>
                 </>
               )}
             </div>
@@ -371,7 +371,7 @@ function getFamilyEditorial(product: NonNullable<ReturnType<typeof getProduct>>,
         title: `${family.name} lässt sich über die Ausführung lesen.`,
         paragraphs: [
           `Die Reihe umfasst ${familyProducts.length} dokumentierte Varianten. Sie bewegen sich zwischen ${minFootprint} und ${maxFootprint} m² Produktfläche und sind für bis zu ${maxPeople} Personen ausgewiesen.`,
-          `Die Unterschiede liegen bei ${variantList}. Deshalb sollte zuerst die Nutzung feststehen und erst danach die passende Konfiguration aus der Reihe gewählt werden.`,
+          `Die Unterschiede bei ${variantList} sollten gegen die geplante Nutzung und die gewünschte Konfiguration gelesen werden.`,
         ],
         pointsTitle: "Was sich je Variante ändern kann",
         points: ["Grundriss und Türposition", "Ofen, Steuerung und Leistungsangabe", "Glas, Holz und Lieferumfang"],
@@ -380,7 +380,7 @@ function getFamilyEditorial(product: NonNullable<ReturnType<typeof getProduct>>,
     : {
         className: "family-editorial family-editorial-space",
         kicker: "Familienblick · Raum und Nutzung",
-        title: `${family.name}: zuerst den Raum, dann die Variante.`,
+        title: `${family.name}: Varianten und Maße im Vergleich.`,
         paragraphs: [
           `Für ${family.name} sind ${familyProducts.length} Varianten mit unterschiedlichen Ausführungen dokumentiert. Die kleinste und größte rechnerische Produktfläche liegen bei ${minFootprint} beziehungsweise ${maxFootprint} m².`,
           `Die Kapazität reicht in dieser Reihe bis zu ${maxPeople} Personen. Ein größerer Grundriss kann Zugang und Komfort verändern, sagt aber allein noch nichts über Wärmeverteilung oder Montageaufwand aus.`,

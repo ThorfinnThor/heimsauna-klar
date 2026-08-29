@@ -60,7 +60,7 @@ export function getAffiliateStats() {
 }
 
 export function getOfferDisclosure(offer: Product["commercial"]["offers"][number]) {
-  return getActiveAffiliateProgram(offer) ? "Affiliate-Link" : "Kein Affiliate-Link";
+  return getActiveAffiliateProgram(offer) ? "Affiliate-Link" : null;
 }
 
 export function getOfferLink(
