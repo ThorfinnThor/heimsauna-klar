@@ -98,6 +98,13 @@ test("catalog candidate audit requires matching brand, family and variant tokens
       family: { id: "karibu-skrollan", name: "Skrollan", variant: "2 · 337 × 231 cm" },
       commercial: { offers: [] },
     },
+    {
+      product_id: "karibu-saja-klarglas",
+      brand: "Karibu",
+      model: "Sauna Saja Klarglas",
+      family: { id: "karibu-saja", name: "Sauna Saja", variant: "Easy Bio · Klarglas" },
+      commercial: { offers: [] },
+    },
   ];
   const candidates = findCatalogCandidates(products, [{
     product_name: "Karibu Saunahaus Skrollan 2 Naturbelassen günstig",
@@ -108,6 +115,7 @@ test("catalog candidate audit requires matching brand, family and variant tokens
   assert.deepEqual(candidates.map((candidate) => candidate.product_id), ["karibu-skrollan-2"]);
   assert.equal(candidates[0].activation_policy, undefined);
   assert.equal(candidates[0].already_linked, false);
+  assert.equal(candidates[0].ambiguous_merchant_url, false);
 });
 
 test("affiliate activation requires an exact canonical merchant URL", () => {

@@ -17,8 +17,22 @@ const STOP_WORDS = new Set([
   "naturbelassen",
   "anthrazit",
   "terragrau",
+  "design",
+  "fichte",
   "inklusive",
   "inkl",
+  "sparset",
+  "premium",
+  "plus",
+  "klarglas",
+  "glastuer",
+  "holztuer",
+  "fenster",
+  "klassikofen",
+  "bioaktivofen",
+  "panorama",
+  "ruheraum",
+  "vorraum",
   "ohne",
   "ofen",
   "mit",
@@ -101,9 +115,8 @@ export function findCatalogCandidates(products, rows, { merchantName, maxCandida
     for (const product of products) {
       if (!brandMatches(product, feedName, rowBrand)) continue;
       const brandKey = normalizedText(product.brand);
-      const familyTokens = product.family ? tokens(product.family.name) : [];
-      const modelTokens = tokens(product.model);
-      const rareTextTokens = [...new Set([...familyTokens, ...modelTokens])].filter((token) =>
+      const identityTokens = product.family ? tokens(product.family.name) : tokens(product.model);
+      const rareTextTokens = identityTokens.filter((token) =>
         !/^\d/.test(token) && (tokenFrequency.get(`${brandKey}|${token}`) ?? 0) <= 3
       );
       const matchedIdentity = rareTextTokens.filter((token) => feedTokens.has(token));
@@ -135,7 +148,15 @@ export function findCatalogCandidates(products, rows, { merchantName, maxCandida
     }
   }
 
-  return candidates.sort((left, right) =>
+  const merchantUrlCounts = new Map();
+  for (const candidate of candidates) {
+    merchantUrlCounts.set(candidate.merchant_url, (merchantUrlCounts.get(candidate.merchant_url) ?? 0) + 1);
+  }
+  return candidates.map((candidate) => ({
+    ...candidate,
+    candidates_for_merchant_url: merchantUrlCounts.get(candidate.merchant_url),
+    ambiguous_merchant_url: merchantUrlCounts.get(candidate.merchant_url) > 1,
+  })).sort((left, right) =>
     Number(left.already_linked) - Number(right.already_linked)
     || left.product_id.localeCompare(right.product_id)
     || left.merchant_url.localeCompare(right.merchant_url)
