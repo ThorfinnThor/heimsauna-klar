@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-29T16:52:41.479Z",
+  "source": "Awin authenticated Home Deluxe DE product feed",
+  "secret_included": false,
+  "activation_policy": "Candidate tokens only; no catalog records, offers, prices, or affiliate links changed",
+  "advertiser_id": "43199",
+  "advertiser_name": "Home Deluxe DE",
+  "feed_id": "84368",
+  "feed_name": "Default",
+  "feed_rows": 4359,
+  "candidates_total": 8,
+  "unlinked_candidates": 2,
+  "already_linked_candidates": 6,
+  "candidates": [
+    {
+      "product_id": "home-deluxe-sahara-l",
+      "catalog_name": "Home Deluxe SAHARA L",
+      "feed_product_name": "Infrarotkabine mit Vollspektrumstrahler SAHARA XXL - 150 x 150 cm für 4 Personen",
+      "merchant_url": "https://homedeluxe.de/infrarotkabine-sahara-xxl-mit-vollspektrumstrahler_9233_7366",
+      "feed_price": "1699.00",
+      "matched_identity_tokens": [
+        "sahara"
+      ],
+      "matched_variant_tokens": [
+        "150"
+      ],
+      "reason": "family-and-variant-token",
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "home-deluxe-sahara-xxl",
+      "catalog_name": "Home Deluxe SAHARA XXL",
+      "feed_product_name": "Infrarotkabine mit Vollspektrumstrahler SAHARA L - 150 x 120 cm für 3 Personen",
+      "merchant_url": "https://homedeluxe.de/infrarotkabine-sahara-l-mit-vollspektrumstrahler_9229_7362",
+      "feed_price": "1499.00",
+      "matched_identity_tokens": [
+        "sahara"
+      ],
+      "matched_variant_tokens": [
+        "150"
+      ],
+      "reason": "family-and-variant-token",
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "home-deluxe-hygge-deluxe",
+      "catalog_name": "Home Deluxe HYGGE DELUXE",
+      "feed_product_name": "Gartensauna HYGGE DELUXE - 230 cm x 220 cm für 4-6 Personen",
+      "merchant_url": "https://homedeluxe.de/gartensauna-hygge-deluxe_27591_71857",
+      "feed_price": "4299.00",
+      "matched_identity_tokens": [
+        "hygge"
+      ],
+      "matched_variant_tokens": [],
+      "reason": "rare-model-token",
+      "already_linked": true,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
+    },
+    {
+      "product_id": "home-deluxe-lagom-deluxe",
+      "catalog_name": "Home Deluxe LAGOM DELUXE",
+      "feed_product_name": "Fasssauna mit Holzofen LAGOM DELUXE - ⌀ 210 x 240 cm für 4-6 Personen",
+      "merchant_url": "https://homedeluxe.de/fasssauna-mit-holzofen-lagom-deluxe_27593_71858",
+      "feed_price": "4999.00",
+      "matched_identity_tokens": [
+        "lagom"
+      ],
+      "matched_variant_tokens": [],
+      "reason": "rare-model-token",
+      "already_linked": true,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
+    },
+    {
+      "product_id": "home-deluxe-sahara-l",
+      "catalog_name": "Home Deluxe SAHARA L",
+      "feed_product_name": "Infrarotkabine mit Vollspektrumstrahler SAHARA L - 150 x 120 cm für 3 Personen",
+      "merchant_url": "https://homedeluxe.de/infrarotkabine-sahara-l-mit-vollspektrumstrahler_9229_7362",
+      "feed_price": "1499.00",
+      "matched_identity_tokens": [
+        "sahara"
+      ],
+      "matched_variant_tokens": [
+        "150",
+        "120"
+      ],
+      "reason": "family-and-variant-token",
+      "already_linked": true,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "home-deluxe-sahara-xxl",
+      "catalog_name": "Home Deluxe SAHARA XXL",
+      "feed_product_name": "Infrarotkabine mit Vollspektrumstrahler SAHARA XXL - 150 x 150 cm für 4 Personen",
+      "merchant_url": "https://homedeluxe.de/infrarotkabine-sahara-xxl-mit-vollspektrumstrahler_9233_7366",
+      "feed_price": "1699.00",
+      "matched_identity_tokens": [
+        "sahara"
+      ],
+      "matched_variant_tokens": [
+        "xxl",
+        "150"
+      ],
+      "reason": "family-and-variant-token",
+      "already_linked": true,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "home-deluxe-sonora-m",
+      "catalog_name": "Home Deluxe SONORA M",
+      "feed_product_name": "Infrarotkabine SONORA M - 135 x 105 cm für 2 Personen",
+      "merchant_url": "https://homedeluxe.de/infrarotkabine-sonora-m_20324_49241",
+      "feed_price": "1349.00",
+      "matched_identity_tokens": [
+        "sonora"
+      ],
+      "matched_variant_tokens": [
+        "135",
+        "105"
+      ],
+      "reason": "family-and-variant-token",
+      "already_linked": true,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
+    },
+    {
+      "product_id": "home-deluxe-sonora-s",
+      "catalog_name": "Home Deluxe SONORA S",
+      "feed_product_name": "Infrarotkabine SONORA S - 90 x 90 cm für 1 Person",
+      "merchant_url": "https://homedeluxe.de/infrarotkabine-sonora-s_20323_49240",
+      "feed_price": "1099.00",
+      "matched_identity_tokens": [
+        "sonora"
+      ],
+      "matched_variant_tokens": [
+        "90"
+      ],
+      "reason": "family-and-variant-token",
+      "already_linked": true,
+      "candidates_for_merchant_url": 1,
+      "ambiguous_merchant_url": false
+    }
+  ]
+}
