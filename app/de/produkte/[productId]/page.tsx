@@ -6,7 +6,7 @@ import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
 import { getOfferDisclosure, getOfferLink } from "@/lib/affiliate";
 import { createPageMetadata } from "@/lib/metadata";
-import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getProduct, getProductEditorialOverride, getProductFamily, isProductIndexable, products } from "@/lib/products";
+import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getEligibleOffers, getOfferPolicySummary, getProduct, getProductEditorialOverride, getProductFamily, isProductIndexable, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ productId: string }> };
@@ -35,7 +35,8 @@ export default async function ProductPage({ params }: Props) {
   const { productId } = await params;
   const product = getProduct(productId);
   if (!product) notFound();
-  const offers = [...product.commercial.offers].sort((a, b) => a.price - b.price);
+  const offers = [...getEligibleOffers(product)].sort((a, b) => a.price - b.price);
+  const offerPolicy = getOfferPolicySummary(product);
   const familyProducts = getProductFamily(product);
   const matchingCollections = collections
     .filter((collection) => getCollectionProducts(collection).some((candidate) => candidate.product_id === product.product_id))
@@ -75,7 +76,7 @@ export default async function ProductPage({ params }: Props) {
               <p className="product-lede" data-product-copy="true">Einordnung des {product.brand} {product.model} anhand geprüfter Herstellerdaten. Eigener Aufbau und eigene Nutzung liegen nicht vor.</p>
             </div>
             <div className="product-price-card">
-              <small>{offers.length > 1 ? `${offers.length} geprüfte Angebote` : "Geprüftes Angebot"}</small>
+              <small>{offers.length > 1 ? `${offers.length} geprüfte Angebote` : offers.length === 1 ? "Geprüftes Angebot" : "Kein aktuelles Angebot"}</small>
               <strong>{formatPrice(product)}</strong>
               {offers.length > 0 ? (
                 <div className="product-offer-list">
@@ -103,9 +104,7 @@ export default async function ProductPage({ params }: Props) {
                   })}
                 </div>
               ) : (
-                <>
-                  <span>Aktueller Preis auf der geprüften Produktseite nicht ausgewiesen.</span>
-                </>
+                <span>{getUnavailableOfferMessage(product.commercial.offers.length, offerPolicy)}</span>
               )}
             </div>
           </div>
@@ -214,6 +213,17 @@ export default async function ProductPage({ params }: Props) {
       <SiteFooter />
     </main>
   );
+}
+
+function getUnavailableOfferMessage(
+  offerCount: number,
+  policy: ReturnType<typeof getOfferPolicySummary>,
+) {
+  if (offerCount === 0) return "Aktueller Preis auf der geprüften Produktseite nicht ausgewiesen.";
+  if (policy.unavailable > 0 && policy.stale === 0) return "Die zuletzt geprüften Angebote sind derzeit nicht verfügbar.";
+  if (policy.stale > 0 && policy.unavailable === 0) return "Kein Preisstand wurde innerhalb der letzten 30 Tage bestätigt.";
+  if (policy.unavailable > 0 || policy.stale > 0) return "Derzeit liegt kein verfügbares und ausreichend aktuelles Angebot vor.";
+  return "Für dieses Produkt liegt derzeit kein verwendbarer Preisstand vor.";
 }
 
 type ProductFrame = {

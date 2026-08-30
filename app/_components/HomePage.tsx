@@ -1,16 +1,15 @@
 import Link from "next/link";
 import home from "@/content/de/home.json";
 import archetypes from "@/data/sauna-archetypes.json";
-import { formatGermanDate, formatPrice, formatVoltage, getLatestOfferCheck, products } from "@/lib/products";
+import { formatGermanDate, formatPrice, formatVoltage, getOfferDateRange, products } from "@/lib/products";
 import { SaunaFinder } from "./SaunaFinder";
 import { SiteFooter, SiteHeader } from "./SiteChrome";
 
 const Arrow = () => <span aria-hidden="true">↗</span>;
-const featuredProducts = [
-  ...products.filter((product) => product.category === "indoor").slice(0, 3),
-  ...products.filter((product) => product.category === "infrared").slice(0, 3),
-];
-const latestOfferCheck = getLatestOfferCheck(products);
+const featuredProducts = home.featured_product_ids
+  .map((productId) => products.find((product) => product.product_id === productId))
+  .filter((product): product is (typeof products)[number] => Boolean(product));
+const offerDateRange = getOfferDateRange(products);
 
 export function HomePage() {
   return (
@@ -86,7 +85,7 @@ export function HomePage() {
             </article>
           ))}
         </div>
-        <p className="catalog-note">Preise zuletzt {latestOfferCheck ? `am ${formatGermanDate(latestOfferCheck)}` : "noch nicht"} geprüft. Produktangaben und redaktionelle Einordnung bleiben getrennt nachvollziehbar.</p>
+        <p className="catalog-note">Preisstände aus dem Katalog: {offerDateRange.oldest && offerDateRange.newest ? `${formatGermanDate(offerDateRange.oldest)} bis ${formatGermanDate(offerDateRange.newest)}` : "nicht verfügbar"}. Produktangaben und redaktionelle Einordnung bleiben getrennt nachvollziehbar.</p>
       </section>
 
       <section className="finder-section" id="finder" aria-labelledby="finder-title">

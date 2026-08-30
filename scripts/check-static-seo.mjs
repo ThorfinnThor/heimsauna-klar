@@ -4,6 +4,11 @@ import path from "node:path";
 const outputRoot = path.resolve("out");
 const productionFallbackUrl = "https://selectyoursauna.com";
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? productionFallbackUrl).replace(/\/$/, "");
+const isMainCiBuild = process.env.GITHUB_REF_NAME === "main"
+  || (process.env.WORKERS_CI === "1" && process.env.WORKERS_CI_BRANCH === "main");
+if (isMainCiBuild && siteUrl !== productionFallbackUrl) {
+  throw new Error(`Main static builds must use ${productionFallbackUrl}; received ${siteUrl}`);
+}
 const productIndexing = JSON.parse(await readFile(new URL("../data/product-indexing.json", import.meta.url), "utf8"));
 const productEditorialOverrides = JSON.parse(await readFile(new URL("../data/product-editorial-overrides.json", import.meta.url), "utf8"));
 const productIndexingById = new Map(productIndexing.entries.map((entry) => [entry.product_id, entry.decision]));

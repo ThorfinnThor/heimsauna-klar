@@ -7,7 +7,7 @@ import {
   type PlanningModule,
   type PlanningPresentation,
 } from "@/lib/page-presentations";
-import { formatGermanDate, getLatestOfferCheck, products } from "@/lib/products";
+import { formatGermanDate, getOfferDateRange, products } from "@/lib/products";
 import { getPlanningGuide, getPlanningJourney, getPriceSnapshot, type PlanningGuide } from "@/lib/planning-guides";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 
@@ -18,7 +18,7 @@ function formatEuro(value: number) {
 type PlanningPageContext = {
   guide: PlanningGuide;
   presentation: PlanningPresentation;
-  latestOfferCheck: string | undefined;
+  offerDateRange: { oldest: string | null; newest: string | null };
 };
 
 export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
@@ -27,9 +27,9 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
     const relatedGuide = getPlanningGuide(slug);
     return relatedGuide ? [relatedGuide] : [];
   }) ?? [];
-  const latestOfferCheck = getLatestOfferCheck(products);
+  const offerDateRange = getOfferDateRange(products);
   const presentation = getPlanningPresentation(guide.slug);
-  const context = { guide, presentation, latestOfferCheck };
+  const context = { guide, presentation, offerDateRange };
   const path = `/de/planung/${guide.slug}/`;
 
   return (
@@ -86,7 +86,7 @@ function PlanningHero({ guide, presentation, productHref, productLabel }: {
 function PlanningModuleBlock({ context, module }: { context: PlanningPageContext; module: PlanningModule }) {
   if (module === "insight") return <PlanningInsight presentation={context.presentation} />;
   if (module === "sections") return <PlanningSections guide={context.guide} variant={context.presentation.sections} />;
-  if (module === "snapshot") return <GuidePriceSnapshot latestOfferCheck={context.latestOfferCheck} />;
+  if (module === "snapshot") return <GuidePriceSnapshot offerDateRange={context.offerDateRange} />;
   if (module === "checks") return <PlanningChecks guide={context.guide} />;
   return <PlanningSources guide={context.guide} />;
 }
@@ -156,10 +156,10 @@ function PlanningRelated({ guide, guides }: { guide: PlanningGuide; guides: Plan
   );
 }
 
-function GuidePriceSnapshot({ latestOfferCheck }: { latestOfferCheck: string | undefined }) {
+function GuidePriceSnapshot({ offerDateRange }: { offerDateRange: { oldest: string | null; newest: string | null } }) {
   return (
     <section className="price-snapshot page-shell" aria-labelledby="price-snapshot-title" data-page-module="snapshot">
-      <div className="price-snapshot-head"><div><p className="eyebrow">Katalog-Momentaufnahme</p><h2 id="price-snapshot-title">Produktpreise, die wir belegen können.</h2></div><p>{latestOfferCheck ? `Angebote zuletzt bis ${formatGermanDate(latestOfferCheck)} geprüft.` : "Kein aktuelles Prüfdatum verfügbar."} Montage- und Projektkosten sind nicht enthalten.</p></div>
+      <div className="price-snapshot-head"><div><p className="eyebrow">Katalog-Momentaufnahme</p><h2 id="price-snapshot-title">Produktpreise, die wir belegen können.</h2></div><p>{offerDateRange.oldest && offerDateRange.newest ? `Angebote geprüft zwischen ${formatGermanDate(offerDateRange.oldest)} und ${formatGermanDate(offerDateRange.newest)}.` : "Kein aktuelles Prüfdatum verfügbar."} Montage- und Projektkosten sind nicht enthalten.</p></div>
       <div className="price-snapshot-grid">{getPriceSnapshot().map((item) => <article key={item.id}><small>{item.label} · {item.count} Preise</small><strong>{formatEuro(item.median)}</strong><span>Median · Spanne {formatEuro(item.minimum)} bis {formatEuro(item.maximum)}</span></article>)}</div>
     </section>
   );

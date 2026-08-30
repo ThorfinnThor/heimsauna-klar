@@ -1,5 +1,6 @@
 import { readFile } from "node:fs/promises";
 import { buildProductIndexing } from "./product-indexing-policy.mjs";
+import { isOfferPurchaseEligible } from "../lib/offer-policy.ts";
 
 const products = JSON.parse(await readFile(new URL("../data/products.json", import.meta.url), "utf8"));
 const archetypes = JSON.parse(await readFile(new URL("../data/sauna-archetypes.json", import.meta.url), "utf8"));
@@ -13,6 +14,7 @@ const sitePublication = JSON.parse(await readFile(new URL("../data/site-publicat
 const planningGuides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
 const planningNavigation = JSON.parse(await readFile(new URL("../content/de/planning-navigation.json", import.meta.url), "utf8"));
 const pagePresentations = JSON.parse(await readFile(new URL("../content/de/page-presentations.json", import.meta.url), "utf8"));
+const home = JSON.parse(await readFile(new URL("../content/de/home.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const powerEvidence = JSON.parse(await readFile(new URL("../data/power-evidence.json", import.meta.url), "utf8"));
 const voltageReviewBatch = JSON.parse(await readFile(new URL("../data/voltage-review-batch.json", import.meta.url), "utf8"));
@@ -26,6 +28,18 @@ const today = new Intl.DateTimeFormat("en-CA", {
   day: "2-digit",
 }).format(new Date());
 const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
+const offerIsPurchaseEligible = (offer) => isOfferPurchaseEligible(offer, today);
+const supportedAvailability = new Set([
+  "manufacturer-listed",
+  "in-stock",
+  "low-stock-listed",
+  "in-stock-listed",
+  "feed-listed",
+  "reseller-only",
+  "preorder-listed",
+  "out-of-stock-listed",
+  "sale-listed",
+]);
 
 function assertIsoDate(value, label) {
   if (typeof value !== "string" || !isoDatePattern.test(value) || Number.isNaN(Date.parse(`${value}T00:00:00Z`))) {
@@ -41,6 +55,14 @@ function assertHttpsUrl(value, label) {
 }
 
 if (!Array.isArray(products)) throw new Error("data/products.json must contain an array");
+if (!Array.isArray(home.featured_product_ids) || home.featured_product_ids.length < 4) {
+  throw new Error("content/de/home.json must define at least four featured product ids");
+}
+const verifiedProductIds = new Set(products.filter((product) => product.status === "verified").map((product) => product.product_id));
+if (new Set(home.featured_product_ids).size !== home.featured_product_ids.length
+  || !home.featured_product_ids.every((productId) => verifiedProductIds.has(productId))) {
+  throw new Error("Home featured product ids must be unique verified products");
+}
 if (!Array.isArray(archetypes) || archetypes.length === 0) {
   throw new Error("data/sauna-archetypes.json must contain at least one entry");
 }
@@ -112,6 +134,11 @@ const blockingLaunchGates = requiredLaunchGates.filter((gate) => gate.status !==
 if (requiredLaunchGates.length === 0) throw new Error("Launch readiness needs indexing gates");
 if ((blockingLaunchGates.length === 0) !== (launchReadiness.publication_status === "launch-ready")) {
   throw new Error("Launch publication status does not match the required gate states");
+}
+const catalogQualityGate = launchReadiness.gates.find((gate) => gate.id === "catalog_quality");
+const verifiedProductCount = products.filter((product) => product.status === "verified").length;
+if (!catalogQualityGate?.detail.includes(`${verifiedProductCount} eindeutige Produktdatensätze`)) {
+  throw new Error("catalog_quality launch detail is out of sync with products.json");
 }
 
 const affiliatePrograms = affiliatePolicy.programs;
@@ -264,12 +291,12 @@ const collectionMatchers = {
   mini_indoor: (product) => ["indoor", "infrared"].includes(product.category) && product.dimensions_cm.width * product.dimensions_cm.depth <= 30_000,
   one_person_indoor: (product) => ["indoor", "infrared"].includes(product.category) && product.people.max === 1,
   small_garden: (product) => product.category === "outdoor" && product.dimensions_cm.width * product.dimensions_cm.depth <= 50_000,
-  price_under_2500: (product) => product.commercial.offers.some((offer) => offer.price <= 2_500),
+  price_under_2500: (product) => product.commercial.offers.some((offer) => offerIsPurchaseEligible(offer) && offer.price <= 2_500),
   two_person_indoor: (product) => ["indoor", "infrared"].includes(product.category) && product.people.max === 2,
   infrared: (product) => product.category === "infrared",
   bio_sauna: (product) => product.sauna.type === "Bio-Sauna",
   barrel_sauna: (product) => product.category === "outdoor" && product.model.toLowerCase().includes("fasssauna"),
-  price_under_4000: (product) => product.commercial.offers.some((offer) => offer.price <= 4_000),
+  price_under_4000: (product) => product.commercial.offers.some((offer) => offerIsPurchaseEligible(offer) && offer.price <= 4_000),
   four_person: (product) => product.people.max === 4,
   three_person_indoor: (product) => ["indoor", "infrared"].includes(product.category) && product.people.max === 3,
   finnish: (product) => product.sauna.type === "Finnische Sauna",
@@ -277,7 +304,8 @@ const collectionMatchers = {
 };
 
 function matchesCollectionFilter(product, filter) {
-  const price = Math.min(...product.commercial.offers.map((offer) => offer.price));
+  const eligiblePrices = product.commercial.offers.filter(offerIsPurchaseEligible).map((offer) => offer.price);
+  const price = eligiblePrices.length > 0 ? Math.min(...eligiblePrices) : Number.POSITIVE_INFINITY;
   const footprint = product.dimensions_cm.width * product.dimensions_cm.depth / 10_000;
   const includesFolded = (value, needle) => value.toLocaleLowerCase("de").includes(needle.toLocaleLowerCase("de"));
   if (filter.brands && !filter.brands.includes(product.brand)) return false;
@@ -539,6 +567,7 @@ for (const product of products) {
       throw new Error(`${product.product_id} has an offer without a merchant`);
     }
     if (!(offer.price >= 0)) throw new Error(`${product.product_id} has an invalid offer price`);
+    if (!supportedAvailability.has(offer.availability)) throw new Error(`${product.product_id} has an unsupported offer availability`);
     assertHttpsUrl(offer.url, `Offer URL for ${product.product_id}`);
     assertIsoDate(offer.last_checked, `Offer check date for ${product.product_id}`);
     if (typeof offer.affiliate !== "boolean") throw new Error(`${product.product_id} has an invalid affiliate flag`);
@@ -644,8 +673,8 @@ const finderCoverageChecks = [
   ["230-V connection", (product) => product.power.voltage === 230],
   ["400-V connection", (product) => product.power.voltage === 400],
   ["wood-fired connection", (product) => product.power.voltage === "wood"],
-  ["lean budget", (product) => product.commercial.offers.some((offer) => offer.price <= 2500)],
-  ["mid budget", (product) => product.commercial.offers.some((offer) => offer.price <= 6000)],
+  ["lean budget", (product) => product.commercial.offers.some((offer) => offerIsPurchaseEligible(offer) && offer.price <= 2500)],
+  ["mid budget", (product) => product.commercial.offers.some((offer) => offerIsPurchaseEligible(offer) && offer.price <= 6000)],
   ["traditional heat", (product) => product.category !== "infrared"],
   ["infrared heat", (product) => product.category === "infrared"],
   ["indoor 400-V combination", (product) => product.sauna.indoor_outdoor === "indoor" && product.power.voltage === 400],

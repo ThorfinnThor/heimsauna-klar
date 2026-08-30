@@ -20,7 +20,7 @@ import {
   formatPower,
   formatPrice,
   formatVoltage,
-  getLatestOfferCheck,
+  getOfferDateRange,
   type Product,
 } from "@/lib/products";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
@@ -35,19 +35,20 @@ type CollectionPageContext = {
   collection: Collection;
   candidates: Product[];
   planningGuides: PlanningGuide[];
-  latestOfferCheck: string | undefined;
+  offerDateRange: { oldest: string | null; newest: string | null };
   presentation: CollectionPresentation;
 };
 
 export function ProductCollectionPage({ collection }: { collection: Collection }) {
   const candidates = getCollectionProducts(collection);
-  const latestOfferCheck = getLatestOfferCheck(candidates);
+  const offerDateRange = getOfferDateRange(candidates);
   const minimumFootprint = Math.min(...candidates.map(getFootprintSquareMeters));
-  const lowestPrice = Math.min(...candidates.map(getLowestPrice));
+  const documentedPrices = candidates.map(getLowestPrice).filter((price): price is number => price !== null);
+  const lowestPrice = documentedPrices.length > 0 ? Math.min(...documentedPrices) : null;
   const relatedCollections = collection.related_ids.map((id) => collections.find((item) => item.id === id)).filter((item): item is Collection => Boolean(item));
   const planningGuides = collection.planning.guide_ids.map(getPlanningGuide).filter((guide): guide is PlanningGuide => Boolean(guide));
   const presentation = getCollectionPresentation(collection.id);
-  const pageContext = { collection, candidates, planningGuides, latestOfferCheck, presentation };
+  const pageContext = { collection, candidates, planningGuides, offerDateRange, presentation };
   const path = `/de/${collection.section}/${collection.slug}/`;
 
   return (
@@ -79,7 +80,7 @@ function CollectionHero({ collection, candidates, minimumFootprint, lowestPrice,
   collection: Collection;
   candidates: Product[];
   minimumFootprint: number;
-  lowestPrice: number;
+  lowestPrice: number | null;
   hero: CollectionPresentation["hero"];
 }) {
   return (
@@ -96,7 +97,7 @@ function CollectionHero({ collection, candidates, minimumFootprint, lowestPrice,
       <div className="collection-metrics" aria-label="Kennzahlen der Auswahl">
         <span><strong>{candidates.length}</strong> passende Datensätze</span>
         <span><strong>{minimumFootprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m²</strong> kleinste Stellfläche</span>
-        <span><strong>ab {lowestPrice.toLocaleString("de-DE", { style: "currency", currency: "EUR" })}</strong> dokumentierter Preis</span>
+        <span><strong>{lowestPrice === null ? "kein aktueller Preis" : `ab ${lowestPrice.toLocaleString("de-DE", { style: "currency", currency: "EUR" })}`}</strong> dokumentierter Preis</span>
       </div>
     </header>
   );
@@ -105,7 +106,7 @@ function CollectionHero({ collection, candidates, minimumFootprint, lowestPrice,
 function CollectionModuleBlock({ context, module }: { context: CollectionPageContext; module: CollectionModule }) {
   if (module === "insight") return <CollectionInsight presentation={context.presentation} />;
   if (module === "editorial") return <CollectionEditorial collection={context.collection} />;
-  if (module === "method") return <CollectionMethod collection={context.collection} latestOfferCheck={context.latestOfferCheck} planningGuides={context.planningGuides} variant={context.presentation.method} />;
+  if (module === "method") return <CollectionMethod collection={context.collection} offerDateRange={context.offerDateRange} planningGuides={context.planningGuides} variant={context.presentation.method} />;
   if (module === "results") return <CollectionResults collection={context.collection} candidates={context.candidates} variant={context.presentation.results} />;
   return <CollectionChecks collection={context.collection} />;
 }
@@ -123,9 +124,9 @@ function CollectionInsight({ presentation }: { presentation: CollectionPresentat
   );
 }
 
-function CollectionMethod({ collection, latestOfferCheck, planningGuides, variant }: {
+function CollectionMethod({ collection, offerDateRange, planningGuides, variant }: {
   collection: Collection;
-  latestOfferCheck: string | undefined;
+  offerDateRange: { oldest: string | null; newest: string | null };
   planningGuides: PlanningGuide[];
   variant: CollectionPresentation["method"];
 }) {
@@ -134,7 +135,7 @@ function CollectionMethod({ collection, latestOfferCheck, planningGuides, varian
       <div><p className="eyebrow">{collection.module_copy.method_kicker}</p><h2 id="collection-method-title">{collection.module_copy.method_title}</h2></div>
       <div>
         <ul>{collection.criteria.map((criterion) => <li key={criterion}>{criterion}</li>)}</ul>
-        <p>{collection.module_copy.method_note} <strong>{latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</strong>.</p>
+        <p>{collection.module_copy.method_note} <strong>{offerDateRange.oldest && offerDateRange.newest ? `${formatGermanDate(offerDateRange.oldest)} bis ${formatGermanDate(offerDateRange.newest)}` : "nicht verfügbar"}</strong>.</p>
         <div className="collection-planning">
           <p className="eyebrow">{collection.planning.kicker}</p><p>{collection.planning.intro}</p>
           <div className="collection-planning-links">{planningGuides.map((guide) => <Link href={`/de/planung/${guide.slug}/`} key={guide.slug}><small>{guide.eyebrow}</small><strong>{guide.title}</strong><span>Planung öffnen ↗</span></Link>)}</div>

@@ -11,7 +11,7 @@
       "title": "Produktkatalog und Datenprüfung",
       "status": "ready",
       "required_for_indexing": true,
-      "detail": "432 eindeutige Produktdatensätze werden bei jedem Build gegen Quellen-, Preis-, Händler- und Schemakriterien geprüft."
+      "detail": "435 eindeutige Produktdatensätze werden bei jedem Build gegen Quellen-, Preis-, Händler- und Schemakriterien geprüft."
     },
     {
       "id": "source_traceability",

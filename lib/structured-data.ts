@@ -1,5 +1,5 @@
 import { siteUrl } from "@/lib/site";
-import { formatVoltage, type Product } from "@/lib/products";
+import { formatVoltage, getEligibleOffers, type Product } from "@/lib/products";
 
 export type JsonLd = Record<string, unknown>;
 
@@ -137,7 +137,7 @@ function availabilityUrl(value: string) {
 export function productJsonLd(product: Product): JsonLd {
   const path = `/de/produkte/${product.product_id}/`;
   const url = absoluteUrl(path);
-  const offers = product.commercial.offers.map((offer) => {
+  const offers = getEligibleOffers(product).map((offer) => {
     const availability = availabilityUrl(offer.availability);
     return {
       "@type": "Offer",

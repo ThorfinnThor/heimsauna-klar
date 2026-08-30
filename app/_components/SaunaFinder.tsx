@@ -7,11 +7,11 @@ import type { FinderFilters } from "@/lib/products";
 type FinderAnswers = FinderFilters;
 
 const initialAnswers: FinderAnswers = {
-  place: "indoor",
-  people: "2",
-  footprint: "compact",
+  place: "open",
+  people: "flex",
+  footprint: "open",
   power: "unknown",
-  budget: "mid",
+  budget: "open",
   heat: "open",
 };
 
@@ -37,7 +37,7 @@ export function SaunaFinder() {
           legend="Wo soll die Sauna stehen?"
           name="place"
           value={answers.place}
-          options={[["indoor", "Innenraum"], ["outdoor", "Garten"], ["mobile", "Flexibel"]]}
+          options={[["indoor", "Innenraum"], ["outdoor", "Garten"], ["mobile", "Mobil"], ["open", "Noch offen"]]}
           onChange={(value) => update("place", value as FinderAnswers["place"])}
         />
         <FinderQuestion
@@ -66,7 +66,7 @@ export function SaunaFinder() {
         />
         <FinderQuestion
           number="05"
-          legend="Wie ist der Budgetrahmen?"
+          legend="Wie hoch darf der dokumentierte Produktpreis sein?"
           name="budget"
           value={answers.budget}
           options={[["lean", "Bis 2.500 €"], ["mid", "Bis 6.000 €"], ["open", "Offen"]]}
@@ -81,7 +81,7 @@ export function SaunaFinder() {
           onChange={(value) => update("heat", value as FinderAnswers["heat"])}
         />
         <div className="finder-submit-row">
-          <p>Die Ergebnisse öffnen im Produktkatalog. Dort kannst du die Auswahl weiter eingrenzen.</p>
+          <p>Die Preisgrenze bezieht sich auf den dokumentierten Produktpreis. Lieferung, Montage, Elektroarbeiten, Fundament und Zubehör sind nicht enthalten.</p>
           <button className="button button-primary" type="submit">Suchen <span aria-hidden="true">↗</span></button>
         </div>
       </div>

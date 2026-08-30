@@ -12,7 +12,7 @@ type CapacityFilter = "all" | "1" | "2" | "3-plus";
 type SortOption = "name" | "price" | "footprint" | "capacity";
 
 const finderValues = {
-  place: ["indoor", "outdoor", "mobile"],
+  place: ["indoor", "outdoor", "mobile", "open"],
   people: ["1", "2", "4", "flex"],
   footprint: ["compact", "standard", "open"],
   power: ["230", "400", "wood", "unknown"],
@@ -52,7 +52,7 @@ function getServerLocationSearch() {
 
 function finderSelectionLabels(filters: FinderFilters) {
   return [
-    filters.place === "indoor" ? "Innenraum" : filters.place === "outdoor" ? "Garten" : "Flexibel",
+    filters.place === "indoor" ? "Innenraum" : filters.place === "outdoor" ? "Garten" : filters.place === "mobile" ? "Mobil" : "Aufstellort offen",
     filters.people === "flex" ? "Personenzahl offen" : `${filters.people} ${filters.people === "1" ? "Person" : "Personen"}`,
     filters.footprint === "compact" ? "bis 3 m²" : filters.footprint === "standard" ? "bis 6 m²" : "Fläche offen",
     filters.power === "unknown" ? "Anschluss offen" : filters.power === "wood" ? "Holzofen" : `${filters.power} V`,
@@ -147,6 +147,14 @@ export function ProductCatalog({ products }: { products: Product[] }) {
     window.dispatchEvent(new Event("catalog-location-change"));
   };
 
+  const applyFinderRelaxation = (key: keyof FinderFilters, value: string) => {
+    const params = new URLSearchParams(window.location.search);
+    params.set("finder", "1");
+    params.set(key, value);
+    window.history.pushState(null, "", `/de/produkte/?${params.toString()}#catalog-results`);
+    window.dispatchEvent(new Event("catalog-location-change"));
+  };
+
   return (
     <section className="catalog-list page-shell" id="catalog-results" aria-label="Verifizierte Produkte">
       {finderFilters && finderResult ? (
@@ -167,6 +175,22 @@ export function ProductCatalog({ products }: { products: Product[] }) {
             <Link href="/de/#finder">Auswahl ändern</Link>
             <button type="button" onClick={resetFilters}>Alle Produkte anzeigen</button>
           </div>
+          {finderResult.relaxations.length > 0 ? (
+            <div className="catalog-finder-relaxations">
+              <strong>Mehr Treffer mit offenerem Kriterium</strong>
+              <div>
+                {finderResult.relaxations.map((relaxation) => (
+                  <button
+                    key={relaxation.key}
+                    type="button"
+                    onClick={() => applyFinderRelaxation(relaxation.key, relaxation.value)}
+                  >
+                    {relaxation.label} <span>{relaxation.matchCount} Treffer</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          ) : null}
         </div>
       ) : null}
       <div className="catalog-controls">

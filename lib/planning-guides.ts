@@ -1,6 +1,6 @@
 import guideData from "@/content/de/planning-guides.json";
 import navigationData from "@/content/de/planning-navigation.json";
-import { products } from "@/lib/products";
+import { getEligibleOffers, products } from "@/lib/products";
 
 export type PlanningGuide = {
   slug: string;
@@ -72,7 +72,7 @@ export function getPriceSnapshot() {
   ];
 
   return groups.flatMap((group) => {
-    const prices = group.products.flatMap((product) => product.commercial.offers.map((offer) => offer.price));
+    const prices = group.products.flatMap((product) => getEligibleOffers(product).map((offer) => offer.price));
     if (prices.length === 0) return [];
     return [{
       id: group.id,

@@ -1,6 +1,8 @@
 import productData from "@/data/products.json";
 import productEditorialOverrides from "@/data/product-editorial-overrides.json";
 import productIndexingData from "@/data/product-indexing.json";
+import { classifyOffer, isOfferPurchaseEligible } from "@/lib/offer-policy";
+export { OFFER_FRESHNESS_DAYS, classifyOffer } from "@/lib/offer-policy";
 
 export type Product = {
   product_id: string;
@@ -55,6 +57,29 @@ export type Product = {
   updated_at: string;
 };
 
+export type ProductOffer = Product["commercial"]["offers"][number];
+
+export const OFFER_POLICY_AS_OF = process.env.NEXT_PUBLIC_OFFER_POLICY_AS_OF ?? new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Europe/Berlin",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+}).format(new Date());
+
+export function getEligibleOffers(product: Product, asOf = OFFER_POLICY_AS_OF) {
+  return product.commercial.offers.filter((offer) => isOfferPurchaseEligible(offer, asOf));
+}
+
+export function getOfferPolicySummary(product: Product, asOf = OFFER_POLICY_AS_OF) {
+  const summary = { eligible: 0, unavailable: 0, stale: 0, future: 0, invalidDate: 0 };
+  for (const offer of product.commercial.offers) {
+    const result = classifyOffer(offer, asOf);
+    if (result.reason === "invalid-date") summary.invalidDate += 1;
+    else summary[result.reason] += 1;
+  }
+  return summary;
+}
+
 export const products = (productData as Product[]).filter((product) => product.status === "verified");
 
 type ProductIndexingEntry = {
@@ -104,7 +129,7 @@ export function getCatalogStats(productList: Product[] = products) {
 }
 
 export type FinderFilters = {
-  place: "indoor" | "outdoor" | "mobile";
+  place: "indoor" | "outdoor" | "mobile" | "open";
   people: "1" | "2" | "4" | "flex";
   footprint: "compact" | "standard" | "open";
   power: "230" | "400" | "wood" | "unknown";
@@ -146,7 +171,7 @@ export function getProductFamily(product: Product) {
 }
 
 export function getLowestOffer(product: Product) {
-  return product.commercial.offers.reduce<Product["commercial"]["offers"][number] | undefined>(
+  return getEligibleOffers(product).reduce<ProductOffer | undefined>(
     (lowest, offer) => !lowest || offer.price < lowest.price ? offer : lowest,
     undefined,
   );
@@ -192,6 +217,11 @@ export function getLatestOfferCheck(productList: Product[]) {
     .sort((a, b) => b.localeCompare(a))[0] ?? null;
 }
 
+export function getOfferDateRange(productList: Product[]) {
+  const dates = productList.flatMap((product) => product.commercial.offers.map((offer) => offer.last_checked)).sort();
+  return { oldest: dates[0] ?? null, newest: dates.at(-1) ?? null };
+}
+
 const footprintLimits = { compact: 3, standard: 6 } as const;
 const budgetLimits = { lean: 2500, mid: 6000 } as const;
 
@@ -200,11 +230,13 @@ function getFootprintM2(product: Product) {
 }
 
 function getLowestPrice(product: Product) {
-  if (product.commercial.offers.length === 0) return null;
-  return Math.min(...product.commercial.offers.map((offer) => offer.price));
+  const offers = getEligibleOffers(product);
+  if (offers.length === 0) return null;
+  return Math.min(...offers.map((offer) => offer.price));
 }
 
 export function matchesProductPlace(product: Product, place: FinderFilters["place"]) {
+  if (place === "open") return true;
   if (place === "mobile") return product.category === "portable" || product.category === "tent";
   if (place === "outdoor") return product.category === "outdoor";
   return product.category === "indoor" || product.category === "infrared";
@@ -263,7 +295,7 @@ function matchesFinderFilters(product: Product, filters: FinderFilters, ignored?
 
 function getMatchReasons(product: Product, filters: FinderFilters, footprintM2: number) {
   const reasons = [
-    filters.place === "outdoor" ? "für außen dokumentiert" : filters.place === "mobile" ? "mobil dokumentiert" : "für innen dokumentiert",
+    filters.place === "outdoor" ? "für außen dokumentiert" : filters.place === "mobile" ? "mobil dokumentiert" : filters.place === "open" ? "Aufstellort offen" : "für innen dokumentiert",
     `bis ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"}`,
     `${footprintM2.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² Produktfläche`,
   ];

@@ -1,5 +1,5 @@
 import collectionData from "@/content/de/collections.json";
-import { products, type Product } from "@/lib/products";
+import { getEligibleOffers, products, type Product } from "@/lib/products";
 
 export type CollectionRule = "mini_indoor" | "one_person_indoor" | "small_garden" | "price_under_2500" | "two_person_indoor" | "infrared" | "bio_sauna" | "barrel_sauna" | "price_under_4000" | "four_person" | "three_person_indoor" | "finnish" | "area_under_6";
 
@@ -76,7 +76,8 @@ export function getFootprintSquareMeters(product: Product) {
 }
 
 export function getLowestPrice(product: Product) {
-  return Math.min(...product.commercial.offers.map((offer) => offer.price));
+  const offers = getEligibleOffers(product);
+  return offers.length > 0 ? Math.min(...offers.map((offer) => offer.price)) : null;
 }
 
 function matchesLegacyRule(product: Product, rule: CollectionRule) {
@@ -89,14 +90,14 @@ function matchesLegacyRule(product: Product, rule: CollectionRule) {
   if (rule === "small_garden") {
     return product.category === "outdoor" && getFootprintSquareMeters(product) <= 5;
   }
-  if (rule === "price_under_2500") return product.commercial.offers.some((offer) => offer.price <= 2_500);
+  if (rule === "price_under_2500") return getEligibleOffers(product).some((offer) => offer.price <= 2_500);
   if (rule === "two_person_indoor") {
     return ["indoor", "infrared"].includes(product.category) && product.people.max === 2;
   }
   if (rule === "infrared") return product.category === "infrared";
   if (rule === "bio_sauna") return product.sauna.type === "Bio-Sauna";
   if (rule === "barrel_sauna") return product.category === "outdoor" && product.model.toLocaleLowerCase("de").includes("fasssauna");
-  if (rule === "price_under_4000") return product.commercial.offers.some((offer) => offer.price <= 4_000);
+  if (rule === "price_under_4000") return getEligibleOffers(product).some((offer) => offer.price <= 4_000);
   if (rule === "three_person_indoor") {
     return ["indoor", "infrared"].includes(product.category) && product.people.max === 3;
   }
@@ -118,7 +119,7 @@ export function matchesCollectionFilters(product: Product, filters: CollectionFi
   if (filters.voltages && !filters.voltages.includes(product.power.voltage)) return false;
   if (filters.people_exact !== undefined && product.people.max !== filters.people_exact) return false;
   if (filters.people_min !== undefined && product.people.max < filters.people_min) return false;
-  if (filters.price_max !== undefined && price > filters.price_max) return false;
+  if (filters.price_max !== undefined && (price === null || price > filters.price_max)) return false;
   if (filters.footprint_min !== undefined && area < filters.footprint_min) return false;
   if (filters.footprint_max !== undefined && area > filters.footprint_max) return false;
   if (filters.width_max !== undefined && product.dimensions_cm.width > filters.width_max) return false;
@@ -141,7 +142,7 @@ export function getCollectionProducts(collection: Collection) {
     .filter((product) => matchesCollection(product, collection))
     .sort((a, b) => {
       const primary = collection.sort === "price"
-        ? getLowestPrice(a) - getLowestPrice(b)
+        ? (getLowestPrice(a) ?? Number.POSITIVE_INFINITY) - (getLowestPrice(b) ?? Number.POSITIVE_INFINITY)
         : getFootprintSquareMeters(a) - getFootprintSquareMeters(b);
       return primary || a.model.localeCompare(b.model, "de");
     });

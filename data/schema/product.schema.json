@@ -3,11 +3,21 @@
   "$id": "https://example.invalid/schemas/product.schema.json",
   "title": "Sauna product",
   "type": "object",
-  "required": ["product_id", "brand", "model", "category", "status", "dimensions_cm", "people", "power", "sauna", "commercial", "editorial", "sources", "updated_at"],
+  "required": ["product_id", "brand", "model", "family", "category", "status", "dimensions_cm", "people", "power", "sauna", "commercial", "editorial", "sources", "updated_at"],
   "properties": {
     "product_id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "brand": { "type": "string", "minLength": 1 },
     "model": { "type": "string", "minLength": 1 },
+    "family": {
+      "type": ["object", "null"],
+      "required": ["id", "name", "variant"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "variant": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
     "category": { "enum": ["indoor", "outdoor", "infrared", "portable", "tent"] },
     "status": { "enum": ["draft", "verified", "archived"] },
     "dimensions_cm": {
@@ -70,9 +80,13 @@
             "properties": {
               "merchant": { "type": "string", "minLength": 1 },
               "price": { "type": "number", "minimum": 0 },
-              "availability": { "type": "string", "minLength": 1 },
+              "availability": { "enum": ["manufacturer-listed", "in-stock", "low-stock-listed", "in-stock-listed", "feed-listed", "reseller-only", "preorder-listed", "out-of-stock-listed", "sale-listed"] },
               "url": { "type": "string", "format": "uri" },
               "affiliate": { "type": "boolean" },
+              "affiliate_url": { "type": "string", "format": "uri" },
+              "affiliate_program_id": { "type": "string", "minLength": 1 },
+              "configuration": { "type": "string", "minLength": 1 },
+              "selection_required": { "type": "boolean" },
               "last_checked": { "type": "string", "format": "date" }
             },
             "additionalProperties": false

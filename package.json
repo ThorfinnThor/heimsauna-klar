@@ -12,7 +12,7 @@
     "deploy:cloudflare": "npm run build:cloudflare && npx wrangler deploy",
     "start": "next start",
     "lint": "eslint app scripts --ignore-pattern .next --ignore-pattern out",
-    "data:check": "node scripts/validate-data.mjs && node scripts/audit-editorial-expansion.mjs",
+    "data:check": "node scripts/check-product-schema.mjs && node scripts/validate-data.mjs && node scripts/audit-editorial-expansion.mjs",
     "links:check": "node scripts/check-internal-links.mjs",
     "seo:check": "node scripts/check-static-seo.mjs",
     "diversity:check": "node scripts/check-content-diversity.mjs",
@@ -23,7 +23,8 @@
     "awin:candidates": "node scripts/awin/audit-catalog-candidates.mjs",
     "awin:sync": "node scripts/awin/sync-affiliate-offers.mjs",
     "awin:test": "node --test scripts/awin/*.test.mjs",
-    "test": "npm run data:check && npm run build"
+    "offer:test": "node --test --experimental-strip-types scripts/offer-policy.test.ts",
+    "test": "npm run offer:test && npm run data:check && npm run build"
   },
   "dependencies": {
     "next": "16.3.2",

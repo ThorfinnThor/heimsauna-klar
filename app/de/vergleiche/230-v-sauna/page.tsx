@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
-import { formatGermanDate, formatPower, formatPrice, getLatestOfferCheck, products } from "@/lib/products";
+import { formatGermanDate, formatPower, formatPrice, getOfferDateRange, products } from "@/lib/products";
 import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
@@ -13,7 +13,7 @@ export const metadata = createPageMetadata({
 
 export default function ComparisonPage() {
   const candidates = products.filter((product) => product.power.voltage === 230);
-  const latestOfferCheck = getLatestOfferCheck(candidates);
+  const offerDateRange = getOfferDateRange(candidates);
 
   return (
     <main>
@@ -29,7 +29,7 @@ export default function ComparisonPage() {
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
             <Link href="/de/">Start</Link><span>/</span><Link href="/de/produkte/">Produkte</Link><span>/</span><span>230-V-Sauna</span>
           </nav>
-          <p className="eyebrow">Datenvergleich · Stand {latestOfferCheck ? formatGermanDate(latestOfferCheck) : "nicht verfügbar"}</p>
+          <p className="eyebrow">Datenvergleich · Preisstände {offerDateRange.oldest && offerDateRange.newest ? `${formatGermanDate(offerDateRange.oldest)} bis ${formatGermanDate(offerDateRange.newest)}` : "nicht verfügbar"}</p>
           <h1>230-V-Saunen vergleichen.<span>Nach Maß, Leistung und Preis.</span></h1>
           <p>Diese Seite vergleicht belegte Herstellerangaben zu Anschluss, Leistung, Abmessungen und Preisstand. Eigene Nutzung und Montage liegen nicht vor.</p>
           <div className="guide-path-links" aria-label="Vergleich vorbereiten"><Link className="button button-primary" href="/de/saunatechnik/230-v-sauna/">230 V verstehen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf prüfen ↗</Link></div>
