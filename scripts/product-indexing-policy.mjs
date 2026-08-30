@@ -1,9 +1,15 @@
 const editorialFields = ["pros", "cons", "ideal_for", "not_for"];
 
+function splitSentences(text) {
+  return text.match(/[^.!?]+(?:[.!?]+|$)/g)?.map((sentence) => sentence.trim()).filter(Boolean) ?? [];
+}
+
 function editorialPoints(product, overrides) {
   const points = editorialFields.flatMap((field) => product.editorial?.[field] ?? []);
   const override = overrides?.[product.product_id];
-  if (override) points.push(override.intro, override.detail);
+  if (override) {
+    points.push(...splitSentences(override.intro), ...splitSentences(override.detail));
+  }
   return points;
 }
 

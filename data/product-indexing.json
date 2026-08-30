@@ -4,23 +4,23 @@
   "generated_from_products_updated_at": "2026-08-29",
   "summary": {
     "total_verified_products": 435,
-    "index": 199,
-    "noindex": 236,
+    "index": 215,
+    "noindex": 220,
     "categories": {
       "indoor": {
         "total": 213,
-        "index": 63,
-        "noindex": 150
+        "index": 71,
+        "noindex": 142
       },
       "infrared": {
         "total": 72,
-        "index": 54,
-        "noindex": 18
+        "index": 59,
+        "noindex": 13
       },
       "outdoor": {
         "total": 130,
-        "index": 62,
-        "noindex": 68
+        "index": 65,
+        "noindex": 65
       },
       "tent": {
         "total": 20,
@@ -293,10 +293,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 7,
         "frequent_editorial_point_count": 6,
-        "frequent_editorial_share": 0.4615
+        "frequent_editorial_share": 0.375
       },
       "reasons": [
         "distinct-editorial-evidence"
@@ -309,10 +309,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 8,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.6154
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "distinct-editorial-evidence"
@@ -336,19 +336,18 @@
     },
     {
       "product_id": "dewello-kenora-130",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 9,
-        "frequent_editorial_share": 0.8182
+        "frequent_editorial_share": 0.5625
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -358,10 +357,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 7,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.6154
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-evidence"
@@ -385,19 +384,18 @@
     },
     {
       "product_id": "dewello-kingston-130",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 9,
-        "frequent_editorial_share": 0.8182
+        "frequent_editorial_share": 0.6
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -418,19 +416,18 @@
     },
     {
       "product_id": "dewello-lakefield-pro-140",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 9,
-        "frequent_editorial_share": 0.8182
+        "frequent_editorial_share": 0.5625
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -489,10 +486,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 8,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.6154
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "distinct-editorial-evidence"
@@ -500,35 +497,34 @@
     },
     {
       "product_id": "dewello-pierson-135",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 9,
-        "frequent_editorial_share": 0.8182
+        "frequent_editorial_share": 0.5625
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
       "product_id": "dewello-pierson-90",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 3,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.5385
+        "frequent_editorial_share": 0.4375
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -572,10 +568,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 7,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.5385
+        "frequent_editorial_share": 0.4375
       },
       "reasons": [
         "distinct-editorial-evidence"
@@ -665,18 +661,18 @@
     },
     {
       "product_id": "harvia-block-right-large",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.5
+        "frequent_editorial_share": 0.4375
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -713,18 +709,18 @@
     },
     {
       "product_id": "harvia-domo-medium",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 6,
-        "frequent_editorial_share": 0.4286
+        "frequent_editorial_share": 0.3529
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -734,10 +730,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 7,
         "frequent_editorial_point_count": 3,
-        "frequent_editorial_share": 0.2143
+        "frequent_editorial_share": 0.1765
       },
       "reasons": [
         "distinct-editorial-evidence"
@@ -766,10 +762,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 6,
-        "frequent_editorial_share": 0.4286
+        "frequent_editorial_share": 0.375
       },
       "reasons": [
         "distinct-editorial-evidence"
@@ -782,10 +778,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 8,
         "frequent_editorial_point_count": 4,
-        "frequent_editorial_share": 0.2857
+        "frequent_editorial_share": 0.2353
       },
       "reasons": [
         "distinct-editorial-evidence"
@@ -1017,18 +1013,18 @@
     },
     {
       "product_id": "harvia-panorama-large",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 3,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.5
+        "frequent_editorial_share": 0.4118
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -2002,19 +1998,18 @@
     },
     {
       "product_id": "karibu-28098",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 11,
-        "frequent_editorial_share": 0.9167
+        "frequent_editorial_share": 0.6471
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -3360,19 +3355,18 @@
     },
     {
       "product_id": "karibu-sauna-amelia-1",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 11,
-        "frequent_editorial_share": 0.9167
+        "frequent_editorial_share": 0.6471
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -4525,19 +4519,18 @@
     },
     {
       "product_id": "karibu-sauna-lilja",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 11,
-        "frequent_editorial_share": 0.9167
+        "frequent_editorial_share": 0.6875
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -4626,19 +4619,18 @@
     },
     {
       "product_id": "karibu-sauna-sahib-1",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 11,
-        "frequent_editorial_share": 0.9167
+        "frequent_editorial_share": 0.6471
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -4788,19 +4780,18 @@
     },
     {
       "product_id": "karibu-sauna-siirin",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 11,
-        "frequent_editorial_share": 0.9167
+        "frequent_editorial_share": 0.6875
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -5137,18 +5128,18 @@
     },
     {
       "product_id": "karibu-saunahaus-hytti-2-97707",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 5,
-        "frequent_editorial_share": 0.4167
+        "frequent_editorial_share": 0.3125
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -5288,19 +5279,18 @@
     },
     {
       "product_id": "karibu-saunahaus-mainburg-4-36293",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 9,
-        "frequent_editorial_share": 0.75
+        "frequent_editorial_share": 0.5625
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -6582,18 +6572,18 @@
     },
     {
       "product_id": "weka-saunahaus-412-4126250801",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 5,
-        "frequent_editorial_share": 0.4545
+        "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
