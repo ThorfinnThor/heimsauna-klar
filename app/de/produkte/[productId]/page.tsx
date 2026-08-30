@@ -114,7 +114,7 @@ export default async function ProductPage({ params }: Props) {
         {product.category === "outdoor" ? <ProductEditorialFrame product={product} frame={productFrame} /> : null}
 
         <section className="spec-section page-shell" aria-labelledby="spec-title">
-          <div><p className="eyebrow">Kerndaten</p><h2 id="spec-title">Passt das Modell technisch?</h2></div>
+          <div><p className="eyebrow">Kerndaten</p><h2 id="spec-title">Technische Daten</h2></div>
           <div>
             <dl className="spec-grid">
               <div><dt>Außenmaß</dt><dd>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</dd></div>
@@ -138,7 +138,7 @@ export default async function ProductPage({ params }: Props) {
           <section className="variant-section page-shell" aria-labelledby="variant-title">
             <div className="variant-intro">
               <p className="eyebrow">Produktreihe · {familyProducts.length} Varianten</p>
-              <h2 id="variant-title">{product.family.name} im Variantenvergleich.</h2>
+              <h2 id="variant-title">{product.family.name}: Varianten im Vergleich</h2>
               <p data-product-copy="true">{product.model} gehört zur Reihe {product.family.name}. Die folgenden Varianten machen Unterschiede bei Ausführung, Maßen, Wärmeart und dokumentiertem Preis sichtbar; {product.family.variant} bleibt dabei als eigener Datensatz nachvollziehbar.</p>
             </div>
             <div className="variant-grid">
@@ -179,7 +179,7 @@ export default async function ProductPage({ params }: Props) {
         <section className="source-section page-shell">
           <div>
             <p className="eyebrow">Transparenz</p>
-            <h2>Datenlage zum Produkt.</h2>
+            <h2>Verwendete Produktquellen</h2>
           </div>
           <div>
             <p data-product-copy="true">Die Einordnung zu {product.brand} {product.model} stützt sich auf {product.sources.length === 1 ? "eine geprüfte Produktquelle" : `${product.sources.length} geprüfte Produktquellen`}. Eigene Messwerte zu Aufbau, Innenraum oder Betrieb liegen nicht vor.</p>
@@ -200,7 +200,7 @@ export default async function ProductPage({ params }: Props) {
         </section>
 
         <aside className="collection-related page-shell" aria-labelledby="product-next-title">
-          <div><p className="eyebrow">Vom Datensatz zur Entscheidung</p><h2 id="product-next-title">Weiter prüfen, bevor du kaufst.</h2></div>
+          <div><p className="eyebrow">Passende Ratgeber</p><h2 id="product-next-title">Weitere Planung zum Modell</h2></div>
           <div className="collection-related-grid">
             {planningLinks.map((item) => (
               <Link href={item.href} key={item.href}><small>{item.label}</small><strong>{item.title}</strong><span>Öffnen ↗</span></Link>
@@ -245,7 +245,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
     return {
       className: "product-frame-outdoor",
       kicker: "Standort vor Bestellung",
-      title: `${product.model}: Standort und Ausstattung zusammen prüfen.`,
+      title: `${product.model}: Platzbedarf und Lieferumfang`,
       intro: intros[variant],
       detail: `${powerSentence} Zur Produktfläche kommen noch Herstellerabstände, Fundament, Entwässerung und Montagezugang hinzu.`,
     };
@@ -259,7 +259,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
     return {
       className: "product-frame-heat",
       kicker: "Wärmeprofil und Abmessungen",
-      title: `${product.model}: Wärmeart und Raumbedarf einordnen.`,
+      title: `${product.model}: Stellfläche, Leistung und Wärmeart`,
       intro: intros[variant],
       detail: `${powerSentence} Zusätzlich sollten Strahlerposition, Regelung und das gewünschte Wärmegefühl mit der Herstellerbeschreibung abgeglichen werden.`,
     };
@@ -272,7 +272,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
   return {
     className: "product-frame-indoor",
     kicker: "Raum- und Anschlusslogik",
-    title: `${product.model}: Maße und Nutzung zusammen lesen.`,
+    title: `${product.model}: Platzbedarf und Anschluss`,
     intro: intros[variant],
     detail: `${powerSentence} Zusätzlich sind Türöffnung, Transportweg, Raumhöhe und die Abstände aus der konkreten Montageanleitung zu prüfen.`,
   };
@@ -340,14 +340,14 @@ function getFamilyEditorial(product: NonNullable<ReturnType<typeof getProduct>>,
     return {
       className: "family-editorial family-editorial-outdoor",
       kicker: "Familienblick · Standort und Ausführung",
-      title: `${family.name} ist eine Reihe von Standortentscheidungen.`,
+      title: `${family.name}: Varianten für den Garten`,
       paragraphs: [
         `Die ${family.name}-Varianten liegen bei etwa ${minFootprint} bis ${maxFootprint} m² rechnerischer Produktfläche und reichen bis zu ${maxPeople} Personen. Das beschreibt die Produktspanne, nicht automatisch die benötigte Grundstücksfläche.`,
         `Verglichen werden hier unter anderem ${variantList}. Fundament, Zugang, Wetterschutz und die Ofen- beziehungsweise Anschlussplanung bleiben je Variante zu prüfen.`,
       ],
       pointsTitle: "Die Reihe sinnvoll lesen",
       points: ["Sockelmaß und reale Aufstellfläche trennen", "Lieferumfang von Ofen und Dach prüfen", `Spannungsangaben der Reihe: ${voltageLabels.join(" / ")}`],
-      callout: "Bei einer Outdoor-Familie ist die passende Variante die, die zum Grundstück und zum Bauumfang passt.",
+      callout: `In der ${family.name}-Reihe unterscheiden sich die Varianten vor allem bei Grundfläche, Ausstattung und Ofenpaket.`,
     };
   }
 
@@ -355,14 +355,14 @@ function getFamilyEditorial(product: NonNullable<ReturnType<typeof getProduct>>,
     return {
       className: "family-editorial family-editorial-technical",
       kicker: "Familienblick · Wärmeprofil und Raum",
-      title: `${family.name}: gleiche Idee, andere Stellfläche.`,
+      title: `${family.name}: Stellfläche und Ausstattung der Varianten`,
       paragraphs: [
         `Die ${family.name}-Varianten bleiben Infrarotkabinen, unterscheiden sich aber bei ${variantList}. Die rechnerische Produktfläche reicht von ${minFootprint} bis ${maxFootprint} m².`,
         `Die Reihe deckt unterschiedliche Raumgrößen ab. Strahler, Regelung, Zugang und der konkrete Anschluss müssen für jedes Modell einzeln geprüft werden.`,
       ],
       pointsTitle: "Vor der Größenwahl",
       points: ["Innenmaß und Sitzposition aus der Anleitung prüfen", "Wärmeart nicht mit einer Ofensauna gleichsetzen", `Anschlussdaten je Variante abgleichen: ${voltageLabels.join(" / ")}`],
-      callout: "Vergleiche die Varianten anhand von Raummaß, Sitzposition und Anschluss.",
+      callout: "Für den Vergleich zählen Außenmaß, Sitzposition, Strahler und Anschluss jeder Variante.",
     };
   }
 
@@ -370,7 +370,7 @@ function getFamilyEditorial(product: NonNullable<ReturnType<typeof getProduct>>,
     ? {
         className: "family-editorial family-editorial-range",
         kicker: "Familienblick · Varianten einordnen",
-        title: `${family.name} lässt sich über die Ausführung lesen.`,
+        title: `${family.name}: Ausführungen im Vergleich`,
         paragraphs: [
           `Die Reihe umfasst ${familyProducts.length} dokumentierte Varianten. Sie bewegen sich zwischen ${minFootprint} und ${maxFootprint} m² Produktfläche und sind für bis zu ${maxPeople} Personen ausgewiesen.`,
           `Die Unterschiede bei ${variantList} sollten gegen die geplante Nutzung und die gewünschte Konfiguration gelesen werden.`,
@@ -382,14 +382,14 @@ function getFamilyEditorial(product: NonNullable<ReturnType<typeof getProduct>>,
     : {
         className: "family-editorial family-editorial-space",
         kicker: "Familienblick · Raum und Nutzung",
-        title: `${family.name}: Varianten und Maße im Vergleich.`,
+        title: `${family.name}: Maße und Kapazität der Varianten`,
         paragraphs: [
           `Für ${family.name} sind ${familyProducts.length} Varianten mit unterschiedlichen Ausführungen dokumentiert. Die kleinste und größte rechnerische Produktfläche liegen bei ${minFootprint} beziehungsweise ${maxFootprint} m².`,
           `Die Kapazität reicht in dieser Reihe bis zu ${maxPeople} Personen. Ein größerer Grundriss kann Zugang und Komfort verändern, sagt aber allein noch nichts über Wärmeverteilung oder Montageaufwand aus.`,
         ],
         pointsTitle: "Gemeinsamkeiten nicht überbewerten",
         points: ["Außenmaß gegen Raumabstände rechnen", "Innenraum und Bankanordnung vergleichen", "Anschluss und Montageanleitung je Modell prüfen"],
-        callout: `Die passende ${family.name}-Variante ist die, deren Ausführung zu deinem Raum und Ablauf passt.`,
+        callout: `Zwischen den ${family.name}-Varianten ändern sich vor allem Grundriss, Kapazität und Ausführung.`,
       };
   return rangeCopy;
 }

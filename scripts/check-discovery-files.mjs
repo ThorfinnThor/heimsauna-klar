@@ -7,13 +7,15 @@ const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://selectyoursauna.co
 const products = JSON.parse(await readFile(new URL("../data/products.json", import.meta.url), "utf8"));
 const llmsPath = path.join(outputRoot, "llms.txt");
 const robotsPath = path.join(outputRoot, "robots.txt");
+const redirectsPath = path.join(outputRoot, "_redirects");
 
-if (!existsSync(llmsPath) || !existsSync(robotsPath)) {
-  throw new Error("Discovery check needs out/llms.txt and out/robots.txt");
+if (!existsSync(llmsPath) || !existsSync(robotsPath) || !existsSync(redirectsPath)) {
+  throw new Error("Discovery check needs out/llms.txt, out/robots.txt and out/_redirects");
 }
 
 const llms = await readFile(llmsPath, "utf8");
 const robots = await readFile(robotsPath, "utf8");
+const redirects = await readFile(redirectsPath, "utf8");
 const requiredLlmsContent = [
   "# Select Your Sauna",
   `${products.length} verifizierte Produktdatensätze`,
@@ -32,4 +34,8 @@ if (robots.includes("Sitemap:") && !/User-Agent:\s*OAI-SearchBot[\s\S]*?Allow:\s
   throw new Error("robots.txt does not explicitly allow OAI-SearchBot on the indexable build");
 }
 
-console.log(`Discovery check passed: llms.txt describes ${products.length} products and robots.txt has the expected crawler policy.`);
+if (!redirects.split("\n").some((line) => line.trim() === "/ /de/ 301")) {
+  throw new Error("Static redirects must send the root URL to /de/ with status 301");
+}
+
+console.log(`Discovery check passed: llms.txt describes ${products.length} products, robots.txt has the expected crawler policy, and / redirects to /de/.`);

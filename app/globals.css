@@ -1098,7 +1098,15 @@ footer {
 
 @media (max-width: 650px) {
   .site-header, .hero, .comparison-section, .page-shell { width: min(100% - 30px, 1400px); }
-  .site-header { height: 72px; }
+  .site-header { min-height: 132px; height: auto; padding-top: 18px; grid-template-columns: 1fr; gap: 14px; }
+  .site-header .nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    padding-bottom: 14px;
+    gap: 10px 20px;
+    font-size: 12px;
+  }
   .header-cta { display: none; }
   .hero-copy { min-height: 620px; padding-top: 70px; }
   h1 { font-size: clamp(49px, 14vw, 70px); }

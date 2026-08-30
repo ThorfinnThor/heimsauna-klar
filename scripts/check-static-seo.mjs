@@ -54,6 +54,8 @@ const editorialStylePatterns = [
   { pattern: /erfundene Rangliste/i, label: "phrase 'erfundene Rangliste'" },
   { pattern: /Harte Treffer/i, label: "finder phrase 'Harte Treffer'" },
   { pattern: /Keine harte Übereinstimmung/i, label: "finder phrase 'Keine harte Übereinstimmung'" },
+  { pattern: /ist eine Reihe von Standortentscheidungen/i, label: "formulaic product-family slogan" },
+  { pattern: /Weiter prüfen, bevor du kaufst/i, label: "formulaic product call-to-action" },
   { pattern: /\bnicht\b[^.!?]{0,100}\bsondern\b/i, label: "formulaic 'nicht … sondern …' construction" },
 ];
 
