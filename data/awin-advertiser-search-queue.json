@@ -1,0 +1,100 @@
+{
+  "updated_at": "2026-08-30",
+  "network": "Awin",
+  "publisher_id": "3037577",
+  "purpose": "Manuell geprüfte Advertiser-Kandidaten aus dem Awin-Verzeichnis. Ein Eintrag ist weder eine Teilnahmebestätigung noch ein aktiver Affiliate-Link.",
+  "search_terms": [
+    "sauna",
+    "infrarot",
+    "saunaofen",
+    "gartenhaus",
+    "garden",
+    "wellness"
+  ],
+  "candidates": [
+    {
+      "advertiser": "Bast Sauna DE",
+      "advertiser_id": "119243",
+      "status": "pending",
+      "product_feed": true,
+      "conversion_rate": "2.74%",
+      "approval_rate": "90%",
+      "epc": "EUR 2.34",
+      "relevance": "high",
+      "next_action": "Auf Advertiser-Freigabe warten; danach Feed und exakte Produkt-URLs prüfen.",
+      "profile_url": "https://ui.awin.com/awin/affiliate/3037577/merchant-profile/119243"
+    },
+    {
+      "advertiser": "Saunaloft DE",
+      "advertiser_id": "25645",
+      "status": "pending",
+      "product_feed": true,
+      "conversion_rate": "1.98%",
+      "approval_rate": "69.39%",
+      "epc": "EUR 0.34",
+      "relevance": "high",
+      "next_action": "Auf Advertiser-Freigabe warten; danach Feed und exakte Produkt-URLs prüfen.",
+      "profile_url": "https://ui.awin.com/awin/affiliate/3037577/merchant-profile/25645"
+    },
+    {
+      "advertiser": "TroniTechnik DE",
+      "advertiser_id": "16584",
+      "status": "pending",
+      "product_feed": true,
+      "conversion_rate": "1.46%",
+      "approval_rate": "100%",
+      "epc": "EUR 0.34",
+      "relevance": "high",
+      "next_action": "Auf Advertiser-Freigabe warten; besonders Infrarot- und Zubehörprodukte im Feed prüfen.",
+      "profile_url": "https://ui.awin.com/awin/affiliate/3037577/merchant-profile/16584"
+    },
+    {
+      "advertiser": "Wellness Point DE/AT",
+      "advertiser_id": "115411",
+      "status": "pending",
+      "product_feed": true,
+      "conversion_rate": "6.25%",
+      "approval_rate": "66.67%",
+      "epc": "EUR 9.40",
+      "relevance": "high",
+      "next_action": "Auf Advertiser-Freigabe warten; danach Premium-Saunen und Infrarotkabinen einzeln abgleichen.",
+      "profile_url": "https://ui.awin.com/awin/affiliate/3037577/merchant-profile/115411"
+    },
+    {
+      "advertiser": "GartenHaus GmbH (DE)",
+      "advertiser_id": "22747",
+      "status": "pending",
+      "product_feed": true,
+      "conversion_rate": "1.76%",
+      "approval_rate": "85.97%",
+      "epc": "EUR 0.57",
+      "relevance": "medium",
+      "next_action": "Auf Advertiser-Freigabe warten; Betreiberzuordnung und Saunahaus-Produkte vor einer Bewerbung mit Gartenhausfabrik abgrenzen.",
+      "profile_url": "https://ui.awin.com/awin/affiliate/3037577/merchant-profile/22747"
+    },
+    {
+      "advertiser": "Gartenhausfabrik DE",
+      "advertiser_id": "76696",
+      "status": "not_joined",
+      "product_feed": true,
+      "conversion_rate": "0.24%",
+      "approval_rate": "84.36%",
+      "epc": "EUR 0.09",
+      "relevance": "medium",
+      "next_action": "Nicht zusätzlich zu GartenHaus GmbH beantragen, solange die Betreiberzuordnung nicht geklärt ist.",
+      "profile_url": "https://ui.awin.com/awin/affiliate/3037577/merchant-profile/76696"
+    }
+  ],
+  "excluded_results": [
+    {
+      "advertiser": "Gartenzaun24 DE",
+      "advertiser_id": "31910",
+      "reason": "Gartenzaunprogramm mit Produktfeed, aber kein belastbarer Sauna- oder Saunahausbezug aus der Verzeichnissuche."
+    },
+    {
+      "advertiser": "Hecht-Garten",
+      "advertiser_id": "115745",
+      "reason": "Gartenprogramm mit Produktfeed, aber der Sauna-Bezug ist aus dem Verzeichnis allein nicht belegt."
+    }
+  ]
+}
