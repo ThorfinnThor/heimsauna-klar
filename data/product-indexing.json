@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy_updated_at": "2026-08-30",
-  "generated_from_products_updated_at": "2026-08-29",
+  "generated_from_products_updated_at": "2026-08-30",
   "summary": {
     "total_verified_products": 435,
     "index": 215,
@@ -6111,15 +6111,15 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -6383,15 +6383,15 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -6895,15 +6895,15 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {

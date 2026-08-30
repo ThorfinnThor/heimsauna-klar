@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-08-30",
+  "source": "Awin Benz24 Deutschland candidate audit plus individual merchant-page checks",
+  "advertiser_id": "18314",
+  "feed_id": "43829",
+  "policy": "Only one-to-one product assignments with a matching model or documented variant are approved. Ambiguous URLs, variant aliases and mismatched specifications remain non-affiliate links.",
+  "merchant_pages_checked": 20,
+  "http_status_observed": 200,
+  "candidate_rows_reviewed": 28,
+  "summary": {
+    "already_active_rows": 5,
+    "approved_for_next_feed_sync": 3,
+    "held_rows": 20
+  },
+  "already_active": [
+    {
+      "product_id": "karibu-saunahaus-hygge-86314",
+      "merchant_url": "https://benz24.de/karibu-saunahaus-hygge-terragrau.html",
+      "note": "Bereits als Benz24-Angebot mit Awin-Tracking vorhanden."
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-1-86283",
+      "merchant_url": "https://benz24.de/karibu-saunahaus-skrollan-1-terragrau.html",
+      "note": "Bereits als Benz24-Angebot mit Awin-Tracking vorhanden."
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-2-86299",
+      "merchant_url": "https://benz24.de/karibu-saunahaus-skrollan-2-terragrau.html",
+      "note": "Bereits als Benz24-Angebot mit Awin-Tracking vorhanden."
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-3-86304",
+      "merchant_url": "https://benz24.de/karibu-saunahaus-skrollan-3-terragrau.html",
+      "note": "Bereits als Benz24-Angebot mit Awin-Tracking vorhanden."
+    },
+    {
+      "product_id": "weka-elementsauna-kaarina-175x192",
+      "merchant_url": "https://benz24.de/weka-sauna-elementsauna-kaarina-fichte.html",
+      "note": "Bereits als Benz24-Angebot mit Awin-Tracking vorhanden."
+    }
+  ],
+  "approved_for_next_feed_sync": [
+    {
+      "product_id": "weka-farsund-390x187-fenster",
+      "merchant_url": "https://benz24.de/weka-gartensauna-saunahaus-farsund-mit.html",
+      "feed_product_name": "weka Gartensauna Saunahaus Farsund mit Vorraum günstig",
+      "feed_price": 4267.39,
+      "basis": "Eindeutiger Farsund-Produktpfad; Händlerseitentitel und dokumentiertes Modell mit Ruheraum und Fenster stimmen überein."
+    },
+    {
+      "product_id": "weka-kurikka-14930301046",
+      "merchant_url": "https://benz24.de/weka-saunahaus-kurikka-sparset-natur.html",
+      "feed_product_name": "weka Saunahaus KURIKKA Sparset natur günstig",
+      "feed_price": 6114.93,
+      "basis": "Eindeutiger Kurikka-Produktpfad; Händlerseitentitel, 298 × 298 cm und zwei Fenster passen zum dokumentierten Modell."
+    },
+    {
+      "product_id": "weka-saunahaus-kuopio-238x238",
+      "merchant_url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-natu.html",
+      "feed_product_name": "weka Design Saunahaus KUOPIO Sparset natur günstig",
+      "feed_price": 4698.06,
+      "basis": "Kanonischer naturbelassen-Produktpfad für Kuopio; die anthrazit-URL ist dagegen ein Variantenalias und bleibt gesperrt."
+    }
+  ],
+  "held": [
+    {
+      "reason": "ambiguous_catalog_assignment",
+      "product_ids": ["karibu-cuben-80800", "karibu-saunahaus-cuben-80796"],
+      "merchant_urls": [
+        "https://benz24.de/karibu-saunahaus-cuben-naturbelassen.html",
+        "https://benz24.de/karibu-saunahaus-cuben-terragrau.html"
+      ],
+      "note": "Jede URL passt zu zwei Cuben-Datensätzen; Maße und Modellvariante lassen sich aus dem Feednamen nicht eindeutig trennen."
+    },
+    {
+      "reason": "ambiguous_catalog_assignment",
+      "product_ids": ["weka-bergen-196x195-fenster", "weka-bergen-246x195-fenster"],
+      "merchant_urls": ["https://benz24.de/weka-sauna-massivholzsauna-bergen-premium.html"],
+      "note": "Eine Händlerseite wird für zwei Bergen-Maße vorgeschlagen."
+    },
+    {
+      "reason": "ambiguous_catalog_assignment",
+      "product_ids": ["weka-cubilis-195x145", "weka-cubilis-195x195"],
+      "merchant_urls": ["https://benz24.de/weka-design-saunahaus-cubilis-sparset-natur.html"],
+      "note": "Eine Händlerseite wird für zwei Cubilis-Größen vorgeschlagen."
+    },
+    {
+      "reason": "specification_mismatch",
+      "product_ids": ["weka-mikkeli-400v-9kw"],
+      "merchant_urls": ["https://benz24.de/weka-saunahaus-mikkeli-sparset-natur.html"],
+      "note": "Die geprüfte Händlerseite nennt 7,5 kW; der Katalogdatensatz dokumentiert 9 kW / 400 V. Keine automatische Zuordnung."
+    },
+    {
+      "reason": "variant_or_canonical_conflict",
+      "product_ids": ["weka-salo-601x298-grau"],
+      "merchant_urls": ["https://benz24.de/weka-saunahaus-salo-sparset-gra.html"],
+      "note": "Der Seitentitel nennt grau, der Canonical verweist jedoch auf die rot-Variante."
+    },
+    {
+      "reason": "variant_mismatch",
+      "product_ids": ["weka-salo-601x298-grau"],
+      "merchant_urls": ["https://benz24.de/weka-saunahaus-salo-sparset-ro.html"],
+      "note": "Feedzeile ist rot, der Katalogdatensatz ist grau."
+    },
+    {
+      "reason": "variant_or_canonical_conflict",
+      "product_ids": ["weka-saunahaus-kuopio-238x238"],
+      "merchant_urls": ["https://benz24.de/weka-design-saunahaus-kuopio-sparset-anthraz.html"],
+      "note": "Die anthrazit-URL canonicalisiert auf die natur-Variante; keine getrennte Affiliate-Zuordnung."
+    },
+    {
+      "reason": "ambiguous_catalog_assignment",
+      "product_ids": ["weka-valida-139x139", "weka-valida-3-gtf-400v"],
+      "merchant_urls": [
+        "https://benz24.de/weka-massivholzsauna-valida-plus-sparset.html",
+        "https://benz24.de/weka-sauna-ecksauna-valida-massivholz.html",
+        "https://benz24.de/weka-sauna-ecksauna-valida-sparset.html",
+        "https://benz24.de/weka-sauna-massivholzsauna-valida.html"
+      ],
+      "note": "Vier Valida-Angebote werden auf zwei unterschiedliche Katalogmodelle gemappt; Produktvariante und Ofenumfang sind nicht eindeutig."
+    }
+  ]
+}

@@ -2649,6 +2649,14 @@
           "url": "https://www.weka-holzbau.com/de/p/saunahaus-kuopio-wekaline-238x238-naturbelassen/533.2525.60100",
           "affiliate": false,
           "last_checked": "2026-08-25"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 4698.06,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-natu.html",
+          "affiliate": false,
+          "last_checked": "2026-08-30"
         }
       ]
     },
@@ -2683,9 +2691,15 @@
         "title": "WEKA Produktseite Saunahaus Kuopio wekaLine",
         "url": "https://www.weka-holzbau.com/de/p/saunahaus-kuopio-wekaline-238x238-naturbelassen/533.2525.60100",
         "checked_at": "2026-08-25"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite weka Design Saunahaus Kuopio Sparset natur",
+        "url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-natu.html",
+        "checked_at": "2026-08-30"
       }
     ],
-    "updated_at": "2026-08-25"
+    "updated_at": "2026-08-30"
   },
   {
     "product_id": "harvia-domo-large",
@@ -15990,6 +16004,14 @@
           "url": "https://www.weka-holzbau.com/de/p/saunahaus-farsund-390x187-glastuer-ruheraum-fenster-naturbelassen/533.3920.80100",
           "affiliate": false,
           "last_checked": "2026-08-24"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 4267.39,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/weka-gartensauna-saunahaus-farsund-mit.html",
+          "affiliate": false,
+          "last_checked": "2026-08-30"
         }
       ]
     },
@@ -16024,9 +16046,15 @@
         "title": "WEKA Produktseite Saunahaus Farsund 390 × 187 cm · Ruheraum und Fenster",
         "url": "https://www.weka-holzbau.com/de/p/saunahaus-farsund-390x187-glastuer-ruheraum-fenster-naturbelassen/533.3920.80100",
         "checked_at": "2026-08-24"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite weka Gartensauna Saunahaus Farsund mit Vorraum",
+        "url": "https://benz24.de/weka-gartensauna-saunahaus-farsund-mit.html",
+        "checked_at": "2026-08-30"
       }
     ],
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-30"
   },
   {
     "product_id": "weka-luua-234x249",
@@ -18820,6 +18848,14 @@
           "url": "https://www.weka-holzbau.com/de/p/saunahaus-kurikka-298x298-einzeltuer-2-fenster-naturbelassen/149.3030.10.46",
           "affiliate": false,
           "last_checked": "2026-08-25"
+        },
+        {
+          "merchant": "Benz24",
+          "price": 6114.93,
+          "availability": "feed-listed",
+          "url": "https://benz24.de/weka-saunahaus-kurikka-sparset-natur.html",
+          "affiliate": false,
+          "last_checked": "2026-08-30"
         }
       ]
     },
@@ -18854,9 +18890,15 @@
         "title": "WEKA Produktseite Saunahaus Kurikka 149.3030.10.46",
         "url": "https://www.weka-holzbau.com/de/p/saunahaus-kurikka-298x298-einzeltuer-2-fenster-naturbelassen/149.3030.10.46",
         "checked_at": "2026-08-25"
+      },
+      {
+        "type": "merchant",
+        "title": "Benz24 Produktseite weka Saunahaus Kurikka Sparset natur",
+        "url": "https://benz24.de/weka-saunahaus-kurikka-sparset-natur.html",
+        "checked_at": "2026-08-30"
       }
     ],
-    "updated_at": "2026-08-25"
+    "updated_at": "2026-08-30"
   },
   {
     "product_id": "weka-saunahaus-412-4126250803",
