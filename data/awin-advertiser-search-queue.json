@@ -1,5 +1,7 @@
 {
   "updated_at": "2026-08-30",
+  "reviewed_at": "2026-08-30",
+  "review_status": "accepted_with_operator_clarification",
   "network": "Awin",
   "publisher_id": "3037577",
   "purpose": "Manuell geprüfte Advertiser-Kandidaten aus dem Awin-Verzeichnis. Ein Eintrag ist weder eine Teilnahmebestätigung noch ein aktiver Affiliate-Link.",
@@ -63,25 +65,29 @@
     {
       "advertiser": "GartenHaus GmbH (DE)",
       "advertiser_id": "22747",
+      "operator": "A-Z Gartenhaus GmbH",
+      "operator_source": "https://www.gartenhaus.com/page/agb",
       "status": "pending",
       "product_feed": true,
       "conversion_rate": "1.76%",
       "approval_rate": "85.97%",
       "epc": "EUR 0.57",
-      "relevance": "medium",
-      "next_action": "Auf Advertiser-Freigabe warten; Betreiberzuordnung und Saunahaus-Produkte vor einer Bewerbung mit Gartenhausfabrik abgrenzen.",
+      "relevance": "high",
+      "next_action": "Auf Advertiser-Freigabe warten; danach Sauna- und Saunahaus-Angebote über exakte Produkt-URLs abgleichen.",
       "profile_url": "https://ui.awin.com/awin/affiliate/3037577/merchant-profile/22747"
     },
     {
       "advertiser": "Gartenhausfabrik DE",
       "advertiser_id": "76696",
+      "operator": "GBV Gartenhaus Berlin Vertriebs GmbH",
+      "operator_source": "https://www.gartenhausfabrik.de/impressum",
       "status": "not_joined",
       "product_feed": true,
       "conversion_rate": "0.24%",
       "approval_rate": "84.36%",
       "epc": "EUR 0.09",
-      "relevance": "medium",
-      "next_action": "Nicht zusätzlich zu GartenHaus GmbH beantragen, solange die Betreiberzuordnung nicht geklärt ist.",
+      "relevance": "high",
+      "next_action": "Bewerbung ist parallel zu GartenHaus GmbH möglich; nach Freigabe nur eindeutig zuordenbare Sauna- und Saunahaus-Angebote übernehmen.",
       "profile_url": "https://ui.awin.com/awin/affiliate/3037577/merchant-profile/76696"
     }
   ],
