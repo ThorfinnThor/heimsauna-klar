@@ -1,4 +1,5 @@
 import productData from "@/data/products.json";
+import productEditorialOverrides from "@/data/product-editorial-overrides.json";
 import productIndexingData from "@/data/product-indexing.json";
 
 export type Product = {
@@ -71,6 +72,19 @@ export function isProductIndexable(product: Product) {
 
 export function getIndexableProducts() {
   return products.filter(isProductIndexable);
+}
+
+type ProductEditorialOverride = {
+  intro: string;
+  detail: string;
+};
+
+const productEditorialOverridesById = new Map(
+  Object.entries(productEditorialOverrides.entries as Record<string, ProductEditorialOverride>),
+);
+
+export function getProductEditorialOverride(productId: string) {
+  return productEditorialOverridesById.get(productId);
 }
 
 export function getCatalogStats(productList: Product[] = products) {

@@ -5,6 +5,7 @@ const outputRoot = path.resolve("out");
 const productionFallbackUrl = "https://selectyoursauna.com";
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? productionFallbackUrl).replace(/\/$/, "");
 const productIndexing = JSON.parse(await readFile(new URL("../data/product-indexing.json", import.meta.url), "utf8"));
+const productEditorialOverrides = JSON.parse(await readFile(new URL("../data/product-editorial-overrides.json", import.meta.url), "utf8"));
 const productIndexingById = new Map(productIndexing.entries.map((entry) => [entry.product_id, entry.decision]));
 
 async function collectHtmlFiles(directory) {
@@ -120,6 +121,10 @@ for (const { file, route } of publicPages) {
     if (fragments.some((fragment) => fragment.length < 70)) issues.push(`${route}: product-specific text fragment is too short`);
     if (fragments.some((fragment) => fragment.includes("nicht ausgewiesen und nicht ausgewiesen dokumentiert"))) {
       issues.push(`${route}: malformed missing-value sentence`);
+    }
+    const hasEditorialOverride = Object.hasOwn(productEditorialOverrides.entries, productId);
+    if (hasEditorialOverride && !fragments.some((fragment) => fragment.includes(productEditorialOverrides.entries[productId].intro.slice(0, 60)))) {
+      issues.push(`${route}: editorial override is not rendered`);
     }
     for (const fragment of fragments) productCopy.push({ route, value: fragment });
   }

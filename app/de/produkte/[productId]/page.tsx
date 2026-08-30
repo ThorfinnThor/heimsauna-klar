@@ -6,7 +6,7 @@ import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
 import { getOfferDisclosure, getOfferLink } from "@/lib/affiliate";
 import { createPageMetadata } from "@/lib/metadata";
-import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getProduct, getProductFamily, isProductIndexable, products } from "@/lib/products";
+import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getProduct, getProductEditorialOverride, getProductFamily, isProductIndexable, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ productId: string }> };
@@ -292,15 +292,16 @@ function getPowerSentence(product: NonNullable<ReturnType<typeof getProduct>>) {
 }
 
 function ProductEditorialFrame({ product, frame }: { product: NonNullable<ReturnType<typeof getProduct>>; frame: ProductFrame }) {
+  const override = getProductEditorialOverride(product.product_id);
   return (
     <section className={`product-frame page-shell ${frame.className}`} aria-labelledby="product-frame-title">
       <div>
         <p className="eyebrow">{frame.kicker}</p>
         <h2 id="product-frame-title">{frame.title}</h2>
-        <p data-product-copy="true">{frame.intro}</p>
+        <p data-product-copy="true">{override?.intro ?? frame.intro}</p>
       </div>
       <div className="product-frame-reading">
-        <p className="product-frame-detail" data-product-copy="true">{frame.detail}</p>
+        <p className="product-frame-detail" data-product-copy="true">{override?.detail ?? frame.detail}</p>
         <div className="product-frame-columns">
           <div><small>Spricht dafür</small><ul>{product.editorial.pros.slice(0, 3).map((item) => <li key={item}>{item}</li>)}</ul></div>
           <div><small>Vorher klären</small><ul>{product.editorial.cons.slice(0, 3).map((item) => <li key={item}>{item}</li>)}</ul></div>

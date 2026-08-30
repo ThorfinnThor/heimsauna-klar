@@ -3,7 +3,7 @@
   "updated_at": "2026-08-30",
   "scope": "verified_product_detail_pages",
   "default_decision": "noindex",
-  "methodology": "Produktseiten bleiben vollständig statisch und im Katalog erreichbar. Eine automatische Indexfreigabe setzt ein aktuelles Angebot, mindestens eine veröffentlichte Quelle und eine eigenständige redaktionelle Einordnung voraus. Mehrere Quellen können eine geringere Zahl exklusiver redaktioneller Punkte ausgleichen. Affiliate-Status und Händlerprovision beeinflussen die Entscheidung nicht.",
+  "methodology": "Produktseiten bleiben vollständig statisch und im Katalog erreichbar. Eine automatische Indexfreigabe setzt ein aktuelles Angebot, mindestens eine veröffentlichte Quelle und eine eigenständige redaktionelle Einordnung voraus. Freigegebene produktspezifische redaktionelle Ergänzungen werden als eigene Einordnung berücksichtigt. Mehrere Quellen können eine geringere Zahl exklusiver redaktioneller Punkte ausgleichen. Affiliate-Status und Händlerprovision beeinflussen die Entscheidung nicht.",
   "rules": {
     "require_current_offer": true,
     "require_published_source": true,

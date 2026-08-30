@@ -1,7 +1,10 @@
 const editorialFields = ["pros", "cons", "ideal_for", "not_for"];
 
-function editorialPoints(product) {
-  return editorialFields.flatMap((field) => product.editorial?.[field] ?? []);
+function editorialPoints(product, overrides) {
+  const points = editorialFields.flatMap((field) => product.editorial?.[field] ?? []);
+  const override = overrides?.[product.product_id];
+  if (override) points.push(override.intro, override.detail);
+  return points;
 }
 
 function assertPolicy(policy) {
@@ -34,14 +37,14 @@ function roundShare(value) {
   return Math.round(value * 10_000) / 10_000;
 }
 
-export function buildProductIndexing(products, policy) {
+export function buildProductIndexing(products, policy, editorialOverrides = {}) {
   assertPolicy(policy);
   const verifiedProducts = products.filter((product) => product.status === "verified");
   const productIds = new Set(verifiedProducts.map((product) => product.product_id));
   const frequencies = new Map();
 
   for (const product of verifiedProducts) {
-    for (const point of editorialPoints(product)) {
+    for (const point of editorialPoints(product, editorialOverrides)) {
       frequencies.set(point, (frequencies.get(point) ?? 0) + 1);
     }
   }
@@ -55,7 +58,7 @@ export function buildProductIndexing(products, policy) {
 
   const entries = verifiedProducts
     .map((product) => {
-      const points = editorialPoints(product);
+      const points = editorialPoints(product, editorialOverrides);
       const uniqueEditorialPoints = points.filter((point) => frequencies.get(point) === 1).length;
       const frequentEditorialPoints = points.filter(
         (point) => (frequencies.get(point) ?? 0) >= policy.rules.frequent_editorial_reuse_threshold,

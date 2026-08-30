@@ -4,18 +4,18 @@
   "generated_from_products_updated_at": "2026-08-29",
   "summary": {
     "total_verified_products": 435,
-    "index": 191,
-    "noindex": 244,
+    "index": 199,
+    "noindex": 236,
     "categories": {
       "indoor": {
         "total": 213,
-        "index": 60,
-        "noindex": 153
+        "index": 63,
+        "noindex": 150
       },
       "infrared": {
         "total": 72,
-        "index": 49,
-        "noindex": 23
+        "index": 54,
+        "noindex": 18
       },
       "outdoor": {
         "total": 130,
@@ -288,34 +288,34 @@
     },
     {
       "product_id": "dewello-calgary-90",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 6,
-        "frequent_editorial_share": 0.5455
+        "frequent_editorial_share": 0.4615
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
       "product_id": "dewello-haley-160",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 3,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.6154
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -353,18 +353,18 @@
     },
     {
       "product_id": "dewello-kenora-140",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 3,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.6154
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -484,18 +484,18 @@
     },
     {
       "product_id": "dewello-ottawa-140",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 3,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.6154
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -522,10 +522,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 1,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 3,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.6364
+        "frequent_editorial_share": 0.5385
       },
       "reasons": [
         "insufficient-distinct-evidence"
@@ -567,18 +567,18 @@
     },
     {
       "product_id": "dewello-toronto-102",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.6364
+        "frequent_editorial_share": 0.5385
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -670,10 +670,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 2,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.5833
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "insufficient-distinct-evidence"
@@ -718,10 +718,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 2,
         "frequent_editorial_point_count": 6,
-        "frequent_editorial_share": 0.5
+        "frequent_editorial_share": 0.4286
       },
       "reasons": [
         "insufficient-distinct-evidence"
@@ -729,18 +729,18 @@
     },
     {
       "product_id": "harvia-domo-small",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 3,
-        "frequent_editorial_share": 0.25
+        "frequent_editorial_share": 0.2143
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -761,34 +761,34 @@
     },
     {
       "product_id": "harvia-fuji-aspen-large",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 6,
-        "frequent_editorial_share": 0.5
+        "frequent_editorial_share": 0.4286
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
       "product_id": "harvia-fuji-aspen-small",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 3,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 4,
-        "frequent_editorial_share": 0.3333
+        "frequent_editorial_share": 0.2857
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -1022,10 +1022,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 1,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 3,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.5833
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "insufficient-distinct-evidence"

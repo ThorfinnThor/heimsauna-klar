@@ -3,7 +3,8 @@ import { buildProductIndexing } from "./product-indexing-policy.mjs";
 
 const products = JSON.parse(await readFile(new URL("../data/products.json", import.meta.url), "utf8"));
 const policy = JSON.parse(await readFile(new URL("../data/product-indexing-policy.json", import.meta.url), "utf8"));
-const report = buildProductIndexing(products, policy);
+const editorialOverrides = JSON.parse(await readFile(new URL("../data/product-editorial-overrides.json", import.meta.url), "utf8"));
+const report = buildProductIndexing(products, policy, editorialOverrides.entries);
 
 await writeFile(
   new URL("../data/product-indexing.json", import.meta.url),

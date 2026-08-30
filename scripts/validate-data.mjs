@@ -17,6 +17,7 @@ const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json
 const powerEvidence = JSON.parse(await readFile(new URL("../data/power-evidence.json", import.meta.url), "utf8"));
 const voltageReviewBatch = JSON.parse(await readFile(new URL("../data/voltage-review-batch.json", import.meta.url), "utf8"));
 const productIndexingPolicy = JSON.parse(await readFile(new URL("../data/product-indexing-policy.json", import.meta.url), "utf8"));
+const productEditorialOverrides = JSON.parse(await readFile(new URL("../data/product-editorial-overrides.json", import.meta.url), "utf8"));
 const productIndexing = JSON.parse(await readFile(new URL("../data/product-indexing.json", import.meta.url), "utf8"));
 const today = new Intl.DateTimeFormat("en-CA", {
   timeZone: "Europe/Berlin",
@@ -614,7 +615,17 @@ for (const product of products) {
 
 const verifiedProducts = products.filter((product) => product.status === "verified");
 assertIsoDate(productIndexingPolicy.updated_at, "Product indexing policy updated_at");
-const expectedProductIndexing = buildProductIndexing(products, productIndexingPolicy);
+if (productEditorialOverrides.schema_version !== 1 || productEditorialOverrides.scope !== "product_detail_pages") {
+  throw new Error("Product editorial overrides have an unsupported schema or scope");
+}
+const productIdsForOverrides = new Set(products.map((product) => product.product_id));
+for (const [productId, override] of Object.entries(productEditorialOverrides.entries ?? {})) {
+  if (!productIdsForOverrides.has(productId)) throw new Error(`Product editorial override references unknown product ${productId}`);
+  if (!override || typeof override.intro !== "string" || override.intro.trim() === "" || typeof override.detail !== "string" || override.detail.trim() === "") {
+    throw new Error(`Product editorial override for ${productId} is incomplete`);
+  }
+}
+const expectedProductIndexing = buildProductIndexing(products, productIndexingPolicy, productEditorialOverrides.entries);
 if (JSON.stringify(productIndexing) !== JSON.stringify(expectedProductIndexing)) {
   throw new Error("data/product-indexing.json is stale; run npm run indexing:generate");
 }
