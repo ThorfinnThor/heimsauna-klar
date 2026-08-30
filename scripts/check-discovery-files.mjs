@@ -35,12 +35,16 @@ if (missing.length > 0) {
   throw new Error(`llms.txt is missing required content: ${missing.join(", ")}`);
 }
 
-if (robots.includes("Sitemap:") && !/User-Agent:\s*OAI-SearchBot[\s\S]*?Allow:\s*\//i.test(robots)) {
-  throw new Error("robots.txt does not explicitly allow OAI-SearchBot on the indexable build");
+const searchCrawlers = ["OAI-SearchBot", "Claude-SearchBot", "PerplexityBot"];
+const blockedSearchCrawlers = searchCrawlers.filter((crawler) => (
+  !new RegExp(`User-Agent:\\s*${crawler}[\\s\\S]*?Allow:\\s*\\/`, "i").test(robots)
+));
+if (robots.includes("Sitemap:") && blockedSearchCrawlers.length > 0) {
+  throw new Error(`robots.txt does not explicitly allow search crawlers: ${blockedSearchCrawlers.join(", ")}`);
 }
 
 if (!redirects.split("\n").some((line) => line.trim() === "/ /de/ 301")) {
   throw new Error("Static redirects must send the root URL to /de/ with status 301");
 }
 
-console.log(`Discovery check passed: llms.txt documents ${products.length} products, ${productIndexing.summary.index} indexable detail pages and the editorial evidence policy; robots.txt and the root redirect are valid.`);
+console.log(`Discovery check passed: llms.txt documents ${products.length} products, ${productIndexing.summary.index} indexable detail pages and the editorial evidence policy; three AI search crawlers, robots.txt and the root redirect are valid.`);

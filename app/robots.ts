@@ -9,6 +9,8 @@ export default function robots(): MetadataRoute.Robots {
       ? [
           { userAgent: "*", allow: "/" },
           { userAgent: "OAI-SearchBot", allow: "/" },
+          { userAgent: "Claude-SearchBot", allow: "/" },
+          { userAgent: "PerplexityBot", allow: "/" },
         ]
       : { userAgent: "*", disallow: "/" },
     sitemap: isIndexingEnabled ? `${siteUrl}/sitemap.xml` : undefined,
