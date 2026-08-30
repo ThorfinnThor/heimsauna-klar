@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { isIndexingEnabled, siteUrl } from "@/lib/site";
-import { organizationJsonLd, websiteJsonLd } from "@/lib/structured-data";
+import { editorialAuthorJsonLd, organizationJsonLd, websiteJsonLd } from "@/lib/structured-data";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   },
   description:
     "Unabhängige Planungshilfe für Heimsaunen: nach Platz, Stromanschluss, Budget und Nutzungsprofil.",
+  creator: "Schayan Yousefian",
+  publisher: "SeitenHafen361",
   robots: isIndexingEnabled ? { index: true, follow: true } : { index: false, follow: false },
 };
 
@@ -24,6 +26,7 @@ export default function RootLayout({
     <html lang="de">
       <body>
         <StructuredData data={organizationJsonLd()} />
+        <StructuredData data={editorialAuthorJsonLd()} />
         <StructuredData data={websiteJsonLd()} />
         {children}
       </body>

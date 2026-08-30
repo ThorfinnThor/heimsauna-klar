@@ -5,6 +5,7 @@ import path from "node:path";
 const outputRoot = path.resolve("out");
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://selectyoursauna.com").replace(/\/$/, "");
 const products = JSON.parse(await readFile(new URL("../data/products.json", import.meta.url), "utf8"));
+const productIndexing = JSON.parse(await readFile(new URL("../data/product-indexing.json", import.meta.url), "utf8"));
 const llmsPath = path.join(outputRoot, "llms.txt");
 const robotsPath = path.join(outputRoot, "robots.txt");
 const redirectsPath = path.join(outputRoot, "_redirects");
@@ -19,6 +20,10 @@ const redirects = await readFile(redirectsPath, "utf8");
 const requiredLlmsContent = [
   "# Select Your Sauna",
   `${products.length} verifizierte Produktdatensätze`,
+  `${productIndexing.summary.index} eigenständige Produktseiten`,
+  "Redaktionell verantwortlich: Schayan Yousefian",
+  "Redaktion, Belege und Zitierfähigkeit",
+  "Fehlende Werte werden nicht aus ähnlichen Modellen ergänzt",
   `${siteUrl}/de/produkte/`,
   `${siteUrl}/de/ueber-uns/`,
   `${siteUrl}/sitemap.xml`,
@@ -38,4 +43,4 @@ if (!redirects.split("\n").some((line) => line.trim() === "/ /de/ 301")) {
   throw new Error("Static redirects must send the root URL to /de/ with status 301");
 }
 
-console.log(`Discovery check passed: llms.txt describes ${products.length} products, robots.txt has the expected crawler policy, and / redirects to /de/.`);
+console.log(`Discovery check passed: llms.txt documents ${products.length} products, ${productIndexing.summary.index} indexable detail pages and the editorial evidence policy; robots.txt and the root redirect are valid.`);

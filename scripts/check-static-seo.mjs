@@ -154,13 +154,27 @@ for (const { file, route } of publicPages) {
         issues.push(`${route}: JSON-LD block ${index + 1} exposes the internal sentinel "none"`);
       }
       if (structuredData["@type"] === "Article") {
-        if (structuredData.author?.["@type"] !== "Organization" || !structuredData.author?.url) {
-          issues.push(`${route}: Article JSON-LD needs a linked organization author`);
+        if (structuredData.author?.["@type"] !== "Person" || structuredData.author?.name !== "Schayan Yousefian" || !structuredData.author?.url) {
+          issues.push(`${route}: Article JSON-LD needs the linked named editor`);
         }
-        if (!structuredData.dateModified) issues.push(`${route}: Article JSON-LD needs dateModified`);
+        if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/.test(structuredData.dateModified ?? "")) {
+          issues.push(`${route}: Article JSON-LD needs dateModified with timezone`);
+        }
+        if (structuredData.mainEntityOfPage?.["@type"] !== "WebPage" || structuredData.mainEntityOfPage?.["@id"] !== canonical) {
+          issues.push(`${route}: Article JSON-LD needs a canonical WebPage mainEntityOfPage`);
+        }
+        if (!pageText.includes("Redaktion: Schayan Yousefian")) {
+          issues.push(`${route}: named Article author is not visible on the page`);
+        }
         if (!Array.isArray(structuredData.citation) || structuredData.citation.length === 0) {
           issues.push(`${route}: Article JSON-LD needs visible source citations`);
         }
+      }
+      if (structuredData["@type"] === "WebSite" && !Array.isArray(structuredData.alternateName)) {
+        issues.push(`${route}: WebSite JSON-LD needs documented alternate names`);
+      }
+      if (structuredData["@type"] === "Organization" && structuredData.publishingPrinciples !== `${siteUrl}/de/ueber-uns/`) {
+        issues.push(`${route}: Organization JSON-LD needs the editorial principles URL`);
       }
     } catch (error) {
       issues.push(`${route}: invalid JSON-LD block ${index + 1}: ${error.message}`);
@@ -171,6 +185,20 @@ for (const { file, route } of publicPages) {
   if (route !== "/") {
     descriptions.push({ route, value: description });
     canonicals.push({ route, value: canonical });
+  }
+}
+
+const aboutPage = publicPages.find(({ route }) => route === "/de/ueber-uns/");
+if (!aboutPage) {
+  issues.push("/de/ueber-uns/: editorial responsibility page is missing");
+} else {
+  const aboutHtml = await readFile(aboutPage.file, "utf8");
+  const aboutText = plainText(aboutHtml);
+  if (!aboutText.includes("Redaktionell verantwortlich ist Schayan Yousefian")) {
+    issues.push("/de/ueber-uns/: named editorial responsibility is missing");
+  }
+  if (!aboutHtml.includes('id="redaktion"') || !aboutHtml.includes('id="schayan-yousefian"')) {
+    issues.push("/de/ueber-uns/: stable editor anchors are missing");
   }
 }
 

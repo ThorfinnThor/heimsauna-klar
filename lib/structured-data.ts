@@ -24,6 +24,7 @@ export function websiteJsonLd(): JsonLd {
     "@type": "WebSite",
     "@id": `${siteUrl}/#website`,
     name: "Select Your Sauna",
+    alternateName: ["SelectYourSauna", "SelectYourSauna.com"],
     url: `${siteUrl}/`,
     inLanguage: "de-DE",
     publisher: { "@id": `${siteUrl}/#organization` },
@@ -39,6 +40,7 @@ export function organizationJsonLd(): JsonLd {
     legalName: "SeitenHafen361",
     url: `${siteUrl}/`,
     description: "Unabhängige deutschsprachige Planungs- und Vergleichsplattform für private Saunen.",
+    publishingPrinciples: absoluteUrl("/de/ueber-uns/"),
     email: "info@selectyoursauna.com",
     address: {
       "@type": "PostalAddress",
@@ -56,6 +58,18 @@ export function organizationJsonLd(): JsonLd {
   };
 }
 
+export function editorialAuthorJsonLd(): JsonLd {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${siteUrl}/de/ueber-uns/#schayan-yousefian`,
+    name: "Schayan Yousefian",
+    url: absoluteUrl("/de/ueber-uns/#redaktion"),
+    jobTitle: "Inhaber und redaktionell verantwortlich",
+    worksFor: { "@id": `${siteUrl}/#organization` },
+  };
+}
+
 export function aboutPageJsonLd({ title, description, path }: PageData): JsonLd {
   const url = absoluteUrl(path);
   return {
@@ -68,6 +82,7 @@ export function aboutPageJsonLd({ title, description, path }: PageData): JsonLd 
     inLanguage: "de-DE",
     isPartOf: { "@id": `${siteUrl}/#website` },
     mainEntity: { "@id": `${siteUrl}/#organization` },
+    about: { "@id": `${siteUrl}/de/ueber-uns/#schayan-yousefian` },
   };
 }
 
@@ -114,15 +129,15 @@ export function articleJsonLd({
     "@id": `${url}#article`,
     headline: title,
     description,
-    dateModified: updatedAt,
+    dateModified: `${updatedAt}T00:00:00Z`,
     inLanguage: "de-DE",
-    mainEntityOfPage: url,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
     isPartOf: { "@id": `${siteUrl}/#website` },
     author: {
-      "@type": "Organization",
-      "@id": `${siteUrl}/#organization`,
-      name: "Select Your Sauna",
-      url: absoluteUrl("/de/ueber-uns/"),
+      "@type": "Person",
+      "@id": `${siteUrl}/de/ueber-uns/#schayan-yousefian`,
+      name: "Schayan Yousefian",
+      url: absoluteUrl("/de/ueber-uns/#redaktion"),
     },
     publisher: { "@id": `${siteUrl}/#organization` },
     citation: sources,

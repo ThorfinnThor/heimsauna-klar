@@ -28,7 +28,7 @@ export default function AboutPage() {
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
             <Link href="/de/">Start</Link><span>/</span><span>Über uns</span>
           </nav>
-          <p className="eyebrow">Über Select Your Sauna · Stand 28.08.2026</p>
+          <p className="eyebrow">Über Select Your Sauna · Stand 31.08.2026</p>
           <h1>Saunaplanung mit nachvollziehbaren Produktdaten.</h1>
           <div className="about-hero-copy">
             <p>Select Your Sauna ist eine deutschsprachige Planungs- und Vergleichsplattform für private Saunen. Betreiber ist das Einzelunternehmen SeitenHafen361 von Schayan Yousefian.</p>
@@ -82,10 +82,12 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <section className="about-contact page-shell" aria-labelledby="about-contact-title">
-          <p className="eyebrow">Kontakt</p>
+        <section className="about-contact page-shell" id="redaktion" aria-labelledby="about-contact-title">
+          <p className="eyebrow">Redaktion und Kontakt</p>
           <div>
             <h2 id="about-contact-title">Verantwortung und Rückfragen</h2>
+            <p id="schayan-yousefian">Redaktionell verantwortlich ist Schayan Yousefian, Inhaber des Einzelunternehmens SeitenHafen361. Seine Arbeit für Select Your Sauna umfasst die Quellenprüfung, Datenmodellierung und redaktionelle Einordnung der Inhalte.</p>
+            <p>Die Website bietet keine handwerkliche, elektrotechnische oder baurechtliche Fachberatung. Bei sicherheitsrelevanten Fragen sind die Herstellerunterlagen und die Prüfung durch zuständige Fachleute maßgeblich.</p>
             <p>Betreiber: SeitenHafen361, Inhaber Schayan Yousefian, Freienwalder Str. 34, 13359 Berlin.</p>
             <p>Hinweise zu fehlerhaften oder veralteten Produktangaben können per E-Mail an <a className="text-link" href="mailto:info@selectyoursauna.com">info@selectyoursauna.com</a> gesendet werden.</p>
             <Link className="text-link" href="/de/rechtliches/">Impressum und Datenschutz →</Link>

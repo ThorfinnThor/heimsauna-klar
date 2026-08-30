@@ -72,7 +72,7 @@ function PlanningHero({ guide, presentation, productHref, productLabel }: {
         <p className="eyebrow">{guide.eyebrow}</p>
         <h1>{guide.title}<span>{guide.accent}</span></h1>
         <p>{guide.description}</p>
-        <p className="content-byline">Redaktion: <Link href="/de/ueber-uns/">Select Your Sauna</Link> · aktualisiert {formatGermanDate(guide.updated_at)}</p>
+        <p className="content-byline">Redaktion: <Link href="/de/ueber-uns/#redaktion">Schayan Yousefian</Link> · aktualisiert {formatGermanDate(guide.updated_at)}</p>
       </div>
       <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.summary}</p></div>
       <div className="guide-path-links" aria-label="Planung anwenden">

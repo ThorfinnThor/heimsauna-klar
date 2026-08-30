@@ -28,6 +28,9 @@ export function createPageMetadata({
   return {
     title,
     description,
+    ...(type === "article" ? {
+      authors: [{ name: "Schayan Yousefian", url: "/de/ueber-uns/#redaktion" }],
+    } : {}),
     alternates: { canonical: path },
     openGraph: {
       type,

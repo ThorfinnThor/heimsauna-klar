@@ -45,7 +45,7 @@ export default function GuidePage() {
           <p className="eyebrow">Saunatechnik</p>
           <h1>230 V bei der Sauna einordnen</h1>
           <p>{guide.description}</p>
-          <p className="content-byline">Redaktion: <Link href="/de/ueber-uns/">Select Your Sauna</Link> · aktualisiert {formatGermanDate(guide.updated_at)}</p>
+          <p className="content-byline">Redaktion: <Link href="/de/ueber-uns/#redaktion">Schayan Yousefian</Link> · aktualisiert {formatGermanDate(guide.updated_at)}</p>
           <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.quick_answer}</p></div>
           <div className="guide-path-links" aria-label="Passende Inhalte"><Link className="button button-primary" href="/de/vergleiche/230-v-sauna/">230-V-Modelle vergleichen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf berechnen ↗</Link></div>
         </header>
