@@ -34194,8 +34194,10 @@
           "price": 1699,
           "availability": "in-stock",
           "url": "https://www.homedeluxe.de/traditionelle-sauna-shadow-m_20331_49248/",
-          "affiliate": false,
-          "last_checked": "2026-08-28"
+          "affiliate": true,
+          "last_checked": "2026-08-28",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=36941311037&a=3037577&m=43199",
+          "affiliate_program_id": "awin-home-deluxe"
         }
       ]
     },

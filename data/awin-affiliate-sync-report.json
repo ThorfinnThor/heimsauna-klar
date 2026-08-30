@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T10:28:34.400Z",
+  "generated_at": "2026-08-30T10:40:11.354Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
   "products_total": 435,
-  "newly_matched_offers": 61,
-  "active_affiliate_offers": 62,
+  "newly_matched_offers": 62,
+  "active_affiliate_offers": 63,
   "targets": [
     {
       "merchant_id": "artsauna",
@@ -30,11 +30,9 @@
       "feed_name": "Default",
       "feed_rows": 4359,
       "catalog_offers": 34,
-      "exact_matches": 33,
+      "exact_matches": 34,
       "invalid_tracking_links": 0,
-      "unmatched_product_ids": [
-        "home-deluxe-shadow-m"
-      ]
+      "unmatched_product_ids": []
     },
     {
       "merchant_id": "benz24",
