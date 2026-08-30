@@ -6,6 +6,7 @@ type PageMetadataInput = {
   description: string;
   path: string;
   type?: "article" | "website";
+  indexable?: boolean;
 };
 
 export function createPageMetadata({
@@ -13,6 +14,7 @@ export function createPageMetadata({
   description,
   path,
   type = "website",
+  indexable = true,
 }: PageMetadataInput): Metadata {
   const url = new URL(path, `${siteUrl}/`).toString();
   const socialTitle = `${title} | Select Your Sauna`;
@@ -42,5 +44,12 @@ export function createPageMetadata({
       description,
       images: [socialImage.url],
     },
+    robots: indexable
+      ? { index: true, follow: true }
+      : {
+          index: false,
+          follow: true,
+          googleBot: { index: false, follow: true },
+        },
   };
 }

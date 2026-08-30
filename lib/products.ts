@@ -1,4 +1,5 @@
 import productData from "@/data/products.json";
+import productIndexingData from "@/data/product-indexing.json";
 
 export type Product = {
   product_id: string;
@@ -54,6 +55,23 @@ export type Product = {
 };
 
 export const products = (productData as Product[]).filter((product) => product.status === "verified");
+
+type ProductIndexingEntry = {
+  product_id: string;
+  decision: "index" | "noindex";
+};
+
+const productIndexingById = new Map(
+  (productIndexingData.entries as ProductIndexingEntry[]).map((entry) => [entry.product_id, entry.decision]),
+);
+
+export function isProductIndexable(product: Product) {
+  return productIndexingById.get(product.product_id) === "index";
+}
+
+export function getIndexableProducts() {
+  return products.filter(isProductIndexable);
+}
 
 export function getCatalogStats(productList: Product[] = products) {
   const categoryCounts = {

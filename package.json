@@ -18,6 +18,7 @@
     "diversity:check": "node scripts/check-content-diversity.mjs",
     "security:check": "node scripts/check-security-headers.mjs",
     "discovery:check": "node scripts/check-discovery-files.mjs",
+    "indexing:generate": "node scripts/generate-product-indexing.mjs",
     "awin:discover": "node scripts/awin/discover-feeds.mjs",
     "awin:candidates": "node scripts/awin/audit-catalog-candidates.mjs",
     "awin:sync": "node scripts/awin/sync-affiliate-offers.mjs",

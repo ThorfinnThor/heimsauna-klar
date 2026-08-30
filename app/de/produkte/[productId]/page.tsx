@@ -6,7 +6,7 @@ import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
 import { getOfferDisclosure, getOfferLink } from "@/lib/affiliate";
 import { createPageMetadata } from "@/lib/metadata";
-import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getProduct, getProductFamily, products } from "@/lib/products";
+import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getProduct, getProductFamily, isProductIndexable, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ productId: string }> };
@@ -27,6 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     path: `/de/produkte/${product.product_id}/`,
+    indexable: isProductIndexable(product),
   });
 }
 

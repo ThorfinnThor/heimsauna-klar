@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { collections } from "@/lib/collections";
 import { planningGuides } from "@/lib/planning-guides";
-import { products } from "@/lib/products";
+import { getIndexableProducts, products } from "@/lib/products";
 import { isIndexingEnabled, siteUrl } from "@/lib/site";
 import publication from "@/data/site-publication.json";
 import affiliate from "@/content/de/affiliate.json";
@@ -36,7 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
-    ...products.map((product) => ({
+    ...getIndexableProducts().map((product) => ({
       url: `${siteUrl}/de/produkte/${product.product_id}/`,
       lastModified: new Date(`${product.updated_at}T00:00:00Z`),
       changeFrequency: "weekly" as const,

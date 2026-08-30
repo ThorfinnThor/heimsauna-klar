@@ -1,4 +1,5 @@
 import { readFile } from "node:fs/promises";
+import { buildProductIndexing } from "./product-indexing-policy.mjs";
 
 const products = JSON.parse(await readFile(new URL("../data/products.json", import.meta.url), "utf8"));
 const archetypes = JSON.parse(await readFile(new URL("../data/sauna-archetypes.json", import.meta.url), "utf8"));
@@ -15,6 +16,8 @@ const pagePresentations = JSON.parse(await readFile(new URL("../content/de/page-
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const powerEvidence = JSON.parse(await readFile(new URL("../data/power-evidence.json", import.meta.url), "utf8"));
 const voltageReviewBatch = JSON.parse(await readFile(new URL("../data/voltage-review-batch.json", import.meta.url), "utf8"));
+const productIndexingPolicy = JSON.parse(await readFile(new URL("../data/product-indexing-policy.json", import.meta.url), "utf8"));
+const productIndexing = JSON.parse(await readFile(new URL("../data/product-indexing.json", import.meta.url), "utf8"));
 const today = new Intl.DateTimeFormat("en-CA", {
   timeZone: "Europe/Berlin",
   year: "numeric",
@@ -610,6 +613,14 @@ for (const product of products) {
 }
 
 const verifiedProducts = products.filter((product) => product.status === "verified");
+assertIsoDate(productIndexingPolicy.updated_at, "Product indexing policy updated_at");
+const expectedProductIndexing = buildProductIndexing(products, productIndexingPolicy);
+if (JSON.stringify(productIndexing) !== JSON.stringify(expectedProductIndexing)) {
+  throw new Error("data/product-indexing.json is stale; run npm run indexing:generate");
+}
+if (productIndexing.summary.index === 0 || productIndexing.summary.noindex === 0) {
+  throw new Error("Product indexing policy must produce both index and noindex decisions");
+}
 const finderCoverageChecks = [
   ["indoor placement", (product) => product.sauna.indoor_outdoor === "indoor"],
   ["outdoor placement", (product) => product.sauna.indoor_outdoor === "outdoor"],
@@ -773,4 +784,4 @@ if ((affiliateOfferCount > 0) !== (affiliatePolicy.current_status === "active"))
   throw new Error("Affiliate policy status does not match active product offers");
 }
 
-console.log(`Data check passed: ${products.length} products in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, ${planningGuides.length + 1} sourced guides, ${merchants.length} merchants, ${affiliatePrograms.length} affiliate candidates, ${affiliateOfferCount} active affiliate links, ${requiredLaunchGates.length - blockingLaunchGates.length}/${requiredLaunchGates.length} launch gates ready, ${sourceQueue.length} queued sources, ${explicitVoltageProducts.length} explicit voltage records, ${voltageNeutralProducts.length} voltage-neutral records.`);
+console.log(`Data check passed: ${products.length} products (${productIndexing.summary.index} index, ${productIndexing.summary.noindex} noindex) in ${families.size} families, ${collections.length} collections, ${archetypes.length} sauna types, ${planningGuides.length + 1} sourced guides, ${merchants.length} merchants, ${affiliatePrograms.length} affiliate candidates, ${affiliateOfferCount} active affiliate links, ${requiredLaunchGates.length - blockingLaunchGates.length}/${requiredLaunchGates.length} launch gates ready, ${sourceQueue.length} queued sources, ${explicitVoltageProducts.length} explicit voltage records, ${voltageNeutralProducts.length} voltage-neutral records.`);

@@ -4,6 +4,8 @@ import path from "node:path";
 const outputRoot = path.resolve("out");
 const productionFallbackUrl = "https://selectyoursauna.com";
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? productionFallbackUrl).replace(/\/$/, "");
+const productIndexing = JSON.parse(await readFile(new URL("../data/product-indexing.json", import.meta.url), "utf8"));
+const productIndexingById = new Map(productIndexing.entries.map((entry) => [entry.product_id, entry.decision]));
 
 async function collectHtmlFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -82,6 +84,8 @@ for (const { file, route } of publicPages) {
   const openGraphImage = html.match(/<meta property="og:image" content="([^"]*)"/)?.[1] ?? "";
   const twitterCard = html.match(/<meta name="twitter:card" content="([^"]*)"/)?.[1] ?? "";
   const twitterImage = html.match(/<meta name="twitter:image" content="([^"]*)"/)?.[1] ?? "";
+  const robots = html.match(/<meta name="robots" content="([^"]*)"/)?.[1] ?? "";
+  const googleBot = html.match(/<meta name="googlebot" content="([^"]*)"/)?.[1] ?? "";
   const h1Count = (html.match(/<h1(?:\s[^>]*)?>/g) ?? []).length;
   const pageText = plainText(html);
 
@@ -100,6 +104,15 @@ for (const { file, route } of publicPages) {
   }
 
   if (route.startsWith("/de/produkte/") && route !== "/de/produkte/") {
+    const productId = route.split("/").filter(Boolean).at(-1);
+    const indexingDecision = productIndexingById.get(productId);
+    if (!indexingDecision) issues.push(`${route}: missing product indexing decision`);
+    if (indexingDecision === "index" && robots.includes("noindex")) {
+      issues.push(`${route}: indexable product renders noindex`);
+    }
+    if (indexingDecision === "noindex" && (!robots.includes("noindex") || !robots.includes("follow") || !googleBot.includes("noindex"))) {
+      issues.push(`${route}: non-indexable product needs robots and googlebot noindex, follow`);
+    }
     const fragments = [...html.matchAll(/<p[^>]*data-product-copy="true"[^>]*>(.*?)<\/p>/gs)]
       .map((match) => plainText(match[1]))
       .filter(Boolean);
@@ -154,6 +167,22 @@ issues.push(...collectDuplicates(descriptions, "description"));
 issues.push(...collectDuplicates(canonicals, "canonical"));
 issues.push(...collectDuplicates(productCopy, "product-specific copy"));
 
+const sitemap = await readFile(path.join(outputRoot, "sitemap.xml"), "utf8").catch(() => "");
+if (!sitemap) {
+  issues.push("/sitemap.xml: static sitemap is missing");
+} else {
+  const sitemapUrls = new Set([...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]));
+  for (const entry of productIndexing.entries) {
+    const productUrl = `${siteUrl}/de/produkte/${entry.product_id}/`;
+    if (entry.decision === "index" && !sitemapUrls.has(productUrl)) {
+      issues.push(`/de/produkte/${entry.product_id}/: indexable product is missing from sitemap`);
+    }
+    if (entry.decision === "noindex" && sitemapUrls.has(productUrl)) {
+      issues.push(`/de/produkte/${entry.product_id}/: noindex product is present in sitemap`);
+    }
+  }
+}
+
 if (issues.length > 0) throw new Error(`Static SEO check failed:\n${issues.join("\n")}`);
 
-console.log(`Static SEO check passed: ${publicPages.length} pages, unique titles, descriptions, canonicals and product-specific copy, one h1 per page, valid JSON-LD.`);
+console.log(`Static SEO check passed: ${publicPages.length} static pages, ${productIndexing.summary.index} indexable and ${productIndexing.summary.noindex} noindex product pages, unique titles, descriptions, canonicals and product-specific copy, one h1 per page, valid JSON-LD.`);
