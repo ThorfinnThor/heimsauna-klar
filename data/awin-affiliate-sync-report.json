@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T16:45:33.958Z",
+  "generated_at": "2026-08-30T10:28:34.400Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
   "products_total": 435,
-  "newly_matched_offers": 59,
-  "active_affiliate_offers": 59,
+  "newly_matched_offers": 61,
+  "active_affiliate_offers": 62,
   "targets": [
     {
       "merchant_id": "artsauna",
@@ -14,11 +14,13 @@
       "advertiser_name": "Artsauna DE",
       "feed_id": "97646",
       "feed_name": "Default",
-      "feed_rows": 55,
+      "feed_rows": 52,
       "catalog_offers": 15,
-      "exact_matches": 15,
+      "exact_matches": 14,
       "invalid_tracking_links": 0,
-      "unmatched_product_ids": []
+      "unmatched_product_ids": [
+        "artsauna-fjora-xl"
+      ]
     },
     {
       "merchant_id": "home-deluxe",
@@ -41,8 +43,8 @@
       "feed_id": "43829",
       "feed_name": "BENZ24 Deutschland",
       "feed_rows": 92061,
-      "catalog_offers": 8,
-      "exact_matches": 8,
+      "catalog_offers": 11,
+      "exact_matches": 11,
       "invalid_tracking_links": 0,
       "unmatched_product_ids": []
     },
