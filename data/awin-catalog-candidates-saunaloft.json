@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-01T19:48:09.003Z",
+  "source": "Awin authenticated Saunaloft DE product feed",
+  "secret_included": false,
+  "activation_policy": "Candidate tokens only; no catalog records, offers, prices, or affiliate links changed",
+  "advertiser_id": "25645",
+  "advertiser_name": "Saunaloft DE",
+  "feed_id": "83153",
+  "feed_name": "awinfeed.csv",
+  "feed_rows": 4033,
+  "candidates_total": 8,
+  "unlinked_candidates": 8,
+  "already_linked_candidates": 0,
+  "candidates": [
+    {
+      "product_id": "harvia-kammi-barrel-large",
+      "catalog_name": "Harvia Kammi Barrel Large",
+      "feed_product_name": "Harvia Fasssauna Kammi 180 mit Holzofen",
+      "merchant_url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180-mit-holzofen",
+      "feed_price": "6299.00",
+      "matched_identity_tokens": [
+        "kammi"
+      ],
+      "matched_variant_tokens": [],
+      "reason": "rare-model-token",
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "harvia-kammi-barrel-large",
+      "catalog_name": "Harvia Kammi Barrel Large",
+      "feed_product_name": "Harvia Fasssauna Kammi 180",
+      "merchant_url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180/sw10343set.1",
+      "feed_price": "4449.00",
+      "matched_identity_tokens": [
+        "kammi"
+      ],
+      "matched_variant_tokens": [],
+      "reason": "rare-model-token",
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "harvia-kammi-barrel-large",
+      "catalog_name": "Harvia Kammi Barrel Large",
+      "feed_product_name": "Harvia Fasssauna Kammi 180",
+      "merchant_url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180/sw10343set.2",
+      "feed_price": "3999.00",
+      "matched_identity_tokens": [
+        "kammi"
+      ],
+      "matched_variant_tokens": [],
+      "reason": "rare-model-token",
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "harvia-kammi-barrel-large",
+      "catalog_name": "Harvia Kammi Barrel Large",
+      "feed_product_name": "Harvia Fasssauna Kammi 220 mit Holzofen",
+      "merchant_url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-220-mit-holzofen",
+      "feed_price": "6799.00",
+      "matched_identity_tokens": [
+        "kammi"
+      ],
+      "matched_variant_tokens": [],
+      "reason": "rare-model-token",
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "harvia-kammi-cube-large",
+      "catalog_name": "Harvia Kammi Cube Large",
+      "feed_product_name": "Harvia Fasssauna Kammi 180 mit Holzofen",
+      "merchant_url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180-mit-holzofen",
+      "feed_price": "6299.00",
+      "matched_identity_tokens": [
+        "kammi"
+      ],
+      "matched_variant_tokens": [],
+      "reason": "rare-model-token",
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "harvia-kammi-cube-large",
+      "catalog_name": "Harvia Kammi Cube Large",
+      "feed_product_name": "Harvia Fasssauna Kammi 180",
+      "merchant_url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180/sw10343set.1",
+      "feed_price": "4449.00",
+      "matched_identity_tokens": [
+        "kammi"
+      ],
+      "matched_variant_tokens": [],
+      "reason": "rare-model-token",
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "harvia-kammi-cube-large",
+      "catalog_name": "Harvia Kammi Cube Large",
+      "feed_product_name": "Harvia Fasssauna Kammi 180",
+      "merchant_url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180/sw10343set.2",
+      "feed_price": "3999.00",
+      "matched_identity_tokens": [
+        "kammi"
+      ],
+      "matched_variant_tokens": [],
+      "reason": "rare-model-token",
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    },
+    {
+      "product_id": "harvia-kammi-cube-large",
+      "catalog_name": "Harvia Kammi Cube Large",
+      "feed_product_name": "Harvia Fasssauna Kammi 220 mit Holzofen",
+      "merchant_url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-220-mit-holzofen",
+      "feed_price": "6799.00",
+      "matched_identity_tokens": [
+        "kammi"
+      ],
+      "matched_variant_tokens": [],
+      "reason": "rare-model-token",
+      "already_linked": false,
+      "candidates_for_merchant_url": 2,
+      "ambiguous_merchant_url": true
+    }
+  ]
+}
