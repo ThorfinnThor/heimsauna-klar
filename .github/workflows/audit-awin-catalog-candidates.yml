@@ -13,6 +13,8 @@ on:
           - artsauna
           - home-deluxe
           - intergard
+          - saunaloft
+          - gartenhausfabrik
 
 permissions:
   contents: write

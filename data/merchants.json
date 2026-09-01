@@ -221,7 +221,8 @@
     "name": "Saunaloft",
     "kind": "retailer",
     "allowed_hosts": [
-      "saunaloft.de"
+      "saunaloft.de",
+      "shop-saunaloft.de"
     ],
     "affiliate": {
       "status": "inactive",
