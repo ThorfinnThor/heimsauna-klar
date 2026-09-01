@@ -1,0 +1,59 @@
+name: Discover Awin catalog products
+
+on:
+  workflow_dispatch:
+    inputs:
+      merchant_id:
+        description: "Awin target to inspect"
+        required: true
+        default: "gartenhausfabrik"
+        type: choice
+        options:
+          - saunaloft
+          - gartenhausfabrik
+      limit:
+        description: "Maximum sanitized candidates to write"
+        required: true
+        default: "250"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: awin-catalog-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    env:
+      AWIN_FEED_LIST_URL: ${{ secrets.AWIN_FEED_LIST_URL }}
+      AWIN_CATALOG_DISCOVERY_MERCHANT_ID: ${{ inputs.merchant_id }}
+      AWIN_CATALOG_DISCOVERY_LIMIT: ${{ inputs.limit }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Require feed-list secret
+        shell: bash
+        run: |
+          if [ -z "$AWIN_FEED_LIST_URL" ]; then
+            echo "AWIN_FEED_LIST_URL is not configured." >&2
+            exit 1
+          fi
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: node scripts/awin/discover-catalog-products.mjs
+      - name: Commit sanitized catalog report
+        shell: bash
+        run: |
+          git config user.name "selectyoursauna-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/awin-catalog-products-*.json
+          git diff --cached --quiet && echo "No catalog report changes." && exit 0
+          git commit -m "chore(data): discover Awin catalog products"
+          git push
