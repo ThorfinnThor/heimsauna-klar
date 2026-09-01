@@ -3,8 +3,8 @@
   "policy_updated_at": "2026-08-30",
   "generated_from_products_updated_at": "2026-09-01",
   "summary": {
-    "total_verified_products": 447,
-    "index": 227,
+    "total_verified_products": 450,
+    "index": 230,
     "noindex": 220,
     "categories": {
       "indoor": {
@@ -18,8 +18,8 @@
         "noindex": 13
       },
       "outdoor": {
-        "total": 141,
-        "index": 76,
+        "total": 144,
+        "index": 79,
         "noindex": 65
       },
       "tent": {
@@ -198,7 +198,7 @@
         "current_offer_count": 1,
         "published_source_count": 2,
         "editorial_point_count": 12,
-        "unique_editorial_point_count": 10,
+        "unique_editorial_point_count": 9,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -721,6 +721,54 @@
       },
       "reasons": [
         "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fasssauna-fite",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 11,
+        "frequent_editorial_point_count": 1,
+        "frequent_editorial_share": 0.0833
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fasssauna-ida",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 9,
+        "frequent_editorial_point_count": 2,
+        "frequent_editorial_share": 0.1667
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fasssauna-jona",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 10,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {

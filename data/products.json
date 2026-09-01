@@ -37679,5 +37679,236 @@
       }
     ],
     "updated_at": "2026-09-01"
+  },
+  {
+    "product_id": "fjordholz-fasssauna-fite",
+    "brand": "Fjordholz",
+    "model": "Fass-Sauna Fite",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 220, "depth": 400, "height": 228 },
+    "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 2 },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die Produktseite bietet Holz- und Elektroofen-Varianten; ohne gewählte Ausführung ist der Anschluss nicht eindeutig festgelegt."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Ofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "GartenHausfabrik",
+        "price": 7619,
+        "availability": "feed-listed",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Fite",
+        "affiliate": false,
+        "last_checked": "2026-09-01"
+      }]
+    },
+    "editorial": {
+      "pros": [
+        "Rund 4 m Länge einschließlich Dachüberstand",
+        "Kapazität für bis zu vier Personen und zwei Saunaliegen",
+        "40 mm starke Bohlen aus nordischer Fichte laut Produktseite"
+      ],
+      "cons": [
+        "Ofen und Anschluss hängen von der gewählten Variante ab",
+        "Die Fassform braucht eine ebene, ausreichend lange Stellfläche",
+        "Bei Holzofen-Ausführung sind Schornstein- und Genehmigungsfragen separat zu klären"
+      ],
+      "ideal_for": [
+        "Gärten mit mindestens vier Metern Längsfläche",
+        "Familien oder kleine Gruppen bis vier Personen",
+        "Projekte, bei denen Holz- und Elektroofen verglichen werden sollen"
+      ],
+      "not_for": [
+        "Innenaufstellung",
+        "Sehr kurze oder verwinkelte Stellflächen",
+        "Käufer, die eine fest definierte steckerfertige Ausführung erwarten"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Fass-Sauna Fite",
+        "url": "https://gartenhausfabrik.de/fass-sauna-fite",
+        "checked_at": "2026-09-01"
+      },
+      {
+        "type": "merchant",
+        "title": "GartenHausfabrik Awin-Feed URL Fjordholz Fass-Sauna Fite",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Fite",
+        "checked_at": "2026-09-01"
+      }
+    ],
+    "updated_at": "2026-09-01"
+  },
+  {
+    "product_id": "fjordholz-fasssauna-jona",
+    "brand": "Fjordholz",
+    "model": "Fass-Sauna Jona",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 220, "depth": 360, "height": 228 },
+    "people": { "min": 1, "max": 6, "seats": 6, "lying_places": 2 },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die Produktseite beschreibt mehrere Ofenvarianten; der Anschluss kann erst nach Auswahl des Ofens festgelegt werden."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Ofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "GartenHausfabrik",
+        "price": 7159,
+        "availability": "feed-listed",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Jona",
+        "affiliate": false,
+        "last_checked": "2026-09-01"
+      }]
+    },
+    "editorial": {
+      "pros": [
+        "Etwa 3,6 m Gesamtlänge inklusive Dachüberstand",
+        "Sechs Personen Kapazität bei zwei dokumentierten Liegen",
+        "40 mm starke Bohlen und Lüftungsgitter sind ausgewiesen"
+      ],
+      "cons": [
+        "Für die Elektrovariante sind Ofenwahl und Anschluss separat zu planen",
+        "Die Länge und der Durchmesser begrenzen die möglichen Stellorte",
+        "Ein Holzofen erfordert zusätzliche Schornstein- und Bauabstimmung"
+      ],
+      "ideal_for": [
+        "Größere Haushalte oder Gästegruppen",
+        "Gärten mit länglicher, ebener Fläche",
+        "Planungen mit wählbarer Holz- oder Elektroheizung"
+      ],
+      "not_for": [
+        "Kleine Terrassen",
+        "Innenräume",
+        "Projekte ohne separate Technik- und Fundamentplanung"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Fass-Sauna Jona",
+        "url": "https://gartenhausfabrik.de/fass-sauna-jona",
+        "checked_at": "2026-09-01"
+      },
+      {
+        "type": "merchant",
+        "title": "GartenHausfabrik Awin-Feed URL Fjordholz Fass-Sauna Jona",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Jona",
+        "checked_at": "2026-09-01"
+      }
+    ],
+    "updated_at": "2026-09-01"
+  },
+  {
+    "product_id": "fjordholz-fasssauna-ida",
+    "brand": "Fjordholz",
+    "model": "Fass-Sauna Ida",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": { "width": 223, "depth": 504, "height": 228 },
+    "people": { "min": 1, "max": 6, "seats": 6, "lying_places": 2 },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die Produktseite nennt eine 8-kW-Elektroofen-Option und eine Holzofen-Option; ohne Auswahl bleibt der Netzanschluss offen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Ofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [{
+        "merchant": "GartenHausfabrik",
+        "price": 11239,
+        "availability": "feed-listed",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Ida",
+        "affiliate": false,
+        "last_checked": "2026-09-01"
+      }]
+    },
+    "editorial": {
+      "pros": [
+        "Rund fünf Meter Gesamtlänge einschließlich Dachüberstand",
+        "Sechs Personen Kapazität mit zwei Liegen und zusätzlichen Sitzbänken",
+        "Panoramafenster und 40 mm starke Fichtenbohlen sind dokumentiert"
+      ],
+      "cons": [
+        "Die lange Bauform benötigt viel freie Zufahrts- und Fundamentfläche",
+        "Ofen, Montageart und Anschluss werden als Varianten angeboten",
+        "Ein Holzofen kann die Gesamthöhe durch den Schornstein deutlich erhöhen"
+      ],
+      "ideal_for": [
+        "Große Gärten mit ausreichend Längsfläche",
+        "Gruppen bis sechs Personen",
+        "Bauherren, die eine Ausstattung mit Vorraum und Panoramaöffnung planen"
+      ],
+      "not_for": [
+        "Kleine Grundstücke",
+        "Innenaufstellung",
+        "Standorte ohne geklärte Zufahrt für die Anlieferung"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Fass-Sauna Ida",
+        "url": "https://gartenhausfabrik.de/fass-sauna-ida",
+        "checked_at": "2026-09-01"
+      },
+      {
+        "type": "merchant",
+        "title": "GartenHausfabrik Awin-Feed URL Fjordholz Fass-Sauna Ida",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Ida",
+        "checked_at": "2026-09-01"
+      }
+    ],
+    "updated_at": "2026-09-01"
   }
 ]
