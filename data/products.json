@@ -37249,8 +37249,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 191, "depth": 180, "height": 193 },
-    "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 191,
+      "depth": 180,
+      "height": 193
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2
+    },
     "power": {
       "voltage": 400,
       "kw": 6,
@@ -37269,35 +37278,58 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "Saunaloft",
-        "price": 1789,
-        "availability": "feed-listed",
-        "url": "https://shop-saunaloft.de/fasssauna-spitzbergen-180-fuer-den-aussenbereich-/-180-cm-oe-190-cm",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 1789,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/fasssauna-spitzbergen-180-fuer-den-aussenbereich-/-180-cm-oe-190-cm",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=38005613342&a=3037577&m=25645",
+          "affiliate_program_id": "awin-saunaloft"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["Kompakte Außenmaße von 191 × 180 × 193 cm", "6-kW-Ofen und 400-V-Anschluss sind konkret ausgewiesen", "Für bis zu vier Personen mit zwei Sitzbänken"],
-      "cons": ["Ein Starkstromanschluss und ein Elektriker sind erforderlich", "Die Außenform lässt weniger flexible Stellmöglichkeiten als ein rechteckiger Grundriss", "Die genannte Maximaltemperatur ist eine Herstellerangabe, kein eigener Messwert"],
-      "ideal_for": ["Gärten mit Platz für ein kompaktes Saunafass", "Bis zu vier Personen", "Käufer, die ein Set mit Ofen und Zubehör suchen"],
-      "not_for": ["Innenräume", "Standorte ohne 400-V-Anschluss", "Nutzer, die eine steckerfertige Lösung benötigen"],
+      "pros": [
+        "Kompakte Außenmaße von 191 × 180 × 193 cm",
+        "6-kW-Ofen und 400-V-Anschluss sind konkret ausgewiesen",
+        "Für bis zu vier Personen mit zwei Sitzbänken"
+      ],
+      "cons": [
+        "Ein Starkstromanschluss und ein Elektriker sind erforderlich",
+        "Die Außenform lässt weniger flexible Stellmöglichkeiten als ein rechteckiger Grundriss",
+        "Die genannte Maximaltemperatur ist eine Herstellerangabe, kein eigener Messwert"
+      ],
+      "ideal_for": [
+        "Gärten mit Platz für ein kompaktes Saunafass",
+        "Bis zu vier Personen",
+        "Käufer, die ein Set mit Ofen und Zubehör suchen"
+      ],
+      "not_for": [
+        "Innenräume",
+        "Standorte ohne 400-V-Anschluss",
+        "Nutzer, die eine steckerfertige Lösung benötigen"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der Artsauna-Produktseite und des Saunaloft-Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "Artsauna Produktseite Fasssauna Spitzbergen 180",
-      "url": "https://artsauna.de/products/fasssauna-spitzbergen-180-cm-fur-4-personen-mit-6-kw-saunaofen",
-      "checked_at": "2026-09-01"
-    }, {
-      "type": "merchant",
-      "title": "Saunaloft Produktseite Fasssauna Spitzbergen 180",
-      "url": "https://shop-saunaloft.de/fasssauna-spitzbergen-180-fuer-den-aussenbereich-/-180-cm-oe-190-cm",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Artsauna Produktseite Fasssauna Spitzbergen 180",
+        "url": "https://artsauna.de/products/fasssauna-spitzbergen-180-cm-fur-4-personen-mit-6-kw-saunaofen",
+        "checked_at": "2026-09-01"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite Fasssauna Spitzbergen 180",
+        "url": "https://shop-saunaloft.de/fasssauna-spitzbergen-180-fuer-den-aussenbereich-/-180-cm-oe-190-cm",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   },
   {
@@ -37307,8 +37339,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 120, "depth": 185, "height": 194 },
-    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
+    "dimensions_cm": {
+      "width": 120,
+      "depth": 185,
+      "height": 194
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 1
+    },
     "power": {
       "voltage": 230,
       "kw": 3.6,
@@ -37327,35 +37368,58 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "Saunaloft",
-        "price": 1399,
-        "availability": "feed-listed",
-        "url": "https://shop-saunaloft.de/fasssauna-nolvik-m/301841.2",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 1399,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/fasssauna-nolvik-m/301841.2",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=44907759997&a=3037577&m=25645",
+          "affiliate_program_id": "awin-saunaloft"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["Nur 120 × 185 cm Außenmaß", "230 V und 3,6 kW sind für diese Größe klar dokumentiert", "Komplettset mit Ofen, Beleuchtung und Zubehör laut Hersteller"],
-      "cons": ["Maximal zwei Sitzplätze", "Anschlusskabel werden nicht mitgeliefert", "Die 194 cm Höhe kann bei der Fundament- und Dachplanung knapp werden"],
-      "ideal_for": ["Zwei Personen", "Kleine Gärten oder schmale Stellflächen", "Nutzer mit verfügbarem 230-V-Anschluss"],
-      "not_for": ["Vier- oder Sechs-Personen-Runden", "Innenaufstellung", "Standorte ohne sichere Elektroinstallation"],
+      "pros": [
+        "Nur 120 × 185 cm Außenmaß",
+        "230 V und 3,6 kW sind für diese Größe klar dokumentiert",
+        "Komplettset mit Ofen, Beleuchtung und Zubehör laut Hersteller"
+      ],
+      "cons": [
+        "Maximal zwei Sitzplätze",
+        "Anschlusskabel werden nicht mitgeliefert",
+        "Die 194 cm Höhe kann bei der Fundament- und Dachplanung knapp werden"
+      ],
+      "ideal_for": [
+        "Zwei Personen",
+        "Kleine Gärten oder schmale Stellflächen",
+        "Nutzer mit verfügbarem 230-V-Anschluss"
+      ],
+      "not_for": [
+        "Vier- oder Sechs-Personen-Runden",
+        "Innenaufstellung",
+        "Standorte ohne sichere Elektroinstallation"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der Artsauna-Produktseite und des Saunaloft-Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "Artsauna Produktseite Fasssauna quadratisch Nolvik M",
-      "url": "https://artsauna.de/products/fasssauna-quadratisch-nolvik-m",
-      "checked_at": "2026-09-01"
-    }, {
-      "type": "merchant",
-      "title": "Saunaloft Produktseite Fasssauna Nolvik M",
-      "url": "https://shop-saunaloft.de/fasssauna-nolvik-m/301841.2",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Artsauna Produktseite Fasssauna quadratisch Nolvik M",
+        "url": "https://artsauna.de/products/fasssauna-quadratisch-nolvik-m",
+        "checked_at": "2026-09-01"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite Fasssauna Nolvik M",
+        "url": "https://shop-saunaloft.de/fasssauna-nolvik-m/301841.2",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   },
   {
@@ -37365,8 +37429,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 220, "depth": 185, "height": 194 },
-    "people": { "min": 1, "max": 6, "seats": 6, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 220,
+      "depth": 185,
+      "height": 194
+    },
+    "people": {
+      "min": 1,
+      "max": 6,
+      "seats": 6,
+      "lying_places": 2
+    },
     "power": {
       "voltage": 400,
       "kw": 8,
@@ -37385,35 +37458,58 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "Saunaloft",
-        "price": 2049,
-        "availability": "feed-listed",
-        "url": "https://shop-saunaloft.de/fasssauna-nolvik-xl/301841.4",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 2049,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/fasssauna-nolvik-xl/301841.4",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=42095082750&a=3037577&m=25645",
+          "affiliate_program_id": "awin-saunaloft"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["220 × 185 cm Außenmaß mit sechs Sitzplätzen", "8-kW-Ofen und 400-V-3N-Anschluss sind ausgewiesen", "Fichtenholz, Schindeldach und Zubehör werden beschrieben"],
-      "cons": ["Starkstromanschluss und Elektriker sind notwendig", "Die 194 cm Höhe begrenzt die Kopffreiheit", "Die große Sitzkapazität bedeutet mehr Platzbedarf bei Fundament und Zugang"],
-      "ideal_for": ["Gruppen bis sechs Personen", "Große Gärten mit länglicher Stellfläche", "Käufer, die ein Outdoor-Komplettset mit Ofen suchen"],
-      "not_for": ["Kleine Terrassen", "Innenräume", "Haushalte ohne 400-V-Versorgung"],
+      "pros": [
+        "220 × 185 cm Außenmaß mit sechs Sitzplätzen",
+        "8-kW-Ofen und 400-V-3N-Anschluss sind ausgewiesen",
+        "Fichtenholz, Schindeldach und Zubehör werden beschrieben"
+      ],
+      "cons": [
+        "Starkstromanschluss und Elektriker sind notwendig",
+        "Die 194 cm Höhe begrenzt die Kopffreiheit",
+        "Die große Sitzkapazität bedeutet mehr Platzbedarf bei Fundament und Zugang"
+      ],
+      "ideal_for": [
+        "Gruppen bis sechs Personen",
+        "Große Gärten mit länglicher Stellfläche",
+        "Käufer, die ein Outdoor-Komplettset mit Ofen suchen"
+      ],
+      "not_for": [
+        "Kleine Terrassen",
+        "Innenräume",
+        "Haushalte ohne 400-V-Versorgung"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der Artsauna-Produktseite und des Saunaloft-Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "Artsauna Produktseite Fasssauna quadratisch Nolvik XL",
-      "url": "https://artsauna.de/products/fasssauna-quadratisch-nolvik-xl",
-      "checked_at": "2026-09-01"
-    }, {
-      "type": "merchant",
-      "title": "Saunaloft Produktseite Fasssauna Nolvik XL",
-      "url": "https://shop-saunaloft.de/fasssauna-nolvik-xl/301841.4",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Artsauna Produktseite Fasssauna quadratisch Nolvik XL",
+        "url": "https://artsauna.de/products/fasssauna-quadratisch-nolvik-xl",
+        "checked_at": "2026-09-01"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite Fasssauna Nolvik XL",
+        "url": "https://shop-saunaloft.de/fasssauna-nolvik-xl/301841.4",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   },
   {
@@ -37423,8 +37519,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 300, "depth": 225, "height": 250 },
-    "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 300,
+      "depth": 225,
+      "height": 250
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -37443,30 +37548,52 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 6849,
-        "availability": "feed-listed",
-        "url": "https://gartenhausfabrik.de/Design-Saunahaus-Modell-Kalle",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 6849,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Design-Saunahaus-Modell-Kalle",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=40233129820&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["6,75 m² Grundfläche für drei bis vier Personen", "180 mm Wandstärke ist auf der Produktseite ausgewiesen", "Großes Fenster und separates Saunahaus-Konzept"],
-      "cons": ["Ofen und Netzanschluss sind nicht Teil einer eindeutig dokumentierten Basiskonfiguration", "250 cm Seitenwandhöhe verlangt eine großzügige lichte Höhe", "Fundament und Dachüberstand benötigen zusätzliche Fläche"],
-      "ideal_for": ["Große Gärten mit separatem Saunahaus", "Drei bis vier Personen", "Projekte mit viel Innenraum und großer Fensterfläche"],
-      "not_for": ["Kleine Terrassen", "Innenaufstellung", "Käufer, die ein fertiges Ofenset ohne weitere Auswahl erwarten"],
+      "pros": [
+        "6,75 m² Grundfläche für drei bis vier Personen",
+        "180 mm Wandstärke ist auf der Produktseite ausgewiesen",
+        "Großes Fenster und separates Saunahaus-Konzept"
+      ],
+      "cons": [
+        "Ofen und Netzanschluss sind nicht Teil einer eindeutig dokumentierten Basiskonfiguration",
+        "250 cm Seitenwandhöhe verlangt eine großzügige lichte Höhe",
+        "Fundament und Dachüberstand benötigen zusätzliche Fläche"
+      ],
+      "ideal_for": [
+        "Große Gärten mit separatem Saunahaus",
+        "Drei bis vier Personen",
+        "Projekte mit viel Innenraum und großer Fensterfläche"
+      ],
+      "not_for": [
+        "Kleine Terrassen",
+        "Innenaufstellung",
+        "Käufer, die ein fertiges Ofenset ohne weitere Auswahl erwarten"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "GartenHausfabrik Produktseite Fjordholz Design-Saunahaus Modell Kalle",
-      "url": "https://gartenhausfabrik.de/Design-Saunahaus-Modell-Kalle",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Design-Saunahaus Modell Kalle",
+        "url": "https://gartenhausfabrik.de/Design-Saunahaus-Modell-Kalle",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   },
   {
@@ -37476,8 +37603,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 440, "depth": 225, "height": 250 },
-    "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 440,
+      "depth": 225,
+      "height": 250
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -37496,30 +37632,52 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 8919,
-        "availability": "feed-listed",
-        "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Modell-Kalle-L",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 8919,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Modell-Kalle-L",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=40233129900&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["9,9 m² Grundfläche bei 440 × 225 cm Wandaußenmaß", "180 mm Wandstärke und drei bis vier Personen Kapazität sind dokumentiert", "Großzügige Länge für getrennte Sauna- und Ruhebereiche"],
-      "cons": ["Die Länge verlangt eine breite Zufahrt und ein großes Fundament", "Ofen und Anschluss sind nicht als feste Basiskonfiguration ausgewiesen", "250 cm Seitenwandhöhe und Dachüberstand müssen bei der Genehmigungsplanung berücksichtigt werden"],
-      "ideal_for": ["Große Grundstücke", "Drei bis vier Personen mit zusätzlichem Platzbedarf", "Planungen mit Saunaraum und vorgelagerter Ruhezone"],
-      "not_for": ["Kleine Gärten oder enge Zufahrten", "Innenaufstellung", "Steckerfertige Installationen ohne separate Technikplanung"],
+      "pros": [
+        "9,9 m² Grundfläche bei 440 × 225 cm Wandaußenmaß",
+        "180 mm Wandstärke und drei bis vier Personen Kapazität sind dokumentiert",
+        "Großzügige Länge für getrennte Sauna- und Ruhebereiche"
+      ],
+      "cons": [
+        "Die Länge verlangt eine breite Zufahrt und ein großes Fundament",
+        "Ofen und Anschluss sind nicht als feste Basiskonfiguration ausgewiesen",
+        "250 cm Seitenwandhöhe und Dachüberstand müssen bei der Genehmigungsplanung berücksichtigt werden"
+      ],
+      "ideal_for": [
+        "Große Grundstücke",
+        "Drei bis vier Personen mit zusätzlichem Platzbedarf",
+        "Planungen mit Saunaraum und vorgelagerter Ruhezone"
+      ],
+      "not_for": [
+        "Kleine Gärten oder enge Zufahrten",
+        "Innenaufstellung",
+        "Steckerfertige Installationen ohne separate Technikplanung"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "GartenHausfabrik Produktseite Fjordholz Design-Saunahaus Modell Kalle L",
-      "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Modell-Kalle-L",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Design-Saunahaus Modell Kalle L",
+        "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Modell-Kalle-L",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   }
 ]
