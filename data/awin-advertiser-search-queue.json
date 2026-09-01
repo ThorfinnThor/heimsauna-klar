@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-30",
-  "reviewed_at": "2026-08-30",
+  "updated_at": "2026-09-01",
+  "reviewed_at": "2026-09-01",
   "review_status": "accepted_with_operator_clarification",
   "network": "Awin",
   "publisher_id": "3037577",
@@ -29,13 +29,13 @@
     {
       "advertiser": "Saunaloft DE",
       "advertiser_id": "25645",
-      "status": "pending",
+      "status": "approved",
       "product_feed": true,
       "conversion_rate": "1.98%",
       "approval_rate": "69.39%",
       "epc": "EUR 0.34",
       "relevance": "high",
-      "next_action": "Auf Advertiser-Freigabe warten; danach Feed und exakte Produkt-URLs prüfen.",
+      "next_action": "Freigegeben; Feed und exakte Produkt-URLs prüfen, bevor Links aktiviert werden.",
       "profile_url": "https://ui.awin.com/awin/affiliate/3037577/merchant-profile/25645"
     },
     {
@@ -81,13 +81,13 @@
       "advertiser_id": "76696",
       "operator": "GBV Gartenhaus Berlin Vertriebs GmbH",
       "operator_source": "https://www.gartenhausfabrik.de/impressum",
-      "status": "not_joined",
+      "status": "approved",
       "product_feed": true,
       "conversion_rate": "0.24%",
       "approval_rate": "84.36%",
       "epc": "EUR 0.09",
       "relevance": "high",
-      "next_action": "Bewerbung ist parallel zu GartenHaus GmbH möglich; nach Freigabe nur eindeutig zuordenbare Sauna- und Saunahaus-Angebote übernehmen.",
+      "next_action": "Freigegeben; nur eindeutig zuordenbare Sauna- und Saunahaus-Angebote übernehmen.",
       "profile_url": "https://ui.awin.com/awin/affiliate/3037577/merchant-profile/76696"
     }
   ],

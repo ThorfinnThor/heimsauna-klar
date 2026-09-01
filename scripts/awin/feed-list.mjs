@@ -12,6 +12,8 @@ const TARGETS = [
     preferredFeed: (entry) => normalizedKey(entry.feedName ?? "").includes("deutschland"),
   },
   { merchantId: "intergard", label: "InterGard", matches: (name) => normalizedKey(name).includes("intergard") },
+  { merchantId: "saunaloft", label: "Saunaloft", matches: (name) => normalizedKey(name).includes("saunaloft") },
+  { merchantId: "gartenhausfabrik", label: "GartenHausfabrik", matches: (name) => normalizedKey(name).includes("gartenhausfabrik") },
 ];
 
 function normalizedKey(value) {

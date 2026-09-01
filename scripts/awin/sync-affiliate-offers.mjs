@@ -16,6 +16,12 @@ const TARGET_DETAILS = {
   intergard: {
     focus: "Innensaunen von InterGard; Aktivierung erst nach vollständiger technischer Quellenprüfung.",
   },
+  saunaloft: {
+    focus: "Saunen, Saunahäuser und Infrarotangebote von Saunaloft; Aktivierung nur bei exakter Produkt-URL-Zuordnung.",
+  },
+  gartenhausfabrik: {
+    focus: "Garten- und Saunahausangebote von GartenHausfabrik; nur eindeutig belegte Sauna- und Saunahaus-Modelle werden aktiviert.",
+  },
 };
 
 const rawUrl = process.env.AWIN_FEED_LIST_URL?.trim();

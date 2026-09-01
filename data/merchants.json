@@ -215,5 +215,35 @@
     "candidate_program_ids": [
       "awin-intergard"
     ]
+  },
+  {
+    "id": "saunaloft",
+    "name": "Saunaloft",
+    "kind": "retailer",
+    "allowed_hosts": [
+      "saunaloft.de"
+    ],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": [
+      "awin-saunaloft"
+    ]
+  },
+  {
+    "id": "gartenhausfabrik",
+    "name": "GartenHausfabrik",
+    "kind": "retailer",
+    "allowed_hosts": [
+      "gartenhausfabrik.de"
+    ],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": [
+      "awin-gartenhausfabrik"
+    ]
   }
 ]

@@ -208,6 +208,40 @@
       ],
       "url": "https://ui.awin.com/merchant-profile/24966",
       "checked_at": "2026-08-30"
+    },
+    {
+      "id": "awin-saunaloft",
+      "name": "Saunaloft",
+      "network": "Awin",
+      "program_id": "25645",
+      "status": "approved",
+      "focus": "Saunen, Saunahäuser und Infrarotangebote von Saunaloft; Aktivierung nur bei exakter Produkt-URL-Zuordnung.",
+      "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
+      "cookie_days": null,
+      "direct_linking": true,
+      "tracking_hosts": [],
+      "advertiser_merchant_ids": [
+        "saunaloft"
+      ],
+      "url": "https://ui.awin.com/merchant-profile/25645",
+      "checked_at": "2026-09-01"
+    },
+    {
+      "id": "awin-gartenhausfabrik",
+      "name": "GartenHausfabrik",
+      "network": "Awin",
+      "program_id": "76696",
+      "status": "approved",
+      "focus": "Garten- und Saunahausangebote von GartenHausfabrik; nur eindeutig belegte Sauna- und Saunahaus-Modelle werden aktiviert.",
+      "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
+      "cookie_days": null,
+      "direct_linking": true,
+      "tracking_hosts": [],
+      "advertiser_merchant_ids": [
+        "gartenhausfabrik"
+      ],
+      "url": "https://ui.awin.com/merchant-profile/76696",
+      "checked_at": "2026-09-01"
     }
   ]
 }
