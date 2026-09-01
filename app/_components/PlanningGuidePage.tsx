@@ -7,7 +7,6 @@ import {
   type PlanningModule,
   type PlanningPresentation,
 } from "@/lib/page-presentations";
-import { formatGermanDate, getOfferDateRange, products } from "@/lib/products";
 import { getPlanningGuide, getPlanningJourney, getPriceSnapshot, type PlanningGuide } from "@/lib/planning-guides";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 
@@ -18,7 +17,6 @@ function formatEuro(value: number) {
 type PlanningPageContext = {
   guide: PlanningGuide;
   presentation: PlanningPresentation;
-  offerDateRange: { oldest: string | null; newest: string | null };
 };
 
 export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
@@ -27,9 +25,8 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
     const relatedGuide = getPlanningGuide(slug);
     return relatedGuide ? [relatedGuide] : [];
   }) ?? [];
-  const offerDateRange = getOfferDateRange(products);
   const presentation = getPlanningPresentation(guide.slug);
-  const context = { guide, presentation, offerDateRange };
+  const context = { guide, presentation };
   const path = `/de/planung/${guide.slug}/`;
 
   return (
@@ -72,7 +69,6 @@ function PlanningHero({ guide, presentation, productHref, productLabel }: {
         <p className="eyebrow">{guide.eyebrow}</p>
         <h1>{guide.title}<span>{guide.accent}</span></h1>
         <p>{guide.description}</p>
-        <p className="content-byline">Redaktion: <Link href="/de/ueber-uns/#redaktion">Schayan Yousefian</Link> · aktualisiert {formatGermanDate(guide.updated_at)}</p>
       </div>
       <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.summary}</p></div>
       <div className="guide-path-links" aria-label="Planung anwenden">
@@ -86,7 +82,7 @@ function PlanningHero({ guide, presentation, productHref, productLabel }: {
 function PlanningModuleBlock({ context, module }: { context: PlanningPageContext; module: PlanningModule }) {
   if (module === "insight") return <PlanningInsight presentation={context.presentation} />;
   if (module === "sections") return <PlanningSections guide={context.guide} variant={context.presentation.sections} />;
-  if (module === "snapshot") return <GuidePriceSnapshot offerDateRange={context.offerDateRange} />;
+  if (module === "snapshot") return <GuidePriceSnapshot />;
   if (module === "checks") return <PlanningChecks guide={context.guide} />;
   return <PlanningSources guide={context.guide} />;
 }
@@ -140,7 +136,7 @@ function PlanningSources({ guide }: { guide: PlanningGuide }) {
     <section className="guide-sources page-shell" aria-labelledby="planning-sources-title" data-page-module="sources">
       <div><p className="eyebrow">{guide.module_copy.sources_kicker}</p><h2 id="planning-sources-title">{guide.module_copy.sources_title}</h2></div>
       <div>
-        <ol>{guide.sources.map((source) => <li key={source.url}><span>{formatGermanDate(source.checked_at)}</span><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>)}</ol>
+        <ol>{guide.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>)}</ol>
         <p className="safety-box"><strong>Hinweis</strong> {guide.module_copy.source_note}</p>
       </div>
     </section>
@@ -156,10 +152,10 @@ function PlanningRelated({ guide, guides }: { guide: PlanningGuide; guides: Plan
   );
 }
 
-function GuidePriceSnapshot({ offerDateRange }: { offerDateRange: { oldest: string | null; newest: string | null } }) {
+function GuidePriceSnapshot() {
   return (
     <section className="price-snapshot page-shell" aria-labelledby="price-snapshot-title" data-page-module="snapshot">
-      <div className="price-snapshot-head"><div><p className="eyebrow">Katalog-Momentaufnahme</p><h2 id="price-snapshot-title">Produktpreise, die wir belegen können.</h2></div><p>{offerDateRange.oldest && offerDateRange.newest ? `Angebote geprüft zwischen ${formatGermanDate(offerDateRange.oldest)} und ${formatGermanDate(offerDateRange.newest)}.` : "Kein aktuelles Prüfdatum verfügbar."} Montage- und Projektkosten sind nicht enthalten.</p></div>
+      <div className="price-snapshot-head"><div><p className="eyebrow">Katalog-Momentaufnahme</p><h2 id="price-snapshot-title">Produktpreise, die wir belegen können.</h2></div><p>Die Preiswerte stammen aus den dokumentierten Angeboten. Montage- und Projektkosten sind nicht enthalten.</p></div>
       <div className="price-snapshot-grid">{getPriceSnapshot().map((item) => <article key={item.id}><small>{item.label} · {item.count} Preise</small><strong>{formatEuro(item.median)}</strong><span>Median · Spanne {formatEuro(item.minimum)} bis {formatEuro(item.maximum)}</span></article>)}</div>
     </section>
   );

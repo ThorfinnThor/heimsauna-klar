@@ -16,11 +16,9 @@ import {
 } from "@/lib/page-presentations";
 import { getPlanningGuide, type PlanningGuide } from "@/lib/planning-guides";
 import {
-  formatGermanDate,
   formatPower,
   formatPrice,
   formatVoltage,
-  getOfferDateRange,
   type Product,
 } from "@/lib/products";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
@@ -35,20 +33,18 @@ type CollectionPageContext = {
   collection: Collection;
   candidates: Product[];
   planningGuides: PlanningGuide[];
-  offerDateRange: { oldest: string | null; newest: string | null };
   presentation: CollectionPresentation;
 };
 
 export function ProductCollectionPage({ collection }: { collection: Collection }) {
   const candidates = getCollectionProducts(collection);
-  const offerDateRange = getOfferDateRange(candidates);
   const minimumFootprint = Math.min(...candidates.map(getFootprintSquareMeters));
   const documentedPrices = candidates.map(getLowestPrice).filter((price): price is number => price !== null);
   const lowestPrice = documentedPrices.length > 0 ? Math.min(...documentedPrices) : null;
   const relatedCollections = collection.related_ids.map((id) => collections.find((item) => item.id === id)).filter((item): item is Collection => Boolean(item));
   const planningGuides = collection.planning.guide_ids.map(getPlanningGuide).filter((guide): guide is PlanningGuide => Boolean(guide));
   const presentation = getCollectionPresentation(collection.id);
-  const pageContext = { collection, candidates, planningGuides, offerDateRange, presentation };
+  const pageContext = { collection, candidates, planningGuides, presentation };
   const path = `/de/${collection.section}/${collection.slug}/`;
 
   return (
@@ -95,7 +91,7 @@ function CollectionHero({ collection, candidates, minimumFootprint, lowestPrice,
         <p>{collection.intro}</p>
       </div>
       <div className="collection-metrics" aria-label="Kennzahlen der Auswahl">
-        <span><strong>{candidates.length}</strong> passende Datensätze</span>
+        <span><strong>{candidates.length}</strong> passende Produkte</span>
         <span><strong>{minimumFootprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m²</strong> kleinste Stellfläche</span>
         <span><strong>{lowestPrice === null ? "kein aktueller Preis" : `ab ${lowestPrice.toLocaleString("de-DE", { style: "currency", currency: "EUR" })}`}</strong> dokumentierter Preis</span>
       </div>
@@ -106,7 +102,7 @@ function CollectionHero({ collection, candidates, minimumFootprint, lowestPrice,
 function CollectionModuleBlock({ context, module }: { context: CollectionPageContext; module: CollectionModule }) {
   if (module === "insight") return <CollectionInsight presentation={context.presentation} />;
   if (module === "editorial") return <CollectionEditorial collection={context.collection} />;
-  if (module === "method") return <CollectionMethod collection={context.collection} offerDateRange={context.offerDateRange} planningGuides={context.planningGuides} variant={context.presentation.method} />;
+  if (module === "method") return <CollectionMethod collection={context.collection} planningGuides={context.planningGuides} variant={context.presentation.method} />;
   if (module === "results") return <CollectionResults collection={context.collection} candidates={context.candidates} variant={context.presentation.results} />;
   return <CollectionChecks collection={context.collection} />;
 }
@@ -124,9 +120,8 @@ function CollectionInsight({ presentation }: { presentation: CollectionPresentat
   );
 }
 
-function CollectionMethod({ collection, offerDateRange, planningGuides, variant }: {
+function CollectionMethod({ collection, planningGuides, variant }: {
   collection: Collection;
-  offerDateRange: { oldest: string | null; newest: string | null };
   planningGuides: PlanningGuide[];
   variant: CollectionPresentation["method"];
 }) {
@@ -135,7 +130,7 @@ function CollectionMethod({ collection, offerDateRange, planningGuides, variant 
       <div><p className="eyebrow">{collection.module_copy.method_kicker}</p><h2 id="collection-method-title">{collection.module_copy.method_title}</h2></div>
       <div>
         <ul>{collection.criteria.map((criterion) => <li key={criterion}>{criterion}</li>)}</ul>
-        <p>{collection.module_copy.method_note} <strong>{offerDateRange.oldest && offerDateRange.newest ? `${formatGermanDate(offerDateRange.oldest)} bis ${formatGermanDate(offerDateRange.newest)}` : "nicht verfügbar"}</strong>.</p>
+        <p>{collection.module_copy.method_note} Die Werte stammen aus den dokumentierten Angeboten.</p>
         <div className="collection-planning">
           <p className="eyebrow">{collection.planning.kicker}</p><p>{collection.planning.intro}</p>
           <div className="collection-planning-links">{planningGuides.map((guide) => <Link href={`/de/planung/${guide.slug}/`} key={guide.slug}><small>{guide.eyebrow}</small><strong>{guide.title}</strong><span>Planung öffnen ↗</span></Link>)}</div>
@@ -162,7 +157,7 @@ function CollectionResults({ collection, candidates, variant }: { collection: Co
 function CollectionResultsTable({ collection, candidates }: { collection: Collection; candidates: Product[] }) {
   return (
     <div className="collection-table-wrap"><table className="collection-table">
-      <caption className="visually-hidden">{collection.title}: Vergleich der passenden Produktdatensätze</caption>
+      <caption className="visually-hidden">{collection.title}: Vergleich der passenden Produkte</caption>
       <thead><tr><th>Produkt</th><th>Aufstellung</th><th>Stellfläche</th><th>Außenmaß B × T × H</th><th>Kapazität</th><th>Anschluss</th><th>Preis</th></tr></thead>
       <tbody>{candidates.map((product) => <tr key={product.product_id}>
         <td><small>{product.brand} · {product.sauna.type}</small><Link href={`/de/produkte/${product.product_id}/`}>{product.model} ↗</Link></td>
@@ -177,7 +172,7 @@ function CollectionResultsCards({ candidates }: { candidates: Product[] }) {
     <div className="collection-result-cards">{candidates.map((product, index) => <article key={product.product_id}>
       <span className="collection-result-index">{String(index + 1).padStart(2, "0")}</span><small>{product.brand} · {product.sauna.indoor_outdoor === "indoor" ? "Innen" : "Außen"}</small><h3>{product.model}</h3>
       <dl><div><dt>Fläche</dt><dd>{formatFootprint(product)}</dd></div><div><dt>Kapazität</dt><dd>{formatCapacity(product)}</dd></div><div><dt>Anschluss</dt><dd>{formatConnection(product)}</dd></div><div><dt>Preis</dt><dd>{formatPrice(product)}</dd></div></dl>
-      <Link href={`/de/produkte/${product.product_id}/`}>Datensatz prüfen ↗</Link>
+      <Link href={`/de/produkte/${product.product_id}/`}>Produkt ansehen ↗</Link>
     </article>)}</div>
   );
 }
@@ -205,7 +200,7 @@ function CollectionRelated({ collection, collections: relatedCollections }: { co
   return (
     <aside className="collection-related page-shell" aria-labelledby="collection-related-title" data-page-module="related">
       <div><p className="eyebrow">{collection.module_copy.related_kicker}</p><h2 id="collection-related-title">{collection.module_copy.related_title}</h2></div>
-      <div className="collection-related-grid">{relatedCollections.map((item) => <Link href={`/de/${item.section}/${item.slug}/`} key={item.id}><small>{item.kind}</small><strong>{item.title}</strong><span>{getCollectionProducts(item).length} Datensätze ↗</span></Link>)}</div>
+      <div className="collection-related-grid">{relatedCollections.map((item) => <Link href={`/de/${item.section}/${item.slug}/`} key={item.id}><small>{item.kind}</small><strong>{item.title}</strong><span>{getCollectionProducts(item).length} Produkte ↗</span></Link>)}</div>
     </aside>
   );
 }

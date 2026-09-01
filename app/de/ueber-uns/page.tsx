@@ -28,7 +28,7 @@ export default function AboutPage() {
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
             <Link href="/de/">Start</Link><span>/</span><span>Über uns</span>
           </nav>
-          <p className="eyebrow">Über Select Your Sauna · Stand 31.08.2026</p>
+          <p className="eyebrow">Über Select Your Sauna</p>
           <h1>Saunaplanung mit nachvollziehbaren Produktdaten.</h1>
           <div className="about-hero-copy">
             <p>Select Your Sauna ist eine deutschsprachige Planungs- und Vergleichsplattform für private Saunen. Betreiber ist das Einzelunternehmen SeitenHafen361 von Schayan Yousefian.</p>
@@ -58,7 +58,7 @@ export default function AboutPage() {
               <h2 id="about-method-title">So werden Produktangaben geprüft</h2>
             </div>
             <ol>
-              <li><span>01</span><div><h3>Quelle erfassen</h3><p>Ausgangspunkt sind öffentlich zugängliche Herstellerseiten, technische Unterlagen und konkrete Angebotsseiten. Die verwendete URL und das Prüfdatum bleiben am Produkt sichtbar.</p></div></li>
+              <li><span>01</span><div><h3>Quelle erfassen</h3><p>Ausgangspunkt sind öffentlich zugängliche Herstellerseiten, technische Unterlagen und konkrete Angebotsseiten. Die verwendete URL bleibt am Produkt sichtbar.</p></div></li>
               <li><span>02</span><div><h3>Angaben getrennt führen</h3><p>Maße, Kapazität, Spannung, Ofenart und Preis werden als einzelne Datenpunkte gespeichert. Fehlende technische Angaben werden nicht aus ähnlichen Modellen abgeleitet.</p></div></li>
               <li><span>03</span><div><h3>Widersprüche kenntlich machen</h3><p>Weichen Quellen voneinander ab oder ist eine Eigenschaft nicht belegt, wird die Lücke im Datensatz ausgewiesen. Ein unbekannter Wert gilt im Finder nicht als bestätigte Übereinstimmung.</p></div></li>
               <li><span>04</span><div><h3>Einordnung ergänzen</h3><p>Die redaktionelle Einordnung beschreibt Einsatzbereich und Grenzen eines Modells. Sie wird von den übernommenen Hersteller- und Händlerangaben getrennt.</p></div></li>

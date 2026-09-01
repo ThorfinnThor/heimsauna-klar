@@ -1,19 +1,18 @@
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
-import { formatGermanDate, formatPower, formatPrice, getOfferDateRange, products } from "@/lib/products";
+import { formatPower, formatPrice, products } from "@/lib/products";
 import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
 export const metadata = createPageMetadata({
   title: "230-V-Sauna Vergleich mit kompakten Modellen im Datencheck",
-  description: "Ein transparenter Vergleich verifizierter 230-V-Sauna- und Infrarot-Datensätze nach Maßen, Kapazität, Leistung und Preisstatus.",
+  description: "Ein transparenter Vergleich verifizierter 230-V-Saunen und Infrarotkabinen nach Maßen, Kapazität, Leistung und Preisstatus.",
   path: "/de/vergleiche/230-v-sauna/",
 });
 
 export default function ComparisonPage() {
   const candidates = products.filter((product) => product.power.voltage === 230);
-  const offerDateRange = getOfferDateRange(candidates);
 
   return (
     <main>
@@ -29,7 +28,7 @@ export default function ComparisonPage() {
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
             <Link href="/de/">Start</Link><span>/</span><Link href="/de/produkte/">Produkte</Link><span>/</span><span>230-V-Sauna</span>
           </nav>
-          <p className="eyebrow">Datenvergleich · Preisstände {offerDateRange.oldest && offerDateRange.newest ? `${formatGermanDate(offerDateRange.oldest)} bis ${formatGermanDate(offerDateRange.newest)}` : "nicht verfügbar"}</p>
+          <p className="eyebrow">Datenvergleich · 230-V-Produkte</p>
           <h1>230-V-Saunen vergleichen.<span>Nach Maß, Leistung und Preis.</span></h1>
           <p>Diese Seite vergleicht belegte Herstellerangaben zu Anschluss, Leistung, Abmessungen und Preisstand. Eigene Nutzung und Montage liegen nicht vor.</p>
           <div className="guide-path-links" aria-label="Vergleich vorbereiten"><Link className="button button-primary" href="/de/saunatechnik/230-v-sauna/">230 V verstehen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf prüfen ↗</Link></div>
@@ -37,8 +36,8 @@ export default function ComparisonPage() {
 
         <section className="comparison-data page-shell" aria-labelledby="comparison-data-title">
           <div className="comparison-data-head">
-            <div><p className="eyebrow">Kompakte Übersicht</p><h2 id="comparison-data-title">{candidates.length} verifizierte Datensätze.</h2></div>
-            <p>Jeder Produktdatensatz führt Herstellerquelle, Prüfdatum, Varianten und bekannte Einschränkungen zusammen. Raum und Stromanschluss werden unabhängig davon am Standort geprüft.</p>
+            <div><p className="eyebrow">Kompakte Übersicht</p><h2 id="comparison-data-title">{candidates.length} verifizierte Produkte.</h2></div>
+            <p>Jede Produktseite führt Herstellerquelle, Varianten und bekannte Einschränkungen zusammen. Raum und Stromanschluss werden unabhängig davon am Standort geprüft.</p>
           </div>
           <div className="product-comparison-table">
             <div className="product-comparison-row product-comparison-heading">

@@ -4747,14 +4747,14 @@
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
-        "published_source_count": 1,
+        "published_source_count": 2,
         "editorial_point_count": 16,
         "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 0.6875
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {

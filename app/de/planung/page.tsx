@@ -27,7 +27,7 @@ export default function PlanningHubPage() {
         </nav>
       </section>
       <section className="planning-hub page-shell" aria-labelledby="planning-hub-title">
-        <div className="collection-index-head"><div><p className="eyebrow">Themen nach Planungsfrage</p><h2 id="planning-hub-title">Der passende Einstieg hängt vom bereits bekannten Standort ab.</h2></div><p>Jede Seite nennt Quellen, Prüfdatum und die Grenzen pauschaler Regeln. Wer den Aufstellraum schon festgelegt hat, kann direkt bei Aufbau oder Technik einsteigen.</p></div>
+        <div className="collection-index-head"><div><p className="eyebrow">Themen nach Planungsfrage</p><h2 id="planning-hub-title">Der passende Einstieg hängt vom bereits bekannten Standort ab.</h2></div><p>Jede Seite nennt ihre Quellen und die Grenzen pauschaler Regeln. Wer den Aufstellraum schon festgelegt hat, kann direkt bei Aufbau oder Technik einsteigen.</p></div>
         {planningGroups.map((group) => {
           const guides = group.guide_slugs.flatMap((slug) => {
             const guide = getPlanningGuide(slug);
@@ -40,7 +40,7 @@ export default function PlanningHubPage() {
                 <span>{group.number}</span>
                 <div><p className="eyebrow">{group.eyebrow}</p><h3 id={`${group.id}-title`}>{group.title}</h3><p>{group.description}</p></div>
               </div>
-              <div className="planning-hub-grid">{guides.map((guide, index) => <Link href={`/de/planung/${guide.slug}/`} key={guide.slug}><small>{group.number}.{index + 1} · aktualisiert {guide.updated_at.split("-").reverse().join(".")}</small><strong>{guide.title}</strong><span>{guide.description} ↗</span></Link>)}</div>
+              <div className="planning-hub-grid">{guides.map((guide, index) => <Link href={`/de/planung/${guide.slug}/`} key={guide.slug}><small>{group.number}.{index + 1}</small><strong>{guide.title}</strong><span>{guide.description} ↗</span></Link>)}</div>
             </section>
           );
         })}

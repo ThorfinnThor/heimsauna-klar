@@ -165,7 +165,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
             <p>
               {finderResult.matches.length > 0
                 ? "Diese Produkte entsprechen den ausgewählten Angaben im aktuellen Katalog. Montageabstände und örtliche Anschlussbedingungen müssen zusätzlich geprüft werden."
-                : `${finderResult.alternativeMatches.length} nächstliegende Datensätze werden mit ihren Abweichungen angezeigt. So bleibt sichtbar, welches Kriterium für eine passende Auswahl geändert werden müsste.`}
+                : `${finderResult.alternativeMatches.length} nächstliegende Produkte werden mit ihren Abweichungen angezeigt. So bleibt sichtbar, welches Kriterium für eine passende Auswahl geändert werden müsste.`}
             </p>
           </div>
           <div className="catalog-finder-selection" aria-label="Gewählte Kriterien">
@@ -272,7 +272,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
       </div>
 
       <div className="catalog-results-summary">
-        <p aria-live="polite"><strong>{visibleProducts.length}</strong> von {products.length} Datensätzen</p>
+        <p aria-live="polite"><strong>{visibleProducts.length}</strong> von {products.length} Produkten</p>
         {hasActiveFilters && <button type="button" onClick={resetFilters}>Filter zurücksetzen</button>}
       </div>
 
@@ -283,7 +283,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
         </>
       ) : (
         <div className="catalog-empty">
-          <h2>Keine passenden Datensätze</h2>
+          <h2>Keine passenden Produkte</h2>
           <p>Ändere die Filter oder setze sie zurück, um weitere Produkte anzuzeigen.</p>
           <button type="button" onClick={resetFilters}>Alle Produkte anzeigen</button>
         </div>
@@ -306,7 +306,7 @@ function ProductGroup({ id, title, products, offset, familyCounts, finderDiffere
     <section className="catalog-group" aria-labelledby={`group-${id}`}>
       <div className="catalog-group-head">
         <h2 id={`group-${id}`}>{title}</h2>
-        <span>{products.length} {products.length === 1 ? "Datensatz" : "Datensätze"}</span>
+        <span>{products.length} {products.length === 1 ? "Produkt" : "Produkte"}</span>
       </div>
       {products.map((product, index) => (
         <article className="catalog-row" key={product.product_id}>
@@ -332,7 +332,7 @@ function ProductGroup({ id, title, products, offset, familyCounts, finderDiffere
             <div><dt>Kapazität</dt><dd>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</dd></div>
             <div><dt>Preisstatus</dt><dd>{formatPrice(product)}</dd></div>
           </dl>
-          <Link className="catalog-row-link" href={`/de/produkte/${product.product_id}/`}>Datensatz ansehen <span aria-hidden="true">↗</span></Link>
+          <Link className="catalog-row-link" href={`/de/produkte/${product.product_id}/`}>Produkt ansehen <span aria-hidden="true">↗</span></Link>
         </article>
       ))}
     </section>

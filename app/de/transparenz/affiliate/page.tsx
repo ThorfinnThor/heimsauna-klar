@@ -3,7 +3,6 @@ import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import affiliate from "@/content/de/affiliate.json";
 import { affiliatePrograms, getAffiliateStats, getMerchantOfferCounts, merchants } from "@/lib/affiliate";
-import { formatGermanDate } from "@/lib/products";
 import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
@@ -33,7 +32,7 @@ export default function AffiliateTransparencyPage() {
       <article>
         <header className="page-hero page-shell">
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><Link href="/de/rechtliches/">Transparenz</Link><span>/</span><span>Affiliate</span></nav>
-          <p className="eyebrow">Transparenz · geprüft {formatGermanDate(affiliate.updated_at)}</p>
+          <p className="eyebrow">Transparenz</p>
           <h1>{affiliate.title}<span>{affiliate.accent}</span></h1>
           <p>{affiliate.description}</p>
           <div className="catalog-metrics" aria-label="Aktueller Affiliate-Status">
@@ -60,7 +59,7 @@ export default function AffiliateTransparencyPage() {
         </section>
 
         <section className="planning-hub page-shell" aria-labelledby="program-candidates-title">
-          <div className="collection-index-head"><div><p className="eyebrow">Partnerprogramme · aktueller Stand</p><h2 id="program-candidates-title">Bewerbungen und Freigaben</h2></div><p>Konditionen und Status werden mit Prüfdatum dokumentiert. Eine Freigabe allein aktiviert noch keinen Produktlink.</p></div>
+          <div className="collection-index-head"><div><p className="eyebrow">Partnerprogramme · aktueller Stand</p><h2 id="program-candidates-title">Bewerbungen und Freigaben</h2></div><p>Konditionen und Status werden getrennt dokumentiert. Eine Freigabe allein aktiviert noch keinen Produktlink.</p></div>
           <div className="planning-hub-grid">
             {affiliatePrograms.map((program) => (
               <article className="affiliate-principle" key={program.id}>
@@ -71,7 +70,7 @@ export default function AffiliateTransparencyPage() {
                 <p><strong>Advertiser-Abdeckung:</strong> {program.advertiser_merchant_ids.length > 0
                   ? program.advertiser_merchant_ids.map((merchantId) => merchants.find((merchant) => merchant.id === merchantId)?.name ?? merchantId).join(", ")
                   : "Noch keinem Katalog-Händler zugeordnet"}</p>
-                <a href={program.url} target="_blank" rel="noreferrer">Bewerbungsseite öffnen · geprüft {formatGermanDate(program.checked_at)} ↗</a>
+                <a href={program.url} target="_blank" rel="noreferrer">Bewerbungsseite öffnen ↗</a>
               </article>
             ))}
           </div>

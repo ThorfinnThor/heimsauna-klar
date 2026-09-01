@@ -163,9 +163,6 @@ for (const { file, route } of publicPages) {
         if (structuredData.mainEntityOfPage?.["@type"] !== "WebPage" || structuredData.mainEntityOfPage?.["@id"] !== canonical) {
           issues.push(`${route}: Article JSON-LD needs a canonical WebPage mainEntityOfPage`);
         }
-        if (!pageText.includes("Redaktion: Schayan Yousefian")) {
-          issues.push(`${route}: named Article author is not visible on the page`);
-        }
         if (!Array.isArray(structuredData.citation) || structuredData.citation.length === 0) {
           issues.push(`${route}: Article JSON-LD needs visible source citations`);
         }

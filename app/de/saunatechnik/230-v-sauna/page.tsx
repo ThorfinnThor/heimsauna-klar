@@ -2,7 +2,7 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import guide from "@/content/de/guides/230-v-sauna.json";
-import { formatGermanDate, products } from "@/lib/products";
+import { products } from "@/lib/products";
 import { createPageMetadata } from "@/lib/metadata";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 
@@ -45,7 +45,6 @@ export default function GuidePage() {
           <p className="eyebrow">Saunatechnik</p>
           <h1>230 V bei der Sauna einordnen</h1>
           <p>{guide.description}</p>
-          <p className="content-byline">Redaktion: <Link href="/de/ueber-uns/#redaktion">Schayan Yousefian</Link> · aktualisiert {formatGermanDate(guide.updated_at)}</p>
           <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.quick_answer}</p></div>
           <div className="guide-path-links" aria-label="Passende Inhalte"><Link className="button button-primary" href="/de/vergleiche/230-v-sauna/">230-V-Modelle vergleichen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf berechnen ↗</Link></div>
         </header>
@@ -84,8 +83,8 @@ export default function GuidePage() {
         <section className="matching-products page-shell" aria-labelledby="matching-title">
           <div>
             <p className="eyebrow">Im aktuellen Katalog</p>
-            <h2 id="matching-title">Verifizierte 230-V-Datensätze.</h2>
-            <p>Die Vorschau verteilt sich auf verschiedene Marken und ist auf zwölf Modelle begrenzt. Auf der Vergleichsseite stehen alle {matchingProducts.length} Datensätze mit dokumentierten Maßen, Anschlussdaten und Preisständen.</p>
+            <h2 id="matching-title">Verifizierte 230-V-Produkte.</h2>
+            <p>Die Vorschau verteilt sich auf verschiedene Marken und ist auf zwölf Modelle begrenzt. Auf der Vergleichsseite stehen alle {matchingProducts.length} Produkte mit dokumentierten Maßen, Anschlussdaten und Preisständen.</p>
           </div>
           <div className="matching-product-links">
             {previewProducts.map((product) => (
@@ -95,7 +94,7 @@ export default function GuidePage() {
                 <span>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm ↗</span>
               </Link>
             ))}
-            <Link className="matching-product-more" href="/de/vergleiche/230-v-sauna/">Alle {matchingProducts.length} 230-V-Datensätze vergleichen <span aria-hidden="true">↗</span></Link>
+            <Link className="matching-product-more" href="/de/vergleiche/230-v-sauna/">Alle {matchingProducts.length} 230-V-Produkte vergleichen <span aria-hidden="true">↗</span></Link>
           </div>
         </section>
 

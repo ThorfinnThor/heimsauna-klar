@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/de/rechtliches/`, lastModified: new Date(`${legal.updated_at}T00:00:00Z`), changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteUrl}/de/transparenz/affiliate/`, lastModified: new Date(`${affiliate.updated_at}T00:00:00Z`), changeFrequency: "monthly", priority: 0.5 },
     { url: `${siteUrl}/de/saunatechnik/230-v-sauna/`, lastModified: planningUpdated, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/de/vergleiche/`, lastModified: productsUpdated, changeFrequency: "weekly", priority: 0.8 },
     { url: `${siteUrl}/de/vergleiche/230-v-sauna/`, lastModified: productsUpdated, changeFrequency: "weekly", priority: 0.8 },
     ...collections.map((collection) => ({
       url: `${siteUrl}/de/${collection.section}/${collection.slug}/`,

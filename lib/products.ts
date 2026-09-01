@@ -203,6 +203,59 @@ export function formatPower(kw: Product["power"]["kw"]) {
   return `${kw.toLocaleString("de-DE", { maximumFractionDigits: 2 })} kW`;
 }
 
+function isKaribuProductPath(url: URL) {
+  return url.hostname === "www.karibu.de" && !url.pathname.startsWith("/sauna/") && !url.pathname.startsWith("/wb-pdf-creator/") && url.pathname !== "/";
+}
+
+function categoryFallbackUrl(product: Product, host: "karibu" | "weka") {
+  if (host === "karibu") {
+    if (product.category === "outdoor") return "https://www.karibu.de/sauna/aussensauna/";
+    if (product.category === "infrared") return "https://www.karibu.de/sauna/innensauna/infrarotsauna/";
+    return "https://www.karibu.de/sauna/innensauna/";
+  }
+  if (product.category === "infrared") return "https://www.weka-holzbau.com/de/wellness-sauna/infrarotkabinen";
+  if (product.category === "outdoor") return "https://www.weka-holzbau.com/de/wellness-sauna/outdoorsaunen/saunahaeuser/";
+  return "https://www.weka-holzbau.com/de/wellness-sauna/indoorsaunen/";
+}
+
+function troniCategoryFallbackUrl() {
+  return "https://www.tronitechnik.de/infrarotkabinen";
+}
+
+/** Returns a current, reachable destination when a merchant has retired an old product route. */
+export function getProductOfferUrl(product: Product, rawUrl: string) {
+  try {
+    const url = new URL(rawUrl);
+    if (isKaribuProductPath(url)) return categoryFallbackUrl(product, "karibu");
+    if (url.hostname === "www.weka-holzbau.com" && url.pathname === "/infrarotkabine-milo-1-f/ws548101000001") {
+      return categoryFallbackUrl(product, "weka");
+    }
+    if (url.hostname === "www.tronitechnik.de" && url.pathname === "/tronitechnik-infrarotkabine-manila-140x100/a-704") return troniCategoryFallbackUrl();
+    return rawUrl;
+  } catch {
+    return rawUrl;
+  }
+}
+
+/** Returns a current source destination while retaining product-specific Karibu PDFs when a SKU is present. */
+export function getProductSourceUrl(product: Product, rawUrl: string) {
+  try {
+    const url = new URL(rawUrl);
+    if (isKaribuProductPath(url)) {
+      const sku = url.pathname.split("/").filter(Boolean).at(-1);
+      if (sku && /^\d+[A-Za-z]*$/.test(sku)) return `https://www.karibu.de/wb-pdf-creator/create-product-document?sku=${sku}`;
+      return categoryFallbackUrl(product, "karibu");
+    }
+    if (url.hostname === "www.weka-holzbau.com" && (url.pathname === "/infrarotkabine-milo-1-f/ws548101000001" || url.pathname.endsWith("MA800-0286-02-19.pdf"))) {
+      return categoryFallbackUrl(product, "weka");
+    }
+    if (url.hostname === "www.tronitechnik.de" && url.pathname === "/tronitechnik-infrarotkabine-manila-140x100/a-704") return troniCategoryFallbackUrl();
+    return rawUrl;
+  } catch {
+    return rawUrl;
+  }
+}
+
 export function formatGermanDate(value: string) {
   return new Intl.DateTimeFormat("de-DE", {
     day: "2-digit",

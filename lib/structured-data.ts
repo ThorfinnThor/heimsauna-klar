@@ -1,5 +1,5 @@
 import { siteUrl } from "@/lib/site";
-import { formatVoltage, getEligibleOffers, type Product } from "@/lib/products";
+import { formatVoltage, getEligibleOffers, getProductOfferUrl, type Product } from "@/lib/products";
 
 export type JsonLd = Record<string, unknown>;
 
@@ -156,7 +156,7 @@ export function productJsonLd(product: Product): JsonLd {
     const availability = availabilityUrl(offer.availability);
     return {
       "@type": "Offer",
-      url: offer.url,
+      url: getProductOfferUrl(product, offer.url),
       priceCurrency: product.commercial.currency,
       price: offer.price,
       seller: { "@type": "Organization", name: offer.merchant },

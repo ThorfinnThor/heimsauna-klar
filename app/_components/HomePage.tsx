@@ -1,7 +1,7 @@
 import Link from "next/link";
 import home from "@/content/de/home.json";
 import archetypes from "@/data/sauna-archetypes.json";
-import { formatGermanDate, formatPrice, formatVoltage, getOfferDateRange, products } from "@/lib/products";
+import { formatPrice, formatVoltage, products } from "@/lib/products";
 import { SaunaFinder } from "./SaunaFinder";
 import { SiteFooter, SiteHeader } from "./SiteChrome";
 
@@ -9,7 +9,6 @@ const Arrow = () => <span aria-hidden="true">↗</span>;
 const featuredProducts = home.featured_product_ids
   .map((productId) => products.find((product) => product.product_id === productId))
   .filter((product): product is (typeof products)[number] => Boolean(product));
-const offerDateRange = getOfferDateRange(products);
 
 export function HomePage() {
   return (
@@ -60,7 +59,7 @@ export function HomePage() {
       <section className="catalog-preview" aria-labelledby="catalog-title">
         <div className="catalog-preview-head">
           <div>
-            <p className="eyebrow">Auswahl verifizierter Datensätze</p>
+            <p className="eyebrow">Auswahl verifizierter Produkte</p>
             <h2 id="catalog-title">Saunen mit nachvollziehbaren Produktdaten.</h2>
           </div>
           <Link className="text-link" href="/de/produkte/">Zum Produktkatalog <span aria-hidden="true">↗</span></Link>
@@ -85,14 +84,14 @@ export function HomePage() {
             </article>
           ))}
         </div>
-        <p className="catalog-note">Preisstände aus dem Katalog: {offerDateRange.oldest && offerDateRange.newest ? `${formatGermanDate(offerDateRange.oldest)} bis ${formatGermanDate(offerDateRange.newest)}` : "nicht verfügbar"}. Produktangaben und redaktionelle Einordnung bleiben getrennt nachvollziehbar.</p>
+        <p className="catalog-note">Die Preise stammen aus den dokumentierten Angeboten. Produktangaben und redaktionelle Einordnung bleiben getrennt nachvollziehbar.</p>
       </section>
 
       <section className="finder-section" id="finder" aria-labelledby="finder-title">
         <div className="section-heading">
           <p className="eyebrow">Sauna-Finder</p>
           <h2 id="finder-title">Produkte nach deinen Angaben filtern.</h2>
-          <p>Wähle Standort, Personenzahl, Produktfläche, Anschluss, Budget und Wärmeart. Nach dem Klick auf „Suchen“ öffnet sich der Produktkatalog mit den passenden Datensätzen.</p>
+            <p>Wähle Standort, Personenzahl, Produktfläche, Anschluss, Budget und Wärmeart. Nach dem Klick auf „Suchen“ öffnet sich der Produktkatalog mit den passenden Produkten.</p>
         </div>
         <SaunaFinder />
       </section>

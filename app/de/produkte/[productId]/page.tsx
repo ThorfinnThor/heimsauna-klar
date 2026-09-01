@@ -6,7 +6,7 @@ import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
 import { getOfferDisclosure, getOfferLink } from "@/lib/affiliate";
 import { createPageMetadata } from "@/lib/metadata";
-import { formatGermanDate, formatOfferPrice, formatPower, formatPrice, formatVoltage, getEligibleOffers, getOfferPolicySummary, getProduct, getProductEditorialOverride, getProductFamily, isProductIndexable, products } from "@/lib/products";
+import { formatOfferPrice, formatPower, formatPrice, formatVoltage, getEligibleOffers, getOfferPolicySummary, getProduct, getProductEditorialOverride, getProductFamily, getProductSourceUrl, isProductIndexable, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ productId: string }> };
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProduct(productId);
   if (!product) return {};
   const title = `${product.brand} ${product.model}: Maße, Strom und Einordnung`;
-  const description = `${product.brand} ${product.model}: ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm, ${formatVoltage(product.power.voltage)} und Platz für bis zu ${product.people.max} Personen. Quellengeprüfter Datensatz.`;
+  const description = `${product.brand} ${product.model}: ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm, ${formatVoltage(product.power.voltage)} und Platz für bis zu ${product.people.max} Personen. Quellengeprüfte Produktseite.`;
   return createPageMetadata({
     title,
     description,
@@ -71,7 +71,7 @@ export default async function ProductPage({ params }: Props) {
           </nav>
           <div className="product-title-grid">
             <div>
-              <p className="eyebrow">{product.brand} · Herstellerdaten geprüft {formatGermanDate(product.updated_at)}</p>
+              <p className="eyebrow">{product.brand} · Produktdaten</p>
               <h1>{product.model}</h1>
               <p className="product-lede" data-product-copy="true">Einordnung des {product.brand} {product.model} anhand geprüfter Herstellerdaten. Eigener Aufbau und eigene Nutzung liegen nicht vor.</p>
             </div>
@@ -88,7 +88,7 @@ export default async function ProductPage({ params }: Props) {
                         <div>
                           <b>{offer.merchant}</b>
                           {offer.configuration ? <span>{offer.configuration}</span> : null}
-                          <span>{formatOfferPrice(offer, product.commercial.currency)} · Stand {formatGermanDate(offer.last_checked)}</span>
+                          <span>{formatOfferPrice(offer, product.commercial.currency)}</span>
                         </div>
                         <a
                           href={offerLink.href}
@@ -138,7 +138,7 @@ export default async function ProductPage({ params }: Props) {
             <div className="variant-intro">
               <p className="eyebrow">Produktreihe · {familyProducts.length} Varianten</p>
               <h2 id="variant-title">{product.family.name}: Varianten im Vergleich</h2>
-              <p data-product-copy="true">{product.model} gehört zur Reihe {product.family.name}. Die folgenden Varianten machen Unterschiede bei Ausführung, Maßen, Wärmeart und dokumentiertem Preis sichtbar; {product.family.variant} bleibt dabei als eigener Datensatz nachvollziehbar.</p>
+              <p data-product-copy="true">{product.model} gehört zur Reihe {product.family.name}. Die folgenden Varianten machen Unterschiede bei Ausführung, Maßen, Wärmeart und dokumentiertem Preis sichtbar; {product.family.variant} bleibt dabei als eigene Produktvariante nachvollziehbar.</p>
             </div>
             <div className="variant-grid">
               {familyProducts.map((variant) => {
@@ -185,8 +185,7 @@ export default async function ProductPage({ params }: Props) {
             <ul className="source-list">
               {product.sources.map((source) => (
                 <li key={source.url}>
-                  <a href={source.url} rel="noreferrer" target="_blank">{source.title} ↗</a>
-                  <span>geprüft {formatGermanDate(source.checked_at)}</span>
+                  <a href={getProductSourceUrl(product, source.url)} rel="noreferrer" target="_blank">{source.title} ↗</a>
                 </li>
               ))}
             </ul>
@@ -248,7 +247,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
 
   if (product.category === "outdoor") {
     const intros = [
-      `${product.brand} führt ${product.model} als Außensauna mit ${footprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² rechnerischer Produktfläche. Im Datensatz spricht vor allem „${strength}“ für das Modell; „${concern}“ bleibt vor der Standortentscheidung offen.`,
+      `${product.brand} führt ${product.model} als Außensauna mit ${footprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² rechnerischer Produktfläche. Für das Modell spricht vor allem „${strength}“; „${concern}“ bleibt vor der Standortentscheidung offen.`,
       `${product.model} richtet sich laut Datenlage besonders an ${useCase}. Die ${footprintLabel} Grundfläche und „${strength}“ sind dafür relevant, während „${concern}“ separat in die Projektplanung gehört.`,
       `Bei ${product.model} treffen ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} cm Außenmaß auf „${strength}“ und „${secondStrength}“. Diese Kombination grenzt das Modell ein, ersetzt aber nicht die Prüfung von „${concern}“.`,
     ];
@@ -263,7 +262,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
   if (product.category === "infrared") {
     const intros = [
       `${product.model} ist als ${product.sauna.type} für bis zu ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"} dokumentiert. „${strength}“ beschreibt einen konkreten Vorteil; „${concern}“ markiert die wichtigste offene Abwägung.`,
-      `Für ${useCase} bringt ${product.model} laut Datensatz vor allem „${strength}“ mit. Die Kabine benötigt ${footprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² rechnerische Stellfläche; zusätzlich ist „${concern}“ zu berücksichtigen.`,
+      `Für ${useCase} bringt ${product.model} laut Herstellerangaben vor allem „${strength}“ mit. Die Kabine benötigt ${footprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² rechnerische Stellfläche; zusätzlich ist „${concern}“ zu berücksichtigen.`,
       `${product.brand} kombiniert bei ${product.model} die Wärmeart ${product.sauna.heater_type} mit ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} cm Außenmaß. „${strength}“ und „${secondStrength}“ prägen die Auswahl, nicht eine pauschale Qualitätsnote.`,
     ];
     return {

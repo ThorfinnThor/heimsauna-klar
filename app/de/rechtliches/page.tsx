@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import legal from "@/content/de/legal.json";
-import { formatGermanDate } from "@/lib/products";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
@@ -16,7 +15,7 @@ export default function LegalPage() {
       <SiteHeader />
       <article className="legal-page page-shell">
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Rechtliches</span></nav>
-        <p className="eyebrow">Rechtliches · Stand {formatGermanDate(legal.updated_at)}</p>
+        <p className="eyebrow">Rechtliches</p>
         <h1>Impressum<span>und Datenschutz.</span></h1>
         <p className="legal-intro">{legal.notice}</p>
 
@@ -44,7 +43,7 @@ export default function LegalPage() {
 
         <section className="legal-block" id="rechtsquellen" aria-labelledby="legal-references-title">
           <p className="eyebrow">04</p>
-          <div><h2 id="legal-references-title">Rechtsquellen</h2><p>Diese offiziellen Quellen bilden die Grundlage der Angaben. Sie ersetzen keine individuelle Rechtsberatung.</p><ul>{legal.references.map((reference) => <li key={reference.url}><a className="text-link" href={reference.url} target="_blank" rel="noreferrer">{reference.title} · geprüft {formatGermanDate(reference.checked_at)} ↗</a></li>)}</ul></div>
+          <div><h2 id="legal-references-title">Rechtsquellen</h2><p>Diese offiziellen Quellen bilden die Grundlage der Angaben. Sie ersetzen keine individuelle Rechtsberatung.</p><ul>{legal.references.map((reference) => <li key={reference.url}><a className="text-link" href={reference.url} target="_blank" rel="noreferrer">{reference.title} ↗</a></li>)}</ul></div>
         </section>
       </article>
       <SiteFooter />

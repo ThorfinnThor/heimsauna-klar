@@ -1,6 +1,6 @@
 import affiliateContent from "@/content/de/affiliate.json";
 import merchantData from "@/data/merchants.json";
-import { products, type Product } from "@/lib/products";
+import { getProductOfferUrl, products, type Product } from "@/lib/products";
 
 export type Merchant = {
   id: string;
@@ -70,8 +70,9 @@ export function getOfferLink(
 ) {
   const program = getActiveAffiliateProgram(offer);
   if (!program || !offer.affiliate_url) {
+    const product = products.find((candidate) => candidate.product_id === productId);
     return {
-      href: offer.url,
+      href: product ? getProductOfferUrl(product, offer.url) : offer.url,
       affiliate: false,
     } as const;
   }

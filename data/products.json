@@ -12797,7 +12797,7 @@
           "merchant": "Karibu",
           "price": 2249.99,
           "availability": "manufacturer-listed",
-          "url": "https://www.karibu.de/Sauna-Lilja",
+          "url": "https://www.karibu.de/sauna/innensauna/",
           "affiliate": false,
           "last_checked": "2026-08-21"
         }
@@ -12831,8 +12831,14 @@
     "sources": [
       {
         "type": "manufacturer",
-        "title": "Karibu Produktseite Sauna Lilja · 230 V · ohne Ofen · Holztür",
-        "url": "https://www.karibu.de/Sauna-Lilja",
+        "title": "Karibu Produktinformation Sauna Lilja · 230 V · ohne Ofen · Holztür",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=86011",
+        "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Karibu Sauna-Übersicht",
+        "url": "https://www.karibu.de/sauna/innensauna/",
         "checked_at": "2026-08-21"
       }
     ],
