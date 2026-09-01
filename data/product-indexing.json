@@ -3,8 +3,8 @@
   "policy_updated_at": "2026-08-30",
   "generated_from_products_updated_at": "2026-09-01",
   "summary": {
-    "total_verified_products": 442,
-    "index": 222,
+    "total_verified_products": 447,
+    "index": 227,
     "noindex": 220,
     "categories": {
       "indoor": {
@@ -18,8 +18,8 @@
         "noindex": 13
       },
       "outdoor": {
-        "total": 136,
-        "index": 71,
+        "total": 141,
+        "index": 76,
         "noindex": 65
       },
       "tent": {
@@ -172,6 +172,54 @@
       },
       "reasons": [
         "insufficient-distinct-evidence"
+      ]
+    },
+    {
+      "product_id": "artsauna-nolvik-m",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 10,
+        "frequent_editorial_point_count": 1,
+        "frequent_editorial_share": 0.0833
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "artsauna-nolvik-xl",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 10,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "artsauna-spitzbergen-180",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 10,
+        "frequent_editorial_point_count": 1,
+        "frequent_editorial_share": 0.0833
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -718,6 +766,38 @@
         "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-saunahaus-kalle",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 10,
+        "frequent_editorial_point_count": 1,
+        "frequent_editorial_share": 0.0833
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-saunahaus-kalle-l",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 11,
+        "frequent_editorial_point_count": 1,
+        "frequent_editorial_share": 0.0833
       },
       "reasons": [
         "distinct-editorial-evidence"
