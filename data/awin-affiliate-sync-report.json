@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T20:41:25.824Z",
+  "generated_at": "2026-09-01T20:51:01.888Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
-  "products_total": 447,
-  "newly_matched_offers": 75,
-  "active_affiliate_offers": 75,
+  "products_total": 450,
+  "newly_matched_offers": 78,
+  "active_affiliate_offers": 78,
   "targets": [
     {
       "merchant_id": "artsauna",
@@ -75,8 +75,8 @@
       "feed_id": "92070",
       "feed_name": "Default",
       "feed_rows": 10424,
-      "catalog_offers": 8,
-      "exact_matches": 8,
+      "catalog_offers": 11,
+      "exact_matches": 11,
       "invalid_tracking_links": 0,
       "unmatched_product_ids": []
     }

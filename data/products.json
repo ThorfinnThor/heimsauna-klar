@@ -37687,8 +37687,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 220, "depth": 400, "height": 228 },
-    "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 220,
+      "depth": 400,
+      "height": 228
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -37707,14 +37716,18 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 7619,
-        "availability": "feed-listed",
-        "url": "https://gartenhausfabrik.de/Fass-Sauna-Fite",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 7619,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fass-Sauna-Fite",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=40533803989&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
       "pros": [
@@ -37764,8 +37777,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 220, "depth": 360, "height": 228 },
-    "people": { "min": 1, "max": 6, "seats": 6, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 220,
+      "depth": 360,
+      "height": 228
+    },
+    "people": {
+      "min": 1,
+      "max": 6,
+      "seats": 6,
+      "lying_places": 2
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -37784,14 +37806,18 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 7159,
-        "availability": "feed-listed",
-        "url": "https://gartenhausfabrik.de/Fass-Sauna-Jona",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 7159,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fass-Sauna-Jona",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=40533805461&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
       "pros": [
@@ -37841,8 +37867,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 223, "depth": 504, "height": 228 },
-    "people": { "min": 1, "max": 6, "seats": 6, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 223,
+      "depth": 504,
+      "height": 228
+    },
+    "people": {
+      "min": 1,
+      "max": 6,
+      "seats": 6,
+      "lying_places": 2
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -37861,14 +37896,18 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 11239,
-        "availability": "feed-listed",
-        "url": "https://gartenhausfabrik.de/Fass-Sauna-Ida",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 11239,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fass-Sauna-Ida",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=40533805487&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
       "pros": [
