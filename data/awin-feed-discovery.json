@@ -1,8 +1,170 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T10:40:11.354Z",
+  "generated_at": "2026-09-01T19:45:00.305Z",
   "source": "Awin authenticated product feed list",
   "secret_included": false,
+  "eligible_feeds": [
+    {
+      "advertiserId": "125144",
+      "advertiserName": "ANTHBOT DE",
+      "membershipStatus": "active",
+      "feedId": "F3145",
+      "feedName": null,
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "11830",
+      "advertiserName": "Globus Baumarkt DE",
+      "membershipStatus": "active",
+      "feedId": "24925",
+      "feedName": "Allgemein",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "14288",
+      "advertiserName": "Trotec DACH",
+      "membershipStatus": "active",
+      "feedId": "34321",
+      "feedName": "Awin-DE",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "18314",
+      "advertiserName": "Benz24 DE/AT",
+      "membershipStatus": "active",
+      "feedId": "43829",
+      "feedName": "BENZ24 Deutschland",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "18314",
+      "advertiserName": "Benz24 DE/AT",
+      "membershipStatus": "active",
+      "feedId": "54737",
+      "feedName": "BENZ24 Österreich",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "24966",
+      "advertiserName": "InterGard Heim und Garten DE",
+      "membershipStatus": "active",
+      "feedId": "60713",
+      "feedName": "Feed Deutsch",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "25645",
+      "advertiserName": "Saunaloft DE",
+      "membershipStatus": "active",
+      "feedId": "83153",
+      "feedName": "awinfeed.csv",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "30763",
+      "advertiserName": "Ecovacs DE",
+      "membershipStatus": "active",
+      "feedId": "98163",
+      "feedName": "Ecovacs DE Product Feed",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "43199",
+      "advertiserName": "Home Deluxe DE",
+      "membershipStatus": "active",
+      "feedId": "84368",
+      "feedName": "Default",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "48707",
+      "advertiserName": "Woodstore24 DE/AT",
+      "membershipStatus": "active",
+      "feedId": "87312",
+      "feedName": "Idealo Daten Feed",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "48707",
+      "advertiserName": "Woodstore24 DE/AT",
+      "membershipStatus": "active",
+      "feedId": "99428",
+      "feedName": "Produkte DE",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "48707",
+      "advertiserName": "Woodstore24 DE/AT",
+      "membershipStatus": "active",
+      "feedId": "115823",
+      "feedName": "Feed DE 2026",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "69012",
+      "advertiserName": "LaminatDEPOT DE",
+      "membershipStatus": "active",
+      "feedId": "115897",
+      "feedName": "Default",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "76696",
+      "advertiserName": "Gartenhausfabrik DE",
+      "membershipStatus": "active",
+      "feedId": "92070",
+      "feedName": "Default",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "106021",
+      "advertiserName": "Artsauna DE",
+      "membershipStatus": "active",
+      "feedId": "97646",
+      "feedName": "Default",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "107808",
+      "advertiserName": "Korodrogerie DE",
+      "membershipStatus": "active",
+      "feedId": "116646",
+      "feedName": "Channable_DE",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    }
+  ],
   "advertisers": [
     {
       "merchant_id": "artsauna",
@@ -82,6 +244,44 @@
           "membershipStatus": "active",
           "feedId": "60713",
           "feedName": "Feed Deutsch",
+          "language": "German",
+          "lastUpdated": null,
+          "productCount": null
+        }
+      ]
+    },
+    {
+      "merchant_id": "saunaloft",
+      "expected_name": "Saunaloft",
+      "status": "found",
+      "advertiser_id": "25645",
+      "advertiser_names": [
+        "Saunaloft DE"
+      ],
+      "feeds": [
+        {
+          "membershipStatus": "active",
+          "feedId": "83153",
+          "feedName": "awinfeed.csv",
+          "language": "German",
+          "lastUpdated": null,
+          "productCount": null
+        }
+      ]
+    },
+    {
+      "merchant_id": "gartenhausfabrik",
+      "expected_name": "GartenHausfabrik",
+      "status": "found",
+      "advertiser_id": "76696",
+      "advertiser_names": [
+        "Gartenhausfabrik DE"
+      ],
+      "feeds": [
+        {
+          "membershipStatus": "active",
+          "feedId": "92070",
+          "feedName": "Default",
           "language": "German",
           "lastUpdated": null,
           "productCount": null
