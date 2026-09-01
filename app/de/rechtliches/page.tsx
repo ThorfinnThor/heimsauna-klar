@@ -16,7 +16,7 @@ export default function LegalPage() {
       <article className="legal-page page-shell">
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Rechtliches</span></nav>
         <p className="eyebrow">Rechtliches</p>
-        <h1>Impressum<span>und Datenschutz.</span></h1>
+        <h1>Impressum{" "}<span>und Datenschutz.</span></h1>
         <p className="legal-intro">{legal.notice}</p>
 
         <section className="legal-block" id="impressum" aria-labelledby="impressum-title">

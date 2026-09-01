@@ -33,7 +33,7 @@ export default function AffiliateTransparencyPage() {
         <header className="page-hero page-shell">
           <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><Link href="/de/rechtliches/">Transparenz</Link><span>/</span><span>Affiliate</span></nav>
           <p className="eyebrow">Transparenz</p>
-          <h1>{affiliate.title}<span>{affiliate.accent}</span></h1>
+          <h1>{affiliate.title}{" "}<span>{affiliate.accent}</span></h1>
           <p>{affiliate.description}</p>
           <div className="catalog-metrics" aria-label="Aktueller Affiliate-Status">
             <span><strong>{stats.affiliateOfferCount}</strong> aktive Affiliate-Links</span>

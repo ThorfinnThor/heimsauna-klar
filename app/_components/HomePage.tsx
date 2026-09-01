@@ -19,7 +19,7 @@ export function HomePage() {
         <div className="hero-copy">
           <p className="eyebrow">Unabhängig planen · technisch passend kaufen</p>
           <h1 id="hero-title">
-            Welche Sauna passt
+            Welche Sauna passt{" "}
             <span>zu deinem Zuhause?</span>
           </h1>
           <p className="hero-lede">{home.hero.lede}</p>

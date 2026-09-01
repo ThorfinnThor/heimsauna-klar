@@ -24,7 +24,7 @@ export default function ComparisonsHubPage() {
       <section className="page-hero page-shell">
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Vergleiche</span></nav>
         <p className="eyebrow">Vergleiche · konkrete Auswahlfragen</p>
-        <h1>Saunen vergleichen<span>mit Kriterien, die zum Standort passen.</span></h1>
+        <h1>Saunen vergleichen{" "}<span>mit Kriterien, die zum Standort passen.</span></h1>
         <p>Die Übersichten sortieren dokumentierte Produkte nach einer klaren Frage. Öffne den Vergleich, der zu deinem Platz, deiner Personenzahl, deiner Wärmeart oder deinem Budget passt.</p>
         <Link className="text-link" href="/de/produkte/">Alle Produkte im Katalog ansehen ↗</Link>
       </section>

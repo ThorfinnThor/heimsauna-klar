@@ -24,7 +24,7 @@ export default function ProductsPage() {
       <section className="page-hero page-shell">
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Produkte</span></nav>
         <p className="eyebrow">Produktkatalog · Deutschland</p>
-        <h1>Sauna-Produkte<span>im Vergleich.</span></h1>
+        <h1>Sauna-Produkte{" "}<span>im Vergleich.</span></h1>
         <p>Der Katalog umfasst {stats.total} verifizierte Produkte: {stats.categoryCounts.indoor} Indoor-Saunen, {stats.categoryCounts.outdoor} Outdoor-Saunen, {stats.categoryCounts.infrared} Infrarotkabinen und {stats.categoryCounts.mobile} mobile Saunen. Zu jedem Produkt findest du Quellen, Maße, Anschlussdaten und die Grundlage unserer Einordnung.</p>
         <Link className="text-link" href="/de/planung/">Planung zu Platz, Lüftung, Boden und Budget ↗</Link>
       </section>

@@ -20,7 +20,7 @@ export default function PlanningHubPage() {
       <section className="page-hero page-shell">
         <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Planung</span></nav>
         <p className="eyebrow">Sauna planen · vor dem Produktvergleich</p>
-        <h1>Sauna planen<span>Raum, Anschluss und Budget belastbar prüfen.</span></h1>
+        <h1>Sauna planen{" "}<span>Raum, Anschluss und Budget belastbar prüfen.</span></h1>
         <p>Die Themen sind nach Standort, Aufbau, Technik und Budget geordnet. Jeder Ratgeber beantwortet eine eigene Planungsfrage mit Herstellerunterlagen und nachvollziehbaren Grenzen.</p>
         <nav className="planning-phase-nav" aria-label="Planungsphasen">
           {planningGroups.map((group) => <Link href={`#${group.id}`} key={group.id}>{group.number} {group.eyebrow}</Link>)}

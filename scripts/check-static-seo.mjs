@@ -95,6 +95,7 @@ for (const { file, route } of publicPages) {
   const robots = html.match(/<meta name="robots" content="([^"]*)"/)?.[1] ?? "";
   const googleBot = html.match(/<meta name="googlebot" content="([^"]*)"/)?.[1] ?? "";
   const h1Count = (html.match(/<h1(?:\s[^>]*)?>/g) ?? []).length;
+  const h1Markup = html.match(/<h1(?:\s[^>]*)?>(.*?)<\/h1>/s)?.[1] ?? "";
   const pageText = plainText(html);
 
   if (!title) issues.push(`${route}: missing title`);
@@ -107,6 +108,9 @@ for (const { file, route } of publicPages) {
   if (twitterCard !== "summary_large_image") issues.push(`${route}: expected twitter:card summary_large_image`);
   if (!twitterImage) issues.push(`${route}: missing twitter:image`);
   if (h1Count !== 1) issues.push(`${route}: expected one h1, found ${h1Count}`);
+  if (/[A-Za-zÀ-ÖØ-öø-ÿ0-9.!?](?:<!-- -->)?<span[^>]*>[A-Za-zÀ-ÖØ-öø-ÿ0-9]/.test(h1Markup)) {
+    issues.push(`${route}: h1 text is concatenated across a span boundary without whitespace`);
+  }
   for (const { pattern, label } of editorialStylePatterns) {
     if (pattern.test(pageText)) issues.push(`${route}: contains ${label}`);
   }

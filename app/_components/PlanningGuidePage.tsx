@@ -67,7 +67,7 @@ function PlanningHero({ guide, presentation, productHref, productLabel }: {
       </nav>
       <div className="guide-hero-copy">
         <p className="eyebrow">{guide.eyebrow}</p>
-        <h1>{guide.title}<span>{guide.accent}</span></h1>
+        <h1>{guide.title}{" "}<span>{guide.accent}</span></h1>
         <p>{guide.description}</p>
       </div>
       <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.summary}</p></div>

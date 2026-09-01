@@ -29,7 +29,7 @@ export default function ComparisonPage() {
             <Link href="/de/">Start</Link><span>/</span><Link href="/de/produkte/">Produkte</Link><span>/</span><span>230-V-Sauna</span>
           </nav>
           <p className="eyebrow">Datenvergleich · 230-V-Produkte</p>
-          <h1>230-V-Saunen vergleichen.<span>Nach Maß, Leistung und Preis.</span></h1>
+          <h1>230-V-Saunen vergleichen.{" "}<span>Nach Maß, Leistung und Preis.</span></h1>
           <p>Diese Seite vergleicht belegte Herstellerangaben zu Anschluss, Leistung, Abmessungen und Preisstand. Eigene Nutzung und Montage liegen nicht vor.</p>
           <div className="guide-path-links" aria-label="Vergleich vorbereiten"><Link className="button button-primary" href="/de/saunatechnik/230-v-sauna/">230 V verstehen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf prüfen ↗</Link></div>
         </header>

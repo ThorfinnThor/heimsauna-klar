@@ -87,7 +87,7 @@ function CollectionHero({ collection, candidates, minimumFootprint, lowestPrice,
       </nav>
       <div className="collection-hero-copy">
         <p className="eyebrow">{collection.eyebrow}</p>
-        <h1>{collection.title}<span>{collection.accent}</span></h1>
+        <h1>{collection.title}{" "}<span>{collection.accent}</span></h1>
         <p>{collection.intro}</p>
       </div>
       <div className="collection-metrics" aria-label="Kennzahlen der Auswahl">
