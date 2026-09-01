@@ -93,6 +93,16 @@ const discoveryReport = {
   generated_at: generatedAt,
   source: "Awin authenticated product feed list",
   secret_included: false,
+  eligible_feeds: eligibleFeeds.map((feed) => ({
+    advertiserId: feed.advertiserId,
+    advertiserName: feed.advertiserName,
+    membershipStatus: feed.membershipStatus,
+    feedId: feed.feedId,
+    feedName: feed.feedName,
+    language: feed.language,
+    lastUpdated: feed.lastUpdated,
+    productCount: feed.productCount,
+  })),
   advertisers: discoverTargets(eligibleFeeds),
 };
 const syncReport = {
