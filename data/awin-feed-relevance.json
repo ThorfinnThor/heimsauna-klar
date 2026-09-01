@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T15:48:24.080Z",
+  "generated_at": "2026-09-01T19:46:54.776Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Relevance signals only; a small sanitized candidate sample is included; no product records or affiliate links activated",
@@ -42,7 +42,7 @@
       "feedId": "34321",
       "feedName": "Awin-DE",
       "language": "German",
-      "rowsScanned": 1313,
+      "rowsScanned": 1315,
       "signalRows": 33,
       "counts": {
         "sauna": 0,
@@ -108,7 +108,7 @@
           "url": "https://de.trotec.com/shop/infrarot-heizstrahler-ir-1200-s.html",
           "brand": "Trotec",
           "category": "Radiators",
-          "price": "22.99"
+          "price": "24.99"
         },
         {
           "name": "Infrarot-Thermometer / Pyrometer TP10 Multipunkt Laser",
@@ -154,12 +154,12 @@
       "feedId": "43829",
       "feedName": "BENZ24 Deutschland",
       "language": "German",
-      "rowsScanned": 92061,
-      "signalRows": 1227,
+      "rowsScanned": 92070,
+      "signalRows": 1231,
       "counts": {
-        "sauna": 1087,
+        "sauna": 1091,
         "infrared": 151,
-        "outdoor": 92,
+        "outdoor": 96,
         "accessory": 106
       },
       "sampleProductNames": [
@@ -266,7 +266,7 @@
       "feedId": "54737",
       "feedName": "BENZ24 Österreich",
       "language": "German",
-      "rowsScanned": 74852,
+      "rowsScanned": 74851,
       "signalRows": 257,
       "counts": {
         "sauna": 210,
@@ -417,12 +417,100 @@
       "status": "audited"
     },
     {
+      "advertiserId": "25645",
+      "advertiserName": "Saunaloft DE",
+      "feedId": "83153",
+      "feedName": "awinfeed.csv",
+      "language": "German",
+      "rowsScanned": 4033,
+      "signalRows": 4033,
+      "counts": {
+        "sauna": 4033,
+        "infrared": 2590,
+        "outdoor": 51,
+        "accessory": 3627
+      },
+      "sampleProductNames": [
+        "Premium-Massivholzsauna Tyla Maßanfertigung",
+        "Saunakabine Anna im Sonderbau",
+        "Luxus Massivholzsauna Star Maßanfertigung",
+        "Outdoor Whirlpool Spa TINO Pro in weiß / silber marmoriert",
+        "Luxus Saunakabine Lena 5-Eck mit Eckeinstieg nach Maß",
+        "Exklusive Saunakabine Nordic Chic nach Maß",
+        "Luxus Sauna Scandi nach Maß",
+        "Design Sauna Isa Espe Plus im Sonderbau"
+      ],
+      "sampleProducts": [
+        {
+          "name": "Premium-Massivholzsauna Tyla Maßanfertigung",
+          "url": "https://shop-saunaloft.de/premium-massivholzsauna-tyla-massanfertigung/sw10348.52",
+          "price": "3199.00"
+        },
+        {
+          "name": "Saunakabine Anna im Sonderbau",
+          "url": "https://shop-saunaloft.de/saunakabine-anna-im-sonderbau/sw10093.116",
+          "price": "6329.00"
+        },
+        {
+          "name": "Luxus Massivholzsauna Star Maßanfertigung",
+          "url": "https://shop-saunaloft.de/luxus-massivholzsauna-star-massanfertigung/sw10079.50",
+          "price": "5239.00"
+        },
+        {
+          "name": "Luxus Saunakabine Lena 5-Eck mit Eckeinstieg nach Maß",
+          "url": "https://shop-saunaloft.de/luxus-saunakabine-lena-5-eck-mit-eckeinstieg-nach-mass/sw10091.254",
+          "price": "7179.00"
+        },
+        {
+          "name": "Exklusive Saunakabine Nordic Chic nach Maß",
+          "url": "https://shop-saunaloft.de/exklusive-saunakabine-nordic-chic-nach-mass/sw10275.19",
+          "price": "19535.00"
+        },
+        {
+          "name": "Saunakabine Anna im Sonderbau",
+          "url": "https://shop-saunaloft.de/saunakabine-anna-im-sonderbau/sw10093.29",
+          "price": "6629.00"
+        },
+        {
+          "name": "Luxus Sauna Scandi nach Maß",
+          "url": "https://shop-saunaloft.de/luxus-sauna-scandi-nach-mass/sw10056.61",
+          "price": "8099.00"
+        },
+        {
+          "name": "Design Sauna Isa Espe Plus im Sonderbau",
+          "url": "https://shop-saunaloft.de/design-sauna-isa-espe-plus-im-sonderbau/sw10197.28",
+          "price": "10569.00"
+        },
+        {
+          "name": "Luxus Massivholzsauna Star 5-Eck mit Glasfront nach Maß",
+          "url": "https://shop-saunaloft.de/luxus-massivholzsauna-star-5-eck-mit-glasfront-nach-mass/sw10087.65",
+          "price": "6425.00"
+        },
+        {
+          "name": "Design Sauna Isa Espe Plus im Sonderbau",
+          "url": "https://shop-saunaloft.de/design-sauna-isa-espe-plus-im-sonderbau/sw10197.170",
+          "price": "11769.00"
+        },
+        {
+          "name": "Luxus Saunakabine Lena 5-Eck mit Eckeinstieg nach Maß",
+          "url": "https://shop-saunaloft.de/luxus-saunakabine-lena-5-eck-mit-eckeinstieg-nach-mass/sw10091.74",
+          "price": "5679.00"
+        },
+        {
+          "name": "Design Sauna Nature nach Maß",
+          "url": "https://shop-saunaloft.de/design-sauna-nature-nach-mass/sw10047.123",
+          "price": "15649.00"
+        }
+      ],
+      "status": "audited"
+    },
+    {
       "advertiserId": "30763",
       "advertiserName": "Ecovacs DE",
       "feedId": "98163",
       "feedName": "Ecovacs DE Product Feed",
       "language": "German",
-      "rowsScanned": 14,
+      "rowsScanned": 18,
       "signalRows": 0,
       "counts": {
         "sauna": 0,
@@ -552,7 +640,7 @@
       "feedId": "87312",
       "feedName": "Idealo Daten Feed",
       "language": "German",
-      "rowsScanned": 3295,
+      "rowsScanned": 3351,
       "signalRows": 27,
       "counts": {
         "sauna": 27,
@@ -579,7 +667,7 @@
       "feedId": "99428",
       "feedName": "Produkte DE",
       "language": "German",
-      "rowsScanned": 1386,
+      "rowsScanned": 1396,
       "signalRows": 0,
       "counts": {
         "sauna": 0,
@@ -615,7 +703,7 @@
       "feedId": "115897",
       "feedName": "Default",
       "language": "German",
-      "rowsScanned": 412,
+      "rowsScanned": 415,
       "signalRows": 0,
       "counts": {
         "sauna": 0,
@@ -628,18 +716,118 @@
       "status": "audited"
     },
     {
+      "advertiserId": "76696",
+      "advertiserName": "Gartenhausfabrik DE",
+      "feedId": "92070",
+      "feedName": "Default",
+      "language": "German",
+      "rowsScanned": 10424,
+      "signalRows": 1134,
+      "counts": {
+        "sauna": 1134,
+        "infrared": 5,
+        "outdoor": 616,
+        "accessory": 161
+      },
+      "sampleProductNames": [
+        "Premium LED Sauna Farblichtanwendung ColorRelax",
+        "Fjordholz Saunahaus Modell Arcos M",
+        "Fjordholz Saunahaus Modell Arcos S",
+        "Fjordholz Fass-Sauna Jonte-Copy",
+        "Fjordholz Saunahaus Modell Luua Premium",
+        "Fjordholz Mini Fass-Sauna Modell Cubus-1",
+        "Fjordholz Fass-Kombisauna Modell Luxe Micro Kombi",
+        "Fjordholz Fass-Sauna Modell Cubus-2 Black Edition"
+      ],
+      "sampleProducts": [
+        {
+          "name": "Premium LED Sauna Farblichtanwendung ColorRelax",
+          "url": "https://www.gartenhausfabrik.de/Premium-LED-Sauna-Farblichtanwendung",
+          "brand": "Gartenhausfabrik",
+          "price": "199"
+        },
+        {
+          "name": "Fjordholz Saunahaus Modell Arcos M",
+          "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-M",
+          "brand": "Fjordholz",
+          "price": "6009"
+        },
+        {
+          "name": "Fjordholz Saunahaus Modell Arcos S",
+          "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-S",
+          "brand": "Fjordholz",
+          "price": "7099"
+        },
+        {
+          "name": "Fjordholz Fass-Sauna Jonte-Copy",
+          "url": "https://www.gartenhausfabrik.de/Fjordholz-Fass-Sauna-Jonte-Copy",
+          "brand": "Sauna4Home B1",
+          "price": "4179"
+        },
+        {
+          "name": "Fjordholz Saunahaus Modell Luua Premium",
+          "url": "https://www.gartenhausfabrik.de/Saunahaus-Modell-Luua-Premium",
+          "brand": "Fjordholz G1",
+          "price": "6839"
+        },
+        {
+          "name": "Fjordholz Mini Fass-Sauna Modell Cubus-1",
+          "url": "https://www.gartenhausfabrik.de/Fjordholz-Mini-Fass-Sauna-Modell-Cubus-1",
+          "brand": "Fjordholz",
+          "price": "1529"
+        },
+        {
+          "name": "Fjordholz Fass-Kombisauna Modell Luxe Micro Kombi",
+          "url": "https://www.gartenhausfabrik.de/Fass-Kombisauna-Modell-Luxe-Micro-Kombi",
+          "brand": "Sauna4Home L2",
+          "price": "3869"
+        },
+        {
+          "name": "Fjordholz Fass-Sauna Modell Cubus-2 Black Edition",
+          "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-2-Black-Edition",
+          "brand": "Fjordholz",
+          "price": "3709"
+        },
+        {
+          "name": "Fjordholz Fass-Sauna Modell Cubus-2",
+          "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-2",
+          "brand": "Fjordholz",
+          "price": "3169"
+        },
+        {
+          "name": "Fjordholz Fass-Sauna Modell Cubus-3 Black Edition",
+          "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-3-Black-Edition",
+          "brand": "Fjordholz",
+          "price": "6369"
+        },
+        {
+          "name": "Fjordholz Fass-Sauna Modell Cubus-3",
+          "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-3",
+          "brand": "Fjordholz",
+          "price": "4879"
+        },
+        {
+          "name": "Sauna Bodenmatte 50 x 80 cm weiß",
+          "url": "https://www.gartenhausfabrik.de/Sauna-Bodenmatte-50-80-cm-weiss",
+          "brand": "Gartenhausfabrik",
+          "price": "39"
+        }
+      ],
+      "status": "audited"
+    },
+    {
       "advertiserId": "106021",
       "advertiserName": "Artsauna DE",
       "feedId": "97646",
       "feedName": "Default",
       "language": "German",
-      "rowsScanned": 55,
-      "signalRows": 55,
+      "rowsScanned": 50,
+      "signalRows": 50,
       "counts": {
-        "sauna": 55,
+        "sauna": 50,
         "infrared": 30,
-        "outdoor": 12,
-        "accessory": 20
+        "outdoor": 9,
+        "accessory": 14
       },
       "sampleProductNames": [
         "Infrarotkabine Helsinki 150",
@@ -742,7 +930,7 @@
       "feedId": "116646",
       "feedName": "Channable_DE",
       "language": "German",
-      "rowsScanned": 788,
+      "rowsScanned": 724,
       "signalRows": 0,
       "counts": {
         "sauna": 0,
