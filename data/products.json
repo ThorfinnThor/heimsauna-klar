@@ -36659,8 +36659,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 224, "depth": 222, "height": 224 },
-    "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 224,
+      "depth": 222,
+      "height": 224
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -36679,30 +36688,52 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 4739,
-        "availability": "feed-listed",
-        "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-M",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 4739,
+          "availability": "feed-listed",
+          "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-M",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=45567517533&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["4,08 m² Außenfläche mit zwei dokumentierten Saunabankebenen", "100 mm Wandstärke laut Produktseite", "Ganzglastür und mehrere Fenster sind ausgewiesen"],
-      "cons": ["Ofen und Anschluss sind nicht Teil einer eindeutig beschriebenen Basiskonfiguration", "Die Außenmaße enthalten noch keinen zusätzlichen Montage- oder Türbereich", "Die Produktseite nennt keine maximale Temperatur"],
-      "ideal_for": ["Gärten mit Platz für ein kompaktes Saunahaus", "Haushalte mit drei bis vier Nutzern", "Planungen, bei denen Tageslicht durch Fenster gewünscht ist"],
-      "not_for": ["Innenaufstellung", "Standorte ohne tragfähige, vorbereitete Fläche", "Käufer, die ein steckerfertiges Komplettset erwarten"],
+      "pros": [
+        "4,08 m² Außenfläche mit zwei dokumentierten Saunabankebenen",
+        "100 mm Wandstärke laut Produktseite",
+        "Ganzglastür und mehrere Fenster sind ausgewiesen"
+      ],
+      "cons": [
+        "Ofen und Anschluss sind nicht Teil einer eindeutig beschriebenen Basiskonfiguration",
+        "Die Außenmaße enthalten noch keinen zusätzlichen Montage- oder Türbereich",
+        "Die Produktseite nennt keine maximale Temperatur"
+      ],
+      "ideal_for": [
+        "Gärten mit Platz für ein kompaktes Saunahaus",
+        "Haushalte mit drei bis vier Nutzern",
+        "Planungen, bei denen Tageslicht durch Fenster gewünscht ist"
+      ],
+      "not_for": [
+        "Innenaufstellung",
+        "Standorte ohne tragfähige, vorbereitete Fläche",
+        "Käufer, die ein steckerfertiges Komplettset erwarten"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "GartenHausfabrik Produktseite Fjordholz Saunahaus Modell Arcos M",
-      "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-M",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Saunahaus Modell Arcos M",
+        "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-M",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   },
   {
@@ -36712,8 +36743,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 210, "depth": 180, "height": 224 },
-    "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 210,
+      "depth": 180,
+      "height": 224
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -36732,30 +36772,52 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 5439,
-        "availability": "feed-listed",
-        "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-S",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 5439,
+          "availability": "feed-listed",
+          "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-S",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=45567517536&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["3,01 m² Außenfläche bei 210 × 180 cm Wandaußenmaß", "100 mm Wandstärke und 180-cm-Bänke sind dokumentiert", "Zwei Fenster und eine Ganzglastür bringen Licht in den Raum"],
-      "cons": ["Für den Ofen gibt es auf der Produktseite keine feste Setangabe", "Die Kapazitätsangabe von drei bis vier Personen ersetzt keine individuelle Sitzplanung", "Montage- und Fundamentfläche kommen zu den Wandaußenmaßen hinzu"],
-      "ideal_for": ["Kleinere Gärten mit Bedarf an einem separaten Saunaraum", "Drei bis vier Personen mit überwiegend sitzender Nutzung", "Projekte, die eine schwarze Außenoptik mit Naturholz kombinieren"],
-      "not_for": ["Räume im Haus", "Aufstellorte ohne ausreichende Zufahrt und Fundamentplanung", "Nutzer mit festem Wunsch nach einem enthaltenen Elektro-Ofen"],
+      "pros": [
+        "3,01 m² Außenfläche bei 210 × 180 cm Wandaußenmaß",
+        "100 mm Wandstärke und 180-cm-Bänke sind dokumentiert",
+        "Zwei Fenster und eine Ganzglastür bringen Licht in den Raum"
+      ],
+      "cons": [
+        "Für den Ofen gibt es auf der Produktseite keine feste Setangabe",
+        "Die Kapazitätsangabe von drei bis vier Personen ersetzt keine individuelle Sitzplanung",
+        "Montage- und Fundamentfläche kommen zu den Wandaußenmaßen hinzu"
+      ],
+      "ideal_for": [
+        "Kleinere Gärten mit Bedarf an einem separaten Saunaraum",
+        "Drei bis vier Personen mit überwiegend sitzender Nutzung",
+        "Projekte, die eine schwarze Außenoptik mit Naturholz kombinieren"
+      ],
+      "not_for": [
+        "Räume im Haus",
+        "Aufstellorte ohne ausreichende Zufahrt und Fundamentplanung",
+        "Nutzer mit festem Wunsch nach einem enthaltenen Elektro-Ofen"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "GartenHausfabrik Produktseite Fjordholz Saunahaus Modell Arcos S",
-      "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-S",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Saunahaus Modell Arcos S",
+        "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-S",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   },
   {
@@ -36765,8 +36827,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 119.5, "depth": 120, "height": 194 },
-    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
+    "dimensions_cm": {
+      "width": 119.5,
+      "depth": 120,
+      "height": 194
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 1
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -36785,30 +36856,52 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 1559,
-        "availability": "feed-listed",
-        "url": "https://www.gartenhausfabrik.de/Fjordholz-Mini-Fass-Sauna-Modell-Cubus-1",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 1559,
+          "availability": "feed-listed",
+          "url": "https://www.gartenhausfabrik.de/Fjordholz-Mini-Fass-Sauna-Modell-Cubus-1",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=44145960530&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["Sehr kleine Stellfläche von rund 1,43 m²", "1,195 m Außendurchmesser und 194 cm Höhe sind klar angegeben", "Für ein bis zwei Personen ausgelegt"],
-      "cons": ["Nur ein Liegeplatz ist ausgewiesen", "Der Innenraum bleibt mit 111,5 × 99,4 cm knapp", "Ofen, Leistung und Anschluss sind nicht Teil der dokumentierten Basisausstattung"],
-      "ideal_for": ["Kleine Gärten mit begrenzter Stellfläche", "Ein bis zwei Personen", "Nutzung mit überwiegend sitzendem Saunagang"],
-      "not_for": ["Mehrere gleichzeitige Liegeplätze", "Innenräume", "Standorte ohne wettergeschützte und ebene Aufstellfläche"],
+      "pros": [
+        "Sehr kleine Stellfläche von rund 1,43 m²",
+        "1,195 m Außendurchmesser und 194 cm Höhe sind klar angegeben",
+        "Für ein bis zwei Personen ausgelegt"
+      ],
+      "cons": [
+        "Nur ein Liegeplatz ist ausgewiesen",
+        "Der Innenraum bleibt mit 111,5 × 99,4 cm knapp",
+        "Ofen, Leistung und Anschluss sind nicht Teil der dokumentierten Basisausstattung"
+      ],
+      "ideal_for": [
+        "Kleine Gärten mit begrenzter Stellfläche",
+        "Ein bis zwei Personen",
+        "Nutzung mit überwiegend sitzendem Saunagang"
+      ],
+      "not_for": [
+        "Mehrere gleichzeitige Liegeplätze",
+        "Innenräume",
+        "Standorte ohne wettergeschützte und ebene Aufstellfläche"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "GartenHausfabrik Produktseite Fjordholz Mini-Fass-Sauna Modell Cubus-1",
-      "url": "https://www.gartenhausfabrik.de/Fjordholz-Mini-Fass-Sauna-Modell-Cubus-1",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Mini-Fass-Sauna Modell Cubus-1",
+        "url": "https://www.gartenhausfabrik.de/Fjordholz-Mini-Fass-Sauna-Modell-Cubus-1",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   },
   {
@@ -36818,8 +36911,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 144, "depth": 128.8, "height": 215.5 },
-    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
+    "dimensions_cm": {
+      "width": 144,
+      "depth": 128.8,
+      "height": 215.5
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 1
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -36838,30 +36940,52 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 3949,
-        "availability": "feed-listed",
-        "url": "https://www.gartenhausfabrik.de/Fass-Kombisauna-Modell-Luxe-Micro-Kombi",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 3949,
+          "availability": "feed-listed",
+          "url": "https://www.gartenhausfabrik.de/Fass-Kombisauna-Modell-Luxe-Micro-Kombi",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=43382646690&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["Kompakte 144 × 128,8 cm Wandaußenmaße", "215,5 cm Gesamthöhe und eine Ganzglastür sind dokumentiert", "Kombination aus Fassform und separater Planung der Heiztechnik"],
-      "cons": ["Der Innenraum ist mit 135 × 105 cm sehr kompakt", "Ein Liegeplatz und maximal zwei Personen sind der sichere Planungsrahmen", "Die konkrete Kombi-Technik ist auf der Produktseite nicht als vollständiges Ofenset ausgewiesen"],
-      "ideal_for": ["Kleine Gärten mit wenig Tiefe", "Ein bis zwei Personen", "Projekte, bei denen eine kompakte Fassform wichtiger ist als viel Innenfläche"],
-      "not_for": ["Familiennutzung mit mehreren Liegeplätzen", "Aufstellorte mit weniger als 216 cm lichter Höhe", "Käufer, die ein komplett vorkonfiguriertes Heizsystem erwarten"],
+      "pros": [
+        "Kompakte 144 × 128,8 cm Wandaußenmaße",
+        "215,5 cm Gesamthöhe und eine Ganzglastür sind dokumentiert",
+        "Kombination aus Fassform und separater Planung der Heiztechnik"
+      ],
+      "cons": [
+        "Der Innenraum ist mit 135 × 105 cm sehr kompakt",
+        "Ein Liegeplatz und maximal zwei Personen sind der sichere Planungsrahmen",
+        "Die konkrete Kombi-Technik ist auf der Produktseite nicht als vollständiges Ofenset ausgewiesen"
+      ],
+      "ideal_for": [
+        "Kleine Gärten mit wenig Tiefe",
+        "Ein bis zwei Personen",
+        "Projekte, bei denen eine kompakte Fassform wichtiger ist als viel Innenfläche"
+      ],
+      "not_for": [
+        "Familiennutzung mit mehreren Liegeplätzen",
+        "Aufstellorte mit weniger als 216 cm lichter Höhe",
+        "Käufer, die ein komplett vorkonfiguriertes Heizsystem erwarten"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "GartenHausfabrik Produktseite Fjordholz Fass-Kombisauna Modell Luxe Micro Kombi",
-      "url": "https://www.gartenhausfabrik.de/Fass-Kombisauna-Modell-Luxe-Micro-Kombi",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Fass-Kombisauna Modell Luxe Micro Kombi",
+        "url": "https://www.gartenhausfabrik.de/Fass-Kombisauna-Modell-Luxe-Micro-Kombi",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   },
   {
@@ -36871,8 +36995,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 210, "depth": 114, "height": 214.5 },
-    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 1 },
+    "dimensions_cm": {
+      "width": 210,
+      "depth": 114,
+      "height": 214.5
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 1
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -36891,30 +37024,52 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 3239,
-        "availability": "feed-listed",
-        "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-2",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 3239,
+          "availability": "feed-listed",
+          "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-2",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=43317742918&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["210 × 114 cm Wandaußenmaß passt in viele schmale Gärten", "Zwei Bankebenen und eine Ganzglastür sind dokumentiert", "Die 214,5 cm Gesamthöhe erleichtert die Höhenplanung"],
-      "cons": ["Nur ein Liegeplatz ist ausgewiesen", "Die Produktseite macht keine verbindliche Aussage zu Ofenleistung oder Netzspannung", "Dachüberstände und Fundament müssen zusätzlich berücksichtigt werden"],
-      "ideal_for": ["Schmale Grundstücke", "Ein bis zwei Personen", "Gärten, in denen eine längliche Fassform gut zugänglich ist"],
-      "not_for": ["Vier-Personen-Nutzung", "Innenaufstellung", "Planungen ohne separate Technik- und Fundamentprüfung"],
+      "pros": [
+        "210 × 114 cm Wandaußenmaß passt in viele schmale Gärten",
+        "Zwei Bankebenen und eine Ganzglastür sind dokumentiert",
+        "Die 214,5 cm Gesamthöhe erleichtert die Höhenplanung"
+      ],
+      "cons": [
+        "Nur ein Liegeplatz ist ausgewiesen",
+        "Die Produktseite macht keine verbindliche Aussage zu Ofenleistung oder Netzspannung",
+        "Dachüberstände und Fundament müssen zusätzlich berücksichtigt werden"
+      ],
+      "ideal_for": [
+        "Schmale Grundstücke",
+        "Ein bis zwei Personen",
+        "Gärten, in denen eine längliche Fassform gut zugänglich ist"
+      ],
+      "not_for": [
+        "Vier-Personen-Nutzung",
+        "Innenaufstellung",
+        "Planungen ohne separate Technik- und Fundamentprüfung"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "GartenHausfabrik Produktseite Fjordholz Fass-Sauna Modell Cubus-2",
-      "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-2",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Fass-Sauna Modell Cubus-2",
+        "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-2",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   },
   {
@@ -36924,8 +37079,17 @@
     "family": null,
     "category": "outdoor",
     "status": "verified",
-    "dimensions_cm": { "width": 240, "depth": 220, "height": 226 },
-    "people": { "min": 1, "max": 4, "seats": 4, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 240,
+      "depth": 220,
+      "height": 226
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -36944,30 +37108,52 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "GartenHausfabrik",
-        "price": 4979,
-        "availability": "feed-listed",
-        "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-3",
-        "affiliate": false,
-        "last_checked": "2026-09-01"
-      }]
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 4979,
+          "availability": "feed-listed",
+          "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-3",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=42907651425&a=3037577&m=76696",
+          "affiliate_program_id": "awin-gartenhausfabrik"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["2,40 × 2,20 m Wandaußenmaß mit bis zu vier Personen Kapazität", "Zwei Bankbreiten und eine 69-cm-Ganzglastür sind ausgewiesen", "226 cm Höhe bietet mehr Kopffreiheit als kompakte Fassmodelle"],
-      "cons": ["Die Stellfläche ist deutlich größer als beim Cubus-2", "Ofen und elektrische Versorgung gehören nicht eindeutig zur Basisausstattung", "Die Fassform verlangt eine sorgfältige Fundament- und Abstandsplanung"],
-      "ideal_for": ["Familien oder Freundeskreise bis vier Personen", "Gärten mit ausreichend Tiefe und Breite", "Nutzer, die zwei Liegeplätze und mehrere Bankebenen einplanen"],
-      "not_for": ["Sehr kleine Terrassen oder schmale Innenhöfe", "Innenräume", "Käufer, die ohne weitere Auswahl ein Komplettset anschließen möchten"],
+      "pros": [
+        "2,40 × 2,20 m Wandaußenmaß mit bis zu vier Personen Kapazität",
+        "Zwei Bankbreiten und eine 69-cm-Ganzglastür sind ausgewiesen",
+        "226 cm Höhe bietet mehr Kopffreiheit als kompakte Fassmodelle"
+      ],
+      "cons": [
+        "Die Stellfläche ist deutlich größer als beim Cubus-2",
+        "Ofen und elektrische Versorgung gehören nicht eindeutig zur Basisausstattung",
+        "Die Fassform verlangt eine sorgfältige Fundament- und Abstandsplanung"
+      ],
+      "ideal_for": [
+        "Familien oder Freundeskreise bis vier Personen",
+        "Gärten mit ausreichend Tiefe und Breite",
+        "Nutzer, die zwei Liegeplätze und mehrere Bankebenen einplanen"
+      ],
+      "not_for": [
+        "Sehr kleine Terrassen oder schmale Innenhöfe",
+        "Innenräume",
+        "Käufer, die ohne weitere Auswahl ein Komplettset anschließen möchten"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der GartenHausfabrik-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "GartenHausfabrik Produktseite Fjordholz Fass-Sauna Modell Cubus-3",
-      "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-3",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "GartenHausfabrik Produktseite Fjordholz Fass-Sauna Modell Cubus-3",
+        "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-3",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   },
   {
@@ -36977,8 +37163,17 @@
     "family": null,
     "category": "indoor",
     "status": "verified",
-    "dimensions_cm": { "width": 144.5, "depth": 130, "height": 205 },
-    "people": { "min": 1, "max": 2, "seats": 2, "lying_places": 2 },
+    "dimensions_cm": {
+      "width": 144.5,
+      "depth": 130,
+      "height": 205
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 2
+    },
     "power": {
       "voltage": "none",
       "kw": null,
@@ -36997,32 +37192,54 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "current",
-      "offers": [{
-        "merchant": "Saunaloft",
-        "price": 3199,
-        "availability": "feed-listed",
-        "url": "https://shop-saunaloft.de/premium-massivholzsauna-tyla-massanfertigung/sw10348.52",
-        "affiliate": false,
-        "last_checked": "2026-09-01",
-        "configuration": "144,5 × 130 cm · ohne Ofen",
-        "selection_required": true
-      }]
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 3199,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/premium-massivholzsauna-tyla-massanfertigung/sw10348.52",
+          "affiliate": true,
+          "last_checked": "2026-09-01",
+          "configuration": "144,5 × 130 cm · ohne Ofen",
+          "selection_required": true,
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=36503508593&a=3037577&m=25645",
+          "affiliate_program_id": "awin-saunaloft"
+        }
+      ]
     },
     "editorial": {
-      "pros": ["Konkrete kleine Konfiguration mit 144,5 × 130 cm Grundmaß", "45 mm nordische Fichte und 8 mm ESG-Sicherheitsglas sind beschrieben", "Zwei Espe-Liegen und ein wählbarer Türanschlag gehören zur Produktbeschreibung"],
-      "cons": ["Der Ofen ist nicht im genannten Preis enthalten", "Die kleinste Konfiguration bietet nur zwei Plätze", "Die Netzspannung und die endgültige Ofenauswahl müssen vor der Bestellung geklärt werden"],
-      "ideal_for": ["Kleine Innenräume mit rund 1,88 m² Grundfläche", "Ein bis zwei Personen", "Projekte mit individuell wählbarer Breite und Tiefe"],
-      "not_for": ["Unbeheizte oder schlecht belüftete Räume", "Nutzer, die ein steckerfertiges Set erwarten", "Käufer, die ohne Maßauswahl eine Standardkabine suchen"],
+      "pros": [
+        "Konkrete kleine Konfiguration mit 144,5 × 130 cm Grundmaß",
+        "45 mm nordische Fichte und 8 mm ESG-Sicherheitsglas sind beschrieben",
+        "Zwei Espe-Liegen und ein wählbarer Türanschlag gehören zur Produktbeschreibung"
+      ],
+      "cons": [
+        "Der Ofen ist nicht im genannten Preis enthalten",
+        "Die kleinste Konfiguration bietet nur zwei Plätze",
+        "Die Netzspannung und die endgültige Ofenauswahl müssen vor der Bestellung geklärt werden"
+      ],
+      "ideal_for": [
+        "Kleine Innenräume mit rund 1,88 m² Grundfläche",
+        "Ein bis zwei Personen",
+        "Projekte mit individuell wählbarer Breite und Tiefe"
+      ],
+      "not_for": [
+        "Unbeheizte oder schlecht belüftete Räume",
+        "Nutzer, die ein steckerfertiges Set erwarten",
+        "Käufer, die ohne Maßauswahl eine Standardkabine suchen"
+      ],
       "test_status": "not_tested",
       "editorial_score": null,
       "disclosure": "Einordnung auf Basis der Saunaloft-Produktseite und des Awin-Feeds; keine eigene Nutzung oder Montage. Der ausgewiesene Preis bezieht sich auf die dokumentierte Konfiguration ohne Ofen."
     },
-    "sources": [{
-      "type": "manufacturer",
-      "title": "Saunaloft Produktseite Premium-Massivholzsauna Tyla Maßanfertigung",
-      "url": "https://shop-saunaloft.de/premium-massivholzsauna-tyla-massanfertigung/sw10348.52",
-      "checked_at": "2026-09-01"
-    }],
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Saunaloft Produktseite Premium-Massivholzsauna Tyla Maßanfertigung",
+        "url": "https://shop-saunaloft.de/premium-massivholzsauna-tyla-massanfertigung/sw10348.52",
+        "checked_at": "2026-09-01"
+      }
+    ],
     "updated_at": "2026-09-01"
   }
 ]

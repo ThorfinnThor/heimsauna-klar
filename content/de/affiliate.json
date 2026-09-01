@@ -2,7 +2,7 @@
   "updated_at": "2026-09-01",
   "current_status": "active",
   "title": "Affiliate-Transparenz",
-  "accent": "63 Affiliate-Links sind aktiv.",
+  "accent": "70 Affiliate-Links sind aktiv.",
   "description": "Vergütete Awin-Links werden nur für exakt zugeordnete Händlerangebote eingesetzt. Herstellerquellen, Produktauswahl und Sortierung bleiben davon unabhängig.",
   "principles": [
     {
@@ -219,7 +219,9 @@
       "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
       "cookie_days": null,
       "direct_linking": true,
-      "tracking_hosts": [],
+      "tracking_hosts": [
+        "awin1.com"
+      ],
       "advertiser_merchant_ids": [
         "saunaloft"
       ],
@@ -236,7 +238,9 @@
       "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
       "cookie_days": null,
       "direct_linking": true,
-      "tracking_hosts": [],
+      "tracking_hosts": [
+        "awin1.com"
+      ],
       "advertiser_merchant_ids": [
         "gartenhausfabrik"
       ],

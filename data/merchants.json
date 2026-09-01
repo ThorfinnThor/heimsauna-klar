@@ -225,8 +225,8 @@
       "shop-saunaloft.de"
     ],
     "affiliate": {
-      "status": "inactive",
-      "program_id": null
+      "status": "active",
+      "program_id": "awin-saunaloft"
     },
     "candidate_program_ids": [
       "awin-saunaloft"
@@ -240,8 +240,8 @@
       "gartenhausfabrik.de"
     ],
     "affiliate": {
-      "status": "inactive",
-      "program_id": null
+      "status": "active",
+      "program_id": "awin-gartenhausfabrik"
     },
     "candidate_program_ids": [
       "awin-gartenhausfabrik"

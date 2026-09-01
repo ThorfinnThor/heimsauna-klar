@@ -39,7 +39,7 @@
       "title": "Affiliate-Schutzregeln",
       "status": "ready",
       "required_for_indexing": true,
-      "detail": "63 exakt zugeordnete Awin-Links sind aktiv; nicht freigegebene Programme und nicht passende Feed-Zeilen bleiben gesperrt."
+      "detail": "70 exakt zugeordnete Awin-Links sind aktiv; nicht freigegebene Programme und nicht passende Feed-Zeilen bleiben gesperrt."
     },
     {
       "id": "operator_identity",
@@ -74,7 +74,7 @@
       "title": "Partnerprogramm-Freigabe",
       "status": "ready",
       "required_for_indexing": false,
-      "detail": "Artsauna, Benz24, GartenHausfabrik, Home Deluxe, InterGard und Saunaloft sind bei Awin freigegeben; 63 exakt zugeordnete Produktlinks sind aktiv."
+      "detail": "Artsauna, Benz24, GartenHausfabrik, Home Deluxe, InterGard und Saunaloft sind bei Awin freigegeben; 70 exakt zugeordnete Produktlinks sind aktiv."
     }
   ]
 }
