@@ -1,0 +1,1766 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-01T20:33:26.925Z",
+  "source": "Awin authenticated Saunaloft DE product feed",
+  "secret_included": false,
+  "selection_policy": "Sauna-relevante Einzel-URLs ohne Zubehör; Variantenhinweise werden markiert und nicht automatisch in data/products.json übernommen.",
+  "advertiser_id": "25645",
+  "advertiser_name": "Saunaloft DE",
+  "feed_id": "83153",
+  "feed_name": "awinfeed.csv",
+  "feed_rows": 4033,
+  "sauna_relevant_rows": 3544,
+  "products_returned": 250,
+  "products": [
+    {
+      "name": "Außensauna / Fasssauna Fjora quadratisch",
+      "url": "https://shop-saunaloft.de/fasssauna-fjora-quadratisch",
+      "price": 2379,
+      "sku": "01992d6e256779409c92d1d0c7ceda1d",
+      "variant_hint": false
+    },
+    {
+      "name": "Design Gartensauna Massivholzsauna &quot;Funny&quot; Aktionsmodell",
+      "url": "https://shop-saunaloft.de/design-gartensauna-massivholzsauna-funny-aktionsmodell",
+      "price": 6677,
+      "sku": "018e71e99844768085dbf3fded7904da",
+      "variant_hint": false
+    },
+    {
+      "name": "Design Sauna Luca",
+      "url": "https://shop-saunaloft.de/design-sauna-luca",
+      "price": 5999,
+      "sku": "1f518e07146d4ee69dd5e77a3dc9b694",
+      "variant_hint": false
+    },
+    {
+      "name": "Exklusive Sauna Diamond",
+      "url": "https://shop-saunaloft.de/exklusive-sauna-diamond",
+      "price": 28378,
+      "sku": "cd214ab959be41949325defc742a387c",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Lewisburg aus Zedernholz / 213 x 241 x 226",
+      "url": "https://shop-saunaloft.de/fasssauna-lewisburg-aus-zedernholz-/-213-x-241-x-226/1-051-604.1",
+      "price": 13464,
+      "sku": "6f66f217bba7474fadfeeef9b9b37cc0",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Lewisburg aus Zedernholz / 213 x 241 x 226",
+      "url": "https://shop-saunaloft.de/fasssauna-lewisburg-aus-zedernholz-/-213-x-241-x-226/1-052-909",
+      "price": 16944,
+      "sku": "79b275c08ae34563b157d108cf91948c",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna mit Panoramafenster, aus Zedernholz/ 229 x 185 cm",
+      "url": "https://shop-saunaloft.de/fasssauna-mit-panoramafenster-aus-zedernholz/-229-x-185-cm/7686.1",
+      "price": 7299,
+      "sku": "303b89e227604cbf8cbe4d5a12d134f6",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna mit Panoramafenster, aus Zedernholz/ 229 x 185 cm",
+      "url": "https://shop-saunaloft.de/fasssauna-mit-panoramafenster-aus-zedernholz/-229-x-185-cm/7686.2",
+      "price": 6999,
+      "sku": "ed5c1f270d7e43ecb91ff213e600e883",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Nolvik L",
+      "url": "https://shop-saunaloft.de/fasssauna-nolvik-l/301841.1",
+      "price": 1749,
+      "sku": "0198aa8b1a5c708399052c7367ed0bf6",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Nolvik M",
+      "url": "https://shop-saunaloft.de/fasssauna-nolvik-m/301841.2",
+      "price": 1399,
+      "sku": "0198aa8b1a5d728ca3eb01b3be61c2cd",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Nolvik S",
+      "url": "https://shop-saunaloft.de/fasssauna-nolvik-/301841.3",
+      "price": 1299,
+      "sku": "0198aa8b1a5d728ca3eb01b3bed24690",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Nolvik XL",
+      "url": "https://shop-saunaloft.de/fasssauna-nolvik-xl/301841.4",
+      "price": 2049,
+      "sku": "0198aa8b1a5d728ca3eb01b3bef68da0",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Oval Anette 328 x 274 cm",
+      "url": "https://shop-saunaloft.de/fasssauna-oval-anette-328-x-274-cm/fr42-3327.2",
+      "price": 4299,
+      "sku": "1a690e8db34d44ae95ee796e1b9ae7ff",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Pinnacle aus Zedernholz",
+      "url": "https://shop-saunaloft.de/fasssauna-pinnacle-aus-zedernholz/1-050-186.1",
+      "price": 10805.2,
+      "sku": "030cfbeb024849be89d07b1fe6c62195",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Princeton aus Zedernholz",
+      "url": "https://shop-saunaloft.de/fasssauna-princeton-aus-zedernholz/1-051-595.1",
+      "price": 8772,
+      "sku": "ffa3513d50044b64948f9d1b62712cb0",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Princeton aus Zedernholz",
+      "url": "https://shop-saunaloft.de/fasssauna-princeton-aus-zedernholz/1-051-596",
+      "price": 13308,
+      "sku": "bb1c2c96b2f24e5fa370fc6ce3ad39fd",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Spitzbergen 180 für den Aussenbereich / 180 cm Ø 190 cm",
+      "url": "https://shop-saunaloft.de/fasssauna-spitzbergen-180-fuer-den-aussenbereich-/-180-cm-oe-190-cm",
+      "price": 1789,
+      "sku": "69cb04dd0bda43efa35318cd7e86b64d",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Traditionell TR-170 für 4 Personen",
+      "url": "https://shop-saunaloft.de/fasssauna-traditionell-tr-170-fuer-4-personen",
+      "price": 4399,
+      "sku": "d7e15531835548be92a5fdd986bd2715",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna Traditionell TR-210 aus Zedernholz",
+      "url": "https://shop-saunaloft.de/fasssauna-traditionell-tr-210-aus-zedernholz",
+      "price": 5999,
+      "sku": "1d21d32db2584a09b09d041fc45f8706",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna  AWT E1805 aus Pinienholz / 180 x 180 cm",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1805-aus-pinienholz-/-180-x-180-cm/14879",
+      "price": 2999,
+      "sku": "47483d3b661e4630a92c80aac30508c9",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna Alaska Corner 206 aus Fichte  mit 8 kw Ofen / 206 x 206 x 204",
+      "url": "https://shop-saunaloft.de/finnische-sauna-alaska-corner-206-aus-fichte-mit-8-kw-ofen-/-206-x-206-x-204/1-030-269.1",
+      "price": 5199,
+      "sku": "83270de5cbc24c46a4a22e32da4b1e57",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna AWT E1801B aus Pinienholz / 160 x 160",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1801b-aus-pinienholz-/-160-x-160/14877",
+      "price": 2499,
+      "sku": "736d93cc7e55469c91733bf0d314f3cb",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna AWT E1802 aus Pinienholz / 180 x 180",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1802-aus-pinienholz-/-180-x-180/14878",
+      "price": 2999,
+      "sku": "78161ba09d7341b2aa1fbb6ddb923826",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna AWT E1803B aus Pinienholz / 150 x 120",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1803b-aus-pinienholz-/-150-x-120/14881.2",
+      "price": 2199,
+      "sku": "9dc6ab0c274344a1af4f61e7a372e57b",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna AWT E1803B aus Pinienholz / 150 x 120 inkl. 6 kW Vega Ofen",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1803b-aus-pinienholz-/-150-x-120-inkl.-6-kw-vega-ofen/14890",
+      "price": 2499,
+      "sku": "e87673da1ddb47a2b9059b283664cea6",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna AWT E1804C aus Pinienholz / 120 x 120",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1804c-aus-pinienholz-/-120-x-120/14926-1",
+      "price": 2399,
+      "sku": "015d6f0c59f8426196f9624dec102b56",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna E1801A aus Pinienholz inkl. 8kW Harvia Vega / 180 x 180 cm",
+      "url": "https://shop-saunaloft.de/finnische-sauna-e1801a-aus-pinienholz-inkl.-8kw-harvia-vega-/-180-x-180-cm/14885",
+      "price": 3199,
+      "sku": "d503db4da1184d09ac53d6066b4bc215",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna E1804A aus Pinienholz / 180 x 120 cm",
+      "url": "https://shop-saunaloft.de/finnische-sauna-e1804a-aus-pinienholz-/-180-x-120-cm/14924",
+      "price": 2299,
+      "sku": "b7dbcafaaa3d44aa9044f5ecc4a85e81",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna E1804B aus Pinienholz / 150 x 120 cm",
+      "url": "https://shop-saunaloft.de/finnische-sauna-e1804b-aus-pinienholz-/-150-x-120-cm/14925",
+      "price": 2199,
+      "sku": "33b8454ea2064bf6a1e461a22fd25b5a",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna Espoo 150 aus Hemlockholz / 150 x 150 x 200",
+      "url": "https://shop-saunaloft.de/finnische-sauna-espoo-150-aus-hemlockholz-/-150-x-150-x-200",
+      "price": 1599,
+      "sku": "75c457ac160a4820bd3a3949f4ba0e7f",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna MINTO/ 150cm x 130cm",
+      "url": "https://shop-saunaloft.de/finnische-sauna-minto/-150cm-x-130cm",
+      "price": 2099,
+      "sku": "019ae8ff957374f788daeaa9b7e6cf53",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna Riga mit Ofen 150x120 cm",
+      "url": "https://shop-saunaloft.de/finnische-sauna-riga-mit-ofen-150x120-cm",
+      "price": 1689,
+      "sku": "0194b4527b097a12a8e42046b393d6da",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna Sarnia inkl. 6 kW Ofen aus Hemlockholz mit Glasfront / 180 x 140",
+      "url": "https://shop-saunaloft.de/finnische-sauna-sarnia-inkl.-6-kw-ofen-aus-hemlockholz-mit-glasfront-/-180-x-140",
+      "price": 2749,
+      "sku": "1e7af355cb5a474893bf0556c5d621c2",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna Sarnia Plus 180 x 140, aus Hemlockholz, inklusive Ofen, mit Natursteinwand",
+      "url": "https://shop-saunaloft.de/finnische-sauna-sarnia-plus-180-x-140-aus-hemlockholz-inklusive-ofen-mit-natursteinwand",
+      "price": 3149,
+      "sku": "24b653d159ea4370b83f79a62be2cf31",
+      "variant_hint": false
+    },
+    {
+      "name": "Gartensauna Country mit 8 kw Ofen / 230 x 230 x290",
+      "url": "https://shop-saunaloft.de/gartensauna-country-mit-8-kw-ofen-/-230-x-230-x290-/1-030-307.1",
+      "price": 9698.5,
+      "sku": "aad54e58e5b5440d97ed686150780b4a",
+      "variant_hint": false
+    },
+    {
+      "name": "Gartensauna Lava mit 8 kw Ofen / 341 x 230 x 210",
+      "url": "https://shop-saunaloft.de/gartensauna-lava-mit-8-kw-ofen-/-341-x-230-x-210-/1-030-308.1",
+      "price": 9699,
+      "sku": "7f453e44d511458ca70179d2a4534446",
+      "variant_hint": false
+    },
+    {
+      "name": "Harvia Fasssauna Kammi 180",
+      "url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180/sw10343set.1",
+      "price": 4449,
+      "sku": "018d4062d7f5716aa7fa142dbbac49c3",
+      "variant_hint": false
+    },
+    {
+      "name": "Harvia Fasssauna Kammi 180",
+      "url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180/sw10343set.2",
+      "price": 3999,
+      "sku": "018d4062d7f67022966c600b9436cd55",
+      "variant_hint": false
+    },
+    {
+      "name": "Infra 4 Health I-120 Infrarotkabine  mit Quarzstrahlern und Zedernholz",
+      "url": "https://shop-saunaloft.de/infra-4-health-i-120-infrarotkabine-mit-quarzstrahlern-und-zedernholz",
+      "price": 4199,
+      "sku": "669e100c346a4a3fb3e3d4ecbf216ee4",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarot Fasssauna aus Zedernholz Rustikal mit Veranda / 153x196x216,5cm",
+      "url": "https://shop-saunaloft.de/infrarot-fasssauna-aus-zedernholz-rustikal-mit-veranda-/-153x196x216-5cm",
+      "price": 6999,
+      "sku": "f06ef25cac124ab4aeecef3ebffba318",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine / Wärmekabine Nyborg S120K mit Keramikstrahlern aus Hemlockholz",
+      "url": "https://shop-saunaloft.de/infrarotkabine-/-waermekabine-nyborg-s120k-mit-keramikstrahlern-aus-hemlockholz",
+      "price": 1099,
+      "sku": "dcb28fbdc8864e00a0f65d8bf277171e",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine 100 Wärmekabine Infrarotsauna Quarz Strahler",
+      "url": "https://shop-saunaloft.de/infrarotkabine-100-waermekabine-infrarotsauna-quarz-strahler",
+      "price": 3250,
+      "sku": "3252fb67ca1c4f84a89a196704c8ff0a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine 150 mit Quarzstrahlern / 150 x 110 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-150-mit-quarzstrahlern-/-150-x-110-cm",
+      "price": 3950,
+      "sku": "556cb246299b434484a138e0bf439b0d",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine 160 mit Quarzstrahlern und Zedernholz",
+      "url": "https://shop-saunaloft.de/infrarotkabine-160-mit-quarzstrahlern-und-zedernholz",
+      "price": 4950,
+      "sku": "206f8fb03f0a4eb1a1240e09b237e404",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Aalborg mit Dual-Heizsystem und Hemlockholz",
+      "url": "https://shop-saunaloft.de/infrarotkabine-aalborg-mit-dual-heizsystem-und-hemlockholz",
+      "price": 1299,
+      "sku": "86d0e0b03ad94f1c8bedce8755f8c267",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine AWT E1250C-IR Hemlock 150x110",
+      "url": "https://shop-saunaloft.de/infrarotkabine-awt-e1250c-ir-hemlock-150x110",
+      "price": 3299,
+      "sku": "190a439251d044b595bba5c2a522c2cd",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine AWT E1250D-IR Hemlock 120x100",
+      "url": "https://shop-saunaloft.de/infrarotkabine-awt-e1250d-ir-hemlock-120x100",
+      "price": 2999,
+      "sku": "831e34f6e11c4a8b8ed7d0389f030b76",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine AWT E1250E-IR Hemlock 100x100",
+      "url": "https://shop-saunaloft.de/infrarotkabine-awt-e1250e-ir-hemlock-100x100",
+      "price": 2499,
+      "sku": "14be5332a9ed4cb59b89fbb7f5565d1b",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Billund 1 Glas / 80 x 110 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-billund-1-glas-/-80-x-110-cm",
+      "price": 1099,
+      "sku": "019308931b3f79ad8125c14690b1b64f",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Billund mit Dual-Heizsystem und Hemlockholz 170 x 190 x 190 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-billund-mit-dual-heizsystem-und-hemlockholz-170-x-190-x-190-cm",
+      "price": 1979,
+      "sku": "42158204fe474db48d2c758b4c093e63",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine BRANDON 120x120 Dual-Therm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-brandon-120x120-dual-therm",
+      "price": 1749,
+      "sku": "348f8ea87b044857aaa20483309e990e",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine BRANDON 140 x 140 Dual-Therm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-brandon-140-x-140-dual-therm",
+      "price": 2099,
+      "sku": "b652394861f14bcbb5762350703983bf",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine CALGARY 115x105",
+      "url": "https://shop-saunaloft.de/infrarotkabine-calgary-115x105",
+      "price": 1299,
+      "sku": "59cbd252dc944ee8b996b778adaae3c4",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine CALGARY 90x90",
+      "url": "https://shop-saunaloft.de/infrarotkabine-calgary-90x90",
+      "price": 1199,
+      "sku": "7c9c00ef76e241cb883cf34c67ee0eae",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Calipso Keramikstrahler 142 x 107 x 190 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-calipso-keramikstrahler-142-x-107-x-190-cm",
+      "price": 1859,
+      "sku": "1192710ea5c24904957fe01f1d841669",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Carbon 1 / 100 x 130",
+      "url": "https://shop-saunaloft.de/infrarotkabine-carbon-1-/-100-x-130",
+      "price": 1809,
+      "sku": "a9c891fec44a44f9888de227030a2949",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Carbon 2 180 x 150 x 195 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-carbon-2-180-x-150-x-195-cm",
+      "price": 2249,
+      "sku": "401f6e92a727454ea1a9c9fc02ec0c52",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Carbon 3 mit Vollspektrumstrahlern / 150 x  150 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-carbon-3-mit-vollspektrumstrahlern-/-150-x-150-cm",
+      "price": 1995,
+      "sku": "0194cdbb1e3d7664b23449653ec8edbf",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Carmen 2 120 x 120 x 195 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-carmen-2-120-x-120-x-195-cm",
+      "price": 1209,
+      "sku": "8e509dabeb6f4272b56d58c4399680c7",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Classico 1 130 x 100 x 195 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-classico-1-130-x-100-x-195-cm",
+      "price": 2069,
+      "sku": "0fee6318dd0e4da3806ff2d52e70e0b7",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Deluxe 150 x 150 x 200 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-deluxe-150-x-150-x-200-cm",
+      "price": 1749,
+      "sku": "2226a7111a7a4b2db0a76574bf2790a6",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine DeLuxe 160 mit Quarzstrahler",
+      "url": "https://shop-saunaloft.de/infrarotkabine-deluxe-160-mit-quarzstrahler",
+      "price": 3750,
+      "sku": "75a661a5796b42aa9789580b099ce9f5",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Esbjerg, aus Hemlockholz 190 x 130 x 190",
+      "url": "https://shop-saunaloft.de/infrarotkabine-esbjerg-triplex-hemlockholz-190-x-130-x-190",
+      "price": 1759,
+      "sku": "b90a921709dc42429811c6e952f4e7c4",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Göteborg 120 / 120 x 105 x 190 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-goeteborg-120-/-120-x-105-x-190-cm",
+      "price": 1199,
+      "sku": "019abca924d17b52a02d6f2ea976e1e6",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Göteborg 90 / 90 x 90 x 190 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-goeteborg-90-/-90-x-90-x-190-cm",
+      "price": 899,
+      "sku": "019abc98420e7d998942e08905adb52a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Haley Vollspektrum / 160x160",
+      "url": "https://shop-saunaloft.de/infrarotkabine-haley-vollspektrum-/-160x160",
+      "price": 2099,
+      "sku": "8bb25accbcbb4f8bacfae7d0df3d5456",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Hamlin Keramik / 90 x 90 x 190",
+      "url": "https://shop-saunaloft.de/infrarotkabine-hamlin-keramik-/-90-x-90-x-190",
+      "price": 1299,
+      "sku": "affb0bbcfcf048cf9a86f9a6fdb24abc",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Hamlin Vollspektrum / 90 x 90 x 190",
+      "url": "https://shop-saunaloft.de/infrarotkabine-hamlin-vollspektrum-/-90-x-90-x-190",
+      "price": 1399,
+      "sku": "254efd88f1b047399258e5a13b430818",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Hamlin Vollspektrum 130 x 105",
+      "url": "https://shop-saunaloft.de/infrarotkabine-hamlin-vollspektrum-130-x-105",
+      "price": 1699,
+      "sku": "b4b3c8ea700b400d80939d8c0e03b42c",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Helsinki 150 Dual aus Hemlockholz / 150 x 150",
+      "url": "https://shop-saunaloft.de/infrarotkabine-helsinki-150-dual-aus-hemlockholz-/-150-x-150",
+      "price": 1549,
+      "sku": "6011f4534797414895ad68180b2fb48a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Helsinki 150 Dual Black / 150 x 150 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-helsinki-150-dual-black-/-150-x-150-cm",
+      "price": 1689,
+      "sku": "018bf30bab517e509e57491901c0584b",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Helsinki Alpha für überdachten Außenbereich",
+      "url": "https://shop-saunaloft.de/outdoor-infrarotkabine-helsinki-alpha",
+      "price": 1899,
+      "sku": "2e833f2d40c6463aad90e7686dc298c3",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Helsinki Beta für den überdachten Außenbereich",
+      "url": "https://shop-saunaloft.de/infrarotkabine-helsinki-beta-fuer-den-ueberdachten-aussenbereich",
+      "price": 2279,
+      "sku": "e368d4de1ab9451299fb2f821b8495c4",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Hyder 115 x 105 mit Vollspektrumstrahlern",
+      "url": "https://shop-saunaloft.de/infrarotkabine-hyder-115-x-105-mit-vollspektrumstrahlern",
+      "price": 1499,
+      "sku": "9d607eaa652d411eadd7aad6540b3a3a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine I-170 mit Quarzstrahlern und Zedernholz",
+      "url": "https://shop-saunaloft.de/infrarotkabine-i-170-mit-quarzstrahlern-und-zedernholz",
+      "price": 4299,
+      "sku": "1887439bc74e4cf2abc05fbb573d4c57",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.1",
+      "price": 14625,
+      "sku": "01972ba1e979709099946ce79dc3a9e9",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.10",
+      "price": 14840,
+      "sku": "01972ba1e97a72a5ad2ca692dd73f7c7",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.11",
+      "price": 14840,
+      "sku": "01972ba1ec4b723daf3a6f058f6af7d3",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.12",
+      "price": 14840,
+      "sku": "01972ba1ec4b723daf3a6f05903e9b77",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.2",
+      "price": 14625,
+      "sku": "01972ba1e979709099946ce79e6fb77f",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.3",
+      "price": 14625,
+      "sku": "01972ba1e979709099946ce79ec8c6fb",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.4",
+      "price": 14840,
+      "sku": "01972ba1e979709099946ce79f6d378b",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.5",
+      "price": 14840,
+      "sku": "01972ba1e97a72a5ad2ca692db514598",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.6",
+      "price": 14840,
+      "sku": "01972ba1e97a72a5ad2ca692db862452",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.7",
+      "price": 15265,
+      "sku": "01972ba1e97a72a5ad2ca692dbff7986",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.8",
+      "price": 15265,
+      "sku": "01972ba1e97a72a5ad2ca692dc3de4c7",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld  TrioSol Prima 1, inkl. VITALcorner, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-1-inkl.-vitalcorner-inkl.-zubehoerset/390400.9",
+      "price": 15265,
+      "sku": "01972ba1e97a72a5ad2ca692dcf7c6f8",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.1-01972bd1347472458c82b724c30529da",
+      "price": 14890,
+      "sku": "01972bd1347472458c82b724c30529da",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.10",
+      "price": 14840,
+      "sku": "01972bd1347973aaa41856687c1861b4",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.11",
+      "price": 15220,
+      "sku": "01972bd137fd7167a7ae0f0714ebcc9a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.12",
+      "price": 14840,
+      "sku": "01972bd137fe726ea4790ed86625f28f",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.2",
+      "price": 14625,
+      "sku": "01972bd1347872a59ae532a9e40bd1fb",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.3",
+      "price": 14625,
+      "sku": "01972bd1347973aaa418566878dc10e2",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.4",
+      "price": 15220,
+      "sku": "01972bd1347973aaa4185668798b418d",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.5",
+      "price": 14840,
+      "sku": "01972bd1347973aaa41856687994d857",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.6",
+      "price": 14840,
+      "sku": "01972bd1347973aaa418566879a8f55a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.7",
+      "price": 15635,
+      "sku": "01972bd1347973aaa41856687a3198e4",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.8",
+      "price": 15265,
+      "sku": "01972bd1347973aaa41856687a8e2cb9",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld TrioSol Prima 2, inkl. Zubehörset",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-prima-2-inkl.-zubehoerset/390410.9",
+      "price": 15265,
+      "sku": "01972bd1347973aaa41856687b72bb57",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld Triosol Sera mit Liege mit Dualstrahler-System, mit Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-sera-mit-liege-mit-dualstrahler-system-mit-salzverdampfer/390160",
+      "price": 14635,
+      "sku": "2df3755ad2f443beb6fdd260bac43f1e",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Infraworld Triosol Sera mit Liege mit Dualstrahler-System, mit Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-infraworld-triosol-sera-mit-liege-mit-dualstrahler-system-mit-salzverdampfer/390161",
+      "price": 14635,
+      "sku": "00f8a43ea8d247bbb198b7f8a79da7ed",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kingston 90 x 90 cm mit Vollspektrumstrahlern",
+      "url": "https://shop-saunaloft.de/infrarotkabine-kingston-90-x-90-cm-mit-vollspektrumstrahlern",
+      "price": 1699,
+      "sku": "0193da3e6f1f7139a5ad4d6e0e15d9ee",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kingston mit Dualstrahler-System 130x105",
+      "url": "https://shop-saunaloft.de/infrarotkabine-kingston-mit-dualstrahler-system-130x105",
+      "price": 2099,
+      "sku": "9694b6734189477f9b60d17e691cf0c3",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kiruna 130 Premium",
+      "url": "https://shop-saunaloft.de/infrarotkabine-kiruna-130-premium",
+      "price": 1329,
+      "sku": "01993e3f70b87bb0861bf552b1062d6f",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kiruna 150 Duastrahler, Hemlockholz / 150x150x200",
+      "url": "https://shop-saunaloft.de/infrarotkabine-kiruna-150-duastrahler-hemlockholz-/-150x150x200",
+      "price": 1399,
+      "sku": "95e455d7900b40c7bdf13202825bbdb6",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kiruna 90 x 90 cm mit Dualstrahlern",
+      "url": "https://shop-saunaloft.de/infrarotkabine-kiruna-90-x-90-cm-mit-dualstrahlern",
+      "price": 959,
+      "sku": "e80aa978f08f4c3bb73b80e33aa0b80c",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kiruna Glas mit Vollspektrumstrahler 160x141cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-kiruna-glas-mit-vollspektrumstrahler-160x141cm",
+      "price": 2899,
+      "sku": "7dfc77c3cc95482e9474c8c9a5ad245e",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kolding, aus Hemlockholz / 190 x 130 x 190",
+      "url": "https://shop-saunaloft.de/infrarotkabine-kolding-triplex-/-190-x-130-x-190",
+      "price": 1799,
+      "sku": "dd734fc9e4174f88aa4d771e16c561b4",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Lakefield 140, mit Dual-Strahlersystem, aus Hemlockholz mit zehn Strahlern",
+      "url": "https://shop-saunaloft.de/infrarotkabine-lakefield-140-mit-dual-strahlersystem-aus-hemlockholz-mit-zehn-strahlern",
+      "price": 1899,
+      "sku": "fd4a0ac3600744f18ecfb6b77ed5516a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Lakefield 2 120 x 120 Dual-Therm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-lakefield-2-120-x-120-dual-therm",
+      "price": 1599,
+      "sku": "92225ebfaca24b428813a87e31a16d20",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Lakefield 3 120 x 120 Dual-Therm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-lakefield-3-120-x-120-dual-therm",
+      "price": 1649,
+      "sku": "d2fec9f37dc14bdfad606bac90ac1443",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine LAKEFIELD 3 Dual-Therm/ 140 x 140",
+      "url": "https://shop-saunaloft.de/infrarotkabine-lakefield-3-dual-therm/-140-x-140",
+      "price": 1949,
+      "sku": "10b1cecbba664a6691d51e9903428c9b",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Lakefield Dual-Therm / 120 x 120",
+      "url": "https://shop-saunaloft.de/infrarotkabine-lakefield-dual-therm-/-120-x-120",
+      "price": 1599,
+      "sku": "e27bba9cab9e49ab90b5d77a0429ab14",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Lakefield Pro Hemlock/Zeder 120 x 120",
+      "url": "https://shop-saunaloft.de/infrarotkabine-lakefield-pro-hemlock/zeder-120-x-120",
+      "price": 2539,
+      "sku": "3b9b448cbf3b4b8897d688faa2bfa933",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Lakefield Pro Hemlock/Zeder 140 x 140",
+      "url": "https://shop-saunaloft.de/infrarotkabine-lakefield-pro-hemlock/zeder-140-x-140",
+      "price": 2889,
+      "sku": "9e8e209c8d4840bbba9810e7e78d2c94",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine LAVAL PLUS 135 x 105",
+      "url": "https://shop-saunaloft.de/infrarotkabine-laval-plus-135-x-105",
+      "price": 1499,
+      "sku": "ce6c41f396ac4721b4fb8e923020ffa7",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Malmö 1 aus Hemlockholz / 90 x 90",
+      "url": "https://shop-saunaloft.de/infrarotkabine-malmoe-1-aus-hemlockholz-/-90-x-90",
+      "price": 1869,
+      "sku": "f05bf6e7392e4a47a9244acebe8d59b1",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Milton Vollspektrum / 135x105",
+      "url": "https://shop-saunaloft.de/infrarotkabine-milton-vollspektrum-/-135x105",
+      "price": 1999,
+      "sku": "10c31abbc2ad4254853b75ce4a1c9b38",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Milton Vollspektrum / 90 x 90 x 190",
+      "url": "https://shop-saunaloft.de/infrarotkabine-milton-vollspektrum-/-90-x-90-x-190",
+      "price": 1649,
+      "sku": "dac0b1ffb3bc487a9713d50c6186d28c",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine MiniMy aus Fichte / 125 x 103 x 202",
+      "url": "https://shop-saunaloft.de/infrarotkabine-minimy-aus-fichte-/-125-x-103-x-202",
+      "price": 4499,
+      "sku": "7e63216c44ca4ec29fa371e430b31aa1",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Nyborg E150K mit Keramikstrahlern aus Hemlockholz",
+      "url": "https://shop-saunaloft.de/infrarotkabine-nyborg-e150k-mit-keramikstrahlern-aus-hemlockholz",
+      "price": 1699,
+      "sku": "82f6ab3a90f94a0580107021ff22dff8",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Nyborg E150V aus Hemlockholz",
+      "url": "https://shop-saunaloft.de/infrarotkabine-nyborg-e150v-aus-hemlockholz",
+      "price": 1799,
+      "sku": "15d7a96b82244838ad12060a9a779a44",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Nyborg S120V, mit Vollspektrumstrahlern, 120 x 105 x 190",
+      "url": "https://shop-saunaloft.de/infrarotkabine-nyborg-s120v-mit-vollspektrumstrahlern-120-x-105-x-190",
+      "price": 1199,
+      "sku": "54991291fd8a42b399005bedce97f2eb",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Nyborg S90V",
+      "url": "https://shop-saunaloft.de/infrarotkabine-nyborg-s90v",
+      "price": 1099,
+      "sku": "dac19e5afbe347e3b9b9049826b2ea48",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Open 150 x 120 x 200 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-open-150-x-120-x-200-cm",
+      "price": 1529,
+      "sku": "a7c99ea7840a4f5b8ef80d228d3c7ff3",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Oslo 150 x 150 x 200 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-oslo-150-x-150-x-200-cm",
+      "price": 1499,
+      "sku": "c0bd9f685e86489ab4b07e85a5fe5446",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Oslo mit Keramikstrahler und Hemlockholz",
+      "url": "https://shop-saunaloft.de/infrarotkabine-oslo-mit-keramikstrahler-und-hemlockholz",
+      "price": 1149,
+      "sku": "2dcc881a163a424ea0d8b0f5dd7e9ea6",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Oslo mit Triplex-Heizsystem und Hemlockholz",
+      "url": "https://shop-saunaloft.de/infrarotkabine-oslo-mit-triplex-heizsystem-und-hemlockholz",
+      "price": 999,
+      "sku": "bc07871d5c4a4fadbb4c048811ae2348",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine OTTAWA 140x120",
+      "url": "https://shop-saunaloft.de/infrarotkabine-ottawa-140x120",
+      "price": 2199,
+      "sku": "018b7c4240437b3e84e3eb1d5c29562d",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Palermo 135x120 cm, Dual-Therm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-palermo-135x120-cm-dual-therm",
+      "price": 1899,
+      "sku": "0193da4b96b47890999db09a20e7a098",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Pierson 135 x 105 Dual-Therm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-pierson-135-x-105-dual-therm",
+      "price": 1609,
+      "sku": "3d2eed8d6c6b4ca58221c8dc5d240972",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine PIERSON 160 x 105 Dual-Therm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-pierson-160-x-105-dual-therm",
+      "price": 1949,
+      "sku": "c0b0b3cc92a748c08c33c02ce65b4fe4",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Pierson 90 Dual-Therm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-pierson-90-dual-therm",
+      "price": 1349,
+      "sku": "a64b8adcb5f945478224519d367f55d1",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Pierson Pro aus Hemlock- und Zedernholz / 135 x 105",
+      "url": "https://shop-saunaloft.de/infrarotkabine-pierson-pro-aus-hemlock-und-zedernholz-/-135-x-105",
+      "price": 2649,
+      "sku": "11ec8f2323c74fb98771e4b94814990d",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Ruby 1 90 x 100 x 195 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-ruby-1-90-x-100-x-195-cm",
+      "price": 999,
+      "sku": "4b3634c1f556417cb904d06084d4b79a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Ruby 2 120 x 100 x 195 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-ruby-2-120-x-100-x-195-cm",
+      "price": 1489,
+      "sku": "cffbfb50adbb44c9ab760ec9aaea26f1",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Saltcoats 135x105 Dual-Therm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-saltcoats-135x105-dual-therm",
+      "price": 1999,
+      "sku": "018be2f0f1d478bdb3a62649a42282ca",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Toronto mit Vollspektrumstrahlern / 102 x 102",
+      "url": "https://shop-saunaloft.de/infrarotkabine-toronto-mit-vollspektrumstrahlern-/-102-x-102",
+      "price": 2089,
+      "sku": "044395f3c1604afd9e46ff9899c1008d",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Toronto mit Vollspektrumstrahlern / 127 x 106",
+      "url": "https://shop-saunaloft.de/infrarotkabine-toronto-mit-vollspektrumstrahlern-/-127-x-106",
+      "price": 2489,
+      "sku": "d4e293578dde409daeb20ed62e3d0036",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Toronto mit Vollspektrumstrahlern / 152 x 152",
+      "url": "https://shop-saunaloft.de/infrarotkabine-toronto-mit-vollspektrumstrahlern-/-152-x-152",
+      "price": 2899,
+      "sku": "7cdc3222bb1f4f00beb1c2cc9bd26176",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Toronto mit Vollspektrumstrahlern / 160 x 110",
+      "url": "https://shop-saunaloft.de/infrarotkabine-toronto-mit-vollspektrumstrahlern-/-160-x-110",
+      "price": 2599,
+      "sku": "73cbf4842e23499cba12ebd51f94e06e",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine TrioSol Design 145 Tanne VG / 145 x 112 x 201,05 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-design-145-tanne-vg-/-145-x-112-x-201-05-cm",
+      "price": 10099,
+      "sku": "1b939a410cf74375a3661cb1f8892f7a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine TrioSol Glas 125 Tanne VG / 125 x 112 x 201,5",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-glas-125-tanne-vg-/-125-x-112-x-201-5",
+      "price": 8455,
+      "sku": "a1b37e07c5fd452f9eeecdef0a478f21",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine TrioSol Glas 125 Zirbe VG / 125 x 112 x 201,5 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-glas-125-zirbe-vg-/-125-x-112-x-201-5-cm",
+      "price": 10220,
+      "sku": "f456635a53054396aa4b5208b130b127",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Glas 145 Fichte VG / 145 x 112 x 201,5 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-glas-145-fichte-vg-/-145-x-112-x-201-5-cm",
+      "price": 7489,
+      "sku": "5388ec01b65042e2a6d23688ba4a4041",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Glas 145 Tanne VG / 145 x 112 x 201,5 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-glas-145-tanne-vg-/-145-x-112-x-201-5-cm",
+      "price": 8895,
+      "sku": "1e71930442454a108e2d98d147d01c13",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Glas 145 Zirbe VG / 145 x 112 x 201,5 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-glas-145-zirbe-vg-/-145-x-112-x-201-5-cm",
+      "price": 9199,
+      "sku": "d992a4e111b54bb29d2d14c329335054",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine TrioSol Natura 103 / 103 x 100 x 200 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-natura-103-/-103-x-100-x-200-cm",
+      "price": 5439,
+      "sku": "a7ba6573af4742289c79d3b9e6452fa0",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Natura 148 Plus / 148 x 100 x 200 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-natura-148-plus-/-148-x-100-x-200-cm",
+      "price": 6659,
+      "sku": "daec1634009c4967a1994f76fb910fc1",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130",
+      "price": 11055,
+      "sku": "62482c5b35ab44f2b2a58abe464bedd9",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.1",
+      "price": 11055,
+      "sku": "d4399465b1754f26a540ec687da790fe",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.10",
+      "price": 12840,
+      "sku": "4296c631d2c74361ad2bcb4655b523a6",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.11",
+      "price": 12840,
+      "sku": "bb6ef007c0e4411db710a3e68b36fd84",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.12",
+      "price": 12840,
+      "sku": "01be4dd7f5af48a4ae06a7d0124cd0c6",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.13",
+      "price": 12840,
+      "sku": "e9dbe9d06a2644249af27ae226ca1da3",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.14",
+      "price": 12840,
+      "sku": "cfbacb0a5e3f490c9915d830aef5b73f",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.15",
+      "price": 12840,
+      "sku": "7b528de3a156468c8e1d09465ec71148",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.16",
+      "price": 12480,
+      "sku": "0c0c6734537b4aa6a474ce9c75bc4f77",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.17",
+      "price": 12480,
+      "sku": "7c3e8a6574874d599dde2507bbaff09c",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.18",
+      "price": 12480,
+      "sku": "b5e232e2d6844e1e933504e919fad336",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.19",
+      "price": 12480,
+      "sku": "40cdd16c475e46399a55fffb3403a9fb",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.2",
+      "price": 11055,
+      "sku": "db0f983d405f4077826cca7dbc962b85",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.20",
+      "price": 10799,
+      "sku": "b3bc54c1da544c0388911c2ed54db1ca",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.21",
+      "price": 10799,
+      "sku": "93f4064cfcc44b3d9fd5c999ad03eca6",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.22",
+      "price": 12480,
+      "sku": "ac9f809cc8474819bdbb3cfc13e8f0b4",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.23",
+      "price": 12480,
+      "sku": "526ea62bdd424f57bb09f481e1c446dd",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.3",
+      "price": 11055,
+      "sku": "825020af573b4bdea255d1d3695d9f8e",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.4",
+      "price": 11055,
+      "sku": "ec611911ac954229adc53425d9a2bf0d",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.5",
+      "price": 11055,
+      "sku": "3392ee1ebf204d408651d59dba5d786a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.6",
+      "price": 11055,
+      "sku": "0104aa6bfe78450c9e5627322c2fa596",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.7",
+      "price": 11055,
+      "sku": "6587cd74091d4cc985af477330b2c9a5",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.8",
+      "price": 12840,
+      "sku": "4ff367313cf8489abe0e1102b3b1e2a5",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 1 mit ABC Strahlern und Salzverdampfer",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-1-mit-abc-strahlern-und-salzverdampfer/390130.9",
+      "price": 12840,
+      "sku": "178b8edfcc984936b86555ffbb462ce1",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135",
+      "price": 11055,
+      "sku": "ca360efedf46478a99d528354cb0521e",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.1",
+      "price": 11055,
+      "sku": "a73204bdddcc4d15b74db1ce9fc5540a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.10",
+      "price": 12840,
+      "sku": "23cb6da922eb4d3faf77236f1dc4aed6",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.11",
+      "price": 12840,
+      "sku": "b1af530f49ad4972bd80e7f7dac33805",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.12",
+      "price": 12840,
+      "sku": "4b667f1b81b8454da4a450ac641af58c",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.13",
+      "price": 12840,
+      "sku": "8e4572f520ea462a8c6826e113dc29ad",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.14",
+      "price": 12840,
+      "sku": "5686fc8728ad444dabfe49cc0eb23f5c",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.15",
+      "price": 12840,
+      "sku": "3fc92fd1f35c4ae8b3f79d5186c01141",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.16",
+      "price": 12480,
+      "sku": "589abf9c308140b9a4f79be15fae1845",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.17",
+      "price": 12480,
+      "sku": "e6b6a63671574a6c810a96c2d36151e0",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.18",
+      "price": 12480,
+      "sku": "1c88f35c9cf64f1cbbef8326b6bcac7c",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.19",
+      "price": 12480,
+      "sku": "06692f44448d4b0db1891d285d39f574",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.2",
+      "price": 11055,
+      "sku": "2932085fbe964170b88286c506e6d78b",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.20",
+      "price": 12480,
+      "sku": "0593be413f9a4268afe8ebdae70dacd6",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.21",
+      "price": 12480,
+      "sku": "3f47452fa690498da4490ac8b0490497",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.22",
+      "price": 12480,
+      "sku": "0f13d4111b64441eaaf195be2322668b",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.23",
+      "price": 12480,
+      "sku": "f3968af58c3b4158950f353039bc62b0",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.3",
+      "price": 11055,
+      "sku": "84b1d936c0c641dc8c3bfac7ff77a18e",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.4",
+      "price": 11055,
+      "sku": "a255706e53994b68b254f3bf4b8eb1a4",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.5",
+      "price": 11055,
+      "sku": "71851845c9dc46fc9e2324ef1db61975",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.6",
+      "price": 11055,
+      "sku": "2360da7cd6274eacbe2598c3b23607fc",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.7",
+      "price": 11055,
+      "sku": "0e9422a2424f45759d9bc8e64cbdee6a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.8",
+      "price": 12840,
+      "sku": "5ce4017481374c1980c15dc90e488a76",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Triosol Unica 2 mit ABC Strahlern und Solevernebler, Sonderanfertigung",
+      "url": "https://shop-saunaloft.de/infrarotkabine-triosol-unica-2-mit-abc-strahlern-und-solevernebler-sonderanfertigung/390135.9",
+      "price": 12840,
+      "sku": "d911bf2cbf054dacafc03129e8e4584a",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Vario Natura 120 / 100 x 120 x 200 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-vario-natura-120-/-100-x-120-x-200-cm",
+      "price": 5199,
+      "sku": "962c4e788df24b7f8aa765d009b7f591",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Vario Natura 148 / 100 x 148 x 195",
+      "url": "https://shop-saunaloft.de/infrarotkabine-vario-natura-148-/-100-x-148-x-195",
+      "price": 5559,
+      "sku": "fa1cfff0c3cc48bc88806e91c11e1743",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine VitaMy 164 Basic / 164 x 120 x 202 cm",
+      "url": "https://shop-saunaloft.de/infrarotkabine-vitamy-164-basic-/-164-x-120-x-202-cm",
+      "price": 6099,
+      "sku": "6dd86aa2287848bd94eb3bb975602b03",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Windsor / 90 x 90 x 190",
+      "url": "https://shop-saunaloft.de/infrarotkabine-windsor-/-90-x-90-x-190",
+      "price": 1249,
+      "sku": "831d4925fe814c5eb6b47239ab84df8b",
+      "variant_hint": false
+    },
+    {
+      "name": "Infraworld Fusion Glas 145 Fichte,  Infrarotkabine mit Duo-Strahlersystem und Unicontrol",
+      "url": "https://shop-saunaloft.de/infraworld-fusion-glas-145-fichte-infrarotkabine-mit-duo-strahlersystem-und-unicontrol",
+      "price": 7012,
+      "sku": "2e96e44d7c2047a68e27ce8c29fb93b3",
+      "variant_hint": false
+    },
+    {
+      "name": "Infraworld Infrarotkabine Triosol Natura 120",
+      "url": "https://shop-saunaloft.de/infraworld-infrarotkabine-triosol-natura-120",
+      "price": 5799,
+      "sku": "7f01887e3484499195935c9e90479d82",
+      "variant_hint": false
+    },
+    {
+      "name": "Infraworld Infrarotkabine TrioSol Natura 148 Ecke / 148 x 122 x 200 cm",
+      "url": "https://shop-saunaloft.de/infraworld-infrarotkabine-triosol-natura-148-ecke-/-148-x-122-x-200-cm/390109.l",
+      "price": 6279,
+      "sku": "395302e204ab483198c12edc7ac581b5",
+      "variant_hint": false
+    },
+    {
+      "name": "Infraworld Infrarotkabine TrioSol Natura 148 Ecke / 148 x 122 x 200 cm",
+      "url": "https://shop-saunaloft.de/infraworld-infrarotkabine-triosol-natura-148-ecke-/-148-x-122-x-200-cm/390109.r",
+      "price": 6279,
+      "sku": "32dd66a821d943ad846465b76a52796e",
+      "variant_hint": false
+    },
+    {
+      "name": "Infraworld Infrarotkabine Vario Natura 103 inkl. 5-teiligem gratis Zubehörset",
+      "url": "https://shop-saunaloft.de/infraworld-infrarotkabine-vario-natura-103-inkl.-5-teiligem-gratis-zubehoerset",
+      "price": 4449,
+      "sku": "019c9949b4067765901b139a17e0c0ee",
+      "variant_hint": false
+    },
+    {
+      "name": "Innensauna Komfort Corner Large / 234 x 206 x 204 cm",
+      "url": "https://shop-saunaloft.de/innensauna-komfort-corner-large-/-234-x-206-x-204-cm/1-030-275.2",
+      "price": 4399,
+      "sku": "ec02b514026a43c1901ba4736d5bbff2",
+      "variant_hint": false
+    },
+    {
+      "name": "Innensauna Komfort Corner Large, inkl. 8kw Ofen",
+      "url": "https://shop-saunaloft.de/innensauna-komfort-corner-large-inkl.-8kw-ofen/1-030-275.1",
+      "price": 4849,
+      "sku": "e3186c34cba94dbdb9df9f495dcd6023",
+      "variant_hint": false
+    },
+    {
+      "name": "Innensauna Komfort Corner mit 8 kw Ofen / 206 x 206 x 204",
+      "url": "https://shop-saunaloft.de/innensauna-komfort-corner-mit-8-kw-ofen-/-206-x-206-x-204-/1-030-274.1",
+      "price": 5050,
+      "sku": "55327404e1d94de9bed60d02ea5b6c32",
+      "variant_hint": false
+    },
+    {
+      "name": "Innensauna Polaris Large  mit 8kw Ofen / 234 x 206 x 204",
+      "url": "https://shop-saunaloft.de/innensauna-polaris-large-mit-8kw-ofen-/-234-x-206-x-204-/1-030-277.1",
+      "price": 5299,
+      "sku": "25c923fd62a54f7e81ec45f7add97535",
+      "variant_hint": false
+    },
+    {
+      "name": "Innensauna Vantaa 150 mit Salzsteinen",
+      "url": "https://shop-saunaloft.de/innensauna-vantaa-150-mit-salzsteinen",
+      "price": 1549,
+      "sku": "8845d2ce5b174ef2a584949623525271",
+      "variant_hint": false
+    },
+    {
+      "name": "Innensauna Vantaa 175 mit Salzsteinen",
+      "url": "https://shop-saunaloft.de/innensauna-vantaa-175-mit-salzsteinen/32014.1",
+      "price": 1649,
+      "sku": "019f64923c9f70fe97b44ac7e1cfd3c4",
+      "variant_hint": false
+    },
+    {
+      "name": "Kombisauna Alaska Corner Infra+ mit Vollsprektrumstrahlern mit 8 kw Ofen / 206 x 206 x 204 cm",
+      "url": "https://shop-saunaloft.de/kombisauna-alaska-corner-infra-mit-vollsprektrumstrahlern-mit-8-kw-ofen-/-206-x-206-x-204-cm/1-030-267.1",
+      "price": 6239,
+      "sku": "d994db412ff1433ab97ca00682fc22d9",
+      "variant_hint": false
+    },
+    {
+      "name": "Kombisauna Alaska Mini Infra+ mit Vollspektrumstrahler mit einem 8kw Ofen / 160 x 110 x 204 cm",
+      "url": "https://shop-saunaloft.de/kombisauna-alaska-mini-infra-mit-vollspektrumstrahler-mit-einem-8kw-ofen-/-160-x-110-x-204-cm/1-030-245.1",
+      "price": 5199,
+      "sku": "f78576c68f48441eb434aafabb352d9f",
+      "variant_hint": false
+    },
+    {
+      "name": "Kombisauna Arktis Infra+ 234 x 206 x 204",
+      "url": "https://shop-saunaloft.de/kombisauna-arktis-infra-234-x-206-x-204-/arktis-ir-.2",
+      "price": 5995,
+      "sku": "2735bd549b5b41448ac397827db67408",
+      "variant_hint": false
+    },
+    {
+      "name": "Kombisauna Arktis Infra+ 234 x 206 x 204 cm",
+      "url": "https://shop-saunaloft.de/kombisauna-arktis-infra-234-x-206-x-204-cm/arktis-ir-.1",
+      "price": 6599,
+      "sku": "099fa4b7bbae440abd75df73938e736f",
+      "variant_hint": false
+    },
+    {
+      "name": "Kombisauna B1103A Hemlock 180x105 4.5kW TheWall Bi-O",
+      "url": "https://shop-saunaloft.de/kombisauna-b1103a-hemlock-180x105-4.5kw-thewall-bi-o",
+      "price": 5299,
+      "sku": "018b75cd2e717133a557ecfb5bebae7c",
+      "variant_hint": false
+    },
+    {
+      "name": "Kombisauna Infraworld Panorama Complete mit ABC-Strahler 210x162 cm",
+      "url": "https://shop-saunaloft.de/kombisauna-infraworld-panorama-complete-mit-abc-strahler-210x160-cm/391047.1",
+      "price": 5990,
+      "sku": "ea448e6f50224073ba9e03bbf3dc4f9a",
+      "variant_hint": false
+    },
+    {
+      "name": "Kombisauna mit Infrarotstrahlern Kotka / 200 x 150 cm",
+      "url": "https://shop-saunaloft.de/kombisauna-mit-infrarotstrahlern-kotka-/-200-x-150-cm",
+      "price": 2995,
+      "sku": "0192528de0d37844ad200e8ec7e6629a",
+      "variant_hint": false
+    },
+    {
+      "name": "Kombisauna und Infrarotkabine Alpha 2 mit Flächenstrahler, aus Hemlockholz, mit Ofen",
+      "url": "https://shop-saunaloft.de/kombisauna-und-infrarotkabine-alpha-2-mit-flaechenstrahler-aus-hemlockholz-mit-ofen/3b4",
+      "price": 2899,
+      "sku": "943ffdb8ab3147b882f75bd4217650af",
+      "variant_hint": false
+    },
+    {
+      "name": "Kombisauna und Infrarotkabine Alpha 2 mit Flächenstrahler, aus Hemlockholz, mit Ofen",
+      "url": "https://shop-saunaloft.de/kombisauna-und-infrarotkabine-alpha-2-mit-flaechenstrahler-aus-hemlockholz-mit-ofen/3b4.1",
+      "price": 2649,
+      "sku": "f1e4d18c5c724a0e9ea7b1ec520b9409",
+      "variant_hint": false
+    },
+    {
+      "name": "Kombisauna und Infrarotkabine Twincombi 130 x120x 200 cm",
+      "url": "https://shop-saunaloft.de/kombisauna-und-infrarotkabine-twincombi-130-x120x-200-cm",
+      "price": 1799,
+      "sku": "69370ad32a314e77b37832874878d05d",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholz-Sauna FINJA 180 x 180 cm",
+      "url": "https://shop-saunaloft.de/massivholz-sauna-finja-180-x-180-cm/sw101050",
+      "price": 3809,
+      "sku": "1624dabd97f2440a873bc4e40a3b8aee",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholz-Sauna LYA mit großer Glasfront 196x160 cm",
+      "url": "https://shop-saunaloft.de/massivholz-sauna-lya-mit-grosser-glasfront-196x160-cm/sw100720",
+      "price": 3999,
+      "sku": "0a3aef1a9ad44e9d88fb5f5b6090dc46",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna Espoo 4 Eck",
+      "url": "https://shop-saunaloft.de/massivholzsauna-espoo-4-eck/sw10070m.1",
+      "price": 3949,
+      "sku": "0191daf38e3e7283841176d95a36ee24",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna Espoo 4 Eck",
+      "url": "https://shop-saunaloft.de/massivholzsauna-espoo-4-eck/sw10070m.2",
+      "price": 3749,
+      "sku": "0191daf38e3e7283841176d95a975d55",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna Espoo 4 Eck",
+      "url": "https://shop-saunaloft.de/massivholzsauna-espoo-4-eck/sw10070m.3",
+      "price": 3599,
+      "sku": "0191daf38e3e7283841176d95b708bdb",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna Espoo 4 Eck",
+      "url": "https://shop-saunaloft.de/massivholzsauna-espoo-4-eck/sw10070m.4",
+      "price": 4099,
+      "sku": "0191daf38e3e7283841176d95b8fd0f4",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna Espoo 4 Eck",
+      "url": "https://shop-saunaloft.de/massivholzsauna-espoo-4-eck/sw10070m.5",
+      "price": 5199,
+      "sku": "0191daf38e3e7283841176d95ba58e49",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna Espoo 4 Eck",
+      "url": "https://shop-saunaloft.de/massivholzsauna-espoo-4-eck/sw10070m.6",
+      "price": 4999,
+      "sku": "0191daf38e3e7283841176d95ba5d194",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna Espoo 4 Eck",
+      "url": "https://shop-saunaloft.de/massivholzsauna-espoo-4-eck/sw10070m.7",
+      "price": 4800,
+      "sku": "0191daf38e3e7283841176d95c1d0f16",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna Espoo 4 Eck",
+      "url": "https://shop-saunaloft.de/massivholzsauna-espoo-4-eck/sw10070m.8",
+      "price": 5299,
+      "sku": "0191daf38e3e7283841176d95d1bc5d5",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Fasssauna Tromsö M für 2 Personen",
+      "url": "https://shop-saunaloft.de/fasssauna-tromsoe-180x180x188-cm-inkl.-ofen",
+      "price": 1949,
+      "sku": "018ba5bae48d74d0a8f0b799ff0cc1e8",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna B1103C Hemlock 120x105 4.5kW TheWall Bi-O, mit Steinwand",
+      "url": "https://shop-saunaloft.de/sauna-b1103c-hemlock-120x105-4.5kw-thewall-bi-o-mit-steinwand",
+      "price": 4299,
+      "sku": "018b75e8542c7079bada270db6b76b09",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna E1101B Hemlock 200x200 9kW Cilindro",
+      "url": "https://shop-saunaloft.de/sauna-e1101b-hemlock-200x200-9kw-cilindro/16608",
+      "price": 6999,
+      "sku": "7d7d17b1c4a54d7f9d14869fe1fea146",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna E1101B Hemlock 200x200 9kW Virta",
+      "url": "https://shop-saunaloft.de/sauna-e1101b-hemlock-200x200-9kw-virta/16591",
+      "price": 7899,
+      "sku": "8e1d7cbd5f734f6497e80b9e40de511d",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna E1113B Hemlock 150x105 mit 4.5kW The Wall Ofen",
+      "url": "https://shop-saunaloft.de/sauna-e1113b-hemlock-150x105-mit-4.5kw-the-wall-ofen/16657",
+      "price": 3699,
+      "sku": "125d5e53f2cb43c98a817ed91750588e",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna E1113B Hemlock 150x105 mit 6.8kW Harvia Cilindro Ofen",
+      "url": "https://shop-saunaloft.de/sauna-e1113b-hemlock-150x105-mit-6.8kw-harvia-cilindro-ofen/16628",
+      "price": 3999,
+      "sku": "bc68d14d43f84a8b9b34c5b6b74a3011",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna E1242C rote Zeder 180x180 9 kW EOS Cubo Ofen",
+      "url": "https://shop-saunaloft.de/sauna-e1242c-rote-zeder-180x180-9-kw-eos-cubo-ofen/13110",
+      "price": 10669,
+      "sku": "eb8f86c1bb5d40aa9b915dcfd42a1267",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Tofino 120cm x140 cm, mit Ofen",
+      "url": "https://shop-saunaloft.de/sauna-tofino-120cm-x140-cm-mit-ofen",
+      "price": 1899,
+      "sku": "0193da7c72e272d7b54a2f14f45687ac",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Anna 5-Eck nach Maß",
+      "url": "https://shop-saunaloft.de/saunakabine-anna-5-eck-nach-mass/-sw10094.1",
+      "price": 5269,
+      "sku": "a1ad9790f2a2497a985fd2effd9e4cd0",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Anna 5-Eck nach Maß",
+      "url": "https://shop-saunaloft.de/saunakabine-anna-5-eck-nach-mass/-sw10094.10",
+      "price": 5809,
+      "sku": "165e9b5ad1d2427b861de2904a8b5829",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Anna 5-Eck nach Maß",
+      "url": "https://shop-saunaloft.de/saunakabine-anna-5-eck-nach-mass/-sw10094.100",
+      "price": 5809,
+      "sku": "be5f54394fea42a39e25508d1ccde417",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Anna 5-Eck nach Maß",
+      "url": "https://shop-saunaloft.de/saunakabine-anna-5-eck-nach-mass/-sw10094.101",
+      "price": 5869,
+      "sku": "b037a64542b7486e9af176696da1e506",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Anna 5-Eck nach Maß",
+      "url": "https://shop-saunaloft.de/saunakabine-anna-5-eck-nach-mass/-sw10094.102",
+      "price": 5929,
+      "sku": "bc167706530f4330aa527d814d3a01c3",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Anna 5-Eck nach Maß",
+      "url": "https://shop-saunaloft.de/saunakabine-anna-5-eck-nach-mass/-sw10094.103",
+      "price": 5989,
+      "sku": "ec298ea7095c496d8fb8a3c2ab9a880b",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Anna 5-Eck nach Maß",
+      "url": "https://shop-saunaloft.de/saunakabine-anna-5-eck-nach-mass/-sw10094.104",
+      "price": 6049,
+      "sku": "fe096780b7944e6bace9368f7ff3eeb9",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Anna 5-Eck nach Maß",
+      "url": "https://shop-saunaloft.de/saunakabine-anna-5-eck-nach-mass/-sw10094.105",
+      "price": 6109,
+      "sku": "c32052b42a8d42668252176c2c5efaf3",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Anna 5-Eck nach Maß",
+      "url": "https://shop-saunaloft.de/saunakabine-anna-5-eck-nach-mass/-sw10094.106",
+      "price": 6169,
+      "sku": "0bddeba7f6ae46c090270ba2a24126b5",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Anna 5-Eck nach Maß",
+      "url": "https://shop-saunaloft.de/saunakabine-anna-5-eck-nach-mass/-sw10094.107",
+      "price": 6229,
+      "sku": "800b459d1cb9481f822c1c120374c01c",
+      "variant_hint": false
+    }
+  ]
+}
