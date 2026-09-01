@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T10:40:11.354Z",
+  "generated_at": "2026-09-01T19:55:23.104Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
   "products_total": 435,
-  "newly_matched_offers": 62,
+  "newly_matched_offers": 63,
   "active_affiliate_offers": 63,
   "targets": [
     {
@@ -14,13 +14,11 @@
       "advertiser_name": "Artsauna DE",
       "feed_id": "97646",
       "feed_name": "Default",
-      "feed_rows": 52,
+      "feed_rows": 50,
       "catalog_offers": 15,
-      "exact_matches": 14,
+      "exact_matches": 15,
       "invalid_tracking_links": 0,
-      "unmatched_product_ids": [
-        "artsauna-fjora-xl"
-      ]
+      "unmatched_product_ids": []
     },
     {
       "merchant_id": "home-deluxe",
@@ -40,7 +38,7 @@
       "advertiser_name": "Benz24 DE/AT",
       "feed_id": "43829",
       "feed_name": "BENZ24 Deutschland",
-      "feed_rows": 92061,
+      "feed_rows": 92070,
       "catalog_offers": 11,
       "exact_matches": 11,
       "invalid_tracking_links": 0,
@@ -55,6 +53,30 @@
       "feed_rows": 3650,
       "catalog_offers": 3,
       "exact_matches": 3,
+      "invalid_tracking_links": 0,
+      "unmatched_product_ids": []
+    },
+    {
+      "merchant_id": "saunaloft",
+      "advertiser_id": "25645",
+      "advertiser_name": "Saunaloft DE",
+      "feed_id": "83153",
+      "feed_name": "awinfeed.csv",
+      "feed_rows": 4033,
+      "catalog_offers": 0,
+      "exact_matches": 0,
+      "invalid_tracking_links": 0,
+      "unmatched_product_ids": []
+    },
+    {
+      "merchant_id": "gartenhausfabrik",
+      "advertiser_id": "76696",
+      "advertiser_name": "Gartenhausfabrik DE",
+      "feed_id": "92070",
+      "feed_name": "Default",
+      "feed_rows": 10424,
+      "catalog_offers": 0,
+      "exact_matches": 0,
       "invalid_tracking_links": 0,
       "unmatched_product_ids": []
     }
