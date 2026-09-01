@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "policy_updated_at": "2026-08-30",
-  "generated_from_products_updated_at": "2026-08-30",
+  "generated_from_products_updated_at": "2026-09-01",
   "summary": {
-    "total_verified_products": 435,
-    "index": 215,
+    "total_verified_products": 442,
+    "index": 222,
     "noindex": 220,
     "categories": {
       "indoor": {
-        "total": 213,
-        "index": 71,
+        "total": 214,
+        "index": 72,
         "noindex": 142
       },
       "infrared": {
@@ -18,8 +18,8 @@
         "noindex": 13
       },
       "outdoor": {
-        "total": 130,
-        "index": 65,
+        "total": 136,
+        "index": 71,
         "noindex": 65
       },
       "tent": {
@@ -625,6 +625,102 @@
       "reasons": [
         "high-editorial-repetition",
         "insufficient-distinct-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-kombisauna-luxe-micro-kombi",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 11,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fasssauna-cubus-2",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 9,
+        "frequent_editorial_point_count": 1,
+        "frequent_editorial_share": 0.0833
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fasssauna-cubus-3",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 11,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-mini-fasssauna-cubus-1",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 9,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-saunahaus-arcos-m",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 11,
+        "frequent_editorial_point_count": 1,
+        "frequent_editorial_share": 0.0833
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-saunahaus-arcos-s",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 12,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
       ]
     },
     {
@@ -5895,6 +5991,22 @@
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "saunaloft-tyla-144-5x130",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 11,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
       ]
     },
     {
