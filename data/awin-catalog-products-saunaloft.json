@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T20:33:26.925Z",
+  "generated_at": "2026-09-02T11:17:58.556Z",
   "source": "Awin authenticated Saunaloft DE product feed",
   "secret_included": false,
   "selection_policy": "Sauna-relevante Einzel-URLs ohne Zubehör; Variantenhinweise werden markiert und nicht automatisch in data/products.json übernommen.",
