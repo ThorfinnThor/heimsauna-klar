@@ -7,10 +7,9 @@
   "source_http_status": "Alle 50 Quellseiten antworteten mit HTTP 200. Das bestätigt nur die Erreichbarkeit, nicht die Vollständigkeit der Produktdaten.",
   "readiness_rule": "Importbereit bedeutet hier: eindeutige Produktseite bzw. eindeutige Variante, Maße inklusive Höhe, Personenangabe, belegte Sitz-/Liegeausstattung, Holzart sowie ein klarer Ofen- und Anschlussstatus. Preis und Verfügbarkeit werden beim Import nochmals aus dem aktuellen Feed geprüft.",
   "products_total_before": 450,
-  "ready_count": 27,
-  "needs_source_review_count": 23,
+  "ready_count": 26,
+  "needs_source_review_count": 24,
   "ready_for_manual_import": [
-    {"candidate_id":"awin-gartenhausfabrik-04","name":"Fjordholz Design Saunahaus Modell Relax","reason":"Maße, Höhe, Fichtenholz, drei Saunaliegen und Lieferung ohne Ofen sind belegt; Kapazität ist auf der Quelle vorhanden."},
     {"candidate_id":"awin-gartenhausfabrik-05","name":"Fjordholz Design Saunahaus Modell Siiri Premium","reason":"Maße, Höhe, Fichte, zwei Bänke, Kapazität 1–2 Personen und Lieferung ohne Ofen sind belegt."},
     {"candidate_id":"awin-gartenhausfabrik-06","name":"Fjordholz Design-Saunahaus Modell Paradiso Black E","reason":"Innen- und Außenmaße, Höhe, obere/untere Bank, Fichte, Kapazität 3–4 Personen und Lieferung ohne Ofen sind belegt."},
     {"candidate_id":"awin-gartenhausfabrik-07","name":"Fjordholz Fass-Sauna Jonte","reason":"Variantenspezifische Maße für Holzofen/Elektroofen, Kapazität 4–6 Personen, zwei Liegen und die beiden Ofenoptionen sind ausdrücklich beschrieben."},
@@ -39,6 +38,7 @@
     {"candidate_id":"awin-saunaloft-25","name":"Finnische Sauna Riga mit Ofen 150 x 120 cm","reason":"Innen- und Außenmaße, bis 3 Personen, Sitzfläche, Hemlockholz, 4,5-kW-Harvia-Ofen und Anschlussvarianten sind belegt."}
   ],
   "needs_source_review": [
+    {"candidate_id":"awin-gartenhausfabrik-04","name":"Fjordholz Design Saunahaus Modell Relax","reason":"Maße, Höhe, Fichtenholz und drei Saunaliegen sind belegt, aber eine eindeutige Kapazitätsangabe fehlt auf der Produktseite."},
     {"candidate_id":"awin-gartenhausfabrik-01","name":"Fjordholz 5-Eck Saunahaus Modell Mari 44 A","reason":"Maße, Fichte und drei Bänke sind belegt, aber eine eindeutige Kapazität/Personenangabe fehlt auf der Produktseite."},
     {"candidate_id":"awin-gartenhausfabrik-02","name":"Fjordholz 5-Eck Saunahaus Modell Mari 44 B","reason":"Maße, Fichte und drei Bänke sind belegt, aber eine eindeutige Kapazität/Personenangabe fehlt auf der Produktseite."},
     {"candidate_id":"awin-gartenhausfabrik-03","name":"Fjordholz Design Saunahaus Modell Kalle XL","reason":"Maße und Kapazität 3–4 Personen sind belegt, die Seite beschreibt die Bänke jedoch ohne belastbare Sitz-/Liegeaufteilung."},
@@ -63,6 +63,6 @@
     {"candidate_id":"awin-saunaloft-11","name":"Fasssauna Princeton aus Zedernholz","reason":"Maße, sechs Personen, Zedernholz und 8-kW-/220-V-Technik sind belegt, die Sitz-/Liegeaufteilung fehlt in der Quelle."},
     {"candidate_id":"awin-saunaloft-20","name":"Finnische Sauna E1801A aus Pinienholz inkl. 8-kW-Harvia Vega / 180 x 180 cm","reason":"Die Feed-Bezeichnung E1801A widerspricht der strukturierten Händlerbeschreibung, die E1805 nennt und eine andere Kapazität ausweist. Vor einem Import muss die konkrete SKU geklärt werden."}
   ],
-  "catalog_effect": "Dieser Prüfbericht fügt keine öffentlichen Produktdatensätze hinzu. Der Katalog bleibt bei 450 verifizierten Produkten, bis die 27 geeigneten Kandidaten manuell in products.json übernommen und erneut validiert wurden.",
-  "next_action": "Luna kann die 27 als importbereit markierten Kandidaten in einem kontrollierten Import ergänzen. Danach soll Sol den Import, die Affiliate-Zuordnung, Preise, Quelllinks und die Finder-Kombinationen abnehmen. Die 23 Review-Fälle bleiben bis zur Klärung in der internen Queue."
+  "catalog_effect": "Dieser Prüfbericht fügt keine öffentlichen Produktdatensätze hinzu. Der Katalog bleibt bei 450 verifizierten Produkten, bis die 26 geeigneten Kandidaten manuell in products.json übernommen und erneut validiert wurden.",
+  "next_action": "Luna kann die 26 als importbereit markierten Kandidaten in einem kontrollierten Import ergänzen. Danach soll Sol den Import, die Affiliate-Zuordnung, Preise, Quelllinks und die Finder-Kombinationen abnehmen. Die 24 Review-Fälle bleiben bis zur Klärung in der internen Queue."
 }
