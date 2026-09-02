@@ -1,0 +1,441 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-02T11:14:19.963Z",
+  "source": "Awin authenticated Artsauna DE product feed",
+  "secret_included": false,
+  "selection_policy": "Sauna-relevante Einzel-URLs ohne Zubehör; Variantenhinweise werden markiert und nicht automatisch in data/products.json übernommen.",
+  "advertiser_id": "106021",
+  "advertiser_name": "Artsauna DE",
+  "feed_id": "97646",
+  "feed_name": "Default",
+  "feed_rows": 50,
+  "sauna_relevant_rows": 48,
+  "products_returned": 48,
+  "products": [
+    {
+      "name": "Cube Fasssauna Fjora L",
+      "url": "https://artsauna.de/products/fasssauna-quadratisch-fjora",
+      "brand": "Artsauna Shop",
+      "category": "House Accessories",
+      "price": 2999,
+      "sku": "301844",
+      "variant_hint": false
+    },
+    {
+      "name": "Cube Fasssauna Fjora M",
+      "url": "https://artsauna.de/products/cube-fasssauna-fjora-m",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 2499,
+      "sku": "302651",
+      "variant_hint": false
+    },
+    {
+      "name": "Cube Fasssauna Fjora XL",
+      "url": "https://artsauna.de/products/cube-fasssauna-fjora-xl",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 3499,
+      "sku": "302652",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna quadratisch Nolvik L",
+      "url": "https://artsauna.de/products/fasssauna-quadratisch-nolvik-l",
+      "brand": "Artsauna Shop",
+      "category": "House Accessories",
+      "price": 2499,
+      "sku": "301843",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna quadratisch Nolvik M",
+      "url": "https://artsauna.de/products/fasssauna-quadratisch-nolvik-m",
+      "brand": "Artsauna Shop",
+      "category": "House Accessories",
+      "price": 1999,
+      "sku": "301842",
+      "variant_hint": false
+    },
+    {
+      "name": "Indoor Sauna Vantaa 120 - Salzstein",
+      "url": "https://artsauna.de/products/indoor-sauna-vantaa-120-salzstein",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 1499,
+      "sku": "32021",
+      "variant_hint": false
+    },
+    {
+      "name": "Indoor Sauna Vantaa 120 - Salzstein",
+      "url": "https://artsauna.de/products/indoor-sauna-vantaa-120-salzstein-schwarz",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1499,
+      "sku": "32012",
+      "variant_hint": false
+    },
+    {
+      "name": "Indoor Sauna Vantaa 150 - Salzstein",
+      "url": "https://artsauna.de/products/indoor-sauna-vantaa-150-salzstein",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 1699,
+      "sku": "32022",
+      "variant_hint": false
+    },
+    {
+      "name": "Indoor Sauna Vantaa 150 - Salzstein",
+      "url": "https://artsauna.de/products/indoor-sauna-vantaa-150-salzstein-schwarz",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1699,
+      "sku": "32013",
+      "variant_hint": false
+    },
+    {
+      "name": "Indoor Sauna Vantaa 160 - Salzstein",
+      "url": "https://artsauna.de/products/indoor-sauna-vantaa-160-salzstein",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 1999,
+      "sku": "32024",
+      "variant_hint": false
+    },
+    {
+      "name": "Indoor Sauna Vantaa 160 - Salzstein",
+      "url": "https://artsauna.de/products/indoor-sauna-vantaa-160-salzstein-schwarz",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 1999,
+      "sku": "32015",
+      "variant_hint": false
+    },
+    {
+      "name": "Indoor Sauna Vantaa 175 - Salzstein",
+      "url": "https://artsauna.de/products/indoor-sauna-vantaa-175-salzstein",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 1999,
+      "sku": "32023",
+      "variant_hint": false
+    },
+    {
+      "name": "Indoor Sauna Vantaa 200 - Salzstein",
+      "url": "https://artsauna.de/products/indoor-sauna-vantaa-200-salzstein",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 2499,
+      "sku": "32025",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Aalborg",
+      "url": "https://artsauna.de/products/infrarotkabine-warmekabine-aalborg-mit-triplex-heizsystem-hemlockholz",
+      "brand": "Artsauna",
+      "price": 1699,
+      "sku": "30635",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Aarhus 140",
+      "url": "https://artsauna.de/products/infrarotsauna-aarhus140",
+      "brand": "Artsauna Shop",
+      "price": 2199,
+      "sku": "302631",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Bergen 115",
+      "url": "https://artsauna.de/products/infrarotkabine-bergen115",
+      "brand": "Artsauna Shop",
+      "price": 1499,
+      "sku": "302621",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Billund",
+      "url": "https://artsauna.de/products/infrarotkabine-billund-mit-dual-heizsystem",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 2799,
+      "sku": "30227",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Esbjerg",
+      "url": "https://artsauna.de/products/infrarotkabine-warmekabine-esbjerg-mit-triplex-heizsystem-hemlockholz",
+      "brand": "Artsauna",
+      "price": 1999,
+      "sku": "30602",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Göteborg 120",
+      "url": "https://artsauna.de/products/infrarotkabine-goteborg-120",
+      "brand": "Artsauna Shop",
+      "category": "House Accessories",
+      "price": 1299,
+      "sku": "302112",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Göteborg 90",
+      "url": "https://artsauna.de/products/infrarotkabine-goeteborg-90",
+      "brand": "Artsauna Shop",
+      "category": "House Accessories",
+      "price": 949.99,
+      "sku": "302111",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Helsinki 150",
+      "url": "https://artsauna.de/products/infrarotkabine-warmekabine-helsinki-150-mit-triplex-heizsystem-hemlockholz",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1899,
+      "sku": "30611",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kiruna 120",
+      "url": "https://artsauna.de/products/infrarotkabine-kiruna-120",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1149,
+      "sku": "30753",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kiruna 130 Premium",
+      "url": "https://artsauna.de/products/infrarotkabine-kiruna130-premium",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1999,
+      "sku": "30772",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kiruna 150",
+      "url": "https://artsauna.de/products/infrarotkabine-kiruna-150",
+      "brand": "Artsauna Shop",
+      "category": "House Accessories",
+      "price": 1699,
+      "sku": "30754",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kiruna 160",
+      "url": "https://artsauna.de/products/infrarotkabine-kiruna160-mit-dual-technologie",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1499,
+      "sku": "30757",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kiruna 90",
+      "url": "https://artsauna.de/products/infrarotkabine-kiruna90-mit-dual-technologie",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1049,
+      "sku": "30756",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kiruna 90 Premium",
+      "url": "https://artsauna.de/products/infrarotkabine-kiruna90-premium",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1699,
+      "sku": "30771",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Kolding",
+      "url": "https://artsauna.de/products/infrarotkabine-warmekabine-kolding-mit-triplex-heizsystem-hemlockholz",
+      "brand": "Artsauna",
+      "price": 1999,
+      "sku": "30601",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Malmö 140",
+      "url": "https://artsauna.de/products/infrarotkabine-malmo140-natur",
+      "brand": "Artsauna Shop",
+      "price": 2499,
+      "sku": "302642",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Nyborg E150K",
+      "url": "https://artsauna.de/products/infrarotkabine-warmekabine-nyborg-e150k-mit-keramik-flachenstrahler-hemlockholz",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1499,
+      "sku": "30151",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Nyborg E150V",
+      "url": "https://artsauna.de/products/infrarotkabine-warmekabine-nyborg-e150v",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1599,
+      "sku": "30751",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Nyborg S120K",
+      "url": "https://artsauna.de/products/infrarotkabine-nyborg-s120k",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1099,
+      "sku": "30152",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Nyborg S120V",
+      "url": "https://artsauna.de/products/infrarotkabine-nyborg-s120v",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1199,
+      "sku": "30752",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Nyborg S90V",
+      "url": "https://artsauna.de/products/infrarotkabine-nyborg-s90v",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1049,
+      "sku": "30755",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Oslo mit Keramikstrahler",
+      "url": "https://artsauna.de/products/infrarotkabine-warmekabine-oslo-mit-keramikstrahlern-hemlockholz-1",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1139,
+      "sku": "30102",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Oslo mit Triplex-Heizsystem",
+      "url": "https://artsauna.de/products/infrarotkabine-warmekabine-oslo-mit-triplex-heizsystem",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1299,
+      "sku": "30652",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Oslo mit Vollspektrumstrahler",
+      "url": "https://artsauna.de/products/infrarotkabine-warmekabine-oslo-mit-vollspektrumstrahlern-hemlockholz",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1199,
+      "sku": "30702",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Trondheim 120",
+      "url": "https://artsauna.de/products/infrarotkabine-trondheim-120-natur-neu",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 1399,
+      "sku": "302614",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Trondheim 90",
+      "url": "https://artsauna.de/products/infrarotkabine-trondheim-90-natur",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 1299,
+      "sku": "302612",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Fasssauna Spitzbergen 120",
+      "url": "https://artsauna.de/products/outdoor-fasssauna-spitzbergen-120",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1799,
+      "sku": "32208",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Fasssauna Spitzbergen 180",
+      "url": "https://artsauna.de/products/fasssauna-spitzbergen-180-cm-fur-4-personen-mit-6-kw-saunaofen",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 2199,
+      "sku": "32209",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Sauna Visby180",
+      "url": "https://artsauna.de/products/outdoor-sauna-visby180",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "Garden & Leisure",
+      "price": 4299,
+      "sku": "302761801",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Sauna Visby300",
+      "url": "https://artsauna.de/products/outdoor-sauna-visby300",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "Garden & Leisure",
+      "price": 5899,
+      "sku": "302762802",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunakabine Espoo150 Premium",
+      "url": "https://artsauna.de/products/indoor-sauna-espoo-150-premium-6-kw",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1899,
+      "sku": "32009",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Helsinki 150 - Schwarz",
+      "url": "https://artsauna.de/products/infrarotkabine-helsinki-150-mit-dual-technology-schwarz",
+      "brand": "Artsauna",
+      "category": "House Accessories",
+      "price": 1799,
+      "sku": "30612",
+      "variant_hint": true
+    },
+    {
+      "name": "Infrarotkabine Malmö 140 - Schwarz",
+      "url": "https://artsauna.de/products/infrarotkabine-malmo140-schwarz",
+      "brand": "Artsauna Shop",
+      "price": 2499,
+      "sku": "302641",
+      "variant_hint": true
+    },
+    {
+      "name": "Infrarotkabine Trondheim 120 - Schwarz",
+      "url": "https://artsauna.de/products/infrarotkabine-trondheim-120",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 1399,
+      "sku": "302613",
+      "variant_hint": true
+    },
+    {
+      "name": "Infrarotkabine Trondheim 90 - Schwarz",
+      "url": "https://artsauna.de/products/infrarotkabine-trondheim-90",
+      "brand": "Artsauna - Juskys Gruppe GmbH",
+      "category": "House Accessories",
+      "price": 1299,
+      "sku": "302611",
+      "variant_hint": true
+    }
+  ]
+}
