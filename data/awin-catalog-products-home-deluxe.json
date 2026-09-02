@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-02T11:15:45.823Z",
+  "source": "Awin authenticated Home Deluxe DE product feed",
+  "secret_included": false,
+  "selection_policy": "Sauna-relevante Einzel-URLs ohne Zubehör; Variantenhinweise werden markiert und nicht automatisch in data/products.json übernommen.",
+  "advertiser_id": "43199",
+  "advertiser_name": "Home Deluxe DE",
+  "feed_id": "84368",
+  "feed_name": "Default",
+  "feed_rows": 4359,
+  "sauna_relevant_rows": 56,
+  "products_returned": 56,
+  "products": [
+    {
+      "name": "Gartensauna HYGGE DELUXE - 230 cm x 220 cm für 4-6 Personen",
+      "url": "https://homedeluxe.de/gartensauna-hygge-deluxe_27591_71857",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 4299,
+      "sku": "71857",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine mit Vollspektrumstrahler REDSUN M - 120 x 105 cm für 2 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-m-mit-vollspektrumstrahler_8028_6195",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1049,
+      "sku": "6195",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine mit Vollspektrumstrahler SAHARA L - 150 x 120 cm für 3 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-sahara-l-mit-vollspektrumstrahler_9229_7362",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1499,
+      "sku": "7362",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine mit Vollspektrumstrahler SAHARA XXL - 150 x 150 cm für 4 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-sahara-xxl-mit-vollspektrumstrahler_9233_7366",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1699,
+      "sku": "7366",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine NERO L - 190 x 153 cm für 3 Personen",
+      "url": "https://homedeluxe.de/saunen-infrarotkabinen/infrarotkabinen/infrarotkabine-nero_29878_75375",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1549,
+      "sku": "75375",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine NERO M - 190 x 120 cm für 2 Personen",
+      "url": "https://homedeluxe.de/saunen-infrarotkabinen/infrarotkabinen/infrarotkabine-nero_29878_75374",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1348.9999,
+      "sku": "75374",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine NERO S - 190 x 90 cm für 1 Person",
+      "url": "https://homedeluxe.de/saunen-infrarotkabinen/infrarotkabinen/infrarotkabine-nero_29878_75373",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1199,
+      "sku": "75373",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine NERO XL - 190 x 155 cm für 3 Personen",
+      "url": "https://homedeluxe.de/saunen-infrarotkabinen/infrarotkabinen/infrarotkabine-nero_29878_75376",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1749,
+      "sku": "75376",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine NERO XXL - 190 x 150 cm für 4-6 Personen",
+      "url": "https://homedeluxe.de/saunen-infrarotkabinen/infrarotkabinen/infrarotkabine-nero_29878_75377",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1949,
+      "sku": "75377",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine REDSUN DELUXE L - 153 x 110 cm für 3 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-deluxe-l_14926_23358",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1549,
+      "sku": "23358",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine REDSUN DELUXE M - 120 x 105 cm für 2 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-deluxe-m_14914_23346",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1149,
+      "sku": "23346",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine REDSUN DELUXE PLUS M - 120 x 105 cm für 2 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-deluxe-plus-m_14922_23354",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1199,
+      "sku": "23354",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine REDSUN DELUXE S - 90 x 90 cm für 1 Person",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-deluxe-s_14918_23350",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1099,
+      "sku": "23350",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine REDSUN DELUXE XL - 155 x 120 cm für 3 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-deluxe-xl_14930_23362",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1599,
+      "sku": "23362",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine REDSUN DELUXE XXL - 150 x 150 cm für 4 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-deluxe-xxl_14934_23366",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1749,
+      "sku": "23366",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine REDSUN L - 153 x 110 cm für 3 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-l_2741_1387",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1449,
+      "sku": "1387",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine REDSUN M - 120 x 105 cm für 2 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-m_2056_1138",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 999,
+      "sku": "1138",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine REDSUN S - 90 x 90 cm für 1 Person",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-s_2985_1567",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 899,
+      "sku": "1567",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine REDSUN XXL - 150 x 150 cm für 4 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-redsun-xxl_2742_1388",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1149,
+      "sku": "1388",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine SONORA M - 135 x 105 cm für 2 Personen",
+      "url": "https://homedeluxe.de/infrarotkabine-sonora-m_20324_49241",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1349,
+      "sku": "49241",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine SONORA S - 90 x 90 cm für 1 Person",
+      "url": "https://homedeluxe.de/infrarotkabine-sonora-s_20323_49240",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1099,
+      "sku": "49240",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Fasssauna LAHTI / TALO - Dachschindel - 101 cm",
+      "url": "https://homedeluxe.de/outdoor-fasssauna-lahti/talo-dachschindeln-variantenauswahl_19676_40557",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 16,
+      "sku": "40557",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Fasssauna LAHTI / TALO - Dachschindel - 50,5 cm",
+      "url": "https://homedeluxe.de/outdoor-fasssauna-lahti/talo-dachschindeln-variantenauswahl_19676_40558",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 12,
+      "sku": "40558",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Fasssauna LAHTI DELUXE L - 195 x 220 cm für 4 Personen",
+      "url": "https://homedeluxe.de/outdoor-fasssauna-lahti-deluxe-l_20005_48670",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 2499,
+      "sku": "48670",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Fasssauna LAHTI L - 195 x 180 cm für 4 Personen",
+      "url": "https://homedeluxe.de/outdoor-fasssauna-lahti-l_17291_32802",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 2199,
+      "sku": "32802",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Fasssauna LAHTI M - 195 x 120 cm für 2 Personen",
+      "url": "https://homedeluxe.de/outdoor-fasssauna-lahti-m_17289_32798",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 1899,
+      "sku": "32798",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Fasssauna LAHTI XL - 189 x 191,5 x 220cm für 4 Personen",
+      "url": "https://homedeluxe.de/outdoor-fasssauna-lahti-xl_20004_48669",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 2599,
+      "sku": "48669",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Sauna CUBE DELUXE L - 194 x 220 cm für 4 Personen",
+      "url": "https://homedeluxe.de/outdoor-sauna-cube-deluxe-l_21974_55739",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 2599,
+      "sku": "55739",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Sauna CUBE L - 194 x 180 cm für 4 Personen",
+      "url": "https://homedeluxe.de/outdoor-sauna-cube-l_21972_55737",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 2299,
+      "sku": "55737",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Sauna CUBE M - 194 x 120 cm für 2 Personen",
+      "url": "https://homedeluxe.de/outdoor-sauna-cube-m_21970_55735",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 1999,
+      "sku": "55735",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Sauna CUBE S - 194 x 120 cm für 2 Personen",
+      "url": "https://homedeluxe.de/outdoor-sauna-cube-s_27569_71773",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 1699,
+      "sku": "71773",
+      "variant_hint": false
+    },
+    {
+      "name": "Outdoor Sauna CUBE XL - 194 x 220 cm für 6 Personen",
+      "url": "https://homedeluxe.de/outdoor-sauna-cube-xl_21482_51137",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 2799,
+      "sku": "51137",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Kopfkissen Nackenstütze SERI",
+      "url": "https://homedeluxe.de/sauna-kopfkissen-nackenstuetze-seri_3147_1689",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 39,
+      "sku": "1689",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Rückenlehne VITA",
+      "url": "https://homedeluxe.de/sauna-rueckenlehne-vita_8007_6174",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 39,
+      "sku": "6174",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Rückenlehne VITA - 2 Stück",
+      "url": "https://homedeluxe.de/sauna-rueckenlehne-vita-2-stueck_9546_7666",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 59,
+      "sku": "7666",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus Outdoor mit Vorraum TALO XL - 400 x 217 cm für 5 Personen",
+      "url": "https://homedeluxe.de/saunahaus-talo-xl_20463_49390",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 3999,
+      "sku": "49390",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus Outdoor TALO L - 221 x 217 cm für 4 Personen",
+      "url": "https://homedeluxe.de/saunahaus-talo-l_20462_49389",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 2499,
+      "sku": "49389",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus Outdoor TALO M - 191 x 157 cm für 2 Personen",
+      "url": "https://homedeluxe.de/saunahaus-talo-m_20461_49388",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 1999,
+      "sku": "49388",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna ARUNA - 100 x 190 cm für 1-2 Personen",
+      "url": "https://homedeluxe.de/saunen-infrarotkabinen/indoor-saunen/traditionelle-sauna-aruna-s_29343_74636",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1349,
+      "sku": "74636",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna ARUNA - 130 x 190 cm für 1-2 Personen",
+      "url": "https://homedeluxe.de/saunen-infrarotkabinen/indoor-saunen/traditionelle-sauna-aruna-m_29348_74637",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1399.0001,
+      "sku": "74637",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna ARUNA - 130 x 190 cm für 2-3 Personen",
+      "url": "https://homedeluxe.de/saunen-infrarotkabinen/indoor-saunen/traditionelle-sauna-aruna-l_29353_74638",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1599,
+      "sku": "74638",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna mit Kunststeinwand SKYLINE BIG XL - 200 x 200 cm für 6 Personen",
+      "url": "https://homedeluxe.de/traditionelle-sauna-skyline-big-xl-mit-kunststeinwand_8621_6767",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 3199,
+      "sku": "6767",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna NEOLA - 200 x 160 cm für 5 Personen",
+      "url": "https://homedeluxe.de/traditionelle-sauna-neola_20427_49344",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 3999,
+      "sku": "49344",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna OMAHA - 180 x 150 cm für 4 Personen",
+      "url": "https://homedeluxe.de/traditionelle-sauna-omaha_20416_49333",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 2999,
+      "sku": "49333",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna SHADOW L - 150 x 120 cm für 3 Personen",
+      "url": "https://homedeluxe.de/traditionelle-sauna-shadow-l_20336_49253",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1899,
+      "sku": "49253",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna SHADOW M - 120 x 120 cm für 2 Personen",
+      "url": "https://homedeluxe.de/traditionelle-sauna-shadow-m_20331_49248",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 1699,
+      "sku": "49248",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna SHADOW XL - 200 x 150 cm für 5 Personen",
+      "url": "https://homedeluxe.de/traditionelle-sauna-shadow-xl_20342_49259",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 2399,
+      "sku": "49259",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna SHADOW XL BIG - 200 x 200 cm für 6 Personen",
+      "url": "https://homedeluxe.de/traditionelle-sauna-shadow-xl-big_20588_49577",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 2999,
+      "sku": "49577",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna SKYLINE BIG XL - 200 x 200 cm für 6 Personen",
+      "url": "https://homedeluxe.de/traditionelle-sauna-skyline-big-xl_2982_1565",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 2899,
+      "sku": "1565",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna SKYLINE L - 150 x 120 cm für 3 Personen",
+      "url": "https://homedeluxe.de/traditionelle-sauna-skyline-l_2987_1569",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1799,
+      "sku": "1569",
+      "variant_hint": false
+    },
+    {
+      "name": "Traditionelle Sauna SKYLINE XL - 150 x 150 cm für 3 Personen",
+      "url": "https://homedeluxe.de/traditionelle-sauna-skyline-xl_7220_5443",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 1999,
+      "sku": "5443",
+      "variant_hint": false
+    },
+    {
+      "name": "2er Set Home Deluxe Sauna Handtuch - 80 x 200 cm",
+      "url": "https://homedeluxe.de/2er-set-home-deluxe-sauna-handtuch-80-x-200-cm_21416_51028",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 19,
+      "sku": "51028",
+      "variant_hint": true
+    },
+    {
+      "name": "4er Set Home Deluxe Sauna Handtuch - 80 x 200 cm",
+      "url": "https://homedeluxe.de/4er-set-home-deluxe-sauna-handtuch-80-x-200-cm_21417_51029",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 39,
+      "sku": "51029",
+      "variant_hint": true
+    },
+    {
+      "name": "Fasssauna mit Holzofen LAGOM DELUXE - ⌀ 210 x 240 cm für 4-6 Personen",
+      "url": "https://homedeluxe.de/fasssauna-mit-holzofen-lagom-deluxe_27593_71858",
+      "brand": "Home Deluxe",
+      "category": "Garden Tools",
+      "price": 4999,
+      "sku": "71858",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna-Set Bademantel und Handtücher NOA L",
+      "url": "https://homedeluxe.de/sauna-set-noa_20572_49536",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 54,
+      "sku": "49536",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna-Set Bademantel und Handtücher NOA M",
+      "url": "https://homedeluxe.de/sauna-set-noa_20572_49535",
+      "brand": "Home Deluxe",
+      "category": "House Accessories",
+      "price": 54,
+      "sku": "49535",
+      "variant_hint": true
+    }
+  ]
+}
