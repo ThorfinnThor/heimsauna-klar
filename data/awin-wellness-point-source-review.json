@@ -10,6 +10,8 @@
     "feed_candidates": 21,
     "reachable_pages": 20,
     "held_pages": 1,
+    "ready_for_structured_draft": 17,
+    "manual_review_required": 3,
     "public_catalog_change": 0
   },
   "entries": [
@@ -26,11 +28,11 @@
     {"candidate_id":"awin-wellness-point-11","name":"Infrarotkabine Göteborg","url":"https://wellness-point.com/produkte/detail/infrarotkabine_goeteborg.html","sku":"465","feed_price_eur":1849,"page_status":200,"review_state":"source-reachable"},
     {"candidate_id":"awin-wellness-point-12","name":"Infrarotkabine Helsinki Alpha","url":"https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_alpha.html","sku":"61","feed_price_eur":1799,"page_status":404,"review_state":"hold","blocker":"Feed-URL liefert aktuell 404; keine Veröffentlichung."},
     {"candidate_id":"awin-wellness-point-13","name":"Infrarotkabine Helsinki Beta","url":"https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_beta.html","sku":"62","feed_price_eur":2099,"page_status":200,"review_state":"source-reachable"},
-    {"candidate_id":"awin-wellness-point-14","name":"Infrarotkabine Malmö","url":"https://wellness-point.com/produkte/detail/infrarotkabine_malmoe.html","sku":"97","feed_price_eur":1549,"page_status":200,"review_state":"source-reachable","note":"Personenangabe und Leistungsangabe vor Veröffentlichung gegen die Produktseite abgleichen."},
+    {"candidate_id":"awin-wellness-point-14","name":"Infrarotkabine Malmö","url":"https://wellness-point.com/produkte/detail/infrarotkabine_malmoe.html","sku":"97","feed_price_eur":1549,"page_status":200,"review_state":"manual-review","blocker":"Die Händlerseite nennt widersprüchliche Personen- und Leistungsangaben; vor Veröffentlichung eindeutig klären."},
     {"candidate_id":"awin-wellness-point-15","name":"Infrarotkabine Oslo","url":"https://wellness-point.com/produkte/detail/infrarotkabine_oslo.html","sku":"18","feed_price_eur":1399,"page_status":200,"review_state":"source-reachable"},
     {"candidate_id":"awin-wellness-point-16","name":"Infrarotkabine Stockholm","url":"https://wellness-point.com/produkte/detail/infrarotkabine_stockholm.html","sku":"79","feed_price_eur":1299,"page_status":200,"review_state":"source-reachable"},
-    {"candidate_id":"awin-wellness-point-17","name":"Infrarotkabine Toronto","url":"https://wellness-point.com/produkte/detail/infrarotkabine_toronto.html","sku":"20","feed_price_eur":2099,"page_status":200,"review_state":"source-reachable","note":"Nicht-rechteckiger Grundriss muss separat strukturiert werden."},
-    {"candidate_id":"awin-wellness-point-18","name":"Infrarotkabine Trondheim","url":"https://wellness-point.com/produkte/detail/infrarotkabine_trondheim.html","sku":"9","feed_price_eur":1699,"page_status":200,"review_state":"source-reachable","note":"Nicht-rechteckiger Grundriss muss separat strukturiert werden."},
+    {"candidate_id":"awin-wellness-point-17","name":"Infrarotkabine Toronto","url":"https://wellness-point.com/produkte/detail/infrarotkabine_toronto.html","sku":"20","feed_price_eur":2099,"page_status":200,"review_state":"manual-review","blocker":"Der Grundriss ist fünfeckig; die Maße lassen sich nicht als einfache Breite-Tiefe-Höhe übernehmen."},
+    {"candidate_id":"awin-wellness-point-18","name":"Infrarotkabine Trondheim","url":"https://wellness-point.com/produkte/detail/infrarotkabine_trondheim.html","sku":"9","feed_price_eur":1699,"page_status":200,"review_state":"manual-review","blocker":"Der Grundriss ist fünfeckig; die Maße lassen sich nicht als einfache Breite-Tiefe-Höhe übernehmen."},
     {"candidate_id":"awin-wellness-point-19","name":"Infrarotsauna Alpha I","url":"https://wellness-point.com/produkte/detail/infrarotsauna_alpha_i.html","sku":"43","feed_price_eur":1999,"page_status":200,"review_state":"source-reachable"},
     {"candidate_id":"awin-wellness-point-20","name":"Infrarotsauna Alpha II","url":"https://wellness-point.com/produkte/detail/infrarotsauna_alpha_ii.html","sku":"44","feed_price_eur":2499,"page_status":200,"review_state":"source-reachable"},
     {"candidate_id":"awin-wellness-point-21","name":"Infrarotsauna Alpha III","url":"https://wellness-point.com/produkte/detail/infrarotsauna_alpha_iii.html","sku":"45","feed_price_eur":3499,"page_status":200,"review_state":"source-reachable"}
