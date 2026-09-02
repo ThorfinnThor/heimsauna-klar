@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "batch_id": "awin-wellness-point-2026-09-02",
+  "reviewed_at": "2026-09-02",
+  "review_model": "luna",
+  "status": "internal-source-review",
+  "policy": "Unklare oder historisch abweichende Spannungsangaben werden nicht in 230 V oder 400 V umgedeutet. Die Katalogdarstellung bleibt neutral, bis eine eindeutige Anschlussangabe vorliegt.",
+  "entries": [
+    {
+      "candidate_id": "awin-wellness-point-08",
+      "product_id": "wellness-point-finnische-sauna-alaska-i",
+      "source_url": "https://wellness-point.com/produkte/detail/finnische-sauna-alaska-i.html",
+      "observed_voltage": "230 V / 380 V",
+      "catalog_voltage": "none",
+      "decision": "keep_neutral",
+      "reason": "Die Händlerseite nennt zwei Anschlussangaben. Eine Auswahl der konkreten Ausführung ist nicht dokumentiert.",
+      "electrician_required": true
+    },
+    {
+      "candidate_id": "awin-wellness-point-09",
+      "product_id": "wellness-point-finnische-sauna-alaska-ii",
+      "source_url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_ii.html",
+      "observed_voltage": "380 V",
+      "catalog_voltage": "none",
+      "decision": "keep_neutral",
+      "reason": "380 V wird im Datenmodell nicht als aktuelle Finder-Auswahl geführt. Die Angabe wird deshalb unverändert in den Hinweis übernommen.",
+      "electrician_required": true
+    },
+    {
+      "candidate_id": "awin-wellness-point-10",
+      "product_id": "wellness-point-finnische-sauna-alaska-iii",
+      "source_url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_iii.html",
+      "observed_voltage": "380 V",
+      "catalog_voltage": "none",
+      "decision": "keep_neutral",
+      "reason": "380 V wird im Datenmodell nicht als aktuelle Finder-Auswahl geführt. Die Angabe wird deshalb unverändert in den Hinweis übernommen.",
+      "electrician_required": true
+    },
+    {
+      "candidate_id": "awin-wellness-point-13",
+      "product_id": "wellness-point-infrarotkabine-helsinki-beta",
+      "source_url": "https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_beta.html",
+      "observed_voltage": null,
+      "catalog_voltage": "none",
+      "decision": "keep_neutral",
+      "reason": "Die erreichbare Produktseite weist im geprüften Abschnitt keine Netzspannung aus.",
+      "electrician_required": true
+    },
+    {
+      "candidate_id": "awin-wellness-point-19",
+      "product_id": "wellness-point-infrarotsauna-alpha-i",
+      "source_url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_i.html",
+      "observed_voltage": null,
+      "catalog_voltage": "none",
+      "decision": "keep_neutral",
+      "reason": "Die Seite belegt Strahler- und Ofenleistung, nennt im geprüften Abschnitt aber keine Netzspannung.",
+      "electrician_required": true
+    },
+    {
+      "candidate_id": "awin-wellness-point-20",
+      "product_id": "wellness-point-infrarotsauna-alpha-ii",
+      "source_url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_ii.html",
+      "observed_voltage": null,
+      "catalog_voltage": "none",
+      "decision": "keep_neutral",
+      "reason": "Die Seite belegt Strahler- und Ofenleistung, nennt im geprüften Abschnitt aber keine Netzspannung.",
+      "electrician_required": true
+    },
+    {
+      "candidate_id": "awin-wellness-point-21",
+      "product_id": "wellness-point-infrarotsauna-alpha-iii",
+      "source_url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_iii.html",
+      "observed_voltage": null,
+      "catalog_voltage": "none",
+      "decision": "keep_neutral",
+      "reason": "Die Seite belegt Strahler- und Ofenleistung, nennt im geprüften Abschnitt aber keine Netzspannung.",
+      "electrician_required": true
+    }
+  ]
+}
