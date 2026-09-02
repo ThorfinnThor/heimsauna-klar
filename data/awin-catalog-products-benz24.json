@@ -1,0 +1,925 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-02T11:16:39.506Z",
+  "source": "Awin authenticated Benz24 DE/AT product feed",
+  "secret_included": false,
+  "selection_policy": "Sauna-relevante Einzel-URLs ohne Zubehör; Variantenhinweise werden markiert und nicht automatisch in data/products.json übernommen.",
+  "advertiser_id": "18314",
+  "advertiser_name": "Benz24 DE/AT",
+  "feed_id": "43829",
+  "feed_name": "BENZ24 Deutschland",
+  "feed_rows": 92078,
+  "sauna_relevant_rows": 101,
+  "products_returned": 101,
+  "products": [
+    {
+      "name": "Karibu Bank für Sauna günstig",
+      "url": "https://benz24.de/karibu-bank-groesse-1.html",
+      "brand": "Karibu",
+      "category": "DIY",
+      "price": 119,
+      "sku": "100417044a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Fasssauna 2 naturbelassen günstig",
+      "url": "https://benz24.de/karibu-fasssauna-2-naturbelassen.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 3209,
+      "sku": "100570388a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Fasssauna 3 naturbelassen günstig",
+      "url": "https://benz24.de/karibu-fasssauna-3-naturbelassen.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 4459,
+      "sku": "100570392a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Ainur günstig",
+      "url": "https://benz24.de/karibu-sauna-ainur.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2659.6,
+      "sku": "100415319a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Alcinda günstig",
+      "url": "https://benz24.de/karibu-sauna-alcinda.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2736.14,
+      "sku": "100415328a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Amara günstig",
+      "url": "https://benz24.de/karibu-sauna-amara.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2609.42,
+      "sku": "100415504a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Amelia 1 günstig",
+      "url": "https://benz24.de/karibu-sauna-amelia-1.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1986.69,
+      "sku": "100415302a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Amelia 3 günstig",
+      "url": "https://benz24.de/karibu-sauna-amelia-3.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2279,
+      "sku": "100415311a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Bodin günstig",
+      "url": "https://benz24.de/karibu-sauna-bodin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1842.9,
+      "sku": "100414981a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Carin günstig",
+      "url": "https://benz24.de/karibu-sauna-carin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1891.34,
+      "sku": "100415013a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Daria günstig",
+      "url": "https://benz24.de/karibu-sauna-daria.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1941.77,
+      "sku": "100415688a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Fanja günstig",
+      "url": "https://benz24.de/karibu-sauna-fanja.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1847.21,
+      "sku": "100415624a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Fiona 1 günstig",
+      "url": "https://benz24.de/karibu-sauna-fiona-1.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1803.08,
+      "sku": "100415253a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Fiona 2 günstig",
+      "url": "https://benz24.de/karibu-sauna-fiona-2.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1905.97,
+      "sku": "100415261a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Fiona 3 günstig",
+      "url": "https://benz24.de/karibu-sauna-fiona-3.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2162.43,
+      "sku": "100415269a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Gobin günstig",
+      "url": "https://benz24.de/karibu-sauna-gobin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2251.59,
+      "sku": "100415173a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Jarin günstig",
+      "url": "https://benz24.de/karibu-sauna-jarin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2108.22,
+      "sku": "100415141a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Larin günstig",
+      "url": "https://benz24.de/karibu-sauna-larin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1626.37,
+      "sku": "100414884a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Lilja günstig",
+      "url": "https://benz24.de/karibu-sauna-lilja.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1986.69,
+      "sku": "100415721a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Malin günstig",
+      "url": "https://benz24.de/karibu-sauna-malin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2294.05,
+      "sku": "100415205a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Mojave günstig",
+      "url": "https://benz24.de/karibu-sauna-mojave.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2171,
+      "sku": "100415360a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Nanja günstig",
+      "url": "https://benz24.de/karibu-sauna-nanja.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1682.56,
+      "sku": "100415558a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Rodin günstig",
+      "url": "https://benz24.de/karibu-sauna-rodin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2046.37,
+      "sku": "100415109a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Sahib 2 günstig",
+      "url": "https://benz24.de/karibu-sauna-sahib-2.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2354.63,
+      "sku": "100415472a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Saja günstig",
+      "url": "https://benz24.de/karibu-sauna-saja.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1891.34,
+      "sku": "100415656a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Siirin günstig",
+      "url": "https://benz24.de/karibu-sauna-siirin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1990,
+      "sku": "100415077a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Sinai 3 günstig",
+      "url": "https://benz24.de/karibu-sauna-sinai-3.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2554,
+      "sku": "100415432a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Sodin günstig",
+      "url": "https://benz24.de/karibu-sauna-sodin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1950,
+      "sku": "100415045a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Sonara günstig",
+      "url": "https://benz24.de/karibu-sauna-sonara.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2293,
+      "sku": "100415392a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Tanami günstig",
+      "url": "https://benz24.de/karibu-sauna-tanami.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2334,
+      "sku": "100415424a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Taurin günstig",
+      "url": "https://benz24.de/karibu-sauna-taurin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1765.95,
+      "sku": "100414916a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Tonja günstig",
+      "url": "https://benz24.de/karibu-sauna-tonja.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1765.95,
+      "sku": "100415591a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Sauna Variado günstig",
+      "url": "https://benz24.de/karibu-sauna-variado.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1737.52,
+      "sku": "100414948a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Saunahaus Cuben Naturbelassen günstig",
+      "url": "https://benz24.de/karibu-saunahaus-cuben-naturbelassen.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 4019,
+      "sku": "100416825a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Saunahaus Skrollan 1 Naturbelassen günstig",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-1-naturbelassen.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 3389,
+      "sku": "100416789a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Saunahaus Skrollan 2 Naturbelassen günstig",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-2-naturbelassen.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 3479,
+      "sku": "100416798a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Saunahaus Skrollan 3 Naturbleassen günstig",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-3-naturbleassen.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 4059,
+      "sku": "100416807a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Adelina günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-adelina.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1658,
+      "sku": "100418022a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Antonia günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-antonia.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1448,
+      "sku": "100417980a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Arvika günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-arvika.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2046.37,
+      "sku": "100418106a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Bodo günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-bodo.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1712.97,
+      "sku": "100418086",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Elea günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-elea.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1715.01,
+      "sku": "100418030a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Faurin günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-faurin.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1280.31,
+      "sku": "100418078",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Horna günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-horna.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 2019.59,
+      "sku": "100418102a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Jada günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-jada.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1698,
+      "sku": "100418054a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Jella günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-jella.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1634.03,
+      "sku": "100418008a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Jutta günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-jutta.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1775.31,
+      "sku": "100418062a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Kotka günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-kotka.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1909.94,
+      "sku": "100418094a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Mia günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-mia.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1900,
+      "sku": "100417806a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Nybro günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-nybro.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1936,
+      "sku": "100418098a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Oulu günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-oulu.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1864.47,
+      "sku": "100418090a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Sandra günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-sandra.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1412.39,
+      "sku": "100417966a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Selena günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-selena.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1588.13,
+      "sku": "100417994a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Tabea günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-tabea.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1832.1,
+      "sku": "100418070a",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Sauna Tromsö günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-sauna-tromsoe.html",
+      "brand": "Karibu",
+      "category": "Appliance Spares",
+      "price": 1677.65,
+      "sku": "100418082",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Woodfeeling Saunahaus Angkor 2 naturbelassen günstig",
+      "url": "https://benz24.de/karibu-woodfeeling-saunahaus-angkor-2.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 3515.02,
+      "sku": "100608321a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Abluftschieber für Sauna zur Abluftregelung aus Fichtenholz günstig",
+      "url": "https://benz24.de/weka-abluftschieber-fuer-sauna-zur.html",
+      "brand": "WEKA",
+      "category": "DIY",
+      "price": 32.89,
+      "sku": "100306355",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Aufgusskübel 5 Liter für Sauna günstig",
+      "url": "https://benz24.de/weka-aufgusskuebel-5-liter-fuer.html",
+      "brand": "WEKA",
+      "category": "DIY",
+      "price": 34.89,
+      "sku": "100306339",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Design Saunahaus KUOPIO Sparset anthrazit günstig",
+      "url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-anthraz.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 5547.87,
+      "sku": "100432788a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Doppelthermometer für Sauna und Warmluftbad günstig",
+      "url": "https://benz24.de/weka-doppelthermometer-fuer-sauna-und.html",
+      "brand": "WEKA",
+      "category": "DIY",
+      "price": 49.91,
+      "sku": "100306349",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Gartensauna Saunahaus Farsund mit Vorraum günstig",
+      "url": "https://benz24.de/weka-gartensauna-saunahaus-farsund-mit.html",
+      "brand": "WEKA",
+      "category": "Garden Tools",
+      "price": 4267.39,
+      "sku": "100306548",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Lendenstütze für Sauna ergonomisch geformt günstig",
+      "url": "https://benz24.de/weka-lendenstuetze-fuer-sauna-52.html",
+      "brand": "WEKA",
+      "category": "DIY",
+      "price": 44.89,
+      "sku": "100306369",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Massivholz Sauna VALIDA Eck Sparset günstig",
+      "url": "https://benz24.de/weka-massivholz-sauna-valida-eck-spars.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 1828.15,
+      "sku": "100432812a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Massivholz Sauna VALIDA Sparset günstig",
+      "url": "https://benz24.de/weka-massivholz-sauna-valida-spars.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 1802.16,
+      "sku": "100432802a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Massivholzsauna VALIDA PLUS Sparset inklusive Ofen günstig",
+      "url": "https://benz24.de/weka-massivholzsauna-valida-plus-sparset.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2173.96,
+      "sku": "100306505",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Ofenschutzgitter für Sauna aus Fichtenholz günstig",
+      "url": "https://benz24.de/weka-ofenschutzgitter-fuer-sauna-aus.html",
+      "brand": "WEKA",
+      "category": "DIY",
+      "price": 53.89,
+      "sku": "100306353",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Premium Massivholz Elementsauna KEMI Eck Sparset günstig",
+      "url": "https://benz24.de/weka-premium-massivholz-elementsauna-kemi-ec.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 3193.14,
+      "sku": "100432745a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Premium Massivholz Elementsauna KEMI Sparset günstig",
+      "url": "https://benz24.de/weka-premium-massivholz-elementsauna-kemi-sparset.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 3157.49,
+      "sku": "100432755a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Premium Massivholz Sauna BERGEN Sparset günstig",
+      "url": "https://benz24.de/weka-premium-massivholz-sauna-bergen.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2607.67,
+      "sku": "100432761a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Premium Massivholz Sauna TURKU Sparset günstig",
+      "url": "https://benz24.de/weka-premium-massivholz-sauna-turku.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 3543.77,
+      "sku": "100432790a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Querliege für Sauna aus Spezialholz günstig",
+      "url": "https://benz24.de/weka-querliege-fuer-sauna-aus.html",
+      "brand": "WEKA",
+      "category": "DIY",
+      "price": 148.99,
+      "sku": "100306389a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Regal mit Sauna/Dampfbad-Düften Oriental, Latschenkiefer & Kamille günstig",
+      "url": "https://benz24.de/weka-regal-mit-saunadampfbad-dueften-oriental.html",
+      "brand": "WEKA",
+      "category": "DIY",
+      "price": 40.73,
+      "sku": "100306373",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Designsauna KEMI aus Massivholz günstig",
+      "url": "https://benz24.de/weka-sauna-designsauna-kemi-aus.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2681.85,
+      "sku": "100306475a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Designsauna SARA mit Glastür, Fensterelementen und Ofen günstig",
+      "url": "https://benz24.de/weka-sauna-designsauna-sara-mit.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 3743.27,
+      "sku": "100306459a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Ecksauna KIRUNA mit Glastür und Ofen günstig",
+      "url": "https://benz24.de/weka-sauna-ecksauna-kiruna-mit.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2048.74,
+      "sku": "100306446a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Ecksauna LAUKKALA Fichte günstig",
+      "url": "https://benz24.de/weka-sauna-ecksauna-laukkala-fichte.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 1853.51,
+      "sku": "100306467a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Ecksauna VALIDA Massivholz günstig",
+      "url": "https://benz24.de/weka-sauna-ecksauna-valida-massivholz.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 1627.45,
+      "sku": "100306510a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Ecksauna VALIDA Sparset inklusive Ofen und Zubehör günstig",
+      "url": "https://benz24.de/weka-sauna-ecksauna-valida-sparset.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2173.3,
+      "sku": "100306512a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Ecksauna VARBERG Fichte günstig",
+      "url": "https://benz24.de/weka-sauna-ecksauna-varberg-fichte.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2018.95,
+      "sku": "100306448a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Ecksauna VARBERG naturbelassene Fichte inklusive Ofen günstig",
+      "url": "https://benz24.de/weka-sauna-ecksauna-varberg-naturbelassene.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2803.81,
+      "sku": "100306535a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Elementsauna KAARINA Fichte günstig",
+      "url": "https://benz24.de/weka-sauna-elementsauna-kaarina-fichte.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2222.98,
+      "sku": "100306439a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Elementsauna KEMI mit Panorama-Glasfront günstig",
+      "url": "https://benz24.de/weka-sauna-elementsauna-kemi-mit.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 3462.14,
+      "sku": "100306478a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Holzsauna TURKU Premium günstig",
+      "url": "https://benz24.de/weka-sauna-holzsauna-turku-premium.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2551.97,
+      "sku": "100306493a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Massivholzsauna BERGEN Premium günstig",
+      "url": "https://benz24.de/weka-sauna-massivholzsauna-bergen-premium.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2166.32,
+      "sku": "100306484a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Sauna Massivholzsauna VALIDA günstig",
+      "url": "https://benz24.de/weka-sauna-massivholzsauna-valida.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 1319.42,
+      "sku": "100306503a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Saunahaus NAANTALI Sparset günstig",
+      "url": "https://benz24.de/weka-saunahaus-naantali-sparset.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 3066.32,
+      "sku": "100432784a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Saunahaus SALO Sparset rot günstig",
+      "url": "https://benz24.de/weka-saunahaus-salo-sparset-ro.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 7270.73,
+      "sku": "100432700a",
+      "variant_hint": false
+    },
+    {
+      "name": "weka Spezial-Sauna-Reiniger 500 ml mit Eukalyptusduft günstig",
+      "url": "https://benz24.de/weka-spezial-sauna-reiniger-500-ml-mit.html",
+      "brand": "WEKA",
+      "category": "DIY",
+      "price": 11.89,
+      "sku": "100306376",
+      "variant_hint": false
+    },
+    {
+      "name": "Karibu Saunahaus Cuben Terragrau günstig",
+      "url": "https://benz24.de/karibu-saunahaus-cuben-terragrau.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 4459,
+      "sku": "100416828a",
+      "variant_hint": true
+    },
+    {
+      "name": "Karibu Saunahaus Hygge Terragrau günstig",
+      "url": "https://benz24.de/karibu-saunahaus-hygge-terragrau.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 6415.7,
+      "sku": "100416837a",
+      "variant_hint": true
+    },
+    {
+      "name": "Karibu Saunahaus Skrollan 1 Terragrau günstig",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-1-terragrau.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 3901,
+      "sku": "100416795a",
+      "variant_hint": true
+    },
+    {
+      "name": "Karibu Saunahaus Skrollan 2 Terragrau günstig",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-2-terragrau.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 4019,
+      "sku": "100416804a",
+      "variant_hint": true
+    },
+    {
+      "name": "Karibu Saunahaus Skrollan 3 Terragrau günstig",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-3-terragrau.html",
+      "brand": "Karibu",
+      "category": "Garden Tools",
+      "price": 4439.9,
+      "sku": "100416813a",
+      "variant_hint": true
+    },
+    {
+      "name": "weka Design Saunahaus KUOPIO Sparset natur günstig",
+      "url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-natu.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 4698.06,
+      "sku": "100432786a",
+      "variant_hint": true
+    },
+    {
+      "name": "weka Design-Saunahaus CUBILIS Sparset natur günstig",
+      "url": "https://benz24.de/weka-design-saunahaus-cubilis-sparset-natur.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 12229.26,
+      "sku": "100432708a",
+      "variant_hint": true
+    },
+    {
+      "name": "weka Elementsauna HALMSTAD Sparset natur günstig",
+      "url": "https://benz24.de/weka-elementsauna-halmstad-sparset-natu.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2424.51,
+      "sku": "100432716a",
+      "variant_hint": true
+    },
+    {
+      "name": "weka Elementsauna VARBERG Sparset natur günstig",
+      "url": "https://benz24.de/weka-elementsauna-varberg-sparset-natu.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 2618.63,
+      "sku": "100432726a",
+      "variant_hint": true
+    },
+    {
+      "name": "weka Peelingsalz natur 500 g Dose für Sauna günstig",
+      "url": "https://benz24.de/weka-peelingsalz-natur-500-g.html",
+      "brand": "WEKA",
+      "category": "DIY",
+      "price": 12.79,
+      "sku": "100306377",
+      "variant_hint": true
+    },
+    {
+      "name": "weka Saunahaus KURIKKA Sparset natur günstig",
+      "url": "https://benz24.de/weka-saunahaus-kurikka-sparset-natur.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 6114.93,
+      "sku": "100432694a",
+      "variant_hint": true
+    },
+    {
+      "name": "weka Saunahaus MIKKELI Sparset natur günstig",
+      "url": "https://benz24.de/weka-saunahaus-mikkeli-sparset-natur.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 4389.27,
+      "sku": "100432692a",
+      "variant_hint": true
+    },
+    {
+      "name": "weka Saunahaus SALO Sparset grau günstig",
+      "url": "https://benz24.de/weka-saunahaus-salo-sparset-gra.html",
+      "brand": "WEKA",
+      "category": "Appliance Spares",
+      "price": 7270.73,
+      "sku": "100432702a",
+      "variant_hint": true
+    }
+  ]
+}
