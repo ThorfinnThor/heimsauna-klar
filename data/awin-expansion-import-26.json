@@ -4,6 +4,7 @@
   "created_at": "2026-09-02",
   "purpose": "Interne Importvorstufe für die 26 Kandidaten, deren Händlerseiten die Mindestdaten belegen.",
   "publication_status": "internal-draft",
+  "full_schema_drafts": "data/awin-expansion-product-drafts-26.json",
   "products_total_before": 450,
   "affiliate_status": "Awin-Zuordnung wird erst nach dem nächsten authentifizierten Feed-Sync aktiviert; bis dahin bleiben die Händlerlinks unvergütete Quellenlinks.",
   "entries": [
