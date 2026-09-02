@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "policy_updated_at": "2026-08-30",
-  "generated_from_products_updated_at": "2026-09-01",
+  "generated_from_products_updated_at": "2026-09-02",
   "summary": {
-    "total_verified_products": 450,
-    "index": 230,
+    "total_verified_products": 470,
+    "index": 250,
     "noindex": 220,
     "categories": {
       "indoor": {
-        "total": 214,
-        "index": 72,
+        "total": 225,
+        "index": 83,
         "noindex": 142
       },
       "infrared": {
@@ -18,8 +18,8 @@
         "noindex": 13
       },
       "outdoor": {
-        "total": 144,
-        "index": 79,
+        "total": 153,
+        "index": 88,
         "noindex": 65
       },
       "tent": {
@@ -79,19 +79,35 @@
       ]
     },
     {
-      "product_id": "artsauna-fjora-l",
+      "product_id": "artsauna-espoo150-premium",
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
-        "published_source_count": 1,
-        "editorial_point_count": 12,
-        "unique_editorial_point_count": 4,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "artsauna-fjora-l",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 2,
+        "published_source_count": 2,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 9,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -319,6 +335,118 @@
       ]
     },
     {
+      "product_id": "awt-e1801b",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 12,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "awt-e1802",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "awt-e1803b",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 12,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "awt-e1804a",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "awt-e1804b",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 12,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "awt-e1804c",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 12,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "awt-e1805",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
       "product_id": "dewello-calgary-115",
       "decision": "index",
       "automatic_decision": "index",
@@ -511,6 +639,22 @@
       ]
     },
     {
+      "product_id": "dewello-minto-150-130",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
       "product_id": "dewello-montreal-140",
       "decision": "noindex",
       "automatic_decision": "noindex",
@@ -676,6 +820,38 @@
       ]
     },
     {
+      "product_id": "fjordholz-design-saunahaus-paradiso-black-e",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 14,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-design-saunahaus-siiri-premium",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 15,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
       "product_id": "fjordholz-fass-kombisauna-luxe-micro-kombi",
       "decision": "index",
       "automatic_decision": "index",
@@ -684,6 +860,118 @@
         "published_source_count": 1,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 11,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-ando",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 12,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-bus-130-standard",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-bus-160-standard",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-icon-200-s-fichte",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-icon-220-thermo",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-icon-385-thermo",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-lauri",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -6122,6 +6410,22 @@
       ]
     },
     {
+      "product_id": "sanotechnik-riga",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
       "product_id": "saunaloft-tyla-144-5x130",
       "decision": "index",
       "automatic_decision": "index",
@@ -6151,6 +6455,22 @@
       },
       "reasons": [
         "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "sentiotec-alaska-corner",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 13,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -6450,7 +6770,7 @@
         "current_offer_count": 1,
         "published_source_count": 1,
         "editorial_point_count": 11,
-        "unique_editorial_point_count": 8,
+        "unique_editorial_point_count": 7,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },

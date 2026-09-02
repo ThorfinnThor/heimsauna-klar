@@ -50,8 +50,13 @@ jobs:
           branch="awin-sync/${GITHUB_RUN_ID}"
           git switch -c "$branch"
           git push --set-upstream origin "$branch"
-          GH_TOKEN="${{ github.token }}" gh pr create \
+          if ! GH_TOKEN="${{ github.token }}" gh pr create \
             --base main \
             --head "$branch" \
             --title "chore(data): sync approved Awin affiliate offers" \
-            --body "Automated Awin feed sync. The verified data checks and static build passed before this pull request was opened. Review the offer and indexing diff before merging."
+            --body "Automated Awin feed sync. The verified data checks and static build passed before this pull request was opened. Review the offer and indexing diff before merging."; then
+            compare_url="https://github.com/${GITHUB_REPOSITORY}/compare/main...${branch}?expand=1"
+            echo "::warning::The verified sync branch was pushed, but this repository does not allow GitHub Actions to open pull requests."
+            echo "### Awin sync branch ready" >> "$GITHUB_STEP_SUMMARY"
+            echo "The data checks and static build passed. [Open the pull request manually](${compare_url})." >> "$GITHUB_STEP_SUMMARY"
+          fi

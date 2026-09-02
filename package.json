@@ -21,6 +21,7 @@
     "indexing:generate": "node scripts/generate-product-indexing.mjs",
     "awin:discover": "node scripts/awin/discover-feeds.mjs",
     "awin:candidates": "node scripts/awin/audit-catalog-candidates.mjs",
+    "awin:promote": "node scripts/promote-awin-expansion.mjs",
     "awin:sync": "node scripts/awin/sync-affiliate-offers.mjs",
     "awin:test": "node --test scripts/awin/*.test.mjs",
     "offer:test": "node --test --experimental-strip-types scripts/offer-policy.test.ts",

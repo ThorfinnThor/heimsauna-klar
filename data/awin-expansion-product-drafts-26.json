@@ -2,9 +2,9 @@
   "schema_version": 1,
   "batch_id": "awin-expansion-2026-09-02-50",
   "generated_at": "2026-09-02",
-  "publication_status": "internal-draft",
+  "publication_status": "reference-snapshot",
   "source_manifest": "data/awin-expansion-import-26.json",
-  "note": "Vollständige Produktschema-Entwürfe nach Sol-Datenabnahme. Veröffentlichung erst nach individueller Redaktion und authentifiziertem Awin-Sync.",
+  "note": "Interner Prüfsnapshot aller 26 Kandidaten. Die im Publikationsmanifest genannten 21 Modelle sind freigegeben; fünf gesperrte Varianten bleiben ausschließlich in diesem Entwurf erhalten.",
   "review_manifest": "data/awin-expansion-sol-review-26.json",
   "editorial_manifest": "data/awin-expansion-editorial-26.json",
   "review_summary": {
@@ -12,7 +12,7 @@
     "data_verified": 21,
     "hold": 5,
     "manufacturer_or_own_brand_sources": 23,
-    "public_catalog_change": 0
+    "public_catalog_change": 20
   },
   "blocked_candidates": [
     {
@@ -167,7 +167,7 @@
       "editorial": {
         "pros": [
           "Zwei Bankebenen mit unterschiedlichen Breiten",
-          "Dachkranz und dunkle Außenoptik als eigenständige Gestaltung",
+          "Dunkle Außenoptik als eigenständige Ausführung",
           "Für drei bis vier Personen laut Händlerangabe"
         ],
         "cons": [
@@ -798,7 +798,7 @@
         ],
         "cons": [
           "Saunaofen und Anschluss sind separat zu bestimmen",
-          "Die Materialkombination kann bei Pflege und Farbentwicklung unterschiedlich reagieren"
+          "Die Quelle weist keine feste Zahl an Liegeplätzen aus"
         ],
         "ideal_for": [
           "Gärten mit mittlerer Stellfläche",
@@ -822,7 +822,7 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "artsauna-fasssauna-fjora-l",
+      "product_id": "artsauna-fjora-l",
       "brand": "Artsauna",
       "model": "Fasssauna Fjora L",
       "family": null,
@@ -1286,7 +1286,7 @@
         ],
         "cons": [
           "Der Ofen ist beim erfassten Feedangebot nicht enthalten",
-          "Ein Starkstromhinweis des Herstellers muss bei der Ofenwahl berücksichtigt werden"
+          "Ofenleistung und Anschluss müssen gemeinsam festgelegt werden"
         ],
         "ideal_for": [
           "Innenräume mit rund 180 cm Stellmaß",
@@ -1453,7 +1453,7 @@
       "editorial": {
         "pros": [
           "Kompaktes 160 × 160 cm Stellmaß",
-          "Hersteller bestätigt ein bis zwei Personen und zwei Bänke",
+          "Hersteller bestätigt ein bis zwei Personen und Saunabänke",
           "Ofenlose Feedvariante eindeutig abgegrenzt"
         ],
         "cons": [

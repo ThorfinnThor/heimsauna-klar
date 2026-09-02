@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-30",
+  "updated_at": "2026-09-02",
   "scope": "product_detail_pages",
   "entries": {
     "dewello-calgary-90": {
@@ -98,6 +98,90 @@
     "karibu-sauna-siirin": {
       "intro": "Die Siirin ist eine naturbelassene Innenkabine aus nordischer Fichte mit 196 × 170 × 198 cm Außenmaß. Vier Sitzplätze und zwei Liegeplätze sind angegeben; die klare Glastür und der Verzicht auf einen mitgelieferten Ofen prägen diese Variante.",
       "detail": "Das Modell richtet sich an Räume, in denen eine klassische Sauna mit separat ausgewähltem Ofen geplant werden soll. Weil die Quelle keine feste Netzspannung nennt, gehört die Abstimmung mit einem Fachbetrieb ebenso zur Vorbereitung wie die Prüfung von Raumhöhe und Türweg."
+    },
+    "fjordholz-design-saunahaus-siiri-premium": {
+      "intro": "Siiri ist ein kompaktes Gartenhaus mit zwei unterschiedlich breiten Bänken. Der Händler liefert die Kabine ohne Ofen, deshalb gehört die spätere Ofenwahl zur Planung.",
+      "detail": "Mit 250 × 175 cm bleibt das Haus schmaler als viele Gartensaunen mit Vorraum. Die breitere Bank misst laut Produktseite 65 cm, die zweite 28,6 cm. Im Angebot ist kein Saunaofen enthalten, sodass Leistung, Steuerung und Anschluss zum gewählten Ofen passen müssen."
+    },
+    "fjordholz-design-saunahaus-paradiso-black-e": {
+      "intro": "Paradiso Black E verbindet eine größere Saunakabine mit einer dunklen Außenoptik. Die beschriebenen oberen und unteren Bänke geben Hinweise zur Nutzung über zwei Ebenen, der Ofen bleibt offen.",
+      "detail": "Auf 222,2 × 212,2 cm Grundmaß sind eine obere Bank mit 60 cm Breite und eine untere mit 40 cm beschrieben. Für drei bis vier Personen ist damit mehr Sitzraum vorhanden als bei den kurzen Fassmodellen. Der ausgewiesene Feedpreis gehört zur Ausführung ohne Saunaofen."
+    },
+    "fjordholz-fass-sauna-ando": {
+      "intro": "Ando nutzt die Länge eines Fassmodells für zwei lange Sitzbänke. Das Profil ist als Kabine ohne Saunaofen erfasst und eignet sich deshalb vor allem für eine separat geplante Technik.",
+      "detail": "Die beiden Bänke sind etwa 214 und 210 cm lang und jeweils 49 cm breit. Daraus lässt sich die nutzbare Sitzlänge ablesen, eine feste Zahl an Liegeplätzen weist die Quelle jedoch nicht aus. Für das 230 cm tiefe Fass müssen Fundament und Transportweg vor der Bestellung vermessen werden."
+    },
+    "fjordholz-fass-sauna-bus-130-standard": {
+      "intro": "Bus 130 ist die kürzere der beiden erfassten Bus-Varianten. Die zweistufigen Bänke nutzen die kompakte Kabine, während der Ofen laut Händler separat vorgesehen wird.",
+      "detail": "Die 130 cm tiefe Ausführung ist für zwei bis drei Personen angegeben. Zweistufige Bänke und Fußbänke gehören zur dokumentierten Innenausstattung, ein Saunaofen dagegen nicht. Das kurze Außenmaß reduziert den Flächenbedarf, lässt aber weniger Raum als die 160er Variante derselben Bauform."
+    },
+    "fjordholz-fass-sauna-bus-160-standard": {
+      "intro": "Bus 160 bietet gegenüber Bus 130 mehr Tiefe, bleibt aber beim gleichen zweistufigen Bankkonzept. Das kann bei der Sitzplanung helfen, ersetzt jedoch keine Prüfung von Fundament und Zugang.",
+      "detail": "Gegenüber Bus 130 wächst die Tiefe von 130 auf 160 cm. Die Personenzahl bleibt bei bis zu drei und auch das zweistufige Bankkonzept ist gleich beschrieben. Wer zwischen beiden Varianten wählt, entscheidet damit vor allem über Innenlänge und benötigte Stellfläche."
+    },
+    "fjordholz-fass-sauna-icon-200-s-fichte": {
+      "intro": "Icon 200 S ist ein kurzes Fassmodell aus Fichte mit einer einzelnen dokumentierten Bank. Es ist damit übersichtlicher als die längeren Icon-Varianten, bleibt aber ein Außenbau mit eigener Ofenplanung.",
+      "detail": "Die Produktseite nennt eine 160 × 52 cm große Saunabank bei 205 × 200 cm Außenmaß. Weitere Bänke oder Liegeplätze sind nicht eindeutig ausgewiesen. Das macht Icon 200 S zu einem kompakten Sitzmodell, dessen Ofen und Anschluss noch separat festgelegt werden müssen."
+    },
+    "fjordholz-fass-sauna-icon-220-thermo": {
+      "intro": "Icon 220 Thermo ist ein mittleres Fassmodell mit zweistufiger Bank und Fußbank. Das Thermoholz unterscheidet es von der Fichtenvariante, nicht aber die Notwendigkeit einer separaten Ofenplanung.",
+      "detail": "Die zweistufige Bank misst 180 × 60 cm und wird durch eine Fußbank ergänzt. Bei 231 × 220 cm Grundmaß bleibt kein eigener Vorraum dokumentiert. Thermoholz kennzeichnet diese Variante, während Ofenleistung und Elektroanschluss nicht Bestandteil der erfassten Basisausführung sind."
+    },
+    "fjordholz-fass-sauna-icon-385-thermo": {
+      "intro": "Icon 385 Thermo kombiniert einen langen Saunaraum mit einem Vorraum. Die Quelle nennt eine Bank im Saunabereich und Sitzbänke im Vorraum, sodass der zusätzliche Platz nicht mit mehr Sauna-Liegefläche gleichzusetzen ist.",
+      "detail": "Die Tiefe von 385 cm umfasst Saunaraum und Vorraum. Für den Saunabereich ist eine 199 × 60 cm große Bank genannt, weitere Sitzbänke befinden sich im Vorraum. Die zusätzliche Gebäudelänge schafft damit Nebenfläche, ohne dass daraus weitere Sauna-Liegeplätze abgeleitet werden können."
+    },
+    "fjordholz-fass-sauna-lauri": {
+      "intro": "Lauri ist ein Fassmodell aus Thermoholz und Fichte mit zwei langen Bänken. Die dokumentierten 185 cm Banklänge machen die Sitzfläche nachvollziehbar, ohne eine eigene Liegeplatzbewertung vorwegzunehmen.",
+      "detail": "Zwei Bänke mit jeweils 185 cm Länge und 49 cm Breite sind konkret ausgewiesen. Die Quelle nennt bis zu vier Personen, aber keine feste Zahl an Liegeplätzen. Lauri wird ohne Saunaofen angeboten und verlangt daher eine eigene Abstimmung von Ofen, Steuerung und Anschluss."
+    },
+    "awt-e1805": {
+      "intro": "AWT E1805 ist eine 180-cm-Pinienholz-Kabine. Der Awin-Preis entspricht der Ausführung ohne Ofen, während die Händlerseite zusätzlich eine Version mit 8-kW-Harvia-Ofen anbietet.",
+      "detail": "Die erfasste E1805 misst 180 × 180 × 210 cm und wird ohne Saunaofen angeboten. Saunabank und Zubehör sind in der Herstellerbeschreibung enthalten. Eine ebenfalls angebotene 8-kW-Ausführung ist nicht mit dem hier hinterlegten Feedpreis gleichzusetzen."
+    },
+    "sentiotec-alaska-corner": {
+      "intro": "Alaska Corner ist eine fünfeckige Sentiotec-Massivsauna mit drei Bänken. Das Händlerangebot bezieht sich auf die 8-kW-Ofenvariante, während Sentiotec 7,5 bis 9 kW empfiehlt.",
+      "detail": "Der fünfeckige Grundriss benötigt 206 cm an beiden Stellwänden und 204 cm Raumhöhe. Sentiotec nennt fünf Plätze, drei Bänke und einen spiegelverkehrt möglichen Aufbau. Im Händlerangebot ist ein 8-kW-Ofen enthalten, der innerhalb der vom Hersteller empfohlenen Spanne von 7,5 bis 9 kW liegt."
+    },
+    "awt-e1801b": {
+      "intro": "AWT E1801B ist die kleinste der hier erfassten AWT-Pinienholz-Kabinen. Der Feed führt die 160 × 160 cm große Kabine ohne Ofen, die passende Technik wird separat gewählt.",
+      "detail": "Bei 160 × 160 × 210 cm ist die E1801B für ein bis zwei Personen beschrieben. Zwei Bänke gehören zur Kabine, der Saunaofen nicht. Die benötigte Leistung und der elektrische Anschluss lassen sich deshalb erst mit der gewählten Ofenausstattung festlegen."
+    },
+    "awt-e1802": {
+      "intro": "AWT E1802 entspricht beim Grundmaß der E1805, wird im erfassten Feed aber ebenfalls ohne Ofen geführt. Dadurch bleibt die Kabine flexibel, die Elektroplanung ist jedoch noch nicht erledigt.",
+      "detail": "Die E1802 benötigt 180 × 180 cm Stellfläche und ist für zwei bis vier Personen ausgewiesen. Anders als ein Komplettset enthält die erfasste Variante keinen Ofen. Das quadratische Kabinenmaß steht fest, während Leistung, Steuerung und Anschluss von der später ergänzten Technik abhängen."
+    },
+    "awt-e1803b": {
+      "intro": "AWT E1803B nutzt 150 × 120 cm Grundfläche und 190 cm Höhe. Die kompakte Pinienholz-Kabine ist im Feed ohne Saunaofen erfasst.",
+      "detail": "Die 150 × 120 cm große E1803B ist 190 cm hoch und für ein bis zwei Personen gedacht. Eine Saunabank ist dokumentiert, ein Ofen fehlt in dieser Ausführung. Vor allem die geringe Tiefe grenzt das Modell von den quadratischen AWT-Kabinen ab."
+    },
+    "awt-e1804c": {
+      "intro": "AWT E1804C ist mit 120 × 120 cm die kompakteste der hier erfassten E1804-Größen. Das Angebot kommt ohne Ofen und sollte deshalb als Kabine, nicht als fertige Saunaeinheit verstanden werden.",
+      "detail": "Mit 120 cm Breite und Tiefe beansprucht die E1804C nur 1,44 m² reine Produktfläche. Die Kabine ist 190 cm hoch und für ein bis zwei Personen angegeben. Da sie ohne Ofen angeboten wird, enthält der Preis noch keine festgelegte Heiz- oder Anschlusslösung."
+    },
+    "awt-e1804a": {
+      "intro": "AWT E1804A erweitert die schmale E1804C um 60 cm Länge. Die erfasste Variante bleibt ofenlos und bietet laut Quellen Platz für zwei bis vier Personen.",
+      "detail": "Das rechteckige Maß von 180 × 120 cm bietet mehr Länge als E1804B und E1804C, ohne deren geringe Tiefe zu verändern. Die Herstellerangabe nennt zwei bis vier Personen und eine Saunabank. Ofenleistung und Netzanschluss bleiben Teil der individuellen Konfiguration."
+    },
+    "awt-e1804b": {
+      "intro": "AWT E1804B liegt zwischen E1804C und E1804A. Die 150 × 120 cm Kabine wird ohne Ofen angeboten und bleibt damit ein planbares Basismodul für kleine Räume.",
+      "detail": "Die E1804B liegt mit 150 × 120 cm zwischen der 120 cm langen E1804C und der 180 cm langen E1804A. Sie ist für ein bis zwei Personen und eine Bank dokumentiert. Der Feedpreis beschreibt die Kabine ohne Saunaofen."
+    },
+    "artsauna-espoo150-premium": {
+      "intro": "Espoo150 Premium ist eine Artsauna-Eckkabine mit zwei Etagenbänken, 6-kW-Ofen und 400 V 3N~. Die Herstellerseite nennt 150 × 150 × 200 cm und drei Personen.",
+      "detail": "Auf 150 × 150 cm kombiniert Espoo150 Premium zwei Etagenbänke mit einer Eckfront. Der 6-kW-Ofen und 400 V 3N~ sind Bestandteil der Herstellerangabe. Für die geplanten drei Plätze müssen daher sowohl zwei passende Stellwände als auch der Starkstromanschluss vorhanden sein."
+    },
+    "dewello-minto-150-130": {
+      "intro": "Dewello MINTO ist eine kompakte finnische Sauna mit zwei Liegeflächen, 4,5-kW-Harvia-Ofen und 380–400 V Starkstromanschluss. Die Herstellerdaten nennen 150 × 130 × 190 cm und zwei bis drei Personen.",
+      "detail": "MINTO nutzt 150 × 130 cm Grundfläche und ist für zwei bis drei Personen angegeben. Zwei Liegeflächen unterscheiden die Innenaufteilung von kompakten reinen Sitzkabinen. Der mitgelieferte 4,5-kW-Harvia-Ofen ist laut Hersteller für 380 bis 400 V vorgesehen."
+    },
+    "sanotechnik-riga": {
+      "intro": "Riga von Sanotechnik ist eine 150 × 120 cm große Kabine für bis zu drei Personen mit 4,5-kW-Harvia-Ofen. Da die Herstellerseite mehrere Anschlussvarianten nennt, bleibt die Spannung im Katalog neutral.",
+      "detail": "Die Kabine misst 150 × 120 × 190 cm und besitzt eine etwa 143 × 45 cm große Sitzfläche. Der 4,5-kW-Harvia-Ofen ist dokumentiert, die Herstellerseite nennt jedoch mehr als eine mögliche Netzspannung. Die konkrete Anschlussausführung muss deshalb vor der Elektroinstallation am gelieferten Set geprüft werden."
+    },
+    "artsauna-fjora-l": {
+      "intro": "Fjora L ist eine quadratische Outdoor-Sauna von Artsauna mit Panoramafenster, zwei Bänken und einem 9-kW-Ofen. Die Herstellerseite nennt 400 V 3N~ für den Ofen und bis zu sechs Sitzplätze.",
+      "detail": "Die 180 × 228 × 225 cm große Kabine wird mit zwei Bänken von 154 × 48 cm und 154 × 30 cm beschrieben. Der 9-kW-Ofen gehört zur Ausführung und benötigt laut Artsauna 400 V 3N~. Der elektrische Anschluss ist deshalb kein offener Konfigurationspunkt, muss aber fachgerecht vorbereitet werden."
     }
   }
 }

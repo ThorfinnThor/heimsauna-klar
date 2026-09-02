@@ -9,38 +9,194 @@
     "data_verified": 21,
     "hold": 5,
     "manufacturer_or_own_brand_sources": 23,
-    "public_catalog_change": 0
+    "public_catalog_change": 20
   },
   "publication_gate": {
-    "status": "blocked",
-    "reason": "Auch die 21 datenfachlich bestätigten Entwürfe benötigen individuelle redaktionelle Texte und einen frischen authentifizierten Awin-Sync, bevor sie nach products.json übernommen werden."
+    "status": "published",
+    "reason": "21 datenfachlich bestätigte Modelle wurden mit individuellen Produkttexten freigegeben. Die fünf Varianten mit offenen Zuordnungs- oder Quellenfragen bleiben intern gesperrt."
   },
   "decisions": [
-    {"candidate_id":"awin-gartenhausfabrik-05","brand":"Fjordholz","model":"Design Saunahaus Siiri Premium","decision":"data-verified","reason":"Maße, Ausführung ohne Ofen und Sitzbankangaben sind auf der offiziellen Fjordholz-Händlerseite belegt."},
-    {"candidate_id":"awin-gartenhausfabrik-06","brand":"Fjordholz","model":"Design-Saunahaus Paradiso Black E","decision":"data-verified","reason":"Maße, Ofenstatus und Bankaufteilung sind auf der offiziellen Fjordholz-Händlerseite belegt."},
-    {"candidate_id":"awin-gartenhausfabrik-07","brand":"Fjordholz","model":"Fass-Sauna Jonte","decision":"hold","reason":"Außenmaße und Ausstattung hängen von der Holz- oder Elektroofen-Konfiguration ab; die Feedvariante ist noch nicht eindeutig zugeordnet."},
-    {"candidate_id":"awin-gartenhausfabrik-11","brand":"Fjordholz","model":"Fass-Sauna Ando","decision":"data-verified","reason":"Außenmaße, Holzarten, Bankmaße und Lieferung ohne Ofen sind belegt."},
-    {"candidate_id":"awin-gartenhausfabrik-13","brand":"Fjordholz","model":"Fass-Sauna Bus 130 Standard","decision":"data-verified","reason":"Modellvariante, Maße, Holzarten und Bankaufteilung sind belegt."},
-    {"candidate_id":"awin-gartenhausfabrik-14","brand":"Fjordholz","model":"Fass-Sauna Bus 160 Standard","decision":"data-verified","reason":"Modellvariante, Maße, Holzarten und Bankaufteilung sind belegt."},
-    {"candidate_id":"awin-gartenhausfabrik-19","brand":"Fjordholz","model":"Fass-Sauna Icon 200 S Fichte","decision":"data-verified","reason":"Modellvariante, Maße, Holzart und Bankmaß sind belegt."},
-    {"candidate_id":"awin-gartenhausfabrik-20","brand":"Fjordholz","model":"Fass-Sauna Icon 220 Thermo","decision":"data-verified","reason":"Modellvariante, Maße, Thermoholz und zweistufige Bank sind belegt."},
-    {"candidate_id":"awin-gartenhausfabrik-21","brand":"Fjordholz","model":"Fass-Sauna Icon 385 Thermo","decision":"data-verified","reason":"Modellvariante, Maße, Thermoholz, Bank und Vorraum sind belegt."},
-    {"candidate_id":"awin-gartenhausfabrik-22","brand":"Fjordholz","model":"Fass-Sauna Lauri","decision":"data-verified","reason":"Modellvariante, Maße, Holzarten und beide Bankmaße sind belegt."},
-    {"candidate_id":"awin-saunaloft-01","brand":"Artsauna","model":"Fasssauna Fjora L","decision":"data-verified","reason":"Marke, Modellvariante, Maße, Kapazität und 9-kW-Ofen sind auf der Artsauna-Herstellerseite belegt."},
-    {"candidate_id":"awin-saunaloft-05","brand":"Almost Heaven Saunas","model":"Lewisburg Barrel Sauna","decision":"hold","reason":"EU-Händler- und US-Herstellerseite weichen bei Außenmaßen und elektrischer Ausführung voneinander ab."},
-    {"candidate_id":"awin-saunaloft-06","brand":"Sun-Spa","model":"Fasssauna mit Panoramafenster","decision":"hold","reason":"Die Händlerseite bietet eine Variante ohne Ofen und eine mit 6-kW-Ofen; der Feedpreis ist noch keiner Variante sicher zugeordnet."},
-    {"candidate_id":"awin-saunaloft-12","brand":"Sun-Spa","model":"Fasssauna Traditionell TR-170","decision":"hold","reason":"Die Händlerdaten sind plausibel, eine eigenständige Hersteller- oder Handbuchquelle fehlt jedoch."},
-    {"candidate_id":"awin-saunaloft-13","brand":"Sun-Spa","model":"Fasssauna Traditionell TR-210","decision":"hold","reason":"Die Händlerdaten sind plausibel, eine eigenständige Hersteller- oder Handbuchquelle fehlt jedoch."},
-    {"candidate_id":"awin-saunaloft-14","brand":"AWT","model":"E1805","decision":"data-verified","reason":"Die Ausführung 180 × 180 cm ohne Ofen und der Feedpreis sind auf der offiziellen EAGO/AWT-Seite eindeutig belegt."},
-    {"candidate_id":"awin-saunaloft-15","brand":"Sentiotec","model":"Alaska Corner","decision":"data-verified","reason":"Marke, Maße, Kapazität, Bänke und empfohlene Ofenleistung sind durch Sentiotec belegt; das Händlerangebot bezeichnet die 8-kW-Variante."},
-    {"candidate_id":"awin-saunaloft-16","brand":"AWT","model":"E1801B","decision":"data-verified","reason":"Die Ausführung 160 × 160 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."},
-    {"candidate_id":"awin-saunaloft-17","brand":"AWT","model":"E1802","decision":"data-verified","reason":"Die Ausführung 180 × 180 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."},
-    {"candidate_id":"awin-saunaloft-18","brand":"AWT","model":"E1803B","decision":"data-verified","reason":"Die Ausführung 150 × 120 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."},
-    {"candidate_id":"awin-saunaloft-19","brand":"AWT","model":"E1804C","decision":"data-verified","reason":"Die Ausführung 120 × 120 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."},
-    {"candidate_id":"awin-saunaloft-21","brand":"AWT","model":"E1804A","decision":"data-verified","reason":"Die Ausführung 180 × 120 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."},
-    {"candidate_id":"awin-saunaloft-22","brand":"AWT","model":"E1804B","decision":"data-verified","reason":"Die Ausführung 150 × 120 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."},
-    {"candidate_id":"awin-saunaloft-23","brand":"Artsauna","model":"Espoo150 Premium","decision":"data-verified","reason":"Marke, Modell, Maße, Kapazität, zwei Etagenbänke sowie 6 kW und 400 V sind auf der Herstellerseite belegt."},
-    {"candidate_id":"awin-saunaloft-24","brand":"Dewello","model":"MINTO 150 × 130","decision":"data-verified","reason":"Marke, Maße, Kapazität, zwei Liegeflächen sowie 4,5 kW und 380–400 V sind auf der Herstellerseite belegt."},
-    {"candidate_id":"awin-saunaloft-25","brand":"Sanotechnik","model":"Riga","decision":"data-verified","reason":"Marke, Maße, Kapazität, Sitzfläche und 4,5-kW-Ofen sind durch die Herstellerseite belegt; die Anschlussvariante bleibt bewusst neutral."}
+    {
+      "candidate_id": "awin-gartenhausfabrik-05",
+      "brand": "Fjordholz",
+      "model": "Design Saunahaus Siiri Premium",
+      "decision": "data-verified",
+      "reason": "Maße, Ausführung ohne Ofen und Sitzbankangaben sind auf der offiziellen Fjordholz-Händlerseite belegt."
+    },
+    {
+      "candidate_id": "awin-gartenhausfabrik-06",
+      "brand": "Fjordholz",
+      "model": "Design-Saunahaus Paradiso Black E",
+      "decision": "data-verified",
+      "reason": "Maße, Ofenstatus und Bankaufteilung sind auf der offiziellen Fjordholz-Händlerseite belegt."
+    },
+    {
+      "candidate_id": "awin-gartenhausfabrik-07",
+      "brand": "Fjordholz",
+      "model": "Fass-Sauna Jonte",
+      "decision": "hold",
+      "reason": "Außenmaße und Ausstattung hängen von der Holz- oder Elektroofen-Konfiguration ab; die Feedvariante ist noch nicht eindeutig zugeordnet."
+    },
+    {
+      "candidate_id": "awin-gartenhausfabrik-11",
+      "brand": "Fjordholz",
+      "model": "Fass-Sauna Ando",
+      "decision": "data-verified",
+      "reason": "Außenmaße, Holzarten, Bankmaße und Lieferung ohne Ofen sind belegt."
+    },
+    {
+      "candidate_id": "awin-gartenhausfabrik-13",
+      "brand": "Fjordholz",
+      "model": "Fass-Sauna Bus 130 Standard",
+      "decision": "data-verified",
+      "reason": "Modellvariante, Maße, Holzarten und Bankaufteilung sind belegt."
+    },
+    {
+      "candidate_id": "awin-gartenhausfabrik-14",
+      "brand": "Fjordholz",
+      "model": "Fass-Sauna Bus 160 Standard",
+      "decision": "data-verified",
+      "reason": "Modellvariante, Maße, Holzarten und Bankaufteilung sind belegt."
+    },
+    {
+      "candidate_id": "awin-gartenhausfabrik-19",
+      "brand": "Fjordholz",
+      "model": "Fass-Sauna Icon 200 S Fichte",
+      "decision": "data-verified",
+      "reason": "Modellvariante, Maße, Holzart und Bankmaß sind belegt."
+    },
+    {
+      "candidate_id": "awin-gartenhausfabrik-20",
+      "brand": "Fjordholz",
+      "model": "Fass-Sauna Icon 220 Thermo",
+      "decision": "data-verified",
+      "reason": "Modellvariante, Maße, Thermoholz und zweistufige Bank sind belegt."
+    },
+    {
+      "candidate_id": "awin-gartenhausfabrik-21",
+      "brand": "Fjordholz",
+      "model": "Fass-Sauna Icon 385 Thermo",
+      "decision": "data-verified",
+      "reason": "Modellvariante, Maße, Thermoholz, Bank und Vorraum sind belegt."
+    },
+    {
+      "candidate_id": "awin-gartenhausfabrik-22",
+      "brand": "Fjordholz",
+      "model": "Fass-Sauna Lauri",
+      "decision": "data-verified",
+      "reason": "Modellvariante, Maße, Holzarten und beide Bankmaße sind belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-01",
+      "brand": "Artsauna",
+      "model": "Fasssauna Fjora L",
+      "decision": "data-verified",
+      "reason": "Marke, Modellvariante, Maße, Kapazität und 9-kW-Ofen sind auf der Artsauna-Herstellerseite belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-05",
+      "brand": "Almost Heaven Saunas",
+      "model": "Lewisburg Barrel Sauna",
+      "decision": "hold",
+      "reason": "EU-Händler- und US-Herstellerseite weichen bei Außenmaßen und elektrischer Ausführung voneinander ab."
+    },
+    {
+      "candidate_id": "awin-saunaloft-06",
+      "brand": "Sun-Spa",
+      "model": "Fasssauna mit Panoramafenster",
+      "decision": "hold",
+      "reason": "Die Händlerseite bietet eine Variante ohne Ofen und eine mit 6-kW-Ofen; der Feedpreis ist noch keiner Variante sicher zugeordnet."
+    },
+    {
+      "candidate_id": "awin-saunaloft-12",
+      "brand": "Sun-Spa",
+      "model": "Fasssauna Traditionell TR-170",
+      "decision": "hold",
+      "reason": "Die Händlerdaten sind plausibel, eine eigenständige Hersteller- oder Handbuchquelle fehlt jedoch."
+    },
+    {
+      "candidate_id": "awin-saunaloft-13",
+      "brand": "Sun-Spa",
+      "model": "Fasssauna Traditionell TR-210",
+      "decision": "hold",
+      "reason": "Die Händlerdaten sind plausibel, eine eigenständige Hersteller- oder Handbuchquelle fehlt jedoch."
+    },
+    {
+      "candidate_id": "awin-saunaloft-14",
+      "brand": "AWT",
+      "model": "E1805",
+      "decision": "data-verified",
+      "reason": "Die Ausführung 180 × 180 cm ohne Ofen und der Feedpreis sind auf der offiziellen EAGO/AWT-Seite eindeutig belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-15",
+      "brand": "Sentiotec",
+      "model": "Alaska Corner",
+      "decision": "data-verified",
+      "reason": "Marke, Maße, Kapazität, Bänke und empfohlene Ofenleistung sind durch Sentiotec belegt; das Händlerangebot bezeichnet die 8-kW-Variante."
+    },
+    {
+      "candidate_id": "awin-saunaloft-16",
+      "brand": "AWT",
+      "model": "E1801B",
+      "decision": "data-verified",
+      "reason": "Die Ausführung 160 × 160 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-17",
+      "brand": "AWT",
+      "model": "E1802",
+      "decision": "data-verified",
+      "reason": "Die Ausführung 180 × 180 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-18",
+      "brand": "AWT",
+      "model": "E1803B",
+      "decision": "data-verified",
+      "reason": "Die Ausführung 150 × 120 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-19",
+      "brand": "AWT",
+      "model": "E1804C",
+      "decision": "data-verified",
+      "reason": "Die Ausführung 120 × 120 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-21",
+      "brand": "AWT",
+      "model": "E1804A",
+      "decision": "data-verified",
+      "reason": "Die Ausführung 180 × 120 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-22",
+      "brand": "AWT",
+      "model": "E1804B",
+      "decision": "data-verified",
+      "reason": "Die Ausführung 150 × 120 cm ohne Ofen, Kapazität und Ausstattung sind auf der offiziellen EAGO/AWT-Seite belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-23",
+      "brand": "Artsauna",
+      "model": "Espoo150 Premium",
+      "decision": "data-verified",
+      "reason": "Marke, Modell, Maße, Kapazität, zwei Etagenbänke sowie 6 kW und 400 V sind auf der Herstellerseite belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-24",
+      "brand": "Dewello",
+      "model": "MINTO 150 × 130",
+      "decision": "data-verified",
+      "reason": "Marke, Maße, Kapazität, zwei Liegeflächen sowie 4,5 kW und 380–400 V sind auf der Herstellerseite belegt."
+    },
+    {
+      "candidate_id": "awin-saunaloft-25",
+      "brand": "Sanotechnik",
+      "model": "Riga",
+      "decision": "data-verified",
+      "reason": "Marke, Maße, Kapazität, Sitzfläche und 4,5-kW-Ofen sind durch die Herstellerseite belegt; die Anschlussvariante bleibt bewusst neutral."
+    }
   ]
 }

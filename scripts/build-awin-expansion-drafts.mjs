@@ -77,7 +77,7 @@ function buildDraft(entry) {
   if (!editorial) throw new Error(`No Luna editorial entry for ${entry.candidate_id}`);
 
   return {
-    product_id: slugify(`${entry.brand}-${entry.model}`),
+    product_id: entry.product_id ?? slugify(`${entry.brand}-${entry.model}`),
     brand: entry.brand,
     model: entry.model,
     family: null,

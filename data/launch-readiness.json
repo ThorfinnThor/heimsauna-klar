@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01",
+  "updated_at": "2026-09-02",
   "market": "Deutschland",
   "publication_status": "launch-ready",
   "title": "Launch-Status",
@@ -11,7 +11,7 @@
       "title": "Produktkatalog und Datenprüfung",
       "status": "ready",
       "required_for_indexing": true,
-      "detail": "450 eindeutige Produktdatensätze werden bei jedem Build gegen Quellen-, Preis-, Händler- und Schemakriterien geprüft."
+      "detail": "470 eindeutige Produktdatensätze werden bei jedem Build gegen Quellen-, Preis-, Händler- und Schemakriterien geprüft."
     },
     {
       "id": "source_traceability",

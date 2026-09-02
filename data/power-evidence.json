@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-01",
+  "updated_at": "2026-09-02",
   "scope": "data/products.json",
   "method": "Only assign a voltage when the exact manufacturer configuration states it. A stated 220–240 V AC range is normalized to nominal 230 V; do not infer 400 V from heater power alone.",
   "snapshot": {
-    "products": 450,
+    "products": 470,
     "explicit_voltage": {
       "120": 0,
       "230": 76,
-      "400": 17
+      "400": 19
     },
-    "voltage_not_assigned": 336,
-    "no_oven_or_unconfigured": 162,
-    "electric_heater_voltage_unstated": 174
+    "voltage_not_assigned": 354,
+    "no_oven_or_unconfigured": 178,
+    "electric_heater_voltage_unstated": 176
   },
   "assignment_rules": [
     "A 230-V value requires an exact product or configuration page that states 230 V, a 220–240 V AC range, or steckerfertig for that model.",

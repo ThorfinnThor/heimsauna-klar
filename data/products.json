@@ -32832,6 +32832,14 @@
           "last_checked": "2026-08-28",
           "affiliate_url": "https://www.awin1.com/pclick.php?p=42032505967&a=3037577&m=106021",
           "affiliate_program_id": "awin-artsauna"
+        },
+        {
+          "merchant": "Saunaloft",
+          "price": 2379,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/fasssauna-fjora-quadratisch",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
         }
       ]
     },
@@ -32866,9 +32874,15 @@
         "title": "Artsauna Produktseite Fjora L",
         "url": "https://artsauna.de/products/fasssauna-quadratisch-fjora",
         "checked_at": "2026-08-28"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite Fasssauna Fjora L",
+        "url": "https://shop-saunaloft.de/fasssauna-fjora-quadratisch",
+        "checked_at": "2026-09-02"
       }
     ],
-    "updated_at": "2026-08-28"
+    "updated_at": "2026-09-02"
   },
   {
     "product_id": "artsauna-fjora-xl",
@@ -37955,5 +37969,1650 @@
       }
     ],
     "updated_at": "2026-09-01"
+  },
+  {
+    "product_id": "fjordholz-design-saunahaus-siiri-premium",
+    "brand": "Fjordholz",
+    "model": "Design Saunahaus Siiri Premium",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 250,
+      "depth": 175,
+      "height": 220
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Händlerseite: Lieferung ohne Saunaofen; Ofen und Anschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 8129,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Siiri",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Kompakte Außenmaße für ein separates Gartenhaus",
+        "Zwei unterschiedlich breite Bänke sind beschrieben",
+        "Fichtenholz und Lieferung ohne fest eingebauten Ofen klar ausgewiesen"
+      ],
+      "cons": [
+        "Der Saunaofen gehört nicht zum beschriebenen Lieferumfang",
+        "Fundament, Wetterschutz und Anschluss sind separat zu planen"
+      ],
+      "ideal_for": [
+        "Gärten mit Platz für eine kleine separate Saunakabine",
+        "Haushalte mit bis zu zwei Nutzern",
+        "Planungen, bei denen der Ofen selbst ausgewählt werden soll"
+      ],
+      "not_for": [
+        "Ein sofort anschlussfertiges Komplettset",
+        "Aufstellungen ohne tragfähigen und ebenen Untergrund"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Fjordholz Herstellerseite Design Saunahaus Siiri Premium",
+        "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Siiri",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "fjordholz-design-saunahaus-paradiso-black-e",
+    "brand": "Fjordholz",
+    "model": "Design-Saunahaus Paradiso Black E",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 222.2,
+      "depth": 212.2,
+      "height": 249
+    },
+    "people": {
+      "min": 3,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Händlerseite: Lieferung ohne Saunaofen; Ofen und Anschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 8329,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Paradiso-Black-Edition",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Zwei Bankebenen mit unterschiedlichen Breiten",
+        "Dachkranz und dunkle Außenoptik als eigenständige Gestaltung",
+        "Für drei bis vier Personen laut Händlerangabe"
+      ],
+      "cons": [
+        "Saunaofen und Anschluss sind nicht Teil der beschriebenen Basis",
+        "Die Außenhöhe verlangt eine genaue Prüfung des Aufstellorts"
+      ],
+      "ideal_for": [
+        "Familien, die eine Gartensauna mit zwei Sitzebenen suchen",
+        "Gärten mit ausreichender Höhe und vorbereiteter Stellfläche"
+      ],
+      "not_for": [
+        "Sehr niedrige oder schwer zugängliche Gartenbereiche",
+        "Käufer, die keine Ofenplanung übernehmen möchten"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Fjordholz Herstellerseite Design-Saunahaus Paradiso Black E",
+        "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Paradiso-Black-Edition",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "fjordholz-fass-sauna-ando",
+    "brand": "Fjordholz",
+    "model": "Fass-Sauna Ando",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 220,
+      "depth": 230,
+      "height": 230
+    },
+    "people": {
+      "min": 3,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Händlerseite: Lieferung ohne Saunaofen; Ofen und Anschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Fichte und Thermoholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 6439,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Ando",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Zwei lange Bänke mit dokumentierter Breite",
+        "Kombination aus Fichte und Thermoholz",
+        "Mehr Innenlänge als kompakte Fassmodelle"
+      ],
+      "cons": [
+        "Ohne Saunaofen im beschriebenen Angebot",
+        "Die größere Tiefe beeinflusst Transport und Fundamentplanung"
+      ],
+      "ideal_for": [
+        "Gärten mit länglicher Stellfläche",
+        "Nutzer, die Ofen und Steuerung getrennt auswählen möchten"
+      ],
+      "not_for": [
+        "Kleine Terrassen mit nur quadratischem Platzangebot"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Fjordholz Herstellerseite Fass-Sauna Ando",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Ando",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "fjordholz-fass-sauna-bus-130-standard",
+    "brand": "Fjordholz",
+    "model": "Fass-Sauna Bus 130 Standard",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 210,
+      "depth": 130,
+      "height": 215
+    },
+    "people": {
+      "min": 2,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Händlerseite: Lieferung ohne Saunaofen; Ofen und Anschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Fichte und Thermo-Kiefer"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 3409,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-130-Standard",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Kürzere Fassvariante für begrenzte Gartenflächen",
+        "Zweistufige Bänke mit zusätzlicher Fußbank",
+        "Fichte und Thermo-Kiefer als dokumentierte Holzarten"
+      ],
+      "cons": [
+        "Ofen und Elektroplanung sind nicht im Grundangebot enthalten",
+        "Die Sitzkapazität ist auf bis zu drei Personen ausgelegt"
+      ],
+      "ideal_for": [
+        "Kompakte Gärten mit länglicher, aber begrenzter Tiefe",
+        "Zwei bis drei Personen"
+      ],
+      "not_for": [
+        "Größere Gruppen mit Bedarf an breiten Liegeflächen"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Fjordholz Herstellerseite Fass-Sauna Bus 130 Standard",
+        "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-130-Standard",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "fjordholz-fass-sauna-bus-160-standard",
+    "brand": "Fjordholz",
+    "model": "Fass-Sauna Bus 160 Standard",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 210,
+      "depth": 160,
+      "height": 215
+    },
+    "people": {
+      "min": 2,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Händlerseite: Lieferung ohne Saunaofen; Ofen und Anschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Fichte und Thermo-Kiefer"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 3699,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-160-Standard",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Mehr Tiefe als die Bus-130-Variante",
+        "Zweistufige Bänke und Fußbänke beschrieben",
+        "Für bis zu drei Personen erfasst"
+      ],
+      "cons": [
+        "Der Saunaofen ist nicht Teil der Basisangabe",
+        "Die längere Bauform braucht einen passenden Transportweg"
+      ],
+      "ideal_for": [
+        "Gärten, in denen etwas mehr Innenlänge verfügbar ist",
+        "Paare oder kleine Haushalte mit Sitzbetrieb"
+      ],
+      "not_for": [
+        "Aufstellorte, an denen nur sehr kurze Kabinen passen"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Fjordholz Herstellerseite Fass-Sauna Bus 160 Standard",
+        "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-160-Standard",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "fjordholz-fass-sauna-icon-200-s-fichte",
+    "brand": "Fjordholz",
+    "model": "Fass-Sauna Icon 200 S Fichte",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 205,
+      "depth": 200,
+      "height": 210
+    },
+    "people": {
+      "min": 3,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Händlerseite: Lieferung ohne Saunaofen; Ofen und Anschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 3779,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-200-S-Fichte",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Kompakte 200-cm-Tiefe",
+        "Dokumentiertes Bankmaß von 160 × 52 cm",
+        "Fichtenholz als klare Ausführung"
+      ],
+      "cons": [
+        "Nur eine Bank ist in der Quelle konkret ausgewiesen",
+        "Saunaofen und Anschluss fehlen im Basisangebot"
+      ],
+      "ideal_for": [
+        "Kleinere Gärten mit Platz für ein kurzes Fass",
+        "Sitzsauna für wenige Personen"
+      ],
+      "not_for": [
+        "Nutzer, die mehrere lange Liegebänke erwarten"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Fjordholz Herstellerseite Fass-Sauna Icon 200 S Fichte",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-200-S-Fichte",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "fjordholz-fass-sauna-icon-220-thermo",
+    "brand": "Fjordholz",
+    "model": "Fass-Sauna Icon 220 Thermo",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 231,
+      "depth": 220,
+      "height": 236
+    },
+    "people": {
+      "min": 3,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Händlerseite: Lieferung ohne Saunaofen; Ofen und Anschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Thermoholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 5379,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-220-Thermo",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Zweistufige Bank mit 180 × 60 cm",
+        "Thermoholz als dokumentierte Außenverkleidung",
+        "Mehr Tiefe als das Icon 200 S"
+      ],
+      "cons": [
+        "Ofen und Anschluss werden separat geplant",
+        "Vorraum oder zusätzliche Liegefläche sind nicht ausgewiesen"
+      ],
+      "ideal_for": [
+        "Gärten mit mittlerem Platzangebot",
+        "Nutzer, die Thermoholz gegenüber Fichte bevorzugen"
+      ],
+      "not_for": [
+        "Aufstellungen ohne Wetterschutz- und Fundamentkonzept"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Fjordholz Herstellerseite Fass-Sauna Icon 220 Thermo",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-220-Thermo",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "fjordholz-fass-sauna-icon-385-thermo",
+    "brand": "Fjordholz",
+    "model": "Fass-Sauna Icon 385 Thermo",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 231,
+      "depth": 385,
+      "height": 236
+    },
+    "people": {
+      "min": 3,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Händlerseite: Lieferung ohne Saunaofen; Ofen und Anschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Thermoholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 7939,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-385-Thermo",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Langes Format mit getrennt beschriebenem Vorraum",
+        "Thermoholz und 199 × 60 cm Saunabank dokumentiert",
+        "Vorraum-Sitzbänke für Umkleide oder Ablage genannt"
+      ],
+      "cons": [
+        "Der größere Grundriss verlangt mehr Fundament- und Transportplanung",
+        "Ofen und Anschluss fehlen in der Basisangabe"
+      ],
+      "ideal_for": [
+        "Gärten mit ausreichend tiefer Stellfläche",
+        "Nutzer, die einen Vorraum für Handtücher und Umkleide einplanen"
+      ],
+      "not_for": [
+        "Kompakte Terrassen oder kurze Zufahrten"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Fjordholz Herstellerseite Fass-Sauna Icon 385 Thermo",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-385-Thermo",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "fjordholz-fass-sauna-lauri",
+    "brand": "Fjordholz",
+    "model": "Fass-Sauna Lauri",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 220,
+      "depth": 228,
+      "height": 230
+    },
+    "people": {
+      "min": 3,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Händlerseite: Lieferung ohne Saunaofen; Ofen und Anschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Thermoholz und Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "GartenHausfabrik",
+          "price": 6479,
+          "availability": "feed-listed",
+          "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Lauri",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Zwei lange Bänke mit dokumentierter Breite",
+        "Kombination aus Thermoholz und Fichte",
+        "Mittlere Außenmaße für vier Personen laut Händlerangabe"
+      ],
+      "cons": [
+        "Saunaofen und Anschluss sind separat zu bestimmen",
+        "Die Materialkombination kann bei Pflege und Farbentwicklung unterschiedlich reagieren"
+      ],
+      "ideal_for": [
+        "Gärten mit mittlerer Stellfläche",
+        "Haushalte, die zwei lange Sitzbänke nutzen möchten"
+      ],
+      "not_for": [
+        "Käufer, die ein elektrisch vorkonfiguriertes Komplettset suchen"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Fjordholz Herstellerseite Fass-Sauna Lauri",
+        "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Lauri",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "awt-e1805",
+    "brand": "AWT",
+    "model": "E1805",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 180,
+      "depth": 180,
+      "height": 210
+    },
+    "people": {
+      "min": 2,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Der Feedpreis entspricht der Ausführung ohne Saunaofen. Ofen, Leistung und Elektroanschluss werden separat gewählt."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Pinienholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 2999,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1805-aus-pinienholz-/-180-x-180-cm/14879",
+          "affiliate": false,
+          "last_checked": "2026-09-02",
+          "configuration": "ohne Saunaofen",
+          "selection_required": true
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Herstellerseite bestätigt 180 × 180 × 210 cm",
+        "Pinienholz, Saunabank und Zubehör sind dokumentiert",
+        "Ofenlose Basis und Ofenvariante klar trennbar"
+      ],
+      "cons": [
+        "Der Ofen ist beim erfassten Feedangebot nicht enthalten",
+        "Ein Starkstromhinweis des Herstellers muss bei der Ofenwahl berücksichtigt werden"
+      ],
+      "ideal_for": [
+        "Innenräume mit rund 180 cm Stellmaß",
+        "Käufer, die den Ofen separat passend auswählen möchten"
+      ],
+      "not_for": [
+        "Ein sofort betriebsbereites Set ohne zusätzliche Ofenentscheidung"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "AWT Herstellerseite E1805",
+        "url": "https://www.eago.de/sauna-kaufen/e1805-pinienholz-180x180-ohne-ofen",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite E1805",
+        "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1805-aus-pinienholz-/-180-x-180-cm/14879",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "sentiotec-alaska-corner",
+    "brand": "Sentiotec",
+    "model": "Alaska Corner",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 206,
+      "depth": 206,
+      "height": 204
+    },
+    "people": {
+      "min": 4,
+      "max": 5,
+      "seats": 5,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": 8,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Das Händlerangebot ist mit 8-kW-Ofen bezeichnet; die Herstellerseite empfiehlt 7,5 bis 9 kW. Die Anschlussbedingungen müssen eine Elektrofachkraft prüfen."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Fichte und Linde"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 5199,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-alaska-corner-206-aus-fichte-mit-8-kw-ofen-/-206-x-206-x-204/1-030-269.1",
+          "affiliate": false,
+          "last_checked": "2026-09-02",
+          "configuration": "mit 8-kW-Ofen",
+          "selection_required": true
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "206 × 206 × 204 cm und fünf Plätze offiziell dokumentiert",
+        "Drei Bänke aus der Prestige-Inneneinrichtung",
+        "Spiegelverkehrter Aufbau laut Hersteller möglich"
+      ],
+      "cons": [
+        "Ofenleistung und Netzanschluss müssen zur konkreten Variante passen",
+        "Der Eckgrundriss setzt zwei freie Wandseiten voraus"
+      ],
+      "ideal_for": [
+        "Großzügige Innenräume mit Eckaufstellung",
+        "Vier bis fünf Personen und flexible Türorientierung"
+      ],
+      "not_for": [
+        "Räume ohne zwei geeignete Stellwände oder ausreichende Höhe"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der Sentiotec-Herstellerseite und des verlinkten Saunaloft-Angebots; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Sentiotec Herstellerseite Alaska Corner",
+        "url": "https://www.sentiotec.com/de/kategorien/sentiotec-sauna/kabinen/alaska_corner",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite Alaska Corner",
+        "url": "https://shop-saunaloft.de/finnische-sauna-alaska-corner-206-aus-fichte-mit-8-kw-ofen-/-206-x-206-x-204/1-030-269.1",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "awt-e1801b",
+    "brand": "AWT",
+    "model": "E1801B",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 160,
+      "depth": 160,
+      "height": 210
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die geprüfte Feedvariante wird ohne Saunaofen angeboten. Ofen und Elektroanschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Pinienholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 2499,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1801b-aus-pinienholz-/-160-x-160/14877",
+          "affiliate": false,
+          "last_checked": "2026-09-02",
+          "configuration": "ohne Saunaofen",
+          "selection_required": true
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Kompaktes 160 × 160 cm Stellmaß",
+        "Hersteller bestätigt ein bis zwei Personen und zwei Bänke",
+        "Ofenlose Feedvariante eindeutig abgegrenzt"
+      ],
+      "cons": [
+        "Ofen und Anschluss sind nicht im Feedangebot enthalten",
+        "Die geringe Grundfläche begrenzt die Nutzung auf ein kleines Team"
+      ],
+      "ideal_for": [
+        "Kleine Innenräume mit ausreichender Höhe",
+        "Ein bis zwei Personen"
+      ],
+      "not_for": [
+        "Familien oder Nutzer mit großzügiger Liegefläche"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "AWT Herstellerseite E1801B",
+        "url": "https://www.eago.de/sauna-kaufen/e1801b-pinienholz-160x160-ohne-ofen",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite E1801B",
+        "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1801b-aus-pinienholz-/-160-x-160/14877",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "awt-e1802",
+    "brand": "AWT",
+    "model": "E1802",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 180,
+      "depth": 180,
+      "height": 210
+    },
+    "people": {
+      "min": 2,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Der Feedpreis entspricht der Ausführung ohne Saunaofen. Ofen, Leistung und Elektroanschluss werden separat gewählt."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Pinienholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 2999,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1802-aus-pinienholz-/-180-x-180/14878",
+          "affiliate": false,
+          "last_checked": "2026-09-02",
+          "configuration": "ohne Saunaofen",
+          "selection_required": true
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "180 × 180 × 210 cm auf der Herstellerseite bestätigt",
+        "Für zwei bis vier Personen und mit Saunabank dokumentiert",
+        "Ofenlose Feedvariante klar erkennbar"
+      ],
+      "cons": [
+        "Ein passender Ofen muss separat ausgewählt werden",
+        "Die Anschlussfrage lässt sich erst mit der Ofenwahl abschließend beantworten"
+      ],
+      "ideal_for": [
+        "Innenräume mit quadratischer Stellfläche",
+        "Käufer, die Kabine und Ofen getrennt zusammenstellen"
+      ],
+      "not_for": [
+        "Kaufentscheidungen, bei denen ein Komplettset ohne weitere Auswahl erwartet wird"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "AWT Herstellerseite E1802",
+        "url": "https://www.eago.de/sauna-kaufen/e1802-pinienholz-180x180-ohne-ofen",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite E1802",
+        "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1802-aus-pinienholz-/-180-x-180/14878",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "awt-e1803b",
+    "brand": "AWT",
+    "model": "E1803B",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 150,
+      "depth": 120,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die geprüfte Feedvariante wird ohne Saunaofen angeboten. Ofen und Elektroanschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Pinienholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 2199,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1803b-aus-pinienholz-/-150-x-120/14881.2",
+          "affiliate": false,
+          "last_checked": "2026-09-02",
+          "configuration": "ohne Saunaofen",
+          "selection_required": true
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Kleine Grundfläche für knappe Innenräume",
+        "Hersteller bestätigt ein bis zwei Personen und eine Bank",
+        "190 cm Höhe kann bei niedrigen Räumen relevant sein"
+      ],
+      "cons": [
+        "Ohne Saunaofen im erfassten Angebot",
+        "Die geringe Tiefe lässt wenig Spielraum für zusätzliche Ausstattung"
+      ],
+      "ideal_for": [
+        "Kleine Wellnessräume mit rund 150 × 120 cm Stellmaß",
+        "Ein bis zwei Personen mit Sitznutzung"
+      ],
+      "not_for": [
+        "Nutzer, die in der Kabine lange Liegeflächen benötigen"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "AWT Herstellerseite E1803B",
+        "url": "https://www.eago.de/sauna-kaufen/e1803b-pinienholz-150x120-ohne-ofen",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite E1803B",
+        "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1803b-aus-pinienholz-/-150-x-120/14881.2",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "awt-e1804c",
+    "brand": "AWT",
+    "model": "E1804C",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 120,
+      "depth": 120,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die geprüfte Feedvariante wird ohne Saunaofen angeboten. Ofen und Elektroanschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Pinienholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 2399,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1804c-aus-pinienholz-/-120-x-120/14926-1",
+          "affiliate": false,
+          "last_checked": "2026-09-02",
+          "configuration": "ohne Saunaofen",
+          "selection_required": true
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Sehr kleines Stellmaß von 120 × 120 cm",
+        "Pinienholz, Bank und Zubehör auf der Herstellerseite dokumentiert",
+        "190 cm Bauhöhe für niedrigere Räume interessant"
+      ],
+      "cons": [
+        "Ofen und Anschluss fehlen im Feedangebot",
+        "Nur ein bis zwei Personen laut Herstellerangabe"
+      ],
+      "ideal_for": [
+        "Sehr kleine Innenräume",
+        "Einzel- oder Zweierbetrieb mit separat geplanter Technik"
+      ],
+      "not_for": [
+        "Gemeinsame Nutzung mit mehreren Personen oder ausgedehnten Liegeflächen"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "AWT Herstellerseite E1804C",
+        "url": "https://www.eago.de/sauna-kaufen/e1804c-pinienholz-120x120-ohne-ofen",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite E1804C",
+        "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1804c-aus-pinienholz-/-120-x-120/14926-1",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "awt-e1804a",
+    "brand": "AWT",
+    "model": "E1804A",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 180,
+      "depth": 120,
+      "height": 190
+    },
+    "people": {
+      "min": 2,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die geprüfte Feedvariante wird ohne Saunaofen angeboten. Ofen und Elektroanschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Pinienholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 2299,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-e1804a-aus-pinienholz-/-180-x-120-cm/14924",
+          "affiliate": false,
+          "last_checked": "2026-09-02",
+          "configuration": "ohne Saunaofen",
+          "selection_required": true
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "180 × 120 cm Grundmaß für längliche Räume",
+        "Herstellerquelle bestätigt Pinienholz und Saunabank",
+        "Ofenlose Variante preislich separat von Ofenmodellen unterscheidbar"
+      ],
+      "cons": [
+        "Ofen und Anschluss werden nicht mitgeliefert",
+        "Die Breite begrenzt die Möblierung des Aufstellraums"
+      ],
+      "ideal_for": [
+        "Längliche Nischen mit begrenzter Breite",
+        "Haushalte, die die Ofentechnik selbst zusammenstellen"
+      ],
+      "not_for": [
+        "Quadratische Räume, in denen eine Eckkabine besser passt"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "AWT Herstellerseite E1804A",
+        "url": "https://www.eago.de/sauna-kaufen/e1804a-pinienholz-180x120-ohne-ofen",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite E1804A",
+        "url": "https://shop-saunaloft.de/finnische-sauna-e1804a-aus-pinienholz-/-180-x-120-cm/14924",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "awt-e1804b",
+    "brand": "AWT",
+    "model": "E1804B",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 150,
+      "depth": 120,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Die geprüfte Feedvariante wird ohne Saunaofen angeboten. Ofen und Elektroanschluss werden separat geplant."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen optional",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Pinienholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 2199,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-e1804b-aus-pinienholz-/-150-x-120-cm/14925",
+          "affiliate": false,
+          "last_checked": "2026-09-02",
+          "configuration": "ohne Saunaofen",
+          "selection_required": true
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Mittleres Maß innerhalb der E1804-Reihe",
+        "Hersteller bestätigt ein bis zwei Personen und eine Bank",
+        "Pinienholz und 190 cm Höhe nachvollziehbar"
+      ],
+      "cons": [
+        "Ofen und Anschluss sind separat zu bestimmen",
+        "Die Bankkapazität ist für kleine Gruppen ausgelegt"
+      ],
+      "ideal_for": [
+        "Kleine, rechteckige Innenräume",
+        "Ein bis zwei Personen mit Sitzbetrieb"
+      ],
+      "not_for": [
+        "Nutzer mit Bedarf an mehreren Liegeebenen"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "AWT Herstellerseite E1804B",
+        "url": "https://www.eago.de/sauna-kaufen/e1804b-pinienholz-150x120-ohne-ofen",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite E1804B",
+        "url": "https://shop-saunaloft.de/finnische-sauna-e1804b-aus-pinienholz-/-150-x-120-cm/14925",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "artsauna-espoo150-premium",
+    "brand": "Artsauna",
+    "model": "Espoo150 Premium",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 150,
+      "depth": 150,
+      "height": 200
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 6,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "6-kW-Saunaofen mit 400 V 3N~ laut Herstellerseite; Anschluss nur durch eine zugelassene Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlockholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 1599,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-espoo-150-aus-hemlockholz-/-150-x-150-x-200",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Zwei Etagenbänke und Eckfront nutzen den Raum effizient",
+        "6-kW-Ofen und 400 V 3N~ eindeutig angegeben",
+        "Hersteller nennt drei Personen und 150-cm-Grundmaß"
+      ],
+      "cons": [
+        "Starkstromanschluss durch zugelassene Elektrofachkraft erforderlich",
+        "Eckaufstellung verlangt zwei passende Wandseiten"
+      ],
+      "ideal_for": [
+        "Innenräume mit 150 × 150 cm Grundfläche",
+        "Paare oder kleine Haushalte mit Sitzbetrieb auf zwei Ebenen"
+      ],
+      "not_for": [
+        "Räume ohne geeignete Stromzuführung oder Eckgeometrie"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der Artsauna-Herstellerseite und der verlinkten Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Artsauna Herstellerseite Espoo150 Premium",
+        "url": "https://artsauna.de/products/indoor-sauna-espoo-150-premium-6-kw",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite Espoo150 Premium",
+        "url": "https://shop-saunaloft.de/finnische-sauna-espoo-150-aus-hemlockholz-/-150-x-150-x-200",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "dewello-minto-150-130",
+    "brand": "Dewello",
+    "model": "MINTO 150 × 130",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 150,
+      "depth": 130,
+      "height": 190
+    },
+    "people": {
+      "min": 2,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 2
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 4.5,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "4,5-kW-Harvia-Ofen und 380–400-V-Starkstromanschluss laut Herstellerseite."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlockholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 2099,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-minto/-150cm-x-130cm",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Zwei Liegeflächen trotz kompakter Grundfläche",
+        "4,5-kW-Harvia-Ofen und 380–400 V dokumentiert",
+        "Hemlockholz und Sicherheitsglastür ausgewiesen"
+      ],
+      "cons": [
+        "Starkstromanschluss und fachgerechte Installation erforderlich",
+        "Die 130-cm-Tiefe begrenzt Bewegungsfläche außerhalb der Liegen"
+      ],
+      "ideal_for": [
+        "Kleine Wellnessräume mit 190 cm Höhe",
+        "Zwei bis drei Personen, die auch liegend saunieren möchten"
+      ],
+      "not_for": [
+        "Aufstellräume ohne Starkstrom oder ausreichende Lüftung"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der Dewello-Herstellerseite und der verlinkten Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Dewello Herstellerseite MINTO 150 × 130",
+        "url": "https://www.dewello.de/products/finnische-sauna-minto-150x130",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite MINTO 150 × 130",
+        "url": "https://shop-saunaloft.de/finnische-sauna-minto/-150cm-x-130cm",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "sanotechnik-riga",
+    "brand": "Sanotechnik",
+    "model": "Riga",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 150,
+      "depth": 120,
+      "height": 190
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 0
+    },
+    "power": {
+      "voltage": "none",
+      "kw": 4.5,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "4,5-kW-Harvia-Ofen; die Herstellerseite nennt 220–240 V oder 380 V, daher muss die konkrete Anschlussvariante vor Ort geprüft werden."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Elektroofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Hemlockholz"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "from",
+      "offers": [
+        {
+          "merchant": "Saunaloft",
+          "price": 1689,
+          "availability": "feed-listed",
+          "url": "https://shop-saunaloft.de/finnische-sauna-riga-mit-ofen-150x120-cm",
+          "affiliate": false,
+          "last_checked": "2026-09-02"
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Kompaktes Maß für kleine Innenräume",
+        "Sitzfläche von etwa 143 × 45 cm dokumentiert",
+        "4,5-kW-Harvia-Ofen und mehrere Anschlussvarianten ausgewiesen"
+      ],
+      "cons": [
+        "Die konkrete Netzspannung muss vor Ort geprüft werden",
+        "Die Sitzfläche ist für kleine Gruppen ausgelegt"
+      ],
+      "ideal_for": [
+        "Kleine Innenräume mit flexibler Anschlussplanung",
+        "Ein bis drei Personen mit überwiegender Sitznutzung"
+      ],
+      "not_for": [
+        "Planungen, die ohne Prüfung eine feste Spannung voraussetzen"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung anhand der Sanotechnik-Herstellerseite und der verlinkten Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
+    },
+    "sources": [
+      {
+        "type": "manufacturer",
+        "title": "Sanotechnik Herstellerseite Riga",
+        "url": "https://www.sanotechnik.com/de/riga-sauna-3-pers-150x120x190-cm-9002827047658.html",
+        "checked_at": "2026-09-02"
+      },
+      {
+        "type": "merchant",
+        "title": "Saunaloft Produktseite Riga",
+        "url": "https://shop-saunaloft.de/finnische-sauna-riga-mit-ofen-150x120-cm",
+        "checked_at": "2026-09-02"
+      }
+    ],
+    "updated_at": "2026-09-02"
   }
 ]
