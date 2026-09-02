@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-02T12:35:19.600Z",
+  "source": "Awin authenticated Wellness Point DE/AT product feed",
+  "secret_included": false,
+  "selection_policy": "Sauna-relevante Einzel-URLs ohne Zubehör; Variantenhinweise werden markiert und nicht automatisch in data/products.json übernommen.",
+  "advertiser_id": "115411",
+  "advertiser_name": "Wellness Point DE/AT",
+  "feed_id": "109984",
+  "feed_name": "DE-Feed",
+  "feed_rows": 151,
+  "sauna_relevant_rows": 21,
+  "products_returned": 21,
+  "products": [
+    {
+      "name": "Dampfdusche Alaska inkl. Infrarotsauna 90x90cm",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_alaska_inkl-_infrarotsauna_90x90cm.html",
+      "brand": "K027",
+      "category": "Showers",
+      "price": 2399,
+      "sku": "22695",
+      "variant_hint": false
+    },
+    {
+      "name": "Dampfdusche Arizona inkl. Infrarotsauna 145x90cm",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_arizona_inkl-_infrarotsauna_145x90cm.html",
+      "brand": "K016",
+      "category": "Showers",
+      "price": 2999,
+      "sku": "9858",
+      "variant_hint": false
+    },
+    {
+      "name": "Dampfdusche California inkl. Infrarotsauna 145x90cm",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_california_inkl-_infrarotsauna.html",
+      "brand": "K022",
+      "category": "Showers",
+      "price": 2799,
+      "sku": "3148",
+      "variant_hint": false
+    },
+    {
+      "name": "Dampfdusche Colorado inkl. Infrarotsauna 100x90cm",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_colorado_inkl-_infrarotsauna_100x90cm.html",
+      "brand": "K071",
+      "category": "Showers",
+      "price": 2299,
+      "sku": "3150",
+      "variant_hint": false
+    },
+    {
+      "name": "Dampfdusche Florida inkl. Infrarotsauna 145x90cm",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_florida_inkl-_infrarotsauna_145x90cm.html",
+      "brand": "K082",
+      "category": "Showers",
+      "price": 2999,
+      "sku": "3151",
+      "variant_hint": false
+    },
+    {
+      "name": "Dampfdusche Kansas inkl. Infrarotsauna 100x100cm",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_kansas_inkl-_infrarotsauna_100x100cm.html",
+      "brand": "K017",
+      "category": "Showers",
+      "price": 2499,
+      "sku": "9860",
+      "variant_hint": false
+    },
+    {
+      "name": "Dampfdusche Virginia inkl. Infrarotsauna 100x100cm",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_virginia_inkl-_infrarotsauna_100x100cm.html",
+      "brand": "K085",
+      "category": "Showers",
+      "price": 2399,
+      "sku": "3152",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna Alaska I",
+      "url": "https://wellness-point.com/produkte/detail/finnische-sauna-alaska-i.html",
+      "brand": "Wellness-Point",
+      "category": "Pampering",
+      "price": 1999,
+      "sku": "37",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna Alaska II",
+      "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_ii.html",
+      "brand": "Wellness-Point",
+      "category": "Pampering",
+      "price": 2149,
+      "sku": "38",
+      "variant_hint": false
+    },
+    {
+      "name": "Finnische Sauna Alaska III",
+      "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_iii.html",
+      "brand": "Wellness-Point",
+      "category": "Pampering",
+      "price": 2349,
+      "sku": "39",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Göteborg",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_goeteborg.html",
+      "brand": "Wellness-Point",
+      "category": "Radiators",
+      "price": 1849,
+      "sku": "465",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Helsinki Alpha",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_alpha.html",
+      "brand": "Wellness-Point",
+      "category": "Radiators",
+      "price": 1799,
+      "sku": "61",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Helsinki Beta",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_beta.html",
+      "brand": "Wellness-Point",
+      "category": "Radiators",
+      "price": 2099,
+      "sku": "62",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Malmö",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_malmoe.html",
+      "brand": "Wellness-Point",
+      "category": "Radiators",
+      "price": 1549,
+      "sku": "97",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Oslo",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_oslo.html",
+      "brand": "Wellness-Point",
+      "category": "Radiators",
+      "price": 1399,
+      "sku": "18",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Stockholm",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_stockholm.html",
+      "brand": "Wellness-Point",
+      "category": "Radiators",
+      "price": 1299,
+      "sku": "79",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Toronto",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_toronto.html",
+      "brand": "Wellness-Point",
+      "category": "Radiators",
+      "price": 2099,
+      "sku": "20",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine Trondheim",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_trondheim.html",
+      "brand": "B3C",
+      "category": "Radiators",
+      "price": 1699,
+      "sku": "9",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotsauna Alpha I",
+      "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_i.html",
+      "brand": "Wellness-Point",
+      "category": "Radiators",
+      "price": 1999,
+      "sku": "43",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotsauna Alpha II",
+      "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_ii.html",
+      "brand": "Wellness-Point",
+      "category": "Radiators",
+      "price": 2499,
+      "sku": "44",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotsauna Alpha III",
+      "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_iii.html",
+      "brand": "Wellness-Point",
+      "category": "Radiators",
+      "price": 3499,
+      "sku": "45",
+      "variant_hint": false
+    }
+  ]
+}
