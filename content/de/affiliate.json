@@ -255,7 +255,7 @@
       "status": "approved",
       "focus": "Saunen, Infrarotkabinen und Wellnessangebote von Wellness Point; Aktivierung nur bei exakter Produkt-URL-Zuordnung.",
       "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
-      "cookie_days": 60,
+      "cookie_days": null,
       "direct_linking": true,
       "tracking_hosts": [
         "awin1.com"

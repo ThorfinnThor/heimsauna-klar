@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T12:30:27.328Z",
+  "generated_at": "2026-09-02T12:33:26.517Z",
   "source": "Awin authenticated product feed list",
   "secret_included": false,
   "eligible_feeds": [
@@ -302,6 +302,33 @@
           "membershipStatus": "active",
           "feedId": "92070",
           "feedName": "Default",
+          "language": "German",
+          "lastUpdated": null,
+          "productCount": null
+        }
+      ]
+    },
+    {
+      "merchant_id": "wellness-point",
+      "expected_name": "Wellness Point",
+      "status": "found",
+      "advertiser_id": "115411",
+      "advertiser_names": [
+        "Wellness Point DE/AT"
+      ],
+      "feeds": [
+        {
+          "membershipStatus": "active",
+          "feedId": "109984",
+          "feedName": "DE-Feed",
+          "language": "German",
+          "lastUpdated": null,
+          "productCount": null
+        },
+        {
+          "membershipStatus": "active",
+          "feedId": "109985",
+          "feedName": "AT-Feed",
           "language": "German",
           "lastUpdated": null,
           "productCount": null
