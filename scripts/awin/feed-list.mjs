@@ -14,6 +14,12 @@ const TARGETS = [
   { merchantId: "intergard", label: "InterGard", matches: (name) => normalizedKey(name).includes("intergard") },
   { merchantId: "saunaloft", label: "Saunaloft", matches: (name) => normalizedKey(name).includes("saunaloft") },
   { merchantId: "gartenhausfabrik", label: "GartenHausfabrik", matches: (name) => normalizedKey(name).includes("gartenhausfabrik") },
+  {
+    merchantId: "wellness-point",
+    label: "Wellness Point",
+    matches: (name) => normalizedKey(name).includes("wellnesspoint"),
+    preferredFeed: (entry) => normalizedKey(entry.feedName ?? "").includes("de"),
+  },
 ];
 
 function normalizedKey(value) {

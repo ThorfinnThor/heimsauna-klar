@@ -15,6 +15,7 @@ on:
           - intergard
           - saunaloft
           - gartenhausfabrik
+          - wellness-point
 
 permissions:
   contents: write

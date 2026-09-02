@@ -246,6 +246,25 @@
       ],
       "url": "https://ui.awin.com/merchant-profile/76696",
       "checked_at": "2026-09-02"
+    },
+    {
+      "id": "awin-wellness-point",
+      "name": "Wellness Point",
+      "network": "Awin",
+      "program_id": "115411",
+      "status": "approved",
+      "focus": "Saunen, Infrarotkabinen und Wellnessangebote von Wellness Point; Aktivierung nur bei exakter Produkt-URL-Zuordnung.",
+      "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
+      "cookie_days": 60,
+      "direct_linking": true,
+      "tracking_hosts": [
+        "awin1.com"
+      ],
+      "advertiser_merchant_ids": [
+        "wellness-point"
+      ],
+      "url": "https://ui.awin.com/merchant-profile/115411",
+      "checked_at": "2026-09-02"
     }
   ]
 }

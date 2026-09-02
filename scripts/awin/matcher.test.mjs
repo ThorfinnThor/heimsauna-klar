@@ -17,6 +17,7 @@ test("feed-list discovery keeps approved German Awin feeds", () => {
     "500,Unrelated,Not Joined,50,German,2026-08-27,5,https://productdata.awin.com/datafeed/download/apikey/x/fid/50/",
     "600,Saunaloft DE,active,60,German,2026-08-28,25,https://productdata.awin.com/datafeed/download/apikey/x/fid/60/",
     "700,GartenHausfabrik DE,active,70,German,2026-08-28,30,https://productdata.awin.com/datafeed/download/apikey/x/fid/70/",
+    "800,Wellness Point DE/AT,active,80,German,2026-08-28,40,https://productdata.awin.com/datafeed/download/apikey/x/fid/80/",
   ].join("\n"));
   rows[2]["Feed Name"] = "BENZ24 Deutschland";
   rows[3]["Feed Name"] = "BENZ24 Österreich";
@@ -28,6 +29,7 @@ test("feed-list discovery keeps approved German Awin feeds", () => {
     ["intergard", "400"],
     ["saunaloft", "600"],
     ["gartenhausfabrik", "700"],
+    ["wellness-point", "800"],
   ]);
   assert.equal(targets.find((target) => target.merchantId === "benz24").entry.feedId, "30");
 });

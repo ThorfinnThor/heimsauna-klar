@@ -22,6 +22,9 @@ const TARGET_DETAILS = {
   gartenhausfabrik: {
     focus: "Garten- und Saunahausangebote von GartenHausfabrik; nur eindeutig belegte Sauna- und Saunahaus-Modelle werden aktiviert.",
   },
+  "wellness-point": {
+    focus: "Saunen, Infrarotkabinen und Wellnessangebote von Wellness Point; Aktivierung nur bei exakter Produkt-URL-Zuordnung.",
+  },
 };
 
 const rawUrl = process.env.AWIN_FEED_LIST_URL?.trim();
