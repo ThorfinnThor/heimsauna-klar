@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T20:51:01.888Z",
+  "generated_at": "2026-09-02T10:51:58.556Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
-  "products_total": 450,
-  "newly_matched_offers": 78,
-  "active_affiliate_offers": 78,
+  "products_total": 470,
+  "newly_matched_offers": 99,
+  "active_affiliate_offers": 99,
   "targets": [
     {
       "merchant_id": "artsauna",
@@ -38,7 +38,7 @@
       "advertiser_name": "Benz24 DE/AT",
       "feed_id": "43829",
       "feed_name": "BENZ24 Deutschland",
-      "feed_rows": 92070,
+      "feed_rows": 92078,
       "catalog_offers": 11,
       "exact_matches": 11,
       "invalid_tracking_links": 0,
@@ -63,8 +63,8 @@
       "feed_id": "83153",
       "feed_name": "awinfeed.csv",
       "feed_rows": 4033,
-      "catalog_offers": 4,
-      "exact_matches": 4,
+      "catalog_offers": 16,
+      "exact_matches": 16,
       "invalid_tracking_links": 0,
       "unmatched_product_ids": []
     },
@@ -74,9 +74,9 @@
       "advertiser_name": "Gartenhausfabrik DE",
       "feed_id": "92070",
       "feed_name": "Default",
-      "feed_rows": 10424,
-      "catalog_offers": 11,
-      "exact_matches": 11,
+      "feed_rows": 10412,
+      "catalog_offers": 20,
+      "exact_matches": 20,
       "invalid_tracking_links": 0,
       "unmatched_product_ids": []
     }
