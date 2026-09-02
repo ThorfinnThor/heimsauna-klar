@@ -916,5 +916,98 @@
     "criteria": ["Kategorie Indoor und Typ Finnische Sauna", "Herstellerkapazität beträgt genau drei Personen", "Produktfläche, Ofen und Maße sind verifiziert"],
     "checks": ["Drei Personen nicht mit drei komfortablen Liegeplätzen gleichsetzen.", "Bankhöhe, Innenbreite und Türposition anhand der Zeichnung prüfen.", "Heizleistung und Raumvolumen aus der Anleitung abgleichen.", "Anschluss und Luftführung am vorgesehenen Standort fachlich prüfen lassen."],
     "module_copy": {"method_kicker": "Kapazität und Saunatyp", "method_title": "Die Auswahl beschränkt sich auf finnische Indoor-Kabinen für genau drei Personen.", "method_note": "Der letzte dokumentierte Angebotsstand wurde geprüft am", "results_kicker": "Dreierkabinen mit klassischem Ofen", "results_title": "{count} finnische Saunen sind für drei Personen ausgewiesen.", "results_intro": "Die Reihenfolge folgt der Produktfläche. Bankaufteilung, Ofenleistung und Lüftung müssen am Modell geprüft werden.", "checks_kicker": "Sitzen, liegen, anschließen", "checks_title": "Vier Punkte übersetzen die Kapazität in einen Raumplan.", "related_kicker": "Eine andere Größe wählen", "related_title": "Zweier-, Vierer- und allgemeine finnische Modelle danebenstellen."}
+  },
+  {
+    "id": "voltage-400",
+    "section": "vergleiche",
+    "slug": "400-v-sauna",
+    "kind": "Anschlussvergleich",
+    "eyebrow": "400 V · belegte Konfigurationen",
+    "title": "400-V-Saunen vergleichen",
+    "accent": "nach Kabine, Ofen und Leistung.",
+    "description": "Saunen mit ausdrücklich dokumentierter 400-V-Konfiguration nach Stellfläche, Ofenleistung, Kapazität und Preis vergleichen.",
+    "intro": "Diese Auswahl enthält nur Produktvarianten, für die 400 V in der geprüften Quelle ausdrücklich genannt werden. Die Spannungsangabe belegt die Konfiguration, ersetzt aber weder Leitungsplanung noch Absicherung und Anschluss durch eine Elektrofachkraft.",
+    "layout": "technical",
+    "filters": {"voltages": [400]},
+    "sort": "footprint",
+    "related_ids": ["finnische-sauna", "sauna-bis-6-m2", "brand-artsauna"],
+    "planning": {"kicker": "Elektrische Unterlagen vorbereiten", "intro": "Modell, Ofen, Steuerung und Anschlussplan müssen eindeutig zusammengehören, bevor die Zuleitung dimensioniert wird.", "guide_ids": ["230-v-vs-400-v-sauna", "stromverbrauch-heimsauna"]},
+    "editorial": {
+      "kicker": "400 V am konkreten Modell",
+      "title": "Die Spannung ist eindeutig, der elektrische Aufbau noch nicht vollständig beschrieben.",
+      "paragraphs": [
+        "400 V wird hier nur angezeigt, wenn die geprüfte Produkt- oder Herstellerquelle diese Spannung für die konkrete Variante nennt. Eine hohe Ofenleistung allein genügt nicht für die Zuordnung. Dadurch bleiben Modelle mit unklarer Konfiguration außerhalb dieser Liste, auch wenn ein Starkstromanschluss technisch naheliegen könnte.",
+        "Für die Elektroplanung werden zusätzlich Nennleistung, Phasenangabe, Steuerung, Absicherung und Leitungsweg benötigt. Ein Ofenset kann andere Anforderungen haben als eine äußerlich gleiche Kabine ohne Ofen. Deshalb führt jeder Eintrag zur Produktseite mit Quellen und offen gebliebenen Feldern.",
+        "Die Reihenfolge folgt der Produktfläche. Sie bewertet weder Heizgeschwindigkeit noch Verarbeitungsqualität. Für diese Fragen wären vollständige Systemdaten oder eigene Messungen erforderlich, die der Katalog nicht behauptet."
+      ],
+      "pointsTitle": "Angaben für den Fachbetrieb",
+      "points": ["Exakte Modell- und Variantenbezeichnung", "Ofenleistung und Phasenangabe", "Steuerung und Temperaturfühler", "Leitungsweg, Absicherung und Herstellerplan"],
+      "callout": "400 V beschreibt den Anschluss der belegten Variante und keine pauschale Eigenschaft der gesamten Modellreihe."
+    },
+    "criteria": ["400 V ist für die konkrete Produktvariante dokumentiert", "Produktmaße und Ofenleistung bleiben quellenbezogen", "Unklare oder lediglich vermutete Spannungen werden ausgeschlossen"],
+    "checks": ["Artikelnummer und Ofenvariante mit dem Anschlussplan abgleichen.", "Leistung, Phasenangabe und Steuerung gemeinsam an den Fachbetrieb geben.", "Zuleitung und Absicherung nicht aus der Spannung allein ableiten.", "Den aktuellen Lieferumfang beim Händler erneut kontrollieren."],
+    "module_copy": {"method_kicker": "Belegter Spannungsfilter", "method_title": "Nur ausdrücklich als 400-V-Variante dokumentierte Produkte erscheinen in dieser Auswahl.", "method_note": "Der jüngste Angebotsstand der 400-V-Produkte wurde geprüft am", "results_kicker": "Dokumentierte 400-V-Modelle", "results_title": "{count} Produkte besitzen eine belegte 400-V-Konfiguration.", "results_intro": "Stellfläche, Leistung und Lieferumfang bleiben getrennte Felder. Die Tabelle ersetzt keinen elektrischen Anschlussplan.", "checks_kicker": "Vom Produktdatensatz zur Elektroplanung", "checks_title": "Vier Angaben braucht der Fachbetrieb zusätzlich zur Spannung.", "related_kicker": "Technik und Größe weiter eingrenzen", "related_title": "Finnische Saunen, Flächengrenzen und Artsauna-Modelle gegenüberstellen."}
+  },
+  {
+    "id": "brand-home-deluxe",
+    "section": "vergleiche",
+    "slug": "home-deluxe-sauna",
+    "kind": "Markenübersicht",
+    "eyebrow": "Home Deluxe · drei Produktgruppen",
+    "title": "Home Deluxe Saunen im Vergleich",
+    "accent": "von Infrarot bis Gartensauna.",
+    "description": "Home Deluxe Saunen und Infrarotkabinen nach Wärmeart, Aufstellort, Größe, Anschluss und dokumentiertem Angebot vergleichen.",
+    "intro": "Im Katalog stehen Infrarotkabinen, klassische Innenkabinen und Outdoor-Saunen von Home Deluxe. Die gemeinsame Marke macht diese Produkte nicht technisch vergleichbar. Der Aufstellort und die Wärmeart trennen die Auswahl deutlicher als der Modellname.",
+    "layout": "tradeoff",
+    "filters": {"brands": ["Home Deluxe"]},
+    "sort": "footprint",
+    "related_ids": ["infrarotkabine", "finnische-sauna", "outdoor-under-5000"],
+    "planning": {"kicker": "Baureihe richtig zuordnen", "intro": "NERO, REDSUN, SHADOW, LAHTI oder SKYLINE stehen für unterschiedliche Räume und Heizsysteme. Die Daten der konkreten Variante sind maßgeblich.", "guide_ids": ["platzbedarf", "230-v-vs-400-v-sauna"]},
+    "editorial": {
+      "kicker": "Modellname und Technik trennen",
+      "title": "Bei Home Deluxe beginnt der Vergleich mit der Produktgruppe.",
+      "paragraphs": [
+        "NERO, SONORA und REDSUN stehen im erfassten Sortiment überwiegend für Infrarotkabinen. SHADOW, LAHTI, CUBE oder SKYLINE führen dagegen zu klassischen Sauna- oder Außenmodellen. Wer nur nach der Marke filtert, vermischt damit verschiedene Wärmearten, Aufstellorte und Anschlussanforderungen.",
+        "Auch innerhalb einer Reihe verändern die Größen S, M, L und XL mehr als den Namen. Außenmaß, Personenzahl, Heizleistung und teilweise der Lieferumfang wechseln. Die Produktseiten bleiben deshalb nach Variante getrennt und führen den jeweils dokumentierten Händlerpreis aus.",
+        "Die Stellfläche bestimmt die Reihenfolge der Übersicht. Daraus folgt keine Qualitätsbewertung. Materialeindruck, Montageaufwand und Wärmeverteilung wären ohne eigene Prüfung keine belastbaren Ranglistenmerkmale."
+      ],
+      "pointsTitle": "So lässt sich das Sortiment aufteilen",
+      "points": ["Infrarotkabine oder klassische Ofensauna", "Innenraum oder Außenstandort", "Grundmaß und regelmäßige Personenzahl", "Enthaltener Ofen und dokumentierte Spannung"],
+      "callout": "Die Baureihe grenzt die Suche ein; entschieden wird anhand der konkreten Größen- und Technikvariante."
+    },
+    "criteria": ["Hersteller- oder Markenangabe Home Deluxe", "Eigenständige Produktvariante mit belegten Maßen", "Wärmeart, Aufstellort und Angebot werden separat ausgewiesen"],
+    "checks": ["Produktreihe und Größenkürzel vollständig mit dem Händlerangebot abgleichen.", "Infrarot- und Ofensaunen nicht über die Leistung direkt vergleichen.", "Bei Außenmodellen Fundament, Dach und Anlieferung ergänzen.", "Preis und Lieferumfang der ausgewählten Variante vor dem Kauf prüfen."],
+    "module_copy": {"method_kicker": "Sortiment statt Bestenliste", "method_title": "Alle verifizierten Home-Deluxe-Varianten werden nach Wärmeart und Stellfläche nachvollziehbar.", "method_note": "Der aktuelle Angebotsstand der Markenübersicht reicht bis zum", "results_kicker": "Home Deluxe im Katalog", "results_title": "{count} Home-Deluxe-Produkte sind als eigene Varianten dokumentiert.", "results_intro": "Die Karten zeigen Aufstellung, Fläche, Kapazität, Anschluss und Preis. Ähnliche Modellnamen bleiben getrennt, wenn ihre technischen Daten abweichen.", "checks_kicker": "Die richtige Variante öffnen", "checks_title": "Vier Kontrollen verhindern Verwechslungen innerhalb der Baureihen.", "related_kicker": "Nach Wärmeart oder Standort wechseln", "related_title": "Infrarotkabinen, finnische Saunen und Gartensaunen separat vergleichen."}
+  },
+  {
+    "id": "brand-artsauna",
+    "section": "vergleiche",
+    "slug": "artsauna-modelle",
+    "kind": "Markenübersicht",
+    "eyebrow": "Artsauna · Kabinen und Außenmodelle",
+    "title": "Artsauna Modelle vergleichen",
+    "accent": "mit passender Wärmeart.",
+    "description": "Artsauna Infrarotkabinen sowie Indoor- und Outdoor-Saunen nach Stellfläche, Wärmeart, Anschluss, Kapazität und Preis vergleichen.",
+    "intro": "Artsauna führt im erfassten Sortiment sowohl Infrarotkabinen als auch klassische Saunen. Kiruna, Trondheim oder Malmö gehören daher in eine andere technische Auswahl als Visby, Fjora, Nolvik oder Espoo.",
+    "layout": "heat",
+    "filters": {"brands": ["Artsauna"]},
+    "sort": "footprint",
+    "related_ids": ["infrarotkabine", "voltage-400", "kleine-gartensauna"],
+    "planning": {"kicker": "Wärmesystem vor Modellgröße", "intro": "Strahlerkabine und Saunaofen stellen andere Anforderungen an Nutzung, Raum und Anschluss. Die Baureihe wird erst danach ausgewählt.", "guide_ids": ["platzbedarf", "stromverbrauch-heimsauna"]},
+    "editorial": {
+      "kicker": "Zwei Wärmesysteme unter einer Marke",
+      "title": "Artsauna lässt sich nicht über eine einzige Modellrangfolge sinnvoll vergleichen.",
+      "paragraphs": [
+        "Die Infrarotmodelle unterscheiden sich durch Kabinenmaß, Personenzahl und dokumentierte Strahlertechnik. Bei Visby, Fjora, Nolvik oder Espoo stehen dagegen Saunaofen, Bankaufteilung und je nach Modell der Außenstandort im Vordergrund. Beide Gruppen beantworten verschiedene Nutzungsfragen.",
+        "Für die Vorauswahl wird deshalb zuerst die Wärmeart betrachtet. Danach lassen sich Stellfläche und Kapazität innerhalb derselben Produktgruppe vergleichen. Bei Modellen mit 400 V gehört die konkrete Elektroplanung zum Projekt; spannungsneutrale Datensätze bleiben offen, bis die gewählte Ausstattung eindeutig feststeht.",
+        "Händlerangebote beeinflussen die Reihenfolge nicht. Sortiert wird nach rechnerischer Produktfläche. Eigene Temperaturmessungen oder Langzeiterfahrungen liegen nicht vor."
+      ],
+      "pointsTitle": "Welche Angaben die Reihen trennen",
+      "points": ["Infrarotstrahler oder Saunaofen", "Innen- oder Außenaufstellung", "Sitzplätze und dokumentierte Bankmaße", "230 V, 400 V oder noch offene Konfiguration"],
+      "callout": "Ein Markenvergleich wird erst belastbar, wenn Modelle mit demselben Wärmesystem und Aufstellort nebeneinanderstehen."
+    },
+    "criteria": ["Markenangabe Artsauna ist verifiziert", "Jede Größe bleibt als eigene Produktvariante erhalten", "Aufstellort, Wärmeart und Anschluss werden nicht aus der Modellreihe abgeleitet"],
+    "checks": ["Wärmeart der konkreten Reihe vor dem Größenvergleich festlegen.", "Außenmaß um Tür-, Montage- und Bewegungsfläche ergänzen.", "Bei Outdoor-Modellen Fundament und Wetterschutz mitplanen.", "Ofen- oder Strahlerdaten direkt in der verlinkten Quelle bestätigen."],
+    "module_copy": {"method_kicker": "Marke mit technischer Trennung", "method_title": "Die Übersicht nimmt alle verifizierten Artsauna-Modelle auf und hält die Wärmesysteme sichtbar auseinander.", "method_note": "Der jüngste Angebotsstand der Artsauna-Auswahl wurde geprüft am", "results_kicker": "Artsauna nach Produktfläche", "results_title": "{count} Artsauna-Varianten sind im Katalog nachvollziehbar.", "results_intro": "Die Liste beginnt bei kompakten Kabinen und reicht bis zu größeren Außenmodellen. Wärmeart und Anschluss bleiben direkt am Produkt sichtbar.", "checks_kicker": "Reihe, Raum und Technik verbinden", "checks_title": "Vier Angaben führen von der Markenübersicht zum passenden Produkttyp.", "related_kicker": "Wärmeart oder Außenstandort vertiefen", "related_title": "Infrarotkabinen, 400-V-Modelle und kleine Gartensaunen getrennt öffnen."}
   }
 ]

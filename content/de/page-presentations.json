@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-29",
+  "updated_at": "2026-09-02",
   "collections": {
     "mini-sauna": {
       "hero": "editorial",
@@ -316,6 +316,51 @@
         "title": "Die Nutzung der Bänke entscheidet, wie viel Kabinenfläche sinnvoll ist.",
         "copy": ["Drei Personen können auf einer langen Bank sitzen, über Eck verteilt sein oder eine Liegefläche teilen. Die Kapazitätsangabe bleibt deshalb der Filter; Bankhöhe, Innenbreite und Türposition liefern die Entscheidungshilfe.", "Die technische Prüfung folgt dem Raum. Volumen, Ofenleistung, Anschluss und Lüftung werden am konkreten Modell gesucht, damit ähnlich klingende Kabinen nicht wegen einer einzigen Zahl gleich behandelt werden."],
         "points": ["Sitz- und Liegekonzept prüfen", "Ofenbereich mit Volumen vergleichen", "Tür und Luftweg einzeichnen"]
+      }
+    },
+    "voltage-400": {
+      "hero": "split",
+      "results": "table",
+      "method": "steps",
+      "flow": ["insight", "editorial", "method", "checks", "results"],
+      "insight": {
+        "kicker": "Elektrischer Systemvergleich",
+        "title": "400 V ist ein belegter Filter, aber noch kein vollständiger Anschlussplan.",
+        "copy": [
+          "Die Tabelle führt nur Varianten, deren Quelle 400 V ausdrücklich nennt. Dadurch lassen sich Außenmaß, Ofenleistung und Kapazität vergleichen, ohne eine Spannung allein aus der Leistung oder aus einer verwandten Modellbezeichnung abzuleiten.",
+          "Für die Ausführung benötigt der Elektrofachbetrieb zusätzlich den Anschlussplan des konkreten Ofens und der zugehörigen Steuerung. Leitungsweg, Absicherung und Phasenbelegung ergeben sich nicht aus der Katalogzeile und bleiben Teil der Standortprüfung."
+        ],
+        "points": ["Variante eindeutig benennen", "Anschlussplan bereitstellen", "Zuleitung vor Ort prüfen lassen"]
+      }
+    },
+    "brand-home-deluxe": {
+      "hero": "editorial",
+      "results": "cards",
+      "method": "panel",
+      "flow": ["results", "insight", "editorial", "checks", "method"],
+      "insight": {
+        "kicker": "Baureihen mit verschiedenen Aufgaben",
+        "title": "Der Markenname verbindet Produkte, die technisch nicht in dieselbe Auswahl gehören.",
+        "copy": [
+          "Home Deluxe führt im erfassten Sortiment kompakte Infrarotkabinen, klassische Innenkabinen und große Außenmodelle. Die Ergebnisansicht macht diese Gruppen unmittelbar sichtbar und zeigt zu jeder Variante Stellfläche, Kapazität und dokumentierte Anschlusstechnik.",
+          "Innerhalb einer Baureihe können Größenkürzel mit anderen Maßen, Leistungen und Lieferumfängen verbunden sein. Maßgeblich ist deshalb stets die vollständig bezeichnete Variante im Händlerangebot, nicht die bloße Zugehörigkeit zu NERO, REDSUN, SHADOW oder einer anderen Reihe."
+        ],
+        "points": []
+      }
+    },
+    "brand-artsauna": {
+      "hero": "compact",
+      "results": "ledger",
+      "method": "split",
+      "flow": ["method", "editorial", "insight", "checks", "results"],
+      "insight": {
+        "kicker": "Wärmeart als Trennlinie",
+        "title": "Artsauna umfasst Infrarotkabinen und Ofensaunen mit unterschiedlichen Planungsdaten.",
+        "copy": [
+          "Bei Infrarotkabinen stehen Strahleranordnung, Sitzposition und die elektrische Leistung der Kabine im Vordergrund. Klassische Innen- und Außensaunen werden dagegen über Kabinenvolumen, Ofen, Steuerung und Lüftung beurteilt.",
+          "Die Modellübersicht hält diese Unterschiede sichtbar und sortiert dennoch einheitlich nach der dokumentierten Produktfläche. Ein hoher Preis oder eine größere Kapazität wird nicht als Qualitätsnachweis behandelt; offene technische Felder bleiben als solche erkennbar."
+        ],
+        "points": ["Wärmeprinzip festlegen", "Aufstellort abgrenzen", "Konkrete Variante im Angebot prüfen"]
       }
     }
   },

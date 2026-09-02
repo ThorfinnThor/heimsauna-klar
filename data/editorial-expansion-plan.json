@@ -265,7 +265,7 @@
       "narrative_angle": "Die Seite zeigt belastbare Anschlussangaben und lässt nicht belegte Produkte weg.",
       "filter": { "voltages": [400] },
       "evidence_basis": "Explizite Spannungsbelege aus Produktquellen",
-      "status": "planned"
+      "status": "published"
     },
     {
       "id": "wood-heated",
@@ -402,13 +402,13 @@
     {
       "id": "brand-home-deluxe",
       "section": "vergleiche",
-      "slug": "home-deluxe-sauna-modelle",
+      "slug": "home-deluxe-sauna",
       "working_title": "Home Deluxe Sauna-Modelle im Vergleich",
       "search_intent": "Welche Home Deluxe Saunen und Infrarotkabinen sind dokumentiert?",
       "narrative_angle": "Wärmeart, Kapazität und Modellvarianten bilden die Navigation.",
       "filter": { "brands": ["Home Deluxe"] },
       "evidence_basis": "Hersteller- und Affiliate-Feed-Daten mit Variantenabgleich",
-      "status": "planned"
+      "status": "published"
     },
     {
       "id": "brand-artsauna",
@@ -419,7 +419,7 @@
       "narrative_angle": "Strahler, Personenangabe und Maße werden modellbezogen verglichen.",
       "filter": { "brands": ["Artsauna"] },
       "evidence_basis": "Hersteller- und AWIN-Feed-Daten mit exakter Modellzuordnung",
-      "status": "planned"
+      "status": "published"
     },
     {
       "id": "brand-harvia",

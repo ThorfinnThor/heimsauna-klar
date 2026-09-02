@@ -130,7 +130,7 @@ function CollectionMethod({ collection, planningGuides, variant }: {
       <div><p className="eyebrow">{collection.module_copy.method_kicker}</p><h2 id="collection-method-title">{collection.module_copy.method_title}</h2></div>
       <div>
         <ul>{collection.criteria.map((criterion) => <li key={criterion}>{criterion}</li>)}</ul>
-        <p>{collection.module_copy.method_note} Die Werte stammen aus den dokumentierten Angeboten.</p>
+        <p>Die aufgeführten Werte stammen aus den dokumentierten Produkt- und Händlerangeboten.</p>
         <div className="collection-planning">
           <p className="eyebrow">{collection.planning.kicker}</p><p>{collection.planning.intro}</p>
           <div className="collection-planning-links">{planningGuides.map((guide) => <Link href={`/de/planung/${guide.slug}/`} key={guide.slug}><small>{guide.eyebrow}</small><strong>{guide.title}</strong><span>Planung öffnen ↗</span></Link>)}</div>
