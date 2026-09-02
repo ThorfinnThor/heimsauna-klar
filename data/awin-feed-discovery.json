@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T10:51:58.556Z",
+  "generated_at": "2026-09-02T12:30:27.328Z",
   "source": "Awin authenticated product feed list",
   "secret_included": false,
   "eligible_feeds": [
@@ -160,6 +160,26 @@
       "membershipStatus": "active",
       "feedId": "116646",
       "feedName": "Channable_DE",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "115411",
+      "advertiserName": "Wellness Point DE/AT",
+      "membershipStatus": "active",
+      "feedId": "109984",
+      "feedName": "DE-Feed",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "115411",
+      "advertiserName": "Wellness Point DE/AT",
+      "membershipStatus": "active",
+      "feedId": "109985",
+      "feedName": "AT-Feed",
       "language": "German",
       "lastUpdated": null,
       "productCount": null
