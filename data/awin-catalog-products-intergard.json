@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-02T11:17:19.337Z",
+  "source": "Awin authenticated InterGard Heim und Garten DE product feed",
+  "secret_included": false,
+  "selection_policy": "Sauna-relevante Einzel-URLs ohne Zubehör; Variantenhinweise werden markiert und nicht automatisch in data/products.json übernommen.",
+  "advertiser_id": "24966",
+  "advertiser_name": "InterGard Heim und Garten DE",
+  "feed_id": "60713",
+  "feed_name": "Feed Deutsch",
+  "feed_rows": 3650,
+  "sauna_relevant_rows": 3,
+  "products_returned": 3,
+  "products": [
+    {
+      "name": "Innensauna 205x168cm / 40mm",
+      "url": "https://intergardshop.de/innensauna-fichte-205x168cm",
+      "price": 2506.87,
+      "sku": "23215178",
+      "variant_hint": false
+    },
+    {
+      "name": "Innensauna 205x205cm / 40mm",
+      "url": "https://intergardshop.de/innensauna-fichte-205x205cm",
+      "price": 2723.23,
+      "sku": "23215215",
+      "variant_hint": false
+    },
+    {
+      "name": "Innensauna Eckmodell 205x205cm / 40mm",
+      "url": "https://intergardshop.de/innensauna-fichte-eckmodell",
+      "price": 2801.9,
+      "sku": "24215215",
+      "variant_hint": false
+    }
+  ]
+}
