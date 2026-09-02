@@ -5,6 +5,7 @@ const products = JSON.parse(await readFile(new URL("../data/products.json", impo
 const awinInput = JSON.parse(await readFile(new URL("../data/awin-expansion-import-26.json", import.meta.url), "utf8"));
 const awinDrafts = JSON.parse(await readFile(new URL("../data/awin-expansion-product-drafts-26.json", import.meta.url), "utf8"));
 const awinReview = JSON.parse(await readFile(new URL("../data/awin-expansion-sol-review-26.json", import.meta.url), "utf8"));
+const awinEditorial = JSON.parse(await readFile(new URL("../data/awin-expansion-editorial-26.json", import.meta.url), "utf8"));
 
 function matchesType(value, type) {
   if (type === "null") return value === null;
@@ -75,11 +76,17 @@ if (!Array.isArray(awinReview.decisions) || awinReview.decisions.length !== awin
 if (!Array.isArray(awinInput.entries) || awinInput.entries.length !== awinDrafts.products.length) {
   throw new Error("Awin input, review and generated draft counts must match");
 }
+if (!Array.isArray(awinEditorial.entries) || awinEditorial.entries.length !== awinInput.entries.length) {
+  throw new Error("Every Awin candidate needs an individual editorial draft");
+}
 const reviewedCandidates = new Set(awinReview.decisions.map((decision) => decision.candidate_id));
 if (reviewedCandidates.size !== awinReview.decisions.length) throw new Error("Sol review candidate IDs must be unique");
 const inputCandidates = new Set(awinInput.entries.map((entry) => entry.candidate_id));
+const editorialCandidates = new Set(awinEditorial.entries.map((entry) => entry.candidate_id));
+if (editorialCandidates.size !== awinEditorial.entries.length) throw new Error("Awin editorial candidate IDs must be unique");
 for (const candidateId of reviewedCandidates) {
   if (!inputCandidates.has(candidateId)) throw new Error(`Sol review references unknown candidate ${candidateId}`);
+  if (!editorialCandidates.has(candidateId)) throw new Error(`Luna editorial draft missing for ${candidateId}`);
 }
 if (awinReview.summary.data_verified + awinReview.summary.hold !== awinReview.summary.candidates) {
   throw new Error("Sol review summary counts do not add up");

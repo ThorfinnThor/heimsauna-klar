@@ -6,6 +6,7 @@
   "source_manifest": "data/awin-expansion-import-26.json",
   "note": "Vollständige Produktschema-Entwürfe nach Sol-Datenabnahme. Veröffentlichung erst nach individueller Redaktion und authentifiziertem Awin-Sync.",
   "review_manifest": "data/awin-expansion-sol-review-26.json",
+  "editorial_manifest": "data/awin-expansion-editorial-26.json",
   "review_summary": {
     "candidates": 26,
     "data_verified": 21,
@@ -85,26 +86,26 @@
       },
       "editorial": {
         "pros": [
-          "250 × 175 × 220 cm Außenmaß laut Händlerseite",
-          "1 bis 2 Personen Kapazität laut Händlerangabe",
-          "Zwei Bänke mit 65 cm und 28,6 cm Breite"
+          "Kompakte Außenmaße für ein separates Gartenhaus",
+          "Zwei unterschiedlich breite Bänke sind beschrieben",
+          "Fichtenholz und Lieferung ohne fest eingebauten Ofen klar ausgewiesen"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Der Saunaofen gehört nicht zum beschriebenen Lieferumfang",
+          "Fundament, Wetterschutz und Anschluss sind separat zu planen"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "1 bis 2 Personen",
-          "Interessierte an Fichte-Ausführung"
+          "Gärten mit Platz für eine kleine separate Saunakabine",
+          "Haushalte mit bis zu zwei Nutzern",
+          "Planungen, bei denen der Ofen selbst ausgewählt werden soll"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Ein sofort anschlussfertiges Komplettset",
+          "Aufstellungen ohne tragfähigen und ebenen Untergrund"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -165,26 +166,25 @@
       },
       "editorial": {
         "pros": [
-          "222.2 × 212.2 × 249 cm Außenmaß laut Händlerseite",
-          "3 bis 4 Personen Kapazität laut Händlerangabe",
-          "Obere Bank 60 cm und untere Bank 40 cm, Saunaliegen beschrieben"
+          "Zwei Bankebenen mit unterschiedlichen Breiten",
+          "Dachkranz und dunkle Außenoptik als eigenständige Gestaltung",
+          "Für drei bis vier Personen laut Händlerangabe"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Saunaofen und Anschluss sind nicht Teil der beschriebenen Basis",
+          "Die Außenhöhe verlangt eine genaue Prüfung des Aufstellorts"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "3 bis 4 Personen",
-          "Interessierte an Fichte-Ausführung"
+          "Familien, die eine Gartensauna mit zwei Sitzebenen suchen",
+          "Gärten mit ausreichender Höhe und vorbereiteter Stellfläche"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Sehr niedrige oder schwer zugängliche Gartenbereiche",
+          "Käufer, die keine Ofenplanung übernehmen möchten"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -247,26 +247,23 @@
       },
       "editorial": {
         "pros": [
-          "220 × 300 × 228 cm Außenmaß laut Händlerseite",
-          "4 bis 6 Personen Kapazität laut Händlerangabe",
-          "Zwei Premium-Saunaliegen aus Erlenholz; Varianten mit Holz- oder Elektroofen"
+          "Zwei Premium-Saunaliegen sind auf der Händlerseite genannt",
+          "Holzofen- und Elektroofenvarianten eröffnen unterschiedliche Planungen",
+          "Großzügiges Fassformat für mehrere Nutzer"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Außenmaß und Anschluss hängen von der gewählten Ofenvariante ab",
+          "Der Feedpreis ist noch keiner Konfiguration sicher zugeordnet"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "4 bis 6 Personen",
-          "Interessierte an Fichte-Ausführung"
+          "Planungen, bei denen die Ofenart noch offen ist und vor Ort geprüft wird"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Vergleiche, die eine feste Maß- und Preisangabe ohne Variantenhinweis voraussetzen"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Vorläufige Einordnung anhand der GartenHausfabrik-Produktseite. Veröffentlichung bleibt bis zur Variantenklärung gesperrt."
       },
       "sources": [
         {
@@ -327,26 +324,24 @@
       },
       "editorial": {
         "pros": [
-          "220 × 230 × 230 cm Außenmaß laut Händlerseite",
-          "3 bis 4 Personen Kapazität laut Händlerangabe",
-          "Banklängen ca. 214 cm und 210 cm, Bankbreite 49 cm"
+          "Zwei lange Bänke mit dokumentierter Breite",
+          "Kombination aus Fichte und Thermoholz",
+          "Mehr Innenlänge als kompakte Fassmodelle"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ohne Saunaofen im beschriebenen Angebot",
+          "Die größere Tiefe beeinflusst Transport und Fundamentplanung"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "3 bis 4 Personen",
-          "Interessierte an Fichte und Thermoholz-Ausführung"
+          "Gärten mit länglicher Stellfläche",
+          "Nutzer, die Ofen und Steuerung getrennt auswählen möchten"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Kleine Terrassen mit nur quadratischem Platzangebot"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -407,26 +402,24 @@
       },
       "editorial": {
         "pros": [
-          "210 × 130 × 215 cm Außenmaß laut Händlerseite",
-          "2 bis 3 Personen Kapazität laut Händlerangabe",
-          "Zweistufige Saunabänke mit Fußbänken"
+          "Kürzere Fassvariante für begrenzte Gartenflächen",
+          "Zweistufige Bänke mit zusätzlicher Fußbank",
+          "Fichte und Thermo-Kiefer als dokumentierte Holzarten"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ofen und Elektroplanung sind nicht im Grundangebot enthalten",
+          "Die Sitzkapazität ist auf bis zu drei Personen ausgelegt"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "2 bis 3 Personen",
-          "Interessierte an Fichte und Thermo-Kiefer-Ausführung"
+          "Kompakte Gärten mit länglicher, aber begrenzter Tiefe",
+          "Zwei bis drei Personen"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Größere Gruppen mit Bedarf an breiten Liegeflächen"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -487,26 +480,24 @@
       },
       "editorial": {
         "pros": [
-          "210 × 160 × 215 cm Außenmaß laut Händlerseite",
-          "2 bis 3 Personen Kapazität laut Händlerangabe",
-          "Zweistufige Saunabänke mit Fußbänken"
+          "Mehr Tiefe als die Bus-130-Variante",
+          "Zweistufige Bänke und Fußbänke beschrieben",
+          "Für bis zu drei Personen erfasst"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Der Saunaofen ist nicht Teil der Basisangabe",
+          "Die längere Bauform braucht einen passenden Transportweg"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "2 bis 3 Personen",
-          "Interessierte an Fichte und Thermo-Kiefer-Ausführung"
+          "Gärten, in denen etwas mehr Innenlänge verfügbar ist",
+          "Paare oder kleine Haushalte mit Sitzbetrieb"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Aufstellorte, an denen nur sehr kurze Kabinen passen"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -567,26 +558,24 @@
       },
       "editorial": {
         "pros": [
-          "205 × 200 × 210 cm Außenmaß laut Händlerseite",
-          "3 bis 4 Personen Kapazität laut Händlerangabe",
-          "Saunabank 160 × 52 cm"
+          "Kompakte 200-cm-Tiefe",
+          "Dokumentiertes Bankmaß von 160 × 52 cm",
+          "Fichtenholz als klare Ausführung"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Nur eine Bank ist in der Quelle konkret ausgewiesen",
+          "Saunaofen und Anschluss fehlen im Basisangebot"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "3 bis 4 Personen",
-          "Interessierte an Fichte-Ausführung"
+          "Kleinere Gärten mit Platz für ein kurzes Fass",
+          "Sitzsauna für wenige Personen"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Nutzer, die mehrere lange Liegebänke erwarten"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -647,26 +636,24 @@
       },
       "editorial": {
         "pros": [
-          "231 × 220 × 236 cm Außenmaß laut Händlerseite",
-          "3 bis 4 Personen Kapazität laut Händlerangabe",
-          "Zweistufige Saunabank, 180 × 60 cm, mit Fußbank"
+          "Zweistufige Bank mit 180 × 60 cm",
+          "Thermoholz als dokumentierte Außenverkleidung",
+          "Mehr Tiefe als das Icon 200 S"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ofen und Anschluss werden separat geplant",
+          "Vorraum oder zusätzliche Liegefläche sind nicht ausgewiesen"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "3 bis 4 Personen",
-          "Interessierte an Thermoholz-Ausführung"
+          "Gärten mit mittlerem Platzangebot",
+          "Nutzer, die Thermoholz gegenüber Fichte bevorzugen"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Aufstellungen ohne Wetterschutz- und Fundamentkonzept"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -727,26 +714,24 @@
       },
       "editorial": {
         "pros": [
-          "231 × 385 × 236 cm Außenmaß laut Händlerseite",
-          "3 bis 4 Personen Kapazität laut Händlerangabe",
-          "Zweistufige Saunabank 199 × 60 cm; Vorraum mit Sitzbänken"
+          "Langes Format mit getrennt beschriebenem Vorraum",
+          "Thermoholz und 199 × 60 cm Saunabank dokumentiert",
+          "Vorraum-Sitzbänke für Umkleide oder Ablage genannt"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Der größere Grundriss verlangt mehr Fundament- und Transportplanung",
+          "Ofen und Anschluss fehlen in der Basisangabe"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "3 bis 4 Personen",
-          "Interessierte an Thermoholz-Ausführung"
+          "Gärten mit ausreichend tiefer Stellfläche",
+          "Nutzer, die einen Vorraum für Handtücher und Umkleide einplanen"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Kompakte Terrassen oder kurze Zufahrten"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -807,26 +792,24 @@
       },
       "editorial": {
         "pros": [
-          "220 × 228 × 230 cm Außenmaß laut Händlerseite",
-          "3 bis 4 Personen Kapazität laut Händlerangabe",
-          "Zwei Saunabänke mit 185 cm Länge und 49 cm Breite"
+          "Zwei lange Bänke mit dokumentierter Breite",
+          "Kombination aus Thermoholz und Fichte",
+          "Mittlere Außenmaße für vier Personen laut Händlerangabe"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Saunaofen und Anschluss sind separat zu bestimmen",
+          "Die Materialkombination kann bei Pflege und Farbentwicklung unterschiedlich reagieren"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "3 bis 4 Personen",
-          "Interessierte an Thermoholz und Fichte-Ausführung"
+          "Gärten mit mittlerer Stellfläche",
+          "Haushalte, die zwei lange Sitzbänke nutzen möchten"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Käufer, die ein elektrisch vorkonfiguriertes Komplettset suchen"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Einordnung anhand der verlinkten Fjordholz-Produktseite von GartenHausfabrik; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -887,26 +870,24 @@
       },
       "editorial": {
         "pros": [
-          "180 × 228 × 225 cm Außenmaß laut Händlerseite",
-          "1 bis 6 Personen Kapazität laut Händlerangabe",
-          "Zwei Bänke 154 × 48 cm und 154 × 30 cm"
+          "Panoramafenster und zwei unterschiedlich breite Bänke",
+          "9-kW-Ofen und 400 V 3N~ klar ausgewiesen",
+          "Außenmaße und Sitzplätze auf der Herstellerseite nachvollziehbar"
         ],
         "cons": [
-          "Anschluss und Ofenvariante müssen vor dem Kauf geprüft werden.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Starkstromanschluss und fachgerechte Montage erforderlich",
+          "Unbehandeltes Holz braucht eine passende Außenpflege"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "1 bis 6 Personen",
-          "Interessierte an Fichte-Ausführung"
+          "Gärten mit vorbereiteter Starkstromversorgung",
+          "Gruppen bis sechs Personen, die sitzen und liegen möchten"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Innenaufstellungen oder Standorte ohne Wetterschutzkonzept"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der Artsauna-Herstellerseite und der verlinkten Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -975,26 +956,23 @@
       },
       "editorial": {
         "pros": [
-          "213 × 241 × 226 cm Außenmaß laut Händlerseite",
-          "6 bis 8 Personen Kapazität laut Händlerangabe",
-          "Kapazität 6–8 Personen ist belegt; genaue Bankaufteilung beim Händler vor Veröffentlichung ergänzen"
+          "Kapazität für sechs bis acht Personen belegt",
+          "Zedernholz und Fassbauweise klar benannt",
+          "Unabhängige Herstellerseite vorhanden"
         ],
         "cons": [
-          "Anschluss und Ofenvariante müssen vor dem Kauf geprüft werden.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "EU- und US-Variante sind bei Anschluss und Maß nicht deckungsgleich",
+          "Die Bankaufteilung der Händlerkonfiguration fehlt noch"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "6 bis 8 Personen",
-          "Interessierte an Zedernholz-Ausführung"
+          "Erst nach eindeutiger Zuordnung der europäischen Variante"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Einen Vergleich mit einer einzigen festen Maß- oder Spannungsangabe"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Vorläufige Einordnung anhand der Almost-Heaven-Herstellerseite und der Saunaloft-Angebotsseite. Veröffentlichung bleibt bis zur Variantenklärung gesperrt."
       },
       "sources": [
         {
@@ -1063,26 +1041,23 @@
       },
       "editorial": {
         "pros": [
-          "229 × 185 × 205 cm Außenmaß laut Händlerseite",
-          "1 bis 6 Personen Kapazität laut Händlerangabe",
-          "Zwei Bänke innen und zwei Bänke außen"
+          "Zedernholz und Innen-/Außenbänke beschrieben",
+          "Panoramafenster als eigenständiges Merkmal",
+          "Zwei technisch unterschiedliche Ausführungen im Händlerangebot sichtbar"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ofenstatus und Anschluss sind für den Feed noch offen",
+          "Der Preis kann ohne Variantenwahl nicht belastbar eingeordnet werden"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "1 bis 6 Personen",
-          "Interessierte an Rotes Zedernholz-Ausführung"
+          "Planungen, bei denen die Ofenvariante bewusst ausgewählt wird"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Eine automatische Veröffentlichung als einheitliches Komplettset"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Vorläufige Einordnung anhand der Saunaloft-Produktseite. Veröffentlichung bleibt bis zur Feedvariantenklärung gesperrt."
       },
       "sources": [
         {
@@ -1145,26 +1120,24 @@
       },
       "editorial": {
         "pros": [
-          "185 × 169 × 205 cm Außenmaß laut Händlerseite",
-          "1 bis 4 Personen Kapazität laut Händlerangabe",
-          "Zwei Bänke innen und zwei Bänke außen"
+          "Kompakte Länge von 169 cm laut Händlerseite",
+          "Innen- und Außenbänke beschrieben",
+          "Ohne Ofen klar gekennzeichnet"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Keine unabhängige Hersteller- oder Handbuchquelle gefunden",
+          "Ofen und Anschluss müssen separat geplant werden"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "1 bis 4 Personen",
-          "Interessierte an Rotes Zedernholz-Ausführung"
+          "Nur nach Ergänzung einer unabhängigen Modellquelle",
+          "Kleine Außenbereiche mit vorbereiteter Technik"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Eine Veröffentlichung mit Herstelleranspruch ohne weitere Belegquelle"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Vorläufige Einordnung anhand der Saunaloft-Produktseite. Veröffentlichung bleibt bis zur Quellenergänzung gesperrt."
       },
       "sources": [
         {
@@ -1227,26 +1200,24 @@
       },
       "editorial": {
         "pros": [
-          "185 × 209 × 205 cm Außenmaß laut Händlerseite",
-          "1 bis 4 Personen Kapazität laut Händlerangabe",
-          "Jeweils zwei Bänke innen und außen"
+          "Längeres Fassformat als TR-170",
+          "Innen- und Außenbänke sind beschrieben",
+          "Ohne Ofen ausgewiesen"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Unabhängige Hersteller- oder Handbuchquelle fehlt",
+          "Keine belastbare Aussage zu einer zusätzlichen Liegefläche"
         ],
         "ideal_for": [
-          "Gartenaufstellung mit geeigneter Vorbereitung",
-          "1 bis 4 Personen",
-          "Interessierte an Rotes Zedernholz-Ausführung"
+          "Nur nach Ergänzung einer unabhängigen Modellquelle",
+          "Gärten mit mehr Längsfläche und separat geplanter Technik"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Vergleiche, die aus der Länge automatisch mehr Liegeplätze ableiten"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Vorläufige Einordnung anhand der Saunaloft-Produktseite. Veröffentlichung bleibt bis zur Quellenergänzung gesperrt."
       },
       "sources": [
         {
@@ -1309,26 +1280,24 @@
       },
       "editorial": {
         "pros": [
-          "180 × 180 × 210 cm Außenmaß laut Händlerseite",
-          "2 bis 4 Personen Kapazität laut Händlerangabe",
-          "Saunabank ist im Lieferumfang genannt"
+          "Herstellerseite bestätigt 180 × 180 × 210 cm",
+          "Pinienholz, Saunabank und Zubehör sind dokumentiert",
+          "Ofenlose Basis und Ofenvariante klar trennbar"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Der Ofen ist beim erfassten Feedangebot nicht enthalten",
+          "Ein Starkstromhinweis des Herstellers muss bei der Ofenwahl berücksichtigt werden"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "2 bis 4 Personen",
-          "Interessierte an Pinienholz-Ausführung"
+          "Innenräume mit rund 180 cm Stellmaß",
+          "Käufer, die den Ofen separat passend auswählen möchten"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Ein sofort betriebsbereites Set ohne zusätzliche Ofenentscheidung"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -1397,26 +1366,24 @@
       },
       "editorial": {
         "pros": [
-          "206 × 206 × 204 cm Außenmaß laut Händlerseite",
-          "4 bis 5 Personen Kapazität laut Händlerangabe",
-          "Drei Saunabänke aus Linde"
+          "206 × 206 × 204 cm und fünf Plätze offiziell dokumentiert",
+          "Drei Bänke aus der Prestige-Inneneinrichtung",
+          "Spiegelverkehrter Aufbau laut Hersteller möglich"
         ],
         "cons": [
-          "Anschluss und Ofenvariante müssen vor dem Kauf geprüft werden.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ofenleistung und Netzanschluss müssen zur konkreten Variante passen",
+          "Der Eckgrundriss setzt zwei freie Wandseiten voraus"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "4 bis 5 Personen",
-          "Interessierte an Fichte und Linde-Ausführung"
+          "Großzügige Innenräume mit Eckaufstellung",
+          "Vier bis fünf Personen und flexible Türorientierung"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Räume ohne zwei geeignete Stellwände oder ausreichende Höhe"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der Sentiotec-Herstellerseite und des verlinkten Saunaloft-Angebots; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -1485,26 +1452,24 @@
       },
       "editorial": {
         "pros": [
-          "160 × 160 × 210 cm Außenmaß laut Händlerseite",
-          "1 bis 2 Personen Kapazität laut Händlerangabe",
-          "Saunabänke sind im Lieferumfang genannt"
+          "Kompaktes 160 × 160 cm Stellmaß",
+          "Hersteller bestätigt ein bis zwei Personen und zwei Bänke",
+          "Ofenlose Feedvariante eindeutig abgegrenzt"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ofen und Anschluss sind nicht im Feedangebot enthalten",
+          "Die geringe Grundfläche begrenzt die Nutzung auf ein kleines Team"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "1 bis 2 Personen",
-          "Interessierte an Pinienholz-Ausführung"
+          "Kleine Innenräume mit ausreichender Höhe",
+          "Ein bis zwei Personen"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Familien oder Nutzer mit großzügiger Liegefläche"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -1573,26 +1538,24 @@
       },
       "editorial": {
         "pros": [
-          "180 × 180 × 210 cm Außenmaß laut Händlerseite",
-          "2 bis 4 Personen Kapazität laut Händlerangabe",
-          "Saunabank ist im Lieferumfang genannt"
+          "180 × 180 × 210 cm auf der Herstellerseite bestätigt",
+          "Für zwei bis vier Personen und mit Saunabank dokumentiert",
+          "Ofenlose Feedvariante klar erkennbar"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ein passender Ofen muss separat ausgewählt werden",
+          "Die Anschlussfrage lässt sich erst mit der Ofenwahl abschließend beantworten"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "2 bis 4 Personen",
-          "Interessierte an Pinienholz-Ausführung"
+          "Innenräume mit quadratischer Stellfläche",
+          "Käufer, die Kabine und Ofen getrennt zusammenstellen"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Kaufentscheidungen, bei denen ein Komplettset ohne weitere Auswahl erwartet wird"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -1661,26 +1624,24 @@
       },
       "editorial": {
         "pros": [
-          "150 × 120 × 190 cm Außenmaß laut Händlerseite",
-          "1 bis 2 Personen Kapazität laut Händlerangabe",
-          "Saunabank ist im Lieferumfang genannt"
+          "Kleine Grundfläche für knappe Innenräume",
+          "Hersteller bestätigt ein bis zwei Personen und eine Bank",
+          "190 cm Höhe kann bei niedrigen Räumen relevant sein"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ohne Saunaofen im erfassten Angebot",
+          "Die geringe Tiefe lässt wenig Spielraum für zusätzliche Ausstattung"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "1 bis 2 Personen",
-          "Interessierte an Pinienholz-Ausführung"
+          "Kleine Wellnessräume mit rund 150 × 120 cm Stellmaß",
+          "Ein bis zwei Personen mit Sitznutzung"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Nutzer, die in der Kabine lange Liegeflächen benötigen"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -1749,26 +1710,24 @@
       },
       "editorial": {
         "pros": [
-          "120 × 120 × 190 cm Außenmaß laut Händlerseite",
-          "1 bis 2 Personen Kapazität laut Händlerangabe",
-          "Saunabank ist im Lieferumfang genannt"
+          "Sehr kleines Stellmaß von 120 × 120 cm",
+          "Pinienholz, Bank und Zubehör auf der Herstellerseite dokumentiert",
+          "190 cm Bauhöhe für niedrigere Räume interessant"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ofen und Anschluss fehlen im Feedangebot",
+          "Nur ein bis zwei Personen laut Herstellerangabe"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "1 bis 2 Personen",
-          "Interessierte an Pinienholz-Ausführung"
+          "Sehr kleine Innenräume",
+          "Einzel- oder Zweierbetrieb mit separat geplanter Technik"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Gemeinsame Nutzung mit mehreren Personen oder ausgedehnten Liegeflächen"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -1837,26 +1796,24 @@
       },
       "editorial": {
         "pros": [
-          "180 × 120 × 190 cm Außenmaß laut Händlerseite",
-          "2 bis 4 Personen Kapazität laut Händlerangabe",
-          "Saunabank ist im Lieferumfang genannt"
+          "180 × 120 cm Grundmaß für längliche Räume",
+          "Herstellerquelle bestätigt Pinienholz und Saunabank",
+          "Ofenlose Variante preislich separat von Ofenmodellen unterscheidbar"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ofen und Anschluss werden nicht mitgeliefert",
+          "Die Breite begrenzt die Möblierung des Aufstellraums"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "2 bis 4 Personen",
-          "Interessierte an Pinienholz-Ausführung"
+          "Längliche Nischen mit begrenzter Breite",
+          "Haushalte, die die Ofentechnik selbst zusammenstellen"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Quadratische Räume, in denen eine Eckkabine besser passt"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -1925,26 +1882,24 @@
       },
       "editorial": {
         "pros": [
-          "150 × 120 × 190 cm Außenmaß laut Händlerseite",
-          "1 bis 2 Personen Kapazität laut Händlerangabe",
-          "Saunabank ist im Lieferumfang genannt"
+          "Mittleres Maß innerhalb der E1804-Reihe",
+          "Hersteller bestätigt ein bis zwei Personen und eine Bank",
+          "Pinienholz und 190 cm Höhe nachvollziehbar"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Ofen und Anschluss sind separat zu bestimmen",
+          "Die Bankkapazität ist für kleine Gruppen ausgelegt"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "1 bis 2 Personen",
-          "Interessierte an Pinienholz-Ausführung"
+          "Kleine, rechteckige Innenräume",
+          "Ein bis zwei Personen mit Sitzbetrieb"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Nutzer mit Bedarf an mehreren Liegeebenen"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der EAGO/AWT-Herstellerseite und der Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -2011,26 +1966,24 @@
       },
       "editorial": {
         "pros": [
-          "150 × 150 × 200 cm Außenmaß laut Händlerseite",
-          "1 bis 3 Personen Kapazität laut Händlerangabe",
-          "Zwei Etagenbänke"
+          "Zwei Etagenbänke und Eckfront nutzen den Raum effizient",
+          "6-kW-Ofen und 400 V 3N~ eindeutig angegeben",
+          "Hersteller nennt drei Personen und 150-cm-Grundmaß"
         ],
         "cons": [
-          "Anschluss und Ofenvariante müssen vor dem Kauf geprüft werden.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Starkstromanschluss durch zugelassene Elektrofachkraft erforderlich",
+          "Eckaufstellung verlangt zwei passende Wandseiten"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "1 bis 3 Personen",
-          "Interessierte an Hemlockholz-Ausführung"
+          "Innenräume mit 150 × 150 cm Grundfläche",
+          "Paare oder kleine Haushalte mit Sitzbetrieb auf zwei Ebenen"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Räume ohne geeignete Stromzuführung oder Eckgeometrie"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der Artsauna-Herstellerseite und der verlinkten Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -2097,26 +2050,24 @@
       },
       "editorial": {
         "pros": [
-          "150 × 130 × 190 cm Außenmaß laut Händlerseite",
-          "2 bis 3 Personen Kapazität laut Händlerangabe",
-          "Zwei Liegeflächen und eine etwa 140 cm breite Bank"
+          "Zwei Liegeflächen trotz kompakter Grundfläche",
+          "4,5-kW-Harvia-Ofen und 380–400 V dokumentiert",
+          "Hemlockholz und Sicherheitsglastür ausgewiesen"
         ],
         "cons": [
-          "Anschluss und Ofenvariante müssen vor dem Kauf geprüft werden.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Starkstromanschluss und fachgerechte Installation erforderlich",
+          "Die 130-cm-Tiefe begrenzt Bewegungsfläche außerhalb der Liegen"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "2 bis 3 Personen",
-          "Interessierte an Hemlockholz-Ausführung"
+          "Kleine Wellnessräume mit 190 cm Höhe",
+          "Zwei bis drei Personen, die auch liegend saunieren möchten"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Aufstellräume ohne Starkstrom oder ausreichende Lüftung"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der Dewello-Herstellerseite und der verlinkten Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {
@@ -2183,26 +2134,24 @@
       },
       "editorial": {
         "pros": [
-          "150 × 120 × 190 cm Außenmaß laut Händlerseite",
-          "1 bis 3 Personen Kapazität laut Händlerangabe",
-          "Sitzfläche ca. 143 × 45 cm"
+          "Kompaktes Maß für kleine Innenräume",
+          "Sitzfläche von etwa 143 × 45 cm dokumentiert",
+          "4,5-kW-Harvia-Ofen und mehrere Anschlussvarianten ausgewiesen"
         ],
         "cons": [
-          "Anschluss und Ofenvariante müssen vor dem Kauf geprüft werden.",
-          "Keine eigene Nutzung oder Montage geprüft."
+          "Die konkrete Netzspannung muss vor Ort geprüft werden",
+          "Die Sitzfläche ist für kleine Gruppen ausgelegt"
         ],
         "ideal_for": [
-          "Innenräume mit passender Raumhöhe und Lüftung",
-          "1 bis 3 Personen",
-          "Interessierte an Hemlockholz-Ausführung"
+          "Kleine Innenräume mit flexibler Anschlussplanung",
+          "Ein bis drei Personen mit überwiegender Sitznutzung"
         ],
         "not_for": [
-          "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-          "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen."
+          "Planungen, die ohne Prüfung eine feste Spannung voraussetzen"
         ],
         "test_status": "not_tested",
         "editorial_score": null,
-        "disclosure": "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage."
+        "disclosure": "Technische Einordnung anhand der Sanotechnik-Herstellerseite und der verlinkten Saunaloft-Angebotsseite; keine eigene Nutzung oder Montage."
       },
       "sources": [
         {

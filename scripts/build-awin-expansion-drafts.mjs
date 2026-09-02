@@ -2,7 +2,9 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const input = JSON.parse(await readFile(new URL("../data/awin-expansion-import-26.json", import.meta.url), "utf8"));
 const review = JSON.parse(await readFile(new URL("../data/awin-expansion-sol-review-26.json", import.meta.url), "utf8"));
+const editorialManifest = JSON.parse(await readFile(new URL("../data/awin-expansion-editorial-26.json", import.meta.url), "utf8"));
 const reviewByCandidate = new Map(review.decisions.map((decision) => [decision.candidate_id, decision]));
+const editorialByCandidate = new Map(editorialManifest.entries.map((entry) => [entry.candidate_id, entry]));
 
 function slugify(value) {
   return value
@@ -11,10 +13,6 @@ function slugify(value) {
     .toLocaleLowerCase("de")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
-}
-
-function displayDimensions(dimensions) {
-  return `${dimensions.width} × ${dimensions.depth} × ${dimensions.height} cm`;
 }
 
 function heaterType(entry) {
@@ -59,11 +57,6 @@ function sourceList(entry) {
 }
 
 function buildDraft(entry) {
-  const dimensions = displayDimensions(entry.dimensions_cm);
-  const peopleLabel = entry.people.min === entry.people.max
-    ? `${entry.people.max} Personen`
-    : `${entry.people.min} bis ${entry.people.max} Personen`;
-  const outdoor = entry.category === "outdoor";
   const offer = {
     merchant: entry.advertiser,
     price: entry.feed_price_eur,
@@ -80,6 +73,8 @@ function buildDraft(entry) {
 
   const decision = reviewByCandidate.get(entry.candidate_id);
   if (!decision) throw new Error(`No Sol review decision for ${entry.candidate_id}`);
+  const editorial = editorialByCandidate.get(entry.candidate_id);
+  if (!editorial) throw new Error(`No Luna editorial entry for ${entry.candidate_id}`);
 
   return {
     product_id: slugify(`${entry.brand}-${entry.model}`),
@@ -111,27 +106,13 @@ function buildDraft(entry) {
       offers: [offer],
     },
     editorial: {
-      pros: [
-        `${dimensions} Außenmaß laut Händlerseite`,
-        `${peopleLabel} Kapazität laut Händlerangabe`,
-        entry.seating_evidence,
-      ],
-      cons: [
-        entry.power.kw === null ? "Ein Saunaofen ist nicht fest ausgewiesen." : "Anschluss und Ofenvariante müssen vor dem Kauf geprüft werden.",
-        "Keine eigene Nutzung oder Montage geprüft.",
-      ],
-      ideal_for: [
-        outdoor ? "Gartenaufstellung mit geeigneter Vorbereitung" : "Innenräume mit passender Raumhöhe und Lüftung",
-        peopleLabel,
-        `Interessierte an ${entry.wood}-Ausführung`,
-      ],
-      not_for: [
-        "Situationen, in denen ein fertig montiertes und sofort anschlussbereites Set vorausgesetzt wird.",
-        "Aufstellungen ohne Prüfung von Untergrund, Lüftung und Anschlussbedingungen.",
-      ],
+      pros: editorial.pros,
+      cons: editorial.cons,
+      ideal_for: editorial.ideal_for,
+      not_for: editorial.not_for,
       test_status: "not_tested",
       editorial_score: null,
-      disclosure: "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage.",
+      disclosure: editorial.disclosure,
     },
     sources: sourceList(entry),
     updated_at: input.created_at,
@@ -150,6 +131,7 @@ const output = {
   source_manifest: "data/awin-expansion-import-26.json",
   note: "Vollständige Produktschema-Entwürfe nach Sol-Datenabnahme. Veröffentlichung erst nach individueller Redaktion und authentifiziertem Awin-Sync.",
   review_manifest: "data/awin-expansion-sol-review-26.json",
+  editorial_manifest: "data/awin-expansion-editorial-26.json",
   review_summary: review.summary,
   blocked_candidates: input.entries
     .filter((entry) => entry.promotion_blocker)
