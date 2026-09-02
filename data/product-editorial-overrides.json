@@ -182,6 +182,74 @@
     "artsauna-fjora-l": {
       "intro": "Fjora L ist eine quadratische Outdoor-Sauna von Artsauna mit Panoramafenster, zwei Bänken und einem 9-kW-Ofen. Die Herstellerseite nennt 400 V 3N~ für den Ofen und bis zu sechs Sitzplätze.",
       "detail": "Die 180 × 228 × 225 cm große Kabine wird mit zwei Bänken von 154 × 48 cm und 154 × 30 cm beschrieben. Der 9-kW-Ofen gehört zur Ausführung und benötigt laut Artsauna 400 V 3N~. Der elektrische Anschluss ist deshalb kein offener Konfigurationspunkt, muss aber fachgerecht vorbereitet werden."
+    },
+    "wellness-point-dampfdusche-alaska-infrarot-90": {
+      "intro": "Die Dampfdusche Alaska verbindet auf 90 × 90 cm einen Dampfgenerator mit Infrarotstrahlern. Sie ist für eine Person ausgelegt und benötigt mit 215 cm mehr Höhe als viele reine Infrarotkabinen.",
+      "detail": "Auf der Produktseite stehen 3 kW für den Dampfgenerator und 1,8 kW für die Infrarottechnik. Eine gemeinsame Anschlussleistung wird nicht genannt. Diese offene Angabe gehört vor der Bestellung mit dem Händler und dem ausführenden Elektrofachbetrieb geklärt."
+    },
+    "wellness-point-dampfdusche-arizona-infrarot-145": {
+      "intro": "Arizona nutzt eine 145 cm breite, aber nur 90 cm tiefe Grundfläche. Die Kabine kombiniert Dampf und Infrarot für bis zu zwei Personen und kann dadurch in einen länglichen Aufstellbereich passen.",
+      "detail": "Der 3-kW-Dampfgenerator und die Infrarotstrahler mit zusammen 1,8 kW sind einzeln dokumentiert. Die Produktangabe enthält keine daraus abgeleitete Gesamtlast. Für die Planung sind außerdem die Kabinenhöhe von 215 cm und der notwendige Wartungszugang maßgeblich."
+    },
+    "wellness-point-dampfdusche-california-infrarot-145": {
+      "intro": "California gehört zur 145 × 90 cm großen Klasse der kombinierten Dampf- und Infrarotkabinen. Der Platz ist laut Anbieter für höchstens zwei Personen vorgesehen.",
+      "detail": "Die Außenmaße entsprechen Arizona, die Modellbezeichnung allein belegt jedoch keine technische Gleichheit. Im Katalog stehen deshalb nur die direkt ausgewiesenen Werte. Dazu zählen der 3-kW-Dampfgenerator, 1,8 kW Infrarotleistung und 215 cm Höhe."
+    },
+    "wellness-point-dampfdusche-colorado-infrarot-100": {
+      "intro": "Colorado benötigt mit 100 × 90 cm wenig Bodenfläche und ist als Einzelkabine beschrieben. Dampf und Infrarot sind in einem 215 cm hohen Gehäuse kombiniert.",
+      "detail": "Für die beiden Heizarten nennt Wellness-Point getrennte Leistungswerte von 3 kW und 1,8 kW. Ohne ausgewiesene Gesamtlast lässt sich daraus keine fertige Elektroplanung ableiten. Auch die Anschlüsse für Wasser und Ablauf müssen zum vorgesehenen Raum passen."
+    },
+    "wellness-point-dampfdusche-florida-infrarot-145": {
+      "intro": "Florida bietet zwei Personen eine 145 × 90 cm große kombinierte Dampf- und Infrarotkabine. Die geringe Tiefe kann bei schmalen Raumzuschnitten helfen, während die Breite von 145 cm vollständig frei bleiben muss.",
+      "detail": "Dampfgenerator und Infrarotstrahler werden mit 3 kW beziehungsweise 1,8 kW beschrieben. Eine belastbare Gesamtanschlussleistung fehlt. Vor dem Einbau sind daher Elektroanschluss, Wasserführung, Raumhöhe und die vom Anbieter verlangten Abstände gemeinsam zu prüfen."
+    },
+    "wellness-point-dampfdusche-kansas-infrarot-100": {
+      "intro": "Kansas ist eine quadratische Einpersonen-Kabine mit 100 cm Seitenlänge. Sie vereint Dampfbetrieb und Infrarotwärme und erreicht außen eine Höhe von 215 cm.",
+      "detail": "Der quadratische Grundriss unterscheidet Kansas von den 90 cm tiefen Rechteckmodellen. Technisch sind ein 3-kW-Dampfgenerator und 1,8 kW Infrarotleistung genannt. Die konkrete Absicherung und Steckerlösung sind in der Quelle nicht festgelegt."
+    },
+    "wellness-point-dampfdusche-virginia-infrarot-100": {
+      "intro": "Virginia nimmt ebenfalls 100 × 100 cm ein und richtet sich an eine Person. Für den Vergleich mit Kansas sollten Außenmaße, Ausstattung, Türanschlag und Installationsführung gemeinsam kontrolliert werden.",
+      "detail": "Die technische Beschreibung führt 3 kW Dampfleistung und 1,8 kW für die Infrarotstrahler auf. Eine einzelne Gesamtleistung wird nicht ausgewiesen. Der 230-V-Hinweis ersetzt deshalb keine Prüfung der vollständigen Anschlussbedingungen."
+    },
+    "wellness-point-finnische-sauna-alaska-i": {
+      "intro": "Alaska I ist eine 150 × 150 cm große Innensauna für bis zu drei Personen. Zum beschriebenen Set gehört ein Harvia-Ofen mit 4,5 kW.",
+      "detail": "Die Produktseite nennt 230 V und 380 V nebeneinander, ohne die konkrete Setausführung eindeutig zu trennen. Im Finder bleibt die Spannung daher offen. Vor dem Kauf muss feststehen, welche Ofenvariante geliefert wird und welcher Anschluss dafür erforderlich ist."
+    },
+    "wellness-point-finnische-sauna-alaska-ii": {
+      "intro": "Alaska II erweitert die Reihe auf 175 × 200 cm und vier Personen. Der zugehörige Harvia-Ofen ist mit 6 kW angegeben.",
+      "detail": "Als Anschluss nennt die Quelle 380 V. Dieser historische Nennwert wird im Katalog nicht automatisch als 400 V behandelt. Ein Elektrofachbetrieb muss die aktuelle Geräteausführung, Absicherung und Zuleitung anhand der gelieferten Unterlagen festlegen."
+    },
+    "wellness-point-finnische-sauna-alaska-iii": {
+      "intro": "Alaska III ist mit 208 × 200 cm das größte der drei geprüften Alaska-Modelle. Die Kabine bietet laut Produktseite bis zu fünf Personen Platz und enthält einen 8-kW-Harvia-Ofen.",
+      "detail": "Die Anschlussangabe lautet 380 V und bleibt deshalb in unserem 230/400-V-Filter neutral. Neben der Elektroplanung verdienen auch Transportweg und Montagefläche Aufmerksamkeit, weil die Kabine mehr als zwei Meter breit ist."
+    },
+    "wellness-point-infrarotkabine-goteborg": {
+      "intro": "Göteborg ist eine 150 × 150 cm große Infrarotkabine für zwei Personen. Neun Strahler ergeben laut Produktangabe 2,725 kW und werden über 230 V versorgt.",
+      "detail": "Der quadratische Grundriss benötigt mehr Stellfläche als die schmaleren Oslo- und Stockholm-Modelle. Die Wärme kommt ausschließlich von Infrarotstrahlern, ein Saunaofen für Aufgüsse gehört nicht zur beschriebenen Ausstattung."
+    },
+    "wellness-point-infrarotkabine-helsinki-beta": {
+      "intro": "Helsinki Beta ist ausdrücklich für die Außenaufstellung vorgesehen. Auf 153 × 125 cm bietet sie bis zu vier Personen Platz und arbeitet mit sieben Vollspektrumstrahlern sowie einem Karbonstrahler.",
+      "detail": "Die Produktseite weist 2,425 kW und 230 V für eine Standardsteckdose aus. Für die Gartenplanung sind zusätzlich ein geeigneter Untergrund, Witterungsschutz und die 210 cm hohe Kabine zu berücksichtigen. Der Anbieter empfiehlt nach der Montage eine Dachpappe."
+    },
+    "wellness-point-infrarotkabine-oslo-alpha": {
+      "intro": "Oslo Alpha bringt zwei Sitzplätze auf 120 × 105 cm unter. Drei Vollspektrum- und drei Karbonstrahler erreichen zusammen 1,89 kW bei 230 V.",
+      "detail": "Die Kabine ist mit 190 cm niedriger und deutlich schmaler als Göteborg. Wellness-Point nennt eine Standardsteckdose. Ob Steckdose, Stromkreis und Aufstellort die Herstellerbedingungen erfüllen, muss dennoch am vorgesehenen Platz geprüft werden."
+    },
+    "wellness-point-infrarotkabine-stockholm-alpha": {
+      "intro": "Stockholm Alpha misst 90 × 90 × 190 cm und ist für eine Person ausgelegt. Zwei Vollspektrum- und drei Karbonstrahler liefern zusammen 1,425 kW.",
+      "detail": "Das Modell gehört zu den kleinsten Infrarotkabinen dieses Anbieters und wird mit 230 V für eine Standardsteckdose beschrieben. Die kompakte Grundfläche bedeutet reine Sitznutzung; eine Liegefläche oder ein Saunaofen sind nicht Teil der dokumentierten Ausführung."
+    },
+    "wellness-point-infrarotsauna-alpha-i": {
+      "intro": "Alpha I kombiniert in einer 125 × 110 cm großen Kabine fünf Infrarot-Flächenstrahler mit einem 3-kW-Saunaofen. Die Kapazität ist mit zwei Personen angegeben.",
+      "detail": "Für die Infrarotstrahler stehen zusammen 1,82 kW in der Produktbeschreibung. Die Quelle nennt jedoch keine eindeutige Netzspannung und keine gemeinsame Anschlussleistung beider Heizsysteme. Der elektrische Aufbau muss daher anhand der aktuellen Anschlussunterlagen geplant werden."
+    },
+    "wellness-point-infrarotsauna-alpha-ii": {
+      "intro": "Alpha II bietet bis zu vier Personen Platz und verbindet 3,1 kW Infrarotleistung mit einem 4,5-kW-Saunaofen. Das Außenmaß beträgt 120 × 160 × 200 cm.",
+      "detail": "Die beiden Heizsysteme sind einzeln beschrieben, aber weder Netzspannung noch Gesamtanschlusswert sind eindeutig ausgewiesen. Für die Installation ist deshalb die Anschlussvorgabe der tatsächlich gelieferten Steuerung und Geräte maßgeblich; die rechnerische Summe genügt dafür nicht."
+    },
+    "wellness-point-infrarotsauna-alpha-iii": {
+      "intro": "Alpha III ist für bis zu sechs Personen vorgesehen. Auf 160 × 210 cm kombiniert sie 14 Infrarotstrahler mit 4,55 kW und einen Saunaofen mit 6 kW.",
+      "detail": "Die Größe und die zwei getrennt ausgewiesenen Wärmesysteme machen dieses Modell planungsintensiver als Alpha I und II. Da die Produktseite keine eindeutige Spannung oder Gesamtanschlussleistung nennt, bleiben beide Werte im Finder offen und müssen vor Ort fachlich bestimmt werden."
     }
   }
 }

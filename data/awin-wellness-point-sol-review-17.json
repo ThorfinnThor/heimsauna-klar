@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "batch_id": "awin-wellness-point-2026-09-02",
+  "reviewed_at": "2026-09-02",
+  "review_model": "sol",
+  "status": "accepted-with-corrections",
+  "method": "Abgleich der 17 erreichbaren Awin-Feedziele mit den jeweils verlinkten Wellness-Point-Produktseiten. Maße, Kapazität, Technik, Leistung, Spannung, Einsatzort und redaktionelle Aussagen wurden getrennt geprüft. Nicht eindeutig ausgewiesene Anschlusswerte bleiben neutral.",
+  "source_decision": "Die geprüften Produktseiten werden als eigene technische Produktseiten der unter Wellness-Point angebotenen Modelle geführt. Externe Produktsicherheitsangaben nennen TLP GmbH als Hersteller einzelner Modelle. Für den Katalog werden die Wellness-Point-Seiten deshalb als Own-Brand-Produktquelle verwendet; die Angebotszuordnung bleibt separat über den authentifizierten Awin-Feed nachvollziehbar.",
+  "corrections": [
+    {
+      "product_id": "wellness-point-infrarotkabine-goteborg",
+      "decision": "accepted",
+      "change": "230 V und 2,725 kW übernommen; werbliche Aussage zu niedrigeren Raumtemperaturen entfernt."
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-helsinki-beta",
+      "decision": "accepted",
+      "change": "Als Outdoor-Infrarotkabine klassifiziert. 230 V, 2,425 kW und Standardsteckdose sind auf der aktuellen Produktseite ausgewiesen."
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-oslo-alpha",
+      "decision": "accepted",
+      "change": "1,89 kW beibehalten. Dieser Wert steht auf der aktuellen Wellness-Point-Seite; abweichende Wiederverkäuferangaben wurden nicht übernommen."
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-stockholm-alpha",
+      "decision": "accepted",
+      "change": "230 V und 1,425 kW auf der aktuellen Produktseite bestätigt."
+    }
+  ],
+  "accepted_product_ids": [
+    "wellness-point-dampfdusche-alaska-infrarot-90",
+    "wellness-point-dampfdusche-arizona-infrarot-145",
+    "wellness-point-dampfdusche-california-infrarot-145",
+    "wellness-point-dampfdusche-colorado-infrarot-100",
+    "wellness-point-dampfdusche-florida-infrarot-145",
+    "wellness-point-dampfdusche-kansas-infrarot-100",
+    "wellness-point-dampfdusche-virginia-infrarot-100",
+    "wellness-point-finnische-sauna-alaska-i",
+    "wellness-point-finnische-sauna-alaska-ii",
+    "wellness-point-finnische-sauna-alaska-iii",
+    "wellness-point-infrarotkabine-goteborg",
+    "wellness-point-infrarotkabine-helsinki-beta",
+    "wellness-point-infrarotkabine-oslo-alpha",
+    "wellness-point-infrarotkabine-stockholm-alpha",
+    "wellness-point-infrarotsauna-alpha-i",
+    "wellness-point-infrarotsauna-alpha-ii",
+    "wellness-point-infrarotsauna-alpha-iii"
+  ],
+  "held_product_ids": [],
+  "publication_note": "Alle 17 geprüften Modelle können in den statischen Katalog übernommen werden. Die drei Alaska-Saunen und die drei kombinierten Alpha-Modelle bleiben im Finder spannungsneutral, weil die Quelle keine für den Katalog eindeutig normalisierbare 230- oder 400-V-Ausführung belegt."
+}

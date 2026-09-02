@@ -3,10 +3,10 @@
   "batch_id": "awin-wellness-point-2026-09-02",
   "created_at": "2026-09-02",
   "draft_model": "luna",
-  "publication_status": "internal-draft",
+  "publication_status": "published-after-sol-review",
   "source_review": "data/awin-wellness-point-source-review.json",
   "voltage_review": "data/awin-wellness-point-voltage-review.json",
-  "policy": "Die Entwürfe verwenden nur belegte Händlerangaben. Wellness-Point bleibt als Händlerquelle gekennzeichnet; keine eigene Nutzung, Montage oder Rangfolge wird behauptet.",
+  "policy": "Die 17 veröffentlichten Datensätze beruhen auf erreichbaren, produktspezifischen Wellness-Point-Seiten und dem authentifizierten Awin-Feed. Nicht eindeutig ausgewiesene Anschlusswerte bleiben neutral; eigene Nutzung oder Montage wird nicht behauptet.",
   "products": [
     {
       "product_id": "wellness-point-dampfdusche-alaska-infrarot-90",
@@ -14,14 +14,79 @@
       "model": "Dampfdusche Alaska inkl. Infrarotsauna 90 × 90 cm",
       "family": null,
       "category": "indoor",
-      "status": "draft",
-      "dimensions_cm": {"width": 90, "depth": 90, "height": 215},
-      "people": {"min": 1, "max": 1, "seats": 0, "lying_places": 0},
-      "power": {"voltage": 230, "kw": null, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V, aber keine einzelne Gesamtleistung oder Anschlussausführung."},
-      "sauna": {"type": "Dampfdusche mit Infrarot", "indoor_outdoor": "indoor", "heater_type": "Dampfgenerator und Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2399, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/dampfdusche_alaska_inkl-_infrarotsauna_90x90cm.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["90 × 90 cm Grundfläche für kleine Innenräume", "Dampfgenerator und Infrarotstrahler in einer Kabine", "Kapazität für eine Person laut Händlerseite"], "cons": ["Die Gesamtleistung ist nicht als ein Wert ausgewiesen", "Die Anschlussausführung muss vor dem Kauf mit dem Händler geklärt werden", "Keine eigene Montageprüfung"], "ideal_for": ["Einzelnutzung", "Kompakte Badezimmer- oder Wellnessbereiche", "Nutzer, die Dampf- und Infrarotfunktionen kombinieren möchten"], "not_for": ["Planungen, die eine dokumentierte Gesamtleistung voraussetzen", "Mehrpersonennutzung"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Dampfdusche Alaska", "url": "https://wellness-point.com/produkte/detail/dampfdusche_alaska_inkl-_infrarotsauna_90x90cm.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 90,
+        "depth": 90,
+        "height": 215
+      },
+      "people": {
+        "min": 1,
+        "max": 1,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": null,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V, aber keine einzelne Gesamtleistung oder Anschlussausführung."
+      },
+      "sauna": {
+        "type": "Dampfdusche mit Infrarot",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Dampfgenerator und Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "nicht ausgewiesen"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2399,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/dampfdusche_alaska_inkl-_infrarotsauna_90x90cm.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "90 × 90 cm Grundfläche für kleine Innenräume",
+          "Dampfgenerator und Infrarotstrahler in einer Kabine",
+          "Kapazität für eine Person laut Händlerseite"
+        ],
+        "cons": [
+          "Die Gesamtleistung ist nicht als ein Wert ausgewiesen",
+          "Die Anschlussausführung muss vor dem Kauf mit dem Händler geklärt werden",
+          "Keine eigene Montageprüfung"
+        ],
+        "ideal_for": [
+        "Nutzung durch eine einzelne Person",
+          "Kompakte Badezimmer- oder Wellnessbereiche",
+          "Nutzer, die Dampf- und Infrarotfunktionen kombinieren möchten"
+        ],
+        "not_for": [
+          "Planungen, die eine dokumentierte Gesamtleistung voraussetzen",
+        "Gemeinsame Nutzung mit weiteren Personen"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Dampfdusche Alaska",
+          "url": "https://wellness-point.com/produkte/detail/dampfdusche_alaska_inkl-_infrarotsauna_90x90cm.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -30,14 +95,79 @@
       "model": "Dampfdusche Arizona inkl. Infrarotsauna 145 × 90 cm",
       "family": null,
       "category": "indoor",
-      "status": "draft",
-      "dimensions_cm": {"width": 145, "depth": 90, "height": 215},
-      "people": {"min": 1, "max": 2, "seats": 0, "lying_places": 0},
-      "power": {"voltage": 230, "kw": null, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."},
-      "sauna": {"type": "Dampfdusche mit Infrarot", "indoor_outdoor": "indoor", "heater_type": "Dampfgenerator und Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2999, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/dampfdusche_arizona_inkl-_infrarotsauna_145x90cm.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["145 cm Breite schafft mehr Bewegungsraum als die 90-cm-Variante", "Dampf- und Infrarotfunktion in einem Modell", "Für bis zu zwei Personen beschrieben"], "cons": ["Der schmale Grundriss bleibt 90 cm tief", "Keine ausgewiesene Gesamtleistung", "Anschlussdetails fehlen in der geprüften Darstellung"], "ideal_for": ["Zwei Personen mit länglicher Stellfläche", "Innenräume mit begrenzter Tiefe", "Kombinierte Wellnessnutzung"], "not_for": ["Einbau ohne vorherige Prüfung der Raumhöhe", "Vergleiche, die eine einheitliche kW-Angabe verlangen"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Dampfdusche Arizona", "url": "https://wellness-point.com/produkte/detail/dampfdusche_arizona_inkl-_infrarotsauna_145x90cm.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 145,
+        "depth": 90,
+        "height": 215
+      },
+      "people": {
+        "min": 1,
+        "max": 2,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": null,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."
+      },
+      "sauna": {
+        "type": "Dampfdusche mit Infrarot",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Dampfgenerator und Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "nicht ausgewiesen"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2999,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/dampfdusche_arizona_inkl-_infrarotsauna_145x90cm.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "145 cm Breite schafft mehr Bewegungsraum als die 90-cm-Variante",
+          "Dampf- und Infrarotfunktion in einem Modell",
+          "Für bis zu zwei Personen beschrieben"
+        ],
+        "cons": [
+          "Der schmale Grundriss bleibt 90 cm tief",
+        "Dampf- und Infrarotleistung werden nur getrennt ausgewiesen",
+          "Anschlussdetails fehlen in der geprüften Darstellung"
+        ],
+        "ideal_for": [
+          "Zwei Personen mit länglicher Stellfläche",
+          "Innenräume mit begrenzter Tiefe",
+          "Kombinierte Wellnessnutzung"
+        ],
+        "not_for": [
+          "Einbau ohne vorherige Prüfung der Raumhöhe",
+          "Vergleiche, die eine einheitliche kW-Angabe verlangen"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Dampfdusche Arizona",
+          "url": "https://wellness-point.com/produkte/detail/dampfdusche_arizona_inkl-_infrarotsauna_145x90cm.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -46,14 +176,80 @@
       "model": "Dampfdusche California inkl. Infrarotsauna 145 × 90 cm",
       "family": null,
       "category": "indoor",
-      "status": "draft",
-      "dimensions_cm": {"width": 145, "depth": 90, "height": 215},
-      "people": {"min": 1, "max": 2, "seats": 0, "lying_places": 0},
-      "power": {"voltage": 230, "kw": null, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."},
-      "sauna": {"type": "Dampfdusche mit Infrarot", "indoor_outdoor": "indoor", "heater_type": "Dampfgenerator und Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2799, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/dampfdusche_california_inkl-_infrarotsauna.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["Gleiche Stellfläche wie Arizona bei abweichender Modellvariante", "Dampfgenerator und Infrarotstrahler sind gemeinsam aufgeführt", "Zwei Personen als Händlerangabe"], "cons": ["Die Modellbezeichnung allein erklärt die technische Differenz zu Arizona nicht", "Gesamtleistung und Anschlussbild fehlen", "Eine Einbauprüfung vor Ort bleibt erforderlich"], "ideal_for": ["Vergleiche innerhalb der 145 × 90 cm Klasse", "Nutzer mit Interesse an Dampf und Infrarot", "Innenaufstellung"], "not_for": ["Kaufentscheidung ausschließlich nach dem Modellnamen", "Räume unter 215 cm Höhe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Dampfdusche California", "url": "https://wellness-point.com/produkte/detail/dampfdusche_california_inkl-_infrarotsauna.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 145,
+        "depth": 90,
+        "height": 215
+      },
+      "people": {
+        "min": 1,
+        "max": 2,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": null,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."
+      },
+      "sauna": {
+        "type": "Dampfdusche mit Infrarot",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Dampfgenerator und Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "nicht ausgewiesen"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2799,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/dampfdusche_california_inkl-_infrarotsauna.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "Gleiche Stellfläche wie Arizona bei abweichender Modellvariante",
+          "Dampfgenerator und Infrarotstrahler sind gemeinsam aufgeführt",
+        "Kapazität bis zwei Personen dokumentiert"
+        ],
+        "cons": [
+          "Die Modellbezeichnung allein erklärt die technische Differenz zu Arizona nicht",
+          "Gesamtleistung und Anschlussbild fehlen",
+          "Eine Einbauprüfung vor Ort bleibt erforderlich"
+        ],
+        "ideal_for": [
+          "Bis zu zwei Personen laut Produktbeschreibung",
+          "Vergleiche der 145 × 90 cm großen Kombikabinen",
+          "Dampf- und Infrarotnutzung auf schmaler Stellfläche",
+          "Geplante Aufstellung im Innenraum"
+        ],
+        "not_for": [
+          "Kaufentscheidung ausschließlich nach dem Modellnamen",
+          "Räume unter 215 cm Höhe"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Dampfdusche California",
+          "url": "https://wellness-point.com/produkte/detail/dampfdusche_california_inkl-_infrarotsauna.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -62,14 +258,79 @@
       "model": "Dampfdusche Colorado inkl. Infrarotsauna 100 × 90 cm",
       "family": null,
       "category": "indoor",
-      "status": "draft",
-      "dimensions_cm": {"width": 100, "depth": 90, "height": 215},
-      "people": {"min": 1, "max": 1, "seats": 0, "lying_places": 0},
-      "power": {"voltage": 230, "kw": null, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."},
-      "sauna": {"type": "Dampfdusche mit Infrarot", "indoor_outdoor": "indoor", "heater_type": "Dampfgenerator und Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2299, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/dampfdusche_colorado_inkl-_infrarotsauna_100x90cm.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["100 × 90 cm Grundfläche ist kleiner als bei den 145-cm-Modellen", "Kombination aus Dampf und Infrarot", "Einzelplatz laut Händlerseite"], "cons": ["Keine ausgewiesene Gesamtleistung", "Die 215 cm Höhe muss im Raum verfügbar sein", "Anschlussart nicht näher beschrieben"], "ideal_for": ["Kleine Innenräume", "Einzelnutzung", "Planungen mit klar begrenzter Breite"], "not_for": ["Mehrpersonennutzung", "Räume mit weniger als 215 cm Einbauhöhe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Dampfdusche Colorado", "url": "https://wellness-point.com/produkte/detail/dampfdusche_colorado_inkl-_infrarotsauna_100x90cm.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 100,
+        "depth": 90,
+        "height": 215
+      },
+      "people": {
+        "min": 1,
+        "max": 1,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": null,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."
+      },
+      "sauna": {
+        "type": "Dampfdusche mit Infrarot",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Dampfgenerator und Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "nicht ausgewiesen"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2299,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/dampfdusche_colorado_inkl-_infrarotsauna_100x90cm.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "100 × 90 cm Grundfläche ist kleiner als bei den 145-cm-Modellen",
+          "Kombination aus Dampf und Infrarot",
+          "Einzelplatz laut Händlerseite"
+        ],
+        "cons": [
+        "Ein gemeinsamer Anschlusswert fehlt",
+          "Die 215 cm Höhe muss im Raum verfügbar sein",
+          "Anschlussart nicht näher beschrieben"
+        ],
+        "ideal_for": [
+          "Innenräume mit maximal 100 cm verfügbarer Breite",
+          "Alleinnutzung in einer kombinierten Dampf- und Infrarotkabine",
+          "Rechteckige Stellflächen mit 90 cm Tiefe"
+        ],
+        "not_for": [
+        "Kabinen für zwei oder mehr Personen",
+          "Räume mit weniger als 215 cm Einbauhöhe"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Dampfdusche Colorado",
+          "url": "https://wellness-point.com/produkte/detail/dampfdusche_colorado_inkl-_infrarotsauna_100x90cm.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -78,14 +339,79 @@
       "model": "Dampfdusche Florida inkl. Infrarotsauna 145 × 90 cm",
       "family": null,
       "category": "indoor",
-      "status": "draft",
-      "dimensions_cm": {"width": 145, "depth": 90, "height": 215},
-      "people": {"min": 1, "max": 2, "seats": 0, "lying_places": 0},
-      "power": {"voltage": 230, "kw": null, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."},
-      "sauna": {"type": "Dampfdusche mit Infrarot", "indoor_outdoor": "indoor", "heater_type": "Dampfgenerator und Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2999, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/dampfdusche_florida_inkl-_infrarotsauna_145x90cm.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["145 × 90 cm Grundfläche für bis zu zwei Personen", "Dampf und Infrarot in einer Einheit", "Technische Teilleistungen sind auf der Produktseite benannt"], "cons": ["Keine dokumentierte Gesamtaufnahme", "Die Modellvariante ist nicht mit einer eigenen Anschlusszeichnung belegt", "Wand- und Montageabstände müssen separat geprüft werden"], "ideal_for": ["Längliche Innenräume", "Zwei-Personen-Nutzung", "Vergleiche mit Arizona und California"], "not_for": ["Räume ohne ausreichende Höhe", "Planungen, die eine fertige Elektroauslegung erwarten"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Dampfdusche Florida", "url": "https://wellness-point.com/produkte/detail/dampfdusche_florida_inkl-_infrarotsauna_145x90cm.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 145,
+        "depth": 90,
+        "height": 215
+      },
+      "people": {
+        "min": 1,
+        "max": 2,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": null,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."
+      },
+      "sauna": {
+        "type": "Dampfdusche mit Infrarot",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Dampfgenerator und Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "nicht ausgewiesen"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2999,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/dampfdusche_florida_inkl-_infrarotsauna_145x90cm.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "145 × 90 cm Grundfläche für bis zu zwei Personen",
+          "Dampf und Infrarot in einer Einheit",
+          "Technische Teilleistungen sind auf der Produktseite benannt"
+        ],
+        "cons": [
+          "Keine dokumentierte Gesamtaufnahme",
+          "Die Modellvariante ist nicht mit einer eigenen Anschlusszeichnung belegt",
+          "Wand- und Montageabstände müssen separat geprüft werden"
+        ],
+        "ideal_for": [
+          "Längliche Innenräume",
+          "Zwei-Personen-Nutzung",
+          "Vergleiche mit Arizona und California"
+        ],
+        "not_for": [
+          "Räume ohne ausreichende Höhe",
+          "Planungen, die eine fertige Elektroauslegung erwarten"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Dampfdusche Florida",
+          "url": "https://wellness-point.com/produkte/detail/dampfdusche_florida_inkl-_infrarotsauna_145x90cm.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -94,14 +420,79 @@
       "model": "Dampfdusche Kansas inkl. Infrarotsauna 100 × 100 cm",
       "family": null,
       "category": "indoor",
-      "status": "draft",
-      "dimensions_cm": {"width": 100, "depth": 100, "height": 215},
-      "people": {"min": 1, "max": 1, "seats": 0, "lying_places": 0},
-      "power": {"voltage": 230, "kw": null, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."},
-      "sauna": {"type": "Dampfdusche mit Infrarot", "indoor_outdoor": "indoor", "heater_type": "Dampfgenerator und Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2499, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/dampfdusche_kansas_inkl-_infrarotsauna_100x100cm.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["Quadratische 100 × 100 cm Grundfläche", "Dampf- und Infrarotfunktion kombiniert", "Für eine Person ausgewiesen"], "cons": ["Die technische Gesamtleistung bleibt offen", "Keine belastbare Aussage zur Steckerlösung", "Höhe und Wartungszugang müssen in der Raumplanung berücksichtigt werden"], "ideal_for": ["Kompakte quadratische Nischen", "Einzelnutzung", "Innenräume mit einem Meter Stellbreite"], "not_for": ["Mehrpersonennutzung", "Planungen mit dokumentierter Gesamtlast als Voraussetzung"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Dampfdusche Kansas", "url": "https://wellness-point.com/produkte/detail/dampfdusche_kansas_inkl-_infrarotsauna_100x100cm.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 100,
+        "depth": 100,
+        "height": 215
+      },
+      "people": {
+        "min": 1,
+        "max": 1,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": null,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."
+      },
+      "sauna": {
+        "type": "Dampfdusche mit Infrarot",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Dampfgenerator und Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "nicht ausgewiesen"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2499,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/dampfdusche_kansas_inkl-_infrarotsauna_100x100cm.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "Quadratische 100 × 100 cm Grundfläche",
+          "Dampf- und Infrarotfunktion kombiniert",
+          "Für eine Person ausgewiesen"
+        ],
+        "cons": [
+          "Die technische Gesamtleistung bleibt offen",
+          "Keine belastbare Aussage zur Steckerlösung",
+          "Höhe und Wartungszugang müssen in der Raumplanung berücksichtigt werden"
+        ],
+        "ideal_for": [
+          "Kompakte quadratische Nischen",
+        "Alleinnutzung in einer quadratischen Kabine",
+          "Innenräume mit einem Meter Stellbreite"
+        ],
+        "not_for": [
+        "Nutzung mit Begleitperson",
+          "Planungen mit dokumentierter Gesamtlast als Voraussetzung"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Dampfdusche Kansas",
+          "url": "https://wellness-point.com/produkte/detail/dampfdusche_kansas_inkl-_infrarotsauna_100x100cm.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -110,14 +501,79 @@
       "model": "Dampfdusche Virginia inkl. Infrarotsauna 100 × 100 cm",
       "family": null,
       "category": "indoor",
-      "status": "draft",
-      "dimensions_cm": {"width": 100, "depth": 100, "height": 215},
-      "people": {"min": 1, "max": 1, "seats": 0, "lying_places": 0},
-      "power": {"voltage": 230, "kw": null, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."},
-      "sauna": {"type": "Dampfdusche mit Infrarot", "indoor_outdoor": "indoor", "heater_type": "Dampfgenerator und Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2399, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/dampfdusche_virginia_inkl-_infrarotsauna_100x100cm.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["Quadratische Stellfläche mit 100 cm Seitenlänge", "Kombinierte Dampf- und Infrarottechnik", "Einzelplatz laut Händlerangabe"], "cons": ["Technische Leistung ist in Teilwerten statt als Gesamtwert beschrieben", "Die Netzspannung ist nicht mit einer Anschlussart verknüpft", "Keine eigene Prüfung von Aufbau oder Abdichtung"], "ideal_for": ["Ein-Personen-Nutzung", "Kompakte Innenaufstellung", "Vergleiche mit der bauähnlichen Kansas-Ausführung"], "not_for": ["Räume mit niedriger Decke", "Kauf ohne Prüfung der Elektroplanung"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Dampfdusche Virginia", "url": "https://wellness-point.com/produkte/detail/dampfdusche_virginia_inkl-_infrarotsauna_100x100cm.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 100,
+        "depth": 100,
+        "height": 215
+      },
+      "people": {
+        "min": 1,
+        "max": 1,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": null,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Produktseite nennt einen 3-kW-Dampfgenerator, 1.800 W Infrarotleistung und 230 V; eine Gesamtleistung und konkrete Anschlussart sind nicht angegeben."
+      },
+      "sauna": {
+        "type": "Dampfdusche mit Infrarot",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Dampfgenerator und Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "nicht ausgewiesen"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2399,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/dampfdusche_virginia_inkl-_infrarotsauna_100x100cm.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "Quadratische Stellfläche mit 100 cm Seitenlänge",
+          "Kombinierte Dampf- und Infrarottechnik",
+          "Einzelplatz laut Händlerangabe"
+        ],
+        "cons": [
+          "Technische Leistung ist in Teilwerten statt als Gesamtwert beschrieben",
+          "Die Netzspannung ist nicht mit einer Anschlussart verknüpft",
+          "Keine eigene Prüfung von Aufbau oder Abdichtung"
+        ],
+        "ideal_for": [
+          "Alleinnutzung auf quadratischer Grundfläche",
+          "Kompakte Aufstellung im Bad oder privaten Wellnessraum",
+          "Direkter Vergleich mit Kansas bei gleicher Außenfläche"
+        ],
+        "not_for": [
+          "Räume mit niedriger Decke",
+          "Kauf ohne Prüfung der Elektroplanung"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Dampfdusche Virginia",
+          "url": "https://wellness-point.com/produkte/detail/dampfdusche_virginia_inkl-_infrarotsauna_100x100cm.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -126,14 +582,79 @@
       "model": "Finnische Sauna Alaska I",
       "family": null,
       "category": "indoor",
-      "status": "draft",
-      "dimensions_cm": {"width": 150, "depth": 150, "height": 200},
-      "people": {"min": 1, "max": 3, "seats": 0, "lying_places": 0},
-      "power": {"voltage": "none", "kw": 4.5, "plug_type": null, "electrician_required": true, "notes": "Die Händlerseite nennt 4.500 W und sowohl 230 V als auch 380 V. Wegen der uneinheitlichen Anschlussangabe bleibt die Finder-Spannung neutral."},
-      "sauna": {"type": "Finnische Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektroofen", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Hemlock laut Händlerseite"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 1999, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/finnische-sauna-alaska-i.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["150 × 150 cm quadratisches Außenmaß", "4,5-kW-Harvia-Ofen und Zubehör laut Händlerseite", "Für drei Personen beschrieben"], "cons": ["230 V und 380 V werden parallel genannt", "Die konkrete Anschlussausführung ist nicht geklärt", "Sitz- und Liegeaufteilung ist nicht als Maßangabe dokumentiert"], "ideal_for": ["Innenräume mit quadratischer Stellfläche", "Nutzer mit Bedarf an drei Plätzen", "Planungen, bei denen der Anschluss vorab mit einem Fachbetrieb geklärt wird"], "not_for": ["Finderfilter mit eindeutigem 230- oder 400-V-Bedarf", "Räume unter 200 cm Höhe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Finnische Sauna Alaska I", "url": "https://wellness-point.com/produkte/detail/finnische-sauna-alaska-i.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 150,
+        "depth": 150,
+        "height": 200
+      },
+      "people": {
+        "min": 1,
+        "max": 3,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": "none",
+        "kw": 4.5,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Händlerseite nennt 4.500 W und sowohl 230 V als auch 380 V. Wegen der uneinheitlichen Anschlussangabe bleibt die Finder-Spannung neutral."
+      },
+      "sauna": {
+        "type": "Finnische Sauna",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Elektroofen",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "Hemlock laut Händlerseite"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 1999,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/finnische-sauna-alaska-i.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "150 × 150 cm quadratisches Außenmaß",
+          "4,5-kW-Harvia-Ofen und Zubehör laut Händlerseite",
+          "Für drei Personen beschrieben"
+        ],
+        "cons": [
+          "230 V und 380 V werden parallel genannt",
+          "Die konkrete Anschlussausführung ist nicht geklärt",
+          "Sitz- und Liegeaufteilung ist nicht als Maßangabe dokumentiert"
+        ],
+        "ideal_for": [
+          "Innenräume mit quadratischer Stellfläche",
+          "Nutzer mit Bedarf an drei Plätzen",
+          "Planungen, bei denen der Anschluss vorab mit einem Fachbetrieb geklärt wird"
+        ],
+        "not_for": [
+          "Finderfilter mit eindeutigem 230- oder 400-V-Bedarf",
+          "Räume unter 200 cm Höhe"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Finnische Sauna Alaska I",
+          "url": "https://wellness-point.com/produkte/detail/finnische-sauna-alaska-i.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -142,14 +663,79 @@
       "model": "Finnische Sauna Alaska II",
       "family": null,
       "category": "indoor",
-      "status": "draft",
-      "dimensions_cm": {"width": 175, "depth": 200, "height": 200},
-      "people": {"min": 1, "max": 4, "seats": 0, "lying_places": 0},
-      "power": {"voltage": "none", "kw": 6, "plug_type": null, "electrician_required": true, "notes": "Die Händlerseite nennt einen 6.000-W-Harvia-Ofen und 380 V. 380 V wird nicht in 400 V umgedeutet; der Anschluss bleibt im Finder neutral."},
-      "sauna": {"type": "Finnische Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektroofen", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Hemlock laut Händlerseite"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2149, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_ii.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["175 × 200 cm Grundfläche für bis zu vier Personen", "6-kW-Ofen und Zubehör auf der Händlerseite aufgeführt", "Quadratische Kabinenplanung ohne Außenüberstand im Datensatz"], "cons": ["Die Quelle verwendet die historische Bezeichnung 380 V", "Für die Elektroplanung ist ein Fachbetrieb erforderlich", "Keine eigene Prüfung der Montagepackstücke"], "ideal_for": ["Vier-Personen-Nutzung", "Innenräume mit 200 cm Höhe", "Planungen mit vorbereitetem Starkstromanschluss nach Fachprüfung"], "not_for": ["Ungeklärte Elektroinstallationen", "Räume unter 175 × 200 cm Stellfläche"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Finnische Sauna Alaska II", "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_ii.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 175,
+        "depth": 200,
+        "height": 200
+      },
+      "people": {
+        "min": 1,
+        "max": 4,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": "none",
+        "kw": 6,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Händlerseite nennt einen 6.000-W-Harvia-Ofen und 380 V. 380 V wird nicht in 400 V umgedeutet; der Anschluss bleibt im Finder neutral."
+      },
+      "sauna": {
+        "type": "Finnische Sauna",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Elektroofen",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "Hemlock laut Händlerseite"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2149,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_ii.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "175 × 200 cm Grundfläche für bis zu vier Personen",
+          "6-kW-Ofen und Zubehör auf der Händlerseite aufgeführt",
+          "Quadratische Kabinenplanung ohne Außenüberstand im Datensatz"
+        ],
+        "cons": [
+          "Die Quelle verwendet die historische Bezeichnung 380 V",
+          "Für die Elektroplanung ist ein Fachbetrieb erforderlich",
+          "Keine eigene Prüfung der Montagepackstücke"
+        ],
+        "ideal_for": [
+          "Vier-Personen-Nutzung",
+          "Innenräume mit 200 cm Höhe",
+          "Planungen mit vorbereitetem Starkstromanschluss nach Fachprüfung"
+        ],
+        "not_for": [
+          "Ungeklärte Elektroinstallationen",
+          "Räume unter 175 × 200 cm Stellfläche"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Finnische Sauna Alaska II",
+          "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_ii.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -158,14 +744,79 @@
       "model": "Finnische Sauna Alaska III",
       "family": null,
       "category": "indoor",
-      "status": "draft",
-      "dimensions_cm": {"width": 208, "depth": 200, "height": 200},
-      "people": {"min": 1, "max": 5, "seats": 0, "lying_places": 0},
-      "power": {"voltage": "none", "kw": 8, "plug_type": null, "electrician_required": true, "notes": "Die Händlerseite nennt einen 8.000-W-Harvia-Ofen und 380 V. 380 V wird nicht in 400 V umgedeutet; der Anschluss bleibt im Finder neutral."},
-      "sauna": {"type": "Finnische Sauna", "indoor_outdoor": "indoor", "heater_type": "Elektroofen", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Hemlock laut Händlerseite"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2349, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_iii.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["208 × 200 cm Kabinenmaß für bis zu fünf Personen", "8-kW-Ofen und Hemlockholz sind in der Quelle genannt", "Mehr Fläche als bei Alaska I und II"], "cons": ["380 V ist die dokumentierte Anschlussangabe und bleibt finder-seitig neutral", "Die Stellfläche verlangt einen ausreichend großen Raum", "Keine eigene Messung der Innenbank"], "ideal_for": ["Familien- oder Gruppennutzung bis fünf Personen", "Räume mit mindestens 208 × 200 cm Grundfläche", "Vorbereitete Elektroplanung mit Fachbetrieb"], "not_for": ["Kompakte Nischen", "Nutzung ohne geklärte Starkstromversorgung"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Finnische Sauna Alaska III", "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_iii.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 208,
+        "depth": 200,
+        "height": 200
+      },
+      "people": {
+        "min": 1,
+        "max": 5,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": "none",
+        "kw": 8,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Händlerseite nennt einen 8.000-W-Harvia-Ofen und 380 V. 380 V wird nicht in 400 V umgedeutet; der Anschluss bleibt im Finder neutral."
+      },
+      "sauna": {
+        "type": "Finnische Sauna",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Elektroofen",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "Hemlock laut Händlerseite"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2349,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_iii.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "208 × 200 cm Kabinenmaß für bis zu fünf Personen",
+          "8-kW-Ofen und Hemlockholz sind in der Quelle genannt",
+          "Mehr Fläche als bei Alaska I und II"
+        ],
+        "cons": [
+          "380 V ist die dokumentierte Anschlussangabe und bleibt finder-seitig neutral",
+          "Die Stellfläche verlangt einen ausreichend großen Raum",
+          "Keine eigene Messung der Innenbank"
+        ],
+        "ideal_for": [
+          "Familien- oder Gruppennutzung bis fünf Personen",
+          "Räume mit mindestens 208 × 200 cm Grundfläche",
+          "Vorbereitete Elektroplanung mit Fachbetrieb"
+        ],
+        "not_for": [
+          "Kompakte Nischen",
+          "Nutzung ohne geklärte Starkstromversorgung"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Finnische Sauna Alaska III",
+          "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_iii.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -174,14 +825,79 @@
       "model": "Infrarotkabine Göteborg",
       "family": null,
       "category": "infrared",
-      "status": "draft",
-      "dimensions_cm": {"width": 150, "depth": 150, "height": 190},
-      "people": {"min": 1, "max": 2, "seats": 0, "lying_places": 0},
-      "power": {"voltage": 230, "kw": 2.725, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite weist 2.725 W und 230 V aus; die konkrete Anschlussausführung ist nicht näher beschrieben."},
-      "sauna": {"type": "Infrarotkabine", "indoor_outdoor": "indoor", "heater_type": "Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 1849, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/infrarotkabine_goeteborg.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["Quadratische 150 × 150 cm Grundfläche", "2.725 W Gesamtleistung angegeben", "Zwei Personen als Händlerangabe"], "cons": ["Die elektrische Ausführung muss vor dem Kauf geklärt werden", "Keine klassische Saunaofen-Konfiguration", "Material- und Bankdetails sind im Entwurf nicht vollständig belegt"], "ideal_for": ["Zwei-Personen-Infrarotnutzung", "Innenräume mit quadratischem Grundriss", "Nutzer, die niedrigere Raumtemperaturen als bei einer finnischen Sauna bevorzugen"], "not_for": ["Aufgussbetrieb mit Saunaofen", "Räume ohne 190 cm Höhe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Infrarotkabine Göteborg", "url": "https://wellness-point.com/produkte/detail/infrarotkabine_goeteborg.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 150,
+        "depth": 150,
+        "height": 190
+      },
+      "people": {
+        "min": 1,
+        "max": 2,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": 2.725,
+        "plug_type": "Standardsteckdose laut Produktseite",
+        "electrician_required": false,
+        "notes": "Die Produktseite nennt 2.725 W und 230 V für eine handelsübliche EU-Steckdose; die örtlichen Anschlussbedingungen bleiben zu prüfen."
+      },
+      "sauna": {
+        "type": "Infrarotkabine",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "nicht ausgewiesen"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 1849,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/infrarotkabine_goeteborg.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "Quadratische 150 × 150 cm Grundfläche",
+          "2.725 W Gesamtleistung angegeben",
+        "Für zwei Nutzer beschrieben"
+        ],
+        "cons": [
+          "Die elektrische Ausführung muss vor dem Kauf geklärt werden",
+          "Keine klassische Saunaofen-Konfiguration",
+          "Material- und Bankdetails sind im Entwurf nicht vollständig belegt"
+        ],
+        "ideal_for": [
+          "Zwei Personen mit 150 × 150 cm freier Stellfläche",
+          "Innenräume mit quadratischem Grundriss",
+          "Planungen mit dokumentiertem 230-V-Anschluss"
+        ],
+        "not_for": [
+          "Aufgussbetrieb mit Saunaofen",
+          "Räume ohne 190 cm Höhe"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Infrarotkabine Göteborg",
+          "url": "https://wellness-point.com/produkte/detail/infrarotkabine_goeteborg.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -189,15 +905,80 @@
       "brand": "Wellness-Point",
       "model": "Infrarotkabine Helsinki Beta",
       "family": null,
-      "category": "infrared",
-      "status": "draft",
-      "dimensions_cm": {"width": 153, "depth": 125, "height": 210},
-      "people": {"min": 1, "max": 4, "seats": 0, "lying_places": 0},
-      "power": {"voltage": "none", "kw": 2.425, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt 2.425 W, weist im geprüften Abschnitt aber keine Netzspannung aus. Die Finder-Spannung bleibt neutral."},
-      "sauna": {"type": "Infrarotkabine", "indoor_outdoor": "indoor", "heater_type": "Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2099, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_beta.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["153 × 125 cm Grundfläche", "2.425 W sind als Leistung ausgewiesen", "Bis zu vier Personen laut Händlerseite"], "cons": ["Netzspannung auf der erreichbaren Seite nicht ausgewiesen", "Die Kapazitätsangabe wird ohne Bankaufteilung geführt", "Anschluss und Fachplanung müssen vor Bestellung geklärt werden"], "ideal_for": ["Mehrpersonennutzung mit Infrarotwärme", "Innenräume mit 210 cm Höhe", "Vergleiche, bei denen die reine Produktfläche entscheidend ist"], "not_for": ["Filterung nach festem 230-V-Anschluss ohne Rückfrage", "Kauf ohne Prüfung der Raumhöhe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Infrarotkabine Helsinki Beta", "url": "https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_beta.html", "checked_at": "2026-09-02"}],
+      "category": "outdoor",
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 153,
+        "depth": 125,
+        "height": 210
+      },
+      "people": {
+        "min": 1,
+        "max": 4,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": 2.425,
+        "plug_type": "Standardsteckdose laut Produktseite",
+        "electrician_required": false,
+        "notes": "Die aktuelle Produktseite nennt 2.425 W und 230 V für eine Standardsteckdose. Die Kabine ist ausdrücklich für den Außenbereich beschrieben."
+      },
+      "sauna": {
+        "type": "Infrarotkabine",
+        "indoor_outdoor": "outdoor",
+        "heater_type": "Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "kanadisches Hemlockholz laut Produktseite"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2099,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_beta.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "Outdoor-Ausführung mit 153 × 125 cm Grundfläche",
+          "2,425 kW und 230 V sind auf der Produktseite ausgewiesen",
+          "Bis zu vier Personen laut Anbieterangabe"
+        ],
+        "cons": [
+          "Untergrund und zusätzlicher Dachschutz gehören zur Außenplanung",
+          "Die Sitzaufteilung ist nicht mit Einzelmaßen dokumentiert",
+          "210 cm Kabinenhöhe plus Montagefreiraum müssen verfügbar sein"
+        ],
+        "ideal_for": [
+          "Garten oder Terrasse mit vorbereiteter Stromversorgung",
+          "Gruppen bis vier Personen mit Interesse an Infrarotwärme",
+          "Außenstandorte mit planbarem Witterungsschutz"
+        ],
+        "not_for": [
+          "Ungeschützte Aufstellung ohne geeigneten Untergrund",
+          "Innenräume mit weniger als 210 cm Höhe"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Infrarotkabine Helsinki Beta",
+          "url": "https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_beta.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -206,14 +987,79 @@
       "model": "Infrarotkabine Oslo Alpha",
       "family": null,
       "category": "infrared",
-      "status": "draft",
-      "dimensions_cm": {"width": 120, "depth": 105, "height": 190},
-      "people": {"min": 1, "max": 2, "seats": 0, "lying_places": 0},
-      "power": {"voltage": 230, "kw": 1.89, "plug_type": "Standardsteckdose laut Händlerseite", "electrician_required": false, "notes": "Die Händlerseite nennt 1.890 W und 230 V für eine Standardsteckdose; örtliche Anschlussbedingungen bleiben zu prüfen."},
-      "sauna": {"type": "Infrarotkabine", "indoor_outdoor": "indoor", "heater_type": "Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 1399, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/infrarotkabine_oslo.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["120 × 105 cm Grundfläche für zwei Personen", "1.890 W und 230 V angegeben", "Standardsteckdose als Händlerhinweis"], "cons": ["Keine klassische Saunaofenwärme", "Mit 190 cm Höhe muss die Raumreserve genau passen", "Keine eigene Prüfung der tatsächlichen Steckdosensituation"], "ideal_for": ["Zwei-Personen-Infrarotnutzung", "Innenräume mit knappem Grundriss", "230-V-orientierte Planungen"], "not_for": ["Aufgussfans", "Aufstellungen mit weniger als 190 cm Höhe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Infrarotkabine Oslo", "url": "https://wellness-point.com/produkte/detail/infrarotkabine_oslo.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 120,
+        "depth": 105,
+        "height": 190
+      },
+      "people": {
+        "min": 1,
+        "max": 2,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": 1.89,
+        "plug_type": "Standardsteckdose laut Händlerseite",
+        "electrician_required": false,
+        "notes": "Die Händlerseite nennt 1.890 W und 230 V für eine Standardsteckdose; örtliche Anschlussbedingungen bleiben zu prüfen."
+      },
+      "sauna": {
+        "type": "Infrarotkabine",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "nicht ausgewiesen"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 1399,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/infrarotkabine_oslo.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "120 × 105 cm Grundfläche für zwei Personen",
+          "1.890 W und 230 V angegeben",
+          "Standardsteckdose als Händlerhinweis"
+        ],
+        "cons": [
+          "Keine klassische Saunaofenwärme",
+          "Mit 190 cm Höhe muss die Raumreserve genau passen",
+          "Keine eigene Prüfung der tatsächlichen Steckdosensituation"
+        ],
+        "ideal_for": [
+          "Zwei-Personen-Infrarotnutzung",
+          "Innenräume mit knappem Grundriss",
+          "230-V-orientierte Planungen"
+        ],
+        "not_for": [
+          "Aufgussfans",
+          "Aufstellungen mit weniger als 190 cm Höhe"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Infrarotkabine Oslo",
+          "url": "https://wellness-point.com/produkte/detail/infrarotkabine_oslo.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -222,14 +1068,79 @@
       "model": "Infrarotkabine Stockholm Alpha",
       "family": null,
       "category": "infrared",
-      "status": "draft",
-      "dimensions_cm": {"width": 90, "depth": 90, "height": 190},
-      "people": {"min": 1, "max": 1, "seats": 0, "lying_places": 0},
-      "power": {"voltage": 230, "kw": 1.425, "plug_type": "Standardsteckdose laut Händlerseite", "electrician_required": false, "notes": "Die Händlerseite nennt 1.425 W und 230 V für eine Standardsteckdose; örtliche Anschlussbedingungen bleiben zu prüfen."},
-      "sauna": {"type": "Infrarotkabine", "indoor_outdoor": "indoor", "heater_type": "Infrarotstrahler", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "nicht ausgewiesen"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 1299, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/infrarotkabine_stockholm.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["90 × 90 cm sehr kompakte Grundfläche", "1.425 W und 230 V angegeben", "Für eine Person ausgelegt"], "cons": ["Nur sitzende Einzelnutzung vorgesehen", "Keine klassische Saunaofenfunktion", "190 cm Kabinenhöhe darf im Raum nicht unterschritten werden"], "ideal_for": ["Sehr kleine Innenräume", "Einzelnutzung", "230-V-Planungen mit begrenzter Stellfläche"], "not_for": ["Mehrpersonennutzung", "Nutzer mit Wunsch nach Liegefläche oder Aufguss"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Infrarotkabine Stockholm", "url": "https://wellness-point.com/produkte/detail/infrarotkabine_stockholm.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 90,
+        "depth": 90,
+        "height": 190
+      },
+      "people": {
+        "min": 1,
+        "max": 1,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": 230,
+        "kw": 1.425,
+        "plug_type": "Standardsteckdose laut Händlerseite",
+        "electrician_required": false,
+        "notes": "Die Händlerseite nennt 1.425 W und 230 V für eine Standardsteckdose; örtliche Anschlussbedingungen bleiben zu prüfen."
+      },
+      "sauna": {
+        "type": "Infrarotkabine",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Infrarotstrahler",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "nicht ausgewiesen"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 1299,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/infrarotkabine_stockholm.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "90 × 90 cm sehr kompakte Grundfläche",
+          "1.425 W und 230 V angegeben",
+          "Für eine Person ausgelegt"
+        ],
+        "cons": [
+          "Nur sitzende Einzelnutzung vorgesehen",
+          "Keine klassische Saunaofenfunktion",
+          "190 cm Kabinenhöhe darf im Raum nicht unterschritten werden"
+        ],
+        "ideal_for": [
+          "Sehr kleine Innenräume",
+        "Solo-Nutzung auf 90 × 90 cm",
+          "230-V-Planungen mit begrenzter Stellfläche"
+        ],
+        "not_for": [
+        "Zwei oder mehr Nutzer gleichzeitig",
+          "Nutzer mit Wunsch nach Liegefläche oder Aufguss"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Infrarotkabine Stockholm",
+          "url": "https://wellness-point.com/produkte/detail/infrarotkabine_stockholm.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -238,14 +1149,79 @@
       "model": "Infrarotsauna Alpha I",
       "family": null,
       "category": "infrared",
-      "status": "draft",
-      "dimensions_cm": {"width": 125, "depth": 110, "height": 190},
-      "people": {"min": 1, "max": 2, "seats": 0, "lying_places": 0},
-      "power": {"voltage": "none", "kw": null, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt fünf Flächenstrahler mit 1.820 W und einen 3.000-W-Saunaofen, aber keine Netzspannung. Der Anschluss bleibt neutral."},
-      "sauna": {"type": "Kombisauna mit Infrarot", "indoor_outdoor": "indoor", "heater_type": "Infrarotstrahler und Saunaofen", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Pacific Coast Hemlock laut Händlerseite"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 1999, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_i.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["Kombiniert fünf Flächenstrahler mit einem Saunaofen", "125 × 110 cm Grundfläche", "Platz für zwei Personen laut Händlerseite"], "cons": ["Netzspannung ist nicht ausgewiesen", "Die beiden Heizsysteme haben getrennte Leistungsangaben", "Keine eigene Prüfung von Temperatur oder Montage"], "ideal_for": ["Zwei Personen mit Wunsch nach zwei Wärmearten", "Innenräume mit begrenzter Breite", "Planungen, die die Technik getrennt betrachten"], "not_for": ["Kauf ohne Elektroabstimmung", "Nutzer, die eine einfache Ein-Komponenten-Auslegung suchen"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Infrarotsauna Alpha I", "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_i.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 125,
+        "depth": 110,
+        "height": 190
+      },
+      "people": {
+        "min": 1,
+        "max": 2,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": "none",
+        "kw": null,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Produktseite nennt fünf Flächenstrahler mit 1.820 W und einen 3.000-W-Saunaofen, aber keine Netzspannung. Der Anschluss bleibt neutral."
+      },
+      "sauna": {
+        "type": "Kombisauna mit Infrarot",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Infrarotstrahler und Saunaofen",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "Pacific Coast Hemlock laut Händlerseite"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 1999,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_i.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "Kombiniert fünf Flächenstrahler mit einem Saunaofen",
+          "125 × 110 cm Grundfläche",
+          "Platz für zwei Personen laut Händlerseite"
+        ],
+        "cons": [
+          "Netzspannung ist nicht ausgewiesen",
+          "Die beiden Heizsysteme haben getrennte Leistungsangaben",
+          "Keine eigene Prüfung von Temperatur oder Montage"
+        ],
+        "ideal_for": [
+          "Zwei Personen mit Wunsch nach zwei Wärmearten",
+          "Innenräume mit begrenzter Breite",
+          "Planungen, die die Technik getrennt betrachten"
+        ],
+        "not_for": [
+          "Kauf ohne Elektroabstimmung",
+          "Nutzer, die eine einfache Ein-Komponenten-Auslegung suchen"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Infrarotsauna Alpha I",
+          "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_i.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -254,14 +1230,79 @@
       "model": "Infrarotsauna Alpha II",
       "family": null,
       "category": "infrared",
-      "status": "draft",
-      "dimensions_cm": {"width": 120, "depth": 160, "height": 200},
-      "people": {"min": 1, "max": 4, "seats": 0, "lying_places": 0},
-      "power": {"voltage": "none", "kw": null, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt neun Flächenstrahler mit 3.100 W und einen 4.500-W-Saunaofen, aber keine Netzspannung. Der Anschluss bleibt neutral."},
-      "sauna": {"type": "Kombisauna mit Infrarot", "indoor_outdoor": "indoor", "heater_type": "Infrarotstrahler und Saunaofen", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Pacific Coast Hemlock laut Händlerseite"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 2499, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_ii.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["160 cm Tiefe und Kapazität bis vier Personen", "9 Flächenstrahler und 4,5-kW-Ofen dokumentiert", "Kombination aus Infrarot- und finnischer Wärme"], "cons": ["Keine Netzspannung im geprüften Datensatz", "Gesamtlast lässt sich aus den Teilwerten nicht als Anschlusswert ableiten", "Aufstellfläche und Raumhöhe müssen zusammen geprüft werden"], "ideal_for": ["Mehrpersonennutzung im Innenraum", "Nutzer, die beide Wärmearten in einer Kabine suchen", "Räume mit mindestens 120 × 160 × 200 cm Produktmaß"], "not_for": ["Ungeklärte Elektroplanung", "Kompakte Nischen mit weniger als 160 cm Tiefe"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Infrarotsauna Alpha II", "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_ii.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 120,
+        "depth": 160,
+        "height": 200
+      },
+      "people": {
+        "min": 1,
+        "max": 4,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": "none",
+        "kw": null,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Produktseite nennt neun Flächenstrahler mit 3.100 W und einen 4.500-W-Saunaofen, aber keine Netzspannung. Der Anschluss bleibt neutral."
+      },
+      "sauna": {
+        "type": "Kombisauna mit Infrarot",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Infrarotstrahler und Saunaofen",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "Pacific Coast Hemlock laut Händlerseite"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 2499,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_ii.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "160 cm Tiefe und Kapazität bis vier Personen",
+          "9 Flächenstrahler und 4,5-kW-Ofen dokumentiert",
+          "Kombination aus Infrarot- und finnischer Wärme"
+        ],
+        "cons": [
+          "Keine Netzspannung im geprüften Datensatz",
+          "Gesamtlast lässt sich aus den Teilwerten nicht als Anschlusswert ableiten",
+          "Aufstellfläche und Raumhöhe müssen zusammen geprüft werden"
+        ],
+        "ideal_for": [
+          "Mehrpersonennutzung im Innenraum",
+          "Nutzer, die beide Wärmearten in einer Kabine suchen",
+          "Räume mit mindestens 120 × 160 × 200 cm Produktmaß"
+        ],
+        "not_for": [
+          "Ungeklärte Elektroplanung",
+          "Kompakte Nischen mit weniger als 160 cm Tiefe"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Infrarotsauna Alpha II",
+          "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_ii.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     },
     {
@@ -270,15 +1311,81 @@
       "model": "Infrarotsauna Alpha III",
       "family": null,
       "category": "infrared",
-      "status": "draft",
-      "dimensions_cm": {"width": 160, "depth": 210, "height": 200},
-      "people": {"min": 1, "max": 6, "seats": 0, "lying_places": 0},
-      "power": {"voltage": "none", "kw": null, "plug_type": null, "electrician_required": true, "notes": "Die Produktseite nennt 14 Flächenstrahler mit 4.550 W und einen 6.000-W-Saunaofen, aber keine Netzspannung. Der Anschluss bleibt neutral."},
-      "sauna": {"type": "Kombisauna mit Infrarot", "indoor_outdoor": "indoor", "heater_type": "Infrarotstrahler und Saunaofen", "max_temp_c": null, "heat_up_time_min": null, "wood_type": "Pacific Coast Hemlock laut Händlerseite"},
-      "commercial": {"currency": "EUR", "price_status": "from", "offers": [{"merchant": "Wellness-Point", "price": 3499, "availability": "feed-listed", "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_iii.html", "affiliate": false, "last_checked": "2026-09-02"}]},
-      "editorial": {"pros": ["Größtes Alpha-Modell mit 160 × 210 cm Grundfläche", "14 Flächenstrahler und 6-kW-Ofen laut Produktseite", "Bis zu sechs Personen angegeben"], "cons": ["Netzspannung und Anschlussart fehlen", "Die Teilwerte von Infrarotstrahlern und Ofen sind keine ausgewiesene Gesamtanschlussleistung", "Die lange Tiefe verlangt einen passenden Transport- und Aufstellweg"], "ideal_for": ["Gruppennutzung bis sechs Personen", "Innenräume mit ausreichend langer Stellfläche", "Planungen, die Infrarot und klassischen Ofen kombinieren möchten"], "not_for": ["Kleine Räume", "Elektroplanung ohne Fachbetrieb und Herstellerabstimmung"], "test_status": "not_tested", "editorial_score": null, "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."},
-      "sources": [{"type": "merchant", "title": "Wellness-Point Produktseite Infrarotsauna Alpha III", "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_iii.html", "checked_at": "2026-09-02"}],
+      "status": "verified",
+      "dimensions_cm": {
+        "width": 160,
+        "depth": 210,
+        "height": 200
+      },
+      "people": {
+        "min": 1,
+        "max": 6,
+        "seats": 0,
+        "lying_places": 0
+      },
+      "power": {
+        "voltage": "none",
+        "kw": null,
+        "plug_type": null,
+        "electrician_required": true,
+        "notes": "Die Produktseite nennt 14 Flächenstrahler mit 4.550 W und einen 6.000-W-Saunaofen, aber keine Netzspannung. Der Anschluss bleibt neutral."
+      },
+      "sauna": {
+        "type": "Kombisauna mit Infrarot",
+        "indoor_outdoor": "indoor",
+        "heater_type": "Infrarotstrahler und Saunaofen",
+        "max_temp_c": null,
+        "heat_up_time_min": null,
+        "wood_type": "Pacific Coast Hemlock laut Händlerseite"
+      },
+      "commercial": {
+        "currency": "EUR",
+        "price_status": "from",
+        "offers": [
+          {
+            "merchant": "Wellness-Point",
+            "price": 3499,
+            "availability": "feed-listed",
+            "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_iii.html",
+            "affiliate": false,
+            "last_checked": "2026-09-02"
+          }
+        ]
+      },
+      "editorial": {
+        "pros": [
+          "Größtes Alpha-Modell mit 160 × 210 cm Grundfläche",
+          "14 Flächenstrahler und 6-kW-Ofen laut Produktseite",
+          "Bis zu sechs Personen angegeben"
+        ],
+        "cons": [
+          "Netzspannung und Anschlussart fehlen",
+          "Die Teilwerte von Infrarotstrahlern und Ofen sind keine ausgewiesene Gesamtanschlussleistung",
+          "Die lange Tiefe verlangt einen passenden Transport- und Aufstellweg"
+        ],
+        "ideal_for": [
+          "Gruppennutzung bis sechs Personen",
+          "Innenräume mit ausreichend langer Stellfläche",
+          "Planungen, die Infrarot und klassischen Ofen kombinieren möchten"
+        ],
+        "not_for": [
+          "Kleine Räume",
+          "Elektroplanung ohne Fachbetrieb und Herstellerabstimmung"
+        ],
+        "test_status": "not_tested",
+        "editorial_score": null,
+        "disclosure": "Technische Einordnung auf Basis der Wellness-Point-Produktseite; keine eigene Nutzung oder Montage."
+      },
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Wellness-Point eigene technische Produktseite Infrarotsauna Alpha III",
+          "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_iii.html",
+          "checked_at": "2026-09-02"
+        }
+      ],
       "updated_at": "2026-09-02"
     }
-  ]
+  ],
+  "sol_review": "data/awin-wellness-point-sol-review-17.json"
 }

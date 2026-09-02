@@ -3,23 +3,23 @@
   "policy_updated_at": "2026-08-30",
   "generated_from_products_updated_at": "2026-09-02",
   "summary": {
-    "total_verified_products": 470,
-    "index": 250,
+    "total_verified_products": 487,
+    "index": 267,
     "noindex": 220,
     "categories": {
       "indoor": {
-        "total": 225,
-        "index": 83,
+        "total": 235,
+        "index": 93,
         "noindex": 142
       },
       "infrared": {
-        "total": 72,
-        "index": 59,
+        "total": 78,
+        "index": 65,
         "noindex": 13
       },
       "outdoor": {
-        "total": 153,
-        "index": 88,
+        "total": 154,
+        "index": 89,
         "noindex": 65
       },
       "tent": {
@@ -358,7 +358,7 @@
         "current_offer_count": 1,
         "published_source_count": 2,
         "editorial_point_count": 13,
-        "unique_editorial_point_count": 13,
+        "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -987,7 +987,7 @@
         "current_offer_count": 1,
         "published_source_count": 1,
         "editorial_point_count": 12,
-        "unique_editorial_point_count": 9,
+        "unique_editorial_point_count": 8,
         "frequent_editorial_point_count": 1,
         "frequent_editorial_share": 0.0833
       },
@@ -1451,7 +1451,7 @@
         "current_offer_count": 1,
         "published_source_count": 1,
         "editorial_point_count": 12,
-        "unique_editorial_point_count": 9,
+        "unique_editorial_point_count": 8,
         "frequent_editorial_point_count": 1,
         "frequent_editorial_share": 0.0833
       },
@@ -1595,7 +1595,7 @@
         "current_offer_count": 1,
         "published_source_count": 1,
         "editorial_point_count": 12,
-        "unique_editorial_point_count": 10,
+        "unique_editorial_point_count": 9,
         "frequent_editorial_point_count": 2,
         "frequent_editorial_share": 0.1667
       },
@@ -1691,7 +1691,7 @@
         "current_offer_count": 1,
         "published_source_count": 1,
         "editorial_point_count": 12,
-        "unique_editorial_point_count": 7,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 2,
         "frequent_editorial_share": 0.1667
       },
@@ -7715,6 +7715,278 @@
         "published_source_count": 1,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 4,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-alaska-infrarot-90",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 16,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-arizona-infrarot-145",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 16,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-california-infrarot-145",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 17,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-colorado-infrarot-100",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 16,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-florida-infrarot-145",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 16,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-kansas-infrarot-100",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 16,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-virginia-infrarot-100",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 16,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-finnische-sauna-alaska-i",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 15,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-finnische-sauna-alaska-ii",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 15,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-finnische-sauna-alaska-iii",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 15,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-goteborg",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 14,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-helsinki-beta",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 16,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-oslo-alpha",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 15,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-stockholm-alpha",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 13,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotsauna-alpha-i",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 16,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotsauna-alpha-ii",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 15,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotsauna-alpha-iii",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 14,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
