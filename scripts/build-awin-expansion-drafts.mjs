@@ -1,6 +1,17 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const input = JSON.parse(await readFile(new URL("../data/awin-expansion-import-26.json", import.meta.url), "utf8"));
+const review = JSON.parse(await readFile(new URL("../data/awin-expansion-sol-review-26.json", import.meta.url), "utf8"));
+const reviewByCandidate = new Map(review.decisions.map((decision) => [decision.candidate_id, decision]));
+
+function slugify(value) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase("de")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
 
 function displayDimensions(dimensions) {
   return `${dimensions.width} × ${dimensions.depth} × ${dimensions.height} cm`;
@@ -14,17 +25,37 @@ function heaterType(entry) {
   return "Elektroofen";
 }
 
-function powerPlugType(entry) {
-  if (entry.power.voltage === 230 && entry.model.includes("Lewisburg")) return "Händlerangabe 220 V; Anschluss vor Ort prüfen";
-  return null;
-}
-
 function offerConfiguration(entry) {
   if (entry.promotion_blocker) return "Konfigurationsabhängige Variante; vor Veröffentlichung festlegen";
-  if (entry.power.notes.includes("Mit oder ohne") || entry.power.notes.includes("Elektro- oder Holzofen")) {
-    return "Ofenvariante gemäß Händlerseite auswählen";
-  }
+  if (entry.power.notes.includes("Feedpreis entspricht der Ausführung ohne") || entry.power.notes.includes("Feedvariante wird ohne")) return "ohne Saunaofen";
+  if (entry.model === "Alaska Corner") return "mit 8-kW-Ofen";
   return undefined;
+}
+
+function sourceList(entry) {
+  const manufacturerUrl = entry.manufacturer_source_url
+    ?? (entry.advertiser === "GartenHausfabrik" && entry.brand === "Fjordholz" ? entry.source_url : null);
+  const sources = [];
+
+  if (manufacturerUrl) {
+    sources.push({
+      type: "manufacturer",
+      title: `${entry.brand} Herstellerseite ${entry.model}`,
+      url: manufacturerUrl,
+      checked_at: input.created_at,
+    });
+  }
+
+  if (manufacturerUrl !== entry.source_url) {
+    sources.push({
+      type: "merchant",
+      title: `${entry.advertiser} Produktseite ${entry.model}`,
+      url: entry.source_url,
+      checked_at: input.created_at,
+    });
+  }
+
+  return sources;
 }
 
 function buildDraft(entry) {
@@ -42,10 +73,16 @@ function buildDraft(entry) {
     last_checked: input.created_at,
   };
   const configuration = offerConfiguration(entry);
-  if (configuration) offer.configuration = configuration;
+  if (configuration) {
+    offer.configuration = configuration;
+    offer.selection_required = true;
+  }
+
+  const decision = reviewByCandidate.get(entry.candidate_id);
+  if (!decision) throw new Error(`No Sol review decision for ${entry.candidate_id}`);
 
   return {
-    product_id: entry.candidate_id,
+    product_id: slugify(`${entry.brand}-${entry.model}`),
     brand: entry.brand,
     model: entry.model,
     family: null,
@@ -56,7 +93,7 @@ function buildDraft(entry) {
     power: {
       voltage: entry.power.voltage,
       kw: entry.power.kw,
-      plug_type: powerPlugType(entry),
+      plug_type: null,
       electrician_required: entry.power.electrician_required,
       notes: entry.power.notes,
     },
@@ -96,17 +133,14 @@ function buildDraft(entry) {
       editorial_score: null,
       disclosure: "Technische Einordnung auf Basis der verlinkten Händlerangaben; keine eigene Nutzung oder Montage.",
     },
-    sources: [
-      {
-        type: "merchant",
-        title: `${entry.advertiser} Produktseite ${entry.model}`,
-        url: entry.source_url,
-        checked_at: input.created_at,
-      },
-    ],
+    sources: sourceList(entry),
     updated_at: input.created_at,
   };
 }
+
+const products = input.entries.map(buildDraft);
+const productIds = products.map((product) => product.product_id);
+if (new Set(productIds).size !== productIds.length) throw new Error("Generated product IDs are not unique");
 
 const output = {
   schema_version: 1,
@@ -114,11 +148,13 @@ const output = {
   generated_at: input.created_at,
   publication_status: "internal-draft",
   source_manifest: "data/awin-expansion-import-26.json",
-  note: "Vollständige Produktschema-Entwürfe. Sie werden erst nach Hersteller- oder Handbuchquelle und Sol-Abnahme in products.json veröffentlicht.",
+  note: "Vollständige Produktschema-Entwürfe nach Sol-Datenabnahme. Veröffentlichung erst nach individueller Redaktion und authentifiziertem Awin-Sync.",
+  review_manifest: "data/awin-expansion-sol-review-26.json",
+  review_summary: review.summary,
   blocked_candidates: input.entries
     .filter((entry) => entry.promotion_blocker)
     .map((entry) => ({ candidate_id: entry.candidate_id, reason: entry.promotion_blocker })),
-  products: input.entries.map(buildDraft),
+  products,
 };
 
 await writeFile(

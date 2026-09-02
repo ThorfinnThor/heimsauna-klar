@@ -4,16 +4,40 @@
   "generated_at": "2026-09-02",
   "publication_status": "internal-draft",
   "source_manifest": "data/awin-expansion-import-26.json",
-  "note": "Vollständige Produktschema-Entwürfe. Sie werden erst nach Hersteller- oder Handbuchquelle und Sol-Abnahme in products.json veröffentlicht.",
+  "note": "Vollständige Produktschema-Entwürfe nach Sol-Datenabnahme. Veröffentlichung erst nach individueller Redaktion und authentifiziertem Awin-Sync.",
+  "review_manifest": "data/awin-expansion-sol-review-26.json",
+  "review_summary": {
+    "candidates": 26,
+    "data_verified": 21,
+    "hold": 5,
+    "manufacturer_or_own_brand_sources": 23,
+    "public_catalog_change": 0
+  },
   "blocked_candidates": [
     {
       "candidate_id": "awin-gartenhausfabrik-07",
       "reason": "Variantenspezifische Außenmaße unterscheiden sich nach Ofenwahl."
+    },
+    {
+      "candidate_id": "awin-saunaloft-05",
+      "reason": "EU-Händlervariante und US-Herstellervariante stimmen bei Anschluss und Außenmaßen nicht eindeutig überein."
+    },
+    {
+      "candidate_id": "awin-saunaloft-06",
+      "reason": "Die Awin-Feedzeile ist noch keiner der beiden Ofenvarianten eindeutig zugeordnet."
+    },
+    {
+      "candidate_id": "awin-saunaloft-12",
+      "reason": "Eine unabhängige Hersteller- oder Handbuchquelle für das Modell fehlt noch."
+    },
+    {
+      "candidate_id": "awin-saunaloft-13",
+      "reason": "Eine unabhängige Hersteller- oder Handbuchquelle für das Modell fehlt noch."
     }
   ],
   "products": [
     {
-      "product_id": "awin-gartenhausfabrik-05",
+      "product_id": "fjordholz-design-saunahaus-siiri-premium",
       "brand": "Fjordholz",
       "model": "Design Saunahaus Siiri Premium",
       "family": null,
@@ -84,8 +108,8 @@
       },
       "sources": [
         {
-          "type": "merchant",
-          "title": "GartenHausfabrik Produktseite Design Saunahaus Siiri Premium",
+          "type": "manufacturer",
+          "title": "Fjordholz Herstellerseite Design Saunahaus Siiri Premium",
           "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Siiri",
           "checked_at": "2026-09-02"
         }
@@ -93,7 +117,7 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-gartenhausfabrik-06",
+      "product_id": "fjordholz-design-saunahaus-paradiso-black-e",
       "brand": "Fjordholz",
       "model": "Design-Saunahaus Paradiso Black E",
       "family": null,
@@ -164,8 +188,8 @@
       },
       "sources": [
         {
-          "type": "merchant",
-          "title": "GartenHausfabrik Produktseite Design-Saunahaus Paradiso Black E",
+          "type": "manufacturer",
+          "title": "Fjordholz Herstellerseite Design-Saunahaus Paradiso Black E",
           "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Paradiso-Black-Edition",
           "checked_at": "2026-09-02"
         }
@@ -173,7 +197,7 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-gartenhausfabrik-07",
+      "product_id": "fjordholz-fass-sauna-jonte",
       "brand": "Fjordholz",
       "model": "Fass-Sauna Jonte",
       "family": null,
@@ -216,7 +240,8 @@
             "url": "https://gartenhausfabrik.de/Fass-Sauna-Jonte",
             "affiliate": false,
             "last_checked": "2026-09-02",
-            "configuration": "Konfigurationsabhängige Variante; vor Veröffentlichung festlegen"
+            "configuration": "Konfigurationsabhängige Variante; vor Veröffentlichung festlegen",
+            "selection_required": true
           }
         ]
       },
@@ -245,8 +270,8 @@
       },
       "sources": [
         {
-          "type": "merchant",
-          "title": "GartenHausfabrik Produktseite Fass-Sauna Jonte",
+          "type": "manufacturer",
+          "title": "Fjordholz Herstellerseite Fass-Sauna Jonte",
           "url": "https://gartenhausfabrik.de/Fass-Sauna-Jonte",
           "checked_at": "2026-09-02"
         }
@@ -254,7 +279,7 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-gartenhausfabrik-11",
+      "product_id": "fjordholz-fass-sauna-ando",
       "brand": "Fjordholz",
       "model": "Fass-Sauna Ando",
       "family": null,
@@ -325,8 +350,8 @@
       },
       "sources": [
         {
-          "type": "merchant",
-          "title": "GartenHausfabrik Produktseite Fass-Sauna Ando",
+          "type": "manufacturer",
+          "title": "Fjordholz Herstellerseite Fass-Sauna Ando",
           "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Ando",
           "checked_at": "2026-09-02"
         }
@@ -334,7 +359,7 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-gartenhausfabrik-13",
+      "product_id": "fjordholz-fass-sauna-bus-130-standard",
       "brand": "Fjordholz",
       "model": "Fass-Sauna Bus 130 Standard",
       "family": null,
@@ -405,8 +430,8 @@
       },
       "sources": [
         {
-          "type": "merchant",
-          "title": "GartenHausfabrik Produktseite Fass-Sauna Bus 130 Standard",
+          "type": "manufacturer",
+          "title": "Fjordholz Herstellerseite Fass-Sauna Bus 130 Standard",
           "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-130-Standard",
           "checked_at": "2026-09-02"
         }
@@ -414,7 +439,7 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-gartenhausfabrik-14",
+      "product_id": "fjordholz-fass-sauna-bus-160-standard",
       "brand": "Fjordholz",
       "model": "Fass-Sauna Bus 160 Standard",
       "family": null,
@@ -485,8 +510,8 @@
       },
       "sources": [
         {
-          "type": "merchant",
-          "title": "GartenHausfabrik Produktseite Fass-Sauna Bus 160 Standard",
+          "type": "manufacturer",
+          "title": "Fjordholz Herstellerseite Fass-Sauna Bus 160 Standard",
           "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-160-Standard",
           "checked_at": "2026-09-02"
         }
@@ -494,7 +519,7 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-gartenhausfabrik-19",
+      "product_id": "fjordholz-fass-sauna-icon-200-s-fichte",
       "brand": "Fjordholz",
       "model": "Fass-Sauna Icon 200 S Fichte",
       "family": null,
@@ -565,8 +590,8 @@
       },
       "sources": [
         {
-          "type": "merchant",
-          "title": "GartenHausfabrik Produktseite Fass-Sauna Icon 200 S Fichte",
+          "type": "manufacturer",
+          "title": "Fjordholz Herstellerseite Fass-Sauna Icon 200 S Fichte",
           "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-200-S-Fichte",
           "checked_at": "2026-09-02"
         }
@@ -574,7 +599,7 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-gartenhausfabrik-20",
+      "product_id": "fjordholz-fass-sauna-icon-220-thermo",
       "brand": "Fjordholz",
       "model": "Fass-Sauna Icon 220 Thermo",
       "family": null,
@@ -645,8 +670,8 @@
       },
       "sources": [
         {
-          "type": "merchant",
-          "title": "GartenHausfabrik Produktseite Fass-Sauna Icon 220 Thermo",
+          "type": "manufacturer",
+          "title": "Fjordholz Herstellerseite Fass-Sauna Icon 220 Thermo",
           "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-220-Thermo",
           "checked_at": "2026-09-02"
         }
@@ -654,7 +679,7 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-gartenhausfabrik-21",
+      "product_id": "fjordholz-fass-sauna-icon-385-thermo",
       "brand": "Fjordholz",
       "model": "Fass-Sauna Icon 385 Thermo",
       "family": null,
@@ -725,8 +750,8 @@
       },
       "sources": [
         {
-          "type": "merchant",
-          "title": "GartenHausfabrik Produktseite Fass-Sauna Icon 385 Thermo",
+          "type": "manufacturer",
+          "title": "Fjordholz Herstellerseite Fass-Sauna Icon 385 Thermo",
           "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-385-Thermo",
           "checked_at": "2026-09-02"
         }
@@ -734,7 +759,7 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-gartenhausfabrik-22",
+      "product_id": "fjordholz-fass-sauna-lauri",
       "brand": "Fjordholz",
       "model": "Fass-Sauna Lauri",
       "family": null,
@@ -805,8 +830,8 @@
       },
       "sources": [
         {
-          "type": "merchant",
-          "title": "GartenHausfabrik Produktseite Fass-Sauna Lauri",
+          "type": "manufacturer",
+          "title": "Fjordholz Herstellerseite Fass-Sauna Lauri",
           "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Lauri",
           "checked_at": "2026-09-02"
         }
@@ -814,9 +839,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-01",
-      "brand": "Saunaloft",
-      "model": "Fasssauna Fjora quadratisch",
+      "product_id": "artsauna-fasssauna-fjora-l",
+      "brand": "Artsauna",
+      "model": "Fasssauna Fjora L",
       "family": null,
       "category": "outdoor",
       "status": "draft",
@@ -832,11 +857,11 @@
         "lying_places": 2
       },
       "power": {
-        "voltage": "none",
+        "voltage": 400,
         "kw": 9,
         "plug_type": null,
         "electrician_required": true,
-        "notes": "9-kW-Elektroofen inklusive; Quelle verlangt Starkstrom, die konkrete Netzspannung ist vor Ort zu prüfen."
+        "notes": "9-kW-Elektroofen inklusive; der elektrische Anschluss muss durch eine Elektrofachkraft erfolgen."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -885,8 +910,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "Artsauna Herstellerseite Fasssauna Fjora L",
+          "url": "https://artsauna.de/products/fasssauna-quadratisch-fjora",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Fasssauna Fjora quadratisch",
+          "title": "Saunaloft Produktseite Fasssauna Fjora L",
           "url": "https://shop-saunaloft.de/fasssauna-fjora-quadratisch",
           "checked_at": "2026-09-02"
         }
@@ -894,9 +925,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-05",
-      "brand": "Saunaloft",
-      "model": "Fasssauna Lewisburg",
+      "product_id": "almost-heaven-saunas-lewisburg-barrel-sauna",
+      "brand": "Almost Heaven Saunas",
+      "model": "Lewisburg Barrel Sauna",
       "family": null,
       "category": "outdoor",
       "status": "draft",
@@ -912,11 +943,11 @@
         "lying_places": 0
       },
       "power": {
-        "voltage": 230,
+        "voltage": "none",
         "kw": 8,
-        "plug_type": "Händlerangabe 220 V; Anschluss vor Ort prüfen",
+        "plug_type": null,
         "electrician_required": true,
-        "notes": "Quelle nennt 8-kW-Elektroheizung und 220 V; im Katalog als nominale 230-V-Klasse mit Prüfhinweis geführt."
+        "notes": "Händler- und Herstellerseite beschreiben unterschiedliche Marktvarianten. Spannung und exakte Außenmaße sind vor einer Veröffentlichung eindeutig zuzuordnen."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -936,7 +967,9 @@
             "availability": "feed-listed",
             "url": "https://shop-saunaloft.de/fasssauna-lewisburg-aus-zedernholz-/-213-x-241-x-226/1-051-604.1",
             "affiliate": false,
-            "last_checked": "2026-09-02"
+            "last_checked": "2026-09-02",
+            "configuration": "Konfigurationsabhängige Variante; vor Veröffentlichung festlegen",
+            "selection_required": true
           }
         ]
       },
@@ -965,8 +998,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "Almost Heaven Saunas Herstellerseite Lewisburg Barrel Sauna",
+          "url": "https://almostheaven.com/products/lewisburg-6-8-person-barrel-sauna",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Fasssauna Lewisburg",
+          "title": "Saunaloft Produktseite Lewisburg Barrel Sauna",
           "url": "https://shop-saunaloft.de/fasssauna-lewisburg-aus-zedernholz-/-213-x-241-x-226/1-051-604.1",
           "checked_at": "2026-09-02"
         }
@@ -974,9 +1013,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-06",
-      "brand": "Saunaloft",
-      "model": "Fasssauna Panoramafenster",
+      "product_id": "sun-spa-fasssauna-mit-panoramafenster",
+      "brand": "Sun-Spa",
+      "model": "Fasssauna mit Panoramafenster",
       "family": null,
       "category": "outdoor",
       "status": "draft",
@@ -995,8 +1034,8 @@
         "voltage": "none",
         "kw": null,
         "plug_type": null,
-        "electrician_required": false,
-        "notes": "Händlerseite: Saunaofen nicht im Lieferumfang enthalten."
+        "electrician_required": true,
+        "notes": "Die Händlerseite bietet eine Variante ohne Ofen und eine Variante mit 6-kW-Harvia-Ofen. Die konkrete Feedvariante ist vor Veröffentlichung festzulegen."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1016,7 +1055,9 @@
             "availability": "feed-listed",
             "url": "https://shop-saunaloft.de/fasssauna-mit-panoramafenster-aus-zedernholz/-229-x-185-cm/7686.1",
             "affiliate": false,
-            "last_checked": "2026-09-02"
+            "last_checked": "2026-09-02",
+            "configuration": "Konfigurationsabhängige Variante; vor Veröffentlichung festlegen",
+            "selection_required": true
           }
         ]
       },
@@ -1046,7 +1087,7 @@
       "sources": [
         {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Fasssauna Panoramafenster",
+          "title": "Saunaloft Produktseite Fasssauna mit Panoramafenster",
           "url": "https://shop-saunaloft.de/fasssauna-mit-panoramafenster-aus-zedernholz/-229-x-185-cm/7686.1",
           "checked_at": "2026-09-02"
         }
@@ -1054,8 +1095,8 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-12",
-      "brand": "Saunaloft",
+      "product_id": "sun-spa-fasssauna-traditionell-tr-170",
+      "brand": "Sun-Spa",
       "model": "Fasssauna Traditionell TR-170",
       "family": null,
       "category": "outdoor",
@@ -1076,7 +1117,7 @@
         "kw": null,
         "plug_type": null,
         "electrician_required": false,
-        "notes": "Händlerseite: ohne Ofen."
+        "notes": "Die geprüfte Händlerseite führt diese Variante ohne Saunaofen."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1096,7 +1137,9 @@
             "availability": "feed-listed",
             "url": "https://shop-saunaloft.de/fasssauna-traditionell-tr-170-fuer-4-personen",
             "affiliate": false,
-            "last_checked": "2026-09-02"
+            "last_checked": "2026-09-02",
+            "configuration": "Konfigurationsabhängige Variante; vor Veröffentlichung festlegen",
+            "selection_required": true
           }
         ]
       },
@@ -1134,8 +1177,8 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-13",
-      "brand": "Saunaloft",
+      "product_id": "sun-spa-fasssauna-traditionell-tr-210",
+      "brand": "Sun-Spa",
       "model": "Fasssauna Traditionell TR-210",
       "family": null,
       "category": "outdoor",
@@ -1156,7 +1199,7 @@
         "kw": null,
         "plug_type": null,
         "electrician_required": false,
-        "notes": "Händlerseite: ohne Ofen."
+        "notes": "Die geprüfte Händlerseite führt diese Variante ohne Saunaofen."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1176,7 +1219,9 @@
             "availability": "feed-listed",
             "url": "https://shop-saunaloft.de/fasssauna-traditionell-tr-210-aus-zedernholz",
             "affiliate": false,
-            "last_checked": "2026-09-02"
+            "last_checked": "2026-09-02",
+            "configuration": "Konfigurationsabhängige Variante; vor Veröffentlichung festlegen",
+            "selection_required": true
           }
         ]
       },
@@ -1214,9 +1259,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-14",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna AWT E1805",
+      "product_id": "awt-e1805",
+      "brand": "AWT",
+      "model": "E1805",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -1235,8 +1280,8 @@
         "voltage": "none",
         "kw": null,
         "plug_type": null,
-        "electrician_required": true,
-        "notes": "Mit oder ohne 8-kW-Harvia-Ofen erhältlich; Spannung und konkrete Konfiguration vor Kauf festlegen."
+        "electrician_required": false,
+        "notes": "Der Feedpreis entspricht der Ausführung ohne Saunaofen. Ofen, Leistung und Elektroanschluss werden separat gewählt."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1257,7 +1302,8 @@
             "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1805-aus-pinienholz-/-180-x-180-cm/14879",
             "affiliate": false,
             "last_checked": "2026-09-02",
-            "configuration": "Ofenvariante gemäß Händlerseite auswählen"
+            "configuration": "ohne Saunaofen",
+            "selection_required": true
           }
         ]
       },
@@ -1286,8 +1332,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "AWT Herstellerseite E1805",
+          "url": "https://www.eago.de/sauna-kaufen/e1805-pinienholz-180x180-ohne-ofen",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna AWT E1805",
+          "title": "Saunaloft Produktseite E1805",
           "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1805-aus-pinienholz-/-180-x-180-cm/14879",
           "checked_at": "2026-09-02"
         }
@@ -1295,9 +1347,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-15",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna Alaska Corner 206",
+      "product_id": "sentiotec-alaska-corner",
+      "brand": "Sentiotec",
+      "model": "Alaska Corner",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -1307,22 +1359,22 @@
         "height": 204
       },
       "people": {
-        "min": 1,
+        "min": 4,
         "max": 5,
         "seats": 5,
         "lying_places": 0
       },
       "power": {
         "voltage": "none",
-        "kw": null,
+        "kw": 8,
         "plug_type": null,
         "electrician_required": true,
-        "notes": "Quelle beschreibt Lieferung ohne Ofen und empfiehlt 7,5–9 kW; Elektro- oder Holzofen wird separat gewählt."
+        "notes": "Das Händlerangebot ist mit 8-kW-Ofen bezeichnet; die Herstellerseite empfiehlt 7,5 bis 9 kW. Die Anschlussbedingungen müssen eine Elektrofachkraft prüfen."
       },
       "sauna": {
         "type": "Finnische Sauna",
         "indoor_outdoor": "indoor",
-        "heater_type": "Holzofen oder Elektroofen",
+        "heater_type": "Elektroofen",
         "max_temp_c": null,
         "heat_up_time_min": null,
         "wood_type": "Fichte und Linde"
@@ -1338,23 +1390,24 @@
             "url": "https://shop-saunaloft.de/finnische-sauna-alaska-corner-206-aus-fichte-mit-8-kw-ofen-/-206-x-206-x-204/1-030-269.1",
             "affiliate": false,
             "last_checked": "2026-09-02",
-            "configuration": "Ofenvariante gemäß Händlerseite auswählen"
+            "configuration": "mit 8-kW-Ofen",
+            "selection_required": true
           }
         ]
       },
       "editorial": {
         "pros": [
           "206 × 206 × 204 cm Außenmaß laut Händlerseite",
-          "1 bis 5 Personen Kapazität laut Händlerangabe",
-          "Drei komfortable Saunabänke"
+          "4 bis 5 Personen Kapazität laut Händlerangabe",
+          "Drei Saunabänke aus Linde"
         ],
         "cons": [
-          "Ein Saunaofen ist nicht fest ausgewiesen.",
+          "Anschluss und Ofenvariante müssen vor dem Kauf geprüft werden.",
           "Keine eigene Nutzung oder Montage geprüft."
         ],
         "ideal_for": [
           "Innenräume mit passender Raumhöhe und Lüftung",
-          "1 bis 5 Personen",
+          "4 bis 5 Personen",
           "Interessierte an Fichte und Linde-Ausführung"
         ],
         "not_for": [
@@ -1367,8 +1420,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "Sentiotec Herstellerseite Alaska Corner",
+          "url": "https://www.sentiotec.com/de/kategorien/sentiotec-sauna/kabinen/alaska_corner",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna Alaska Corner 206",
+          "title": "Saunaloft Produktseite Alaska Corner",
           "url": "https://shop-saunaloft.de/finnische-sauna-alaska-corner-206-aus-fichte-mit-8-kw-ofen-/-206-x-206-x-204/1-030-269.1",
           "checked_at": "2026-09-02"
         }
@@ -1376,9 +1435,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-16",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna AWT E1801B",
+      "product_id": "awt-e1801b",
+      "brand": "AWT",
+      "model": "E1801B",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -1398,7 +1457,7 @@
         "kw": null,
         "plug_type": null,
         "electrician_required": false,
-        "notes": "Händlerseite: ohne Saunaofen; passender Ofen kann separat gebucht werden."
+        "notes": "Die geprüfte Feedvariante wird ohne Saunaofen angeboten. Ofen und Elektroanschluss werden separat geplant."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1418,7 +1477,9 @@
             "availability": "feed-listed",
             "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1801b-aus-pinienholz-/-160-x-160/14877",
             "affiliate": false,
-            "last_checked": "2026-09-02"
+            "last_checked": "2026-09-02",
+            "configuration": "ohne Saunaofen",
+            "selection_required": true
           }
         ]
       },
@@ -1426,7 +1487,7 @@
         "pros": [
           "160 × 160 × 210 cm Außenmaß laut Händlerseite",
           "1 bis 2 Personen Kapazität laut Händlerangabe",
-          "Saunabank ist im Lieferumfang genannt"
+          "Saunabänke sind im Lieferumfang genannt"
         ],
         "cons": [
           "Ein Saunaofen ist nicht fest ausgewiesen.",
@@ -1447,8 +1508,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "AWT Herstellerseite E1801B",
+          "url": "https://www.eago.de/sauna-kaufen/e1801b-pinienholz-160x160-ohne-ofen",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna AWT E1801B",
+          "title": "Saunaloft Produktseite E1801B",
           "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1801b-aus-pinienholz-/-160-x-160/14877",
           "checked_at": "2026-09-02"
         }
@@ -1456,9 +1523,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-17",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna AWT E1802",
+      "product_id": "awt-e1802",
+      "brand": "AWT",
+      "model": "E1802",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -1477,8 +1544,8 @@
         "voltage": "none",
         "kw": null,
         "plug_type": null,
-        "electrician_required": true,
-        "notes": "Mit oder ohne 8-kW-Harvia-Ofen erhältlich; konkrete Spannung und Konfiguration vor Kauf festlegen."
+        "electrician_required": false,
+        "notes": "Der Feedpreis entspricht der Ausführung ohne Saunaofen. Ofen, Leistung und Elektroanschluss werden separat gewählt."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1499,7 +1566,8 @@
             "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1802-aus-pinienholz-/-180-x-180/14878",
             "affiliate": false,
             "last_checked": "2026-09-02",
-            "configuration": "Ofenvariante gemäß Händlerseite auswählen"
+            "configuration": "ohne Saunaofen",
+            "selection_required": true
           }
         ]
       },
@@ -1528,8 +1596,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "AWT Herstellerseite E1802",
+          "url": "https://www.eago.de/sauna-kaufen/e1802-pinienholz-180x180-ohne-ofen",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna AWT E1802",
+          "title": "Saunaloft Produktseite E1802",
           "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1802-aus-pinienholz-/-180-x-180/14878",
           "checked_at": "2026-09-02"
         }
@@ -1537,9 +1611,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-18",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna AWT E1803B",
+      "product_id": "awt-e1803b",
+      "brand": "AWT",
+      "model": "E1803B",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -1559,12 +1633,12 @@
         "kw": null,
         "plug_type": null,
         "electrician_required": false,
-        "notes": "Händlerseite: Saunaofen nicht enthalten."
+        "notes": "Die geprüfte Feedvariante wird ohne Saunaofen angeboten. Ofen und Elektroanschluss werden separat geplant."
       },
       "sauna": {
         "type": "Finnische Sauna",
         "indoor_outdoor": "indoor",
-        "heater_type": "Ofen optional",
+        "heater_type": "Elektroofen optional",
         "max_temp_c": null,
         "heat_up_time_min": null,
         "wood_type": "Pinienholz"
@@ -1579,7 +1653,9 @@
             "availability": "feed-listed",
             "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1803b-aus-pinienholz-/-150-x-120/14881.2",
             "affiliate": false,
-            "last_checked": "2026-09-02"
+            "last_checked": "2026-09-02",
+            "configuration": "ohne Saunaofen",
+            "selection_required": true
           }
         ]
       },
@@ -1608,8 +1684,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "AWT Herstellerseite E1803B",
+          "url": "https://www.eago.de/sauna-kaufen/e1803b-pinienholz-150x120-ohne-ofen",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna AWT E1803B",
+          "title": "Saunaloft Produktseite E1803B",
           "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1803b-aus-pinienholz-/-150-x-120/14881.2",
           "checked_at": "2026-09-02"
         }
@@ -1617,9 +1699,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-19",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna AWT E1804C",
+      "product_id": "awt-e1804c",
+      "brand": "AWT",
+      "model": "E1804C",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -1639,7 +1721,7 @@
         "kw": null,
         "plug_type": null,
         "electrician_required": false,
-        "notes": "Händlerseite: ohne Saunaofen; passender Ofen kann separat gebucht werden."
+        "notes": "Die geprüfte Feedvariante wird ohne Saunaofen angeboten. Ofen und Elektroanschluss werden separat geplant."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1659,7 +1741,9 @@
             "availability": "feed-listed",
             "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1804c-aus-pinienholz-/-120-x-120/14926-1",
             "affiliate": false,
-            "last_checked": "2026-09-02"
+            "last_checked": "2026-09-02",
+            "configuration": "ohne Saunaofen",
+            "selection_required": true
           }
         ]
       },
@@ -1688,8 +1772,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "AWT Herstellerseite E1804C",
+          "url": "https://www.eago.de/sauna-kaufen/e1804c-pinienholz-120x120-ohne-ofen",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna AWT E1804C",
+          "title": "Saunaloft Produktseite E1804C",
           "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1804c-aus-pinienholz-/-120-x-120/14926-1",
           "checked_at": "2026-09-02"
         }
@@ -1697,9 +1787,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-21",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna E1804A",
+      "product_id": "awt-e1804a",
+      "brand": "AWT",
+      "model": "E1804A",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -1719,7 +1809,7 @@
         "kw": null,
         "plug_type": null,
         "electrician_required": false,
-        "notes": "Händlerseite: ohne Saunaofen; passender Harvia-Vega-Ofen kann separat gebucht werden."
+        "notes": "Die geprüfte Feedvariante wird ohne Saunaofen angeboten. Ofen und Elektroanschluss werden separat geplant."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1739,7 +1829,9 @@
             "availability": "feed-listed",
             "url": "https://shop-saunaloft.de/finnische-sauna-e1804a-aus-pinienholz-/-180-x-120-cm/14924",
             "affiliate": false,
-            "last_checked": "2026-09-02"
+            "last_checked": "2026-09-02",
+            "configuration": "ohne Saunaofen",
+            "selection_required": true
           }
         ]
       },
@@ -1768,8 +1860,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "AWT Herstellerseite E1804A",
+          "url": "https://www.eago.de/sauna-kaufen/e1804a-pinienholz-180x120-ohne-ofen",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna E1804A",
+          "title": "Saunaloft Produktseite E1804A",
           "url": "https://shop-saunaloft.de/finnische-sauna-e1804a-aus-pinienholz-/-180-x-120-cm/14924",
           "checked_at": "2026-09-02"
         }
@@ -1777,9 +1875,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-22",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna E1804B",
+      "product_id": "awt-e1804b",
+      "brand": "AWT",
+      "model": "E1804B",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -1799,7 +1897,7 @@
         "kw": null,
         "plug_type": null,
         "electrician_required": false,
-        "notes": "Händlerseite: ohne Saunaofen; passender Harvia-Vega-Ofen kann separat gebucht werden."
+        "notes": "Die geprüfte Feedvariante wird ohne Saunaofen angeboten. Ofen und Elektroanschluss werden separat geplant."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1819,7 +1917,9 @@
             "availability": "feed-listed",
             "url": "https://shop-saunaloft.de/finnische-sauna-e1804b-aus-pinienholz-/-150-x-120-cm/14925",
             "affiliate": false,
-            "last_checked": "2026-09-02"
+            "last_checked": "2026-09-02",
+            "configuration": "ohne Saunaofen",
+            "selection_required": true
           }
         ]
       },
@@ -1848,8 +1948,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "AWT Herstellerseite E1804B",
+          "url": "https://www.eago.de/sauna-kaufen/e1804b-pinienholz-150x120-ohne-ofen",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna E1804B",
+          "title": "Saunaloft Produktseite E1804B",
           "url": "https://shop-saunaloft.de/finnische-sauna-e1804b-aus-pinienholz-/-150-x-120-cm/14925",
           "checked_at": "2026-09-02"
         }
@@ -1857,9 +1963,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-23",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna Espoo 150",
+      "product_id": "artsauna-espoo150-premium",
+      "brand": "Artsauna",
+      "model": "Espoo150 Premium",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -1879,7 +1985,7 @@
         "kw": 6,
         "plug_type": null,
         "electrician_required": true,
-        "notes": "6-kW-Harvia-Ofen, 400 V / 50 Hz laut Händlerseite."
+        "notes": "6-kW-Saunaofen mit 400 V 3N~ laut Herstellerseite; Anschluss nur durch eine zugelassene Elektrofachkraft."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1928,8 +2034,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "Artsauna Herstellerseite Espoo150 Premium",
+          "url": "https://artsauna.de/products/indoor-sauna-espoo-150-premium-6-kw",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna Espoo 150",
+          "title": "Saunaloft Produktseite Espoo150 Premium",
           "url": "https://shop-saunaloft.de/finnische-sauna-espoo-150-aus-hemlockholz-/-150-x-150-x-200",
           "checked_at": "2026-09-02"
         }
@@ -1937,9 +2049,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-24",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna MINTO",
+      "product_id": "dewello-minto-150-130",
+      "brand": "Dewello",
+      "model": "MINTO 150 × 130",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -1952,14 +2064,14 @@
         "min": 2,
         "max": 3,
         "seats": 3,
-        "lying_places": 1
+        "lying_places": 2
       },
       "power": {
         "voltage": 400,
         "kw": 4.5,
         "plug_type": null,
         "electrician_required": true,
-        "notes": "4,5-kW-Harvia-Ofen und 380–400-V-Starkstromanschluss laut Händlerseite."
+        "notes": "4,5-kW-Harvia-Ofen und 380–400-V-Starkstromanschluss laut Herstellerseite."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -1987,7 +2099,7 @@
         "pros": [
           "150 × 130 × 190 cm Außenmaß laut Händlerseite",
           "2 bis 3 Personen Kapazität laut Händlerangabe",
-          "Sitzbank und Liegeflächen aus Holz"
+          "Zwei Liegeflächen und eine etwa 140 cm breite Bank"
         ],
         "cons": [
           "Anschluss und Ofenvariante müssen vor dem Kauf geprüft werden.",
@@ -2008,8 +2120,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "Dewello Herstellerseite MINTO 150 × 130",
+          "url": "https://www.dewello.de/products/finnische-sauna-minto-150x130",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna MINTO",
+          "title": "Saunaloft Produktseite MINTO 150 × 130",
           "url": "https://shop-saunaloft.de/finnische-sauna-minto/-150cm-x-130cm",
           "checked_at": "2026-09-02"
         }
@@ -2017,9 +2135,9 @@
       "updated_at": "2026-09-02"
     },
     {
-      "product_id": "awin-saunaloft-25",
-      "brand": "Saunaloft",
-      "model": "Finnische Sauna Riga",
+      "product_id": "sanotechnik-riga",
+      "brand": "Sanotechnik",
+      "model": "Riga",
       "family": null,
       "category": "indoor",
       "status": "draft",
@@ -2039,7 +2157,7 @@
         "kw": 4.5,
         "plug_type": null,
         "electrician_required": true,
-        "notes": "4,5-kW-Harvia-Ofen; Quelle nennt 220–240 V oder 380 V, daher vor Ort passende Anschlussvariante prüfen."
+        "notes": "4,5-kW-Harvia-Ofen; die Herstellerseite nennt 220–240 V oder 380 V, daher muss die konkrete Anschlussvariante vor Ort geprüft werden."
       },
       "sauna": {
         "type": "Finnische Sauna",
@@ -2088,8 +2206,14 @@
       },
       "sources": [
         {
+          "type": "manufacturer",
+          "title": "Sanotechnik Herstellerseite Riga",
+          "url": "https://www.sanotechnik.com/de/riga-sauna-3-pers-150x120x190-cm-9002827047658.html",
+          "checked_at": "2026-09-02"
+        },
+        {
           "type": "merchant",
-          "title": "Saunaloft Produktseite Finnische Sauna Riga",
+          "title": "Saunaloft Produktseite Riga",
           "url": "https://shop-saunaloft.de/finnische-sauna-riga-mit-ofen-150x120-cm",
           "checked_at": "2026-09-02"
         }
