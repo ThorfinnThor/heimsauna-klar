@@ -9,6 +9,10 @@ on:
         default: "gartenhausfabrik"
         type: choice
         options:
+          - artsauna
+          - home-deluxe
+          - benz24
+          - intergard
           - saunaloft
           - gartenhausfabrik
       limit:
