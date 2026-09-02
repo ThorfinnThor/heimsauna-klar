@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-29",
-  "target_new_pages": 70,
+  "updated_at": "2026-09-02",
+  "target_new_pages": 71,
   "publication_policy": "Kein Eintrag wird allein aus dem Seitentitel erzeugt. Vergleiche benötigen eine eigenständige Entscheidungsfrage und mindestens sieben passende verifizierte Produktdatensätze. Ratgeber benötigen vor der Veröffentlichung mindestens zwei fachlich geeignete Quellen.",
   "collections": [
     {
@@ -419,6 +419,17 @@
       "narrative_angle": "Strahler, Personenangabe und Maße werden modellbezogen verglichen.",
       "filter": { "brands": ["Artsauna"] },
       "evidence_basis": "Hersteller- und AWIN-Feed-Daten mit exakter Modellzuordnung",
+      "status": "published"
+    },
+    {
+      "id": "brand-wellness-point",
+      "section": "vergleiche",
+      "slug": "wellness-point-sauna",
+      "working_title": "Wellness Point Saunen vergleichen",
+      "search_intent": "Welche Wellness Point Saunen, Infrarotkabinen und Dampfduschen sind dokumentiert und welche Anschlüsse benötigen die Produktgruppen?",
+      "narrative_angle": "Dampfduschen, reine Infrarotkabinen, finnische Ofensaunen und Kombimodelle werden nach ihren unterschiedlichen Planungsanforderungen gegliedert.",
+      "filter": { "brands": ["Wellness-Point"] },
+      "evidence_basis": "Verifizierte Wellness-Point-Produktquellen, korrigierte technische Daten und exakte AWIN-Angebotszuordnung",
       "status": "published"
     },
     {

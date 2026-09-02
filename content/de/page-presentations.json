@@ -362,6 +362,21 @@
         ],
         "points": ["Wärmeprinzip festlegen", "Aufstellort abgrenzen", "Konkrete Variante im Angebot prüfen"]
       }
+    },
+    "brand-wellness-point": {
+      "hero": "split",
+      "results": "cards",
+      "method": "steps",
+      "flow": ["results", "editorial", "method", "insight", "checks"],
+      "insight": {
+        "kicker": "Vom Badanschluss bis zum Saunaofen",
+        "title": "Jede Produktgruppe bringt eine andere Liste offener Fragen mit.",
+        "copy": [
+          "Bei den Dampfduschen bestimmen Wasseranschlüsse, Ablauf, Raumhöhe und der Zugang zu den technischen Komponenten den Einbau. Die kompakten Außenmaße allein reichen für eine belastbare Badplanung nicht aus. Reine Infrarotkabinen werden dagegen vor allem über Sitzplatz, Strahlertechnik, Gesamtleistung und die Eignung des vorgesehenen Stromkreises eingeordnet.",
+          "Für die finnischen Alaska-Modelle und die Alpha-Kombisaunen rücken Ofen, Steuerung und Anschlussplan in den Vordergrund. Wo die ausgewertete Quelle keine eindeutige Spannung nennt, bleibt das Feld offen. So ist auf der Produktseite erkennbar, welche Information beim Händler vor der Bestellung noch bestätigt werden muss."
+        ],
+        "points": ["Produktgruppe bestimmen", "Versorgungswege einzeichnen", "Konfiguration im Angebot bestätigen"]
+      }
     }
   },
   "planning_guides": {

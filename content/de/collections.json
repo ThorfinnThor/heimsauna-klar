@@ -1009,5 +1009,67 @@
     "criteria": ["Markenangabe Artsauna ist verifiziert", "Jede Größe bleibt als eigene Produktvariante erhalten", "Aufstellort, Wärmeart und Anschluss werden nicht aus der Modellreihe abgeleitet"],
     "checks": ["Wärmeart der konkreten Reihe vor dem Größenvergleich festlegen.", "Außenmaß um Tür-, Montage- und Bewegungsfläche ergänzen.", "Bei Outdoor-Modellen Fundament und Wetterschutz mitplanen.", "Ofen- oder Strahlerdaten direkt in der verlinkten Quelle bestätigen."],
     "module_copy": {"method_kicker": "Marke mit technischer Trennung", "method_title": "Die Übersicht nimmt alle verifizierten Artsauna-Modelle auf und hält die Wärmesysteme sichtbar auseinander.", "method_note": "Der jüngste Angebotsstand der Artsauna-Auswahl wurde geprüft am", "results_kicker": "Artsauna nach Produktfläche", "results_title": "{count} Artsauna-Varianten sind im Katalog nachvollziehbar.", "results_intro": "Die Liste beginnt bei kompakten Kabinen und reicht bis zu größeren Außenmodellen. Wärmeart und Anschluss bleiben direkt am Produkt sichtbar.", "checks_kicker": "Reihe, Raum und Technik verbinden", "checks_title": "Vier Angaben führen von der Markenübersicht zum passenden Produkttyp.", "related_kicker": "Wärmeart oder Außenstandort vertiefen", "related_title": "Infrarotkabinen, 400-V-Modelle und kleine Gartensaunen getrennt öffnen."}
+  },
+  {
+    "id": "brand-wellness-point",
+    "section": "vergleiche",
+    "slug": "wellness-point-sauna",
+    "kind": "Sortimentsvergleich",
+    "eyebrow": "Wellness Point · vier Produktgruppen",
+    "title": "Wellness Point Saunen vergleichen",
+    "accent": "vom Duschbad bis zur Ofenkabine.",
+    "description": "Wellness Point Dampfduschen, Infrarotkabinen, Kombisaunen und finnische Saunen nach Wärmeart, Stellfläche, Kapazität, Anschluss und Preis vergleichen.",
+    "intro": "Unter dem Namen Wellness Point stehen sehr unterschiedliche Lösungen für den Innenraum und ein Infrarotmodell für draußen. Eine Dampfdusche mit Strahlern verlangt andere Anschlüsse und Platzreserven als eine finnische Holzkabine. Die Übersicht hält diese Gruppen getrennt und führt jede dokumentierte Variante einzeln auf.",
+    "layout": "technical",
+    "filters": {"brands": ["Wellness-Point"]},
+    "sort": "footprint",
+    "related_ids": ["infrarotkabine", "brand-artsauna", "brand-home-deluxe"],
+    "planning": {
+      "kicker": "Raum und Versorgung gemeinsam prüfen",
+      "intro": "Neben der Stellfläche zählen Wasser und Ablauf bei Dampfduschen sowie Ofen, Lüftung und Elektroplanung bei klassischen Saunen. Die Anforderungen ergeben sich aus der gewählten Produktgruppe.",
+      "guide_ids": ["platzbedarf", "230-v-vs-400-v-sauna"]
+    },
+    "editorial": {
+      "kicker": "Vier Gruppen mit eigenem Planungsprofil",
+      "title": "Der Vergleich beginnt bei der Bauart und endet bei der konkreten Versorgung am Standort.",
+      "paragraphs": [
+        "Alaska, Colorado, Kansas und Virginia sind in dieser Auswahl kompakte Dampfduschen mit Infrarotfunktion. Arizona, California und Florida beanspruchen mit 145 Zentimetern deutlich mehr Breite. Zu den Außenmaßen kommen der Anschluss an Wasser und Abwasser, die Zugänglichkeit der Technik sowie die benötigte Bewegungsfläche vor der Tür.",
+        "Stockholm Alpha, Oslo Alpha und Göteborg sind reine Infrarotkabinen für eine oder zwei Personen. Ihre 230-Volt-Angabe erleichtert die elektrische Vorplanung, beschreibt jedoch weder die Belastbarkeit des vorhandenen Stromkreises noch die zulässige Nutzung von Verlängerungen oder Mehrfachsteckdosen. Dafür bleiben Anleitung und Elektroinstallation maßgeblich.",
+        "Die finnischen Alaska-Kabinen arbeiten mit einem Elektroofen und reichen in den dokumentierten Varianten von 4,5 bis 8 Kilowatt. Bei ihnen ist die Spannung im Katalog bewusst offen, weil die ausgewerteten Angebotsdaten keine eindeutige Zuordnung enthalten. Vor der Bestellung werden deshalb Ofenset, Steuerung und Anschlussplan der angebotenen Variante benötigt.",
+        "Alpha I, II und III verbinden Infrarotstrahler mit einem Saunaofen. Diese Kombimodelle benötigen eine getrennte Betrachtung der beiden Heizsysteme. Eine einzelne Leistungsangabe würde nicht zuverlässig erklären, welche Komponenten gleichzeitig betrieben werden dürfen oder wie die Stromversorgung ausgeführt werden muss."
+      ],
+      "pointsTitle": "Was die Modellgruppen unterscheidet",
+      "points": [
+        "Dampfduschen benötigen Wasser, Ablauf und Wartungszugang",
+        "Reine Infrarotkabinen werden über Strahler, Sitzplatz und Kabinenmaß verglichen",
+        "Finnische Saunen brauchen ein eindeutig zugeordnetes Ofenset mit Anschlussplan",
+        "Kombisaunen führen Infrarot und Saunaofen als getrennte technische Systeme"
+      ],
+      "callout": "Ein gemeinsamer Markenname ersetzt keine gemeinsame technische Vergleichsbasis."
+    },
+    "criteria": [
+      "Die Markenangabe Wellness-Point ist im Produktdatensatz belegt",
+      "Jede Modell- und Größenvariante besitzt eine eigene Quelle",
+      "Wärmeart, Aufstellort und elektrische Angaben bleiben produktbezogen",
+      "Die Reihenfolge folgt der rechnerischen Stellfläche und enthält keine Rangwertung"
+    ],
+    "checks": [
+      "Bei Dampfduschen Leitungsführung, Ablauf und Wartungszugang im Badplan ergänzen.",
+      "Bei Infrarotkabinen Gesamtleistung und Anforderungen an den Stromkreis in der Anleitung prüfen.",
+      "Bei finnischen Alaska-Modellen das enthaltene Ofenset und seinen Anschlussplan bestätigen.",
+      "Bei Alpha-Kombimodellen die Versorgung beider Heizsysteme getrennt dokumentieren."
+    ],
+    "module_copy": {
+      "method_kicker": "Abgrenzung der Auswahl",
+      "method_title": "Aufgenommen sind die dokumentierten Wellness-Point-Varianten aus vier technisch verschiedenen Produktgruppen.",
+      "method_note": "Der jüngste Angebotsstand dieser Auswahl wurde geprüft am",
+      "results_kicker": "Sortiment nach Stellfläche",
+      "results_title": "{count} Wellness-Point-Produkte sind im Katalog erfasst.",
+      "results_intro": "Die Karten nennen Fläche, Kapazität, Anschluss und Preis. Der Produkttyp zeigt, welche zusätzlichen Planungsangaben auf der Detailseite relevant werden.",
+      "checks_kicker": "Vor Bestellung klären",
+      "checks_title": "Vier Kontrollen passen die Produktgruppe an den vorgesehenen Raum an.",
+      "related_kicker": "Andere Sortimente und Wärmearten",
+      "related_title": "Infrarotkabinen sowie die Markenübersichten von Artsauna und Home Deluxe öffnen."
+    }
   }
 ]
