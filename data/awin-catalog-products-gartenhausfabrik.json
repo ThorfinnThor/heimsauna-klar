@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T20:32:11.815Z",
+  "generated_at": "2026-09-02T11:18:34.124Z",
   "source": "Awin authenticated Gartenhausfabrik DE product feed",
   "secret_included": false,
   "selection_policy": "Sauna-relevante Einzel-URLs ohne Zubehör; Variantenhinweise werden markiert und nicht automatisch in data/products.json übernommen.",
@@ -8,7 +8,7 @@
   "advertiser_name": "Gartenhausfabrik DE",
   "feed_id": "92070",
   "feed_name": "Default",
-  "feed_rows": 10424,
+  "feed_rows": 10412,
   "sauna_relevant_rows": 203,
   "products_returned": 203,
   "products": [
@@ -16,7 +16,7 @@
       "name": "Fjordholz 5-Eck Saunahaus Modell Mari 44 A",
       "url": "https://gartenhausfabrik.de/5-Eck-Saunahaus-Modell-Mari-44-A",
       "brand": "Fjordholz",
-      "price": 6749,
+      "price": 6889,
       "sku": "9497-49061",
       "variant_hint": false
     },
@@ -24,7 +24,7 @@
       "name": "Fjordholz 5-Eck Saunahaus Modell Mari 44 B",
       "url": "https://gartenhausfabrik.de/5-Eck-Saunahaus-Modell-Mari-44-B",
       "brand": "Fjordholz",
-      "price": 4529,
+      "price": 4619,
       "sku": "10522-57141",
       "variant_hint": false
     },
@@ -32,7 +32,7 @@
       "name": "Fjordholz Design Saunahaus Modell Kalle",
       "url": "https://gartenhausfabrik.de/Design-Saunahaus-Modell-Kalle",
       "brand": "Fjordholz G1",
-      "price": 6849,
+      "price": 6989,
       "sku": "7799-30945",
       "variant_hint": false
     },
@@ -40,7 +40,7 @@
       "name": "Fjordholz Design Saunahaus Modell Kalle L",
       "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Modell-Kalle-L",
       "brand": "Fjordholz G1",
-      "price": 8919,
+      "price": 9099,
       "sku": "9329-39021",
       "variant_hint": false
     },
@@ -48,7 +48,7 @@
       "name": "Fjordholz Design Saunahaus Modell Kalle XL",
       "url": "https://gartenhausfabrik.de/Design-Saunahaus-Modell-Kalle-XL",
       "brand": "Fjordholz G1",
-      "price": 12259,
+      "price": 12509,
       "sku": "9327-38894",
       "variant_hint": false
     },
@@ -56,7 +56,7 @@
       "name": "Fjordholz Design Saunahaus Modell Relax",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Relax",
       "brand": "Fjordholz M1",
-      "price": 4269,
+      "price": 4359,
       "sku": "12440-90204",
       "variant_hint": false
     },
@@ -64,7 +64,7 @@
       "name": "Fjordholz Design Saunahaus Modell Relax Black Edit",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Relax-Black-Edition",
       "brand": "Fjordholz M1",
-      "price": 5319,
+      "price": 5429,
       "sku": "12441-90205",
       "variant_hint": false
     },
@@ -72,7 +72,7 @@
       "name": "Fjordholz Design Saunahaus Modell Siiri Premium",
       "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Siiri",
       "brand": "Sauna4Home L2",
-      "price": 8129,
+      "price": 8299,
       "sku": "12429-90187",
       "variant_hint": false
     },
@@ -80,7 +80,7 @@
       "name": "Fjordholz Design-Saunahaus Modell Paradiso Black E",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Paradiso-Black-Edition",
       "brand": "Fjordholz G1",
-      "price": 8329,
+      "price": 8499,
       "sku": "12209-83725",
       "variant_hint": false
     },
@@ -88,7 +88,7 @@
       "name": "Fjordholz ergonomische Sauna Rückenlehne Premium",
       "url": "https://gartenhausfabrik.de/Fjordholz-ergonomische-Sauna-Rueckenlehne-Premium",
       "brand": "Fjordholz H2",
-      "price": 79,
+      "price": 89,
       "sku": "12489-90297",
       "variant_hint": false
     },
@@ -96,7 +96,7 @@
       "name": "Fjordholz Fass-Kombisauna Modell Luxe Micro Kombi",
       "url": "https://gartenhausfabrik.de/Fass-Kombisauna-Modell-Luxe-Micro-Kombi",
       "brand": "Sauna4Home L2",
-      "price": 3869,
+      "price": 3949,
       "sku": "13375-92099",
       "variant_hint": false
     },
@@ -104,7 +104,7 @@
       "name": "Fjordholz Fass-Sauna Fite",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Fite",
       "brand": "Sauna4Home B1",
-      "price": 7619,
+      "price": 7779,
       "sku": "1114-28439",
       "variant_hint": false
     },
@@ -112,7 +112,7 @@
       "name": "Fjordholz Fass-Sauna Ida",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Ida",
       "brand": "Sauna4Home B1",
-      "price": 11239,
+      "price": 11469,
       "sku": "1115-47868",
       "variant_hint": false
     },
@@ -120,7 +120,7 @@
       "name": "Fjordholz Fass-Sauna Jona",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Jona",
       "brand": "Sauna4Home B1",
-      "price": 7159,
+      "price": 7309,
       "sku": "1112-47815",
       "variant_hint": false
     },
@@ -128,7 +128,7 @@
       "name": "Fjordholz Fass-Sauna Jonte",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Jonte",
       "brand": "Sauna4Home B1",
-      "price": 7229,
+      "price": 7379,
       "sku": "1111-40268",
       "variant_hint": false
     },
@@ -136,7 +136,7 @@
       "name": "Fjordholz Fass-Sauna Modell 250 Thermo",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-250-Thermo",
       "brand": "Fjordholz",
-      "price": 4999,
+      "price": 5099,
       "sku": "6927-28519",
       "variant_hint": false
     },
@@ -144,7 +144,7 @@
       "name": "Fjordholz Fass-Sauna Modell 400",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-400",
       "brand": "Sauna4Home I1",
-      "price": 7149,
+      "price": 7299,
       "sku": "7616-30466",
       "variant_hint": false
     },
@@ -152,7 +152,7 @@
       "name": "Fjordholz Fass-Sauna Modell Alvin",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Alvin",
       "brand": "Sauna4Home B1",
-      "price": 8609,
+      "price": 8789,
       "sku": "9563-43476",
       "variant_hint": false
     },
@@ -160,7 +160,7 @@
       "name": "Fjordholz Fass-Sauna Modell Ando",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Ando",
       "brand": "Sauna4Home B1",
-      "price": 6439,
+      "price": 6569,
       "sku": "9590-46193",
       "variant_hint": false
     },
@@ -168,7 +168,7 @@
       "name": "Fjordholz Fass-Sauna Modell Black Series 280",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Black-Series-280",
       "brand": "Fjordholz",
-      "price": 8219,
+      "price": 8389,
       "sku": "9493-42150",
       "variant_hint": false
     },
@@ -176,7 +176,7 @@
       "name": "Fjordholz Fass-Sauna Modell Bus 130 Standard",
       "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-130-Standard",
       "brand": "Sauna4Home I1",
-      "price": 3409,
+      "price": 3479,
       "sku": "10225-54547",
       "variant_hint": false
     },
@@ -184,7 +184,7 @@
       "name": "Fjordholz Fass-Sauna Modell Bus 160 mit Halbrundfe",
       "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-160-Halbrundfenster",
       "brand": "Sauna4Home I1",
-      "price": 4039,
+      "price": 4119,
       "sku": "10232-54601",
       "variant_hint": false
     },
@@ -192,7 +192,7 @@
       "name": "Fjordholz Fass-Sauna Modell Bus 160 mit Vollglasfr",
       "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-160-Vollglasfront",
       "brand": "Sauna4Home I1",
-      "price": 4869,
+      "price": 4969,
       "sku": "10234-54609",
       "variant_hint": false
     },
@@ -200,7 +200,7 @@
       "name": "Fjordholz Fass-Sauna Modell Bus 160 mit Vollglasfr",
       "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-160-Vollglasfront-Halbglasfenster",
       "brand": "Sauna4Home I1",
-      "price": 5099,
+      "price": 5209,
       "sku": "10236-54617",
       "variant_hint": false
     },
@@ -208,7 +208,7 @@
       "name": "Fjordholz Fass-Sauna Modell Bus 160 Standard",
       "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-160-Standard",
       "brand": "Sauna4Home I1",
-      "price": 3699,
+      "price": 3779,
       "sku": "10229-54551",
       "variant_hint": false
     },
@@ -216,7 +216,7 @@
       "name": "Fjordholz Fass-Sauna Modell Cubus-2",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-2",
       "brand": "Fjordholz",
-      "price": 3169,
+      "price": 3239,
       "sku": "13364-92087",
       "variant_hint": false
     },
@@ -224,7 +224,7 @@
       "name": "Fjordholz Fass-Sauna Modell Cubus-3",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-3",
       "brand": "Fjordholz",
-      "price": 4879,
+      "price": 4979,
       "sku": "13248-91959",
       "variant_hint": false
     },
@@ -232,7 +232,7 @@
       "name": "Fjordholz Fass-Sauna Modell DeLux 280 Thermo",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-DeLux-280-Thermo",
       "brand": "Sauna4Home I1",
-      "price": 6969,
+      "price": 7109,
       "sku": "7612-30454",
       "variant_hint": false
     },
@@ -240,7 +240,7 @@
       "name": "Fjordholz Fass-Sauna Modell Elina",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Elina",
       "brand": "Sauna4Home B1",
-      "price": 7339,
+      "price": 7489,
       "sku": "9557-46582",
       "variant_hint": false
     },
@@ -248,7 +248,7 @@
       "name": "Fjordholz Fass-Sauna Modell Ergonomic 180",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Ergonomic-180",
       "brand": "Sauna4Home I1",
-      "price": 4079,
+      "price": 4169,
       "sku": "7795-38424",
       "variant_hint": false
     },
@@ -256,7 +256,7 @@
       "name": "Fjordholz Fass-Sauna Modell Ergonomic 180 mit Voll",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Ergonomic-180-mit-Vollglasfront",
       "brand": "Sauna4Home I1",
-      "price": 5209,
+      "price": 5319,
       "sku": "7797-30936",
       "variant_hint": false
     },
@@ -264,7 +264,7 @@
       "name": "Fjordholz Fass-Sauna Modell Ergonomic 220",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Ergonomic-220",
       "brand": "Sauna4Home I1",
-      "price": 4429,
+      "price": 4519,
       "sku": "7798-30944",
       "variant_hint": false
     },
@@ -272,7 +272,7 @@
       "name": "Fjordholz Fass-Sauna Modell Icon 200 S Fichte",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-200-S-Fichte",
       "brand": "Sauna4Home I1",
-      "price": 3779,
+      "price": 3859,
       "sku": "10218-54310",
       "variant_hint": false
     },
@@ -280,7 +280,7 @@
       "name": "Fjordholz Fass-Sauna Modell Icon 200 S Thermo",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-200-S-Thermo",
       "brand": "Sauna4Home I1",
-      "price": 4839,
+      "price": 4939,
       "sku": "10219-54311",
       "variant_hint": false
     },
@@ -288,7 +288,7 @@
       "name": "Fjordholz Fass-Sauna Modell Icon 220 Thermo",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-220-Thermo",
       "brand": "Sauna4Home I1",
-      "price": 5379,
+      "price": 5489,
       "sku": "10220-54312",
       "variant_hint": false
     },
@@ -296,7 +296,7 @@
       "name": "Fjordholz Fass-Sauna Modell Icon 220 Thermo mit Gl",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-220-Thermo-Glafront",
       "brand": "Sauna4Home L2",
-      "price": 5029,
+      "price": 5129,
       "sku": "10221-54442",
       "variant_hint": false
     },
@@ -304,7 +304,7 @@
       "name": "Fjordholz Fass-Sauna Modell Icon 385 Thermo",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-385-Thermo",
       "brand": "Sauna4Home I1",
-      "price": 7939,
+      "price": 8099,
       "sku": "11574-61387",
       "variant_hint": false
     },
@@ -312,7 +312,7 @@
       "name": "Fjordholz Fass-Sauna Modell Lauri",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Lauri",
       "brand": "Sauna4Home B1",
-      "price": 6479,
+      "price": 6609,
       "sku": "9396-40714",
       "variant_hint": false
     },
@@ -320,7 +320,7 @@
       "name": "Fjordholz Fass-Sauna Modell Leo Classic",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Leo-Classic",
       "brand": "Fjordholz",
-      "price": 3709,
+      "price": 3789,
       "sku": "6922-28458",
       "variant_hint": false
     },
@@ -328,7 +328,7 @@
       "name": "Fjordholz Fass-Sauna Modell Leo mit Halbrundfenste",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Leo-Halbrundfenster",
       "brand": "Fjordholz",
-      "price": 5149,
+      "price": 5259,
       "sku": "6924-28460",
       "variant_hint": false
     },
@@ -336,7 +336,7 @@
       "name": "Fjordholz Fass-Sauna Modell Leo mit Vollglasfront",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Leo-Vollglasfront",
       "brand": "Fjordholz",
-      "price": 4659,
+      "price": 4759,
       "sku": "6925-28461",
       "variant_hint": false
     },
@@ -344,7 +344,7 @@
       "name": "Fjordholz Fass-Sauna Modell Leo Premium",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Leo-Premium",
       "brand": "Fjordholz",
-      "price": 5139,
+      "price": 5249,
       "sku": "6926-28462",
       "variant_hint": false
     },
@@ -352,7 +352,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe Micro",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Luxe-Micro",
       "brand": "Sauna4Home L2",
-      "price": 3309,
+      "price": 3379,
       "sku": "11817-62140",
       "variant_hint": false
     },
@@ -360,7 +360,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe Micro Black Editi",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Luxe-Micro-Black-Edition",
       "brand": "Sauna4Home L2",
-      "price": 3509,
+      "price": 3579,
       "sku": "11863-62143",
       "variant_hint": false
     },
@@ -368,7 +368,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe-1 Plus",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Luxe-1-Plus",
       "brand": "Sauna4Home L2",
-      "price": 4439,
+      "price": 4529,
       "sku": "11750-61785",
       "variant_hint": false
     },
@@ -376,7 +376,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe-1 Plus Black Edit",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Luxe-1-Plus-Black-Edition",
       "brand": "Sauna4Home L2",
-      "price": 4969,
+      "price": 5069,
       "sku": "11764-61837",
       "variant_hint": false
     },
@@ -384,7 +384,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe-2 Premium",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Luxe-2-Premium",
       "brand": "Sauna4Home L2",
-      "price": 3139,
+      "price": 3209,
       "sku": "11127-59646",
       "variant_hint": false
     },
@@ -392,7 +392,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe-2 Premium Black E",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Luxe-2-Premium-Black-Edition",
       "brand": "Sauna4Home L2",
-      "price": 3579,
+      "price": 3659,
       "sku": "11553-61343",
       "variant_hint": false
     },
@@ -400,7 +400,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe-3 Premium",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Luxe-3-Premium",
       "brand": "Sauna4Home L2",
-      "price": 5989,
+      "price": 6109,
       "sku": "11134-59653",
       "variant_hint": false
     },
@@ -408,7 +408,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe-3 Premium Black E",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Luxe-3-Premium-Black-Edition",
       "brand": "Sauna4Home L2",
-      "price": 8119,
+      "price": 8289,
       "sku": "11426-60843",
       "variant_hint": false
     },
@@ -416,7 +416,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe-3 Zweiraum - mit",
       "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Luxe-3-Zweiraum-mit-Vorraum",
       "brand": "Sauna4Home L2",
-      "price": 6659,
+      "price": 6799,
       "sku": "11386-60697",
       "variant_hint": false
     },
@@ -424,7 +424,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe-3 Zweiraum Black",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Luxe-3-Zeiraum-Black-Edition",
       "brand": "Sauna4Home L2",
-      "price": 8679,
+      "price": 8859,
       "sku": "11400-60738",
       "variant_hint": false
     },
@@ -432,7 +432,7 @@
       "name": "Fjordholz Fass-Sauna Modell Luxe-4 Premium",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Luxe-4-Premium",
       "brand": "Sauna4Home L2",
-      "price": 5159,
+      "price": 5269,
       "sku": "11286-60429",
       "variant_hint": false
     },
@@ -440,7 +440,7 @@
       "name": "Fjordholz Fass-Sauna Modell Mini Luxe",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Mini-Luxe",
       "brand": "Sauna4Home L2",
-      "price": 2719,
+      "price": 2779,
       "sku": "11498-61038",
       "variant_hint": false
     },
@@ -448,7 +448,7 @@
       "name": "Fjordholz Fass-Sauna Modell Quadro 170 cm",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Quadro-170cm",
       "brand": "Sauna4Home B1",
-      "price": 3829,
+      "price": 3909,
       "sku": "11284-60452",
       "variant_hint": false
     },
@@ -456,7 +456,7 @@
       "name": "Fjordholz Fass-Sauna Modell Quadro 200 cm",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Quadro-200cm",
       "brand": "Sauna4Home B1",
-      "price": 4539,
+      "price": 4629,
       "sku": "9805-48248",
       "variant_hint": false
     },
@@ -464,7 +464,7 @@
       "name": "Fjordholz Fass-Sauna Modell Quadro 230 cm",
       "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Quadro-230-cm",
       "brand": "Sauna4Home B1",
-      "price": 4619,
+      "price": 4719,
       "sku": "10328-56055",
       "variant_hint": false
     },
@@ -472,7 +472,7 @@
       "name": "Fjordholz Fass-Sauna Modell Quadro 240 cm",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Quadro-240cm",
       "brand": "Sauna4Home B1",
-      "price": 4669,
+      "price": 4769,
       "sku": "9820-48059",
       "variant_hint": false
     },
@@ -480,7 +480,7 @@
       "name": "Fjordholz Fass-Sauna Modell Quadro 300 cm",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Quadro-300cm",
       "brand": "Sauna4Home B1",
-      "price": 5289,
+      "price": 5399,
       "sku": "9821-48101",
       "variant_hint": false
     },
@@ -488,7 +488,7 @@
       "name": "Fjordholz Fass-Sauna Modell Quadro 300 cm 2-Raum",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Quadro-300cm-2-Raum",
       "brand": "Sauna4Home B1",
-      "price": 5759,
+      "price": 5879,
       "sku": "9822-48087",
       "variant_hint": false
     },
@@ -496,7 +496,7 @@
       "name": "Fjordholz Fass-Sauna Modell Quadro 400 cm 2-Raum",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Quadro-400cm-2-Raum",
       "brand": "Sauna4Home B1",
-      "price": 6639,
+      "price": 6779,
       "sku": "9823-48073",
       "variant_hint": false
     },
@@ -504,7 +504,7 @@
       "name": "Fjordholz Fass-Sauna Modell Quadro Royal 250 cm Th",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Quadro-Royal-250cm",
       "brand": "Sauna4Home L2",
-      "price": 4929,
+      "price": 5029,
       "sku": "11703-61653",
       "variant_hint": false
     },
@@ -512,7 +512,7 @@
       "name": "Fjordholz Fass-Sauna Niklas",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Niklas",
       "brand": "Sauna4Home B1",
-      "price": 8059,
+      "price": 8229,
       "sku": "1113-47846",
       "variant_hint": false
     },
@@ -520,7 +520,7 @@
       "name": "Fjordholz Fass-Sauna Smilla",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Smilla",
       "brand": "Sauna4Home B1",
-      "price": 6749,
+      "price": 6889,
       "sku": "1110-40237",
       "variant_hint": false
     },
@@ -528,7 +528,7 @@
       "name": "Fjordholz Fass-Sauna Theo",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Theo",
       "brand": "Sauna4Home B1",
-      "price": 5929,
+      "price": 6049,
       "sku": "1098-40136",
       "variant_hint": false
     },
@@ -536,7 +536,7 @@
       "name": "Fjordholz Grillkota mit Sauna Modell Finn 9+4m²",
       "url": "https://gartenhausfabrik.de/Grillkota-mit-Sauna-Modell-Finn-9-4-m2",
       "brand": "Fjordholz G1",
-      "price": 9189,
+      "price": 9379,
       "sku": "11690-61622",
       "variant_hint": false
     },
@@ -544,7 +544,7 @@
       "name": "Fjordholz Mini Fass-Sauna Modell Cubus-1",
       "url": "https://gartenhausfabrik.de/Fjordholz-Mini-Fass-Sauna-Modell-Cubus-1",
       "brand": "Fjordholz",
-      "price": 1529,
+      "price": 1559,
       "sku": "13810-93526",
       "variant_hint": false
     },
@@ -552,7 +552,7 @@
       "name": "Fjordholz Mini Saunahaus Modell Helga 44",
       "url": "https://gartenhausfabrik.de/Mini-Saunahaus-Modell-Helga-44",
       "brand": "Fjordholz",
-      "price": 3099,
+      "price": 3169,
       "sku": "11823-61960",
       "variant_hint": false
     },
@@ -560,7 +560,7 @@
       "name": "Fjordholz Mini Saunahaus Modell Irma 44",
       "url": "https://gartenhausfabrik.de/Mini-Saunahaus-Modell-Irma-44",
       "brand": "Fjordholz",
-      "price": 2359,
+      "price": 2409,
       "sku": "11821-61958",
       "variant_hint": false
     },
@@ -568,7 +568,7 @@
       "name": "Fjordholz Mini Saunahaus Modell Nick mit Dusche",
       "url": "https://gartenhausfabrik.de/Mini-Saunahaus-Modell-Nick-mit-Dusche",
       "brand": "Fjordholz  S1",
-      "price": 3099,
+      "price": 3169,
       "sku": "12212-83740",
       "variant_hint": false
     },
@@ -576,7 +576,7 @@
       "name": "Fjordholz Mini Saunahaus Modell Otto 40",
       "url": "https://gartenhausfabrik.de/Mini-Saunahaus-Modell-Otto-40",
       "brand": "Fjordholz  S1",
-      "price": 2759,
+      "price": 2819,
       "sku": "12106-79286",
       "variant_hint": false
     },
@@ -584,7 +584,7 @@
       "name": "Fjordholz Mini Saunahaus Modell Selma 44",
       "url": "https://gartenhausfabrik.de/Mini-Saunahaus-Modell-Selma-44",
       "brand": "Fjordholz",
-      "price": 2619,
+      "price": 2679,
       "sku": "11822-61959",
       "variant_hint": false
     },
@@ -592,7 +592,7 @@
       "name": "Fjordholz Mini Saunahaus Modell Timo 40",
       "url": "https://gartenhausfabrik.de/Mini-Saunahaus-Modell-Timo-40",
       "brand": "Fjordholz  S1",
-      "price": 2149,
+      "price": 2199,
       "sku": "11894-62163",
       "variant_hint": false
     },
@@ -600,7 +600,7 @@
       "name": "Fjordholz Pod Sauna Modell Luxe 240 cm",
       "url": "https://gartenhausfabrik.de/Pod-Sauna-Modell-Luxe-240-cm",
       "brand": "Fjordholz",
-      "price": 5539,
+      "price": 5649,
       "sku": "10831-58116",
       "variant_hint": false
     },
@@ -608,7 +608,7 @@
       "name": "Fjordholz Pod Sauna Modell Luxe 300 cm",
       "url": "https://gartenhausfabrik.de/Pod-Sauna-Modell-Luxe-300-cm",
       "brand": "Fjordholz",
-      "price": 6119,
+      "price": 6249,
       "sku": "10832-58119",
       "variant_hint": false
     },
@@ -616,7 +616,7 @@
       "name": "Fjordholz Pod Sauna Modell Luxe 400 cm 2-Raum",
       "url": "https://gartenhausfabrik.de/Pod-Sauna-Modell-Luxe-400cm-2-Raum",
       "brand": "Fjordholz",
-      "price": 8229,
+      "price": 8399,
       "sku": "10514-57109",
       "variant_hint": false
     },
@@ -624,7 +624,7 @@
       "name": "Fjordholz Pod-Sauna Modell 300 - Außensauna Bausat",
       "url": "https://gartenhausfabrik.de/Pod-Sauna-Modell-300",
       "brand": "Sauna4Home I1",
-      "price": 5229,
+      "price": 5339,
       "sku": "7803-30972",
       "variant_hint": false
     },
@@ -632,7 +632,7 @@
       "name": "Fjordholz Sauna Bein- und Venenstütze Premium",
       "url": "https://gartenhausfabrik.de/Fjordholz-Sauna-Bein-und-Venenstuetze-Premium",
       "brand": "Fjordholz H2",
-      "price": 79,
+      "price": 89,
       "sku": "12491-90299",
       "variant_hint": false
     },
@@ -672,7 +672,7 @@
       "name": "Fjordholz Saunahaus Modell Alma 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Alma-70",
       "brand": "Fjordholz  S1",
-      "price": 9049,
+      "price": 9229,
       "sku": "10215-54307",
       "variant_hint": false
     },
@@ -680,7 +680,7 @@
       "name": "Fjordholz Saunahaus Modell Anita 2-Raum",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Anita-2-Raum",
       "brand": "Fjordholz  S1",
-      "price": 5899,
+      "price": 6019,
       "sku": "11792-61894",
       "variant_hint": false
     },
@@ -688,7 +688,7 @@
       "name": "Fjordholz Saunahaus Modell Anita Mini",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Anita-Mini",
       "brand": "Sauna4Home I1",
-      "price": 3809,
+      "price": 3889,
       "sku": "11791-61893",
       "variant_hint": false
     },
@@ -696,7 +696,7 @@
       "name": "Fjordholz Saunahaus Modell Anita mit Terrasse",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Anita-mit-Terrasse",
       "brand": "Sauna4Home I1",
-      "price": 4779,
+      "price": 4879,
       "sku": "11793-61895",
       "variant_hint": false
     },
@@ -704,7 +704,7 @@
       "name": "Fjordholz Saunahaus Modell Anna",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Anna",
       "brand": "Fjordholz",
-      "price": 11429,
+      "price": 11659,
       "sku": "1154-5046",
       "variant_hint": false
     },
@@ -712,7 +712,7 @@
       "name": "Fjordholz Saunahaus Modell Arcos M",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-M",
       "brand": "Fjordholz",
-      "price": 6009,
+      "price": 6129,
       "sku": "14122-94030",
       "variant_hint": false
     },
@@ -720,7 +720,7 @@
       "name": "Fjordholz Saunahaus Modell Arcos S",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-S",
       "brand": "Fjordholz",
-      "price": 7099,
+      "price": 7249,
       "sku": "14112-94026",
       "variant_hint": false
     },
@@ -728,7 +728,7 @@
       "name": "Fjordholz Saunahaus Modell Asta",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Asta",
       "brand": "Fjordholz",
-      "price": 11379,
+      "price": 11609,
       "sku": "1331-59619",
       "variant_hint": false
     },
@@ -736,7 +736,7 @@
       "name": "Fjordholz Saunahaus Modell Baden",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Baden",
       "brand": "Fjordholz",
-      "price": 13099,
+      "price": 13369,
       "sku": "495-5023",
       "variant_hint": false
     },
@@ -744,7 +744,7 @@
       "name": "Fjordholz Saunahaus Modell Bene",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Bene",
       "brand": "Fjordholz",
-      "price": 11649,
+      "price": 11889,
       "sku": "1152-57727",
       "variant_hint": false
     },
@@ -752,7 +752,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe XXS + SD natu",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Box-Groesse-XXS-SD-natur",
       "brand": "Fjordholz",
-      "price": 8459,
+      "price": 8629,
       "sku": "11827-61964",
       "variant_hint": false
     },
@@ -760,7 +760,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe XXS + SD schw",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Box-Groesse-XXS-SD-schwarz",
       "brand": "Fjordholz",
-      "price": 10849,
+      "price": 11069,
       "sku": "11826-61963",
       "variant_hint": false
     },
@@ -768,7 +768,7 @@
       "name": "Fjordholz Saunahaus Modell Cube Klassik 70 A",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Cube-Klassik-70-A",
       "brand": "Fjordholz",
-      "price": 8729,
+      "price": 8909,
       "sku": "458-49096",
       "variant_hint": false
     },
@@ -776,7 +776,7 @@
       "name": "Fjordholz Saunahaus Modell Cube Klassik 70 B",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Cube-Klassik-70-B",
       "brand": "Fjordholz",
-      "price": 10319,
+      "price": 10529,
       "sku": "463-49119",
       "variant_hint": false
     },
@@ -784,7 +784,7 @@
       "name": "Fjordholz Saunahaus Modell Cube Klassik 70 C",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Cube-Klassik-70-C",
       "brand": "Fjordholz",
-      "price": 12159,
+      "price": 12409,
       "sku": "464-49368",
       "variant_hint": false
     },
@@ -792,7 +792,7 @@
       "name": "Fjordholz Saunahaus Modell Cube Klassik 70 D",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Cube-Klassik-70-D",
       "brand": "Fjordholz",
-      "price": 9159,
+      "price": 9349,
       "sku": "465-1614",
       "variant_hint": false
     },
@@ -800,7 +800,7 @@
       "name": "Fjordholz Saunahaus Modell Cube Panorama",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Cube-Panorama",
       "brand": "Sauna4Home I1",
-      "price": 4489,
+      "price": 4579,
       "sku": "9330-39022",
       "variant_hint": false
     },
@@ -808,7 +808,7 @@
       "name": "Fjordholz Saunahaus Modell Cube Rondo 70 A",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Cube-Rondo-70-A",
       "brand": "Fjordholz  S1",
-      "price": 6319,
+      "price": 6449,
       "sku": "544-2013",
       "variant_hint": false
     },
@@ -816,7 +816,7 @@
       "name": "Fjordholz Saunahaus Modell Cube Rondo 70 B",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Cube-Rondo-70-B",
       "brand": "Fjordholz  S1",
-      "price": 7349,
+      "price": 7499,
       "sku": "545-2014",
       "variant_hint": false
     },
@@ -824,7 +824,7 @@
       "name": "Fjordholz Saunahaus Modell Cube Rondo 70 C",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Cube-Rondo-70-C",
       "brand": "Fjordholz  S1",
-      "price": 8429,
+      "price": 8599,
       "sku": "546-2015",
       "variant_hint": false
     },
@@ -832,7 +832,7 @@
       "name": "Fjordholz Saunahaus Modell Cube Rondo 70 D",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Cube-Rondo-70-D",
       "brand": "Fjordholz  S1",
-      "price": 9299,
+      "price": 9489,
       "sku": "547-2016",
       "variant_hint": false
     },
@@ -840,7 +840,7 @@
       "name": "Fjordholz Saunahaus Modell Dolce",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Dolce",
       "brand": "Fjordholz",
-      "price": 16139,
+      "price": 16469,
       "sku": "1180-5148",
       "variant_hint": false
     },
@@ -848,7 +848,7 @@
       "name": "Fjordholz Saunahaus Modell Donny 44 A",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Donny-44-A",
       "brand": "Fjordholz",
-      "price": 4399,
+      "price": 4489,
       "sku": "12474-90282",
       "variant_hint": false
     },
@@ -856,7 +856,7 @@
       "name": "Fjordholz Saunahaus Modell Donny 44 B",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Donny-44-B",
       "brand": "Fjordholz",
-      "price": 4379,
+      "price": 4469,
       "sku": "12475-90283",
       "variant_hint": false
     },
@@ -864,7 +864,7 @@
       "name": "Fjordholz Saunahaus Modell Forte",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Forte",
       "brand": "Fjordholz",
-      "price": 20919,
+      "price": 21339,
       "sku": "1179-51282",
       "variant_hint": false
     },
@@ -872,7 +872,7 @@
       "name": "Fjordholz Saunahaus Modell Funny 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Funny-70",
       "brand": "Fjordholz  S1",
-      "price": 9619,
+      "price": 9819,
       "sku": "12271-83822",
       "variant_hint": false
     },
@@ -880,7 +880,7 @@
       "name": "Fjordholz Saunahaus Modell Giocoso",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Giocoso",
       "brand": "Fjordholz",
-      "price": 15439,
+      "price": 15749,
       "sku": "1181-61572",
       "variant_hint": false
     },
@@ -888,7 +888,7 @@
       "name": "Fjordholz Saunahaus Modell Giusto",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Giusto",
       "brand": "Fjordholz",
-      "price": 10749,
+      "price": 10969,
       "sku": "1162-5065",
       "variant_hint": false
     },
@@ -896,7 +896,7 @@
       "name": "Fjordholz Saunahaus Modell Göteborg",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Goeteborg",
       "brand": "Fjordholz",
-      "price": 11089,
+      "price": 11319,
       "sku": "429-5002",
       "variant_hint": false
     },
@@ -904,7 +904,7 @@
       "name": "Fjordholz Saunahaus Modell Heigo",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Heigo",
       "brand": "Fjordholz",
-      "price": 13499,
+      "price": 13769,
       "sku": "1155-5062",
       "variant_hint": false
     },
@@ -912,7 +912,7 @@
       "name": "Fjordholz Saunahaus Modell Higi XL 45",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Higi-XL-45",
       "brand": "Sauna4Home I1",
-      "price": 5869,
+      "price": 5989,
       "sku": "9512-42539",
       "variant_hint": false
     },
@@ -920,7 +920,7 @@
       "name": "Fjordholz Saunahaus Modell Inna",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Inna",
       "brand": "Fjordholz",
-      "price": 11389,
+      "price": 11619,
       "sku": "1160-49229",
       "variant_hint": false
     },
@@ -928,7 +928,7 @@
       "name": "Fjordholz Saunahaus Modell Island 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Island-70",
       "brand": "Sauna4Home I1",
-      "price": 5809,
+      "price": 5929,
       "sku": "11795-61897",
       "variant_hint": false
     },
@@ -936,7 +936,7 @@
       "name": "Fjordholz Saunahaus Modell Jutta",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Jutta",
       "brand": "Fjordholz",
-      "price": 13659,
+      "price": 13939,
       "sku": "993-49375",
       "variant_hint": false
     },
@@ -944,7 +944,7 @@
       "name": "Fjordholz Saunahaus Modell Kaisa",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Kaisa",
       "brand": "Fjordholz",
-      "price": 14009,
+      "price": 14289,
       "sku": "1156-5059",
       "variant_hint": false
     },
@@ -952,7 +952,7 @@
       "name": "Fjordholz Saunahaus Modell Katri",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Katri",
       "brand": "Fjordholz",
-      "price": 12129,
+      "price": 12379,
       "sku": "988-49261",
       "variant_hint": false
     },
@@ -960,7 +960,7 @@
       "name": "Fjordholz Saunahaus Modell Krista",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Krista",
       "brand": "Fjordholz",
-      "price": 10769,
+      "price": 10989,
       "sku": "1004-59617",
       "variant_hint": false
     },
@@ -968,7 +968,7 @@
       "name": "Fjordholz Saunahaus Modell Largo",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Largo",
       "brand": "Fjordholz",
-      "price": 16009,
+      "price": 16329,
       "sku": "1153-5031",
       "variant_hint": false
     },
@@ -976,7 +976,7 @@
       "name": "Fjordholz Saunahaus Modell Lathi",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Lathi",
       "brand": "Fjordholz",
-      "price": 12589,
+      "price": 12849,
       "sku": "550-4991",
       "variant_hint": false
     },
@@ -984,7 +984,7 @@
       "name": "Fjordholz Saunahaus Modell Leena",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Leena",
       "brand": "Fjordholz",
-      "price": 11379,
+      "price": 11609,
       "sku": "1159-49087",
       "variant_hint": false
     },
@@ -992,7 +992,7 @@
       "name": "Fjordholz Saunahaus Modell Leif",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Leif",
       "brand": "Fjordholz",
-      "price": 14889,
+      "price": 15189,
       "sku": "1161-5043",
       "variant_hint": false
     },
@@ -1000,7 +1000,7 @@
       "name": "Fjordholz Saunahaus Modell Li",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Li",
       "brand": "Fjordholz",
-      "price": 9309,
+      "price": 9499,
       "sku": "986-58242",
       "variant_hint": false
     },
@@ -1008,7 +1008,7 @@
       "name": "Fjordholz Saunahaus Modell Lilo 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Lilo-70",
       "brand": "Fjordholz  S1",
-      "price": 9489,
+      "price": 9679,
       "sku": "11085-59251",
       "variant_hint": false
     },
@@ -1016,7 +1016,7 @@
       "name": "Fjordholz Saunahaus Modell Livia 40",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Livia-40",
       "brand": "Fjordholz M1",
-      "price": 6979,
+      "price": 7119,
       "sku": "12454-90240",
       "variant_hint": false
     },
@@ -1024,7 +1024,7 @@
       "name": "Fjordholz Saunahaus Modell Lizza 70 B",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Lizza-70-B",
       "brand": "Fjordholz  S1",
-      "price": 12069,
+      "price": 12319,
       "sku": "9342-40071",
       "variant_hint": false
     },
@@ -1032,7 +1032,7 @@
       "name": "Fjordholz Saunahaus Modell Lore 70 B",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Lore-70-B",
       "brand": "Fjordholz  S1",
-      "price": 9899,
+      "price": 10099,
       "sku": "9341-40070",
       "variant_hint": false
     },
@@ -1040,7 +1040,7 @@
       "name": "Fjordholz Saunahaus Modell Luua Premium",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Luua-Premium",
       "brand": "Fjordholz G1",
-      "price": 6839,
+      "price": 6979,
       "sku": "13828-93545",
       "variant_hint": false
     },
@@ -1048,7 +1048,7 @@
       "name": "Fjordholz Saunahaus Modell Magnus 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Magnus-70",
       "brand": "Sauna4Home I1",
-      "price": 9349,
+      "price": 9539,
       "sku": "9332-39024",
       "variant_hint": false
     },
@@ -1056,7 +1056,7 @@
       "name": "Fjordholz Saunahaus Modell Magnus XL 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Magnus-XL-70",
       "brand": "Sauna4Home I1",
-      "price": 14749,
+      "price": 15049,
       "sku": "9333-39025",
       "variant_hint": false
     },
@@ -1064,7 +1064,7 @@
       "name": "Fjordholz Saunahaus Modell Mandri 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Mandri-70",
       "brand": "Fjordholz  S1",
-      "price": 21999,
+      "price": 22439,
       "sku": "10224-54445",
       "variant_hint": false
     },
@@ -1072,7 +1072,7 @@
       "name": "Fjordholz Saunahaus Modell Maria",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Maria",
       "brand": "Fjordholz",
-      "price": 9119,
+      "price": 9309,
       "sku": "985-49110",
       "variant_hint": false
     },
@@ -1080,7 +1080,7 @@
       "name": "Fjordholz Saunahaus Modell Marit 90",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Marit-90",
       "brand": "Fjordholz",
-      "price": 26889,
+      "price": 27429,
       "sku": "991-4090",
       "variant_hint": false
     },
@@ -1088,7 +1088,7 @@
       "name": "Fjordholz Saunahaus Modell Mattias 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Matthias-70",
       "brand": "Sauna4Home I1",
-      "price": 6409,
+      "price": 6539,
       "sku": "9331-39023",
       "variant_hint": false
     },
@@ -1096,7 +1096,7 @@
       "name": "Fjordholz Saunahaus Modell Monza 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Monza-70",
       "brand": "Fjordholz  S1",
-      "price": 11919,
+      "price": 12159,
       "sku": "9340-39736",
       "variant_hint": false
     },
@@ -1104,7 +1104,7 @@
       "name": "Fjordholz Saunahaus Modell Mosso",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Mosso",
       "brand": "Fjordholz",
-      "price": 12659,
+      "price": 12919,
       "sku": "1157-49171",
       "variant_hint": false
     },
@@ -1112,7 +1112,7 @@
       "name": "Fjordholz Saunahaus Modell Olde 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Olde-70",
       "brand": "Fjordholz  S1",
-      "price": 7959,
+      "price": 8119,
       "sku": "10499-56799",
       "variant_hint": false
     },
@@ -1120,7 +1120,7 @@
       "name": "Fjordholz Saunahaus Modell Olymp 70",
       "url": "https://gartenhausfabrik.de/",
       "brand": "Fjordholz  S1",
-      "price": 13269,
+      "price": 13539,
       "sku": "12947-90954",
       "variant_hint": false
     },
@@ -1128,7 +1128,7 @@
       "name": "Fjordholz Saunahaus Modell Olymp 70",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Olymp-70",
       "brand": "Fjordholz  S1",
-      "price": 13559,
+      "price": 13839,
       "sku": "10216-54308",
       "variant_hint": false
     },
@@ -1136,7 +1136,7 @@
       "name": "Fjordholz Saunahaus Modell Oskar",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Oskar",
       "brand": "Fjordholz",
-      "price": 14579,
+      "price": 14879,
       "sku": "430-5005",
       "variant_hint": false
     },
@@ -1144,7 +1144,7 @@
       "name": "Fjordholz Saunahaus Modell Panorama Cube 70 A",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Panorama-Cube-70-A",
       "brand": "Fjordholz  S1",
-      "price": 5699,
+      "price": 5819,
       "sku": "12328-89161",
       "variant_hint": false
     },
@@ -1152,7 +1152,7 @@
       "name": "Fjordholz Saunahaus Modell Panorama Cube 70 B",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Panorama-Cube-70-B",
       "brand": "Fjordholz  S1",
-      "price": 7639,
+      "price": 7799,
       "sku": "12331-89165",
       "variant_hint": false
     },
@@ -1160,7 +1160,7 @@
       "name": "Fjordholz Saunahaus Modell Panorama Cube 70 C",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Panorama-Cube-70-C",
       "brand": "Fjordholz  S1",
-      "price": 8719,
+      "price": 8899,
       "sku": "12332-89166",
       "variant_hint": false
     },
@@ -1168,7 +1168,7 @@
       "name": "Fjordholz Saunahaus Modell Panorama Cube 70 D",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Panorama-Cube-70-D",
       "brand": "Fjordholz  S1",
-      "price": 10629,
+      "price": 10849,
       "sku": "12333-89167",
       "variant_hint": false
     },
@@ -1176,7 +1176,7 @@
       "name": "Fjordholz Saunahaus Modell Panorama Cube 70 E",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Panorama-Cube-70-E",
       "brand": "Fjordholz  S1",
-      "price": 10079,
+      "price": 10289,
       "sku": "12683-90597",
       "variant_hint": false
     },
@@ -1184,7 +1184,7 @@
       "name": "Fjordholz Saunahaus Modell Papla 40",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Papla-40",
       "brand": "Fjordholz M1",
-      "price": 5499,
+      "price": 5609,
       "sku": "12456-90253",
       "variant_hint": false
     },
@@ -1192,7 +1192,7 @@
       "name": "Fjordholz Saunahaus Modell Paradiso",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Paradiso",
       "brand": "Fjordholz G1",
-      "price": 7519,
+      "price": 7669,
       "sku": "12208-83721",
       "variant_hint": false
     },
@@ -1200,7 +1200,7 @@
       "name": "Fjordholz Saunahaus Modell Patio Größe L Plus",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Patio-L-Plus",
       "brand": "Fjordholz",
-      "price": 9359,
+      "price": 9549,
       "sku": "6688-28166",
       "variant_hint": false
     },
@@ -1208,7 +1208,7 @@
       "name": "Fjordholz Saunahaus Modell Patio Größe M",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Patio-M",
       "brand": "Fjordholz",
-      "price": 6809,
+      "price": 6949,
       "sku": "6687-28157",
       "variant_hint": false
     },
@@ -1216,7 +1216,7 @@
       "name": "Fjordholz Saunahaus Modell Patio Größe S",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Patio-S",
       "brand": "Fjordholz",
-      "price": 5769,
+      "price": 5889,
       "sku": "6673-28141",
       "variant_hint": false
     },
@@ -1224,7 +1224,7 @@
       "name": "Fjordholz Saunahaus Modell Patio Größe S Plus",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Patio-S-Plus",
       "brand": "Fjordholz",
-      "price": 7129,
+      "price": 7279,
       "sku": "6686-28155",
       "variant_hint": false
     },
@@ -1232,7 +1232,7 @@
       "name": "Fjordholz Saunahaus Modell Patio Größe XS",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Patio-Groesse-XS",
       "brand": "Fjordholz",
-      "price": 4979,
+      "price": 5079,
       "sku": "6672-28139",
       "variant_hint": false
     },
@@ -1240,7 +1240,7 @@
       "name": "Fjordholz Saunahaus Modell Peet",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Peet",
       "brand": "Fjordholz",
-      "price": 10439,
+      "price": 10649,
       "sku": "1017-4970",
       "variant_hint": false
     },
@@ -1248,7 +1248,7 @@
       "name": "Fjordholz Saunahaus Modell Peetje 40",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Peetje-40",
       "brand": "Fjordholz M1",
-      "price": 5659,
+      "price": 5779,
       "sku": "12455-90243",
       "variant_hint": false
     },
@@ -1256,7 +1256,7 @@
       "name": "Fjordholz Saunahaus Modell Piano",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Piano",
       "brand": "Fjordholz",
-      "price": 13429,
+      "price": 13699,
       "sku": "1196-25869",
       "variant_hint": false
     },
@@ -1264,7 +1264,7 @@
       "name": "Fjordholz Saunahaus Modell Piet",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Piet",
       "brand": "Fjordholz  S1",
-      "price": 5559,
+      "price": 5679,
       "sku": "10214-54183",
       "variant_hint": false
     },
@@ -1272,7 +1272,7 @@
       "name": "Fjordholz Saunahaus Modell Prague B",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Prague-B",
       "brand": "Fjordholz",
-      "price": 9499,
+      "price": 9689,
       "sku": "549-5014",
       "variant_hint": false
     },
@@ -1280,7 +1280,7 @@
       "name": "Fjordholz Saunahaus Modell Q-BIC Alu F",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Q-BIC-Alu-F",
       "brand": "Fjordholz",
-      "price": 22169,
+      "price": 22619,
       "sku": "1342-14361",
       "variant_hint": false
     },
@@ -1288,7 +1288,7 @@
       "name": "Fjordholz Saunahaus Modell Quattro 44",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Quattro-44",
       "brand": "Fjordholz",
-      "price": 7739,
+      "price": 7899,
       "sku": "9468-49070",
       "variant_hint": false
     },
@@ -1296,7 +1296,7 @@
       "name": "Fjordholz Saunahaus Modell Quieto",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Quieto",
       "brand": "Fjordholz",
-      "price": 19289,
+      "price": 19679,
       "sku": "1164-5083",
       "variant_hint": false
     },
@@ -1304,7 +1304,7 @@
       "name": "Fjordholz Saunahaus Modell Remi",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Remi",
       "brand": "Fjordholz",
-      "price": 10869,
+      "price": 11089,
       "sku": "551-49347",
       "variant_hint": false
     },
@@ -1312,7 +1312,7 @@
       "name": "Fjordholz Saunahaus Modell Sahib",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Sahib",
       "brand": "Fjordholz",
-      "price": 11259,
+      "price": 11489,
       "sku": "1277-60939",
       "variant_hint": false
     },
@@ -1320,7 +1320,7 @@
       "name": "Fjordholz Saunahaus Modell Sanna",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Sanna",
       "brand": "Fjordholz",
-      "price": 10769,
+      "price": 10989,
       "sku": "989-4988",
       "variant_hint": false
     },
@@ -1328,7 +1328,7 @@
       "name": "Fjordholz Saunahaus Modell Sirpa",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Sirpa",
       "brand": "Fjordholz",
-      "price": 12019,
+      "price": 12259,
       "sku": "1005-4985",
       "variant_hint": false
     },
@@ -1336,7 +1336,7 @@
       "name": "Fjordholz Saunahaus Modell St. Moritz",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-St.-Moritz",
       "brand": "Fjordholz",
-      "price": 21219,
+      "price": 21649,
       "sku": "1197-5156",
       "variant_hint": false
     },
@@ -1344,7 +1344,7 @@
       "name": "Fjordholz Saunahaus Modell Sten 44",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Sten-44",
       "brand": "Fjordholz",
-      "price": 4019,
+      "price": 4099,
       "sku": "12479-90287",
       "variant_hint": false
     },
@@ -1352,7 +1352,7 @@
       "name": "Fjordholz Saunahaus Modell Sven 44",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Sven-44",
       "brand": "Fjordholz",
-      "price": 3349,
+      "price": 3419,
       "sku": "12478-90286",
       "variant_hint": false
     },
@@ -1360,7 +1360,7 @@
       "name": "Fjordholz Saunahaus Modell Talleborg",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Talleborg",
       "brand": "Fjordholz",
-      "price": 11509,
+      "price": 11739,
       "sku": "392-61035",
       "variant_hint": false
     },
@@ -1368,7 +1368,7 @@
       "name": "Fjordholz Saunahaus Modell Tanami",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Tanami",
       "brand": "Fjordholz",
-      "price": 11549,
+      "price": 11779,
       "sku": "1278-61078",
       "variant_hint": false
     },
@@ -1376,7 +1376,7 @@
       "name": "Fjordholz Saunahaus Modell Tanonka",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Tanonka",
       "brand": "Fjordholz",
-      "price": 13139,
+      "price": 13409,
       "sku": "1357-8948",
       "variant_hint": false
     },
@@ -1384,7 +1384,7 @@
       "name": "Fjordholz Saunahaus Modell Tarja",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Tarja",
       "brand": "Fjordholz",
-      "price": 10959,
+      "price": 11179,
       "sku": "994-62207",
       "variant_hint": false
     },
@@ -1392,7 +1392,7 @@
       "name": "Fjordholz Saunahaus Modell Tre 44",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Tre-44",
       "brand": "Fjordholz",
-      "price": 7399,
+      "price": 7549,
       "sku": "9465-49067",
       "variant_hint": false
     },
@@ -1400,7 +1400,7 @@
       "name": "Fjordholz Saunahaus Modell Tuuli",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Tuuli",
       "brand": "Fjordholz",
-      "price": 12089,
+      "price": 12339,
       "sku": "987-49206",
       "variant_hint": false
     },
@@ -1408,7 +1408,7 @@
       "name": "Fjordholz Saunahaus Modell Urhu 70 A",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Urhu-70-A",
       "brand": "Fjordholz",
-      "price": 9099,
+      "price": 9289,
       "sku": "9357-40103",
       "variant_hint": false
     },
@@ -1416,7 +1416,7 @@
       "name": "Fjordholz Saunahaus Modell Urhu 70 B",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Urhu-70-B",
       "brand": "Fjordholz",
-      "price": 9899,
+      "price": 10099,
       "sku": "9358-40104",
       "variant_hint": false
     },
@@ -1424,7 +1424,7 @@
       "name": "Fjordholz Saunahaus Modell Visby",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Visby",
       "brand": "Fjordholz",
-      "price": 13379,
+      "price": 13649,
       "sku": "483-5020",
       "variant_hint": false
     },
@@ -1432,7 +1432,7 @@
       "name": "Fjordholz Saunahaus Modell Wellnesslounge",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Wellnesslounge",
       "brand": "Fjordholz  S1",
-      "price": 9929,
+      "price": 10129,
       "sku": "11492-61031",
       "variant_hint": false
     },
@@ -1440,7 +1440,7 @@
       "name": "Premium LED Sauna Farblichtanwendung ColorRelax",
       "url": "https://gartenhausfabrik.de/Premium-LED-Sauna-Farblichtanwendung",
       "brand": "Gartenhausfabrik",
-      "price": 199,
+      "price": 209,
       "sku": "14204-94423",
       "variant_hint": false
     },
@@ -1488,7 +1488,7 @@
       "name": "Sauna Relax LED Kit Ambient Comfort 10m",
       "url": "https://gartenhausfabrik.de/Sauna-Relax-LED-Kit",
       "brand": "Gartenhausfabrik",
-      "price": 99,
+      "price": 109,
       "sku": "13191-91896",
       "variant_hint": false
     },
@@ -1496,7 +1496,7 @@
       "name": "Sauna Relax LED Kit Ambient Comfort 20m",
       "url": "https://gartenhausfabrik.de/Sauna-Relax-LED-Kit-Ambient-Comfort-20m",
       "brand": "Gartenhausfabrik",
-      "price": 179,
+      "price": 189,
       "sku": "13192-91897",
       "variant_hint": false
     },
@@ -1504,7 +1504,7 @@
       "name": "Saunahaus Modell Brico",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Brico",
       "brand": "Sauna4Home I1",
-      "price": 3019,
+      "price": 3079,
       "sku": "9854-48218",
       "variant_hint": false
     },
@@ -1512,7 +1512,7 @@
       "name": "Fjordholz Fass-Sauna Jonte-Copy",
       "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Jonte-Copy",
       "brand": "Sauna4Home B1",
-      "price": 4179,
+      "price": 4269,
       "sku": "14048-93937",
       "variant_hint": true
     },
@@ -1520,7 +1520,7 @@
       "name": "Fjordholz Fass-Sauna Modell Cubus-2 Black Edition",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-2-Black-Edition",
       "brand": "Fjordholz",
-      "price": 3709,
+      "price": 3789,
       "sku": "13365-92088",
       "variant_hint": true
     },
@@ -1528,7 +1528,7 @@
       "name": "Fjordholz Fass-Sauna Modell Cubus-3 Black Edition",
       "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-3-Black-Edition",
       "brand": "Fjordholz",
-      "price": 6369,
+      "price": 6499,
       "sku": "13251-91962",
       "variant_hint": true
     },
@@ -1536,7 +1536,7 @@
       "name": "Fjordholz Sauna Sparset Modell Entspannung Set-1",
       "url": "https://gartenhausfabrik.de/Fjordholz-Sauna-Spar-Set-Entspannung-Set-1",
       "brand": "Fjordholz H2",
-      "price": 179,
+      "price": 189,
       "sku": "12492-90300",
       "variant_hint": true
     },
@@ -1544,7 +1544,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe L natur",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Box-L-natur",
       "brand": "Fjordholz",
-      "price": 10319,
+      "price": 10529,
       "sku": "9767-47989",
       "variant_hint": true
     },
@@ -1552,7 +1552,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe L schwarz",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Box-L-schwarz",
       "brand": "Fjordholz",
-      "price": 12949,
+      "price": 13209,
       "sku": "9766-47988",
       "variant_hint": true
     },
@@ -1560,7 +1560,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe M schwarz",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Box-M-schwarz",
       "brand": "Fjordholz",
-      "price": 12379,
+      "price": 12629,
       "sku": "9764-47986",
       "variant_hint": true
     },
@@ -1568,7 +1568,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe S natur",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Box-S-natur",
       "brand": "Fjordholz",
-      "price": 6719,
+      "price": 6859,
       "sku": "9761-47983",
       "variant_hint": true
     },
@@ -1576,7 +1576,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe S schwarz",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Box-S-schwarz",
       "brand": "Fjordholz",
-      "price": 8649,
+      "price": 8829,
       "sku": "9561-43424",
       "variant_hint": true
     },
@@ -1584,7 +1584,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe XL natur",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Box-XL-natur",
       "brand": "Fjordholz",
-      "price": 10319,
+      "price": 10529,
       "sku": "10434-56463",
       "variant_hint": true
     },
@@ -1592,7 +1592,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe XL schwarz",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Box-XL-schwarz",
       "brand": "Fjordholz",
-      "price": 13409,
+      "price": 13679,
       "sku": "10435-56464",
       "variant_hint": true
     },
@@ -1600,7 +1600,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe XS natur",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Box-XS-natur",
       "brand": "Fjordholz",
-      "price": 6109,
+      "price": 6239,
       "sku": "9763-47985",
       "variant_hint": true
     },
@@ -1608,7 +1608,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe XS schwarz",
       "url": "https://gartenhausfabrik.de/Saunahaus-Modell-Box-XS-schwarz",
       "brand": "Fjordholz",
-      "price": 7759,
+      "price": 7919,
       "sku": "9762-47984",
       "variant_hint": true
     },
@@ -1616,7 +1616,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe XXS natur",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Box-Groesse-XXS-natur",
       "brand": "Fjordholz",
-      "price": 6779,
+      "price": 6919,
       "sku": "10269-55401",
       "variant_hint": true
     },
@@ -1624,7 +1624,7 @@
       "name": "Fjordholz Saunahaus Modell Box Größe XXS schwarz",
       "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Box-Groesse-XXS-schwarz",
       "brand": "Fjordholz",
-      "price": 8179,
+      "price": 8349,
       "sku": "10270-55404",
       "variant_hint": true
     },
