@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01",
+  "updated_at": "2026-09-02",
   "current_status": "active",
   "title": "Affiliate-Transparenz",
-  "accent": "78 Affiliate-Links sind aktiv.",
+  "accent": "99 Affiliate-Links sind aktiv.",
   "description": "Vergütete Awin-Links werden nur für exakt zugeordnete Händlerangebote eingesetzt. Herstellerquellen, Produktauswahl und Sortierung bleiben davon unabhängig.",
   "principles": [
     {
@@ -150,7 +150,7 @@
         "artsauna"
       ],
       "url": "https://ui.awin.com/merchant-profile/106021",
-      "checked_at": "2026-09-01"
+      "checked_at": "2026-09-02"
     },
     {
       "id": "awin-home-deluxe",
@@ -169,7 +169,7 @@
         "home-deluxe"
       ],
       "url": "https://ui.awin.com/merchant-profile/43199",
-      "checked_at": "2026-09-01"
+      "checked_at": "2026-09-02"
     },
     {
       "id": "awin-benz24",
@@ -188,7 +188,7 @@
         "benz24"
       ],
       "url": "https://ui.awin.com/merchant-profile/18314",
-      "checked_at": "2026-09-01"
+      "checked_at": "2026-09-02"
     },
     {
       "id": "awin-intergard",
@@ -207,7 +207,7 @@
         "intergard"
       ],
       "url": "https://ui.awin.com/merchant-profile/24966",
-      "checked_at": "2026-09-01"
+      "checked_at": "2026-09-02"
     },
     {
       "id": "awin-saunaloft",
@@ -226,7 +226,7 @@
         "saunaloft"
       ],
       "url": "https://ui.awin.com/merchant-profile/25645",
-      "checked_at": "2026-09-01"
+      "checked_at": "2026-09-02"
     },
     {
       "id": "awin-gartenhausfabrik",
@@ -245,7 +245,7 @@
         "gartenhausfabrik"
       ],
       "url": "https://ui.awin.com/merchant-profile/76696",
-      "checked_at": "2026-09-01"
+      "checked_at": "2026-09-02"
     }
   ]
 }
