@@ -1,0 +1,1312 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-07T14:40:36.052Z",
+  "source": "Awin authenticated Demmelhuber DE product feed",
+  "secret_included": false,
+  "selection_policy": "Sauna-relevante Einzel-URLs ohne Zubehör; Variantenhinweise werden markiert und nicht automatisch in data/products.json übernommen.",
+  "advertiser_id": "18816",
+  "advertiser_name": "Demmelhuber DE",
+  "feed_id": "39421",
+  "feed_name": "AWIN_DHV-default",
+  "feed_rows": 3935,
+  "sauna_relevant_rows": 144,
+  "products_returned": 144,
+  "products": [
+    {
+      "name": "Anbaudach für Saunahaus CubenHygge Naturbelassen",
+      "url": "https://demmelhuber.net/karibu-anbaudach-fuer-saunahaus-cuben/hygge-87033",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 770.52,
+      "sku": "15-001-01-000-03087",
+      "variant_hint": false
+    },
+    {
+      "name": "Anbaudach für Saunahaus SKROLLAN 2 + 3 Naturbelassen",
+      "url": "https://demmelhuber.net/karibu-schleppdach-fuer-saunahaus-skrollan-2-3-87062",
+      "brand": "Karibu",
+      "category": "Garden",
+      "price": 1094.99,
+      "sku": "15-001-02-000-00083",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna 1 225 x 175 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-fasssauna-1-2-25-x-1-75-m-38-mm-404",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 3078.99,
+      "sku": "15-001-01-000-04246",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna 2 225 x 295 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-fasssauna-2-2-25-x-2-95-m-38-mm-92827",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 3927.19,
+      "sku": "15-001-01-000-04156",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna 3 225 x 385 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-fasssauna-3-2-25-x-3-85-m-38-mm-92830",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4784.17,
+      "sku": "15-001-01-000-04160",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna QUADRO 1 199 x 175 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-fasssauna-quadro-1-1-99-x-1-75-m-38-mm-34264",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2324.59,
+      "sku": "15-001-01-000-04448",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna QUADRO 1 PLUS 242 x 175 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-fasssauna-quadro-1-plus-2-42-x-1-75-m-38-mm-35447",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2905.05,
+      "sku": "15-001-01-000-04492",
+      "variant_hint": false
+    },
+    {
+      "name": "Fasssauna QUADRO 3 199 x 355 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-fasssauna-quadro-3-1-99-x-3-55-m-38-mm-117",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 3971.51,
+      "sku": "15-001-01-000-04243",
+      "variant_hint": false
+    },
+    {
+      "name": "Gartensauna SANNE 413 x 210 m Halbglastür",
+      "url": "https://demmelhuber.net/finnhaus-wolff-gartensauna-sanne-4-13-x-2-10-m-350-305",
+      "brand": "Finnhaus Wolff",
+      "category": "Bathrooms & Accessories",
+      "price": 9899,
+      "sku": "15-001-03-000-00306",
+      "variant_hint": false
+    },
+    {
+      "name": "Gartensauna SARAH 395 x 366 m Halbglastür",
+      "url": "https://demmelhuber.net/finnhaus-wolff-gartensauna-sarah-3-95-x-3-66-m-350-190",
+      "brand": "Finnhaus Wolff",
+      "category": "Bathrooms & Accessories",
+      "price": 11990,
+      "sku": "15-001-03-000-00304",
+      "variant_hint": false
+    },
+    {
+      "name": "Gartensauna SILLA 720 x 320 m",
+      "url": "https://demmelhuber.net/finnhaus-wolff-gartensauna-silla-7-20-x-3-20-m-350-160",
+      "brand": "Finnhaus Wolff",
+      "category": "Bathrooms & Accessories",
+      "price": 15990,
+      "sku": "15-001-03-000-00307",
+      "variant_hint": false
+    },
+    {
+      "name": "Gartensauna SIMONE 440 x 320 m",
+      "url": "https://demmelhuber.net/finnhaus-wolff-gartensauna-simone-4-40-x-3-20-m-350-150",
+      "brand": "Finnhaus Wolff",
+      "category": "Bathrooms & Accessories",
+      "price": 12690,
+      "sku": "15-001-03-000-00303",
+      "variant_hint": false
+    },
+    {
+      "name": "Gartensauna STEFFI 395 x 366 cm",
+      "url": "https://demmelhuber.net/finnhaus-wolff-gartensauna-steffi-3-95-x-3-66-cm-350-180",
+      "brand": "Finnhaus Wolff",
+      "category": "Bathrooms & Accessories",
+      "price": 11590,
+      "sku": "04-002-03-001-00276",
+      "variant_hint": false
+    },
+    {
+      "name": "Gartensauna STINA 1Raum 2 x 2 m",
+      "url": "https://demmelhuber.net/finnhaus-wolff-gartensauna-stina-340-320",
+      "brand": "Finnhaus Wolff",
+      "category": "Bathrooms & Accessories",
+      "price": 6999,
+      "sku": "15-001-03-000-00245",
+      "variant_hint": false
+    },
+    {
+      "name": "Gartensauna SWANA 396 x 210 m",
+      "url": "https://demmelhuber.net/finnhaus-wolff-gartensauna-swana-3-96-x-2-10-m-350-140",
+      "brand": "Finnhaus Wolff",
+      "category": "Bathrooms & Accessories",
+      "price": 9899,
+      "sku": "04-002-03-001-00281",
+      "variant_hint": false
+    },
+    {
+      "name": "Infrarotkabine ASTA 231 x 231 m 9.0 kW BioKombiofen inkl. Steuergerät mit Dachkranz",
+      "url": "https://demmelhuber.net/karibu-infrarotkabine-asta-2-31-x-2-31-m-6700",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4037.37,
+      "sku": "15-001-02-000-00087",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna ADELINA 195 x 169 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-adelina-1-95-x-1-69-m-6755",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2106.92,
+      "sku": "15-001-02-000-00213",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna AMARA 236 x 184 m 40 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-amara-2-36-x-1-84-m-40-mm-71285",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2937.75,
+      "sku": "15-001-01-000-01709",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna ANTONIA 145 x 145 m 3.6 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-antonia-1-45-x-1-45-m-6717",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 1799.88,
+      "sku": "15-001-02-000-00249",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna ELEA 195 x 169 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-elea-1-95-x-1-69-m-6762",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2065.63,
+      "sku": "15-001-02-000-00207",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna JADA 224 x 16 m 9.0 kW Ofen inkl. Steuergerät mit Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-jada-2-24-x-1-6-m-6806",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2247.11,
+      "sku": "15-001-02-000-00167",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna JELLA 195 x 145 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-jella-1-95-x-1-45-m-6744",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2147.98,
+      "sku": "15-001-02-000-00222",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna MIA 196 x 17 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-mia-1-96-x-1-7-m-86545",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2264.52,
+      "sku": "15-001-01-000-02906",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna MOJAVE 196 x 196 m 40 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-mojave-1-96-x-1-96-m-40-mm-71394",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2478.12,
+      "sku": "15-001-01-000-01668",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna SANDRA 145 x 145 m 3.6 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-sandra-1-45-x-1-45-m-6705",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 1656.76,
+      "sku": "15-001-02-000-00261",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna SELENA 195 x 145 m 3.6 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-selena-1-95-x-1-45-m-6729",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 1821.22,
+      "sku": "15-001-02-000-00237",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna SINAI 236 x 184 m 38 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-sinai-2-36-x-1-84-m-40-mm-62933",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2912.64,
+      "sku": "15-001-01-000-01361",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna SONARA 231 x 196 m 38 mm 9.0 kW Ofen inkl. Steuergerät ohne Dachkranz Ganzglastür Klarglas",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-sonara-2-36-x-1-84-m-40-mm-75819",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2817.09,
+      "sku": "15-001-01-000-02537",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna TABEA 196 x 196 m 9.0 kW BioKombiofen inkl. Steuergerät ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-tabea-1-96-x-1-96-m-6816",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2601.86,
+      "sku": "15-001-02-000-00157",
+      "variant_hint": false
+    },
+    {
+      "name": "Massivholzsauna TANAMI 231 x 196 m 38 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-tanami-2-36-x-1-84-m-40-mm-54467",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2643.11,
+      "sku": "15-001-01-000-01171",
+      "variant_hint": false
+    },
+    {
+      "name": "Salzkristall VITAL SOLE für Saunaöfen",
+      "url": "https://demmelhuber.net/karibu-salzkristall-vital-sole-fuer-saunaoefen-50316",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 218.99,
+      "sku": "15-001-01-000-00475",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna  Infrarotkabine AVA 231 x 196 m 9.0 kW Ofen inkl. Steuergerät ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-infrarotkabine-ava-2-31-x-1-96-m-6692",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 3649.62,
+      "sku": "15-001-02-000-00094",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Abluftschieber Lüftungsschieber",
+      "url": "https://demmelhuber.net/suleno-sauna-abluftschieber-20241-0",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 12.99,
+      "sku": "15-001-01-000-02386",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna AINUR 231 x 196 m 9.0 kW BioKombiofen inkl. Steuergerät mit Dachkranz",
+      "url": "https://demmelhuber.net/karibu-sauna-ainur-2-31-x-1-96-m-6098",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 3395.29,
+      "sku": "15-001-02-000-00132",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna AIRI 196 x 196 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-sauna-airi-1-96-x-1-96-m-34291",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2849.37,
+      "sku": "15-001-01-000-04461",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna ALCINDA 2 231 x 231 m 9.0 kW BioKombiofen inkl. Steuergerät ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-sauna-alcinda-2-2-31-x-2-31-m-2503",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 3414.99,
+      "sku": "15-001-02-000-00129",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna AMELIA 1 196 x 170 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-sauna-amelia-1-1-96-x-1-70-m-66743",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2313.11,
+      "sku": "15-001-01-000-01484",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna AMELIA 3 231 x 196 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-sauna-amelia-3-2-31-x-1-96-m-66760",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2602.85,
+      "sku": "15-001-01-000-01500",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Aromatopf Terrakotta",
+      "url": "https://demmelhuber.net/karibu-sauna-aromatopf-terrakotta-46694",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 61.99,
+      "sku": "15-001-01-000-00443",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna ARVIKA 231 x 231 m 9.0 kW BioKombiofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-sauna-arvika-2-31-x-2-31-m-6197",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2855.52,
+      "sku": "15-001-02-000-00284",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Aufgusskübel 4 L",
+      "url": "https://demmelhuber.net/karibu-sauna-aufgusskuebel-4-l-60103",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 56.99,
+      "sku": "15-001-01-000-01039",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna AVARI 1 155 x 122 m 3.6 kW Ofen integr. Steuerung",
+      "url": "https://demmelhuber.net/karibu-sauna-avari-1-1-55-x-1-22-m-93002",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 1740.49,
+      "sku": "15-001-01-000-04177",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna AVARI 2 216 x 122 m 3.6 kW Ofen integr. Steuerung",
+      "url": "https://demmelhuber.net/karibu-sauna-avari-2-2-16-x-1-22-m-93006",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2028.12,
+      "sku": "15-001-01-000-04181",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Bodenrost EspeFichte 77 x 38 cm Fichte",
+      "url": "https://demmelhuber.net/karibu-sauna-bodenrost-71322",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 66.99,
+      "sku": "15-001-01-000-01581",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna BODIN 196 x 151 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-bodin-1-96-x-1-51-m-75631",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2235.94,
+      "sku": "15-001-01-000-01915",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna BODO 196 x 178 m 9.0 kW Ofen integr. Steuerung",
+      "url": "https://demmelhuber.net/karibu-sauna-bodo-1-96-x-1-78-m-6208",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2057.38,
+      "sku": "15-001-02-000-00295",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna CARIN 196 x 151 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-carin-1-96-x-1-51-m-75668",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2413.93,
+      "sku": "15-001-01-000-01934",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna FAURIN 17 x 151 m 9.0 kW Ofen integr. Steuerung",
+      "url": "https://demmelhuber.net/karibu-sauna-faurin-1-7-x-1-51-m-6199",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 1653.77,
+      "sku": "15-001-02-000-00301",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna FIONA 1 196 x 151 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-sauna-fiona-1-1-96-x-1-51-m-59672",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2184.23,
+      "sku": "15-001-01-000-01244",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna FIONA 2 196 x 170 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-sauna-fiona-2-1-96-x-1-70-m-52595",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2267.95,
+      "sku": "15-001-01-000-00912",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna FIONA 3 231 x 196 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-sauna-fiona-3-2-31-x-1-96-m-49442",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2519.13,
+      "sku": "15-001-01-000-00813",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna GOBIN 231 x 196 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-gobin-2-31-x-1-96-m-75757",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2649.64,
+      "sku": "15-001-01-000-02057",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Hygrometer CLASSIC",
+      "url": "https://demmelhuber.net/karibu-sauna-hygrometer-classic-46709",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 38.99,
+      "sku": "15-001-01-000-00446",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna IRAVA 1 155 x 122 m 3.6 kW Ofen ext. Steuerung",
+      "url": "https://demmelhuber.net/karibu-sauna-irava-1-1-55-x-1-22-m-90",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2325.28,
+      "sku": "15-001-01-000-04249",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna IRAVA 2 216 x 122 m 3.6 kW Ofen integr. Steuerung",
+      "url": "https://demmelhuber.net/karibu-sauna-irava-2-2-16-x-1-22-m-92",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2618.99,
+      "sku": "15-001-01-000-04252",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna IRAVA 3 216 x 138 m 3.6 kW Ofen integr. Steuerung",
+      "url": "https://demmelhuber.net/karibu-sauna-irava-3-2-16-x-1-38-m-95",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2668.99,
+      "sku": "15-001-01-000-04256",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna JARIN 196 x 196 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-jarin-1-96-x-1-96-m-71344",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2477.27,
+      "sku": "15-001-01-000-01658",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Klimamesser 2in1 Edelstahl ThermometerHygrometer",
+      "url": "https://demmelhuber.net/suleno-sauna-klimamesser-thermometer/hygrometer-20141-0",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 10.99,
+      "sku": "15-001-01-000-02375",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Klimamesser 2in1 ThermometerHygrometer",
+      "url": "https://demmelhuber.net/suleno-sauna-klimamesser-2in1-thermometer/hygrometer-zedernholz-20081-1",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 13.99,
+      "sku": "15-001-01-000-02369",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Klimamesser CLASSIC",
+      "url": "https://demmelhuber.net/karibu-sauna-klimamesser-classic-46711",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 48.99,
+      "sku": "15-001-01-000-00447",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Klimamesser Thermometer Hygrometer ANNA CLASSIC",
+      "url": "https://demmelhuber.net/suleno-sauna-klimamesser-thermometer-hygrometer-anna-classic-20221-1",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 23.99,
+      "sku": "15-001-01-000-02384",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Klimamessstation Premium",
+      "url": "https://demmelhuber.net/karibu-sauna-klimamessstation-premium-46715",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 78.99,
+      "sku": "15-001-01-000-00449",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna KOTKA 196 x 196 m 9.0 kW Ofen integr. Steuerung",
+      "url": "https://demmelhuber.net/karibu-sauna-kotka-1-96-x-1-96-m-6214",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2296.62,
+      "sku": "15-001-02-000-00289",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna LARIN 151 x 151 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-larin-1-51-x-1-51-m-75615",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2192.3,
+      "sku": "15-001-01-000-01897",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna OULU 196 x 196 m 9.0 kW Ofen integr. Steuerung",
+      "url": "https://demmelhuber.net/karibu-sauna-oulu-1-96-x-1-96-m-6211",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2255.37,
+      "sku": "15-001-02-000-00292",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Pflegebox Reiniger + Pflegemilch",
+      "url": "https://demmelhuber.net/karibu-sauna-pflegebox-reiniger-pflegemilch-79953",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 78.99,
+      "sku": "15-001-01-000-02355",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Rückenlehne ergonomisch",
+      "url": "https://demmelhuber.net/karibu-sauna-rueckenlehne-ergonomisch-46707",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 73.99,
+      "sku": "15-001-01-000-00445",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Rückenlehne ergonomisch",
+      "url": "https://demmelhuber.net/suleno-suleno-sauna-rueckenlehne-ergonomisch-20351-1",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 24.99,
+      "sku": "15-001-01-000-03116",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna SAJA 151 x 196 m 3.6 kW BioKombiofen ext. Steuerung mit Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-saja-1-51-x-1-96-m-85898",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2742.82,
+      "sku": "15-001-01-000-02686",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Salzkristalle 1 kg",
+      "url": "https://demmelhuber.net/karibu-sauna-salzkristalle-1-kg-52933",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 38.99,
+      "sku": "15-001-01-000-00484",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Sanduhr 5  15 Minuten",
+      "url": "https://demmelhuber.net/suleno-sauna-sanduhr-5-15-minuten-20091-1",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 10.99,
+      "sku": "15-001-01-000-02370",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Sanduhr CLASSIC Naturholz",
+      "url": "https://demmelhuber.net/karibu-sauna-sanduhr-classic-naturholz-46717",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 38.99,
+      "sku": "15-001-01-000-00450",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Sanduhr Eieruhr 15 Minuten  Hitzebeständiges Klarglas & Naturholz für Sauna Küche Bad",
+      "url": "https://demmelhuber.net/suleno-sauna-sanduhr-eieruhr-15-minuten-20101-1",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 12.99,
+      "sku": "15-001-01-000-02371",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna SIIRIN 196 x 17 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-siirin-1-96-x-1-7-m-71369",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2313.11,
+      "sku": "15-001-01-000-01643",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Silikonkabel 3 x 15 mm 4 m für Saunaleuchten",
+      "url": "https://demmelhuber.net/karibu-sauna-silikonkabel-3-x-1-5-mm-4-m-fuer-saunaleuchten-13367",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 46.99,
+      "sku": "15-001-01-000-00412",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Silikonkabel 5 x 25 mm 3 m für Saunaöfen",
+      "url": "https://demmelhuber.net/karibu-sauna-silikonkabel-5-x-2-5-mm-3-m-fuer-saunaoefen-13365",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 59.99,
+      "sku": "15-001-01-000-00410",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Silikonkabel 7 x 15 mm 3 m für BioSteuergeräte",
+      "url": "https://demmelhuber.net/karibu-sauna-silikonkabel-7-x-1-5-mm-3-m-fuer-bio-steuergeraete-56407",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 39.99,
+      "sku": "15-001-01-000-00645",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Silikonkabel AnschlussSET für BioSaunaöfen 9 kW",
+      "url": "https://demmelhuber.net/karibu-sauna-silikonkabel-anschluss-set-fuer-bio-saunaoefen-9-kw-56407-s",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 47.99,
+      "sku": "15-001-01-000-01574",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Silikonkabel AnschlussSET für Saunaöfen 9 kW",
+      "url": "https://demmelhuber.net/karibu-sauna-silikonkabel-anschluss-set-fuer-saunaoefen-9-kw-13365-s",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 37.99,
+      "sku": "15-001-01-000-01573",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Silikonkabel Saunakabel 3x15mm SaunaleuchteSteuergerät",
+      "url": "https://demmelhuber.net/suleno-sauna-silikonkabel-saunakabel-sk3x1-5",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 25.99,
+      "sku": "15-001-06-000-00019",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna SODIN 196 x 17 m Naturbelassen 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-sodin-1-96-x-1-7-m-75692",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2383.79,
+      "sku": "15-001-01-000-01927",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna TAURIN 17 x 151 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-taurin-1-7-x-1-51-m-80642",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2137.44,
+      "sku": "15-001-01-000-02313",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Thermometer CLASSIC",
+      "url": "https://demmelhuber.net/karibu-sauna-thermometer-classic-46713",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 38.99,
+      "sku": "15-001-01-000-00448",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna TONJA 170 x 151 m 3.6 kW Ofen ext. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-tonja-1-70-x-1-51-m-85844",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2235.94,
+      "sku": "15-001-01-000-02633",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna TROMSÖ 196 x 178 m 9.0 kW Ofen integr. Steuerung",
+      "url": "https://demmelhuber.net/karibu-sauna-tromsoe-1-96-x-1-78-m-6203",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2192.3,
+      "sku": "15-001-02-000-00298",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna VARIADO 196 x 118 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-variado-1-96-x-1-18-m-80669",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2263.22,
+      "sku": "15-001-01-000-02335",
+      "variant_hint": false
+    },
+    {
+      "name": "Sauna Wanduhr Ø 22 cm KübelDesign",
+      "url": "https://demmelhuber.net/suleno-sauna-wanduhr-oe-22-cm-kuebel-design-20151-1",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 20.99,
+      "sku": "15-001-01-000-02376",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunabank und Rückenlehnenset VISBY Sauna Inneneinrichtung für Saunen bis 220 x 206 cm 220 x 206 cm",
+      "url": "https://demmelhuber.net/suleno-saunabank-und-rueckenlehnenset-visby-sauna-inneneinrichtung-fuer-saunen-bis-220-x-206-cm-32771-23",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 1199,
+      "sku": "15-001-01-000-04526",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus ANGKOR 1 191 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-angkor-1-1-91-x-2-76-m-38-mm-179",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4078.99,
+      "sku": "15-001-01-000-04373",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus ANGKOR 2 237 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-angkor-2-2-37-x-2-76-m-38-mm-182",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4378.99,
+      "sku": "15-001-01-000-04363",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus ANGKOR 3 277 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-angkor-3-2-77-x-2-76-m-38-mm-185",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4778.99,
+      "sku": "15-001-01-000-04366",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus ARES 1 191 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+      "url": "https://demmelhuber.net/karibu-saunahaus-ares-1-1-91-x-2-76-m-38-mm-222",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 3546.66,
+      "sku": "15-001-01-000-04327",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus ARES 2 231 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+      "url": "https://demmelhuber.net/karibu-saunahaus-ares-2-2-31-x-2-76-m-38-mm-314",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4105.37,
+      "sku": "15-001-01-000-04306",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus ARES 3 277 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+      "url": "https://demmelhuber.net/karibu-saunahaus-ares-3-2-77-x-2-76-m-38-mm-341",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4134.04,
+      "sku": "15-001-01-000-04285",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus CUBEN 276 x 276 m 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-80796",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4371.67,
+      "sku": "15-001-01-000-02247",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus HYTTI 0 196 x 113 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hytti-0-1-96-x-1-13-m-38-mm-358",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2077.27,
+      "sku": "15-001-01-000-04426",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus HYTTI 1 196 x 146 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hytti-1-1-96-x-1-46-m-38-mm-93865",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2058.98,
+      "sku": "15-001-01-000-04165",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus HYTTI 2 196 x 196 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hytti-2-1-96-x-1-96-m-38-mm-93869",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2504.35,
+      "sku": "15-001-01-000-04189",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus HYTTI 3 231 x 196 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hytti-3-2-31-x-1-96-m-38-mm-93872",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2638.21,
+      "sku": "15-001-01-000-04213",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus HYTTI 6 396 x 231 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hytti-6-3-96-x-2-31-m-38-mm-126",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4128.99,
+      "sku": "15-001-01-000-04398",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus LAGUNA 220 x 288 m 73 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-laguna-2-20-x-2-88-m-73-mm-198",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4628.99,
+      "sku": "15-001-01-000-04354",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus MIRAMAR 220 x 429 m 73 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-miramar-2-20-x-4-29-m-73-mm-510",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 7228.99,
+      "sku": "15-001-01-000-04342",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus MONTEREY 574 x 2165 cm 73 mm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/detail/index/sArticle/25710",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 8678.99,
+      "sku": "15-001-01-000-04504",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus SKROLLAN 1 337 x 196 cm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät ISOGlas Klarglas modern",
+      "url": "https://demmelhuber.net/karibu-saunahaus-skrollan-1-3-37-x-1-96-cm-mit-vorraum-86287",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4478.99,
+      "sku": "15-001-03-000-00066",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus SKROLLAN 2 337 x 231 cm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät ISOGlas Klarglas modern",
+      "url": "https://demmelhuber.net/karibu-saunahaus-skrollan-2-3-37-x-2-31-cm-mit-vorraum-86294",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 3882.26,
+      "sku": "15-001-03-000-00070",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunahaus SKROLLAN 3 396 x 231 cm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät ISOGlas Klarglas modern",
+      "url": "https://demmelhuber.net/karibu-saunahaus-skrollan-3-3-96-x-2-31-cm-mit-vorraum-86311",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4412.91,
+      "sku": "15-001-03-000-00052",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunatür CLASSIC Glastür bronziert 3840 mm Sauna",
+      "url": "https://demmelhuber.net/karibu-saunatuer-classic-glastuer-bronziert-75357",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 504.99,
+      "sku": "15-001-01-000-01827",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunatür MODERN GraphitGlastür 3840 mm Sauna",
+      "url": "https://demmelhuber.net/karibu-saunatuer-modern-graphit-glastuer-76002",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 449.99,
+      "sku": "15-001-01-000-01830",
+      "variant_hint": false
+    },
+    {
+      "name": "Saunatür TRADITIONELL Energiespartür 3840 mm Sauna",
+      "url": "https://demmelhuber.net/karibu-saunatuer-traditionell-energiespartuer-71320",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 449.99,
+      "sku": "15-001-01-000-01594",
+      "variant_hint": false
+    },
+    {
+      "name": "Steuergerät EASY für Saunaöfen 35  9 kW",
+      "url": "https://demmelhuber.net/karibu-steuergeraet-easy-fuer-saunaoefen-3-5-9-kw-80415",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 348.99,
+      "sku": "15-001-01-000-02356",
+      "variant_hint": false
+    },
+    {
+      "name": "Gartensauna FASSHAUS 2 219 x 295 m ohne Ofen",
+      "url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-2-2-19-x-2-95-m-27450",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2903.16,
+      "sku": "15-001-01-000-03690",
+      "variant_hint": true
+    },
+    {
+      "name": "Gartensauna FASSHAUS 3 219 x 385 m ohne Ofen",
+      "url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-3-2-19-x-3-85-m-27453",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 3941.47,
+      "sku": "15-001-01-000-03693",
+      "variant_hint": true
+    },
+    {
+      "name": "Gartensauna LULEA 400 x 230 m Fasssauna mit Holzofen",
+      "url": "https://demmelhuber.net/suleno-gartensauna-lulea-4-00-x-2-30-m-fasssauna-mit-holzofen-52101-0a",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 8999,
+      "sku": "08-001-10-000-00024",
+      "variant_hint": true
+    },
+    {
+      "name": "Massivholzsauna JUTTA 196 x 196 m ohne Ofen mit Dachkranz",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-jutta-1-96-x-1-96-m-6183",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 1983.29,
+      "sku": "15-001-02-000-00317",
+      "variant_hint": true
+    },
+    {
+      "name": "Massivholzsauna SAHIB 1 193 x 184 m 40 mm ohne Ofen mit Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-sahib-1-1-93-x-1-84-m-40-mm-75854",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2186.71,
+      "sku": "15-001-01-000-01954",
+      "variant_hint": true
+    },
+    {
+      "name": "Massivholzsauna SAHIB 2 236 x 184 m 40 mm ohne Ofen ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-sahib-2-2-36-x-1-84-m-40-mm-75877",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2478.12,
+      "sku": "15-001-01-000-02002",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna ASKJA 216 x 234 m ohne Ofen ohne Dachkranz",
+      "url": "https://demmelhuber.net/karibu-sauna-askja-2-16-x-2-34-m-35230",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2698.89,
+      "sku": "15-001-01-000-03800",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna Bankblenden Set LARVIK Sauna Zwischenbankverkleidung Hemlock 850  219 mm",
+      "url": "https://demmelhuber.net/suleno-sauna-bankblenden-set-larvik-sauna-zwischenbankverkleidung-hemlock-850-219-mm-32761-00",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 149.99,
+      "sku": "15-001-01-000-04525",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna Bodenrost ANNA 100 x 46 cm natur",
+      "url": "https://demmelhuber.net/detail/index/sArticle/23324",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 35.99,
+      "sku": "15-001-01-000-03111",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna DARIA 196 x 170 m ohne Ofen ohne Dachkranz Klarglastür",
+      "url": "https://demmelhuber.net/karibu-sauna-daria-1-96-x-1-70-m-59780",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2067.01,
+      "sku": "15-001-01-000-02719",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna Duftkonzentrat 5tlg. Set",
+      "url": "https://demmelhuber.net/suleno-sauna-duftkonzentrat-5tlg.-set-20191-0",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 11.99,
+      "sku": "15-001-01-000-02380",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna FANJA 196 x 151 m ohne Ofen ohne Dachkranz Ganzglastür graphit",
+      "url": "https://demmelhuber.net/karibu-sauna-fanja-1-96-x-1-51-m-59778",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 1949.32,
+      "sku": "15-001-01-000-02663",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna HORNA 231 x 196 m ohne Ofen",
+      "url": "https://demmelhuber.net/karibu-sauna-horna-2-31-x-1-96-m-6196",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2117.25,
+      "sku": "15-001-02-000-00304",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna LILJA 196 x 170 m ohne Ofen ohne Dachkranz mit Dachkranz Ganzglastür bronziert",
+      "url": "https://demmelhuber.net/karibu-sauna-lilja-1-96-x-1-70-m-59781",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2108.88,
+      "sku": "15-001-01-000-01308",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna MALIN 231 x 196 m ohne Ofen mit Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-malin-2-31-x-1-96-m-75782",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2387.38,
+      "sku": "15-001-01-000-02010",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna NANJA 151 x 151 m ohne Ofen mit Dachkranz Ganzglastür graphit",
+      "url": "https://demmelhuber.net/karibu-sauna-nanja-1-51-x-1-51-m-59777",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 1909.87,
+      "sku": "15-001-01-000-02619",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna NYBRO 231 x 196 m ohne Ofen",
+      "url": "https://demmelhuber.net/karibu-sauna-nybro-2-31-x-1-96-m-6195",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2065.63,
+      "sku": "15-001-02-000-00305",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna RODIN 196 x 196 m ohne Ofen ohne Dachkranz Energiespartür",
+      "url": "https://demmelhuber.net/karibu-sauna-rodin-1-96-x-1-96-m-75722",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 2092.13,
+      "sku": "15-001-01-000-01900",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna Rückenlehnen Set LARVIK Lehne Sauna Hemlock 850  219 mm",
+      "url": "https://demmelhuber.net/suleno-sauna-rueckenlehnen-set-larvik-lehne-sauna-hemlock-850-219-mm-22511-06",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 149.95,
+      "sku": "15-001-01-000-04436",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna Set 2teilig Edelstahl",
+      "url": "https://demmelhuber.net/suleno-sauna-set-2-teilig-edelstahl-20211-1",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 41.99,
+      "sku": "15-001-01-000-02382",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna Set ANEA  2teilig Kübel Kelle Gold metallic",
+      "url": "https://demmelhuber.net/suleno-sauna-set-anea-2-teilig-kuebel-kelle-21121-29",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 54.99,
+      "sku": "15-001-01-000-03766",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna Set ANNA 2teilig Klimamesser Sanduhr",
+      "url": "https://demmelhuber.net/suleno-sauna-set-anna-2-teilig-klimamesser-sanduhr-dh603",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 35.99,
+      "sku": "15-001-01-000-02362",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna SET KJELL  2teilig Klimamesser Sanduhr Schwarz eloxiert",
+      "url": "https://demmelhuber.net/suleno-sauna-set-kjell-2-teilig-klimamesser-sanduhr-30135-14",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 54.99,
+      "sku": "15-001-01-000-03756",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna Set KJELL  2teilig Kübel Kelle Aluminium eloxiert Schwarz eloxiert",
+      "url": "https://demmelhuber.net/suleno-sauna-set-kjell-2-teilig-kuebel-kelle-aluminium-eloxiert-20821-14",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 65.99,
+      "sku": "15-001-01-000-03679",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna Set KJELL  2teilig Kübel Kelle Aluminium pulverbeschichtet weiß",
+      "url": "https://demmelhuber.net/suleno-sauna-set-kjell-2-teilig-kuebel-kelle-aluminium-pulverbeschichtet-20821-21",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 62.99,
+      "sku": "15-001-01-000-03680",
+      "variant_hint": true
+    },
+    {
+      "name": "Sauna Zubehör Set  Saunaeimer mit Kelle aus Nadelholz mit PVCEinsatz  Auslaufsicher",
+      "url": "https://demmelhuber.net/suleno-sauna-zubehoer-set-saunaeimer-mit-kelle-aus-nadelholz-mit-pvc-einsatz-auslaufsicher-22072-08",
+      "brand": "Suleno",
+      "category": "Bathrooms & Accessories",
+      "price": 36.99,
+      "sku": "15-001-01-000-04230",
+      "variant_hint": true
+    },
+    {
+      "name": "Saunahaus CUBEN 276 x 276 m terragrau 9.0 kW Ofen inkl. Steuergerät",
+      "url": "https://demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-terragrau-81132",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4784.17,
+      "sku": "15-001-01-000-02351",
+      "variant_hint": true
+    },
+    {
+      "name": "Saunahaus HYGGE 508 x 276 cm ohne Ofen",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-86314",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 5071.76,
+      "sku": "15-001-03-000-00054",
+      "variant_hint": true
+    },
+    {
+      "name": "Saunahaus HYGGE 508 x 276 cm terragrau ohne Ofen",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-terragrau-86313",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 5790.66,
+      "sku": "15-001-03-000-00058",
+      "variant_hint": true
+    },
+    {
+      "name": "Saunahaus MAINBURG 1 309 x 309 m mit Vorraum Naturbelassen ohne Ofen Set A  Sauna mit 2 Liegen 200 x 170 m",
+      "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-1-3-09-x-3-09-m-mit-vorraum-35863",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 4745.42,
+      "sku": "15-001-01-000-03828",
+      "variant_hint": true
+    },
+    {
+      "name": "Saunahaus MAINBURG 2 369 x 309 m mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät Set A  Sauna mit 2 Liegen 200 x 170 m",
+      "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-2-3-69-x-3-09-m-mit-vorraum-35977",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 5438.67,
+      "sku": "15-001-01-000-03931",
+      "variant_hint": true
+    },
+    {
+      "name": "Saunahaus MAINBURG 3 369 x 369 m mit Vorraum Terragrau ohne Ofen Set A  Sauna mit 2 Liegen 200 x 170 m",
+      "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-3-3-69-x-3-69-m-mit-vorraum-36278",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 5490.38,
+      "sku": "15-001-01-000-03843",
+      "variant_hint": true
+    },
+    {
+      "name": "Saunahaus MAINBURG 4 490 x 369 m mit Vorraum ohne Ofen Set A  Sauna mit 2 Liegen 200 x 170 m",
+      "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-4-4-90-x-3-69-m-mit-vorraum-36292",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 6256.02,
+      "sku": "15-001-01-000-03852",
+      "variant_hint": true
+    },
+    {
+      "name": "Saunahaus MAINBURG 5 509 x 369 m mit Vorraum Naturbelassen ohne Ofen Set A  Sauna mit 2 Liegen 200 x 170 m",
+      "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-5-5-09-x-3-69-m-mit-vorraum-36298",
+      "brand": "Karibu",
+      "category": "Bathrooms & Accessories",
+      "price": 6444.85,
+      "sku": "15-001-01-000-03858",
+      "variant_hint": true
+    }
+  ]
+}
