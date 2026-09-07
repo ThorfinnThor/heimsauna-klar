@@ -16,6 +16,7 @@ on:
           - saunaloft
           - gartenhausfabrik
           - wellness-point
+          - demmelhuber
       limit:
         description: "Maximum sanitized candidates to write"
         required: true

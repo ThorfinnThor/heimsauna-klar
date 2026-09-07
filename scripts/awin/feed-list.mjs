@@ -20,6 +20,12 @@ const TARGETS = [
     matches: (name) => normalizedKey(name).includes("wellnesspoint"),
     preferredFeed: (entry) => normalizedKey(entry.feedName ?? "").includes("de"),
   },
+  {
+    merchantId: "demmelhuber",
+    label: "Demmelhuber",
+    matches: (name) => normalizedKey(name).includes("demmelhuber"),
+    preferredFeed: (entry) => normalizedKey(entry.feedName ?? "").includes("default"),
+  },
 ];
 
 function normalizedKey(value) {

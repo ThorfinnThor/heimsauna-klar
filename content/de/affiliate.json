@@ -265,6 +265,25 @@
       ],
       "url": "https://ui.awin.com/merchant-profile/115411",
       "checked_at": "2026-09-02"
+    },
+    {
+      "id": "awin-demmelhuber",
+      "name": "Demmelhuber",
+      "network": "Awin",
+      "program_id": "18816",
+      "status": "approved",
+      "focus": "Saunakabinen, Gartensaunen und Infrarotkabinen von Demmelhuber; Aktivierung nur bei exakter Produkt-URL-Zuordnung.",
+      "commission_snapshot": "Aktuelle Konditionen im Awin-Publisher-Konto",
+      "cookie_days": null,
+      "direct_linking": true,
+      "tracking_hosts": [
+        "awin1.com"
+      ],
+      "advertiser_merchant_ids": [
+        "demmelhuber"
+      ],
+      "url": "https://ui.awin.com/merchant-profile/18816",
+      "checked_at": "2026-09-07"
     }
   ]
 }

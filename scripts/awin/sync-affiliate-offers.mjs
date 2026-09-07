@@ -25,6 +25,9 @@ const TARGET_DETAILS = {
   "wellness-point": {
     focus: "Saunen, Infrarotkabinen und Wellnessangebote von Wellness Point; Aktivierung nur bei exakter Produkt-URL-Zuordnung.",
   },
+  demmelhuber: {
+    focus: "Saunakabinen, Gartensaunen und Infrarotkabinen von Demmelhuber; Aktivierung nur bei exakter Produkt-URL-Zuordnung.",
+  },
 };
 
 const rawUrl = process.env.AWIN_FEED_LIST_URL?.trim();

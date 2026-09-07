@@ -247,5 +247,20 @@
     "candidate_program_ids": [
       "awin-gartenhausfabrik"
     ]
+  },
+  {
+    "id": "demmelhuber",
+    "name": "Demmelhuber",
+    "kind": "retailer",
+    "allowed_hosts": [
+      "demmelhuber.net"
+    ],
+    "affiliate": {
+      "status": "inactive",
+      "program_id": null
+    },
+    "candidate_program_ids": [
+      "awin-demmelhuber"
+    ]
   }
 ]
