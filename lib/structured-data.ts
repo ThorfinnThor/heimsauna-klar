@@ -38,6 +38,7 @@ export function organizationJsonLd(): JsonLd {
     "@id": `${siteUrl}/#organization`,
     name: "Select Your Sauna",
     legalName: "SeitenHafen361",
+    logo: absoluteUrl("/brand/sauna-512.png"),
     url: `${siteUrl}/`,
     description: "Unabhängige deutschsprachige Planungs- und Vergleichsplattform für private Saunen.",
     publishingPrinciples: absoluteUrl("/de/ueber-uns/"),

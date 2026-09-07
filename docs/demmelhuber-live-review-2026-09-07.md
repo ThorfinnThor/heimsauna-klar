@@ -1,5 +1,7 @@
 # Demmelhuber Live-Abnahme vom 7. September 2026
 
+Nachprüfung der ausgewählten Händleroptionen: Ava mit number=15-001-02-000-00094 wählt ohne Dachkranz und 9.0 kW Ofen inkl. Steuergerät; die Beschreibung nennt zwei Infrarotstrahler. Tonja mit number=15-001-01-000-02633 wählt ohne Dachkranz, 3.6 kW Ofen ext. Steuerung und Energiespartür. Damit sind die vorläufigen Paketfragen geklärt; die manuellen noindex-Sperren werden entfernt. Die Alternativoptionen im allgemeinen Beschreibungstext ändern die konkret ausgewählte Konfiguration nicht.
+
 ## Korrekturstand
 
 Die nachstehende Erstprüfung bleibt als Verlauf dokumentiert. Inzwischen wurden alle 28 Kapazitäten mit expliziter Herstellerquelle hinterlegt, zehn Sitzplatz- und 15 Liegeplatzwerte korrigiert und die Schätzlogik aus dem Promotionscript entfernt. Alle 28 Seiten besitzen individuell verfasste redaktionelle Einordnungen. Sahib 1 wird ausdrücklich als abweichendes Angebot einschließlich Energiespartür und Dachkranzmaßen gekennzeichnet. Ava und Tonja bleiben wegen der offenen Paketzuordnung vorerst noindex. Neuer Stand: 303 indexierbare und 212 noindex Produktseiten; 515 Produkte und 208 Affiliate-Angebote insgesamt.

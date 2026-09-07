@@ -13,14 +13,5 @@
     "multiple_sources_can_substitute_unique_points": true,
     "minimum_sources_for_substitution": 2
   },
-  "manual_overrides": {
-    "karibu-sauna-infrarot-ava-6692": {
-      "decision": "noindex",
-      "reason": "Ofen- und Infrarotumfang zwischen Herstellerdokument und Händlerausführung vor Indexfreigabe abschließend abgleichen."
-    },
-    "karibu-sauna-tonja-85844": {
-      "decision": "noindex",
-      "reason": "Abweichende Ofenpakete in Herstellerdokument und Händlerangebot vor Indexfreigabe abschließend zuordnen."
-    }
-  }
+  "manual_overrides": {}
 }

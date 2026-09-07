@@ -4,18 +4,18 @@
   "generated_from_products_updated_at": "2026-09-07",
   "summary": {
     "total_verified_products": 515,
-    "index": 303,
-    "noindex": 212,
+    "index": 305,
+    "noindex": 210,
     "categories": {
       "indoor": {
         "total": 258,
-        "index": 115,
-        "noindex": 143
+        "index": 116,
+        "noindex": 142
       },
       "infrared": {
         "total": 80,
-        "index": 66,
-        "noindex": 14
+        "index": 67,
+        "noindex": 13
       },
       "outdoor": {
         "total": 157,
@@ -5143,7 +5143,7 @@
     },
     {
       "product_id": "karibu-sauna-infrarot-ava-6692",
-      "decision": "noindex",
+      "decision": "index",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5154,7 +5154,7 @@
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "manual-override: Ofen- und Infrarotumfang zwischen Herstellerdokument und Händlerausführung vor Indexfreigabe abschließend abgleichen."
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5703,18 +5703,18 @@
     },
     {
       "product_id": "karibu-sauna-tonja-85844",
-      "decision": "noindex",
+      "decision": "index",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 4,
-        "frequent_editorial_share": 0.2667
+        "frequent_editorial_share": 0.25
       },
       "reasons": [
-        "manual-override: Abweichende Ofenpakete in Herstellerdokument und Händlerangebot vor Indexfreigabe abschließend zuordnen."
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {

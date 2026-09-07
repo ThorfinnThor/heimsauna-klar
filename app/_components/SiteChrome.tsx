@@ -1,10 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function SiteHeader() {
   return (
     <header className="site-header">
       <Link className="brand" href="/de/" aria-label="Select Your Sauna Startseite">
-        <span className="brand-mark" aria-hidden="true">SYS</span>
+        <Image className="brand-icon" src="/brand/sauna-192.png" width={34} height={34} alt="" unoptimized />
         <span>Select Your Sauna</span>
       </Link>
       <nav className="nav" aria-label="Hauptnavigation">
@@ -23,7 +24,7 @@ export function SiteFooter() {
   return (
     <footer>
       <Link className="brand brand-footer" href="/de/">
-        <span className="brand-mark">SYS</span><span>Select Your Sauna</span>
+        <Image className="brand-icon" src="/brand/sauna-192.png" width={34} height={34} alt="" unoptimized /><span>Select Your Sauna</span>
       </Link>
       <p>Eine unabhängige Planungs- und Kaufplattform für private Saunen.</p>
       <div className="footer-links">

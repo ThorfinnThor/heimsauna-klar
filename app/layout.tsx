@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     "Unabhängige Planungshilfe für Heimsaunen: nach Platz, Stromanschluss, Budget und Nutzungsprofil.",
   creator: "Schayan Yousefian",
   publisher: "SeitenHafen361",
+  icons: {
+    icon: [
+      { url: "/brand/sauna-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/brand/sauna-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/brand/sauna-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: { url: "/brand/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+  },
   robots: isIndexingEnabled ? { index: true, follow: true } : { index: false, follow: false },
 };
 
