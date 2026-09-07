@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-07",
+  "review_model": "luna",
+  "source": "Awin Demmelhuber DE standard feed plus individual merchant-page reachability checks",
+  "merchant_id": "demmelhuber",
+  "merchant_name": "Demmelhuber",
+  "advertiser_id": "18816",
+  "feed_id": "39421",
+  "policy": "Only product URLs with a unique, technically compatible catalog assignment are approved. Accessories, unmatched models and conflicting dimensions or heater configurations remain excluded.",
+  "summary": {
+    "feed_rows": 3935,
+    "sauna_signal_rows": 144,
+    "existing_catalog_candidate_rows": 34,
+    "unique_candidate_urls_reviewed": 20,
+    "approved_offers": 15,
+    "held_urls": 5,
+    "reachable_approved_pages": 15
+  },
+  "approved": [
+    {
+      "product_id": "karibu-fasssauna-quadro-1-109m",
+      "merchant_url": "https://demmelhuber.net/karibu-fasssauna-quadro-1-1-99-x-1-75-m-38-mm-34264",
+      "configuration": "199 × 175 cm · 9 kW Ofen inkl. Steuergerät",
+      "selection_required": true,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-fasssauna-quadro-1-plus-35445m",
+      "merchant_url": "https://demmelhuber.net/karibu-fasssauna-quadro-1-plus-2-42-x-1-75-m-38-mm-35447",
+      "configuration": "242 × 175 cm · 9 kW Ofen inkl. Steuergerät",
+      "selection_required": true,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-sauna-antonia-6717",
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-antonia-1-45-x-1-45-m-6717",
+      "configuration": "145 × 145 cm · 3,6 kW Ofen mit integrierter Steuerung",
+      "selection_required": false,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-sauna-sahib-1",
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-sahib-1-1-93-x-1-84-m-40-mm-75854",
+      "configuration": "193 × 184 cm · ohne Ofen · mit Dachkranz",
+      "selection_required": false,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-sauna-sahib-2",
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-sahib-2-2-36-x-1-84-m-40-mm-75877",
+      "configuration": "236 × 184 cm · ohne Ofen · ohne Dachkranz",
+      "selection_required": false,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-sauna-sandra-6705",
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-sandra-1-45-x-1-45-m-6705",
+      "configuration": "145 × 145 cm · 3,6 kW Ofen mit integrierter Steuerung",
+      "selection_required": false,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-sauna-selena-6729",
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-selena-1-95-x-1-45-m-6729",
+      "configuration": "195 × 145 cm · 3,6 kW Ofen mit integrierter Steuerung",
+      "selection_required": false,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-saunahaus-cuben-80796",
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-80796",
+      "configuration": "Naturbelassen · 276 × 276 cm · 9 kW Ofen inkl. Steuergerät",
+      "selection_required": true,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-saunahaus-cuben-80796",
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-terragrau-81132",
+      "configuration": "Terragrau · 276 × 276 cm · 9 kW Ofen inkl. Steuergerät",
+      "selection_required": true,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-saunahaus-hygge-86314",
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-86314",
+      "configuration": "Naturbelassen · 508 × 276 cm · ohne Ofen",
+      "selection_required": false,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-saunahaus-hygge-86314",
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-terragrau-86313",
+      "configuration": "Terragrau · 508 × 276 cm · ohne Ofen",
+      "selection_required": false,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-saunahaus-miramar-510",
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-miramar-2-20-x-4-29-m-73-mm-510",
+      "configuration": "220 × 429 cm · 9 kW Ofen inkl. Steuergerät",
+      "selection_required": false,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-1-86283",
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-skrollan-1-3-37-x-1-96-cm-mit-vorraum-86287",
+      "configuration": "Skrollan 1 · 337 × 196 cm · 9 kW Ofen inkl. Steuergerät",
+      "selection_required": true,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-2-86299",
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-skrollan-2-3-37-x-2-31-cm-mit-vorraum-86294",
+      "configuration": "Skrollan 2 · 337 × 231 cm · 9 kW Ofen inkl. Steuergerät",
+      "selection_required": true,
+      "page_status": 200
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-3-86304",
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-skrollan-3-3-96-x-2-31-cm-mit-vorraum-86311",
+      "configuration": "Skrollan 3 · 396 × 231 cm · 9 kW Ofen inkl. Steuergerät",
+      "selection_required": true,
+      "page_status": 200
+    }
+  ],
+  "held": [
+    {
+      "merchant_url": "https://demmelhuber.net/karibu-fasssauna-quadro-3-1-99-x-3-55-m-38-mm-117",
+      "reason": "No matching Quadro 3 catalog record; the candidate matcher suggested other Quadro variants."
+    },
+    {
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-jella-1-95-x-1-45-m-6744",
+      "reason": "The feed offer is a 9 kW package while the existing Jella record documents the 3.6 kW configuration."
+    },
+    {
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-sonara-2-36-x-1-84-m-40-mm-75819",
+      "reason": "Feed title and URL dimensions conflict, so the existing Sonara record is not used."
+    },
+    {
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-tanami-2-36-x-1-84-m-40-mm-54467",
+      "reason": "Feed title and URL dimensions conflict, so the existing Tanami record is not used."
+    },
+    {
+      "merchant_url": "https://demmelhuber.net/karibu-schleppdach-fuer-saunahaus-skrollan-2-3-87062",
+      "reason": "Accessory product, not a sauna or sauna-house offer."
+    }
+  ]
+}
