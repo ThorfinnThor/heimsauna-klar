@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T14:03:51.517Z",
+  "generated_at": "2026-09-07T14:49:12.500Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
   "products_total": 487,
-  "newly_matched_offers": 116,
-  "active_affiliate_offers": 116,
+  "newly_matched_offers": 130,
+  "active_affiliate_offers": 131,
   "targets": [
     {
       "merchant_id": "artsauna",
@@ -14,7 +14,7 @@
       "advertiser_name": "Artsauna DE",
       "feed_id": "97646",
       "feed_name": "Default",
-      "feed_rows": 50,
+      "feed_rows": 48,
       "catalog_offers": 15,
       "exact_matches": 15,
       "invalid_tracking_links": 0,
@@ -26,7 +26,7 @@
       "advertiser_name": "Home Deluxe DE",
       "feed_id": "84368",
       "feed_name": "Default",
-      "feed_rows": 4359,
+      "feed_rows": 4357,
       "catalog_offers": 34,
       "exact_matches": 34,
       "invalid_tracking_links": 0,
@@ -38,7 +38,7 @@
       "advertiser_name": "Benz24 DE/AT",
       "feed_id": "43829",
       "feed_name": "BENZ24 Deutschland",
-      "feed_rows": 92078,
+      "feed_rows": 92051,
       "catalog_offers": 11,
       "exact_matches": 11,
       "invalid_tracking_links": 0,
@@ -62,11 +62,13 @@
       "advertiser_name": "Saunaloft DE",
       "feed_id": "83153",
       "feed_name": "awinfeed.csv",
-      "feed_rows": 4033,
+      "feed_rows": 4031,
       "catalog_offers": 16,
-      "exact_matches": 16,
+      "exact_matches": 15,
       "invalid_tracking_links": 0,
-      "unmatched_product_ids": []
+      "unmatched_product_ids": [
+        "artsauna-nolvik-xl"
+      ]
     },
     {
       "merchant_id": "gartenhausfabrik",
@@ -74,7 +76,7 @@
       "advertiser_name": "Gartenhausfabrik DE",
       "feed_id": "92070",
       "feed_name": "Default",
-      "feed_rows": 10412,
+      "feed_rows": 10414,
       "catalog_offers": 20,
       "exact_matches": 20,
       "invalid_tracking_links": 0,
@@ -89,6 +91,18 @@
       "feed_rows": 151,
       "catalog_offers": 17,
       "exact_matches": 17,
+      "invalid_tracking_links": 0,
+      "unmatched_product_ids": []
+    },
+    {
+      "merchant_id": "demmelhuber",
+      "advertiser_id": "18816",
+      "advertiser_name": "Demmelhuber DE",
+      "feed_id": "39421",
+      "feed_name": "AWIN_DHV-default",
+      "feed_rows": 3935,
+      "catalog_offers": 15,
+      "exact_matches": 15,
       "invalid_tracking_links": 0,
       "unmatched_product_ids": []
     }

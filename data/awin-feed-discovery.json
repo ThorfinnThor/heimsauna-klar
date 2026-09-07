@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T14:36:59.325Z",
+  "generated_at": "2026-09-07T14:49:12.500Z",
   "source": "Awin authenticated product feed list",
   "secret_included": false,
   "eligible_feeds": [
@@ -379,6 +379,33 @@
           "membershipStatus": "active",
           "feedId": "109985",
           "feedName": "AT-Feed",
+          "language": "German",
+          "lastUpdated": null,
+          "productCount": null
+        }
+      ]
+    },
+    {
+      "merchant_id": "demmelhuber",
+      "expected_name": "Demmelhuber",
+      "status": "found",
+      "advertiser_id": "18816",
+      "advertiser_names": [
+        "Demmelhuber DE"
+      ],
+      "feeds": [
+        {
+          "membershipStatus": "active",
+          "feedId": "39421",
+          "feedName": "AWIN_DHV-default",
+          "language": "German",
+          "lastUpdated": null,
+          "productCount": null
+        },
+        {
+          "membershipStatus": "active",
+          "feedId": "50255",
+          "feedName": "Feed for CSS partners (available products only)",
           "language": "German",
           "lastUpdated": null,
           "productCount": null
