@@ -3,24 +3,24 @@
   "policy_updated_at": "2026-08-30",
   "generated_from_products_updated_at": "2026-09-07",
   "summary": {
-    "total_verified_products": 487,
-    "index": 268,
-    "noindex": 219,
+    "total_verified_products": 515,
+    "index": 305,
+    "noindex": 210,
     "categories": {
       "indoor": {
-        "total": 235,
-        "index": 93,
+        "total": 258,
+        "index": 116,
         "noindex": 142
       },
       "infrared": {
-        "total": 78,
-        "index": 65,
+        "total": 80,
+        "index": 67,
         "noindex": 13
       },
       "outdoor": {
-        "total": 154,
-        "index": 90,
-        "noindex": 64
+        "total": 157,
+        "index": 102,
+        "noindex": 55
       },
       "tent": {
         "total": 20,
@@ -2699,16 +2699,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 9,
         "frequent_editorial_share": 0.75
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -2796,18 +2795,18 @@
     },
     {
       "product_id": "karibu-fasshaus-2-27450",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 2,
         "frequent_editorial_point_count": 6,
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -2862,18 +2861,18 @@
     },
     {
       "product_id": "karibu-fasshaus-3-27454",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 1,
         "frequent_editorial_point_count": 8,
         "frequent_editorial_share": 0.6667
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -2894,50 +2893,50 @@
     },
     {
       "product_id": "karibu-fasssauna-1-92821m",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 1,
         "frequent_editorial_point_count": 4,
         "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
       "product_id": "karibu-fasssauna-2-92829",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 1,
         "frequent_editorial_point_count": 6,
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
       "product_id": "karibu-fasssauna-3-92830",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 7,
         "frequent_editorial_share": 0.5833
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -3023,19 +3022,35 @@
       ]
     },
     {
-      "product_id": "karibu-hytti-0-359",
+      "product_id": "karibu-fasssauna-quadro-3-117",
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
-        "published_source_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 1,
+        "frequent_editorial_point_count": 5,
+        "frequent_editorial_share": 0.4545
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-hytti-0-359",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -3091,15 +3106,15 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -3107,15 +3122,15 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -3173,16 +3188,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 11,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -3411,16 +3425,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 11,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -3445,16 +3458,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 11,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -3574,6 +3586,22 @@
       "reasons": [
         "high-editorial-repetition",
         "insufficient-distinct-evidence"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda-2-2503",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 2,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -3751,16 +3779,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 11,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -3903,16 +3930,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 11,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -4056,16 +4082,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 11,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -4275,16 +4300,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 11,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -4292,16 +4316,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -4326,16 +4349,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 11,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -4394,16 +4416,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 11,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -4751,16 +4772,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 11,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -4866,6 +4886,54 @@
       ]
     },
     {
+      "product_id": "karibu-sauna-bodo-6208",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 7,
+        "frequent_editorial_share": 0.6364
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-carin-75668",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-daria-59780",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 3,
+        "frequent_editorial_share": 0.2727
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
       "product_id": "karibu-sauna-eda-71097",
       "decision": "index",
       "automatic_decision": "index",
@@ -4914,12 +4982,28 @@
       ]
     },
     {
+      "product_id": "karibu-sauna-elea-6762",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 2,
+        "frequent_editorial_point_count": 7,
+        "frequent_editorial_share": 0.6364
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
       "product_id": "karibu-sauna-fanja-85868",
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 2,
-        "published_source_count": 2,
+        "current_offer_count": 3,
+        "published_source_count": 3,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
@@ -4946,20 +5030,67 @@
       ]
     },
     {
+      "product_id": "karibu-sauna-faurin-6199",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 7,
+        "frequent_editorial_share": 0.6364
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fiona-1-59672",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 1,
+        "frequent_editorial_point_count": 7,
+        "frequent_editorial_share": 0.6364
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fiona-2-52595",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
       "product_id": "karibu-sauna-fiona-3",
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -4967,16 +5098,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -4984,16 +5114,95 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-infrarot-asta-6700",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 1,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-infrarot-ava-6692",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 1,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-irava-1-90",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 2,
+        "frequent_editorial_point_count": 4,
+        "frequent_editorial_share": 0.3636
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-irava-2-92",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 2,
+        "frequent_editorial_point_count": 4,
+        "frequent_editorial_share": 0.3636
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-jada-6806",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 2,
+        "frequent_editorial_point_count": 7,
+        "frequent_editorial_share": 0.6364
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5001,16 +5210,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -5018,8 +5226,8 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 2,
-        "published_source_count": 2,
+        "current_offer_count": 3,
+        "published_source_count": 3,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 10,
         "frequent_editorial_point_count": 0,
@@ -5030,12 +5238,60 @@
       ]
     },
     {
-      "product_id": "karibu-sauna-lilja",
+      "product_id": "karibu-sauna-jutta-6183",
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 2,
+        "frequent_editorial_point_count": 3,
+        "frequent_editorial_share": 0.2727
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-kotka-6214",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-larin-75615",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 2,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-lilja",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 2,
+        "published_source_count": 3,
         "editorial_point_count": 16,
         "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 11,
@@ -5050,16 +5306,31 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-mia-86545",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 6,
+        "frequent_editorial_share": 0.5455
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5067,16 +5338,31 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-nanja-59777",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 2,
+        "frequent_editorial_point_count": 4,
+        "frequent_editorial_share": 0.3636
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5084,16 +5370,31 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-oulu-6211",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5117,16 +5418,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -5214,8 +5514,8 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 2,
-        "published_source_count": 2,
+        "current_offer_count": 3,
+        "published_source_count": 3,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
@@ -5294,15 +5594,15 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 16,
         "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 11,
         "frequent_editorial_share": 0.6875
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5310,16 +5610,31 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sodin-75692",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5327,16 +5642,31 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-tabea-6816",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 7,
+        "frequent_editorial_share": 0.6364
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5344,16 +5674,95 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 12,
         "frequent_editorial_share": 1
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-taurin-80642",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-tonja-85844",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 4,
+        "frequent_editorial_share": 0.3636
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-tromso-6203",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 0,
+        "frequent_editorial_point_count": 7,
+        "frequent_editorial_share": 0.6364
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-variado-80669",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 2,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.7273
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-angkor-1-179",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 1,
+        "frequent_editorial_point_count": 5,
+        "frequent_editorial_share": 0.4545
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5374,19 +5783,18 @@
     },
     {
       "product_id": "karibu-saunahaus-angkor-2-182",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 0,
-        "published_source_count": 1,
+        "current_offer_count": 1,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 1,
         "frequent_editorial_point_count": 7,
         "frequent_editorial_share": 0.5833
       },
       "reasons": [
-        "no-current-offer",
-        "insufficient-distinct-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5394,16 +5802,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 9,
         "frequent_editorial_share": 0.75
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -5429,8 +5836,8 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 2,
-        "published_source_count": 2,
+        "current_offer_count": 3,
+        "published_source_count": 3,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 1,
         "frequent_editorial_point_count": 6,
@@ -5478,8 +5885,8 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 2,
-        "published_source_count": 2,
+        "current_offer_count": 3,
+        "published_source_count": 3,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 1,
         "frequent_editorial_point_count": 8,
@@ -5519,6 +5926,22 @@
       },
       "reasons": [
         "insufficient-distinct-evidence"
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-3-341",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 1,
+        "published_source_count": 2,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 1,
+        "frequent_editorial_point_count": 5,
+        "frequent_editorial_share": 0.4545
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5623,18 +6046,18 @@
     },
     {
       "product_id": "karibu-saunahaus-hytti-1-exclusive-99937",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 3,
         "frequent_editorial_point_count": 3,
         "frequent_editorial_share": 0.25
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5642,31 +6065,31 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 16,
         "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 5,
         "frequent_editorial_share": 0.3125
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
       "product_id": "karibu-saunahaus-hytti-3-93863m",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 2,
         "frequent_editorial_point_count": 5,
         "frequent_editorial_share": 0.4167
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5690,16 +6113,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 9,
         "frequent_editorial_share": 0.75
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -5742,16 +6164,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 1,
         "frequent_editorial_point_count": 9,
         "frequent_editorial_share": 0.75
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -5759,16 +6180,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 1,
         "frequent_editorial_point_count": 9,
         "frequent_editorial_share": 0.75
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -5827,16 +6247,15 @@
       "decision": "noindex",
       "automatic_decision": "noindex",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 0,
         "frequent_editorial_point_count": 9,
         "frequent_editorial_share": 0.75
       },
       "reasons": [
-        "high-editorial-repetition",
-        "insufficient-distinct-evidence"
+        "high-editorial-repetition"
       ]
     },
     {
@@ -5909,18 +6328,18 @@
     },
     {
       "product_id": "karibu-saunahaus-mainburg-5-36307",
-      "decision": "noindex",
-      "automatic_decision": "noindex",
+      "decision": "index",
+      "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 1,
         "frequent_editorial_point_count": 8,
         "frequent_editorial_share": 0.6667
       },
       "reasons": [
-        "insufficient-distinct-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
@@ -5962,15 +6381,15 @@
       "decision": "index",
       "automatic_decision": "index",
       "signals": {
-        "current_offer_count": 1,
-        "published_source_count": 1,
+        "current_offer_count": 2,
+        "published_source_count": 2,
         "editorial_point_count": 12,
         "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 8,
         "frequent_editorial_share": 0.6667
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {

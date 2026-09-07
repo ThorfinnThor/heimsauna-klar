@@ -12,7 +12,7 @@ export type Product = {
   category: "indoor" | "outdoor" | "infrared" | "portable" | "tent";
   status: "draft" | "verified" | "archived";
   dimensions_cm: { width: number; depth: number; height: number };
-  people: { min: number; max: number; seats: number; lying_places: number };
+  people: { min: number; max: number; seats: number; lying_places: number; basis?: "source-stated" | "conservative-planning" };
   power: {
     voltage: number | "wood" | "none";
     kw: number | null;
@@ -201,6 +201,11 @@ export function formatVoltage(voltage: Product["power"]["voltage"]) {
 export function formatPower(kw: Product["power"]["kw"]) {
   if (kw === null) return "nicht ausgewiesen";
   return `${kw.toLocaleString("de-DE", { maximumFractionDigits: 2 })} kW`;
+}
+
+export function formatCapacity(product: Product) {
+  const people = `${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"}`;
+  return product.people.basis === "conservative-planning" ? `Planungswert bis ${people}` : `bis ${people}`;
 }
 
 function isKaribuProductPath(url: URL) {

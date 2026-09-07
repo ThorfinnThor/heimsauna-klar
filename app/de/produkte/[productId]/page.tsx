@@ -6,7 +6,7 @@ import { StructuredData } from "@/app/_components/StructuredData";
 import { collections, getCollectionProducts } from "@/lib/collections";
 import { getOfferDisclosure, getOfferLink } from "@/lib/affiliate";
 import { createPageMetadata } from "@/lib/metadata";
-import { formatOfferPrice, formatPower, formatPrice, formatVoltage, getEligibleOffers, getOfferPolicySummary, getProduct, getProductEditorialOverride, getProductFamily, getProductSourceUrl, isProductIndexable, products } from "@/lib/products";
+import { formatCapacity, formatOfferPrice, formatPower, formatPrice, formatVoltage, getEligibleOffers, getOfferPolicySummary, getProduct, getProductEditorialOverride, getProductFamily, getProductSourceUrl, isProductIndexable, products } from "@/lib/products";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/structured-data";
 
 type Props = { params: Promise<{ productId: string }> };
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProduct(productId);
   if (!product) return {};
   const title = `${product.brand} ${product.model}: Maße, Strom und Einordnung`;
-  const description = `${product.brand} ${product.model}: ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm, ${formatVoltage(product.power.voltage)} und Platz für bis zu ${product.people.max} Personen. Quellengeprüfte Produktseite.`;
+  const description = `${product.brand} ${product.model}: ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm, ${formatVoltage(product.power.voltage)} und ${formatCapacity(product).toLowerCase()}. Quellengeprüfte Produktseite.`;
   return createPageMetadata({
     title,
     description,
@@ -117,7 +117,7 @@ export default async function ProductPage({ params }: Props) {
           <div>
             <dl className="spec-grid">
               <div><dt>Außenmaß</dt><dd>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</dd></div>
-              <div><dt>Kapazität</dt><dd>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</dd></div>
+              <div><dt>Kapazität</dt><dd>{formatCapacity(product)}</dd></div>
               <div><dt>Spannung</dt><dd>{formatVoltage(product.power.voltage)}</dd></div>
               <div><dt>Leistung</dt><dd>{formatPower(product.power.kw)}</dd></div>
               <div><dt>Wärmeart</dt><dd>{product.sauna.heater_type}</dd></div>
@@ -242,6 +242,9 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
   const secondStrength = asSentenceFragment(specificPros[1] ?? product.editorial.pros[1] ?? "die ausgewiesenen Abmessungen");
   const concern = asSentenceFragment(product.editorial.cons[0] ?? "den konkreten Lieferumfang");
   const useCase = asSentenceFragment(product.editorial.ideal_for[0] ?? "den vorgesehenen Aufstellort");
+  const capacityCopy = product.people.basis === "conservative-planning"
+    ? `Für die Kapazität wird ein konservativer Planungswert von bis zu ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"} verwendet.`
+    : `Die geprüfte Quelle weist eine Kapazität von bis zu ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"} aus.`;
   const powerSentence = getPowerSentence(product);
   const variant = productHash(product.product_id) % 3;
 
@@ -261,7 +264,7 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
   }
   if (product.category === "infrared") {
     const intros = [
-      `${product.model} ist als ${product.sauna.type} für bis zu ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"} dokumentiert. „${strength}“ beschreibt einen konkreten Vorteil; „${concern}“ markiert die wichtigste offene Abwägung.`,
+      `${product.model} wird als ${product.sauna.type} geführt. ${capacityCopy} „${strength}“ beschreibt einen konkreten Vorteil; „${concern}“ markiert die wichtigste offene Abwägung.`,
       `Für ${useCase} bringt ${product.model} laut Herstellerangaben vor allem „${strength}“ mit. Die Kabine benötigt ${footprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² rechnerische Stellfläche; zusätzlich ist „${concern}“ zu berücksichtigen.`,
       `${product.brand} kombiniert bei ${product.model} die Wärmeart ${product.sauna.heater_type} mit ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} cm Außenmaß. „${strength}“ und „${secondStrength}“ prägen die Auswahl, nicht eine pauschale Qualitätsnote.`,
     ];
@@ -274,9 +277,9 @@ function getProductFrame(product: NonNullable<ReturnType<typeof getProduct>>): P
     };
   }
   const intros = [
-    `${product.model} benötigt rechnerisch ${footprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² Produktfläche und ist für bis zu ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"} ausgewiesen. „${strength}“ ist ein belastbares Merkmal; „${concern}“ muss vor dem Kauf geklärt werden.`,
+    `${product.model} benötigt rechnerisch ${footprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² Produktfläche. ${capacityCopy} „${strength}“ ist ein belastbares Merkmal; „${concern}“ muss vor dem Kauf geklärt werden.`,
     `Für ${useCase} kann ${product.model} aufgrund von „${strength}“ interessant sein. Mit ${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm gehört die Kabine zur ${footprintLabel} Größenklasse; „${concern}“ bleibt ein Gegenpunkt.`,
-    `${product.brand} dokumentiert für ${product.model} „${strength}“ sowie „${secondStrength}“. Die Kapazität ist mit bis zu ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"} angegeben. Ob das Modell zum Standort passt, hängt zusätzlich von Raum und Anschluss ab.`,
+    `${product.brand} dokumentiert für ${product.model} „${strength}“ sowie „${secondStrength}“. ${capacityCopy} Ob das Modell zum Standort passt, hängt zusätzlich von Raum und Anschluss ab.`,
   ];
   return {
     className: "product-frame-indoor",

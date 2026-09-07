@@ -1,5 +1,5 @@
 import { siteUrl } from "@/lib/site";
-import { formatVoltage, getEligibleOffers, getProductOfferUrl, type Product } from "@/lib/products";
+import { formatCapacity, formatVoltage, getEligibleOffers, getProductOfferUrl, type Product } from "@/lib/products";
 
 export type JsonLd = Record<string, unknown>;
 
@@ -177,7 +177,7 @@ export function productJsonLd(product: Product): JsonLd {
     url,
     additionalProperty: [
       { "@type": "PropertyValue", name: "Außenmaß", value: `${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm` },
-      { "@type": "PropertyValue", name: "Kapazität", value: `bis ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"}` },
+      { "@type": "PropertyValue", name: product.people.basis === "conservative-planning" ? "Kapazität (Planungswert)" : "Kapazität", value: formatCapacity(product) },
       { "@type": "PropertyValue", name: "Spannung", value: formatVoltage(product.power.voltage) },
       { "@type": "PropertyValue", name: "Wärmeart", value: product.sauna.heater_type },
     ],

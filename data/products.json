@@ -1025,6 +1025,16 @@
           "last_checked": "2026-08-22",
           "configuration": "Easy Bio · Klarglas · mit Dachkranz",
           "selection_required": true
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2742.82,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-saja-1-51-x-1-96-m-85898",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "165 × 210 × 202 cm · 3,6 kW · Bio-Kombiofen",
+          "selection_required": false
         }
       ]
     },
@@ -1065,9 +1075,15 @@
         "title": "Mein-Saunashop Produktseite Sauna Saja",
         "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
         "checked_at": "2026-08-22"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna SAJA 1,51 x 1,96 m 3.6 kW Bio-Kombiofen ext. Steuerung mit Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-saja-1-51-x-1-96-m-85898",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-25"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-fanja-85872",
@@ -1933,6 +1949,16 @@
           "last_checked": "2026-08-22",
           "configuration": "3,6 kW · Eckeinstieg",
           "selection_required": true
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2147.98,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-jella-1-95-x-1-45-m-6744",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "195 × 145 × 187 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": true
         }
       ]
     },
@@ -1973,9 +1999,15 @@
         "title": "Mein-Saunashop Produktseite Sauna Jella",
         "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-jella-mit-eckeinstieg",
         "checked_at": "2026-08-22"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna JELLA 1,95 x 1,45 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-jella-1-95-x-1-45-m-6744",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-25"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-saja-85918",
@@ -2239,6 +2271,16 @@
           "last_checked": "2026-08-22",
           "configuration": "3,6 kW finnisch · Holztür · ohne Dachkranz",
           "selection_required": true
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 1949.32,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-fanja-1-96-x-1-51-m-59778",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 151 × 198 cm · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -2279,9 +2321,15 @@
         "title": "Mein-Saunashop Produktseite Sauna Fanja",
         "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg",
         "checked_at": "2026-08-22"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna FANJA 1,96 x 1,51 m ohne Ofen ohne Dachkranz Ganzglastür graphit",
+        "url": "https://demmelhuber.net/karibu-sauna-fanja-1-96-x-1-51-m-59778",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-25"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "weka-saunahaus-laadi-1-130x105",
@@ -4426,6 +4474,16 @@
           "url": "https://www.karibu.de/saunahaus-monterey/34032",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 8678.99,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/detail/index/sArticle/25710",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "573.5 × 216.5 × 244 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -4460,9 +4518,15 @@
         "title": "Karibu Produktseite Saunahaus Monterey",
         "url": "https://www.karibu.de/saunahaus-monterey/34032",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus MONTEREY 574 x 216,5 cm 73 mm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/detail/index/sArticle/25710",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-hytti-3-93863m",
@@ -4512,6 +4576,16 @@
           "url": "https://www.karibu.de/saunahaus-hytti-3/93863M",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2638.21,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-hytti-3-2-31-x-1-96-m-38-mm-93872",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 196 × 228 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -4546,9 +4620,15 @@
         "title": "Karibu Produktseite Saunahaus Hytti 3",
         "url": "https://www.karibu.de/saunahaus-hytti-3/93863M",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus HYTTI 3 2,31 x 1,96 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-saunahaus-hytti-3-2-31-x-1-96-m-38-mm-93872",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-hytti-2-97707",
@@ -4598,6 +4678,16 @@
           "url": "https://www.karibu.de/saunahaus-hytti-2/97707",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2504.35,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-hytti-2-1-96-x-1-96-m-38-mm-93869",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 196 × 228 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -4632,9 +4722,15 @@
         "title": "Karibu Produktseite Saunahaus Hytti 2",
         "url": "https://www.karibu.de/saunahaus-hytti-2/97707",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus HYTTI 2 1,96 x 1,96 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-saunahaus-hytti-2-1-96-x-1-96-m-38-mm-93869",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-hytti-1-exclusive-99937",
@@ -4684,6 +4780,16 @@
           "url": "https://www.karibu.de/saunahaus-hytti-1-exklusive/99937",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2058.98,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-hytti-1-1-96-x-1-46-m-38-mm-93865",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 146 × 228 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": false
         }
       ]
     },
@@ -4718,9 +4824,15 @@
         "title": "Karibu Produktseite Saunahaus Hytti 1 Exclusive",
         "url": "https://www.karibu.de/saunahaus-hytti-1-exklusive/99937",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus HYTTI 1 1,96 x 1,46 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-saunahaus-hytti-1-1-96-x-1-46-m-38-mm-93865",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-skrollan-1-86283",
@@ -5038,6 +5150,16 @@
           "last_checked": "2026-08-22",
           "configuration": "Naturbelassen · ohne Ofen",
           "selection_required": true
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 3546.66,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-ares-1-1-91-x-2-76-m-38-mm-222",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "191 × 276 × 232 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -5078,9 +5200,15 @@
         "title": "Mein-Saunashop Produktseite Saunahaus Ares 1",
         "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-1-hybridhaus-mit-metallrahmen",
         "checked_at": "2026-08-22"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus ARES 1 1,91 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+        "url": "https://demmelhuber.net/karibu-saunahaus-ares-1-1-91-x-2-76-m-38-mm-222",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-22"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-ares-2-34043",
@@ -5140,6 +5268,16 @@
           "last_checked": "2026-08-22",
           "configuration": "Naturbelassen · ohne Ofen",
           "selection_required": true
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 4105.37,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-ares-2-2-31-x-2-76-m-38-mm-314",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 276 × 232 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -5180,9 +5318,15 @@
         "title": "Mein-Saunashop Produktseite Saunahaus Ares 2",
         "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-2-hybridhaus-mit-metallrahmen-38-mm",
         "checked_at": "2026-08-22"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus ARES 2 2,31 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+        "url": "https://demmelhuber.net/karibu-saunahaus-ares-2-2-31-x-2-76-m-38-mm-314",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-22"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-mainburg-2-35976",
@@ -5232,6 +5376,16 @@
           "url": "https://www.karibu.de/Mainburg-2",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 5438.67,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-2-3-69-x-3-09-m-mit-vorraum-35977",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "Saunahaus MAINBURG 2 3,69 x 3,09 m mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät Set A - Sauna mit 2 Liegen 2,00 x 1,70 m · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -5266,9 +5420,15 @@
         "title": "Karibu Produktseite Saunahaus Mainburg 2",
         "url": "https://www.karibu.de/Mainburg-2",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus MAINBURG 2 3,69 x 3,09 m mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät Set A - Sauna mit 2 Liegen 2,00 x 1,70 m",
+        "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-2-3-69-x-3-09-m-mit-vorraum-35977",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-fasssauna-1-92821m",
@@ -5318,6 +5478,16 @@
           "url": "https://www.karibu.de/fasssauna-1/92821M",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 3078.99,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-fasssauna-1-2-25-x-1-75-m-38-mm-404",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "225 × 175 × 229 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -5352,9 +5522,15 @@
         "title": "Karibu Produktseite Fasssauna 1",
         "url": "https://www.karibu.de/fasssauna-1/92821M",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Fasssauna 1 2,25 x 1,75 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-fasssauna-1-2-25-x-1-75-m-38-mm-404",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-fasssauna-2-92829",
@@ -5404,6 +5580,16 @@
           "url": "https://www.karibu.de/fasssauna-2/92822M",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 3927.19,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-fasssauna-2-2-25-x-2-95-m-38-mm-92827",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "225 × 295 × 229 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -5438,9 +5624,15 @@
         "title": "Karibu Produktseite Fasssauna 2",
         "url": "https://www.karibu.de/fasssauna-2/92822M",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Fasssauna 2 2,25 x 2,95 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-fasssauna-2-2-25-x-2-95-m-38-mm-92827",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-fasssauna-quadro-1-109m",
@@ -6328,6 +6520,16 @@
           "url": "https://www.karibu.de/saunahaus-mainburg-1/35866",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 4745.42,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-1-3-09-x-3-09-m-mit-vorraum-35863",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "Saunahaus MAINBURG 1 3,09 x 3,09 m mit Vorraum Naturbelassen ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -6362,9 +6564,15 @@
         "title": "Karibu Produktseite Saunahaus Mainburg 1",
         "url": "https://www.karibu.de/saunahaus-mainburg-1/35866",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus MAINBURG 1 3,09 x 3,09 m mit Vorraum Naturbelassen ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m",
+        "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-1-3-09-x-3-09-m-mit-vorraum-35863",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-mainburg-3-36281",
@@ -6500,6 +6708,16 @@
           "url": "https://www.karibu.de/saunahaus-mainburg-4/36295",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 6256.02,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-4-4-90-x-3-69-m-mit-vorraum-36292",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "Saunahaus MAINBURG 4 4,90 x 3,69 m mit Vorraum ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -6534,9 +6752,15 @@
         "title": "Karibu Produktseite Saunahaus Mainburg 4",
         "url": "https://www.karibu.de/saunahaus-mainburg-4/36295",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus MAINBURG 4 4,90 x 3,69 m mit Vorraum ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m",
+        "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-4-4-90-x-3-69-m-mit-vorraum-36292",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-mainburg-5-36307",
@@ -6586,6 +6810,16 @@
           "url": "https://www.karibu.de/saunahaus-mainburg-5/36307",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 6444.85,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-5-5-09-x-3-69-m-mit-vorraum-36298",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "Saunahaus MAINBURG 5 5,09 x 3,69 m mit Vorraum Naturbelassen ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -6620,9 +6854,15 @@
         "title": "Karibu Produktseite Saunahaus Mainburg 5",
         "url": "https://www.karibu.de/saunahaus-mainburg-5/36307",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus MAINBURG 5 5,09 x 3,69 m mit Vorraum Naturbelassen ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m",
+        "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-5-5-09-x-3-69-m-mit-vorraum-36298",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-angkor-2-181",
@@ -6758,6 +6998,16 @@
           "url": "https://www.karibu.de/saunahaus-angkor-3/185",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 4778.99,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-angkor-3-2-77-x-2-76-m-38-mm-185",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "237 × 276 × 232 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -6792,9 +7042,15 @@
         "title": "Karibu Produktseite Saunahaus Angkor 3",
         "url": "https://www.karibu.de/saunahaus-angkor-3/185",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus ANGKOR 3 2,77 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-saunahaus-angkor-3-2-77-x-2-76-m-38-mm-185",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-ares-4-66789",
@@ -7012,6 +7268,16 @@
           "url": "https://www.karibu.de/fasssauna-3/92830",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 4784.17,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-fasssauna-3-2-25-x-3-85-m-38-mm-92830",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "225 × 385 × 229 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": false
         }
       ]
     },
@@ -7046,9 +7312,15 @@
         "title": "Karibu Produktseite Fasssauna 3",
         "url": "https://www.karibu.de/fasssauna-3/92830",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Fasssauna 3 2,25 x 3,85 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-fasssauna-3-2-25-x-3-85-m-38-mm-92830",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-fasshaus-3-27454",
@@ -7094,6 +7366,16 @@
           "url": "https://www.karibu.de/fasshaus-3/27454",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 3941.47,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-3-2-19-x-3-85-m-27453",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "Gartensauna FASSHAUS 3 2,19 x 3,85 m ohne Ofen · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -7128,9 +7410,15 @@
         "title": "Karibu Produktseite Fasshaus 3",
         "url": "https://www.karibu.de/fasshaus-3/27454",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Gartensauna FASSHAUS 3 2,19 x 3,85 m ohne Ofen",
+        "url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-3-2-19-x-3-85-m-27453",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-delano-66702",
@@ -7262,6 +7550,16 @@
           "url": "https://www.karibu.de/saunahaus-laguna/198",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 4628.99,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-laguna-2-20-x-2-88-m-73-mm-198",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "220 × 288 × 229 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": false
         }
       ]
     },
@@ -7296,9 +7594,15 @@
         "title": "Karibu Produktseite Saunahaus Laguna 9 kW Finnisch",
         "url": "https://www.karibu.de/saunahaus-laguna/198",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus LAGUNA 2,20 x 2,88 m 73 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-saunahaus-laguna-2-20-x-2-88-m-73-mm-198",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-saunahaus-laguna-199",
@@ -8431,6 +8735,16 @@
           "url": "https://www.karibu.de/fasshaus-2/27450",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2903.16,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-2-2-19-x-2-95-m-27450",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "Gartensauna FASSHAUS 2 2,19 x 2,95 m ohne Ofen · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -8465,9 +8779,15 @@
         "title": "Karibu Produktseite Fasshaus 2",
         "url": "https://www.karibu.de/fasshaus-2/27450",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Gartensauna FASSHAUS 2 2,19 x 2,95 m ohne Ofen",
+        "url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-2-2-19-x-2-95-m-27450",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-fasshaus-2-27451",
@@ -9279,7 +9599,18 @@
     "commercial": {
       "currency": "EUR",
       "price_status": "unavailable",
-      "offers": []
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 4378.99,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-angkor-2-2-37-x-2-76-m-38-mm-182",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "237 × 276 × 232 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
+        }
+      ]
     },
     "editorial": {
       "pros": [
@@ -9312,9 +9643,15 @@
         "title": "Karibu Produktdokument Angkor 2 9 kW",
         "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=182",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus ANGKOR 2 2,37 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-saunahaus-angkor-2-2-37-x-2-76-m-38-mm-182",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-fasssauna-breit-67221",
@@ -10440,6 +10777,16 @@
           "url": "https://www.karibu.de/Sauna-Sinai-3",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2912.64,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-sinai-2-36-x-1-84-m-40-mm-62933",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "236 × 184 × 209 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": true
         }
       ]
     },
@@ -10474,9 +10821,15 @@
         "title": "Karibu Produktseite Sauna Sinai 3 · ohne Ofen",
         "url": "https://www.karibu.de/Sauna-Sinai-3",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna SINAI 2,36 x 1,84 m 38 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-sinai-2-36-x-1-84-m-40-mm-62933",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-askja",
@@ -10522,6 +10875,16 @@
           "url": "https://www.karibu.de/Sauna-Askja",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2698.89,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-askja-2-16-x-2-34-m-35230",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "Sauna ASKJA 2,16 x 2,34 m ohne Ofen ohne Dachkranz · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -10556,9 +10919,15 @@
         "title": "Karibu Produktseite Sauna Askja · ohne Ofen",
         "url": "https://www.karibu.de/Sauna-Askja",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna ASKJA 2,16 x 2,34 m ohne Ofen ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-sauna-askja-2-16-x-2-34-m-35230",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-28089",
@@ -11220,6 +11589,16 @@
           "url": "https://www.karibu.de/Sauna-Tanami",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2643.11,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-tanami-2-36-x-1-84-m-40-mm-54467",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 196 × 200 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": true
         }
       ]
     },
@@ -11254,9 +11633,15 @@
         "title": "Karibu Produktseite Sauna Tanami · ohne Ofen",
         "url": "https://www.karibu.de/Sauna-Tanami",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna TANAMI 2,31 x 1,96 m 38 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-tanami-2-36-x-1-84-m-40-mm-54467",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-28095",
@@ -11470,6 +11855,16 @@
           "url": "https://www.karibu.de/Sauna-Sonara",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2817.09,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-sonara-2-36-x-1-84-m-40-mm-75819",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "Massivholzsauna SONARA 2,31 x 1,96 m 38 mm 9.0 kW Ofen inkl. Steuergerät ohne Dachkranz Ganzglastür Klarglas · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -11504,9 +11899,15 @@
         "title": "Karibu Produktseite Sauna Sonara · ohne Ofen · Glastür (braun getönt)",
         "url": "https://www.karibu.de/Sauna-Sonara",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna SONARA 2,31 x 1,96 m 38 mm 9.0 kW Ofen inkl. Steuergerät ohne Dachkranz Ganzglastür Klarglas",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-sonara-2-36-x-1-84-m-40-mm-75819",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-malin",
@@ -11552,6 +11953,16 @@
           "url": "https://www.karibu.de/Sauna-Malin",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2387.38,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-malin-2-31-x-1-96-m-75782",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "245 × 210 × 202 cm · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -11586,9 +11997,15 @@
         "title": "Karibu Produktseite Sauna Malin · ohne Ofen · Glastür (klar)",
         "url": "https://www.karibu.de/Sauna-Malin",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna MALIN 2,31 x 1,96 m ohne Ofen mit Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-malin-2-31-x-1-96-m-75782",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-28094",
@@ -11806,6 +12223,16 @@
           "url": "https://www.karibu.de/Sauna-Gobin",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2649.64,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-gobin-2-31-x-1-96-m-75757",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 196 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": true
         }
       ]
     },
@@ -11840,9 +12267,15 @@
         "title": "Karibu Produktseite Sauna Gobin · ohne Ofen · Holztür",
         "url": "https://www.karibu.de/Sauna-Gobin",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna GOBIN 2,31 x 1,96 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-gobin-2-31-x-1-96-m-75757",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-28087",
@@ -11974,6 +12407,16 @@
           "url": "https://www.karibu.de/Sauna-Mojave",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2478.12,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-mojave-1-96-x-1-96-m-40-mm-71394",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "Massivholzsauna MOJAVE 1,96 x 1,96 m 40 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": true
         }
       ]
     },
@@ -12008,9 +12451,15 @@
         "title": "Karibu Produktseite Sauna Mojave · ohne Ofen · Glastür (grau getönt)",
         "url": "https://www.karibu.de/Sauna-Mojave",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna MOJAVE 1,96 x 1,96 m 40 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-mojave-1-96-x-1-96-m-40-mm-71394",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-fiona-3",
@@ -12056,6 +12505,16 @@
           "url": "https://www.karibu.de/Sauna-Fiona-3",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2519.13,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-fiona-3-2-31-x-1-96-m-49442",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 196 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": true
         }
       ]
     },
@@ -12090,9 +12549,15 @@
         "title": "Karibu Produktseite Sauna Fiona 3 · ohne Ofen",
         "url": "https://www.karibu.de/Sauna-Fiona-3",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna FIONA 3 2,31 x 1,96 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-sauna-fiona-3-2-31-x-1-96-m-49442",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-jarin",
@@ -12138,6 +12603,16 @@
           "url": "https://www.karibu.de/Sauna-Jarin",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2477.27,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-jarin-1-96-x-1-96-m-71344",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 196 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": true
         }
       ]
     },
@@ -12172,9 +12647,15 @@
         "title": "Karibu Produktseite Sauna Jarin · naturbelassen · ohne Ofen · Holztür",
         "url": "https://www.karibu.de/Sauna-Jarin",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna JARIN 1,96 x 1,96 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-jarin-1-96-x-1-96-m-71344",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-66736m",
@@ -12488,6 +12969,16 @@
           "url": "https://www.karibu.de/sauna-irava-3/88M",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2668.99,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-irava-3-2-16-x-1-38-m-95",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "216 × 138 × 198 cm · 3,6 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": true
         }
       ]
     },
@@ -12522,9 +13013,15 @@
         "title": "Karibu Produktseite Sauna Irava 3 · ohne Ofen",
         "url": "https://www.karibu.de/sauna-irava-3/88M",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna IRAVA 3 2,16 x 1,38 m 3.6 kW Ofen integr. Steuerung",
+        "url": "https://demmelhuber.net/karibu-sauna-irava-3-2-16-x-1-38-m-95",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-horna",
@@ -12570,6 +13067,16 @@
           "url": "https://www.karibu.de/Sauna-Horna",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2117.25,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-horna-2-31-x-1-96-m-6196",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 196 × 198 cm · ohne Ofen",
+          "selection_required": false
         }
       ]
     },
@@ -12604,9 +13111,15 @@
         "title": "Karibu Produktseite Sauna Horna · ohne Ofen",
         "url": "https://www.karibu.de/Sauna-Horna",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna HORNA 2,31 x 1,96 m ohne Ofen",
+        "url": "https://demmelhuber.net/karibu-sauna-horna-2-31-x-1-96-m-6196",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-rodin",
@@ -12652,6 +13165,16 @@
           "url": "https://www.karibu.de/Sauna-Rodin",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2092.13,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-rodin-1-96-x-1-96-m-75722",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 196 × 198 cm · ohne Ofen",
+          "selection_required": false
         }
       ]
     },
@@ -12686,9 +13209,15 @@
         "title": "Karibu Produktseite Sauna Rodin · naturbelassen · ohne Ofen · Glastür (grau getönt)",
         "url": "https://www.karibu.de/Sauna-Rodin",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna RODIN 1,96 x 1,96 m ohne Ofen ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-rodin-1-96-x-1-96-m-75722",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-67329m",
@@ -12988,6 +13517,16 @@
           "url": "https://www.karibu.de/Sauna-Nybro",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2065.63,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-nybro-2-31-x-1-96-m-6195",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 196 × 198 cm · ohne Ofen",
+          "selection_required": false
         }
       ]
     },
@@ -13022,9 +13561,15 @@
         "title": "Karibu Produktseite Sauna Nybro · ohne Ofen",
         "url": "https://www.karibu.de/Sauna-Nybro",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna NYBRO 2,31 x 1,96 m ohne Ofen",
+        "url": "https://demmelhuber.net/karibu-sauna-nybro-2-31-x-1-96-m-6195",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-lilja",
@@ -13070,6 +13615,16 @@
           "url": "https://www.karibu.de/sauna/innensauna/",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2108.88,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-lilja-1-96-x-1-70-m-59781",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "210 × 184 × 202 cm · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -13110,9 +13665,15 @@
         "title": "Karibu Sauna-Übersicht",
         "url": "https://www.karibu.de/sauna/innensauna/",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna LILJA 1,96 x 1,70 m ohne Ofen ohne Dachkranz mit Dachkranz Ganzglastür bronziert",
+        "url": "https://demmelhuber.net/karibu-sauna-lilja-1-96-x-1-70-m-59781",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-siirin",
@@ -13158,6 +13719,16 @@
           "url": "https://www.karibu.de/Sauna-Siirin",
           "affiliate": false,
           "last_checked": "2026-08-21"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2313.11,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-siirin-1-96-x-1-7-m-71369",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 170 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": true
         }
       ]
     },
@@ -13192,9 +13763,15 @@
         "title": "Karibu Produktseite Sauna Siirin · naturbelassen · ohne Ofen · Glastür (klar)",
         "url": "https://www.karibu.de/Sauna-Siirin",
         "checked_at": "2026-08-21"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna SIIRIN 1,96 x 1,7 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-siirin-1-96-x-1-7-m-71369",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-21"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-amelia-1",
@@ -18964,6 +19541,16 @@
           "url": "https://www.karibu.de/saunahaus-mainburg-3/36285",
           "affiliate": false,
           "last_checked": "2026-08-25"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 5490.38,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-3-3-69-x-3-69-m-mit-vorraum-36278",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "Saunahaus MAINBURG 3 3,69 x 3,69 m mit Vorraum Terragrau ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m · ohne Ofen",
+          "selection_required": true
         }
       ]
     },
@@ -18998,9 +19585,15 @@
         "title": "Karibu Produktseite Saunahaus Mainburg 3 36285",
         "url": "https://www.karibu.de/saunahaus-mainburg-3/36285",
         "checked_at": "2026-08-25"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus MAINBURG 3 3,69 x 3,69 m mit Vorraum Terragrau ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m",
+        "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-3-3-69-x-3-69-m-mit-vorraum-36278",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-25"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-angkor-3-186",
@@ -19312,6 +19905,16 @@
           "url": "https://www.karibu.de/saunahaus-hytti-0/359",
           "affiliate": false,
           "last_checked": "2026-08-25"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2077.27,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-hytti-0-1-96-x-1-13-m-38-mm-358",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 113 × 228 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": false
         }
       ]
     },
@@ -19346,9 +19949,15 @@
         "title": "Karibu Produktseite Saunahaus Hytti 0",
         "url": "https://www.karibu.de/saunahaus-hytti-0/359",
         "checked_at": "2026-08-25"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus HYTTI 0 1,96 x 1,13 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-saunahaus-hytti-0-1-96-x-1-13-m-38-mm-358",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-25"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-hytti-1-93866",
@@ -19656,6 +20265,16 @@
           "url": "https://www.karibu.de/saunahaus-hytti-6/123M",
           "affiliate": false,
           "last_checked": "2026-08-25"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 4128.99,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-hytti-6-3-96-x-2-31-m-38-mm-126",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "396 × 231 × 217 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": true
         }
       ]
     },
@@ -19690,9 +20309,15 @@
         "title": "Karibu Produktseite Saunahaus Hytti 6",
         "url": "https://www.karibu.de/saunahaus-hytti-6/123M",
         "checked_at": "2026-08-25"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus HYTTI 6 3,96 x 2,31 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-saunahaus-hytti-6-3-96-x-2-31-m-38-mm-126",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-25"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-paradise-66711m",
@@ -19982,6 +20607,16 @@
           "url": "https://www.karibu.de/sauna-adelina/6755",
           "affiliate": false,
           "last_checked": "2026-08-26"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2106.92,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-adelina-1-95-x-1-69-m-6755",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "195 × 169 × 187 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
         }
       ]
     },
@@ -20015,9 +20650,15 @@
         "title": "Karibu Produktseite Sauna Adelina · 4 Personen 9 kW Ofen + integrierte Steuerung",
         "url": "https://www.karibu.de/sauna-adelina/6755",
         "checked_at": "2026-08-26"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna ADELINA 1,95 x 1,69 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-adelina-1-95-x-1-69-m-6755",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-26"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-adelina-6756",
@@ -21035,6 +21676,16 @@
           "url": "https://www.karibu.de/sauna-ainur/6105",
           "affiliate": false,
           "last_checked": "2026-08-26"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 3395.29,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-ainur-2-31-x-1-96-m-6098",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "245 × 210 × 202 cm · 9 kW · Bio-Kombiofen",
+          "selection_required": false
         }
       ]
     },
@@ -21068,9 +21719,15 @@
         "title": "Karibu Produktseite Sauna Ainur · Bio Sauna 5 Personen 9 kW Bio-Kombi Ofen + Steuergerät mit Dachkranz",
         "url": "https://www.karibu.de/sauna-ainur/6105",
         "checked_at": "2026-08-26"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna AINUR 2,31 x 1,96 m 9.0 kW Bio-Kombiofen inkl. Steuergerät mit Dachkranz",
+        "url": "https://demmelhuber.net/karibu-sauna-ainur-2-31-x-1-96-m-6098",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-26"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-airi-34283",
@@ -21197,6 +21854,16 @@
           "url": "https://www.karibu.de/sauna-airi/34291",
           "affiliate": false,
           "last_checked": "2026-08-26"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2849.37,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-airi-1-96-x-1-96-m-34291",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 196 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
         }
       ]
     },
@@ -21230,9 +21897,15 @@
         "title": "Karibu Produktseite Sauna Airi · 4-5 Personen 9 kW Ofen + integrierte Steuerung",
         "url": "https://www.karibu.de/sauna-airi/34291",
         "checked_at": "2026-08-26"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna AIRI 1,96 x 1,96 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-sauna-airi-1-96-x-1-96-m-34291",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-26"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-airi-34292",
@@ -22493,6 +23166,16 @@
           "url": "https://www.karibu.de/sauna-amara/71286",
           "affiliate": false,
           "last_checked": "2026-08-26"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2937.75,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-amara-2-36-x-1-84-m-40-mm-71285",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "236 × 184 × 209 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
         }
       ]
     },
@@ -22526,9 +23209,15 @@
         "title": "Karibu Produktseite Sauna Amara · 4 Personen 9 kW Ofen + integrierte Steuerung",
         "url": "https://www.karibu.de/sauna-amara/71286",
         "checked_at": "2026-08-26"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna AMARA 2,36 x 1,84 m 40 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-amara-2-36-x-1-84-m-40-mm-71285",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-26"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-amara-71287",
@@ -23141,6 +23830,16 @@
           "url": "https://www.karibu.de/sauna-amelia-1/66744",
           "affiliate": false,
           "last_checked": "2026-08-26"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2313.11,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-amelia-1-1-96-x-1-70-m-66743",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 170 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
         }
       ]
     },
@@ -23174,9 +23873,15 @@
         "title": "Karibu Produktseite Sauna Amelia 1 · 4 Personen 9 kW Ofen + integrierte Steuerung",
         "url": "https://www.karibu.de/sauna-amelia-1/66744",
         "checked_at": "2026-08-26"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna AMELIA 1 1,96 x 1,70 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-sauna-amelia-1-1-96-x-1-70-m-66743",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-26"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-amelia-1-66745",
@@ -23789,6 +24494,16 @@
           "url": "https://www.karibu.de/sauna-amelia-3/66762",
           "affiliate": false,
           "last_checked": "2026-08-26"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2602.85,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-amelia-3-2-31-x-1-96-m-66760",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 196 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
         }
       ]
     },
@@ -23822,9 +24537,15 @@
         "title": "Karibu Produktseite Sauna Amelia 3 · 5 Personen 9 kW Ofen + integrierte Steuerung",
         "url": "https://www.karibu.de/sauna-amelia-3/66762",
         "checked_at": "2026-08-26"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna AMELIA 3 2,31 x 1,96 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-sauna-amelia-3-2-31-x-1-96-m-66760",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-26"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-amelia-3-66763",
@@ -24599,6 +25320,16 @@
           "url": "https://www.karibu.de/sauna-arvika/6219",
           "affiliate": false,
           "last_checked": "2026-08-26"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2855.52,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-arvika-2-31-x-2-31-m-6197",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 231 × 198 cm · 9 kW · Bio-Kombiofen",
+          "selection_required": false
         }
       ]
     },
@@ -24632,9 +25363,15 @@
         "title": "Karibu Produktseite Sauna Arvika · Bio Sauna 6 Personen 9 kW Bio-Kombi Ofen + Steuergerät",
         "url": "https://www.karibu.de/sauna-arvika/6219",
         "checked_at": "2026-08-26"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna ARVIKA 2,31 x 2,31 m 9.0 kW Bio-Kombiofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-sauna-arvika-2-31-x-2-31-m-6197",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-26"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-avari-1-93001",
@@ -24761,6 +25498,16 @@
           "url": "https://www.karibu.de/sauna-avari-1/93002",
           "affiliate": false,
           "last_checked": "2026-08-26"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 1740.49,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-avari-1-1-55-x-1-22-m-93002",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "155 × 122 × 198 cm · 3,6 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
         }
       ]
     },
@@ -24794,9 +25541,15 @@
         "title": "Karibu Produktseite Sauna Avari 1 · 2 Personen 3,6 kW Ofen + integrierte Steuerung",
         "url": "https://www.karibu.de/sauna-avari-1/93002",
         "checked_at": "2026-08-26"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna AVARI 1 1,55 x 1,22 m 3.6 kW Ofen integr. Steuerung",
+        "url": "https://demmelhuber.net/karibu-sauna-avari-1-1-55-x-1-22-m-93002",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-26"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-avari-1-93003",
@@ -25085,6 +25838,16 @@
           "url": "https://www.karibu.de/sauna-avari-2/93006",
           "affiliate": false,
           "last_checked": "2026-08-26"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2028.12,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-avari-2-2-16-x-1-22-m-93006",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "216 × 122 × 198 cm · 3,6 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
         }
       ]
     },
@@ -25118,9 +25881,15 @@
         "title": "Karibu Produktseite Sauna Avari 2 · 3 Personen 3,6 kW Ofen + integrierte Steuerung",
         "url": "https://www.karibu.de/sauna-avari-2/93006",
         "checked_at": "2026-08-26"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna AVARI 2 2,16 x 1,22 m 3.6 kW Ofen integr. Steuerung",
+        "url": "https://demmelhuber.net/karibu-sauna-avari-2-2-16-x-1-22-m-93006",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-26"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-avari-2-93007",
@@ -26786,6 +27555,16 @@
           "url": "https://www.karibu.de/sauna-bodin/75631",
           "affiliate": false,
           "last_checked": "2026-08-26"
+        },
+        {
+          "merchant": "Demmelhuber",
+          "price": 2235.94,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-bodin-1-96-x-1-51-m-75631",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 151 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
         }
       ]
     },
@@ -26819,9 +27598,15 @@
         "title": "Karibu Produktseite Sauna Bodin · 3 Personen 9 kW Ofen + integrierte Steuerung Holztür",
         "url": "https://www.karibu.de/sauna-bodin/75631",
         "checked_at": "2026-08-26"
+      },
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna BODIN 1,96 x 1,51 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-bodin-1-96-x-1-51-m-75631",
+        "checked_at": "2026-09-07"
       }
     ],
-    "updated_at": "2026-08-26"
+    "updated_at": "2026-09-07"
   },
   {
     "product_id": "karibu-sauna-bodin-75632",
@@ -41338,5 +42123,2525 @@
       }
     ],
     "updated_at": "2026-09-02"
+  },
+  {
+    "product_id": "karibu-fasssauna-quadro-3-117",
+    "brand": "Karibu",
+    "model": "Fasssauna Quadro 3 · 9 kW mit Steuergerät",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 199,
+      "depth": 355,
+      "height": 205
+    },
+    "people": {
+      "min": 1,
+      "max": 5,
+      "seats": 5,
+      "lying_places": 0,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Fasssauna",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Saunaofen mit separatem Steuergerät",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 3971.51,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-fasssauna-quadro-3-1-99-x-3-55-m-38-mm-117",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "199 × 355 × 205 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "7,06 m² reine Produktfläche erleichtern die Grundstücksplanung",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "38 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Fundament, Dachdeckung und Montagezugang sind nicht in der Produktfläche enthalten",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Gartenprojekte mit vorbereitetem, tragfähigem Untergrund",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 5 Personen"
+      ],
+      "not_for": [
+        "Grundstücke ohne geklärten Zugang und Fundament",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Fasssauna Quadro 3 · 9 kW mit Steuergerät aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Fasssauna QUADRO 3 1,99 x 3,55 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-fasssauna-quadro-3-1-99-x-3-55-m-38-mm-117",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Fasssauna Quadro 3 · 9 kW mit Steuergerät",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=117",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-infrarot-asta-6700",
+    "brand": "Karibu",
+    "model": "Sauna-Infrarot-Kombination Asta · 9 kW Bio",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 245,
+      "depth": 245,
+      "height": 202
+    },
+    "people": {
+      "min": 1,
+      "max": 5,
+      "seats": 5,
+      "lying_places": 3,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Sauna-Infrarot-Kombination",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Bio-Kombiofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 4037.37,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-infrarotkabine-asta-2-31-x-2-31-m-6700",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "245 × 245 × 202 cm · 9 kW · Bio-Kombiofen",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Sauna- und Infrarotbetrieb werden in einer Kabine kombiniert",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 245 × 245 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Nutzer, die zwischen Infrarotwärme und Saunabetrieb wählen möchten"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna-Infrarot-Kombination Asta · 9 kW Bio aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Infrarotkabine ASTA 2,31 x 2,31 m 9.0 kW Bio-Kombiofen inkl. Steuergerät mit Dachkranz",
+        "url": "https://demmelhuber.net/karibu-infrarotkabine-asta-2-31-x-2-31-m-6700",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna-Infrarot-Kombination Asta · 9 kW Bio",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6700",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-elea-6762",
+    "brand": "Karibu",
+    "model": "Sauna Elea · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 195,
+      "depth": 169,
+      "height": 187
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Massivholzsauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2065.63,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-elea-1-95-x-1-69-m-6762",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "195 × 169 × 187 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 195 × 169 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "38 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 195 × 169 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 4 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Elea · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna ELEA 1,95 x 1,69 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-elea-1-95-x-1-69-m-6762",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Elea · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6762",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-jada-6806",
+    "brand": "Karibu",
+    "model": "Sauna Jada · 9 kW mit Steuergerät",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 224,
+      "depth": 160,
+      "height": 191
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Massivholzsauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit separatem Steuergerät",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2247.11,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-jada-2-24-x-1-6-m-6806",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "224 × 160 × 191 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 224 × 160 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "38 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 224 × 160 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 3 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Jada · 9 kW mit Steuergerät aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna JADA 2,24 x 1,6 m 9.0 kW Ofen inkl. Steuergerät mit Dachkranz",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-jada-2-24-x-1-6-m-6806",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Jada · 9 kW mit Steuergerät",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6806",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-mia-86545",
+    "brand": "Karibu",
+    "model": "Sauna Mia · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 170,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 2,
+      "basis": "source-stated"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Massivholzsauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2264.52,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-mia-1-96-x-1-7-m-86545",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 170 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 170 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "38 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die genannte Personenzahl stammt aus der geprüften Händlerbeschreibung",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 170 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 3 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Mia · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna MIA 1,96 x 1,7 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-mia-1-96-x-1-7-m-86545",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Mia · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=86545",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-tabea-6816",
+    "brand": "Karibu",
+    "model": "Sauna Tabea · 9 kW Bio",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 196,
+      "height": 187
+    },
+    "people": {
+      "min": 1,
+      "max": 5,
+      "seats": 5,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Massivholzsauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Bio-Kombiofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2601.86,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-tabea-1-96-x-1-96-m-6816",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 196 × 187 cm · 9 kW · Bio-Kombiofen",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 196 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "38 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 196 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 5 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Tabea · 9 kW Bio aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna TABEA 1,96 x 1,96 m 9.0 kW Bio-Kombiofen inkl. Steuergerät ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-tabea-1-96-x-1-96-m-6816",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Tabea · 9 kW Bio",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6816",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-infrarot-ava-6692",
+    "brand": "Karibu",
+    "model": "Sauna-Infrarot-Kombination Ava · 9 kW mit Steuergerät",
+    "family": null,
+    "category": "infrared",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 231,
+      "depth": 196,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 5,
+      "seats": 5,
+      "lying_places": 3,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Sauna-Infrarot-Kombination",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit separatem Steuergerät",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 3649.62,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-infrarotkabine-ava-2-31-x-1-96-m-6692",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 196 × 198 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Sauna- und Infrarotbetrieb werden in einer Kabine kombiniert",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 231 × 196 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Nutzer, die zwischen Infrarotwärme und Saunabetrieb wählen möchten"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna-Infrarot-Kombination Ava · 9 kW mit Steuergerät aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna / Infrarotkabine AVA 2,31 x 1,96 m 9.0 kW Ofen inkl. Steuergerät ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-infrarotkabine-ava-2-31-x-1-96-m-6692",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna-Infrarot-Kombination Ava · 9 kW mit Steuergerät",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6692",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-alcinda-2-2503",
+    "brand": "Karibu",
+    "model": "Sauna Alcinda 2 · 9 kW Bio",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 231,
+      "depth": 231,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 5,
+      "seats": 5,
+      "lying_places": 3,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Bio-Kombiofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 3414.99,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-alcinda-2-2-31-x-2-31-m-2503",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "231 × 231 × 198 cm · 9 kW · Bio-Kombiofen",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 231 × 231 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 231 × 231 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 5 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Alcinda 2 · 9 kW Bio aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna ALCINDA 2 2,31 x 2,31 m 9.0 kW Bio-Kombiofen inkl. Steuergerät ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-sauna-alcinda-2-2-31-x-2-31-m-2503",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Alcinda 2 · 9 kW Bio",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=2503",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-bodo-6208",
+    "brand": "Karibu",
+    "model": "Sauna Bodo · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 178,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 2,
+      "basis": "source-stated"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2057.38,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-bodo-1-96-x-1-78-m-6208",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 178 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 178 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die genannte Personenzahl stammt aus der geprüften Händlerbeschreibung",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 178 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 2 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Bodo · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna BODO 1,96 x 1,78 m 9.0 kW Ofen integr. Steuerung",
+        "url": "https://demmelhuber.net/karibu-sauna-bodo-1-96-x-1-78-m-6208",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Bodo · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6208",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-carin-75668",
+    "brand": "Karibu",
+    "model": "Sauna Carin · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 151,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2413.93,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-carin-1-96-x-1-51-m-75668",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 151 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 151 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 151 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 3 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Carin · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna CARIN 1,96 x 1,51 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-carin-1-96-x-1-51-m-75668",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Carin · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=75668",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-faurin-6199",
+    "brand": "Karibu",
+    "model": "Sauna Faurin · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 170,
+      "depth": 151,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 2,
+      "basis": "source-stated"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 1653.77,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-faurin-1-7-x-1-51-m-6199",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "170 × 151 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 170 × 151 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die genannte Personenzahl stammt aus der geprüften Händlerbeschreibung",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 170 × 151 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 2 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Faurin · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna FAURIN 1,7 x 1,51 m 9.0 kW Ofen integr. Steuerung",
+        "url": "https://demmelhuber.net/karibu-sauna-faurin-1-7-x-1-51-m-6199",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Faurin · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6199",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-fiona-1-59672",
+    "brand": "Karibu",
+    "model": "Sauna Fiona 1 · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 151,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2184.23,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-fiona-1-1-96-x-1-51-m-59672",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 151 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 151 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "196 × 151 × 198 cm Außenmaß sind vollständig dokumentiert"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 151 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 3 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Fiona 1 · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna FIONA 1 1,96 x 1,51 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-sauna-fiona-1-1-96-x-1-51-m-59672",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Fiona 1 · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=59672",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-fiona-2-52595",
+    "brand": "Karibu",
+    "model": "Sauna Fiona 2 · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 170,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2267.95,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-fiona-2-1-96-x-1-70-m-52595",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 170 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 170 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 170 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 4 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Fiona 2 · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna FIONA 2 1,96 x 1,70 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+        "url": "https://demmelhuber.net/karibu-sauna-fiona-2-1-96-x-1-70-m-52595",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Fiona 2 · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=52595",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-irava-1-90",
+    "brand": "Karibu",
+    "model": "Sauna Irava 1 · 3,6 kW mit Steuergerät",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 155,
+      "depth": 122,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 0,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Anschluss laut Händlerangabe",
+      "electrician_required": false,
+      "notes": "Demmelhuber nennt für diese Konfiguration 230 V. Anleitung, Absicherung und die örtlichen Anschlussbedingungen bleiben maßgeblich."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit separatem Steuergerät",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2325.28,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-irava-1-1-55-x-1-22-m-90",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "155 × 122 × 198 cm · 3,6 kW · Saunaofen",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 155 × 122 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "3,6 kW und 230 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Die Anschlussbedingungen müssen am Aufstellort geprüft werden"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 155 × 122 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 230-V-Anschluss",
+        "Planungen für bis zu 2 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Inbetriebnahme ohne Prüfung der Elektroinstallation"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Irava 1 · 3,6 kW mit Steuergerät aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna IRAVA 1 1,55 x 1,22 m 3.6 kW Ofen ext. Steuerung",
+        "url": "https://demmelhuber.net/karibu-sauna-irava-1-1-55-x-1-22-m-90",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Irava 1 · 3,6 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=90",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-irava-2-92",
+    "brand": "Karibu",
+    "model": "Sauna Irava 2 · 3,6 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 216,
+      "depth": 122,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 0,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Anschluss laut Händlerangabe",
+      "electrician_required": false,
+      "notes": "Demmelhuber nennt für diese Konfiguration 230 V. Anleitung, Absicherung und die örtlichen Anschlussbedingungen bleiben maßgeblich."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2618.99,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-irava-2-2-16-x-1-22-m-92",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "216 × 122 × 198 cm · 3,6 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 216 × 122 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "3,6 kW und 230 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Die Anschlussbedingungen müssen am Aufstellort geprüft werden"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 216 × 122 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 230-V-Anschluss",
+        "Planungen für bis zu 3 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Inbetriebnahme ohne Prüfung der Elektroinstallation"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Irava 2 · 3,6 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna IRAVA 2 2,16 x 1,22 m 3.6 kW Ofen integr. Steuerung",
+        "url": "https://demmelhuber.net/karibu-sauna-irava-2-2-16-x-1-22-m-92",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Irava 2 · 3,6 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=92",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-kotka-6214",
+    "brand": "Karibu",
+    "model": "Sauna Kotka · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 196,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 5,
+      "seats": 5,
+      "lying_places": 3,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2296.62,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-kotka-1-96-x-1-96-m-6214",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 196 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 196 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 196 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 5 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Kotka · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna KOTKA 1,96 x 1,96 m 9.0 kW Ofen integr. Steuerung",
+        "url": "https://demmelhuber.net/karibu-sauna-kotka-1-96-x-1-96-m-6214",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Kotka · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6214",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-larin-75615",
+    "brand": "Karibu",
+    "model": "Sauna Larin · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 151,
+      "depth": 151,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2192.3,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-larin-1-51-x-1-51-m-75615",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "151 × 151 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 151 × 151 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 151 × 151 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 2 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Larin · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna LARIN 1,51 x 1,51 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-larin-1-51-x-1-51-m-75615",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Larin · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=75615",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-oulu-6211",
+    "brand": "Karibu",
+    "model": "Sauna Oulu · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 196,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 5,
+      "seats": 5,
+      "lying_places": 3,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2255.37,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-oulu-1-96-x-1-96-m-6211",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 196 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 196 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 196 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 5 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Oulu · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna OULU 1,96 x 1,96 m 9.0 kW Ofen integr. Steuerung",
+        "url": "https://demmelhuber.net/karibu-sauna-oulu-1-96-x-1-96-m-6211",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Oulu · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6211",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-sodin-75692",
+    "brand": "Karibu",
+    "model": "Sauna Sodin · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 170,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2383.79,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-sodin-1-96-x-1-7-m-75692",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 170 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 170 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 170 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 4 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Sodin · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna SODIN 1,96 x 1,7 m Naturbelassen 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-sodin-1-96-x-1-7-m-75692",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Sodin · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=75692",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-taurin-80642",
+    "brand": "Karibu",
+    "model": "Sauna Taurin · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 170,
+      "depth": 151,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2137.44,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-taurin-1-7-x-1-51-m-80642",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "170 × 151 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 170 × 151 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 170 × 151 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 3 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Taurin · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna TAURIN 1,7 x 1,51 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-taurin-1-7-x-1-51-m-80642",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Taurin · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=80642",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-tonja-85844",
+    "brand": "Karibu",
+    "model": "Sauna Tonja · 3,6 kW mit Steuergerät",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 170,
+      "depth": 151,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 230,
+      "kw": 3.6,
+      "plug_type": "230-V-Anschluss laut Händlerangabe",
+      "electrician_required": false,
+      "notes": "Demmelhuber nennt für diese Konfiguration 230 V. Anleitung, Absicherung und die örtlichen Anschlussbedingungen bleiben maßgeblich."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit separatem Steuergerät",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2235.94,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-tonja-1-70-x-1-51-m-85844",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "170 × 151 × 198 cm · 3,6 kW · Saunaofen",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 170 × 151 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "3,6 kW und 230 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Die Anschlussbedingungen müssen am Aufstellort geprüft werden"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 170 × 151 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 230-V-Anschluss",
+        "Planungen für bis zu 3 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Inbetriebnahme ohne Prüfung der Elektroinstallation"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Tonja · 3,6 kW mit Steuergerät aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna TONJA 1,70 x 1,51 m 3.6 kW Ofen ext. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-tonja-1-70-x-1-51-m-85844",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Tonja · 3,6 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=85844",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-tromso-6203",
+    "brand": "Karibu",
+    "model": "Sauna Tromsö · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 178,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 2,
+      "basis": "source-stated"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2192.3,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-tromsoe-1-96-x-1-78-m-6203",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 178 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 178 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die genannte Personenzahl stammt aus der geprüften Händlerbeschreibung",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 178 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 2 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Tromsö · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna TROMSÖ 1,96 x 1,78 m 9.0 kW Ofen integr. Steuerung",
+        "url": "https://demmelhuber.net/karibu-sauna-tromsoe-1-96-x-1-78-m-6203",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Tromsö · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6203",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-variado-80669",
+    "brand": "Karibu",
+    "model": "Sauna Variado · 9 kW mit integrierter Steuerung",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 118,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 3,
+      "seats": 3,
+      "lying_places": 1,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "Saunaofen mit integrierter Steuerung",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2263.22,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-variado-1-96-x-1-18-m-80669",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 118 × 198 cm · 9 kW · Saunaofen mit integrierter Steuerung",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 118 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 118 cm zuzüglich Herstellerabständen",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 3 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Variado · 9 kW mit integrierter Steuerung aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna VARIADO 1,96 x 1,18 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+        "url": "https://demmelhuber.net/karibu-sauna-variado-1-96-x-1-18-m-80669",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Variado · 9 kW mit integrierter Steuerung",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=80669",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-saunahaus-angkor-1-179",
+    "brand": "Karibu",
+    "model": "Saunahaus Angkor 1 · 9 kW mit Steuergerät",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 191,
+      "depth": 276,
+      "height": 232
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 0,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Saunahaus",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Saunaofen mit separatem Steuergerät",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 4078.99,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-angkor-1-1-91-x-2-76-m-38-mm-179",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "191 × 276 × 232 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "5,27 m² reine Produktfläche erleichtern die Grundstücksplanung",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "38 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Fundament, Dachdeckung und Montagezugang sind nicht in der Produktfläche enthalten",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Gartenprojekte mit vorbereitetem, tragfähigem Untergrund",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 4 Personen"
+      ],
+      "not_for": [
+        "Grundstücke ohne geklärten Zugang und Fundament",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Saunahaus Angkor 1 · 9 kW mit Steuergerät aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus ANGKOR 1 1,91 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+        "url": "https://demmelhuber.net/karibu-saunahaus-angkor-1-1-91-x-2-76-m-38-mm-179",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Saunahaus Angkor 1 · 9 kW mit Steuergerät",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=179",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-saunahaus-ares-3-341",
+    "brand": "Karibu",
+    "model": "Saunahaus Ares 3 · 9 kW mit Steuergerät",
+    "family": null,
+    "category": "outdoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 276,
+      "depth": 276,
+      "height": 232
+    },
+    "people": {
+      "min": 1,
+      "max": 5,
+      "seats": 5,
+      "lying_places": 0,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": 400,
+      "kw": 9,
+      "plug_type": null,
+      "electrician_required": true,
+      "notes": "Demmelhuber nennt für diese Konfiguration einen 400-V-Starkstromanschluss. Planung und Anschluss gehören in die Hände einer Elektrofachkraft."
+    },
+    "sauna": {
+      "type": "Saunahaus",
+      "indoor_outdoor": "outdoor",
+      "heater_type": "Saunaofen mit separatem Steuergerät",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 4134.04,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-saunahaus-ares-3-2-77-x-2-76-m-38-mm-341",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "276 × 276 × 232 cm · 9 kW · Saunaofen mit separatem Steuergerät",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "7,62 m² reine Produktfläche erleichtern die Grundstücksplanung",
+        "9 kW und 400 V sind für die angebotene Konfiguration genannt",
+        "38 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Fundament, Dachdeckung und Montagezugang sind nicht in der Produktfläche enthalten",
+        "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss"
+      ],
+      "ideal_for": [
+        "Gartenprojekte mit vorbereitetem, tragfähigem Untergrund",
+        "Projekte mit geklärtem 400-V-Anschluss",
+        "Planungen für bis zu 5 Personen"
+      ],
+      "not_for": [
+        "Grundstücke ohne geklärten Zugang und Fundament",
+        "Standorte ohne realisierbaren Starkstromanschluss"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Saunahaus Ares 3 · 9 kW mit Steuergerät aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Saunahaus ARES 3 2,77 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+        "url": "https://demmelhuber.net/karibu-saunahaus-ares-3-2-77-x-2-76-m-38-mm-341",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Saunahaus Ares 3 · 9 kW mit Steuergerät",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=341",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-jutta-6183",
+    "brand": "Karibu",
+    "model": "Sauna Jutta · ohne Ofen",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 224,
+      "depth": 210,
+      "height": 191
+    },
+    "people": {
+      "min": 1,
+      "max": 5,
+      "seats": 5,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Das geprüfte Angebot wird ohne Ofen geführt. Leistung, Spannung, Steuerung und Installation richten sich nach der später gewählten Saunatechnik."
+    },
+    "sauna": {
+      "type": "Massivholzsauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "ohne Ofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 1983.29,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-massivholzsauna-jutta-1-96-x-1-96-m-6183",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "224 × 210 × 191 cm · ohne Ofen",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 224 × 210 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "Ofen und Steuerung können passend zum Projekt separat gewählt werden",
+        "38 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Saunatechnik ist im dokumentierten Angebot nicht enthalten"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 224 × 210 cm zuzüglich Herstellerabständen",
+        "Käufer, die Ofen und Steuerung selbst passend zusammenstellen",
+        "Planungen für bis zu 5 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Kaufwünsche mit vollständig enthaltenem Ofenpaket"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Jutta · ohne Ofen aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Massivholzsauna JUTTA 1,96 x 1,96 m ohne Ofen mit Dachkranz",
+        "url": "https://demmelhuber.net/karibu-massivholzsauna-jutta-1-96-x-1-96-m-6183",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Jutta · ohne Ofen",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=6183",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-daria-59780",
+    "brand": "Karibu",
+    "model": "Sauna Daria · ohne Ofen",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 196,
+      "depth": 170,
+      "height": 198
+    },
+    "people": {
+      "min": 1,
+      "max": 4,
+      "seats": 4,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Das geprüfte Angebot wird ohne Ofen geführt. Leistung, Spannung, Steuerung und Installation richten sich nach der später gewählten Saunatechnik."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "ohne Ofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 2067.01,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-daria-1-96-x-1-70-m-59780",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "196 × 170 × 198 cm · ohne Ofen",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 196 × 170 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "Ofen und Steuerung können passend zum Projekt separat gewählt werden",
+        "38 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Saunatechnik ist im dokumentierten Angebot nicht enthalten"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 196 × 170 cm zuzüglich Herstellerabständen",
+        "Käufer, die Ofen und Steuerung selbst passend zusammenstellen",
+        "Planungen für bis zu 4 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Kaufwünsche mit vollständig enthaltenem Ofenpaket"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Daria · ohne Ofen aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna DARIA 1,96 x 1,70 m ohne Ofen ohne Dachkranz Klarglastür",
+        "url": "https://demmelhuber.net/karibu-sauna-daria-1-96-x-1-70-m-59780",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Daria · ohne Ofen",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=59780",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
+  },
+  {
+    "product_id": "karibu-sauna-nanja-59777",
+    "brand": "Karibu",
+    "model": "Sauna Nanja · ohne Ofen",
+    "family": null,
+    "category": "indoor",
+    "status": "verified",
+    "dimensions_cm": {
+      "width": 165,
+      "depth": 165,
+      "height": 202
+    },
+    "people": {
+      "min": 1,
+      "max": 2,
+      "seats": 2,
+      "lying_places": 2,
+      "basis": "conservative-planning"
+    },
+    "power": {
+      "voltage": "none",
+      "kw": null,
+      "plug_type": null,
+      "electrician_required": false,
+      "notes": "Das geprüfte Angebot wird ohne Ofen geführt. Leistung, Spannung, Steuerung und Installation richten sich nach der später gewählten Saunatechnik."
+    },
+    "sauna": {
+      "type": "Finnische Sauna",
+      "indoor_outdoor": "indoor",
+      "heater_type": "ohne Ofen",
+      "max_temp_c": null,
+      "heat_up_time_min": null,
+      "wood_type": "Nordische Fichte"
+    },
+    "commercial": {
+      "currency": "EUR",
+      "price_status": "current",
+      "offers": [
+        {
+          "merchant": "Demmelhuber",
+          "price": 1909.87,
+          "availability": "feed-listed",
+          "url": "https://demmelhuber.net/karibu-sauna-nanja-1-51-x-1-51-m-59777",
+          "affiliate": false,
+          "last_checked": "2026-09-07",
+          "configuration": "165 × 165 × 202 cm · ohne Ofen",
+          "selection_required": false
+        }
+      ]
+    },
+    "editorial": {
+      "pros": [
+        "Der Grundriss von 165 × 165 cm lässt sich konkret gegen den Aufstellraum prüfen",
+        "Ofen und Steuerung können passend zum Projekt separat gewählt werden",
+        "68 mm Wandstärke sind auf der Händlerseite ausgewiesen"
+      ],
+      "cons": [
+        "Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen",
+        "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden",
+        "Saunatechnik ist im dokumentierten Angebot nicht enthalten"
+      ],
+      "ideal_for": [
+        "Innenräume mit ausreichend Platz für 165 × 165 cm zuzüglich Herstellerabständen",
+        "Käufer, die Ofen und Steuerung selbst passend zusammenstellen",
+        "Planungen für bis zu 2 Personen"
+      ],
+      "not_for": [
+        "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände",
+        "Kaufwünsche mit vollständig enthaltenem Ofenpaket"
+      ],
+      "test_status": "not_tested",
+      "editorial_score": null,
+      "disclosure": "Technische Einordnung des Sauna Nanja · ohne Ofen aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor."
+    },
+    "sources": [
+      {
+        "type": "merchant",
+        "title": "Demmelhuber Produktseite Sauna NANJA 1,51 x 1,51 m ohne Ofen mit Dachkranz Ganzglastür graphit",
+        "url": "https://demmelhuber.net/karibu-sauna-nanja-1-51-x-1-51-m-59777",
+        "checked_at": "2026-09-07"
+      },
+      {
+        "type": "manufacturer",
+        "title": "Karibu Produktdokument Sauna Nanja · ohne Ofen",
+        "url": "https://www.karibu.de/wb-pdf-creator/create-product-document?sku=59777",
+        "checked_at": "2026-09-07"
+      }
+    ],
+    "updated_at": "2026-09-07"
   }
 ]

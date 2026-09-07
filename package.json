@@ -22,6 +22,8 @@
     "awin:discover": "node scripts/awin/discover-feeds.mjs",
     "awin:candidates": "node scripts/awin/audit-catalog-candidates.mjs",
     "awin:promote": "node scripts/promote-awin-expansion.mjs",
+    "awin:review:demmelhuber-karibu": "node scripts/review-demmelhuber-karibu-catalog.mjs",
+    "awin:promote:demmelhuber-karibu": "node scripts/promote-demmelhuber-karibu-expansion.mjs",
     "awin:sync": "node scripts/awin/sync-affiliate-offers.mjs",
     "awin:test": "node --test scripts/awin/*.test.mjs",
     "offer:test": "node --test --experimental-strip-types scripts/offer-policy.test.ts",

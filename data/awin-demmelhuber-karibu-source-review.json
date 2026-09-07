@@ -1,0 +1,2972 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-07T15:34:52.942Z",
+  "source": "Demmelhuber DE Awin feed plus public Demmelhuber product pages",
+  "secret_included": false,
+  "selection_policy": "Nur Karibu Saunakabinen, Saunahäuser, Garten- und Fasssaunen. Zubehör wird ausgeschlossen. Technische Angaben werden aus der jeweils erreichbaren Produktseite extrahiert und müssen vor Veröffentlichung gegen vorhandene Produkte abgeglichen werden.",
+  "advertiser_id": "18816",
+  "feed_id": "39421",
+  "feed_rows": 3935,
+  "karibu_units_in_feed": 92,
+  "reachable_pages": 92,
+  "products": [
+    {
+      "feed_name": "Fasssauna 1 225 x 175 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04246",
+      "feed_price": 3078.99,
+      "merchant_url": "https://demmelhuber.net/karibu-fasssauna-1-2-25-x-1-75-m-38-mm-404",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-fasssauna-1-2-25-x-1-75-m-38-mm-404?number=15-001-01-000-04246",
+      "canonical_url": "https://www.demmelhuber.net/karibu-fasssauna-1-2-25-x-1-75-m-38-mm-404?number=15-001-01-000-04246",
+      "page_article": "Fasssauna 1 2,25 x 1,75 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 225,
+        "depth": 175,
+        "height": 229
+      },
+      "standard_dimensions_cm": {
+        "width": 225,
+        "depth": 175,
+        "height": 229
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Fasssauna 2 225 x 295 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04156",
+      "feed_price": 3927.19,
+      "merchant_url": "https://demmelhuber.net/karibu-fasssauna-2-2-25-x-2-95-m-38-mm-92827",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-fasssauna-2-2-25-x-2-95-m-38-mm-92827?number=15-001-01-000-04156",
+      "canonical_url": "https://www.demmelhuber.net/karibu-fasssauna-2-2-25-x-2-95-m-38-mm-92827?number=15-001-01-000-04156",
+      "page_article": "Fasssauna 2 2,25 x 2,95 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 225,
+        "depth": 295,
+        "height": 229
+      },
+      "standard_dimensions_cm": {
+        "width": 225,
+        "depth": 295,
+        "height": 229
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Fasssauna 3 225 x 385 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04160",
+      "feed_price": 4784.17,
+      "merchant_url": "https://demmelhuber.net/karibu-fasssauna-3-2-25-x-3-85-m-38-mm-92830",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-fasssauna-3-2-25-x-3-85-m-38-mm-92830?number=15-001-01-000-04160",
+      "canonical_url": "https://www.demmelhuber.net/karibu-fasssauna-3-2-25-x-3-85-m-38-mm-92830?number=15-001-01-000-04160",
+      "page_article": "Fasssauna 3 2,25 x 3,85 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 225,
+        "depth": 385,
+        "height": 229
+      },
+      "standard_dimensions_cm": {
+        "width": 225,
+        "depth": 385,
+        "height": 229
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 4,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Fasssauna QUADRO 1 199 x 175 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04448",
+      "feed_price": 2324.59,
+      "merchant_url": "https://demmelhuber.net/karibu-fasssauna-quadro-1-1-99-x-1-75-m-38-mm-34264",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-fasssauna-quadro-1-1-99-x-1-75-m-38-mm-34264?number=15-001-01-000-04448",
+      "canonical_url": "https://www.demmelhuber.net/karibu-fasssauna-quadro-1-1-99-x-1-75-m-38-mm-34264?number=15-001-01-000-04448",
+      "page_article": "Fasssauna QUADRO 1 1,99 x 1,75 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 199,
+        "depth": 175,
+        "height": 205
+      },
+      "standard_dimensions_cm": {
+        "width": 199,
+        "depth": 175,
+        "height": 205
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Fasssauna QUADRO 1 PLUS 242 x 175 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04492",
+      "feed_price": 2905.05,
+      "merchant_url": "https://demmelhuber.net/karibu-fasssauna-quadro-1-plus-2-42-x-1-75-m-38-mm-35447",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-fasssauna-quadro-1-plus-2-42-x-1-75-m-38-mm-35447?number=15-001-01-000-04492",
+      "canonical_url": "https://www.demmelhuber.net/karibu-fasssauna-quadro-1-plus-2-42-x-1-75-m-38-mm-35447?number=15-001-01-000-04492",
+      "page_article": "Fasssauna QUADRO 1 PLUS 2,42 x 1,75 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 242,
+        "depth": 175,
+        "height": 205
+      },
+      "standard_dimensions_cm": {
+        "width": 242,
+        "depth": 175,
+        "height": 205
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 3,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Fasssauna QUADRO 3 199 x 355 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04243",
+      "feed_price": 3971.51,
+      "merchant_url": "https://demmelhuber.net/karibu-fasssauna-quadro-3-1-99-x-3-55-m-38-mm-117",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-fasssauna-quadro-3-1-99-x-3-55-m-38-mm-117?number=15-001-01-000-04243",
+      "canonical_url": "https://www.demmelhuber.net/karibu-fasssauna-quadro-3-1-99-x-3-55-m-38-mm-117?number=15-001-01-000-04243",
+      "page_article": "Fasssauna QUADRO 3 1,99 x 3,55 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 199,
+        "depth": 355,
+        "height": 205
+      },
+      "standard_dimensions_cm": {
+        "width": 199,
+        "depth": 355,
+        "height": 205
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 4,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Infrarotkabine ASTA 231 x 231 m 9.0 kW BioKombiofen inkl. Steuergerät mit Dachkranz",
+      "feed_sku": "15-001-02-000-00087",
+      "feed_price": 4037.37,
+      "merchant_url": "https://demmelhuber.net/karibu-infrarotkabine-asta-2-31-x-2-31-m-6700",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-infrarotkabine-asta-2-31-x-2-31-m-6700?number=15-001-02-000-00087",
+      "canonical_url": "https://www.demmelhuber.net/karibu-infrarotkabine-asta-2-31-x-2-31-m-6700?number=15-001-02-000-00087",
+      "page_article": "Infrarotkabine ASTA 2,31 x 2,31 m 9.0 kW Bio-Kombiofen inkl. Steuergerät mit Dachkranz",
+      "category": "infrared",
+      "dimensions_cm": {
+        "width": 245,
+        "depth": 245,
+        "height": 202
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 231,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 245,
+        "depth": 245,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Bio-Kombiofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna ADELINA 195 x 169 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-02-000-00213",
+      "feed_price": 2106.92,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-adelina-1-95-x-1-69-m-6755",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-adelina-1-95-x-1-69-m-6755?number=15-001-02-000-00213",
+      "canonical_url": "https://www.demmelhuber.net/karibu-massivholzsauna-adelina-1-95-x-1-69-m-6755?number=15-001-02-000-00213",
+      "page_article": "Massivholzsauna ADELINA 1,95 x 1,69 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 195,
+        "depth": 169,
+        "height": 187
+      },
+      "standard_dimensions_cm": {
+        "width": 195,
+        "depth": 169,
+        "height": 187
+      },
+      "roof_dimensions_cm": {
+        "width": 223,
+        "depth": 183,
+        "height": 191
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": 3,
+      "people_evidence": [
+        "LED-Strahlerset (wählbar) 2 Bänke mit langer Liegefläche und 57cm Breite Optimal für bis zu 2-3 Personen Technische Details zur Sauna ADELINA: Bauweise: Steck-Schraub-System Anzahl Bänke: 2 Stk."
+      ],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna AMARA 236 x 184 m 40 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-01-000-01709",
+      "feed_price": 2937.75,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-amara-2-36-x-1-84-m-40-mm-71285",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-amara-2-36-x-1-84-m-40-mm-71285?number=15-001-01-000-01709",
+      "canonical_url": "https://www.karibu-shop.com/karibu-massivholzsauna-amara-2-36-x-1-84-m-40-mm-71285?number=15-001-01-000-01709",
+      "page_article": "Massivholzsauna AMARA 2,36 x 1,84 m 40 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 236,
+        "depth": 184,
+        "height": 209
+      },
+      "standard_dimensions_cm": {
+        "width": 236,
+        "depth": 184,
+        "height": 209
+      },
+      "roof_dimensions_cm": {
+        "width": 264,
+        "depth": 198,
+        "height": 212
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 40,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna ANTONIA 145 x 145 m 3.6 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-02-000-00249",
+      "feed_price": 1799.88,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-antonia-1-45-x-1-45-m-6717",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-antonia-1-45-x-1-45-m-6717?number=15-001-02-000-00249",
+      "canonical_url": "https://www.demmelhuber.net/karibu-massivholzsauna-antonia-1-45-x-1-45-m-6717?number=15-001-02-000-00249",
+      "page_article": "Massivholzsauna ANTONIA 1,45 x 1,45 m 3.6 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 145,
+        "depth": 145,
+        "height": 187
+      },
+      "standard_dimensions_cm": {
+        "width": 145,
+        "depth": 145,
+        "height": 187
+      },
+      "roof_dimensions_cm": {
+        "width": 173,
+        "depth": 173,
+        "height": 191
+      },
+      "power_kw": 3.6,
+      "voltage": 230,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna ELEA 195 x 169 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-02-000-00207",
+      "feed_price": 2065.63,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-elea-1-95-x-1-69-m-6762",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-elea-1-95-x-1-69-m-6762?number=15-001-02-000-00207",
+      "canonical_url": "https://www.demmelhuber.net/karibu-massivholzsauna-elea-1-95-x-1-69-m-6762?number=15-001-02-000-00207",
+      "page_article": "Massivholzsauna ELEA 1,95 x 1,69 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 195,
+        "depth": 169,
+        "height": 187
+      },
+      "standard_dimensions_cm": {
+        "width": 195,
+        "depth": 169,
+        "height": 187
+      },
+      "roof_dimensions_cm": {
+        "width": 223,
+        "depth": 183,
+        "height": 191
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna JADA 224 x 16 m 9.0 kW Ofen inkl. Steuergerät mit Dachkranz",
+      "feed_sku": "15-001-02-000-00167",
+      "feed_price": 2247.11,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-jada-2-24-x-1-6-m-6806",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-jada-2-24-x-1-6-m-6806?number=15-001-02-000-00167",
+      "canonical_url": "https://www.demmelhuber.net/karibu-massivholzsauna-jada-2-24-x-1-6-m-6806?number=15-001-02-000-00167",
+      "page_article": "Massivholzsauna JADA 2,24 x 1,6 m 9.0 kW Ofen inkl. Steuergerät mit Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 224,
+        "depth": 160,
+        "height": 191
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 146,
+        "height": 187
+      },
+      "roof_dimensions_cm": {
+        "width": 224,
+        "depth": 160,
+        "height": 191
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna JELLA 195 x 145 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-02-000-00222",
+      "feed_price": 2147.98,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-jella-1-95-x-1-45-m-6744",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-jella-1-95-x-1-45-m-6744?number=15-001-02-000-00222",
+      "canonical_url": "https://www.demmelhuber.net/karibu-massivholzsauna-jella-1-95-x-1-45-m-6744?number=15-001-02-000-00222",
+      "page_article": "Massivholzsauna JELLA 1,95 x 1,45 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 195,
+        "depth": 145,
+        "height": 187
+      },
+      "standard_dimensions_cm": {
+        "width": 195,
+        "depth": 145,
+        "height": 187
+      },
+      "roof_dimensions_cm": {
+        "width": 223,
+        "depth": 159,
+        "height": 191
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna MIA 196 x 17 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-02906",
+      "feed_price": 2264.52,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-mia-1-96-x-1-7-m-86545",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-mia-1-96-x-1-7-m-86545?number=15-001-01-000-02906",
+      "canonical_url": "https://www.demmelhuber.net/karibu-massivholzsauna-mia-1-96-x-1-7-m-86545?number=15-001-01-000-02906",
+      "page_article": "Massivholzsauna MIA 1,96 x 1,7 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 224,
+        "depth": 184,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": 3,
+      "people_evidence": [
+        "end durch praktischen Eckeinstieg 2 Bänke mit langer Liegefläche und 57cm Breite Optimal für bis zu 2-3 Personen Technische Details zur Sauna MIA: Bauweise: Steck-Schraub-System Anzahl Bänke: 2 Stk."
+      ],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna MOJAVE 196 x 196 m 40 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-01668",
+      "feed_price": 2478.12,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-mojave-1-96-x-1-96-m-40-mm-71394",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-mojave-1-96-x-1-96-m-40-mm-71394?number=15-001-01-000-01668",
+      "canonical_url": "https://www.karibu-shop.com/karibu-massivholzsauna-mojave-1-96-x-1-96-m-40-mm-71394?number=15-001-01-000-01668",
+      "page_article": "Massivholzsauna MOJAVE 1,96 x 1,96 m 40 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": null,
+      "standard_dimensions_cm": null,
+      "roof_dimensions_cm": {
+        "width": 224,
+        "depth": 210,
+        "height": 206
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 3,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 40,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna SANDRA 145 x 145 m 3.6 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-02-000-00261",
+      "feed_price": 1656.76,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-sandra-1-45-x-1-45-m-6705",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-sandra-1-45-x-1-45-m-6705?number=15-001-02-000-00261",
+      "canonical_url": "https://www.demmelhuber.net/karibu-massivholzsauna-sandra-1-45-x-1-45-m-6705?number=15-001-02-000-00261",
+      "page_article": "Massivholzsauna SANDRA 1,45 x 1,45 m 3.6 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 145,
+        "depth": 145,
+        "height": 187
+      },
+      "standard_dimensions_cm": {
+        "width": 145,
+        "depth": 145,
+        "height": 187
+      },
+      "roof_dimensions_cm": {
+        "width": 165,
+        "depth": 159,
+        "height": 191
+      },
+      "power_kw": 3.6,
+      "voltage": 230,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna SELENA 195 x 145 m 3.6 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-02-000-00237",
+      "feed_price": 1821.22,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-selena-1-95-x-1-45-m-6729",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-selena-1-95-x-1-45-m-6729?number=15-001-02-000-00237",
+      "canonical_url": "https://www.demmelhuber.net/karibu-massivholzsauna-selena-1-95-x-1-45-m-6729?number=15-001-02-000-00237",
+      "page_article": "Massivholzsauna SELENA 1,95 x 1,45 m 3.6 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 195,
+        "depth": 145,
+        "height": 187
+      },
+      "standard_dimensions_cm": {
+        "width": 195,
+        "depth": 145,
+        "height": 187
+      },
+      "roof_dimensions_cm": {
+        "width": 223,
+        "depth": 159,
+        "height": 191
+      },
+      "power_kw": 3.6,
+      "voltage": 230,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna SINAI 236 x 184 m 38 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-01-000-01361",
+      "feed_price": 2912.64,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-sinai-2-36-x-1-84-m-40-mm-62933",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-sinai-2-36-x-1-84-m-40-mm-62933?number=15-001-01-000-01361",
+      "canonical_url": "https://www.karibu-shop.com/karibu-massivholzsauna-sinai-2-36-x-1-84-m-40-mm-62933?number=15-001-01-000-01361",
+      "page_article": "Massivholzsauna SINAI 2,36 x 1,84 m 38 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 236,
+        "depth": 184,
+        "height": 209
+      },
+      "standard_dimensions_cm": {
+        "width": 236,
+        "depth": 184,
+        "height": 209
+      },
+      "roof_dimensions_cm": {
+        "width": 264,
+        "depth": 198,
+        "height": 212
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 40,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna SONARA 231 x 196 m 38 mm 9.0 kW Ofen inkl. Steuergerät ohne Dachkranz Ganzglastür Klarglas",
+      "feed_sku": "15-001-01-000-02537",
+      "feed_price": 2817.09,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-sonara-2-36-x-1-84-m-40-mm-75819",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-sonara-2-36-x-1-84-m-40-mm-75819?number=15-001-01-000-02537",
+      "canonical_url": "https://www.karibu-shop.com/karibu-massivholzsauna-sonara-2-36-x-1-84-m-40-mm-75819?number=15-001-01-000-02537",
+      "page_article": "Massivholzsauna SONARA 2,31 x 1,96 m 38 mm 9.0 kW Ofen inkl. Steuergerät ohne Dachkranz Ganzglastür Klarglas",
+      "category": "indoor",
+      "dimensions_cm": null,
+      "standard_dimensions_cm": null,
+      "roof_dimensions_cm": {
+        "width": 259,
+        "depth": 210,
+        "height": 205
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna TABEA 196 x 196 m 9.0 kW BioKombiofen inkl. Steuergerät ohne Dachkranz",
+      "feed_sku": "15-001-02-000-00157",
+      "feed_price": 2601.86,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-tabea-1-96-x-1-96-m-6816",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-tabea-1-96-x-1-96-m-6816?number=15-001-02-000-00157",
+      "canonical_url": "https://www.demmelhuber.net/karibu-massivholzsauna-tabea-1-96-x-1-96-m-6816?number=15-001-02-000-00157",
+      "page_article": "Massivholzsauna TABEA 1,96 x 1,96 m 9.0 kW Bio-Kombiofen inkl. Steuergerät ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 187
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 187
+      },
+      "roof_dimensions_cm": {
+        "width": 224,
+        "depth": 210,
+        "height": 191
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Bio-Kombiofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna TANAMI 231 x 196 m 38 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-01-000-01171",
+      "feed_price": 2643.11,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-tanami-2-36-x-1-84-m-40-mm-54467",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-tanami-2-36-x-1-84-m-40-mm-54467?number=15-001-01-000-01171",
+      "canonical_url": "https://www.karibu-shop.com/karibu-massivholzsauna-tanami-2-36-x-1-84-m-40-mm-54467?number=15-001-01-000-01171",
+      "page_article": "Massivholzsauna TANAMI 2,31 x 1,96 m 38 mm 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 200
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 200
+      },
+      "roof_dimensions_cm": {
+        "width": 259,
+        "depth": 210,
+        "height": 205
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 40,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna  Infrarotkabine AVA 231 x 196 m 9.0 kW Ofen inkl. Steuergerät ohne Dachkranz",
+      "feed_sku": "15-001-02-000-00094",
+      "feed_price": 3649.62,
+      "merchant_url": "https://demmelhuber.net/karibu-infrarotkabine-ava-2-31-x-1-96-m-6692",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-infrarotkabine-ava-2-31-x-1-96-m-6692?number=15-001-02-000-00094",
+      "canonical_url": "https://www.demmelhuber.net/karibu-infrarotkabine-ava-2-31-x-1-96-m-6692?number=15-001-02-000-00094",
+      "page_article": "Sauna / Infrarotkabine AVA 2,31 x 1,96 m 9.0 kW Ofen inkl. Steuergerät ohne Dachkranz",
+      "category": "infrared",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 245,
+        "depth": 210,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna AINUR 231 x 196 m 9.0 kW BioKombiofen inkl. Steuergerät mit Dachkranz",
+      "feed_sku": "15-001-02-000-00132",
+      "feed_price": 3395.29,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-ainur-2-31-x-1-96-m-6098",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-ainur-2-31-x-1-96-m-6098?number=15-001-02-000-00132",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-ainur-2-31-x-1-96-m-6098?number=15-001-02-000-00132",
+      "page_article": "Sauna AINUR 2,31 x 1,96 m 9.0 kW Bio-Kombiofen inkl. Steuergerät mit Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 245,
+        "depth": 210,
+        "height": 202
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 245,
+        "depth": 210,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Bio-Kombiofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna AIRI 196 x 196 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-01-000-04461",
+      "feed_price": 2849.37,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-airi-1-96-x-1-96-m-34291",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-airi-1-96-x-1-96-m-34291?number=15-001-01-000-04461",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-airi-1-96-x-1-96-m-34291?number=15-001-01-000-04461",
+      "page_article": "Sauna AIRI 1,96 x 1,96 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 210,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 3,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna ALCINDA 2 231 x 231 m 9.0 kW BioKombiofen inkl. Steuergerät ohne Dachkranz",
+      "feed_sku": "15-001-02-000-00129",
+      "feed_price": 3414.99,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-alcinda-2-2-31-x-2-31-m-2503",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-alcinda-2-2-31-x-2-31-m-2503?number=15-001-02-000-00129",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-alcinda-2-2-31-x-2-31-m-2503?number=15-001-02-000-00129",
+      "page_article": "Sauna ALCINDA 2 2,31 x 2,31 m 9.0 kW Bio-Kombiofen inkl. Steuergerät ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 231,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 231,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 245,
+        "depth": 245,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Bio-Kombiofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna AMELIA 1 196 x 170 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-01-000-01484",
+      "feed_price": 2313.11,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-amelia-1-1-96-x-1-70-m-66743",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-amelia-1-1-96-x-1-70-m-66743?number=15-001-01-000-01484",
+      "canonical_url": "https://www.karibu-shop.com/karibu-sauna-amelia-1-1-96-x-1-70-m-66743?number=15-001-01-000-01484",
+      "page_article": "Sauna AMELIA 1 1,96 x 1,70 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 184,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna AMELIA 3 231 x 196 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-01-000-01500",
+      "feed_price": 2602.85,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-amelia-3-2-31-x-1-96-m-66760",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-amelia-3-2-31-x-1-96-m-66760?number=15-001-01-000-01500",
+      "canonical_url": "https://www.karibu-shop.com/karibu-sauna-amelia-3-2-31-x-1-96-m-66760?number=15-001-01-000-01500",
+      "page_article": "Sauna AMELIA 3 2,31 x 1,96 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 245,
+        "depth": 210,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna ARVIKA 231 x 231 m 9.0 kW BioKombiofen inkl. Steuergerät",
+      "feed_sku": "15-001-02-000-00284",
+      "feed_price": 2855.52,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-arvika-2-31-x-2-31-m-6197",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-arvika-2-31-x-2-31-m-6197?number=15-001-02-000-00284",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-arvika-2-31-x-2-31-m-6197?number=15-001-02-000-00284",
+      "page_article": "Sauna ARVIKA 2,31 x 2,31 m 9.0 kW Bio-Kombiofen inkl. Steuergerät",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 231,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 231,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Bio-Kombiofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna AVARI 1 155 x 122 m 3.6 kW Ofen integr. Steuerung",
+      "feed_sku": "15-001-01-000-04177",
+      "feed_price": 1740.49,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-avari-1-1-55-x-1-22-m-93002",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-avari-1-1-55-x-1-22-m-93002?number=15-001-01-000-04177",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-avari-1-1-55-x-1-22-m-93002?number=15-001-01-000-04177",
+      "page_article": "Sauna AVARI 1 1,55 x 1,22 m 3.6 kW Ofen integr. Steuerung",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 155,
+        "depth": 122,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 155,
+        "depth": 122,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 3.6,
+      "voltage": 230,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 1,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 1,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna AVARI 2 216 x 122 m 3.6 kW Ofen integr. Steuerung",
+      "feed_sku": "15-001-01-000-04181",
+      "feed_price": 2028.12,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-avari-2-2-16-x-1-22-m-93006",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-avari-2-2-16-x-1-22-m-93006?number=15-001-01-000-04181",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-avari-2-2-16-x-1-22-m-93006?number=15-001-01-000-04181",
+      "page_article": "Sauna AVARI 2 2,16 x 1,22 m 3.6 kW Ofen integr. Steuerung",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 216,
+        "depth": 122,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 216,
+        "depth": 122,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 3.6,
+      "voltage": 230,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 1,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 1,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna BODIN 196 x 151 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-01915",
+      "feed_price": 2235.94,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-bodin-1-96-x-1-51-m-75631",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-bodin-1-96-x-1-51-m-75631?number=15-001-01-000-01915",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-bodin-1-96-x-1-51-m-75631?number=15-001-01-000-01915",
+      "page_article": "Sauna BODIN 1,96 x 1,51 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 151,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 151,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 165,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna BODO 196 x 178 m 9.0 kW Ofen integr. Steuerung",
+      "feed_sku": "15-001-02-000-00295",
+      "feed_price": 2057.38,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-bodo-1-96-x-1-78-m-6208",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-bodo-1-96-x-1-78-m-6208?number=15-001-02-000-00295",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-bodo-1-96-x-1-78-m-6208?number=15-001-02-000-00295",
+      "page_article": "Sauna BODO 1,96 x 1,78 m 9.0 kW Ofen integr. Steuerung",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 178,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 178,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": 2,
+      "people_evidence": [
+        "rbrauch durch Mineraldämmwolle Optisch ansprechend durch praktischen Eckeinstieg Optimal für bis zu 1-2 Personen 2 Bänke mit 50cm Breite Technische Details zur Sauna BODO: Bauweise: vormontierte Elemente Anzahl B"
+      ],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna CARIN 196 x 151 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-01934",
+      "feed_price": 2413.93,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-carin-1-96-x-1-51-m-75668",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-carin-1-96-x-1-51-m-75668?number=15-001-01-000-01934",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-carin-1-96-x-1-51-m-75668?number=15-001-01-000-01934",
+      "page_article": "Sauna CARIN 1,96 x 1,51 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 151,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 151,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 165,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna FAURIN 17 x 151 m 9.0 kW Ofen integr. Steuerung",
+      "feed_sku": "15-001-02-000-00301",
+      "feed_price": 1653.77,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-faurin-1-7-x-1-51-m-6199",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-faurin-1-7-x-1-51-m-6199?number=15-001-02-000-00301",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-faurin-1-7-x-1-51-m-6199?number=15-001-02-000-00301",
+      "page_article": "Sauna FAURIN 1,7 x 1,51 m 9.0 kW Ofen integr. Steuerung",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 170,
+        "depth": 151,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 170,
+        "depth": 151,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": 2,
+      "people_evidence": [
+        "raldämmwolle Platzsparend durch praktischen Eckeinstieg Optimal für kleine Räume Optimal für bis zu 1-2 Personen Technische Details zur Sauna FAURIN: Bauweise: vormontierte Elemente Anzahl Bänke: 2 Stk."
+      ],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna FIONA 1 196 x 151 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-01-000-01244",
+      "feed_price": 2184.23,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-fiona-1-1-96-x-1-51-m-59672",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-fiona-1-1-96-x-1-51-m-59672?number=15-001-01-000-01244",
+      "canonical_url": "https://www.karibu-shop.com/karibu-sauna-fiona-1-1-96-x-1-51-m-59672?number=15-001-01-000-01244",
+      "page_article": "Sauna FIONA 1 1,96 x 1,51 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 151,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 151,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 165,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": null,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna FIONA 2 196 x 170 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-01-000-00912",
+      "feed_price": 2267.95,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-fiona-2-1-96-x-1-70-m-52595",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-fiona-2-1-96-x-1-70-m-52595?number=15-001-01-000-00912",
+      "canonical_url": "https://www.karibu-shop.com/karibu-sauna-fiona-2-1-96-x-1-70-m-52595?number=15-001-01-000-00912",
+      "page_article": "Sauna FIONA 2 1,96 x 1,70 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 184,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna FIONA 3 231 x 196 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "feed_sku": "15-001-01-000-00813",
+      "feed_price": 2519.13,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-fiona-3-2-31-x-1-96-m-49442",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-fiona-3-2-31-x-1-96-m-49442?number=15-001-01-000-00813",
+      "canonical_url": "https://www.karibu-shop.com/karibu-sauna-fiona-3-2-31-x-1-96-m-49442?number=15-001-01-000-00813",
+      "page_article": "Sauna FIONA 3 2,31 x 1,96 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 245,
+        "depth": 210,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna GOBIN 231 x 196 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-02057",
+      "feed_price": 2649.64,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-gobin-2-31-x-1-96-m-75757",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-gobin-2-31-x-1-96-m-75757?number=15-001-01-000-02057",
+      "canonical_url": "https://www.karibu-shop.com/karibu-sauna-gobin-2-31-x-1-96-m-75757?number=15-001-01-000-02057",
+      "page_article": "Sauna GOBIN 2,31 x 1,96 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 245,
+        "depth": 210,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna IRAVA 1 155 x 122 m 3.6 kW Ofen ext. Steuerung",
+      "feed_sku": "15-001-01-000-04249",
+      "feed_price": 2325.28,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-irava-1-1-55-x-1-22-m-90",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-irava-1-1-55-x-1-22-m-90?number=15-001-01-000-04249",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-irava-1-1-55-x-1-22-m-90?number=15-001-01-000-04249",
+      "page_article": "Sauna IRAVA 1 1,55 x 1,22 m 3.6 kW Ofen ext. Steuerung",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 155,
+        "depth": 122,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 155,
+        "depth": 122,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 3.6,
+      "voltage": 230,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 1,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna IRAVA 2 216 x 122 m 3.6 kW Ofen integr. Steuerung",
+      "feed_sku": "15-001-01-000-04252",
+      "feed_price": 2618.99,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-irava-2-2-16-x-1-22-m-92",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-irava-2-2-16-x-1-22-m-92?number=15-001-01-000-04252",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-irava-2-2-16-x-1-22-m-92?number=15-001-01-000-04252",
+      "page_article": "Sauna IRAVA 2 2,16 x 1,22 m 3.6 kW Ofen integr. Steuerung",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 216,
+        "depth": 122,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 216,
+        "depth": 122,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 3.6,
+      "voltage": 230,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 1,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna IRAVA 3 216 x 138 m 3.6 kW Ofen integr. Steuerung",
+      "feed_sku": "15-001-01-000-04256",
+      "feed_price": 2668.99,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-irava-3-2-16-x-1-38-m-95",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-irava-3-2-16-x-1-38-m-95?number=15-001-01-000-04256",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-irava-3-2-16-x-1-38-m-95?number=15-001-01-000-04256",
+      "page_article": "Sauna IRAVA 3 2,16 x 1,38 m 3.6 kW Ofen integr. Steuerung",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 216,
+        "depth": 138,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 216,
+        "depth": 138,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 3.6,
+      "voltage": 230,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna JARIN 196 x 196 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-01658",
+      "feed_price": 2477.27,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-jarin-1-96-x-1-96-m-71344",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-jarin-1-96-x-1-96-m-71344?number=15-001-01-000-01658",
+      "canonical_url": "https://www.karibu-shop.com/karibu-sauna-jarin-1-96-x-1-96-m-71344?number=15-001-01-000-01658",
+      "page_article": "Sauna JARIN 1,96 x 1,96 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 210,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna KOTKA 196 x 196 m 9.0 kW Ofen integr. Steuerung",
+      "feed_sku": "15-001-02-000-00289",
+      "feed_price": 2296.62,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-kotka-1-96-x-1-96-m-6214",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-kotka-1-96-x-1-96-m-6214?number=15-001-02-000-00289",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-kotka-1-96-x-1-96-m-6214?number=15-001-02-000-00289",
+      "page_article": "Sauna KOTKA 1,96 x 1,96 m 9.0 kW Ofen integr. Steuerung",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna LARIN 151 x 151 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-01897",
+      "feed_price": 2192.3,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-larin-1-51-x-1-51-m-75615",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-larin-1-51-x-1-51-m-75615?number=15-001-01-000-01897",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-larin-1-51-x-1-51-m-75615?number=15-001-01-000-01897",
+      "page_article": "Sauna LARIN 1,51 x 1,51 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 151,
+        "depth": 151,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 151,
+        "depth": 151,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 165,
+        "depth": 165,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna OULU 196 x 196 m 9.0 kW Ofen integr. Steuerung",
+      "feed_sku": "15-001-02-000-00292",
+      "feed_price": 2255.37,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-oulu-1-96-x-1-96-m-6211",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-oulu-1-96-x-1-96-m-6211?number=15-001-02-000-00292",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-oulu-1-96-x-1-96-m-6211?number=15-001-02-000-00292",
+      "page_article": "Sauna OULU 1,96 x 1,96 m 9.0 kW Ofen integr. Steuerung",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna SAJA 151 x 196 m 3.6 kW BioKombiofen ext. Steuerung mit Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-02686",
+      "feed_price": 2742.82,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-saja-1-51-x-1-96-m-85898",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-saja-1-51-x-1-96-m-85898?number=15-001-01-000-02686",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-saja-1-51-x-1-96-m-85898?number=15-001-01-000-02686",
+      "page_article": "Sauna SAJA 1,51 x 1,96 m 3.6 kW Bio-Kombiofen ext. Steuerung mit Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 165,
+        "depth": 210,
+        "height": 202
+      },
+      "standard_dimensions_cm": {
+        "width": 151,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 165,
+        "depth": 210,
+        "height": 202
+      },
+      "power_kw": 3.6,
+      "voltage": 230,
+      "heater_configuration": "Bio-Kombiofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna SIIRIN 196 x 17 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-01643",
+      "feed_price": 2313.11,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-siirin-1-96-x-1-7-m-71369",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-siirin-1-96-x-1-7-m-71369?number=15-001-01-000-01643",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-siirin-1-96-x-1-7-m-71369?number=15-001-01-000-01643",
+      "page_article": "Sauna SIIRIN 1,96 x 1,7 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 184,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna SODIN 196 x 17 m Naturbelassen 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-01927",
+      "feed_price": 2383.79,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-sodin-1-96-x-1-7-m-75692",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-sodin-1-96-x-1-7-m-75692?number=15-001-01-000-01927",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-sodin-1-96-x-1-7-m-75692?number=15-001-01-000-01927",
+      "page_article": "Sauna SODIN 1,96 x 1,7 m Naturbelassen 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 184,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna TAURIN 17 x 151 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-02313",
+      "feed_price": 2137.44,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-taurin-1-7-x-1-51-m-80642",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-taurin-1-7-x-1-51-m-80642?number=15-001-01-000-02313",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-taurin-1-7-x-1-51-m-80642?number=15-001-01-000-02313",
+      "page_article": "Sauna TAURIN 1,7 x 1,51 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 170,
+        "depth": 151,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 170,
+        "depth": 151,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 184,
+        "depth": 165,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna TONJA 170 x 151 m 3.6 kW Ofen ext. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-02633",
+      "feed_price": 2235.94,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-tonja-1-70-x-1-51-m-85844",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-tonja-1-70-x-1-51-m-85844?number=15-001-01-000-02633",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-tonja-1-70-x-1-51-m-85844?number=15-001-01-000-02633",
+      "page_article": "Sauna TONJA 1,70 x 1,51 m 3.6 kW Ofen ext. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 170,
+        "depth": 151,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 170,
+        "depth": 151,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 184,
+        "depth": 165,
+        "height": 202
+      },
+      "power_kw": 3.6,
+      "voltage": 230,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna TROMSÖ 196 x 178 m 9.0 kW Ofen integr. Steuerung",
+      "feed_sku": "15-001-02-000-00298",
+      "feed_price": 2192.3,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-tromsoe-1-96-x-1-78-m-6203",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-tromsoe-1-96-x-1-78-m-6203?number=15-001-02-000-00298",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-tromsoe-1-96-x-1-78-m-6203?number=15-001-02-000-00298",
+      "page_article": "Sauna TROMSÖ 1,96 x 1,78 m 9.0 kW Ofen integr. Steuerung",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 178,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 178,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 2,
+      "people_max": 2,
+      "people_evidence": [
+        "driger Energieverbrauch durch Mineraldämmwolle Türposition in der Front variabel Optimal für bis zu 1-2 Personen 2 Bänke mit 50cm Breite Technische Details zur Sauna TROMSÖ: Bauweise: vormontierte Elemente Anzahl"
+      ],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna VARIADO 196 x 118 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-02335",
+      "feed_price": 2263.22,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-variado-1-96-x-1-18-m-80669",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-variado-1-96-x-1-18-m-80669?number=15-001-01-000-02335",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-variado-1-96-x-1-18-m-80669?number=15-001-01-000-02335",
+      "page_article": "Sauna VARIADO 1,96 x 1,18 m 9.0 kW Ofen integr. Steuerung ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 118,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 118,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 132,
+        "height": 202
+      },
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit integrierter Steuerung",
+      "bank_count": 1,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 1,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus ANGKOR 1 191 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04373",
+      "feed_price": 4078.99,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-angkor-1-1-91-x-2-76-m-38-mm-179",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-angkor-1-1-91-x-2-76-m-38-mm-179?number=15-001-01-000-04373",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-angkor-1-1-91-x-2-76-m-38-mm-179?number=15-001-01-000-04373",
+      "page_article": "Saunahaus ANGKOR 1 1,91 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 191,
+        "depth": 276,
+        "height": 232
+      },
+      "standard_dimensions_cm": {
+        "width": 191,
+        "depth": 276,
+        "height": 232
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus ANGKOR 2 237 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04363",
+      "feed_price": 4378.99,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-angkor-2-2-37-x-2-76-m-38-mm-182",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-angkor-2-2-37-x-2-76-m-38-mm-182?number=15-001-01-000-04363",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-angkor-2-2-37-x-2-76-m-38-mm-182?number=15-001-01-000-04363",
+      "page_article": "Saunahaus ANGKOR 2 2,37 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 237,
+        "depth": 276,
+        "height": 232
+      },
+      "standard_dimensions_cm": {
+        "width": 237,
+        "depth": 276,
+        "height": 232
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus ANGKOR 3 277 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04366",
+      "feed_price": 4778.99,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-angkor-3-2-77-x-2-76-m-38-mm-185",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-angkor-3-2-77-x-2-76-m-38-mm-185?number=15-001-01-000-04366",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-angkor-3-2-77-x-2-76-m-38-mm-185?number=15-001-01-000-04366",
+      "page_article": "Saunahaus ANGKOR 3 2,77 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 237,
+        "depth": 276,
+        "height": 232
+      },
+      "standard_dimensions_cm": {
+        "width": 237,
+        "depth": 276,
+        "height": 232
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 3,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus ARES 1 191 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+      "feed_sku": "15-001-01-000-04327",
+      "feed_price": 3546.66,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-ares-1-1-91-x-2-76-m-38-mm-222",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-ares-1-1-91-x-2-76-m-38-mm-222?number=15-001-01-000-04327",
+      "canonical_url": "https://www.karibu-shop.com/karibu-saunahaus-ares-1-1-91-x-2-76-m-38-mm-222?number=15-001-01-000-04327",
+      "page_article": "Saunahaus ARES 1 1,91 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 191,
+        "depth": 276,
+        "height": 232
+      },
+      "standard_dimensions_cm": {
+        "width": 191,
+        "depth": 276,
+        "height": 232
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus ARES 2 231 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+      "feed_sku": "15-001-01-000-04306",
+      "feed_price": 4105.37,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-ares-2-2-31-x-2-76-m-38-mm-314",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-ares-2-2-31-x-2-76-m-38-mm-314?number=15-001-01-000-04306",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-ares-2-2-31-x-2-76-m-38-mm-314?number=15-001-01-000-04306",
+      "page_article": "Saunahaus ARES 2 2,31 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 276,
+        "height": 232
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 276,
+        "height": 232
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus ARES 3 277 x 276 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+      "feed_sku": "15-001-01-000-04285",
+      "feed_price": 4134.04,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-ares-3-2-77-x-2-76-m-38-mm-341",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-ares-3-2-77-x-2-76-m-38-mm-341?number=15-001-01-000-04285",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-ares-3-2-77-x-2-76-m-38-mm-341?number=15-001-01-000-04285",
+      "page_article": "Saunahaus ARES 3 2,77 x 2,76 m 38 mm 9.0 kW Ofen inkl. Steuergerät Naturbelassen Anthrazit",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 276,
+        "depth": 276,
+        "height": 232
+      },
+      "standard_dimensions_cm": {
+        "width": 276,
+        "depth": 276,
+        "height": 232
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 3,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus CUBEN 276 x 276 m 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-02247",
+      "feed_price": 4371.67,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-80796",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-80796?number=15-001-01-000-02247",
+      "canonical_url": "https://www.karibu-shop.com/karibu-saunahaus-cuben-2-76-x-2-76-m-80796?number=15-001-01-000-02247",
+      "page_article": "Saunahaus CUBEN 2,76 x 2,76 m 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 276,
+        "depth": 276,
+        "height": 208
+      },
+      "standard_dimensions_cm": {
+        "width": 276,
+        "depth": 276,
+        "height": 208
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus HYTTI 0 196 x 113 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04426",
+      "feed_price": 2077.27,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-hytti-0-1-96-x-1-13-m-38-mm-358",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-hytti-0-1-96-x-1-13-m-38-mm-358?number=15-001-01-000-04426",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-hytti-0-1-96-x-1-13-m-38-mm-358?number=15-001-01-000-04426",
+      "page_article": "Saunahaus HYTTI 0 1,96 x 1,13 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 113,
+        "height": 228
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 113,
+        "height": 228
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 1,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus HYTTI 1 196 x 146 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04165",
+      "feed_price": 2058.98,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-hytti-1-1-96-x-1-46-m-38-mm-93865",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-hytti-1-1-96-x-1-46-m-38-mm-93865?number=15-001-01-000-04165",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-hytti-1-1-96-x-1-46-m-38-mm-93865?number=15-001-01-000-04165",
+      "page_article": "Saunahaus HYTTI 1 1,96 x 1,46 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 146,
+        "height": 228
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 146,
+        "height": 228
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus HYTTI 2 196 x 196 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04189",
+      "feed_price": 2504.35,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-hytti-2-1-96-x-1-96-m-38-mm-93869",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-hytti-2-1-96-x-1-96-m-38-mm-93869?number=15-001-01-000-04189",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-hytti-2-1-96-x-1-96-m-38-mm-93869?number=15-001-01-000-04189",
+      "page_article": "Saunahaus HYTTI 2 1,96 x 1,96 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 228
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 228
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 2,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus HYTTI 3 231 x 196 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04213",
+      "feed_price": 2638.21,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-hytti-3-2-31-x-1-96-m-38-mm-93872",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-hytti-3-2-31-x-1-96-m-38-mm-93872?number=15-001-01-000-04213",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-hytti-3-2-31-x-1-96-m-38-mm-93872?number=15-001-01-000-04213",
+      "page_article": "Saunahaus HYTTI 3 2,31 x 1,96 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 228
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 228
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 3,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus HYTTI 6 396 x 231 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04398",
+      "feed_price": 4128.99,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-hytti-6-3-96-x-2-31-m-38-mm-126",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-hytti-6-3-96-x-2-31-m-38-mm-126?number=15-001-01-000-04398",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-hytti-6-3-96-x-2-31-m-38-mm-126?number=15-001-01-000-04398",
+      "page_article": "Saunahaus HYTTI 6 3,96 x 2,31 m 38 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 396,
+        "depth": 231,
+        "height": 217
+      },
+      "standard_dimensions_cm": {
+        "width": 396,
+        "depth": 231,
+        "height": 217
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 3,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus LAGUNA 220 x 288 m 73 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04354",
+      "feed_price": 4628.99,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-laguna-2-20-x-2-88-m-73-mm-198",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-laguna-2-20-x-2-88-m-73-mm-198?number=15-001-01-000-04354",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-laguna-2-20-x-2-88-m-73-mm-198?number=15-001-01-000-04354",
+      "page_article": "Saunahaus LAGUNA 2,20 x 2,88 m 73 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 220,
+        "depth": 288,
+        "height": 229
+      },
+      "standard_dimensions_cm": {
+        "width": 220,
+        "depth": 288,
+        "height": 229
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 3,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 73,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus MIRAMAR 220 x 429 m 73 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04342",
+      "feed_price": 7228.99,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-miramar-2-20-x-4-29-m-73-mm-510",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-miramar-2-20-x-4-29-m-73-mm-510?number=15-001-01-000-04342",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-miramar-2-20-x-4-29-m-73-mm-510?number=15-001-01-000-04342",
+      "page_article": "Saunahaus MIRAMAR 2,20 x 4,29 m 73 mm Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 220,
+        "depth": 429,
+        "height": 229
+      },
+      "standard_dimensions_cm": {
+        "width": 220,
+        "depth": 429,
+        "height": 229
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 3,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 73,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus MONTEREY 574 x 2165 cm 73 mm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-04504",
+      "feed_price": 8678.99,
+      "merchant_url": "https://demmelhuber.net/detail/index/sArticle/25710",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/detail/index/sArticle/25710?number=15-001-01-000-04504",
+      "canonical_url": "https://www.demmelhuber.net/detail/index/sArticle/25710?number=15-001-01-000-04504",
+      "page_article": "Saunahaus MONTEREY 574 x 216,5 cm 73 mm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 573.5,
+        "depth": 216.5,
+        "height": 244
+      },
+      "standard_dimensions_cm": {
+        "width": 573.5,
+        "depth": 216.5,
+        "height": 244
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": 3,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 73,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus SKROLLAN 1 337 x 196 cm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät ISOGlas Klarglas modern",
+      "feed_sku": "15-001-03-000-00066",
+      "feed_price": 4478.99,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-skrollan-1-3-37-x-1-96-cm-mit-vorraum-86287",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-skrollan-1-3-37-x-1-96-cm-mit-vorraum-86287?number=15-001-03-000-00066",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-skrollan-1-3-37-x-1-96-cm-mit-vorraum-86287?number=15-001-03-000-00066",
+      "page_article": "Saunahaus SKROLLAN 1 3,37 x 1,96 cm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät ISO-Glas Klarglas modern",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 337,
+        "depth": 196,
+        "height": 201
+      },
+      "standard_dimensions_cm": {
+        "width": 337,
+        "depth": 196,
+        "height": 201
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus SKROLLAN 2 337 x 231 cm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät ISOGlas Klarglas modern",
+      "feed_sku": "15-001-03-000-00070",
+      "feed_price": 3882.26,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-skrollan-2-3-37-x-2-31-cm-mit-vorraum-86294",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-skrollan-2-3-37-x-2-31-cm-mit-vorraum-86294?number=15-001-03-000-00070",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-skrollan-2-3-37-x-2-31-cm-mit-vorraum-86294?number=15-001-03-000-00070",
+      "page_article": "Saunahaus SKROLLAN 2 3,37 x 2,31 cm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät ISO-Glas Klarglas modern",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 337,
+        "depth": 231,
+        "height": 210
+      },
+      "standard_dimensions_cm": {
+        "width": 337,
+        "depth": 231,
+        "height": 210
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus SKROLLAN 3 396 x 231 cm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät ISOGlas Klarglas modern",
+      "feed_sku": "15-001-03-000-00052",
+      "feed_price": 4412.91,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-skrollan-3-3-96-x-2-31-cm-mit-vorraum-86311",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-skrollan-3-3-96-x-2-31-cm-mit-vorraum-86311?number=15-001-03-000-00052",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-skrollan-3-3-96-x-2-31-cm-mit-vorraum-86311?number=15-001-03-000-00052",
+      "page_article": "Saunahaus SKROLLAN 3 3,96 x 2,31 cm mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät ISO-Glas Klarglas modern",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 396,
+        "depth": 231,
+        "height": 210
+      },
+      "standard_dimensions_cm": {
+        "width": 396,
+        "depth": 231,
+        "height": 210
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Gartensauna FASSHAUS 2 219 x 295 m ohne Ofen",
+      "feed_sku": "15-001-01-000-03690",
+      "feed_price": 2903.16,
+      "merchant_url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-2-2-19-x-2-95-m-27450",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-gartensauna-fasshaus-2-2-19-x-2-95-m-27450?number=15-001-01-000-03690",
+      "canonical_url": "https://www.demmelhuber.net/karibu-gartensauna-fasshaus-2-2-19-x-2-95-m-27450?number=15-001-01-000-03690",
+      "page_article": "Gartensauna FASSHAUS 2 2,19 x 2,95 m ohne Ofen",
+      "category": "outdoor",
+      "dimensions_cm": null,
+      "standard_dimensions_cm": null,
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": null,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Gartensauna FASSHAUS 3 219 x 385 m ohne Ofen",
+      "feed_sku": "15-001-01-000-03693",
+      "feed_price": 3941.47,
+      "merchant_url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-3-2-19-x-3-85-m-27453",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-gartensauna-fasshaus-3-2-19-x-3-85-m-27453?number=15-001-01-000-03693",
+      "canonical_url": "https://www.demmelhuber.net/karibu-gartensauna-fasshaus-3-2-19-x-3-85-m-27453?number=15-001-01-000-03693",
+      "page_article": "Gartensauna FASSHAUS 3 2,19 x 3,85 m ohne Ofen",
+      "category": "outdoor",
+      "dimensions_cm": null,
+      "standard_dimensions_cm": null,
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna JUTTA 196 x 196 m ohne Ofen mit Dachkranz",
+      "feed_sku": "15-001-02-000-00317",
+      "feed_price": 1983.29,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-jutta-1-96-x-1-96-m-6183",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-jutta-1-96-x-1-96-m-6183?number=15-001-02-000-00317",
+      "canonical_url": "https://www.demmelhuber.net/karibu-massivholzsauna-jutta-1-96-x-1-96-m-6183?number=15-001-02-000-00317",
+      "page_article": "Massivholzsauna JUTTA 1,96 x 1,96 m ohne Ofen mit Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 224,
+        "depth": 210,
+        "height": 191
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 187
+      },
+      "roof_dimensions_cm": {
+        "width": 224,
+        "depth": 210,
+        "height": 191
+      },
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna SAHIB 1 193 x 184 m 40 mm ohne Ofen mit Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-01954",
+      "feed_price": 2186.71,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-sahib-1-1-93-x-1-84-m-40-mm-75854",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-sahib-1-1-93-x-1-84-m-40-mm-75854?number=15-001-01-000-01954",
+      "canonical_url": "https://www.karibu-shop.com/karibu-massivholzsauna-sahib-1-1-93-x-1-84-m-40-mm-75854?number=15-001-01-000-01954",
+      "page_article": "Massivholzsauna SAHIB 1 1,93 x 1,84 m 40 mm ohne Ofen mit Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 221,
+        "depth": 198,
+        "height": 212
+      },
+      "standard_dimensions_cm": {
+        "width": 193,
+        "depth": 184,
+        "height": 209
+      },
+      "roof_dimensions_cm": {
+        "width": 221,
+        "depth": 198,
+        "height": 212
+      },
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 40,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Massivholzsauna SAHIB 2 236 x 184 m 40 mm ohne Ofen ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-02002",
+      "feed_price": 2478.12,
+      "merchant_url": "https://demmelhuber.net/karibu-massivholzsauna-sahib-2-2-36-x-1-84-m-40-mm-75877",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-massivholzsauna-sahib-2-2-36-x-1-84-m-40-mm-75877?number=15-001-01-000-02002",
+      "canonical_url": "https://www.karibu-shop.com/karibu-massivholzsauna-sahib-2-2-36-x-1-84-m-40-mm-75877?number=15-001-01-000-02002",
+      "page_article": "Massivholzsauna SAHIB 2 2,36 x 1,84 m 40 mm ohne Ofen ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 236,
+        "depth": 184,
+        "height": 209
+      },
+      "standard_dimensions_cm": {
+        "width": 236,
+        "depth": 184,
+        "height": 209
+      },
+      "roof_dimensions_cm": {
+        "width": 264,
+        "depth": 198,
+        "height": 212
+      },
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 40,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna ASKJA 216 x 234 m ohne Ofen ohne Dachkranz",
+      "feed_sku": "15-001-01-000-03800",
+      "feed_price": 2698.89,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-askja-2-16-x-2-34-m-35230",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-askja-2-16-x-2-34-m-35230?number=15-001-01-000-03800",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-askja-2-16-x-2-34-m-35230?number=15-001-01-000-03800",
+      "page_article": "Sauna ASKJA 2,16 x 2,34 m ohne Ofen ohne Dachkranz",
+      "category": "indoor",
+      "dimensions_cm": null,
+      "standard_dimensions_cm": null,
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": null,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna DARIA 196 x 170 m ohne Ofen ohne Dachkranz Klarglastür",
+      "feed_sku": "15-001-01-000-02719",
+      "feed_price": 2067.01,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-daria-1-96-x-1-70-m-59780",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-daria-1-96-x-1-70-m-59780?number=15-001-01-000-02719",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-daria-1-96-x-1-70-m-59780?number=15-001-01-000-02719",
+      "page_article": "Sauna DARIA 1,96 x 1,70 m ohne Ofen ohne Dachkranz Klarglastür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 184,
+        "height": 202
+      },
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna FANJA 196 x 151 m ohne Ofen ohne Dachkranz Ganzglastür graphit",
+      "feed_sku": "15-001-01-000-02663",
+      "feed_price": 1949.32,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-fanja-1-96-x-1-51-m-59778",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-fanja-1-96-x-1-51-m-59778?number=15-001-01-000-02663",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-fanja-1-96-x-1-51-m-59778?number=15-001-01-000-02663",
+      "page_article": "Sauna FANJA 1,96 x 1,51 m ohne Ofen ohne Dachkranz Ganzglastür graphit",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 151,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 151,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 165,
+        "height": 202
+      },
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": null,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna HORNA 231 x 196 m ohne Ofen",
+      "feed_sku": "15-001-02-000-00304",
+      "feed_price": 2117.25,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-horna-2-31-x-1-96-m-6196",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-horna-2-31-x-1-96-m-6196?number=15-001-02-000-00304",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-horna-2-31-x-1-96-m-6196?number=15-001-02-000-00304",
+      "page_article": "Sauna HORNA 2,31 x 1,96 m ohne Ofen",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna LILJA 196 x 170 m ohne Ofen ohne Dachkranz mit Dachkranz Ganzglastür bronziert",
+      "feed_sku": "15-001-01-000-01308",
+      "feed_price": 2108.88,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-lilja-1-96-x-1-70-m-59781",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-lilja-1-96-x-1-70-m-59781?number=15-001-01-000-01308",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-lilja-1-96-x-1-70-m-59781?number=15-001-01-000-01308",
+      "page_article": "Sauna LILJA 1,96 x 1,70 m ohne Ofen ohne Dachkranz mit Dachkranz Ganzglastür bronziert",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 210,
+        "depth": 184,
+        "height": 202
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 170,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 184,
+        "height": 202
+      },
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna MALIN 231 x 196 m ohne Ofen mit Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-02010",
+      "feed_price": 2387.38,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-malin-2-31-x-1-96-m-75782",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-malin-2-31-x-1-96-m-75782?number=15-001-01-000-02010",
+      "canonical_url": "https://www.karibu-shop.com/karibu-sauna-malin-2-31-x-1-96-m-75782?number=15-001-01-000-02010",
+      "page_article": "Sauna MALIN 2,31 x 1,96 m ohne Ofen mit Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 245,
+        "depth": 210,
+        "height": 202
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 245,
+        "depth": 210,
+        "height": 202
+      },
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna NANJA 151 x 151 m ohne Ofen mit Dachkranz Ganzglastür graphit",
+      "feed_sku": "15-001-01-000-02619",
+      "feed_price": 1909.87,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-nanja-1-51-x-1-51-m-59777",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-nanja-1-51-x-1-51-m-59777?number=15-001-01-000-02619",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-nanja-1-51-x-1-51-m-59777?number=15-001-01-000-02619",
+      "page_article": "Sauna NANJA 1,51 x 1,51 m ohne Ofen mit Dachkranz Ganzglastür graphit",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 165,
+        "depth": 165,
+        "height": 202
+      },
+      "standard_dimensions_cm": {
+        "width": 151,
+        "depth": 151,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 165,
+        "depth": 165,
+        "height": 202
+      },
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna NYBRO 231 x 196 m ohne Ofen",
+      "feed_sku": "15-001-02-000-00305",
+      "feed_price": 2065.63,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-nybro-2-31-x-1-96-m-6195",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-nybro-2-31-x-1-96-m-6195?number=15-001-02-000-00305",
+      "canonical_url": "https://www.demmelhuber.net/karibu-sauna-nybro-2-31-x-1-96-m-6195?number=15-001-02-000-00305",
+      "page_article": "Sauna NYBRO 2,31 x 1,96 m ohne Ofen",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 231,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Sauna RODIN 196 x 196 m ohne Ofen ohne Dachkranz Energiespartür",
+      "feed_sku": "15-001-01-000-01900",
+      "feed_price": 2092.13,
+      "merchant_url": "https://demmelhuber.net/karibu-sauna-rodin-1-96-x-1-96-m-75722",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-sauna-rodin-1-96-x-1-96-m-75722?number=15-001-01-000-01900",
+      "canonical_url": "https://www.karibu-shop.com/karibu-sauna-rodin-1-96-x-1-96-m-75722?number=15-001-01-000-01900",
+      "page_article": "Sauna RODIN 1,96 x 1,96 m ohne Ofen ohne Dachkranz Energiespartür",
+      "category": "indoor",
+      "dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 198
+      },
+      "standard_dimensions_cm": {
+        "width": 196,
+        "depth": 196,
+        "height": 198
+      },
+      "roof_dimensions_cm": {
+        "width": 210,
+        "depth": 210,
+        "height": 202
+      },
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 68,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus CUBEN 276 x 276 m terragrau 9.0 kW Ofen inkl. Steuergerät",
+      "feed_sku": "15-001-01-000-02351",
+      "feed_price": 4784.17,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-terragrau-81132",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-terragrau-81132?number=15-001-01-000-02351",
+      "canonical_url": "https://www.karibu-shop.com/karibu-saunahaus-cuben-2-76-x-2-76-m-terragrau-81132?number=15-001-01-000-02351",
+      "page_article": "Saunahaus CUBEN 2,76 x 2,76 m terragrau 9.0 kW Ofen inkl. Steuergerät",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 276,
+        "depth": 276,
+        "height": 208
+      },
+      "standard_dimensions_cm": {
+        "width": 276,
+        "depth": 276,
+        "height": 208
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus HYGGE 508 x 276 cm ohne Ofen",
+      "feed_sku": "15-001-03-000-00054",
+      "feed_price": 5071.76,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-86314",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-86314?number=15-001-03-000-00054",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-86314?number=15-001-03-000-00054",
+      "page_article": "Saunahaus HYGGE 5,08 x 2,76 cm ohne Ofen",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 508,
+        "depth": 276,
+        "height": 208
+      },
+      "standard_dimensions_cm": {
+        "width": 508,
+        "depth": 276,
+        "height": 208
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus HYGGE 508 x 276 cm terragrau ohne Ofen",
+      "feed_sku": "15-001-03-000-00058",
+      "feed_price": 5790.66,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-terragrau-86313",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-terragrau-86313?number=15-001-03-000-00058",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-terragrau-86313?number=15-001-03-000-00058",
+      "page_article": "Saunahaus HYGGE 5,08 x 2,76 cm terragrau ohne Ofen",
+      "category": "outdoor",
+      "dimensions_cm": {
+        "width": 508,
+        "depth": 276,
+        "height": 208
+      },
+      "standard_dimensions_cm": {
+        "width": 508,
+        "depth": 276,
+        "height": 208
+      },
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 3,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus MAINBURG 1 309 x 309 m mit Vorraum Naturbelassen ohne Ofen Set A  Sauna mit 2 Liegen 200 x 170 m",
+      "feed_sku": "15-001-01-000-03828",
+      "feed_price": 4745.42,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-mainburg-1-3-09-x-3-09-m-mit-vorraum-35863",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-mainburg-1-3-09-x-3-09-m-mit-vorraum-35863?number=15-001-01-000-03828",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-mainburg-1-3-09-x-3-09-m-mit-vorraum-35863?number=15-001-01-000-03828",
+      "page_article": "Saunahaus MAINBURG 1 3,09 x 3,09 m mit Vorraum Naturbelassen ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m",
+      "category": "outdoor",
+      "dimensions_cm": null,
+      "standard_dimensions_cm": null,
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus MAINBURG 2 369 x 309 m mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät Set A  Sauna mit 2 Liegen 200 x 170 m",
+      "feed_sku": "15-001-01-000-03931",
+      "feed_price": 5438.67,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-mainburg-2-3-69-x-3-09-m-mit-vorraum-35977",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-mainburg-2-3-69-x-3-09-m-mit-vorraum-35977?number=15-001-01-000-03931",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-mainburg-2-3-69-x-3-09-m-mit-vorraum-35977?number=15-001-01-000-03931",
+      "page_article": "Saunahaus MAINBURG 2 3,69 x 3,09 m mit Vorraum Naturbelassen 9.0 kW Ofen inkl. Steuergerät Set A - Sauna mit 2 Liegen 2,00 x 1,70 m",
+      "category": "outdoor",
+      "dimensions_cm": null,
+      "standard_dimensions_cm": null,
+      "roof_dimensions_cm": null,
+      "power_kw": 9,
+      "voltage": 400,
+      "heater_configuration": "Saunaofen mit separatem Steuergerät",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus MAINBURG 3 369 x 369 m mit Vorraum Terragrau ohne Ofen Set A  Sauna mit 2 Liegen 200 x 170 m",
+      "feed_sku": "15-001-01-000-03843",
+      "feed_price": 5490.38,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-mainburg-3-3-69-x-3-69-m-mit-vorraum-36278",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-mainburg-3-3-69-x-3-69-m-mit-vorraum-36278?number=15-001-01-000-03843",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-mainburg-3-3-69-x-3-69-m-mit-vorraum-36278?number=15-001-01-000-03843",
+      "page_article": "Saunahaus MAINBURG 3 3,69 x 3,69 m mit Vorraum Terragrau ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m",
+      "category": "outdoor",
+      "dimensions_cm": null,
+      "standard_dimensions_cm": null,
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus MAINBURG 4 490 x 369 m mit Vorraum ohne Ofen Set A  Sauna mit 2 Liegen 200 x 170 m",
+      "feed_sku": "15-001-01-000-03852",
+      "feed_price": 6256.02,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-mainburg-4-4-90-x-3-69-m-mit-vorraum-36292",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-mainburg-4-4-90-x-3-69-m-mit-vorraum-36292?number=15-001-01-000-03852",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-mainburg-4-4-90-x-3-69-m-mit-vorraum-36292?number=15-001-01-000-03852",
+      "page_article": "Saunahaus MAINBURG 4 4,90 x 3,69 m mit Vorraum ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m",
+      "category": "outdoor",
+      "dimensions_cm": null,
+      "standard_dimensions_cm": null,
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    },
+    {
+      "feed_name": "Saunahaus MAINBURG 5 509 x 369 m mit Vorraum Naturbelassen ohne Ofen Set A  Sauna mit 2 Liegen 200 x 170 m",
+      "feed_sku": "15-001-01-000-03858",
+      "feed_price": 6444.85,
+      "merchant_url": "https://demmelhuber.net/karibu-saunahaus-mainburg-5-5-09-x-3-69-m-mit-vorraum-36298",
+      "page_status": 200,
+      "final_url": "https://www.demmelhuber.net/karibu-saunahaus-mainburg-5-5-09-x-3-69-m-mit-vorraum-36298?number=15-001-01-000-03858",
+      "canonical_url": "https://www.demmelhuber.net/karibu-saunahaus-mainburg-5-5-09-x-3-69-m-mit-vorraum-36298?number=15-001-01-000-03858",
+      "page_article": "Saunahaus MAINBURG 5 5,09 x 3,69 m mit Vorraum Naturbelassen ohne Ofen Set A - Sauna mit 2 Liegen 2,00 x 1,70 m",
+      "category": "outdoor",
+      "dimensions_cm": null,
+      "standard_dimensions_cm": null,
+      "roof_dimensions_cm": null,
+      "power_kw": null,
+      "voltage": null,
+      "heater_configuration": "ohne Ofen",
+      "bank_count": null,
+      "people_max": null,
+      "people_evidence": [],
+      "lying_places": 2,
+      "wall_thickness_mm": 38,
+      "wood_type": "Nordische Fichte"
+    }
+  ]
+}

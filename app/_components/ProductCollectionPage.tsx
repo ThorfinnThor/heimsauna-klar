@@ -16,6 +16,7 @@ import {
 } from "@/lib/page-presentations";
 import { getPlanningGuide, type PlanningGuide } from "@/lib/planning-guides";
 import {
+  formatCapacity,
   formatPower,
   formatPrice,
   formatVoltage,
@@ -217,5 +218,4 @@ function CollectionEditorial({ collection }: { collection: Collection }) {
 
 function formatFootprint(product: Product) { return `${getFootprintSquareMeters(product).toLocaleString("de-DE", { maximumFractionDigits: 2 })} m²`; }
 function formatDimensions(product: Product) { return `${product.dimensions_cm.width} × ${product.dimensions_cm.depth} × ${product.dimensions_cm.height} cm`; }
-function formatCapacity(product: Product) { return `bis ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"}`; }
 function formatConnection(product: Product) { return `${formatVoltage(product.power.voltage)}${product.power.kw ? ` · ${formatPower(product.power.kw)}` : ""}`; }

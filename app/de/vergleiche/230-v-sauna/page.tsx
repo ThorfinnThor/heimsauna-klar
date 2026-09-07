@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
-import { formatPower, formatPrice, products } from "@/lib/products";
+import { formatCapacity, formatPower, formatPrice, products } from "@/lib/products";
 import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
@@ -47,7 +47,7 @@ export default function ComparisonPage() {
               <Link className="product-comparison-row" href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
                 <span><small>{product.brand} · {product.sauna.type}</small><strong>{product.model}</strong></span>
                 <span>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</span>
-                <span>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</span>
+                <span>{formatCapacity(product)}</span>
                 <span>{formatPower(product.power.kw)}</span>
                 <span>{formatPrice(product)} ↗</span>
               </Link>

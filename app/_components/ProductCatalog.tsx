@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import type { FinderFilters, Product } from "@/lib/products";
-import { findProductsForFinder, formatPower, formatPrice, formatVoltage, getLowestOffer, matchesProductPlace } from "@/lib/products";
+import { findProductsForFinder, formatCapacity, formatPower, formatPrice, formatVoltage, getLowestOffer, matchesProductPlace } from "@/lib/products";
 
 type CategoryFilter = "all" | "sauna" | "infrared";
 type PlaceFilter = "all" | "indoor" | "outdoor" | "mobile";
@@ -329,7 +329,7 @@ function ProductGroup({ id, title, products, offset, familyCounts, finderDiffere
           <dl>
             <div><dt>Maße</dt><dd>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</dd></div>
             <div><dt>Strom</dt><dd>{formatVoltage(product.power.voltage)}{product.power.kw ? ` · ${formatPower(product.power.kw)}` : ""}</dd></div>
-            <div><dt>Kapazität</dt><dd>bis {product.people.max} {product.people.max === 1 ? "Person" : "Personen"}</dd></div>
+            <div><dt>Kapazität</dt><dd>{formatCapacity(product)}</dd></div>
             <div><dt>Preisstatus</dt><dd>{formatPrice(product)}</dd></div>
           </dl>
           <Link className="catalog-row-link" href={`/de/produkte/${product.product_id}/`}>Produkt ansehen <span aria-hidden="true">↗</span></Link>

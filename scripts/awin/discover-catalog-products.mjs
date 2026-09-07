@@ -32,7 +32,7 @@ const CATEGORY_FIELDS = ["category", "category_name", "category name", "merchant
 const PRICE_FIELDS = ["price", "product_price", "product price", "merchant_product_price", "merchant product price", "search_price", "search price", "sale_price", "sale price", "current_price", "current price"];
 const SKU_FIELDS = ["product_id", "product id", "sku", "merchant_product_id", "merchant product id", "id"];
 const PRIMARY_PRODUCT = /\b(sauna|saunahaus|gartensauna|fasssauna|saunakabine|innensauna|infrarotkabine|infrarotsauna|massivholzsauna|elementsauna|kombisauna)\b/i;
-const ACCESSORY = /\b(saunaofen|saunaheizung|saunasteuerung|technikpaket|saunastein|aufguss|schöpfkelle|schoepfkelle|saunazubehör|saunazubehoer|kopfstütze|duft|saunalampe|bodenmatte)\b/i;
+const ACCESSORY = /(saunaofen|saunaheizung|saunasteuerung|technikpaket|saunastein|aufguss|schöpfkelle|schoepfkelle|saunazubehör|saunazubehoer|kopfstütze|duft|saunalampe|bodenmatte|abluftschieber|anbaudach|aromatopf|bankblende|bodenrost|hygrometer|klimamesser|klimamessstation|pflegebox|rückenlehne|salzkristall|sanduhr|schleppdach|silikonkabel|saunatür|thermometer|wanduhr)/i;
 const VARIANT_HINT = /\b(nach maß|nach mass|maßanfertigung|sonderbau|mit holzofen|ohne holzofen|black edition|natur|schwarz|grau|terragrau|inkl\.?\s*ofen|ohne ofen|set|copy)\b/i;
 
 const parsePrice = (value) => {
