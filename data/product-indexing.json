@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "policy_updated_at": "2026-08-30",
+  "policy_updated_at": "2026-09-07",
   "generated_from_products_updated_at": "2026-09-07",
   "summary": {
     "total_verified_products": 515,
-    "index": 305,
-    "noindex": 210,
+    "index": 303,
+    "noindex": 212,
     "categories": {
       "indoor": {
         "total": 258,
-        "index": 116,
-        "noindex": 142
+        "index": 115,
+        "noindex": 143
       },
       "infrared": {
         "total": 80,
-        "index": 67,
-        "noindex": 13
+        "index": 66,
+        "noindex": 14
       },
       "outdoor": {
         "total": 157,
@@ -3028,10 +3028,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 5,
-        "frequent_editorial_share": 0.4545
+        "frequent_editorial_share": 0.3333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -3595,10 +3595,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -4892,10 +4892,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
-        "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.6364
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -4908,10 +4908,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -4924,10 +4924,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 3,
-        "frequent_editorial_share": 0.2727
+        "frequent_editorial_share": 0.2
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -4988,10 +4988,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.6364
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5036,10 +5036,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
-        "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.6364
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5052,10 +5052,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.6364
+        "frequent_editorial_share": 0.4667
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5068,10 +5068,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 3,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5714
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5132,10 +5132,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5143,18 +5143,18 @@
     },
     {
       "product_id": "karibu-sauna-infrarot-ava-6692",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 1,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "manual-override: Ofen- und Infrarotumfang zwischen Herstellerdokument und Händlerausführung vor Indexfreigabe abschließend abgleichen."
       ]
     },
     {
@@ -5164,10 +5164,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 4,
-        "frequent_editorial_share": 0.3636
+        "frequent_editorial_share": 0.2857
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5180,10 +5180,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 4,
-        "frequent_editorial_share": 0.3636
+        "frequent_editorial_share": 0.2667
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5196,10 +5196,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.6364
+        "frequent_editorial_share": 0.4667
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5244,10 +5244,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 3,
-        "frequent_editorial_share": 0.2727
+        "frequent_editorial_share": 0.2
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5260,10 +5260,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 3,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5714
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5276,10 +5276,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5324,10 +5324,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
-        "frequent_editorial_point_count": 6,
-        "frequent_editorial_share": 0.5455
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
+        "frequent_editorial_point_count": 7,
+        "frequent_editorial_share": 0.4667
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5356,10 +5356,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 4,
-        "frequent_editorial_share": 0.3636
+        "frequent_editorial_share": 0.2667
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5388,10 +5388,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5628,10 +5628,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 3,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5714
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5660,10 +5660,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.6364
+        "frequent_editorial_share": 0.4667
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5692,10 +5692,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5703,18 +5703,18 @@
     },
     {
       "product_id": "karibu-sauna-tonja-85844",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 4,
-        "frequent_editorial_share": 0.3636
+        "frequent_editorial_share": 0.2667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "manual-override: Abweichende Ofenpakete in Herstellerdokument und Händlerangebot vor Indexfreigabe abschließend zuordnen."
       ]
     },
     {
@@ -5724,10 +5724,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 0,
-        "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.6364
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
+        "frequent_editorial_point_count": 8,
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5740,10 +5740,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 2,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.7273
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5756,10 +5756,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 5,
-        "frequent_editorial_share": 0.4545
+        "frequent_editorial_share": 0.3333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"
@@ -5935,10 +5935,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 11,
-        "unique_editorial_point_count": 1,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 5,
-        "frequent_editorial_share": 0.4545
+        "frequent_editorial_share": 0.3333
       },
       "reasons": [
         "distinct-editorial-or-multiple-sources"

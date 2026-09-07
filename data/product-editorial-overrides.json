@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-07",
   "scope": "product_detail_pages",
   "entries": {
     "dewello-calgary-90": {
@@ -250,6 +250,118 @@
     "wellness-point-infrarotsauna-alpha-iii": {
       "intro": "Alpha III ist für bis zu sechs Personen vorgesehen. Auf 160 × 210 cm kombiniert sie 14 Infrarotstrahler mit 4,55 kW und einen Saunaofen mit 6 kW.",
       "detail": "Die Größe und die zwei getrennt ausgewiesenen Wärmesysteme machen dieses Modell planungsintensiver als Alpha I und II. Da die Produktseite keine eindeutige Spannung oder Gesamtanschlussleistung nennt, bleiben beide Werte im Finder offen und müssen vor Ort fachlich bestimmt werden."
+    },
+    "karibu-fasssauna-quadro-3-117": {
+      "intro": "Die Quadro 3 bietet laut Karibu vier Sitzplätze oder zwei Liegeplätze. Die bisherige Angabe von fünf Personen war zu hoch.",
+      "detail": "Die Fasssauna benötigt mit 355 cm Tiefe einen längeren Stellplatz. Für den Garten sind neben dem Kabinenmaß die Zugänglichkeit und die Montagefläche maßgeblich."
+    },
+    "karibu-sauna-infrarot-asta-6700": {
+      "intro": "Bei der Asta stehen fünf Sitzplätze und drei Liegeplätze zur Verfügung. Diese Angaben beschreiben verschiedene Nutzungsweisen der Bänke.",
+      "detail": "Das Demmelhuber-Angebot enthält einen Dachkranz und misst deshalb 245 × 245 × 202 cm. Für die Stellplanung darf hier nicht das kleinere Grundmaß der Kabine verwendet werden."
+    },
+    "karibu-sauna-elea-6762": {
+      "intro": "Die Elea verbindet vier Sitzplätze mit zwei Liegeplätzen auf 195 × 169 cm Außenfläche.",
+      "detail": "Mit 187 cm Kabinenhöhe gehört sie zu den niedrigeren Modellen dieses Angebotsbestands. Der notwendige Montageabstand zur Decke kommt dazu; die angebotene 9-kW-Ausführung besitzt eine integrierte Steuerung."
+    },
+    "karibu-sauna-jada-6806": {
+      "intro": "Die Jada ist mit 224 cm Breite und 160 cm Tiefe vergleichsweise breit und flach. Karibu nennt drei Sitzplätze und einen Liegeplatz.",
+      "detail": "Wer zu zweit liegend saunieren möchte, findet in dieser Ausführung nicht die nötige Liegekapazität. Zum dokumentierten Angebot gehört ein 9-kW-Ofen mit separatem Steuergerät."
+    },
+    "karibu-sauna-mia-86545": {
+      "intro": "Für die Mia weist Karibu vier Sitzplätze und zwei Liegeplätze aus. Die Kabine misst 196 × 170 × 198 cm.",
+      "detail": "Der Händler führt diese Ausführung mit einem 9-kW-Ofen und integrierter Steuerung. Für die Nutzung zu viert zählt die Sitzanordnung; die zwei Liegeplätze werden nicht zu den Sitzplätzen addiert."
+    },
+    "karibu-sauna-tabea-6816": {
+      "intro": "Die Tabea ist eine quadratische Kabine mit 196 cm Seitenlänge und vier Sitzplätzen. Zwei Personen können die dokumentierten Liegeplätze nutzen.",
+      "detail": "Das Angebot enthält einen 9-kW-Bio-Kombiofen. Die Kabinenhöhe beträgt 187 cm, wobei die Montagevorgaben zusätzlichen Raum über dem Dach verlangen können."
+    },
+    "karibu-sauna-infrarot-ava-6692": {
+      "intro": "Die Ava bietet fünf Sitzplätze und drei Liegeplätze bei 231 × 196 cm Außenmaß. Das Demmelhuber-Angebot wird als Sauna-Infrarot-Kombination geführt.",
+      "detail": "Bei der Ausstattung ist die konkrete Bestellung entscheidend. Der Händler nennt hier einen 9-kW-Ofen mit Steuergerät; das Karibu-Produktdokument beschreibt eine Bio-Ofenvariante. Der enthaltene Ofen und die Infrarotausstattung sollten daher anhand der gewählten Händlerausführung bestätigt werden."
+    },
+    "karibu-sauna-alcinda-2-2503": {
+      "intro": "Die Alcinda 2 nimmt mit 231 × 231 cm einen quadratischen Stellbereich ein. Fünf Sitzplätze und drei Liegeplätze sind im Karibu-Dokument ausgewiesen.",
+      "detail": "Die angebotene Ausführung umfasst einen 9-kW-Bio-Kombiofen. Wer den Raum vermisst, muss auch den Zugang zur Kabine und die vom Hersteller geforderten Abstände einplanen."
+    },
+    "karibu-sauna-bodo-6208": {
+      "intro": "Die Bodo hat drei Sitzplätze, aber nur einen Liegeplatz. Damit unterscheidet sich die gemeinsame Nutzung im Sitzen deutlich von der Nutzung im Liegen.",
+      "detail": "Bei 196 × 178 cm Außenmaß bleibt die Tiefe unter derjenigen der quadratischen Oulu. Im geprüften Angebot arbeitet ein 9-kW-Ofen mit integrierter Steuerung."
+    },
+    "karibu-sauna-carin-75668": {
+      "intro": "Die Carin ist 196 cm breit und 151 cm tief. Drei Sitzplätze und ein Liegeplatz sind dokumentiert.",
+      "detail": "Die geringe Tiefe kann bei einem länglichen Aufstellraum hilfreich sein. Für zwei gleichzeitig liegende Personen bietet diese Kabine laut Produktdokument jedoch keinen zweiten Liegeplatz."
+    },
+    "karibu-sauna-faurin-6199": {
+      "intro": "Die Faurin bietet drei Sitzplätze auf 170 × 151 cm Außenfläche. Für die liegende Nutzung nennt Karibu einen Platz.",
+      "detail": "Das geprüfte Set besitzt einen 9-kW-Ofen mit integrierter Steuerung. Die kompakte Kabine benötigt trotzdem einen passenden Elektroanschluss und die in der Anleitung genannten Sicherheitsabstände."
+    },
+    "karibu-sauna-fiona-1-59672": {
+      "intro": "Die Fiona 1 ist mit 196 × 151 cm schmaler in der Tiefe als die Fiona 2. Das Produktdokument nennt drei Sitzplätze und einen Liegeplatz.",
+      "detail": "Die geringere Tiefe geht mit einer kleineren Liegekapazität einher. Wer zwei Liegeplätze benötigt, sollte die größere Ausführung mit den eigenen Raummaßen abgleichen."
+    },
+    "karibu-sauna-fiona-2-52595": {
+      "intro": "Vier Sitzplätze und zwei Liegeplätze machen die Fiona 2 für eine andere Nutzung geeignet als die kleinere Fiona 1.",
+      "detail": "Das Außenmaß beträgt 196 × 170 × 198 cm. Die zusätzliche Tiefe muss am Aufstellort verfügbar sein, einschließlich der freien Fläche vor dem Einstieg."
+    },
+    "karibu-sauna-irava-1-90": {
+      "intro": "Die Irava 1 benötigt nur 155 × 122 cm Grundfläche und besitzt zwei Sitzplätze sowie einen Liegeplatz.",
+      "detail": "Der Händler nennt einen 3,6-kW-Ofen mit externer Steuerung und 230 V. Die geringe Grundfläche vereinfacht die Raumplanung, ersetzt aber nicht die Prüfung der Anschluss- und Montagebedingungen."
+    },
+    "karibu-sauna-irava-2-92": {
+      "intro": "Die Irava 2 behält die Tiefe von 122 cm bei, ist mit 216 cm aber deutlich breiter als die Irava 1. Drei Sitzplätze sind ausgewiesen.",
+      "detail": "Ein Liegeplatz und ein 3,6-kW-Ofen mit integrierter Steuerung gehören zur beschriebenen Ausführung. Die lange Front braucht einen entsprechenden freien Wandabschnitt."
+    },
+    "karibu-sauna-kotka-6214": {
+      "intro": "Die Kotka bietet fünf Sitzplätze oder drei Liegeplätze in einer Kabine von 196 × 196 cm.",
+      "detail": "Die dokumentierte Kapazität ist bei diesem quadratischen Grundriss vergleichsweise hoch. Für die tatsächliche Nutzung bleiben Bankanordnung und gewünschter Abstand zwischen den Personen relevant."
+    },
+    "karibu-sauna-larin-75615": {
+      "intro": "Die Larin ist eine quadratische Kabine von 151 × 151 cm für zwei sitzende Personen. Karibu nennt einen Liegeplatz.",
+      "detail": "Mit 198 cm Höhe benötigt sie mehr Deckenfreiheit als niedrigere Massivholzmodelle. Der geprüfte 9-kW-Ofen ist mit integrierter Steuerung angeboten."
+    },
+    "karibu-sauna-oulu-6211": {
+      "intro": "Fünf Sitzplätze und drei Liegeplätze sind für die Oulu dokumentiert. Das Außenmaß liegt bei 196 × 196 × 198 cm.",
+      "detail": "Die Liegeplätze sind eine alternative Nutzung der Bänke. Für einen Vergleich mit kleineren Kabinen lohnt sich deshalb die Frage, ob überwiegend gemeinsam gesessen oder liegend sauniert werden soll."
+    },
+    "karibu-sauna-sodin-75692": {
+      "intro": "Die Sodin bietet vier Sitzplätze und zwei Liegeplätze bei 196 × 170 cm Grundmaß.",
+      "detail": "Die rechteckige Kabine ist 198 cm hoch. Das Demmelhuber-Angebot umfasst einen 9-kW-Ofen mit integrierter Steuerung; Montage und Elektroplanung sind auf diese Ausführung abzustimmen."
+    },
+    "karibu-sauna-taurin-80642": {
+      "intro": "Die Taurin ist laut Karibu für zwei Sitzplätze ausgelegt. Die bisher verwendete Zahl von drei Plätzen passte nicht zum Herstellerdokument.",
+      "detail": "Ein Liegeplatz ist bei 170 × 151 cm Außenmaß ausgewiesen. Das Angebot mit 9-kW-Ofen sollte deshalb als kompakte Zweipersonenlösung eingeordnet werden."
+    },
+    "karibu-sauna-tonja-85844": {
+      "intro": "Bei der Tonja nennt Karibu zwei Sitzplätze und einen Liegeplatz. Die Kabine misst 170 × 151 × 198 cm.",
+      "detail": "Die Ofenangaben unterscheiden sich zwischen Quellen und Ausführungen. Für dieses Händlerangebot ist das dort genannte Ofenpaket maßgeblich; die Anschlussplanung darf nicht allein aus dem Modellnamen abgeleitet werden."
+    },
+    "karibu-sauna-tromso-6203": {
+      "intro": "Die Tromso bietet drei Sitzplätze und einen Liegeplatz. Ihre Außenmaße betragen 196 × 178 × 198 cm.",
+      "detail": "Wer mehrere Liegeplätze sucht, sollte diese Einschränkung berücksichtigen. Für gemeinsames Saunieren im Sitzen ist die dokumentierte Kapazität größer als die zuvor im Katalog genannten zwei Plätze."
+    },
+    "karibu-sauna-variado-80669": {
+      "intro": "Mit 118 cm Tiefe hat die Variado einen besonders flachen Grundriss. Sie ist 196 cm breit und bietet zwei Sitzplätze.",
+      "detail": "Karibu nennt einen Liegeplatz. Die geringe Tiefe kann für schmale Räume interessant sein, wobei der Bereich vor der Tür zusätzlich frei bleiben muss."
+    },
+    "karibu-saunahaus-angkor-1-179": {
+      "intro": "Das Saunahaus Angkor 1 bietet vier Sitzplätze und zwei Liegeplätze. Es benötigt 191 × 276 cm Außenfläche.",
+      "detail": "Die längliche Grundfläche ist bei Fundament und Anlieferung zu berücksichtigen. Im Händlerangebot sind ein 9-kW-Ofen und ein separates Steuergerät genannt."
+    },
+    "karibu-saunahaus-ares-3-341": {
+      "intro": "Die Ares 3 ist mit 276 × 276 cm eine größere quadratische Gartensauna. Fünf Sitzplätze und drei Liegeplätze sind dokumentiert.",
+      "detail": "Die Stellfläche umfasst noch keine Wege oder Montageflächen. Das angebotene 9-kW-Paket benötigt einen passenden Anschluss am Gartenstandort."
+    },
+    "karibu-sauna-jutta-6183": {
+      "intro": "Die Jutta bietet vier Sitzplätze und zwei Liegeplätze bei 224 × 210 cm Außenmaß. Das dokumentierte Angebot wird ohne Ofen geführt.",
+      "detail": "Die Kabine ist 191 cm hoch. Ofen und Steuerung müssen passend zur Kabine ausgewählt werden; der Preis des Kabinenangebots bildet deshalb noch kein vollständiges betriebsbereites Set ab."
+    },
+    "karibu-sauna-daria-59780": {
+      "intro": "Die Daria hat vier Sitzplätze und zwei Liegeplätze. Die Kabine misst 196 × 170 × 198 cm und wird hier ohne Ofen angeboten.",
+      "detail": "Aus der Kabine allein ergibt sich kein fester Stromanschluss. Welche Elektroinstallation benötigt wird, hängt vom später ausgewählten und für diese Kabine geeigneten Ofen ab."
+    },
+    "karibu-sauna-nanja-59777": {
+      "intro": "Die Nanja bietet zwei Sitzplätze und einen Liegeplatz. Das Händlerangebot enthält einen Dachkranz und eine graphitfarbene Ganzglastür.",
+      "detail": "Mit Dachkranz beträgt das Außenmaß 165 × 165 × 202 cm. Das kleinere Grundmaß von 151 × 151 cm reicht für die Stellplanung dieser Ausführung nicht aus; ein Ofen ist im Angebot nicht enthalten."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-30",
+  "updated_at": "2026-09-07",
   "scope": "verified_product_detail_pages",
   "default_decision": "noindex",
   "methodology": "Produktseiten bleiben vollständig statisch und im Katalog erreichbar. Eine automatische Indexfreigabe setzt ein aktuelles Angebot, mindestens eine veröffentlichte Quelle und eine eigenständige redaktionelle Einordnung voraus. Freigegebene produktspezifische redaktionelle Ergänzungen werden satzweise als sichtbare Einordnung berücksichtigt. Mehrere Quellen können eine geringere Zahl exklusiver redaktioneller Punkte ausgleichen. Affiliate-Status und Händlerprovision beeinflussen die Entscheidung nicht.",
@@ -13,5 +13,14 @@
     "multiple_sources_can_substitute_unique_points": true,
     "minimum_sources_for_substitution": 2
   },
-  "manual_overrides": {}
+  "manual_overrides": {
+    "karibu-sauna-infrarot-ava-6692": {
+      "decision": "noindex",
+      "reason": "Ofen- und Infrarotumfang zwischen Herstellerdokument und Händlerausführung vor Indexfreigabe abschließend abgleichen."
+    },
+    "karibu-sauna-tonja-85844": {
+      "decision": "noindex",
+      "reason": "Abweichende Ofenpakete in Herstellerdokument und Händlerangebot vor Indexfreigabe abschließend zuordnen."
+    }
+  }
 }

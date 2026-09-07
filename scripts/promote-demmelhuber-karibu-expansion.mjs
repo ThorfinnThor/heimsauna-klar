@@ -11,7 +11,7 @@ if (String(report.advertiser_id) !== review.advertiser_id || String(report.feed_
 if (report.products.some((entry) => entry.page_status !== 200)) throw new Error("Every promoted Demmelhuber page must return HTTP 200");
 
 const existingById = new Map(products.map((product) => [product.product_id, product]));
-const comparisonProducts = products.filter((product) => product.people.basis === undefined);
+const capacityEvidence = await readJson("data/demmelhuber-capacity-evidence.json");
 const newKeys = new Set(review.new_model_keys);
 const classifiedKeys = new Set([...Object.keys(review.existing_product_by_key), ...newKeys]);
 const grouped = Map.groupBy(report.products, (entry) => modelKey(entry.page_article));
@@ -42,7 +42,7 @@ for (const key of review.new_model_keys) {
   if (sources.some((entry) => !entry.dimensions_cm)) throw new Error(`New model lacks complete dimensions: ${key}`);
   const productId = makeProductId(sources[0], key);
   let product = existingById.get(productId);
-  const refreshed = createProduct(sources[0], key, comparisonProducts);
+  const refreshed = createProduct(sources[0], key);
   if (!product) {
     product = refreshed;
     products.push(product);
@@ -80,7 +80,13 @@ function attachOffer(product, source) {
     throw new Error(`${source.merchant_url} is already assigned to ${assignedProduct}, not ${product.product_id}`);
   }
   const current = product.commercial.offers.find((offer) => normalizeUrl(offer.url) === normalized);
-  if (current) return "existing";
+  if (current) {
+    if (product.product_id === "karibu-sauna-sahib-1") {
+      current.selection_required = true;
+      current.configuration = "Abweichende Ausführung · Energiespartür · mit Dachkranz · 221 × 198 × 212 cm · ohne Ofen";
+    }
+    return "existing";
+  }
   product.commercial.offers.push({
     merchant: review.merchant_name,
     price: source.feed_price,
@@ -104,14 +110,13 @@ function attachOffer(product, source) {
   return "added";
 }
 
-function createProduct(source, key, comparisonProducts) {
-  const capacity = resolveCapacity(source, comparisonProducts);
+function createProduct(source, key) {
+  const capacity = resolveCapacity(source, key);
   const category = source.category;
   const outdoor = category === "outdoor";
   const infrared = category === "infrared";
   const withoutHeater = source.heater_configuration === "ohne Ofen";
   const dimensions = source.dimensions_cm;
-  const footprint = dimensions.width * dimensions.depth / 10_000;
   const modelName = displayModelName(source, key);
   const construction = source.wall_thickness_mm
     ? `${source.wall_thickness_mm} mm Wandstärke sind auf der Händlerseite ausgewiesen`
@@ -119,14 +124,9 @@ function createProduct(source, key, comparisonProducts) {
   const heatAdvantage = withoutHeater
     ? "Ofen und Steuerung können passend zum Projekt separat gewählt werden"
     : `${source.power_kw.toLocaleString("de-DE")} kW und ${source.voltage} V sind für die angebotene Konfiguration genannt`;
-  const placementAdvantage = outdoor
-    ? `${footprint.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² reine Produktfläche erleichtern die Grundstücksplanung`
-    : infrared
-      ? "Sauna- und Infrarotbetrieb werden in einer Kabine kombiniert"
-      : `Der Grundriss von ${dimensions.width} × ${dimensions.depth} cm lässt sich konkret gegen den Aufstellraum prüfen`;
   const capacityCaveat = capacity.basis === "conservative-planning"
     ? `Die Kapazität ist ein konservativer Planungswert; Bankmaße und gewünschter Sitzabstand sind vor dem Kauf zu prüfen`
-    : "Die genannte Personenzahl stammt aus der geprüften Händlerbeschreibung";
+    : "Sitz- und Liegeplätze sind unterschiedliche Nutzungsweisen und werden nicht addiert";
 
   return {
     product_id: makeProductId(source, key),
@@ -140,7 +140,7 @@ function createProduct(source, key, comparisonProducts) {
       min: 1,
       max: capacity.max,
       seats: capacity.max,
-      lying_places: Math.min(source.lying_places ?? 0, capacity.max),
+      lying_places: capacity.lying_places,
       basis: capacity.basis,
     },
     power: withoutHeater ? {
@@ -168,15 +168,13 @@ function createProduct(source, key, comparisonProducts) {
     },
     commercial: { currency: "EUR", price_status: "current", offers: [] },
     editorial: {
-      pros: [placementAdvantage, heatAdvantage, construction],
+      pros: [`${capacity.max} Sitzplätze und ${capacity.lying_places} ${capacity.lying_places === 1 ? "Liegeplatz" : "Liegeplätze"} laut Karibu-Produktdokument`, heatAdvantage, construction],
       cons: [capacityCaveat, outdoor ? "Fundament, Dachdeckung und Montagezugang sind nicht in der Produktfläche enthalten" : "Montageabstände und Türweg müssen zusätzlich zum Außenmaß eingeplant werden", source.voltage === 400 ? "Der Ofen benötigt einen fachgerecht geplanten Starkstromanschluss" : withoutHeater ? "Saunatechnik ist im dokumentierten Angebot nicht enthalten" : "Die Anschlussbedingungen müssen am Aufstellort geprüft werden"],
       ideal_for: [outdoor ? "Gartenprojekte mit vorbereitetem, tragfähigem Untergrund" : `Innenräume mit ausreichend Platz für ${dimensions.width} × ${dimensions.depth} cm zuzüglich Herstellerabständen`, withoutHeater ? "Käufer, die Ofen und Steuerung selbst passend zusammenstellen" : `Projekte mit geklärtem ${source.voltage}-V-Anschluss`, infrared ? "Nutzer, die zwischen Infrarotwärme und Saunabetrieb wählen möchten" : `Planungen für bis zu ${capacity.max} Personen`],
       not_for: [outdoor ? "Grundstücke ohne geklärten Zugang und Fundament" : "Räume ohne geprüfte Lüftungs- und Sicherheitsabstände", source.voltage === 400 ? "Standorte ohne realisierbaren Starkstromanschluss" : withoutHeater ? "Kaufwünsche mit vollständig enthaltenem Ofenpaket" : "Inbetriebnahme ohne Prüfung der Elektroinstallation"],
       test_status: "not_tested",
       editorial_score: null,
-      disclosure: capacity.basis === "source-stated"
-        ? `Technische Einordnung des ${modelName} aus der geprüften Demmelhuber-Produktseite. Eigene Nutzung oder Montage liegen nicht vor.`
-        : `Technische Einordnung des ${modelName} aus der geprüften Demmelhuber-Produktseite. Die Personenzahl ist als konservativer Planungswert aus einer vergleichbar großen, dokumentierten Karibu-Kabine gekennzeichnet; eigene Nutzung oder Montage liegen nicht vor.`,
+      disclosure: "Sitz- und Liegeplätze stammen aus dem Karibu-Produktdokument. Ofenpaket und Außenmaß beziehen sich auf das genannte Demmelhuber-Angebot. Keine eigene Nutzung oder Montage.",
     },
     sources: [{
       type: "merchant",
@@ -227,20 +225,12 @@ function synchronizePower(product, source) {
   };
 }
 
-function resolveCapacity(source, comparisonProducts) {
-  if (source.people_max) return { max: source.people_max, basis: "source-stated" };
-  const compatibleCategory = (product) => source.category === "infrared"
-    ? product.category === "infrared" || product.category === "indoor"
-    : product.category === source.category;
-  const sameBrand = comparisonProducts.filter((product) => product.brand === "Karibu" && compatibleCategory(product));
-  const candidates = sameBrand.length > 0 ? sameBrand : comparisonProducts.filter(compatibleCategory);
-  const nearest = candidates.map((product) => ({
-    product,
-    distance: Math.abs(product.dimensions_cm.width - source.dimensions_cm.width) / source.dimensions_cm.width
-      + Math.abs(product.dimensions_cm.depth - source.dimensions_cm.depth) / source.dimensions_cm.depth,
-  })).sort((left, right) => left.distance - right.distance || left.product.product_id.localeCompare(right.product.product_id))[0]?.product;
-  if (!nearest) throw new Error(`No comparison product is available for ${source.page_article}`);
-  return { max: nearest.people.max, basis: "conservative-planning" };
+function resolveCapacity(source, key) {
+  const evidence = capacityEvidence.entries[makeProductId(source, key)];
+  if (!evidence || !Number.isInteger(evidence.seats) || evidence.seats < 1 || !Number.isInteger(evidence.lying_places)) {
+    throw new Error(`Missing reviewed manufacturer capacity for ${key}`);
+  }
+  return { max: evidence.seats, lying_places: evidence.lying_places, basis: "source-stated" };
 }
 
 function displayModelName(source, key) {
