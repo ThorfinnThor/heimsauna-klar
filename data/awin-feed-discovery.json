@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T14:03:51.517Z",
+  "generated_at": "2026-09-07T14:36:59.325Z",
   "source": "Awin authenticated product feed list",
   "secret_included": false,
   "eligible_feeds": [
@@ -20,6 +20,26 @@
       "membershipStatus": "active",
       "feedId": "24925",
       "feedName": "Allgemein",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "13686",
+      "advertiserName": "tink DE",
+      "membershipStatus": "active",
+      "feedId": "31497",
+      "feedName": "DE",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "13686",
+      "advertiserName": "tink DE",
+      "membershipStatus": "active",
+      "feedId": "46331",
+      "feedName": "Top Deal Feed",
       "language": "German",
       "lastUpdated": null,
       "productCount": null
@@ -50,6 +70,26 @@
       "membershipStatus": "active",
       "feedId": "54737",
       "feedName": "BENZ24 Österreich",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "18816",
+      "advertiserName": "Demmelhuber DE",
+      "membershipStatus": "active",
+      "feedId": "39421",
+      "feedName": "AWIN_DHV-default",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "18816",
+      "advertiserName": "Demmelhuber DE",
+      "membershipStatus": "active",
+      "feedId": "50255",
+      "feedName": "Feed for CSS partners (available products only)",
       "language": "German",
       "lastUpdated": null,
       "productCount": null
@@ -90,6 +130,16 @@
       "membershipStatus": "active",
       "feedId": "84368",
       "feedName": "Default",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "45487",
+      "advertiserName": "Meaco GmbH DE",
+      "membershipStatus": "active",
+      "feedId": "94664",
+      "feedName": "Mulwi Product Feed - DE GmbH",
       "language": "German",
       "lastUpdated": null,
       "productCount": null
