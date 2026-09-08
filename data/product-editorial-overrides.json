@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07",
+  "updated_at": "2026-09-08",
   "scope": "product_detail_pages",
   "entries": {
     "dewello-calgary-90": {
@@ -362,6 +362,10 @@
     "karibu-sauna-nanja-59777": {
       "intro": "Die Nanja bietet zwei Sitzplätze und einen Liegeplatz. Das Händlerangebot enthält einen Dachkranz und eine graphitfarbene Ganzglastür.",
       "detail": "Mit Dachkranz beträgt das Außenmaß 165 × 165 × 202 cm. Das kleinere Grundmaß von 151 × 151 cm reicht für die Stellplanung dieser Ausführung nicht aus; ein Ofen ist im Angebot nicht enthalten."
+    },
+    "harvia-kammi-barrel-180": {
+      "intro": "Die Kammi 180 ist Harvias kompakte Fasssauna für zwei bis vier Personen. Mit 220 cm Durchmesser und 180 cm Außenlänge bleibt sie deutlich platzsparender als die größere Kammi-Ausführung.",
+      "detail": "Saunaloft führt die Kabine ohne Ofen sowie mit einer wählbaren 8-kW-Variante. Deshalb lässt sich aus dem Kabinenangebot allein weder eine feste Netzspannung noch ein betriebsfertiger Anschluss ableiten. Harvia nennt 40-mm-Fichtenholz, zwei Bänke und eine Höhe von 2,2 m; Fundament, Ofenwahl und Elektroplanung bleiben Aufgaben für den konkreten Aufstellort."
     }
   }
 }

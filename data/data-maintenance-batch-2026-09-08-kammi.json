@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "batch_id": "data-maintenance-2026-09-08-kammi-180",
+  "model": "luna",
+  "reviewed_at": "2026-09-08",
+  "source_policy": "Only official manufacturer facts and directly checked Saunaloft variant pages; no inferred voltage or capacity beyond the documented ranges.",
+  "added_products": [
+    "harvia-kammi-barrel-180"
+  ],
+  "added_offers": 2,
+  "affiliate_status": "pending-next-awin-sync",
+  "held_candidates": [
+    "Saunaloft Kammi 220 feed rows remain held until the current feed exposes a canonical URL and a one-to-one match to the existing Kammi Barrel Large record.",
+    "Kammi Cube candidates remain held because the Saunaloft candidate URLs identify Kammi 180/220, not the Cube model.",
+    "Benz24 ambiguous variant candidates remain held; no fuzzy activation was performed."
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "policy_updated_at": "2026-09-07",
-  "generated_from_products_updated_at": "2026-09-07",
+  "generated_from_products_updated_at": "2026-09-08",
   "summary": {
-    "total_verified_products": 515,
-    "index": 305,
+    "total_verified_products": 516,
+    "index": 306,
     "noindex": 210,
     "categories": {
       "indoor": {
@@ -18,8 +18,8 @@
         "noindex": 13
       },
       "outdoor": {
-        "total": 157,
-        "index": 102,
+        "total": 158,
+        "index": 103,
         "noindex": 55
       },
       "tent": {
@@ -1297,6 +1297,22 @@
       },
       "reasons": [
         "distinct-editorial-evidence"
+      ]
+    },
+    {
+      "product_id": "harvia-kammi-barrel-180",
+      "decision": "index",
+      "automatic_decision": "index",
+      "signals": {
+        "current_offer_count": 2,
+        "published_source_count": 3,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 17,
+        "frequent_editorial_point_count": 0,
+        "frequent_editorial_share": 0
+      },
+      "reasons": [
+        "distinct-editorial-or-multiple-sources"
       ]
     },
     {
