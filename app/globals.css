@@ -959,6 +959,7 @@ footer {
 .collection-checks li span { color: var(--clay); font-size: 14px; font-weight: 750; }
 .collection-checks li p { margin: 0; color: var(--ink-soft); font-size: 16px; line-height: 1.6; }
 .collection-related {
+  padding-inline: clamp(24px, 4vw, 56px);
   grid-template-columns: 1fr;
   gap: 40px;
   align-items: start;
