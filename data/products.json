@@ -25,7 +25,7 @@
       "voltage": 230,
       "kw": 3.6,
       "plug_type": "Haushaltssteckdose laut Hersteller",
-      "electrician_required": true,
+      "electrician_required": false,
       "notes": "Hersteller- und örtliche Anschlussbedingungen vor Inbetriebnahme prüfen."
     },
     "sauna": {
@@ -44828,7 +44828,7 @@
       "voltage": "none",
       "kw": null,
       "plug_type": null,
-      "electrician_required": false,
+      "electrician_required": true,
       "notes": "Die Kammi 180 wird als Kabine geführt. Saunaloft bietet sie ohne Ofen oder mit einer wählbaren 8-kW-Variante an; Spannung und Anschluss hängen von der konkreten Ofenwahl ab."
     },
     "sauna": {
