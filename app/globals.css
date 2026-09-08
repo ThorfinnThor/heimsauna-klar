@@ -958,11 +958,42 @@ footer {
 .collection-checks li:last-child { border-bottom: 1px solid var(--line); }
 .collection-checks li span { color: var(--clay); font-size: 14px; font-weight: 750; }
 .collection-checks li p { margin: 0; color: var(--ink-soft); font-size: 16px; line-height: 1.6; }
-.collection-related { background: var(--cream); }
-.collection-related-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.collection-related-grid a { min-width: 0; min-height: 210px; padding: 22px; display: flex; flex-direction: column; background: var(--paper); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.collection-related-grid strong { hyphens: auto; overflow-wrap: break-word; }
-.collection-related-grid strong { font-size: 21px; }
+.collection-related {
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: start;
+  background: var(--cream);
+}
+.collection-related > div:first-child { max-width: 940px; }
+.collection-related h2 {
+  max-width: 920px;
+  font-size: clamp(40px, 4.3vw, 62px);
+  line-height: 1;
+  text-wrap: balance;
+}
+.collection-related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+.collection-related-grid a {
+  min-width: 0;
+  min-height: 178px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.collection-related-grid strong {
+  margin: 22px 0 18px;
+  font-size: 22px;
+  line-height: 1.2;
+  hyphens: none;
+  overflow-wrap: break-word;
+}
 
 .planning-hub { padding-block: 95px 115px; border-top: 1px solid var(--line); }
 .planning-phase-nav { max-width: 920px; margin-top: 38px; display: flex; flex-wrap: wrap; gap: 9px; }
@@ -1148,7 +1179,6 @@ footer {
   .planning-section-timeline > div, .planning-section-timeline > ol { grid-column: 2; }
   .planning-section-ledger > header p { grid-column: 2; }
   .planning-section-alternating:nth-child(even) > div:first-child, .planning-section-alternating:nth-child(even) > div:last-child { grid-column: 1; grid-row: auto; }
-  .collection-related-grid { grid-template-columns: 1fr; }
   .budget-reading { padding-left: 0; border-left: 0; }
   .tradeoff-reading { padding-left: 0; border-left: 0; }
   .capacity-points { grid-template-columns: 1fr; }
