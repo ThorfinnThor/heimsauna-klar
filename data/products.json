@@ -44848,20 +44848,24 @@
           "price": 3999,
           "availability": "feed-listed",
           "url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180/sw10343set.2",
-          "affiliate": false,
+          "affiliate": true,
           "last_checked": "2026-09-08",
           "configuration": "Kabine ohne Ofen",
-          "selection_required": true
+          "selection_required": true,
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=37047679007&a=3037577&m=25645",
+          "affiliate_program_id": "awin-saunaloft"
         },
         {
           "merchant": "Saunaloft",
           "price": 4449,
           "availability": "feed-listed",
           "url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180/sw10343set.1",
-          "affiliate": false,
+          "affiliate": true,
           "last_checked": "2026-09-08",
           "configuration": "Kabine mit wählbarem 8-kW-Ofen",
-          "selection_required": true
+          "selection_required": true,
+          "affiliate_url": "https://www.awin1.com/pclick.php?p=37047679006&a=3037577&m=25645",
+          "affiliate_program_id": "awin-saunaloft"
         }
       ]
     },
