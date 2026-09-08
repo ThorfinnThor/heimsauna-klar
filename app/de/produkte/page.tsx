@@ -7,6 +7,21 @@ import { getCatalogStats, products } from "@/lib/products";
 import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
+const featuredCollectionIds = [
+  "mini-sauna",
+  "1-person-sauna",
+  "kleine-gartensauna",
+  "sauna-bis-2500-euro",
+  "2-personen-sauna",
+  "infrarotkabine",
+  "finnische-sauna",
+  "voltage-400",
+];
+
+const featuredCollections = featuredCollectionIds
+  .map((id) => collections.find((collection) => collection.id === id))
+  .filter((collection): collection is (typeof collections)[number] => collection !== undefined);
+
 export const metadata = createPageMetadata({
   title: "Sauna-Produkte mit geprüften technischen Daten",
   description: "Ein wachsender Katalog für Heimsaunen mit Quellen und nachvollziehbarer redaktioneller Einordnung.",
@@ -35,13 +50,17 @@ export default function ProductsPage() {
           <p>Diese Seiten filtern den Katalog nach messbaren Kriterien wie Stellfläche, Personenzahl, Aufstellort oder Preis.</p>
         </div>
         <div className="collection-index-grid">
-          {collections.map((collection) => (
+          {featuredCollections.map((collection) => (
             <Link href={`/de/${collection.section}/${collection.slug}/`} key={collection.id}>
               <small>{collection.kind}</small>
               <strong>{collection.title}</strong>
               <span>{getCollectionProducts(collection).length} Produkte ansehen ↗</span>
             </Link>
           ))}
+        </div>
+        <div className="collection-index-actions">
+          <Link className="button button-primary" href="/de/vergleiche/">Alle {collections.length} Vergleiche öffnen</Link>
+          <a className="text-link" href="#catalog-results">Direkt zu den Produkten ↓</a>
         </div>
       </section>
 

@@ -5,7 +5,6 @@ import { collections, getCollectionProducts } from "@/lib/collections";
 import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
-const comparisonCollections = collections.filter((collection) => collection.section === "vergleiche");
 const title = "Sauna-Vergleiche nach Platz, Kapazität und Preis";
 const description = "Vergleichsseiten für Heimsaunen mit nachvollziehbaren Kriterien zu Stellfläche, Personen, Wärmeart, Anschluss und Budget.";
 const path = "/de/vergleiche/";
@@ -34,7 +33,7 @@ export default function ComparisonsHubPage() {
           <p>Jede Seite erklärt ihre Filter und nennt die Grenzen der verfügbaren Hersteller- und Angebotsdaten.</p>
         </div>
         <div className="collection-index-grid">
-          {comparisonCollections.map((collection) => (
+          {collections.map((collection) => (
             <Link href={`/de/${collection.section}/${collection.slug}/`} key={collection.id}>
               <small>{collection.kind}</small>
               <strong>{collection.title}</strong>

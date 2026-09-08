@@ -617,6 +617,8 @@ footer {
 .product-frame-heat > div > p:not(.eyebrow), .product-frame-heat .product-frame-detail, .product-frame-heat .product-frame-columns li { color: rgba(255,255,255,.82); }
 .product-frame-heat .product-frame-detail { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.7); }
 .product-frame-heat .product-frame-columns small { color: rgba(255,255,255,.78); }
+.product-frame-outdoor, .product-frame-heat,
+.family-editorial-outdoor, .family-editorial-technical { padding-inline: clamp(24px, 4vw, 56px); }
 .family-editorial { padding-block: 82px; display: grid; grid-template-columns: .8fr 1.2fr; gap: 9vw; border-top: 1px solid var(--line); }
 .family-editorial > * { min-width: 0; }
 .family-editorial h2 { margin: 0 0 22px; overflow-wrap: anywhere; font-size: clamp(38px, 4.2vw, 62px); line-height: .99; }
@@ -810,6 +812,7 @@ footer {
 .collection-index-grid small, .collection-related-grid small { color: var(--clay-dark); font-size: 12px; font-weight: 750; letter-spacing: .09em; text-transform: uppercase; }
 .collection-index-grid strong, .collection-related-grid strong { margin: 28px 0; font-family: Georgia, serif; font-size: 26px; font-weight: 400; }
 .collection-index-grid span, .collection-related-grid span { margin-top: auto; color: var(--ink-soft); font-size: 14px; }
+.collection-index-actions { margin-top: 30px; display: flex; flex-wrap: wrap; align-items: center; gap: 18px 28px; }
 
 .collection-hero { padding-block: 36px 76px; }
 .collection-hero h1 { max-width: 1080px; margin-bottom: 28px; font-size: clamp(52px, 5.7vw, 84px); line-height: .96; hyphens: auto; }
