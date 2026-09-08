@@ -698,9 +698,22 @@ footer {
 .guide-hero-briefing .guide-hero-copy .eyebrow { grid-column: 1 / -1; }
 .guide-hero-briefing .guide-hero-copy h1 { margin-bottom: 0; font-size: clamp(48px, 5.4vw, 80px); }
 .guide-hero-briefing .quick-answer { max-width: none; }
-.guide-hero-question .quick-answer { max-width: 660px; margin-left: auto; background: var(--clay); }
+.guide-hero-question .guide-hero-copy { max-width: 1080px; }
+.guide-hero-question .guide-hero-copy h1 { margin-bottom: 0; }
+.guide-hero-question .guide-hero-copy > p:last-child {
+  max-width: 760px;
+  margin-top: 38px;
+  padding-left: 24px;
+  border-left: 3px solid var(--clay);
+}
+.guide-hero-question .quick-answer {
+  width: min(880px, 100%);
+  max-width: none;
+  margin: 44px 0 0;
+  background: var(--clay);
+}
 .guide-hero-question .quick-answer strong { color: rgba(255,255,255,.74); }
-.guide-hero-question .guide-hero-copy > p:last-child { padding-left: 24px; border-left: 3px solid var(--clay); }
+.guide-hero-question .guide-path-links { margin-top: 34px; }
 .guide-hero-compact { padding-bottom: 62px; }
 .guide-hero-compact h1 { max-width: 900px; font-size: clamp(48px, 5.2vw, 78px); }
 
