@@ -102,7 +102,13 @@ export default function GuidePage() {
           <div><p className="eyebrow">Quellen</p><h2>Technische Angaben und ihre Herkunft.</h2></div>
           <ol>
             {guide.sources.map((source) => (
-              <li key={source.url}><span>{source.publisher}</span><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>
+              <li key={source.url}>
+                <a className="guide-source-link guide-source-link-attributed" href={source.url} target="_blank" rel="noreferrer">
+                  <span className="guide-source-publisher">{source.publisher}</span>
+                  <span className="guide-source-title">{source.title}</span>
+                  <span className="guide-source-arrow" aria-hidden="true">↗</span>
+                </a>
+              </li>
             ))}
           </ol>
           <p className="safety-box"><strong>Hinweis</strong> Diese Seite ersetzt weder die Herstelleranleitung noch die Prüfung durch eine Elektrofachkraft. Maßgeblich sind das konkrete Produkt, der vorhandene Stromkreis und die örtlichen Bedingungen.</p>

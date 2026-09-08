@@ -136,7 +136,14 @@ function PlanningSources({ guide }: { guide: PlanningGuide }) {
     <section className="guide-sources page-shell" aria-labelledby="planning-sources-title" data-page-module="sources">
       <div><p className="eyebrow">{guide.module_copy.sources_kicker}</p><h2 id="planning-sources-title">{guide.module_copy.sources_title}</h2></div>
       <div>
-        <ol>{guide.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>)}</ol>
+        <ol>{guide.sources.map((source) => (
+          <li key={source.url}>
+            <a className="guide-source-link" href={source.url} target="_blank" rel="noreferrer">
+              <span className="guide-source-title">{source.title}</span>
+              <span className="guide-source-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+        ))}</ol>
         <p className="safety-box"><strong>Hinweis</strong> {guide.module_copy.source_note}</p>
       </div>
     </section>
