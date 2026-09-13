@@ -2,5 +2,35 @@
   "schema_version": 1,
   "market": "US",
   "status": "draft",
-  "pages": []
+  "pages": [
+    {
+      "id": "contact",
+      "slug": "contact",
+      "publication_status": "draft",
+      "title": "Contact Select Your Sauna",
+      "description": "Contact Select Your Sauna about a source, product record or correction.",
+      "eyebrow": "Contact",
+      "heading": "Questions and corrections",
+      "introduction": [
+        "Please include the page address and the specific product or statement when writing about a correction. That makes it possible to check the underlying source record directly."
+      ],
+      "sections": [
+        {
+          "id": "editorial-contact",
+          "heading": "Editorial contact",
+          "paragraphs": [
+            "Questions about the research method, documented specifications or source links can be sent by email. Select Your Sauna does not provide electrical, structural or code approval for an installation."
+          ]
+        },
+        {
+          "id": "operator",
+          "heading": "Site operator",
+          "paragraphs": [
+            "Select Your Sauna is operated by SeitenHafen361, Schayan Yousefian, Freienwalder Str. 34, 13359 Berlin, Germany."
+          ]
+        }
+      ],
+      "contact_email": "info@selectyoursauna.com"
+    }
+  ]
 }

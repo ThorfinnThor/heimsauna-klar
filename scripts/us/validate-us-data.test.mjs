@@ -186,6 +186,7 @@ function validBundle() {
       affiliate: { schema_version: 1, market: "US", status: "draft", disclosure: "", principles: [] },
       legal: { schema_version: 1, market: "US", status: "draft", pages: [] },
       pagePresentations: { schema_version: 1, market: "US", status: "draft", entries: [] },
+      editorial: { schema_version: 1, market: "US", status: "draft", entries: [] },
     },
   };
 }
@@ -263,4 +264,58 @@ test("affiliate publication needs approved disclosure and program state", () => 
   bundle.content.affiliate.disclosure = "We may earn a commission from marked links.";
   bundle.programs.programs[0].relationship_status = "pending";
   assert.throws(() => validateUsBundle(bundle), /needs at least one approved affiliate program/);
+});
+
+test("reviewed editorial pages cannot pass with thin unsourced content", () => {
+  const bundle = validBundle();
+  bundle.content.pagePresentations.entries = [{
+    id: "comparison-matrix",
+    page_type: "comparison",
+    layout: "matrix",
+    module_order: ["selection", "sections", "sources"],
+  }];
+  bundle.content.editorial.entries = [{
+    id: "indoor-saunas",
+    page_type: "comparison",
+    slug: "indoor-saunas",
+    publication_status: "reviewed",
+    title: "Indoor saunas",
+    description: "Documented indoor sauna configurations.",
+    eyebrow: "Comparison",
+    heading: "Indoor sauna configurations",
+    introduction: [],
+    sections: [],
+    source_ids: [],
+    related_paths: [],
+    presentation_id: "comparison-matrix",
+    selection: { placements: ["indoor"] },
+  }];
+  assert.throws(() => validateUsBundle(bundle), /reviewed content needs an introduction/);
+});
+
+test("editorial product links must resolve to known US records", () => {
+  const bundle = validBundle();
+  bundle.content.pagePresentations.entries = [{
+    id: "guide-briefing",
+    page_type: "guide",
+    layout: "briefing",
+    module_order: ["sections", "catalog", "sources"],
+  }];
+  bundle.content.editorial.entries = [{
+    id: "electrical-guide",
+    page_type: "guide",
+    slug: "electrical-guide",
+    publication_status: "draft",
+    title: "Electrical guide",
+    description: "A source-based guide to documented electrical requirements.",
+    eyebrow: "Guide",
+    heading: "Electrical requirements",
+    introduction: ["Fixture copy."],
+    sections: [{ id: "requirements", heading: "Requirements", paragraphs: ["Fixture copy."] }],
+    source_ids: ["source-product"],
+    related_paths: [],
+    presentation_id: "guide-briefing",
+    linked_product_ids: ["missing-product"],
+  }];
+  assert.throws(() => validateUsBundle(bundle), /references unknown ID missing-product/);
 });

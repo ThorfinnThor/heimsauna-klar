@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getEnabledMarkets, marketPath, type MarketCode } from "@/lib/markets";
+import { getUsEditorialPages, getUsTrustPage, isUsResearchPreview } from "@/lib/us/content";
 
 const headerCopy = {
   DE: {
@@ -21,7 +22,6 @@ const headerCopy = {
     items: [
       { href: "/us/saunas/", label: "Saunas" },
       { href: "/us/sauna-finder/", label: "Sauna Finder" },
-      { href: "/us/", label: "US home" },
     ],
     cta: { href: "/us/sauna-finder/", label: "Find a configuration" },
   },
@@ -31,6 +31,19 @@ const headerCopy = {
   items: Array<{ href: string; label: string }>;
   cta: { href: string; label: string };
 }>;
+
+function getUsNavigationItems() {
+  const includeNonPublic = isUsResearchPreview();
+  const items = [...headerCopy.US.items];
+  for (const entry of [
+    { type: "comparison" as const, href: "/us/compare/", label: "Compare" },
+    { type: "guide" as const, href: "/us/guides/", label: "Guides" },
+    { type: "brand" as const, href: "/us/brands/", label: "Brands" },
+  ]) {
+    if (getUsEditorialPages(entry.type, { includeNonPublic }).length > 0) items.push({ href: entry.href, label: entry.label });
+  }
+  return items;
+}
 
 function MarketSwitcher({ currentMarket }: { currentMarket: MarketCode }) {
   const enabledMarkets = getEnabledMarkets();
@@ -54,6 +67,7 @@ function MarketSwitcher({ currentMarket }: { currentMarket: MarketCode }) {
 
 export function SiteHeader({ market = "DE" }: { market?: MarketCode }) {
   const copy = headerCopy[market];
+  const items = market === "US" ? getUsNavigationItems() : copy.items;
   return (
     <header className="site-header">
       <Link className="brand" href={marketPath(market)} aria-label={copy.homeLabel}>
@@ -61,7 +75,7 @@ export function SiteHeader({ market = "DE" }: { market?: MarketCode }) {
         <span>Select Your Sauna</span>
       </Link>
       <nav className="nav" aria-label={copy.navigationLabel}>
-        {copy.items.map((item) => <Link href={item.href} key={item.href}>{item.label}</Link>)}
+        {items.map((item) => <Link href={item.href} key={item.href}>{item.label}</Link>)}
       </nav>
       <div className="header-actions">
         <MarketSwitcher currentMarket={market} />
@@ -73,6 +87,7 @@ export function SiteHeader({ market = "DE" }: { market?: MarketCode }) {
 
 export function SiteFooter({ market = "DE" }: { market?: MarketCode }) {
   const isGerman = market === "DE";
+  const contactPage = isGerman ? undefined : getUsTrustPage("contact", { includeNonPublic: isUsResearchPreview() });
   return (
     <footer>
       <Link className="brand brand-footer" href={marketPath(market)}>
@@ -87,7 +102,7 @@ export function SiteFooter({ market = "DE" }: { market?: MarketCode }) {
             <Link href="/de/rechtliches/#datenschutz">Datenschutz</Link>
             <Link href="/de/transparenz/affiliate/">Affiliate</Link>
           </>
-        ) : null}
+        ) : contactPage ? <Link href="/us/contact/">Contact</Link> : null}
       </div>
       <p className="footer-note">{isGerman ? "Betreiber" : "Operated by"}: SeitenHafen361 · Schayan Yousefian</p>
     </footer>

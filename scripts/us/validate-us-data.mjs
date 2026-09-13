@@ -19,6 +19,7 @@ const CONTENT_FILES = {
   affiliate: "../../content/us/affiliate.json",
   legal: "../../content/us/legal.json",
   pagePresentations: "../../content/us/page-presentations.json",
+  editorial: "../../content/us/editorial.json",
 };
 
 const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -36,6 +37,9 @@ const SOURCE_TYPES = new Set([
   "other",
 ]);
 const AUTHORITATIVE_PRODUCT_SOURCE_TYPES = new Set(["manufacturer-page", "manual", "spec-sheet"]);
+const EDITORIAL_PAGE_TYPES = new Set(["comparison", "brand", "guide"]);
+const EDITORIAL_MODULES = new Set(["selection", "catalog", "sections", "sources", "related"]);
+const TRUST_PAGE_SLUGS = new Set(["contact", "about", "methodology", "affiliate-disclosure", "privacy"]);
 
 function isObject(value) {
   return value !== null && typeof value === "object" && !Array.isArray(value);
@@ -225,6 +229,124 @@ function validateStringArray(value, path, issues, allowedValues) {
     if (allowedValues && !allowedValues.has(entry)) issue(issues, "error", `${path}[${index}]`, "has an unsupported value");
     if (seen.has(entry)) issue(issues, "error", `${path}[${index}]`, `duplicates ${entry}`);
     seen.add(entry);
+  }
+}
+
+function validateEditorialSection(section, path, issues) {
+  if (!requireObject(section, path, issues)) return;
+  requireId(section.id, `${path}.id`, issues);
+  requireString(section.heading, `${path}.heading`, issues);
+  const paragraphs = requireArray(section.paragraphs, `${path}.paragraphs`, issues) ? section.paragraphs : [];
+  for (const [index, paragraph] of paragraphs.entries()) requireString(paragraph, `${path}.paragraphs[${index}]`, issues);
+  if (section.points !== undefined) validateStringArray(section.points, `${path}.points`, issues);
+}
+
+function validateEditorialContent(bundle, sourceIds, productIds, issues) {
+  const presentations = requireArray(bundle.content?.pagePresentations?.entries, "content.pagePresentations.entries", issues)
+    ? bundle.content.pagePresentations.entries
+    : [];
+  const presentationIds = ensureUniqueIds(presentations, "content.pagePresentations.entries", issues);
+  const presentationById = new Map(presentations.map((entry) => [entry.id, entry]));
+  for (const [index, presentation] of presentations.entries()) {
+    const path = `content.pagePresentations.entries[${index}]`;
+    if (!isObject(presentation)) continue;
+    if (!EDITORIAL_PAGE_TYPES.has(presentation.page_type)) issue(issues, "error", `${path}.page_type`, "has an unsupported value");
+    if (!['matrix', 'profile', 'briefing'].includes(presentation.layout)) issue(issues, "error", `${path}.layout`, "has an unsupported value");
+    validateStringArray(presentation.module_order, `${path}.module_order`, issues, EDITORIAL_MODULES);
+    if (new Set(presentation.module_order ?? []).size !== (presentation.module_order ?? []).length) {
+      issue(issues, "error", `${path}.module_order`, "must not repeat a module");
+    }
+  }
+
+  const entries = requireArray(bundle.content?.editorial?.entries, "content.editorial.entries", issues)
+    ? bundle.content.editorial.entries
+    : [];
+  ensureUniqueIds(entries, "content.editorial.entries", issues);
+  const routeKeys = new Set();
+  for (const [index, page] of entries.entries()) {
+    const path = `content.editorial.entries[${index}]`;
+    if (!isObject(page)) continue;
+    if (!EDITORIAL_PAGE_TYPES.has(page.page_type)) issue(issues, "error", `${path}.page_type`, "has an unsupported value");
+    requireId(page.slug, `${path}.slug`, issues);
+    const routeKey = `${page.page_type}:${page.slug}`;
+    if (routeKeys.has(routeKey)) issue(issues, "error", `${path}.slug`, `duplicates route ${routeKey}`);
+    routeKeys.add(routeKey);
+    if (!PUBLICATION_STATUSES.has(page.publication_status)) issue(issues, "error", `${path}.publication_status`, "has an unsupported value");
+    for (const field of ["title", "description", "eyebrow", "heading"]) requireString(page[field], `${path}.${field}`, issues);
+    const introduction = requireArray(page.introduction, `${path}.introduction`, issues) ? page.introduction : [];
+    for (const [paragraphIndex, paragraph] of introduction.entries()) requireString(paragraph, `${path}.introduction[${paragraphIndex}]`, issues);
+    const sections = requireArray(page.sections, `${path}.sections`, issues) ? page.sections : [];
+    ensureUniqueIds(sections, `${path}.sections`, issues);
+    for (const [sectionIndex, section] of sections.entries()) validateEditorialSection(section, `${path}.sections[${sectionIndex}]`, issues);
+    const pageSourceIds = validateIdArray(page.source_ids, `${path}.source_ids`, issues);
+    requireReferences(pageSourceIds, sourceIds, `${path}.source_ids`, issues);
+    const relatedPaths = requireArray(page.related_paths, `${path}.related_paths`, issues) ? page.related_paths : [];
+    for (const [relatedIndex, relatedPath] of relatedPaths.entries()) {
+      if (!requireString(relatedPath, `${path}.related_paths[${relatedIndex}]`, issues)) continue;
+      if (!/^\/us\/(?:[a-z0-9-]+\/)+$/.test(relatedPath)) issue(issues, "error", `${path}.related_paths[${relatedIndex}]`, "must be a clean trailing-slash US path");
+    }
+    if (!requireId(page.presentation_id, `${path}.presentation_id`, issues) || !presentationIds.has(page.presentation_id)) {
+      issue(issues, "error", `${path}.presentation_id`, "references an unknown presentation");
+    } else if (presentationById.get(page.presentation_id)?.page_type !== page.page_type) {
+      issue(issues, "error", `${path}.presentation_id`, "belongs to another page type");
+    }
+
+    if (page.page_type === "comparison") {
+      if (!requireObject(page.selection, `${path}.selection`, issues)) continue;
+      const productSelection = page.selection.product_ids === undefined ? [] : validateIdArray(page.selection.product_ids, `${path}.selection.product_ids`, issues);
+      requireReferences(productSelection, productIds, `${path}.selection.product_ids`, issues);
+      if (page.selection.product_types !== undefined) validateStringArray(page.selection.product_types, `${path}.selection.product_types`, issues, new Set(["sauna-cabin", "sauna-kit", "sauna-tent", "sauna-blanket", "heater", "accessory"]));
+      if (page.selection.heat_types !== undefined) validateStringArray(page.selection.heat_types, `${path}.selection.heat_types`, issues, new Set(["traditional", "infrared", "hybrid", "not-applicable"]));
+      if (page.selection.placements !== undefined) validateStringArray(page.selection.placements, `${path}.selection.placements`, issues, new Set(["indoor", "outdoor"]));
+      if (page.selection.brands !== undefined) validateStringArray(page.selection.brands, `${path}.selection.brands`, issues);
+      if (page.selection.voltages_v !== undefined && requireArray(page.selection.voltages_v, `${path}.selection.voltages_v`, issues)) {
+        for (const [voltageIndex, voltage] of page.selection.voltages_v.entries()) {
+          if (typeof voltage !== "number" || !Number.isFinite(voltage) || voltage <= 0) issue(issues, "error", `${path}.selection.voltages_v[${voltageIndex}]`, "must be a positive finite number");
+        }
+      }
+      if (page.selection.minimum_seated_capacity !== undefined && (!Number.isInteger(page.selection.minimum_seated_capacity) || page.selection.minimum_seated_capacity <= 0)) {
+        issue(issues, "error", `${path}.selection.minimum_seated_capacity`, "must be a positive integer");
+      }
+      const criteria = ["product_ids", "product_types", "heat_types", "placements", "brands", "voltages_v"]
+        .some((field) => Array.isArray(page.selection[field]) && page.selection[field].length > 0)
+        || page.selection.minimum_seated_capacity !== undefined;
+      if (!criteria) issue(issues, "error", `${path}.selection`, "needs at least one explicit comparison criterion");
+    } else if (page.page_type === "brand") {
+      requireString(page.brand_name, `${path}.brand_name`, issues);
+    } else if (page.page_type === "guide" && page.linked_product_ids !== undefined) {
+      const linked = validateIdArray(page.linked_product_ids, `${path}.linked_product_ids`, issues);
+      requireReferences(linked, productIds, `${path}.linked_product_ids`, issues);
+    }
+
+    if (["reviewed", "published"].includes(page.publication_status)) {
+      if (introduction.length === 0) issue(issues, "error", `${path}.introduction`, "reviewed content needs an introduction");
+      if (sections.length === 0) issue(issues, "error", `${path}.sections`, "reviewed content needs at least one substantive section");
+      if (pageSourceIds.length === 0) issue(issues, "error", `${path}.source_ids`, "reviewed content needs at least one source");
+    }
+  }
+
+  const trustPages = requireArray(bundle.content?.legal?.pages, "content.legal.pages", issues) ? bundle.content.legal.pages : [];
+  ensureUniqueIds(trustPages, "content.legal.pages", issues);
+  const trustSlugs = new Set();
+  for (const [index, page] of trustPages.entries()) {
+    const path = `content.legal.pages[${index}]`;
+    if (!isObject(page)) continue;
+    if (!TRUST_PAGE_SLUGS.has(page.slug)) issue(issues, "error", `${path}.slug`, "has an unsupported trust-page slug");
+    if (trustSlugs.has(page.slug)) issue(issues, "error", `${path}.slug`, `duplicates ${page.slug}`);
+    trustSlugs.add(page.slug);
+    if (!PUBLICATION_STATUSES.has(page.publication_status)) issue(issues, "error", `${path}.publication_status`, "has an unsupported value");
+    for (const field of ["title", "description", "eyebrow", "heading"]) requireString(page[field], `${path}.${field}`, issues);
+    const introduction = requireArray(page.introduction, `${path}.introduction`, issues) ? page.introduction : [];
+    for (const [paragraphIndex, paragraph] of introduction.entries()) requireString(paragraph, `${path}.introduction[${paragraphIndex}]`, issues);
+    const sections = requireArray(page.sections, `${path}.sections`, issues) ? page.sections : [];
+    ensureUniqueIds(sections, `${path}.sections`, issues);
+    for (const [sectionIndex, section] of sections.entries()) validateEditorialSection(section, `${path}.sections[${sectionIndex}]`, issues);
+    if (page.contact_email !== undefined && (typeof page.contact_email !== "string" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(page.contact_email))) {
+      issue(issues, "error", `${path}.contact_email`, "must be a valid email address");
+    }
+    if (["reviewed", "published"].includes(page.publication_status) && (introduction.length === 0 || sections.length === 0)) {
+      issue(issues, "error", path, "reviewed trust content needs an introduction and at least one section");
+    }
   }
 }
 
@@ -618,6 +740,8 @@ export function auditUsBundle(bundle) {
     if (document.market !== "US") issue(issues, "error", `content.${name}.market`, "must equal US");
     if (!["draft", "reviewed", "published"].includes(document.status)) issue(issues, "error", `content.${name}.status`, "has an unsupported value");
   }
+
+  validateEditorialContent(bundle, sourceIds, productIds, issues);
 
   return issues;
 }

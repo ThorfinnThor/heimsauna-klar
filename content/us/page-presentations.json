@@ -2,5 +2,24 @@
   "schema_version": 1,
   "market": "US",
   "status": "draft",
-  "entries": []
+  "entries": [
+    {
+      "id": "us-comparison-matrix",
+      "page_type": "comparison",
+      "layout": "matrix",
+      "module_order": ["selection", "sections", "sources", "related"]
+    },
+    {
+      "id": "us-brand-profile",
+      "page_type": "brand",
+      "layout": "profile",
+      "module_order": ["sections", "catalog", "sources", "related"]
+    },
+    {
+      "id": "us-guide-briefing",
+      "page_type": "guide",
+      "layout": "briefing",
+      "module_order": ["sections", "sources", "catalog", "related"]
+    }
+  ]
 }

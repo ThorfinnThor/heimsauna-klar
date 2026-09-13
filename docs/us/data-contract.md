@@ -25,6 +25,7 @@ Die eingecheckten US-Dateien sind absichtlich leer und alle vier Publication-Sch
 | `data/us/offers.json` | Händlerangebot für genau eine Konfiguration |
 | `data/us/mappings.json` | Geprüfte Zuordnung externer Produktkennungen zu Konfigurationen |
 | `content/us/*.json` | Noch nicht veröffentlichte, marktbezogene Inhaltsvorlagen |
+| `content/us/editorial.json` | Freigabestatus, Inhalte, Auswahlregeln, Quellen und Präsentationsprofil für Vergleichs-, Marken- und Guide-Seiten |
 
 Alle Datendateien tragen `schema_version: 1` und `market: "US"`. IDs und Slugs verwenden stabile, kleingeschriebene Kebab-Case-Werte. Eine spätere Änderung der Bedeutung bestehender Felder erfordert eine Schema-Versionserhöhung. Additive optionale Felder dürfen innerhalb von Version 1 ergänzt werden, wenn Validator und Dokumentation gleichzeitig aktualisiert werden.
 
@@ -131,6 +132,12 @@ Die vorgesehenen Stufen sind:
 2. US-Routen technisch aktivieren, aber mit `noindex` und ohne Affiliate-Ausgabe testen.
 3. Affiliate-Links nach realer Programmbestätigung separat freigeben.
 4. Indexierung erst nach Content-, SEO-, Rechts- und Live-Abnahme aktivieren.
+
+## Redaktionelle Routen
+
+Vergleichs-, Marken- und Guide-Seiten werden ausschließlich aus `content/us/editorial.json` erzeugt. Jede Seite besitzt einen eigenen Slug, Seitentyp, Freigabestatus, Einleitung, inhaltliche Abschnitte, Quellen, verwandte Pfade und ein Präsentationsprofil. Eine Vergleichsseite benötigt zusätzlich mindestens ein ausdrückliches Auswahlkriterium. Marken werden exakt zugeordnet; Guide-Produktmodule verwenden nur explizite Produkt-IDs.
+
+Drafts sind nur im lokalen Research-Preview-Modus verfügbar. Im öffentlichen Modus werden ausschließlich `published`-Einträge aus einem ebenfalls als `published` freigegebenen Inhaltsdokument gelesen. Fehlt für eine Rubrik freigegebener Inhalt, entsteht weder eine Detailroute noch ein Navigationslink. Unbekannte Produktwerte erfüllen keine technischen Vergleichskriterien.
 
 ## Validator und Abnahme
 

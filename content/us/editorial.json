@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "market": "US",
+  "status": "draft",
+  "entries": [
+    {
+      "id": "indoor-infrared-saunas",
+      "page_type": "comparison",
+      "slug": "indoor-infrared-saunas",
+      "publication_status": "draft",
+      "title": "Indoor infrared sauna configurations",
+      "description": "Compare the documented dimensions, capacity and electrical requirements of the current indoor infrared sauna research set.",
+      "eyebrow": "Indoor infrared comparison",
+      "heading": "Five indoor infrared cabins with different space and circuit demands",
+      "introduction": [
+        "The current research set covers one-, two- and four-person infrared cabins sold for indoor placement in the United States. All five document a 120-volt supply, but their exterior dimensions and circuit information differ enough to change what must be checked before purchase.",
+        "This is a specification comparison, not a hands-on test or a quality ranking. A configuration appears only when its product type, heat type and placement are documented in the source record."
+      ],
+      "sections": [
+        {
+          "id": "room-envelope",
+          "heading": "Cabinet dimensions do not define the full room envelope",
+          "paragraphs": [
+            "The exterior measurements make it possible to compare the cabinet bodies. None of the five current records contains reviewed installation clearances, so the figures cannot establish that a cabin fits tightly between walls or below a ceiling.",
+            "When room dimensions are entered in the sauna finder, a cabinet that fits remains under needs verification until the missing clearance information has been checked in the instructions for that exact model."
+          ]
+        },
+        {
+          "id": "electrical-differences",
+          "heading": "The shared 120-volt label does not make the electrical requirements identical",
+          "paragraphs": [
+            "Peak documents a 15-amp requirement for the Shasta and a dedicated 20-amp circuit for the Everest. The JNH records document 20-amp dedicated circuits for the Tosi Red 4-Person, while the required circuit rating remains open for the Tosi 1-Person and Tosi 2-Person records.",
+            "A voltage filter is therefore useful for narrowing the catalog, but it does not approve an outlet or circuit for installation. The plug, circuit requirement and model instructions still need to be checked together."
+          ]
+        }
+      ],
+      "source_ids": [
+        "peak-shasta-product",
+        "peak-everest-product",
+        "jnh-tosi-1-product",
+        "jnh-tosi-2-product",
+        "jnh-tosi-4-product"
+      ],
+      "related_paths": ["/us/saunas/", "/us/sauna-finder/"],
+      "presentation_id": "us-comparison-matrix",
+      "selection": {
+        "product_types": ["sauna-cabin"],
+        "heat_types": ["infrared"],
+        "placements": ["indoor"]
+      }
+    },
+    {
+      "id": "jnh-lifestyles",
+      "page_type": "brand",
+      "slug": "jnh-lifestyles",
+      "publication_status": "draft",
+      "title": "JNH Lifestyles sauna configurations",
+      "description": "A source-based view of the JNH Lifestyles Tosi and Arki sauna configurations in the current US research set.",
+      "eyebrow": "JNH Lifestyles",
+      "heading": "The documented JNH range spans compact indoor cabins and one outdoor model",
+      "introduction": [
+        "Four JNH Lifestyles configurations are currently recorded. The indoor Tosi group covers one, two and four seats, while the Arki Outdoor Duo is documented for outdoor placement and two people.",
+        "The records describe model-specific dimensions and power information. They do not combine the four configurations into one generic product or assume that specifications carry from one size to another."
+      ],
+      "sections": [
+        {
+          "id": "range-boundaries",
+          "heading": "Capacity and placement separate the four configurations",
+          "paragraphs": [
+            "The Tosi 1-Person is the narrowest cabin in the recorded group at 35.5 inches wide. The Tosi 2-Person increases the documented exterior width to 47.3 inches, and the Tosi Red 4-Person reaches 70.9 inches. The Arki Outdoor Duo is a separate outdoor configuration rather than an outdoor version inferred from the Tosi line."
+          ]
+        },
+        {
+          "id": "power-records",
+          "heading": "Electrical detail is not equally complete across the range",
+          "paragraphs": [
+            "All four records list 120 volts. The Tosi Red 4-Person and Arki Outdoor Duo also document a dedicated 20-amp circuit. The current Tosi 1-Person and Tosi 2-Person sources do not state a required circuit rating in the normalized record, so that detail remains open.",
+            "The product page for each configuration shows the unresolved fields alongside the documented values."
+          ]
+        }
+      ],
+      "source_ids": [
+        "jnh-tosi-1-product",
+        "jnh-tosi-2-product",
+        "jnh-tosi-4-product",
+        "jnh-arki-outdoor-duo-product"
+      ],
+      "related_paths": ["/us/compare/indoor-infrared-saunas/", "/us/sauna-finder/"],
+      "presentation_id": "us-brand-profile",
+      "brand_name": "JNH Lifestyles"
+    },
+    {
+      "id": "infrared-sauna-electrical-requirements",
+      "page_type": "guide",
+      "slug": "infrared-sauna-electrical-requirements",
+      "publication_status": "draft",
+      "title": "Infrared sauna electrical requirements",
+      "description": "Learn which model-specific electrical facts need to be checked beyond the voltage printed on an infrared sauna listing.",
+      "eyebrow": "Electrical planning",
+      "heading": "A 120-volt sauna can still require a different circuit and receptacle",
+      "introduction": [
+        "Voltage is only one part of an infrared sauna's electrical specification. The model record may also identify rated current, required circuit capacity, a dedicated circuit, connection method and plug type.",
+        "Those fields need to refer to the same configuration. A value from a smaller cabin or another size in the product family is not a substitute for the instructions supplied with the selected model."
+      ],
+      "sections": [
+        {
+          "id": "read-one-option",
+          "heading": "Read each supply option as a complete set",
+          "paragraphs": [
+            "The current pilot contains electric infrared cabins with one documented supply option each. Where the manufacturer record states a required circuit or dedicated circuit, the site keeps that requirement with the voltage rather than reducing the product to a 120-volt badge.",
+            "If a future configuration documents alternative supply options, each option will be evaluated separately. Requirements that belong to the same option must all be satisfied together."
+          ]
+        },
+        {
+          "id": "unknown-is-open",
+          "heading": "An open circuit field is not permission to use any outlet",
+          "paragraphs": [
+            "The Tosi 1-Person and Tosi 2-Person records document 120-volt power information but currently leave the required circuit rating unresolved. The finder can recognize the voltage only when that is all the user selected. If a circuit limit is entered, these records move to needs verification.",
+            "Final installation should follow the documentation for the exact configuration and the applicable local requirements. The finder does not size wiring, approve adapters or replace review by a qualified professional."
+          ]
+        }
+      ],
+      "source_ids": [
+        "peak-shasta-product",
+        "peak-everest-product",
+        "jnh-tosi-1-product",
+        "jnh-tosi-2-product",
+        "jnh-tosi-4-product",
+        "jnh-arki-outdoor-duo-product"
+      ],
+      "related_paths": ["/us/sauna-finder/", "/us/compare/indoor-infrared-saunas/"],
+      "presentation_id": "us-guide-briefing",
+      "linked_product_ids": ["peak-everest", "jnh-tosi-2"]
+    }
+  ]
+}
