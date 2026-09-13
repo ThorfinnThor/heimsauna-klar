@@ -124,6 +124,48 @@ test("real pilot data produces five known indoor infrared 120 V results and one 
   assert.equal(results.at(-1).productId, "jnh-arki-outdoor-duo");
 });
 
+test("the pilot scenario for two indoor infrared seats on 120 V returns three known configurations", () => {
+  const results = runUsFinder({
+    products: productsDocument.products,
+    configurations: configurationsDocument.configurations,
+    offers: [],
+    query: {
+      heatType: { value: "infrared", strength: "hard" },
+      placement: { value: "indoor", strength: "hard" },
+      seatedPeople: { value: 2, strength: "hard" },
+      electrical: { value: { mode: "electric", supplies: [{ voltageV: 120 }] }, strength: "hard" },
+    },
+    asOf: "2026-09-13",
+  });
+  assert.deepEqual(
+    results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId),
+    ["peak-everest", "jnh-tosi-2", "jnh-tosi-4"],
+  );
+  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 0);
+  assert.deepEqual(
+    results.filter((entry) => entry.status === "excluded").map((entry) => entry.productId),
+    ["peak-shasta", "jnh-tosi-1", "jnh-arki-outdoor-duo"],
+  );
+});
+
+test("adding a room envelope keeps the pilot honest when installation clearances are unknown", () => {
+  const results = runUsFinder({
+    products: productsDocument.products,
+    configurations: configurationsDocument.configurations,
+    offers: [],
+    query: {
+      heatType: { value: "infrared", strength: "hard" },
+      placement: { value: "indoor", strength: "hard" },
+      seatedPeople: { value: 2, strength: "hard" },
+      maximumExteriorInches: { value: { width: 100, depth: 100, height: 100, allowRotation: false }, strength: "hard" },
+      electrical: { value: { mode: "electric", supplies: [{ voltageV: 120 }] }, strength: "hard" },
+    },
+    asOf: "2026-09-13",
+  });
+  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 3);
+  assert(results.filter((entry) => entry.status === "needs-verification").every((entry) => entry.unknownCriteria.includes("space:installation-clearances")));
+});
+
 test("hard capacity uses the full requested group size", () => {
   assert.equal(resultFor({ query: { seatedPeople: { value: 4, strength: "hard" } } }).status, "excluded");
   assert.equal(resultFor({ query: { seatedPeople: { value: 2, strength: "hard" } } }).status, "meets-known-criteria");
