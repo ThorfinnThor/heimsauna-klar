@@ -15,6 +15,7 @@
     "data:check": "node scripts/check-product-schema.mjs && node scripts/validate-data.mjs && node scripts/audit-editorial-expansion.mjs && npm run us:data:check",
     "us:data:check": "node scripts/us/validate-us-data.mjs",
     "us:de-baseline:check": "node scripts/us/check-de-baseline.mjs",
+    "us:import:review": "node scripts/us/manual-import.mjs",
     "us:output:gate": "node scripts/us/enforce-publication-output.mjs",
     "us:test": "node --test scripts/us/*.test.mjs",
     "links:check": "node scripts/check-internal-links.mjs",
