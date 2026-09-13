@@ -1,11 +1,9 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Select Your Sauna – Planungshilfe für private Saunen";
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
+const size = { width: 1200, height: 630 };
 export const dynamic = "force-static";
 
-export default function OpenGraphImage() {
+export function GET() {
   return new ImageResponse(
     (
       <div

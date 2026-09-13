@@ -10,6 +10,9 @@ const offerPolicyAsOf = new Intl.DateTimeFormat("en-CA", {
 const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
+  experimental: {
+    globalNotFound: true,
+  },
   env: {
     NEXT_PUBLIC_OFFER_POLICY_AS_OF: offerPolicyAsOf,
   },

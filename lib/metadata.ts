@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getMarketConfig, type MarketCode } from "@/lib/markets";
 import { siteUrl } from "@/lib/site";
 
 type PageMetadataInput = {
@@ -7,6 +8,7 @@ type PageMetadataInput = {
   path: string;
   type?: "article" | "website";
   indexable?: boolean;
+  market?: MarketCode;
 };
 
 export function createPageMetadata({
@@ -15,26 +17,37 @@ export function createPageMetadata({
   path,
   type = "website",
   indexable = true,
+  market: marketCode = "DE",
 }: PageMetadataInput): Metadata {
+  const market = getMarketConfig(marketCode);
   const url = new URL(path, `${siteUrl}/`).toString();
   const socialTitle = `${title} | Select Your Sauna`;
   const socialImage = {
-    url: "/opengraph-image",
+    url: new URL("/opengraph-image", `${siteUrl}/`).toString(),
     width: 1200,
     height: 630,
-    alt: "Select Your Sauna – Planungshilfe für private Saunen",
+    alt: marketCode === "DE"
+      ? "Select Your Sauna – Planungshilfe für private Saunen"
+      : "Select Your Sauna – independent sauna planning guide",
   };
 
   return {
+    metadataBase: new URL(siteUrl),
     title,
     description,
     ...(type === "article" ? {
-      authors: [{ name: "Schayan Yousefian", url: "/de/ueber-uns/#redaktion" }],
+      authors: [{
+        name: "Schayan Yousefian",
+        url: new URL(
+          marketCode === "DE" ? "/de/ueber-uns/#redaktion" : "/us/about/#editorial",
+          `${siteUrl}/`,
+        ).toString(),
+      }],
     } : {}),
     alternates: { canonical: path },
     openGraph: {
       type,
-      locale: "de_DE",
+      locale: market.openGraphLocale,
       url,
       siteName: "Select Your Sauna",
       title: socialTitle,

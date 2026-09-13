@@ -90,12 +90,30 @@ button, input, select { font: inherit; }
 .nav a:hover, .text-link:hover { color: var(--clay); }
 
 .header-cta {
-  justify-self: end;
   padding-bottom: 5px;
   border-bottom: 1px solid var(--ink);
   font-size: 16px;
   font-weight: 700;
 }
+
+.header-actions {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.market-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 13px;
+  font-weight: 760;
+  letter-spacing: .06em;
+}
+
+.market-switcher a { color: var(--ink-soft); }
+.market-switcher a[aria-current="page"] { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
 
 .hero {
   width: min(1400px, calc(100% - 56px));
@@ -470,6 +488,28 @@ footer {
 .page-shell {
   width: min(1180px, calc(100% - 56px));
   margin-inline: auto;
+}
+
+.not-found-page {
+  width: min(calc(100% - 40px), 760px);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: clamp(96px, 16vh, 180px) 0 80px;
+}
+.not-found-page h1 {
+  max-width: 720px;
+  margin: 18px 0 24px;
+  font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif;
+  font-size: clamp(52px, 9vw, 104px);
+  font-weight: 400;
+  letter-spacing: -.045em;
+  line-height: .9;
+}
+.not-found-page > p:not(.eyebrow) {
+  max-width: 560px;
+  margin: 0 0 34px;
+  font-size: clamp(18px, 2.2vw, 22px);
+  line-height: 1.55;
 }
 
 .page-shell > *, .planning-section > *, .legal-block > * { min-width: 0; }
@@ -1208,7 +1248,7 @@ footer {
     gap: 10px 20px;
     font-size: 15px;
   }
-  .header-cta { display: none; }
+  .header-actions { display: none; }
   .hero-copy { min-height: 620px; padding-top: 70px; }
   h1 { font-size: clamp(44px, 12vw, 58px); line-height: .97; }
   .page-hero h1, .product-hero h1, .guide-hero h1, .comparison-hero h1, .collection-hero h1,
