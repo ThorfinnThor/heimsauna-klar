@@ -157,7 +157,7 @@ function validBundle() {
           merchant_id: "example-merchant",
           program_id: "awin-example-us",
           destination_url: "https://example.com/sauna-a",
-          affiliate_url: "https://www.awin1.com/example",
+          affiliate_url: "https://www.awin1.com/cread.php?awinmid=12345&awinaffid=3037577&ued=https%3A%2F%2Fexample.com%2Fsauna-a",
           offer_type: "fixed-price",
           price: { amount_minor: 499900, currency: "USD" },
           price_scope: "sauna-kit",
@@ -233,4 +233,34 @@ test("an offer cannot point to a configuration from another product", () => {
   const bundle = validBundle();
   bundle.offers.offers[0].market_product_id = "missing-product";
   assert.throws(() => validateUsBundle(bundle), /references unknown ID missing-product/);
+});
+
+test("an approved program needs an active merchant", () => {
+  const bundle = validBundle();
+  bundle.merchants.merchants[0].status = "candidate";
+  assert.throws(() => validateUsBundle(bundle), /approved relationship needs an active merchant/);
+});
+
+test("an eligible offer needs a complete Awin tracking link", () => {
+  const bundle = validBundle();
+  delete bundle.offers.offers[0].affiliate_url;
+  assert.throws(() => validateUsBundle(bundle), /is required for an eligible offer/);
+
+  bundle.offers.offers[0].affiliate_url = "https://www.awin1.com/cread.php?awinmid=99999&awinaffid=3037577";
+  assert.throws(() => validateUsBundle(bundle), /approved Awin advertiser ID/);
+
+  bundle.offers.offers[0].affiliate_url = "https://www.awin1.com/cread.php?awinmid=12345";
+  assert.throws(() => validateUsBundle(bundle), /Awin publisher ID/);
+});
+
+test("affiliate publication needs approved disclosure and program state", () => {
+  const bundle = validBundle();
+  bundle.publication.routes_enabled = true;
+  bundle.publication.affiliate_links_enabled = true;
+  assert.throws(() => validateUsBundle(bundle), /published non-empty affiliate disclosure/);
+
+  bundle.content.affiliate.status = "published";
+  bundle.content.affiliate.disclosure = "We may earn a commission from marked links.";
+  bundle.programs.programs[0].relationship_status = "pending";
+  assert.throws(() => validateUsBundle(bundle), /needs at least one approved affiliate program/);
 });

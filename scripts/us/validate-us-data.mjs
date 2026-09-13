@@ -478,17 +478,26 @@ export function auditUsBundle(bundle) {
     const allowedPromotionTypes = requireArray(program.allowed_promotion_types, `${path}.allowed_promotion_types`, issues)
       ? program.allowed_promotion_types
       : [];
-    requireArray(program.tracking_hosts, `${path}.tracking_hosts`, issues);
+    const programTrackingHosts = requireArray(program.tracking_hosts, `${path}.tracking_hosts`, issues)
+      ? program.tracking_hosts
+      : [];
+    for (const [hostIndex, host] of programTrackingHosts.entries()) {
+      if (!requireString(host, `${path}.tracking_hosts[${hostIndex}]`, issues)) continue;
+      if (host.includes("://") || host.includes("/")) issue(issues, "error", `${path}.tracking_hosts[${hostIndex}]`, "must be a bare hostname");
+    }
     if (!["yes", "no", "unknown"].includes(program.deeplink_capable)) issue(issues, "error", `${path}.deeplink_capable`, "has an unsupported value");
     if (!["yes", "no", "unknown"].includes(program.feed_capable)) issue(issues, "error", `${path}.feed_capable`, "has an unsupported value");
     requireDate(program.terms_checked_at, `${path}.terms_checked_at`, issues, { optional: true });
     const programSourceIds = validateIdArray(program.source_ids, `${path}.source_ids`, issues);
     requireReferences(programSourceIds, sourceIds, `${path}.source_ids`, issues);
     if (program.relationship_status === "approved") {
+      const merchant = merchantById.get(program.merchant_id);
       const hasAccountApproval = programSourceIds.some((id) => sourceById.get(id)?.type === "account-approval");
       if (!hasAccountApproval) issue(issues, "error", `${path}.source_ids`, "an approved relationship needs account-approval evidence");
       if (!program.terms_checked_at) issue(issues, "error", `${path}.terms_checked_at`, "is required for an approved relationship");
       if (allowedPromotionTypes.length === 0) issue(issues, "error", `${path}.allowed_promotion_types`, "must document at least one allowed promotion type");
+      if (programTrackingHosts.length === 0) issue(issues, "error", `${path}.tracking_hosts`, "must document at least one approved tracking host");
+      if (merchant?.status !== "active") issue(issues, "error", `${path}.merchant_id`, "an approved relationship needs an active merchant");
     }
   }
 
@@ -547,11 +556,22 @@ export function auditUsBundle(bundle) {
     if (offer.promotion_status === "eligible" && (!program || program.relationship_status !== "approved")) {
       issue(issues, "error", `${path}.promotion_status`, "eligible offers need an approved program relationship");
     }
+    if (offer.promotion_status === "eligible" && offer.affiliate_url === undefined) {
+      issue(issues, "error", `${path}.affiliate_url`, "is required for an eligible offer");
+    }
     if (offer.affiliate_url !== undefined) {
       const affiliateUrl = parseHttpsUrl(offer.affiliate_url, `${path}.affiliate_url`, issues);
       if (!program || program.relationship_status !== "approved") issue(issues, "error", `${path}.affiliate_url`, "needs an approved program relationship");
       if (affiliateUrl && program && !hostMatches(affiliateUrl.hostname, program.tracking_hosts ?? [])) {
         issue(issues, "error", `${path}.affiliate_url`, `host is not allowed for program ${program.id}`);
+      }
+      if (affiliateUrl && program?.network === "Awin") {
+        const advertiserId = affiliateUrl.searchParams.get("awinmid") ?? affiliateUrl.searchParams.get("m");
+        const publisherId = affiliateUrl.searchParams.get("awinaffid") ?? affiliateUrl.searchParams.get("a");
+        if (!program.advertiser_id || advertiserId !== program.advertiser_id) {
+          issue(issues, "error", `${path}.affiliate_url`, "does not contain the approved Awin advertiser ID");
+        }
+        if (!publisherId) issue(issues, "error", `${path}.affiliate_url`, "does not contain an Awin publisher ID");
       }
     }
   }
@@ -581,6 +601,15 @@ export function auditUsBundle(bundle) {
     }
     if (publication.indexing_enabled && !publication.routes_enabled) issue(issues, "error", "publication.indexing_enabled", "cannot be enabled while routes are disabled");
     if (publication.affiliate_links_enabled && !publication.routes_enabled) issue(issues, "error", "publication.affiliate_links_enabled", "cannot be enabled while routes are disabled");
+    if (publication.affiliate_links_enabled) {
+      const affiliateContent = bundle.content?.affiliate;
+      if (!isObject(affiliateContent) || affiliateContent.status !== "published" || typeof affiliateContent.disclosure !== "string" || affiliateContent.disclosure.trim().length === 0) {
+        issue(issues, "error", "publication.affiliate_links_enabled", "needs a published non-empty affiliate disclosure");
+      }
+      if (!programs.some((program) => program.relationship_status === "approved")) {
+        issue(issues, "error", "publication.affiliate_links_enabled", "needs at least one approved affiliate program");
+      }
+    }
   }
 
   for (const [name, document] of Object.entries(bundle.content ?? {})) {

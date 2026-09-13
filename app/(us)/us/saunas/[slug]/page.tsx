@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { markets } from "@/lib/markets";
 import { createPageMetadata } from "@/lib/metadata";
+import { getUsAffiliateOffersForConfiguration } from "@/lib/us/affiliate";
 import {
   getUsConfigurationsForProduct,
   getUsProductBySlug,
@@ -49,6 +50,10 @@ function dimensions(value: UsDimensions) {
   return `${measurement(value.width)} × ${measurement(value.depth)} × ${measurement(value.height)}`;
 }
 
+function offerPrice(amountMinor: number) {
+  return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(amountMinor / 100);
+}
+
 function FactValue<T>({ fact, format = String }: { fact: UsFact<T>; format?: (value: T) => string }) {
   if (fact.status === "documented") return <span>{format(fact.value)}</span>;
   if (fact.status === "conflict") return <span className="us-fact-open">Conflicting sources <small>{fact.note}</small></span>;
@@ -67,6 +72,7 @@ export default async function UsSaunaProductPage({ params }: Props) {
   if (!configuration) notFound();
   const sourceIds = [...new Set([...product.source_ids, ...configuration.source_ids])];
   const sources = getUsSources(sourceIds);
+  const affiliateOffers = getUsAffiliateOffersForConfiguration(configuration.id);
   const isResearchPreview = product.publication_status !== "published";
   const placement = product.placements.status === "documented" ? product.placements.value.join(" and ") : null;
   const capacity = configuration.capacity.seated.status === "documented" ? configuration.capacity.seated.value : null;
@@ -90,9 +96,27 @@ export default async function UsSaunaProductPage({ params }: Props) {
             </p>
           </div>
           <aside>
-            <p>Offer status</p>
-            <strong>No reviewed offer</strong>
-            <span>No merchant or affiliate link is attached to this exact configuration.</span>
+            {affiliateOffers.length > 0 ? (
+              <>
+                <p>{affiliateOffers.length === 1 ? "Reviewed offer" : `${affiliateOffers.length} reviewed offers`}</p>
+                <div className="us-affiliate-offers">
+                  {affiliateOffers.map(({ offer, merchant, link }) => (
+                    <div key={offer.id}>
+                      <strong>{merchant.name}</strong>
+                      {offer.price ? <span>{offer.offer_type === "from-price" ? "From " : ""}{offerPrice(offer.price.amount_minor)}</span> : null}
+                      <a href={link.href} rel={link.rel} target={link.target}>View offer <span aria-hidden="true">↗</span></a>
+                      <small>Affiliate link</small>
+                    </div>
+                  ))}
+                </div>
+              </>
+            ) : (
+              <>
+                <p>Offer status</p>
+                <strong>No reviewed offer</strong>
+                <span>No merchant or affiliate link is attached to this exact configuration.</span>
+              </>
+            )}
           </aside>
         </header>
 
