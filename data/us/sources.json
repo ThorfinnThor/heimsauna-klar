@@ -1,6 +1,107 @@
 {
   "schema_version": 1,
   "market": "US",
-  "sources": [],
+  "sources": [
+    {
+      "id": "awin-sweat-kingdom-profile",
+      "type": "program-terms",
+      "url": "https://ui.awin.com/merchant-profile/125462",
+      "title": "Sweat Kingdom Saunas affiliate program profile",
+      "publisher": "Awin",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Summary and program description"
+    },
+    {
+      "id": "sweat-kingdom-home",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/",
+      "title": "Sweat Kingdom",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Indoor and outdoor sauna collections"
+    },
+    {
+      "id": "awin-peak-saunas-profile",
+      "type": "program-terms",
+      "url": "https://ui.awin.com/merchant-profile/118291",
+      "title": "Peak Saunas (US) affiliate program profile",
+      "publisher": "Awin",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Summary, program details and shipping note"
+    },
+    {
+      "id": "peak-saunas-home",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/",
+      "title": "Peak Saunas",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Product overview"
+    },
+    {
+      "id": "awin-sunlighten-profile",
+      "type": "program-terms",
+      "url": "https://ui.awin.com/merchant-profile/63394",
+      "title": "Sunlighten affiliate program profile",
+      "publisher": "Awin",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Program description and commission summary"
+    },
+    {
+      "id": "awin-sunlighten-terms",
+      "type": "program-terms",
+      "url": "https://ui.awin.com/merchant-profile-terms/63394",
+      "title": "Sunlighten program terms",
+      "publisher": "Awin",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "PPC keyword restrictions"
+    },
+    {
+      "id": "sunlighten-home",
+      "type": "manufacturer-page",
+      "url": "https://www.shop-us.sunlighten.com/",
+      "title": "Sunlighten US store",
+      "publisher": "Sunlighten",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "US storefront"
+    },
+    {
+      "id": "awin-jnh-profile",
+      "type": "program-terms",
+      "url": "https://ui.awin.com/merchant-profile/101557",
+      "title": "JNH Lifestyles affiliate program profile",
+      "publisher": "Awin",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Program description and feed statement"
+    },
+    {
+      "id": "awin-jnh-terms",
+      "type": "program-terms",
+      "url": "https://ui.awin.com/merchant-profile-terms/101557",
+      "title": "JNH Lifestyles program terms",
+      "publisher": "Awin",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "PPC and coupon restrictions"
+    },
+    {
+      "id": "jnh-lifestyles-home",
+      "type": "manufacturer-page",
+      "url": "https://www.jnhlifestyles.com/",
+      "title": "JNH Lifestyles",
+      "publisher": "JNH Lifestyles",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "US product storefront"
+    }
+  ],
   "evidence": []
 }

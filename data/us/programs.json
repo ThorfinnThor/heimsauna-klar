@@ -1,5 +1,58 @@
 {
   "schema_version": 1,
   "market": "US",
-  "programs": []
+  "programs": [
+    {
+      "id": "awin-sweat-kingdom-us",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "network": "Awin",
+      "advertiser_id": "125462",
+      "relationship_status": "needs-account-check",
+      "allowed_promotion_types": [],
+      "tracking_hosts": [],
+      "deeplink_capable": "unknown",
+      "feed_capable": "unknown",
+      "source_ids": ["awin-sweat-kingdom-profile"]
+    },
+    {
+      "id": "awin-peak-saunas-us",
+      "market": "US",
+      "merchant_id": "peak-saunas",
+      "network": "Awin",
+      "advertiser_id": "118291",
+      "relationship_status": "needs-account-check",
+      "allowed_promotion_types": [],
+      "tracking_hosts": [],
+      "deeplink_capable": "unknown",
+      "feed_capable": "unknown",
+      "source_ids": ["awin-peak-saunas-profile"]
+    },
+    {
+      "id": "awin-sunlighten-us",
+      "market": "US",
+      "merchant_id": "sunlighten",
+      "network": "Awin",
+      "advertiser_id": "63394",
+      "relationship_status": "needs-account-check",
+      "allowed_promotion_types": [],
+      "tracking_hosts": [],
+      "deeplink_capable": "unknown",
+      "feed_capable": "unknown",
+      "source_ids": ["awin-sunlighten-profile", "awin-sunlighten-terms"]
+    },
+    {
+      "id": "awin-jnh-lifestyles-us",
+      "market": "US",
+      "merchant_id": "jnh-lifestyles",
+      "network": "Awin",
+      "advertiser_id": "101557",
+      "relationship_status": "needs-account-check",
+      "allowed_promotion_types": [],
+      "tracking_hosts": [],
+      "deeplink_capable": "unknown",
+      "feed_capable": "unknown",
+      "source_ids": ["awin-jnh-profile", "awin-jnh-terms"]
+    }
+  ]
 }

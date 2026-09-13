@@ -1,5 +1,38 @@
 {
   "schema_version": 1,
   "market": "US",
-  "merchants": []
+  "merchants": [
+    {
+      "id": "sweat-kingdom",
+      "market": "US",
+      "name": "Sweat Kingdom",
+      "kind": "manufacturer",
+      "allowed_hosts": ["sweatkingdom.com"],
+      "status": "candidate"
+    },
+    {
+      "id": "peak-saunas",
+      "market": "US",
+      "name": "Peak Saunas",
+      "kind": "manufacturer",
+      "allowed_hosts": ["peaksaunas.com"],
+      "status": "candidate"
+    },
+    {
+      "id": "sunlighten",
+      "market": "US",
+      "name": "Sunlighten",
+      "kind": "manufacturer",
+      "allowed_hosts": ["shop-us.sunlighten.com"],
+      "status": "candidate"
+    },
+    {
+      "id": "jnh-lifestyles",
+      "market": "US",
+      "name": "JNH Lifestyles",
+      "kind": "manufacturer",
+      "allowed_hosts": ["jnhlifestyles.com"],
+      "status": "candidate"
+    }
+  ]
 }

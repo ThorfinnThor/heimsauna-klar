@@ -36,6 +36,12 @@ US-Routen, Indexierung, Affiliate-Ausgabe und Feed-Sync starten deaktiviert. Die
 
 Ein Produktbild ist kein Pflichtfeld des technischen Vertrags. Bilder werden erst nach dokumentierter Programmnutzung oder anderer belastbarer Lizenz in `docs/us/rights-register.json` aufgenommen.
 
+## L-01: Vorläufiger US-Teilmarkt
+
+Der erste US-Pilot beschränkt sich auf stationäre Indoor- und Outdoor-Saunakabinen sowie klar getrennte Infrarotkabinen. Saunaöfen, Decken, Zubehör und medizinische beziehungsweise therapeutische Leistungsversprechen werden nicht als Kabinenprodukte in den Finder übernommen. Mobile oder maßgefertigte Angebote können als eigene Produkttypen hinzukommen, wenn Konfiguration, Preisumfang und Liefergebiet belegbar sind.
+
+Vier öffentlich auffindbare Awin-Programme sind als Kandidaten erfasst: Sweat Kingdom Saunas (`125462`), Peak Saunas (US) (`118291`), Sunlighten (`63394`) und JNH Lifestyles (`101557`). Die Profile belegen die Existenz des jeweiligen Programms und dienen der Recherche. Sie belegen nicht, dass das deutsche Publisherkonto zugelassen ist. Das bleibt je Programm ein `needs-account-check`.
+
 ## Noch fachlich zu bestätigen
 
 - Luna prüft das Schema an 5–8 realen US-Produkten und dokumentiert fehlende Felder.
