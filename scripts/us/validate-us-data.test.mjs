@@ -190,11 +190,15 @@ function validBundle() {
   };
 }
 
-test("the checked-in disabled US templates are valid and empty", async () => {
+test("the checked-in disabled US pilot bundle is valid and non-public", async () => {
   const bundle = await loadUsBundle();
   assert.doesNotThrow(() => validateUsBundle(bundle));
-  assert.equal(bundle.products.products.length, 0);
+  assert.equal(bundle.products.products.length, 6);
+  assert.ok(bundle.products.products.every((product) => product.publication_status === "candidate"));
+  assert.equal(bundle.offers.offers.length, 0);
   assert.equal(bundle.publication.routes_enabled, false);
+  assert.equal(bundle.publication.indexing_enabled, false);
+  assert.equal(bundle.publication.affiliate_links_enabled, false);
 });
 
 test("a complete non-public pilot-shaped bundle passes", () => {

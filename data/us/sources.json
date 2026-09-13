@@ -101,7 +101,152 @@
       "market": "US",
       "checked_at": "2026-09-13",
       "locator": "US product storefront"
+    },
+    {
+      "id": "peak-shasta-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-shasta-1-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-xl-medical-grade-red-light-therapy-smart-wifi-app-control",
+      "title": "Peak Saunas Shasta product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Product specifications and electrical requirements"
+    },
+    {
+      "id": "peak-everest-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-everest-2-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy",
+      "title": "Peak Saunas Everest product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Product specifications and electrical requirements"
+    },
+    {
+      "id": "jnh-tosi-1-product",
+      "type": "manufacturer-page",
+      "url": "https://jnhlifestyles.com/tosi-1-person-full-spectrum-infrared-sauna",
+      "title": "JNH Lifestyles Tosi 1-person product page",
+      "publisher": "JNH Lifestyles",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Product specifications and power information"
+    },
+    {
+      "id": "jnh-tosi-2-product",
+      "type": "manufacturer-page",
+      "url": "https://jnhlifestyles.com/tosi-2-person-full-spectrum-infrared-sauna",
+      "title": "JNH Lifestyles Tosi 2-person product page",
+      "publisher": "JNH Lifestyles",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Product specifications and power information"
+    },
+    {
+      "id": "jnh-tosi-4-product",
+      "type": "manufacturer-page",
+      "url": "https://jnhlifestyles.com/tosi-red-4-person-full-spectrum-infrared-sauna",
+      "title": "JNH Lifestyles Tosi Red 4-person product page",
+      "publisher": "JNH Lifestyles",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Product specifications and power information"
+    },
+    {
+      "id": "jnh-arki-outdoor-duo-product",
+      "type": "manufacturer-page",
+      "url": "https://jnhlifestyles.com/all-saunas/jnh-arki-outdoor-2-person-red-light-therapy-full-spectrum-infrared-sauna-ultra-low-emf/",
+      "title": "JNH Lifestyles Arki Outdoor Duo product page",
+      "publisher": "JNH Lifestyles",
+      "market": "US",
+      "checked_at": "2026-09-13",
+      "locator": "Product specifications, placement and electrical requirements"
     }
   ],
-  "evidence": []
+  "evidence": [
+    {
+      "id": "evidence-peak-shasta-product",
+      "entity_id": "peak-shasta",
+      "field_path": "manufacturer-product-page",
+      "source_id": "peak-shasta-product",
+      "raw_value": "Shasta 1-person indoor full-spectrum infrared cabin; 120 V / 15 A / 1800 W; 42 x 40 x 75 in exterior; 305 lb"
+    },
+    {
+      "id": "evidence-peak-shasta-configuration",
+      "entity_id": "peak-shasta-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "peak-shasta-product",
+      "raw_value": "Shasta specifications, dimensions, materials and electrical section"
+    },
+    {
+      "id": "evidence-peak-everest-product",
+      "entity_id": "peak-everest",
+      "field_path": "manufacturer-product-page",
+      "source_id": "peak-everest-product",
+      "raw_value": "Everest 2-person indoor full-spectrum infrared cabin; 120 V / 20 A / 2050 W; 53 x 44 x 75 in exterior; 305 lb"
+    },
+    {
+      "id": "evidence-peak-everest-configuration",
+      "entity_id": "peak-everest-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "peak-everest-product",
+      "raw_value": "Everest specifications, dimensions, materials and electrical section"
+    },
+    {
+      "id": "evidence-jnh-tosi-1-product",
+      "entity_id": "jnh-tosi-1",
+      "field_path": "manufacturer-product-page",
+      "source_id": "jnh-tosi-1-product",
+      "raw_value": "Tosi 1-person full-spectrum infrared cabin; 120 V / 15 A / 1320 W; 35.5 x 35.5 x 75 in exterior; 250 lb"
+    },
+    {
+      "id": "evidence-jnh-tosi-1-configuration",
+      "entity_id": "jnh-tosi-1-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "jnh-tosi-1-product",
+      "raw_value": "Tosi 1-person specifications, dimensions, material and electrical section"
+    },
+    {
+      "id": "evidence-jnh-tosi-2-product",
+      "entity_id": "jnh-tosi-2",
+      "field_path": "manufacturer-product-page",
+      "source_id": "jnh-tosi-2-product",
+      "raw_value": "Tosi 2-person full-spectrum infrared cabin; 120 V / 15 A / 1540 W; 47.3 x 39.5 x 75 in exterior; 330 lb"
+    },
+    {
+      "id": "evidence-jnh-tosi-2-configuration",
+      "entity_id": "jnh-tosi-2-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "jnh-tosi-2-product",
+      "raw_value": "Tosi 2-person specifications, dimensions, material and electrical section"
+    },
+    {
+      "id": "evidence-jnh-tosi-4-product",
+      "entity_id": "jnh-tosi-4",
+      "field_path": "manufacturer-product-page",
+      "source_id": "jnh-tosi-4-product",
+      "raw_value": "Tosi Red 4-person full-spectrum infrared cabin; 120 V / 20 A / 1980 W; 70.9 x 47.3 x 75 in exterior; 530 lb"
+    },
+    {
+      "id": "evidence-jnh-tosi-4-configuration",
+      "entity_id": "jnh-tosi-4-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "jnh-tosi-4-product",
+      "raw_value": "Tosi Red 4-person specifications, dimensions, material and electrical section"
+    },
+    {
+      "id": "evidence-jnh-arki-outdoor-duo-product",
+      "entity_id": "jnh-arki-outdoor-duo",
+      "field_path": "manufacturer-product-page",
+      "source_id": "jnh-arki-outdoor-duo-product",
+      "raw_value": "Arki Outdoor Duo 2-person full-spectrum infrared cabin; 120 V / 20 A / 2350 W; 55.25 x 47.25 x 77.5 in exterior; 450 lb"
+    },
+    {
+      "id": "evidence-jnh-arki-outdoor-duo-configuration",
+      "entity_id": "jnh-arki-outdoor-duo-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "jnh-arki-outdoor-duo-product",
+      "raw_value": "Arki Outdoor Duo specifications, dimensions, materials, placement and electrical section"
+    }
+  ]
 }

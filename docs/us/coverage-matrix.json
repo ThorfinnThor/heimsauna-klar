@@ -1,7 +1,50 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "not-started",
-  "updated_at": null,
-  "categories": []
+  "status": "draft",
+  "updated_at": "2026-09-13",
+  "scope": "Initial researched US pilot. Counts refer to distinct product models, not size or electrical variants.",
+  "categories": [
+    {
+      "id": "indoor-infrared-cabins",
+      "label": "Indoor infrared cabins",
+      "product_count": 5,
+      "configuration_count": 5,
+      "product_ids": ["peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4"],
+      "status": "pilot-covered",
+      "gaps": ["Shipping dimensions and minimum clearances are not published on the checked pages for every model.", "US account approval and affiliate eligibility are not confirmed."]
+    },
+    {
+      "id": "outdoor-infrared-cabins",
+      "label": "Outdoor infrared cabins",
+      "product_count": 1,
+      "configuration_count": 1,
+      "product_ids": ["jnh-arki-outdoor-duo"],
+      "status": "pilot-covered",
+      "gaps": ["Shipping data, minimum clearances, certifications and current delivery terms require a separate check.", "US account approval and affiliate eligibility are not confirmed."]
+    },
+    {
+      "id": "indoor-traditional-cabins",
+      "label": "Indoor traditional saunas",
+      "product_count": 0,
+      "configuration_count": 0,
+      "product_ids": [],
+      "status": "not-covered",
+      "gaps": ["Needs a US traditional-heater manufacturer with a sourceable product page and electrical documentation."]
+    },
+    {
+      "id": "outdoor-traditional-cabins",
+      "label": "Outdoor traditional saunas",
+      "product_count": 0,
+      "configuration_count": 0,
+      "product_ids": [],
+      "status": "not-covered",
+      "gaps": ["Sweat Kingdom is a candidate for this segment, but its made-to-order configurations need a separate model and quote review before entry."]
+    }
+  ],
+  "next_priorities": [
+    "Confirm the German publisher account relationship for the four Awin candidates.",
+    "Add a traditional outdoor pilot only after an exact model/configuration and shipping scope are documented.",
+    "Request or locate manuals/spec sheets for clearances, certifications, warranty and shipping weight before any product is reviewed or published."
+  ]
 }

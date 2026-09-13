@@ -1,7 +1,171 @@
 {
   "schema_version": 1,
   "market": "US",
-  "configurations": [],
+  "configurations": [
+    {
+      "id": "peak-shasta-standard",
+      "market": "US",
+      "product_id": "peak-shasta",
+      "label": "Shasta standard configuration",
+      "manufacturer_sku": {"status": "unknown", "reason": "The product page does not expose a manufacturer SKU."},
+      "capacity": {
+        "seated": {"status": "documented", "value": 1, "evidence_ids": ["evidence-peak-shasta-configuration"]},
+        "reclining": {"status": "unknown", "reason": "A reclining capacity is not specified on the product page."}
+      },
+      "dimensions": {
+        "exterior": {"status": "documented", "value": {"width": {"value": 42, "unit": "in"}, "depth": {"value": 40, "unit": "in"}, "height": {"value": 75, "unit": "in"}}, "evidence_ids": ["evidence-peak-shasta-configuration"]},
+        "interior": {"status": "documented", "value": {"width": {"value": 38, "unit": "in"}, "depth": {"value": 36, "unit": "in"}, "height": {"value": 67, "unit": "in"}}, "evidence_ids": ["evidence-peak-shasta-configuration"]},
+        "shipping": {"status": "unknown", "reason": "Shipping dimensions are not listed on the product page."},
+        "minimum_clearances": {"status": "unknown", "reason": "Installation clearances are not listed on the product page."}
+      },
+      "net_weight": {"status": "documented", "value": {"value": 305, "unit": "lb"}, "evidence_ids": ["evidence-peak-shasta-configuration"]},
+      "shipping_weight": {"status": "unknown", "reason": "Shipping weight is not listed on the product page."},
+      "materials": {"status": "documented", "value": ["Hemlock wood"], "evidence_ids": ["evidence-peak-shasta-configuration"]},
+      "components": [],
+      "electrical_supply_options": [{
+        "id": "peak-shasta-120v-15a",
+        "requirements": [{
+          "component": "infrared-system",
+          "voltage_v": {"status": "documented", "value": 120, "evidence_ids": ["evidence-peak-shasta-configuration"]},
+          "frequency_hz": {"status": "unknown", "reason": "Frequency is not stated on the product page."},
+          "phase": {"status": "unknown", "reason": "Phase is not stated on the product page."},
+          "rated_power_w": {"status": "documented", "value": 1800, "evidence_ids": ["evidence-peak-shasta-configuration"]},
+          "rated_current_a": {"status": "documented", "value": 15, "evidence_ids": ["evidence-peak-shasta-configuration"]},
+          "required_circuit_a": {"status": "documented", "value": 15, "evidence_ids": ["evidence-peak-shasta-configuration"]},
+          "specified_breaker_a": {"status": "unknown", "reason": "A breaker rating is not stated on the product page."},
+          "connection": {"status": "documented", "value": "plug-in", "evidence_ids": ["evidence-peak-shasta-configuration"]},
+          "plug_type": {"status": "documented", "value": "NEMA 5-15P", "evidence_ids": ["evidence-peak-shasta-configuration"]},
+          "dedicated_circuit": {"status": "unknown", "reason": "The page describes a standard outlet but does not state whether a dedicated circuit is required."}
+        }],
+        "evidence_ids": ["evidence-peak-shasta-configuration"]
+      }],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": ["peak-shasta-product"],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "peak-everest-standard",
+      "market": "US",
+      "product_id": "peak-everest",
+      "label": "Everest standard configuration",
+      "manufacturer_sku": {"status": "unknown", "reason": "The product page does not expose a manufacturer SKU."},
+      "capacity": {"seated": {"status": "documented", "value": 2, "evidence_ids": ["evidence-peak-everest-configuration"]}, "reclining": {"status": "unknown", "reason": "A reclining capacity is not specified on the product page."}},
+      "dimensions": {
+        "exterior": {"status": "documented", "value": {"width": {"value": 53, "unit": "in"}, "depth": {"value": 44, "unit": "in"}, "height": {"value": 75, "unit": "in"}}, "evidence_ids": ["evidence-peak-everest-configuration"]},
+        "interior": {"status": "documented", "value": {"width": {"value": 49, "unit": "in"}, "depth": {"value": 40, "unit": "in"}, "height": {"value": 67, "unit": "in"}}, "evidence_ids": ["evidence-peak-everest-configuration"]},
+        "shipping": {"status": "unknown", "reason": "Shipping dimensions are not listed on the product page."},
+        "minimum_clearances": {"status": "unknown", "reason": "Installation clearances are not listed on the product page."}
+      },
+      "net_weight": {"status": "documented", "value": {"value": 305, "unit": "lb"}, "evidence_ids": ["evidence-peak-everest-configuration"]},
+      "shipping_weight": {"status": "unknown", "reason": "Shipping weight is not listed on the product page."},
+      "materials": {"status": "documented", "value": ["Hemlock wood"], "evidence_ids": ["evidence-peak-everest-configuration"]},
+      "components": [],
+      "electrical_supply_options": [{
+        "id": "peak-everest-120v-20a",
+        "requirements": [{
+          "component": "infrared-system",
+          "voltage_v": {"status": "documented", "value": 120, "evidence_ids": ["evidence-peak-everest-configuration"]},
+          "frequency_hz": {"status": "unknown", "reason": "Frequency is not stated on the product page."},
+          "phase": {"status": "unknown", "reason": "Phase is not stated on the product page."},
+          "rated_power_w": {"status": "documented", "value": 2050, "evidence_ids": ["evidence-peak-everest-configuration"]},
+          "rated_current_a": {"status": "documented", "value": 20, "evidence_ids": ["evidence-peak-everest-configuration"]},
+          "required_circuit_a": {"status": "documented", "value": 20, "evidence_ids": ["evidence-peak-everest-configuration"]},
+          "specified_breaker_a": {"status": "unknown", "reason": "A breaker rating is not stated on the product page."},
+          "connection": {"status": "documented", "value": "plug-in", "evidence_ids": ["evidence-peak-everest-configuration"]},
+          "plug_type": {"status": "documented", "value": "NEMA 5-20P", "evidence_ids": ["evidence-peak-everest-configuration"]},
+          "dedicated_circuit": {"status": "documented", "value": true, "evidence_ids": ["evidence-peak-everest-configuration"]}
+        }],
+        "evidence_ids": ["evidence-peak-everest-configuration"]
+      }],
+      "certification_ids": [], "warranty_ids": [], "source_ids": ["peak-everest-product"], "publication_status": "candidate"
+    },
+    {
+      "id": "jnh-tosi-1-standard",
+      "market": "US",
+      "product_id": "jnh-tosi-1",
+      "label": "Tosi 1-person standard configuration",
+      "manufacturer_sku": {"status": "unknown", "reason": "The product page does not expose a manufacturer SKU."},
+      "capacity": {"seated": {"status": "documented", "value": 1, "evidence_ids": ["evidence-jnh-tosi-1-configuration"]}, "reclining": {"status": "unknown", "reason": "A reclining capacity is not specified on the product page."}},
+      "dimensions": {
+        "exterior": {"status": "documented", "value": {"width": {"value": 35.5, "unit": "in"}, "depth": {"value": 35.5, "unit": "in"}, "height": {"value": 75, "unit": "in"}}, "evidence_ids": ["evidence-jnh-tosi-1-configuration"]},
+        "interior": {"status": "documented", "value": {"width": {"value": 33, "unit": "in"}, "depth": {"value": 33, "unit": "in"}, "height": {"value": 72, "unit": "in"}}, "evidence_ids": ["evidence-jnh-tosi-1-configuration"]},
+        "shipping": {"status": "unknown", "reason": "Shipping dimensions are not listed on the product page."},
+        "minimum_clearances": {"status": "unknown", "reason": "Installation clearances are not listed on the product page."}
+      },
+      "net_weight": {"status": "documented", "value": {"value": 250, "unit": "lb"}, "evidence_ids": ["evidence-jnh-tosi-1-configuration"]},
+      "shipping_weight": {"status": "unknown", "reason": "Shipping weight is not listed on the product page."},
+      "materials": {"status": "documented", "value": ["Hemlock wood"], "evidence_ids": ["evidence-jnh-tosi-1-configuration"]},
+      "components": [],
+      "electrical_supply_options": [{"id": "jnh-tosi-1-120v-15a", "requirements": [{
+        "component": "infrared-system",
+        "voltage_v": {"status": "documented", "value": 120, "evidence_ids": ["evidence-jnh-tosi-1-configuration"]},
+        "frequency_hz": {"status": "unknown", "reason": "Frequency is not stated on the product page."}, "phase": {"status": "unknown", "reason": "Phase is not stated on the product page."},
+        "rated_power_w": {"status": "documented", "value": 1320, "evidence_ids": ["evidence-jnh-tosi-1-configuration"]}, "rated_current_a": {"status": "documented", "value": 15, "evidence_ids": ["evidence-jnh-tosi-1-configuration"]},
+        "required_circuit_a": {"status": "unknown", "reason": "The page lists a standard household plug but does not state a required circuit rating."}, "specified_breaker_a": {"status": "unknown", "reason": "A breaker rating is not stated on the product page."},
+        "connection": {"status": "documented", "value": "plug-in", "evidence_ids": ["evidence-jnh-tosi-1-configuration"]}, "plug_type": {"status": "documented", "value": "Standard household plug", "evidence_ids": ["evidence-jnh-tosi-1-configuration"]},
+        "dedicated_circuit": {"status": "unknown", "reason": "The page does not state whether a dedicated circuit is required."}
+      }], "evidence_ids": ["evidence-jnh-tosi-1-configuration"]}],
+      "certification_ids": [], "warranty_ids": [], "source_ids": ["jnh-tosi-1-product"], "publication_status": "candidate"
+    },
+    {
+      "id": "jnh-tosi-2-standard",
+      "market": "US",
+      "product_id": "jnh-tosi-2",
+      "label": "Tosi 2-person standard configuration",
+      "manufacturer_sku": {"status": "unknown", "reason": "The product page does not expose a manufacturer SKU."},
+      "capacity": {"seated": {"status": "documented", "value": 2, "evidence_ids": ["evidence-jnh-tosi-2-configuration"]}, "reclining": {"status": "unknown", "reason": "A reclining capacity is not specified on the product page."}},
+      "dimensions": {
+        "exterior": {"status": "documented", "value": {"width": {"value": 47.3, "unit": "in"}, "depth": {"value": 39.5, "unit": "in"}, "height": {"value": 75, "unit": "in"}}, "evidence_ids": ["evidence-jnh-tosi-2-configuration"]},
+        "interior": {"status": "documented", "value": {"width": {"value": 45, "unit": "in"}, "depth": {"value": 37, "unit": "in"}, "height": {"value": 72.5, "unit": "in"}}, "evidence_ids": ["evidence-jnh-tosi-2-configuration"]},
+        "shipping": {"status": "unknown", "reason": "Shipping dimensions are not listed on the product page."}, "minimum_clearances": {"status": "unknown", "reason": "Installation clearances are not listed on the product page."}
+      },
+      "net_weight": {"status": "documented", "value": {"value": 330, "unit": "lb"}, "evidence_ids": ["evidence-jnh-tosi-2-configuration"]}, "shipping_weight": {"status": "unknown", "reason": "Shipping weight is not listed on the product page."},
+      "materials": {"status": "documented", "value": ["Red cedar wood"], "evidence_ids": ["evidence-jnh-tosi-2-configuration"]}, "components": [],
+      "electrical_supply_options": [{"id": "jnh-tosi-2-120v-15a", "requirements": [{
+        "component": "infrared-system", "voltage_v": {"status": "documented", "value": 120, "evidence_ids": ["evidence-jnh-tosi-2-configuration"]}, "frequency_hz": {"status": "unknown", "reason": "Frequency is not stated on the product page."}, "phase": {"status": "unknown", "reason": "Phase is not stated on the product page."},
+        "rated_power_w": {"status": "documented", "value": 1540, "evidence_ids": ["evidence-jnh-tosi-2-configuration"]}, "rated_current_a": {"status": "documented", "value": 15, "evidence_ids": ["evidence-jnh-tosi-2-configuration"]}, "required_circuit_a": {"status": "unknown", "reason": "The page does not state a required circuit rating."}, "specified_breaker_a": {"status": "unknown", "reason": "A breaker rating is not stated on the product page."}, "connection": {"status": "unknown", "reason": "The page does not state the connection type."}, "plug_type": {"status": "unknown", "reason": "The page does not state the plug type."}, "dedicated_circuit": {"status": "unknown", "reason": "The page does not state whether a dedicated circuit is required."}
+      }], "evidence_ids": ["evidence-jnh-tosi-2-configuration"]}],
+      "certification_ids": [], "warranty_ids": [], "source_ids": ["jnh-tosi-2-product"], "publication_status": "candidate"
+    },
+    {
+      "id": "jnh-tosi-4-standard",
+      "market": "US",
+      "product_id": "jnh-tosi-4",
+      "label": "Tosi Red 4-person standard configuration",
+      "manufacturer_sku": {"status": "unknown", "reason": "The product page does not expose a manufacturer SKU."},
+      "capacity": {"seated": {"status": "documented", "value": 4, "evidence_ids": ["evidence-jnh-tosi-4-configuration"]}, "reclining": {"status": "unknown", "reason": "A reclining capacity is not specified on the product page."}},
+      "dimensions": {
+        "exterior": {"status": "documented", "value": {"width": {"value": 70.9, "unit": "in"}, "depth": {"value": 47.3, "unit": "in"}, "height": {"value": 75, "unit": "in"}}, "evidence_ids": ["evidence-jnh-tosi-4-configuration"]},
+        "interior": {"status": "unknown", "reason": "Interior dimensions are not listed on the product page."}, "shipping": {"status": "unknown", "reason": "Shipping dimensions are not listed on the product page."}, "minimum_clearances": {"status": "unknown", "reason": "Installation clearances are not listed on the product page."}
+      },
+      "net_weight": {"status": "documented", "value": {"value": 530, "unit": "lb"}, "evidence_ids": ["evidence-jnh-tosi-4-configuration"]}, "shipping_weight": {"status": "unknown", "reason": "Shipping weight is not listed on the product page."},
+      "materials": {"status": "documented", "value": ["Red cedar wood"], "evidence_ids": ["evidence-jnh-tosi-4-configuration"]}, "components": [],
+      "electrical_supply_options": [{"id": "jnh-tosi-4-120v-20a", "requirements": [{
+        "component": "infrared-system", "voltage_v": {"status": "documented", "value": 120, "evidence_ids": ["evidence-jnh-tosi-4-configuration"]}, "frequency_hz": {"status": "unknown", "reason": "Frequency is not stated on the product page."}, "phase": {"status": "unknown", "reason": "Phase is not stated on the product page."}, "rated_power_w": {"status": "documented", "value": 1980, "evidence_ids": ["evidence-jnh-tosi-4-configuration"]}, "rated_current_a": {"status": "documented", "value": 20, "evidence_ids": ["evidence-jnh-tosi-4-configuration"]}, "required_circuit_a": {"status": "documented", "value": 20, "evidence_ids": ["evidence-jnh-tosi-4-configuration"]}, "specified_breaker_a": {"status": "unknown", "reason": "A breaker rating is not stated on the product page."}, "connection": {"status": "unknown", "reason": "The page does not state the connection type."}, "plug_type": {"status": "documented", "value": "NEMA 5-20R", "evidence_ids": ["evidence-jnh-tosi-4-configuration"]}, "dedicated_circuit": {"status": "documented", "value": true, "evidence_ids": ["evidence-jnh-tosi-4-configuration"]}
+      }], "evidence_ids": ["evidence-jnh-tosi-4-configuration"]}],
+      "certification_ids": [], "warranty_ids": [], "source_ids": ["jnh-tosi-4-product"], "publication_status": "candidate"
+    },
+    {
+      "id": "jnh-arki-outdoor-duo-standard",
+      "market": "US",
+      "product_id": "jnh-arki-outdoor-duo",
+      "label": "Arki Outdoor Duo standard configuration",
+      "manufacturer_sku": {"status": "unknown", "reason": "The product page does not expose a manufacturer SKU."},
+      "capacity": {"seated": {"status": "documented", "value": 2, "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]}, "reclining": {"status": "unknown", "reason": "A reclining capacity is not specified on the product page."}},
+      "dimensions": {
+        "exterior": {"status": "documented", "value": {"width": {"value": 55.25, "unit": "in"}, "depth": {"value": 47.25, "unit": "in"}, "height": {"value": 77.5, "unit": "in"}}, "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]},
+        "interior": {"status": "documented", "value": {"width": {"value": 45, "unit": "in"}, "depth": {"value": 37, "unit": "in"}, "height": {"value": 72.5, "unit": "in"}}, "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]},
+        "shipping": {"status": "unknown", "reason": "Shipping dimensions are not listed on the product page."}, "minimum_clearances": {"status": "unknown", "reason": "Installation clearances are not listed on the product page."}
+      },
+      "net_weight": {"status": "documented", "value": {"value": 450, "unit": "lb"}, "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]}, "shipping_weight": {"status": "unknown", "reason": "Shipping weight is not listed on the product page."},
+      "materials": {"status": "documented", "value": ["Aluminum exterior", "Hemlock wood interior"], "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]}, "components": [],
+      "electrical_supply_options": [{"id": "jnh-arki-outdoor-duo-120v-20a", "requirements": [{
+        "component": "infrared-system", "voltage_v": {"status": "documented", "value": 120, "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]}, "frequency_hz": {"status": "unknown", "reason": "Frequency is not stated on the product page."}, "phase": {"status": "unknown", "reason": "Phase is not stated on the product page."}, "rated_power_w": {"status": "documented", "value": 2350, "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]}, "rated_current_a": {"status": "documented", "value": 20, "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]}, "required_circuit_a": {"status": "documented", "value": 20, "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]}, "specified_breaker_a": {"status": "unknown", "reason": "A breaker rating is not stated on the product page."}, "connection": {"status": "unknown", "reason": "The page does not state the connection type."}, "plug_type": {"status": "documented", "value": "NEMA 5-20P", "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]}, "dedicated_circuit": {"status": "documented", "value": true, "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]}
+      }], "evidence_ids": ["evidence-jnh-arki-outdoor-duo-configuration"]}],
+      "certification_ids": [], "warranty_ids": [], "source_ids": ["jnh-arki-outdoor-duo-product"], "publication_status": "candidate"
+    }
+  ],
   "certifications": [],
   "warranties": []
 }
