@@ -1,7 +1,15 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "not-started",
-  "updated_at": null,
-  "assets": []
+  "status": "pending-permissions",
+  "updated_at": "2026-09-13",
+  "policy": "No manufacturer image is used in the US pilot until the relevant Awin or merchant permission is documented. Product pages remain source links only.",
+  "assets": [
+    {"asset_id": "peak-shasta-image", "entity_id": "peak-shasta", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-shasta-1-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-xl-medical-grade-red-light-therapy-smart-wifi-app-control", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
+    {"asset_id": "peak-everest-image", "entity_id": "peak-everest", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-everest-2-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
+    {"asset_id": "jnh-tosi-1-image", "entity_id": "jnh-tosi-1", "merchant_id": "jnh-lifestyles", "asset_type": "manufacturer-image", "source_url": "https://jnhlifestyles.com/tosi-1-person-full-spectrum-infrared-sauna", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
+    {"asset_id": "jnh-tosi-2-image", "entity_id": "jnh-tosi-2", "merchant_id": "jnh-lifestyles", "asset_type": "manufacturer-image", "source_url": "https://jnhlifestyles.com/tosi-2-person-full-spectrum-infrared-sauna", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
+    {"asset_id": "jnh-tosi-4-image", "entity_id": "jnh-tosi-4", "merchant_id": "jnh-lifestyles", "asset_type": "manufacturer-image", "source_url": "https://jnhlifestyles.com/tosi-red-4-person-full-spectrum-infrared-sauna", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
+    {"asset_id": "jnh-arki-outdoor-duo-image", "entity_id": "jnh-arki-outdoor-duo", "merchant_id": "jnh-lifestyles", "asset_type": "manufacturer-image", "source_url": "https://jnhlifestyles.com/all-saunas/jnh-arki-outdoor-2-person-red-light-therapy-full-spectrum-infrared-sauna-ultra-low-emf/", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."}
+  ]
 }
