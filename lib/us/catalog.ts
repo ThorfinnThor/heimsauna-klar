@@ -4,10 +4,11 @@ import productsDocument from "../../data/us/products.json" with { type: "json" }
 import publicationDocument from "../../data/us/publication.json" with { type: "json" };
 import sourcesDocument from "../../data/us/sources.json" with { type: "json" };
 import { markets } from "../markets.ts";
-import type { UsMarketProduct, UsProductConfiguration, UsSource } from "./types.ts";
+import type { UsMarketProduct, UsOffer, UsProductConfiguration, UsSource } from "./types.ts";
 
 const products = productsDocument.products as UsMarketProduct[];
 const configurations = configurationsDocument.configurations as UsProductConfiguration[];
+const offers = offersDocument.offers as UsOffer[];
 const sources = sourcesDocument.sources as UsSource[];
 
 export const usPublication = publicationDocument;
@@ -28,6 +29,25 @@ export function getUsProductBySlug(slug: string, options: { includeNonPublic?: b
 
 export function getUsConfigurationsForProduct(productId: string): UsProductConfiguration[] {
   return configurations.filter((configuration) => configuration.product_id === productId);
+}
+
+export function getUsResearchConfigurations(): UsProductConfiguration[] {
+  return configurations;
+}
+
+export function getUsPublicConfigurations(): UsProductConfiguration[] {
+  const publicProductIds = new Set(getUsPublicProducts().map((product) => product.id));
+  return configurations.filter((configuration) =>
+    configuration.publication_status === "published" && publicProductIds.has(configuration.product_id));
+}
+
+export function getUsResearchOffers(): UsOffer[] {
+  return offers;
+}
+
+export function getUsPublicOffers(): UsOffer[] {
+  const publicConfigurationIds = new Set(getUsPublicConfigurations().map((configuration) => configuration.id));
+  return offers.filter((offer) => publicConfigurationIds.has(offer.configuration_id));
 }
 
 export function getUsSources(sourceIds: string[]): UsSource[] {

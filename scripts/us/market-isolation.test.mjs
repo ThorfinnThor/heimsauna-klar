@@ -2,7 +2,13 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import { formatMarketMoney, getEnabledMarkets, marketPath, markets } from "../../lib/markets.ts";
-import { getUsPublicProducts, getUsResearchProducts, getUsResearchStats } from "../../lib/us/catalog.ts";
+import {
+  getUsPublicConfigurations,
+  getUsPublicOffers,
+  getUsPublicProducts,
+  getUsResearchProducts,
+  getUsResearchStats,
+} from "../../lib/us/catalog.ts";
 
 test("market configuration keeps DE and US locale semantics separate", () => {
   assert.equal(markets.DE.locale, "de-DE");
@@ -29,5 +35,7 @@ test("disabled US routes cannot expose candidate products", () => {
   assert.deepEqual(getEnabledMarkets().map((market) => market.code), ["DE"]);
   assert.equal(getUsResearchProducts().length, 6);
   assert.equal(getUsPublicProducts().length, 0);
+  assert.equal(getUsPublicConfigurations().length, 0);
+  assert.equal(getUsPublicOffers().length, 0);
   assert.deepEqual(getUsResearchStats(), { products: 6, configurations: 6, offers: 0, publicProducts: 0 });
 });

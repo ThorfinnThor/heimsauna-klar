@@ -552,6 +552,75 @@ footer {
 .us-catalog-no-results { margin-top: 22px; padding: 30px; border: 1px solid var(--line); }
 .us-catalog-no-results h2 { margin: 0 0 10px; font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif; font-size: 30px; font-weight: 400; }
 
+.us-finder-hero { padding-bottom: 72px; }
+.us-finder-hero > p:last-child { max-width: 780px; font-size: 19px; line-height: 1.7; }
+.us-finder-section { padding-bottom: 120px; }
+.us-finder-form { border-top: 1px solid var(--line); }
+.us-finder-form-intro { padding: 54px 0; display: grid; grid-template-columns: minmax(260px, .8fr) minmax(0, 1.2fr); gap: 20px 8vw; }
+.us-finder-form-intro .eyebrow { grid-column: 1; }
+.us-finder-form-intro h2 { grid-column: 1; margin: 0; font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif; font-size: clamp(42px, 5vw, 68px); font-weight: 400; letter-spacing: -.04em; line-height: .95; }
+.us-finder-form-intro > p:last-child { grid-column: 2; grid-row: 1 / span 2; max-width: 620px; margin: 0; align-self: end; color: var(--ink-soft); font-size: 18px; line-height: 1.65; }
+.us-finder-form fieldset { margin: 0; padding: 38px 0 42px; border: 0; border-top: 1px solid var(--line); }
+.us-finder-form legend { width: 100%; margin-bottom: 24px; padding: 0; color: var(--ink); font-size: 19px; font-weight: 760; }
+.us-finder-form legend span { margin-right: 18px; color: var(--clay-dark); font-size: 13px; letter-spacing: .08em; }
+.us-finder-fields { display: grid; gap: 18px; }
+.us-finder-fields-two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.us-finder-fields-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.us-finder-fields label { display: grid; align-content: start; gap: 8px; }
+.us-finder-fields label > span { font-size: 13px; font-weight: 760; }
+.us-finder-fields input, .us-finder-fields select {
+  width: 100%;
+  min-height: 50px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+}
+.us-finder-fields input:focus-visible, .us-finder-fields select:focus-visible, .us-finder-checkbox input:focus-visible, .us-finder-reset:focus-visible, .us-finder-excluded summary:focus-visible {
+  outline: 3px solid rgba(217, 95, 55, .28);
+  outline-offset: 2px;
+  border-color: var(--clay-dark);
+}
+.us-finder-field-note { max-width: 780px; margin: -6px 0 22px; color: var(--ink-soft); font-size: 14px; line-height: 1.6; }
+.us-finder-fields + .us-finder-field-note { margin: 18px 0 0; }
+.us-finder-checkbox { width: fit-content; margin-top: 18px; display: flex; align-items: center; gap: 10px; cursor: pointer; font-size: 14px; font-weight: 650; }
+.us-finder-checkbox input { width: 19px; height: 19px; margin: 0; accent-color: var(--clay-dark); }
+.us-finder-submit { padding: 34px 0 54px; display: flex; align-items: center; gap: 24px; border-top: 1px solid var(--line); }
+.us-finder-reset { padding: 4px 0; border: 0; border-bottom: 1px solid currentColor; background: transparent; color: var(--ink); cursor: pointer; font: inherit; font-weight: 720; }
+.us-finder-results { padding-top: 82px; scroll-margin-top: 24px; border-top: 1px solid var(--line); }
+.us-finder-results-summary { padding: 42px; display: grid; grid-template-columns: minmax(260px, 1.1fr) minmax(280px, .9fr); gap: 40px; background: var(--ink); color: var(--white); }
+.us-finder-results-summary h2 { margin: 10px 0 18px; font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif; font-size: clamp(42px, 5vw, 68px); font-weight: 400; letter-spacing: -.04em; line-height: .96; }
+.us-finder-results-summary > div:first-child > p:last-child { max-width: 690px; margin: 0; color: rgba(255,255,255,.78); line-height: 1.65; }
+.us-finder-results-summary .eyebrow { color: var(--clay-light); }
+.us-finder-selection { display: flex; align-content: flex-start; flex-wrap: wrap; gap: 8px; }
+.us-finder-selection span { height: fit-content; padding: 8px 11px; border: 1px solid rgba(255,255,255,.34); border-radius: 999px; color: rgba(255,255,255,.9); font-size: 13px; }
+.us-finder-zero-known { padding: 24px 28px; border: 1px solid var(--line); border-top: 0; background: var(--cream); }
+.us-finder-zero-known p { max-width: 820px; margin: 7px 0 0; color: var(--ink-soft); line-height: 1.6; }
+.us-finder-result-group { padding: 72px 0; border-bottom: 1px solid var(--line); }
+.us-finder-result-group > header { margin-bottom: 30px; display: grid; grid-template-columns: minmax(260px, .8fr) minmax(0, 1.2fr); gap: 18px 8vw; }
+.us-finder-result-group > header .eyebrow, .us-finder-result-group > header h2 { grid-column: 1; }
+.us-finder-result-group > header h2 { margin: 0; font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif; font-size: clamp(40px, 5vw, 64px); font-weight: 400; letter-spacing: -.04em; line-height: .96; }
+.us-finder-result-group > header > p:last-child { grid-column: 2; grid-row: 1 / span 2; max-width: 650px; margin: 0; align-self: end; color: var(--ink-soft); line-height: 1.65; }
+.us-finder-result-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.us-finder-result-card { min-height: 470px; padding: 30px; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.us-finder-result-card h3 { margin: 9px 0 8px; font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif; font-size: 38px; font-weight: 400; line-height: 1.02; }
+.us-finder-result-card > div:first-child > p:last-child { margin: 0; color: var(--ink-soft); }
+.us-finder-result-card dl { margin: 24px 0; }
+.us-finder-result-card dl div { padding: 9px 0; display: grid; grid-template-columns: minmax(120px, .7fr) minmax(0, 1.3fr); gap: 15px; border-top: 1px solid var(--line); }
+.us-finder-result-card dt { color: var(--ink-soft); }
+.us-finder-result-card dd { margin: 0; font-weight: 650; }
+.us-finder-reasons { margin: 0 0 24px; padding: 16px 18px; border-left: 3px solid var(--clay-dark); background: var(--cream); }
+.us-finder-reasons-open { border-left-color: #a36f22; }
+.us-finder-reasons-preference { border-left-color: var(--ink-soft); }
+.us-finder-reasons strong { font-size: 14px; }
+.us-finder-reasons ul { margin: 8px 0 0; padding-left: 18px; color: var(--ink-soft); font-size: 14px; line-height: 1.55; }
+.us-finder-result-card > a { width: fit-content; margin-top: auto; font-weight: 760; text-decoration: underline; text-underline-offset: 4px; }
+.us-finder-excluded { margin-top: 72px; padding-bottom: 72px; border-bottom: 1px solid var(--line); }
+.us-finder-excluded summary { width: fit-content; cursor: pointer; font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif; font-size: 32px; }
+.us-finder-excluded > p { max-width: 760px; margin: 14px 0 26px; color: var(--ink-soft); line-height: 1.65; }
+
 .us-product-page { padding: 34px 0 120px; }
 .us-breadcrumbs { margin-bottom: 56px; display: flex; flex-wrap: wrap; gap: 9px; color: var(--ink-soft); font-size: 14px; }
 .us-breadcrumbs a { text-decoration: underline; text-underline-offset: 3px; }
@@ -1315,6 +1384,10 @@ footer {
   .us-catalog-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .us-product-hero, .us-product-section { grid-template-columns: 1fr; gap: 38px; }
   .us-product-hero aside { max-width: 480px; }
+  .us-finder-form-intro, .us-finder-result-group > header { grid-template-columns: 1fr; }
+  .us-finder-form-intro > p:last-child, .us-finder-result-group > header > p:last-child { grid-column: 1; grid-row: auto; }
+  .us-finder-fields-three { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .us-finder-results-summary { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 650px) {
@@ -1363,6 +1436,12 @@ footer {
   .us-catalog-search { grid-column: auto; }
   .us-catalog-grid { grid-template-columns: 1fr; }
   .us-catalog-card { min-height: 0; }
+  .us-finder-fields-two, .us-finder-fields-three, .us-finder-result-grid { grid-template-columns: 1fr; }
+  .us-finder-submit { align-items: flex-start; flex-direction: column; }
+  .us-finder-submit .button { width: 100%; }
+  .us-finder-results-summary { padding: 28px; }
+  .us-finder-result-card { min-height: 0; }
+  .us-finder-result-card dl div { grid-template-columns: 1fr; gap: 4px; }
   .us-product-page { padding-top: 24px; }
   .us-breadcrumbs { margin-bottom: 36px; }
   .us-product-hero { padding: 24px 0 64px; }

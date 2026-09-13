@@ -4,6 +4,7 @@ import test from "node:test";
 import configurationsDocument from "../../data/us/configurations.json" with { type: "json" };
 import productsDocument from "../../data/us/products.json" with { type: "json" };
 import { runUsFinder } from "../../lib/us/finder.ts";
+import { buildUsFinderQuery, normalizeUsFinderUrlState, serializeUsFinderUrlState } from "../../lib/us/finder-query.ts";
 
 const documented = (value) => ({ status: "documented", value, evidence_ids: ["fixture-evidence"] });
 const unknown = (reason = "Fixture leaves this fact unknown") => ({ status: "unknown", reason });
@@ -242,4 +243,43 @@ test("unsupported product records never enter the finder as confirmed matches", 
   const result = resultFor({ query: {}, productValue: product({ product_type: documented("heater") }) });
   assert.equal(result.status, "excluded");
   assert(result.exclusionReasons.includes("product-type:finder-supported"));
+});
+
+test("finder URL state accepts only bounded known values", () => {
+  const state = normalizeUsFinderUrlState(new URLSearchParams("run=1&type=heater&people=1.5&width=999&depth=40&height=70&rotate=1&power=480&budget=-1&unexpected=secret"));
+  assert.equal(state.submitted, true);
+  assert.equal(state.productType, "any");
+  assert.equal(state.seatedPeople, null);
+  assert.equal(state.widthInches, null);
+  assert.equal(state.depthInches, null);
+  assert.equal(state.heightInches, null);
+  assert.equal(state.allowRotation, false);
+  assert.equal(state.power, "any");
+  assert.equal(state.budgetDollars, null);
+  assert.equal(serializeUsFinderUrlState(state).toString(), "run=1");
+});
+
+test("finder URL state round-trips a complete constrained search", () => {
+  const initial = normalizeUsFinderUrlState(new URLSearchParams("run=1&type=sauna-cabin&heat=infrared&placement=indoor&people=2&width=60&depth=48&height=84&rotate=1&power=120-240&circuit=20&connection=plug-in&budget=5000&scope=configured-sauna-package&budgetMode=preference"));
+  const serialized = serializeUsFinderUrlState(initial);
+  const restored = normalizeUsFinderUrlState(serialized);
+  assert.deepEqual(restored, initial);
+
+  const query = buildUsFinderQuery(restored);
+  assert.equal(query.budget.strength, "preference");
+  assert.deepEqual(query.electrical.value, {
+    mode: "electric",
+    supplies: [
+      { voltageV: 120, maxRequiredCircuitA: 20, connection: "plug-in" },
+      { voltageV: 240, maxRequiredCircuitA: 20, connection: "plug-in" },
+    ],
+  });
+  assert.equal(query.maximumExteriorInches.value.allowRotation, true);
+});
+
+test("partial room dimensions never create a hidden space criterion", () => {
+  const state = normalizeUsFinderUrlState(new URLSearchParams("run=1&width=60&depth=48&rotate=1"));
+  const query = buildUsFinderQuery(state);
+  assert.equal(query.maximumExteriorInches, undefined);
+  assert.equal(state.allowRotation, false);
 });
