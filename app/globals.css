@@ -552,6 +552,35 @@ footer {
 .us-catalog-no-results { margin-top: 22px; padding: 30px; border: 1px solid var(--line); }
 .us-catalog-no-results h2 { margin: 0 0 10px; font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif; font-size: 30px; font-weight: 400; }
 
+.us-product-page { padding: 34px 0 120px; }
+.us-breadcrumbs { margin-bottom: 56px; display: flex; flex-wrap: wrap; gap: 9px; color: var(--ink-soft); font-size: 14px; }
+.us-breadcrumbs a { text-decoration: underline; text-underline-offset: 3px; }
+.us-product-hero { padding: 42px 0 88px; display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(280px, .65fr); align-items: end; gap: 7vw; }
+.us-product-hero h1 { margin: 14px 0 26px; font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif; font-size: clamp(68px, 9vw, 128px); font-weight: 400; letter-spacing: -.05em; line-height: .86; }
+.us-product-hero > div > p:last-child { max-width: 760px; color: var(--ink-soft); font-size: 19px; line-height: 1.7; }
+.us-product-hero aside { padding: 28px; border: 1px solid var(--line); background: var(--cream); }
+.us-product-hero aside p { margin: 0 0 10px; color: var(--ink-soft); font-size: 13px; font-weight: 760; text-transform: uppercase; letter-spacing: .08em; }
+.us-product-hero aside strong { display: block; margin-bottom: 12px; font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif; font-size: 30px; font-weight: 400; }
+.us-product-hero aside span { color: var(--ink-soft); font-size: 14px; line-height: 1.55; }
+.us-product-section { padding: 72px 0; display: grid; grid-template-columns: minmax(250px, .75fr) minmax(0, 1.45fr); gap: 8vw; border-top: 1px solid var(--line); }
+.us-product-section h2 { margin: 12px 0 20px; font-family: Iowan Old Style, Baskerville, Georgia, "Times New Roman", serif; font-size: clamp(42px, 5vw, 68px); font-weight: 400; letter-spacing: -.04em; line-height: .95; }
+.us-product-section > div:first-child > p:last-child { color: var(--ink-soft); line-height: 1.7; }
+.us-product-facts { margin: 0; border-top: 1px solid var(--line); }
+.us-product-facts > div { padding: 15px 0; display: grid; grid-template-columns: minmax(145px, .75fr) minmax(0, 1.25fr); gap: 20px; border-bottom: 1px solid var(--line); }
+.us-product-facts dt { color: var(--ink-soft); }
+.us-product-facts dd { margin: 0; font-weight: 650; }
+.us-fact-open { color: var(--clay-dark); font-weight: 650; }
+.us-fact-open small { margin-top: 4px; display: block; color: var(--ink-soft); font-size: 12px; font-weight: 400; line-height: 1.45; }
+.us-electrical-options { display: grid; gap: 28px; }
+.us-electrical-options h3 { margin: 0 0 14px; font-size: 18px; }
+.us-product-status > div:last-child { padding: 28px; background: var(--cream); }
+.us-product-status > div:last-child p { margin: 0; line-height: 1.65; }
+.us-product-status > div:last-child p + p { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
+.us-product-sources ul { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.us-product-sources li { padding: 18px 0; display: flex; align-items: baseline; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--line); }
+.us-product-sources a { font-weight: 760; text-decoration: underline; text-underline-offset: 4px; }
+.us-product-sources li > span { color: var(--ink-soft); font-size: 13px; }
+
 .page-shell > *, .planning-section > *, .legal-block > * { min-width: 0; }
 
 .catalog-preview {
@@ -1278,6 +1307,8 @@ footer {
   .us-catalog-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .us-catalog-search { grid-column: 1 / -1; }
   .us-catalog-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .us-product-hero, .us-product-section { grid-template-columns: 1fr; gap: 38px; }
+  .us-product-hero aside { max-width: 480px; }
 }
 
 @media (max-width: 650px) {
@@ -1326,6 +1357,13 @@ footer {
   .us-catalog-search { grid-column: auto; }
   .us-catalog-grid { grid-template-columns: 1fr; }
   .us-catalog-card { min-height: 0; }
+  .us-product-page { padding-top: 24px; }
+  .us-breadcrumbs { margin-bottom: 36px; }
+  .us-product-hero { padding: 24px 0 64px; }
+  .us-product-hero h1 { font-size: clamp(54px, 17vw, 82px); }
+  .us-product-section { padding: 54px 0; }
+  .us-product-facts > div { grid-template-columns: 1fr; gap: 5px; }
+  .us-product-sources li { align-items: flex-start; flex-direction: column; gap: 8px; }
   .catalog-metrics { grid-template-columns: 1fr; }
   .catalog-metrics span + span { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
   .collection-index-grid, .collection-metrics { grid-template-columns: 1fr; }
