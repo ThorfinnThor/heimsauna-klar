@@ -18,7 +18,10 @@ const headerCopy = {
   US: {
     homeLabel: "Select Your Sauna home",
     navigationLabel: "Primary navigation",
-    items: [{ href: "/us/", label: "US home" }],
+    items: [
+      { href: "/us/saunas/", label: "Saunas" },
+      { href: "/us/", label: "US home" },
+    ],
     cta: { href: "/us/", label: "Explore US saunas" },
   },
 } satisfies Record<MarketCode, {
