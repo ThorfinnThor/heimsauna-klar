@@ -1,0 +1,10 @@
+url,page_type,primary_intent,data_gate,status,notes
+/us/,home,"US sauna market orientation",pilot data plus reviewed US copy,draft,"Not routable while publication.routes_enabled is false"
+/us/saunas/,catalog,"browse US sauna cabins",at least one reviewed product and route layer,draft,"Keep product counts tied to distinct models"
+/us/saunas/indoor-infrared/,category,"compare indoor infrared cabins",reviewed indoor infrared products,draft,"Pilot has five candidate models"
+/us/saunas/outdoor-infrared/,category,"find an outdoor infrared sauna",reviewed outdoor infrared products plus shipping scope,draft,"Pilot has one candidate model"
+/us/saunas/peak-shasta/,product,"check Peak Shasta dimensions and power",reviewed product,configuration and rights,draft,"Product page only after L-06"
+/us/saunas/peak-everest/,product,"check Peak Everest capacity and circuit",reviewed product,configuration and rights,draft,"Product page only after L-06"
+/us/saunas/jnh-tosi/,brand,"understand JNH Tosi model range",at least two reviewed JNH configurations,draft,"Avoid duplicate pages for size variants"
+/us/guides/infrared-sauna-electrical-requirements/,guide,"understand US electrical requirements",source-reviewed technical claims,draft,"No installation advice beyond sourced manufacturer documentation"
+/us/guides/outdoor-infrared-sauna-placement/,guide,"plan outdoor infrared sauna placement",source-reviewed clearances and delivery terms,draft,"Do not publish until clearances are sourced"
