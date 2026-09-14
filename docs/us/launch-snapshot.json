@@ -3,7 +3,7 @@
   "snapshot_id": "us-protected-preview-2026-09-14-l100",
   "market": "US",
   "created_at": "2026-09-14",
-  "input_commit": "0c524df",
+  "input_commit": "b9cc249",
   "purpose": "Protected static preview integration for the L-100 candidate dataset. This snapshot is not a production publication approval.",
   "status": "protected-preview",
   "publication_controls": {
