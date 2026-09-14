@@ -43,8 +43,8 @@ The primary deployment target is the existing Cloudflare Worker project using
 Static Assets. In **Settings → Build** configure:
 
 - Build command: `npm run build`
-- Deploy command: `npx wrangler deploy`
-- Non-production deploy command: `npx wrangler versions upload`
+- Deploy command: `npm run cloudflare:upload`
+- Non-production deploy command: `npx --yes wrangler@4.129.0 versions upload`
 - Production branch: `main`
 
 Do not use `npx opennextjs-cloudflare build` for this repository. That command is
@@ -52,7 +52,9 @@ for the server-capable OpenNext Workers adapter and adds a second Worker bundle
 after the static Next.js export. The checked-in `wrangler.toml` points Wrangler
 directly at `out/` and deliberately has no Worker `main` entry point.
 `npm run deploy:cloudflare` builds and uploads the static assets when a Cloudflare
-login is available.
+login is available. The deployment scripts pin the tested Wrangler 4.129.0 CLI
+instead of resolving an unspecified current version during each build. The release
+and rollback procedure is documented in `docs/us/release-runbook.md`.
 
 The canonical production URL and the reviewed indexing decision live in `data/site-publication.json`. This keeps the static publication state versioned and reviewable. `NEXT_PUBLIC_SITE_URL` and `SITE_INDEXABLE` remain optional build-time overrides; non-production Cloudflare branches are forced to `noindex`. Every required entry in `data/launch-readiness.json` must still be `ready`, and the data check rejects an indexable build while a legal contact address or launch blocker remains.
 
