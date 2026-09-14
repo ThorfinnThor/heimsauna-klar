@@ -7,7 +7,7 @@
 **Production domain:** `https://selectyoursauna.com`  
 **US snapshot:** `us-public-noindex-beta-2026-09-14-l100`
 
-**Technical signoff commit:** `pending-release-anchor`
+**Technical signoff commit:** `dd91656`
 
 This repository produces a static Next.js export in `out/`. Cloudflare Workers Static Assets publishes that directory through the `heimsauna-klar` Worker. There is no application Worker entry point, runtime database or OpenNext bundle.
 

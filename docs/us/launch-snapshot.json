@@ -3,7 +3,7 @@
   "snapshot_id": "us-public-noindex-beta-2026-09-14-l100",
   "market": "US",
   "created_at": "2026-09-14",
-  "input_commit": "b9cc249",
+  "input_commit": "dd91656",
   "purpose": "Public static noindex research beta for the L-100 candidate dataset. Routes are deployable, while indexing, affiliate output and feed sync remain disabled.",
   "status": "public-noindex-beta",
   "publication_controls": {
