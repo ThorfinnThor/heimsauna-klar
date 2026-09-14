@@ -66,6 +66,20 @@ type ResolveUsAffiliateLinkInput = {
   asOf: string;
 };
 
+type ResolveUsOfferPresentationsInput = {
+  configurationId: string;
+  placement: UsAffiliatePlacement;
+  asOf: string;
+  publicationEnabled: boolean;
+  emergencyDisabled: boolean;
+  disclosureApproved: boolean;
+  products: UsMarketProduct[];
+  configurations: UsProductConfiguration[];
+  merchants: UsMerchant[];
+  programs: UsAffiliateProgram[];
+  offers: UsOffer[];
+};
+
 export type UsAffiliateOffer = {
   offer: UsOffer;
   merchant: UsMerchant;
@@ -186,26 +200,31 @@ export function getUsAffiliateOffersForConfiguration(
     .flatMap(({ offer, merchant, link }) => link && merchant ? [{ offer, merchant, link }] : []);
 }
 
-export function getUsOfferPresentationsForConfiguration(
-  configurationId: string,
-  placement: UsAffiliatePlacement = "product-detail",
-  asOf: string = process.env.NEXT_PUBLIC_OFFER_POLICY_AS_OF ?? publicationDocument.updated_at,
-): UsOfferPresentation[] {
-  const configuration = configurations.find((entry) => entry.id === configurationId);
-  const product = configuration ? products.find((entry) => entry.id === configuration.product_id) : undefined;
-  if (!publicationDocument.routes_enabled || product?.publication_status !== "published" || configuration?.publication_status !== "published") {
+export function resolveUsOfferPresentations({
+  configurationId,
+  placement,
+  asOf,
+  publicationEnabled,
+  emergencyDisabled,
+  disclosureApproved,
+  products: productRecords,
+  configurations: configurationRecords,
+  merchants: merchantRecords,
+  programs: programRecords,
+  offers: offerRecords,
+}: ResolveUsOfferPresentationsInput): UsOfferPresentation[] {
+  const configuration = configurationRecords.find((entry) => entry.id === configurationId);
+  const product = configuration
+    ? productRecords.find((entry) => entry.id === configuration.product_id)
+    : undefined;
+  if (product?.publication_status !== "published" || configuration?.publication_status !== "published") {
     return [];
   }
-  const publicationEnabled = publicationDocument.affiliate_links_enabled;
-  const emergencyDisabled = ["1", "true"].includes((process.env.US_AFFILIATE_LINKS_DISABLED ?? "").toLowerCase());
-  const disclosureApproved = affiliateContentDocument.status === "published"
-    && affiliateContentDocument.disclosure.trim().length > 0;
 
-  return offers.flatMap((offer) => {
-    if (offer.configuration_id !== configurationId) return [];
-    if (offer.promotion_status !== "eligible") return [];
-    const merchant = merchants.find((entry) => entry.id === offer.merchant_id);
-    const program = programs.find((entry) => entry.id === offer.program_id);
+  return offerRecords.flatMap((offer) => {
+    if (offer.configuration_id !== configurationId || offer.promotion_status !== "eligible") return [];
+    const merchant = merchantRecords.find((entry) => entry.id === offer.merchant_id);
+    const program = programRecords.find((entry) => entry.id === offer.program_id);
     const freshness = classifyUsOffer(offer, asOf);
     const pricePolicy = classifyUsOfferPrice(offer, asOf);
     const link = resolveUsAffiliateLink({
@@ -227,5 +246,27 @@ export function getUsOfferPresentationsForConfiguration(
       priceVisible: pricePolicy.priceVisible,
       statusLabel: usOfferStatusLabel(freshness.reason),
     }];
+  });
+}
+
+export function getUsOfferPresentationsForConfiguration(
+  configurationId: string,
+  placement: UsAffiliatePlacement = "product-detail",
+  asOf: string = process.env.NEXT_PUBLIC_OFFER_POLICY_AS_OF ?? publicationDocument.updated_at,
+): UsOfferPresentation[] {
+  if (!publicationDocument.routes_enabled) return [];
+  return resolveUsOfferPresentations({
+    configurationId,
+    placement,
+    asOf,
+    publicationEnabled: publicationDocument.affiliate_links_enabled,
+    emergencyDisabled: ["1", "true"].includes((process.env.US_AFFILIATE_LINKS_DISABLED ?? "").toLowerCase()),
+    disclosureApproved: affiliateContentDocument.status === "published"
+      && affiliateContentDocument.disclosure.trim().length > 0,
+    products,
+    configurations,
+    merchants,
+    programs,
+    offers,
   });
 }

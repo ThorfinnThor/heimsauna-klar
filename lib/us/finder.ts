@@ -112,8 +112,10 @@ function fitsEnvelope(
   height: number,
   limit: UsFinderSpaceLimit,
 ) {
-  const direct = width <= limit.width && depth <= limit.depth && height <= limit.height;
-  const rotated = limit.allowRotation && depth <= limit.width && width <= limit.depth && height <= limit.height;
+  const conversionTolerance = 1e-9;
+  const fits = (actual: number, maximum: number) => actual <= maximum + conversionTolerance;
+  const direct = fits(width, limit.width) && fits(depth, limit.depth) && fits(height, limit.height);
+  const rotated = limit.allowRotation && fits(depth, limit.width) && fits(width, limit.depth) && fits(height, limit.height);
   return direct || rotated;
 }
 

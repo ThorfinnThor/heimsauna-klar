@@ -28,4 +28,5 @@ jobs:
       - run: npm run lint
       - run: npm run awin:test
       - run: npm run offer:test
+      - run: npm run us:ci
       - run: npm run build

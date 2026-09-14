@@ -1,7 +1,11 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { getUsAffiliateOffersForConfiguration, resolveUsAffiliateLink } from "../../lib/us/affiliate.ts";
+import {
+  getUsAffiliateOffersForConfiguration,
+  resolveUsAffiliateLink,
+  resolveUsOfferPresentations,
+} from "../../lib/us/affiliate.ts";
 
 function approvedFixture() {
   const affiliateUrl = "https://www.awin1.com/cread.php?awinmid=12345&awinaffid=3037577&clickref=us-product&ued=https%3A%2F%2Fexample.com%2Fsauna-a%3Fvariant%3Dcedar";
@@ -78,6 +82,73 @@ test("a fully approved link retains its destination and tracking parameters", ()
   assert.equal(result.rel, "sponsored nofollow noopener noreferrer");
   assert.equal(result.target, "_blank");
   assert.equal(result.prefetch, false);
+});
+
+test("two offers for one configuration remain separate with their own package scope", () => {
+  const first = approvedFixture();
+  const second = structuredClone(first);
+  second.offer.id = "offer-sauna-a-complete-package";
+  second.offer.price_scope = "configured-sauna-package";
+  second.offer.price.amount_minor = 579900;
+  second.offer.destination_url = "https://example.com/sauna-a?variant=complete";
+  second.offer.affiliate_url = "https://www.awin1.com/cread.php?awinmid=12345&awinaffid=3037577&clickref=us-product-complete&ued=https%3A%2F%2Fexample.com%2Fsauna-a%3Fvariant%3Dcomplete";
+
+  const presentations = resolveUsOfferPresentations({
+    configurationId: "sauna-a-standard",
+    placement: "product-detail",
+    asOf: "2026-09-14",
+    publicationEnabled: true,
+    emergencyDisabled: false,
+    disclosureApproved: true,
+    products: [{
+      id: "sauna-a",
+      market: "US",
+      slug: "sauna-a",
+      brand_name: "Fixture",
+      model: "Sauna A",
+      product_type: { status: "unknown", reason: "Fixture" },
+      heat_type: { status: "unknown", reason: "Fixture" },
+      energy_sources: { status: "unknown", reason: "Fixture" },
+      placements: { status: "unknown", reason: "Fixture" },
+      form: { status: "unknown", reason: "Fixture" },
+      configuration_ids: ["sauna-a-standard"],
+      source_ids: [],
+      publication_status: "published",
+      change_reason: "Synthetic unit-test fixture",
+    }],
+    configurations: [{
+      id: "sauna-a-standard",
+      market: "US",
+      product_id: "sauna-a",
+      label: "Standard",
+      manufacturer_sku: { status: "unknown", reason: "Fixture" },
+      capacity: { seated: { status: "unknown", reason: "Fixture" }, reclining: { status: "unknown", reason: "Fixture" } },
+      dimensions: {
+        exterior: { status: "unknown", reason: "Fixture" },
+        interior: { status: "unknown", reason: "Fixture" },
+        shipping: { status: "unknown", reason: "Fixture" },
+        minimum_clearances: { status: "unknown", reason: "Fixture" },
+      },
+      net_weight: { status: "unknown", reason: "Fixture" },
+      shipping_weight: { status: "unknown", reason: "Fixture" },
+      materials: { status: "unknown", reason: "Fixture" },
+      components: [],
+      electrical_supply_options: [],
+      certification_ids: [],
+      warranty_ids: [],
+      source_ids: [],
+      publication_status: "published",
+    }],
+    merchants: [first.merchant],
+    programs: [first.program],
+    offers: [first.offer, second.offer],
+  });
+
+  assert.deepEqual(presentations.map(({ offer }) => [offer.id, offer.price_scope]), [
+    ["offer-sauna-a", "sauna-kit"],
+    ["offer-sauna-a-complete-package", "configured-sauna-package"],
+  ]);
+  assert(presentations.every(({ link }) => link?.href.startsWith("https://www.awin1.com/")));
 });
 
 for (const [name, mutate, reason] of [

@@ -62,6 +62,18 @@ test("US JSON-LD uses factual records without ratings, reviews or fabricated off
   assert.equal("gtin" in schema, false);
 });
 
+test("component-scoped certification IDs never become whole-product certification claims", () => {
+  const product = productsDocument.products[0];
+  const configuration = {
+    ...configurationsDocument.configurations[0],
+    certification_ids: ["fixture-heater-certification"],
+  };
+  const schema = usProductJsonLd(product, configuration);
+  assert.equal("certification" in schema, false);
+  assert.equal("hasCertification" in schema, false);
+  assert.doesNotMatch(JSON.stringify(schema), /fixture-heater-certification/);
+});
+
 test("comparison schema is an ItemList and breadcrumb URLs remain in the US section", () => {
   const page = editorialDocument.entries.find((entry) => entry.page_type === "comparison");
   const item = { product: productsDocument.products[0], configuration: configurationsDocument.configurations[0] };

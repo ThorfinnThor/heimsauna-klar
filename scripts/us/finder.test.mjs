@@ -191,6 +191,30 @@ test("documented clearances are included in the hard room envelope", () => {
   assert.equal(matched.status, "meets-known-criteria");
 });
 
+test("metric dimensions are converted before boundary comparison without display rounding", () => {
+  const metricConfiguration = configuration({
+    dimensions: {
+      ...configuration().dimensions,
+      exterior: documented({
+        width: { value: 152.4, unit: "cm" },
+        depth: { value: 1219.2, unit: "mm" },
+        height: { value: 6.5, unit: "ft" },
+      }),
+      minimum_clearances: documented({}),
+    },
+  });
+  const exact = resultFor({
+    query: { maximumExteriorInches: { value: { width: 60, depth: 48, height: 78, allowRotation: false }, strength: "hard" } },
+    configurationValue: metricConfiguration,
+  });
+  const fractionallyTooSmall = resultFor({
+    query: { maximumExteriorInches: { value: { width: 59.999, depth: 48, height: 78, allowRotation: false }, strength: "hard" } },
+    configurationValue: metricConfiguration,
+  });
+  assert.equal(exact.status, "meets-known-criteria");
+  assert.equal(fractionallyTooSmall.status, "excluded");
+});
+
 test("rotation is applied only when explicitly enabled", () => {
   const strict = { width: 50, depth: 62, height: 80, allowRotation: false };
   assert.equal(resultFor({ query: { maximumExteriorInches: { value: strict, strength: "hard" } } }).status, "excluded");

@@ -158,6 +158,9 @@ for (const file of htmlFiles) {
   if (/<link\b[^>]*rel="stylesheet"[^>]*href="https?:\/\//i.test(html)) issues.push(`${route}: third-party stylesheet detected`);
   if (/<iframe\b/i.test(html)) issues.push(`${route}: iframe is outside the static pilot scope`);
   if (/<form\b[^>]*action="https?:\/\//i.test(html)) issues.push(`${route}: external form action is not allowed`);
+  if (/\b(?:href|src|action)="\s*(?:javascript|data|vbscript):/i.test(html)) {
+    issues.push(`${route}: executable or embedded-data URL detected in markup`);
+  }
 
   for (const match of html.matchAll(/<a\b[^>]*target="_blank"[^>]*>/g)) {
     if (!/rel="[^"]*noopener/.test(match[0]) || !/rel="[^"]*noreferrer/.test(match[0])) {
