@@ -16,6 +16,7 @@ import {
   serializeUsFinderUrlState,
   type UsFinderUrlState,
 } from "@/lib/us/finder-query";
+import { usFinderReasonLabel } from "@/lib/us/finder-copy";
 import type { UsOffer } from "@/lib/us/types";
 
 const finderChangeEvent = "selectyoursauna:us-finder-change";
@@ -59,26 +60,6 @@ function electricalLabel(configuration: UsFinderConfiguration) {
   return voltages.length > 0 ? voltages.map((voltage) => `${voltage} V`).join(" or ") : "Electrical supply not documented";
 }
 
-function reasonLabel(code: string) {
-  if (code === "product-type:finder-supported") return "This is a sauna cabin, kit or tent covered by the finder.";
-  if (code === "space:cabinet-fits") return "The documented cabinet dimensions fit the space entered.";
-  if (code === "space:exterior-dimensions") return "Exterior dimensions are not fully documented.";
-  if (code === "space:cabinet-exceeds-limit") return "The cabinet is larger than the space entered.";
-  if (code === "space:installation-clearances") return "Minimum installation clearances still need to be checked.";
-  if (code === "space:required-envelope") return "The documented cabinet and clearance envelope fits the space entered.";
-  if (code === "electrical:wood-fired") return "The documented energy source does not match the wood-fired selection.";
-  if (code === "electrical:electric-supply") return "The documented energy source does not match an electric supply.";
-  if (code === "electrical:supply-option") return "The selected electrical supply is not fully confirmed for this configuration.";
-  if (code.startsWith("electrical:supply-option:")) return "A documented supply option matches the electrical selection.";
-  if (code.startsWith("product-type:")) return "The documented product type does not match the selection.";
-  if (code.startsWith("heat-type:")) return "The documented heat type does not match the selection.";
-  if (code.startsWith("placement:")) return "The documented placement does not match the selection.";
-  if (code.startsWith("capacity:")) return "The documented seated capacity is below the number entered.";
-  if (code.includes(":comparable-price")) return "No current, complete price with the selected scope is documented.";
-  if (code.startsWith("budget:")) return "The comparable documented price is above the selected limit.";
-  return code;
-}
-
 function selectionLabels(state: UsFinderUrlState) {
   const labels: string[] = [];
   if (state.productType !== "any") labels.push(state.productType.replace("sauna-", "").replace("-", " "));
@@ -107,9 +88,12 @@ function FinderResultCard({
   configuration: UsFinderConfiguration;
 }) {
   const seated = documentedValue(configuration.capacity.seated);
-  const reviewReasons = result.unknownCriteria.map(reasonLabel);
-  const exclusionReasons = result.exclusionReasons.map(reasonLabel);
-  const preferenceNotes = [...result.unknownPreferences, ...result.unmetPreferences].map(reasonLabel);
+  const reviewReasons = result.unknownCriteria.map((code) => usFinderReasonLabel(code, "unknown"));
+  const exclusionReasons = result.exclusionReasons.map((code) => usFinderReasonLabel(code, "mismatch"));
+  const preferenceNotes = [
+    ...result.unknownPreferences.map((code) => usFinderReasonLabel(code, "unknown")),
+    ...result.unmetPreferences.map((code) => usFinderReasonLabel(code, "mismatch")),
+  ];
   return (
     <article className="us-finder-result-card">
       <div>

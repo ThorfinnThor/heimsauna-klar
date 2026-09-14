@@ -1128,11 +1128,11 @@
       },
       "heat_type": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "reason": "The reviewed product page does not identify a supplied heating system or a specific heat format."
       },
       "energy_sources": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "reason": "The reviewed product page does not identify the energy source of a supplied heater."
       },
       "placements": {
         "status": "documented",
@@ -1176,11 +1176,11 @@
       },
       "heat_type": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "reason": "The reviewed product page does not identify a supplied heating system or a specific heat format."
       },
       "energy_sources": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "reason": "The reviewed product page does not identify the energy source of a supplied heater."
       },
       "placements": {
         "status": "documented",
@@ -1224,11 +1224,11 @@
       },
       "heat_type": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "reason": "The reviewed product page does not identify a supplied heating system or a specific heat format."
       },
       "energy_sources": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "reason": "The reviewed product page does not identify the energy source of a supplied heater."
       },
       "placements": {
         "status": "documented",
@@ -1648,11 +1648,11 @@
       },
       "heat_type": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "reason": "The reviewed product page does not identify a supplied heating system or a specific heat format."
       },
       "energy_sources": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "reason": "The reviewed product page does not identify the energy source of a supplied heater."
       },
       "placements": {
         "status": "documented",

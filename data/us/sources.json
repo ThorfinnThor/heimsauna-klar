@@ -861,44 +861,44 @@
     {
       "id": "evidence-saunalife-e8-product",
       "entity_id": "saunalife-e8",
-      "source_id": "saunalife-products",
-      "field_path": "product_identity",
-      "raw_value": "ERGO Series Model E8 listed in the official collection."
+      "source_id": "saunalife-e8-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "ERGO Series Model E8; 6-person outdoor barrel sauna with 81 in diameter and 87 in length, constructed with Thermo-Spruce staves and Thermo-Aspen benches."
     },
     {
       "id": "evidence-saunalife-e8-configuration",
       "entity_id": "saunalife-e8-standard",
-      "source_id": "saunalife-products",
-      "field_path": "configuration_identity",
-      "raw_value": "ERGO Series Model E8 is represented as a non-publishing review configuration."
+      "source_id": "saunalife-e8-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "SaunaLife E8 specifications: exterior barrel 81 in diameter x 87 in length; shipping 88 L x 44 W x 43 H in; weight 1,345 lb; full-length Thermo-Spruce staves and Thermo-Aspen benches."
     },
     {
       "id": "evidence-saunalife-e8w-product",
       "entity_id": "saunalife-e8w",
-      "source_id": "saunalife-products",
-      "field_path": "product_identity",
-      "raw_value": "ERGO Series Model E8W listed in the official collection."
+      "source_id": "saunalife-e8w-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "ERGO Series Model E8W; 6-person outdoor barrel sauna with rear window, 81 in diameter and 87 in length, constructed with Thermo-Spruce staves and Thermo-Aspen benches."
     },
     {
       "id": "evidence-saunalife-e8w-configuration",
       "entity_id": "saunalife-e8w-standard",
-      "source_id": "saunalife-products",
-      "field_path": "configuration_identity",
-      "raw_value": "ERGO Series Model E8W is represented as a non-publishing review configuration."
+      "source_id": "saunalife-e8w-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "SaunaLife E8W specifications: exterior barrel 81 in diameter x 87 in length; shipping 88 L x 44 W x 44 H in; weight 1,367 lb; full-length Thermo-Spruce staves and Thermo-Aspen benches."
     },
     {
       "id": "evidence-saunalife-e8g-product",
       "entity_id": "saunalife-e8g",
-      "source_id": "saunalife-products",
-      "field_path": "product_identity",
-      "raw_value": "ERGO Series Model E8G listed in the official collection."
+      "source_id": "saunalife-e8g-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "ERGO Series Model E8G; 6-person outdoor barrel sauna with full-glass front, 81 in diameter and 87 in length, constructed with Thermo-Spruce staves and Thermo-Aspen benches."
     },
     {
       "id": "evidence-saunalife-e8g-configuration",
       "entity_id": "saunalife-e8g-standard",
-      "source_id": "saunalife-products",
-      "field_path": "configuration_identity",
-      "raw_value": "ERGO Series Model E8G is represented as a non-publishing review configuration."
+      "source_id": "saunalife-e8g-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "SaunaLife E8G specifications: exterior barrel 81 in diameter x 87 in length; shipping 88 L x 44 W x 41 H in; weight 1,544 lb; full-length Thermo-Spruce staves and Thermo-Aspen benches."
     },
     {
       "id": "evidence-saunalife-ee6g-product",
@@ -1015,16 +1015,16 @@
     {
       "id": "evidence-saunalife-cl7g-product",
       "entity_id": "saunalife-cl7g",
-      "source_id": "saunalife-products",
-      "field_path": "product_identity",
-      "raw_value": "CUBE Series Model CL7G listed in the official collection."
+      "source_id": "saunalife-cl7g-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "CUBE Series Model CL7G; 6-person outdoor sauna kit with full-glass front, Thermo-Spruce exterior and Thermo-Aspen seating."
     },
     {
       "id": "evidence-saunalife-cl7g-configuration",
       "entity_id": "saunalife-cl7g-standard",
-      "source_id": "saunalife-products",
-      "field_path": "configuration_identity",
-      "raw_value": "CUBE Series Model CL7G is represented as a non-publishing review configuration."
+      "source_id": "saunalife-cl7g-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "SaunaLife CL7G overview: exterior 91 W x 86.6 D x 93 H in and interior 87.5 W x 70.8 D x 85.5 H in. The floor-plan section rounds these to 91 x 86 x 93 in and 87 x 70 x 85 in. Shipping is 91 W x 86 D x 93 H in; weight is 2,040 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass."
     },
     {
       "id": "evidence-saunalife-cl12gcp-product",
@@ -1645,16 +1645,16 @@
     {
       "id": "evidence-redwood-extra-wide-porch-6-product",
       "entity_id": "redwood-extra-wide-porch-6",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Extra-Wide Outdoor Barrel Sauna with Porch 6 Person listed in the official collection."
+      "source_id": "redwood-extra-wide-porch-6-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Extra-Wide Outdoor Barrel Sauna with Porch 6 Person; traditional outdoor sauna kit with seating for up to 6 people and an included 6 kW Harvia KIP electric heater."
     },
     {
       "id": "evidence-redwood-extra-wide-porch-6-configuration",
       "entity_id": "redwood-extra-wide-porch-6-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Extra-Wide Outdoor Barrel Sauna with Porch 6 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-extra-wide-porch-6-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Redwood specifications: exterior 92.5 L x 84.75 W x 88.5 H in; shipping 94.1 L x 42.1 W x 40 H in; Canadian heat-treated hemlock; net weight 1,234 lb; electrical requirements 120 V lighting and 240 V heater; included 6 kW heater listed at 30 A."
     },
     {
       "id": "evidence-redwood-extra-wide-6-product",
@@ -1673,30 +1673,30 @@
     {
       "id": "evidence-redwood-barrel-8-product",
       "entity_id": "redwood-barrel-8",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Barrel Outdoor Sauna 8 Person listed in the official collection."
+      "source_id": "redwood-barrel-8-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Barrel Outdoor Sauna 8 Person; traditional outdoor sauna kit with seating for up to 8 people and an included 8 kW Harvia KIP electric heater."
     },
     {
       "id": "evidence-redwood-barrel-8-configuration",
       "entity_id": "redwood-barrel-8-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Barrel Outdoor Sauna 8 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-barrel-8-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Redwood specifications: exterior 92.5 L x 72.75 W x 76.5 H in; shipping 96 L x 44 W x 33 H in; Canadian Thermowood; net weight 1,150 lb; electrical requirements 120 V lighting and 240 V heater; included 8 kW heater listed at 40 A."
     },
     {
       "id": "evidence-redwood-noctra-8-product",
       "entity_id": "redwood-noctra-8",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Noctra Outdoor Sauna 8 Person listed in the official collection."
+      "source_id": "redwood-noctra-8-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Noctra Outdoor Sauna 8 Person; traditional outdoor sauna kit with seating for up to 8 people and an included 8 kW Harvia KIP electric heater."
     },
     {
       "id": "evidence-redwood-noctra-8-configuration",
       "entity_id": "redwood-noctra-8-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Noctra Outdoor Sauna 8 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-noctra-8-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Redwood specifications: base exterior 89.75 L x 75.5 W x 85.75 H in; shipping 90.5 W x 50.5 L x 32.25 H in; heat-treated hemlock stained black; net weight 1,410 lb; electrical requirements 120 V lighting and 240 V heater; included 8 kW heater listed at 40 A."
     },
     {
       "id": "evidence-thermory-luik-kodiak-product",

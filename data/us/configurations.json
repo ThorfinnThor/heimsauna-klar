@@ -3270,7 +3270,7 @@
       "label": "ERGO Series Model E8 standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -3282,7 +3282,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -3308,7 +3308,7 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "The reviewed product page states a 6 ft 5 in interior height but not complete interior dimensions."
         },
         "shipping": {
           "status": "documented",
@@ -3332,7 +3332,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -3347,7 +3347,7 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
@@ -3368,43 +3368,43 @@
               "component": "heater",
               "voltage_v": {
                 "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its voltage."
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its rated power."
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -3428,7 +3428,7 @@
       "label": "ERGO Series Model E8W standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -3440,7 +3440,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -3466,7 +3466,7 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "The reviewed product page states a 6 ft 5 in interior height but not complete interior dimensions."
         },
         "shipping": {
           "status": "documented",
@@ -3490,7 +3490,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -3505,7 +3505,7 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
@@ -3526,43 +3526,43 @@
               "component": "heater",
               "voltage_v": {
                 "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its voltage."
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its rated power."
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -3586,7 +3586,7 @@
       "label": "ERGO Series Model E8G standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -3598,7 +3598,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -3624,7 +3624,7 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "The reviewed product page states a 6 ft 5 in interior height but not complete interior dimensions."
         },
         "shipping": {
           "status": "documented",
@@ -3648,7 +3648,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -3663,7 +3663,7 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
@@ -3684,43 +3684,43 @@
               "component": "heater",
               "voltage_v": {
                 "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its voltage."
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its rated power."
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -4636,7 +4636,7 @@
       "label": "CUBE Series Model CL7G standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -4648,7 +4648,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -4660,7 +4660,7 @@
               "unit": "in"
             },
             "depth": {
-              "value": 86,
+              "value": 86.6,
               "unit": "in"
             },
             "height": {
@@ -4676,15 +4676,15 @@
           "status": "documented",
           "value": {
             "width": {
-              "value": 87,
+              "value": 87.5,
               "unit": "in"
             },
             "depth": {
-              "value": 70,
+              "value": 70.8,
               "unit": "in"
             },
             "height": {
-              "value": 85,
+              "value": 85.5,
               "unit": "in"
             }
           },
@@ -4714,7 +4714,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -4729,7 +4729,7 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
@@ -4751,43 +4751,43 @@
               "component": "heater",
               "voltage_v": {
                 "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its voltage."
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its rated power."
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or its rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "reason": "The reviewed product page does not specify the selected heater or a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -8998,11 +8998,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 40,
-                "evidence_ids": [
-                  "evidence-redwood-garden-8-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9140,11 +9137,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 50,
-                "evidence_ids": [
-                  "evidence-redwood-grove-8-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9282,11 +9276,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-redwood-vista-6-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9424,11 +9415,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-redwood-horizon-6-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9566,11 +9554,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-redwood-duo-2-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9708,11 +9693,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-redwood-summit-6-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9850,11 +9832,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-redwood-barrel-6-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9992,11 +9971,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-redwood-barrel-porch-6-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -10036,7 +10012,7 @@
       "label": "Extra-Wide Outdoor Barrel Sauna with Porch 6 Person standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -10048,7 +10024,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -10074,7 +10050,7 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "Interior dimensions are not stated in the reviewed product specifications."
         },
         "shipping": {
           "status": "documented",
@@ -10098,7 +10074,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -10113,7 +10089,7 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
@@ -10140,11 +10116,11 @@
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "documented",
@@ -10161,27 +10137,24 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-redwood-extra-wide-porch-6-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -10303,11 +10276,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-redwood-extra-wide-6-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -10347,7 +10317,7 @@
       "label": "Barrel Outdoor Sauna 8 Person standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -10359,7 +10329,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -10385,7 +10355,7 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "Interior dimensions are not stated in the reviewed product specifications."
         },
         "shipping": {
           "status": "documented",
@@ -10409,7 +10379,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -10424,7 +10394,7 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
@@ -10451,11 +10421,11 @@
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "documented",
@@ -10472,27 +10442,24 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 40,
-                "evidence_ids": [
-                  "evidence-redwood-barrel-8-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -10516,7 +10483,7 @@
       "label": "Noctra Outdoor Sauna 8 Person standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -10528,7 +10495,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -10554,7 +10521,7 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "Interior dimensions are not stated in the reviewed product specifications."
         },
         "shipping": {
           "status": "documented",
@@ -10578,7 +10545,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -10593,7 +10560,7 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
@@ -10620,11 +10587,11 @@
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "documented",
@@ -10641,27 +10608,24 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 40,
-                "evidence_ids": [
-                  "evidence-redwood-noctra-8-configuration"
-                ]
+                "status": "unknown",
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],

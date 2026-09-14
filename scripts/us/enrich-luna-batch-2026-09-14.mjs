@@ -7,6 +7,7 @@ const today = "2026-09-14";
 const load = async (file) => JSON.parse(await readFile(resolve(root, file), "utf8"));
 const save = async (file, value) => writeFile(resolve(root, file), `${JSON.stringify(value, null, 2)}\n`);
 const documented = (value, evidenceId) => ({ status: "documented", value, evidence_ids: [evidenceId] });
+const unknown = (reason) => ({ status: "unknown", reason });
 const dimension = (width, depth, height) => ({ width: { value: width, unit: "in" }, depth: { value: depth, unit: "in" }, height: { value: height, unit: "in" } });
 
 const sourceDefinitions = [
@@ -58,11 +59,26 @@ const productFacts = {
   },
   "saunalife-cl7g": {
     source: "saunalife-cl7g-product", evidence: "evidence-saunalife-cl7g-product", configEvidence: "evidence-saunalife-cl7g-configuration",
-    exterior: dimension(91, 86, 93), interior: dimension(87, 70, 85), shipping: dimension(91, 86, 93), weight: 2040, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
+    exterior: dimension(91, 86.6, 93), interior: dimension(87.5, 70.8, 85.5), shipping: dimension(91, 86, 93), weight: 2040, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
     productRaw: "CUBE Series Model CL7G; 6-person outdoor sauna kit with full-glass front, Thermo-Spruce exterior and Thermo-Aspen seating.",
-    configRaw: "SaunaLife CL7G specifications: exterior 91 W x 86 D x 93 H in; interior 87 W x 70 D x 85 H in; shipping 91 W x 86 D x 93 H in; weight 2,040 lb; Thermo-Spruce walls, Thermo-Aspen benches and tempered bronze glass.",
+    configRaw: "SaunaLife CL7G overview: exterior 91 W x 86.6 D x 93 H in and interior 87.5 W x 70.8 D x 85.5 H in. The floor-plan section rounds these to 91 x 86 x 93 in and 87 x 70 x 85 in. Shipping is 91 W x 86 D x 93 H in; weight is 2,040 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass.",
   },
 };
+
+const redwoodConfigurationsWithAmpOnlyEvidence = new Set([
+  "redwood-garden-8-standard",
+  "redwood-grove-8-standard",
+  "redwood-vista-6-standard",
+  "redwood-horizon-6-standard",
+  "redwood-duo-2-standard",
+  "redwood-summit-6-standard",
+  "redwood-barrel-6-standard",
+  "redwood-barrel-porch-6-standard",
+  "redwood-extra-wide-porch-6-standard",
+  "redwood-extra-wide-6-standard",
+  "redwood-barrel-8-standard",
+  "redwood-noctra-8-standard",
+]);
 
 const productsDoc = await load("data/us/products.json");
 const configurationsDoc = await load("data/us/configurations.json");
@@ -90,36 +106,72 @@ for (const [productId, facts] of Object.entries(productFacts)) {
   if (!product || !configuration) throw new Error(`Missing catalog record for ${productId}`);
   const { evidence, configEvidence, source } = facts;
 
-  if (!sourcesDoc.evidence.some((item) => item.id === evidence)) sourcesDoc.evidence.push({ id: evidence, entity_id: productId, source_id: source, field_path: "manufacturer-product-page", raw_value: facts.productRaw });
-  if (!sourcesDoc.evidence.some((item) => item.id === configEvidence)) sourcesDoc.evidence.push({ id: configEvidence, entity_id: configuration.id, source_id: source, field_path: "manufacturer-product-page.specifications", raw_value: facts.configRaw });
+  const productEvidence = { id: evidence, entity_id: productId, source_id: source, field_path: "manufacturer-product-page", raw_value: facts.productRaw };
+  const configurationEvidence = { id: configEvidence, entity_id: configuration.id, source_id: source, field_path: "manufacturer-product-page.specifications", raw_value: facts.configRaw };
+  const productEvidenceIndex = sourcesDoc.evidence.findIndex((item) => item.id === evidence);
+  const configurationEvidenceIndex = sourcesDoc.evidence.findIndex((item) => item.id === configEvidence);
+  if (productEvidenceIndex === -1) sourcesDoc.evidence.push(productEvidence);
+  else sourcesDoc.evidence[productEvidenceIndex] = productEvidence;
+  if (configurationEvidenceIndex === -1) sourcesDoc.evidence.push(configurationEvidence);
+  else sourcesDoc.evidence[configurationEvidenceIndex] = configurationEvidence;
 
   for (const field of ["product_type", "placements", "form"]) product[field].evidence_ids = Array.from(new Set([...(product[field].evidence_ids ?? []), evidence]));
   if (facts.heat) product.heat_type = documented(facts.heat, evidence);
+  else product.heat_type = unknown("The reviewed product page does not identify a supplied heating system or a specific heat format.");
   if (facts.energy) product.energy_sources = documented(facts.energy, evidence);
+  else product.energy_sources = unknown("The reviewed product page does not identify the energy source of a supplied heater.");
   product.source_ids = Array.from(new Set([...(product.source_ids ?? []), source]));
   product.spec_checked_at = today;
   product.change_reason = "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown.";
 
   configuration.source_ids = Array.from(new Set([...(configuration.source_ids ?? []), source]));
+  configuration.manufacturer_sku = unknown("A manufacturer SKU is not stated on the reviewed product page.");
   configuration.capacity.seated.evidence_ids = Array.from(new Set([...(configuration.capacity.seated.evidence_ids ?? []), configEvidence]));
+  configuration.capacity.reclining = unknown("A reclining capacity is not stated on the reviewed product page.");
   if (facts.exterior) configuration.dimensions.exterior = documented(facts.exterior, configEvidence);
   if (facts.interior) configuration.dimensions.interior = documented(facts.interior, configEvidence);
+  else if (productId.startsWith("saunalife-e8")) configuration.dimensions.interior = unknown("The reviewed product page states a 6 ft 5 in interior height but not complete interior dimensions.");
+  else configuration.dimensions.interior = unknown("Interior dimensions are not stated in the reviewed product specifications.");
   if (facts.shipping) configuration.dimensions.shipping = documented(facts.shipping, configEvidence);
+  configuration.dimensions.minimum_clearances = unknown("Installation clearances require review of the linked installation documentation.");
   if (facts.weight) configuration.net_weight = documented({ value: facts.weight, unit: "lb" }, configEvidence);
+  configuration.shipping_weight = unknown("The product page lists a product weight but does not identify a separate shipping weight.");
   if (facts.material) configuration.materials = documented(facts.material, configEvidence);
 
+  const electrical = configuration.electrical_supply_options[0];
+  const requirement = electrical.requirements[0];
   if (facts.power) {
-    const electrical = configuration.electrical_supply_options[0];
     electrical.id = `${productId}-heater-240v`;
-    electrical.requirements[0].voltage_v = documented(240, configEvidence);
-    electrical.requirements[0].rated_power_w = documented(facts.power, configEvidence);
-    electrical.requirements[0].rated_current_a = documented(facts.current, configEvidence);
-    electrical.requirements[0].required_circuit_a = documented(facts.current, configEvidence);
+    requirement.voltage_v = documented(240, configEvidence);
+    requirement.rated_power_w = documented(facts.power, configEvidence);
+    requirement.rated_current_a = documented(facts.current, configEvidence);
     electrical.evidence_ids = [configEvidence];
+  } else {
+    requirement.voltage_v = unknown("The reviewed product page does not specify the selected heater or its voltage.");
+    requirement.rated_power_w = unknown("The reviewed product page does not specify the selected heater or its rated power.");
+    requirement.rated_current_a = unknown("The reviewed product page does not specify the selected heater or its rated current.");
   }
+  requirement.frequency_hz = unknown("Frequency is not stated in the reviewed product specifications.");
+  requirement.phase = unknown("Phase is not stated in the reviewed product specifications.");
+  requirement.required_circuit_a = unknown(facts.power
+    ? "The product page lists heater amperage but does not state a required circuit rating."
+    : "The reviewed product page does not specify the selected heater or a required circuit rating.");
+  requirement.specified_breaker_a = unknown("A breaker rating is not stated in the reviewed product specifications.");
+  requirement.connection = unknown("Connection type is not stated in the reviewed product specifications.");
+  requirement.plug_type = unknown("Plug type is not stated in the reviewed product specifications.");
+  requirement.dedicated_circuit = unknown("Dedicated-circuit requirements are not stated in the reviewed product specifications.");
   for (const key of ["manufacturer_sku", "dimensions", "net_weight", "shipping_weight", "materials"]) {
     if (key === "dimensions" || key === "net_weight" || key === "materials") continue;
     if (configuration[key]?.status === "documented") configuration[key].evidence_ids = Array.from(new Set([...(configuration[key].evidence_ids ?? []), configEvidence]));
+  }
+}
+
+for (const configuration of configurations) {
+  if (!redwoodConfigurationsWithAmpOnlyEvidence.has(configuration.id)) continue;
+  for (const option of configuration.electrical_supply_options ?? []) {
+    for (const requirement of option.requirements ?? []) {
+      requirement.required_circuit_a = unknown("The product page lists heater amperage but does not state a required circuit rating.");
+    }
   }
 }
 
