@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "us-protected-preview-2026-09-14-l100",
+  "snapshot_id": "us-public-noindex-beta-2026-09-14-l100",
   "market": "US",
-  "mode": "protected-static-preview",
+  "mode": "public-static-noindex-beta",
   "expected_page_count": 114,
   "routes": [
     {

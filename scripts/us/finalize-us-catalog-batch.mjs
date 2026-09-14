@@ -20,12 +20,20 @@ const productIds = products.products.map((entry) => entry.id);
 const configurationIds = configurations.configurations.map((entry) => entry.id);
 const productRoutes = products.products.map((entry) => ({ path: `/us/saunas/${entry.slug}/`, kind: "product", record_id: entry.id, robots: "noindex, follow" }));
 const nonProductRoutes = manifest.routes.filter((route) => route.kind !== "product");
-manifest.snapshot_id = "us-protected-preview-2026-09-14-l100";
+manifest.snapshot_id = "us-public-noindex-beta-2026-09-14-l100";
+manifest.mode = "public-static-noindex-beta";
 manifest.expected_page_count = nonProductRoutes.length + productRoutes.length;
 manifest.routes = [...nonProductRoutes, ...productRoutes];
 
 snapshot.snapshot_id = manifest.snapshot_id;
-snapshot.purpose = "Protected static preview integration for the L-100 candidate dataset. This snapshot is not a production publication approval.";
+snapshot.purpose = "Public static noindex research beta for the L-100 candidate dataset. Routes are deployable, while indexing, affiliate output and feed sync remain disabled.";
+snapshot.status = "public-noindex-beta";
+snapshot.publication_controls = {
+  routes_enabled: true,
+  indexing_enabled: false,
+  affiliate_links_enabled: false,
+  feed_sync_enabled: false,
+};
 snapshot.records.product_ids = productIds;
 snapshot.records.configuration_ids = configurationIds;
 snapshot.records.source_count = sources.sources.length;
@@ -46,4 +54,4 @@ await writeJson("docs/us/preview-manifest.json", manifest);
 await writeJson("docs/us/launch-snapshot.json", snapshot);
 await writeJson("docs/us/sol-acceptance-gate.json", gate);
 await writeJson("docs/us/catalog-expansion-backlog.json", backlog);
-console.log(`Finalized protected L-100 snapshot with ${products.products.length} products, ${configurations.configurations.length} configurations, ${sources.sources.length} sources, ${sources.evidence.length} evidence records and ${rights.assets.length} rights records.`);
+console.log(`Finalized public noindex L-100 beta snapshot with ${products.products.length} products, ${configurations.configurations.length} configurations, ${sources.sources.length} sources, ${sources.evidence.length} evidence records and ${rights.assets.length} rights records.`);

@@ -31,8 +31,8 @@ test("currency output follows the selected market", () => {
   assert.equal(formatMarketMoney("US", 123456), "$1,234.56");
 });
 
-test("disabled US routes cannot expose candidate products", () => {
-  assert.deepEqual(getEnabledMarkets().map((market) => market.code), ["DE"]);
+test("the public noindex US beta exposes only research records", () => {
+  assert.deepEqual(getEnabledMarkets().map((market) => market.code), ["DE", "US"]);
   assert.equal(getUsResearchProducts().length, 100);
   assert.equal(getUsPublicProducts().length, 0);
   assert.equal(getUsPublicConfigurations().length, 0);

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "snapshot_id": "us-protected-preview-2026-09-14-l100",
+  "snapshot_id": "us-public-noindex-beta-2026-09-14-l100",
   "market": "US",
   "created_at": "2026-09-14",
   "input_commit": "b9cc249",
-  "purpose": "Protected static preview integration for the L-100 candidate dataset. This snapshot is not a production publication approval.",
-  "status": "protected-preview",
+  "purpose": "Public static noindex research beta for the L-100 candidate dataset. Routes are deployable, while indexing, affiliate output and feed sync remain disabled.",
+  "status": "public-noindex-beta",
   "publication_controls": {
-    "routes_enabled": false,
+    "routes_enabled": true,
     "indexing_enabled": false,
     "affiliate_links_enabled": false,
     "feed_sync_enabled": false
@@ -340,7 +340,7 @@
   "file_hashes": [
     {
       "path": "data/us/publication.json",
-      "sha256": "27383d6abb85112dbbbc866651aba3c8356f83c8b07749a1f8a52ed3bb7d0924"
+      "sha256": "c1e0a3e6f9b5d5eadbe88757926f9f83db7199774c5648dc182689ad535662be"
     },
     {
       "path": "data/us/products.json",
@@ -352,7 +352,7 @@
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "9e98231ead08b7ab31826de082d7af3b8a2749f4a5fb3c34154fded1a45cf69d"
+      "sha256": "6e7f6adbe0b9817c04b4d3bca5ead8f12bf0b6fb1a3204c16c1b22f405b021d4"
     },
     {
       "path": "data/us/merchants.json",
@@ -376,7 +376,7 @@
     },
     {
       "path": "content/us/home.json",
-      "sha256": "d323d3c0dbd65fc29ed262df89baf741af4e1739fcdcfa5b663b44e553a2021e"
+      "sha256": "c7ae5156a2bbe367fc6df29b64b13eb223c410eb0f7535e4d25c15441c5a7eaf"
     },
     {
       "path": "content/us/affiliate.json",
@@ -384,7 +384,7 @@
     },
     {
       "path": "content/us/legal.json",
-      "sha256": "69ecbc6736f353b034c179d5de1dec7fa9bd30f51825e90506daa847600cf781"
+      "sha256": "3d04b939e3899febbb599e236296fc4c74d0de7d9307689678abff24e55dfa61"
     },
     {
       "path": "content/us/page-presentations.json",
@@ -392,7 +392,7 @@
     },
     {
       "path": "content/us/editorial.json",
-      "sha256": "0bf74aba22d302c4e4647632afbf838cd1d62bc58e3e0ab8dd327d3431c929fb"
+      "sha256": "06356e2c5f201bb4bfdf9f7f27da6fca4cde895a7e9c85aca2dead2a05605712"
     },
     {
       "path": "docs/us/rights-register.json",

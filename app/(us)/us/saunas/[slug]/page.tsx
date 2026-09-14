@@ -3,7 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { StructuredData } from "@/app/_components/StructuredData";
-import { markets } from "@/lib/markets";
 import { getUsOfferPresentationsForConfiguration } from "@/lib/us/affiliate";
 import {
   getUsConfigurationsForProduct,
@@ -12,6 +11,7 @@ import {
   getUsResearchProducts,
   getUsSources,
 } from "@/lib/us/catalog";
+import { isUsResearchPreview } from "@/lib/us/content";
 import { createUsPageMetadata } from "@/lib/us/seo";
 import { usBreadcrumbJsonLd, usProductJsonLd } from "@/lib/us/structured-data";
 import type { UsDimensions, UsFact, UsMeasurement } from "@/lib/us/types";
@@ -21,12 +21,12 @@ type Props = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  const products = markets.US.enabled ? getUsPublicProducts() : getUsResearchProducts();
+  const products = isUsResearchPreview() ? getUsResearchProducts() : getUsPublicProducts();
   return products.map((product) => ({ slug: product.slug }));
 }
 
 function resolveProduct(slug: string) {
-  return getUsProductBySlug(slug, { includeNonPublic: !markets.US.enabled });
+  return getUsProductBySlug(slug, { includeNonPublic: isUsResearchPreview() });
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -95,7 +95,7 @@ export default async function UsSaunaProductPage({ params }: Props) {
         <nav className="us-breadcrumbs" aria-label="Breadcrumb">
           <Link href="/us/">US home</Link><span>/</span><Link href="/us/saunas/">Saunas</Link><span>/</span><span>{product.model}</span>
         </nav>
-        {isResearchPreview ? <p className="us-preview-notice">Research preview · this record is not approved for publication</p> : null}
+        {isResearchPreview ? <p className="us-preview-notice">Research beta · this candidate record remains under editorial review and is excluded from search indexing</p> : null}
         <header className="us-product-hero">
           <div>
             <p className="eyebrow">{product.brand_name} · US configuration</p>

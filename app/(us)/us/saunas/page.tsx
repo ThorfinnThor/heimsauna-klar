@@ -1,5 +1,5 @@
 import { getUsPublicCatalogItems, getUsResearchCatalogItems } from "@/lib/us/catalog-index";
-import { usPublication } from "@/lib/us/catalog";
+import { isUsResearchPreview } from "@/lib/us/content";
 import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsCatalog } from "../_components/UsCatalog";
 
@@ -12,7 +12,7 @@ export const metadata = createUsPageMetadata({
 });
 
 export default function UsSaunaCatalogPage() {
-  const isResearchPreview = !usPublication.routes_enabled && process.env.US_RESEARCH_PREVIEW === "1";
+  const isResearchPreview = isUsResearchPreview();
   const products = isResearchPreview ? getUsResearchCatalogItems() : getUsPublicCatalogItems();
   return (
     <>
@@ -22,7 +22,7 @@ export default function UsSaunaCatalogPage() {
         <p>Dimensions, capacity and electrical requirements refer to documented US configurations. Missing specifications stay visible instead of being estimated.</p>
       </section>
       <section className="page-shell us-catalog-section">
-        {isResearchPreview ? <p className="us-preview-notice">Research preview · candidate records are not approved for publication</p> : null}
+        {isResearchPreview ? <p className="us-preview-notice">Research beta · candidate records remain under editorial review and are excluded from search indexing</p> : null}
         <UsCatalog items={products} />
       </section>
     </>

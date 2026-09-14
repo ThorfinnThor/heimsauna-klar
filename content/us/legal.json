@@ -120,7 +120,7 @@
       "eyebrow": "Privacy",
       "heading": "What the website does with information",
       "introduction": [
-        "This draft describes the technical behavior currently present in the repository. It is prepared for operator and legal review and does not claim that an account setting, contract term or jurisdiction-specific obligation has been verified."
+        "This notice describes the technical behavior of the public US research beta. Account settings, contract terms and jurisdiction-specific obligations are reviewed separately before search indexing or commercial features are enabled."
       ],
       "sections": [
         {
@@ -160,9 +160,9 @@
         },
         {
           "id": "review-and-changes",
-          "heading": "Review before publication",
+          "heading": "Review when services change",
           "paragraphs": [
-            "This page must be updated when analytics, a consent tool, a contact form, accounts, personalization, server-side redirects, new embeds or a new hosting or affiliate service is introduced. The operator should also confirm applicable rights, contact procedures, retention periods and transfer information for the intended audience before changing this draft to published."
+            "This page must be updated when analytics, a consent tool, a contact form, accounts, personalization, server-side redirects, new embeds or a new hosting or affiliate service is introduced. Applicable rights, contact procedures, retention periods and transfer information also need renewed review when the service or intended audience changes."
           ]
         }
       ],

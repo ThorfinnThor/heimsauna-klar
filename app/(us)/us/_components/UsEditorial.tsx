@@ -214,7 +214,7 @@ export function UsEditorialIndex({ pageType, pages, isPreview }: { pageType: UsE
         <p>{copy.description}</p>
       </section>
       <section className="page-shell us-editorial-index">
-        {isPreview ? <p className="us-preview-notice">Research preview · these pages are not approved for publication</p> : null}
+        {isPreview ? <p className="us-preview-notice">Research beta · these draft pages remain excluded from search indexing</p> : null}
         {pageType === "comparison" ? (
           <Link className="us-direct-comparison-entry" href="/us/compare/models/">
             <span>
@@ -266,7 +266,7 @@ export function UsEditorialPageView({ page, presentation, isPreview }: { page: U
         </>
       ) : null}
       <header className="page-shell us-editorial-hero">
-        {isPreview ? <p className="us-preview-notice">Research preview · this page is not approved for publication</p> : null}
+        {isPreview ? <p className="us-preview-notice">Research beta · this draft page remains excluded from search indexing</p> : null}
         <p className="eyebrow">{page.eyebrow}</p>
         <h1>{page.heading}</h1>
         <div>{page.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
@@ -289,7 +289,7 @@ export function UsHomePageView({ page, isPreview }: { page: UsHomePage; isPrevie
         </>
       ) : null}
       <article className="page-shell us-home-editorial">
-        {isPreview ? <p className="us-preview-notice">Research preview · this page is not approved for publication</p> : null}
+        {isPreview ? <p className="us-preview-notice">Research beta · this page remains excluded from search indexing</p> : null}
         <header className="us-editorial-hero">
           <p className="eyebrow">{page.eyebrow}</p>
           <h1>{page.heading}</h1>
@@ -306,7 +306,7 @@ export function UsHomePageView({ page, isPreview }: { page: UsHomePage; isPrevie
 export function UsTrustPageView({ page, isPreview }: { page: UsTrustPage; isPreview: boolean }) {
   return (
     <article className="page-shell us-trust-page">
-      {isPreview ? <p className="us-preview-notice">Research preview · this page is not approved for publication</p> : null}
+      {isPreview ? <p className="us-preview-notice">Research beta · this page remains excluded from search indexing</p> : null}
       <header>
         <p className="eyebrow">{page.eyebrow}</p>
         <h1>{page.heading}</h1>

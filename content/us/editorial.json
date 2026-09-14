@@ -11,9 +11,9 @@
       "title": "Indoor infrared sauna configurations",
       "description": "Compare the documented dimensions, capacity and electrical requirements of the current indoor infrared sauna research set.",
       "eyebrow": "Indoor infrared comparison",
-      "heading": "Eight indoor infrared cabins with different space and circuit demands",
+      "heading": "Indoor infrared cabins with different space and electrical records",
       "introduction": [
-        "The current research set covers one-, two- and four-person infrared cabins sold for indoor placement in the United States. All eight document a 120-volt supply, but their exterior dimensions and circuit information differ enough to change what must be checked before purchase.",
+        "The current research set contains 23 infrared products documented for indoor placement in the United States. Capacity is available for many of them, while several newer records still have open dimensions or electrical fields that require model-level source review.",
         "This is a specification comparison, not a hands-on test or a quality ranking. A configuration appears only when its product type, heat type and placement are documented in the source record."
       ],
       "sections": [
@@ -21,7 +21,7 @@
           "id": "room-envelope",
           "heading": "Cabinet dimensions do not define the full room envelope",
           "paragraphs": [
-            "The exterior measurements make it possible to compare the cabinet bodies. None of the eight current records contains reviewed installation clearances, so the figures cannot establish that a cabin fits tightly between walls or below a ceiling.",
+            "Where exterior measurements are documented, they make it possible to compare the cabinet bodies. The current records do not contain reviewed installation clearances, so those figures cannot establish that a cabin fits tightly between walls or below a ceiling.",
             "When room dimensions are entered in the sauna finder, a cabinet that fits remains under needs verification until the missing clearance information has been checked in the instructions for that exact model."
           ]
         },
@@ -29,7 +29,7 @@
           "id": "electrical-differences",
           "heading": "The shared 120-volt label does not make the electrical requirements identical",
           "paragraphs": [
-            "Peak documents 15-amp outlet information for the Mini, Crown and Shasta, while the Everest and Fuji records identify a dedicated 20-amp circuit. The JNH records document a dedicated 20-amp circuit for the Tosi Red 4-Person, while the required circuit rating remains open for the Tosi 1-Person and Tosi 2-Person records.",
+            "Within the source-complete subset, Peak documents 15-amp outlet information for the Mini, Crown and Shasta, while the Everest and Fuji records identify a dedicated 20-amp circuit. The JNH records document a dedicated 20-amp circuit for the Tosi Red 4-Person, while the required circuit rating remains open for the Tosi 1-Person and Tosi 2-Person records.",
             "A voltage filter is therefore useful for narrowing the catalog, but it does not approve an outlet or circuit for installation. The plug, circuit requirement and model instructions still need to be checked together."
           ]
         }
@@ -110,7 +110,7 @@
           "id": "read-one-option",
           "heading": "Read each supply option as a complete set",
           "paragraphs": [
-            "Each current pilot configuration has one recorded electrical supply option. Where the manufacturer record states a required circuit or dedicated circuit, the site keeps that requirement with the voltage rather than reducing the product to a voltage badge.",
+            "Each configuration linked from this guide has one recorded electrical supply option. Where the manufacturer record states a required circuit or dedicated circuit, the site keeps that requirement with the voltage rather than reducing the product to a voltage badge.",
             "If a future configuration documents alternative supply options, each option will be evaluated separately. Requirements that belong to the same option must all be satisfied together."
           ]
         },

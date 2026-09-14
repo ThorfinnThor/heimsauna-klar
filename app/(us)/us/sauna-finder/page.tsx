@@ -8,6 +8,7 @@ import {
   getUsResearchProducts,
   usPublication,
 } from "@/lib/us/catalog";
+import { isUsResearchPreview } from "@/lib/us/content";
 import { UsSaunaFinder } from "../_components/UsSaunaFinder";
 
 export const metadata = createUsPageMetadata({
@@ -18,7 +19,7 @@ export const metadata = createUsPageMetadata({
 });
 
 export default function UsSaunaFinderPage() {
-  const isResearchPreview = !usPublication.routes_enabled && process.env.US_RESEARCH_PREVIEW === "1";
+  const isResearchPreview = isUsResearchPreview();
   const allProducts = isResearchPreview ? getUsResearchProducts() : getUsPublicProducts();
   const allConfigurations = isResearchPreview ? getUsResearchConfigurations() : getUsPublicConfigurations();
   // Keep the protected preview payload bounded. The complete 100-record research
@@ -43,7 +44,7 @@ export default function UsSaunaFinderPage() {
       <section className="page-shell us-finder-section">
         {isResearchPreview ? (
           <p className="us-preview-notice">
-            Research preview · candidate records are not approved for publication. The interactive finder uses a bounded sample while the 100-record catalog completes review.
+            Research beta · candidate records remain excluded from search indexing. The interactive finder uses a bounded sample while the full 100-record catalog remains available for review.
           </p>
         ) : null}
         <UsSaunaFinder products={products} configurations={configurations} offers={offers} asOf={asOf} />

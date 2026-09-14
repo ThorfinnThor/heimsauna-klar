@@ -34,8 +34,14 @@ const [publication, productsDocument, configurationsDocument, sourcesDocument, o
 ]);
 
 const issues = [];
-for (const flag of ["routes_enabled", "indexing_enabled", "affiliate_links_enabled", "feed_sync_enabled"]) {
-  if (publication[flag] !== false) issues.push(`publication.${flag}: protected preview requires false`);
+const expectedPublicationControls = {
+  routes_enabled: true,
+  indexing_enabled: false,
+  affiliate_links_enabled: false,
+  feed_sync_enabled: false,
+};
+for (const [flag, expected] of Object.entries(expectedPublicationControls)) {
+  if (publication[flag] !== expected) issues.push(`publication.${flag}: public noindex beta requires ${expected}`);
 }
 if (offersDocument.offers.length !== 0) issues.push("data/us/offers.json: expected zero offers in the current real pilot");
 if (productsDocument.products.length !== 100) issues.push(`data/us/products.json: expected 100 pilot products, found ${productsDocument.products.length}`);
@@ -61,7 +67,7 @@ for (const file of htmlFiles) {
   const html = await readFile(file, "utf8");
   requireText(html, '<html lang="en-US">', route, issues);
   requireText(html, 'name="robots" content="noindex, follow"', route, issues);
-  requireText(html, "Research preview", route, issues);
+  requireText(html, "Research beta", route, issues);
   for (const forbidden of previewManifest.forbidden_output_markers) {
     if (html.includes(forbidden)) issues.push(`${route}: synthetic test marker leaked into the static preview`);
   }

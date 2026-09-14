@@ -3,8 +3,8 @@ import {
   getUsPublicProducts,
   getUsResearchConfigurations,
   getUsResearchProducts,
-  usPublication,
 } from "@/lib/us/catalog";
+import { isUsResearchPreview } from "@/lib/us/content";
 import { buildUsDirectComparisonOptions } from "@/lib/us/direct-comparison";
 import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsDirectComparison } from "../../_components/UsDirectComparison";
@@ -17,7 +17,7 @@ export const metadata = createUsPageMetadata({
 });
 
 export default function UsDirectComparisonPage() {
-  const isResearchPreview = !usPublication.routes_enabled && process.env.US_RESEARCH_PREVIEW === "1";
+  const isResearchPreview = isUsResearchPreview();
   const products = isResearchPreview ? getUsResearchProducts() : getUsPublicProducts();
   const configurations = isResearchPreview ? getUsResearchConfigurations() : getUsPublicConfigurations();
   const allOptions = buildUsDirectComparisonOptions(products, configurations);
@@ -35,7 +35,7 @@ export default function UsDirectComparisonPage() {
       <section className="page-shell us-direct-comparison-section">
         {isResearchPreview ? (
           <p className="us-preview-notice">
-            Research preview · candidate records are not approved for publication. The comparison shows a bounded sample while the 100-record catalog completes review.
+            Research beta · candidate records remain excluded from search indexing. The comparison shows a bounded sample from the 100-record catalog.
           </p>
         ) : null}
         <UsDirectComparison options={options} />

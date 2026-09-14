@@ -2,6 +2,7 @@ import editorialDocument from "../../content/us/editorial.json" with { type: "js
 import homeDocument from "../../content/us/home.json" with { type: "json" };
 import legalDocument from "../../content/us/legal.json" with { type: "json" };
 import presentationsDocument from "../../content/us/page-presentations.json" with { type: "json" };
+import publicationDocument from "../../data/us/publication.json" with { type: "json" };
 import { markets } from "../markets.ts";
 import { getUsResearchConfigurations, getUsResearchProducts, getUsSources } from "./catalog.ts";
 import type {
@@ -29,7 +30,7 @@ export type UsEditorialProduct = {
 };
 
 export function isUsResearchPreview() {
-  return !markets.US.enabled;
+  return !markets.US.enabled || !publicationDocument.indexing_enabled;
 }
 
 function isAvailable(status: UsMarketProduct["publication_status"], includeNonPublic: boolean) {

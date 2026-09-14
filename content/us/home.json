@@ -2,28 +2,28 @@
   "schema_version": 1,
   "market": "US",
   "status": "draft",
-  "eyebrow": "United States · research preview",
+  "eyebrow": "United States · research beta",
   "title": "US sauna research",
   "description": "Independent product research for home sauna planning in the United States.",
   "heading": "Sauna research for US homes.",
   "introduction": [
-    "The US section is being built around model-specific source records rather than a generic catalog. The current pilot covers indoor and outdoor infrared cabins with separate fields for placement, seating, dimensions and electrical supply.",
+    "The US catalog is organized around model-specific source records rather than a generic product list. Its current research set covers indoor and outdoor cabins, sauna kits, infrared systems and selected accessories, with separate fields for placement, seating, dimensions and electrical supply.",
     "This is research and comparison work, not a hands-on test, installation approval or store checkout. A missing value remains open until a suitable source documents it."
   ],
   "sections": [
     {
       "id": "current-scope",
-      "heading": "The current scope is deliberately narrow",
+      "heading": "The catalog covers several kinds of home sauna projects",
       "paragraphs": [
-        "The pilot records eight indoor infrared cabins and two outdoor infrared cabins from Peak Saunas and JNH Lifestyles. The catalog keeps each model and placement as its own configuration so that dimensions and electrical facts are not borrowed from another cabin.",
-        "Traditional electric cabins, wood-burning cabins, installation clearances, shipping terms and reviewed offers are not treated as covered categories until their evidence is added to the corresponding record."
+        "The research set includes products from Peak Saunas, JNH Lifestyles, SaunaLife, Almost Heaven Saunas, Sunlighten, Sun Home, Redwood Outdoors and Thermory. Each model stays attached to its own configuration so that dimensions, capacity and electrical facts are not borrowed from a related cabin or kit.",
+        "Coverage is not equally deep for every record. Installation clearances, shipping terms, circuit requirements and package contents remain open wherever the reviewed source does not state them clearly. There are currently no reviewed merchant offers in the US catalog."
       ]
     },
     {
       "id": "method",
       "heading": "What a documented result means here",
       "paragraphs": [
-        "Manufacturer product pages provide the current pilot's primary technical sources. The site records the source at field level, keeps unknown and unresolved values visible, and separates a voltage match from approval of a circuit, receptacle or installation.",
+        "Manufacturer product pages and official collection references provide the current research sources. The site records evidence at field level, keeps unknown and unresolved values visible, and separates a voltage match from approval of a circuit, receptacle or installation.",
         "The finder can narrow the research set, but it does not replace the model instructions, local requirements or review by a qualified professional."
       ]
     },
@@ -45,7 +45,13 @@
     "jnh-tosi-1-product",
     "jnh-tosi-2-product",
     "jnh-tosi-4-product",
-    "jnh-arki-outdoor-duo-product"
+    "jnh-arki-outdoor-duo-product",
+    "saunalife-products",
+    "almost-heaven-saunas-collection",
+    "thermory-sauna-products",
+    "sunlighten-sauna-collections",
+    "sun-home-craftsmanship",
+    "redwood-outdoor-saunas"
   ],
   "related_paths": [
     "/us/saunas/",

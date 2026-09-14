@@ -86,8 +86,14 @@ if (!compatibilityDate) {
   if (ageDays > 90) issues.push(`wrangler.toml: compatibility_date ${compatibilityDate} is older than 90 days`);
 }
 
-for (const flag of ["routes_enabled", "indexing_enabled", "affiliate_links_enabled", "feed_sync_enabled"]) {
-  if (publication[flag] !== false) issues.push(`data/us/publication.json: ${flag} must remain false during protected preview QA`);
+const expectedPublicationControls = {
+  routes_enabled: true,
+  indexing_enabled: false,
+  affiliate_links_enabled: false,
+  feed_sync_enabled: false,
+};
+for (const [flag, expected] of Object.entries(expectedPublicationControls)) {
+  if (publication[flag] !== expected) issues.push(`data/us/publication.json: ${flag} must be ${expected} for the public noindex beta`);
 }
 
 for (const expected of [

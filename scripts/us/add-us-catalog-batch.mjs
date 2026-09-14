@@ -5,12 +5,12 @@ const root = resolve(import.meta.dirname, "../..");
 const today = "2026-09-14";
 
 const sourceDefinitions = [
-  ["almost-heaven-saunas-collection", "https://almostheaven.com/collections/saunas", "Almost Heaven Saunas collection"],
-  ["thermory-sauna-products", "https://sauna.thermoryusa.com/products/", "Thermory USA sauna products"],
-  ["sunlighten-sauna-collections", "https://shop-us.sunlighten.com/collections/saunas", "Sunlighten US sauna collections"],
-  ["sun-home-craftsmanship", "https://sunhomesaunas.com/pages/craftsmanship", "Sun Home model and materials reference"],
-  ["redwood-outdoor-saunas", "https://www.redwoodoutdoors.com/collections/outdoor-saunas", "Redwood Outdoors outdoor sauna collection"],
-  ["redwood-assembly-guides", "https://www.redwoodoutdoors.com/pages/assembly", "Redwood Outdoors assembly and product guide index"],
+  ["almost-heaven-saunas-collection", "https://almostheaven.com/collections/saunas", "Almost Heaven Saunas collection", "Almost Heaven Saunas"],
+  ["thermory-sauna-products", "https://sauna.thermoryusa.com/products/", "Thermory USA sauna products", "Thermory"],
+  ["sunlighten-sauna-collections", "https://shop-us.sunlighten.com/collections/saunas", "Sunlighten US sauna collections", "Sunlighten"],
+  ["sun-home-craftsmanship", "https://sunhomesaunas.com/pages/craftsmanship", "Sun Home model and materials reference", "Sun Home"],
+  ["redwood-outdoor-saunas", "https://www.redwoodoutdoors.com/collections/outdoor-saunas", "Redwood Outdoors outdoor sauna collection", "Redwood Outdoors"],
+  ["redwood-assembly-guides", "https://www.redwoodoutdoors.com/pages/assembly", "Redwood Outdoors assembly and product guide index", "Redwood Outdoors"],
 ];
 
 const merchantDefinitions = [
@@ -103,8 +103,8 @@ const rightsDocument = await readJson("docs/us/rights-register.json");
 const existingProductIds = new Set(productsDocument.products.map((entry) => entry.id));
 if (candidates.some((entry) => existingProductIds.has(entry.id))) throw new Error("Batch contains an existing product ID");
 const sourceById = new Set(sourcesDocument.sources.map((entry) => entry.id));
-for (const [id, url, title] of sourceDefinitions) {
-  if (!sourceById.has(id)) sourcesDocument.sources.push({ id, type: "manufacturer-page", url, title, publisher: title.split(" ")[0], market: "US", checked_at: today, locator: "Model collection and product listing" });
+for (const [id, url, title, publisher] of sourceDefinitions) {
+  if (!sourceById.has(id)) sourcesDocument.sources.push({ id, type: "manufacturer-page", url, title, publisher, market: "US", checked_at: today, locator: "Model collection and product listing" });
 }
 const merchantById = new Set(merchantsDocument.merchants.map((entry) => entry.id));
 for (const [id, name, host] of merchantDefinitions) {
