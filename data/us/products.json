@@ -1557,11 +1557,11 @@
       },
       "heat_type": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "reason": "The reviewed product page does not identify a supplied heating system or a specific heat format."
       },
       "energy_sources": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "reason": "The reviewed product page does not identify the energy source of a supplied heater."
       },
       "placements": {
         "status": "documented",
@@ -1583,11 +1583,12 @@
         "saunalife-cl4g-standard"
       ],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-cl4g-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "saunalife-cl5g",
@@ -1604,11 +1605,11 @@
       },
       "heat_type": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "reason": "The reviewed product page does not identify a supplied heating system or a specific heat format."
       },
       "energy_sources": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "reason": "The reviewed product page does not identify the energy source of a supplied heater."
       },
       "placements": {
         "status": "documented",
@@ -1630,11 +1631,12 @@
         "saunalife-cl5g-standard"
       ],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-cl5g-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "saunalife-cl7g",
@@ -1699,11 +1701,11 @@
       },
       "heat_type": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "reason": "The reviewed product page does not identify a supplied heating system or a specific heat format."
       },
       "energy_sources": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "reason": "The reviewed product page does not identify the energy source of a supplied heater."
       },
       "placements": {
         "status": "documented",
@@ -1725,11 +1727,12 @@
         "saunalife-cl12gcp-standard"
       ],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-cl12gcp-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "saunalife-gl4",

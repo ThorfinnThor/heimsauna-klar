@@ -21,6 +21,9 @@ const sourceDefinitions = [
   ["saunalife-e7w-product", "https://saunalife.com/saunas/ergo-series-model-e7w/", "SaunaLife Ergo-Series Model E7W product page", "SaunaLife", "Product page specifications for barrel diameter and length, shipping dimensions, weight and construction"],
   ["saunalife-e7g-product", "https://saunalife.com/saunas/ergo-series-model-e7g/", "SaunaLife Ergo-Series Model E7G product page", "SaunaLife", "Product page specifications for barrel diameter and length, shipping dimensions, weight and construction"],
   ["saunalife-cl7g-product", "https://saunalife.com/saunas/cube-series-model-cl7g/", "SaunaLife Cube-Series Model CL7G product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
+  ["saunalife-cl4g-product", "https://saunalife.com/saunas/cube-series-model-cl4g/", "SaunaLife Cube-Series Model CL4G product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
+  ["saunalife-cl5g-product", "https://saunalife.com/saunas/cube-series-model-cl5g/", "SaunaLife Cube-Series Model CL5G product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
+  ["saunalife-cl12gcp-product", "https://saunalife.com/saunas/cube-series-model-cl12gcp/", "SaunaLife Cube-Series Model CL12GCP product page", "SaunaLife", "Product page specifications for sauna suite dimensions, shipping dimensions, weight and construction"],
 ];
 
 const productFacts = {
@@ -89,6 +92,24 @@ const productFacts = {
     interiorReason: "The individual product page gives an interior height of 6 ft 5 in but not complete interior width and depth dimensions.",
     productRaw: "ERGO Series Model E7G; 4-person outdoor barrel sauna with full-glass front, 81 in diameter and 71 in length, constructed with Thermo-Spruce staves, Thermo-Aspen benches and tempered bronze glass.",
     configRaw: "SaunaLife E7G specifications: barrel 81 in diameter x 71 in length; shipping 80 in x 44 in x 37 in; weight 1,279 lb; full-length Thermo-Spruce staves, Thermo-Aspen benches and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
+  },
+  "saunalife-cl4g": {
+    source: "saunalife-cl4g-product", evidence: "evidence-saunalife-cl4g-product", configEvidence: "evidence-saunalife-cl4g-configuration",
+    capacity: 3, exterior: dimension(80.7, 49.2, 82.7), interior: dimension(77.2, 41.3, 74.8), shipping: dimension(80, 49, 82), weight: 1415, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
+    productRaw: "CUBE Series Model CL4G; 3-person outdoor sauna kit with full-glass front, Thermo-Spruce exterior, Thermo-Aspen seating and tempered bronze glass.",
+    configRaw: "SaunaLife CL4G specifications: exterior 80.7 W x 49.2 D x 82.7 H in; interior 77.2 W x 41.3 D x 74.8 H in; shipping 80 W x 49 D x 82 H in; weight 1,415 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
+  },
+  "saunalife-cl5g": {
+    source: "saunalife-cl5g-product", evidence: "evidence-saunalife-cl5g-product", configEvidence: "evidence-saunalife-cl5g-configuration",
+    capacity: 4, exterior: dimension(80.7, 63, 82.7), interior: dimension(77.2, 55.1, 74.8), shipping: dimension(80, 63, 82), weight: 1680, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
+    productRaw: "CUBE Series Model CL5G; 4-person outdoor sauna kit with full-glass front, Thermo-Spruce exterior, Thermo-Aspen seating and tempered bronze glass.",
+    configRaw: "SaunaLife CL5G specifications: exterior 80.7 W x 63 D x 82.7 H in; interior 77.2 W x 55.1 D x 74.8 H in; shipping 80 W x 63 D x 82 H in; weight 1,680 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
+  },
+  "saunalife-cl12gcp": {
+    source: "saunalife-cl12gcp-product", evidence: "evidence-saunalife-cl12gcp-product", configEvidence: "evidence-saunalife-cl12gcp-configuration",
+    capacity: 8, exterior: dimension(91, 151.6, 93), interior: dimension(87.5, 122.5, 85.5), shipping: dimension(155, 44, 47), weight: 3450, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
+    productRaw: "CUBE Series Model CL12GCP; 8-person outdoor sauna suite with changing room and front porch, Thermo-Spruce exterior, Thermo-Aspen seating and tempered bronze glass.",
+    configRaw: "SaunaLife CL12GCP specifications: exterior 91 W x 151.6 D x 93 H in; interior 87.5 W x 122.5 D x 85.5 H in; sauna room 87.5 W x 78.6 D x 85.5 H in; dressing room 87.5 W x 43.9 D x 85.5 H in; porch 87.5 W x 22.75 D x 85.5 H in; shipping 155 W x 44 D x 47 H in; weight 3,450 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
   },
 };
 

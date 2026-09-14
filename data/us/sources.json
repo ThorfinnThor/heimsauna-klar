@@ -591,6 +591,36 @@
       "market": "US",
       "checked_at": "2026-09-14",
       "locator": "Product page specifications for barrel diameter and length, shipping dimensions, weight and construction"
+    },
+    {
+      "id": "saunalife-cl4g-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/cube-series-model-cl4g/",
+      "title": "SaunaLife Cube-Series Model CL4G product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"
+    },
+    {
+      "id": "saunalife-cl5g-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/cube-series-model-cl5g/",
+      "title": "SaunaLife Cube-Series Model CL5G product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"
+    },
+    {
+      "id": "saunalife-cl12gcp-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/cube-series-model-cl12gcp/",
+      "title": "SaunaLife Cube-Series Model CL12GCP product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product page specifications for sauna suite dimensions, shipping dimensions, weight and construction"
     }
   ],
   "evidence": [
@@ -1017,30 +1047,30 @@
     {
       "id": "evidence-saunalife-cl4g-product",
       "entity_id": "saunalife-cl4g",
-      "source_id": "saunalife-products",
-      "field_path": "product_identity",
-      "raw_value": "CUBE Series Model CL4G listed in the official collection."
+      "source_id": "saunalife-cl4g-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "CUBE Series Model CL4G; 3-person outdoor sauna kit with full-glass front, Thermo-Spruce exterior, Thermo-Aspen seating and tempered bronze glass."
     },
     {
       "id": "evidence-saunalife-cl4g-configuration",
       "entity_id": "saunalife-cl4g-standard",
-      "source_id": "saunalife-products",
-      "field_path": "configuration_identity",
-      "raw_value": "CUBE Series Model CL4G is represented as a non-publishing review configuration."
+      "source_id": "saunalife-cl4g-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "SaunaLife CL4G specifications: exterior 80.7 W x 49.2 D x 82.7 H in; interior 77.2 W x 41.3 D x 74.8 H in; shipping 80 W x 49 D x 82 H in; weight 1,415 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements."
     },
     {
       "id": "evidence-saunalife-cl5g-product",
       "entity_id": "saunalife-cl5g",
-      "source_id": "saunalife-products",
-      "field_path": "product_identity",
-      "raw_value": "CUBE Series Model CL5G listed in the official collection."
+      "source_id": "saunalife-cl5g-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "CUBE Series Model CL5G; 4-person outdoor sauna kit with full-glass front, Thermo-Spruce exterior, Thermo-Aspen seating and tempered bronze glass."
     },
     {
       "id": "evidence-saunalife-cl5g-configuration",
       "entity_id": "saunalife-cl5g-standard",
-      "source_id": "saunalife-products",
-      "field_path": "configuration_identity",
-      "raw_value": "CUBE Series Model CL5G is represented as a non-publishing review configuration."
+      "source_id": "saunalife-cl5g-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "SaunaLife CL5G specifications: exterior 80.7 W x 63 D x 82.7 H in; interior 77.2 W x 55.1 D x 74.8 H in; shipping 80 W x 63 D x 82 H in; weight 1,680 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements."
     },
     {
       "id": "evidence-saunalife-cl7g-product",
@@ -1059,16 +1089,16 @@
     {
       "id": "evidence-saunalife-cl12gcp-product",
       "entity_id": "saunalife-cl12gcp",
-      "source_id": "saunalife-products",
-      "field_path": "product_identity",
-      "raw_value": "CUBE Series Model CL12GCP listed in the official collection."
+      "source_id": "saunalife-cl12gcp-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "CUBE Series Model CL12GCP; 8-person outdoor sauna suite with changing room and front porch, Thermo-Spruce exterior, Thermo-Aspen seating and tempered bronze glass."
     },
     {
       "id": "evidence-saunalife-cl12gcp-configuration",
       "entity_id": "saunalife-cl12gcp-standard",
-      "source_id": "saunalife-products",
-      "field_path": "configuration_identity",
-      "raw_value": "CUBE Series Model CL12GCP is represented as a non-publishing review configuration."
+      "source_id": "saunalife-cl12gcp-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "SaunaLife CL12GCP specifications: exterior 91 W x 151.6 D x 93 H in; interior 87.5 W x 122.5 D x 85.5 H in; sauna room 87.5 W x 78.6 D x 85.5 H in; dressing room 87.5 W x 43.9 D x 85.5 H in; porch 87.5 W x 22.75 D x 85.5 H in; shipping 155 W x 44 D x 47 H in; weight 3,450 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements."
     },
     {
       "id": "evidence-saunalife-gl4-product",
