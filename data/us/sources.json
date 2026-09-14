@@ -441,6 +441,56 @@
       "market": "US",
       "checked_at": "2026-09-14",
       "locator": "Product specifications for capacity, exterior dimensions, electrical requirements and included 6kW heater"
+    },
+    {
+      "id": "redwood-grove-8-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/grove-outdoor-sauna-8-person",
+      "title": "Redwood Outdoors Grove Outdoor Sauna 8 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for capacity, exterior dimensions, electrical requirements and included 9kW heater"
+    },
+    {
+      "id": "redwood-horizon-6-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/horizon-outdoor-sauna-6-person-porch",
+      "title": "Redwood Outdoors Horizon Outdoor Sauna 6 Person with Porch product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for capacity, exterior dimensions, electrical requirements and included 6kW heater"
+    },
+    {
+      "id": "redwood-vista-6-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/vista-outdoor-sauna-6-person",
+      "title": "Redwood Outdoors Vista Outdoor Sauna 6 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for capacity, exterior dimensions, electrical requirements and included 6kW heater"
+    },
+    {
+      "id": "redwood-barrel-6-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/6-person-barrel-sauna",
+      "title": "Redwood Outdoors Barrel Outdoor Sauna 6 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for capacity, exterior dimensions, electrical requirements and included 6kW heater"
+    },
+    {
+      "id": "redwood-barrel-porch-6-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/barrel-sauna-porch-6-person",
+      "title": "Redwood Outdoors Barrel Outdoor Sauna with Porch 6 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for capacity, exterior dimensions, electrical requirements and included 6kW heater"
     }
   ],
   "evidence": [
@@ -1427,44 +1477,44 @@
     {
       "id": "evidence-redwood-grove-8-product",
       "entity_id": "redwood-grove-8",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Grove Outdoor Sauna 8 Person listed in the official collection."
+      "source_id": "redwood-grove-8-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Grove Outdoor Sauna 8 Person; traditional outdoor sauna kit with seating for 8 to 10 people and an included 9 kW Homecraft Revive electric heater."
     },
     {
       "id": "evidence-redwood-grove-8-configuration",
       "entity_id": "redwood-grove-8-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Grove Outdoor Sauna 8 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-grove-8-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Grove specifications: roof exterior 96.25 L x 96.25 W x 94.875 H in; electrical requirements 120 V lighting and 240 V heater; included 9 kW Homecraft Revive is listed at 240 V and 50 A."
     },
     {
       "id": "evidence-redwood-vista-6-product",
       "entity_id": "redwood-vista-6",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Vista Outdoor Sauna 6 Person listed in the official collection."
+      "source_id": "redwood-vista-6-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Vista Outdoor Sauna 6 Person; traditional outdoor sauna kit with seating for 4 to 6 people and an included 6 kW Harvia KIP electric heater."
     },
     {
       "id": "evidence-redwood-vista-6-configuration",
       "entity_id": "redwood-vista-6-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Vista Outdoor Sauna 6 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-vista-6-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Vista specifications: exterior 71 L x 72.75 W x 76.5 H in; electrical requirements 120 V lighting and 240 V heater; included 6 kW Harvia KIP is listed at 240 V and 30 A."
     },
     {
       "id": "evidence-redwood-horizon-6-product",
       "entity_id": "redwood-horizon-6",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Horizon Outdoor Sauna 6 Person with Porch listed in the official collection."
+      "source_id": "redwood-horizon-6-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Horizon Outdoor Sauna 6 Person with Porch; traditional outdoor sauna kit with seating for 4 to 6 people and an included 6 kW Harvia KIP electric heater."
     },
     {
       "id": "evidence-redwood-horizon-6-configuration",
       "entity_id": "redwood-horizon-6-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Horizon Outdoor Sauna 6 Person with Porch is represented as a non-publishing review configuration."
+      "source_id": "redwood-horizon-6-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Horizon specifications: exterior 92.5 L x 72.75 W x 76.5 H in; electrical requirements 120 V lighting and 240 V heater; included 6 kW Harvia KIP is listed at 240 V and 30 A."
     },
     {
       "id": "evidence-redwood-duo-2-product",
@@ -1497,30 +1547,30 @@
     {
       "id": "evidence-redwood-barrel-6-product",
       "entity_id": "redwood-barrel-6",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Barrel Outdoor Sauna 6 Person listed in the official collection."
+      "source_id": "redwood-barrel-6-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Barrel Outdoor Sauna 6 Person; traditional outdoor sauna kit with seating for 4 to 6 people and an included 6 kW Harvia KIP electric heater."
     },
     {
       "id": "evidence-redwood-barrel-6-configuration",
       "entity_id": "redwood-barrel-6-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Barrel Outdoor Sauna 6 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-barrel-6-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Barrel specifications: exterior 71 L x 72.75 W x 76.5 H in; electrical requirements 120 V lighting and 240 V heater; included 6 kW Harvia KIP is listed at 240 V and 30 A."
     },
     {
       "id": "evidence-redwood-barrel-porch-6-product",
       "entity_id": "redwood-barrel-porch-6",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Barrel Outdoor Sauna with Porch 6 Person listed in the official collection."
+      "source_id": "redwood-barrel-porch-6-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Barrel Outdoor Sauna with Porch 6 Person; traditional outdoor sauna kit with seating for 4 to 6 people and an included 6 kW Harvia KIP electric heater."
     },
     {
       "id": "evidence-redwood-barrel-porch-6-configuration",
       "entity_id": "redwood-barrel-porch-6-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Barrel Outdoor Sauna with Porch 6 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-barrel-porch-6-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Barrel with Porch specifications: exterior 92.5 L x 72.75 W x 76.5 H in; electrical requirements 120 V lighting and 240 V heater; included 6 kW Harvia KIP is listed at 240 V and 30 A."
     },
     {
       "id": "evidence-redwood-extra-wide-porch-6-product",

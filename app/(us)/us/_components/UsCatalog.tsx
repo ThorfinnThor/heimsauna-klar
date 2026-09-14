@@ -123,7 +123,6 @@ export function UsCatalog({ items }: { items: UsCatalogItem[] }) {
               <div><dt>Capacity</dt><dd>{displayValue(item.seatedCapacity, item.seatedCapacity === 1 ? " person" : " people")}</dd></div>
               <div><dt>Electrical</dt><dd>{item.voltages?.map((value) => `${value} V`).join(" or ") ?? "Not documented"}</dd></div>
               <div><dt>Exterior W × D × H</dt><dd>{item.exteriorDimensions ?? "Not documented"}</dd></div>
-              <div><dt>Offer</dt><dd>No reviewed offer</dd></div>
             </dl>
             <Link href={`/us/saunas/${item.slug}/`}>View documented details <span aria-hidden="true">↗</span></Link>
           </article>

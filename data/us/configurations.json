@@ -8862,8 +8862,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 96.25,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 96.25,
+              "unit": "in"
+            },
+            "height": {
+              "value": 94.875,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-grove-8-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -8893,13 +8909,16 @@
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "redwood-grove-8-electrical-unknown",
+          "id": "redwood-grove-8-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-redwood-grove-8-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -8910,16 +8929,25 @@
                 "reason": "Phase is not stated on the checked collection page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 9000,
+                "evidence_ids": [
+                  "evidence-redwood-grove-8-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-redwood-grove-8-configuration"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-redwood-grove-8-configuration"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -8947,6 +8975,7 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
+        "redwood-grove-8-product",
         "redwood-outdoor-saunas"
       ],
       "publication_status": "candidate"
@@ -8975,8 +9004,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72.75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 71,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-vista-6-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -9006,13 +9051,16 @@
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "redwood-vista-6-electrical-unknown",
+          "id": "redwood-vista-6-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-redwood-vista-6-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -9023,16 +9071,25 @@
                 "reason": "Phase is not stated on the checked collection page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-redwood-vista-6-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-redwood-vista-6-configuration"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-redwood-vista-6-configuration"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9060,6 +9117,7 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
+        "redwood-vista-6-product",
         "redwood-outdoor-saunas"
       ],
       "publication_status": "candidate"
@@ -9088,8 +9146,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72.75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 92.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-horizon-6-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -9119,13 +9193,16 @@
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "redwood-horizon-6-electrical-unknown",
+          "id": "redwood-horizon-6-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-redwood-horizon-6-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -9136,16 +9213,25 @@
                 "reason": "Phase is not stated on the checked collection page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-redwood-horizon-6-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-redwood-horizon-6-configuration"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-redwood-horizon-6-configuration"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9173,6 +9259,7 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
+        "redwood-horizon-6-product",
         "redwood-outdoor-saunas"
       ],
       "publication_status": "candidate"
@@ -9485,8 +9572,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72.75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 71,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-barrel-6-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -9516,13 +9619,16 @@
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "redwood-barrel-6-electrical-unknown",
+          "id": "redwood-barrel-6-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-6-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -9533,16 +9639,25 @@
                 "reason": "Phase is not stated on the checked collection page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-6-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-6-configuration"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-6-configuration"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9570,6 +9685,7 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
+        "redwood-barrel-6-product",
         "redwood-outdoor-saunas"
       ],
       "publication_status": "candidate"
@@ -9598,8 +9714,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72.75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 92.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-barrel-porch-6-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -9629,13 +9761,16 @@
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "redwood-barrel-porch-6-electrical-unknown",
+          "id": "redwood-barrel-porch-6-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-porch-6-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -9646,16 +9781,25 @@
                 "reason": "Phase is not stated on the checked collection page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-porch-6-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-porch-6-configuration"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-porch-6-configuration"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9683,6 +9827,7 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
+        "redwood-barrel-porch-6-product",
         "redwood-outdoor-saunas"
       ],
       "publication_status": "candidate"

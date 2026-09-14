@@ -218,7 +218,7 @@
       "sunlighten-luminir-panel-standard"
     ],
     "offer_ids": [],
-    "source_count": 44,
+    "source_count": 49,
     "evidence_count": 200,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
@@ -344,15 +344,15 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "a533d82aa1ae510d761218e2d7ad1251190cdaf3ddb810fd39df5487127204d8"
+      "sha256": "7561eb383577bd498afd3bce1f8ae352dcd33d428d0966d8586cf888e4a592ed"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "697f6edf37387fb9b3dde8776ad1db94cf932eb1f2295eb14d613b7021202a6a"
+      "sha256": "de097bf4b2c8307cba23ab3c65468cb5c6267e94818168d7f1af99e40cad99f4"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "3f6ffc61e100a86c0dd1f28a6f5c022153c32f949239455da23c66049f5423d0"
+      "sha256": "ac9ca9796ea683931815f9f1a30fb51fab62a48c927de56c0747a2dd02e32847"
     },
     {
       "path": "data/us/merchants.json",
