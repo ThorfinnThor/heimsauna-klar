@@ -987,11 +987,11 @@
       },
       "heat_type": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "reason": "The reviewed product page does not identify a supplied heating system or a specific heat format."
       },
       "energy_sources": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "reason": "The reviewed product page does not identify the energy source of a supplied heater."
       },
       "placements": {
         "status": "documented",
@@ -1013,11 +1013,12 @@
         "saunalife-e6w-standard"
       ],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-e6w-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "saunalife-e7w",
@@ -1034,11 +1035,11 @@
       },
       "heat_type": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "reason": "The reviewed product page does not identify a supplied heating system or a specific heat format."
       },
       "energy_sources": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "reason": "The reviewed product page does not identify the energy source of a supplied heater."
       },
       "placements": {
         "status": "documented",
@@ -1060,11 +1061,12 @@
         "saunalife-e7w-standard"
       ],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-e7w-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "saunalife-e7g",
@@ -1081,11 +1083,11 @@
       },
       "heat_type": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "reason": "The reviewed product page does not identify a supplied heating system or a specific heat format."
       },
       "energy_sources": {
         "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "reason": "The reviewed product page does not identify the energy source of a supplied heater."
       },
       "placements": {
         "status": "documented",
@@ -1107,11 +1109,12 @@
         "saunalife-e7g-standard"
       ],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-e7g-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "saunalife-e8",

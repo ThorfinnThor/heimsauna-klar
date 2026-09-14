@@ -17,6 +17,9 @@ const reviewedIds = [
   "saunalife-e8",
   "saunalife-e8w",
   "saunalife-e8g",
+  "saunalife-e6w",
+  "saunalife-e7w",
+  "saunalife-e7g",
   "saunalife-cl7g",
 ];
 

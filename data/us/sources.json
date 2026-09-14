@@ -561,6 +561,36 @@
       "market": "US",
       "checked_at": "2026-09-14",
       "locator": "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"
+    },
+    {
+      "id": "saunalife-e6w-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/ergo-series-model-e6w/",
+      "title": "SaunaLife Ergo-Series Model E6W product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product page specifications for barrel diameter and length, shipping dimensions, weight and construction"
+    },
+    {
+      "id": "saunalife-e7w-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/ergo-series-model-e7w/",
+      "title": "SaunaLife Ergo-Series Model E7W product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product page specifications for barrel diameter and length, shipping dimensions, weight and construction"
+    },
+    {
+      "id": "saunalife-e7g-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/ergo-series-model-e7g/",
+      "title": "SaunaLife Ergo-Series Model E7G product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product page specifications for barrel diameter and length, shipping dimensions, weight and construction"
     }
   ],
   "evidence": [
@@ -819,44 +849,44 @@
     {
       "id": "evidence-saunalife-e6w-product",
       "entity_id": "saunalife-e6w",
-      "source_id": "saunalife-products",
-      "field_path": "product_identity",
-      "raw_value": "ERGO Series Model E6W listed in the official collection."
+      "source_id": "saunalife-e6w-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "ERGO Series Model E6W; 3-person outdoor barrel sauna with panoramic half-moon rear window, 81 in diameter and 59 in length, constructed with Thermo-Spruce staves and Thermo-Aspen benches."
     },
     {
       "id": "evidence-saunalife-e6w-configuration",
       "entity_id": "saunalife-e6w-standard",
-      "source_id": "saunalife-products",
-      "field_path": "configuration_identity",
-      "raw_value": "ERGO Series Model E6W is represented as a non-publishing review configuration."
+      "source_id": "saunalife-e6w-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "SaunaLife E6W specifications: barrel 81 in diameter x 59 in length; shipping 80 in x 44 in x 34 in; weight 1,125 lb; full-length Thermo-Spruce staves and Thermo-Aspen benches. The page does not state a supplied heater or electrical requirements."
     },
     {
       "id": "evidence-saunalife-e7w-product",
       "entity_id": "saunalife-e7w",
-      "source_id": "saunalife-products",
-      "field_path": "product_identity",
-      "raw_value": "ERGO Series Model E7W listed in the official collection."
+      "source_id": "saunalife-e7w-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "ERGO Series Model E7W; 4-person outdoor barrel sauna with panoramic half-moon rear window, 81 in diameter and 71 in length, constructed with Thermo-Spruce staves and Thermo-Aspen benches."
     },
     {
       "id": "evidence-saunalife-e7w-configuration",
       "entity_id": "saunalife-e7w-standard",
-      "source_id": "saunalife-products",
-      "field_path": "configuration_identity",
-      "raw_value": "ERGO Series Model E7W is represented as a non-publishing review configuration."
+      "source_id": "saunalife-e7w-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "SaunaLife E7W specifications: barrel 81 in diameter x 71 in length; shipping 80 in x 44 in x 41 in; weight 1,235 lb; full-length Thermo-Spruce staves and Thermo-Aspen benches. The page does not state a supplied heater or electrical requirements."
     },
     {
       "id": "evidence-saunalife-e7g-product",
       "entity_id": "saunalife-e7g",
-      "source_id": "saunalife-products",
-      "field_path": "product_identity",
-      "raw_value": "ERGO Series Model E7G listed in the official collection."
+      "source_id": "saunalife-e7g-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "ERGO Series Model E7G; 4-person outdoor barrel sauna with full-glass front, 81 in diameter and 71 in length, constructed with Thermo-Spruce staves, Thermo-Aspen benches and tempered bronze glass."
     },
     {
       "id": "evidence-saunalife-e7g-configuration",
       "entity_id": "saunalife-e7g-standard",
-      "source_id": "saunalife-products",
-      "field_path": "configuration_identity",
-      "raw_value": "ERGO Series Model E7G is represented as a non-publishing review configuration."
+      "source_id": "saunalife-e7g-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "SaunaLife E7G specifications: barrel 81 in diameter x 71 in length; shipping 80 in x 44 in x 37 in; weight 1,279 lb; full-length Thermo-Spruce staves, Thermo-Aspen benches and tempered bronze glass. The page does not state a supplied heater or electrical requirements."
     },
     {
       "id": "evidence-saunalife-e8-product",

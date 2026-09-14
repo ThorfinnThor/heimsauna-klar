@@ -17,6 +17,9 @@ const sourceDefinitions = [
   ["saunalife-e8-product", "https://saunalife.com/saunas/ergo-series-model-e8/", "SaunaLife Ergo-Series Model E8 product page", "SaunaLife", "Product page specifications for barrel dimensions, shipping dimensions, weight and construction"],
   ["saunalife-e8w-product", "https://saunalife.com/saunas/ergo-series-model-e8w/", "SaunaLife Ergo-Series Model E8W product page", "SaunaLife", "Product page specifications for barrel dimensions, shipping dimensions, weight and construction"],
   ["saunalife-e8g-product", "https://saunalife.com/saunas/ergo-series-model-e8g/", "SaunaLife Ergo-Series Model E8G product page", "SaunaLife", "Product page specifications for barrel dimensions, shipping dimensions, weight and construction"],
+  ["saunalife-e6w-product", "https://saunalife.com/saunas/ergo-series-model-e6w/", "SaunaLife Ergo-Series Model E6W product page", "SaunaLife", "Product page specifications for barrel diameter and length, shipping dimensions, weight and construction"],
+  ["saunalife-e7w-product", "https://saunalife.com/saunas/ergo-series-model-e7w/", "SaunaLife Ergo-Series Model E7W product page", "SaunaLife", "Product page specifications for barrel diameter and length, shipping dimensions, weight and construction"],
+  ["saunalife-e7g-product", "https://saunalife.com/saunas/ergo-series-model-e7g/", "SaunaLife Ergo-Series Model E7G product page", "SaunaLife", "Product page specifications for barrel diameter and length, shipping dimensions, weight and construction"],
   ["saunalife-cl7g-product", "https://saunalife.com/saunas/cube-series-model-cl7g/", "SaunaLife Cube-Series Model CL7G product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
 ];
 
@@ -62,6 +65,30 @@ const productFacts = {
     exterior: dimension(91, 86.6, 93), interior: dimension(87.5, 70.8, 85.5), shipping: dimension(91, 86, 93), weight: 2040, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
     productRaw: "CUBE Series Model CL7G; 6-person outdoor sauna kit with full-glass front, Thermo-Spruce exterior and Thermo-Aspen seating.",
     configRaw: "SaunaLife CL7G overview: exterior 91 W x 86.6 D x 93 H in and interior 87.5 W x 70.8 D x 85.5 H in. The floor-plan section rounds these to 91 x 86 x 93 in and 87 x 70 x 85 in. Shipping is 91 W x 86 D x 93 H in; weight is 2,040 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass.",
+  },
+  "saunalife-e6w": {
+    source: "saunalife-e6w-product", evidence: "evidence-saunalife-e6w-product", configEvidence: "evidence-saunalife-e6w-configuration",
+    capacity: 3, shipping: dimension(44, 80, 34), weight: 1125, material: ["European Thermo-Spruce", "Thermo-Aspen"],
+    exteriorReason: "The individual product page gives a barrel diameter of 81 in and length of 59 in, not a complete width/depth/height envelope.",
+    interiorReason: "The individual product page gives an interior height of 6 ft 5 in but not complete interior width and depth dimensions.",
+    productRaw: "ERGO Series Model E6W; 3-person outdoor barrel sauna with panoramic half-moon rear window, 81 in diameter and 59 in length, constructed with Thermo-Spruce staves and Thermo-Aspen benches.",
+    configRaw: "SaunaLife E6W specifications: barrel 81 in diameter x 59 in length; shipping 80 in x 44 in x 34 in; weight 1,125 lb; full-length Thermo-Spruce staves and Thermo-Aspen benches. The page does not state a supplied heater or electrical requirements.",
+  },
+  "saunalife-e7w": {
+    source: "saunalife-e7w-product", evidence: "evidence-saunalife-e7w-product", configEvidence: "evidence-saunalife-e7w-configuration",
+    capacity: 4, shipping: dimension(44, 80, 41), weight: 1235, material: ["European Thermo-Spruce", "Thermo-Aspen"],
+    exteriorReason: "The individual product page gives a barrel diameter of 81 in and length of 71 in, not a complete width/depth/height envelope.",
+    interiorReason: "The individual product page gives an interior height of 6 ft 5 in but not complete interior width and depth dimensions.",
+    productRaw: "ERGO Series Model E7W; 4-person outdoor barrel sauna with panoramic half-moon rear window, 81 in diameter and 71 in length, constructed with Thermo-Spruce staves and Thermo-Aspen benches.",
+    configRaw: "SaunaLife E7W specifications: barrel 81 in diameter x 71 in length; shipping 80 in x 44 in x 41 in; weight 1,235 lb; full-length Thermo-Spruce staves and Thermo-Aspen benches. The page does not state a supplied heater or electrical requirements.",
+  },
+  "saunalife-e7g": {
+    source: "saunalife-e7g-product", evidence: "evidence-saunalife-e7g-product", configEvidence: "evidence-saunalife-e7g-configuration",
+    capacity: 4, shipping: dimension(44, 80, 37), weight: 1279, material: ["European Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
+    exteriorReason: "The individual product page gives a barrel diameter of 81 in and length of 71 in, not a complete width/depth/height envelope.",
+    interiorReason: "The individual product page gives an interior height of 6 ft 5 in but not complete interior width and depth dimensions.",
+    productRaw: "ERGO Series Model E7G; 4-person outdoor barrel sauna with full-glass front, 81 in diameter and 71 in length, constructed with Thermo-Spruce staves, Thermo-Aspen benches and tempered bronze glass.",
+    configRaw: "SaunaLife E7G specifications: barrel 81 in diameter x 71 in length; shipping 80 in x 44 in x 37 in; weight 1,279 lb; full-length Thermo-Spruce staves, Thermo-Aspen benches and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
   },
 };
 
@@ -126,10 +153,13 @@ for (const [productId, facts] of Object.entries(productFacts)) {
 
   configuration.source_ids = Array.from(new Set([...(configuration.source_ids ?? []), source]));
   configuration.manufacturer_sku = unknown("A manufacturer SKU is not stated on the reviewed product page.");
-  configuration.capacity.seated.evidence_ids = Array.from(new Set([...(configuration.capacity.seated.evidence_ids ?? []), configEvidence]));
+  if (facts.capacity) configuration.capacity.seated = documented(facts.capacity, configEvidence);
+  else configuration.capacity.seated.evidence_ids = Array.from(new Set([...(configuration.capacity.seated.evidence_ids ?? []), configEvidence]));
   configuration.capacity.reclining = unknown("A reclining capacity is not stated on the reviewed product page.");
   if (facts.exterior) configuration.dimensions.exterior = documented(facts.exterior, configEvidence);
+  else if (facts.exteriorReason) configuration.dimensions.exterior = unknown(facts.exteriorReason);
   if (facts.interior) configuration.dimensions.interior = documented(facts.interior, configEvidence);
+  else if (facts.interiorReason) configuration.dimensions.interior = unknown(facts.interiorReason);
   else if (productId.startsWith("saunalife-e8")) configuration.dimensions.interior = unknown("The reviewed product page states a 6 ft 5 in interior height but not complete interior dimensions.");
   else configuration.dimensions.interior = unknown("Interior dimensions are not stated in the reviewed product specifications.");
   if (facts.shipping) configuration.dimensions.shipping = documented(facts.shipping, configEvidence);
