@@ -215,6 +215,15 @@ export function UsEditorialIndex({ pageType, pages, isPreview }: { pageType: UsE
       </section>
       <section className="page-shell us-editorial-index">
         {isPreview ? <p className="us-preview-notice">Research preview · these pages are not approved for publication</p> : null}
+        {pageType === "comparison" ? (
+          <Link className="us-direct-comparison-entry" href="/us/compare/models/">
+            <span>
+              <strong>Build your own comparison</strong>
+              <small>Choose two to four exact configurations and keep the selection in the URL.</small>
+            </span>
+            <span aria-hidden="true">Open tool ↗</span>
+          </Link>
+        ) : null}
         <div className="us-editorial-index-grid">
           {pages.map((page, index) => (
             <Link href={usEditorialPath(page)} key={page.id}>

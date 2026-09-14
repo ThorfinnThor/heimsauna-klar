@@ -122,6 +122,7 @@ const expectedRoutes = [
   "/us/sauna-finder/",
   "/us/brands/",
   "/us/compare/",
+  "/us/compare/models/",
   "/us/guides/",
   ...editorialDocument.entries.map(editorialPath).filter(Boolean),
   ...legalDocument.pages.map((page) => `/us/${page.slug}/`),

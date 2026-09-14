@@ -92,6 +92,7 @@ for (const product of productsDocument.products) {
 const expectedEditorialPages = [
   "brands/jnh-lifestyles/index.html",
   "compare/indoor-infrared-saunas/index.html",
+  "compare/models/index.html",
   "guides/infrared-sauna-electrical-requirements/index.html",
 ];
 for (const relativePath of expectedEditorialPages) {
