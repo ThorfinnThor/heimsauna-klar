@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "market": "US",
+  "reviewed_at": "2026-09-14",
+  "scope": "Repository-visible production website, static deployment, GitHub Actions ingestion and outbound links. Account-dashboard settings and third-party retention are not inferred.",
+  "public_client": {
+    "rendering": "Static HTML, CSS, images and JavaScript served from the same origin through Cloudflare Worker assets.",
+    "browser_state": [
+      "React component memory",
+      "URL query parameters and fragment for catalog and Finder state"
+    ],
+    "browser_storage": [],
+    "network_submissions": [],
+    "embedded_third_parties": [],
+    "notes": [
+      "History API changes do not send a request by themselves.",
+      "Reloading, opening or sharing a filtered URL can expose its path and query parameters to Cloudflare request handling and logs.",
+      "Finder parameters describe product preferences such as placement, capacity, dimensions, electrical supply and budget. The Finder does not ask health questions or request an account."
+    ]
+  },
+  "services": [
+    {
+      "id": "cloudflare-static-hosting",
+      "active": true,
+      "trigger": "Page or asset request",
+      "data": [
+        "IP address and network metadata",
+        "request time",
+        "host, path and possible query parameters",
+        "referrer",
+        "user-agent and system information",
+        "response and transfer metadata"
+      ],
+      "recipients": ["Cloudflare"],
+      "purpose": ["Static delivery", "TLS", "availability", "security and abuse prevention"],
+      "storage_in_repository": false,
+      "retention": "Not configured in this repository; verify the Cloudflare account and product settings.",
+      "region_or_transfer": "Not established by repository code; verify the Cloudflare agreement, DPA and account configuration."
+    },
+    {
+      "id": "cloudflare-git-build-and-deploy",
+      "active": true,
+      "trigger": "Git update received by the connected Cloudflare build configuration",
+      "data": [
+        "Source tree and versioned JSON content",
+        "commit and repository metadata",
+        "build commands, dependency metadata and generated static output",
+        "build and deployment logs"
+      ],
+      "recipients": ["Cloudflare", "GitHub"],
+      "purpose": ["Build the static export", "deploy Worker assets", "retain deployment history for rollback and diagnosis"],
+      "storage_in_repository": "Build configuration is versioned. Build logs, generated deployment artifacts and deployment history are held by Cloudflare rather than committed to the repository.",
+      "retention": "Cloudflare build-log and deployment-history retention are account settings and must be verified.",
+      "region_or_transfer": "The operator has connected the GitHub repository to Cloudflare, but contractual entity, processing location and transfer terms are not established by repository code."
+    },
+    {
+      "id": "awin-product-feed-ingestion",
+      "active": true,
+      "trigger": "Manual GitHub Actions workflow dispatch",
+      "data": [
+        "Secret Awin feed-list URL",
+        "approved advertiser and feed metadata",
+        "product feed rows",
+        "exact merchant product URLs and affiliate tracking URLs"
+      ],
+      "recipients": ["Awin", "GitHub Actions"],
+      "purpose": ["Feed discovery", "exact offer matching", "affiliate-link maintenance"],
+      "storage_in_repository": "Only sanitized reports and reviewed catalog changes. The secret feed-list URL and raw feed response are not committed by the implemented workflow.",
+      "retention": "Raw responses exist in runner process memory for the workflow run. GitHub workflow-log and artifact retention are account settings and must be verified.",
+      "region_or_transfer": "Not established by repository code; verify the Awin and GitHub account agreements and settings."
+    },
+    {
+      "id": "github-source-ci-and-build-trigger",
+      "active": true,
+      "trigger": "Repository push, pull request or manual workflow dispatch",
+      "data": [
+        "Source and versioned JSON content",
+        "commit and pull-request metadata",
+        "workflow actor and run metadata",
+        "test and build logs"
+      ],
+      "recipients": ["GitHub"],
+      "purpose": ["Version control", "CI", "reviewed feed updates", "Cloudflare deployment trigger"],
+      "storage_in_repository": true,
+      "retention": "Repository history persists until deliberately changed. Workflow-log retention is an account setting and must be verified.",
+      "region_or_transfer": "Not established by repository code; verify the GitHub plan, DPA and account settings."
+    },
+    {
+      "id": "affiliate-outbound-click",
+      "active": true,
+      "trigger": "User deliberately opens a link labelled Affiliate link",
+      "data": [
+        "Awin advertiser ID",
+        "publisher ID contained in the tracking URL",
+        "destination URL",
+        "optional non-personal click reference",
+        "ordinary HTTP request metadata such as IP address, referrer and user-agent"
+      ],
+      "recipients": ["Awin", "selected merchant"],
+      "purpose": ["Redirect to merchant", "affiliate attribution"],
+      "storage_in_repository": "The approved static tracking URL is versioned with the offer; click events are not collected by Select Your Sauna code.",
+      "retention": "Controlled by Awin and the merchant after the click; not configured in this repository.",
+      "region_or_transfer": "Controlled by Awin and the merchant; verify program terms and privacy documents before US publication."
+    },
+    {
+      "id": "non-affiliate-outbound-click",
+      "active": true,
+      "trigger": "User opens a merchant, manufacturer, documentation or authority source link",
+      "data": ["Ordinary HTTP request metadata, including possible referrer, IP address and user-agent"],
+      "recipients": ["Selected external website"],
+      "purpose": ["Open the selected product or evidence source"],
+      "storage_in_repository": false,
+      "retention": "Controlled by the selected website; not configured in this repository.",
+      "region_or_transfer": "Controlled by the selected website."
+    },
+    {
+      "id": "email-contact",
+      "active": true,
+      "trigger": "User opens the mailto link and sends an email through their own email client",
+      "data": ["Sender address", "message content", "email transmission metadata", "optional attachments chosen by sender"],
+      "recipients": ["info@selectyoursauna.com", "sender and recipient email providers"],
+      "purpose": ["Editorial questions, corrections and contact"],
+      "storage_in_repository": false,
+      "retention": "Mailbox and routing retention are outside the repository and must be documented from the actual email configuration.",
+      "region_or_transfer": "Email-routing destination and providers are not evidenced in the repository."
+    }
+  ],
+  "negative_findings": [
+    "No first-party analytics or advertising SDK",
+    "No Google Analytics or Google Tag Manager",
+    "No analytics, marketing or personalization cookie code",
+    "No localStorage or sessionStorage use",
+    "No browser fetch, XMLHttpRequest or sendBeacon call in app or lib",
+    "No account, login, checkout, payment or server-backed contact form",
+    "No geolocation, camera, microphone or payment browser permission",
+    "No embedded third-party iframe, font, image or script host allowed by the checked-in CSP",
+    "No US affiliate offer or live US tracking destination in the current dataset"
+  ],
+  "implemented_controls": [
+    {
+      "id": "us-routes",
+      "source": "data/us/publication.json routes_enabled plus US_ROUTES_ENABLED environment restriction",
+      "state": "disabled"
+    },
+    {
+      "id": "us-indexing",
+      "source": "data/us/publication.json indexing_enabled",
+      "state": "disabled"
+    },
+    {
+      "id": "us-affiliate-output",
+      "source": "data/us/publication.json affiliate_links_enabled plus US_AFFILIATE_LINKS_DISABLED emergency switch",
+      "state": "disabled"
+    },
+    {
+      "id": "us-feed-sync",
+      "source": "data/us/publication.json feed_sync_enabled",
+      "state": "disabled"
+    },
+    {
+      "id": "site-indexing-override",
+      "source": "SITE_INDEXABLE environment restriction",
+      "state": "available"
+    },
+    {
+      "id": "browser-egress-policy",
+      "source": "public/_headers Content-Security-Policy",
+      "state": "connect-src, images, fonts and scripts restricted to same origin; frames disabled"
+    }
+  ],
+  "proposed_controls": [
+    {
+      "id": "analytics-enabled",
+      "default": false,
+      "reason": "Any future analytics requires an explicit provider, event, retention and consent decision rather than appearing implicitly."
+    },
+    {
+      "id": "us-affiliate-click-reference-enabled",
+      "default": false,
+      "reason": "Do not add granular click references until a non-personal event schema and retention purpose are approved."
+    },
+    {
+      "id": "contact-form-enabled",
+      "default": false,
+      "reason": "A future form needs a processor, abuse control, retention rule and published privacy text. The current mailto path needs no website backend."
+    },
+    {
+      "id": "account-preview-enabled",
+      "default": false,
+      "reason": "A hosted US preview would need a documented access-control service. The current protected preview remains offline."
+    }
+  ],
+  "account_checks_required": [
+    "Cloudflare request-log, Web Analytics, bot/security and retention settings",
+    "Cloudflare Git integration and build-log retention",
+    "GitHub Actions log retention and authorized repository users",
+    "Awin US program terms, tracking parameters, reporting retention and international transfers",
+    "Mailbox destination, Cloudflare Email Routing state, email provider and message retention"
+  ]
+}

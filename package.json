@@ -13,7 +13,7 @@
     "start": "next start",
     "lint": "eslint app scripts --ignore-pattern .next --ignore-pattern out",
     "data:check": "node scripts/check-product-schema.mjs && node scripts/validate-data.mjs && node scripts/audit-editorial-expansion.mjs && npm run us:data:check",
-    "us:data:check": "node scripts/us/validate-us-data.mjs",
+    "us:data:check": "node scripts/us/validate-us-data.mjs && node --test scripts/us/data-flow-inventory.test.mjs",
     "us:de-baseline:check": "node scripts/us/check-de-baseline.mjs",
     "us:import:review": "node scripts/us/manual-import.mjs",
     "us:offers:promote": "node scripts/us/offer-snapshot.mjs",
