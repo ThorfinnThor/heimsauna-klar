@@ -7,7 +7,9 @@
       "market": "US",
       "name": "Sweat Kingdom",
       "kind": "manufacturer",
-      "allowed_hosts": ["sweatkingdom.com"],
+      "allowed_hosts": [
+        "sweatkingdom.com"
+      ],
       "status": "candidate"
     },
     {
@@ -15,7 +17,9 @@
       "market": "US",
       "name": "Peak Saunas",
       "kind": "manufacturer",
-      "allowed_hosts": ["peaksaunas.com"],
+      "allowed_hosts": [
+        "peaksaunas.com"
+      ],
       "status": "candidate"
     },
     {
@@ -23,7 +27,9 @@
       "market": "US",
       "name": "Sunlighten",
       "kind": "manufacturer",
-      "allowed_hosts": ["shop-us.sunlighten.com"],
+      "allowed_hosts": [
+        "shop-us.sunlighten.com"
+      ],
       "status": "candidate"
     },
     {
@@ -31,7 +37,9 @@
       "market": "US",
       "name": "JNH Lifestyles",
       "kind": "manufacturer",
-      "allowed_hosts": ["jnhlifestyles.com"],
+      "allowed_hosts": [
+        "jnhlifestyles.com"
+      ],
       "status": "candidate"
     },
     {
@@ -39,7 +47,49 @@
       "market": "US",
       "name": "SaunaLife",
       "kind": "manufacturer",
-      "allowed_hosts": ["saunalife.com"],
+      "allowed_hosts": [
+        "saunalife.com"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "almost-heaven",
+      "market": "US",
+      "name": "Almost Heaven Saunas",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "almostheaven.com"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "thermory",
+      "market": "US",
+      "name": "Thermory USA",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "sauna.thermoryusa.com"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "sun-home",
+      "market": "US",
+      "name": "Sun Home Saunas",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "sunhomesaunas.com"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "redwood-outdoors",
+      "market": "US",
+      "name": "Redwood Outdoors",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "redwoodoutdoors.com"
+      ],
       "status": "candidate"
     }
   ]

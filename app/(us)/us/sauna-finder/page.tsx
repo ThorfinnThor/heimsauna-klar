@@ -19,8 +19,17 @@ export const metadata = createUsPageMetadata({
 
 export default function UsSaunaFinderPage() {
   const isResearchPreview = !usPublication.routes_enabled && process.env.US_RESEARCH_PREVIEW === "1";
-  const products = isResearchPreview ? getUsResearchProducts() : getUsPublicProducts();
-  const configurations = isResearchPreview ? getUsResearchConfigurations() : getUsPublicConfigurations();
+  const allProducts = isResearchPreview ? getUsResearchProducts() : getUsPublicProducts();
+  const allConfigurations = isResearchPreview ? getUsResearchConfigurations() : getUsPublicConfigurations();
+  // Keep the protected preview payload bounded. The complete 100-record research
+  // catalog remains available on the catalog and product routes; the finder only
+  // needs a representative working set until Sol approves publication.
+  const previewProducts = allProducts.slice(0, 16);
+  const products = isResearchPreview ? previewProducts : allProducts;
+  const productIds = new Set(products.map((product) => product.id));
+  const configurations = isResearchPreview
+    ? allConfigurations.filter((configuration) => productIds.has(configuration.product_id))
+    : allConfigurations;
   const offers = isResearchPreview ? getUsResearchOffers() : getUsPublicOffers();
   const asOf = process.env.NEXT_PUBLIC_OFFER_POLICY_AS_OF ?? usPublication.updated_at;
 
@@ -32,7 +41,11 @@ export default function UsSaunaFinderPage() {
         <p>Capacity, exterior dimensions, available power and price scope are evaluated separately. Missing facts remain visible and documented conflicts are not converted into recommendations.</p>
       </section>
       <section className="page-shell us-finder-section">
-        {isResearchPreview ? <p className="us-preview-notice">Research preview · candidate records are not approved for publication</p> : null}
+        {isResearchPreview ? (
+          <p className="us-preview-notice">
+            Research preview · candidate records are not approved for publication. The interactive finder uses a bounded sample while the 100-record catalog completes review.
+          </p>
+        ) : null}
         <UsSaunaFinder products={products} configurations={configurations} offers={offers} asOf={asOf} />
       </section>
     </>

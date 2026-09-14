@@ -38,8 +38,8 @@ for (const flag of ["routes_enabled", "indexing_enabled", "affiliate_links_enabl
   if (publication[flag] !== false) issues.push(`publication.${flag}: protected preview requires false`);
 }
 if (offersDocument.offers.length !== 0) issues.push("data/us/offers.json: expected zero offers in the current real pilot");
-if (productsDocument.products.length !== 18) issues.push(`data/us/products.json: expected 18 pilot products, found ${productsDocument.products.length}`);
-if (configurationsDocument.configurations.length !== 18) issues.push(`data/us/configurations.json: expected 18 pilot configurations, found ${configurationsDocument.configurations.length}`);
+if (productsDocument.products.length !== 100) issues.push(`data/us/products.json: expected 100 pilot products, found ${productsDocument.products.length}`);
+if (configurationsDocument.configurations.length !== 100) issues.push(`data/us/configurations.json: expected 100 pilot configurations, found ${configurationsDocument.configurations.length}`);
 if (productsDocument.products.some((product) => product.publication_status !== "candidate")) {
   issues.push("data/us/products.json: every protected pilot product must remain a candidate");
 }
@@ -69,6 +69,7 @@ for (const file of htmlFiles) {
 
 const catalogHtml = await readFile(resolve(usOutputRoot, "saunas/index.html"), "utf8");
 const finderHtml = await readFile(resolve(usOutputRoot, "sauna-finder/index.html"), "utf8");
+requireText(finderHtml, "bounded sample", "/us/sauna-finder/", issues);
 for (const product of productsDocument.products) {
   const productRoute = `/us/saunas/${product.slug}/`;
   const productPath = resolve(usOutputRoot, `saunas/${product.slug}/index.html`);
@@ -79,7 +80,6 @@ for (const product of productsDocument.products) {
     .map((source) => source.title);
 
   requireText(catalogHtml, product.model, "/us/saunas/", issues);
-  requireText(finderHtml, product.id, "/us/sauna-finder/", issues);
   requireText(productHtml, product.model, productRoute, issues);
   if (configuration) requireText(productHtml, configuration.label, productRoute, issues);
   for (const sourceTitle of sourceTitles) requireText(productHtml, sourceTitle, productRoute, issues);

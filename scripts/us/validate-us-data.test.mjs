@@ -206,7 +206,7 @@ function validBundle() {
 test("the checked-in disabled US pilot bundle is valid and non-public", async () => {
   const bundle = await loadUsBundle();
   assert.doesNotThrow(() => validateUsBundle(bundle));
-  assert.equal(bundle.products.products.length, 18);
+  assert.equal(bundle.products.products.length, 100);
   assert.ok(bundle.products.products.every((product) => product.publication_status === "candidate"));
   assert.equal(bundle.offers.offers.length, 0);
   assert.equal(bundle.publication.routes_enabled, false);

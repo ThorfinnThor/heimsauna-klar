@@ -14,8 +14,8 @@ const options = buildUsDirectComparisonOptions(productsDocument.products, config
 const optionIds = options.map((option) => option.configurationId);
 
 test("the direct comparison exposes every pilot configuration once", () => {
-  assert.equal(options.length, 18);
-  assert.equal(new Set(optionIds).size, 18);
+  assert.equal(options.length, 100);
+  assert.equal(new Set(optionIds).size, 100);
   for (const option of options) {
     const configuration = configurationsDocument.configurations.find((entry) => entry.id === option.configurationId);
     assert.equal(option.productId, configuration?.product_id);

@@ -8,13 +8,51 @@
       "slug": "peak-shasta",
       "brand_name": "Peak Saunas",
       "model": "Shasta",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-shasta-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-shasta-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-shasta-product"]},
-      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-peak-shasta-product"]},
-      "form": {"status": "documented", "value": "Freestanding infrared cabin", "evidence_ids": ["evidence-peak-shasta-product"]},
-      "configuration_ids": ["peak-shasta-standard"],
-      "source_ids": ["peak-shasta-product"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-shasta-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-shasta-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-peak-shasta-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-peak-shasta-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding infrared cabin",
+        "evidence_ids": [
+          "evidence-peak-shasta-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-shasta-standard"
+      ],
+      "source_ids": [
+        "peak-shasta-product"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-13",
       "change_reason": "Research pilot from the official Peak Saunas product page; not published until US route, editorial and rights review."
@@ -25,13 +63,51 @@
       "slug": "peak-everest",
       "brand_name": "Peak Saunas",
       "model": "Everest",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-everest-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-everest-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-everest-product"]},
-      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-peak-everest-product"]},
-      "form": {"status": "documented", "value": "Freestanding infrared cabin", "evidence_ids": ["evidence-peak-everest-product"]},
-      "configuration_ids": ["peak-everest-standard"],
-      "source_ids": ["peak-everest-product"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-everest-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-everest-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-peak-everest-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-peak-everest-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding infrared cabin",
+        "evidence_ids": [
+          "evidence-peak-everest-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-everest-standard"
+      ],
+      "source_ids": [
+        "peak-everest-product"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-13",
       "change_reason": "Research pilot from the official Peak Saunas product page; not published until US route, editorial and rights review."
@@ -42,13 +118,51 @@
       "slug": "jnh-tosi-1",
       "brand_name": "JNH Lifestyles",
       "model": "Tosi 1-Person",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-jnh-tosi-1-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-jnh-tosi-1-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-jnh-tosi-1-product"]},
-      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-jnh-tosi-1-product"]},
-      "form": {"status": "documented", "value": "Freestanding full-spectrum infrared cabin", "evidence_ids": ["evidence-jnh-tosi-1-product"]},
-      "configuration_ids": ["jnh-tosi-1-standard"],
-      "source_ids": ["jnh-tosi-1-product"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-jnh-tosi-1-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-jnh-tosi-1-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-jnh-tosi-1-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-jnh-tosi-1-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-jnh-tosi-1-product"
+        ]
+      },
+      "configuration_ids": [
+        "jnh-tosi-1-standard"
+      ],
+      "source_ids": [
+        "jnh-tosi-1-product"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-13",
       "change_reason": "Research pilot from the official JNH Lifestyles product page; not published until US route, editorial and rights review."
@@ -59,13 +173,51 @@
       "slug": "jnh-tosi-2",
       "brand_name": "JNH Lifestyles",
       "model": "Tosi 2-Person",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-jnh-tosi-2-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-jnh-tosi-2-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-jnh-tosi-2-product"]},
-      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-jnh-tosi-2-product"]},
-      "form": {"status": "documented", "value": "Freestanding full-spectrum infrared cabin", "evidence_ids": ["evidence-jnh-tosi-2-product"]},
-      "configuration_ids": ["jnh-tosi-2-standard"],
-      "source_ids": ["jnh-tosi-2-product"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-jnh-tosi-2-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-jnh-tosi-2-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-jnh-tosi-2-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-jnh-tosi-2-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-jnh-tosi-2-product"
+        ]
+      },
+      "configuration_ids": [
+        "jnh-tosi-2-standard"
+      ],
+      "source_ids": [
+        "jnh-tosi-2-product"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-13",
       "change_reason": "Research pilot from the official JNH Lifestyles product page; not published until US route, editorial and rights review."
@@ -76,13 +228,51 @@
       "slug": "jnh-tosi-4",
       "brand_name": "JNH Lifestyles",
       "model": "Tosi Red 4-Person",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-jnh-tosi-4-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-jnh-tosi-4-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-jnh-tosi-4-product"]},
-      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-jnh-tosi-4-product"]},
-      "form": {"status": "documented", "value": "Freestanding full-spectrum infrared cabin", "evidence_ids": ["evidence-jnh-tosi-4-product"]},
-      "configuration_ids": ["jnh-tosi-4-standard"],
-      "source_ids": ["jnh-tosi-4-product"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-jnh-tosi-4-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-jnh-tosi-4-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-jnh-tosi-4-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-jnh-tosi-4-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-jnh-tosi-4-product"
+        ]
+      },
+      "configuration_ids": [
+        "jnh-tosi-4-standard"
+      ],
+      "source_ids": [
+        "jnh-tosi-4-product"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-13",
       "change_reason": "Research pilot from the official JNH Lifestyles product page; not published until US route, editorial and rights review."
@@ -93,13 +283,51 @@
       "slug": "jnh-arki-outdoor-duo",
       "brand_name": "JNH Lifestyles",
       "model": "Arki Outdoor Duo",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-jnh-arki-outdoor-duo-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-jnh-arki-outdoor-duo-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-jnh-arki-outdoor-duo-product"]},
-      "placements": {"status": "documented", "value": ["outdoor"], "evidence_ids": ["evidence-jnh-arki-outdoor-duo-product"]},
-      "form": {"status": "documented", "value": "All-season outdoor full-spectrum infrared cabin", "evidence_ids": ["evidence-jnh-arki-outdoor-duo-product"]},
-      "configuration_ids": ["jnh-arki-outdoor-duo-standard"],
-      "source_ids": ["jnh-arki-outdoor-duo-product"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-jnh-arki-outdoor-duo-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-jnh-arki-outdoor-duo-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-jnh-arki-outdoor-duo-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-jnh-arki-outdoor-duo-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "All-season outdoor full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-jnh-arki-outdoor-duo-product"
+        ]
+      },
+      "configuration_ids": [
+        "jnh-arki-outdoor-duo-standard"
+      ],
+      "source_ids": [
+        "jnh-arki-outdoor-duo-product"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-13",
       "change_reason": "Research pilot from the official JNH Lifestyles product page; not published until US route, editorial and rights review."
@@ -110,13 +338,51 @@
       "slug": "peak-mini",
       "brand_name": "Peak Saunas",
       "model": "Mini",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-mini-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-mini-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-mini-product"]},
-      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-peak-mini-product"]},
-      "form": {"status": "documented", "value": "Freestanding full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-mini-product"]},
-      "configuration_ids": ["peak-mini-standard"],
-      "source_ids": ["peak-mini-product"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-mini-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-mini-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-peak-mini-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-peak-mini-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-peak-mini-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-mini-standard"
+      ],
+      "source_ids": [
+        "peak-mini-product"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
       "change_reason": "Additional research candidate from the official Peak Saunas product page; not published until US route, editorial and rights review."
@@ -127,13 +393,51 @@
       "slug": "peak-crown",
       "brand_name": "Peak Saunas",
       "model": "Crown",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-crown-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-crown-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-crown-product"]},
-      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-peak-crown-product"]},
-      "form": {"status": "documented", "value": "Freestanding full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-crown-product"]},
-      "configuration_ids": ["peak-crown-standard"],
-      "source_ids": ["peak-crown-product"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-crown-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-crown-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-peak-crown-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-peak-crown-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-peak-crown-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-crown-standard"
+      ],
+      "source_ids": [
+        "peak-crown-product"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
       "change_reason": "Additional research candidate from the official Peak Saunas product page; not published until US route, editorial and rights review."
@@ -144,13 +448,51 @@
       "slug": "peak-fuji",
       "brand_name": "Peak Saunas",
       "model": "Fuji",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-fuji-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-fuji-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-fuji-product"]},
-      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-peak-fuji-product"]},
-      "form": {"status": "documented", "value": "Freestanding full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-fuji-product"]},
-      "configuration_ids": ["peak-fuji-standard"],
-      "source_ids": ["peak-fuji-product"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-fuji-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-fuji-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-peak-fuji-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-peak-fuji-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-peak-fuji-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-fuji-standard"
+      ],
+      "source_ids": [
+        "peak-fuji-product"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
       "change_reason": "Additional research candidate from the official Peak Saunas product page; not published until US route, editorial and rights review."
@@ -161,13 +503,51 @@
       "slug": "peak-patagonia",
       "brand_name": "Peak Saunas",
       "model": "Patagonia",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-patagonia-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-patagonia-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-patagonia-product"]},
-      "placements": {"status": "documented", "value": ["outdoor"], "evidence_ids": ["evidence-peak-patagonia-product"]},
-      "form": {"status": "documented", "value": "Outdoor-rated full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-patagonia-product"]},
-      "configuration_ids": ["peak-patagonia-standard"],
-      "source_ids": ["peak-patagonia-product"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-patagonia-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-patagonia-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-peak-patagonia-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-peak-patagonia-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor-rated full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-peak-patagonia-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-patagonia-standard"
+      ],
+      "source_ids": [
+        "peak-patagonia-product"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
       "change_reason": "Additional research candidate from the official Peak Saunas product page; not published until US route, editorial and rights review."
@@ -178,13 +558,44 @@
       "slug": "saunalife-e6",
       "brand_name": "SaunaLife",
       "model": "ERGO Series Model E6",
-      "product_type": {"status": "documented", "value": "sauna-kit", "evidence_ids": ["evidence-saunalife-e6-product"]},
-      "heat_type": {"status": "unknown", "reason": "The checked SaunaLife product page identifies the sauna kit but does not specify the heater type."},
-      "energy_sources": {"status": "unknown", "reason": "The checked SaunaLife product page does not state the heater energy source or electrical requirement."},
-      "placements": {"status": "documented", "value": ["outdoor"], "evidence_ids": ["evidence-saunalife-e6-product"]},
-      "form": {"status": "documented", "value": "Outdoor sauna barrel kit", "evidence_ids": ["evidence-saunalife-e6-product"]},
-      "configuration_ids": ["saunalife-e6-standard"],
-      "source_ids": ["saunalife-e6-product", "saunalife-technical-information"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-e6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked SaunaLife product page identifies the sauna kit but does not specify the heater type."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked SaunaLife product page does not state the heater energy source or electrical requirement."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna barrel kit",
+        "evidence_ids": [
+          "evidence-saunalife-e6-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-e6-standard"
+      ],
+      "source_ids": [
+        "saunalife-e6-product",
+        "saunalife-technical-information"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
       "change_reason": "Research candidate from the official SaunaLife product page; heater, electrical and publication rights remain unresolved."
@@ -195,13 +606,44 @@
       "slug": "saunalife-e7",
       "brand_name": "SaunaLife",
       "model": "ERGO Series Model E7",
-      "product_type": {"status": "documented", "value": "sauna-kit", "evidence_ids": ["evidence-saunalife-e7-product"]},
-      "heat_type": {"status": "unknown", "reason": "The checked SaunaLife product page identifies the sauna kit but does not specify the heater type."},
-      "energy_sources": {"status": "unknown", "reason": "The checked SaunaLife product page does not state the heater energy source or electrical requirement."},
-      "placements": {"status": "documented", "value": ["outdoor"], "evidence_ids": ["evidence-saunalife-e7-product"]},
-      "form": {"status": "documented", "value": "Outdoor sauna barrel kit", "evidence_ids": ["evidence-saunalife-e7-product"]},
-      "configuration_ids": ["saunalife-e7-standard"],
-      "source_ids": ["saunalife-e7-product", "saunalife-technical-information"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-e7-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked SaunaLife product page identifies the sauna kit but does not specify the heater type."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked SaunaLife product page does not state the heater energy source or electrical requirement."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e7-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna barrel kit",
+        "evidence_ids": [
+          "evidence-saunalife-e7-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-e7-standard"
+      ],
+      "source_ids": [
+        "saunalife-e7-product",
+        "saunalife-technical-information"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
       "change_reason": "Research candidate from the official SaunaLife product page; heater, electrical and publication rights remain unresolved."
@@ -212,13 +654,44 @@
       "slug": "saunalife-cl3g",
       "brand_name": "SaunaLife",
       "model": "CUBE Series Model CL3G",
-      "product_type": {"status": "documented", "value": "sauna-kit", "evidence_ids": ["evidence-saunalife-cl3g-product"]},
-      "heat_type": {"status": "unknown", "reason": "The checked SaunaLife product page identifies the sauna kit but does not specify the heater type."},
-      "energy_sources": {"status": "unknown", "reason": "The checked SaunaLife product page does not state the heater energy source or electrical requirement."},
-      "placements": {"status": "documented", "value": ["outdoor"], "evidence_ids": ["evidence-saunalife-cl3g-product"]},
-      "form": {"status": "documented", "value": "Outdoor sauna cabin kit with glass front", "evidence_ids": ["evidence-saunalife-cl3g-product"]},
-      "configuration_ids": ["saunalife-cl3g-standard"],
-      "source_ids": ["saunalife-cl3g-product", "saunalife-technical-information"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-cl3g-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked SaunaLife product page identifies the sauna kit but does not specify the heater type."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked SaunaLife product page does not state the heater energy source or electrical requirement."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-cl3g-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna cabin kit with glass front",
+        "evidence_ids": [
+          "evidence-saunalife-cl3g-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-cl3g-standard"
+      ],
+      "source_ids": [
+        "saunalife-cl3g-product",
+        "saunalife-technical-information"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
       "change_reason": "Research candidate from the official SaunaLife product page; heater, electrical and publication rights remain unresolved."
@@ -229,13 +702,44 @@
       "slug": "saunalife-g11",
       "brand_name": "SaunaLife",
       "model": "GARDEN Series Model G11",
-      "product_type": {"status": "documented", "value": "sauna-kit", "evidence_ids": ["evidence-saunalife-g11-product"]},
-      "heat_type": {"status": "unknown", "reason": "The checked SaunaLife product page identifies the sauna suite but does not specify the heater type."},
-      "energy_sources": {"status": "unknown", "reason": "The checked SaunaLife product page does not state the heater energy source or electrical requirement."},
-      "placements": {"status": "documented", "value": ["outdoor"], "evidence_ids": ["evidence-saunalife-g11-product"]},
-      "form": {"status": "documented", "value": "Outdoor two-room sauna suite", "evidence_ids": ["evidence-saunalife-g11-product"]},
-      "configuration_ids": ["saunalife-g11-standard"],
-      "source_ids": ["saunalife-g11-product", "saunalife-technical-information"],
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-g11-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked SaunaLife product page identifies the sauna suite but does not specify the heater type."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked SaunaLife product page does not state the heater energy source or electrical requirement."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-g11-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor two-room sauna suite",
+        "evidence_ids": [
+          "evidence-saunalife-g11-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-g11-standard"
+      ],
+      "source_ids": [
+        "saunalife-g11-product",
+        "saunalife-technical-information"
+      ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
       "change_reason": "Research candidate from the official SaunaLife product page; heater, electrical and publication rights remain unresolved."
@@ -246,12 +750,55 @@
       "slug": "peak-rainier",
       "brand_name": "Peak Saunas",
       "model": "Rainier",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-rainier-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-rainier-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-rainier-product"]},
-      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-peak-rainier-product"]},
-      "form": {"status": "documented", "value": "Freestanding full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-rainier-product"]},
-      "configuration_ids": ["peak-rainier-standard"], "source_ids": ["peak-rainier-product", "peak-saunas-model-reference", "peak-saunas-manuals"], "publication_status": "candidate", "spec_checked_at": "2026-09-14",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-rainier-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-rainier-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-peak-rainier-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-peak-rainier-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-peak-rainier-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-rainier-standard"
+      ],
+      "source_ids": [
+        "peak-rainier-product",
+        "peak-saunas-model-reference",
+        "peak-saunas-manuals"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
       "change_reason": "Research candidate from the official Peak Saunas product page and model references; not published until US route, editorial and rights review."
     },
     {
@@ -260,12 +807,55 @@
       "slug": "peak-matterhorn",
       "brand_name": "Peak Saunas",
       "model": "Matterhorn",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-matterhorn-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-matterhorn-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-matterhorn-product"]},
-      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-peak-matterhorn-product"]},
-      "form": {"status": "documented", "value": "Freestanding full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-matterhorn-product"]},
-      "configuration_ids": ["peak-matterhorn-standard"], "source_ids": ["peak-matterhorn-product", "peak-saunas-model-reference", "peak-saunas-manuals"], "publication_status": "candidate", "spec_checked_at": "2026-09-14",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-matterhorn-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-matterhorn-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-peak-matterhorn-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-peak-matterhorn-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-peak-matterhorn-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-matterhorn-standard"
+      ],
+      "source_ids": [
+        "peak-matterhorn-product",
+        "peak-saunas-model-reference",
+        "peak-saunas-manuals"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
       "change_reason": "Research candidate from the official Peak Saunas product page and model references; not published until US route, editorial and rights review."
     },
     {
@@ -274,12 +864,55 @@
       "slug": "peak-kilimanjaro",
       "brand_name": "Peak Saunas",
       "model": "Kilimanjaro",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-kilimanjaro-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-kilimanjaro-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-kilimanjaro-product"]},
-      "placements": {"status": "documented", "value": ["outdoor"], "evidence_ids": ["evidence-peak-kilimanjaro-product"]},
-      "form": {"status": "documented", "value": "Outdoor full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-kilimanjaro-product"]},
-      "configuration_ids": ["peak-kilimanjaro-standard"], "source_ids": ["peak-kilimanjaro-product", "peak-saunas-model-reference", "peak-saunas-manuals"], "publication_status": "candidate", "spec_checked_at": "2026-09-14",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-kilimanjaro-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-kilimanjaro-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-peak-kilimanjaro-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-peak-kilimanjaro-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-peak-kilimanjaro-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-kilimanjaro-standard"
+      ],
+      "source_ids": [
+        "peak-kilimanjaro-product",
+        "peak-saunas-model-reference",
+        "peak-saunas-manuals"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
       "change_reason": "Research candidate from the official Peak Saunas product page and model references; not published until US route, editorial and rights review."
     },
     {
@@ -288,13 +921,4033 @@
       "slug": "peak-el-capitan",
       "brand_name": "Peak Saunas",
       "model": "El Capitan",
-      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-el-capitan-product"]},
-      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-el-capitan-product"]},
-      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-el-capitan-product"]},
-      "placements": {"status": "documented", "value": ["outdoor"], "evidence_ids": ["evidence-peak-el-capitan-product"]},
-      "form": {"status": "documented", "value": "Outdoor full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-el-capitan-product"]},
-      "configuration_ids": ["peak-el-capitan-standard"], "source_ids": ["peak-el-capitan-product", "peak-saunas-model-reference", "peak-saunas-manuals"], "publication_status": "candidate", "spec_checked_at": "2026-09-14",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-el-capitan-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-el-capitan-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-peak-el-capitan-product"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-peak-el-capitan-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-peak-el-capitan-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-el-capitan-standard"
+      ],
+      "source_ids": [
+        "peak-el-capitan-product",
+        "peak-saunas-model-reference",
+        "peak-saunas-manuals"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
       "change_reason": "Research candidate from the official Peak Saunas product page and model references; not published until US route, editorial and rights review."
+    },
+    {
+      "id": "saunalife-e6w",
+      "market": "US",
+      "slug": "saunalife-e6w",
+      "brand_name": "SaunaLife",
+      "model": "ERGO Series Model E6W",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-e6w-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e6w-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-e6w-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-e6w-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-e7w",
+      "market": "US",
+      "slug": "saunalife-e7w",
+      "brand_name": "SaunaLife",
+      "model": "ERGO Series Model E7W",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-e7w-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e7w-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-e7w-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-e7w-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-e7g",
+      "market": "US",
+      "slug": "saunalife-e7g",
+      "brand_name": "SaunaLife",
+      "model": "ERGO Series Model E7G",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-e7g-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e7g-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-e7g-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-e7g-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-e8",
+      "market": "US",
+      "slug": "saunalife-e8",
+      "brand_name": "SaunaLife",
+      "model": "ERGO Series Model E8",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-e8-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e8-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-e8-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-e8-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-e8w",
+      "market": "US",
+      "slug": "saunalife-e8w",
+      "brand_name": "SaunaLife",
+      "model": "ERGO Series Model E8W",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-e8w-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e8w-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-e8w-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-e8w-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-e8g",
+      "market": "US",
+      "slug": "saunalife-e8g",
+      "brand_name": "SaunaLife",
+      "model": "ERGO Series Model E8G",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-e8g-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e8g-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-e8g-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-e8g-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-ee6g",
+      "market": "US",
+      "slug": "saunalife-ee6g",
+      "brand_name": "SaunaLife",
+      "model": "ERGO Elegance Series Model EE6G",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-ee6g-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-ee6g-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-ee6g-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-ee6g-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-ee8g",
+      "market": "US",
+      "slug": "saunalife-ee8g",
+      "brand_name": "SaunaLife",
+      "model": "ERGO Elegance Series Model EE8G",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-ee8g-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-ee8g-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-ee8g-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-ee8g-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-x2",
+      "market": "US",
+      "slug": "saunalife-x2",
+      "brand_name": "SaunaLife",
+      "model": "XPERIENCE Series Model X2",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-x2-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-x2-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-x2-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-x2-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-g2",
+      "market": "US",
+      "slug": "saunalife-g2",
+      "brand_name": "SaunaLife",
+      "model": "GARDEN Series Model G2",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-g2-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-g2-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-g2-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-g2-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-g3",
+      "market": "US",
+      "slug": "saunalife-g3",
+      "brand_name": "SaunaLife",
+      "model": "GARDEN Series Model G3",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-g3-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-g3-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-g3-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-g3-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-g6",
+      "market": "US",
+      "slug": "saunalife-g6",
+      "brand_name": "SaunaLife",
+      "model": "GARDEN Series Model G6",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-g6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-g6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-g6-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-g6-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-cl4g",
+      "market": "US",
+      "slug": "saunalife-cl4g",
+      "brand_name": "SaunaLife",
+      "model": "CUBE Series Model CL4G",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-cl4g-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-cl4g-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-cl4g-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-cl4g-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-cl5g",
+      "market": "US",
+      "slug": "saunalife-cl5g",
+      "brand_name": "SaunaLife",
+      "model": "CUBE Series Model CL5G",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-cl5g-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-cl5g-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-cl5g-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-cl5g-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-cl7g",
+      "market": "US",
+      "slug": "saunalife-cl7g",
+      "brand_name": "SaunaLife",
+      "model": "CUBE Series Model CL7G",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-cl7g-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-cl7g-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-cl7g-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-cl7g-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-cl12gcp",
+      "market": "US",
+      "slug": "saunalife-cl12gcp",
+      "brand_name": "SaunaLife",
+      "model": "CUBE Series Model CL12GCP",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-cl12gcp-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-cl12gcp-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-cl12gcp-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-cl12gcp-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-gl4",
+      "market": "US",
+      "slug": "saunalife-gl4",
+      "brand_name": "SaunaLife",
+      "model": "GARDEN LUXURY Series Model GL4",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-gl4-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-gl4-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-gl4-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-gl4-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "saunalife-gl6",
+      "market": "US",
+      "slug": "saunalife-gl6",
+      "brand_name": "SaunaLife",
+      "model": "GARDEN LUXURY Series Model GL6",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-saunalife-gl6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-gl6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-saunalife-gl6-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunalife-gl6-standard"
+      ],
+      "source_ids": [
+        "saunalife-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-hillsboro",
+      "market": "US",
+      "slug": "almost-heaven-hillsboro",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Hillsboro 2 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-hillsboro-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-hillsboro-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-hillsboro-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-hillsboro-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-hillsboro-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-pinnacle",
+      "market": "US",
+      "slug": "almost-heaven-pinnacle",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Pinnacle 4 Person Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-pinnacle-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-pinnacle-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-pinnacle-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-pinnacle-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-pinnacle-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-logan",
+      "market": "US",
+      "slug": "almost-heaven-logan",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Logan 1 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-logan-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-logan-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-logan-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-logan-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-logan-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-princeton",
+      "market": "US",
+      "slug": "almost-heaven-princeton",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Princeton 6 Person Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-princeton-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-princeton-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-princeton-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-princeton-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-princeton-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-rainelle",
+      "market": "US",
+      "slug": "almost-heaven-rainelle",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Rainelle 4 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-rainelle-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "hybrid",
+        "evidence_ids": [
+          "evidence-almost-heaven-rainelle-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-rainelle-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-rainelle-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-rainelle-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-audra",
+      "market": "US",
+      "slug": "almost-heaven-audra",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Audra 2-4 Person Canopy Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-audra-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-audra-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-audra-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-audra-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-audra-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-bridgeport",
+      "market": "US",
+      "slug": "almost-heaven-bridgeport",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Bridgeport 6 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-bridgeport-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "hybrid",
+        "evidence_ids": [
+          "evidence-almost-heaven-bridgeport-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-bridgeport-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-bridgeport-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-bridgeport-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-grandview",
+      "market": "US",
+      "slug": "almost-heaven-grandview",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Grandview 4-6 Person Canopy Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-grandview-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-grandview-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-grandview-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-grandview-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-grandview-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-titan",
+      "market": "US",
+      "slug": "almost-heaven-titan",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Titan 6 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-titan-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-titan-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-titan-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-titan-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-titan-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-patterson",
+      "market": "US",
+      "slug": "almost-heaven-patterson",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Patterson 6 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-patterson-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-patterson-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-patterson-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-patterson-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-patterson-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-lewisburg",
+      "market": "US",
+      "slug": "almost-heaven-lewisburg",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Lewisburg 6-8 Person Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-lewisburg-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-lewisburg-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-lewisburg-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-lewisburg-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-lewisburg-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-grayson",
+      "market": "US",
+      "slug": "almost-heaven-grayson",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Grayson 4 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-grayson-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "hybrid",
+        "evidence_ids": [
+          "evidence-almost-heaven-grayson-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-grayson-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-grayson-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-grayson-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-charleston",
+      "market": "US",
+      "slug": "almost-heaven-charleston",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Charleston 4 Person Canopy Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-charleston-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-charleston-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-charleston-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-charleston-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-charleston-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-huntington",
+      "market": "US",
+      "slug": "almost-heaven-huntington",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Huntington 4-6 Person Canopy Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-huntington-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-huntington-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-huntington-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-huntington-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-huntington-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "almost-heaven-madison",
+      "market": "US",
+      "slug": "almost-heaven-madison",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Madison 2-3 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-madison-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "hybrid",
+        "evidence_ids": [
+          "evidence-almost-heaven-madison-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-madison-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-madison-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-madison-standard"
+      ],
+      "source_ids": [
+        "almost-heaven-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-mpulse-aspire",
+      "market": "US",
+      "slug": "sunlighten-mpulse-aspire",
+      "brand_name": "Sunlighten",
+      "model": "mPulse Aspire Smart Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-aspire-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-aspire-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-aspire-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-aspire-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-mpulse-aspire-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-mpulse-believe",
+      "market": "US",
+      "slug": "sunlighten-mpulse-believe",
+      "brand_name": "Sunlighten",
+      "model": "mPulse Believe Smart Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-believe-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-believe-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-believe-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-believe-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-mpulse-believe-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-mpulse-conquer",
+      "market": "US",
+      "slug": "sunlighten-mpulse-conquer",
+      "brand_name": "Sunlighten",
+      "model": "mPulse Conquer Smart Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-conquer-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-conquer-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-conquer-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-conquer-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-mpulse-conquer-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-mpulse-discover",
+      "market": "US",
+      "slug": "sunlighten-mpulse-discover",
+      "brand_name": "Sunlighten",
+      "model": "mPulse Discover Smart Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-discover-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-discover-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-discover-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-discover-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-mpulse-discover-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-mpulse-empower",
+      "market": "US",
+      "slug": "sunlighten-mpulse-empower",
+      "brand_name": "Sunlighten",
+      "model": "mPulse Empower Smart Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-empower-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-empower-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-empower-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-mpulse-empower-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-mpulse-empower-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-amplify-ii",
+      "market": "US",
+      "slug": "sunlighten-amplify-ii",
+      "brand_name": "Sunlighten",
+      "model": "Amplify II Full Spectrum Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-ii-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-ii-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-ii-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-ii-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-amplify-ii-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-amplify-iii",
+      "market": "US",
+      "slug": "sunlighten-amplify-iii",
+      "brand_name": "Sunlighten",
+      "model": "Amplify III Full Spectrum Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-iii-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-iii-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-iii-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-iii-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-amplify-iii-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-amplify-iv",
+      "market": "US",
+      "slug": "sunlighten-amplify-iv",
+      "brand_name": "Sunlighten",
+      "model": "Amplify IV Full Spectrum Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-iv-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-iv-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-iv-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-amplify-iv-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-amplify-iv-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-signature-i",
+      "market": "US",
+      "slug": "sunlighten-signature-i",
+      "brand_name": "Sunlighten",
+      "model": "Signature I Far Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-signature-i-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-signature-i-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-signature-i-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-signature-i-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-signature-i-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sun-home-solstice",
+      "market": "US",
+      "slug": "sun-home-solstice",
+      "brand_name": "Sun Home",
+      "model": "Solstice",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-solstice-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna cabin",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-solstice-standard"
+      ],
+      "source_ids": [
+        "sun-home-craftsmanship"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sun-home-equinox",
+      "market": "US",
+      "slug": "sun-home-equinox",
+      "brand_name": "Sun Home",
+      "model": "Equinox",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-equinox-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sun-home-equinox-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-equinox-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna cabin",
+        "evidence_ids": [
+          "evidence-sun-home-equinox-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-equinox-standard"
+      ],
+      "source_ids": [
+        "sun-home-craftsmanship"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sun-home-eclipse-2",
+      "market": "US",
+      "slug": "sun-home-eclipse-2",
+      "brand_name": "Sun Home",
+      "model": "Eclipse 2",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-eclipse-2-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "hybrid",
+        "evidence_ids": [
+          "evidence-sun-home-eclipse-2-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-eclipse-2-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna cabin",
+        "evidence_ids": [
+          "evidence-sun-home-eclipse-2-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-eclipse-2-standard"
+      ],
+      "source_ids": [
+        "sun-home-craftsmanship"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sun-home-pod",
+      "market": "US",
+      "slug": "sun-home-pod",
+      "brand_name": "Sun Home",
+      "model": "Pod",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-pod-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sun-home-pod-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-pod-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna cabin",
+        "evidence_ids": [
+          "evidence-sun-home-pod-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-pod-standard"
+      ],
+      "source_ids": [
+        "sun-home-craftsmanship"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sun-home-luminar-2",
+      "market": "US",
+      "slug": "sun-home-luminar-2",
+      "brand_name": "Sun Home",
+      "model": "Luminar 2",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-luminar-2-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sun-home-luminar-2-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-luminar-2-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna cabin",
+        "evidence_ids": [
+          "evidence-sun-home-luminar-2-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-luminar-2-standard"
+      ],
+      "source_ids": [
+        "sun-home-craftsmanship"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sun-home-nova-3",
+      "market": "US",
+      "slug": "sun-home-nova-3",
+      "brand_name": "Sun Home",
+      "model": "Nova 3",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-nova-3-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sun-home-nova-3-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-nova-3-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna cabin",
+        "evidence_ids": [
+          "evidence-sun-home-nova-3-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-nova-3-standard"
+      ],
+      "source_ids": [
+        "sun-home-craftsmanship"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sun-home-solaris",
+      "market": "US",
+      "slug": "sun-home-solaris",
+      "brand_name": "Sun Home",
+      "model": "Solaris",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-solaris-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sun-home-solaris-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-solaris-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna cabin",
+        "evidence_ids": [
+          "evidence-sun-home-solaris-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-solaris-standard"
+      ],
+      "source_ids": [
+        "sun-home-craftsmanship"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-cabin-4",
+      "market": "US",
+      "slug": "redwood-cabin-4",
+      "brand_name": "Redwood Outdoors",
+      "model": "Cabin Outdoor Sauna 4 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-cabin-4-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-cabin-4-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-cabin-4-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-cabin-4-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-cove-3",
+      "market": "US",
+      "slug": "redwood-cove-3",
+      "brand_name": "Redwood Outdoors",
+      "model": "Cove Outdoor Sauna 3 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-cove-3-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-cove-3-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-cove-3-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-cove-3-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-garden-8",
+      "market": "US",
+      "slug": "redwood-garden-8",
+      "brand_name": "Redwood Outdoors",
+      "model": "Garden Outdoor Sauna 8 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-garden-8-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-garden-8-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-garden-8-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-garden-8-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-grove-8",
+      "market": "US",
+      "slug": "redwood-grove-8",
+      "brand_name": "Redwood Outdoors",
+      "model": "Grove Outdoor Sauna 8 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-grove-8-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-grove-8-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-grove-8-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-grove-8-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-vista-6",
+      "market": "US",
+      "slug": "redwood-vista-6",
+      "brand_name": "Redwood Outdoors",
+      "model": "Vista Outdoor Sauna 6 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-vista-6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-vista-6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-vista-6-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-vista-6-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-horizon-6",
+      "market": "US",
+      "slug": "redwood-horizon-6",
+      "brand_name": "Redwood Outdoors",
+      "model": "Horizon Outdoor Sauna 6 Person with Porch",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-horizon-6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-horizon-6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-horizon-6-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-horizon-6-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-duo-2",
+      "market": "US",
+      "slug": "redwood-duo-2",
+      "brand_name": "Redwood Outdoors",
+      "model": "Duo Outdoor Sauna 2 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-duo-2-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-duo-2-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-duo-2-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-duo-2-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-summit-6",
+      "market": "US",
+      "slug": "redwood-summit-6",
+      "brand_name": "Redwood Outdoors",
+      "model": "Summit Outdoor Sauna 6 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-summit-6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-summit-6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-summit-6-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-summit-6-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-barrel-6",
+      "market": "US",
+      "slug": "redwood-barrel-6",
+      "brand_name": "Redwood Outdoors",
+      "model": "Barrel Outdoor Sauna 6 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-barrel-6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-barrel-6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-barrel-6-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-barrel-6-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-barrel-porch-6",
+      "market": "US",
+      "slug": "redwood-barrel-porch-6",
+      "brand_name": "Redwood Outdoors",
+      "model": "Barrel Outdoor Sauna with Porch 6 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-barrel-porch-6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-barrel-porch-6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-barrel-porch-6-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-barrel-porch-6-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-extra-wide-porch-6",
+      "market": "US",
+      "slug": "redwood-extra-wide-porch-6",
+      "brand_name": "Redwood Outdoors",
+      "model": "Extra-Wide Outdoor Barrel Sauna with Porch 6 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-porch-6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-porch-6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-porch-6-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-extra-wide-porch-6-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-extra-wide-6",
+      "market": "US",
+      "slug": "redwood-extra-wide-6",
+      "brand_name": "Redwood Outdoors",
+      "model": "Extra-Wide Outdoor Barrel Sauna 6 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-6-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-extra-wide-6-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-barrel-8",
+      "market": "US",
+      "slug": "redwood-barrel-8",
+      "brand_name": "Redwood Outdoors",
+      "model": "Barrel Outdoor Sauna 8 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-barrel-8-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-barrel-8-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-barrel-8-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-barrel-8-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-noctra-8",
+      "market": "US",
+      "slug": "redwood-noctra-8",
+      "brand_name": "Redwood Outdoors",
+      "model": "Noctra Outdoor Sauna 8 Person",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-redwood-noctra-8-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-noctra-8-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna kit",
+        "evidence_ids": [
+          "evidence-redwood-noctra-8-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-noctra-8-standard"
+      ],
+      "source_ids": [
+        "redwood-outdoor-saunas"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "thermory-luik-kodiak",
+      "market": "US",
+      "slug": "thermory-luik-kodiak",
+      "brand_name": "Thermory",
+      "model": "Luik Series Kodiak Spruce",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-thermory-luik-kodiak-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermory-luik-kodiak-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna product",
+        "evidence_ids": [
+          "evidence-thermory-luik-kodiak-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermory-luik-kodiak-standard"
+      ],
+      "source_ids": [
+        "thermory-sauna-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "thermory-luik-ash",
+      "market": "US",
+      "slug": "thermory-luik-ash",
+      "brand_name": "Thermory",
+      "model": "Luik Series Benchmark Ash",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-thermory-luik-ash-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermory-luik-ash-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna product",
+        "evidence_ids": [
+          "evidence-thermory-luik-ash-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermory-luik-ash-standard"
+      ],
+      "source_ids": [
+        "thermory-sauna-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "thermory-traditional-mod6",
+      "market": "US",
+      "slug": "thermory-traditional-mod6",
+      "brand_name": "Thermory",
+      "model": "Traditional Mod6 Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-thermory-traditional-mod6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermory-traditional-mod6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna product",
+        "evidence_ids": [
+          "evidence-thermory-traditional-mod6-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermory-traditional-mod6-standard"
+      ],
+      "source_ids": [
+        "thermory-sauna-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "thermory-modern-mod6",
+      "market": "US",
+      "slug": "thermory-modern-mod6",
+      "brand_name": "Thermory",
+      "model": "Modern Mod6 Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-thermory-modern-mod6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermory-modern-mod6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna product",
+        "evidence_ids": [
+          "evidence-thermory-modern-mod6-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermory-modern-mod6-standard"
+      ],
+      "source_ids": [
+        "thermory-sauna-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "thermory-mod4-traditional",
+      "market": "US",
+      "slug": "thermory-mod4-traditional",
+      "brand_name": "Thermory",
+      "model": "Mod4 Sauna Traditional",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-thermory-mod4-traditional-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermory-mod4-traditional-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna product",
+        "evidence_ids": [
+          "evidence-thermory-mod4-traditional-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermory-mod4-traditional-standard"
+      ],
+      "source_ids": [
+        "thermory-sauna-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "thermory-mod4-modern",
+      "market": "US",
+      "slug": "thermory-mod4-modern",
+      "brand_name": "Thermory",
+      "model": "Mod4 Sauna Modern",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-thermory-mod4-modern-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermory-mod4-modern-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna product",
+        "evidence_ids": [
+          "evidence-thermory-mod4-modern-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermory-mod4-modern-standard"
+      ],
+      "source_ids": [
+        "thermory-sauna-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "thermory-sauna-square",
+      "market": "US",
+      "slug": "thermory-sauna-square",
+      "brand_name": "Thermory",
+      "model": "Sauna Square",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-thermory-sauna-square-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermory-sauna-square-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna product",
+        "evidence_ids": [
+          "evidence-thermory-sauna-square-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermory-sauna-square-standard"
+      ],
+      "source_ids": [
+        "thermory-sauna-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "thermory-natural-barrel",
+      "market": "US",
+      "slug": "thermory-natural-barrel",
+      "brand_name": "Thermory",
+      "model": "Natural Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-thermory-natural-barrel-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermory-natural-barrel-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna product",
+        "evidence_ids": [
+          "evidence-thermory-natural-barrel-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermory-natural-barrel-standard"
+      ],
+      "source_ids": [
+        "thermory-sauna-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "thermory-ignite-barrel",
+      "market": "US",
+      "slug": "thermory-ignite-barrel",
+      "brand_name": "Thermory",
+      "model": "Ignite Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-thermory-ignite-barrel-product"
+        ]
+      },
+      "heat_type": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a specific heat format for this model."
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermory-ignite-barrel-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna product",
+        "evidence_ids": [
+          "evidence-thermory-ignite-barrel-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermory-ignite-barrel-standard"
+      ],
+      "source_ids": [
+        "thermory-sauna-products"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-electric-heater",
+      "market": "US",
+      "slug": "redwood-electric-heater",
+      "brand_name": "Redwood Outdoors",
+      "model": "Redwood Outdoors Sauna Electric Heater",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-redwood-electric-heater-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-redwood-electric-heater-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-electric-heater-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater accessory",
+        "evidence_ids": [
+          "evidence-redwood-electric-heater-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-electric-heater-standard"
+      ],
+      "source_ids": [
+        "redwood-assembly-guides"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-heater-fence",
+      "market": "US",
+      "slug": "redwood-heater-fence",
+      "brand_name": "Redwood Outdoors",
+      "model": "Redwood Outdoors Sauna Heater Fence",
+      "product_type": {
+        "status": "documented",
+        "value": "accessory",
+        "evidence_ids": [
+          "evidence-redwood-heater-fence-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "not-applicable",
+        "evidence_ids": [
+          "evidence-redwood-heater-fence-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-heater-fence-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna safety accessory",
+        "evidence_ids": [
+          "evidence-redwood-heater-fence-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-heater-fence-standard"
+      ],
+      "source_ids": [
+        "redwood-assembly-guides"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-lighting",
+      "market": "US",
+      "slug": "redwood-lighting",
+      "brand_name": "Redwood Outdoors",
+      "model": "Redwood Outdoors Sauna Lighting",
+      "product_type": {
+        "status": "documented",
+        "value": "accessory",
+        "evidence_ids": [
+          "evidence-redwood-lighting-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "not-applicable",
+        "evidence_ids": [
+          "evidence-redwood-lighting-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-lighting-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna lighting accessory",
+        "evidence_ids": [
+          "evidence-redwood-lighting-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-lighting-standard"
+      ],
+      "source_ids": [
+        "redwood-assembly-guides"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-bench-extender",
+      "market": "US",
+      "slug": "redwood-bench-extender",
+      "brand_name": "Redwood Outdoors",
+      "model": "Redwood Outdoors Sauna Bench Extender",
+      "product_type": {
+        "status": "documented",
+        "value": "accessory",
+        "evidence_ids": [
+          "evidence-redwood-bench-extender-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "not-applicable",
+        "evidence_ids": [
+          "evidence-redwood-bench-extender-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-bench-extender-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna bench accessory",
+        "evidence_ids": [
+          "evidence-redwood-bench-extender-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-bench-extender-standard"
+      ],
+      "source_ids": [
+        "redwood-assembly-guides"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-roof-shingles",
+      "market": "US",
+      "slug": "redwood-roof-shingles",
+      "brand_name": "Redwood Outdoors",
+      "model": "Redwood Outdoors Sauna Roof Shingles",
+      "product_type": {
+        "status": "documented",
+        "value": "accessory",
+        "evidence_ids": [
+          "evidence-redwood-roof-shingles-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "not-applicable",
+        "evidence_ids": [
+          "evidence-redwood-roof-shingles-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-roof-shingles-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna installation accessory",
+        "evidence_ids": [
+          "evidence-redwood-roof-shingles-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-roof-shingles-standard"
+      ],
+      "source_ids": [
+        "redwood-assembly-guides"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-privacy-screen",
+      "market": "US",
+      "slug": "redwood-privacy-screen",
+      "brand_name": "Redwood Outdoors",
+      "model": "Redwood Outdoors Sauna Privacy Screen",
+      "product_type": {
+        "status": "documented",
+        "value": "accessory",
+        "evidence_ids": [
+          "evidence-redwood-privacy-screen-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "not-applicable",
+        "evidence_ids": [
+          "evidence-redwood-privacy-screen-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-privacy-screen-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna accessory",
+        "evidence_ids": [
+          "evidence-redwood-privacy-screen-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-privacy-screen-standard"
+      ],
+      "source_ids": [
+        "redwood-assembly-guides"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "redwood-outdoor-shower",
+      "market": "US",
+      "slug": "redwood-outdoor-shower",
+      "brand_name": "Redwood Outdoors",
+      "model": "Redwood Outdoors Outdoor Shower",
+      "product_type": {
+        "status": "documented",
+        "value": "accessory",
+        "evidence_ids": [
+          "evidence-redwood-outdoor-shower-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "not-applicable",
+        "evidence_ids": [
+          "evidence-redwood-outdoor-shower-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-outdoor-shower-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna accessory",
+        "evidence_ids": [
+          "evidence-redwood-outdoor-shower-product"
+        ]
+      },
+      "configuration_ids": [
+        "redwood-outdoor-shower-standard"
+      ],
+      "source_ids": [
+        "redwood-assembly-guides"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-solo-system",
+      "market": "US",
+      "slug": "sunlighten-solo-system",
+      "brand_name": "Sunlighten",
+      "model": "Solo System Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-blanket",
+        "evidence_ids": [
+          "evidence-sunlighten-solo-system-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-solo-system-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-solo-system-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Laydown infrared sauna system",
+        "evidence_ids": [
+          "evidence-sunlighten-solo-system-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-solo-system-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-solo-rise",
+      "market": "US",
+      "slug": "sunlighten-solo-rise",
+      "brand_name": "Sunlighten",
+      "model": "Solo Rise Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-solo-rise-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunlighten-solo-rise-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-solo-rise-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunlighten-solo-rise-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-solo-rise-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+    },
+    {
+      "id": "sunlighten-luminir-panel",
+      "market": "US",
+      "slug": "sunlighten-luminir-panel",
+      "brand_name": "Sunlighten",
+      "model": "lumiNIR Red Light Therapy Panel",
+      "product_type": {
+        "status": "documented",
+        "value": "accessory",
+        "evidence_ids": [
+          "evidence-sunlighten-luminir-panel-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "not-applicable",
+        "evidence_ids": [
+          "evidence-sunlighten-luminir-panel-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The checked collection page does not state a model-specific energy source."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunlighten-luminir-panel-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Red light therapy accessory",
+        "evidence_ids": [
+          "evidence-sunlighten-luminir-panel-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunlighten-luminir-panel-standard"
+      ],
+      "source_ids": [
+        "sunlighten-sauna-collections"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
     }
   ]
 }

@@ -20,7 +20,10 @@ export default function UsDirectComparisonPage() {
   const isResearchPreview = !usPublication.routes_enabled && process.env.US_RESEARCH_PREVIEW === "1";
   const products = isResearchPreview ? getUsResearchProducts() : getUsPublicProducts();
   const configurations = isResearchPreview ? getUsResearchConfigurations() : getUsPublicConfigurations();
-  const options = buildUsDirectComparisonOptions(products, configurations);
+  const allOptions = buildUsDirectComparisonOptions(products, configurations);
+  // The catalog and product routes carry all candidates. Keep this protected
+  // interactive preview small enough for a static HTML payload until approval.
+  const options = isResearchPreview ? allOptions.slice(0, 24) : allOptions;
 
   return (
     <>
@@ -30,7 +33,11 @@ export default function UsDirectComparisonPage() {
         <p>Model names alone can hide differences in size and electrical requirements. This tool compares the documented configuration records without ranking them.</p>
       </section>
       <section className="page-shell us-direct-comparison-section">
-        {isResearchPreview ? <p className="us-preview-notice">Research preview · candidate records are not approved for publication</p> : null}
+        {isResearchPreview ? (
+          <p className="us-preview-notice">
+            Research preview · candidate records are not approved for publication. The comparison shows a bounded sample while the 100-record catalog completes review.
+          </p>
+        ) : null}
         <UsDirectComparison options={options} />
       </section>
     </>

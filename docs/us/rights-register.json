@@ -5,23 +5,1005 @@
   "updated_at": "2026-09-14",
   "policy": "No manufacturer image is used in the US pilot until the relevant Awin or merchant permission is documented. Product pages remain source links only.",
   "assets": [
-    {"asset_id": "peak-shasta-image", "entity_id": "peak-shasta", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-shasta-1-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-xl-medical-grade-red-light-therapy-smart-wifi-app-control", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "peak-everest-image", "entity_id": "peak-everest", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-everest-2-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "jnh-tosi-1-image", "entity_id": "jnh-tosi-1", "merchant_id": "jnh-lifestyles", "asset_type": "manufacturer-image", "source_url": "https://jnhlifestyles.com/tosi-1-person-full-spectrum-infrared-sauna", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "jnh-tosi-2-image", "entity_id": "jnh-tosi-2", "merchant_id": "jnh-lifestyles", "asset_type": "manufacturer-image", "source_url": "https://jnhlifestyles.com/tosi-2-person-full-spectrum-infrared-sauna", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "jnh-tosi-4-image", "entity_id": "jnh-tosi-4", "merchant_id": "jnh-lifestyles", "asset_type": "manufacturer-image", "source_url": "https://jnhlifestyles.com/tosi-red-4-person-full-spectrum-infrared-sauna", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "jnh-arki-outdoor-duo-image", "entity_id": "jnh-arki-outdoor-duo", "merchant_id": "jnh-lifestyles", "asset_type": "manufacturer-image", "source_url": "https://jnhlifestyles.com/all-saunas/jnh-arki-outdoor-2-person-red-light-therapy-full-spectrum-infrared-sauna-ultra-low-emf/", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "peak-mini-image", "entity_id": "peak-mini", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-mini-1-person-indoor-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "peak-crown-image", "entity_id": "peak-crown", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-crown-2-person-full-spectrum-infrared-sauna", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "peak-fuji-image", "entity_id": "peak-fuji", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-fuji-2-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "peak-patagonia-image", "entity_id": "peak-patagonia", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-patagonia-2-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "saunalife-e6-image", "entity_id": "saunalife-e6", "merchant_id": "saunalife", "asset_type": "manufacturer-image", "source_url": "https://saunalife.com/saunas/ergo-series-model-e6/", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "saunalife-e7-image", "entity_id": "saunalife-e7", "merchant_id": "saunalife", "asset_type": "manufacturer-image", "source_url": "https://saunalife.com/saunas/ergo-series-model-e7/", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "saunalife-cl3g-image", "entity_id": "saunalife-cl3g", "merchant_id": "saunalife", "asset_type": "manufacturer-image", "source_url": "https://saunalife.com/saunas/cube-series-model-cl3g/", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."},
-    {"asset_id": "saunalife-g11-image", "entity_id": "saunalife-g11", "merchant_id": "saunalife", "asset_type": "manufacturer-image", "source_url": "https://saunalife.com/saunas/garden-series-model-g11/", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."}
-    ,{"asset_id": "peak-rainier-image", "entity_id": "peak-rainier", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-rainier-1-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-xl-medical-grade-red-light-therapy-smart-wifi-app-control", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."}
-    ,{"asset_id": "peak-matterhorn-image", "entity_id": "peak-matterhorn", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-matterhorn-3-person-full-spectrum-infrared-sauna-with-two-xl-medical-grade-red-light-therapy-smart-wifi-app-control", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."}
-    ,{"asset_id": "peak-kilimanjaro-image", "entity_id": "peak-kilimanjaro", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-kilimanjaro-5-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."}
-    ,{"asset_id": "peak-el-capitan-image", "entity_id": "peak-el-capitan", "merchant_id": "peak-saunas", "asset_type": "manufacturer-image", "source_url": "https://peaksaunas.com/products/peak-saunas-el-capitan-4-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control", "rights_status": "not-requested", "permission_basis": "none", "action": "Use no image until written permission or an approved feed license is recorded."}
+    {
+      "asset_id": "peak-shasta-image",
+      "entity_id": "peak-shasta",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-shasta-1-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-xl-medical-grade-red-light-therapy-smart-wifi-app-control",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "peak-everest-image",
+      "entity_id": "peak-everest",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-everest-2-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "jnh-tosi-1-image",
+      "entity_id": "jnh-tosi-1",
+      "merchant_id": "jnh-lifestyles",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://jnhlifestyles.com/tosi-1-person-full-spectrum-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "jnh-tosi-2-image",
+      "entity_id": "jnh-tosi-2",
+      "merchant_id": "jnh-lifestyles",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://jnhlifestyles.com/tosi-2-person-full-spectrum-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "jnh-tosi-4-image",
+      "entity_id": "jnh-tosi-4",
+      "merchant_id": "jnh-lifestyles",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://jnhlifestyles.com/tosi-red-4-person-full-spectrum-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "jnh-arki-outdoor-duo-image",
+      "entity_id": "jnh-arki-outdoor-duo",
+      "merchant_id": "jnh-lifestyles",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://jnhlifestyles.com/all-saunas/jnh-arki-outdoor-2-person-red-light-therapy-full-spectrum-infrared-sauna-ultra-low-emf/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "peak-mini-image",
+      "entity_id": "peak-mini",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-mini-1-person-indoor-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "peak-crown-image",
+      "entity_id": "peak-crown",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-crown-2-person-full-spectrum-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "peak-fuji-image",
+      "entity_id": "peak-fuji",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-fuji-2-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "peak-patagonia-image",
+      "entity_id": "peak-patagonia",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-patagonia-2-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-e6-image",
+      "entity_id": "saunalife-e6",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/saunas/ergo-series-model-e6/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-e7-image",
+      "entity_id": "saunalife-e7",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/saunas/ergo-series-model-e7/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-cl3g-image",
+      "entity_id": "saunalife-cl3g",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/saunas/cube-series-model-cl3g/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-g11-image",
+      "entity_id": "saunalife-g11",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/saunas/garden-series-model-g11/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "peak-rainier-image",
+      "entity_id": "peak-rainier",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-rainier-1-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-xl-medical-grade-red-light-therapy-smart-wifi-app-control",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "peak-matterhorn-image",
+      "entity_id": "peak-matterhorn",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-matterhorn-3-person-full-spectrum-infrared-sauna-with-two-xl-medical-grade-red-light-therapy-smart-wifi-app-control",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "peak-kilimanjaro-image",
+      "entity_id": "peak-kilimanjaro",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-kilimanjaro-5-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "peak-el-capitan-image",
+      "entity_id": "peak-el-capitan",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-el-capitan-4-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-e6w-image",
+      "entity_id": "saunalife-e6w",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-e7w-image",
+      "entity_id": "saunalife-e7w",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-e7g-image",
+      "entity_id": "saunalife-e7g",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-e8-image",
+      "entity_id": "saunalife-e8",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-e8w-image",
+      "entity_id": "saunalife-e8w",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-e8g-image",
+      "entity_id": "saunalife-e8g",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-ee6g-image",
+      "entity_id": "saunalife-ee6g",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-ee8g-image",
+      "entity_id": "saunalife-ee8g",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-x2-image",
+      "entity_id": "saunalife-x2",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-g2-image",
+      "entity_id": "saunalife-g2",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-g3-image",
+      "entity_id": "saunalife-g3",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-g6-image",
+      "entity_id": "saunalife-g6",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-cl4g-image",
+      "entity_id": "saunalife-cl4g",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-cl5g-image",
+      "entity_id": "saunalife-cl5g",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-cl7g-image",
+      "entity_id": "saunalife-cl7g",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-cl12gcp-image",
+      "entity_id": "saunalife-cl12gcp",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-gl4-image",
+      "entity_id": "saunalife-gl4",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunalife-gl6-image",
+      "entity_id": "saunalife-gl6",
+      "merchant_id": "saunalife",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunalife.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-hillsboro-image",
+      "entity_id": "almost-heaven-hillsboro",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-pinnacle-image",
+      "entity_id": "almost-heaven-pinnacle",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-logan-image",
+      "entity_id": "almost-heaven-logan",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-princeton-image",
+      "entity_id": "almost-heaven-princeton",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-rainelle-image",
+      "entity_id": "almost-heaven-rainelle",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-audra-image",
+      "entity_id": "almost-heaven-audra",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-bridgeport-image",
+      "entity_id": "almost-heaven-bridgeport",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-grandview-image",
+      "entity_id": "almost-heaven-grandview",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-titan-image",
+      "entity_id": "almost-heaven-titan",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-patterson-image",
+      "entity_id": "almost-heaven-patterson",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-lewisburg-image",
+      "entity_id": "almost-heaven-lewisburg",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-grayson-image",
+      "entity_id": "almost-heaven-grayson",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-charleston-image",
+      "entity_id": "almost-heaven-charleston",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-huntington-image",
+      "entity_id": "almost-heaven-huntington",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-madison-image",
+      "entity_id": "almost-heaven-madison",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-mpulse-aspire-image",
+      "entity_id": "sunlighten-mpulse-aspire",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-mpulse-believe-image",
+      "entity_id": "sunlighten-mpulse-believe",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-mpulse-conquer-image",
+      "entity_id": "sunlighten-mpulse-conquer",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-mpulse-discover-image",
+      "entity_id": "sunlighten-mpulse-discover",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-mpulse-empower-image",
+      "entity_id": "sunlighten-mpulse-empower",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-amplify-ii-image",
+      "entity_id": "sunlighten-amplify-ii",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-amplify-iii-image",
+      "entity_id": "sunlighten-amplify-iii",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-amplify-iv-image",
+      "entity_id": "sunlighten-amplify-iv",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-signature-i-image",
+      "entity_id": "sunlighten-signature-i",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-solstice-image",
+      "entity_id": "sun-home-solstice",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/pages/craftsmanship",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-equinox-image",
+      "entity_id": "sun-home-equinox",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/pages/craftsmanship",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-eclipse-2-image",
+      "entity_id": "sun-home-eclipse-2",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/pages/craftsmanship",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-pod-image",
+      "entity_id": "sun-home-pod",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/pages/craftsmanship",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-luminar-2-image",
+      "entity_id": "sun-home-luminar-2",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/pages/craftsmanship",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-nova-3-image",
+      "entity_id": "sun-home-nova-3",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/pages/craftsmanship",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-solaris-image",
+      "entity_id": "sun-home-solaris",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/pages/craftsmanship",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-cabin-4-image",
+      "entity_id": "redwood-cabin-4",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-cove-3-image",
+      "entity_id": "redwood-cove-3",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-garden-8-image",
+      "entity_id": "redwood-garden-8",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-grove-8-image",
+      "entity_id": "redwood-grove-8",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-vista-6-image",
+      "entity_id": "redwood-vista-6",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-horizon-6-image",
+      "entity_id": "redwood-horizon-6",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-duo-2-image",
+      "entity_id": "redwood-duo-2",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-summit-6-image",
+      "entity_id": "redwood-summit-6",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-barrel-6-image",
+      "entity_id": "redwood-barrel-6",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-barrel-porch-6-image",
+      "entity_id": "redwood-barrel-porch-6",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-extra-wide-porch-6-image",
+      "entity_id": "redwood-extra-wide-porch-6",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-extra-wide-6-image",
+      "entity_id": "redwood-extra-wide-6",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-barrel-8-image",
+      "entity_id": "redwood-barrel-8",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-noctra-8-image",
+      "entity_id": "redwood-noctra-8",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermory-luik-kodiak-image",
+      "entity_id": "thermory-luik-kodiak",
+      "merchant_id": "thermory",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sauna.thermoryusa.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermory-luik-ash-image",
+      "entity_id": "thermory-luik-ash",
+      "merchant_id": "thermory",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sauna.thermoryusa.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermory-traditional-mod6-image",
+      "entity_id": "thermory-traditional-mod6",
+      "merchant_id": "thermory",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sauna.thermoryusa.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermory-modern-mod6-image",
+      "entity_id": "thermory-modern-mod6",
+      "merchant_id": "thermory",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sauna.thermoryusa.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermory-mod4-traditional-image",
+      "entity_id": "thermory-mod4-traditional",
+      "merchant_id": "thermory",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sauna.thermoryusa.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermory-mod4-modern-image",
+      "entity_id": "thermory-mod4-modern",
+      "merchant_id": "thermory",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sauna.thermoryusa.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermory-sauna-square-image",
+      "entity_id": "thermory-sauna-square",
+      "merchant_id": "thermory",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sauna.thermoryusa.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermory-natural-barrel-image",
+      "entity_id": "thermory-natural-barrel",
+      "merchant_id": "thermory",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sauna.thermoryusa.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermory-ignite-barrel-image",
+      "entity_id": "thermory-ignite-barrel",
+      "merchant_id": "thermory",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sauna.thermoryusa.com/products/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-electric-heater-image",
+      "entity_id": "redwood-electric-heater",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/pages/assembly",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-heater-fence-image",
+      "entity_id": "redwood-heater-fence",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/pages/assembly",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-lighting-image",
+      "entity_id": "redwood-lighting",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/pages/assembly",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-bench-extender-image",
+      "entity_id": "redwood-bench-extender",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/pages/assembly",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-roof-shingles-image",
+      "entity_id": "redwood-roof-shingles",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/pages/assembly",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-privacy-screen-image",
+      "entity_id": "redwood-privacy-screen",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/pages/assembly",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "redwood-outdoor-shower-image",
+      "entity_id": "redwood-outdoor-shower",
+      "merchant_id": "redwood-outdoors",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.redwoodoutdoors.com/pages/assembly",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-solo-system-image",
+      "entity_id": "sunlighten-solo-system",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-solo-rise-image",
+      "entity_id": "sunlighten-solo-rise",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunlighten-luminir-panel-image",
+      "entity_id": "sunlighten-luminir-panel",
+      "merchant_id": "sunlighten",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    }
   ]
 }

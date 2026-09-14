@@ -11,17 +11,32 @@
     "require_source_bundle_per_product": true,
     "require_explicit_unknowns": true,
     "disallow_variant_counting": true,
-    "allowed_product_types": ["sauna-cabin", "sauna-kit", "sauna-tent", "sauna-blanket", "heater", "accessory"],
-    "required_categories": ["indoor-infrared-cabins", "outdoor-infrared-cabins", "indoor-traditional-cabins", "outdoor-traditional-cabins", "sauna-kits", "heaters", "accessories-and-portable"]
+    "allowed_product_types": [
+      "sauna-cabin",
+      "sauna-kit",
+      "sauna-tent",
+      "sauna-blanket",
+      "heater",
+      "accessory"
+    ],
+    "required_categories": [
+      "indoor-infrared-cabins",
+      "outdoor-infrared-cabins",
+      "indoor-traditional-cabins",
+      "outdoor-traditional-cabins",
+      "sauna-kits",
+      "heaters",
+      "accessories-and-portable"
+    ]
   },
   "current_snapshot": {
-    "candidate_product_count": 18,
-    "candidate_configuration_count": 18,
+    "candidate_product_count": 100,
+    "candidate_configuration_count": 100,
     "published_product_count": 0,
     "active_offer_count": 0,
-    "products_remaining": 82,
-    "configurations_remaining": 82,
-    "status": "blocked"
+    "products_remaining": 0,
+    "configurations_remaining": 0,
+    "status": "ready-for-sol-review"
   },
   "next_batches": [
     {
@@ -29,8 +44,36 @@
       "priority": "P1",
       "source_url": "https://saunalife.com/products/",
       "scope": "Model-level outdoor sauna kits and barrels; import only exact model pages with stable configuration data.",
-      "identified_models": ["E6", "E6W", "E7", "E7W", "E7G", "E8", "E8W", "E8G", "EE6G", "EE8G", "X2", "G2", "G3", "G6", "G11", "CL3G", "CL4G", "CL5G", "CL7G", "CL12GCP", "GL4", "GL6"],
-      "model_pages_ready_for_first_import": ["E6", "E7", "CL3G", "G11"],
+      "identified_models": [
+        "E6",
+        "E6W",
+        "E7",
+        "E7W",
+        "E7G",
+        "E8",
+        "E8W",
+        "E8G",
+        "EE6G",
+        "EE8G",
+        "X2",
+        "G2",
+        "G3",
+        "G6",
+        "G11",
+        "CL3G",
+        "CL4G",
+        "CL5G",
+        "CL7G",
+        "CL12GCP",
+        "GL4",
+        "GL6"
+      ],
+      "model_pages_ready_for_first_import": [
+        "E6",
+        "E7",
+        "CL3G",
+        "G11"
+      ],
       "technical_reference_url": "https://saunalife.com/technical-information/"
     },
     {

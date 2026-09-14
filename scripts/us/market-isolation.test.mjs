@@ -33,9 +33,9 @@ test("currency output follows the selected market", () => {
 
 test("disabled US routes cannot expose candidate products", () => {
   assert.deepEqual(getEnabledMarkets().map((market) => market.code), ["DE"]);
-  assert.equal(getUsResearchProducts().length, 18);
+  assert.equal(getUsResearchProducts().length, 100);
   assert.equal(getUsPublicProducts().length, 0);
   assert.equal(getUsPublicConfigurations().length, 0);
   assert.equal(getUsPublicOffers().length, 0);
-  assert.deepEqual(getUsResearchStats(), { products: 18, configurations: 18, offers: 0, publicProducts: 0 });
+  assert.deepEqual(getUsResearchStats(), { products: 100, configurations: 100, offers: 0, publicProducts: 0 });
 });

@@ -120,8 +120,11 @@ test("real pilot data produces nine known indoor infrared 120 V results and nine
     asOf: "2026-09-13",
   });
   assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 9);
-  assert.equal(results.filter((entry) => entry.status === "excluded").length, 9);
-  assert.equal(results.at(-1).productId, "saunalife-g11");
+  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 13);
+  assert.equal(results.filter((entry) => entry.status === "excluded").length, 78);
+  assert.deepEqual(results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId), [
+    "peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4", "peak-mini", "peak-crown", "peak-fuji", "peak-rainier",
+  ]);
 });
 
 test("the pilot scenario for two indoor infrared seats on 120 V returns five known configurations", () => {
@@ -141,11 +144,8 @@ test("the pilot scenario for two indoor infrared seats on 120 V returns five kno
     results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId),
     ["peak-everest", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-fuji"],
   );
-  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 0);
-  assert.deepEqual(
-    results.filter((entry) => entry.status === "excluded").map((entry) => entry.productId),
-    ["peak-shasta", "jnh-tosi-1", "jnh-arki-outdoor-duo", "peak-mini", "peak-patagonia", "peak-rainier", "peak-matterhorn", "peak-kilimanjaro", "peak-el-capitan", "saunalife-cl3g", "saunalife-e6", "saunalife-e7", "saunalife-g11"],
-  );
+  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 11);
+  assert.equal(results.filter((entry) => entry.status === "excluded").length, 84);
 });
 
 test("adding a room envelope keeps the pilot honest when installation clearances are unknown", () => {
@@ -162,8 +162,9 @@ test("adding a room envelope keeps the pilot honest when installation clearances
     },
     asOf: "2026-09-13",
   });
-  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 5);
-  assert(results.filter((entry) => entry.status === "needs-verification").every((entry) => entry.unknownCriteria.includes("space:installation-clearances")));
+  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 16);
+  const roomVerification = results.filter((entry) => entry.status === "needs-verification" && entry.unknownCriteria.includes("space:installation-clearances"));
+  assert.equal(roomVerification.length, 5);
 });
 
 test("hard capacity uses the full requested group size", () => {

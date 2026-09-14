@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "research-only",
+  "status": "ready-for-sol-review",
   "updated_at": "2026-09-14",
   "purpose": "Prioritized, source-backed candidates for the protected US catalog. This file does not publish products, offers, prices or affiliate links.",
   "autopublish": false,
   "sol_acceptance_gate": "docs/us/sol-acceptance-gate.json",
   "current_catalog": {
-    "candidate_product_count": 18,
+    "candidate_product_count": 100,
     "published_product_count": 0,
     "approved_program_count": 0,
     "active_offer_count": 0,
     "minimum_before_sol_acceptance": 100,
-    "products_remaining_before_sol_acceptance": 82
+    "products_remaining_before_sol_acceptance": 0
   },
   "entries": [
     {
@@ -23,10 +23,21 @@
       "status": "imported-candidate",
       "autopublish": false,
       "merchant_id": "peak-saunas",
-      "source_ids": ["peak-saunas-model-reference", "peak-rainier-product", "peak-saunas-manuals"],
+      "source_ids": [
+        "peak-saunas-model-reference",
+        "peak-rainier-product",
+        "peak-saunas-manuals"
+      ],
       "why_next": "Adds a distinct one-person indoor Peak configuration to the current indoor infrared coverage.",
-      "known_unknowns": ["Exact SKU and complete manual mapping have not been entered into the canonical product/configuration files.", "Offer, image rights and account eligibility remain unconfirmed."],
-      "required_before_import": ["Capture a complete configuration record from the product page and manual.", "Confirm the model identifier and source dates.", "Complete rights and program checks before any offer or route is enabled."]
+      "known_unknowns": [
+        "Exact SKU and complete manual mapping have not been entered into the canonical product/configuration files.",
+        "Offer, image rights and account eligibility remain unconfirmed."
+      ],
+      "required_before_import": [
+        "Capture a complete configuration record from the product page and manual.",
+        "Confirm the model identifier and source dates.",
+        "Complete rights and program checks before any offer or route is enabled."
+      ]
     },
     {
       "id": "peak-matterhorn",
@@ -36,10 +47,21 @@
       "status": "imported-candidate",
       "autopublish": false,
       "merchant_id": "peak-saunas",
-      "source_ids": ["peak-saunas-model-reference", "peak-matterhorn-product", "peak-saunas-manuals"],
+      "source_ids": [
+        "peak-saunas-model-reference",
+        "peak-matterhorn-product",
+        "peak-saunas-manuals"
+      ],
       "why_next": "Adds a three-person indoor configuration and improves coverage between the current two- and four-person options.",
-      "known_unknowns": ["Weight, complete installation constraints and exact SKU have not been captured in the canonical files.", "Offer, image rights and account eligibility remain unconfirmed."],
-      "required_before_import": ["Capture a complete configuration record from the product page and manual.", "Resolve the weight and clearance fields or record them as unknown with a source-based reason.", "Complete rights and program checks before any offer or route is enabled."]
+      "known_unknowns": [
+        "Weight, complete installation constraints and exact SKU have not been captured in the canonical files.",
+        "Offer, image rights and account eligibility remain unconfirmed."
+      ],
+      "required_before_import": [
+        "Capture a complete configuration record from the product page and manual.",
+        "Resolve the weight and clearance fields or record them as unknown with a source-based reason.",
+        "Complete rights and program checks before any offer or route is enabled."
+      ]
     },
     {
       "id": "peak-kilimanjaro",
@@ -49,10 +71,21 @@
       "status": "imported-candidate",
       "autopublish": false,
       "merchant_id": "peak-saunas",
-      "source_ids": ["peak-saunas-model-reference", "peak-kilimanjaro-product", "peak-saunas-manuals"],
+      "source_ids": [
+        "peak-saunas-model-reference",
+        "peak-kilimanjaro-product",
+        "peak-saunas-manuals"
+      ],
       "why_next": "Expands outdoor infrared coverage with a larger five-person model and an outdoor-rated electrical configuration.",
-      "known_unknowns": ["Complete placement, foundation and clearance guidance has not been entered into the canonical files.", "Offer, image rights and account eligibility remain unconfirmed."],
-      "required_before_import": ["Capture the outdoor installation and clearance guidance from the manual.", "Confirm the model identifier and current source dates.", "Complete rights and program checks before any offer or route is enabled."]
+      "known_unknowns": [
+        "Complete placement, foundation and clearance guidance has not been entered into the canonical files.",
+        "Offer, image rights and account eligibility remain unconfirmed."
+      ],
+      "required_before_import": [
+        "Capture the outdoor installation and clearance guidance from the manual.",
+        "Confirm the model identifier and current source dates.",
+        "Complete rights and program checks before any offer or route is enabled."
+      ]
     },
     {
       "id": "peak-el-capitan",
@@ -62,10 +95,21 @@
       "status": "imported-candidate",
       "autopublish": false,
       "merchant_id": "peak-saunas",
-      "source_ids": ["peak-saunas-model-reference", "peak-el-capitan-product", "peak-saunas-manuals"],
+      "source_ids": [
+        "peak-saunas-model-reference",
+        "peak-el-capitan-product",
+        "peak-saunas-manuals"
+      ],
       "why_next": "Adds a four-person outdoor infrared model without treating the Peak collection page as a product record.",
-      "known_unknowns": ["The complete interior dimensions, weight and installation constraints still need a model-level capture.", "Offer, image rights and account eligibility remain unconfirmed."],
-      "required_before_import": ["Capture all required configuration facts from the product page and manual.", "Resolve any variant or bundle ambiguity before assigning a product ID.", "Complete rights and program checks before any offer or route is enabled."]
+      "known_unknowns": [
+        "The complete interior dimensions, weight and installation constraints still need a model-level capture.",
+        "Offer, image rights and account eligibility remain unconfirmed."
+      ],
+      "required_before_import": [
+        "Capture all required configuration facts from the product page and manual.",
+        "Resolve any variant or bundle ambiguity before assigning a product ID.",
+        "Complete rights and program checks before any offer or route is enabled."
+      ]
     },
     {
       "id": "sweat-cabin",
@@ -75,10 +119,21 @@
       "status": "configuration-review",
       "autopublish": false,
       "merchant_id": "sweat-kingdom",
-      "source_ids": ["sweat-cabin-product", "sweat-kingdom-home", "awin-sweat-kingdom-profile"],
+      "source_ids": [
+        "sweat-cabin-product",
+        "sweat-kingdom-home",
+        "awin-sweat-kingdom-profile"
+      ],
       "why_next": "Provides a source-backed traditional sauna candidate for the currently empty outdoor traditional category.",
-      "known_unknowns": ["The product page presents wall-height and configuration choices that need a stable catalog configuration.", "Shipping scope, exact electrical documentation and a product-level asset decision remain open."],
-      "required_before_import": ["Choose a documented base configuration or model family policy.", "Capture heater, dimensions, electrical, warranty and placement facts from the applicable documents.", "Complete rights and program checks before any offer or route is enabled."]
+      "known_unknowns": [
+        "The product page presents wall-height and configuration choices that need a stable catalog configuration.",
+        "Shipping scope, exact electrical documentation and a product-level asset decision remain open."
+      ],
+      "required_before_import": [
+        "Choose a documented base configuration or model family policy.",
+        "Capture heater, dimensions, electrical, warranty and placement facts from the applicable documents.",
+        "Complete rights and program checks before any offer or route is enabled."
+      ]
     },
     {
       "id": "sunlighten-portable-and-accessories",
@@ -88,10 +143,21 @@
       "status": "category-candidate",
       "autopublish": false,
       "merchant_id": "sunlighten",
-      "source_ids": ["sunlighten-home", "awin-sunlighten-profile", "awin-sunlighten-terms"],
+      "source_ids": [
+        "sunlighten-home",
+        "awin-sunlighten-profile",
+        "awin-sunlighten-terms"
+      ],
       "why_next": "Keeps portable and accessory products separate from cabin comparisons instead of forcing them into the existing sauna taxonomy.",
-      "known_unknowns": ["No single model-level source bundle has been selected for import.", "The current storefront includes multiple product types and the exact scope for a sauna-only pilot is unresolved."],
-      "required_before_import": ["Define the portable/accessory taxonomy and inclusion rules.", "Select exact model pages with stable technical facts.", "Complete rights and program checks before any offer or route is enabled."]
+      "known_unknowns": [
+        "No single model-level source bundle has been selected for import.",
+        "The current storefront includes multiple product types and the exact scope for a sauna-only pilot is unresolved."
+      ],
+      "required_before_import": [
+        "Define the portable/accessory taxonomy and inclusion rules.",
+        "Select exact model pages with stable technical facts.",
+        "Complete rights and program checks before any offer or route is enabled."
+      ]
     },
     {
       "id": "jnh-outdoor-expansion",
@@ -101,10 +167,21 @@
       "status": "category-candidate",
       "autopublish": false,
       "merchant_id": "jnh-lifestyles",
-      "source_ids": ["jnh-lifestyles-home", "awin-jnh-profile", "awin-jnh-terms"],
+      "source_ids": [
+        "jnh-lifestyles-home",
+        "awin-jnh-profile",
+        "awin-jnh-terms"
+      ],
       "why_next": "The existing JNH relationship may support additional outdoor models, but the collection page must be decomposed model by model.",
-      "known_unknowns": ["The collection source is not sufficient to create product records or infer variants.", "Exact product pages, technical facts and current feed mappings have not been selected."],
-      "required_before_import": ["Select exact model pages and a stable product identifier for each candidate.", "Capture model-specific configuration facts and source dates.", "Complete rights and program checks before any offer or route is enabled."]
+      "known_unknowns": [
+        "The collection source is not sufficient to create product records or infer variants.",
+        "Exact product pages, technical facts and current feed mappings have not been selected."
+      ],
+      "required_before_import": [
+        "Select exact model pages and a stable product identifier for each candidate.",
+        "Capture model-specific configuration facts and source dates.",
+        "Complete rights and program checks before any offer or route is enabled."
+      ]
     }
   ]
 }

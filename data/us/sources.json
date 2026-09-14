@@ -331,6 +331,66 @@
       "market": "US",
       "checked_at": "2026-09-14",
       "locator": "Model installation manuals and technical references"
+    },
+    {
+      "id": "almost-heaven-saunas-collection",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/collections/saunas",
+      "title": "Almost Heaven Saunas collection",
+      "publisher": "Almost",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Model collection and product listing"
+    },
+    {
+      "id": "thermory-sauna-products",
+      "type": "manufacturer-page",
+      "url": "https://sauna.thermoryusa.com/products/",
+      "title": "Thermory USA sauna products",
+      "publisher": "Thermory",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Model collection and product listing"
+    },
+    {
+      "id": "sunlighten-sauna-collections",
+      "type": "manufacturer-page",
+      "url": "https://shop-us.sunlighten.com/collections/saunas",
+      "title": "Sunlighten US sauna collections",
+      "publisher": "Sunlighten",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Model collection and product listing"
+    },
+    {
+      "id": "sun-home-craftsmanship",
+      "type": "manufacturer-page",
+      "url": "https://sunhomesaunas.com/pages/craftsmanship",
+      "title": "Sun Home model and materials reference",
+      "publisher": "Sun",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Model collection and product listing"
+    },
+    {
+      "id": "redwood-outdoor-saunas",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/collections/outdoor-saunas",
+      "title": "Redwood Outdoors outdoor sauna collection",
+      "publisher": "Redwood",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Model collection and product listing"
+    },
+    {
+      "id": "redwood-assembly-guides",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/pages/assembly",
+      "title": "Redwood Outdoors assembly and product guide index",
+      "publisher": "Redwood",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Model collection and product listing"
     }
   ],
   "evidence": [
@@ -531,36 +591,1208 @@
       "raw_value": "G11 sauna room and changing room each 7 ft 7 in L x 6 ft 4 in W x 7 ft 7 in H; shipping 196 x 47 x 47 in; 3196 lb; materials stated on product page"
     },
     {
-      "id": "evidence-peak-rainier-product", "entity_id": "peak-rainier", "field_path": "manufacturer-product-page", "source_id": "peak-rainier-product",
+      "id": "evidence-peak-rainier-product",
+      "entity_id": "peak-rainier",
+      "field_path": "manufacturer-product-page",
+      "source_id": "peak-rainier-product",
       "raw_value": "Rainier 1-person indoor full-spectrum infrared cabin; 120 V / 15 A / 1800 W; 42 x 40 x 75 in exterior; 305 lb; Canadian red cedar"
     },
     {
-      "id": "evidence-peak-rainier-configuration", "entity_id": "peak-rainier-standard", "field_path": "manufacturer-product-page.specifications", "source_id": "peak-rainier-product",
+      "id": "evidence-peak-rainier-configuration",
+      "entity_id": "peak-rainier-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "peak-rainier-product",
       "raw_value": "Rainier specifications, dimensions, materials and electrical section"
     },
     {
-      "id": "evidence-peak-matterhorn-product", "entity_id": "peak-matterhorn", "field_path": "manufacturer-product-page", "source_id": "peak-matterhorn-product",
+      "id": "evidence-peak-matterhorn-product",
+      "entity_id": "peak-matterhorn",
+      "field_path": "manufacturer-product-page",
+      "source_id": "peak-matterhorn-product",
       "raw_value": "Matterhorn 3-person indoor full-spectrum infrared cabin; dedicated 240 V / 20 A circuit; 61 x 44 x 75 in exterior; 400 lb; Canadian red cedar"
     },
     {
-      "id": "evidence-peak-matterhorn-configuration", "entity_id": "peak-matterhorn-standard", "field_path": "manufacturer-product-page.specifications", "source_id": "peak-matterhorn-product",
+      "id": "evidence-peak-matterhorn-configuration",
+      "entity_id": "peak-matterhorn-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "peak-matterhorn-product",
       "raw_value": "Matterhorn specifications, dimensions, materials and electrical section"
     },
     {
-      "id": "evidence-peak-kilimanjaro-product", "entity_id": "peak-kilimanjaro", "field_path": "manufacturer-product-page", "source_id": "peak-kilimanjaro-product",
+      "id": "evidence-peak-kilimanjaro-product",
+      "entity_id": "peak-kilimanjaro",
+      "field_path": "manufacturer-product-page",
+      "source_id": "peak-kilimanjaro-product",
       "raw_value": "Kilimanjaro 5-person outdoor full-spectrum infrared cabin; dedicated 240 V / 30 A circuit; 59 x 59 x 83 in exterior; 1031 lb; aerospace-grade aluminum exterior and Canadian hemlock interior"
     },
     {
-      "id": "evidence-peak-kilimanjaro-configuration", "entity_id": "peak-kilimanjaro-standard", "field_path": "manufacturer-product-page.specifications", "source_id": "peak-kilimanjaro-product",
+      "id": "evidence-peak-kilimanjaro-configuration",
+      "entity_id": "peak-kilimanjaro-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "peak-kilimanjaro-product",
       "raw_value": "Kilimanjaro specifications, dimensions, materials and electrical section"
     },
     {
-      "id": "evidence-peak-el-capitan-product", "entity_id": "peak-el-capitan", "field_path": "manufacturer-product-page", "source_id": "peak-el-capitan-product",
+      "id": "evidence-peak-el-capitan-product",
+      "entity_id": "peak-el-capitan",
+      "field_path": "manufacturer-product-page",
+      "source_id": "peak-el-capitan-product",
       "raw_value": "El Capitan 4-person outdoor full-spectrum infrared cabin; dedicated 240 V / 30 A circuit; 81 x 55 x 83 in exterior; 695 lb; aerospace-grade aluminum exterior and Canadian hemlock interior"
     },
     {
-      "id": "evidence-peak-el-capitan-configuration", "entity_id": "peak-el-capitan-standard", "field_path": "manufacturer-product-page.specifications", "source_id": "peak-el-capitan-product",
+      "id": "evidence-peak-el-capitan-configuration",
+      "entity_id": "peak-el-capitan-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "peak-el-capitan-product",
       "raw_value": "El Capitan specifications, dimensions, materials and electrical section"
+    },
+    {
+      "id": "evidence-saunalife-e6w-product",
+      "entity_id": "saunalife-e6w",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "ERGO Series Model E6W listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-e6w-configuration",
+      "entity_id": "saunalife-e6w-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "ERGO Series Model E6W is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-e7w-product",
+      "entity_id": "saunalife-e7w",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "ERGO Series Model E7W listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-e7w-configuration",
+      "entity_id": "saunalife-e7w-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "ERGO Series Model E7W is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-e7g-product",
+      "entity_id": "saunalife-e7g",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "ERGO Series Model E7G listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-e7g-configuration",
+      "entity_id": "saunalife-e7g-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "ERGO Series Model E7G is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-e8-product",
+      "entity_id": "saunalife-e8",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "ERGO Series Model E8 listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-e8-configuration",
+      "entity_id": "saunalife-e8-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "ERGO Series Model E8 is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-e8w-product",
+      "entity_id": "saunalife-e8w",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "ERGO Series Model E8W listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-e8w-configuration",
+      "entity_id": "saunalife-e8w-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "ERGO Series Model E8W is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-e8g-product",
+      "entity_id": "saunalife-e8g",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "ERGO Series Model E8G listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-e8g-configuration",
+      "entity_id": "saunalife-e8g-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "ERGO Series Model E8G is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-ee6g-product",
+      "entity_id": "saunalife-ee6g",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "ERGO Elegance Series Model EE6G listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-ee6g-configuration",
+      "entity_id": "saunalife-ee6g-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "ERGO Elegance Series Model EE6G is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-ee8g-product",
+      "entity_id": "saunalife-ee8g",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "ERGO Elegance Series Model EE8G listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-ee8g-configuration",
+      "entity_id": "saunalife-ee8g-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "ERGO Elegance Series Model EE8G is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-x2-product",
+      "entity_id": "saunalife-x2",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "XPERIENCE Series Model X2 listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-x2-configuration",
+      "entity_id": "saunalife-x2-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "XPERIENCE Series Model X2 is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-g2-product",
+      "entity_id": "saunalife-g2",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "GARDEN Series Model G2 listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-g2-configuration",
+      "entity_id": "saunalife-g2-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "GARDEN Series Model G2 is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-g3-product",
+      "entity_id": "saunalife-g3",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "GARDEN Series Model G3 listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-g3-configuration",
+      "entity_id": "saunalife-g3-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "GARDEN Series Model G3 is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-g6-product",
+      "entity_id": "saunalife-g6",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "GARDEN Series Model G6 listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-g6-configuration",
+      "entity_id": "saunalife-g6-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "GARDEN Series Model G6 is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-cl4g-product",
+      "entity_id": "saunalife-cl4g",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "CUBE Series Model CL4G listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-cl4g-configuration",
+      "entity_id": "saunalife-cl4g-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "CUBE Series Model CL4G is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-cl5g-product",
+      "entity_id": "saunalife-cl5g",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "CUBE Series Model CL5G listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-cl5g-configuration",
+      "entity_id": "saunalife-cl5g-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "CUBE Series Model CL5G is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-cl7g-product",
+      "entity_id": "saunalife-cl7g",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "CUBE Series Model CL7G listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-cl7g-configuration",
+      "entity_id": "saunalife-cl7g-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "CUBE Series Model CL7G is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-cl12gcp-product",
+      "entity_id": "saunalife-cl12gcp",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "CUBE Series Model CL12GCP listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-cl12gcp-configuration",
+      "entity_id": "saunalife-cl12gcp-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "CUBE Series Model CL12GCP is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-gl4-product",
+      "entity_id": "saunalife-gl4",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "GARDEN LUXURY Series Model GL4 listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-gl4-configuration",
+      "entity_id": "saunalife-gl4-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "GARDEN LUXURY Series Model GL4 is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-saunalife-gl6-product",
+      "entity_id": "saunalife-gl6",
+      "source_id": "saunalife-products",
+      "field_path": "product_identity",
+      "raw_value": "GARDEN LUXURY Series Model GL6 listed in the official collection."
+    },
+    {
+      "id": "evidence-saunalife-gl6-configuration",
+      "entity_id": "saunalife-gl6-standard",
+      "source_id": "saunalife-products",
+      "field_path": "configuration_identity",
+      "raw_value": "GARDEN LUXURY Series Model GL6 is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-hillsboro-product",
+      "entity_id": "almost-heaven-hillsboro",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Hillsboro 2 Person Indoor Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-hillsboro-configuration",
+      "entity_id": "almost-heaven-hillsboro-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Hillsboro 2 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-pinnacle-product",
+      "entity_id": "almost-heaven-pinnacle",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Pinnacle 4 Person Barrel Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-pinnacle-configuration",
+      "entity_id": "almost-heaven-pinnacle-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Pinnacle 4 Person Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-logan-product",
+      "entity_id": "almost-heaven-logan",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Logan 1 Person Indoor Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-logan-configuration",
+      "entity_id": "almost-heaven-logan-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Logan 1 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-princeton-product",
+      "entity_id": "almost-heaven-princeton",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Princeton 6 Person Barrel Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-princeton-configuration",
+      "entity_id": "almost-heaven-princeton-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Princeton 6 Person Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-rainelle-product",
+      "entity_id": "almost-heaven-rainelle",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Rainelle 4 Person Indoor Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-rainelle-configuration",
+      "entity_id": "almost-heaven-rainelle-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Rainelle 4 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-audra-product",
+      "entity_id": "almost-heaven-audra",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Audra 2-4 Person Canopy Barrel Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-audra-configuration",
+      "entity_id": "almost-heaven-audra-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Audra 2-4 Person Canopy Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-bridgeport-product",
+      "entity_id": "almost-heaven-bridgeport",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Bridgeport 6 Person Indoor Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-bridgeport-configuration",
+      "entity_id": "almost-heaven-bridgeport-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Bridgeport 6 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-grandview-product",
+      "entity_id": "almost-heaven-grandview",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Grandview 4-6 Person Canopy Barrel Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-grandview-configuration",
+      "entity_id": "almost-heaven-grandview-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Grandview 4-6 Person Canopy Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-titan-product",
+      "entity_id": "almost-heaven-titan",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Titan 6 Person Indoor Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-titan-configuration",
+      "entity_id": "almost-heaven-titan-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Titan 6 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-patterson-product",
+      "entity_id": "almost-heaven-patterson",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Patterson 6 Person Indoor Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-patterson-configuration",
+      "entity_id": "almost-heaven-patterson-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Patterson 6 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-lewisburg-product",
+      "entity_id": "almost-heaven-lewisburg",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Lewisburg 6-8 Person Barrel Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-lewisburg-configuration",
+      "entity_id": "almost-heaven-lewisburg-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Lewisburg 6-8 Person Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-grayson-product",
+      "entity_id": "almost-heaven-grayson",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Grayson 4 Person Indoor Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-grayson-configuration",
+      "entity_id": "almost-heaven-grayson-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Grayson 4 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-charleston-product",
+      "entity_id": "almost-heaven-charleston",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Charleston 4 Person Canopy Barrel Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-charleston-configuration",
+      "entity_id": "almost-heaven-charleston-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Charleston 4 Person Canopy Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-huntington-product",
+      "entity_id": "almost-heaven-huntington",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Huntington 4-6 Person Canopy Barrel Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-huntington-configuration",
+      "entity_id": "almost-heaven-huntington-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Huntington 4-6 Person Canopy Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-madison-product",
+      "entity_id": "almost-heaven-madison",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "product_identity",
+      "raw_value": "Madison 2-3 Person Indoor Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-almost-heaven-madison-configuration",
+      "entity_id": "almost-heaven-madison-standard",
+      "source_id": "almost-heaven-saunas-collection",
+      "field_path": "configuration_identity",
+      "raw_value": "Madison 2-3 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-mpulse-aspire-product",
+      "entity_id": "sunlighten-mpulse-aspire",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "mPulse Aspire Smart Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-mpulse-aspire-configuration",
+      "entity_id": "sunlighten-mpulse-aspire-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "mPulse Aspire Smart Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-mpulse-believe-product",
+      "entity_id": "sunlighten-mpulse-believe",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "mPulse Believe Smart Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-mpulse-believe-configuration",
+      "entity_id": "sunlighten-mpulse-believe-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "mPulse Believe Smart Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-mpulse-conquer-product",
+      "entity_id": "sunlighten-mpulse-conquer",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "mPulse Conquer Smart Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-mpulse-conquer-configuration",
+      "entity_id": "sunlighten-mpulse-conquer-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "mPulse Conquer Smart Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-mpulse-discover-product",
+      "entity_id": "sunlighten-mpulse-discover",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "mPulse Discover Smart Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-mpulse-discover-configuration",
+      "entity_id": "sunlighten-mpulse-discover-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "mPulse Discover Smart Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-mpulse-empower-product",
+      "entity_id": "sunlighten-mpulse-empower",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "mPulse Empower Smart Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-mpulse-empower-configuration",
+      "entity_id": "sunlighten-mpulse-empower-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "mPulse Empower Smart Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-amplify-ii-product",
+      "entity_id": "sunlighten-amplify-ii",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "Amplify II Full Spectrum Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-amplify-ii-configuration",
+      "entity_id": "sunlighten-amplify-ii-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "Amplify II Full Spectrum Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-amplify-iii-product",
+      "entity_id": "sunlighten-amplify-iii",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "Amplify III Full Spectrum Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-amplify-iii-configuration",
+      "entity_id": "sunlighten-amplify-iii-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "Amplify III Full Spectrum Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-amplify-iv-product",
+      "entity_id": "sunlighten-amplify-iv",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "Amplify IV Full Spectrum Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-amplify-iv-configuration",
+      "entity_id": "sunlighten-amplify-iv-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "Amplify IV Full Spectrum Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-signature-i-product",
+      "entity_id": "sunlighten-signature-i",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "Signature I Far Infrared Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-signature-i-configuration",
+      "entity_id": "sunlighten-signature-i-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "Signature I Far Infrared Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-solstice-product",
+      "entity_id": "sun-home-solstice",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "product_identity",
+      "raw_value": "Solstice listed in the official collection."
+    },
+    {
+      "id": "evidence-sun-home-solstice-configuration",
+      "entity_id": "sun-home-solstice-standard",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "configuration_identity",
+      "raw_value": "Solstice is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-equinox-product",
+      "entity_id": "sun-home-equinox",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "product_identity",
+      "raw_value": "Equinox listed in the official collection."
+    },
+    {
+      "id": "evidence-sun-home-equinox-configuration",
+      "entity_id": "sun-home-equinox-standard",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "configuration_identity",
+      "raw_value": "Equinox is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-eclipse-2-product",
+      "entity_id": "sun-home-eclipse-2",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "product_identity",
+      "raw_value": "Eclipse 2 listed in the official collection."
+    },
+    {
+      "id": "evidence-sun-home-eclipse-2-configuration",
+      "entity_id": "sun-home-eclipse-2-standard",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "configuration_identity",
+      "raw_value": "Eclipse 2 is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-pod-product",
+      "entity_id": "sun-home-pod",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "product_identity",
+      "raw_value": "Pod listed in the official collection."
+    },
+    {
+      "id": "evidence-sun-home-pod-configuration",
+      "entity_id": "sun-home-pod-standard",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "configuration_identity",
+      "raw_value": "Pod is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-luminar-2-product",
+      "entity_id": "sun-home-luminar-2",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "product_identity",
+      "raw_value": "Luminar 2 listed in the official collection."
+    },
+    {
+      "id": "evidence-sun-home-luminar-2-configuration",
+      "entity_id": "sun-home-luminar-2-standard",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "configuration_identity",
+      "raw_value": "Luminar 2 is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-nova-3-product",
+      "entity_id": "sun-home-nova-3",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "product_identity",
+      "raw_value": "Nova 3 listed in the official collection."
+    },
+    {
+      "id": "evidence-sun-home-nova-3-configuration",
+      "entity_id": "sun-home-nova-3-standard",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "configuration_identity",
+      "raw_value": "Nova 3 is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-solaris-product",
+      "entity_id": "sun-home-solaris",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "product_identity",
+      "raw_value": "Solaris listed in the official collection."
+    },
+    {
+      "id": "evidence-sun-home-solaris-configuration",
+      "entity_id": "sun-home-solaris-standard",
+      "source_id": "sun-home-craftsmanship",
+      "field_path": "configuration_identity",
+      "raw_value": "Solaris is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-cabin-4-product",
+      "entity_id": "redwood-cabin-4",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Cabin Outdoor Sauna 4 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-cabin-4-configuration",
+      "entity_id": "redwood-cabin-4-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Cabin Outdoor Sauna 4 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-cove-3-product",
+      "entity_id": "redwood-cove-3",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Cove Outdoor Sauna 3 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-cove-3-configuration",
+      "entity_id": "redwood-cove-3-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Cove Outdoor Sauna 3 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-garden-8-product",
+      "entity_id": "redwood-garden-8",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Garden Outdoor Sauna 8 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-garden-8-configuration",
+      "entity_id": "redwood-garden-8-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Garden Outdoor Sauna 8 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-grove-8-product",
+      "entity_id": "redwood-grove-8",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Grove Outdoor Sauna 8 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-grove-8-configuration",
+      "entity_id": "redwood-grove-8-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Grove Outdoor Sauna 8 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-vista-6-product",
+      "entity_id": "redwood-vista-6",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Vista Outdoor Sauna 6 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-vista-6-configuration",
+      "entity_id": "redwood-vista-6-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Vista Outdoor Sauna 6 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-horizon-6-product",
+      "entity_id": "redwood-horizon-6",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Horizon Outdoor Sauna 6 Person with Porch listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-horizon-6-configuration",
+      "entity_id": "redwood-horizon-6-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Horizon Outdoor Sauna 6 Person with Porch is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-duo-2-product",
+      "entity_id": "redwood-duo-2",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Duo Outdoor Sauna 2 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-duo-2-configuration",
+      "entity_id": "redwood-duo-2-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Duo Outdoor Sauna 2 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-summit-6-product",
+      "entity_id": "redwood-summit-6",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Summit Outdoor Sauna 6 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-summit-6-configuration",
+      "entity_id": "redwood-summit-6-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Summit Outdoor Sauna 6 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-barrel-6-product",
+      "entity_id": "redwood-barrel-6",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Barrel Outdoor Sauna 6 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-barrel-6-configuration",
+      "entity_id": "redwood-barrel-6-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Barrel Outdoor Sauna 6 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-barrel-porch-6-product",
+      "entity_id": "redwood-barrel-porch-6",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Barrel Outdoor Sauna with Porch 6 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-barrel-porch-6-configuration",
+      "entity_id": "redwood-barrel-porch-6-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Barrel Outdoor Sauna with Porch 6 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-extra-wide-porch-6-product",
+      "entity_id": "redwood-extra-wide-porch-6",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Extra-Wide Outdoor Barrel Sauna with Porch 6 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-extra-wide-porch-6-configuration",
+      "entity_id": "redwood-extra-wide-porch-6-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Extra-Wide Outdoor Barrel Sauna with Porch 6 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-extra-wide-6-product",
+      "entity_id": "redwood-extra-wide-6",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Extra-Wide Outdoor Barrel Sauna 6 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-extra-wide-6-configuration",
+      "entity_id": "redwood-extra-wide-6-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Extra-Wide Outdoor Barrel Sauna 6 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-barrel-8-product",
+      "entity_id": "redwood-barrel-8",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Barrel Outdoor Sauna 8 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-barrel-8-configuration",
+      "entity_id": "redwood-barrel-8-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Barrel Outdoor Sauna 8 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-noctra-8-product",
+      "entity_id": "redwood-noctra-8",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "product_identity",
+      "raw_value": "Noctra Outdoor Sauna 8 Person listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-noctra-8-configuration",
+      "entity_id": "redwood-noctra-8-standard",
+      "source_id": "redwood-outdoor-saunas",
+      "field_path": "configuration_identity",
+      "raw_value": "Noctra Outdoor Sauna 8 Person is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-thermory-luik-kodiak-product",
+      "entity_id": "thermory-luik-kodiak",
+      "source_id": "thermory-sauna-products",
+      "field_path": "product_identity",
+      "raw_value": "Luik Series Kodiak Spruce listed in the official collection."
+    },
+    {
+      "id": "evidence-thermory-luik-kodiak-configuration",
+      "entity_id": "thermory-luik-kodiak-standard",
+      "source_id": "thermory-sauna-products",
+      "field_path": "configuration_identity",
+      "raw_value": "Luik Series Kodiak Spruce is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-thermory-luik-ash-product",
+      "entity_id": "thermory-luik-ash",
+      "source_id": "thermory-sauna-products",
+      "field_path": "product_identity",
+      "raw_value": "Luik Series Benchmark Ash listed in the official collection."
+    },
+    {
+      "id": "evidence-thermory-luik-ash-configuration",
+      "entity_id": "thermory-luik-ash-standard",
+      "source_id": "thermory-sauna-products",
+      "field_path": "configuration_identity",
+      "raw_value": "Luik Series Benchmark Ash is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-thermory-traditional-mod6-product",
+      "entity_id": "thermory-traditional-mod6",
+      "source_id": "thermory-sauna-products",
+      "field_path": "product_identity",
+      "raw_value": "Traditional Mod6 Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-thermory-traditional-mod6-configuration",
+      "entity_id": "thermory-traditional-mod6-standard",
+      "source_id": "thermory-sauna-products",
+      "field_path": "configuration_identity",
+      "raw_value": "Traditional Mod6 Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-thermory-modern-mod6-product",
+      "entity_id": "thermory-modern-mod6",
+      "source_id": "thermory-sauna-products",
+      "field_path": "product_identity",
+      "raw_value": "Modern Mod6 Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-thermory-modern-mod6-configuration",
+      "entity_id": "thermory-modern-mod6-standard",
+      "source_id": "thermory-sauna-products",
+      "field_path": "configuration_identity",
+      "raw_value": "Modern Mod6 Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-thermory-mod4-traditional-product",
+      "entity_id": "thermory-mod4-traditional",
+      "source_id": "thermory-sauna-products",
+      "field_path": "product_identity",
+      "raw_value": "Mod4 Sauna Traditional listed in the official collection."
+    },
+    {
+      "id": "evidence-thermory-mod4-traditional-configuration",
+      "entity_id": "thermory-mod4-traditional-standard",
+      "source_id": "thermory-sauna-products",
+      "field_path": "configuration_identity",
+      "raw_value": "Mod4 Sauna Traditional is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-thermory-mod4-modern-product",
+      "entity_id": "thermory-mod4-modern",
+      "source_id": "thermory-sauna-products",
+      "field_path": "product_identity",
+      "raw_value": "Mod4 Sauna Modern listed in the official collection."
+    },
+    {
+      "id": "evidence-thermory-mod4-modern-configuration",
+      "entity_id": "thermory-mod4-modern-standard",
+      "source_id": "thermory-sauna-products",
+      "field_path": "configuration_identity",
+      "raw_value": "Mod4 Sauna Modern is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-thermory-sauna-square-product",
+      "entity_id": "thermory-sauna-square",
+      "source_id": "thermory-sauna-products",
+      "field_path": "product_identity",
+      "raw_value": "Sauna Square listed in the official collection."
+    },
+    {
+      "id": "evidence-thermory-sauna-square-configuration",
+      "entity_id": "thermory-sauna-square-standard",
+      "source_id": "thermory-sauna-products",
+      "field_path": "configuration_identity",
+      "raw_value": "Sauna Square is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-thermory-natural-barrel-product",
+      "entity_id": "thermory-natural-barrel",
+      "source_id": "thermory-sauna-products",
+      "field_path": "product_identity",
+      "raw_value": "Natural Barrel Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-thermory-natural-barrel-configuration",
+      "entity_id": "thermory-natural-barrel-standard",
+      "source_id": "thermory-sauna-products",
+      "field_path": "configuration_identity",
+      "raw_value": "Natural Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-thermory-ignite-barrel-product",
+      "entity_id": "thermory-ignite-barrel",
+      "source_id": "thermory-sauna-products",
+      "field_path": "product_identity",
+      "raw_value": "Ignite Barrel Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-thermory-ignite-barrel-configuration",
+      "entity_id": "thermory-ignite-barrel-standard",
+      "source_id": "thermory-sauna-products",
+      "field_path": "configuration_identity",
+      "raw_value": "Ignite Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-electric-heater-product",
+      "entity_id": "redwood-electric-heater",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "product_identity",
+      "raw_value": "Redwood Outdoors Sauna Electric Heater listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-electric-heater-configuration",
+      "entity_id": "redwood-electric-heater-standard",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "configuration_identity",
+      "raw_value": "Redwood Outdoors Sauna Electric Heater is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-heater-fence-product",
+      "entity_id": "redwood-heater-fence",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "product_identity",
+      "raw_value": "Redwood Outdoors Sauna Heater Fence listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-heater-fence-configuration",
+      "entity_id": "redwood-heater-fence-standard",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "configuration_identity",
+      "raw_value": "Redwood Outdoors Sauna Heater Fence is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-lighting-product",
+      "entity_id": "redwood-lighting",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "product_identity",
+      "raw_value": "Redwood Outdoors Sauna Lighting listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-lighting-configuration",
+      "entity_id": "redwood-lighting-standard",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "configuration_identity",
+      "raw_value": "Redwood Outdoors Sauna Lighting is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-bench-extender-product",
+      "entity_id": "redwood-bench-extender",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "product_identity",
+      "raw_value": "Redwood Outdoors Sauna Bench Extender listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-bench-extender-configuration",
+      "entity_id": "redwood-bench-extender-standard",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "configuration_identity",
+      "raw_value": "Redwood Outdoors Sauna Bench Extender is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-roof-shingles-product",
+      "entity_id": "redwood-roof-shingles",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "product_identity",
+      "raw_value": "Redwood Outdoors Sauna Roof Shingles listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-roof-shingles-configuration",
+      "entity_id": "redwood-roof-shingles-standard",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "configuration_identity",
+      "raw_value": "Redwood Outdoors Sauna Roof Shingles is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-privacy-screen-product",
+      "entity_id": "redwood-privacy-screen",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "product_identity",
+      "raw_value": "Redwood Outdoors Sauna Privacy Screen listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-privacy-screen-configuration",
+      "entity_id": "redwood-privacy-screen-standard",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "configuration_identity",
+      "raw_value": "Redwood Outdoors Sauna Privacy Screen is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-redwood-outdoor-shower-product",
+      "entity_id": "redwood-outdoor-shower",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "product_identity",
+      "raw_value": "Redwood Outdoors Outdoor Shower listed in the official collection."
+    },
+    {
+      "id": "evidence-redwood-outdoor-shower-configuration",
+      "entity_id": "redwood-outdoor-shower-standard",
+      "source_id": "redwood-assembly-guides",
+      "field_path": "configuration_identity",
+      "raw_value": "Redwood Outdoors Outdoor Shower is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-solo-system-product",
+      "entity_id": "sunlighten-solo-system",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "Solo System Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-solo-system-configuration",
+      "entity_id": "sunlighten-solo-system-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "Solo System Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-solo-rise-product",
+      "entity_id": "sunlighten-solo-rise",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "Solo Rise Sauna listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-solo-rise-configuration",
+      "entity_id": "sunlighten-solo-rise-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "Solo Rise Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sunlighten-luminir-panel-product",
+      "entity_id": "sunlighten-luminir-panel",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "product_identity",
+      "raw_value": "lumiNIR Red Light Therapy Panel listed in the official collection."
+    },
+    {
+      "id": "evidence-sunlighten-luminir-panel-configuration",
+      "entity_id": "sunlighten-luminir-panel-standard",
+      "source_id": "sunlighten-sauna-collections",
+      "field_path": "configuration_identity",
+      "raw_value": "lumiNIR Red Light Therapy Panel is represented as a non-publishing review configuration."
     }
   ]
 }
