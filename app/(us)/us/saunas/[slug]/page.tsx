@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { markets } from "@/lib/markets";
-import { getUsAffiliateOffersForConfiguration } from "@/lib/us/affiliate";
+import { getUsOfferPresentationsForConfiguration } from "@/lib/us/affiliate";
 import {
   getUsConfigurationsForProduct,
   getUsProductBySlug,
@@ -76,7 +76,7 @@ export default async function UsSaunaProductPage({ params }: Props) {
   if (!configuration) notFound();
   const sourceIds = [...new Set([...product.source_ids, ...configuration.source_ids])];
   const sources = getUsSources(sourceIds);
-  const affiliateOffers = getUsAffiliateOffersForConfiguration(configuration.id);
+  const offerPresentations = getUsOfferPresentationsForConfiguration(configuration.id);
   const isResearchPreview = product.publication_status !== "published";
   const placement = product.placements.status === "documented" ? product.placements.value.join(" and ") : null;
   const capacity = configuration.capacity.seated.status === "documented" ? configuration.capacity.seated.value : null;
@@ -110,16 +110,16 @@ export default async function UsSaunaProductPage({ params }: Props) {
             </p>
           </div>
           <aside>
-            {affiliateOffers.length > 0 ? (
+            {offerPresentations.length > 0 ? (
               <>
-                <p>{affiliateOffers.length === 1 ? "Reviewed offer" : `${affiliateOffers.length} reviewed offers`}</p>
+                <p>{offerPresentations.length === 1 ? "Offer status" : `${offerPresentations.length} offer statuses`}</p>
                 <div className="us-affiliate-offers">
-                  {affiliateOffers.map(({ offer, merchant, link }) => (
+                  {offerPresentations.map(({ offer, merchant, link, priceVisible, statusLabel }) => (
                     <div key={offer.id}>
-                      <strong>{merchant.name}</strong>
-                      {offer.price ? <span>{offer.offer_type === "from-price" ? "From " : ""}{offerPrice(offer.price.amount_minor)}</span> : null}
-                      <a href={link.href} rel={link.rel} target={link.target}>View offer <span aria-hidden="true">↗</span></a>
-                      <small>Affiliate link</small>
+                      <strong>{merchant?.name ?? "Merchant under review"}</strong>
+                      {priceVisible && offer.price ? <span>{offer.offer_type === "from-price" ? "From " : ""}{offerPrice(offer.price.amount_minor)}</span> : <span>{statusLabel}</span>}
+                      {link ? <a href={link.href} rel={link.rel} target={link.target}>View offer <span aria-hidden="true">↗</span></a> : null}
+                      {link ? <small>Affiliate link</small> : null}
                     </div>
                   ))}
                 </div>

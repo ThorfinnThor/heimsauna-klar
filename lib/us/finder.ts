@@ -6,8 +6,7 @@ import type {
   UsOffer,
   UsProductConfiguration,
 } from "./types.ts";
-
-export const US_FINDER_OFFER_FRESHNESS_DAYS = 30;
+import { classifyUsOfferPrice } from "./offer-policy.ts";
 
 export type UsFinderStrength = "hard" | "preference";
 export type UsFinderCriterion<T> = { value: T; strength: UsFinderStrength };
@@ -234,12 +233,6 @@ function evaluateElectrical(
   }
 }
 
-function offerAgeDays(offer: UsOffer, asOf: string) {
-  const checkedAt = Date.parse(`${offer.last_successfully_checked_at}T00:00:00Z`);
-  const reference = Date.parse(`${asOf}T00:00:00Z`);
-  return (reference - checkedAt) / 86_400_000;
-}
-
 function evaluateBudget(
   configurationOffers: UsOffer[],
   criterion: NonNullable<UsFinderQuery["budget"]>,
@@ -250,14 +243,7 @@ function evaluateBudget(
   result.costScope = requiredScope;
   const scopedOffers = configurationOffers.filter((offer) => offer.price_scope === requiredScope);
   const comparableOffers = scopedOffers.filter((offer) => {
-    const ageDays = offerAgeDays(offer, asOf);
-    return offer.offer_type !== "quote-only"
-      && offer.price
-      && offer.completeness === "documented"
-      && offer.excluded_required_components.length === 0
-      && ["in-stock", "preorder", "made-to-order"].includes(offer.availability)
-      && ageDays >= 0
-      && ageDays <= US_FINDER_OFFER_FRESHNESS_DAYS;
+    return classifyUsOfferPrice(offer, asOf).priceVisible;
   });
 
   if (comparableOffers.length === 0) {

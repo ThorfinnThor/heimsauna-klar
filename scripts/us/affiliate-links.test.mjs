@@ -58,6 +58,7 @@ function approvedFixture() {
     disclosureApproved: true,
     productPublished: true,
     configurationPublished: true,
+    asOf: "2026-09-14",
     affiliateUrl,
   };
 }
@@ -86,6 +87,11 @@ for (const [name, mutate, reason] of [
   ["candidate product", (fixture) => { fixture.productPublished = false; }, "product-not-published"],
   ["candidate configuration", (fixture) => { fixture.configurationPublished = false; }, "configuration-not-published"],
   ["inactive offer", (fixture) => { fixture.offer.promotion_status = "inactive"; }, "offer-not-eligible"],
+  ["stale offer", (fixture) => { fixture.offer.last_successfully_checked_at = "2026-08-01"; }, "offer-stale"],
+  ["unavailable offer", (fixture) => { fixture.offer.availability = "out-of-stock"; }, "offer-unavailable"],
+  ["unknown availability", (fixture) => { fixture.offer.availability = "unknown"; }, "offer-availability-unverified"],
+  ["invalid check date", (fixture) => { fixture.offer.last_successfully_checked_at = "not-a-date"; }, "offer-date-invalid"],
+  ["future check date", (fixture) => { fixture.offer.last_successfully_checked_at = "2026-09-15"; }, "offer-check-in-future"],
   ["inactive merchant", (fixture) => { fixture.merchant.status = "inactive"; }, "merchant-not-active"],
   ["pending program", (fixture) => { fixture.program.relationship_status = "pending"; }, "program-not-approved"],
   ["wrong merchant", (fixture) => { fixture.program.merchant_id = "another-merchant"; }, "program-merchant-mismatch"],
@@ -102,4 +108,3 @@ for (const [name, mutate, reason] of [
     assert.deepEqual(result, { eligible: false, href: null, reason });
   });
 }
-
