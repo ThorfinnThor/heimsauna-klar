@@ -304,7 +304,7 @@ export function UsTrustPageView({ page, isPreview }: { page: UsTrustPage; isPrev
         {page.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         {page.contact_email ? <a href={`mailto:${page.contact_email}`}>{page.contact_email}</a> : null}
       </header>
-      <section className="us-editorial-sections" aria-label="Contact information">
+      <section className="us-editorial-sections" aria-label={`${page.heading} sections`}>
         {page.sections.map((section, index) => (
           <article key={section.id}>
             <span>{String(index + 1).padStart(2, "0")}</span>

@@ -87,7 +87,13 @@ export function SiteHeader({ market = "DE" }: { market?: MarketCode }) {
 
 export function SiteFooter({ market = "DE" }: { market?: MarketCode }) {
   const isGerman = market === "DE";
-  const contactPage = isGerman ? undefined : getUsTrustPage("contact", { includeNonPublic: isUsResearchPreview() });
+  const includeNonPublicUsPages = !isGerman && isUsResearchPreview();
+  const usTrustLinks = isGerman ? [] : [
+    { slug: "methodology" as const, href: "/us/methodology/", label: "Methodology" },
+    { slug: "affiliate-disclosure" as const, href: "/us/affiliate-disclosure/", label: "Affiliate disclosure" },
+    { slug: "privacy" as const, href: "/us/privacy/", label: "Privacy" },
+    { slug: "contact" as const, href: "/us/contact/", label: "Contact" },
+  ].filter((item) => getUsTrustPage(item.slug, { includeNonPublic: includeNonPublicUsPages }));
   return (
     <footer>
       <Link className="brand brand-footer" href={marketPath(market)}>
@@ -102,7 +108,7 @@ export function SiteFooter({ market = "DE" }: { market?: MarketCode }) {
             <Link href="/de/rechtliches/#datenschutz">Datenschutz</Link>
             <Link href="/de/transparenz/affiliate/">Affiliate</Link>
           </>
-        ) : contactPage ? <Link href="/us/contact/">Contact</Link> : null}
+        ) : usTrustLinks.map((item) => <Link href={item.href} key={item.slug}>{item.label}</Link>)}
       </div>
       <p className="footer-note">{isGerman ? "Betreiber" : "Operated by"}: SeitenHafen361 · Schayan Yousefian</p>
     </footer>

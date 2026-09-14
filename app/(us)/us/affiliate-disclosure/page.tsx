@@ -5,18 +5,18 @@ import { getUsTrustPage, isUsResearchPreview } from "@/lib/us/content";
 import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsTrustPageView } from "../_components/UsEditorial";
 
-const publicContactPage = getUsTrustPage("contact");
+const publicPage = getUsTrustPage("affiliate-disclosure");
 export const metadata = createUsPageMetadata({
-  title: publicContactPage?.title ?? "Contact Select Your Sauna",
-  description: publicContactPage?.description ?? "Contact Select Your Sauna about a product record, source or correction.",
-  path: "/us/contact/",
+  title: publicPage?.title ?? "Affiliate disclosure for Select Your Sauna",
+  description: publicPage?.description ?? "How marked affiliate links and merchant relationships are handled in the US section.",
+  path: "/us/affiliate-disclosure/",
   pageClass: "detail",
-  publicationStatus: publicContactPage?.publication_status ?? "draft",
+  publicationStatus: publicPage?.publication_status ?? "draft",
 });
 
-export default function UsContactPage() {
+export default function UsAffiliateDisclosurePage() {
   const isPreview = isUsResearchPreview();
-  const page = getUsTrustPage("contact", { includeNonPublic: isPreview });
+  const page = getUsTrustPage("affiliate-disclosure", { includeNonPublic: isPreview });
   if (!page) notFound();
   return <main><SiteHeader market="US" /><UsTrustPageView page={page} isPreview={isPreview} /><SiteFooter market="US" /></main>;
 }

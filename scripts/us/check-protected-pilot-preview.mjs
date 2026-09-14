@@ -46,7 +46,7 @@ if (productsDocument.products.some((product) => product.publication_status !== "
 const usStats = await stat(usOutputRoot).catch(() => null);
 if (!usStats?.isDirectory()) throw new Error("Protected pilot preview needs a generated out/us directory");
 const htmlFiles = await collectHtmlFiles(usOutputRoot);
-if (htmlFiles.length !== 16) issues.push(`out/us: expected 16 static pilot pages, found ${htmlFiles.length}`);
+if (htmlFiles.length !== 19) issues.push(`out/us: expected 19 static pilot pages, found ${htmlFiles.length}`);
 
 for (const file of htmlFiles) {
   const route = `/${file.slice(outputRoot.length + 1).replace(/index\.html$/, "").replaceAll("\\", "/")}`;

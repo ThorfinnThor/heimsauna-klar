@@ -6,11 +6,13 @@ import productsDocument from "../../data/us/products.json" with { type: "json" }
 import {
   getUsEditorialPages,
   getUsPresentation,
+  getUsTrustPage,
   selectUsBrandConfigurations,
   selectUsComparisonConfigurations,
   selectUsGuideConfigurations,
   usEditorialPath,
 } from "../../lib/us/content.ts";
+import affiliateDocument from "../../content/us/affiliate.json" with { type: "json" };
 
 const basePage = {
   id: "fixture-page",
@@ -33,6 +35,21 @@ test("the checked-in editorial manifest creates no public SEO pages", () => {
     getUsEditorialPages("comparison", { includeNonPublic: true }).map((page) => page.slug),
     ["indoor-infrared-saunas"],
   );
+});
+
+test("trust-page and affiliate drafts are complete without becoming public", () => {
+  const slugs = ["contact", "methodology", "affiliate-disclosure", "privacy"];
+  assert(slugs.every((slug) => getUsTrustPage(slug) === undefined));
+  for (const slug of slugs) {
+    const page = getUsTrustPage(slug, { includeNonPublic: true });
+    assert(page);
+    assert.equal(page.publication_status, "draft");
+    assert(page.introduction.length > 0);
+    assert(page.sections.length > 0);
+    assert.equal(page.contact_email, "info@selectyoursauna.com");
+  }
+  assert.equal(affiliateDocument.status, "draft");
+  assert(affiliateDocument.disclosure.length > 0);
 });
 
 test("editorial paths are derived from the page type and stable slug", () => {
