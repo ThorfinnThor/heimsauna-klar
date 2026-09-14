@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "market": "US",
+  "status": "blocked-until-threshold",
+  "updated_at": "2026-09-14",
+  "purpose": "Operator-requested minimum for the later Sol acceptance. This gate does not publish or index US content.",
+  "acceptance": {
+    "minimum_candidate_products": 100,
+    "minimum_candidate_configurations": 100,
+    "require_unique_model_identity": true,
+    "require_source_bundle_per_product": true,
+    "require_explicit_unknowns": true,
+    "disallow_variant_counting": true,
+    "allowed_product_types": ["sauna-cabin", "sauna-kit", "sauna-tent", "sauna-blanket", "heater", "accessory"],
+    "required_categories": ["indoor-infrared-cabins", "outdoor-infrared-cabins", "indoor-traditional-cabins", "outdoor-traditional-cabins", "sauna-kits", "heaters", "accessories-and-portable"]
+  },
+  "current_snapshot": {
+    "candidate_product_count": 10,
+    "candidate_configuration_count": 10,
+    "published_product_count": 0,
+    "active_offer_count": 0,
+    "products_remaining": 90,
+    "configurations_remaining": 90,
+    "status": "blocked"
+  },
+  "next_batches": [
+    {
+      "id": "saunalife-models",
+      "priority": "P1",
+      "source_url": "https://saunalife.com/products/",
+      "scope": "Model-level outdoor sauna kits and barrels; import only exact model pages with stable configuration data."
+    },
+    {
+      "id": "thermory-sauna-products",
+      "priority": "P1",
+      "source_url": "https://sauna.thermoryusa.com/products/",
+      "scope": "Separate sauna models, heaters, elements and accessories; do not mix building materials with cabin comparisons."
+    },
+    {
+      "id": "additional-us-manufacturers",
+      "priority": "P2",
+      "source_url": "https://peaksaunas.com/pages/llms-txt",
+      "scope": "Additional model-level US manufacturer records after the first source-complete batches."
+    }
+  ]
+}

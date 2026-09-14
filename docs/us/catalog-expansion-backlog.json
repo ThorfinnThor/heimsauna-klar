@@ -5,11 +5,14 @@
   "updated_at": "2026-09-14",
   "purpose": "Prioritized, source-backed candidates for the protected US catalog. This file does not publish products, offers, prices or affiliate links.",
   "autopublish": false,
+  "sol_acceptance_gate": "docs/us/sol-acceptance-gate.json",
   "current_catalog": {
     "candidate_product_count": 10,
     "published_product_count": 0,
     "approved_program_count": 0,
-    "active_offer_count": 0
+    "active_offer_count": 0,
+    "minimum_before_sol_acceptance": 100,
+    "products_remaining_before_sol_acceptance": 90
   },
   "entries": [
     {

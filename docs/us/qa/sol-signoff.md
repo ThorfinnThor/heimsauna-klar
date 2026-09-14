@@ -7,6 +7,8 @@
 
 ## Reviewed release state
 
+The operator has added a mandatory catalog threshold for any later Sol acceptance: at least 100 unique US candidate products and 100 one-to-one configurations. The current protected state contains 10 of each, so this threshold is not met and no Sol acceptance may be recorded yet.
+
 The review uses launch snapshot `us-protected-preview-2026-09-14-l10` and the repository state after Luna's L-11 and L-12 reviews. The protected scope contains ten candidate products, ten configurations, 20 source records, 20 evidence records and zero offers. All ten manufacturer-image entries remain `not-requested`.
 
 The four publication controls are unchanged:
