@@ -36,6 +36,7 @@ snapshot.file_hashes = snapshot.file_hashes.map((entry) => {
   return { ...entry, sha256: createHash("sha256").update(content).digest("hex") };
 });
 
+gate.status = "ready-for-sol-review";
 gate.current_snapshot = { ...gate.current_snapshot, candidate_product_count: products.products.length, candidate_configuration_count: configurations.configurations.length, products_remaining: 0, configurations_remaining: 0, status: "ready-for-sol-review" };
 backlog.current_catalog = { ...backlog.current_catalog, candidate_product_count: products.products.length, products_remaining_before_sol_acceptance: 0 };
 backlog.status = "ready-for-sol-review";

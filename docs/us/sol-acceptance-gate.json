@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "blocked-until-threshold",
+  "status": "ready-for-sol-review",
   "updated_at": "2026-09-14",
   "purpose": "Operator-requested minimum for the later Sol acceptance. This gate does not publish or index US content.",
   "acceptance": {
