@@ -31,6 +31,142 @@
         }
       ],
       "contact_email": "info@selectyoursauna.com"
+    },
+    {
+      "id": "methodology",
+      "slug": "methodology",
+      "publication_status": "draft",
+      "title": "How Select Your Sauna researches products",
+      "description": "The source, matching and limitation rules used for the US sauna research section.",
+      "eyebrow": "Methodology",
+      "heading": "What a documented sauna result means",
+      "introduction": [
+        "Select Your Sauna organizes model-specific information so that dimensions, seating, placement and electrical details stay attached to the exact configuration they describe. The US section is a research project and is not a hands-on test, installation approval or checkout service."
+      ],
+      "sections": [
+        {
+          "id": "source-hierarchy",
+          "heading": "Primary sources come first",
+          "paragraphs": [
+            "Manufacturer product pages, manuals and specification sheets are used for core product facts. Retailer and affiliate pages can help identify an offer, but they do not replace a manufacturer source for a technical claim. Each documented value keeps a reference to the source record used for it."
+          ]
+        },
+        {
+          "id": "configuration-identity",
+          "heading": "A model family is not one universal specification",
+          "paragraphs": [
+            "Size, placement, heat type, capacity and electrical requirements are checked at configuration level. A value from one size or package is not copied to another. When the sources disagree or leave a field open, the site keeps that uncertainty visible instead of turning it into a positive match."
+          ]
+        },
+        {
+          "id": "decision-boundaries",
+          "heading": "The finder narrows a search; it does not approve an installation",
+          "paragraphs": [
+            "A result means that the selected facts are documented or that a remaining question is shown for verification. Exterior dimensions do not include every required clearance, door swing, service area, route or local code condition. Electrical information should be checked against the instructions for the exact configuration and local requirements."
+          ]
+        },
+        {
+          "id": "updates-and-corrections",
+          "heading": "Corrections are welcome",
+          "paragraphs": [
+            "If a source changes or a product record contains an error, please send the page address, the affected statement and the supporting source to info@selectyoursauna.com. The record can then be reviewed against the same source rules."
+          ]
+        }
+      ],
+      "contact_email": "info@selectyoursauna.com"
+    },
+    {
+      "id": "affiliate-disclosure",
+      "slug": "affiliate-disclosure",
+      "publication_status": "draft",
+      "title": "Affiliate disclosure for Select Your Sauna",
+      "description": "How marked affiliate links, product selection and merchant relationships are handled in the US section.",
+      "eyebrow": "Affiliate disclosure",
+      "heading": "How merchant links fit into the research",
+      "introduction": [
+        "The US research section currently has no published affiliate offer. If a reviewed merchant relationship is activated later, the affected link will be marked before it leaves Select Your Sauna. A commission can be paid after a qualifying action, without changing the price shown by the merchant."
+      ],
+      "sections": [
+        {
+          "id": "labeling",
+          "heading": "A marked link is the point of attribution",
+          "paragraphs": [
+            "Awin or another approved network is contacted only when a visitor deliberately opens a marked outbound link. The page does not load a tracking request in the background. The network and merchant then apply their own attribution, privacy and retention rules."
+          ]
+        },
+        {
+          "id": "editorial-independence",
+          "heading": "Commission does not set the comparison result",
+          "paragraphs": [
+            "Product inclusion, comparison scope and Finder logic are based on the documented product and configuration records. There are no paid rankings or claims of first-hand testing. A merchant link does not replace the source used for a technical statement."
+          ]
+        },
+        {
+          "id": "scope-and-status",
+          "heading": "Publication follows a separate approval gate",
+          "paragraphs": [
+            "An affiliate link can be shown only after the program, merchant, exact configuration, destination, tracking URL, freshness and disclosure have all been reviewed. Until that gate is opened, the US pages remain without affiliate offers."
+          ]
+        }
+      ],
+      "contact_email": "info@selectyoursauna.com"
+    },
+    {
+      "id": "privacy",
+      "slug": "privacy",
+      "publication_status": "draft",
+      "title": "Privacy information for Select Your Sauna",
+      "description": "The current website data flows, hosting services and external-link boundaries for the US research section.",
+      "eyebrow": "Privacy",
+      "heading": "What the website does with information",
+      "introduction": [
+        "This draft describes the technical behavior currently present in the repository. It is prepared for operator and legal review and does not claim that an account setting, contract term or jurisdiction-specific obligation has been verified."
+      ],
+      "sections": [
+        {
+          "id": "operator-contact",
+          "heading": "Operator and contact",
+          "paragraphs": [
+            "Select Your Sauna is operated by SeitenHafen361, Schayan Yousefian, Freienwalder Str. 34, 13359 Berlin, Germany. Questions about this notice or a correction request can be sent to info@selectyoursauna.com."
+          ]
+        },
+        {
+          "id": "cloudflare-delivery",
+          "heading": "Static delivery through Cloudflare",
+          "paragraphs": [
+            "The site is exported as static HTML, CSS, images and JavaScript and delivered through Cloudflare. A request may include an IP address, time, host, path, query string, referrer, browser or system information and transfer metadata. Cloudflare account products, security logs and retention settings must be checked in the operator account before this text is published."
+          ]
+        },
+        {
+          "id": "finder-state",
+          "heading": "Finder and catalog choices",
+          "paragraphs": [
+            "Finder and catalog choices are processed in the browser. They are reflected in the visible URL so that a result can be refreshed or shared. The site does not send those choices to its own database, create an account or build a profile. A later request for a shared or reloaded URL can include its query parameters in hosting request handling."
+          ]
+        },
+        {
+          "id": "tracking-and-links",
+          "heading": "Analytics, cookies and external links",
+          "paragraphs": [
+            "The checked-in public client contains no first-party analytics SDK, advertising pixel, analytics cookie, local storage or session storage. External merchant, manufacturer and source sites are opened only after a visitor follows a link. An approved affiliate link may pass through a partner network, which then applies its own privacy and attribution rules."
+          ]
+        },
+        {
+          "id": "email",
+          "heading": "Email contact",
+          "paragraphs": [
+            "The site uses a mailto link rather than a website form. Any message, sender address, attachments and transmission metadata are handled by the email systems chosen by the sender and recipient. The actual mailbox routing and retention configuration must be documented by the operator."
+          ]
+        },
+        {
+          "id": "review-and-changes",
+          "heading": "Review before publication",
+          "paragraphs": [
+            "This page must be updated when analytics, a consent tool, a contact form, accounts, personalization, server-side redirects, new embeds or a new hosting or affiliate service is introduced. The operator should also confirm applicable rights, contact procedures, retention periods and transfer information for the intended audience before changing this draft to published."
+          ]
+        }
+      ],
+      "contact_email": "info@selectyoursauna.com"
     }
   ]
 }
