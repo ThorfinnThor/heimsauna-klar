@@ -12,4 +12,4 @@ Status: Process implemented for protected preview; production operating commitme
 
 ## Actual check
 
-`node --test scripts/us/catalog-review.test.mjs` passed three tests. The report for `2026-09-14` found ten candidate records awaiting their first review, zero stale sources, zero approved US publisher relationships, zero approved rights assets and protected publication switches. These findings are expected for the current research pilot and do not constitute a public-release approval.
+`node --test scripts/us/catalog-review.test.mjs` passed six tests. The report for `2026-09-14` found ten candidate records awaiting their first review, zero stale or missing source references, zero missing or invalid review schedules for already reviewed records, zero approved US publisher relationships, zero approved rights assets and protected publication switches. The Sol review also verifies every referenced source independently, rejects impossible report dates and prevents a review schedule from exceeding the 90-day technical cadence. These findings are expected for the current research pilot and do not constitute a public-release approval.

@@ -22,10 +22,13 @@ test("the current protected catalog has a reproducible review report", () => {
   assert.equal(report.summary.products, 10);
   assert.equal(report.summary.candidatesAwaitingReview, 10);
   assert.equal(report.summary.sourceStale, 0);
+  assert.equal(report.summary.sourceReferencesMissing, 0);
   assert.equal(report.summary.reviewsDue, 0);
+  assert.equal(report.summary.reviewSchedulesInvalid, 0);
   assert.equal(report.summary.approvedPrograms, 0);
   assert.equal(report.summary.rightsReady, 0);
   assert.equal(report.summary.publicationProtected, true);
+  assert(report.blockers.includes("10 candidate or draft products still require their first technical review."));
   assert(report.blockers.some((blocker) => blocker.includes("publisher approval")));
 });
 
@@ -54,5 +57,56 @@ test("a source older than the technical cadence is reported as stale", () => {
     policy,
   });
   assert.equal(report.products[0].reviewState, "stale-source");
-  assert(report.blockers.includes("fixture-product: technical source review is stale"));
+  assert(report.blockers.includes("fixture-product: technical source review is stale for fixture-source"));
+});
+
+test("every referenced source must be current rather than only the newest one", () => {
+  const report = reviewUsCatalog({
+    asOf: "2026-09-14",
+    products: [{ id: "fixture-product", publication_status: "candidate", source_ids: ["current-source", "old-source"] }],
+    sources: [
+      { id: "current-source", checked_at: "2026-09-14" },
+      { id: "old-source", checked_at: "2026-01-01" },
+    ],
+    programs: [],
+    rights: [],
+    publication: { routes_enabled: false, indexing_enabled: false, affiliate_links_enabled: false, feed_sync_enabled: false },
+    policy,
+  });
+  assert.deepEqual(report.products[0].staleSourceIds, ["old-source"]);
+  assert.equal(report.products[0].oldestSourceDate, "2026-01-01");
+  assert.equal(report.summary.sourceStale, 1);
+});
+
+test("a review schedule cannot silently exceed the technical cadence", () => {
+  const report = reviewUsCatalog({
+    asOf: "2026-09-14",
+    products: [{
+      id: "fixture-product",
+      publication_status: "reviewed",
+      source_ids: ["fixture-source"],
+      spec_checked_at: "2026-09-14",
+      next_review_at: "2027-09-14",
+    }],
+    sources: [{ id: "fixture-source", checked_at: "2026-09-14" }],
+    programs: [{ relationship_status: "approved" }],
+    rights: [{ rights_status: "approved" }],
+    publication: { routes_enabled: true, indexing_enabled: true, affiliate_links_enabled: true, feed_sync_enabled: true },
+    policy,
+  });
+  assert.equal(report.products[0].reviewState, "schedule-invalid");
+  assert.equal(report.summary.reviewSchedulesInvalid, 1);
+  assert(report.blockers.includes("fixture-product: next_review_at must be within 90 days after spec_checked_at"));
+});
+
+test("the report date must be a real ISO calendar date", () => {
+  assert.throws(() => reviewUsCatalog({
+    asOf: "2026-02-31",
+    products: [],
+    sources: [],
+    programs: [],
+    rights: [],
+    publication: { routes_enabled: false, indexing_enabled: false, affiliate_links_enabled: false, feed_sync_enabled: false },
+    policy,
+  }), /Invalid review date/);
 });
