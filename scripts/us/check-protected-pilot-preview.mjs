@@ -75,7 +75,7 @@ for (const file of htmlFiles) {
 
 const catalogHtml = await readFile(resolve(usOutputRoot, "saunas/index.html"), "utf8");
 const finderHtml = await readFile(resolve(usOutputRoot, "sauna-finder/index.html"), "utf8");
-requireText(finderHtml, "bounded sample", "/us/sauna-finder/", issues);
+requireText(finderHtml, "searches all 100 reviewed candidate records", "/us/sauna-finder/", issues);
 for (const product of productsDocument.products) {
   const productRoute = `/us/saunas/${product.slug}/`;
   const productPath = resolve(usOutputRoot, `saunas/${product.slug}/index.html`);

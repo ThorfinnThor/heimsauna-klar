@@ -3,14 +3,20 @@
 import Link from "next/link";
 import { useMemo, useSyncExternalStore } from "react";
 
-import { runUsFinder, type UsFinderMatchResult } from "@/lib/us/finder";
+import {
+  runUsFinder,
+  type UsFinderConfiguration,
+  type UsFinderFact,
+  type UsFinderMatchResult,
+  type UsFinderProduct,
+} from "@/lib/us/finder";
 import {
   buildUsFinderQuery,
   normalizeUsFinderUrlState,
   serializeUsFinderUrlState,
   type UsFinderUrlState,
 } from "@/lib/us/finder-query";
-import type { UsFact, UsMarketProduct, UsOffer, UsProductConfiguration } from "@/lib/us/types";
+import type { UsOffer } from "@/lib/us/types";
 
 const finderChangeEvent = "selectyoursauna:us-finder-change";
 
@@ -31,11 +37,11 @@ function getServerSearch() {
   return "";
 }
 
-function documentedValue<T>(fact: UsFact<T>): T | null {
+function documentedValue<T>(fact: UsFinderFact<T>): T | null {
   return fact.status === "documented" ? fact.value : null;
 }
 
-function dimensionsLabel(configuration: UsProductConfiguration) {
+function dimensionsLabel(configuration: UsFinderConfiguration) {
   const dimensions = documentedValue(configuration.dimensions.exterior);
   if (!dimensions) return "Exterior size not documented";
   return [dimensions.width, dimensions.depth, dimensions.height]
@@ -43,7 +49,7 @@ function dimensionsLabel(configuration: UsProductConfiguration) {
     .join(" × ");
 }
 
-function electricalLabel(configuration: UsProductConfiguration) {
+function electricalLabel(configuration: UsFinderConfiguration) {
   const voltages = [...new Set(configuration.electrical_supply_options.flatMap((option) =>
     option.requirements.flatMap((requirement) => {
       const voltage = documentedValue(requirement.voltage_v);
@@ -97,8 +103,8 @@ function FinderResultCard({
   configuration,
 }: {
   result: UsFinderMatchResult;
-  product: UsMarketProduct;
-  configuration: UsProductConfiguration;
+  product: UsFinderProduct;
+  configuration: UsFinderConfiguration;
 }) {
   const seated = documentedValue(configuration.capacity.seated);
   const reviewReasons = result.unknownCriteria.map(reasonLabel);
@@ -109,7 +115,6 @@ function FinderResultCard({
       <div>
         <p className="eyebrow">{product.brand_name}</p>
         <h3>{product.model}</h3>
-        <p>{configuration.label}</p>
       </div>
       <dl>
         <div><dt>Capacity</dt><dd>{seated === null ? "Not documented" : `${seated} seated`}</dd></div>
@@ -152,8 +157,8 @@ function ResultGroup({
   title: string;
   description: string;
   results: UsFinderMatchResult[];
-  products: Map<string, UsMarketProduct>;
-  configurations: Map<string, UsProductConfiguration>;
+  products: Map<string, UsFinderProduct>;
+  configurations: Map<string, UsFinderConfiguration>;
 }) {
   if (results.length === 0) return null;
   return (
@@ -190,8 +195,8 @@ export function UsSaunaFinder({
   offers,
   asOf,
 }: {
-  products: UsMarketProduct[];
-  configurations: UsProductConfiguration[];
+  products: UsFinderProduct[];
+  configurations: UsFinderConfiguration[];
   offers: UsOffer[];
   asOf: string;
 }) {

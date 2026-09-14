@@ -9,6 +9,7 @@ import {
   usPublication,
 } from "@/lib/us/catalog";
 import { isUsResearchPreview } from "@/lib/us/content";
+import { projectUsFinderConfigurations, projectUsFinderProducts } from "@/lib/us/finder";
 import { UsSaunaFinder } from "../_components/UsSaunaFinder";
 
 export const metadata = createUsPageMetadata({
@@ -20,17 +21,8 @@ export const metadata = createUsPageMetadata({
 
 export default function UsSaunaFinderPage() {
   const isResearchPreview = isUsResearchPreview();
-  const allProducts = isResearchPreview ? getUsResearchProducts() : getUsPublicProducts();
-  const allConfigurations = isResearchPreview ? getUsResearchConfigurations() : getUsPublicConfigurations();
-  // Keep the protected preview payload bounded. The complete 100-record research
-  // catalog remains available on the catalog and product routes; the finder only
-  // needs a representative working set until Sol approves publication.
-  const previewProducts = allProducts.slice(0, 16);
-  const products = isResearchPreview ? previewProducts : allProducts;
-  const productIds = new Set(products.map((product) => product.id));
-  const configurations = isResearchPreview
-    ? allConfigurations.filter((configuration) => productIds.has(configuration.product_id))
-    : allConfigurations;
+  const products = projectUsFinderProducts(isResearchPreview ? getUsResearchProducts() : getUsPublicProducts());
+  const configurations = projectUsFinderConfigurations(isResearchPreview ? getUsResearchConfigurations() : getUsPublicConfigurations());
   const offers = isResearchPreview ? getUsResearchOffers() : getUsPublicOffers();
   const asOf = process.env.NEXT_PUBLIC_OFFER_POLICY_AS_OF ?? usPublication.updated_at;
 
@@ -44,7 +36,7 @@ export default function UsSaunaFinderPage() {
       <section className="page-shell us-finder-section">
         {isResearchPreview ? (
           <p className="us-preview-notice">
-            Research beta · candidate records remain excluded from search indexing. The interactive finder uses a bounded sample while the full 100-record catalog remains available for review.
+            Research beta · candidate records remain excluded from search indexing. The interactive finder searches all 100 reviewed candidate records and keeps unresolved facts visible in its results.
           </p>
         ) : null}
         <UsSaunaFinder products={products} configurations={configurations} offers={offers} asOf={asOf} />

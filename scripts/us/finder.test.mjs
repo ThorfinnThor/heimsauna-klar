@@ -3,7 +3,7 @@ import test from "node:test";
 
 import configurationsDocument from "../../data/us/configurations.json" with { type: "json" };
 import productsDocument from "../../data/us/products.json" with { type: "json" };
-import { runUsFinder } from "../../lib/us/finder.ts";
+import { projectUsFinderConfigurations, projectUsFinderProducts, runUsFinder } from "../../lib/us/finder.ts";
 import { buildUsFinderQuery, normalizeUsFinderUrlState, serializeUsFinderUrlState } from "../../lib/us/finder-query.ts";
 
 const documented = (value) => ({ status: "documented", value, evidence_ids: ["fixture-evidence"] });
@@ -146,6 +146,42 @@ test("the pilot scenario for two indoor infrared seats on 120 V returns five kno
   );
   assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 11);
   assert.equal(results.filter((entry) => entry.status === "excluded").length, 84);
+});
+
+test("the public finder evaluates the complete pilot for six outdoor seats on 240 V", () => {
+  const input = {
+    offers: [],
+    query: {
+      placement: { value: "outdoor", strength: "hard" },
+      seatedPeople: { value: 6, strength: "hard" },
+      electrical: { value: { mode: "electric", supplies: [{ voltageV: 240 }] }, strength: "hard" },
+    },
+    asOf: "2026-09-14",
+  };
+  const results = runUsFinder({
+    ...input,
+    products: projectUsFinderProducts(productsDocument.products),
+    configurations: projectUsFinderConfigurations(configurationsDocument.configurations),
+  });
+  assert.deepEqual(
+    results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId),
+    [
+      "redwood-garden-8",
+      "redwood-grove-8",
+      "redwood-vista-6",
+      "redwood-horizon-6",
+      "redwood-summit-6",
+      "redwood-barrel-6",
+      "redwood-barrel-porch-6",
+      "redwood-extra-wide-6",
+    ],
+  );
+  assert.equal(results.length, 100);
+  assert.deepEqual(results, runUsFinder({
+    ...input,
+    products: productsDocument.products,
+    configurations: configurationsDocument.configurations,
+  }));
 });
 
 test("adding a room envelope keeps the pilot honest when installation clearances are unknown", () => {

@@ -24,7 +24,7 @@ The release opens the static US routes so the catalog can be inspected on the pr
 - Old homepage and comparison copy still described the original ten-record Peak/JNH pilot. It now describes the complete 100-record research set and states the uneven source depth honestly.
 - Four source publishers were truncated to brand fragments. They now use the full publisher names.
 - Static product generation originally depended only on the private preview switch. It now deliberately exposes all reviewed candidate records while indexing remains disabled.
-- Finder and comparison payloads remain bounded to 16 and 24 records respectively. The catalog and product pages expose all 100 records without sending the entire catalog into each client component.
+- The Finder now evaluates all 100 reviewed candidate records. Sol found that the former 16-record client limit hid valid 6-person, outdoor, 240 V configurations; a regression test now verifies all 100 records and the eight documented matches for that scenario. The direct-comparison selector remains bounded to 24 records.
 - Public trust copy no longer presents the privacy notice as an internal repository draft.
 - The Luna enrichment batch replaced collection-level placeholders with official model pages for Almost Heaven Hillsboro and four Redwood Outdoors models. The reviewed fields now include model dimensions and default heater voltage, power and circuit values where the manufacturer page states them. Unstated fields remain explicit unknowns.
 - A second Luna enrichment batch added individual Redwood Outdoors pages for Grove, Horizon, Vista, Barrel and Barrel with Porch. Their exterior dimensions and included electric-heater values are now recorded against the matching product and configuration evidence; fields not stated on those pages remain explicit unknowns.
@@ -38,14 +38,14 @@ The release opens the static US routes so the catalog can be inspected on the pr
 | SEO and GEO safety | All US routes are `en-US`, self-canonical and `noindex, follow`; no US URL is present in sitemap or `llms.txt` |
 | Data relationships | 100 products resolve one-to-one to 100 configurations; 200 evidence records and 49 sources resolve without warnings |
 | Product and offer safety | Zero offers means no US price, availability, affiliate CTA or Product offer schema |
-| Finder and comparison | Deterministic filters are preserved; client payloads are intentionally bounded |
+| Finder and comparison | The Finder deterministically evaluates all 100 records; the direct-comparison selector remains intentionally bounded to 24 records |
 | Security and privacy | Static-assets-only Worker; no hidden third-party collection or tracked secret |
 | DE regression | The German catalog, routes and affiliate behavior remain unchanged |
 | Public build | 682 static HTML files and 15,602 internal references with zero broken internal targets |
 
 ## Commands executed
 
-- `npm run us:test` — 118/118 passed
+- `npm run us:test` — 119/119 passed
 - `npm run us:ci` — passed, including all 114 US pages and noindex validation
 - `npm run us:sol:gate` — 100/100 candidate products and configurations; ready for Sol review
 - `npm run lint` — passed

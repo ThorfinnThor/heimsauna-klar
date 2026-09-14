@@ -1,5 +1,4 @@
 import type {
-  UsElectricalRequirement,
   UsFact,
   UsMarketProduct,
   UsMeasurement,
@@ -7,6 +6,74 @@ import type {
   UsProductConfiguration,
 } from "./types.ts";
 import { classifyUsOfferPrice } from "./offer-policy.ts";
+
+export type UsFinderFact<T> =
+  | { status: "documented"; value: T }
+  | { status: "unknown" | "not-applicable" | "conflict" };
+
+export type UsFinderProduct = Pick<UsMarketProduct, "id" | "slug" | "brand_name" | "model"> & {
+  product_type: UsFinderFact<UsMarketProduct["product_type"] extends UsFact<infer T> ? T : never>;
+  heat_type: UsFinderFact<UsMarketProduct["heat_type"] extends UsFact<infer T> ? T : never>;
+  energy_sources: UsFinderFact<UsMarketProduct["energy_sources"] extends UsFact<infer T> ? T : never>;
+  placements: UsFinderFact<UsMarketProduct["placements"] extends UsFact<infer T> ? T : never>;
+};
+
+type UsFinderElectricalRequirement = {
+  voltage_v: UsFinderFact<number>;
+  required_circuit_a: UsFinderFact<number>;
+  connection: UsFinderFact<"plug-in" | "hardwired">;
+};
+
+export type UsFinderConfiguration = Pick<UsProductConfiguration, "id" | "product_id"> & {
+  capacity: { seated: UsFinderFact<number> };
+  dimensions: {
+    exterior: UsFinderFact<UsProductConfiguration["dimensions"]["exterior"] extends UsFact<infer T> ? T : never>;
+    minimum_clearances: UsFinderFact<Record<string, UsMeasurement>>;
+  };
+  electrical_supply_options: Array<{
+    id: string;
+    requirements: UsFinderElectricalRequirement[];
+  }>;
+};
+
+function projectFact<T>(fact: UsFact<T>): UsFinderFact<T> {
+  return fact.status === "documented"
+    ? { status: "documented", value: fact.value }
+    : { status: fact.status };
+}
+
+export function projectUsFinderProducts(products: UsMarketProduct[]): UsFinderProduct[] {
+  return products.map((product) => ({
+    id: product.id,
+    slug: product.slug,
+    brand_name: product.brand_name,
+    model: product.model,
+    product_type: projectFact(product.product_type),
+    heat_type: projectFact(product.heat_type),
+    energy_sources: projectFact(product.energy_sources),
+    placements: projectFact(product.placements),
+  }));
+}
+
+export function projectUsFinderConfigurations(configurations: UsProductConfiguration[]): UsFinderConfiguration[] {
+  return configurations.map((configuration) => ({
+    id: configuration.id,
+    product_id: configuration.product_id,
+    capacity: { seated: projectFact(configuration.capacity.seated) },
+    dimensions: {
+      exterior: projectFact(configuration.dimensions.exterior),
+      minimum_clearances: projectFact(configuration.dimensions.minimum_clearances),
+    },
+    electrical_supply_options: configuration.electrical_supply_options.map((option) => ({
+      id: option.id,
+      requirements: option.requirements.map((requirement) => ({
+        voltage_v: projectFact(requirement.voltage_v),
+        required_circuit_a: projectFact(requirement.required_circuit_a),
+        connection: projectFact(requirement.connection),
+      })),
+    })),
+  }));
+}
 
 export type UsFinderStrength = "hard" | "preference";
 export type UsFinderCriterion<T> = { value: T; strength: UsFinderStrength };
@@ -60,8 +127,8 @@ export type UsFinderMatchResult = {
 };
 
 export type UsFinderInput = {
-  products: UsMarketProduct[];
-  configurations: UsProductConfiguration[];
+  products: UsFinderProduct[];
+  configurations: UsFinderConfiguration[];
   offers: UsOffer[];
   query: UsFinderQuery;
   asOf: string;
@@ -93,7 +160,7 @@ function recordEvaluation(result: MutableResult, evaluation: Evaluation, strengt
   else addUnique(result.unmetPreferences, code);
 }
 
-function factEvaluation<T>(fact: UsFact<T>, predicate: (value: T) => boolean): Evaluation {
+function factEvaluation<T>(fact: UsFinderFact<T>, predicate: (value: T) => boolean): Evaluation {
   if (fact.status === "documented") return predicate(fact.value) ? "match" : "mismatch";
   if (fact.status === "not-applicable") return "mismatch";
   return "unknown";
@@ -125,7 +192,7 @@ function clearanceInches(clearances: Record<string, UsMeasurement>, names: strin
 }
 
 function evaluateSpace(
-  configuration: UsProductConfiguration,
+  configuration: UsFinderConfiguration,
   criterion: NonNullable<UsFinderQuery["maximumExteriorInches"]>,
   result: MutableResult,
 ) {
@@ -168,7 +235,7 @@ function evaluateSpace(
 }
 
 function requirementSupplyEvaluation(
-  requirement: UsElectricalRequirement,
+  requirement: UsFinderElectricalRequirement,
   supplies: UsFinderElectricalSupply[],
 ): Evaluation {
   if (requirement.voltage_v.status !== "documented") return "unknown";
@@ -192,8 +259,8 @@ function requirementSupplyEvaluation(
 }
 
 function evaluateElectrical(
-  product: UsMarketProduct,
-  configuration: UsProductConfiguration,
+  product: UsFinderProduct,
+  configuration: UsFinderConfiguration,
   criterion: NonNullable<UsFinderQuery["electrical"]>,
   result: MutableResult,
 ) {
@@ -265,8 +332,8 @@ function evaluateBudget(
   );
 }
 
-function coreDataGapCount(product: UsMarketProduct, configuration: UsProductConfiguration) {
-  const facts: UsFact<unknown>[] = [
+function coreDataGapCount(product: UsFinderProduct, configuration: UsFinderConfiguration) {
+  const facts: UsFinderFact<unknown>[] = [
     product.product_type,
     product.heat_type,
     product.energy_sources,
@@ -278,8 +345,8 @@ function coreDataGapCount(product: UsMarketProduct, configuration: UsProductConf
 }
 
 function evaluateConfiguration(
-  product: UsMarketProduct,
-  configuration: UsProductConfiguration,
+  product: UsFinderProduct,
+  configuration: UsFinderConfiguration,
   offers: UsOffer[],
   query: UsFinderQuery,
   asOf: string,
