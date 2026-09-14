@@ -28,6 +28,7 @@ The release opens the static US routes so the catalog can be inspected on the pr
 - Public trust copy no longer presents the privacy notice as an internal repository draft.
 - The Luna enrichment batch replaced collection-level placeholders with official model pages for Almost Heaven Hillsboro and four Redwood Outdoors models. The reviewed fields now include model dimensions and default heater voltage, power and circuit values where the manufacturer page states them. Unstated fields remain explicit unknowns.
 - A second Luna enrichment batch added individual Redwood Outdoors pages for Grove, Horizon, Vista, Barrel and Barrel with Porch. Their exterior dimensions and included electric-heater values are now recorded against the matching product and configuration evidence; fields not stated on those pages remain explicit unknowns.
+- The Sol live review found stale unknown-field explanations on those five Redwood pages that still referred to the collection page or a missing individual page. The explanations now refer to the reviewed model page and distinguish an unstated value from data that has not yet been normalized.
 
 ## Verification result
 

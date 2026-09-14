@@ -8845,7 +8845,7 @@
       "label": "Grove Outdoor Sauna 8 Person standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -8857,7 +8857,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -8883,28 +8883,28 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "Interior dimensions are not stated in the reviewed product specifications."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "reason": "Shipping dimensions are not stated in the reviewed product specifications."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances are not stated in the reviewed product specifications."
         }
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "reason": "Net weight is not stated in the reviewed product specifications."
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "Shipping weight is not stated in the reviewed product specifications."
       },
       "materials": {
         "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "reason": "Materials have not yet been normalized from the reviewed product page."
       },
       "components": [],
       "electrical_supply_options": [
@@ -8922,11 +8922,11 @@
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "documented",
@@ -8951,19 +8951,19 @@
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A separate breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -8987,7 +8987,7 @@
       "label": "Vista Outdoor Sauna 6 Person standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -8999,7 +8999,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -9025,28 +9025,28 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "Interior dimensions are not stated in the reviewed product specifications."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "reason": "Shipping dimensions are not stated in the reviewed product specifications."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances are not stated in the reviewed product specifications."
         }
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "reason": "Net weight is not stated in the reviewed product specifications."
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "Shipping weight is not stated in the reviewed product specifications."
       },
       "materials": {
         "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "reason": "Materials have not yet been normalized from the reviewed product page."
       },
       "components": [],
       "electrical_supply_options": [
@@ -9064,11 +9064,11 @@
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "documented",
@@ -9093,19 +9093,19 @@
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A separate breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -9129,7 +9129,7 @@
       "label": "Horizon Outdoor Sauna 6 Person with Porch standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -9141,7 +9141,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -9167,28 +9167,28 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "Interior dimensions are not stated in the reviewed product specifications."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "reason": "Shipping dimensions are not stated in the reviewed product specifications."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances are not stated in the reviewed product specifications."
         }
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "reason": "Net weight is not stated in the reviewed product specifications."
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "Shipping weight is not stated in the reviewed product specifications."
       },
       "materials": {
         "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "reason": "Materials have not yet been normalized from the reviewed product page."
       },
       "components": [],
       "electrical_supply_options": [
@@ -9206,11 +9206,11 @@
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "documented",
@@ -9235,19 +9235,19 @@
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A separate breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -9555,7 +9555,7 @@
       "label": "Barrel Outdoor Sauna 6 Person standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -9567,7 +9567,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -9593,28 +9593,28 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "Interior dimensions are not stated in the reviewed product specifications."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "reason": "Shipping dimensions are not stated in the reviewed product specifications."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances are not stated in the reviewed product specifications."
         }
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "reason": "Net weight is not stated in the reviewed product specifications."
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "Shipping weight is not stated in the reviewed product specifications."
       },
       "materials": {
         "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "reason": "Materials have not yet been normalized from the reviewed product page."
       },
       "components": [],
       "electrical_supply_options": [
@@ -9632,11 +9632,11 @@
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "documented",
@@ -9661,19 +9661,19 @@
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A separate breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -9697,7 +9697,7 @@
       "label": "Barrel Outdoor Sauna with Porch 6 Person standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -9709,7 +9709,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -9735,28 +9735,28 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "reason": "Interior dimensions are not stated in the reviewed product specifications."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "reason": "Shipping dimensions are not stated in the reviewed product specifications."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances are not stated in the reviewed product specifications."
         }
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "reason": "Net weight is not stated in the reviewed product specifications."
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "Shipping weight is not stated in the reviewed product specifications."
       },
       "materials": {
         "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "reason": "Materials have not yet been normalized from the reviewed product page."
       },
       "components": [],
       "electrical_supply_options": [
@@ -9774,11 +9774,11 @@
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
                 "status": "documented",
@@ -9803,19 +9803,19 @@
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A separate breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
