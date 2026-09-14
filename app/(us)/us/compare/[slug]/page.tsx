@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { getUsEditorialPage, getUsEditorialPages, getUsPresentation, isUsResearchPreview, usEditorialPath } from "@/lib/us/content";
 import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsEditorialPageView } from "../../_components/UsEditorial";
@@ -27,5 +26,5 @@ export default async function UsComparisonPage({ params }: Props) {
   if (!page || page.page_type !== "comparison") notFound();
   const presentation = getUsPresentation(page.presentation_id, page.page_type);
   if (!presentation) notFound();
-  return <main><SiteHeader market="US" /><UsEditorialPageView page={page} presentation={presentation} isPreview={isPreview} /><SiteFooter market="US" /></main>;
+  return <UsEditorialPageView page={page} presentation={presentation} isPreview={isPreview} />;
 }

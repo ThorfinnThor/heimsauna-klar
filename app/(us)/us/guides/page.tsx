@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 
-import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { getUsEditorialPages, isUsResearchPreview } from "@/lib/us/content";
 import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsEditorialIndex } from "../_components/UsEditorial";
@@ -11,5 +10,5 @@ export default function UsGuideIndexPage() {
   const isPreview = isUsResearchPreview();
   const pages = getUsEditorialPages("guide", { includeNonPublic: isPreview });
   if (pages.length === 0) notFound();
-  return <main><SiteHeader market="US" /><UsEditorialIndex pageType="guide" pages={pages} isPreview={isPreview} /><SiteFooter market="US" /></main>;
+  return <UsEditorialIndex pageType="guide" pages={pages} isPreview={isPreview} />;
 }

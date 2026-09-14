@@ -1,4 +1,3 @@
-import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { notFound } from "next/navigation";
 import { getUsHomePage, isUsResearchPreview } from "@/lib/us/content";
 import { createUsPageMetadata, getUsHomePublicationStatus } from "@/lib/us/seo";
@@ -16,11 +15,5 @@ export default function UsMarketPage() {
   const page = getUsHomePage({ includeNonPublic: isUsResearchPreview() });
   if (!page) notFound();
 
-  return (
-    <main>
-      <SiteHeader market="US" />
-      <UsHomePageView page={page} isPreview={isUsResearchPreview()} />
-      <SiteFooter market="US" />
-    </main>
-  );
+  return <UsHomePageView page={page} isPreview={isUsResearchPreview()} />;
 }

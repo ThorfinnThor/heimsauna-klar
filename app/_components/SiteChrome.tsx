@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { getEnabledMarkets, marketPath, type MarketCode } from "@/lib/markets";
 import { getUsEditorialPages, getUsTrustPage, isUsResearchPreview } from "@/lib/us/content";
 
@@ -71,7 +70,7 @@ export function SiteHeader({ market = "DE" }: { market?: MarketCode }) {
   return (
     <header className="site-header">
       <Link className="brand" href={marketPath(market)} aria-label={copy.homeLabel}>
-        <Image className="brand-icon" src="/brand/sauna-192.png" width={34} height={34} alt="" unoptimized />
+        <span className="brand-icon" aria-hidden="true" />
         <span>Select Your Sauna</span>
       </Link>
       <nav className="nav" aria-label={copy.navigationLabel}>
@@ -97,7 +96,7 @@ export function SiteFooter({ market = "DE" }: { market?: MarketCode }) {
   return (
     <footer>
       <Link className="brand brand-footer" href={marketPath(market)}>
-        <Image className="brand-icon" src="/brand/sauna-192.png" width={34} height={34} alt="" unoptimized /><span>Select Your Sauna</span>
+        <span className="brand-icon" aria-hidden="true" /><span>Select Your Sauna</span>
       </Link>
       <p>{isGerman ? "Eine unabhängige Planungs- und Kaufplattform für private Saunen." : "Independent planning and product research for home saunas."}</p>
       <div className="footer-links">

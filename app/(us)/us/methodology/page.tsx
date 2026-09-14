@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 
-import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { getUsTrustPage, isUsResearchPreview } from "@/lib/us/content";
 import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsTrustPageView } from "../_components/UsEditorial";
@@ -18,5 +17,5 @@ export default function UsMethodologyPage() {
   const isPreview = isUsResearchPreview();
   const page = getUsTrustPage("methodology", { includeNonPublic: isPreview });
   if (!page) notFound();
-  return <main><SiteHeader market="US" /><UsTrustPageView page={page} isPreview={isPreview} /><SiteFooter market="US" /></main>;
+  return <UsTrustPageView page={page} isPreview={isPreview} />;
 }

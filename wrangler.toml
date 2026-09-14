@@ -1,5 +1,5 @@
 name = "heimsauna-klar"
-compatibility_date = "2026-08-21"
+compatibility_date = "2026-09-14"
 
 # Static-assets-only Worker: there is intentionally no `main` entry point and
 # no OpenNext runtime bundle.

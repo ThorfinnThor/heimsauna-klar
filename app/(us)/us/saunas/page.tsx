@@ -1,4 +1,3 @@
-import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { getUsPublicCatalogItems, getUsResearchCatalogItems } from "@/lib/us/catalog-index";
 import { usPublication } from "@/lib/us/catalog";
 import { createUsPageMetadata } from "@/lib/us/seo";
@@ -16,8 +15,7 @@ export default function UsSaunaCatalogPage() {
   const isResearchPreview = !usPublication.routes_enabled && process.env.US_RESEARCH_PREVIEW === "1";
   const products = isResearchPreview ? getUsResearchCatalogItems() : getUsPublicCatalogItems();
   return (
-    <main>
-      <SiteHeader market="US" />
+    <>
       <section className="page-hero page-shell us-catalog-hero">
         <p className="eyebrow">US sauna catalog</p>
         <h1>Compare the configuration, not just the model name.</h1>
@@ -27,7 +25,6 @@ export default function UsSaunaCatalogPage() {
         {isResearchPreview ? <p className="us-preview-notice">Research preview · candidate records are not approved for publication</p> : null}
         <UsCatalog items={products} />
       </section>
-      <SiteFooter market="US" />
-    </main>
+    </>
   );
 }

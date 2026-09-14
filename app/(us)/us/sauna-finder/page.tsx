@@ -1,4 +1,3 @@
-import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { createUsPageMetadata } from "@/lib/us/seo";
 import {
   getUsPublicConfigurations,
@@ -26,8 +25,7 @@ export default function UsSaunaFinderPage() {
   const asOf = process.env.NEXT_PUBLIC_OFFER_POLICY_AS_OF ?? usPublication.updated_at;
 
   return (
-    <main>
-      <SiteHeader market="US" />
+    <>
       <section className="page-hero page-shell us-finder-hero">
         <p className="eyebrow">US sauna finder</p>
         <h1>Check a sauna against the limits of your project.</h1>
@@ -37,7 +35,6 @@ export default function UsSaunaFinderPage() {
         {isResearchPreview ? <p className="us-preview-notice">Research preview · candidate records are not approved for publication</p> : null}
         <UsSaunaFinder products={products} configurations={configurations} offers={offers} asOf={asOf} />
       </section>
-      <SiteFooter market="US" />
-    </main>
+    </>
   );
 }

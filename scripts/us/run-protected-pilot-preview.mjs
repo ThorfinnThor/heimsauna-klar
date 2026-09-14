@@ -26,6 +26,7 @@ try {
   run("generate offline static preview", process.execPath, ["node_modules/next/dist/bin/next", "build", "--webpack"], previewEnvironment);
   run("check SEO safety before cleanup", process.execPath, ["scripts/us/check-seo-output.mjs"], previewEnvironment);
   run("exercise real pilot output", process.execPath, ["scripts/us/check-protected-pilot-preview.mjs"], previewEnvironment);
+  run("check static security, accessibility and performance", process.execPath, ["scripts/us/check-static-quality.mjs"], previewEnvironment);
 } catch (error) {
   previewError = error;
 } finally {

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { markets } from "@/lib/markets";
 import { getUsOfferPresentationsForConfiguration } from "@/lib/us/affiliate";
@@ -82,9 +81,7 @@ export default async function UsSaunaProductPage({ params }: Props) {
   const capacity = configuration.capacity.seated.status === "documented" ? configuration.capacity.seated.value : null;
 
   return (
-    <main>
-      <SiteHeader market="US" />
-      <article className="page-shell us-product-page">
+    <article className="page-shell us-product-page">
         {!isResearchPreview ? (
           <>
             <StructuredData data={usProductJsonLd(product, configuration)} />
@@ -203,8 +200,6 @@ export default async function UsSaunaProductPage({ params }: Props) {
             ))}
           </ul>
         </section>
-      </article>
-      <SiteFooter market="US" />
-    </main>
+    </article>
   );
 }
