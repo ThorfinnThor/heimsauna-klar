@@ -1,4 +1,5 @@
 import editorialDocument from "../../content/us/editorial.json" with { type: "json" };
+import homeDocument from "../../content/us/home.json" with { type: "json" };
 import legalDocument from "../../content/us/legal.json" with { type: "json" };
 import presentationsDocument from "../../content/us/page-presentations.json" with { type: "json" };
 import { markets } from "../markets.ts";
@@ -9,12 +10,14 @@ import type {
   UsEditorialPage,
   UsEditorialPageType,
   UsGuidePage,
+  UsHomePage,
   UsPagePresentation,
   UsTrustPage,
 } from "./content-types.ts";
 import type { UsFact, UsMarketProduct, UsProductConfiguration } from "./types.ts";
 
 const editorialPages = editorialDocument.entries as UsEditorialPage[];
+const homePage = homeDocument as UsHomePage;
 const trustPages = legalDocument.pages as UsTrustPage[];
 const presentations = presentationsDocument.entries as UsPagePresentation[];
 
@@ -47,6 +50,11 @@ export function getUsEditorialPages(pageType?: UsEditorialPageType, options: Con
   if (!contentDocumentIsAvailable(editorialDocument.status, includeNonPublic)) return [];
   return editorialPages.filter((page) =>
     (!pageType || page.page_type === pageType) && isAvailable(page.publication_status, includeNonPublic));
+}
+
+export function getUsHomePage(options: ContentOptions = {}) {
+  const includeNonPublic = options.includeNonPublic ?? false;
+  return contentDocumentIsAvailable(homeDocument.status, includeNonPublic) ? homePage : undefined;
 }
 
 export function getUsEditorialPage(pageType: UsEditorialPageType, slug: string, options: ContentOptions = {}) {
@@ -140,5 +148,9 @@ export function selectUsGuideConfigurations(
 }
 
 export function getUsEditorialSources(page: UsEditorialPage) {
+  return getUsSources(page.source_ids);
+}
+
+export function getUsHomeSources(page: UsHomePage) {
   return getUsSources(page.source_ids);
 }

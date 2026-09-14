@@ -325,6 +325,28 @@ function validateEditorialContent(bundle, sourceIds, productIds, issues) {
     }
   }
 
+  const home = bundle.content?.home;
+  const homePath = "content.home";
+  if (!isObject(home)) {
+    issue(issues, "error", homePath, "must be an object");
+  } else {
+    for (const field of ["title", "description", "eyebrow", "heading"]) requireString(home[field], `${homePath}.${field}`, issues);
+    const introduction = requireArray(home.introduction, `${homePath}.introduction`, issues) ? home.introduction : [];
+    for (const [index, paragraph] of introduction.entries()) requireString(paragraph, `${homePath}.introduction[${index}]`, issues);
+    const sections = requireArray(home.sections, `${homePath}.sections`, issues) ? home.sections : [];
+    if (sections.length === 0) issue(issues, "error", `${homePath}.sections`, "needs at least one substantive section");
+    ensureUniqueIds(sections, `${homePath}.sections`, issues);
+    for (const [index, section] of sections.entries()) validateEditorialSection(section, `${homePath}.sections[${index}]`, issues);
+    const homeSourceIds = validateIdArray(home.source_ids, `${homePath}.source_ids`, issues);
+    requireReferences(homeSourceIds, sourceIds, `${homePath}.source_ids`, issues);
+    if (homeSourceIds.length === 0) issue(issues, "error", `${homePath}.source_ids`, "needs at least one source");
+    const relatedPaths = requireArray(home.related_paths, `${homePath}.related_paths`, issues) ? home.related_paths : [];
+    for (const [index, relatedPath] of relatedPaths.entries()) {
+      if (!requireString(relatedPath, `${homePath}.related_paths[${index}]`, issues)) continue;
+      if (!/^\/us\/(?:[a-z0-9-]+\/)+$/.test(relatedPath)) issue(issues, "error", `${homePath}.related_paths[${index}]`, "must be a clean trailing-slash US path");
+    }
+  }
+
   const trustPages = requireArray(bundle.content?.legal?.pages, "content.legal.pages", issues) ? bundle.content.legal.pages : [];
   ensureUniqueIds(trustPages, "content.legal.pages", issues);
   const trustSlugs = new Set();

@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import {
   getUsEditorialSources,
+  getUsHomeSources,
   selectUsBrandConfigurations,
   selectUsComparisonConfigurations,
   selectUsGuideConfigurations,
@@ -13,6 +14,8 @@ import type {
   UsComparisonPage,
   UsEditorialPage,
   UsEditorialPageType,
+  UsHomePage,
+  UsEditorialSection,
   UsPagePresentation,
   UsTrustPage,
 } from "@/lib/us/content-types";
@@ -137,7 +140,7 @@ function ComparisonMatrix({ page, items }: { page: UsComparisonPage; items: UsEd
   );
 }
 
-function EditorialSections({ page }: { page: UsEditorialPage }) {
+function EditorialSections({ page }: { page: { sections: UsEditorialSection[] } }) {
   if (page.sections.length === 0) return null;
   return (
     <section className="us-editorial-sections" aria-label="Editorial guidance">
@@ -155,8 +158,12 @@ function EditorialSections({ page }: { page: UsEditorialPage }) {
   );
 }
 
-function EditorialSources({ page }: { page: UsEditorialPage }) {
-  const sources = getUsEditorialSources(page);
+function isEditorialPage(page: UsEditorialPage | UsHomePage): page is UsEditorialPage {
+  return "page_type" in page;
+}
+
+function EditorialSources({ page }: { page: UsEditorialPage | UsHomePage }) {
+  const sources = isEditorialPage(page) ? getUsEditorialSources(page) : getUsHomeSources(page);
   if (sources.length === 0) return null;
   return (
     <section className="us-editorial-sources" aria-labelledby="editorial-sources-title">
@@ -171,7 +178,7 @@ function EditorialSources({ page }: { page: UsEditorialPage }) {
   );
 }
 
-function RelatedPages({ page }: { page: UsEditorialPage }) {
+function RelatedPages({ page }: { page: Pick<UsEditorialPage, "related_paths"> | UsHomePage }) {
   if (page.related_paths.length === 0) return null;
   return (
     <nav className="us-editorial-related" aria-labelledby="related-pages-title">
@@ -237,6 +244,24 @@ export function UsEditorialPageView({ page, presentation, isPreview }: { page: U
         {presentation.module_order.map((module) => <div data-module={module} key={module}>{modules[module]}</div>)}
       </div>
     </article>
+  );
+}
+
+export function UsHomePageView({ page, isPreview }: { page: UsHomePage; isPreview: boolean }) {
+  return (
+    <>
+      <article className="page-shell us-home-editorial">
+        {isPreview ? <p className="us-preview-notice">Research preview · this page is not approved for publication</p> : null}
+        <header className="us-editorial-hero">
+          <p className="eyebrow">{page.eyebrow}</p>
+          <h1>{page.heading}</h1>
+          <div>{page.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
+        </header>
+        <EditorialSections page={page} />
+        <EditorialSources page={page} />
+        <RelatedPages page={page} />
+      </article>
+    </>
   );
 }
 

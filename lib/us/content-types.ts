@@ -54,6 +54,17 @@ export interface UsGuidePage extends UsEditorialPageBase {
 
 export type UsEditorialPage = UsComparisonPage | UsBrandPage | UsGuidePage;
 
+export interface UsHomePage {
+  eyebrow: string;
+  title: string;
+  description: string;
+  heading: string;
+  introduction: string[];
+  sections: UsEditorialSection[];
+  source_ids: string[];
+  related_paths: string[];
+}
+
 export interface UsPagePresentation {
   id: string;
   page_type: UsEditorialPageType;

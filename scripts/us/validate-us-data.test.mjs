@@ -182,7 +182,19 @@ function validBundle() {
     },
     content: {
       navigation: { schema_version: 1, market: "US", status: "draft", items: [] },
-      home: { schema_version: 1, market: "US", status: "draft", modules: [] },
+      home: {
+        schema_version: 1,
+        market: "US",
+        status: "draft",
+        title: "US sauna research",
+        description: "Source-based sauna research.",
+        eyebrow: "Research preview",
+        heading: "Sauna research for US homes.",
+        introduction: ["Fixture introduction."],
+        sections: [{ id: "scope", heading: "Scope", paragraphs: ["Fixture paragraph."] }],
+        source_ids: ["source-product"],
+        related_paths: ["/us/saunas/"],
+      },
       affiliate: { schema_version: 1, market: "US", status: "draft", disclosure: "", principles: [] },
       legal: { schema_version: 1, market: "US", status: "draft", pages: [] },
       pagePresentations: { schema_version: 1, market: "US", status: "draft", entries: [] },
@@ -291,6 +303,12 @@ test("reviewed editorial pages cannot pass with thin unsourced content", () => {
     selection: { placements: ["indoor"] },
   }];
   assert.throws(() => validateUsBundle(bundle), /reviewed content needs an introduction/);
+});
+
+test("US home content cannot remain an empty module shell", () => {
+  const bundle = validBundle();
+  bundle.content.home.sections = [];
+  assert.throws(() => validateUsBundle(bundle), /content\.home\.sections.*substantive section/);
 });
 
 test("editorial product links must resolve to known US records", () => {

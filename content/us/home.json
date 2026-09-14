@@ -2,5 +2,51 @@
   "schema_version": 1,
   "market": "US",
   "status": "draft",
-  "modules": []
+  "eyebrow": "United States · research preview",
+  "title": "US sauna research",
+  "description": "Independent product research for home sauna planning in the United States.",
+  "heading": "Sauna research for US homes.",
+  "introduction": [
+    "The US section is being built around model-specific source records rather than a generic catalog. The current pilot covers indoor and outdoor infrared cabins with separate fields for placement, seating, dimensions and electrical supply.",
+    "This is research and comparison work, not a hands-on test, installation approval or store checkout. A missing value remains open until a suitable source documents it."
+  ],
+  "sections": [
+    {
+      "id": "current-scope",
+      "heading": "The current scope is deliberately narrow",
+      "paragraphs": [
+        "The pilot records indoor infrared cabins from Peak Saunas and JNH Lifestyles, plus the JNH Arki Outdoor Duo. The catalog keeps each size and placement as its own configuration so that dimensions and electrical facts are not borrowed from another model.",
+        "Traditional electric cabins, wood-burning cabins, installation clearances, shipping terms and reviewed offers are not treated as covered categories until their evidence is added to the corresponding record."
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What a documented result means here",
+      "paragraphs": [
+        "Manufacturer product pages provide the current pilot's primary technical sources. The site records the source at field level, keeps unknown and unresolved values visible, and separates a voltage match from approval of a circuit, receptacle or installation.",
+        "The finder can narrow the research set, but it does not replace the model instructions, local requirements or review by a qualified professional."
+      ]
+    },
+    {
+      "id": "continue",
+      "heading": "Where the research continues",
+      "paragraphs": [
+        "The catalog shows the individual source records, the comparison page makes its selection rule visible, and the electrical guide explains why a shared voltage label can still leave different circuit questions open."
+      ]
+    }
+  ],
+  "source_ids": [
+    "peak-shasta-product",
+    "peak-everest-product",
+    "jnh-tosi-1-product",
+    "jnh-tosi-2-product",
+    "jnh-tosi-4-product",
+    "jnh-arki-outdoor-duo-product"
+  ],
+  "related_paths": [
+    "/us/saunas/",
+    "/us/sauna-finder/",
+    "/us/compare/indoor-infrared-saunas/",
+    "/us/guides/infrared-sauna-electrical-requirements/"
+  ]
 }
