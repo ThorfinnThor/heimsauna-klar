@@ -17,6 +17,7 @@
     "us:de-baseline:check": "node scripts/us/check-de-baseline.mjs",
     "us:import:review": "node scripts/us/manual-import.mjs",
     "us:offers:promote": "node scripts/us/offer-snapshot.mjs",
+    "us:preview:test": "node scripts/us/run-protected-pilot-preview.mjs",
     "us:output:gate": "node scripts/us/enforce-publication-output.mjs",
     "us:seo:check": "node scripts/us/check-seo-output.mjs",
     "us:test": "node --test scripts/us/*.test.mjs",
