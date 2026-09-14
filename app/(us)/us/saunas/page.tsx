@@ -18,8 +18,8 @@ export default function UsSaunaCatalogPage() {
     <>
       <section className="page-hero page-shell us-catalog-hero">
         <p className="eyebrow">US sauna product catalog</p>
-        <h1>Compare the configuration, not just the model name.</h1>
-        <p>Dimensions, capacity and electrical requirements refer to documented US configurations. Missing specifications stay visible instead of being estimated.</p>
+        <h1>Compare documented US sauna models.</h1>
+        <p>Dimensions, capacity and electrical requirements come from documented US configurations. Missing specifications remain visible.</p>
       </section>
       <section className="page-shell us-catalog-section">
         {isResearchPreview ? <p className="us-preview-notice">Research beta · candidate records remain under editorial review and are excluded from search indexing</p> : null}

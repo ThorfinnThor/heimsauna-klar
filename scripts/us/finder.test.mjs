@@ -173,7 +173,10 @@ test("the public finder evaluates the complete pilot for six outdoor seats on 24
       "redwood-summit-6",
       "redwood-barrel-6",
       "redwood-barrel-porch-6",
+      "redwood-extra-wide-porch-6",
       "redwood-extra-wide-6",
+      "redwood-barrel-8",
+      "redwood-noctra-8",
     ],
   );
   assert.equal(results.length, 100);

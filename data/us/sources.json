@@ -491,6 +491,76 @@
       "market": "US",
       "checked_at": "2026-09-14",
       "locator": "Product specifications for capacity, exterior dimensions, electrical requirements and included 6kW heater"
+    },
+    {
+      "id": "redwood-extra-wide-porch-6-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/extra-wide-barrel-sauna-with-porch-6-person",
+      "title": "Redwood Outdoors Extra-Wide Outdoor Barrel Sauna with Porch 6 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for traditional format, dimensions, weight, material and heater requirements"
+    },
+    {
+      "id": "redwood-barrel-8-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/barrel-sauna-8-person",
+      "title": "Redwood Outdoors Barrel Outdoor Sauna 8 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for traditional format, dimensions, weight, material and heater requirements"
+    },
+    {
+      "id": "redwood-noctra-8-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/noctra-outdoor-sauna-8-person",
+      "title": "Redwood Outdoors Noctra Outdoor Sauna 8 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for traditional format, dimensions, weight, material and heater requirements"
+    },
+    {
+      "id": "saunalife-e8-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/ergo-series-model-e8/",
+      "title": "SaunaLife Ergo-Series Model E8 product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product page specifications for barrel dimensions, shipping dimensions, weight and construction"
+    },
+    {
+      "id": "saunalife-e8w-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/ergo-series-model-e8w/",
+      "title": "SaunaLife Ergo-Series Model E8W product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product page specifications for barrel dimensions, shipping dimensions, weight and construction"
+    },
+    {
+      "id": "saunalife-e8g-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/ergo-series-model-e8g/",
+      "title": "SaunaLife Ergo-Series Model E8G product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product page specifications for barrel dimensions, shipping dimensions, weight and construction"
+    },
+    {
+      "id": "saunalife-cl7g-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/cube-series-model-cl7g/",
+      "title": "SaunaLife Cube-Series Model CL7G product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"
     }
   ],
   "evidence": [

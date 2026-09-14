@@ -1154,11 +1154,12 @@
         "saunalife-e8-standard"
       ],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-e8-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "saunalife-e8w",
@@ -1201,11 +1202,12 @@
         "saunalife-e8w-standard"
       ],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-e8w-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "saunalife-e8g",
@@ -1248,11 +1250,12 @@
         "saunalife-e8g-standard"
       ],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-e8g-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "saunalife-ee6g",
@@ -1671,11 +1674,12 @@
         "saunalife-cl7g-standard"
       ],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-cl7g-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "saunalife-cl12gcp",
@@ -3930,12 +3934,20 @@
         ]
       },
       "heat_type": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-porch-6-product"
+        ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-porch-6-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -3957,11 +3969,12 @@
         "redwood-extra-wide-porch-6-standard"
       ],
       "source_ids": [
-        "redwood-outdoor-saunas"
+        "redwood-outdoor-saunas",
+        "redwood-extra-wide-porch-6-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "redwood-extra-wide-6",
@@ -4033,12 +4046,20 @@
         ]
       },
       "heat_type": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-redwood-barrel-8-product"
+        ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-barrel-8-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -4060,11 +4081,12 @@
         "redwood-barrel-8-standard"
       ],
       "source_ids": [
-        "redwood-outdoor-saunas"
+        "redwood-outdoor-saunas",
+        "redwood-barrel-8-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "redwood-noctra-8",
@@ -4080,12 +4102,20 @@
         ]
       },
       "heat_type": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-redwood-noctra-8-product"
+        ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-noctra-8-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -4107,11 +4137,12 @@
         "redwood-noctra-8-standard"
       ],
       "source_ids": [
-        "redwood-outdoor-saunas"
+        "redwood-outdoor-saunas",
+        "redwood-noctra-8-product"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "thermory-luik-kodiak",

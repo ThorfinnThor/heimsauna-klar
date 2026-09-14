@@ -3287,16 +3287,48 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 81,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 87,
+              "unit": "in"
+            },
+            "height": {
+              "value": 81,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-saunalife-e8-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
           "reason": "Model-level interior dimensions require the individual product page."
         },
         "shipping": {
-          "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 44,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 88,
+              "unit": "in"
+            },
+            "height": {
+              "value": 43,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-saunalife-e8-configuration"
+          ]
         },
         "minimum_clearances": {
           "status": "unknown",
@@ -3304,16 +3336,28 @@
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "status": "documented",
+        "value": {
+          "value": 1345,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-saunalife-e8-configuration"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
         "reason": "Shipping weight is not stated on the checked collection page."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "status": "documented",
+        "value": [
+          "European Thermo-Spruce",
+          "Thermo-Aspen"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e8-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -3372,7 +3416,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-e8-product"
       ],
       "publication_status": "candidate"
     },
@@ -3400,16 +3445,48 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 81,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 87,
+              "unit": "in"
+            },
+            "height": {
+              "value": 81,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-saunalife-e8w-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
           "reason": "Model-level interior dimensions require the individual product page."
         },
         "shipping": {
-          "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 44,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 88,
+              "unit": "in"
+            },
+            "height": {
+              "value": 44,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-saunalife-e8w-configuration"
+          ]
         },
         "minimum_clearances": {
           "status": "unknown",
@@ -3417,16 +3494,28 @@
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "status": "documented",
+        "value": {
+          "value": 1367,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-saunalife-e8w-configuration"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
         "reason": "Shipping weight is not stated on the checked collection page."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "status": "documented",
+        "value": [
+          "European Thermo-Spruce",
+          "Thermo-Aspen"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e8w-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -3485,7 +3574,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-e8w-product"
       ],
       "publication_status": "candidate"
     },
@@ -3513,16 +3603,48 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 81,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 87,
+              "unit": "in"
+            },
+            "height": {
+              "value": 81,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-saunalife-e8g-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
           "reason": "Model-level interior dimensions require the individual product page."
         },
         "shipping": {
-          "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 44,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 88,
+              "unit": "in"
+            },
+            "height": {
+              "value": 41,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-saunalife-e8g-configuration"
+          ]
         },
         "minimum_clearances": {
           "status": "unknown",
@@ -3530,16 +3652,28 @@
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "status": "documented",
+        "value": {
+          "value": 1544,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-saunalife-e8g-configuration"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
         "reason": "Shipping weight is not stated on the checked collection page."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "status": "documented",
+        "value": [
+          "European Thermo-Spruce",
+          "Thermo-Aspen"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-e8g-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -3598,7 +3732,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-e8g-product"
       ],
       "publication_status": "candidate"
     },
@@ -4518,16 +4653,64 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 91,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 86,
+              "unit": "in"
+            },
+            "height": {
+              "value": 93,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-saunalife-cl7g-configuration"
+          ]
         },
         "interior": {
-          "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 87,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 70,
+              "unit": "in"
+            },
+            "height": {
+              "value": 85,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-saunalife-cl7g-configuration"
+          ]
         },
         "shipping": {
-          "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 91,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 86,
+              "unit": "in"
+            },
+            "height": {
+              "value": 93,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-saunalife-cl7g-configuration"
+          ]
         },
         "minimum_clearances": {
           "status": "unknown",
@@ -4535,16 +4718,29 @@
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "status": "documented",
+        "value": {
+          "value": 2040,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-saunalife-cl7g-configuration"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
         "reason": "Shipping weight is not stated on the checked collection page."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "status": "documented",
+        "value": [
+          "Thermo-Spruce",
+          "Thermo-Aspen",
+          "Tempered bronze glass"
+        ],
+        "evidence_ids": [
+          "evidence-saunalife-cl7g-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -4603,7 +4799,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "saunalife-products"
+        "saunalife-products",
+        "saunalife-cl7g-product"
       ],
       "publication_status": "candidate"
     },
@@ -9856,16 +10053,48 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 84.75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 92.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 88.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-extra-wide-porch-6-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
           "reason": "Model-level interior dimensions require the individual product page."
         },
         "shipping": {
-          "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 42.1,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 94.1,
+              "unit": "in"
+            },
+            "height": {
+              "value": 40,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-extra-wide-porch-6-configuration"
+          ]
         },
         "minimum_clearances": {
           "status": "unknown",
@@ -9873,27 +10102,41 @@
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "status": "documented",
+        "value": {
+          "value": 1234,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-porch-6-configuration"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
         "reason": "Shipping weight is not stated on the checked collection page."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "status": "documented",
+        "value": [
+          "Canadian heat-treated hemlock"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-porch-6-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "redwood-extra-wide-porch-6-electrical-unknown",
+          "id": "redwood-extra-wide-porch-6-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-redwood-extra-wide-porch-6-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -9904,16 +10147,25 @@
                 "reason": "Phase is not stated on the checked collection page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-redwood-extra-wide-porch-6-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-redwood-extra-wide-porch-6-configuration"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-redwood-extra-wide-porch-6-configuration"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -9941,7 +10193,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "redwood-outdoor-saunas"
+        "redwood-outdoor-saunas",
+        "redwood-extra-wide-porch-6-product"
       ],
       "publication_status": "candidate"
     },
@@ -10111,16 +10364,48 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72.75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 92.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-barrel-8-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
           "reason": "Model-level interior dimensions require the individual product page."
         },
         "shipping": {
-          "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 44,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 96,
+              "unit": "in"
+            },
+            "height": {
+              "value": 33,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-barrel-8-configuration"
+          ]
         },
         "minimum_clearances": {
           "status": "unknown",
@@ -10128,27 +10413,41 @@
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "status": "documented",
+        "value": {
+          "value": 1150,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-redwood-barrel-8-configuration"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
         "reason": "Shipping weight is not stated on the checked collection page."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "status": "documented",
+        "value": [
+          "Canadian Thermowood"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-barrel-8-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "redwood-barrel-8-electrical-unknown",
+          "id": "redwood-barrel-8-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-8-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -10159,16 +10458,25 @@
                 "reason": "Phase is not stated on the checked collection page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 8000,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-8-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-8-configuration"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-redwood-barrel-8-configuration"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -10196,7 +10504,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "redwood-outdoor-saunas"
+        "redwood-outdoor-saunas",
+        "redwood-barrel-8-product"
       ],
       "publication_status": "candidate"
     },
@@ -10224,16 +10533,48 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 75.5,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 89.75,
+              "unit": "in"
+            },
+            "height": {
+              "value": 85.75,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-noctra-8-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
           "reason": "Model-level interior dimensions require the individual product page."
         },
         "shipping": {
-          "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 90.5,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 50.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 32.25,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-redwood-noctra-8-configuration"
+          ]
         },
         "minimum_clearances": {
           "status": "unknown",
@@ -10241,27 +10582,41 @@
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "status": "documented",
+        "value": {
+          "value": 1410,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-redwood-noctra-8-configuration"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
         "reason": "Shipping weight is not stated on the checked collection page."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "status": "documented",
+        "value": [
+          "Heat-treated hemlock stained black"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-noctra-8-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "redwood-noctra-8-electrical-unknown",
+          "id": "redwood-noctra-8-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-redwood-noctra-8-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -10272,16 +10627,25 @@
                 "reason": "Phase is not stated on the checked collection page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 8000,
+                "evidence_ids": [
+                  "evidence-redwood-noctra-8-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-redwood-noctra-8-configuration"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-redwood-noctra-8-configuration"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -10309,7 +10673,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "redwood-outdoor-saunas"
+        "redwood-outdoor-saunas",
+        "redwood-noctra-8-product"
       ],
       "publication_status": "candidate"
     },

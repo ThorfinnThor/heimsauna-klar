@@ -124,7 +124,7 @@ export function UsCatalog({ items }: { items: UsCatalogItem[] }) {
               <div><dt>Electrical</dt><dd>{item.voltages?.map((value) => `${value} V`).join(" or ") ?? "Not documented"}</dd></div>
               <div><dt>Exterior W × D × H</dt><dd>{item.exteriorDimensions ?? "Not documented"}</dd></div>
             </dl>
-            <Link href={`/us/saunas/${item.slug}/`}>View documented details <span aria-hidden="true">↗</span></Link>
+            <Link href={`/us/saunas/${item.slug}/`}>View details <span aria-hidden="true">↗</span></Link>
           </article>
         ))}
       </div>

@@ -142,7 +142,7 @@ function FinderResultCard({
           <ul>{preferenceNotes.map((reason) => <li key={reason}>{reason}</li>)}</ul>
         </div>
       ) : null}
-      <Link href={`/us/saunas/${product.slug}/`}>View documented configuration <span aria-hidden="true">↗</span></Link>
+      <Link href={`/us/saunas/${product.slug}/`}>View configuration <span aria-hidden="true">↗</span></Link>
     </article>
   );
 }

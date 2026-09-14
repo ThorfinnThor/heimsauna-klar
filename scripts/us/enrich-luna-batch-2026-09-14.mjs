@@ -1,0 +1,129 @@
+import { readFile, writeFile } from "node:fs/promises";
+import { resolve } from "node:path";
+
+const root = resolve(import.meta.dirname, "../..");
+const today = "2026-09-14";
+
+const load = async (file) => JSON.parse(await readFile(resolve(root, file), "utf8"));
+const save = async (file, value) => writeFile(resolve(root, file), `${JSON.stringify(value, null, 2)}\n`);
+const documented = (value, evidenceId) => ({ status: "documented", value, evidence_ids: [evidenceId] });
+const dimension = (width, depth, height) => ({ width: { value: width, unit: "in" }, depth: { value: depth, unit: "in" }, height: { value: height, unit: "in" } });
+
+const sourceDefinitions = [
+  ["redwood-extra-wide-porch-6-product", "https://www.redwoodoutdoors.com/products/extra-wide-barrel-sauna-with-porch-6-person", "Redwood Outdoors Extra-Wide Outdoor Barrel Sauna with Porch 6 Person product page", "Redwood Outdoors", "Product specifications for traditional format, dimensions, weight, material and heater requirements"],
+  ["redwood-barrel-8-product", "https://www.redwoodoutdoors.com/products/barrel-sauna-8-person", "Redwood Outdoors Barrel Outdoor Sauna 8 Person product page", "Redwood Outdoors", "Product specifications for traditional format, dimensions, weight, material and heater requirements"],
+  ["redwood-noctra-8-product", "https://www.redwoodoutdoors.com/products/noctra-outdoor-sauna-8-person", "Redwood Outdoors Noctra Outdoor Sauna 8 Person product page", "Redwood Outdoors", "Product specifications for traditional format, dimensions, weight, material and heater requirements"],
+  ["saunalife-e8-product", "https://saunalife.com/saunas/ergo-series-model-e8/", "SaunaLife Ergo-Series Model E8 product page", "SaunaLife", "Product page specifications for barrel dimensions, shipping dimensions, weight and construction"],
+  ["saunalife-e8w-product", "https://saunalife.com/saunas/ergo-series-model-e8w/", "SaunaLife Ergo-Series Model E8W product page", "SaunaLife", "Product page specifications for barrel dimensions, shipping dimensions, weight and construction"],
+  ["saunalife-e8g-product", "https://saunalife.com/saunas/ergo-series-model-e8g/", "SaunaLife Ergo-Series Model E8G product page", "SaunaLife", "Product page specifications for barrel dimensions, shipping dimensions, weight and construction"],
+  ["saunalife-cl7g-product", "https://saunalife.com/saunas/cube-series-model-cl7g/", "SaunaLife Cube-Series Model CL7G product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
+];
+
+const productFacts = {
+  "redwood-extra-wide-porch-6": {
+    source: "redwood-extra-wide-porch-6-product", evidence: "evidence-redwood-extra-wide-porch-6-product", configEvidence: "evidence-redwood-extra-wide-porch-6-configuration",
+    heat: "traditional", energy: ["electric"], exterior: dimension(84.75, 92.5, 88.5), shipping: dimension(42.1, 94.1, 40), weight: 1234, material: ["Canadian heat-treated hemlock"], power: 6000, current: 30,
+    productRaw: "Extra-Wide Outdoor Barrel Sauna with Porch 6 Person; traditional outdoor sauna kit with seating for up to 6 people and an included 6 kW Harvia KIP electric heater.",
+    configRaw: "Redwood specifications: exterior 92.5 L x 84.75 W x 88.5 H in; shipping 94.1 L x 42.1 W x 40 H in; Canadian heat-treated hemlock; net weight 1,234 lb; electrical requirements 120 V lighting and 240 V heater; included 6 kW heater listed at 30 A.",
+  },
+  "redwood-barrel-8": {
+    source: "redwood-barrel-8-product", evidence: "evidence-redwood-barrel-8-product", configEvidence: "evidence-redwood-barrel-8-configuration",
+    heat: "traditional", energy: ["electric"], exterior: dimension(72.75, 92.5, 76.5), shipping: dimension(44, 96, 33), weight: 1150, material: ["Canadian Thermowood"], power: 8000, current: 40,
+    productRaw: "Barrel Outdoor Sauna 8 Person; traditional outdoor sauna kit with seating for up to 8 people and an included 8 kW Harvia KIP electric heater.",
+    configRaw: "Redwood specifications: exterior 92.5 L x 72.75 W x 76.5 H in; shipping 96 L x 44 W x 33 H in; Canadian Thermowood; net weight 1,150 lb; electrical requirements 120 V lighting and 240 V heater; included 8 kW heater listed at 40 A.",
+  },
+  "redwood-noctra-8": {
+    source: "redwood-noctra-8-product", evidence: "evidence-redwood-noctra-8-product", configEvidence: "evidence-redwood-noctra-8-configuration",
+    heat: "traditional", energy: ["electric"], exterior: dimension(75.5, 89.75, 85.75), shipping: dimension(90.5, 50.5, 32.25), weight: 1410, material: ["Heat-treated hemlock stained black"], power: 8000, current: 40,
+    productRaw: "Noctra Outdoor Sauna 8 Person; traditional outdoor sauna kit with seating for up to 8 people and an included 8 kW Harvia KIP electric heater.",
+    configRaw: "Redwood specifications: base exterior 89.75 L x 75.5 W x 85.75 H in; shipping 90.5 W x 50.5 L x 32.25 H in; heat-treated hemlock stained black; net weight 1,410 lb; electrical requirements 120 V lighting and 240 V heater; included 8 kW heater listed at 40 A.",
+  },
+  "saunalife-e8": {
+    source: "saunalife-e8-product", evidence: "evidence-saunalife-e8-product", configEvidence: "evidence-saunalife-e8-configuration",
+    exterior: dimension(81, 87, 81), shipping: dimension(44, 88, 43), weight: 1345, material: ["European Thermo-Spruce", "Thermo-Aspen"],
+    productRaw: "ERGO Series Model E8; 6-person outdoor barrel sauna with 81 in diameter and 87 in length, constructed with Thermo-Spruce staves and Thermo-Aspen benches.",
+    configRaw: "SaunaLife E8 specifications: exterior barrel 81 in diameter x 87 in length; shipping 88 L x 44 W x 43 H in; weight 1,345 lb; full-length Thermo-Spruce staves and Thermo-Aspen benches.",
+  },
+  "saunalife-e8w": {
+    source: "saunalife-e8w-product", evidence: "evidence-saunalife-e8w-product", configEvidence: "evidence-saunalife-e8w-configuration",
+    exterior: dimension(81, 87, 81), shipping: dimension(44, 88, 44), weight: 1367, material: ["European Thermo-Spruce", "Thermo-Aspen"],
+    productRaw: "ERGO Series Model E8W; 6-person outdoor barrel sauna with rear window, 81 in diameter and 87 in length, constructed with Thermo-Spruce staves and Thermo-Aspen benches.",
+    configRaw: "SaunaLife E8W specifications: exterior barrel 81 in diameter x 87 in length; shipping 88 L x 44 W x 44 H in; weight 1,367 lb; full-length Thermo-Spruce staves and Thermo-Aspen benches.",
+  },
+  "saunalife-e8g": {
+    source: "saunalife-e8g-product", evidence: "evidence-saunalife-e8g-product", configEvidence: "evidence-saunalife-e8g-configuration",
+    exterior: dimension(81, 87, 81), shipping: dimension(44, 88, 41), weight: 1544, material: ["European Thermo-Spruce", "Thermo-Aspen"],
+    productRaw: "ERGO Series Model E8G; 6-person outdoor barrel sauna with full-glass front, 81 in diameter and 87 in length, constructed with Thermo-Spruce staves and Thermo-Aspen benches.",
+    configRaw: "SaunaLife E8G specifications: exterior barrel 81 in diameter x 87 in length; shipping 88 L x 44 W x 41 H in; weight 1,544 lb; full-length Thermo-Spruce staves and Thermo-Aspen benches.",
+  },
+  "saunalife-cl7g": {
+    source: "saunalife-cl7g-product", evidence: "evidence-saunalife-cl7g-product", configEvidence: "evidence-saunalife-cl7g-configuration",
+    exterior: dimension(91, 86, 93), interior: dimension(87, 70, 85), shipping: dimension(91, 86, 93), weight: 2040, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
+    productRaw: "CUBE Series Model CL7G; 6-person outdoor sauna kit with full-glass front, Thermo-Spruce exterior and Thermo-Aspen seating.",
+    configRaw: "SaunaLife CL7G specifications: exterior 91 W x 86 D x 93 H in; interior 87 W x 70 D x 85 H in; shipping 91 W x 86 D x 93 H in; weight 2,040 lb; Thermo-Spruce walls, Thermo-Aspen benches and tempered bronze glass.",
+  },
+};
+
+const productsDoc = await load("data/us/products.json");
+const configurationsDoc = await load("data/us/configurations.json");
+const sourcesDoc = await load("data/us/sources.json");
+const products = productsDoc.products;
+const configurations = configurationsDoc.configurations;
+
+for (const [id, url, title, publisher, locator] of sourceDefinitions) {
+  const existing = sourcesDoc.sources.find((source) => source.id === id);
+  if (existing) {
+    existing.url = url;
+    existing.title = title;
+    existing.publisher = publisher;
+    existing.market = "US";
+    existing.checked_at = today;
+    existing.locator = locator;
+  } else {
+    sourcesDoc.sources.push({ id, type: "manufacturer-page", url, title, publisher, market: "US", checked_at: today, locator });
+  }
+}
+
+for (const [productId, facts] of Object.entries(productFacts)) {
+  const product = products.find((item) => item.id === productId);
+  const configuration = configurations.find((item) => item.id === `${productId}-standard`);
+  if (!product || !configuration) throw new Error(`Missing catalog record for ${productId}`);
+  const { evidence, configEvidence, source } = facts;
+
+  if (!sourcesDoc.evidence.some((item) => item.id === evidence)) sourcesDoc.evidence.push({ id: evidence, entity_id: productId, source_id: source, field_path: "manufacturer-product-page", raw_value: facts.productRaw });
+  if (!sourcesDoc.evidence.some((item) => item.id === configEvidence)) sourcesDoc.evidence.push({ id: configEvidence, entity_id: configuration.id, source_id: source, field_path: "manufacturer-product-page.specifications", raw_value: facts.configRaw });
+
+  for (const field of ["product_type", "placements", "form"]) product[field].evidence_ids = Array.from(new Set([...(product[field].evidence_ids ?? []), evidence]));
+  if (facts.heat) product.heat_type = documented(facts.heat, evidence);
+  if (facts.energy) product.energy_sources = documented(facts.energy, evidence);
+  product.source_ids = Array.from(new Set([...(product.source_ids ?? []), source]));
+  product.spec_checked_at = today;
+  product.change_reason = "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown.";
+
+  configuration.source_ids = Array.from(new Set([...(configuration.source_ids ?? []), source]));
+  configuration.capacity.seated.evidence_ids = Array.from(new Set([...(configuration.capacity.seated.evidence_ids ?? []), configEvidence]));
+  if (facts.exterior) configuration.dimensions.exterior = documented(facts.exterior, configEvidence);
+  if (facts.interior) configuration.dimensions.interior = documented(facts.interior, configEvidence);
+  if (facts.shipping) configuration.dimensions.shipping = documented(facts.shipping, configEvidence);
+  if (facts.weight) configuration.net_weight = documented({ value: facts.weight, unit: "lb" }, configEvidence);
+  if (facts.material) configuration.materials = documented(facts.material, configEvidence);
+
+  if (facts.power) {
+    const electrical = configuration.electrical_supply_options[0];
+    electrical.id = `${productId}-heater-240v`;
+    electrical.requirements[0].voltage_v = documented(240, configEvidence);
+    electrical.requirements[0].rated_power_w = documented(facts.power, configEvidence);
+    electrical.requirements[0].rated_current_a = documented(facts.current, configEvidence);
+    electrical.requirements[0].required_circuit_a = documented(facts.current, configEvidence);
+    electrical.evidence_ids = [configEvidence];
+  }
+  for (const key of ["manufacturer_sku", "dimensions", "net_weight", "shipping_weight", "materials"]) {
+    if (key === "dimensions" || key === "net_weight" || key === "materials") continue;
+    if (configuration[key]?.status === "documented") configuration[key].evidence_ids = Array.from(new Set([...(configuration[key].evidence_ids ?? []), configEvidence]));
+  }
+}
+
+await save("data/us/products.json", productsDoc);
+await save("data/us/configurations.json", configurationsDoc);
+await save("data/us/sources.json", sourcesDoc);
+console.log(`Luna enrichment applied for ${Object.keys(productFacts).length} US products.`);
