@@ -19,6 +19,7 @@
     "us:de-baseline:check": "node scripts/us/check-de-baseline.mjs",
     "us:import:review": "node scripts/us/manual-import.mjs",
     "us:offers:promote": "node scripts/us/offer-snapshot.mjs",
+    "us:catalog:review": "node scripts/us/review-catalog.mjs",
     "us:preview:test": "node scripts/us/run-protected-pilot-preview.mjs",
     "us:matrix:check": "node scripts/us/check-test-matrix.mjs",
     "us:snapshot:check": "node scripts/us/check-launch-snapshot.mjs",

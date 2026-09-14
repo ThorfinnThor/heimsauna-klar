@@ -73,7 +73,7 @@ follow_up_owner:
 - Complete the US Awin account and advertiser evidence before creating US offers.
 - Resolve manufacturer image rights or keep US pages image-free.
 - Run VoiceOver or NVDA, a physical small-screen check and production Cloudflare performance measurements for the authorized US release.
-- Decide the post-launch review calendar in L-16 after S-24; no frequency is claimed as active before an owner accepts it.
+- The versioned review calendar is defined in `data/us/catalog-review-policy.json`; it becomes an active post-launch operating commitment only after S-24 and owner acceptance. Run `npm run us:catalog:review -- --as-of YYYY-MM-DD` for a reproducible report. The command never changes JSON or publication switches.
 
 ## References
 

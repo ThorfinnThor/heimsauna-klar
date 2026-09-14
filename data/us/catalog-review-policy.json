@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "market": "US",
+  "status": "draft",
+  "effective_after": "S-24",
+  "purpose": "Versioned review calendar for the protected US catalog. This policy schedules checks but does not publish or mutate records.",
+  "owners": {
+    "operator": "Schayan Yousefian / SeitenHafen361",
+    "research_review": "Luna",
+    "technical_review": "Sol"
+  },
+  "cycles": [
+    {
+      "id": "technical-source-facts",
+      "label": "Technical facts and source pages",
+      "cadence_days": 90,
+      "owner": "Luna",
+      "verifier": "Sol",
+      "checks": ["manufacturer page or manual still supports the recorded facts", "dimensions, capacity and electrical facts have evidence", "changed model identity is mapped explicitly"]
+    },
+    {
+      "id": "commercial-offer-freshness",
+      "label": "Offers, prices and delivery scope",
+      "cadence_days": 30,
+      "owner": "Luna",
+      "verifier": "Sol",
+      "checks": ["approved publisher relationship remains documented", "destination and tracking URL still resolve to the exact configuration", "availability, price scope and last successful check are current"]
+    },
+    {
+      "id": "rights-and-program-change",
+      "label": "Program, promotion and image rights",
+      "cadence_days": null,
+      "trigger": "on-change",
+      "owner": "Operator",
+      "verifier": "Luna",
+      "checks": ["account approval and permitted promotion types are evidenced", "image or feed permission is recorded before use", "a declined or expired relationship blocks the affected surface"]
+    }
+  ],
+  "status_rules": {
+    "candidate": "Research only. No public page or offer is implied; assign the first technical review when the record is ready.",
+    "draft": "Content or data is being prepared and requires a named review before promotion.",
+    "reviewed": "Technical and source review is recorded, but public release still needs the applicable publication gates.",
+    "published": "Only permitted after the release, legal, rights and offer checks are recorded.",
+    "retired": "Keep the record for traceability, remove it from public selection and do not revive it automatically."
+  },
+  "publication_rule": "A review report may recommend changes, but only a reviewed JSON change and the existing publication switches can alter output."
+}

@@ -1,0 +1,58 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+
+import policy from "../../data/us/catalog-review-policy.json" with { type: "json" };
+import productsDocument from "../../data/us/products.json" with { type: "json" };
+import sourcesDocument from "../../data/us/sources.json" with { type: "json" };
+import programsDocument from "../../data/us/programs.json" with { type: "json" };
+import rightsDocument from "../../docs/us/rights-register.json" with { type: "json" };
+import publication from "../../data/us/publication.json" with { type: "json" };
+import { reviewUsCatalog } from "../../lib/us/catalog-review.ts";
+
+test("the current protected catalog has a reproducible review report", () => {
+  const report = reviewUsCatalog({
+    asOf: "2026-09-14",
+    products: productsDocument.products,
+    sources: sourcesDocument.sources,
+    programs: programsDocument.programs,
+    rights: rightsDocument.assets,
+    publication,
+    policy,
+  });
+  assert.equal(report.summary.products, 10);
+  assert.equal(report.summary.candidatesAwaitingReview, 10);
+  assert.equal(report.summary.sourceStale, 0);
+  assert.equal(report.summary.reviewsDue, 0);
+  assert.equal(report.summary.approvedPrograms, 0);
+  assert.equal(report.summary.rightsReady, 0);
+  assert.equal(report.summary.publicationProtected, true);
+  assert(report.blockers.some((blocker) => blocker.includes("publisher approval")));
+});
+
+test("a reviewed product without a future review date is not silently current", () => {
+  const report = reviewUsCatalog({
+    asOf: "2026-09-14",
+    products: [{ id: "fixture-product", publication_status: "reviewed", source_ids: ["fixture-source"], spec_checked_at: "2026-09-14" }],
+    sources: [{ id: "fixture-source", checked_at: "2026-09-14" }],
+    programs: [{ relationship_status: "approved" }],
+    rights: [{ rights_status: "approved" }],
+    publication: { routes_enabled: true, indexing_enabled: true, affiliate_links_enabled: true, feed_sync_enabled: true },
+    policy,
+  });
+  assert.equal(report.products[0].reviewState, "schedule-missing");
+  assert(report.blockers.includes("fixture-product: next_review_at is required after technical review"));
+});
+
+test("a source older than the technical cadence is reported as stale", () => {
+  const report = reviewUsCatalog({
+    asOf: "2026-09-14",
+    products: [{ id: "fixture-product", publication_status: "candidate", source_ids: ["fixture-source"] }],
+    sources: [{ id: "fixture-source", checked_at: "2026-01-01" }],
+    programs: [],
+    rights: [],
+    publication: { routes_enabled: false, indexing_enabled: false, affiliate_links_enabled: false, feed_sync_enabled: false },
+    policy,
+  });
+  assert.equal(report.products[0].reviewState, "stale-source");
+  assert(report.blockers.includes("fixture-product: technical source review is stale"));
+});

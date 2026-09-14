@@ -18,7 +18,7 @@
     {"id":"T-12","coverage":"partial","automated_by":["scripts/us/seo.test.mjs","scripts/us/validate-us-data.test.mjs"],"open_checks":["Luna must review the source scope of every real certification record before publication."]},
     {"id":"T-13","coverage":"automated","automated_by":["scripts/us/manual-import.test.mjs","scripts/us/offer-snapshot.test.mjs"],"open_checks":[]},
     {"id":"T-14","coverage":"partial","automated_by":["scripts/us/offer-snapshot.test.mjs"],"open_checks":["Exercise an actual provider timeout and rate-limit response once a US feed connector exists."]},
-    {"id":"T-15","coverage":"partial","automated_by":["scripts/us/manual-import.test.mjs","scripts/us/affiliate-links.test.mjs","scripts/us/validate-us-data.test.mjs"],"open_checks":["Review changed real SKUs and fuzzy candidates manually; the current import path intentionally has no automatic fuzzy promotion."]},
+    {"id":"T-15","coverage":"partial","automated_by":["scripts/us/manual-import.test.mjs","scripts/us/catalog-review.test.mjs","scripts/us/affiliate-links.test.mjs","scripts/us/validate-us-data.test.mjs"],"open_checks":["Review changed real SKUs and fuzzy candidates manually; the current import path intentionally has no automatic fuzzy promotion."]},
     {"id":"T-16","coverage":"automated","automated_by":["scripts/us/affiliate-links.test.mjs","scripts/us/validate-us-data.test.mjs"],"open_checks":[]},
     {"id":"T-17","coverage":"automated","automated_by":["scripts/us/affiliate-links.test.mjs","scripts/us/data-flow-inventory.test.mjs"],"open_checks":[]},
     {"id":"T-18","coverage":"automated","automated_by":["scripts/us/data-flow-inventory.test.mjs","scripts/us/finder.test.mjs","scripts/us/check-protected-pilot-preview.mjs"],"open_checks":[]},
