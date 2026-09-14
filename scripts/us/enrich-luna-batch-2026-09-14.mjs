@@ -24,6 +24,10 @@ const sourceDefinitions = [
   ["saunalife-cl4g-product", "https://saunalife.com/saunas/cube-series-model-cl4g/", "SaunaLife Cube-Series Model CL4G product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
   ["saunalife-cl5g-product", "https://saunalife.com/saunas/cube-series-model-cl5g/", "SaunaLife Cube-Series Model CL5G product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
   ["saunalife-cl12gcp-product", "https://saunalife.com/saunas/cube-series-model-cl12gcp/", "SaunaLife Cube-Series Model CL12GCP product page", "SaunaLife", "Product page specifications for sauna suite dimensions, shipping dimensions, weight and construction"],
+  ["saunalife-ee6g-product", "https://saunalife.com/saunas/ergo-series-model-ee6g/", "SaunaLife Ergo Elegance-Series Model EE6G product page", "SaunaLife", "Product page specifications for barrel diameter and length, shipping data, weight and construction"],
+  ["saunalife-ee8g-product", "https://saunalife.com/saunas/ergo-series-model-ee8g/", "SaunaLife Ergo Elegance-Series Model EE8G product page", "SaunaLife", "Product page specifications for barrel diameter and length, shipping data, weight and construction"],
+  ["saunalife-gl4-product", "https://saunalife.com/saunas/garden-luxury-series-model-gl4/", "SaunaLife Garden Luxury-Series Model GL4 product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
+  ["saunalife-gl6-product", "https://saunalife.com/saunas/garden-luxury-series-model-gl6/", "SaunaLife Garden Luxury-Series Model GL6 product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
 ];
 
 const productFacts = {
@@ -111,6 +115,36 @@ const productFacts = {
     productRaw: "CUBE Series Model CL12GCP; 8-person outdoor sauna suite with changing room and front porch, Thermo-Spruce exterior, Thermo-Aspen seating and tempered bronze glass.",
     configRaw: "SaunaLife CL12GCP specifications: exterior 91 W x 151.6 D x 93 H in; interior 87.5 W x 122.5 D x 85.5 H in; sauna room 87.5 W x 78.6 D x 85.5 H in; dressing room 87.5 W x 43.9 D x 85.5 H in; porch 87.5 W x 22.75 D x 85.5 H in; shipping 155 W x 44 D x 47 H in; weight 3,450 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
   },
+  "saunalife-ee6g": {
+    source: "saunalife-ee6g-product", evidence: "evidence-saunalife-ee6g-product", configEvidence: "evidence-saunalife-ee6g-configuration",
+    capacity: 4, weight: 1500, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
+    exteriorReason: "The individual product page gives a barrel diameter of 91 in and length of 63 in, not a complete width/depth/height envelope.",
+    interiorReason: "The individual product page gives an interior barrel diameter of 87 in and length of 55 in, not complete width/depth/height dimensions.",
+    shippingReason: "The individual product page gives shipping length and width of 80 in x 43 in but does not state a third shipping dimension.",
+    productRaw: "ERGO Elegance Series Model EE6G; 4-person outdoor barrel sauna with full-glass front, 91 in diameter and 63 in length, constructed with Thermo-Spruce staves, Thermo-Aspen seating and tempered bronze glass.",
+    configRaw: "SaunaLife EE6G specifications: barrel 91 in diameter x 63 in length; interior barrel 87 in diameter x 55 in length; shipping data 80 in length x 43 in width with no third dimension stated; weight 1,500 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
+  },
+  "saunalife-ee8g": {
+    source: "saunalife-ee8g-product", evidence: "evidence-saunalife-ee8g-product", configEvidence: "evidence-saunalife-ee8g-configuration",
+    capacity: 4, weight: 1763, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
+    exteriorReason: "The individual product page gives a barrel diameter of 91 in and length of 79 in, not a complete width/depth/height envelope.",
+    interiorReason: "The individual product page gives an interior barrel diameter of 87 in and length of 71 in, not complete width/depth/height dimensions.",
+    shippingReason: "The individual product page gives shipping length and width of 80 in x 43 in but does not state a third shipping dimension.",
+    productRaw: "ERGO Elegance Series Model EE8G; 4-person outdoor barrel sauna with full-glass front, 91 in diameter and 79 in length, constructed with Thermo-Spruce staves, Thermo-Aspen seating and tempered bronze glass.",
+    configRaw: "SaunaLife EE8G specifications: barrel 91 in diameter x 79 in length; interior barrel 87 in diameter x 71 in length; shipping data 80 in length x 43 in width with no third dimension stated; weight 1,763 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
+  },
+  "saunalife-gl4": {
+    source: "saunalife-gl4-product", evidence: "evidence-saunalife-gl4-product", configEvidence: "evidence-saunalife-gl4-configuration",
+    capacity: 4, exterior: dimension(58.9, 79.5, 85), interior: dimension(55.5, 59, 76), shipping: dimension(83, 43, 32), weight: 1830, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
+    productRaw: "Garden Luxury Series Model GL4; 4-person outdoor sauna cabin with integrated porch and full bronze-glass front, built with Thermo-Spruce and thermo-hardwood seating.",
+    configRaw: "SaunaLife GL4 specifications: exterior 58.9 W x 79.5 D x 85 H in; interior 55.5 W x 59 D x 76 H in; shipping 83 W x 43 D x 32 H in; weight 1,830 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
+  },
+  "saunalife-gl6": {
+    source: "saunalife-gl6-product", evidence: "evidence-saunalife-gl6-product", configEvidence: "evidence-saunalife-gl6-configuration",
+    capacity: 6, exterior: dimension(90.2, 90.2, 92.5), interior: dimension(69.7, 69.7, 79.1), shipping: dimension(83, 43, 43), weight: 2425, material: ["Thermo-Spruce", "Thermo-Aspen", "Tempered bronze glass"],
+    productRaw: "Garden Luxury Series Model GL6; 6-person outdoor sauna cabin with integrated porch and full bronze-glass front, built with Thermo-Spruce and thermo-hardwood seating.",
+    configRaw: "SaunaLife GL6 specifications: exterior 90.2 W x 90.2 D x 92.5 H in; interior 69.7 W x 69.7 D x 79.1 H in; shipping 83 W x 43 D x 43 H in; weight 2,425 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
+  },
 };
 
 const redwoodConfigurationsWithAmpOnlyEvidence = new Set([
@@ -184,6 +218,7 @@ for (const [productId, facts] of Object.entries(productFacts)) {
   else if (productId.startsWith("saunalife-e8")) configuration.dimensions.interior = unknown("The reviewed product page states a 6 ft 5 in interior height but not complete interior dimensions.");
   else configuration.dimensions.interior = unknown("Interior dimensions are not stated in the reviewed product specifications.");
   if (facts.shipping) configuration.dimensions.shipping = documented(facts.shipping, configEvidence);
+  else if (facts.shippingReason) configuration.dimensions.shipping = unknown(facts.shippingReason);
   configuration.dimensions.minimum_clearances = unknown("Installation clearances require review of the linked installation documentation.");
   if (facts.weight) configuration.net_weight = documented({ value: facts.weight, unit: "lb" }, configEvidence);
   configuration.shipping_weight = unknown("The product page lists a product weight but does not identify a separate shipping weight.");
