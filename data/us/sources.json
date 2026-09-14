@@ -391,6 +391,56 @@
       "market": "US",
       "checked_at": "2026-09-14",
       "locator": "Model collection and product listing"
+    },
+    {
+      "id": "almost-heaven-hillsboro-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/collections/saunas/products/hillsboro-2-person-indoor-sauna",
+      "title": "Almost Heaven Hillsboro 2 Person Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for heater, lighting, exterior and interior dimensions"
+    },
+    {
+      "id": "redwood-garden-8-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/garden-outdoor-sauna-8-person",
+      "title": "Redwood Outdoors Garden Outdoor Sauna 8 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for capacity, exterior dimensions, electrical requirements and included 8kW heater"
+    },
+    {
+      "id": "redwood-duo-2-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/duo-outdoor-sauna-2-person?sku=CUB-TH-2",
+      "title": "Redwood Outdoors Duo Outdoor Sauna 2 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for capacity, exterior dimensions and electrical requirements"
+    },
+    {
+      "id": "redwood-summit-6-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/summit-outdoor-sauna-6-person",
+      "title": "Redwood Outdoors Summit Outdoor Sauna 6 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for capacity, exterior dimensions, electrical requirements and included 6kW heater"
+    },
+    {
+      "id": "redwood-extra-wide-6-product",
+      "type": "manufacturer-page",
+      "url": "https://www.redwoodoutdoors.com/products/extra-wide-barrel-sauna-6-person",
+      "title": "Redwood Outdoors Extra-Wide Outdoor Barrel Sauna 6 Person product page",
+      "publisher": "Redwood Outdoors",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications for capacity, exterior dimensions, electrical requirements and included 6kW heater"
     }
   ],
   "evidence": [
@@ -901,16 +951,16 @@
     {
       "id": "evidence-almost-heaven-hillsboro-product",
       "entity_id": "almost-heaven-hillsboro",
-      "source_id": "almost-heaven-saunas-collection",
-      "field_path": "product_identity",
-      "raw_value": "Hillsboro 2 Person Indoor Sauna listed in the official collection."
+      "source_id": "almost-heaven-hillsboro-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Hillsboro 2 Person Indoor Sauna; traditional Harvia 6 kW electric heater; spruce construction; model page lists 2-person capacity."
     },
     {
       "id": "evidence-almost-heaven-hillsboro-configuration",
       "entity_id": "almost-heaven-hillsboro-standard",
-      "source_id": "almost-heaven-saunas-collection",
-      "field_path": "configuration_identity",
-      "raw_value": "Hillsboro 2 Person Indoor Sauna is represented as a non-publishing review configuration."
+      "source_id": "almost-heaven-hillsboro-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Hillsboro specifications: exterior 63 W x 45.25 D x 80.3125 H in; interior 58.25 W x 39.375 D x 78 H in; heater 6 kW at 240 V with 30 A hard-wire requirement; lighting 110 V, 15 A plug-in service."
     },
     {
       "id": "evidence-almost-heaven-pinnacle-product",
@@ -1363,16 +1413,16 @@
     {
       "id": "evidence-redwood-garden-8-product",
       "entity_id": "redwood-garden-8",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Garden Outdoor Sauna 8 Person listed in the official collection."
+      "source_id": "redwood-garden-8-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Garden Outdoor Sauna 8 Person; traditional outdoor sauna kit with seating for 6 to 8 people and an included 8 kW Harvia KIP heater."
     },
     {
       "id": "evidence-redwood-garden-8-configuration",
       "entity_id": "redwood-garden-8-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Garden Outdoor Sauna 8 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-garden-8-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Garden specifications: roof exterior 90.875 L x 90.5 W x 87.25 H in; electrical requirements 120 V lighting and 240 V heater; included 8 kW heater is listed at 240 V and 40 A."
     },
     {
       "id": "evidence-redwood-grove-8-product",
@@ -1419,30 +1469,30 @@
     {
       "id": "evidence-redwood-duo-2-product",
       "entity_id": "redwood-duo-2",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Duo Outdoor Sauna 2 Person listed in the official collection."
+      "source_id": "redwood-duo-2-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Duo Outdoor Sauna 2 Person; traditional outdoor sauna kit with an included 6 kW Harvia KIP heater."
     },
     {
       "id": "evidence-redwood-duo-2-configuration",
       "entity_id": "redwood-duo-2-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Duo Outdoor Sauna 2 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-duo-2-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Duo specifications: exterior 62.75 L x 50.75 W x 82.75 H in; electrical requirements 120 V lighting and 240 V heater; included 6 kW Harvia KIP is listed at 240 V and 30 A."
     },
     {
       "id": "evidence-redwood-summit-6-product",
       "entity_id": "redwood-summit-6",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Summit Outdoor Sauna 6 Person listed in the official collection."
+      "source_id": "redwood-summit-6-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Summit Outdoor Sauna 6 Person; traditional outdoor sauna kit with an included 6 kW Harvia KIP heater."
     },
     {
       "id": "evidence-redwood-summit-6-configuration",
       "entity_id": "redwood-summit-6-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Summit Outdoor Sauna 6 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-summit-6-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Summit specifications: exterior 69.5 L x 82 W x 82.75 H in; electrical requirements 120 V lighting and 240 V heater; included 6 kW Harvia KIP is listed at 240 V and 30 A."
     },
     {
       "id": "evidence-redwood-barrel-6-product",
@@ -1489,16 +1539,16 @@
     {
       "id": "evidence-redwood-extra-wide-6-product",
       "entity_id": "redwood-extra-wide-6",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "product_identity",
-      "raw_value": "Extra-Wide Outdoor Barrel Sauna 6 Person listed in the official collection."
+      "source_id": "redwood-extra-wide-6-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Extra-Wide Outdoor Barrel Sauna 6 Person; traditional outdoor barrel sauna kit with an included 6 kW Harvia KIP heater."
     },
     {
       "id": "evidence-redwood-extra-wide-6-configuration",
       "entity_id": "redwood-extra-wide-6-standard",
-      "source_id": "redwood-outdoor-saunas",
-      "field_path": "configuration_identity",
-      "raw_value": "Extra-Wide Outdoor Barrel Sauna 6 Person is represented as a non-publishing review configuration."
+      "source_id": "redwood-extra-wide-6-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Extra-Wide specifications: exterior 71.75 L x 84.75 W x 88.5 H in; electrical requirements 120 V lighting and 240 V heater; included 6 kW Harvia KIP is listed at 240 V and 30 A."
     },
     {
       "id": "evidence-redwood-barrel-8-product",

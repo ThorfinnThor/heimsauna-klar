@@ -1839,8 +1839,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-hillsboro-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -1862,6 +1867,7 @@
         "almost-heaven-hillsboro-standard"
       ],
       "source_ids": [
+        "almost-heaven-hillsboro-product",
         "almost-heaven-saunas-collection"
       ],
       "publication_status": "candidate",
@@ -3476,12 +3482,20 @@
         ]
       },
       "heat_type": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-redwood-garden-8-product"
+        ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-garden-8-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -3503,6 +3517,7 @@
         "redwood-garden-8-standard"
       ],
       "source_ids": [
+        "redwood-garden-8-product",
         "redwood-outdoor-saunas"
       ],
       "publication_status": "candidate",
@@ -3664,12 +3679,20 @@
         ]
       },
       "heat_type": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-redwood-duo-2-product"
+        ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-duo-2-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -3691,6 +3714,7 @@
         "redwood-duo-2-standard"
       ],
       "source_ids": [
+        "redwood-duo-2-product",
         "redwood-outdoor-saunas"
       ],
       "publication_status": "candidate",
@@ -3711,12 +3735,20 @@
         ]
       },
       "heat_type": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-redwood-summit-6-product"
+        ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-summit-6-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -3738,6 +3770,7 @@
         "redwood-summit-6-standard"
       ],
       "source_ids": [
+        "redwood-summit-6-product",
         "redwood-outdoor-saunas"
       ],
       "publication_status": "candidate",
@@ -3899,12 +3932,20 @@
         ]
       },
       "heat_type": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a specific heat format for this model."
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-6-product"
+        ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-redwood-extra-wide-6-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -3926,6 +3967,7 @@
         "redwood-extra-wide-6-standard"
       ],
       "source_ids": [
+        "redwood-extra-wide-6-product",
         "redwood-outdoor-saunas"
       ],
       "publication_status": "candidate",
