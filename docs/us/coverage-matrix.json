@@ -12,7 +12,7 @@
       "configuration_count": 8,
       "product_ids": ["peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4", "peak-mini", "peak-crown", "peak-fuji"],
       "status": "pilot-covered",
-      "gaps": ["Shipping dimensions and minimum clearances are not published on the checked pages for every model.", "US account approval and affiliate eligibility are not confirmed.", "The four additional Peak records are candidates only; account approval, offers, image rights, clearances and shipping documentation remain open."]
+      "gaps": ["Shipping dimensions and minimum clearances are not published on the checked pages for every model.", "US account approval and affiliate eligibility are not confirmed.", "Peak Rainier and Peak Matterhorn are source-backed candidates only; configuration facts, rights, offers and publication checks remain open."]
     },
     {
       "id": "outdoor-infrared-cabins",
@@ -21,7 +21,7 @@
       "configuration_count": 2,
       "product_ids": ["jnh-arki-outdoor-duo", "peak-patagonia"],
       "status": "pilot-covered",
-      "gaps": ["Shipping data, minimum clearances, certifications and current delivery terms require a separate check.", "US account approval and affiliate eligibility are not confirmed.", "The four additional Peak records are candidates only; account approval, offers, image rights, clearances and shipping documentation remain open."]
+      "gaps": ["Shipping data, minimum clearances, certifications and current delivery terms require a separate check.", "US account approval and affiliate eligibility are not confirmed.", "Peak Kilimanjaro and Peak El Capitan are source-backed candidates only; outdoor installation facts, rights, offers and publication checks remain open."]
     },
     {
       "id": "indoor-traditional-cabins",
@@ -39,13 +39,14 @@
       "configuration_count": 0,
       "product_ids": [],
       "status": "not-covered",
-      "gaps": ["Sweat Kingdom is a candidate for this segment, but its made-to-order configurations need a separate model and quote review before entry."]
+      "gaps": ["Sweat Kingdom The Sweat Cabin is a candidate for this segment, but its wall-height and made-to-order configurations need a separate model and quote review before entry."]
     }
   ],
   "next_priorities": [
-    "Confirm the German publisher account relationship for the four Awin candidates.",
-    "Add a traditional outdoor pilot only after an exact model/configuration and shipping scope are documented.",
-    "Request or locate manuals/spec sheets for clearances, certifications, warranty and shipping weight before any product is reviewed or published.",
+    "Review the four Peak candidates in the expansion backlog with model-level configuration and manual evidence.",
+    "Add a traditional outdoor pilot only after an exact Sweat Cabin configuration and shipping scope are documented.",
+    "Keep portable and accessory products in a separate taxonomy and select exact Sunlighten model pages before import.",
+    "Decompose the JNH outdoor collection model by model rather than importing a collection page.",
     "Complete exact Awin account and offer mapping before any publication status change."
   ]
 }

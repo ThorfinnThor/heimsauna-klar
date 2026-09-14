@@ -201,6 +201,76 @@
       "market": "US",
       "checked_at": "2026-09-14",
       "locator": "Product specifications, placement and electrical section"
+    },
+    {
+      "id": "peak-saunas-model-reference",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/pages/llms-txt",
+      "title": "Peak Saunas model reference",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Current model list and model-specific links"
+    },
+    {
+      "id": "peak-rainier-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-rainier-1-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-xl-medical-grade-red-light-therapy-smart-wifi-app-control",
+      "title": "Peak Saunas Rainier product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications and electrical section"
+    },
+    {
+      "id": "peak-matterhorn-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-matterhorn-3-person-full-spectrum-infrared-sauna-with-two-xl-medical-grade-red-light-therapy-smart-wifi-app-control",
+      "title": "Peak Saunas Matterhorn product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications and electrical section"
+    },
+    {
+      "id": "peak-kilimanjaro-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-kilimanjaro-5-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control",
+      "title": "Peak Saunas Kilimanjaro product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications, placement and electrical section"
+    },
+    {
+      "id": "peak-el-capitan-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-el-capitan-4-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control",
+      "title": "Peak Saunas El Capitan product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications, placement and electrical section"
+    },
+    {
+      "id": "peak-saunas-manuals",
+      "type": "manual",
+      "url": "https://peaksaunas.com/pages/download-peaksaunas-owners-manuals",
+      "title": "Peak Saunas owners manuals",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Model-specific manuals and installation information"
+    },
+    {
+      "id": "sweat-cabin-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-sweat-cabin",
+      "title": "Sweat Kingdom The Sweat Cabin product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product description, available wall heights, electrical and warranty sections"
     }
   ],
   "evidence": [

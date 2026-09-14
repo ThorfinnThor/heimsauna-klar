@@ -38,7 +38,7 @@
       "peak-patagonia-standard"
     ],
     "offer_ids": [],
-    "source_count": 20,
+    "source_count": 27,
     "evidence_count": 20,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
@@ -71,7 +71,7 @@
     {"path": "data/us/publication.json", "sha256": "27383d6abb85112dbbbc866651aba3c8356f83c8b07749a1f8a52ed3bb7d0924"},
     {"path": "data/us/products.json", "sha256": "da9cb93bd3ee1184812c3a217fbfb8807b24514a33856baa79cd521168a1851f"},
     {"path": "data/us/configurations.json", "sha256": "1190f5bcf0256d8af08802a94fd6f9943587055a25aaf125e76c52e7873e41f4"},
-    {"path": "data/us/sources.json", "sha256": "e9e02719b7cab35a80c998c4d1e47283533f528cf09b28053c95084d5192619e"},
+    {"path": "data/us/sources.json", "sha256": "83b6438b1091fd10d6c65ed3b11d6a6c8221e59fd4dbd6b2e781d24d00f68e72"},
     {"path": "data/us/merchants.json", "sha256": "ad36393eb935fc598ab40d3e0d46f28091a30f3b8facd3ead2e9f7ccc96d848e"},
     {"path": "data/us/programs.json", "sha256": "686780ae86b99e7a8137ddd4132dd811b745e91af9c82899b399cafa3a546e1e"},
     {"path": "data/us/offers.json", "sha256": "db3c606e65b901513a25129578afa1d638afd463a3f436a39b9ff703144a0fd0"},
