@@ -106,7 +106,7 @@ export function UsCatalog({ items }: { items: UsCatalogItem[] }) {
       </form>
 
       <div className="us-catalog-summary" aria-live="polite">
-        <span><strong>{results.length}</strong> {results.length === 1 ? "sauna" : "saunas"}</span>
+        <span><strong>{results.length}</strong> {results.length === 1 ? "product" : "products"}</span>
         {hasActiveFilters ? <button type="button" onClick={() => {
           window.history.replaceState(null, "", window.location.pathname);
           window.dispatchEvent(new Event(filterChangeEvent));
@@ -129,7 +129,7 @@ export function UsCatalog({ items }: { items: UsCatalogItem[] }) {
           </article>
         ))}
       </div>
-      {results.length === 0 ? <div className="us-catalog-no-results"><h2>No reviewed saunas match these filters.</h2><p>Clear one or more filters to broaden the list. Products with undocumented values are not treated as matches for a selected technical filter.</p></div> : null}
+      {results.length === 0 ? <div className="us-catalog-no-results"><h2>No reviewed products match these filters.</h2><p>Clear one or more filters to broaden the list. Products with undocumented values are not treated as matches for a selected technical filter.</p></div> : null}
     </>
   );
 }

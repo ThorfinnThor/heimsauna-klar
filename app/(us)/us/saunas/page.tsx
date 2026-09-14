@@ -4,7 +4,7 @@ import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsCatalog } from "../_components/UsCatalog";
 
 export const metadata = createUsPageMetadata({
-  title: "Home saunas for the United States",
+  title: "Home sauna products for the United States",
   description: "Compare documented US sauna configurations by placement, capacity, dimensions and electrical requirements.",
   path: "/us/saunas/",
   pageClass: "overview",
@@ -17,7 +17,7 @@ export default function UsSaunaCatalogPage() {
   return (
     <>
       <section className="page-hero page-shell us-catalog-hero">
-        <p className="eyebrow">US sauna catalog</p>
+        <p className="eyebrow">US sauna product catalog</p>
         <h1>Compare the configuration, not just the model name.</h1>
         <p>Dimensions, capacity and electrical requirements refer to documented US configurations. Missing specifications stay visible instead of being estimated.</p>
       </section>
