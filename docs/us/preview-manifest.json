@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "us-protected-preview-2026-09-14-l10",
+  "market": "US",
+  "mode": "protected-static-preview",
+  "expected_page_count": 23,
+  "routes": [
+    {"path": "/us/", "kind": "home", "record_id": "home", "robots": "noindex, follow"},
+    {"path": "/us/saunas/", "kind": "catalog", "record_id": "sauna-catalog", "robots": "noindex, follow"},
+    {"path": "/us/sauna-finder/", "kind": "finder", "record_id": "sauna-finder", "robots": "noindex, follow"},
+    {"path": "/us/brands/", "kind": "editorial-index", "record_id": "brand-index", "robots": "noindex, follow"},
+    {"path": "/us/compare/", "kind": "editorial-index", "record_id": "comparison-index", "robots": "noindex, follow"},
+    {"path": "/us/guides/", "kind": "editorial-index", "record_id": "guide-index", "robots": "noindex, follow"},
+    {"path": "/us/brands/jnh-lifestyles/", "kind": "brand", "record_id": "jnh-lifestyles", "robots": "noindex, follow"},
+    {"path": "/us/compare/indoor-infrared-saunas/", "kind": "comparison", "record_id": "indoor-infrared-saunas", "robots": "noindex, follow"},
+    {"path": "/us/guides/infrared-sauna-electrical-requirements/", "kind": "guide", "record_id": "infrared-sauna-electrical-requirements", "robots": "noindex, follow"},
+    {"path": "/us/contact/", "kind": "legal", "record_id": "contact", "robots": "noindex, follow"},
+    {"path": "/us/methodology/", "kind": "legal", "record_id": "methodology", "robots": "noindex, follow"},
+    {"path": "/us/affiliate-disclosure/", "kind": "legal", "record_id": "affiliate-disclosure", "robots": "noindex, follow"},
+    {"path": "/us/privacy/", "kind": "legal", "record_id": "privacy", "robots": "noindex, follow"},
+    {"path": "/us/saunas/peak-shasta/", "kind": "product", "record_id": "peak-shasta", "robots": "noindex, follow"},
+    {"path": "/us/saunas/peak-everest/", "kind": "product", "record_id": "peak-everest", "robots": "noindex, follow"},
+    {"path": "/us/saunas/jnh-tosi-1/", "kind": "product", "record_id": "jnh-tosi-1", "robots": "noindex, follow"},
+    {"path": "/us/saunas/jnh-tosi-2/", "kind": "product", "record_id": "jnh-tosi-2", "robots": "noindex, follow"},
+    {"path": "/us/saunas/jnh-tosi-4/", "kind": "product", "record_id": "jnh-tosi-4", "robots": "noindex, follow"},
+    {"path": "/us/saunas/jnh-arki-outdoor-duo/", "kind": "product", "record_id": "jnh-arki-outdoor-duo", "robots": "noindex, follow"},
+    {"path": "/us/saunas/peak-mini/", "kind": "product", "record_id": "peak-mini", "robots": "noindex, follow"},
+    {"path": "/us/saunas/peak-crown/", "kind": "product", "record_id": "peak-crown", "robots": "noindex, follow"},
+    {"path": "/us/saunas/peak-fuji/", "kind": "product", "record_id": "peak-fuji", "robots": "noindex, follow"},
+    {"path": "/us/saunas/peak-patagonia/", "kind": "product", "record_id": "peak-patagonia", "robots": "noindex, follow"}
+  ],
+  "forbidden_output_markers": [
+    "fixture-safe-offer",
+    "example-merchant",
+    "Synthetic unit-test fixture",
+    "Lorem ipsum"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "us-protected-preview-2026-09-14-l10",
+  "market": "US",
+  "created_at": "2026-09-14",
+  "input_commit": "5aef737c8c61f174df7149e7fbe63e9117cec230",
+  "purpose": "Protected static preview integration for the L-10 candidate dataset. This snapshot is not a production publication approval.",
+  "status": "protected-preview",
+  "publication_controls": {
+    "routes_enabled": false,
+    "indexing_enabled": false,
+    "affiliate_links_enabled": false,
+    "feed_sync_enabled": false
+  },
+  "records": {
+    "product_ids": [
+      "peak-shasta",
+      "peak-everest",
+      "jnh-tosi-1",
+      "jnh-tosi-2",
+      "jnh-tosi-4",
+      "jnh-arki-outdoor-duo",
+      "peak-mini",
+      "peak-crown",
+      "peak-fuji",
+      "peak-patagonia"
+    ],
+    "configuration_ids": [
+      "peak-shasta-standard",
+      "peak-everest-standard",
+      "jnh-tosi-1-standard",
+      "jnh-tosi-2-standard",
+      "jnh-tosi-4-standard",
+      "jnh-arki-outdoor-duo-standard",
+      "peak-mini-standard",
+      "peak-crown-standard",
+      "peak-fuji-standard",
+      "peak-patagonia-standard"
+    ],
+    "offer_ids": [],
+    "source_count": 20,
+    "evidence_count": 20,
+    "editorial_page_ids": [
+      "indoor-infrared-saunas",
+      "jnh-lifestyles",
+      "infrared-sauna-electrical-requirements"
+    ],
+    "legal_page_ids": [
+      "contact",
+      "methodology",
+      "affiliate-disclosure",
+      "privacy"
+    ]
+  },
+  "rights": {
+    "required_status": "not-requested",
+    "asset_ids": [
+      "peak-shasta-image",
+      "peak-everest-image",
+      "jnh-tosi-1-image",
+      "jnh-tosi-2-image",
+      "jnh-tosi-4-image",
+      "jnh-arki-outdoor-duo-image",
+      "peak-mini-image",
+      "peak-crown-image",
+      "peak-fuji-image",
+      "peak-patagonia-image"
+    ]
+  },
+  "file_hashes": [
+    {"path": "data/us/publication.json", "sha256": "27383d6abb85112dbbbc866651aba3c8356f83c8b07749a1f8a52ed3bb7d0924"},
+    {"path": "data/us/products.json", "sha256": "da9cb93bd3ee1184812c3a217fbfb8807b24514a33856baa79cd521168a1851f"},
+    {"path": "data/us/configurations.json", "sha256": "1190f5bcf0256d8af08802a94fd6f9943587055a25aaf125e76c52e7873e41f4"},
+    {"path": "data/us/sources.json", "sha256": "e9e02719b7cab35a80c998c4d1e47283533f528cf09b28053c95084d5192619e"},
+    {"path": "data/us/merchants.json", "sha256": "ad36393eb935fc598ab40d3e0d46f28091a30f3b8facd3ead2e9f7ccc96d848e"},
+    {"path": "data/us/programs.json", "sha256": "686780ae86b99e7a8137ddd4132dd811b745e91af9c82899b399cafa3a546e1e"},
+    {"path": "data/us/offers.json", "sha256": "db3c606e65b901513a25129578afa1d638afd463a3f436a39b9ff703144a0fd0"},
+    {"path": "data/us/mappings.json", "sha256": "2975e109444456a1ce876cf78971f30169412678557b9b1b5c4587de16a68fb7"},
+    {"path": "content/us/navigation.json", "sha256": "f21701a54b7ee06fc602cea811f6cf040d99a2924e7c38b55a5dfe1b69d91c7e"},
+    {"path": "content/us/home.json", "sha256": "d323d3c0dbd65fc29ed262df89baf741af4e1739fcdcfa5b663b44e553a2021e"},
+    {"path": "content/us/affiliate.json", "sha256": "7386e616dae54f51b909b61bebc4de2673ae823d53d930b9c9728ad1bf42833e"},
+    {"path": "content/us/legal.json", "sha256": "69ecbc6736f353b034c179d5de1dec7fa9bd30f51825e90506daa847600cf781"},
+    {"path": "content/us/page-presentations.json", "sha256": "5998b99cad60f917ea2ee5a72d193ebe298c4cc51ac70ea839110303ff8b8992"},
+    {"path": "content/us/editorial.json", "sha256": "0bf74aba22d302c4e4647632afbf838cd1d62bc58e3e0ab8dd327d3431c929fb"},
+    {"path": "docs/us/rights-register.json", "sha256": "af919799988c2e64f0e85b0d13c4ddc1ae33ba6eeb712e650f759d445a2ec73a"}
+  ],
+  "blocking_conditions": [
+    "No reviewed US merchant offer or affiliate tracking link exists.",
+    "Manufacturer image rights are not documented.",
+    "US routes and indexing require separate operator approval after the remaining Luna and Sol reviews."
+  ]
+}

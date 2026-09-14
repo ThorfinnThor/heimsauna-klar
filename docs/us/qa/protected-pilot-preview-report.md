@@ -45,9 +45,9 @@ No public authentication layer was added because the preview is not hosted. It e
 ## Commands
 
 - `npm run us:preview:test`: passed
-- `npm run us:test`: 97/97 passed
+- `npm run us:test`: 106/106 passed
 - `npm run lint`: passed
-- `npm run build`: passed; 587 static routes generated before the US output gate
+- `npm run build`: passed; 594 static routes generated before the US output gate
 - DE regression: 568 public HTML pages and 14,923 internal references with zero broken targets
 - DE SEO: 565 checked pages, including 306 indexable and 210 noindex product pages
 - Content diversity, security headers and discovery checks: passed

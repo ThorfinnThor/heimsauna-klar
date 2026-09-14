@@ -24,12 +24,13 @@ function requireText(html, expected, route, issues) {
   if (!html.includes(expected)) issues.push(`${route}: missing ${JSON.stringify(expected)}`);
 }
 
-const [publication, productsDocument, configurationsDocument, sourcesDocument, offersDocument] = await Promise.all([
+const [publication, productsDocument, configurationsDocument, sourcesDocument, offersDocument, previewManifest] = await Promise.all([
   readJson("data/us/publication.json"),
   readJson("data/us/products.json"),
   readJson("data/us/configurations.json"),
   readJson("data/us/sources.json"),
   readJson("data/us/offers.json"),
+  readJson("docs/us/preview-manifest.json"),
 ]);
 
 const issues = [];
@@ -46,7 +47,14 @@ if (productsDocument.products.some((product) => product.publication_status !== "
 const usStats = await stat(usOutputRoot).catch(() => null);
 if (!usStats?.isDirectory()) throw new Error("Protected pilot preview needs a generated out/us directory");
 const htmlFiles = await collectHtmlFiles(usOutputRoot);
-if (htmlFiles.length !== 23) issues.push(`out/us: expected 23 static pilot pages, found ${htmlFiles.length}`);
+if (htmlFiles.length !== previewManifest.expected_page_count) {
+  issues.push(`out/us: expected ${previewManifest.expected_page_count} static pilot pages, found ${htmlFiles.length}`);
+}
+
+const generatedRoutes = htmlFiles.map((file) => `/${file.slice(outputRoot.length + 1).replace(/index\.html$/, "").replaceAll("\\", "/")}`);
+const expectedRoutes = previewManifest.routes.map((route) => route.path);
+for (const route of expectedRoutes.filter((route) => !generatedRoutes.includes(route))) issues.push(`${route}: missing from generated preview`);
+for (const route of generatedRoutes.filter((route) => !expectedRoutes.includes(route))) issues.push(`${route}: not declared in preview manifest`);
 
 for (const file of htmlFiles) {
   const route = `/${file.slice(outputRoot.length + 1).replace(/index\.html$/, "").replaceAll("\\", "/")}`;
@@ -54,7 +62,7 @@ for (const file of htmlFiles) {
   requireText(html, '<html lang="en-US">', route, issues);
   requireText(html, 'name="robots" content="noindex, follow"', route, issues);
   requireText(html, "Research preview", route, issues);
-  for (const forbidden of ["fixture-safe-offer", "example-merchant", "Synthetic unit-test fixture"]) {
+  for (const forbidden of previewManifest.forbidden_output_markers) {
     if (html.includes(forbidden)) issues.push(`${route}: synthetic test marker leaked into the static preview`);
   }
 }

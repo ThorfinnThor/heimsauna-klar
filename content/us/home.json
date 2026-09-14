@@ -15,7 +15,7 @@
       "id": "current-scope",
       "heading": "The current scope is deliberately narrow",
       "paragraphs": [
-        "The pilot records indoor infrared cabins from Peak Saunas and JNH Lifestyles, plus the JNH Arki Outdoor Duo. The catalog keeps each size and placement as its own configuration so that dimensions and electrical facts are not borrowed from another model.",
+        "The pilot records eight indoor infrared cabins and two outdoor infrared cabins from Peak Saunas and JNH Lifestyles. The catalog keeps each model and placement as its own configuration so that dimensions and electrical facts are not borrowed from another cabin.",
         "Traditional electric cabins, wood-burning cabins, installation clearances, shipping terms and reviewed offers are not treated as covered categories until their evidence is added to the corresponding record."
       ]
     },
@@ -38,6 +38,10 @@
   "source_ids": [
     "peak-shasta-product",
     "peak-everest-product",
+    "peak-mini-product",
+    "peak-crown-product",
+    "peak-fuji-product",
+    "peak-patagonia-product",
     "jnh-tosi-1-product",
     "jnh-tosi-2-product",
     "jnh-tosi-4-product",

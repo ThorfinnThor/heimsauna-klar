@@ -11,9 +11,9 @@
       "title": "Indoor infrared sauna configurations",
       "description": "Compare the documented dimensions, capacity and electrical requirements of the current indoor infrared sauna research set.",
       "eyebrow": "Indoor infrared comparison",
-      "heading": "Five indoor infrared cabins with different space and circuit demands",
+      "heading": "Eight indoor infrared cabins with different space and circuit demands",
       "introduction": [
-        "The current research set covers one-, two- and four-person infrared cabins sold for indoor placement in the United States. All five document a 120-volt supply, but their exterior dimensions and circuit information differ enough to change what must be checked before purchase.",
+        "The current research set covers one-, two- and four-person infrared cabins sold for indoor placement in the United States. All eight document a 120-volt supply, but their exterior dimensions and circuit information differ enough to change what must be checked before purchase.",
         "This is a specification comparison, not a hands-on test or a quality ranking. A configuration appears only when its product type, heat type and placement are documented in the source record."
       ],
       "sections": [
@@ -21,7 +21,7 @@
           "id": "room-envelope",
           "heading": "Cabinet dimensions do not define the full room envelope",
           "paragraphs": [
-            "The exterior measurements make it possible to compare the cabinet bodies. None of the five current records contains reviewed installation clearances, so the figures cannot establish that a cabin fits tightly between walls or below a ceiling.",
+            "The exterior measurements make it possible to compare the cabinet bodies. None of the eight current records contains reviewed installation clearances, so the figures cannot establish that a cabin fits tightly between walls or below a ceiling.",
             "When room dimensions are entered in the sauna finder, a cabinet that fits remains under needs verification until the missing clearance information has been checked in the instructions for that exact model."
           ]
         },
@@ -29,7 +29,7 @@
           "id": "electrical-differences",
           "heading": "The shared 120-volt label does not make the electrical requirements identical",
           "paragraphs": [
-            "Peak documents a 15-amp requirement for the Shasta and a dedicated 20-amp circuit for the Everest. The JNH records document 20-amp dedicated circuits for the Tosi Red 4-Person, while the required circuit rating remains open for the Tosi 1-Person and Tosi 2-Person records.",
+            "Peak documents 15-amp outlet information for the Mini, Crown and Shasta, while the Everest and Fuji records identify a dedicated 20-amp circuit. The JNH records document a dedicated 20-amp circuit for the Tosi Red 4-Person, while the required circuit rating remains open for the Tosi 1-Person and Tosi 2-Person records.",
             "A voltage filter is therefore useful for narrowing the catalog, but it does not approve an outlet or circuit for installation. The plug, circuit requirement and model instructions still need to be checked together."
           ]
         }
@@ -37,6 +37,9 @@
       "source_ids": [
         "peak-shasta-product",
         "peak-everest-product",
+        "peak-mini-product",
+        "peak-crown-product",
+        "peak-fuji-product",
         "jnh-tosi-1-product",
         "jnh-tosi-2-product",
         "jnh-tosi-4-product"
@@ -107,7 +110,7 @@
           "id": "read-one-option",
           "heading": "Read each supply option as a complete set",
           "paragraphs": [
-            "The current pilot contains electric infrared cabins with one documented supply option each. Where the manufacturer record states a required circuit or dedicated circuit, the site keeps that requirement with the voltage rather than reducing the product to a 120-volt badge.",
+            "Each current pilot configuration has one recorded electrical supply option. Where the manufacturer record states a required circuit or dedicated circuit, the site keeps that requirement with the voltage rather than reducing the product to a voltage badge.",
             "If a future configuration documents alternative supply options, each option will be evaluated separately. Requirements that belong to the same option must all be satisfied together."
           ]
         },
@@ -115,7 +118,7 @@
           "id": "unknown-is-open",
           "heading": "An open circuit field is not permission to use any outlet",
           "paragraphs": [
-            "The Tosi 1-Person and Tosi 2-Person records document 120-volt power information but currently leave the required circuit rating unresolved. The finder can recognize the voltage only when that is all the user selected. If a circuit limit is entered, these records move to needs verification.",
+            "The Mini, Crown, Tosi 1-Person and Tosi 2-Person records document 120-volt power information but currently leave the required circuit rating unresolved. The finder can recognize the voltage only when that is all the user selected. If a circuit limit is entered, these records move to needs verification.",
             "Final installation should follow the documentation for the exact configuration and the applicable local requirements. The finder does not size wiring, approve adapters or replace review by a qualified professional."
           ]
         }
@@ -123,6 +126,10 @@
       "source_ids": [
         "peak-shasta-product",
         "peak-everest-product",
+        "peak-mini-product",
+        "peak-crown-product",
+        "peak-fuji-product",
+        "peak-patagonia-product",
         "jnh-tosi-1-product",
         "jnh-tosi-2-product",
         "jnh-tosi-4-product",
