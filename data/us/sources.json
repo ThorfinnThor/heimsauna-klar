@@ -161,6 +161,46 @@
       "market": "US",
       "checked_at": "2026-09-13",
       "locator": "Product specifications, placement and electrical requirements"
+    },
+    {
+      "id": "peak-mini-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-mini-1-person-indoor-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy",
+      "title": "Peak Saunas Mini product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications and electrical section"
+    },
+    {
+      "id": "peak-crown-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-crown-2-person-full-spectrum-infrared-sauna",
+      "title": "Peak Saunas Crown product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications and electrical section"
+    },
+    {
+      "id": "peak-fuji-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-fuji-2-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy",
+      "title": "Peak Saunas Fuji product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications and electrical section"
+    },
+    {
+      "id": "peak-patagonia-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-patagonia-2-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control",
+      "title": "Peak Saunas Patagonia product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product specifications, placement and electrical section"
     }
   ],
   "evidence": [
@@ -247,6 +287,62 @@
       "field_path": "manufacturer-product-page.specifications",
       "source_id": "jnh-arki-outdoor-duo-product",
       "raw_value": "Arki Outdoor Duo specifications, dimensions, materials, placement and electrical section"
+    },
+    {
+      "id": "evidence-peak-mini-product",
+      "entity_id": "peak-mini",
+      "field_path": "manufacturer-product-page",
+      "source_id": "peak-mini-product",
+      "raw_value": "Mini 1-person indoor full-spectrum infrared cabin; standard 120 V / 15 A outlet; 31 x 32 x 67 in exterior; Hemlock"
+    },
+    {
+      "id": "evidence-peak-mini-configuration",
+      "entity_id": "peak-mini-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "peak-mini-product",
+      "raw_value": "Mini 1-person indoor full-spectrum infrared cabin; standard 120 V / 15 A outlet; 31 x 32 x 67 in exterior; Hemlock"
+    },
+    {
+      "id": "evidence-peak-crown-product",
+      "entity_id": "peak-crown",
+      "field_path": "manufacturer-product-page",
+      "source_id": "peak-crown-product",
+      "raw_value": "Crown 2-person indoor full-spectrum infrared cabin; standard 120 V / 15 A outlet; 48 x 44 x 79 in exterior; 42 x 38 x 71 in interior; Hemlock"
+    },
+    {
+      "id": "evidence-peak-crown-configuration",
+      "entity_id": "peak-crown-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "peak-crown-product",
+      "raw_value": "Crown 2-person indoor full-spectrum infrared cabin; standard 120 V / 15 A outlet; 48 x 44 x 79 in exterior; 42 x 38 x 71 in interior; Hemlock"
+    },
+    {
+      "id": "evidence-peak-fuji-product",
+      "entity_id": "peak-fuji",
+      "field_path": "manufacturer-product-page",
+      "source_id": "peak-fuji-product",
+      "raw_value": "Fuji 2-person indoor full-spectrum infrared cabin; dedicated 120 V / 20 A circuit; 53 x 44 x 75 in exterior; cedar"
+    },
+    {
+      "id": "evidence-peak-fuji-configuration",
+      "entity_id": "peak-fuji-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "peak-fuji-product",
+      "raw_value": "Fuji 2-person indoor full-spectrum infrared cabin; dedicated 120 V / 20 A circuit; 53 x 44 x 75 in exterior; cedar"
+    },
+    {
+      "id": "evidence-peak-patagonia-product",
+      "entity_id": "peak-patagonia",
+      "field_path": "manufacturer-product-page",
+      "source_id": "peak-patagonia-product",
+      "raw_value": "Patagonia 2-person outdoor full-spectrum infrared cabin; dedicated 240 V / 20 A circuit; 52 x 42 x 83 in exterior"
+    },
+    {
+      "id": "evidence-peak-patagonia-configuration",
+      "entity_id": "peak-patagonia-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "peak-patagonia-product",
+      "raw_value": "Patagonia 2-person outdoor full-spectrum infrared cabin; dedicated 240 V / 20 A circuit; 52 x 42 x 83 in exterior"
     }
   ]
 }

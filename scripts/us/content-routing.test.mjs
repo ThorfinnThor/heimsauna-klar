@@ -58,7 +58,7 @@ test("editorial paths are derived from the page type and stable slug", () => {
   assert.equal(usEditorialPath({ page_type: "guide", slug: "sauna-electrical-requirements" }), "/us/guides/sauna-electrical-requirements/");
 });
 
-test("a structured comparison deterministically selects the three documented indoor two-seat 120 V pilot configurations", () => {
+test("a structured comparison deterministically selects the five documented indoor two-seat 120 V pilot configurations", () => {
   const page = {
     ...basePage,
     page_type: "comparison",
@@ -75,7 +75,7 @@ test("a structured comparison deterministically selects the three documented ind
     products: [...productsDocument.products].reverse(),
     configurations: [...configurationsDocument.configurations].reverse(),
   });
-  assert.deepEqual(selected.map((entry) => entry.product.id), ["jnh-tosi-2", "jnh-tosi-4", "peak-everest"]);
+  assert.deepEqual(selected.map((entry) => entry.product.id), ["jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-everest", "peak-fuji"]);
 });
 
 test("candidate records cannot appear in a public comparison", () => {

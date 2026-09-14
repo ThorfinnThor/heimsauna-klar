@@ -37,8 +37,8 @@ for (const flag of ["routes_enabled", "indexing_enabled", "affiliate_links_enabl
   if (publication[flag] !== false) issues.push(`publication.${flag}: protected preview requires false`);
 }
 if (offersDocument.offers.length !== 0) issues.push("data/us/offers.json: expected zero offers in the current real pilot");
-if (productsDocument.products.length !== 6) issues.push(`data/us/products.json: expected 6 pilot products, found ${productsDocument.products.length}`);
-if (configurationsDocument.configurations.length !== 6) issues.push(`data/us/configurations.json: expected 6 pilot configurations, found ${configurationsDocument.configurations.length}`);
+if (productsDocument.products.length !== 10) issues.push(`data/us/products.json: expected 10 pilot products, found ${productsDocument.products.length}`);
+if (configurationsDocument.configurations.length !== 10) issues.push(`data/us/configurations.json: expected 10 pilot configurations, found ${configurationsDocument.configurations.length}`);
 if (productsDocument.products.some((product) => product.publication_status !== "candidate")) {
   issues.push("data/us/products.json: every protected pilot product must remain a candidate");
 }
@@ -46,7 +46,7 @@ if (productsDocument.products.some((product) => product.publication_status !== "
 const usStats = await stat(usOutputRoot).catch(() => null);
 if (!usStats?.isDirectory()) throw new Error("Protected pilot preview needs a generated out/us directory");
 const htmlFiles = await collectHtmlFiles(usOutputRoot);
-if (htmlFiles.length !== 19) issues.push(`out/us: expected 19 static pilot pages, found ${htmlFiles.length}`);
+if (htmlFiles.length !== 23) issues.push(`out/us: expected 23 static pilot pages, found ${htmlFiles.length}`);
 
 for (const file of htmlFiles) {
   const route = `/${file.slice(outputRoot.length + 1).replace(/index\.html$/, "").replaceAll("\\", "/")}`;

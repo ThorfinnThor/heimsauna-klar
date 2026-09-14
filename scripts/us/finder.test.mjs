@@ -107,7 +107,7 @@ function resultFor({ query, productValue = product(), configurationValue = confi
   return runUsFinder({ products: [productValue], configurations: [configurationValue], offers, query, asOf: "2026-09-13" })[0];
 }
 
-test("real pilot data produces five known indoor infrared 120 V results and one exclusion", () => {
+test("real pilot data produces eight known indoor infrared 120 V results and two exclusions", () => {
   const results = runUsFinder({
     products: productsDocument.products,
     configurations: configurationsDocument.configurations,
@@ -119,12 +119,12 @@ test("real pilot data produces five known indoor infrared 120 V results and one 
     },
     asOf: "2026-09-13",
   });
-  assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 5);
-  assert.equal(results.filter((entry) => entry.status === "excluded").length, 1);
-  assert.equal(results.at(-1).productId, "jnh-arki-outdoor-duo");
+  assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 8);
+  assert.equal(results.filter((entry) => entry.status === "excluded").length, 2);
+  assert.equal(results.at(-1).productId, "peak-patagonia");
 });
 
-test("the pilot scenario for two indoor infrared seats on 120 V returns three known configurations", () => {
+test("the pilot scenario for two indoor infrared seats on 120 V returns five known configurations", () => {
   const results = runUsFinder({
     products: productsDocument.products,
     configurations: configurationsDocument.configurations,
@@ -139,12 +139,12 @@ test("the pilot scenario for two indoor infrared seats on 120 V returns three kn
   });
   assert.deepEqual(
     results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId),
-    ["peak-everest", "jnh-tosi-2", "jnh-tosi-4"],
+    ["peak-everest", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-fuji"],
   );
   assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 0);
   assert.deepEqual(
     results.filter((entry) => entry.status === "excluded").map((entry) => entry.productId),
-    ["peak-shasta", "jnh-tosi-1", "jnh-arki-outdoor-duo"],
+    ["peak-shasta", "jnh-tosi-1", "jnh-arki-outdoor-duo", "peak-mini", "peak-patagonia"],
   );
 });
 
@@ -162,7 +162,7 @@ test("adding a room envelope keeps the pilot honest when installation clearances
     },
     asOf: "2026-09-13",
   });
-  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 3);
+  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 5);
   assert(results.filter((entry) => entry.status === "needs-verification").every((entry) => entry.unknownCriteria.includes("space:installation-clearances")));
 });
 

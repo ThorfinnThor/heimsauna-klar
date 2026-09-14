@@ -16,15 +16,19 @@ The technical pilot path passes as a protected offline preview. This is not a pr
 | JNH Lifestyles Tosi 2-Person | passed | passed | passed | passed |
 | JNH Lifestyles Tosi Red 4-Person | passed | passed | passed | passed |
 | JNH Lifestyles Arki Outdoor Duo | passed | passed | passed | passed |
+| Peak Saunas Mini | passed | passed | passed | passed |
+| Peak Saunas Crown | passed | passed | passed | passed |
+| Peak Saunas Fuji | passed | passed | passed | passed |
+| Peak Saunas Patagonia | passed | passed | passed | passed |
 
-The six records and their six exact configurations are candidate research data. Product pages show their configuration labels and linked source titles. They show `No reviewed offer` and do not emit public Product schema while they remain candidates.
+The ten records and their ten exact configurations are candidate research data. Product pages show their configuration labels and linked source titles. They show `No reviewed offer` and do not emit public Product schema while they remain candidates.
 
-The tested real-data Finder scenarios remain those recorded in `docs/us/qa/pilot-content-review.md`. The two-seat indoor infrared 120 V scenario produces three known configuration matches. Adding a room envelope moves those records to `needs-verification` because installation clearances are not documented. A 240 V requirement excludes all six pilot configurations rather than treating unknown or unrelated electrical data as compatible.
+The tested real-data Finder scenarios remain those recorded in `docs/us/qa/pilot-content-review.md`. The two-seat indoor infrared 120 V scenario produces five known configuration matches. Adding a room envelope moves those records to `needs-verification` because installation clearances are not documented. A 240 V requirement excludes the pilot configurations rather than treating unknown or unrelated electrical data as compatible.
 
 ## Static and discovery checks
 
-- 16 US HTML pages generated with `lang="en-US"`
-- 16/16 carried `noindex, follow` and a research-preview notice
+- 23 US HTML pages generated with `lang="en-US"`
+- 23/23 carried `noindex, follow` and a research-preview notice
 - self-referential US canonicals and internal US links passed the SEO crawl
 - zero US sitemap or `llms.txt` discovery URLs
 - zero fixture markers in the generated HTML

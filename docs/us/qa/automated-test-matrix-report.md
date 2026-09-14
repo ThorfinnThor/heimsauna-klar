@@ -32,7 +32,7 @@ The protected static crawl also rejects executable or embedded-data URLs in `hre
 
 The main GitHub CI now runs `npm run us:ci` before the normal production build. That command validates the matrix, executes the complete US test suite, verifies the frozen DE baseline and builds/crawls the protected US preview. The normal production build then proves that the US output gate removes every disabled US route and discovery reference.
 
-No feed credential is needed for these tests. Synthetic products, offers and merchants use explicit fixture identities and temporary directories. The protected preview separately crawls the six real candidate records and fails if a synthetic fixture marker reaches generated HTML.
+No feed credential is needed for these tests. Synthetic products, offers and merchants use explicit fixture identities and temporary directories. The protected preview separately crawls the ten real candidate records and fails if a synthetic fixture marker reaches generated HTML.
 
 ## Actual execution
 
@@ -44,7 +44,7 @@ The following commands passed on 2026-09-14:
 | `npm run us:test` | 106/106 tests passed |
 | `npm run us:de-baseline:check` | 516 DE products, 306 indexable pages, 18 merchants and 210 active affiliate offers unchanged |
 | `npm run lint` | passed |
-| `npm run us:preview:test` | 19/19 static US pages passed; 6 candidate products, 0 offers, 0 fixture leaks, all pages noindex |
+| `npm run us:preview:test` | 23/23 static US pages passed; 10 candidate products, 0 offers, 0 fixture leaks, all pages noindex |
 | `npm run build` | passed; 568 public HTML files, 14,923 DE internal references, 0 broken targets |
 
 The production build retained 306 indexable and 210 noindex DE product pages. The US switches for routes, indexing, affiliate links and feed sync remained disabled, and `out/us` was removed before completion.

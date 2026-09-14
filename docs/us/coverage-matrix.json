@@ -2,26 +2,26 @@
   "schema_version": 1,
   "market": "US",
   "status": "draft",
-  "updated_at": "2026-09-13",
+  "updated_at": "2026-09-14",
   "scope": "Initial researched US pilot. Counts refer to distinct product models, not size or electrical variants.",
   "categories": [
     {
       "id": "indoor-infrared-cabins",
       "label": "Indoor infrared cabins",
-      "product_count": 5,
-      "configuration_count": 5,
-      "product_ids": ["peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4"],
+      "product_count": 8,
+      "configuration_count": 8,
+      "product_ids": ["peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4", "peak-mini", "peak-crown", "peak-fuji"],
       "status": "pilot-covered",
-      "gaps": ["Shipping dimensions and minimum clearances are not published on the checked pages for every model.", "US account approval and affiliate eligibility are not confirmed."]
+      "gaps": ["Shipping dimensions and minimum clearances are not published on the checked pages for every model.", "US account approval and affiliate eligibility are not confirmed.", "The four additional Peak records are candidates only; account approval, offers, image rights, clearances and shipping documentation remain open."]
     },
     {
       "id": "outdoor-infrared-cabins",
       "label": "Outdoor infrared cabins",
-      "product_count": 1,
-      "configuration_count": 1,
-      "product_ids": ["jnh-arki-outdoor-duo"],
+      "product_count": 2,
+      "configuration_count": 2,
+      "product_ids": ["jnh-arki-outdoor-duo", "peak-patagonia"],
       "status": "pilot-covered",
-      "gaps": ["Shipping data, minimum clearances, certifications and current delivery terms require a separate check.", "US account approval and affiliate eligibility are not confirmed."]
+      "gaps": ["Shipping data, minimum clearances, certifications and current delivery terms require a separate check.", "US account approval and affiliate eligibility are not confirmed.", "The four additional Peak records are candidates only; account approval, offers, image rights, clearances and shipping documentation remain open."]
     },
     {
       "id": "indoor-traditional-cabins",
@@ -45,6 +45,7 @@
   "next_priorities": [
     "Confirm the German publisher account relationship for the four Awin candidates.",
     "Add a traditional outdoor pilot only after an exact model/configuration and shipping scope are documented.",
-    "Request or locate manuals/spec sheets for clearances, certifications, warranty and shipping weight before any product is reviewed or published."
+    "Request or locate manuals/spec sheets for clearances, certifications, warranty and shipping weight before any product is reviewed or published.",
+    "Complete exact Awin account and offer mapping before any publication status change."
   ]
 }

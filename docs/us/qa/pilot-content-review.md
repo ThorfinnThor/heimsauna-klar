@@ -2,7 +2,7 @@
 
 **Review owner:** Luna  
 **Review date:** 2026-09-13  
-**Scope:** static US research preview, six candidate products and the end-to-end finder interaction
+**Scope:** static US research preview, ten candidate products and the end-to-end finder interaction
 
 ## Decision
 
@@ -10,7 +10,7 @@
 
 ## Evidence reviewed
 
-The review used the six candidate products and their six one-to-one configurations in `data/us/products.json` and `data/us/configurations.json`. Source records are linked in `data/us/sources.json`.
+The review used the ten candidate products and their ten one-to-one configurations in `data/us/products.json` and `data/us/configurations.json`. Source records are linked in `data/us/sources.json`.
 
 | Product | Documented scope | Key documented facts | Open facts that remain open |
 | --- | --- | --- | --- |
@@ -29,10 +29,10 @@ The following scenarios were executed against the real pilot records with `asOf 
 
 | Query | Result | Interpretation |
 | --- | --- | --- |
-| Indoor + infrared + 2 people + electric 120 V | 3 known: Everest, Tosi 2-Person, Tosi Red 4-Person; 3 excluded | Capacity, placement and the documented 120 V option agree. No claim about installation approval is made. |
-| Same query plus 100 × 100 × 100 in room envelope | 0 known; 3 need verification; 3 excluded | Cabinet dimensions fit the entered envelope, but the records do not document installation clearances. |
-| Indoor + infrared + 2 people + electric 240 V | 0 known; 0 need verification; 6 excluded | No pilot configuration documents a 240 V option. |
-| Outdoor + infrared + 2 people + electric 120 V | 1 known: Arki Outdoor Duo; 5 excluded | Placement is treated as a hard criterion. |
+| Indoor + infrared + 2 people + electric 120 V | 5 known: Crown, Everest, Fuji, Tosi 2-Person, Tosi Red 4-Person; 5 excluded | Capacity, placement and the documented 120 V option agree. No claim about installation approval is made. |
+| Same query plus 100 × 100 × 100 in room envelope | 0 known; 5 need verification; 5 excluded | Cabinet dimensions fit the entered envelope, but the records do not document installation clearances. |
+| Indoor + infrared + 2 people + electric 240 V | 0 known; 0 need verification; 10 excluded | No indoor pilot configuration documents a 240 V option. |
+| Outdoor + infrared + 2 people + electric 120 V | 1 known: Arki Outdoor Duo; 9 excluded | Placement is treated as a hard criterion. |
 
 The automated assertions for these cases live in `scripts/us/finder.test.mjs`. The URL state tests also confirm that partial dimensions are discarded rather than silently treated as a complete room constraint, and that back/forward state is encoded in the URL.
 
@@ -48,8 +48,8 @@ The automated assertions for these cases live in `scripts/us/finder.test.mjs`. T
 ## Conditions before publication
 
 1. Obtain reviewable offer records for any product that should display a price or merchant CTA. Each offer must identify the exact configuration, scope, availability, currency and freshness.
-2. Obtain image-use rights or use neutral, owned assets. The existing rights register remains `not-requested` for the six pilot models.
+2. Obtain image-use rights or use neutral, owned assets. The existing rights register remains `not-requested` for the ten pilot models.
 3. Source installation clearances, shipping scope and any electrical details needed for a concrete installation claim. Unknown values must remain unknown.
 4. Complete the distinct English editorial pages in the content manifest and run the editorial, link, security and output gates before enabling routes or indexing.
 
-**Recommendation:** keep the six records as a research pilot. Do not expand the public US catalog or activate affiliate links until the conditions above are documented and the later Sol technical release gate is complete.
+**Recommendation:** keep the ten records as a research pilot. Do not expand the public US catalog or activate affiliate links until the conditions above are documented and the later Sol technical release gate is complete.
