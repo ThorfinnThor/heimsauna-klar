@@ -3,8 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { markets } from "@/lib/markets";
-import { createPageMetadata } from "@/lib/metadata";
 import { getUsAffiliateOffersForConfiguration } from "@/lib/us/affiliate";
 import {
   getUsConfigurationsForProduct,
@@ -12,8 +12,9 @@ import {
   getUsPublicProducts,
   getUsResearchProducts,
   getUsSources,
-  usPublication,
 } from "@/lib/us/catalog";
+import { createUsPageMetadata } from "@/lib/us/seo";
+import { usBreadcrumbJsonLd, usProductJsonLd } from "@/lib/us/structured-data";
 import type { UsDimensions, UsFact, UsMeasurement } from "@/lib/us/types";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -33,12 +34,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = resolveProduct(slug);
   if (!product) return {};
-  return createPageMetadata({
+  const hasPublishedConfiguration = getUsConfigurationsForProduct(product.id)
+    .some((configuration) => configuration.publication_status === "published");
+  return createUsPageMetadata({
     title: `${product.brand_name} ${product.model}`,
     description: `Documented US configuration details, dimensions and electrical requirements for the ${product.brand_name} ${product.model}.`,
     path: `/us/saunas/${product.slug}/`,
-    market: "US",
-    indexable: usPublication.indexing_enabled && product.publication_status === "published",
+    pageClass: "detail",
+    publicationStatus: product.publication_status,
+    hasPublishedContent: hasPublishedConfiguration,
   });
 }
 
@@ -81,6 +85,16 @@ export default async function UsSaunaProductPage({ params }: Props) {
     <main>
       <SiteHeader market="US" />
       <article className="page-shell us-product-page">
+        {!isResearchPreview ? (
+          <>
+            <StructuredData data={usProductJsonLd(product, configuration)} />
+            <StructuredData data={usBreadcrumbJsonLd([
+              { name: "US home", path: "/us/" },
+              { name: "Saunas", path: "/us/saunas/" },
+              { name: `${product.brand_name} ${product.model}`, path: `/us/saunas/${product.slug}/` },
+            ])} />
+          </>
+        ) : null}
         <nav className="us-breadcrumbs" aria-label="Breadcrumb">
           <Link href="/us/">US home</Link><span>/</span><Link href="/us/saunas/">Saunas</Link><span>/</span><span>{product.model}</span>
         </nav>

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Independent product research and planning information for home saunas in the United States.",
   creator: "Schayan Yousefian",
   publisher: "SeitenHafen361",
-  robots: { index: false, follow: false },
+  robots: { index: false, follow: true },
 };
 
 export default function UsRootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

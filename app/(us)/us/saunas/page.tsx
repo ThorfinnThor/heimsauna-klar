@@ -1,15 +1,15 @@
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
-import { createPageMetadata } from "@/lib/metadata";
 import { getUsPublicCatalogItems, getUsResearchCatalogItems } from "@/lib/us/catalog-index";
 import { usPublication } from "@/lib/us/catalog";
+import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsCatalog } from "../_components/UsCatalog";
 
-export const metadata = createPageMetadata({
+export const metadata = createUsPageMetadata({
   title: "Home saunas for the United States",
   description: "Compare documented US sauna configurations by placement, capacity, dimensions and electrical requirements.",
   path: "/us/saunas/",
-  market: "US",
-  indexable: usPublication.indexing_enabled,
+  pageClass: "overview",
+  hasPublishedContent: getUsPublicCatalogItems().length > 0,
 });
 
 export default function UsSaunaCatalogPage() {

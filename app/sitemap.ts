@@ -6,6 +6,7 @@ import { isIndexingEnabled, siteUrl } from "@/lib/site";
 import publication from "@/data/site-publication.json";
 import affiliate from "@/content/de/affiliate.json";
 import legal from "@/content/de/legal.json";
+import { getUsLanguageAlternates, getUsSitemapEntries } from "@/lib/us/seo";
 
 export const dynamic = "force-static";
 
@@ -43,5 +44,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.7,
     })),
+    ...getUsSitemapEntries().map((entry) => {
+      const languageAlternates = getUsLanguageAlternates(entry.path);
+      return {
+        url: `${siteUrl}${entry.path}`,
+        lastModified: new Date(`${entry.lastModified}T00:00:00Z`),
+        changeFrequency: entry.changeFrequency,
+        priority: entry.priority,
+        ...(Object.keys(languageAlternates).length > 0 ? {
+          alternates: {
+            languages: Object.fromEntries(Object.entries(languageAlternates).map(([locale, path]) => [
+              locale,
+              new URL(path, `${siteUrl}/`).toString(),
+            ])),
+          },
+        } : {}),
+      };
+    }),
   ];
 }

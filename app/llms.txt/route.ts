@@ -2,6 +2,7 @@ import { collections } from "@/lib/collections";
 import { planningGuides } from "@/lib/planning-guides";
 import { getCatalogStats, getIndexableProducts, products } from "@/lib/products";
 import { siteUrl } from "@/lib/site";
+import { getUsSitemapEntries } from "@/lib/us/seo";
 
 export const dynamic = "force-static";
 
@@ -18,6 +19,15 @@ export function GET() {
   const collectionLinks = collections
     .map((collection) => `- [${collection.title}](${pageUrl(`/de/${collection.section}/${collection.slug}/`)}): ${collection.description}`)
     .join("\n");
+  const usEntries = getUsSitemapEntries();
+  const usSection = usEntries.length > 0 ? `
+
+## United States section
+
+The published US section uses English (en-US), US dollars and configuration-specific source records. It does not transfer European voltage, certification, shipping or availability claims to the US market.
+
+${usEntries.map((entry) => `- ${pageUrl(entry.path)}`).join("\n")}
+` : "";
 
   const content = `# Select Your Sauna
 
@@ -66,6 +76,7 @@ ${collectionLinks}
 ## Quellenhinweis
 
 Die maßgeblichen Belege stehen auf den jeweiligen Ratgeber- und Produktseiten mit URL und Prüfdatum. Bei Elektroinstallation, Fundament, Statik, Brandschutz und örtlichen Bauvorgaben haben Herstellerunterlagen und die Prüfung durch zuständige Fachleute Vorrang.
+${usSection}
 `;
 
   return new Response(content, {

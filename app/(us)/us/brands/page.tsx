@@ -1,12 +1,11 @@
 import { notFound } from "next/navigation";
 
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
-import { createPageMetadata } from "@/lib/metadata";
-import { usPublication } from "@/lib/us/catalog";
 import { getUsEditorialPages, isUsResearchPreview } from "@/lib/us/content";
+import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsEditorialIndex } from "../_components/UsEditorial";
 
-export const metadata = createPageMetadata({ title: "Sauna brands in the United States", description: "Source-based profiles of sauna brands and their documented US configurations.", path: "/us/brands/", market: "US", indexable: usPublication.indexing_enabled });
+export const metadata = createUsPageMetadata({ title: "Sauna brands in the United States", description: "Source-based profiles of sauna brands and their documented US configurations.", path: "/us/brands/", pageClass: "overview", hasPublishedContent: getUsEditorialPages("brand").length > 0 });
 
 export default function UsBrandIndexPage() {
   const isPreview = isUsResearchPreview();

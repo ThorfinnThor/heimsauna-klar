@@ -1,5 +1,5 @@
-import { isLaunchReadyForIndexing } from "@/lib/launch";
-import publication from "@/data/site-publication.json";
+import publication from "../data/site-publication.json" with { type: "json" };
+import { isLaunchReadyForIndexing } from "./launch.ts";
 
 const configuredUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");
 const productionUrl = publication.production_url.replace(/\/$/, "");

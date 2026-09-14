@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
-import { createPageMetadata } from "@/lib/metadata";
-import { usPublication } from "@/lib/us/catalog";
 import { getUsEditorialPage, getUsEditorialPages, getUsPresentation, isUsResearchPreview, usEditorialPath } from "@/lib/us/content";
+import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsEditorialPageView } from "../../_components/UsEditorial";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -18,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const page = getUsEditorialPage("brand", slug, { includeNonPublic: isUsResearchPreview() });
   if (!page) return {};
-  return createPageMetadata({ title: page.title, description: page.description, path: usEditorialPath(page), market: "US", indexable: usPublication.indexing_enabled && page.publication_status === "published" });
+  return createUsPageMetadata({ title: page.title, description: page.description, path: usEditorialPath(page), pageClass: "detail", publicationStatus: page.publication_status, type: "article" });
 }
 
 export default async function UsBrandPage({ params }: Props) {

@@ -1,4 +1,4 @@
-import launchData from "@/data/launch-readiness.json";
+import launchData from "../data/launch-readiness.json" with { type: "json" };
 
 export type LaunchGateStatus = "ready" | "blocked" | "planned";
 

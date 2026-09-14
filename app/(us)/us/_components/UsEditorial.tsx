@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
+import { StructuredData } from "@/app/_components/StructuredData";
 
 import {
   getUsEditorialSources,
@@ -20,6 +21,13 @@ import type {
   UsTrustPage,
 } from "@/lib/us/content-types";
 import type { UsDimensions, UsFact, UsProductConfiguration } from "@/lib/us/types";
+import {
+  usBreadcrumbJsonLd,
+  usEditorialJsonLd,
+  usHomeJsonLd,
+  usOrganizationJsonLd,
+  usWebsiteJsonLd,
+} from "@/lib/us/structured-data";
 
 const indexCopy = {
   comparison: {
@@ -225,6 +233,10 @@ export function UsEditorialIndex({ pageType, pages, isPreview }: { pageType: UsE
 
 export function UsEditorialPageView({ page, presentation, isPreview }: { page: UsEditorialPage; presentation: UsPagePresentation; isPreview: boolean }) {
   const products = pageProducts(page, isPreview);
+  const sources = getUsEditorialSources(page);
+  const pagePath = usEditorialPath(page);
+  const sectionLabel = page.page_type === "comparison" ? "Comparisons" : page.page_type === "brand" ? "Brands" : "Guides";
+  const sectionPath = page.page_type === "comparison" ? "/us/compare/" : `/us/${page.page_type}s/`;
   const modules: Record<string, ReactNode> = {
     selection: page.page_type === "comparison" ? <ComparisonMatrix page={page} items={products} /> : null,
     catalog: <ProductCards items={products} />,
@@ -234,6 +246,16 @@ export function UsEditorialPageView({ page, presentation, isPreview }: { page: U
   };
   return (
     <article className={`us-editorial-page us-editorial-page-${presentation.layout}`}>
+      {!isPreview ? (
+        <>
+          <StructuredData data={usEditorialJsonLd(page, products, sources)} />
+          <StructuredData data={usBreadcrumbJsonLd([
+            { name: "US home", path: "/us/" },
+            { name: sectionLabel, path: sectionPath },
+            { name: page.title, path: pagePath },
+          ])} />
+        </>
+      ) : null}
       <header className="page-shell us-editorial-hero">
         {isPreview ? <p className="us-preview-notice">Research preview · this page is not approved for publication</p> : null}
         <p className="eyebrow">{page.eyebrow}</p>
@@ -250,6 +272,13 @@ export function UsEditorialPageView({ page, presentation, isPreview }: { page: U
 export function UsHomePageView({ page, isPreview }: { page: UsHomePage; isPreview: boolean }) {
   return (
     <>
+      {!isPreview ? (
+        <>
+          <StructuredData data={usOrganizationJsonLd()} />
+          <StructuredData data={usWebsiteJsonLd()} />
+          <StructuredData data={usHomeJsonLd(page)} />
+        </>
+      ) : null}
       <article className="page-shell us-home-editorial">
         {isPreview ? <p className="us-preview-notice">Research preview · this page is not approved for publication</p> : null}
         <header className="us-editorial-hero">

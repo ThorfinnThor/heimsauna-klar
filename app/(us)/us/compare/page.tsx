@@ -1,17 +1,16 @@
 import { notFound } from "next/navigation";
 
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
-import { createPageMetadata } from "@/lib/metadata";
 import { getUsEditorialPages, isUsResearchPreview } from "@/lib/us/content";
-import { usPublication } from "@/lib/us/catalog";
+import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsEditorialIndex } from "../_components/UsEditorial";
 
-export const metadata = createPageMetadata({
+export const metadata = createUsPageMetadata({
   title: "US sauna comparisons",
   description: "Curated comparisons of documented US sauna configurations with an explicit selection scope.",
   path: "/us/compare/",
-  market: "US",
-  indexable: usPublication.indexing_enabled,
+  pageClass: "overview",
+  hasPublishedContent: getUsEditorialPages("comparison").length > 0,
 });
 
 export default function UsComparisonIndexPage() {

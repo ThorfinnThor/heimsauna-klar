@@ -1,5 +1,5 @@
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
-import { createPageMetadata } from "@/lib/metadata";
+import { createUsPageMetadata } from "@/lib/us/seo";
 import {
   getUsPublicConfigurations,
   getUsPublicOffers,
@@ -11,12 +11,11 @@ import {
 } from "@/lib/us/catalog";
 import { UsSaunaFinder } from "../_components/UsSaunaFinder";
 
-export const metadata = createPageMetadata({
+export const metadata = createUsPageMetadata({
   title: "US home sauna finder",
   description: "Compare documented US sauna configurations against capacity, room dimensions, electrical supply and budget requirements.",
   path: "/us/sauna-finder/",
-  market: "US",
-  indexable: false,
+  pageClass: "tool",
 });
 
 export default function UsSaunaFinderPage() {

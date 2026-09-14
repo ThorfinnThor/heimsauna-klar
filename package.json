@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "npm run data:check && next build --webpack && npm run us:output:gate && npm run links:check && npm run seo:check && npm run diversity:check && npm run security:check && npm run discovery:check",
+    "build": "npm run data:check && next build --webpack && npm run us:seo:check && npm run us:output:gate && npm run links:check && npm run seo:check && npm run diversity:check && npm run security:check && npm run discovery:check",
     "build:cloudflare": "npm run build",
     "deploy:cloudflare": "npm run build:cloudflare && npx wrangler deploy",
     "start": "next start",
@@ -17,6 +17,7 @@
     "us:de-baseline:check": "node scripts/us/check-de-baseline.mjs",
     "us:import:review": "node scripts/us/manual-import.mjs",
     "us:output:gate": "node scripts/us/enforce-publication-output.mjs",
+    "us:seo:check": "node scripts/us/check-seo-output.mjs",
     "us:test": "node --test scripts/us/*.test.mjs",
     "links:check": "node scripts/check-internal-links.mjs",
     "seo:check": "node scripts/check-static-seo.mjs",

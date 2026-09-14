@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { getMarketConfig, type MarketCode } from "@/lib/markets";
-import { siteUrl } from "@/lib/site";
+import { getMarketConfig, type MarketCode } from "./markets.ts";
+import { siteUrl } from "./site.ts";
 
 type PageMetadataInput = {
   title: string;
@@ -9,6 +9,7 @@ type PageMetadataInput = {
   type?: "article" | "website";
   indexable?: boolean;
   market?: MarketCode;
+  languageAlternates?: Record<string, string>;
 };
 
 export function createPageMetadata({
@@ -18,6 +19,7 @@ export function createPageMetadata({
   type = "website",
   indexable = true,
   market: marketCode = "DE",
+  languageAlternates,
 }: PageMetadataInput): Metadata {
   const market = getMarketConfig(marketCode);
   const url = new URL(path, `${siteUrl}/`).toString();
@@ -36,15 +38,19 @@ export function createPageMetadata({
     title,
     description,
     ...(type === "article" ? {
-      authors: [{
-        name: "Schayan Yousefian",
-        url: new URL(
-          marketCode === "DE" ? "/de/ueber-uns/#redaktion" : "/us/about/#editorial",
-          `${siteUrl}/`,
-        ).toString(),
-      }],
+      authors: marketCode === "DE"
+        ? [{
+            name: "Schayan Yousefian",
+            url: new URL("/de/ueber-uns/#redaktion", `${siteUrl}/`).toString(),
+          }]
+        : [{ name: "Schayan Yousefian" }],
     } : {}),
-    alternates: { canonical: path },
+    alternates: {
+      canonical: path,
+      ...(languageAlternates && Object.keys(languageAlternates).length > 0
+        ? { languages: languageAlternates }
+        : {}),
+    },
     openGraph: {
       type,
       locale: market.openGraphLocale,
