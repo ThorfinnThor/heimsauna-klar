@@ -15,12 +15,12 @@
     "required_categories": ["indoor-infrared-cabins", "outdoor-infrared-cabins", "indoor-traditional-cabins", "outdoor-traditional-cabins", "sauna-kits", "heaters", "accessories-and-portable"]
   },
   "current_snapshot": {
-    "candidate_product_count": 10,
-    "candidate_configuration_count": 10,
+    "candidate_product_count": 14,
+    "candidate_configuration_count": 14,
     "published_product_count": 0,
     "active_offer_count": 0,
-    "products_remaining": 90,
-    "configurations_remaining": 90,
+    "products_remaining": 86,
+    "configurations_remaining": 86,
     "status": "blocked"
   },
   "next_batches": [
@@ -28,7 +28,10 @@
       "id": "saunalife-models",
       "priority": "P1",
       "source_url": "https://saunalife.com/products/",
-      "scope": "Model-level outdoor sauna kits and barrels; import only exact model pages with stable configuration data."
+      "scope": "Model-level outdoor sauna kits and barrels; import only exact model pages with stable configuration data.",
+      "identified_models": ["E6", "E6W", "E7", "E7W", "E7G", "E8", "E8W", "E8G", "EE6G", "EE8G", "X2", "G2", "G3", "G6", "G11", "CL3G", "CL4G", "CL5G", "CL7G", "CL12GCP", "GL4", "GL6"],
+      "model_pages_ready_for_first_import": ["E6", "E7", "CL3G", "G11"],
+      "technical_reference_url": "https://saunalife.com/technical-information/"
     },
     {
       "id": "thermory-sauna-products",

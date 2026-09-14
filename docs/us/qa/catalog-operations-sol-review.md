@@ -18,7 +18,7 @@ Program approval and asset rights are reported as scoped restrictions. Missing p
 ## Evidence
 
 - `node --test scripts/us/catalog-review.test.mjs`: 6/6 passed
-- `npm run us:catalog:review -- --as-of 2026-09-14`: 10 products, 10 awaiting first review, 0 stale sources, 0 missing source references, 0 due reviews, 0 invalid schedules
+- `npm run us:catalog:review -- --as-of 2026-09-14`: 14 products, 14 awaiting first review, 0 stale sources, 0 missing source references, 0 due reviews, 0 invalid schedules
 - `npm run us:ci`: passed with the protected 24-page static preview and zero discoverable US routes
 - `npm run build`: passed; DE baseline and public output remained unchanged
 - GitHub CI: [run 34853338188](https://github.com/ThorfinnThor/heimsauna-klar/actions/runs/34853338188) passed for acceptance commit `f09e952`

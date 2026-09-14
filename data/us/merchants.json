@@ -33,6 +33,14 @@
       "kind": "manufacturer",
       "allowed_hosts": ["jnhlifestyles.com"],
       "status": "candidate"
+    },
+    {
+      "id": "saunalife",
+      "market": "US",
+      "name": "SaunaLife",
+      "kind": "manufacturer",
+      "allowed_hosts": ["saunalife.com"],
+      "status": "candidate"
     }
   ]
 }

@@ -21,7 +21,7 @@ The first priority is four Peak models that have model-level manufacturer pages 
 ## Verification
 
 - `node --test scripts/us/catalog-expansion.test.mjs`
-- `node scripts/us/check-sol-acceptance-gate.mjs --strict` (currently expected to remain blocked at 10/100)
+- `node scripts/us/check-sol-acceptance-gate.mjs --strict` (currently expected to remain blocked at 14/100; 86 source-backed candidates remain)
 - `npm run us:matrix:check`
 - `npm run us:ci`
 - `npm run build`

@@ -271,6 +271,66 @@
       "market": "US",
       "checked_at": "2026-09-14",
       "locator": "Product description, available wall heights, electrical and warranty sections"
+    },
+    {
+      "id": "saunalife-products",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/products/",
+      "title": "SaunaLife sauna product collection",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Current SaunaLife model collection"
+    },
+    {
+      "id": "saunalife-e6-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/ergo-series-model-e6/",
+      "title": "SaunaLife ERGO Series Model E6 product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product description, capacity, dimensions, materials and included kit"
+    },
+    {
+      "id": "saunalife-e7-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/ergo-series-model-e7/",
+      "title": "SaunaLife ERGO Series Model E7 product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product description, capacity, dimensions, materials and included kit"
+    },
+    {
+      "id": "saunalife-cl3g-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/cube-series-model-cl3g/",
+      "title": "SaunaLife CUBE Series Model CL3G product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product description, capacity, interior and exterior dimensions, materials and included kit"
+    },
+    {
+      "id": "saunalife-g11-product",
+      "type": "manufacturer-page",
+      "url": "https://saunalife.com/saunas/garden-series-model-g11/",
+      "title": "SaunaLife GARDEN Series Model G11 product page",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Product description, capacity, room dimensions, materials and included kit"
+    },
+    {
+      "id": "saunalife-technical-information",
+      "type": "manual",
+      "url": "https://saunalife.com/technical-information/",
+      "title": "SaunaLife technical information",
+      "publisher": "SaunaLife",
+      "market": "US",
+      "checked_at": "2026-09-14",
+      "locator": "Model installation manuals and technical references"
     }
   ],
   "evidence": [
@@ -413,6 +473,62 @@
       "field_path": "manufacturer-product-page.specifications",
       "source_id": "peak-patagonia-product",
       "raw_value": "Patagonia 2-person outdoor full-spectrum infrared cabin; dedicated 240 V / 20 A circuit; 52 x 42 x 83 in exterior"
+    },
+    {
+      "id": "evidence-saunalife-e6-product",
+      "entity_id": "saunalife-e6",
+      "field_path": "manufacturer-product-page",
+      "source_id": "saunalife-e6-product",
+      "raw_value": "ERGO Series Model E6 outdoor sauna barrel for up to 3 people; 81 in diameter x 59 in length; Thermo-Spruce; heater and electrical details not stated on the checked page"
+    },
+    {
+      "id": "evidence-saunalife-e6-configuration",
+      "entity_id": "saunalife-e6-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "saunalife-e6-product",
+      "raw_value": "E6 product specifications, shipping dimensions, weight, materials and included kit; listed product dimensions are diameter and length rather than width/depth/height"
+    },
+    {
+      "id": "evidence-saunalife-e7-product",
+      "entity_id": "saunalife-e7",
+      "field_path": "manufacturer-product-page",
+      "source_id": "saunalife-e7-product",
+      "raw_value": "ERGO Series Model E7 outdoor sauna barrel for up to 4 people; 81 in diameter x 71 in length; Thermo-Spruce; heater and electrical details not stated on the checked page"
+    },
+    {
+      "id": "evidence-saunalife-e7-configuration",
+      "entity_id": "saunalife-e7-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "saunalife-e7-product",
+      "raw_value": "E7 product specifications, shipping dimensions, weight, materials and included kit; listed product dimensions are diameter and length rather than width/depth/height"
+    },
+    {
+      "id": "evidence-saunalife-cl3g-product",
+      "entity_id": "saunalife-cl3g",
+      "field_path": "manufacturer-product-page",
+      "source_id": "saunalife-cl3g-product",
+      "raw_value": "CUBE Series Model CL3G outdoor sauna kit for up to 2 people; glass front; Thermo-Spruce exterior, Thermo-Aspen benches, LED lighting and 90 W supply; heater and electrical details not stated on the checked page"
+    },
+    {
+      "id": "evidence-saunalife-cl3g-configuration",
+      "entity_id": "saunalife-cl3g-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "saunalife-cl3g-product",
+      "raw_value": "CL3G exterior 53.2 x 51.2 x 81.9 in; interior 49.6 x 43.2 x 75.4 in; shipping 70.9 x 43.3 x 32.3 in; 990 lb; materials and included kit stated on product page"
+    },
+    {
+      "id": "evidence-saunalife-g11-product",
+      "entity_id": "saunalife-g11",
+      "field_path": "manufacturer-product-page",
+      "source_id": "saunalife-g11-product",
+      "raw_value": "GARDEN Series Model G11 outdoor two-room sauna suite with sauna room and changing room; seats up to 8; Thermo-Spruce, Thermo-Pine and Thermo-Aspen; heater and electrical details not stated on the checked page"
+    },
+    {
+      "id": "evidence-saunalife-g11-configuration",
+      "entity_id": "saunalife-g11-standard",
+      "field_path": "manufacturer-product-page.specifications",
+      "source_id": "saunalife-g11-product",
+      "raw_value": "G11 sauna room and changing room each 7 ft 7 in L x 6 ft 4 in W x 7 ft 7 in H; shipping 196 x 47 x 47 in; 3196 lb; materials stated on product page"
     }
   ]
 }
