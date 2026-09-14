@@ -15,12 +15,12 @@
     "required_categories": ["indoor-infrared-cabins", "outdoor-infrared-cabins", "indoor-traditional-cabins", "outdoor-traditional-cabins", "sauna-kits", "heaters", "accessories-and-portable"]
   },
   "current_snapshot": {
-    "candidate_product_count": 14,
-    "candidate_configuration_count": 14,
+    "candidate_product_count": 18,
+    "candidate_configuration_count": 18,
     "published_product_count": 0,
     "active_offer_count": 0,
-    "products_remaining": 86,
-    "configurations_remaining": 86,
+    "products_remaining": 82,
+    "configurations_remaining": 82,
     "status": "blocked"
   },
   "next_batches": [

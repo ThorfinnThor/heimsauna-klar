@@ -7,12 +7,12 @@
   "autopublish": false,
   "sol_acceptance_gate": "docs/us/sol-acceptance-gate.json",
   "current_catalog": {
-    "candidate_product_count": 14,
+    "candidate_product_count": 18,
     "published_product_count": 0,
     "approved_program_count": 0,
     "active_offer_count": 0,
     "minimum_before_sol_acceptance": 100,
-    "products_remaining_before_sol_acceptance": 86
+    "products_remaining_before_sol_acceptance": 82
   },
   "entries": [
     {
@@ -20,7 +20,7 @@
       "label": "Peak Saunas Rainier",
       "category_id": "indoor-infrared-cabins",
       "priority": "P1",
-      "status": "source-backed-candidate",
+      "status": "imported-candidate",
       "autopublish": false,
       "merchant_id": "peak-saunas",
       "source_ids": ["peak-saunas-model-reference", "peak-rainier-product", "peak-saunas-manuals"],
@@ -33,7 +33,7 @@
       "label": "Peak Saunas Matterhorn",
       "category_id": "indoor-infrared-cabins",
       "priority": "P1",
-      "status": "source-backed-candidate",
+      "status": "imported-candidate",
       "autopublish": false,
       "merchant_id": "peak-saunas",
       "source_ids": ["peak-saunas-model-reference", "peak-matterhorn-product", "peak-saunas-manuals"],
@@ -46,7 +46,7 @@
       "label": "Peak Saunas Kilimanjaro",
       "category_id": "outdoor-infrared-cabins",
       "priority": "P1",
-      "status": "source-backed-candidate",
+      "status": "imported-candidate",
       "autopublish": false,
       "merchant_id": "peak-saunas",
       "source_ids": ["peak-saunas-model-reference", "peak-kilimanjaro-product", "peak-saunas-manuals"],
@@ -59,7 +59,7 @@
       "label": "Peak Saunas El Capitan",
       "category_id": "outdoor-infrared-cabins",
       "priority": "P1",
-      "status": "source-backed-candidate",
+      "status": "imported-candidate",
       "autopublish": false,
       "merchant_id": "peak-saunas",
       "source_ids": ["peak-saunas-model-reference", "peak-el-capitan-product", "peak-saunas-manuals"],

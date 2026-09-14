@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_id": "us-protected-preview-2026-09-14-l14",
+  "snapshot_id": "us-protected-preview-2026-09-14-l18",
   "market": "US",
   "created_at": "2026-09-14",
-  "input_commit": "5aef737c8c61f174df7149e7fbe63e9117cec230",
-  "purpose": "Protected static preview integration for the L-10 candidate dataset. This snapshot is not a production publication approval.",
+  "input_commit": "3f23373",
+  "purpose": "Protected static preview integration for the L-18 candidate dataset. This snapshot is not a production publication approval.",
   "status": "protected-preview",
   "publication_controls": {
     "routes_enabled": false,
@@ -28,6 +28,10 @@
       "saunalife-e7",
       "saunalife-cl3g",
       "saunalife-g11"
+      ,"peak-rainier",
+      "peak-matterhorn",
+      "peak-kilimanjaro",
+      "peak-el-capitan"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -44,10 +48,14 @@
       "saunalife-e7-standard",
       "saunalife-cl3g-standard",
       "saunalife-g11-standard"
+      ,"peak-rainier-standard",
+      "peak-matterhorn-standard",
+      "peak-kilimanjaro-standard",
+      "peak-el-capitan-standard"
     ],
     "offer_ids": [],
     "source_count": 33,
-    "evidence_count": 28,
+    "evidence_count": 36,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -77,13 +85,17 @@
       "saunalife-e7-image",
       "saunalife-cl3g-image",
       "saunalife-g11-image"
+      ,"peak-rainier-image",
+      "peak-matterhorn-image",
+      "peak-kilimanjaro-image",
+      "peak-el-capitan-image"
     ]
   },
   "file_hashes": [
     {"path": "data/us/publication.json", "sha256": "27383d6abb85112dbbbc866651aba3c8356f83c8b07749a1f8a52ed3bb7d0924"},
-    {"path": "data/us/products.json", "sha256": "40709e9b813f32f80a2d5b0bad11b5a23d9329cc36aec64f35f0ba882049ffc5"},
-    {"path": "data/us/configurations.json", "sha256": "ee63087ea63a86547a1b450a2ca6e98edf7b4702e3b4425aa806b9db3a288d5a"},
-    {"path": "data/us/sources.json", "sha256": "f59c029579bd7ac9e717a891e05ff5b60aef3f48049f1b2ea4ac993569b6ab58"},
+    {"path": "data/us/products.json", "sha256": "f561f834c927f94e8c56f1616306054e166c15153f74fbf2ba39a40a36228658"},
+    {"path": "data/us/configurations.json", "sha256": "de76e3dd3303eb27c03e62b513c7633ca49d5e128d91f8029652d18c5d6e7a2b"},
+    {"path": "data/us/sources.json", "sha256": "94698f8eb4c687b26ef16dfaf6e735d966d924bf28669d3c0842142f60de8ee0"},
     {"path": "data/us/merchants.json", "sha256": "f3d7283cb2b1d3e937316384011009d5324efa87a09ccdc8e78a907199dc11cf"},
     {"path": "data/us/programs.json", "sha256": "686780ae86b99e7a8137ddd4132dd811b745e91af9c82899b399cafa3a546e1e"},
     {"path": "data/us/offers.json", "sha256": "db3c606e65b901513a25129578afa1d638afd463a3f436a39b9ff703144a0fd0"},
@@ -94,7 +106,7 @@
     {"path": "content/us/legal.json", "sha256": "69ecbc6736f353b034c179d5de1dec7fa9bd30f51825e90506daa847600cf781"},
     {"path": "content/us/page-presentations.json", "sha256": "5998b99cad60f917ea2ee5a72d193ebe298c4cc51ac70ea839110303ff8b8992"},
     {"path": "content/us/editorial.json", "sha256": "0bf74aba22d302c4e4647632afbf838cd1d62bc58e3e0ab8dd327d3431c929fb"},
-    {"path": "docs/us/rights-register.json", "sha256": "2a8ea69c0b860e42dd805c01cc139dcca87817cd4b00350872a4493afed4d0e6"}
+    {"path": "docs/us/rights-register.json", "sha256": "9dfd18c29dcc3d40bd2a1718d32e685565195b86cff619216f0ac77a27771c42"}
   ],
   "blocking_conditions": [
     "No reviewed US merchant offer or affiliate tracking link exists.",

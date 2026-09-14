@@ -107,7 +107,7 @@ function resultFor({ query, productValue = product(), configurationValue = confi
   return runUsFinder({ products: [productValue], configurations: [configurationValue], offers, query, asOf: "2026-09-13" })[0];
 }
 
-test("real pilot data produces eight known indoor infrared 120 V results and six exclusions", () => {
+test("real pilot data produces nine known indoor infrared 120 V results and nine exclusions", () => {
   const results = runUsFinder({
     products: productsDocument.products,
     configurations: configurationsDocument.configurations,
@@ -119,8 +119,8 @@ test("real pilot data produces eight known indoor infrared 120 V results and six
     },
     asOf: "2026-09-13",
   });
-  assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 8);
-  assert.equal(results.filter((entry) => entry.status === "excluded").length, 6);
+  assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 9);
+  assert.equal(results.filter((entry) => entry.status === "excluded").length, 9);
   assert.equal(results.at(-1).productId, "saunalife-g11");
 });
 
@@ -144,7 +144,7 @@ test("the pilot scenario for two indoor infrared seats on 120 V returns five kno
   assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 0);
   assert.deepEqual(
     results.filter((entry) => entry.status === "excluded").map((entry) => entry.productId),
-    ["peak-shasta", "jnh-tosi-1", "jnh-arki-outdoor-duo", "peak-mini", "peak-patagonia", "saunalife-cl3g", "saunalife-e6", "saunalife-e7", "saunalife-g11"],
+    ["peak-shasta", "jnh-tosi-1", "jnh-arki-outdoor-duo", "peak-mini", "peak-patagonia", "peak-rainier", "peak-matterhorn", "peak-kilimanjaro", "peak-el-capitan", "saunalife-cl3g", "saunalife-e6", "saunalife-e7", "saunalife-g11"],
   );
 });
 

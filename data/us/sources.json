@@ -529,6 +529,38 @@
       "field_path": "manufacturer-product-page.specifications",
       "source_id": "saunalife-g11-product",
       "raw_value": "G11 sauna room and changing room each 7 ft 7 in L x 6 ft 4 in W x 7 ft 7 in H; shipping 196 x 47 x 47 in; 3196 lb; materials stated on product page"
+    },
+    {
+      "id": "evidence-peak-rainier-product", "entity_id": "peak-rainier", "field_path": "manufacturer-product-page", "source_id": "peak-rainier-product",
+      "raw_value": "Rainier 1-person indoor full-spectrum infrared cabin; 120 V / 15 A / 1800 W; 42 x 40 x 75 in exterior; 305 lb; Canadian red cedar"
+    },
+    {
+      "id": "evidence-peak-rainier-configuration", "entity_id": "peak-rainier-standard", "field_path": "manufacturer-product-page.specifications", "source_id": "peak-rainier-product",
+      "raw_value": "Rainier specifications, dimensions, materials and electrical section"
+    },
+    {
+      "id": "evidence-peak-matterhorn-product", "entity_id": "peak-matterhorn", "field_path": "manufacturer-product-page", "source_id": "peak-matterhorn-product",
+      "raw_value": "Matterhorn 3-person indoor full-spectrum infrared cabin; dedicated 240 V / 20 A circuit; 61 x 44 x 75 in exterior; 400 lb; Canadian red cedar"
+    },
+    {
+      "id": "evidence-peak-matterhorn-configuration", "entity_id": "peak-matterhorn-standard", "field_path": "manufacturer-product-page.specifications", "source_id": "peak-matterhorn-product",
+      "raw_value": "Matterhorn specifications, dimensions, materials and electrical section"
+    },
+    {
+      "id": "evidence-peak-kilimanjaro-product", "entity_id": "peak-kilimanjaro", "field_path": "manufacturer-product-page", "source_id": "peak-kilimanjaro-product",
+      "raw_value": "Kilimanjaro 5-person outdoor full-spectrum infrared cabin; dedicated 240 V / 30 A circuit; 59 x 59 x 83 in exterior; 1031 lb; aerospace-grade aluminum exterior and Canadian hemlock interior"
+    },
+    {
+      "id": "evidence-peak-kilimanjaro-configuration", "entity_id": "peak-kilimanjaro-standard", "field_path": "manufacturer-product-page.specifications", "source_id": "peak-kilimanjaro-product",
+      "raw_value": "Kilimanjaro specifications, dimensions, materials and electrical section"
+    },
+    {
+      "id": "evidence-peak-el-capitan-product", "entity_id": "peak-el-capitan", "field_path": "manufacturer-product-page", "source_id": "peak-el-capitan-product",
+      "raw_value": "El Capitan 4-person outdoor full-spectrum infrared cabin; dedicated 240 V / 30 A circuit; 81 x 55 x 83 in exterior; 695 lb; aerospace-grade aluminum exterior and Canadian hemlock interior"
+    },
+    {
+      "id": "evidence-peak-el-capitan-configuration", "entity_id": "peak-el-capitan-standard", "field_path": "manufacturer-product-page.specifications", "source_id": "peak-el-capitan-product",
+      "raw_value": "El Capitan specifications, dimensions, materials and electrical section"
     }
   ]
 }

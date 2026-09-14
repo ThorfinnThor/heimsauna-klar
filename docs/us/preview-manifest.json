@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "snapshot_id": "us-protected-preview-2026-09-14-l14",
+  "snapshot_id": "us-protected-preview-2026-09-14-l18",
   "market": "US",
   "mode": "protected-static-preview",
-  "expected_page_count": 28,
+  "expected_page_count": 32,
   "routes": [
     {"path": "/us/", "kind": "home", "record_id": "home", "robots": "noindex, follow"},
     {"path": "/us/saunas/", "kind": "catalog", "record_id": "sauna-catalog", "robots": "noindex, follow"},
@@ -33,6 +33,10 @@
     ,{"path": "/us/saunas/saunalife-e7/", "kind": "product", "record_id": "saunalife-e7", "robots": "noindex, follow"}
     ,{"path": "/us/saunas/saunalife-cl3g/", "kind": "product", "record_id": "saunalife-cl3g", "robots": "noindex, follow"}
     ,{"path": "/us/saunas/saunalife-g11/", "kind": "product", "record_id": "saunalife-g11", "robots": "noindex, follow"}
+    ,{"path": "/us/saunas/peak-rainier/", "kind": "product", "record_id": "peak-rainier", "robots": "noindex, follow"}
+    ,{"path": "/us/saunas/peak-matterhorn/", "kind": "product", "record_id": "peak-matterhorn", "robots": "noindex, follow"}
+    ,{"path": "/us/saunas/peak-kilimanjaro/", "kind": "product", "record_id": "peak-kilimanjaro", "robots": "noindex, follow"}
+    ,{"path": "/us/saunas/peak-el-capitan/", "kind": "product", "record_id": "peak-el-capitan", "robots": "noindex, follow"}
   ],
   "forbidden_output_markers": [
     "fixture-safe-offer",

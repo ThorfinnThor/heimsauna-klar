@@ -239,6 +239,62 @@
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-14",
       "change_reason": "Research candidate from the official SaunaLife product page; heater, electrical and publication rights remain unresolved."
+    },
+    {
+      "id": "peak-rainier",
+      "market": "US",
+      "slug": "peak-rainier",
+      "brand_name": "Peak Saunas",
+      "model": "Rainier",
+      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-rainier-product"]},
+      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-rainier-product"]},
+      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-rainier-product"]},
+      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-peak-rainier-product"]},
+      "form": {"status": "documented", "value": "Freestanding full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-rainier-product"]},
+      "configuration_ids": ["peak-rainier-standard"], "source_ids": ["peak-rainier-product", "peak-saunas-model-reference", "peak-saunas-manuals"], "publication_status": "candidate", "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from the official Peak Saunas product page and model references; not published until US route, editorial and rights review."
+    },
+    {
+      "id": "peak-matterhorn",
+      "market": "US",
+      "slug": "peak-matterhorn",
+      "brand_name": "Peak Saunas",
+      "model": "Matterhorn",
+      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-matterhorn-product"]},
+      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-matterhorn-product"]},
+      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-matterhorn-product"]},
+      "placements": {"status": "documented", "value": ["indoor"], "evidence_ids": ["evidence-peak-matterhorn-product"]},
+      "form": {"status": "documented", "value": "Freestanding full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-matterhorn-product"]},
+      "configuration_ids": ["peak-matterhorn-standard"], "source_ids": ["peak-matterhorn-product", "peak-saunas-model-reference", "peak-saunas-manuals"], "publication_status": "candidate", "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from the official Peak Saunas product page and model references; not published until US route, editorial and rights review."
+    },
+    {
+      "id": "peak-kilimanjaro",
+      "market": "US",
+      "slug": "peak-kilimanjaro",
+      "brand_name": "Peak Saunas",
+      "model": "Kilimanjaro",
+      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-kilimanjaro-product"]},
+      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-kilimanjaro-product"]},
+      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-kilimanjaro-product"]},
+      "placements": {"status": "documented", "value": ["outdoor"], "evidence_ids": ["evidence-peak-kilimanjaro-product"]},
+      "form": {"status": "documented", "value": "Outdoor full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-kilimanjaro-product"]},
+      "configuration_ids": ["peak-kilimanjaro-standard"], "source_ids": ["peak-kilimanjaro-product", "peak-saunas-model-reference", "peak-saunas-manuals"], "publication_status": "candidate", "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from the official Peak Saunas product page and model references; not published until US route, editorial and rights review."
+    },
+    {
+      "id": "peak-el-capitan",
+      "market": "US",
+      "slug": "peak-el-capitan",
+      "brand_name": "Peak Saunas",
+      "model": "El Capitan",
+      "product_type": {"status": "documented", "value": "sauna-cabin", "evidence_ids": ["evidence-peak-el-capitan-product"]},
+      "heat_type": {"status": "documented", "value": "infrared", "evidence_ids": ["evidence-peak-el-capitan-product"]},
+      "energy_sources": {"status": "documented", "value": ["electric"], "evidence_ids": ["evidence-peak-el-capitan-product"]},
+      "placements": {"status": "documented", "value": ["outdoor"], "evidence_ids": ["evidence-peak-el-capitan-product"]},
+      "form": {"status": "documented", "value": "Outdoor full-spectrum infrared cabin", "evidence_ids": ["evidence-peak-el-capitan-product"]},
+      "configuration_ids": ["peak-el-capitan-standard"], "source_ids": ["peak-el-capitan-product", "peak-saunas-model-reference", "peak-saunas-manuals"], "publication_status": "candidate", "spec_checked_at": "2026-09-14",
+      "change_reason": "Research candidate from the official Peak Saunas product page and model references; not published until US route, editorial and rights review."
     }
   ]
 }

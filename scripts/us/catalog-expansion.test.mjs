@@ -25,7 +25,7 @@ test("the US expansion backlog is research-only and source-addressable", () => {
   const productIds = new Set(productsDocument.products.map((product) => product.id));
   const backlogIds = new Set();
   const priorities = new Set(["P1", "P2", "P3"]);
-  const statuses = new Set(["source-backed-candidate", "configuration-review", "category-candidate"]);
+  const statuses = new Set(["source-backed-candidate", "imported-candidate", "configuration-review", "category-candidate"]);
 
   for (const entry of backlog.entries) {
     assert.match(entry.id, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
@@ -39,7 +39,11 @@ test("the US expansion backlog is research-only and source-addressable", () => {
     for (const sourceId of entry.source_ids) assert.equal(sourceIds.has(sourceId), true, `${entry.id} references ${sourceId}`);
     assert.equal(entry.required_before_import.length > 0, true, `${entry.id} needs import gates`);
     assert.equal(entry.known_unknowns.length > 0, true, `${entry.id} needs explicit unknowns`);
-    assert.equal(productIds.has(entry.id), false, `${entry.id} was auto-imported into the canonical catalog`);
+    if (entry.status === "imported-candidate") {
+      assert.equal(productIds.has(entry.id), true, `${entry.id} is marked imported but missing from the canonical catalog`);
+    } else {
+      assert.equal(productIds.has(entry.id), false, `${entry.id} was auto-imported into the canonical catalog`);
+    }
   }
 });
 
