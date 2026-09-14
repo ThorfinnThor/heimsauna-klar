@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-14",
+  "market": "US",
+  "status": "reviewed-no-equivalences",
+  "hreflang_groups": [],
+  "routes": [
+    {
+      "us_path": "/us/",
+      "de_equivalent": null,
+      "decision": "no-pair",
+      "reason": "The US home page has a US market scope and English research proposition. The German home page is not a translated equivalent."
+    },
+    {
+      "us_path": "/us/saunas/",
+      "de_equivalent": null,
+      "decision": "no-pair",
+      "reason": "The catalog is built from separate US configurations and cannot be paired with the German catalog by category name alone."
+    },
+    {
+      "us_path": "/us/sauna-finder/",
+      "de_equivalent": null,
+      "decision": "no-pair",
+      "reason": "This is a noindex interactive tool, not an equivalent indexable editorial page."
+    },
+    {
+      "us_path": "/us/compare/indoor-infrared-saunas/",
+      "de_equivalent": null,
+      "decision": "no-pair",
+      "reason": "The comparison uses US-specific product identities, 120-volt records and a separate evidence set."
+    },
+    {
+      "us_path": "/us/brands/jnh-lifestyles/",
+      "de_equivalent": null,
+      "decision": "no-pair",
+      "reason": "The page describes a US brand set and has no German-language page with the same model scope and evidence."
+    },
+    {
+      "us_path": "/us/guides/infrared-sauna-electrical-requirements/",
+      "de_equivalent": null,
+      "decision": "no-pair",
+      "reason": "The guide addresses US electrical terminology and 120-volt configuration records; a German 230/400-volt guide is not equivalent."
+    },
+    {
+      "us_path": "/us/saunas/{slug}/",
+      "de_equivalent": null,
+      "decision": "no-pair",
+      "reason": "A US model and configuration must not be paired with a German product page without proof of identical market version, source scope and intent."
+    },
+    {
+      "us_path": "/us/contact/",
+      "de_equivalent": null,
+      "decision": "no-pair",
+      "reason": "Contact pages are market-specific trust pages and are not search-language equivalents."
+    }
+  ]
+}

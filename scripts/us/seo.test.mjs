@@ -15,6 +15,7 @@ import {
 import productsDocument from "../../data/us/products.json" with { type: "json" };
 import configurationsDocument from "../../data/us/configurations.json" with { type: "json" };
 import editorialDocument from "../../content/us/editorial.json" with { type: "json" };
+import equivalenceMatrix from "../../docs/us/seo-equivalence-matrix.json" with { type: "json" };
 
 const openRelease = { routesEnabled: true, indexingEnabled: true };
 
@@ -44,6 +45,8 @@ test("US canonicals remain self-referential and never fall back to DE", () => {
 
 test("hreflang remains empty until reciprocal equivalence is reviewed", () => {
   assert.deepEqual(confirmedUsLanguageAlternates, {});
+  assert.equal(equivalenceMatrix.status, "reviewed-no-equivalences");
+  assert.deepEqual(equivalenceMatrix.hreflang_groups, []);
   assert.deepEqual(evaluateUsSeoDecision({ path: "/us/", pageClass: "overview" }, openRelease).languageAlternates, {});
 });
 

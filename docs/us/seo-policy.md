@@ -21,6 +21,7 @@ The implementation lives in `lib/us/seo.ts`. Sitemap and `llms.txt` consume the 
 - A US page is never canonicalized to a German page.
 - `hreflang` is restricted to explicit, reviewed and reciprocal equivalence groups.
 - The equivalence registry is intentionally empty until the L-14 editorial review confirms matching intent and content. Similar navigation labels or slugs are not sufficient evidence.
+- The current review is recorded in `docs/us/qa/luna-seo-review.md` and `docs/us/seo-equivalence-matrix.json`; it approves no US/DE pair.
 
 ## Structured data
 
