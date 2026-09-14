@@ -36,7 +36,7 @@ export default function UsSaunaFinderPage() {
       <section className="page-shell us-finder-section">
         {isResearchPreview ? (
           <p className="us-preview-notice">
-            Research beta · candidate records remain excluded from search indexing. The finder searches 100 candidate records and keeps unresolved facts visible.
+            Research beta. The finder searches 100 candidate records; unresolved facts stay visible.
           </p>
         ) : null}
         <UsSaunaFinder products={products} configurations={configurations} offers={offers} asOf={asOf} />
