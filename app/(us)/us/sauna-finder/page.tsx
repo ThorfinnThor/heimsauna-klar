@@ -30,8 +30,8 @@ export default function UsSaunaFinderPage() {
     <>
       <section className="page-hero page-shell us-finder-hero">
         <p className="eyebrow">US sauna finder</p>
-        <h1>Check a sauna against the limits of your project.</h1>
-        <p>Capacity, dimensions, power and budget are checked separately. Missing facts stay visible.</p>
+        <h1>Check a sauna against your project limits.</h1>
+        <p>Capacity, dimensions, power and budget are checked separately. Unknowns stay visible.</p>
       </section>
       <section className="page-shell us-finder-section">
         {isResearchPreview ? (
