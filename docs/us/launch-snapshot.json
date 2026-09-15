@@ -225,6 +225,18 @@
       "jnh-lifestyles",
       "infrared-sauna-electrical-requirements"
     ],
+    "product_editorial_ids": [
+      "peak-shasta-editorial",
+      "peak-everest-editorial",
+      "peak-mini-editorial",
+      "peak-crown-editorial",
+      "peak-fuji-editorial",
+      "peak-patagonia-editorial",
+      "jnh-tosi-1-editorial",
+      "jnh-tosi-2-editorial",
+      "jnh-tosi-4-editorial",
+      "jnh-arki-outdoor-duo-editorial"
+    ],
     "legal_page_ids": [
       "contact",
       "methodology",
@@ -348,11 +360,11 @@
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "eeb03ef58879f30c9bf25e3005551e3f9c165ad86a68bd0e256acb81bef5cfaf"
+      "sha256": "38902f8a29104935120de1eaa4f0913128c9d3294945b246531e715bc348de9a"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "2b1c51d4b56a42a56b5513a0b42a018aa9eb95ec3f1e8465102e6d0a9a206fed"
+      "sha256": "0e5fbb38f58e4287f9c3005cf97d5a7fe3b0fd3b16d5f2c300455c3b97fc9db4"
     },
     {
       "path": "data/us/merchants.json",
@@ -376,7 +388,7 @@
     },
     {
       "path": "content/us/home.json",
-      "sha256": "f60f099213bffe6bf2d37a56c91ba4c74d23c0aa2e10246d3ad663c937de206e"
+      "sha256": "9c7c1c79a9d404870b0640334ca12bd1b1ba255a7a6f3aabf13c205ad1356d59"
     },
     {
       "path": "content/us/affiliate.json",
@@ -392,7 +404,11 @@
     },
     {
       "path": "content/us/editorial.json",
-      "sha256": "364718aecc71bfce7a9dc15b93c3e8f9148e270b8129ae7031575c87a1d86f07"
+      "sha256": "79dcb8e953133cd593fc195318141ac85bbec99e38e2c3cc07aaff6cd23621e6"
+    },
+    {
+      "path": "content/us/product-editorial.json",
+      "sha256": "0506e7b01c3f3e3f7303b8f7596007c741ef5be4624ffe022b5fc6f356356b9c"
     },
     {
       "path": "docs/us/rights-register.json",

@@ -1254,7 +1254,8 @@
       "entity_id": "jnh-tosi-1-standard",
       "source_id": "jnh-tosi-1-product",
       "field_path": "manufacturer-product-page.specifications",
-      "raw_value": "JNH Tosi 1-Person specifications: exterior 35.5 W x 35.5 D x 75 H in; interior 33 W x 33 D x 72 H in; weight 250 lb; electrical 120 V / 15 A / 1,320 W with a standard household outlet; construction uses Canadian Hemlock."
+      "raw_value": "JNH Tosi 1-Person specifications: exterior 35.5 W x 35.5 D x 75 H in; interior 33 W x 33 D x 72 H in; weight 250 lb; electrical 120 V / 15 A / 1,320 W with a standard household output; construction uses Canadian Hemlock. The FAQ says no special wiring is required for one- and two-person Tosi models and that a standard 110 V / 15 A outlet is sufficient.",
+      "interpretation_note": "The configuration voltage follows the model-specific technical specifications. The 15 A supply requirement follows the manufacturer's FAQ for one- and two-person Tosi models."
     },
     {
       "id": "evidence-jnh-tosi-2-product",
@@ -1268,7 +1269,8 @@
       "entity_id": "jnh-tosi-2-standard",
       "source_id": "jnh-tosi-2-product",
       "field_path": "manufacturer-product-page.specifications",
-      "raw_value": "JNH Tosi 2-Person specifications: exterior 47.3 W x 39.5 D x 75 H in; electrical 120 V / 15 A; construction uses Canadian Red Cedar. The page does not state complete interior dimensions, shipping dimensions, weight or wattage."
+      "raw_value": "JNH Tosi 2-Person specifications: exterior 47.3 W x 39.5 D x 75 H in; interior 45 W x 37 D x 72.5 H in; weight 330 lb; electrical 120 V / 15 A / 1,540 W with a standard household output; construction uses Canadian Red Cedar. The FAQ says no special wiring is required for one- and two-person Tosi models and that a standard 110 V / 15 A outlet is sufficient.",
+      "interpretation_note": "The configuration voltage follows the model-specific technical specifications. The 15 A supply requirement follows the manufacturer's FAQ for one- and two-person Tosi models."
     },
     {
       "id": "evidence-jnh-tosi-4-product",

@@ -21,12 +21,13 @@ function sourceAgeDays(checkedAt, asOf) {
   return Math.floor((end.valueOf() - start.valueOf()) / 86_400_000);
 }
 
-const [plan, coverage, productsDocument, configurationsDocument, sourcesDocument, editorialDocument, productEditorialDocument, legalDocument, publication] = await Promise.all([
+const [plan, coverage, productsDocument, configurationsDocument, sourcesDocument, homeDocument, editorialDocument, productEditorialDocument, legalDocument, publication] = await Promise.all([
   readJson("docs/us/indexing-readiness.json"),
   readJson("docs/us/coverage-matrix.json"),
   readJson("data/us/products.json"),
   readJson("data/us/configurations.json"),
   readJson("data/us/sources.json"),
+  readJson("content/us/home.json"),
   readJson("content/us/editorial.json"),
   readJson("content/us/product-editorial.json"),
   readJson("content/us/legal.json"),
@@ -146,8 +147,18 @@ for (const category of coverage.categories) {
 }
 if (coverage.updated_at !== plan.updated_at) issues.push("coverage matrix and indexing plan review dates differ");
 
+let supportingReviewed = ["reviewed", "published"].includes(homeDocument.status) ? 1 : 0;
 for (const pageId of plan.first_wave.editorial_page_ids) {
-  if (!editorialById.has(pageId)) issues.push(`${pageId}: editorial page is missing`);
+  const page = editorialById.get(pageId);
+  if (!page) {
+    issues.push(`${pageId}: editorial page is missing`);
+    continue;
+  }
+  if (!["reviewed", "published"].includes(page.publication_status)) {
+    issues.push(`${pageId}: supporting editorial page is not reviewed`);
+  } else {
+    supportingReviewed += 1;
+  }
 }
 for (const pageId of plan.first_wave.trust_page_ids) {
   if (!trustById.has(pageId)) issues.push(`${pageId}: trust page is missing`);
@@ -158,6 +169,9 @@ if (qualified !== plan.current_result.first_wave_data_qualified) {
 }
 if (editorialReviewed !== plan.current_result.first_wave_editorial_reviewed) {
   issues.push(`reviewed first-wave editorial count is ${editorialReviewed}, expected ${plan.current_result.first_wave_editorial_reviewed}`);
+}
+if (supportingReviewed !== plan.current_result.first_wave_supporting_pages_reviewed) {
+  issues.push(`reviewed first-wave supporting-page count is ${supportingReviewed}, expected ${plan.current_result.first_wave_supporting_pages_reviewed}`);
 }
 if (plan.status !== "ready-to-index" && publication.indexing_enabled) {
   issues.push("US indexing cannot be enabled while the indexing-readiness plan still has open gates");
@@ -171,4 +185,4 @@ if (plan.status !== "ready-to-index" && plan.current_result.first_wave_indexable
 
 if (issues.length > 0) throw new Error(`US indexing-readiness check failed:\n- ${issues.join("\n- ")}`);
 
-console.log(`US indexing readiness passed: ${qualified}/${firstWave.length} products meet the technical data gate and ${editorialReviewed}/${firstWave.length} have reviewed decision copy; indexing remains ${publication.indexing_enabled ? "enabled" : "disabled"} with ${plan.remaining_gates.length} recorded release gates.`);
+console.log(`US indexing readiness passed: ${qualified}/${firstWave.length} products meet the technical data gate, ${editorialReviewed}/${firstWave.length} have reviewed decision copy and ${supportingReviewed} supporting pages are reviewed; indexing remains ${publication.indexing_enabled ? "enabled" : "disabled"} with ${plan.remaining_gates.length} recorded release gates.`);

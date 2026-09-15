@@ -1,5 +1,7 @@
 import { readdir, readFile, stat } from "node:fs/promises";
 import path from "node:path";
+import homeDocument from "../../content/us/home.json" with { type: "json" };
+import editorialDocument from "../../content/us/editorial.json" with { type: "json" };
 
 const outputRoot = path.resolve("out");
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://selectyoursauna.com").replace(/\/$/, "");
@@ -38,6 +40,13 @@ const llms = await readFile(path.join(outputRoot, "llms.txt"), "utf8");
 const issues = [];
 const titles = new Map();
 const hreflangByRoute = new Map();
+const expectedContentByRoute = new Map([
+  ["/us/", { title: homeDocument.title, description: homeDocument.description }],
+  ...editorialDocument.entries.map((entry) => {
+    const section = entry.page_type === "comparison" ? "compare" : `${entry.page_type}s`;
+    return [`/us/${section}/${entry.slug}/`, { title: entry.title, description: entry.description }];
+  }),
+]);
 
 for (const file of usFiles) {
   const route = routeForFile(file);
@@ -53,6 +62,12 @@ for (const file of usFiles) {
   if (!html.includes('<html lang="en-US">')) issues.push(`${route}: html lang must be en-US`);
   if (!title) issues.push(`${route}: missing title`);
   if (!description) issues.push(`${route}: missing description`);
+  const expectedContent = expectedContentByRoute.get(route);
+  if (expectedContent) {
+    const expectedTitle = `${expectedContent.title} | Select Your Sauna`;
+    if (title !== expectedTitle) issues.push(`${route}: title is not synchronized with its versioned content record`);
+    if (description !== expectedContent.description) issues.push(`${route}: description is not synchronized with its versioned content record`);
+  }
   if (canonical !== expectedCanonical) issues.push(`${route}: canonical is ${canonical || "missing"}, expected ${expectedCanonical}`);
   if (canonical.includes("/de/")) issues.push(`${route}: US page canonicalizes to the DE section`);
 

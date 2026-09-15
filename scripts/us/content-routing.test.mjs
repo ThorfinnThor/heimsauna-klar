@@ -31,10 +31,9 @@ const basePage = {
 
 test("the checked-in editorial manifest creates no public SEO pages", () => {
   assert.deepEqual(getUsEditorialPages(), []);
-  assert.deepEqual(
-    getUsEditorialPages("comparison", { includeNonPublic: true }).map((page) => page.slug),
-    ["indoor-infrared-saunas"],
-  );
+  const comparisonPages = getUsEditorialPages("comparison", { includeNonPublic: true });
+  assert.deepEqual(comparisonPages.map((page) => page.slug), ["indoor-infrared-saunas"]);
+  assert(comparisonPages.every((page) => page.publication_status === "reviewed"));
 });
 
 test("trust-page and affiliate drafts are complete without becoming public", () => {

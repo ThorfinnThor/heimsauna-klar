@@ -3,9 +3,12 @@ import { getUsHomePage, isUsResearchPreview } from "@/lib/us/content";
 import { createUsPageMetadata, getUsHomePublicationStatus } from "@/lib/us/seo";
 import { UsHomePageView } from "./_components/UsEditorial";
 
+const homePage = getUsHomePage({ includeNonPublic: true });
+if (!homePage) throw new Error("US home content is unavailable");
+
 export const metadata = createUsPageMetadata({
-  title: "US sauna research",
-  description: "Independent product research for home sauna planning in the United States.",
+  title: homePage.title,
+  description: homePage.description,
   path: "/us/",
   pageClass: "overview",
   publicationStatus: getUsHomePublicationStatus(),

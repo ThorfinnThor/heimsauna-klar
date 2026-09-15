@@ -126,14 +126,14 @@
       "summary": "JNH Tosi 1-Person is a 35.5-inch-square indoor infrared cabin with a documented 120 V, 1,320 W and 15 A plug-in connection.",
       "paragraphs": [
         "A square 35.5-inch footprint defines the Tosi 1-Person cabinet, whose listed height is 75 inches. It therefore presents a different space requirement from the shorter Peak Mini even though both models have one seat.",
-        "JNH lists 1,320 watts at 120 volts and 15 amps with a plug-in connection and a standard household plug. The current source does not state a required circuit rating or dedicated circuit, so those fields remain open for installation planning."
+        "JNH lists 1,320 watts at 120 volts and 15 amps with a plug-in connection and a standard household output. Its FAQ says a standard 110-volt, 15-amp outlet is sufficient for one- and two-person Tosi models. The dedicated-circuit field remains open, and the model documentation still governs the installation."
       ],
       "decision_points": [
         "The square 35.5-inch footprint is the defining layout value in this record.",
         "Canadian Hemlock is the documented material.",
-        "A plug-in connection is recorded, but the required circuit value is not."
+        "The documented supply is 15 amps; a dedicated-circuit requirement is not stated."
       ],
-      "limitations": ["Minimum clearances and shipping dimensions are not stated in the reviewed record.", "The standard household plug description does not establish local circuit suitability."],
+      "limitations": ["Minimum clearances and shipping dimensions are not stated in the reviewed record.", "The manufacturer does not state whether a dedicated circuit is required, and the outlet description does not establish local code compliance."],
       "source_ids": ["jnh-tosi-1-product"]
     },
     {
@@ -141,18 +141,18 @@
       "product_id": "jnh-tosi-2",
       "status": "reviewed",
       "eyebrow": "Two-person indoor cabin",
-      "heading": "Tosi 2-Person adds width without a documented circuit value",
+      "heading": "Tosi 2-Person pairs a 47.3-inch width with a 15-amp supply",
       "summary": "JNH Tosi 2-Person is a cedar indoor infrared cabin measuring 47.3 × 39.5 × 75 inches, with a documented 120 V, 1,540 W plug-in connection.",
       "paragraphs": [
         "The two-seat Tosi cabinet measures 47.3 by 39.5 by 75 inches and uses Canadian Red Cedar according to the reviewed source. Its listed width remains well below that of the four-person Tosi Red.",
-        "The source lists 1,540 watts at 120 volts and 15 amps with a plug-in connection and a standard household output. The required circuit field is not documented. That open field is kept separate from the values recorded for the Tosi Red 4-Person."
+        "The source lists 1,540 watts at 120 volts and 15 amps with a plug-in connection and a standard household output. Its FAQ says a standard 110-volt, 15-amp outlet is sufficient for one- and two-person Tosi models. A dedicated circuit is not specified for this configuration."
       ],
       "decision_points": [
         "The 47.3-inch width gives the model a distinct indoor planning envelope.",
         "The two-seat capacity and cedar material are tied to this exact configuration.",
-        "No required circuit rating is stated in the current source record."
+        "The documented supply is 15 amps; a dedicated-circuit requirement is not stated."
       ],
-      "limitations": ["The source does not provide a complete clearance or shipping schedule.", "Voltage and rated current alone do not determine the permitted installation."],
+      "limitations": ["The source does not provide a complete clearance or shipping schedule.", "The manufacturer's outlet description does not replace the model instructions or local electrical requirements."],
       "source_ids": ["jnh-tosi-2-product"]
     },
     {

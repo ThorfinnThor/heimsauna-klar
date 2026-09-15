@@ -30,7 +30,7 @@ function editorialPath(entry) {
   return null;
 }
 
-const [snapshot, manifest, publication, productsDocument, configurationsDocument, sourcesDocument, offersDocument, editorialDocument, legalDocument, homeDocument, navigationDocument, affiliateDocument, presentationsDocument, rightsRegister] = await Promise.all([
+const [snapshot, manifest, publication, productsDocument, configurationsDocument, sourcesDocument, offersDocument, editorialDocument, productEditorialDocument, legalDocument, homeDocument, navigationDocument, affiliateDocument, presentationsDocument, rightsRegister] = await Promise.all([
   readJson("docs/us/launch-snapshot.json"),
   readJson("docs/us/preview-manifest.json"),
   readJson("data/us/publication.json"),
@@ -39,6 +39,7 @@ const [snapshot, manifest, publication, productsDocument, configurationsDocument
   readJson("data/us/sources.json"),
   readJson("data/us/offers.json"),
   readJson("content/us/editorial.json"),
+  readJson("content/us/product-editorial.json"),
   readJson("content/us/legal.json"),
   readJson("content/us/home.json"),
   readJson("content/us/navigation.json"),
@@ -74,6 +75,7 @@ compareExactSet(values(products), snapshot.records?.product_ids ?? [], "snapshot
 compareExactSet(values(configurations), snapshot.records?.configuration_ids ?? [], "snapshot configuration_ids", issues);
 compareExactSet(values(offers), snapshot.records?.offer_ids ?? [], "snapshot offer_ids", issues);
 compareExactSet(values(editorialDocument.entries), snapshot.records?.editorial_page_ids ?? [], "snapshot editorial_page_ids", issues);
+compareExactSet(values(productEditorialDocument.entries), snapshot.records?.product_editorial_ids ?? [], "snapshot product_editorial_ids", issues);
 compareExactSet(values(legalDocument.pages), snapshot.records?.legal_page_ids ?? [], "snapshot legal_page_ids", issues);
 if (sourcesDocument.sources.length !== snapshot.records?.source_count) issues.push("snapshot source_count does not match data/us/sources.json");
 if (sourcesDocument.evidence.length !== snapshot.records?.evidence_count) issues.push("snapshot evidence_count does not match data/us/sources.json");
@@ -93,17 +95,21 @@ for (const configuration of configurations) {
 }
 
 for (const [label, document] of [
-  ["home", homeDocument],
   ["navigation", navigationDocument],
   ["affiliate", affiliateDocument],
-  ["editorial", editorialDocument],
   ["legal", legalDocument],
   ["page presentations", presentationsDocument],
 ]) {
   if (document.status !== "draft") issues.push(`${label}: public noindex beta requires an explicit draft status`);
 }
+if (homeDocument.status !== "reviewed") issues.push("home: accepted public noindex beta content must have reviewed status");
+if (editorialDocument.status !== "reviewed") issues.push("editorial: accepted public noindex beta content must have reviewed status");
+if (productEditorialDocument.status !== "reviewed") issues.push("product editorial: accepted first-wave copy must have reviewed status");
 for (const entry of editorialDocument.entries) {
-  if (entry.publication_status !== "draft") issues.push(`editorial ${entry.id}: public noindex beta requires draft status`);
+  if (entry.publication_status !== "reviewed") issues.push(`editorial ${entry.id}: accepted public noindex beta content must have reviewed status`);
+}
+for (const entry of productEditorialDocument.entries) {
+  if (entry.status !== "reviewed") issues.push(`product editorial ${entry.id}: accepted first-wave copy must have reviewed status`);
 }
 for (const page of legalDocument.pages) {
   if (page.publication_status !== "draft") issues.push(`legal ${page.id}: public noindex beta requires draft status`);
@@ -152,7 +158,7 @@ for (const hashEntry of snapshot.file_hashes ?? []) {
   if (actualHash !== hashEntry.sha256) issues.push(`launch snapshot hash mismatch: ${hashEntry.path}`);
 }
 
-const serializedPreviewInput = JSON.stringify({ productsDocument, configurationsDocument, sourcesDocument, offersDocument, editorialDocument, legalDocument, homeDocument });
+const serializedPreviewInput = JSON.stringify({ productsDocument, configurationsDocument, sourcesDocument, offersDocument, editorialDocument, productEditorialDocument, legalDocument, homeDocument });
 for (const marker of manifest.forbidden_output_markers ?? []) {
   if (serializedPreviewInput.toLowerCase().includes(String(marker).toLowerCase())) issues.push(`public beta input contains forbidden marker ${marker}`);
 }

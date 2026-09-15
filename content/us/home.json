@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "draft",
+  "status": "reviewed",
   "eyebrow": "United States · research beta",
   "title": "US sauna research and planning",
   "description": "Source-based US sauna research for comparing cabins, kits, dimensions and electrical requirements.",
-  "heading": "A clearer way to compare a sauna for a US home.",
+  "heading": "Compare home saunas sold for the US market.",
   "introduction": [
     "The US catalog contains 100 model records across indoor and outdoor cabins, sauna kits, infrared systems and selected accessories. Each record keeps placement, seating, dimensions and electrical supply attached to the exact product or configuration.",
     "This is research and comparison work, not a hands-on test, installation approval or store checkout. A missing value remains open until a suitable source documents it."
@@ -13,7 +13,7 @@
   "sections": [
     {
       "id": "current-scope",
-      "heading": "One catalog, several installation questions",
+      "heading": "What the 100-product catalog covers",
       "paragraphs": [
         "The catalog is broadest for sauna cabins and kits, with 24 indoor infrared cabins, 5 outdoor infrared cabins, 9 indoor traditional cabins, 39 outdoor traditional cabins and 60 kit records. The counts describe research coverage, not a ranking or a recommendation.",
         "Coverage is not equally deep for every record. Installation clearances, shipping terms, circuit requirements and package contents remain open wherever the reviewed source does not state them clearly. There are currently no reviewed merchant offers in the US catalog."
@@ -21,7 +21,7 @@
     },
     {
       "id": "method",
-      "heading": "How to read an open field",
+      "heading": "Why some specifications remain open",
       "paragraphs": [
         "Manufacturer product pages and official collection references provide the current research sources. Evidence is recorded at field level, so an unknown clearance or circuit value stays visible instead of being filled from a related model.",
         "A finder result narrows the research set. It does not replace the model instructions, local requirements or review by a qualified professional."
@@ -29,7 +29,7 @@
     },
     {
       "id": "continue",
-      "heading": "The first comparison slice",
+      "heading": "Ten product pages have completed editorial review",
       "paragraphs": [
         "The first reviewed product slice covers six Peak Saunas cabins and four JNH Lifestyles cabins. Their pages show how two models with the same voltage can still differ in circuit information, dimensions and outdoor planning needs."
       ]

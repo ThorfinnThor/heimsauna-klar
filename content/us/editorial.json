@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "draft",
+  "status": "reviewed",
   "entries": [
     {
       "id": "indoor-infrared-saunas",
       "page_type": "comparison",
       "slug": "indoor-infrared-saunas",
-      "publication_status": "draft",
-      "title": "Indoor infrared sauna configurations",
+      "publication_status": "reviewed",
+      "title": "Indoor infrared sauna comparison",
       "description": "Compare the documented dimensions, capacity and electrical requirements of the current indoor infrared sauna research set.",
       "eyebrow": "Indoor infrared comparison",
-      "heading": "Indoor infrared cabins with different space and electrical records",
+      "heading": "Compare indoor infrared saunas by size, capacity and electrical requirements",
       "introduction": [
         "The current research set contains 24 infrared products documented for indoor placement in the United States. The ten product pages in the launch slice have model-level dimensions, capacity, materials and core electrical values; other records still contain open fields that need their own source review.",
         "This is a specification comparison, not a hands-on test or a quality ranking. A configuration appears only when its product type, heat type and placement are documented in the source record."
@@ -27,9 +27,9 @@
         },
         {
           "id": "electrical-differences",
-          "heading": "The shared 120-volt label does not make the electrical requirements identical",
+          "heading": "Electrical requirements vary among 120-volt models",
           "paragraphs": [
-            "Within the first source-complete subset, Peak documents 10 amps for the Mini, 15 amps for the Crown and Shasta, and a dedicated 20-amp circuit for the Everest and Fuji records. The JNH records document a dedicated 20-amp circuit for the Tosi Red 4-Person, while the required circuit rating remains open for the Tosi 1-Person and Tosi 2-Person records.",
+            "Within the first source-complete subset, Peak documents 10 amps for the Mini, 15 amps for the Crown and Shasta, and a dedicated 20-amp circuit for the Everest and Fuji. JNH lists 120 volts and 15 amps for the Tosi 1-Person and Tosi 2-Person and says a standard 110-volt, 15-amp outlet is sufficient for its one- and two-person Tosi models. The Tosi Red 4-Person requires dedicated 120-volt, 20-amp service.",
             "A voltage filter is therefore useful for narrowing the catalog, but it does not approve an outlet or circuit for installation. The plug, circuit requirement and model instructions still need to be checked together."
           ]
         }
@@ -56,7 +56,7 @@
       "id": "jnh-lifestyles",
       "page_type": "brand",
       "slug": "jnh-lifestyles",
-      "publication_status": "draft",
+      "publication_status": "reviewed",
       "title": "JNH Lifestyles sauna configurations",
       "description": "A source-based view of the JNH Lifestyles Tosi and Arki sauna configurations in the current US research set.",
       "eyebrow": "JNH Lifestyles",
@@ -75,9 +75,9 @@
         },
         {
           "id": "power-records",
-          "heading": "Electrical detail is not equally complete across the range",
+          "heading": "The larger configurations have different circuit requirements",
           "paragraphs": [
-            "All four records list 120 volts. The Tosi Red 4-Person and Arki Outdoor Duo also document a dedicated 20-amp circuit. The current Tosi 1-Person and Tosi 2-Person sources do not state a required circuit rating in the normalized record, so that detail remains open.",
+            "All four records list 120 volts. JNH specifies 15 amps for the Tosi 1-Person and Tosi 2-Person and states that a standard 110-volt, 15-amp outlet is sufficient for its one- and two-person Tosi models. The Tosi Red 4-Person and Arki Outdoor Duo document dedicated 20-amp service.",
             "The product page for each configuration shows the unresolved fields alongside the documented values."
           ]
         }
@@ -96,7 +96,7 @@
       "id": "infrared-sauna-electrical-requirements",
       "page_type": "guide",
       "slug": "infrared-sauna-electrical-requirements",
-      "publication_status": "draft",
+      "publication_status": "reviewed",
       "title": "Infrared sauna electrical requirements",
       "description": "Learn which model-specific electrical facts need to be checked beyond the voltage printed on an infrared sauna listing.",
       "eyebrow": "Electrical planning",
@@ -118,7 +118,7 @@
           "id": "unknown-is-open",
           "heading": "An open circuit field is not permission to use any outlet",
           "paragraphs": [
-            "The Mini, Crown, Tosi 1-Person and Tosi 2-Person records document 120-volt power information but currently leave the required circuit rating unresolved. The finder can recognize the voltage only when that is all the user selected. If a circuit limit is entered, these records move to needs verification.",
+            "The Mini and Crown records document 120-volt power information but leave the required circuit rating unresolved. JNH states that a standard 110-volt, 15-amp outlet is sufficient for its one- and two-person Tosi models, while their configuration-specific specifications list 120 volts and 15 amps. The finder keeps these documented requirements attached to the exact model.",
             "Final installation should follow the documentation for the exact configuration and the applicable local requirements. The finder does not size wiring, approve adapters or replace review by a qualified professional."
           ]
         }

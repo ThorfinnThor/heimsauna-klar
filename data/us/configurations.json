@@ -485,8 +485,11 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "The page lists a standard household plug but does not state a required circuit rating."
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-jnh-tosi-1-configuration"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -656,8 +659,11 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "The page does not state a required circuit rating."
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-jnh-tosi-2-configuration"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",

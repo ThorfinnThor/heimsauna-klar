@@ -4,10 +4,11 @@ import { resolve } from "node:path";
 import test from "node:test";
 
 const projectRoot = resolve(import.meta.dirname, "../..");
-const [productsDocument, configurationsDocument, sourcesDocument] = await Promise.all([
+const [productsDocument, configurationsDocument, sourcesDocument, productEditorialDocument] = await Promise.all([
   readFile(resolve(projectRoot, "data/us/products.json"), "utf8").then(JSON.parse),
   readFile(resolve(projectRoot, "data/us/configurations.json"), "utf8").then(JSON.parse),
   readFile(resolve(projectRoot, "data/us/sources.json"), "utf8").then(JSON.parse),
+  readFile(resolve(projectRoot, "content/us/product-editorial.json"), "utf8").then(JSON.parse),
 ]);
 
 const reviewedIds = [
@@ -116,6 +117,7 @@ const reviewedIds = [
 const products = new Map(productsDocument.products.map((product) => [product.id, product]));
 const configurations = new Map(configurationsDocument.configurations.map((configuration) => [configuration.id, configuration]));
 const evidence = new Map(sourcesDocument.evidence.map((entry) => [entry.id, entry]));
+const productEditorial = new Map(productEditorialDocument.entries.map((entry) => [entry.product_id, entry]));
 
 test("the latest Luna enrichment cites each reviewed model page", () => {
   for (const id of reviewedIds) {
@@ -147,5 +149,20 @@ test("Redwood heater amperage is not presented as a documented circuit rating", 
         }
       }
     }
+  }
+});
+
+test("the JNH Tosi one- and two-person supply requirements cite the model pages", () => {
+  for (const productId of ["jnh-tosi-1", "jnh-tosi-2"]) {
+    const configuration = configurations.get(`${productId}-standard`);
+    const requirement = configuration?.electrical_supply_options?.[0]?.requirements?.[0];
+    assert(configuration, `missing configuration ${productId}-standard`);
+    assert.equal(requirement?.voltage_v.value, 120);
+    assert.equal(requirement?.required_circuit_a.value, 15);
+    assert.deepEqual(requirement?.required_circuit_a.evidence_ids, [`evidence-${productId}-configuration`]);
+    assert.equal(requirement?.dedicated_circuit.status, "unknown");
+    assert.match(evidence.get(`evidence-${productId}-configuration`)?.raw_value ?? "", /standard 110 V \/ 15 A outlet is sufficient/i);
+    assert.match(JSON.stringify(productEditorial.get(productId)), /15-amp supply|documented supply is 15 amps/i);
+    assert.doesNotMatch(JSON.stringify(productEditorial.get(productId)), /required circuit (?:field|value|rating) (?:is )?not/i);
   }
 });
