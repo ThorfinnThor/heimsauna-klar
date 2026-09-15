@@ -2,7 +2,7 @@
 
 **Review date:** 15 September 2026  
 **Reviewer:** Sol  
-**Decision:** Ten products pass the technical data gate; zero US pages are approved for indexing yet
+**Decision:** Ten products pass the technical data gate and their product-specific decision copy is reviewed; zero US pages are approved for indexing yet
 
 ## First wave
 
@@ -17,7 +17,7 @@ The ten product IDs and the machine-checked criteria are stored in `docs/us/inde
 
 ## Why indexing remains off
 
-The product records are technically useful, but the current product-detail page still presents the same factual module structure for every model. That is suitable for the public research beta, not for ten indexable search landing pages. Each selected model still needs its own source-based decision copy explaining where it fits, which documented constraints matter and which facts remain open.
+The ten selected product pages now include their own source-based decision copy explaining where the model fits, which documented constraints matter and which facts remain open. Sol reviewed the copy, replaced the remaining generic hero and metadata summaries, and confirmed the responsive desktop presentation. This closes the first-wave product-copy gate without making the pages public to search engines.
 
 The US home, comparison, brand page, guide and trust pages also remain `draft`. They require a scoped editorial and operator review before their status can change. The checked-in publication switch therefore remains `indexing_enabled: false`; the sitemap and `llms.txt` continue to exclude all US routes.
 
@@ -29,4 +29,4 @@ The previous coverage matrix described the early four-category pilot. It now ref
 
 ## Next handoff
 
-Luna has prepared ten product-specific editorial records for this exact launch slice. Sol should now review duplication, claims, metadata, structured data, internal links, sitemap membership and the live mobile/desktop output before any status promotion or separate indexing switch is considered.
+The next review should concentrate on the US home, the supporting comparison, brand and guide pages, and the four launch trust pages. Product and configuration publication remains a separate release step. Sitemap membership and the indexing switch must stay closed until the complete release snapshot passes its final live-device check.

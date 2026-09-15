@@ -2,7 +2,7 @@
   "schema_version": 1,
   "market": "US",
   "updated_at": "2026-09-15",
-  "status": "staged-editorial-work-required",
+  "status": "staged-supporting-pages-required",
   "purpose": "Defines the first US search-launch slice without enabling indexing. A product can enter this slice only when its model identity, placement, capacity, exterior dimensions, materials and core electrical values are tied to an exact manufacturer page.",
   "first_wave": {
     "product_ids": [
@@ -62,11 +62,11 @@
     "catalog_products": 100,
     "first_wave_products": 10,
     "first_wave_data_qualified": 10,
+    "first_wave_editorial_reviewed": 10,
     "first_wave_indexable_now": 0,
     "indexing_enabled": false
   },
   "remaining_gates": [
-    "Review and approve the ten product-specific decision records; draft copy now exists, but it is not yet sufficient for an indexable search landing page until Sol confirms claims, structure and source coverage.",
     "Complete the editorial review and change the US home, comparison, brand and guide documents from draft only after their first-wave scope is accurate.",
     "Complete the operator review of the US contact, methodology, affiliate disclosure and privacy pages before changing their publication status.",
     "Promote only the reviewed first-wave products and configurations to published in a separate release.",

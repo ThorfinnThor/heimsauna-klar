@@ -342,7 +342,8 @@ function validateEditorialContent(bundle, sourceIds, productIds, issues) {
     if (!productIds.has(entry.product_id)) issue(issues, "error", `${path}.product_id`, `references unknown ID ${entry.product_id}`);
     if (productEditorialProductIds.has(entry.product_id)) issue(issues, "error", `${path}.product_id`, `duplicates ${entry.product_id}`);
     productEditorialProductIds.add(entry.product_id);
-    for (const field of ["eyebrow", "heading"]) requireString(entry[field], `${path}.${field}`, issues);
+    for (const field of ["eyebrow", "heading", "summary"]) requireString(entry[field], `${path}.${field}`, issues);
+    if (typeof entry.summary === "string" && entry.summary.length > 160) issue(issues, "error", `${path}.summary`, "must not exceed 160 characters");
     for (const field of ["paragraphs", "decision_points", "limitations"]) {
       const values = requireArray(entry[field], `${path}.${field}`, issues) ? entry[field] : [];
       if (values.length === 0) issue(issues, "error", `${path}.${field}`, "must not be empty");

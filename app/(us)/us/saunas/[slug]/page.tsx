@@ -33,11 +33,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = resolveProduct(slug);
   if (!product) return {};
+  const editorial = getUsProductEditorial(product.id, { includeNonPublic: product.publication_status !== "published" });
   const hasPublishedConfiguration = getUsConfigurationsForProduct(product.id)
     .some((configuration) => configuration.publication_status === "published");
   return createUsPageMetadata({
     title: `${product.brand_name} ${product.model}`,
-    description: `Documented US configuration details, dimensions and electrical requirements for the ${product.brand_name} ${product.model}.`,
+    description: editorial?.summary
+      ?? `Documented US configuration details, dimensions and electrical requirements for the ${product.brand_name} ${product.model}.`,
     path: `/us/saunas/${product.slug}/`,
     pageClass: "detail",
     publicationStatus: product.publication_status,
@@ -101,11 +103,11 @@ export default async function UsSaunaProductPage({ params }: Props) {
           <div>
             <p className="eyebrow">{product.brand_name} · US configuration</p>
             <h1>{product.model}</h1>
-            <p>
-              This research record describes {product.form.status === "documented" ? product.form.value.toLowerCase() : "a sauna configuration"}
-              {placement ? ` for ${placement} placement` : ""}{capacity ? ` with documented seating for ${capacity}` : ""}.
-              Unknown specifications remain open rather than being inferred from a related model.
-            </p>
+            <p>{editorial?.summary ?? (
+              <>This research record describes {product.form.status === "documented" ? product.form.value.toLowerCase() : "a sauna configuration"}
+                {placement ? ` for ${placement} placement` : ""}{capacity ? ` with documented seating for ${capacity}` : ""}.
+                Unknown specifications remain open rather than being inferred from a related model.</>
+            )}</p>
           </div>
           <aside>
             {offerPresentations.length > 0 ? (

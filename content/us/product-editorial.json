@@ -1,16 +1,17 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "draft",
+  "status": "reviewed",
   "entries": [
     {
       "id": "peak-shasta-editorial",
       "product_id": "peak-shasta",
-      "status": "draft",
+      "status": "reviewed",
       "eyebrow": "One-person indoor cabin",
       "heading": "A compact footprint with a documented 15-amp supply",
+      "summary": "Peak Shasta is a one-person indoor infrared cabin measuring 42 × 40 × 75 inches with a documented 120 V, 1,800 W and 15 A supply.",
       "paragraphs": [
-        "Peak's Shasta is recorded as a one-person indoor infrared cabin. Its exterior footprint is 42 by 40 inches and the listed height is 75 inches, which makes the model relevant when a room has limited floor width but enough headroom.",
+        "With one seat and an exterior footprint of 42 by 40 inches, Shasta fits the smaller end of Peak's indoor infrared range. The listed height is 75 inches, so a potential location still needs enough headroom beyond the cabinet itself.",
         "The reviewed product page lists 1,800 watts at 120 volts, a 15-amp rated current and a plug-in connection with a NEMA 5-15P plug. That is a useful planning starting point, not an installation approval. The record does not state a minimum clearance or a dedicated-circuit requirement."
       ],
       "decision_points": [
@@ -24,11 +25,12 @@
     {
       "id": "peak-everest-editorial",
       "product_id": "peak-everest",
-      "status": "draft",
+      "status": "reviewed",
       "eyebrow": "Two-person indoor cabin",
       "heading": "The two-seat Peak record that carries a 20-amp circuit note",
+      "summary": "Peak Everest seats two in a 53 × 44 × 75-inch indoor infrared cabin and has a documented dedicated 120 V, 20 A circuit requirement.",
       "paragraphs": [
-        "The Everest record describes a two-person indoor infrared cabin with a 53 by 44 inch exterior footprint and a listed height of 75 inches. Its Canadian Hemlock construction and two-seat capacity make the cabinet dimensions the first practical check for a shared indoor room.",
+        "Everest occupies a 53 by 44 inch exterior footprint and reaches a listed height of 75 inches. The two-seat cabin uses Canadian Hemlock, making its cabinet size a practical starting point for a shared indoor room.",
         "Peak lists 2,050 watts at 120 volts, 20 amps and a plug-in NEMA 5-20P connection. A dedicated 20-amp circuit is documented for this configuration. The electrical entry stays attached to Everest rather than being borrowed from the visually similar Fuji record."
       ],
       "decision_points": [
@@ -42,11 +44,12 @@
     {
       "id": "peak-mini-editorial",
       "product_id": "peak-mini",
-      "status": "draft",
+      "status": "reviewed",
       "eyebrow": "Small indoor cabin",
       "heading": "The smallest documented Peak footprint in this group",
+      "summary": "Peak Mini is a one-person indoor infrared cabin measuring 31 × 32 × 67 inches, with a documented 120 V, 1,200 W plug-in connection.",
       "paragraphs": [
-        "Peak's Mini is recorded as a one-person indoor infrared cabin measuring 31 by 32 by 67 inches on the exterior. That short height and small floor footprint distinguish it from the taller one-person Shasta, although both records are for indoor use.",
+        "At 31 by 32 by 67 inches on the exterior, Peak Mini has the smallest documented cabinet dimensions in this launch group. Its shorter height separates it from the taller one-person Shasta, although both products are intended for indoor use.",
         "The source lists 1,200 watts at 120 volts and 10 amps with a plug-in connection. A required circuit rating and plug type are not stated in the normalized record, so the voltage match should not be read as a complete electrical recommendation."
       ],
       "decision_points": [
@@ -60,11 +63,12 @@
     {
       "id": "peak-crown-editorial",
       "product_id": "peak-crown",
-      "status": "draft",
+      "status": "reviewed",
       "eyebrow": "Two-person indoor cabin",
       "heading": "A two-seat cabin with a 48-inch exterior width",
+      "summary": "Peak Crown is a two-person indoor infrared cabin measuring 48 × 44 × 79 inches, with a documented 120 V, 1,800 W and 15 A connection.",
       "paragraphs": [
-        "The Crown is recorded as a two-person indoor infrared cabin. Its documented exterior dimensions are 48 by 44 by 79 inches, placing it between the compact Mini and the wider two-person formats in the current Peak set.",
+        "Crown provides two seats inside a 48 by 44 by 79 inch exterior cabinet. Those dimensions place it between the compact Mini and the wider two-person formats in the current Peak group.",
         "The reviewed page lists 1,800 watts at 120 volts and 15 amps with a plug-in NEMA 5-15P connection. The current record does not state a required circuit rating or a dedicated circuit. Those omissions stay visible because an electrical value from another Peak model would not describe this configuration."
       ],
       "decision_points": [
@@ -78,11 +82,12 @@
     {
       "id": "peak-fuji-editorial",
       "product_id": "peak-fuji",
-      "status": "draft",
+      "status": "reviewed",
       "eyebrow": "Two-person indoor cabin",
       "heading": "Fuji pairs a familiar footprint with a cedar record",
+      "summary": "Peak Fuji combines two seats, a 53 × 44 × 75-inch cedar cabinet and a documented 120 V, 20 A circuit requirement.",
       "paragraphs": [
-        "Fuji is a two-person indoor infrared cabin in the US catalog. The reviewed dimensions are 53 by 44 by 75 inches, the same recorded footprint as Everest, while the material entry identifies Canadian Red Cedar.",
+        "Fuji shares Everest's reviewed 53 by 44 by 75 inch exterior dimensions, yet the material entry identifies Canadian Red Cedar rather than Hemlock. It remains a separate two-person indoor infrared configuration.",
         "The electrical record lists 2,050 watts at 120 volts and 20 amps, with a documented 20-amp circuit. Connection and plug details are not stated in the normalized record. That distinction matters when comparing Fuji with the Everest page, which includes a plug type in its source record."
       ],
       "decision_points": [
@@ -96,11 +101,12 @@
     {
       "id": "peak-patagonia-editorial",
       "product_id": "peak-patagonia",
-      "status": "draft",
+      "status": "reviewed",
       "eyebrow": "Two-person outdoor cabin",
       "heading": "An outdoor infrared record with a 240-volt supply",
+      "summary": "Peak Patagonia is a two-person outdoor infrared cabin measuring 52 × 42 × 83 inches and requiring a documented dedicated 240 V, 20 A circuit.",
       "paragraphs": [
-        "Patagonia is the outdoor model in this Peak first wave. The record describes a two-person infrared cabin measuring 52 by 42 by 83 inches, with aerospace-grade aluminum and Canadian Hemlock listed as materials.",
+        "Patagonia carries Peak's outdoor designation in this launch group. The two-person infrared cabin measures 52 by 42 by 83 inches, with aerospace-grade aluminum and Canadian Hemlock listed as materials.",
         "Its source page documents 3,350 watts at 240 volts, 20 amps and a dedicated 20-amp circuit. The outdoor placement changes the planning brief beyond the cabinet dimensions. Weather exposure, foundation, access and the manufacturer's clearance instructions need their own checks."
       ],
       "decision_points": [
@@ -114,11 +120,12 @@
     {
       "id": "jnh-tosi-1-editorial",
       "product_id": "jnh-tosi-1",
-      "status": "draft",
+      "status": "reviewed",
       "eyebrow": "One-person indoor cabin",
       "heading": "Tosi 1-Person keeps the indoor footprint to 35.5 inches",
+      "summary": "JNH Tosi 1-Person is a 35.5-inch-square indoor infrared cabin with a documented 120 V, 1,320 W and 15 A plug-in connection.",
       "paragraphs": [
-        "The Tosi 1-Person is recorded as an indoor infrared cabin for one seat. Its 35.5 by 35.5 by 75 inch exterior dimensions make it a different space proposition from the smaller-height Peak Mini, even though both are single-seat models.",
+        "A square 35.5-inch footprint defines the Tosi 1-Person cabinet, whose listed height is 75 inches. It therefore presents a different space requirement from the shorter Peak Mini even though both models have one seat.",
         "JNH lists 1,320 watts at 120 volts and 15 amps with a plug-in connection and a standard household plug. The current source does not state a required circuit rating or dedicated circuit, so those fields remain open for installation planning."
       ],
       "decision_points": [
@@ -132,11 +139,12 @@
     {
       "id": "jnh-tosi-2-editorial",
       "product_id": "jnh-tosi-2",
-      "status": "draft",
+      "status": "reviewed",
       "eyebrow": "Two-person indoor cabin",
       "heading": "Tosi 2-Person adds width without a documented circuit value",
+      "summary": "JNH Tosi 2-Person is a cedar indoor infrared cabin measuring 47.3 × 39.5 × 75 inches, with a documented 120 V, 1,540 W plug-in connection.",
       "paragraphs": [
-        "JNH records the Tosi 2-Person as an indoor infrared cabin measuring 47.3 by 39.5 by 75 inches. It is a two-seat option with a smaller listed width than the four-person Tosi Red, and the material entry names Canadian Red Cedar.",
+        "The two-seat Tosi cabinet measures 47.3 by 39.5 by 75 inches and uses Canadian Red Cedar according to the reviewed source. Its listed width remains well below that of the four-person Tosi Red.",
         "The source lists 1,540 watts at 120 volts and 15 amps with a plug-in connection and a standard household output. The required circuit field is not documented. That open field is kept separate from the values recorded for the Tosi Red 4-Person."
       ],
       "decision_points": [
@@ -150,11 +158,12 @@
     {
       "id": "jnh-tosi-4-editorial",
       "product_id": "jnh-tosi-4",
-      "status": "draft",
+      "status": "reviewed",
       "eyebrow": "Four-person indoor cabin",
       "heading": "The Tosi Red record is wider and electrically distinct",
+      "summary": "JNH Tosi Red seats four in a 70.9 × 47.3 × 75-inch cedar cabin and has a documented dedicated 120 V, 20 A supply with NEMA 5-20R socket.",
       "paragraphs": [
-        "The Tosi Red 4-Person is the largest indoor JNH cabin in this first wave. Its documented exterior size is 70.9 by 47.3 by 75 inches, with Canadian Red Cedar listed as the material and seating for up to four people.",
+        "At 70.9 inches wide, Tosi Red is the largest indoor JNH cabin in this launch group. The exterior depth is 47.3 inches, the height is 75 inches, and Canadian Red Cedar is the documented material for its four-seat configuration.",
         "The electrical record lists 1,980 watts at 120 volts and 20 amps. It also documents a 20-amp circuit and a NEMA 5-20R socket. These details make the model unsuitable for a comparison that looks only at seat count or cabinet width."
       ],
       "decision_points": [
@@ -168,11 +177,12 @@
     {
       "id": "jnh-arki-outdoor-duo-editorial",
       "product_id": "jnh-arki-outdoor-duo",
-      "status": "draft",
+      "status": "reviewed",
       "eyebrow": "Two-person outdoor cabin",
       "heading": "Arki is an outdoor model, not an outdoor Tosi variant",
+      "summary": "JNH Arki Outdoor Duo is a two-person 55.25 × 47.25 × 77.5-inch infrared cabin with a documented dedicated 120 V, 20 A supply.",
       "paragraphs": [
-        "The Arki Outdoor Duo is recorded as a separate two-person outdoor infrared cabin. Its 55.25 by 47.25 by 77.5 inch exterior dimensions and aerospace aluminum with Hemlock wood materials describe a different installation context from the indoor Tosi range.",
+        "JNH presents Arki Outdoor Duo as a separate two-person outdoor infrared cabin. Its 55.25 by 47.25 by 77.5 inch exterior dimensions and aerospace aluminum with Hemlock materials create a different installation context from the indoor Tosi range.",
         "JNH lists 2,350 watts at 120 volts and 20 amps, with a NEMA 5-20P plug and a dedicated 20-amp circuit documented. The outdoor label still leaves the surrounding site work open, including weather protection, foundation, access and exact clearances."
       ],
       "decision_points": [

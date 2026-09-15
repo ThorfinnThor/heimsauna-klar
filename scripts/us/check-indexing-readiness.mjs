@@ -21,13 +21,14 @@ function sourceAgeDays(checkedAt, asOf) {
   return Math.floor((end.valueOf() - start.valueOf()) / 86_400_000);
 }
 
-const [plan, coverage, productsDocument, configurationsDocument, sourcesDocument, editorialDocument, legalDocument, publication] = await Promise.all([
+const [plan, coverage, productsDocument, configurationsDocument, sourcesDocument, editorialDocument, productEditorialDocument, legalDocument, publication] = await Promise.all([
   readJson("docs/us/indexing-readiness.json"),
   readJson("docs/us/coverage-matrix.json"),
   readJson("data/us/products.json"),
   readJson("data/us/configurations.json"),
   readJson("data/us/sources.json"),
   readJson("content/us/editorial.json"),
+  readJson("content/us/product-editorial.json"),
   readJson("content/us/legal.json"),
   readJson("data/us/publication.json"),
 ]);
@@ -37,6 +38,7 @@ const productById = new Map(productsDocument.products.map((product) => [product.
 const configurationByProductId = new Map(configurationsDocument.configurations.map((configuration) => [configuration.product_id, configuration]));
 const sourceById = new Map(sourcesDocument.sources.map((source) => [source.id, source]));
 const editorialById = new Map(editorialDocument.entries.map((entry) => [entry.id, entry]));
+const productEditorialByProductId = new Map(productEditorialDocument.entries.map((entry) => [entry.product_id, entry]));
 const trustById = new Map(legalDocument.pages.map((page) => [page.id, page]));
 const firstWave = plan.first_wave.product_ids;
 
@@ -47,6 +49,7 @@ if (plan.current_result.catalog_products !== productsDocument.products.length) i
 if (plan.current_result.first_wave_products !== firstWave.length) issues.push("first-wave product count is stale");
 
 let qualified = 0;
+let editorialReviewed = 0;
 for (const productId of firstWave) {
   const product = productById.get(productId);
   const configuration = configurationByProductId.get(productId);
@@ -78,6 +81,7 @@ for (const productId of firstWave) {
       && documented(requirement.rated_current_a)));
   const serialized = JSON.stringify({ product, configuration });
   const noConflicts = !serialized.includes('"status":"conflict"');
+  const productEditorial = productEditorialByProductId.get(productId);
 
   if (!exactManufacturerSource) issues.push(`${productId}: exact manufacturer product source is missing`);
   if (exactManufacturerSource && !currentManufacturerSource) issues.push(`${productId}: exact manufacturer product source is stale or has an invalid check date`);
@@ -85,6 +89,16 @@ for (const productId of firstWave) {
   if (!configurationFactsComplete) issues.push(`${productId}: a required configuration fact is not documented`);
   if (!electricalFactsComplete) issues.push(`${productId}: voltage, rated power and rated current are not documented together`);
   if (!noConflicts) issues.push(`${productId}: unresolved fact conflict`);
+  if (!productEditorial) {
+    issues.push(`${productId}: product-specific editorial record is missing`);
+  } else {
+    if (productEditorial.status !== "reviewed" && productEditorial.status !== "published") issues.push(`${productId}: product-specific editorial record is not reviewed`);
+    const supportedSourceIds = new Set([...product.source_ids, ...configuration.source_ids]);
+    if (!productEditorial.source_ids?.length || !productEditorial.source_ids.every((sourceId) => supportedSourceIds.has(sourceId))) {
+      issues.push(`${productId}: product-specific editorial sources do not belong to the exact record`);
+    }
+    if (productEditorial.status === "reviewed" || productEditorial.status === "published") editorialReviewed += 1;
+  }
   if (exactManufacturerSource && currentManufacturerSource && productFactsComplete && configurationFactsComplete && electricalFactsComplete && noConflicts) qualified += 1;
 }
 
@@ -142,6 +156,9 @@ for (const pageId of plan.first_wave.trust_page_ids) {
 if (qualified !== plan.current_result.first_wave_data_qualified) {
   issues.push(`qualified first-wave count is ${qualified}, expected ${plan.current_result.first_wave_data_qualified}`);
 }
+if (editorialReviewed !== plan.current_result.first_wave_editorial_reviewed) {
+  issues.push(`reviewed first-wave editorial count is ${editorialReviewed}, expected ${plan.current_result.first_wave_editorial_reviewed}`);
+}
 if (plan.status !== "ready-to-index" && publication.indexing_enabled) {
   issues.push("US indexing cannot be enabled while the indexing-readiness plan still has open gates");
 }
@@ -154,4 +171,4 @@ if (plan.status !== "ready-to-index" && plan.current_result.first_wave_indexable
 
 if (issues.length > 0) throw new Error(`US indexing-readiness check failed:\n- ${issues.join("\n- ")}`);
 
-console.log(`US indexing readiness passed: ${qualified}/${firstWave.length} first-wave products meet the technical data gate; indexing remains ${publication.indexing_enabled ? "enabled" : "disabled"} with ${plan.remaining_gates.length} recorded release gates.`);
+console.log(`US indexing readiness passed: ${qualified}/${firstWave.length} products meet the technical data gate and ${editorialReviewed}/${firstWave.length} have reviewed decision copy; indexing remains ${publication.indexing_enabled ? "enabled" : "disabled"} with ${plan.remaining_gates.length} recorded release gates.`);

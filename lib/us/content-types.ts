@@ -78,6 +78,7 @@ export interface UsProductEditorial {
   status: UsPublicationStatus;
   eyebrow: string;
   heading: string;
+  summary: string;
   paragraphs: string[];
   decision_points: string[];
   limitations: string[];
