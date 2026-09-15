@@ -3,35 +3,35 @@
   "market": "US",
   "status": "draft",
   "eyebrow": "United States · research beta",
-  "title": "US sauna research",
-  "description": "Independent product research for home sauna planning in the United States.",
-  "heading": "Sauna research for US homes.",
+  "title": "US sauna research and planning",
+  "description": "Source-based US sauna research for comparing cabins, kits, dimensions and electrical requirements.",
+  "heading": "A clearer way to compare a sauna for a US home.",
   "introduction": [
-    "The US catalog is organized around model-specific source records rather than a generic product list. Its current research set covers indoor and outdoor cabins, sauna kits, infrared systems and selected accessories, with separate fields for placement, seating, dimensions and electrical supply.",
+    "The US catalog contains 100 model records across indoor and outdoor cabins, sauna kits, infrared systems and selected accessories. Each record keeps placement, seating, dimensions and electrical supply attached to the exact product or configuration.",
     "This is research and comparison work, not a hands-on test, installation approval or store checkout. A missing value remains open until a suitable source documents it."
   ],
   "sections": [
     {
       "id": "current-scope",
-      "heading": "The catalog covers several kinds of home sauna projects",
+      "heading": "One catalog, several installation questions",
       "paragraphs": [
-        "The research set includes products from Peak Saunas, JNH Lifestyles, SaunaLife, Almost Heaven Saunas, Sunlighten, Sun Home, Redwood Outdoors and Thermory. Each model stays attached to its own configuration so that dimensions, capacity and electrical facts are not borrowed from a related cabin or kit.",
+        "The catalog is broadest for sauna cabins and kits, with 24 indoor infrared cabins, 5 outdoor infrared cabins, 9 indoor traditional cabins, 39 outdoor traditional cabins and 60 kit records. The counts describe research coverage, not a ranking or a recommendation.",
         "Coverage is not equally deep for every record. Installation clearances, shipping terms, circuit requirements and package contents remain open wherever the reviewed source does not state them clearly. There are currently no reviewed merchant offers in the US catalog."
       ]
     },
     {
       "id": "method",
-      "heading": "What a documented result means here",
+      "heading": "How to read an open field",
       "paragraphs": [
-        "Manufacturer product pages and official collection references provide the current research sources. The site records evidence at field level, keeps unknown and unresolved values visible, and separates a voltage match from approval of a circuit, receptacle or installation.",
-        "The finder can narrow the research set, but it does not replace the model instructions, local requirements or review by a qualified professional."
+        "Manufacturer product pages and official collection references provide the current research sources. Evidence is recorded at field level, so an unknown clearance or circuit value stays visible instead of being filled from a related model.",
+        "A finder result narrows the research set. It does not replace the model instructions, local requirements or review by a qualified professional."
       ]
     },
     {
       "id": "continue",
-      "heading": "Where the research continues",
+      "heading": "The first comparison slice",
       "paragraphs": [
-        "The catalog shows the individual source records, the comparison page makes its selection rule visible, and the electrical guide explains why a shared voltage label can still leave different circuit questions open."
+        "The first reviewed product slice covers six Peak Saunas cabins and four JNH Lifestyles cabins. Their pages show how two models with the same voltage can still differ in circuit information, dimensions and outdoor planning needs."
       ]
     }
   ],

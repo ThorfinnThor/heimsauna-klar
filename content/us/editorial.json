@@ -13,7 +13,7 @@
       "eyebrow": "Indoor infrared comparison",
       "heading": "Indoor infrared cabins with different space and electrical records",
       "introduction": [
-        "The current research set contains 23 infrared products documented for indoor placement in the United States. Capacity is available for many of them, while several newer records still have open dimensions or electrical fields that require model-level source review.",
+        "The current research set contains 24 infrared products documented for indoor placement in the United States. The ten product pages in the launch slice have model-level dimensions, capacity, materials and core electrical values; other records still contain open fields that need their own source review.",
         "This is a specification comparison, not a hands-on test or a quality ranking. A configuration appears only when its product type, heat type and placement are documented in the source record."
       ],
       "sections": [
@@ -29,7 +29,7 @@
           "id": "electrical-differences",
           "heading": "The shared 120-volt label does not make the electrical requirements identical",
           "paragraphs": [
-            "Within the source-complete subset, Peak documents 15-amp outlet information for the Mini, Crown and Shasta, while the Everest and Fuji records identify a dedicated 20-amp circuit. The JNH records document a dedicated 20-amp circuit for the Tosi Red 4-Person, while the required circuit rating remains open for the Tosi 1-Person and Tosi 2-Person records.",
+            "Within the first source-complete subset, Peak documents 10 amps for the Mini, 15 amps for the Crown and Shasta, and a dedicated 20-amp circuit for the Everest and Fuji records. The JNH records document a dedicated 20-amp circuit for the Tosi Red 4-Person, while the required circuit rating remains open for the Tosi 1-Person and Tosi 2-Person records.",
             "A voltage filter is therefore useful for narrowing the catalog, but it does not approve an outlet or circuit for installation. The plug, circuit requirement and model instructions still need to be checked together."
           ]
         }
