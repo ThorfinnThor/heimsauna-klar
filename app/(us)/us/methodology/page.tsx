@@ -6,8 +6,8 @@ import { UsTrustPageView } from "../_components/UsEditorial";
 
 const publicPage = getUsTrustPage("methodology");
 export const metadata = createUsPageMetadata({
-  title: publicPage?.title ?? "How Select Your Sauna researches products",
-  description: publicPage?.description ?? "The source, matching and limitation rules used for the US sauna research section.",
+  title: publicPage?.title ?? "How Select Your Sauna documents products",
+  description: publicPage?.description ?? "The source, matching and limitation rules used for the US comparison section.",
   path: "/us/methodology/",
   pageClass: "detail",
   publicationStatus: publicPage?.publication_status ?? "draft",

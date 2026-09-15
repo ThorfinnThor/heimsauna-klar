@@ -34,11 +34,6 @@ export default function UsSaunaFinderPage() {
         <p>Capacity, dimensions, power and budget are checked separately. Unknowns stay visible.</p>
       </section>
       <section className="page-shell us-finder-section">
-        {isResearchPreview ? (
-          <p className="us-preview-notice">
-            Research beta. It searches 100 candidate records.
-          </p>
-        ) : null}
         <UsSaunaFinder products={products} configurations={configurations} offers={offers} asOf={asOf} />
       </section>
     </>

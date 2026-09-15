@@ -7,7 +7,7 @@ import { UsTrustPageView } from "../_components/UsEditorial";
 const publicPage = getUsTrustPage("privacy");
 export const metadata = createUsPageMetadata({
   title: publicPage?.title ?? "Privacy information for Select Your Sauna",
-  description: publicPage?.description ?? "The current website data flows, hosting services and external-link boundaries for the US research section.",
+  description: publicPage?.description ?? "The current website data flows, hosting services and external-link boundaries for the US section.",
   path: "/us/privacy/",
   pageClass: "detail",
   publicationStatus: publicPage?.publication_status ?? "draft",

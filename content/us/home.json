@@ -2,36 +2,36 @@
   "schema_version": 1,
   "market": "US",
   "status": "published",
-  "eyebrow": "United States · research beta",
-  "title": "US sauna research and planning",
-  "description": "Source-based US sauna research for comparing cabins, kits, dimensions and electrical requirements.",
-  "heading": "Compare home saunas sold for the US market.",
+  "eyebrow": "Plan independently · choose with confidence",
+  "title": "US home sauna planning and comparisons",
+  "description": "Source-based US sauna comparisons for choosing by space, capacity, placement and electrical requirements.",
+  "heading": "Find the right sauna for your space.",
   "introduction": [
-    "The US catalog contains 100 model records across indoor and outdoor cabins, sauna kits, infrared systems and selected accessories. Each record keeps placement, seating, dimensions and electrical supply attached to the exact product or configuration.",
-    "This is research and comparison work, not a hands-on test, installation approval or store checkout. A missing value remains open until a suitable source documents it."
+    "The US catalog brings together indoor and outdoor cabins, sauna kits and infrared systems as their model details are documented and checked. Each record keeps placement, seating, dimensions and electrical supply attached to the exact product or configuration.",
+    "Use the catalog for a broad view, compare specific configurations, or start with the finder when room, power and capacity set the boundaries. This is source-based comparison, not a hands-on test or installation approval."
   ],
   "sections": [
     {
       "id": "current-scope",
-      "heading": "What the 100-product catalog covers",
+      "heading": "What the growing catalog covers",
       "paragraphs": [
-        "The catalog is broadest for sauna cabins and kits, with 24 indoor infrared cabins, 5 outdoor infrared cabins, 9 indoor traditional cabins, 39 outdoor traditional cabins and 60 kit records. The counts describe research coverage, not a ranking or a recommendation.",
-        "Coverage is not equally deep for every record. Installation clearances, shipping terms, circuit requirements and package contents remain open wherever the reviewed source does not state them clearly. There are currently no reviewed merchant offers in the US catalog."
+        "The catalog covers sauna cabins and kits for indoor and outdoor use, including infrared and traditional systems. New models are added when their product details can be documented from reliable sources.",
+        "Coverage is not equally deep for every record. Installation clearances, shipping terms, circuit requirements and package contents remain open wherever the reviewed source does not state them clearly."
       ]
     },
     {
       "id": "method",
-      "heading": "Why some specifications remain open",
+      "heading": "Every model keeps its own source record",
       "paragraphs": [
-        "Manufacturer product pages and official collection references provide the current research sources. Evidence is recorded at field level, so an unknown clearance or circuit value stays visible instead of being filled from a related model.",
-        "A finder result narrows the research set. It does not replace the model instructions, local requirements or review by a qualified professional."
+        "Manufacturer product pages and official collection references provide the source material. Evidence is recorded at field level, so an unknown clearance or circuit value stays visible instead of being filled from a related model.",
+        "A finder result narrows the available options. It does not replace the model instructions, local requirements or review by a qualified professional."
       ]
     },
     {
       "id": "continue",
-      "heading": "Ten product pages have completed editorial review",
+      "heading": "Choose a starting point",
       "paragraphs": [
-        "The first reviewed product slice covers six Peak Saunas cabins and four JNH Lifestyles cabins. Their pages show how two models with the same voltage can still differ in circuit information, dimensions and outdoor planning needs."
+        "Browse the catalog when you want to see the full set of documented models. Use the finder to narrow the list by space, capacity and power, then open a product page to review the source-backed details."
       ]
     }
   ],

@@ -19,7 +19,7 @@
           "id": "editorial-contact",
           "heading": "Editorial contact",
           "paragraphs": [
-            "Questions about the research method, documented specifications or source links can be sent by email. Select Your Sauna does not provide electrical, structural or code approval for an installation."
+            "Questions about the documentation method, product specifications or source links can be sent by email. Select Your Sauna does not provide electrical, structural or code approval for an installation."
           ]
         },
         {
@@ -36,12 +36,12 @@
       "id": "methodology",
       "slug": "methodology",
       "publication_status": "published",
-      "title": "How Select Your Sauna researches products",
-      "description": "The source, matching and limitation rules used for the US sauna research section.",
+      "title": "How Select Your Sauna documents products",
+      "description": "The source, matching and limitation rules used for the US comparison section.",
       "eyebrow": "Methodology",
       "heading": "What a documented sauna result means",
       "introduction": [
-        "Select Your Sauna organizes model-specific information so that dimensions, seating, placement and electrical details stay attached to the exact configuration they describe. The US section is a research project and is not a hands-on test, installation approval or checkout service."
+        "Select Your Sauna organizes model-specific information so that dimensions, seating, placement and electrical details stay attached to the exact configuration they describe. The US section is an evidence-led comparison service, not a hands-on test, installation approval or checkout service."
       ],
       "sections": [
         {
@@ -82,9 +82,9 @@
       "title": "Affiliate disclosure for Select Your Sauna",
       "description": "How marked affiliate links, product selection and merchant relationships are handled in the US section.",
       "eyebrow": "Affiliate disclosure",
-      "heading": "How merchant links fit into the research",
+      "heading": "How merchant links fit into these comparisons",
       "introduction": [
-        "The US research section currently has no published affiliate offer. If a reviewed merchant relationship is activated later, the affected link will be marked before it leaves Select Your Sauna. A commission can be paid after a qualifying action, without changing the price shown by the merchant."
+            "The US section currently has no published affiliate offer. If a reviewed merchant relationship is activated later, the affected link will be marked before it leaves Select Your Sauna. A commission can be paid after a qualifying action, without changing the price shown by the merchant."
       ],
       "sections": [
         {
@@ -116,11 +116,11 @@
       "slug": "privacy",
       "publication_status": "published",
       "title": "Privacy information for Select Your Sauna",
-      "description": "The current website data flows, hosting services and external-link boundaries for the US research section.",
+      "description": "The current website data flows, hosting services and external-link boundaries for the US section.",
       "eyebrow": "Privacy",
       "heading": "What the website does with information",
       "introduction": [
-        "This notice describes the technical behavior of the public US research beta. Account settings, contract terms and jurisdiction-specific obligations are reviewed separately before search indexing or commercial features are enabled."
+        "This notice describes the technical behavior of the public US section. Account settings, contract terms and jurisdiction-specific obligations are reviewed separately."
       ],
       "sections": [
         {

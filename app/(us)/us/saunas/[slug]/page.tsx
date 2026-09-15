@@ -98,13 +98,12 @@ export default async function UsSaunaProductPage({ params }: Props) {
         <nav className="us-breadcrumbs" aria-label="Breadcrumb">
           <Link href="/us/">US home</Link><span>/</span><Link href="/us/saunas/">Saunas</Link><span>/</span><span>{product.model}</span>
         </nav>
-        {isResearchPreview ? <p className="us-preview-notice">Research beta · this candidate record remains under editorial review and is excluded from search indexing</p> : null}
         <header className="us-product-hero">
           <div>
             <p className="eyebrow">{product.brand_name} · US configuration</p>
             <h1>{product.model}</h1>
             <p>{editorial?.summary ?? (
-              <>This research record describes {product.form.status === "documented" ? product.form.value.toLowerCase() : "a sauna configuration"}
+              <>This product record describes {product.form.status === "documented" ? product.form.value.toLowerCase() : "a sauna configuration"}
                 {placement ? ` for ${placement} placement` : ""}{capacity ? ` with documented seating for ${capacity}` : ""}.
                 Unknown specifications remain open rather than being inferred from a related model.</>
             )}</p>

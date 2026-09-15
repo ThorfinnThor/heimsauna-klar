@@ -11,6 +11,8 @@ import {
   usEditorialPath,
   type UsEditorialProduct,
 } from "@/lib/us/content";
+import { getUsPublicCatalogItems } from "@/lib/us/catalog-index";
+import type { UsCatalogItem } from "@/lib/us/catalog-filter";
 import type {
   UsComparisonPage,
   UsEditorialPage,
@@ -36,7 +38,7 @@ const indexCopy = {
     description: "Each comparison has a defined scope and includes only configurations supported by the required source data.",
   },
   brand: {
-    eyebrow: "Brand research",
+    eyebrow: "Brand profiles",
     title: "See which configurations belong to each brand.",
     description: "Brand pages keep model identity, technical configuration and source coverage separate from merchant offers.",
   },
@@ -175,13 +177,85 @@ function EditorialSources({ page }: { page: UsEditorialPage | UsHomePage }) {
   if (sources.length === 0) return null;
   return (
     <section className="us-editorial-sources" aria-labelledby="editorial-sources-title">
-      <div><p className="eyebrow">Source record</p><h2 id="editorial-sources-title">Material used for this page</h2></div>
+      <header>
+        <p className="eyebrow">Sources behind this page</p>
+        <h2 id="editorial-sources-title">Where the details come from</h2>
+        <p>Manufacturer pages and official collection records provide the facts used in these comparisons. The linked sources make it possible to check a model’s dimensions, capacity and electrical notes at the original reference.</p>
+      </header>
       <ul>{sources.map((source) => (
         <li key={source.id}>
           <a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} <span aria-hidden="true">↗</span></a>
           <span>{source.publisher}</span>
         </li>
       ))}</ul>
+    </section>
+  );
+}
+
+function UsHomeCatalogPreview({ items }: { items: UsCatalogItem[] }) {
+  if (items.length === 0) return null;
+  return (
+    <section className="catalog-preview us-home-catalog-preview" aria-labelledby="us-catalog-preview-title">
+      <div className="catalog-preview-head">
+        <div>
+          <p className="eyebrow">Documented US models</p>
+          <h2 id="us-catalog-preview-title">Compare saunas with the details that affect planning.</h2>
+        </div>
+        <Link className="text-link" href="/us/saunas/">Open the US catalog <span aria-hidden="true">↗</span></Link>
+      </div>
+      <div className="product-preview-grid">
+        {items.slice(0, 4).map((item) => (
+          <article className="product-preview-card" key={item.id}>
+            <div className="product-preview-top">
+              <span>{item.form ?? "Sauna configuration"}</span>
+              <span>{item.placements?.[0] ?? "Placement open"}</span>
+            </div>
+            <p>{item.brand}</p>
+            <h3>{item.model}</h3>
+            <div className="product-preview-specs">
+              <span><small>Exterior W × D × H</small>{item.exteriorDimensions ?? "Not documented"}</span>
+              <span><small>Capacity</small>{item.seatedCapacity === null ? "Not documented" : `${item.seatedCapacity} people`}</span>
+            </div>
+            <div className="product-preview-bottom">
+              <strong>{item.voltages?.map((value) => `${value} V`).join(" / ") ?? "Power open"}</strong>
+              <Link href={`/us/saunas/${item.slug}/`} aria-label={`${item.brand} ${item.model} details`}>View details ↗</Link>
+            </div>
+          </article>
+        ))}
+      </div>
+      <p className="catalog-note">The catalog grows as additional models can be documented from reliable sources. An open field stays open instead of being inferred from a related sauna.</p>
+    </section>
+  );
+}
+
+function UsHomeHero() {
+  return (
+    <section className="hero us-home-hero" aria-labelledby="us-home-hero-title">
+      <div className="hero-copy">
+        <p className="eyebrow">Independent planning · documented US models</p>
+        <h1 id="us-home-hero-title">Which sauna fits <span>your home?</span></h1>
+        <p className="hero-lede">Compare space, capacity, dimensions and electrical requirements. Start with the finder or browse the catalog when you already know what you are looking for.</p>
+        <div className="hero-actions">
+          <Link className="button button-primary" href="/us/sauna-finder/">Start the sauna finder <span aria-hidden="true">↗</span></Link>
+          <Link className="text-link" href="/us/saunas/">Browse the catalog <span aria-hidden="true">↓</span></Link>
+        </div>
+        <ul className="constraint-list" aria-label="Main sauna planning criteria">
+          <li><span>01</span><div><strong>Space</strong><small>Exterior dimensions, height and clearances</small></div></li>
+          <li><span>02</span><div><strong>Power</strong><small>120 V, 240 V or another documented supply</small></div></li>
+          <li><span>03</span><div><strong>Capacity</strong><small>Seating, heat type and intended placement</small></div></li>
+        </ul>
+      </div>
+      <aside className="hero-visual" aria-label="Example plan for a compact sauna">
+        <div className="visual-kicker"><span /> Planning view · 1.8 m²</div>
+        <div className="room-plan">
+          <div className="dimension dimension-top">150 cm</div>
+          <div className="dimension dimension-side">120 cm</div>
+          <div className="sauna-shape"><div className="sauna-glow" /><div className="sauna-door" /><div className="sauna-bench" /></div>
+          <div className="plan-note note-power"><span>120 V</span> supply depends on the model*</div>
+          <div className="plan-note note-capacity"><span>1–2</span> people</div>
+        </div>
+        <p className="visual-footnote">* Check the exact product documentation and local electrical requirements before installation.</p>
+      </aside>
     </section>
   );
 }
@@ -204,7 +278,7 @@ function pageProducts(page: UsEditorialPage, includeNonPublic: boolean) {
   return selectUsGuideConfigurations(page, options);
 }
 
-export function UsEditorialIndex({ pageType, pages, isPreview }: { pageType: UsEditorialPageType; pages: UsEditorialPage[]; isPreview: boolean }) {
+export function UsEditorialIndex({ pageType, pages }: { pageType: UsEditorialPageType; pages: UsEditorialPage[]; isPreview: boolean }) {
   const copy = indexCopy[pageType];
   return (
     <>
@@ -214,7 +288,6 @@ export function UsEditorialIndex({ pageType, pages, isPreview }: { pageType: UsE
         <p>{copy.description}</p>
       </section>
       <section className="page-shell us-editorial-index">
-        {isPreview ? <p className="us-preview-notice">Research beta · these pages remain excluded from search indexing</p> : null}
         {pageType === "comparison" ? (
           <Link className="us-direct-comparison-entry" href="/us/compare/models/">
             <span>
@@ -266,7 +339,6 @@ export function UsEditorialPageView({ page, presentation, isPreview }: { page: U
         </>
       ) : null}
       <header className="page-shell us-editorial-hero">
-        {isPreview ? <p className="us-preview-notice">Research beta · this page remains excluded from search indexing</p> : null}
         <p className="eyebrow">{page.eyebrow}</p>
         <h1>{page.heading}</h1>
         <div>{page.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
@@ -279,6 +351,7 @@ export function UsEditorialPageView({ page, presentation, isPreview }: { page: U
 }
 
 export function UsHomePageView({ page, isPreview }: { page: UsHomePage; isPreview: boolean }) {
+  const catalogItems = getUsPublicCatalogItems();
   return (
     <>
       {!isPreview ? (
@@ -288,25 +361,27 @@ export function UsHomePageView({ page, isPreview }: { page: UsHomePage; isPrevie
           <StructuredData data={usHomeJsonLd(page)} />
         </>
       ) : null}
-      <article className="page-shell us-home-editorial">
-        {isPreview ? <p className="us-preview-notice">Research beta · this page remains excluded from search indexing</p> : null}
-        <header className="us-editorial-hero">
-          <p className="eyebrow">{page.eyebrow}</p>
-          <h1>{page.heading}</h1>
-          <div>{page.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
-        </header>
-        <EditorialSections page={page} />
-        <EditorialSources page={page} />
-        <RelatedPages page={page} />
-      </article>
+      <>
+        <UsHomeHero />
+        <UsHomeCatalogPreview items={catalogItems} />
+        <article className="page-shell us-home-editorial">
+          <header className="us-editorial-hero">
+            <p className="eyebrow">{page.eyebrow}</p>
+            <h2>{page.heading}</h2>
+            <div>{page.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
+          </header>
+          <EditorialSections page={page} />
+          <EditorialSources page={page} />
+          <RelatedPages page={page} />
+        </article>
+      </>
     </>
   );
 }
 
-export function UsTrustPageView({ page, isPreview }: { page: UsTrustPage; isPreview: boolean }) {
+export function UsTrustPageView({ page }: { page: UsTrustPage; isPreview: boolean }) {
   return (
     <article className="page-shell us-trust-page">
-      {isPreview ? <p className="us-preview-notice">Research beta · this page remains excluded from search indexing</p> : null}
       <header>
         <p className="eyebrow">{page.eyebrow}</p>
         <h1>{page.heading}</h1>

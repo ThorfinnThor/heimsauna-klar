@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: "Select Your Sauna — independent US sauna planning",
     template: "%s | Select Your Sauna",
   },
-  description: "Independent product research and planning information for home saunas in the United States.",
+  description: "Independent product comparisons and planning information for home saunas in the United States.",
   creator: "Schayan Yousefian",
   publisher: "SeitenHafen361",
   icons: {

@@ -98,7 +98,7 @@ export function SiteFooter({ market = "DE" }: { market?: MarketCode }) {
       <Link className="brand brand-footer" href={marketPath(market)}>
         <span className="brand-icon" aria-hidden="true" /><span>Select Your Sauna</span>
       </Link>
-      <p>{isGerman ? "Eine unabhängige Planungs- und Kaufplattform für private Saunen." : "Independent planning and product research for home saunas."}</p>
+      <p>{isGerman ? "Eine unabhängige Planungs- und Kaufplattform für private Saunen." : "Independent planning and product comparisons for home saunas."}</p>
       <div className="footer-links">
         {isGerman ? (
           <>

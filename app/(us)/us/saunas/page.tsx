@@ -22,7 +22,6 @@ export default function UsSaunaCatalogPage() {
         <p>Dimensions, capacity and electrical requirements come from documented US configurations. Missing specifications remain visible.</p>
       </section>
       <section className="page-shell us-catalog-section">
-        {isResearchPreview ? <p className="us-preview-notice">Research beta · candidate records remain under editorial review and are excluded from search indexing</p> : null}
         <UsCatalog items={products} />
       </section>
     </>

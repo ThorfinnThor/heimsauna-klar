@@ -33,11 +33,6 @@ export default function UsDirectComparisonPage() {
         <p>Model names alone can hide differences in size and electrical requirements. This tool compares the documented configuration records without ranking them.</p>
       </section>
       <section className="page-shell us-direct-comparison-section">
-        {isResearchPreview ? (
-          <p className="us-preview-notice">
-            Research beta · candidate records remain excluded from search indexing. The comparison shows a bounded sample from the 100-record catalog.
-          </p>
-        ) : null}
         <UsDirectComparison options={options} />
       </section>
     </>
