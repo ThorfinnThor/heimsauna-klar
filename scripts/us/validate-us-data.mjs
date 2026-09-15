@@ -326,9 +326,12 @@ function validateEditorialContent(bundle, sourceIds, productIds, issues) {
     }
   }
 
-  const productEditorial = requireArray(bundle.content?.productEditorial?.entries, "content.productEditorial.entries", issues)
-    ? bundle.content.productEditorial.entries
-    : [];
+  const productEditorialDocument = bundle.content?.productEditorial;
+  const productEditorial = productEditorialDocument === undefined
+    ? []
+    : requireArray(productEditorialDocument.entries, "content.productEditorial.entries", issues)
+      ? productEditorialDocument.entries
+      : [];
   ensureUniqueIds(productEditorial, "content.productEditorial.entries", issues);
   const productEditorialProductIds = new Set();
   for (const [index, entry] of productEditorial.entries()) {
