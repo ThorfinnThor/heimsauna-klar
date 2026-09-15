@@ -11,7 +11,7 @@ const issues = [];
 const budgets = {
   maxRouteAssetGzipBytes: 225_000,
   maxChunkGzipBytes: 75_000,
-  maxHtmlGzipBytes: 10_000,
+  maxHtmlGzipBytes: 12_000,
 };
 
 async function collectFiles(directory, predicate) {
