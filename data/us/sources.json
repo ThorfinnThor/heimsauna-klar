@@ -215,7 +215,7 @@
     {
       "id": "peak-rainier-product",
       "type": "manufacturer-page",
-      "url": "https://peaksaunas.com/products/peak-saunas-rainier-1-person-indoor-full-spectrum-infrared-sauna",
+      "url": "https://peaksaunas.com/products/peak-saunas-rainier-1-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-xl-medical-grade-red-light-therapy-smart-wifi-app-control",
       "title": "Peak Rainier 1-Person Full Spectrum Infrared Sauna product page",
       "publisher": "Peak Saunas",
       "market": "US",
@@ -225,7 +225,7 @@
     {
       "id": "peak-matterhorn-product",
       "type": "manufacturer-page",
-      "url": "https://peaksaunas.com/products/peak-saunas-matterhorn-3-person-indoor-near-zero-emf-full-spectrum-infrared-sauna",
+      "url": "https://peaksaunas.com/products/peak-saunas-matterhorn-3-person-full-spectrum-infrared-sauna-with-two-xl-medical-grade-red-light-therapy-smart-wifi-app-control",
       "title": "Peak Matterhorn 3-Person Full Spectrum Infrared Sauna product page",
       "publisher": "Peak Saunas",
       "market": "US",
@@ -235,7 +235,7 @@
     {
       "id": "peak-kilimanjaro-product",
       "type": "manufacturer-page",
-      "url": "https://peaksaunas.com/products/peak-saunas-kilimanjaro-5-person-indoor-near-zero-emf-full-spectrum-infrared-sauna",
+      "url": "https://peaksaunas.com/products/peak-saunas-kilimanjaro-5-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control",
       "title": "Peak Kilimanjaro 5-Person Full Spectrum Infrared Sauna product page",
       "publisher": "Peak Saunas",
       "market": "US",
@@ -245,7 +245,7 @@
     {
       "id": "peak-el-capitan-product",
       "type": "manufacturer-page",
-      "url": "https://peaksaunas.com/products/peak-saunas-el-capitan-4-person-indoor-near-zero-emf-full-spectrum-infrared-sauna",
+      "url": "https://peaksaunas.com/products/peak-saunas-el-capitan-4-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control",
       "title": "Peak El Capitan 4-Person Full Spectrum Infrared Sauna product page",
       "publisher": "Peak Saunas",
       "market": "US",
@@ -455,7 +455,7 @@
     {
       "id": "redwood-horizon-6-product",
       "type": "manufacturer-page",
-      "url": "https://www.redwoodoutdoors.com/products/horizon-outdoor-sauna-6-person",
+      "url": "https://www.redwoodoutdoors.com/products/horizon-outdoor-sauna-6-person-porch",
       "title": "Redwood Outdoors Horizon Outdoor Sauna 6 Person product page",
       "publisher": "Redwood Outdoors",
       "market": "US",
@@ -1443,7 +1443,7 @@
       "entity_id": "peak-kilimanjaro",
       "source_id": "peak-kilimanjaro-product",
       "field_path": "manufacturer-product-page",
-      "raw_value": "Peak Kilimanjaro; 5-person indoor near-zero-EMF full-spectrum infrared sauna."
+      "raw_value": "Peak Kilimanjaro; 5-person outdoor full-spectrum infrared sauna."
     },
     {
       "id": "evidence-peak-kilimanjaro-configuration",
@@ -1457,7 +1457,7 @@
       "entity_id": "peak-el-capitan",
       "source_id": "peak-el-capitan-product",
       "field_path": "manufacturer-product-page",
-      "raw_value": "Peak El Capitan; 4-person indoor near-zero-EMF full-spectrum infrared sauna."
+      "raw_value": "Peak El Capitan; 4-person outdoor full-spectrum infrared sauna."
     },
     {
       "id": "evidence-peak-el-capitan-configuration",
@@ -2234,7 +2234,7 @@
       "entity_id": "redwood-horizon-6-standard",
       "source_id": "redwood-horizon-6-product",
       "field_path": "manufacturer-product-page.specifications",
-      "raw_value": "Redwood Outdoors Horizon listing confirms seating for up to 6 people, a built-on porch, heat-treated hemlock construction and selectable electric heater options. Complete dimensions, weight and one fixed electrical configuration were not stated in the reviewed listing."
+      "raw_value": "Redwood Outdoors Horizon specifications list seating for 4 to 6 people, exterior dimensions of 92.5 L x 72.75 W x 76.5 H in, a listed weight of 1,150 lb, Canadian Thermowood and a 6 kW Harvia KIP heater with upgrade options. The listing identifies 120 V lighting and 240 V heater service but does not state one fixed circuit rating; the generic weight is not classified as net or shipping weight."
     },
     {
       "id": "evidence-redwood-duo-2-product",
