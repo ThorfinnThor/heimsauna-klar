@@ -27,6 +27,9 @@ const reviewedIds = [
   "saunalife-ee8g",
   "saunalife-gl4",
   "saunalife-gl6",
+  "peak-mini",
+  "peak-fuji",
+  "peak-patagonia",
   "saunalife-cl7g",
 ];
 

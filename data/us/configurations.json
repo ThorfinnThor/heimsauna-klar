@@ -1029,7 +1029,7 @@
       "label": "Mini standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The product page does not expose a manufacturer SKU."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -1041,7 +1041,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not specified on the product page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -1067,15 +1067,15 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Interior dimensions are not listed on the product page."
+          "reason": "The reviewed product page publishes exterior dimensions but does not state complete interior dimensions."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not listed on the product page."
+          "reason": "The reviewed product page describes crate-protected delivery but does not state shipping dimensions."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances are not listed on the product page."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -1084,12 +1084,12 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not listed on the product page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
         "value": [
-          "Hemlock wood"
+          "Canadian Hemlock"
         ],
         "evidence_ids": [
           "evidence-peak-mini-configuration"
@@ -1118,12 +1118,15 @@
                 "reason": "Phase is not stated on the product page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the product page."
+                "status": "documented",
+                "value": 1200,
+                "evidence_ids": [
+                  "evidence-peak-mini-configuration"
+                ]
               },
               "rated_current_a": {
                 "status": "documented",
-                "value": 15,
+                "value": 10,
                 "evidence_ids": [
                   "evidence-peak-mini-configuration"
                 ]
@@ -1331,7 +1334,7 @@
       "label": "Fuji standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The product page does not expose a manufacturer SKU."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -1343,7 +1346,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not specified on the product page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -1368,30 +1371,52 @@
           ]
         },
         "interior": {
-          "status": "unknown",
-          "reason": "Interior dimensions are not listed on the product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 49,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 40,
+              "unit": "in"
+            },
+            "height": {
+              "value": 67,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-peak-fuji-configuration"
+          ]
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not listed on the product page."
+          "reason": "The reviewed product page describes crate-protected delivery but does not state shipping dimensions."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances are not listed on the product page."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not listed on the product page."
+        "status": "documented",
+        "value": {
+          "value": 385,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-peak-fuji-configuration"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not listed on the product page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
         "value": [
-          "Cedar wood"
+          "Canadian Red Cedar"
         ],
         "evidence_ids": [
           "evidence-peak-fuji-configuration"
@@ -1420,8 +1445,11 @@
                 "reason": "Phase is not stated on the product page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the product page."
+                "status": "documented",
+                "value": 2050,
+                "evidence_ids": [
+                  "evidence-peak-fuji-configuration"
+                ]
               },
               "rated_current_a": {
                 "status": "documented",
@@ -1477,7 +1505,7 @@
       "label": "Patagonia standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The product page does not expose a manufacturer SKU."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -1489,7 +1517,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not specified on the product page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -1514,29 +1542,57 @@
           ]
         },
         "interior": {
-          "status": "unknown",
-          "reason": "Interior dimensions are not listed on the product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 44,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 38,
+              "unit": "in"
+            },
+            "height": {
+              "value": 77,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-peak-patagonia-configuration"
+          ]
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not listed on the product page."
+          "reason": "The reviewed product page describes crate-protected delivery but does not state shipping dimensions."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances are not listed on the product page."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not listed on the product page."
+        "status": "documented",
+        "value": {
+          "value": 798,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-peak-patagonia-configuration"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not listed on the product page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "The checked product page does not specify the cabin material."
+        "status": "documented",
+        "value": [
+          "Aerospace-grade aluminum",
+          "Canadian Hemlock"
+        ],
+        "evidence_ids": [
+          "evidence-peak-patagonia-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -1561,8 +1617,11 @@
                 "reason": "Phase is not stated on the product page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the product page."
+                "status": "documented",
+                "value": 3350,
+                "evidence_ids": [
+                  "evidence-peak-patagonia-configuration"
+                ]
               },
               "rated_current_a": {
                 "status": "documented",

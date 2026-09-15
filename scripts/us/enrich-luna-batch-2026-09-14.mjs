@@ -2,7 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "../..");
-const today = "2026-09-14";
+const today = "2026-09-15";
 
 const load = async (file) => JSON.parse(await readFile(resolve(root, file), "utf8"));
 const save = async (file, value) => writeFile(resolve(root, file), `${JSON.stringify(value, null, 2)}\n`);
@@ -28,6 +28,9 @@ const sourceDefinitions = [
   ["saunalife-ee8g-product", "https://saunalife.com/saunas/ergo-series-model-ee8g/", "SaunaLife Ergo Elegance-Series Model EE8G product page", "SaunaLife", "Product page specifications for barrel diameter and length, shipping data, weight and construction"],
   ["saunalife-gl4-product", "https://saunalife.com/saunas/garden-luxury-series-model-gl4/", "SaunaLife Garden Luxury-Series Model GL4 product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
   ["saunalife-gl6-product", "https://saunalife.com/saunas/garden-luxury-series-model-gl6/", "SaunaLife Garden Luxury-Series Model GL6 product page", "SaunaLife", "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"],
+  ["peak-mini-product", "https://peaksaunas.com/products/peak-saunas-mini-1-person-indoor-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy", "Peak Mini 1-Person Full Spectrum Infrared Sauna product page", "Peak Saunas", "Product page specifications for capacity, dimensions, electrical requirements and construction"],
+  ["peak-fuji-product", "https://peaksaunas.com/products/peak-saunas-fuji-2-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy", "Peak Fuji 2-Person Full Spectrum Infrared Sauna product page", "Peak Saunas", "Product page specifications for capacity, dimensions, weight, electrical requirements and construction"],
+  ["peak-patagonia-product", "https://peaksaunas.com/products/peak-saunas-patagonia-2-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control", "Peak Patagonia 2-Person Outdoor Full Spectrum Infrared Sauna product page", "Peak Saunas", "Product page specifications for capacity, dimensions, weight, electrical requirements and construction"],
 ];
 
 const productFacts = {
@@ -145,6 +148,28 @@ const productFacts = {
     productRaw: "Garden Luxury Series Model GL6; 6-person outdoor sauna cabin with integrated porch and full bronze-glass front, built with Thermo-Spruce and thermo-hardwood seating.",
     configRaw: "SaunaLife GL6 specifications: exterior 90.2 W x 90.2 D x 92.5 H in; interior 69.7 W x 69.7 D x 79.1 H in; shipping 83 W x 43 D x 43 H in; weight 2,425 lb; construction uses Thermo-Spruce, Thermo-Aspen and tempered bronze glass. The page does not state a supplied heater or electrical requirements.",
   },
+  "peak-mini": {
+    source: "peak-mini-product", evidence: "evidence-peak-mini-product", configEvidence: "evidence-peak-mini-configuration",
+    heat: "infrared", energy: ["electric"], capacity: 1, exterior: dimension(31, 32, 67), material: ["Canadian Hemlock"], voltage: 120, ratedPower: 1200, current: 10,
+    interiorReason: "The reviewed product page publishes exterior dimensions but does not state complete interior dimensions.",
+    shippingReason: "The reviewed product page describes crate-protected delivery but does not state shipping dimensions.",
+    productRaw: "Peak Mini; 1-person indoor full-spectrum infrared sauna with medical-grade red-light panel and app control, built with Canadian Hemlock.",
+    configRaw: "Peak Mini specifications: exterior 31 W x 32 D x 67 H in; electrical 120 V / 10 A / 1,200 W with standard outlet plug; construction uses Canadian Hemlock. The page does not state complete interior dimensions, shipping dimensions or product weight.",
+  },
+  "peak-fuji": {
+    source: "peak-fuji-product", evidence: "evidence-peak-fuji-product", configEvidence: "evidence-peak-fuji-configuration",
+    heat: "infrared", energy: ["electric"], capacity: 2, exterior: dimension(53, 44, 75), interior: dimension(49, 40, 67), weight: 385, material: ["Canadian Red Cedar"], voltage: 120, ratedPower: 2050, current: 20,
+    shippingReason: "The reviewed product page describes crate-protected delivery but does not state shipping dimensions.",
+    productRaw: "Peak Fuji; 2-person indoor full-spectrum infrared sauna with medical-grade red-light panel and app control, built with Canadian Red Cedar.",
+    configRaw: "Peak Fuji specifications: exterior 53 W x 44 D x 75 H in; interior 49 W x 40 D x 67 H in; weight 385 lb; electrical 120 V / 20 A / 2,050 W with a dedicated 20 A circuit; construction uses Canadian Red Cedar.",
+  },
+  "peak-patagonia": {
+    source: "peak-patagonia-product", evidence: "evidence-peak-patagonia-product", configEvidence: "evidence-peak-patagonia-configuration",
+    heat: "infrared", energy: ["electric"], capacity: 2, exterior: dimension(52, 42, 83), interior: dimension(44, 38, 77), weight: 798, material: ["Aerospace-grade aluminum", "Canadian Hemlock"], voltage: 240, ratedPower: 3350, current: 20,
+    shippingReason: "The reviewed product page describes crate-protected delivery but does not state shipping dimensions.",
+    productRaw: "Peak Patagonia; 2-person outdoor full-spectrum infrared sauna with smart app control, aerospace-grade aluminum exterior and Canadian Hemlock interior.",
+    configRaw: "Peak Patagonia specifications: exterior 52 W x 42 D x 83 H in; interior 44 W x 38 D x 77 H in; weight 798 lb; electrical 240 V / 20 A / 3,350 W with a dedicated outdoor-rated circuit; construction uses aerospace-grade aluminum and Canadian Hemlock.",
+  },
 };
 
 const redwoodConfigurationsWithAmpOnlyEvidence = new Set([
@@ -232,20 +257,27 @@ for (const [productId, facts] of Object.entries(productFacts)) {
     requirement.rated_power_w = documented(facts.power, configEvidence);
     requirement.rated_current_a = documented(facts.current, configEvidence);
     electrical.evidence_ids = [configEvidence];
+  } else if (facts.ratedPower || facts.voltage || facts.current) {
+    if (facts.voltage) requirement.voltage_v = documented(facts.voltage, configEvidence);
+    if (facts.ratedPower) requirement.rated_power_w = documented(facts.ratedPower, configEvidence);
+    if (facts.current) requirement.rated_current_a = documented(facts.current, configEvidence);
+    electrical.evidence_ids = Array.from(new Set([...(electrical.evidence_ids ?? []), configEvidence]));
   } else {
     requirement.voltage_v = unknown("The reviewed product page does not specify the selected heater or its voltage.");
     requirement.rated_power_w = unknown("The reviewed product page does not specify the selected heater or its rated power.");
     requirement.rated_current_a = unknown("The reviewed product page does not specify the selected heater or its rated current.");
   }
-  requirement.frequency_hz = unknown("Frequency is not stated in the reviewed product specifications.");
-  requirement.phase = unknown("Phase is not stated in the reviewed product specifications.");
-  requirement.required_circuit_a = unknown(facts.power
-    ? "The product page lists heater amperage but does not state a required circuit rating."
-    : "The reviewed product page does not specify the selected heater or a required circuit rating.");
-  requirement.specified_breaker_a = unknown("A breaker rating is not stated in the reviewed product specifications.");
-  requirement.connection = unknown("Connection type is not stated in the reviewed product specifications.");
-  requirement.plug_type = unknown("Plug type is not stated in the reviewed product specifications.");
-  requirement.dedicated_circuit = unknown("Dedicated-circuit requirements are not stated in the reviewed product specifications.");
+  if (facts.power || (!facts.ratedPower && !facts.voltage && !facts.current)) {
+    requirement.frequency_hz = unknown("Frequency is not stated in the reviewed product specifications.");
+    requirement.phase = unknown("Phase is not stated in the reviewed product specifications.");
+    requirement.required_circuit_a = unknown(facts.power
+      ? "The product page lists heater amperage but does not state a required circuit rating."
+      : "The reviewed product page does not specify the selected heater or a required circuit rating.");
+    requirement.specified_breaker_a = unknown("A breaker rating is not stated in the reviewed product specifications.");
+    requirement.connection = unknown("Connection type is not stated in the reviewed product specifications.");
+    requirement.plug_type = unknown("Plug type is not stated in the reviewed product specifications.");
+    requirement.dedicated_circuit = unknown("Dedicated-circuit requirements are not stated in the reviewed product specifications.");
+  }
   for (const key of ["manufacturer_sku", "dimensions", "net_weight", "shipping_weight", "materials"]) {
     if (key === "dimensions" || key === "net_weight" || key === "materials") continue;
     if (configuration[key]?.status === "documented") configuration[key].evidence_ids = Array.from(new Set([...(configuration[key].evidence_ids ?? []), configEvidence]));
