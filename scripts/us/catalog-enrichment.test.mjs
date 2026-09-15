@@ -30,6 +30,9 @@ const reviewedIds = [
   "peak-mini",
   "peak-fuji",
   "peak-patagonia",
+  "almost-heaven-pinnacle",
+  "almost-heaven-princeton",
+  "almost-heaven-audra",
   "saunalife-cl7g",
 ];
 

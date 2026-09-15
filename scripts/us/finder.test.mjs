@@ -166,6 +166,7 @@ test("the public finder evaluates the complete pilot for six outdoor seats on 24
   assert.deepEqual(
     results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId),
     [
+      "almost-heaven-princeton",
       "redwood-garden-8",
       "redwood-grove-8",
       "redwood-vista-6",

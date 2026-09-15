@@ -1909,8 +1909,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-pinnacle-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -1932,11 +1937,12 @@
         "almost-heaven-pinnacle-standard"
       ],
       "source_ids": [
-        "almost-heaven-saunas-collection"
+        "almost-heaven-saunas-collection",
+        "almost-heaven-pinnacle-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "spec_checked_at": "2026-09-15",
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "almost-heaven-logan",
@@ -2009,8 +2015,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-princeton-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -2032,11 +2043,12 @@
         "almost-heaven-princeton-standard"
       ],
       "source_ids": [
-        "almost-heaven-saunas-collection"
+        "almost-heaven-saunas-collection",
+        "almost-heaven-princeton-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "spec_checked_at": "2026-09-15",
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "almost-heaven-rainelle",
@@ -2109,8 +2121,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The checked collection page does not state a model-specific energy source."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-audra-product"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -2132,11 +2149,12 @@
         "almost-heaven-audra-standard"
       ],
       "source_ids": [
-        "almost-heaven-saunas-collection"
+        "almost-heaven-saunas-collection",
+        "almost-heaven-audra-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-14",
-      "change_reason": "Research candidate from an official US manufacturer collection; model-level technical, rights and publication review remain open."
+      "spec_checked_at": "2026-09-15",
+      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
     },
     {
       "id": "almost-heaven-bridgeport",

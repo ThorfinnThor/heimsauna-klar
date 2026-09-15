@@ -31,6 +31,9 @@ const sourceDefinitions = [
   ["peak-mini-product", "https://peaksaunas.com/products/peak-saunas-mini-1-person-indoor-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy", "Peak Mini 1-Person Full Spectrum Infrared Sauna product page", "Peak Saunas", "Product page specifications for capacity, dimensions, electrical requirements and construction"],
   ["peak-fuji-product", "https://peaksaunas.com/products/peak-saunas-fuji-2-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy", "Peak Fuji 2-Person Full Spectrum Infrared Sauna product page", "Peak Saunas", "Product page specifications for capacity, dimensions, weight, electrical requirements and construction"],
   ["peak-patagonia-product", "https://peaksaunas.com/products/peak-saunas-patagonia-2-person-outdoor-full-spectrum-infrared-sauna-with-smart-wifi-app-control", "Peak Patagonia 2-Person Outdoor Full Spectrum Infrared Sauna product page", "Peak Saunas", "Product page specifications for capacity, dimensions, weight, electrical requirements and construction"],
+  ["almost-heaven-pinnacle-product", "https://almostheaven.com/products/pinnacle-4-person-barrel-sauna", "Almost Heaven Pinnacle 4 Person Barrel Sauna product page", "Almost Heaven Saunas", "Product page specifications for capacity, dimensions, heater requirements and construction"],
+  ["almost-heaven-princeton-product", "https://almostheaven.com/products/princeton-6-person-barrel-sauna", "Almost Heaven Princeton 6 Person Barrel Sauna product page", "Almost Heaven Saunas", "Product page specifications for capacity, dimensions, heater requirements and construction"],
+  ["almost-heaven-audra-product", "https://almostheaven.com/products/audra-2-4-person-canopy-barrel-sauna", "Almost Heaven Audra 2-4 Person Canopy Barrel Sauna product page", "Almost Heaven Saunas", "Product page specifications for capacity, dimensions, heater requirements and construction"],
 ];
 
 const productFacts = {
@@ -170,6 +173,27 @@ const productFacts = {
     productRaw: "Peak Patagonia; 2-person outdoor full-spectrum infrared sauna with smart app control, aerospace-grade aluminum exterior and Canadian Hemlock interior.",
     configRaw: "Peak Patagonia specifications: exterior 52 W x 42 D x 83 H in; interior 44 W x 38 D x 77 H in; weight 798 lb; electrical 240 V / 20 A / 3,350 W with a dedicated outdoor-rated circuit; construction uses aerospace-grade aluminum and Canadian Hemlock.",
   },
+  "almost-heaven-pinnacle": {
+    source: "almost-heaven-pinnacle-product", evidence: "evidence-almost-heaven-pinnacle-product", configEvidence: "evidence-almost-heaven-pinnacle-configuration",
+    heat: "traditional", energy: ["electric"], capacity: 4, exterior: dimension(78, 71, 81.5), interior: dimension(75.25, 63.25, 69.25), material: ["Rustic Red Cedar", "Onyx"], power: 6000, current: 30,
+    shippingReason: "The reviewed product page gives a shipping lead time but does not state shipping dimensions or weight.",
+    productRaw: "Pinnacle 4 Person Barrel Sauna; outdoor barrel sauna with seating for up to four people and a 6 kW electric heater. Lumber options include Rustic Red Cedar and Onyx.",
+    configRaw: "Almost Heaven Pinnacle specifications: assembled 78 W x 71 D x 81.5 H in; interior room 75.25 W x 63.25 D x 69.25 H in; heater 6 kW / 240 V with a 30 A hardwire requirement; lighting 120 V / 15 A plug-in service. The page does not state shipping dimensions or product weight.",
+  },
+  "almost-heaven-princeton": {
+    source: "almost-heaven-princeton-product", evidence: "evidence-almost-heaven-princeton-product", configEvidence: "evidence-almost-heaven-princeton-configuration",
+    heat: "traditional", energy: ["electric"], capacity: 6, exterior: dimension(78, 94, 75.375), interior: dimension(75.25, 86.375, 69.25), material: ["Rustic Red Cedar", "Onyx"], power: 8000, current: 40,
+    shippingReason: "The reviewed product page gives a shipping lead time and flatbed note but does not state shipping dimensions or weight.",
+    productRaw: "Princeton 6 Person Barrel Sauna; outdoor barrel sauna with seating for up to six people and an 8 kW electric heater. Lumber options include Rustic Red Cedar and Onyx.",
+    configRaw: "Almost Heaven Princeton specifications: assembled 78 W x 94 D x 75.375 H in; interior room 75.25 W x 86.375 D x 69.25 H in; heater 8 kW / 240 V with a 40 A hardwire requirement; lighting 110 V / 15 A plug-in service. The page notes flatbed shipping but does not state shipping dimensions or product weight.",
+  },
+  "almost-heaven-audra": {
+    source: "almost-heaven-audra-product", evidence: "evidence-almost-heaven-audra-product", configEvidence: "evidence-almost-heaven-audra-configuration",
+    heat: "traditional", energy: ["electric"], capacity: 4, exterior: dimension(78, 71, 75.375), interior: dimension(75.25, 51.25, 69.25), material: ["Rustic Red Cedar", "Onyx"], power: 6000, current: 30,
+    shippingReason: "The reviewed product page gives a shipping lead time but does not state shipping dimensions or weight.",
+    productRaw: "Audra 2-4 Person Canopy Barrel Sauna; outdoor barrel sauna with seating for up to four people, canopy porch and a 6 kW electric heater. Lumber options include Rustic Red Cedar and Onyx.",
+    configRaw: "Almost Heaven Audra specifications: assembled 78 W x 71 D x 75.375 H in; interior room 75.25 W x 51.25 D x 69.25 H in; heater 6 kW / 240 V with a 30 A hardwire requirement; lighting 110 V / 15 A plug-in service. The page does not state shipping dimensions or product weight.",
+  },
 };
 
 const redwoodConfigurationsWithAmpOnlyEvidence = new Set([
@@ -246,6 +270,7 @@ for (const [productId, facts] of Object.entries(productFacts)) {
   else if (facts.shippingReason) configuration.dimensions.shipping = unknown(facts.shippingReason);
   configuration.dimensions.minimum_clearances = unknown("Installation clearances require review of the linked installation documentation.");
   if (facts.weight) configuration.net_weight = documented({ value: facts.weight, unit: "lb" }, configEvidence);
+  else configuration.net_weight = unknown("Net weight is not listed on the reviewed product page.");
   configuration.shipping_weight = unknown("The product page lists a product weight but does not identify a separate shipping weight.");
   if (facts.material) configuration.materials = documented(facts.material, configEvidence);
 

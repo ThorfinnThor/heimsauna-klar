@@ -1080,7 +1080,7 @@
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not listed on the product page."
+        "reason": "Net weight is not listed on the reviewed product page."
       },
       "shipping_weight": {
         "status": "unknown",
@@ -5799,7 +5799,7 @@
       "label": "Pinnacle 4 Person Barrel Sauna standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -5811,85 +5811,132 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 78,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 71,
+              "unit": "in"
+            },
+            "height": {
+              "value": 81.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-almost-heaven-pinnacle-configuration"
+          ]
         },
         "interior": {
-          "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 75.25,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 63.25,
+              "unit": "in"
+            },
+            "height": {
+              "value": 69.25,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-almost-heaven-pinnacle-configuration"
+          ]
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "reason": "The reviewed product page gives a shipping lead time but does not state shipping dimensions or weight."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "reason": "Net weight is not listed on the reviewed product page."
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "status": "documented",
+        "value": [
+          "Rustic Red Cedar",
+          "Onyx"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-pinnacle-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "almost-heaven-pinnacle-electrical-unknown",
+          "id": "almost-heaven-pinnacle-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-almost-heaven-pinnacle-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-almost-heaven-pinnacle-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-almost-heaven-pinnacle-configuration"
+                ]
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -5901,7 +5948,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "almost-heaven-saunas-collection"
+        "almost-heaven-saunas-collection",
+        "almost-heaven-pinnacle-product"
       ],
       "publication_status": "candidate"
     },
@@ -6025,7 +6073,7 @@
       "label": "Princeton 6 Person Barrel Sauna standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -6037,85 +6085,132 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 78,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 94,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75.375,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-almost-heaven-princeton-configuration"
+          ]
         },
         "interior": {
-          "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 75.25,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 86.375,
+              "unit": "in"
+            },
+            "height": {
+              "value": 69.25,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-almost-heaven-princeton-configuration"
+          ]
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "reason": "The reviewed product page gives a shipping lead time and flatbed note but does not state shipping dimensions or weight."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "reason": "Net weight is not listed on the reviewed product page."
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "status": "documented",
+        "value": [
+          "Rustic Red Cedar",
+          "Onyx"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-princeton-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "almost-heaven-princeton-electrical-unknown",
+          "id": "almost-heaven-princeton-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-almost-heaven-princeton-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 8000,
+                "evidence_ids": [
+                  "evidence-almost-heaven-princeton-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-almost-heaven-princeton-configuration"
+                ]
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -6127,7 +6222,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "almost-heaven-saunas-collection"
+        "almost-heaven-saunas-collection",
+        "almost-heaven-princeton-product"
       ],
       "publication_status": "candidate"
     },
@@ -6251,94 +6347,144 @@
       "label": "Audra 2-4 Person Canopy Barrel Sauna standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The collection page does not expose a manufacturer SKU for this candidate."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "A model-level seated capacity is not stated on the checked collection page."
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-almost-heaven-audra-configuration"
+          ]
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not stated on the checked collection page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Model-level exterior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 78,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 71,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75.375,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-almost-heaven-audra-configuration"
+          ]
         },
         "interior": {
-          "status": "unknown",
-          "reason": "Model-level interior dimensions require the individual product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 75.25,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 51.25,
+              "unit": "in"
+            },
+            "height": {
+              "value": 69.25,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-almost-heaven-audra-configuration"
+          ]
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated on the checked collection page."
+          "reason": "The reviewed product page gives a shipping lead time but does not state shipping dimensions or weight."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the individual product page or manual."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not stated on the checked collection page."
+        "reason": "Net weight is not listed on the reviewed product page."
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated on the checked collection page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual product page."
+        "status": "documented",
+        "value": [
+          "Rustic Red Cedar",
+          "Onyx"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-audra-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "almost-heaven-audra-electrical-unknown",
+          "id": "almost-heaven-audra-heater-240v",
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the checked collection page."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-almost-heaven-audra-configuration"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the checked collection page."
+                "reason": "Frequency is not stated in the reviewed product specifications."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the checked collection page."
+                "reason": "Phase is not stated in the reviewed product specifications."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated on the checked collection page."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-almost-heaven-audra-configuration"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the checked collection page."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-almost-heaven-audra-configuration"
+                ]
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated on the checked collection page."
+                "reason": "The product page lists heater amperage but does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated on the checked collection page."
+                "reason": "A breaker rating is not stated in the reviewed product specifications."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the checked collection page."
+                "reason": "Connection type is not stated in the reviewed product specifications."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the checked collection page."
+                "reason": "Plug type is not stated in the reviewed product specifications."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated on the checked collection page."
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed product specifications."
               }
             }
           ],
@@ -6350,7 +6496,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "almost-heaven-saunas-collection"
+        "almost-heaven-saunas-collection",
+        "almost-heaven-audra-product"
       ],
       "publication_status": "candidate"
     },

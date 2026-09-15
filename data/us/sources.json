@@ -661,6 +661,36 @@
       "market": "US",
       "checked_at": "2026-09-15",
       "locator": "Product page specifications for interior and exterior dimensions, shipping dimensions, weight and construction"
+    },
+    {
+      "id": "almost-heaven-pinnacle-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/pinnacle-4-person-barrel-sauna",
+      "title": "Almost Heaven Pinnacle 4 Person Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-15",
+      "locator": "Product page specifications for capacity, dimensions, heater requirements and construction"
+    },
+    {
+      "id": "almost-heaven-princeton-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/princeton-6-person-barrel-sauna",
+      "title": "Almost Heaven Princeton 6 Person Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-15",
+      "locator": "Product page specifications for capacity, dimensions, heater requirements and construction"
+    },
+    {
+      "id": "almost-heaven-audra-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/audra-2-4-person-canopy-barrel-sauna",
+      "title": "Almost Heaven Audra 2-4 Person Canopy Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-15",
+      "locator": "Product page specifications for capacity, dimensions, heater requirements and construction"
     }
   ],
   "evidence": [
@@ -1185,16 +1215,16 @@
     {
       "id": "evidence-almost-heaven-pinnacle-product",
       "entity_id": "almost-heaven-pinnacle",
-      "source_id": "almost-heaven-saunas-collection",
-      "field_path": "product_identity",
-      "raw_value": "Pinnacle 4 Person Barrel Sauna listed in the official collection."
+      "source_id": "almost-heaven-pinnacle-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Pinnacle 4 Person Barrel Sauna; outdoor barrel sauna with seating for up to four people and a 6 kW electric heater. Lumber options include Rustic Red Cedar and Onyx."
     },
     {
       "id": "evidence-almost-heaven-pinnacle-configuration",
       "entity_id": "almost-heaven-pinnacle-standard",
-      "source_id": "almost-heaven-saunas-collection",
-      "field_path": "configuration_identity",
-      "raw_value": "Pinnacle 4 Person Barrel Sauna is represented as a non-publishing review configuration."
+      "source_id": "almost-heaven-pinnacle-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Almost Heaven Pinnacle specifications: assembled 78 W x 71 D x 81.5 H in; interior room 75.25 W x 63.25 D x 69.25 H in; heater 6 kW / 240 V with a 30 A hardwire requirement; lighting 120 V / 15 A plug-in service. The page does not state shipping dimensions or product weight."
     },
     {
       "id": "evidence-almost-heaven-logan-product",
@@ -1213,16 +1243,16 @@
     {
       "id": "evidence-almost-heaven-princeton-product",
       "entity_id": "almost-heaven-princeton",
-      "source_id": "almost-heaven-saunas-collection",
-      "field_path": "product_identity",
-      "raw_value": "Princeton 6 Person Barrel Sauna listed in the official collection."
+      "source_id": "almost-heaven-princeton-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Princeton 6 Person Barrel Sauna; outdoor barrel sauna with seating for up to six people and an 8 kW electric heater. Lumber options include Rustic Red Cedar and Onyx."
     },
     {
       "id": "evidence-almost-heaven-princeton-configuration",
       "entity_id": "almost-heaven-princeton-standard",
-      "source_id": "almost-heaven-saunas-collection",
-      "field_path": "configuration_identity",
-      "raw_value": "Princeton 6 Person Barrel Sauna is represented as a non-publishing review configuration."
+      "source_id": "almost-heaven-princeton-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Almost Heaven Princeton specifications: assembled 78 W x 94 D x 75.375 H in; interior room 75.25 W x 86.375 D x 69.25 H in; heater 8 kW / 240 V with a 40 A hardwire requirement; lighting 110 V / 15 A plug-in service. The page notes flatbed shipping but does not state shipping dimensions or product weight."
     },
     {
       "id": "evidence-almost-heaven-rainelle-product",
@@ -1241,16 +1271,16 @@
     {
       "id": "evidence-almost-heaven-audra-product",
       "entity_id": "almost-heaven-audra",
-      "source_id": "almost-heaven-saunas-collection",
-      "field_path": "product_identity",
-      "raw_value": "Audra 2-4 Person Canopy Barrel Sauna listed in the official collection."
+      "source_id": "almost-heaven-audra-product",
+      "field_path": "manufacturer-product-page",
+      "raw_value": "Audra 2-4 Person Canopy Barrel Sauna; outdoor barrel sauna with seating for up to four people, canopy porch and a 6 kW electric heater. Lumber options include Rustic Red Cedar and Onyx."
     },
     {
       "id": "evidence-almost-heaven-audra-configuration",
       "entity_id": "almost-heaven-audra-standard",
-      "source_id": "almost-heaven-saunas-collection",
-      "field_path": "configuration_identity",
-      "raw_value": "Audra 2-4 Person Canopy Barrel Sauna is represented as a non-publishing review configuration."
+      "source_id": "almost-heaven-audra-product",
+      "field_path": "manufacturer-product-page.specifications",
+      "raw_value": "Almost Heaven Audra specifications: assembled 78 W x 71 D x 75.375 H in; interior room 75.25 W x 51.25 D x 69.25 H in; heater 6 kW / 240 V with a 30 A hardwire requirement; lighting 110 V / 15 A plug-in service. The page does not state shipping dimensions or product weight."
     },
     {
       "id": "evidence-almost-heaven-bridgeport-product",
