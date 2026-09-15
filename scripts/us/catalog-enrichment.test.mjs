@@ -34,6 +34,12 @@ const reviewedIds = [
   "almost-heaven-princeton",
   "almost-heaven-audra",
   "saunalife-cl7g",
+  "peak-shasta",
+  "peak-everest",
+  "jnh-tosi-1",
+  "jnh-tosi-2",
+  "jnh-tosi-4",
+  "jnh-arki-outdoor-duo",
 ];
 
 const products = new Map(productsDocument.products.map((product) => [product.id, product]));

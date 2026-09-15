@@ -34,6 +34,12 @@ const sourceDefinitions = [
   ["almost-heaven-pinnacle-product", "https://almostheaven.com/products/pinnacle-4-person-barrel-sauna", "Almost Heaven Pinnacle 4 Person Barrel Sauna product page", "Almost Heaven Saunas", "Product page specifications for capacity, dimensions, heater requirements and construction"],
   ["almost-heaven-princeton-product", "https://almostheaven.com/products/princeton-6-person-barrel-sauna", "Almost Heaven Princeton 6 Person Barrel Sauna product page", "Almost Heaven Saunas", "Product page specifications for capacity, dimensions, heater requirements and construction"],
   ["almost-heaven-audra-product", "https://almostheaven.com/products/audra-2-4-person-canopy-barrel-sauna", "Almost Heaven Audra 2-4 Person Canopy Barrel Sauna product page", "Almost Heaven Saunas", "Product page specifications for capacity, dimensions, heater requirements and construction"],
+  ["peak-shasta-product", "https://peaksaunas.com/products/peak-saunas-shasta-1-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-xl-medical-grade-red-light-therapy-smart-wifi-app-control", "Peak Shasta 1-Person Full Spectrum Infrared Sauna product page", "Peak Saunas", "Product page specifications for capacity, dimensions, electrical requirements and construction"],
+  ["peak-everest-product", "https://peaksaunas.com/products/peak-saunas-everest-2-person-indoor-near-zero-emf-full-spectrum-infrared-sauna-with-medical-grade-red-light-therapy", "Peak Everest 2-Person Full Spectrum Infrared Sauna product page", "Peak Saunas", "Product page specifications for capacity, dimensions, electrical requirements and construction"],
+  ["jnh-tosi-1-product", "https://jnhlifestyles.com/tosi-1-person-full-spectrum-infrared-sauna", "JNH Lifestyles Tosi 1-Person Full Spectrum Infrared Sauna product page", "JNH Lifestyles", "Product page specifications for capacity, dimensions, electrical requirements and construction"],
+  ["jnh-tosi-2-product", "https://jnhlifestyles.com/tosi-2-person-full-spectrum-infrared-sauna", "JNH Lifestyles Tosi 2-Person Full Spectrum Infrared Sauna product page", "JNH Lifestyles", "Product page specifications for capacity, dimensions, electrical requirements and construction"],
+  ["jnh-tosi-4-product", "https://jnhlifestyles.com/tosi-red-4-person-full-spectrum-infrared-sauna", "JNH Lifestyles Tosi Red 4-Person Full Spectrum Infrared Sauna product page", "JNH Lifestyles", "Product page specifications for capacity, dimensions, electrical requirements and construction"],
+  ["jnh-arki-outdoor-duo-product", "https://jnhlifestyles.com/all-saunas/jnh-arki-outdoor-2-person-red-light-therapy-full-spectrum-infrared-sauna-ultra-low-emf/", "JNH Lifestyles Arki Outdoor Duo 2-Person Infrared Sauna product page", "JNH Lifestyles", "Product page specifications for capacity, dimensions, electrical requirements and construction"],
 ];
 
 const productFacts = {
@@ -194,6 +200,45 @@ const productFacts = {
     productRaw: "Audra 2-4 Person Canopy Barrel Sauna; outdoor barrel sauna with seating for up to four people, canopy porch and a 6 kW electric heater. Lumber options include Rustic Red Cedar and Onyx.",
     configRaw: "Almost Heaven Audra specifications: assembled 78 W x 71 D x 75.375 H in; interior room 75.25 W x 51.25 D x 69.25 H in; heater 6 kW / 240 V with a 30 A hardwire requirement; lighting 110 V / 15 A plug-in service. The page does not state shipping dimensions or product weight.",
   },
+  "peak-shasta": {
+    source: "peak-shasta-product", evidence: "evidence-peak-shasta-product", configEvidence: "evidence-peak-shasta-configuration",
+    heat: "infrared", energy: ["electric"], capacity: 1, exterior: dimension(42, 40, 75), interior: dimension(38, 36, 67), weight: 305, material: ["Canadian Hemlock"], voltage: 120, ratedPower: 1800, current: 15, connection: "plug-in", plugType: "NEMA 5-15P",
+    productRaw: "Shasta 1-Person Infrared Sauna; indoor full-spectrum infrared sauna with full-body medical-grade red-light panel and smart app control, built with Canadian Hemlock.",
+    configRaw: "Peak Shasta specifications: exterior 42 W x 40 D x 75 H in; interior 38 W x 36 D x 67 H in; weight 305 lb; electrical 120 V / 15 A / 1,800 W with a standard NEMA 5-15P outlet; construction uses Canadian Hemlock.",
+  },
+  "peak-everest": {
+    source: "peak-everest-product", evidence: "evidence-peak-everest-product", configEvidence: "evidence-peak-everest-configuration",
+    heat: "infrared", energy: ["electric"], capacity: 2, exterior: dimension(53, 44, 75), interior: dimension(49, 40, 67), weight: 305, material: ["Canadian Hemlock"], voltage: 120, ratedPower: 2050, current: 20, requiredCircuit: 20, connection: "plug-in", plugType: "NEMA 5-20P", dedicatedCircuit: true,
+    productRaw: "Everest 2-Person Full Spectrum Infrared Sauna; indoor infrared sauna with full-body medical-grade red-light panel and smart app control, built with Canadian Hemlock.",
+    configRaw: "Peak Everest specifications: exterior 53 W x 44 D x 75 H in; interior 49 W x 40 D x 67 H in; weight 305 lb; electrical 120 V / 20 A / 2,050 W with a dedicated 20 A circuit and NEMA 5-20P; construction uses Canadian Hemlock.",
+  },
+  "jnh-tosi-1": {
+    source: "jnh-tosi-1-product", evidence: "evidence-jnh-tosi-1-product", configEvidence: "evidence-jnh-tosi-1-configuration",
+    heat: "infrared", energy: ["electric"], capacity: 1, exterior: dimension(35.5, 35.5, 75), interior: dimension(33, 33, 72), weight: 250, material: ["Canadian Hemlock"], voltage: 120, ratedPower: 1320, current: 15, connection: "plug-in", plugType: "Standard household plug",
+    productRaw: "Tosi 1 Person Ultra-Low EMF Full Spectrum Infrared Sauna; indoor full-spectrum infrared cabin built with Canadian Hemlock.",
+    configRaw: "JNH Tosi 1-Person specifications: exterior 35.5 W x 35.5 D x 75 H in; interior 33 W x 33 D x 72 H in; weight 250 lb; electrical 120 V / 15 A / 1,320 W with a standard household outlet; construction uses Canadian Hemlock.",
+  },
+  "jnh-tosi-2": {
+    source: "jnh-tosi-2-product", evidence: "evidence-jnh-tosi-2-product", configEvidence: "evidence-jnh-tosi-2-configuration",
+    heat: "infrared", energy: ["electric"], capacity: 2, exterior: dimension(47.3, 39.5, 75), interior: dimension(45, 37, 72.5), weight: 330, material: ["Canadian Red Cedar"], voltage: 120, ratedPower: 1540, current: 15, connection: "plug-in", plugType: "Standard household output",
+    shippingReason: "The reviewed product page does not state shipping dimensions.",
+    productRaw: "Tosi 2 Person Ultra-Low EMF Full Spectrum Infrared Sauna; indoor full-spectrum infrared cabin built with Canadian Red Cedar.",
+    configRaw: "JNH Tosi 2-Person specifications: exterior 47.3 W x 39.5 D x 75 H in; electrical 120 V / 15 A; construction uses Canadian Red Cedar. The page does not state complete interior dimensions, shipping dimensions, weight or wattage.",
+  },
+  "jnh-tosi-4": {
+    source: "jnh-tosi-4-product", evidence: "evidence-jnh-tosi-4-product", configEvidence: "evidence-jnh-tosi-4-configuration",
+    heat: "infrared", energy: ["electric"], capacity: 4, exterior: dimension(70.9, 47.3, 75), weight: 530, material: ["Canadian Red Cedar"], voltage: 120, ratedPower: 1980, current: 20, requiredCircuit: 20, plugType: "NEMA 5-20R socket", dedicatedCircuit: true,
+    interiorReason: "The reviewed product page does not state complete interior dimensions.",
+    shippingReason: "The reviewed product page does not state shipping dimensions.",
+    productRaw: "Tosi Red 4 Person Ultra-Low EMF Full Spectrum Infrared Sauna; indoor full-spectrum infrared cabin built with Canadian Red Cedar.",
+    configRaw: "JNH Tosi Red 4-Person specifications: exterior 70.9 W x 47.3 D x 75 H in; weight 530 lb; electrical 120 V / 20 A / 1,980 W with a dedicated 20 A breaker and NEMA 5-20R socket; construction uses Canadian Red Cedar. The page does not state complete interior or shipping dimensions.",
+  },
+  "jnh-arki-outdoor-duo": {
+    source: "jnh-arki-outdoor-duo-product", evidence: "evidence-jnh-arki-outdoor-duo-product", configEvidence: "evidence-jnh-arki-outdoor-duo-configuration",
+    heat: "infrared", energy: ["electric"], capacity: 2, exterior: dimension(55.25, 47.25, 77.5), interior: dimension(45, 37, 72.5), weight: 450, material: ["Aerospace Aluminum", "Hemlock wood"], voltage: 120, ratedPower: 2350, current: 20, requiredCircuit: 20, plugType: "NEMA 5-20P", dedicatedCircuit: true,
+    productRaw: "Arki Outdoor Duo 2-Person Full Spectrum Infrared Sauna; all-season outdoor infrared cabin with medical-grade red-light therapy, aerospace aluminum exterior and Hemlock wood interior.",
+    configRaw: "JNH Arki Outdoor Duo specifications: exterior 55.25 W x 47.25 D x 77.5 H in; interior 45 W x 37 D x 72.5 H in; weight 450 lb; electrical 120 V / 20 A / 2,350 W with a dedicated 20 A circuit and NEMA 5-20P; aerospace aluminum exterior and Hemlock wood interior.",
+  },
 };
 
 const redwoodConfigurationsWithAmpOnlyEvidence = new Set([
@@ -303,6 +348,10 @@ for (const [productId, facts] of Object.entries(productFacts)) {
     requirement.plug_type = unknown("Plug type is not stated in the reviewed product specifications.");
     requirement.dedicated_circuit = unknown("Dedicated-circuit requirements are not stated in the reviewed product specifications.");
   }
+  if (facts.requiredCircuit) requirement.required_circuit_a = documented(facts.requiredCircuit, configEvidence);
+  if (facts.connection) requirement.connection = documented(facts.connection, configEvidence);
+  if (facts.plugType) requirement.plug_type = documented(facts.plugType, configEvidence);
+  if (typeof facts.dedicatedCircuit === "boolean") requirement.dedicated_circuit = documented(facts.dedicatedCircuit, configEvidence);
   for (const key of ["manufacturer_sku", "dimensions", "net_weight", "shipping_weight", "materials"]) {
     if (key === "dimensions" || key === "net_weight" || key === "materials") continue;
     if (configuration[key]?.status === "documented") configuration[key].evidence_ids = Array.from(new Set([...(configuration[key].evidence_ids ?? []), configEvidence]));

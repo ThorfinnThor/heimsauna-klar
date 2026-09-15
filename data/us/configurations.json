@@ -9,7 +9,7 @@
       "label": "Shasta standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The product page does not expose a manufacturer SKU."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -21,7 +21,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not specified on the product page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -71,7 +71,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances are not listed on the product page."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -86,12 +86,12 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not listed on the product page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
         "value": [
-          "Hemlock wood"
+          "Canadian Hemlock"
         ],
         "evidence_ids": [
           "evidence-peak-shasta-configuration"
@@ -183,7 +183,7 @@
       "label": "Everest standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The product page does not expose a manufacturer SKU."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -195,7 +195,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not specified on the product page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -245,7 +245,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances are not listed on the product page."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -260,12 +260,12 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not listed on the product page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
         "value": [
-          "Hemlock wood"
+          "Canadian Hemlock"
         ],
         "evidence_ids": [
           "evidence-peak-everest-configuration"
@@ -360,7 +360,7 @@
       "label": "Tosi 1-person standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The product page does not expose a manufacturer SKU."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -372,7 +372,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not specified on the product page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -422,7 +422,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances are not listed on the product page."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -437,12 +437,12 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not listed on the product page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
         "value": [
-          "Hemlock wood"
+          "Canadian Hemlock"
         ],
         "evidence_ids": [
           "evidence-jnh-tosi-1-configuration"
@@ -531,7 +531,7 @@
       "label": "Tosi 2-person standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The product page does not expose a manufacturer SKU."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -543,7 +543,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not specified on the product page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -589,11 +589,11 @@
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not listed on the product page."
+          "reason": "The reviewed product page does not state shipping dimensions."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances are not listed on the product page."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -608,12 +608,12 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not listed on the product page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
         "value": [
-          "Red cedar wood"
+          "Canadian Red Cedar"
         ],
         "evidence_ids": [
           "evidence-jnh-tosi-2-configuration"
@@ -664,12 +664,18 @@
                 "reason": "A breaker rating is not stated on the product page."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "The page does not state the connection type."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-jnh-tosi-2-configuration"
+                ]
               },
               "plug_type": {
-                "status": "unknown",
-                "reason": "The page does not state the plug type."
+                "status": "documented",
+                "value": "Standard household output",
+                "evidence_ids": [
+                  "evidence-jnh-tosi-2-configuration"
+                ]
               },
               "dedicated_circuit": {
                 "status": "unknown",
@@ -696,7 +702,7 @@
       "label": "Tosi Red 4-person standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The product page does not expose a manufacturer SKU."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -708,7 +714,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not specified on the product page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -734,15 +740,15 @@
         },
         "interior": {
           "status": "unknown",
-          "reason": "Interior dimensions are not listed on the product page."
+          "reason": "The reviewed product page does not state complete interior dimensions."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not listed on the product page."
+          "reason": "The reviewed product page does not state shipping dimensions."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances are not listed on the product page."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -757,12 +763,12 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not listed on the product page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
         "value": [
-          "Red cedar wood"
+          "Canadian Red Cedar"
         ],
         "evidence_ids": [
           "evidence-jnh-tosi-4-configuration"
@@ -821,7 +827,7 @@
               },
               "plug_type": {
                 "status": "documented",
-                "value": "NEMA 5-20R",
+                "value": "NEMA 5-20R socket",
                 "evidence_ids": [
                   "evidence-jnh-tosi-4-configuration"
                 ]
@@ -854,7 +860,7 @@
       "label": "Arki Outdoor Duo standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The product page does not expose a manufacturer SKU."
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
       },
       "capacity": {
         "seated": {
@@ -866,7 +872,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "A reclining capacity is not specified on the product page."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
@@ -916,7 +922,7 @@
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances are not listed on the product page."
+          "reason": "Installation clearances require review of the linked installation documentation."
         }
       },
       "net_weight": {
@@ -931,13 +937,13 @@
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not listed on the product page."
+        "reason": "The product page lists a product weight but does not identify a separate shipping weight."
       },
       "materials": {
         "status": "documented",
         "value": [
-          "Aluminum exterior",
-          "Hemlock wood interior"
+          "Aerospace Aluminum",
+          "Hemlock wood"
         ],
         "evidence_ids": [
           "evidence-jnh-arki-outdoor-duo-configuration"
