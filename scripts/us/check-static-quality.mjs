@@ -56,6 +56,7 @@ const [headers, redirects, css, wrangler, publication] = await Promise.all([
   readFile(path.join(projectRoot, "wrangler.toml"), "utf8"),
   readFile(path.join(projectRoot, "data/us/publication.json"), "utf8").then(JSON.parse),
 ]);
+const indexedRelease = publication.indexing_enabled === true;
 
 for (const expected of [
   "default-src 'self'",
@@ -86,14 +87,19 @@ if (!compatibilityDate) {
   if (ageDays > 90) issues.push(`wrangler.toml: compatibility_date ${compatibilityDate} is older than 90 days`);
 }
 
-const expectedPublicationControls = {
+const expectedPublicationControls = indexedRelease ? {
+  routes_enabled: true,
+  indexing_enabled: true,
+  affiliate_links_enabled: false,
+  feed_sync_enabled: false,
+} : {
   routes_enabled: true,
   indexing_enabled: false,
   affiliate_links_enabled: false,
   feed_sync_enabled: false,
 };
 for (const [flag, expected] of Object.entries(expectedPublicationControls)) {
-  if (publication[flag] !== expected) issues.push(`data/us/publication.json: ${flag} must be ${expected} for the public noindex beta`);
+  if (publication[flag] !== expected) issues.push(`data/us/publication.json: ${flag} must be ${expected} for the current US release`);
 }
 
 for (const expected of [

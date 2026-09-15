@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "snapshot_id": "us-public-noindex-beta-2026-09-14-l100",
+  "snapshot_id": "us-indexed-first-wave-2026-09-15-l100",
   "market": "US",
-  "mode": "public-static-noindex-beta",
-  "expected_page_count": 114,
+  "mode": "public-static-indexed-first-wave",
+  "expected_page_count": 24,
   "routes": [
     {
       "path": "/us/",
       "kind": "home",
       "record_id": "home",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/",
       "kind": "catalog",
       "record_id": "sauna-catalog",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/sauna-finder/",
@@ -27,13 +27,13 @@
       "path": "/us/brands/",
       "kind": "editorial-index",
       "record_id": "brand-index",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/compare/",
       "kind": "editorial-index",
       "record_id": "comparison-index",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/compare/models/",
@@ -45,649 +45,109 @@
       "path": "/us/guides/",
       "kind": "editorial-index",
       "record_id": "guide-index",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/brands/jnh-lifestyles/",
-      "kind": "brand",
-      "record_id": "jnh-lifestyles",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/compare/indoor-infrared-saunas/",
       "kind": "comparison",
       "record_id": "indoor-infrared-saunas",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/brands/jnh-lifestyles/",
+      "kind": "brand",
+      "record_id": "jnh-lifestyles",
+      "robots": "index, follow"
     },
     {
       "path": "/us/guides/infrared-sauna-electrical-requirements/",
       "kind": "guide",
       "record_id": "infrared-sauna-electrical-requirements",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/contact/",
       "kind": "legal",
       "record_id": "contact",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/methodology/",
       "kind": "legal",
       "record_id": "methodology",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/affiliate-disclosure/",
       "kind": "legal",
       "record_id": "affiliate-disclosure",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/privacy/",
       "kind": "legal",
       "record_id": "privacy",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/peak-shasta/",
       "kind": "product",
       "record_id": "peak-shasta",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/peak-everest/",
       "kind": "product",
       "record_id": "peak-everest",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/jnh-tosi-1/",
       "kind": "product",
       "record_id": "jnh-tosi-1",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/jnh-tosi-2/",
       "kind": "product",
       "record_id": "jnh-tosi-2",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/jnh-tosi-4/",
       "kind": "product",
       "record_id": "jnh-tosi-4",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/jnh-arki-outdoor-duo/",
       "kind": "product",
       "record_id": "jnh-arki-outdoor-duo",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/peak-mini/",
       "kind": "product",
       "record_id": "peak-mini",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/peak-crown/",
       "kind": "product",
       "record_id": "peak-crown",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/peak-fuji/",
       "kind": "product",
       "record_id": "peak-fuji",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     },
     {
       "path": "/us/saunas/peak-patagonia/",
       "kind": "product",
       "record_id": "peak-patagonia",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-e6/",
-      "kind": "product",
-      "record_id": "saunalife-e6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-e7/",
-      "kind": "product",
-      "record_id": "saunalife-e7",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-cl3g/",
-      "kind": "product",
-      "record_id": "saunalife-cl3g",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-g11/",
-      "kind": "product",
-      "record_id": "saunalife-g11",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/peak-rainier/",
-      "kind": "product",
-      "record_id": "peak-rainier",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/peak-matterhorn/",
-      "kind": "product",
-      "record_id": "peak-matterhorn",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/peak-kilimanjaro/",
-      "kind": "product",
-      "record_id": "peak-kilimanjaro",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/peak-el-capitan/",
-      "kind": "product",
-      "record_id": "peak-el-capitan",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-e6w/",
-      "kind": "product",
-      "record_id": "saunalife-e6w",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-e7w/",
-      "kind": "product",
-      "record_id": "saunalife-e7w",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-e7g/",
-      "kind": "product",
-      "record_id": "saunalife-e7g",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-e8/",
-      "kind": "product",
-      "record_id": "saunalife-e8",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-e8w/",
-      "kind": "product",
-      "record_id": "saunalife-e8w",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-e8g/",
-      "kind": "product",
-      "record_id": "saunalife-e8g",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-ee6g/",
-      "kind": "product",
-      "record_id": "saunalife-ee6g",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-ee8g/",
-      "kind": "product",
-      "record_id": "saunalife-ee8g",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-x2/",
-      "kind": "product",
-      "record_id": "saunalife-x2",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-g2/",
-      "kind": "product",
-      "record_id": "saunalife-g2",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-g3/",
-      "kind": "product",
-      "record_id": "saunalife-g3",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-g6/",
-      "kind": "product",
-      "record_id": "saunalife-g6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-cl4g/",
-      "kind": "product",
-      "record_id": "saunalife-cl4g",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-cl5g/",
-      "kind": "product",
-      "record_id": "saunalife-cl5g",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-cl7g/",
-      "kind": "product",
-      "record_id": "saunalife-cl7g",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-cl12gcp/",
-      "kind": "product",
-      "record_id": "saunalife-cl12gcp",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-gl4/",
-      "kind": "product",
-      "record_id": "saunalife-gl4",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/saunalife-gl6/",
-      "kind": "product",
-      "record_id": "saunalife-gl6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-hillsboro/",
-      "kind": "product",
-      "record_id": "almost-heaven-hillsboro",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-pinnacle/",
-      "kind": "product",
-      "record_id": "almost-heaven-pinnacle",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-logan/",
-      "kind": "product",
-      "record_id": "almost-heaven-logan",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-princeton/",
-      "kind": "product",
-      "record_id": "almost-heaven-princeton",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-rainelle/",
-      "kind": "product",
-      "record_id": "almost-heaven-rainelle",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-audra/",
-      "kind": "product",
-      "record_id": "almost-heaven-audra",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-bridgeport/",
-      "kind": "product",
-      "record_id": "almost-heaven-bridgeport",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-grandview/",
-      "kind": "product",
-      "record_id": "almost-heaven-grandview",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-titan/",
-      "kind": "product",
-      "record_id": "almost-heaven-titan",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-patterson/",
-      "kind": "product",
-      "record_id": "almost-heaven-patterson",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-lewisburg/",
-      "kind": "product",
-      "record_id": "almost-heaven-lewisburg",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-grayson/",
-      "kind": "product",
-      "record_id": "almost-heaven-grayson",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-charleston/",
-      "kind": "product",
-      "record_id": "almost-heaven-charleston",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-huntington/",
-      "kind": "product",
-      "record_id": "almost-heaven-huntington",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/almost-heaven-madison/",
-      "kind": "product",
-      "record_id": "almost-heaven-madison",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-mpulse-aspire/",
-      "kind": "product",
-      "record_id": "sunlighten-mpulse-aspire",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-mpulse-believe/",
-      "kind": "product",
-      "record_id": "sunlighten-mpulse-believe",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-mpulse-conquer/",
-      "kind": "product",
-      "record_id": "sunlighten-mpulse-conquer",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-mpulse-discover/",
-      "kind": "product",
-      "record_id": "sunlighten-mpulse-discover",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-mpulse-empower/",
-      "kind": "product",
-      "record_id": "sunlighten-mpulse-empower",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-amplify-ii/",
-      "kind": "product",
-      "record_id": "sunlighten-amplify-ii",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-amplify-iii/",
-      "kind": "product",
-      "record_id": "sunlighten-amplify-iii",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-amplify-iv/",
-      "kind": "product",
-      "record_id": "sunlighten-amplify-iv",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-signature-i/",
-      "kind": "product",
-      "record_id": "sunlighten-signature-i",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sun-home-solstice/",
-      "kind": "product",
-      "record_id": "sun-home-solstice",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sun-home-equinox/",
-      "kind": "product",
-      "record_id": "sun-home-equinox",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sun-home-eclipse-2/",
-      "kind": "product",
-      "record_id": "sun-home-eclipse-2",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sun-home-pod/",
-      "kind": "product",
-      "record_id": "sun-home-pod",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sun-home-luminar-2/",
-      "kind": "product",
-      "record_id": "sun-home-luminar-2",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sun-home-nova-3/",
-      "kind": "product",
-      "record_id": "sun-home-nova-3",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sun-home-solaris/",
-      "kind": "product",
-      "record_id": "sun-home-solaris",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-cabin-4/",
-      "kind": "product",
-      "record_id": "redwood-cabin-4",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-cove-3/",
-      "kind": "product",
-      "record_id": "redwood-cove-3",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-garden-8/",
-      "kind": "product",
-      "record_id": "redwood-garden-8",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-grove-8/",
-      "kind": "product",
-      "record_id": "redwood-grove-8",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-vista-6/",
-      "kind": "product",
-      "record_id": "redwood-vista-6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-horizon-6/",
-      "kind": "product",
-      "record_id": "redwood-horizon-6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-duo-2/",
-      "kind": "product",
-      "record_id": "redwood-duo-2",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-summit-6/",
-      "kind": "product",
-      "record_id": "redwood-summit-6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-barrel-6/",
-      "kind": "product",
-      "record_id": "redwood-barrel-6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-barrel-porch-6/",
-      "kind": "product",
-      "record_id": "redwood-barrel-porch-6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-extra-wide-porch-6/",
-      "kind": "product",
-      "record_id": "redwood-extra-wide-porch-6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-extra-wide-6/",
-      "kind": "product",
-      "record_id": "redwood-extra-wide-6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-barrel-8/",
-      "kind": "product",
-      "record_id": "redwood-barrel-8",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-noctra-8/",
-      "kind": "product",
-      "record_id": "redwood-noctra-8",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/thermory-luik-kodiak/",
-      "kind": "product",
-      "record_id": "thermory-luik-kodiak",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/thermory-luik-ash/",
-      "kind": "product",
-      "record_id": "thermory-luik-ash",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/thermory-traditional-mod6/",
-      "kind": "product",
-      "record_id": "thermory-traditional-mod6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/thermory-modern-mod6/",
-      "kind": "product",
-      "record_id": "thermory-modern-mod6",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/thermory-mod4-traditional/",
-      "kind": "product",
-      "record_id": "thermory-mod4-traditional",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/thermory-mod4-modern/",
-      "kind": "product",
-      "record_id": "thermory-mod4-modern",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/thermory-sauna-square/",
-      "kind": "product",
-      "record_id": "thermory-sauna-square",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/thermory-natural-barrel/",
-      "kind": "product",
-      "record_id": "thermory-natural-barrel",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/thermory-ignite-barrel/",
-      "kind": "product",
-      "record_id": "thermory-ignite-barrel",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-electric-heater/",
-      "kind": "product",
-      "record_id": "redwood-electric-heater",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-heater-fence/",
-      "kind": "product",
-      "record_id": "redwood-heater-fence",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-lighting/",
-      "kind": "product",
-      "record_id": "redwood-lighting",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-bench-extender/",
-      "kind": "product",
-      "record_id": "redwood-bench-extender",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-roof-shingles/",
-      "kind": "product",
-      "record_id": "redwood-roof-shingles",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-privacy-screen/",
-      "kind": "product",
-      "record_id": "redwood-privacy-screen",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/redwood-outdoor-shower/",
-      "kind": "product",
-      "record_id": "redwood-outdoor-shower",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-solo-system/",
-      "kind": "product",
-      "record_id": "sunlighten-solo-system",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-solo-rise/",
-      "kind": "product",
-      "record_id": "sunlighten-solo-rise",
-      "robots": "noindex, follow"
-    },
-    {
-      "path": "/us/saunas/sunlighten-luminir-panel/",
-      "kind": "product",
-      "record_id": "sunlighten-luminir-panel",
-      "robots": "noindex, follow"
+      "robots": "index, follow"
     }
   ],
   "forbidden_output_markers": [

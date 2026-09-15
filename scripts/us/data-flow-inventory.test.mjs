@@ -25,6 +25,7 @@ test("the inventory names every active repository-visible recipient class", () =
     "awin-product-feed-ingestion",
     "cloudflare-git-build-and-deploy",
     "cloudflare-static-hosting",
+    "cloudflare-web-analytics",
     "email-contact",
     "github-source-ci-and-build-trigger",
     "non-affiliate-outbound-click",
@@ -82,7 +83,13 @@ test("Awin ingestion uses a secret and persists only sanitized reports", async (
 
 test("future collection features remain proposed and disabled", () => {
   const proposed = new Map(inventory.proposed_controls.map((control) => [control.id, control]));
-  for (const id of ["analytics-enabled", "us-affiliate-click-reference-enabled", "contact-form-enabled", "account-preview-enabled"]) {
+  for (const id of ["us-affiliate-click-reference-enabled", "contact-form-enabled", "account-preview-enabled"]) {
     assert.equal(proposed.get(id)?.default, false);
   }
+});
+
+test("Cloudflare Web Analytics is recorded as an operator-enabled hosting service", () => {
+  const service = inventory.services.find((entry) => entry.id === "cloudflare-web-analytics");
+  assert.equal(service?.active, true);
+  assert.match(service?.recipients?.join(",") ?? "", /Cloudflare/);
 });

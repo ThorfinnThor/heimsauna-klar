@@ -2,8 +2,8 @@
   "schema_version": 1,
   "market": "US",
   "updated_at": "2026-09-15",
-  "status": "staged-trust-pages-required",
-  "purpose": "Defines the first US search-launch slice without enabling indexing. A product can enter this slice only when its model identity, placement, capacity, exterior dimensions, materials and core electrical values are tied to an exact manufacturer page.",
+  "status": "ready-to-index",
+  "purpose": "Defines the first US search-launch slice. A product can enter this slice only when its model identity, placement, capacity, exterior dimensions, materials and core electrical values are tied to an exact manufacturer page.",
   "first_wave": {
     "product_ids": [
       "peak-shasta",
@@ -64,13 +64,10 @@
     "first_wave_data_qualified": 10,
     "first_wave_editorial_reviewed": 10,
     "first_wave_supporting_pages_reviewed": 4,
-    "first_wave_indexable_now": 0,
-    "indexing_enabled": false
+    "first_wave_trust_pages_reviewed": 4,
+    "first_wave_indexable_now": 10,
+    "indexing_enabled": true
   },
-  "remaining_gates": [
-    "Complete the operator review of the US contact, methodology, affiliate disclosure and privacy pages before changing their publication status.",
-    "Promote only the reviewed first-wave products and configurations to published in a separate release.",
-    "Enable indexing only after the publication-state, sitemap, robots, structured-data and live-device checks pass for the exact release snapshot."
-  ],
+  "remaining_gates": [],
   "commercial_scope": "Affiliate approval and image rights are separate gates. They do not prevent a source-based, image-free editorial launch, but no US offer, tracking link, price or manufacturer image may appear before its own approval is documented."
 }

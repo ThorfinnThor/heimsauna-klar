@@ -203,15 +203,17 @@ function validBundle() {
   };
 }
 
-test("the checked-in US beta bundle is public but remains non-indexed and non-commercial", async () => {
+test("the checked-in US bundle exposes only the published first wave", async () => {
   const bundle = await loadUsBundle();
   assert.doesNotThrow(() => validateUsBundle(bundle));
   assert.equal(bundle.products.products.length, 100);
-  assert.ok(bundle.products.products.every((product) => product.publication_status === "candidate"));
+  assert.equal(bundle.products.products.filter((product) => product.publication_status === "published").length, 10);
+  assert.equal(bundle.products.products.filter((product) => product.publication_status === "candidate").length, 90);
   assert.equal(bundle.offers.offers.length, 0);
   assert.equal(bundle.publication.routes_enabled, true);
-  assert.equal(bundle.publication.indexing_enabled, false);
+  assert.equal(bundle.publication.indexing_enabled, true);
   assert.equal(bundle.publication.affiliate_links_enabled, false);
+  assert.equal(bundle.publication.feed_sync_enabled, false);
 });
 
 test("a complete non-public pilot-shaped bundle passes", () => {

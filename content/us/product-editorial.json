@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "reviewed",
+  "status": "published",
   "entries": [
     {
       "id": "peak-shasta-editorial",
       "product_id": "peak-shasta",
-      "status": "reviewed",
+      "status": "published",
       "eyebrow": "One-person indoor cabin",
       "heading": "A compact footprint with a documented 15-amp supply",
       "summary": "Peak Shasta is a one-person indoor infrared cabin measuring 42 × 40 × 75 inches with a documented 120 V, 1,800 W and 15 A supply.",
@@ -19,13 +19,18 @@
         "Canadian Hemlock is the documented material in the current record.",
         "A 15-amp electrical value is recorded, while clearance details remain open."
       ],
-      "limitations": ["Shipping dimensions and minimum clearances are not stated on the reviewed product page.", "This page reports the manufacturer's published specifications and does not describe a hands-on test."],
-      "source_ids": ["peak-shasta-product"]
+      "limitations": [
+        "Shipping dimensions and minimum clearances are not stated on the reviewed product page.",
+        "This page reports the manufacturer's published specifications and does not describe a hands-on test."
+      ],
+      "source_ids": [
+        "peak-shasta-product"
+      ]
     },
     {
       "id": "peak-everest-editorial",
       "product_id": "peak-everest",
-      "status": "reviewed",
+      "status": "published",
       "eyebrow": "Two-person indoor cabin",
       "heading": "The two-seat Peak record that carries a 20-amp circuit note",
       "summary": "Peak Everest seats two in a 53 × 44 × 75-inch indoor infrared cabin and has a documented dedicated 120 V, 20 A circuit requirement.",
@@ -38,13 +43,18 @@
         "The documented 20-amp circuit note changes the planning question compared with smaller Peak models.",
         "Door swing, working space and installation clearances still need the model documentation."
       ],
-      "limitations": ["The reviewed page does not provide shipping dimensions or a complete clearance schedule.", "The site does not certify the local receptacle or wiring arrangement."],
-      "source_ids": ["peak-everest-product"]
+      "limitations": [
+        "The reviewed page does not provide shipping dimensions or a complete clearance schedule.",
+        "The site does not certify the local receptacle or wiring arrangement."
+      ],
+      "source_ids": [
+        "peak-everest-product"
+      ]
     },
     {
       "id": "peak-mini-editorial",
       "product_id": "peak-mini",
-      "status": "reviewed",
+      "status": "published",
       "eyebrow": "Small indoor cabin",
       "heading": "The smallest documented Peak footprint in this group",
       "summary": "Peak Mini is a one-person indoor infrared cabin measuring 31 × 32 × 67 inches, with a documented 120 V, 1,200 W plug-in connection.",
@@ -57,13 +67,18 @@
         "The record identifies Canadian Hemlock as the material.",
         "The current data set leaves the required circuit and plug type open."
       ],
-      "limitations": ["The manufacturer page does not document shipping dimensions or minimum clearances in the reviewed record.", "A low-height fit still needs a check for ventilation and access."],
-      "source_ids": ["peak-mini-product"]
+      "limitations": [
+        "The manufacturer page does not document shipping dimensions or minimum clearances in the reviewed record.",
+        "A low-height fit still needs a check for ventilation and access."
+      ],
+      "source_ids": [
+        "peak-mini-product"
+      ]
     },
     {
       "id": "peak-crown-editorial",
       "product_id": "peak-crown",
-      "status": "reviewed",
+      "status": "published",
       "eyebrow": "Two-person indoor cabin",
       "heading": "A two-seat cabin with a 48-inch exterior width",
       "summary": "Peak Crown is a two-person indoor infrared cabin measuring 48 × 44 × 79 inches, with a documented 120 V, 1,800 W and 15 A connection.",
@@ -76,13 +91,18 @@
         "Canadian Hemlock is the documented construction material.",
         "The 15-amp rating is recorded, but the required circuit field remains unresolved."
       ],
-      "limitations": ["Clearances, shipping dimensions and installation access are not part of the reviewed product record.", "The page is a source-based comparison aid, not a fit guarantee."],
-      "source_ids": ["peak-crown-product"]
+      "limitations": [
+        "Clearances, shipping dimensions and installation access are not part of the reviewed product record.",
+        "The page is a source-based comparison aid, not a fit guarantee."
+      ],
+      "source_ids": [
+        "peak-crown-product"
+      ]
     },
     {
       "id": "peak-fuji-editorial",
       "product_id": "peak-fuji",
-      "status": "reviewed",
+      "status": "published",
       "eyebrow": "Two-person indoor cabin",
       "heading": "Fuji pairs a familiar footprint with a cedar record",
       "summary": "Peak Fuji combines two seats, a 53 × 44 × 75-inch cedar cabinet and a documented 120 V, 20 A circuit requirement.",
@@ -95,13 +115,18 @@
         "The documented material is Canadian Red Cedar.",
         "The 20-amp circuit value is recorded, while connection details remain open."
       ],
-      "limitations": ["Minimum clearances and shipping dimensions are not documented on the reviewed product page.", "The comparison does not infer a wiring method from the power rating."],
-      "source_ids": ["peak-fuji-product"]
+      "limitations": [
+        "Minimum clearances and shipping dimensions are not documented on the reviewed product page.",
+        "The comparison does not infer a wiring method from the power rating."
+      ],
+      "source_ids": [
+        "peak-fuji-product"
+      ]
     },
     {
       "id": "peak-patagonia-editorial",
       "product_id": "peak-patagonia",
-      "status": "reviewed",
+      "status": "published",
       "eyebrow": "Two-person outdoor cabin",
       "heading": "An outdoor infrared record with a 240-volt supply",
       "summary": "Peak Patagonia is a two-person outdoor infrared cabin measuring 52 × 42 × 83 inches and requiring a documented dedicated 240 V, 20 A circuit.",
@@ -114,13 +139,18 @@
         "The 240-volt supply separates this record from the indoor 120-volt Peak cabins.",
         "The current record lists the materials but does not replace the outdoor installation instructions."
       ],
-      "limitations": ["The reviewed source does not provide a complete foundation, shipping or clearance specification.", "No delivery or installation service is implied by this research entry."],
-      "source_ids": ["peak-patagonia-product"]
+      "limitations": [
+        "The reviewed source does not provide a complete foundation, shipping or clearance specification.",
+        "No delivery or installation service is implied by this research entry."
+      ],
+      "source_ids": [
+        "peak-patagonia-product"
+      ]
     },
     {
       "id": "jnh-tosi-1-editorial",
       "product_id": "jnh-tosi-1",
-      "status": "reviewed",
+      "status": "published",
       "eyebrow": "One-person indoor cabin",
       "heading": "Tosi 1-Person keeps the indoor footprint to 35.5 inches",
       "summary": "JNH Tosi 1-Person is a 35.5-inch-square indoor infrared cabin with a documented 120 V, 1,320 W and 15 A plug-in connection.",
@@ -133,13 +163,18 @@
         "Canadian Hemlock is the documented material.",
         "The documented supply is 15 amps; a dedicated-circuit requirement is not stated."
       ],
-      "limitations": ["Minimum clearances and shipping dimensions are not stated in the reviewed record.", "The manufacturer does not state whether a dedicated circuit is required, and the outlet description does not establish local code compliance."],
-      "source_ids": ["jnh-tosi-1-product"]
+      "limitations": [
+        "Minimum clearances and shipping dimensions are not stated in the reviewed record.",
+        "The manufacturer does not state whether a dedicated circuit is required, and the outlet description does not establish local code compliance."
+      ],
+      "source_ids": [
+        "jnh-tosi-1-product"
+      ]
     },
     {
       "id": "jnh-tosi-2-editorial",
       "product_id": "jnh-tosi-2",
-      "status": "reviewed",
+      "status": "published",
       "eyebrow": "Two-person indoor cabin",
       "heading": "Tosi 2-Person pairs a 47.3-inch width with a 15-amp supply",
       "summary": "JNH Tosi 2-Person is a cedar indoor infrared cabin measuring 47.3 × 39.5 × 75 inches, with a documented 120 V, 1,540 W plug-in connection.",
@@ -152,13 +187,18 @@
         "The two-seat capacity and cedar material are tied to this exact configuration.",
         "The documented supply is 15 amps; a dedicated-circuit requirement is not stated."
       ],
-      "limitations": ["The source does not provide a complete clearance or shipping schedule.", "The manufacturer's outlet description does not replace the model instructions or local electrical requirements."],
-      "source_ids": ["jnh-tosi-2-product"]
+      "limitations": [
+        "The source does not provide a complete clearance or shipping schedule.",
+        "The manufacturer's outlet description does not replace the model instructions or local electrical requirements."
+      ],
+      "source_ids": [
+        "jnh-tosi-2-product"
+      ]
     },
     {
       "id": "jnh-tosi-4-editorial",
       "product_id": "jnh-tosi-4",
-      "status": "reviewed",
+      "status": "published",
       "eyebrow": "Four-person indoor cabin",
       "heading": "The Tosi Red record is wider and electrically distinct",
       "summary": "JNH Tosi Red seats four in a 70.9 × 47.3 × 75-inch cedar cabin and has a documented dedicated 120 V, 20 A supply with NEMA 5-20R socket.",
@@ -171,13 +211,18 @@
         "The four-person capacity is documented for this model, not inferred from the product family.",
         "The 20-amp circuit and NEMA 5-20R socket are part of the reviewed electrical record."
       ],
-      "limitations": ["Clearances, delivery dimensions and installation access remain outside the normalized record.", "The page does not rank this model against smaller cabins."],
-      "source_ids": ["jnh-tosi-4-product"]
+      "limitations": [
+        "Clearances, delivery dimensions and installation access remain outside the normalized record.",
+        "The page does not rank this model against smaller cabins."
+      ],
+      "source_ids": [
+        "jnh-tosi-4-product"
+      ]
     },
     {
       "id": "jnh-arki-outdoor-duo-editorial",
       "product_id": "jnh-arki-outdoor-duo",
-      "status": "reviewed",
+      "status": "published",
       "eyebrow": "Two-person outdoor cabin",
       "heading": "Arki is an outdoor model, not an outdoor Tosi variant",
       "summary": "JNH Arki Outdoor Duo is a two-person 55.25 × 47.25 × 77.5-inch infrared cabin with a documented dedicated 120 V, 20 A supply.",
@@ -190,8 +235,13 @@
         "The 55.25-inch width and 77.5-inch height describe the cabinet only.",
         "The 120-volt supply includes a documented 20-amp circuit and NEMA 5-20P plug."
       ],
-      "limitations": ["The reviewed page does not establish foundation, weather-exposure or shipping requirements.", "Outdoor placement should be checked against the manufacturer's installation instructions and local requirements."],
-      "source_ids": ["jnh-arki-outdoor-duo-product"]
+      "limitations": [
+        "The reviewed page does not establish foundation, weather-exposure or shipping requirements.",
+        "Outdoor placement should be checked against the manufacturer's installation instructions and local requirements."
+      ],
+      "source_ids": [
+        "jnh-arki-outdoor-duo-product"
+      ]
     }
   ]
 }

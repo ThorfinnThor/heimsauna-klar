@@ -821,9 +821,11 @@ if (isCli) {
   const bundle = await loadUsBundle();
   const issues = validateUsBundle(bundle);
   const warnings = issues.filter((entry) => entry.severity === "warning");
+  const publicationState = bundle.publication.indexing_enabled ? "indexing enabled" : "indexing disabled";
   console.log(
     `US data check passed: ${bundle.products.products.length} products, `
       + `${bundle.configurations.configurations.length} configurations, `
-      + `${bundle.offers.offers.length} offers, ${warnings.length} warnings; routes are enabled, while indexing, affiliate links and feed sync remain disabled.`,
+      + `${bundle.offers.offers.length} offers, ${warnings.length} warnings; routes are ${bundle.publication.routes_enabled ? "enabled" : "disabled"}, `
+      + `${publicationState}, affiliate links are ${bundle.publication.affiliate_links_enabled ? "enabled" : "disabled"} and feed sync is ${bundle.publication.feed_sync_enabled ? "enabled" : "disabled"}.`,
   );
 }

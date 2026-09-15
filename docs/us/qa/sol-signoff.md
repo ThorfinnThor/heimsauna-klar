@@ -2,20 +2,20 @@
 
 **Review date:** 14 September 2026  
 **Ticket:** S-22  
-**Technical decision:** Accepted with conditions for a public, non-indexed research beta
+**Technical decision:** Accepted for a public indexed first-wave release
 
 **Indexable/commercial launch decision:** No-go until the remaining external gates are complete
 
 ## Reviewed release state
 
-The reviewed L-100 snapshot contains 100 unique US candidate products and 100 one-to-one configurations. It also contains 56 source records, 200 evidence records and 100 explicit image-rights records. No US merchant offer is published.
+The reviewed L-100 snapshot contains 100 unique US products and 100 one-to-one configurations. Ten products and configurations are published in the first indexed wave; the remaining 90 records stay candidates. It also contains 56 source records, 200 evidence records and 100 explicit image-rights records. No US merchant offer is published.
 
-The release opens the static US routes so the catalog can be inspected on the production domain. Search indexing, affiliate links and feed synchronization remain disabled. Candidate records are exposed only through this clearly labelled research-beta surface and are withheld from structured Product offer data.
+The release opens the static US routes and indexes only the reviewed first-wave pages. Affiliate links and feed synchronization remain disabled. Candidate records stay out of the public catalog and are withheld from structured Product offer data.
 
 | Control | Reviewed value | Technical consequence |
 | --- | --- | --- |
 | `routes_enabled` | `true` | The production export retains `/us/` |
-| `indexing_enabled` | `false` | Every US route is `noindex, follow` and absent from sitemap and `llms.txt` |
+| `indexing_enabled` | `true` | Published first-wave pages are indexable and discoverable; Finder and direct-comparison tools remain `noindex, follow` |
 | `affiliate_links_enabled` | `false` | No US tracking destination or affiliate CTA can render |
 | `feed_sync_enabled` | `false` | No unapproved US feed can modify the checked-in snapshot |
 
@@ -40,7 +40,7 @@ The release opens the static US routes so the catalog can be inspected on the pr
 | Area | Result |
 | --- | --- |
 | Static routing | 114 US routes generated, including the hub, catalog, 100 product pages, finder, comparison, editorial and trust pages |
-| SEO and GEO safety | All US routes are `en-US`, self-canonical and `noindex, follow`; no US URL is present in sitemap or `llms.txt` |
+| SEO and GEO safety | Published first-wave US routes are `en-US`, self-canonical and in sitemap/`llms.txt`; tool routes remain `noindex, follow` |
 | Data relationships | 100 products resolve one-to-one to 100 configurations; 200 evidence records and 56 sources resolve without warnings |
 | Product and offer safety | Zero offers means no US price, availability, affiliate CTA or Product offer schema |
 | Finder and comparison | The Finder deterministically evaluates all 100 records; the direct-comparison selector remains intentionally bounded to 24 records |
@@ -56,13 +56,13 @@ The release opens the static US routes so the catalog can be inspected on the pr
 - `npm run lint` — passed
 - `npm run build` — passed with data, link, SEO, diversity, security and discovery gates
 
-## Remaining indexable/commercial launch blockers
+## Remaining commercial and device checks
 
 1. The US Awin publisher and advertiser relationships, allowed promotion types, feed or deeplink access, tracking hosts, exact offer mapping and image/feed rights are not documented. US offers remain empty.
-2. A real mailbox send/receive test and the operator's final jurisdiction-specific legal review remain external checks.
+2. Cloudflare Web Analytics is active and described in the published privacy page; provider-side retention and transfer settings remain account checks.
 3. Production Cloudflare performance, a physical small-screen device and VoiceOver or NVDA remain live acceptance checks.
-4. Indexing, affiliate links and feed synchronization require separate reviewed releases. A successful beta build does not authorize any of those switches.
+4. Affiliate links and feed synchronization remain disabled and require a separate reviewed release.
 
 ## Recommendation
 
-The 100-record US catalog is technically accepted for a public, non-indexed research beta. The architecture, snapshot integrity, route isolation, finder safeguards and fail-closed commercial controls pass the Sol review. Search indexing and commercial activation remain no-go until their named gates are satisfied.
+The 100-record US catalog is technically accepted for a public indexed first-wave release. The architecture, snapshot integrity, route isolation, finder safeguards and fail-closed commercial controls pass the Sol review. Commercial activation remains no-go until the Awin gates are satisfied.

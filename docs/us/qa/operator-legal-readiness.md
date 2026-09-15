@@ -1,12 +1,12 @@
 # US operator and legal readiness review
 
-**Review date:** 14 September 2026  
+**Review date:** 15 September 2026
 **Task:** O-03 / S-18 preparation  
 **Scope:** technical readiness of the protected US trust-page draft
 
 ## Current result
 
-The four US trust-page drafts are technically integrated and describe the behavior currently visible in the repository. They remain drafts. No legal conclusion, consent decision or production approval is inferred from the integration.
+The four US trust pages are technically integrated, operator-approved and describe the behavior currently visible in the repository. Cloudflare Web Analytics is confirmed active for the production domain. No affiliate output or feed synchronization is enabled.
 
 The site currently has no account area, checkout, contact form, analytics SDK, advertising pixel, cookie write, local/session storage, browser-side request to an analytics endpoint or embedded third-party frame. Finder selections stay in the visible URL. Contact uses `mailto:` and therefore depends on the sender's and recipient's mail systems.
 
@@ -14,19 +14,19 @@ The site currently has no account area, checkout, contact form, analytics SDK, a
 
 | Area | Evidence needed from operator | Current status |
 | --- | --- | --- |
-| Cloudflare delivery | Web Analytics state, security/request-log products, retention, contractual entity and DPA/transfer terms | open |
+| Cloudflare delivery | Web Analytics is active; provider-side request-log, retention, contractual entity and DPA/transfer details remain account-controlled | recorded |
 | GitHub Actions | Log retention, workflow dispatch permissions and repository access roles | open |
-| Mailbox | Confirmation that `info@selectyoursauna.com` receives a test message, provider and retention/deletion routine | open |
-| Public legal text | Approval of operator details, contact procedure, privacy wording and applicable audience/jurisdiction | open |
-| Consent/opt-out | Operator/legal decision whether outbound attribution or future services require a user-facing control | open |
+| Mailbox | `info@selectyoursauna.com` confirmed correct by operator | recorded |
+| Public legal text | Operator details, contact procedure, privacy wording and applicable audience/jurisdiction approved by operator | recorded |
+| Consent/opt-out | No US affiliate output is enabled; future attribution controls remain a separate gate | deferred |
 | Awin | Advertiser terms and attribution details when affiliate links are activated | deferred by decision; not needed for current zero-offer preview |
 
 ## Safe state
 
-Until these decisions are recorded, keep `content/us/legal.json` and `content/us/affiliate.json` in `draft` status and keep `routes_enabled`, `indexing_enabled`, `affiliate_links_enabled` and `feed_sync_enabled` set to `false`. The output gate therefore removes the US section from the public build.
+The operator-approved legal pages are published for the reviewed US release. `routes_enabled` and `indexing_enabled` are enabled for the first-wave pages only. `affiliate_links_enabled` and `feed_sync_enabled` remain `false` until a separate Awin review is complete.
 
 Changing draft text to `published` or enabling a publication switch would be a release decision, not a documentation cleanup. It requires the operator decision, the corresponding evidence and a new Sol technical review.
 
 ## Next handoff
 
-The operator can complete the open rows without waiting for Awin. After the legal/operator decision is recorded, Sol can recheck S‑18 and the protected preview. Awin evidence can then be added later before any affiliate offer is activated.
+The remaining account checks do not block this editorial indexing release. Awin evidence must still be added before any US affiliate offer is activated.

@@ -2,7 +2,7 @@
 
 **Review date:** 15 September 2026  
 **Reviewer:** Sol  
-**Decision:** Ten products and four supporting editorial pages pass Sol review; zero US pages are approved for indexing yet
+**Decision:** Ten products and four supporting editorial pages pass Sol review and are approved for the first indexed US release
 
 ## First wave
 
@@ -23,7 +23,7 @@ The US home, indoor-infrared comparison, JNH brand page and electrical guide now
 
 The source review also found newer model-page detail for the JNH Tosi 1-Person and Tosi 2-Person configurations. Their technical specifications list 120 volts and 15 amps, while the manufacturer FAQ says a standard 110-volt, 15-amp outlet is sufficient for one- and two-person Tosi models. The evidence records now preserve both statements, and the normalized 15-amp supply requirement cites that exact model-page evidence. Dedicated-circuit status remains open for both models.
 
-The four trust pages remain `draft` and still require operator review. The checked-in publication switch therefore remains `indexing_enabled: false`; the sitemap and `llms.txt` continue to exclude all US routes.
+The four trust pages have now been operator-approved and published. The first-wave products and configurations are published, while the remaining 90 research records stay candidates and remain outside the public catalog. The checked-in publication switch is now `indexing_enabled: true`; the sitemap and `llms.txt` contain only the reviewed first-wave overview, product, editorial and trust routes. Finder and direct-comparison tool routes remain `noindex, follow`.
 
 Affiliate approval and manufacturer-image rights remain separate commercial controls. Their absence does not force factual editorial pages to stay out of search, provided the launch remains image-free and contains no US offers, tracking links, prices or unsupported commercial claims.
 

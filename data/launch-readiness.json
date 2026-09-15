@@ -32,7 +32,7 @@
       "title": "Datensparsame Technik",
       "status": "ready",
       "required_for_indexing": true,
-      "detail": "Der Sauna-Finder verarbeitet Auswahlen nur im Browser. Es gibt keine Datenerfassung, Nutzerkonten, Analyse- oder Marketing-Skripte."
+      "detail": "Der Sauna-Finder verarbeitet Auswahlen nur im Browser. Die Website nutzt kein eigenes Analyse- oder Marketing-Skript; Cloudflare Web Analytics ist als Hosting-Dienst für aggregierte Leistungs- und Besuchsmessungen aktiviert."
     },
     {
       "id": "affiliate_controls",

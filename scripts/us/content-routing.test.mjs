@@ -29,20 +29,19 @@ const basePage = {
   presentation_id: "us-comparison-matrix",
 };
 
-test("the checked-in editorial manifest creates no public SEO pages", () => {
-  assert.deepEqual(getUsEditorialPages(), []);
+test("the checked-in editorial manifest exposes the reviewed US pages", () => {
+  assert.equal(getUsEditorialPages().length, 3);
   const comparisonPages = getUsEditorialPages("comparison", { includeNonPublic: true });
   assert.deepEqual(comparisonPages.map((page) => page.slug), ["indoor-infrared-saunas"]);
-  assert(comparisonPages.every((page) => page.publication_status === "reviewed"));
+  assert(comparisonPages.every((page) => page.publication_status === "published"));
 });
 
-test("trust-page and affiliate drafts are complete without becoming public", () => {
+test("trust pages are published while affiliate output remains disabled", () => {
   const slugs = ["contact", "methodology", "affiliate-disclosure", "privacy"];
-  assert(slugs.every((slug) => getUsTrustPage(slug) === undefined));
   for (const slug of slugs) {
-    const page = getUsTrustPage(slug, { includeNonPublic: true });
+    const page = getUsTrustPage(slug);
     assert(page);
-    assert.equal(page.publication_status, "draft");
+    assert.equal(page.publication_status, "published");
     assert(page.introduction.length > 0);
     assert(page.sections.length > 0);
     assert.equal(page.contact_email, "info@selectyoursauna.com");
@@ -77,12 +76,14 @@ test("a structured comparison deterministically selects the seven documented ind
   assert.deepEqual(selected.map((entry) => entry.product.id), ["jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-everest", "peak-fuji", "sun-home-eclipse-2", "sun-home-equinox"]);
 });
 
-test("candidate records cannot appear in a public comparison", () => {
+test("a public comparison only exposes published records", () => {
   const page = { ...basePage, page_type: "comparison", selection: { placements: ["indoor"] } };
-  assert.deepEqual(selectUsComparisonConfigurations(page, {
+  const selected = selectUsComparisonConfigurations(page, {
     products: productsDocument.products,
     configurations: configurationsDocument.configurations,
-  }), []);
+  });
+  assert(selected.length > 0);
+  assert(selected.every(({ product, configuration }) => product.publication_status === "published" && configuration.publication_status === "published"));
 });
 
 test("brand pages use exact brand identity rather than a partial name", () => {

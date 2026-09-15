@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "draft",
+  "status": "published",
   "pages": [
     {
       "id": "contact",
       "slug": "contact",
-      "publication_status": "draft",
+      "publication_status": "published",
       "title": "Contact Select Your Sauna",
       "description": "Contact Select Your Sauna about a source, product record or correction.",
       "eyebrow": "Contact",
@@ -35,7 +35,7 @@
     {
       "id": "methodology",
       "slug": "methodology",
-      "publication_status": "draft",
+      "publication_status": "published",
       "title": "How Select Your Sauna researches products",
       "description": "The source, matching and limitation rules used for the US sauna research section.",
       "eyebrow": "Methodology",
@@ -78,7 +78,7 @@
     {
       "id": "affiliate-disclosure",
       "slug": "affiliate-disclosure",
-      "publication_status": "draft",
+      "publication_status": "published",
       "title": "Affiliate disclosure for Select Your Sauna",
       "description": "How marked affiliate links, product selection and merchant relationships are handled in the US section.",
       "eyebrow": "Affiliate disclosure",
@@ -114,7 +114,7 @@
     {
       "id": "privacy",
       "slug": "privacy",
-      "publication_status": "draft",
+      "publication_status": "published",
       "title": "Privacy information for Select Your Sauna",
       "description": "The current website data flows, hosting services and external-link boundaries for the US research section.",
       "eyebrow": "Privacy",
@@ -134,7 +134,7 @@
           "id": "cloudflare-delivery",
           "heading": "Static delivery through Cloudflare",
           "paragraphs": [
-            "The site is exported as static HTML, CSS, images and JavaScript and delivered through Cloudflare. A request may include an IP address, time, host, path, query string, referrer, browser or system information and transfer metadata. Cloudflare account products, security logs and retention settings must be checked in the operator account before this text is published."
+            "The site is exported as static HTML, CSS, images and JavaScript and delivered through Cloudflare. A request may include an IP address, time, host, path, query string, referrer, browser or system information and transfer metadata. Cloudflare Web Analytics is enabled for the domain and can receive performance and visit measurements through Cloudflare's analytics service. The exact account products, retention settings and applicable transfer terms are controlled in the Cloudflare account."
           ]
         },
         {

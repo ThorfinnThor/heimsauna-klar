@@ -62,6 +62,8 @@ for (const productId of firstWave) {
     issues.push(`${productId}: configuration is missing`);
     continue;
   }
+  if (product.publication_status !== "published") issues.push(`${productId}: first-wave product must be published for the indexed release`);
+  if (configuration.publication_status !== "published") issues.push(`${productId}: first-wave configuration must be published for the indexed release`);
 
   const sourceRecords = product.source_ids.map((sourceId) => sourceById.get(sourceId)).filter(Boolean);
   const exactManufacturerSources = sourceRecords.filter((source) =>
@@ -161,7 +163,14 @@ for (const pageId of plan.first_wave.editorial_page_ids) {
   }
 }
 for (const pageId of plan.first_wave.trust_page_ids) {
-  if (!trustById.has(pageId)) issues.push(`${pageId}: trust page is missing`);
+  const page = trustById.get(pageId);
+  if (!page) issues.push(`${pageId}: trust page is missing`);
+  else if (!['reviewed', 'published'].includes(page.publication_status)) issues.push(`${pageId}: trust page is not operator-reviewed`);
+}
+
+const trustReviewed = plan.first_wave.trust_page_ids.filter((pageId) => ['reviewed', 'published'].includes(trustById.get(pageId)?.publication_status)).length;
+if (trustReviewed !== plan.current_result.first_wave_trust_pages_reviewed) {
+  issues.push(`reviewed first-wave trust-page count is ${trustReviewed}, expected ${plan.current_result.first_wave_trust_pages_reviewed}`);
 }
 
 if (qualified !== plan.current_result.first_wave_data_qualified) {
@@ -181,6 +190,9 @@ if (plan.current_result.indexing_enabled !== publication.indexing_enabled) {
 }
 if (plan.status !== "ready-to-index" && plan.current_result.first_wave_indexable_now !== 0) {
   issues.push("a blocked plan cannot report indexable first-wave products");
+}
+if (plan.status === "ready-to-index" && plan.current_result.first_wave_indexable_now !== firstWave.length) {
+  issues.push("a ready plan must report every first-wave product as indexable");
 }
 
 if (issues.length > 0) throw new Error(`US indexing-readiness check failed:\n- ${issues.join("\n- ")}`);

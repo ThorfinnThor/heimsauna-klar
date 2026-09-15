@@ -22,10 +22,10 @@ test("every research product resolves to its own configuration and source", () =
   }
 });
 
-test("candidate products never resolve through the public product lookup", () => {
+test("candidate products stay out of the public lookup while the first wave is public", () => {
   for (const product of getUsResearchProducts()) {
-    assert.equal(product.publication_status, "candidate");
-    assert.equal(getUsProductBySlug(product.slug), undefined);
+    if (product.publication_status === "candidate") assert.equal(getUsProductBySlug(product.slug), undefined);
+    else assert.equal(getUsProductBySlug(product.slug)?.id, product.id);
   }
 });
 

@@ -19,9 +19,9 @@ import equivalenceMatrix from "../../docs/us/seo-equivalence-matrix.json" with {
 
 const openRelease = { routesEnabled: true, indexingEnabled: true };
 
-test("the checked-in US release exposes no indexable or sitemap routes", () => {
-  assert.equal(getUsSeoDecision({ path: "/us/", pageClass: "overview" }).indexable, false);
-  assert.deepEqual(getUsSitemapEntries(), []);
+test("the checked-in US release exposes the reviewed first wave and sitemap routes", () => {
+  assert.equal(getUsSeoDecision({ path: "/us/", pageClass: "overview" }).indexable, true);
+  assert(getUsSitemapEntries().length >= 10);
 });
 
 test("only published substantive pages become indexable in an open release", () => {

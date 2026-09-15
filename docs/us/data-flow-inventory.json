@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "market": "US",
-  "reviewed_at": "2026-09-14",
-  "scope": "Repository-visible production website, static deployment, GitHub Actions ingestion and outbound links. Account-dashboard settings and third-party retention are not inferred.",
+  "reviewed_at": "2026-09-15",
+  "scope": "Repository-visible production website, static deployment, Cloudflare Web Analytics, GitHub Actions ingestion and outbound links. Account-dashboard retention and contractual details remain operator-controlled.",
   "public_client": {
     "rendering": "Static HTML, CSS, images and JavaScript served from the same origin through Cloudflare Worker assets.",
     "browser_state": [
@@ -36,6 +36,21 @@
       "storage_in_repository": false,
       "retention": "Not configured in this repository; verify the Cloudflare account and product settings.",
       "region_or_transfer": "Not established by repository code; verify the Cloudflare agreement, DPA and account configuration."
+    },
+    {
+      "id": "cloudflare-web-analytics",
+      "active": true,
+      "trigger": "Cloudflare Web Analytics beacon on a page visit",
+      "data": [
+        "Page-load and navigation timing metrics",
+        "URL and request metadata needed for the analytics report",
+        "Browser and device performance metadata"
+      ],
+      "recipients": ["Cloudflare"],
+      "purpose": ["Web performance measurement", "aggregate visit reporting"],
+      "storage_in_repository": false,
+      "retention": "Controlled by the Cloudflare Web Analytics account and product settings; not configured in this repository.",
+      "region_or_transfer": "Controlled by Cloudflare; verify the zone's contractual entity, DPA and applicable transfer terms."
     },
     {
       "id": "cloudflare-git-build-and-deploy",
@@ -126,26 +141,26 @@
     }
   ],
   "negative_findings": [
-    "No first-party analytics or advertising SDK",
+    "No first-party analytics or advertising SDK; Cloudflare Web Analytics is an active hosting-layer service",
     "No Google Analytics or Google Tag Manager",
     "No analytics, marketing or personalization cookie code",
     "No localStorage or sessionStorage use",
     "No browser fetch, XMLHttpRequest or sendBeacon call in app or lib",
     "No account, login, checkout, payment or server-backed contact form",
     "No geolocation, camera, microphone or payment browser permission",
-    "No embedded third-party iframe, font, image or script host allowed by the checked-in CSP",
+    "No embedded third-party frame, font or image; the Cloudflare Web Analytics beacon is the only explicitly allowed third-party script host",
     "No US affiliate offer or live US tracking destination in the current dataset"
   ],
   "implemented_controls": [
     {
       "id": "us-routes",
       "source": "data/us/publication.json routes_enabled plus US_ROUTES_ENABLED environment restriction",
-      "state": "disabled"
+      "state": "enabled for the reviewed first-wave release"
     },
     {
       "id": "us-indexing",
       "source": "data/us/publication.json indexing_enabled",
-      "state": "disabled"
+      "state": "enabled for the reviewed first-wave release"
     },
     {
       "id": "us-affiliate-output",
@@ -165,15 +180,10 @@
     {
       "id": "browser-egress-policy",
       "source": "public/_headers Content-Security-Policy",
-      "state": "connect-src, images, fonts and scripts restricted to same origin; frames disabled"
+      "state": "connect-src remains same-origin for automatic Cloudflare RUM; scripts allow only the Cloudflare Web Analytics beacon; frames disabled"
     }
   ],
   "proposed_controls": [
-    {
-      "id": "analytics-enabled",
-      "default": false,
-      "reason": "Any future analytics requires an explicit provider, event, retention and consent decision rather than appearing implicitly."
-    },
     {
       "id": "us-affiliate-click-reference-enabled",
       "default": false,
@@ -191,7 +201,7 @@
     }
   ],
   "account_checks_required": [
-    "Cloudflare request-log, Web Analytics, bot/security and retention settings",
+    "Cloudflare request-log, Web Analytics, bot/security and retention settings (Web Analytics confirmed active by operator)",
     "Cloudflare Git integration and build-log retention",
     "GitHub Actions log retention and authorized repository users",
     "Awin US program terms, tracking parameters, reporting retention and international transfers",

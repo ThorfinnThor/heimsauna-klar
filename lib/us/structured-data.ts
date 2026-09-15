@@ -28,6 +28,7 @@ export function usOrganizationJsonLd(): JsonLd {
     url: `${siteUrl}/`,
     logo: absoluteUrl("/brand/sauna-512.png"),
     email: "info@selectyoursauna.com",
+    publishingPrinciples: absoluteUrl("/de/ueber-uns/"),
   };
 }
 
@@ -37,6 +38,7 @@ export function usWebsiteJsonLd(): JsonLd {
     "@type": "WebSite",
     "@id": `${siteUrl}/us/#website`,
     name: "Select Your Sauna",
+    alternateName: ["SelectYourSauna", "SelectYourSauna.com"],
     url: absoluteUrl("/us/"),
     inLanguage: "en-US",
     publisher: { "@id": `${siteUrl}/#organization` },
@@ -128,6 +130,13 @@ export function usEditorialJsonLd(page: UsEditorialPage, items: UsEditorialProdu
     url,
     inLanguage: "en-US",
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    author: {
+      "@type": "Person",
+      "@id": `${siteUrl}/de/ueber-uns/#schayan-yousefian`,
+      name: "Schayan Yousefian",
+      url: absoluteUrl("/de/ueber-uns/#redaktion"),
+    },
+    dateModified: "2026-09-15T00:00:00Z",
     publisher: { "@id": `${siteUrl}/#organization` },
     citation: sources.map((source) => source.url),
   };

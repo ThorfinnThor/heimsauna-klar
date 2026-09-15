@@ -49,17 +49,20 @@ const [snapshot, manifest, publication, productsDocument, configurationsDocument
 ]);
 
 const issues = [];
-if (snapshot.schema_version !== 1 || snapshot.market !== "US" || snapshot.status !== "public-noindex-beta") {
-  issues.push("docs/us/launch-snapshot.json: must be schema version 1, market US and public-noindex-beta");
+const indexedRelease = publication.indexing_enabled === true;
+const expectedSnapshotStatus = indexedRelease ? "public-indexed-first-wave" : "public-noindex-beta";
+const expectedManifestMode = indexedRelease ? "public-static-indexed-first-wave" : "public-static-noindex-beta";
+if (snapshot.schema_version !== 1 || snapshot.market !== "US" || snapshot.status !== expectedSnapshotStatus) {
+  issues.push(`docs/us/launch-snapshot.json: must be schema version 1, market US and ${expectedSnapshotStatus}`);
 }
-if (manifest.schema_version !== 1 || manifest.market !== "US" || manifest.mode !== "public-static-noindex-beta") {
-  issues.push("docs/us/preview-manifest.json: must be schema version 1, market US and public-static-noindex-beta");
+if (manifest.schema_version !== 1 || manifest.market !== "US" || manifest.mode !== expectedManifestMode) {
+  issues.push(`docs/us/preview-manifest.json: must be schema version 1, market US and ${expectedManifestMode}`);
 }
 if (manifest.snapshot_id !== snapshot.snapshot_id) issues.push("preview manifest snapshot_id does not match launch snapshot");
 
 const expectedPublicationControls = {
   routes_enabled: true,
-  indexing_enabled: false,
+  indexing_enabled: indexedRelease,
   affiliate_links_enabled: false,
   feed_sync_enabled: false,
 };
@@ -84,13 +87,17 @@ if (offers.length !== 0) issues.push("protected launch snapshot must not contain
 const configurationIds = new Set(values(configurations));
 const productIds = new Set(values(products));
 for (const product of products) {
-  if (product.publication_status !== "candidate") issues.push(`product ${product.id}: public noindex beta requires candidate status`);
+  if (indexedRelease) {
+    if (!['candidate', 'published'].includes(product.publication_status)) issues.push(`product ${product.id}: indexed first-wave release requires candidate or published status`);
+  } else if (product.publication_status !== "candidate") issues.push(`product ${product.id}: public noindex beta requires candidate status`);
   if (product.configuration_ids.length !== 1 || !configurationIds.has(product.configuration_ids[0])) {
     issues.push(`product ${product.id}: must resolve to one snapshotted configuration`);
   }
 }
 for (const configuration of configurations) {
-  if (configuration.publication_status !== "candidate") issues.push(`configuration ${configuration.id}: public noindex beta requires candidate status`);
+  if (indexedRelease) {
+    if (!['candidate', 'published'].includes(configuration.publication_status)) issues.push(`configuration ${configuration.id}: indexed first-wave release requires candidate or published status`);
+  } else if (configuration.publication_status !== "candidate") issues.push(`configuration ${configuration.id}: public noindex beta requires candidate status`);
   if (!productIds.has(configuration.product_id)) issues.push(`configuration ${configuration.id}: unknown product ${configuration.product_id}`);
 }
 
@@ -100,19 +107,20 @@ for (const [label, document] of [
   ["legal", legalDocument],
   ["page presentations", presentationsDocument],
 ]) {
-  if (document.status !== "draft") issues.push(`${label}: public noindex beta requires an explicit draft status`);
+  if (!indexedRelease && document.status !== "draft") issues.push(`${label}: public noindex beta requires an explicit draft status`);
 }
-if (homeDocument.status !== "reviewed") issues.push("home: accepted public noindex beta content must have reviewed status");
-if (editorialDocument.status !== "reviewed") issues.push("editorial: accepted public noindex beta content must have reviewed status");
-if (productEditorialDocument.status !== "reviewed") issues.push("product editorial: accepted first-wave copy must have reviewed status");
+const acceptedContentStatus = indexedRelease ? "published" : "reviewed";
+if (homeDocument.status !== acceptedContentStatus) issues.push(`home: accepted release content must have ${acceptedContentStatus} status`);
+if (editorialDocument.status !== acceptedContentStatus) issues.push(`editorial: accepted release content must have ${acceptedContentStatus} status`);
+if (productEditorialDocument.status !== acceptedContentStatus) issues.push(`product editorial: accepted release copy must have ${acceptedContentStatus} status`);
 for (const entry of editorialDocument.entries) {
-  if (entry.publication_status !== "reviewed") issues.push(`editorial ${entry.id}: accepted public noindex beta content must have reviewed status`);
+  if (entry.publication_status !== acceptedContentStatus) issues.push(`editorial ${entry.id}: accepted release content must have ${acceptedContentStatus} status`);
 }
 for (const entry of productEditorialDocument.entries) {
-  if (entry.status !== "reviewed") issues.push(`product editorial ${entry.id}: accepted first-wave copy must have reviewed status`);
+  if (entry.status !== acceptedContentStatus) issues.push(`product editorial ${entry.id}: accepted first-wave copy must have ${acceptedContentStatus} status`);
 }
 for (const page of legalDocument.pages) {
-  if (page.publication_status !== "draft") issues.push(`legal ${page.id}: public noindex beta requires draft status`);
+  if (page.publication_status !== acceptedContentStatus) issues.push(`legal ${page.id}: accepted release content must have ${acceptedContentStatus} status`);
 }
 
 compareExactSet(values(rightsRegister.assets, "asset_id"), snapshot.rights?.asset_ids ?? [], "snapshot rights asset_ids", issues);
@@ -128,6 +136,9 @@ for (const product of products) {
   if ((rightsByProduct.get(product.id) ?? []).length !== 1) issues.push(`product ${product.id}: needs exactly one explicit rights-register entry`);
 }
 
+const visibleProducts = indexedRelease ? products.filter((product) => product.publication_status === "published") : products;
+const visibleEditorial = indexedRelease ? editorialDocument.entries.filter((entry) => entry.publication_status === "published") : editorialDocument.entries;
+const visibleLegal = indexedRelease ? legalDocument.pages.filter((page) => page.publication_status === "published") : legalDocument.pages;
 const expectedRoutes = [
   "/us/",
   "/us/saunas/",
@@ -136,15 +147,17 @@ const expectedRoutes = [
   "/us/compare/",
   "/us/compare/models/",
   "/us/guides/",
-  ...editorialDocument.entries.map(editorialPath).filter(Boolean),
-  ...legalDocument.pages.map((page) => `/us/${page.slug}/`),
-  ...products.map((product) => `/us/saunas/${product.slug}/`),
+  ...visibleEditorial.map(editorialPath).filter(Boolean),
+  ...visibleLegal.map((page) => `/us/${page.slug}/`),
+  ...visibleProducts.map((product) => `/us/saunas/${product.slug}/`),
 ];
 const manifestRoutes = manifest.routes.map((route) => route.path);
 if (manifest.expected_page_count !== manifest.routes.length) issues.push("preview manifest expected_page_count does not match its route list");
 compareExactSet(manifestRoutes, expectedRoutes, "preview manifest routes", issues);
 for (const route of manifest.routes) {
-  if (route.robots !== "noindex, follow") issues.push(`${route.path}: public beta robots must be noindex, follow`);
+  const shouldIndex = indexedRelease && !["finder", "comparison-tool"].includes(route.kind);
+  const expectedRobots = shouldIndex ? "index, follow" : "noindex, follow";
+  if (route.robots !== expectedRobots) issues.push(`${route.path}: expected robots ${expectedRobots}`);
   if (route.kind === "product" && !productIds.has(route.record_id)) issues.push(`${route.path}: unknown product record ${route.record_id}`);
 }
 
@@ -166,7 +179,8 @@ for (const marker of manifest.forbidden_output_markers ?? []) {
 if (issues.length > 0) throw new Error(`US launch snapshot check failed:\n${issues.join("\n")}`);
 
 console.log(
-  `US launch snapshot passed: ${snapshot.snapshot_id}; ${products.length} candidate products, `
-  + `${configurations.length} configurations, ${offers.length} offers, ${manifest.routes.length} public noindex routes, `
+  `US launch snapshot passed: ${snapshot.snapshot_id}; ${products.filter((product) => product.publication_status === "published").length} published products, `
+  + `${products.filter((product) => product.publication_status === "candidate").length} candidates, `
+  + `${configurations.length} configurations, ${offers.length} offers, ${manifest.routes.length} declared routes, `
   + `${rightsRegister.assets.length} explicit rights records.`,
 );

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "market": "US",
-  "updated_at": "2026-09-14",
+  "updated_at": "2026-09-15",
   "routes_enabled": true,
-  "indexing_enabled": false,
+  "indexing_enabled": true,
   "affiliate_links_enabled": false,
   "feed_sync_enabled": false
 }

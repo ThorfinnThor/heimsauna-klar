@@ -1,14 +1,17 @@
 {
   "schema_version": 1,
-  "snapshot_id": "us-public-noindex-beta-2026-09-14-l100",
+  "snapshot_id": "us-indexed-first-wave-2026-09-15-l100",
   "market": "US",
-  "created_at": "2026-09-14",
-  "input_commit": "dd91656",
-  "purpose": "Public static noindex research beta for the L-100 candidate dataset. Routes are deployable, while indexing, affiliate output and feed sync remain disabled.",
-  "status": "public-noindex-beta",
+  "created_at": "2026-09-15",
+  "input_commit": "indexed-first-wave-2026-09-15",
+  "purpose": "Public indexed US first-wave release for ten source-complete products, three editorial pages and four operator-approved trust pages. The remaining research records stay candidates; affiliate output and feed sync remain disabled.",
+  "status": "public-indexed-first-wave",
   "publication_controls": {
+    "schema_version": 1,
+    "market": "US",
+    "updated_at": "2026-09-15",
     "routes_enabled": true,
-    "indexing_enabled": false,
+    "indexing_enabled": true,
     "affiliate_links_enabled": false,
     "feed_sync_enabled": false
   },
@@ -352,15 +355,15 @@
   "file_hashes": [
     {
       "path": "data/us/publication.json",
-      "sha256": "c1e0a3e6f9b5d5eadbe88757926f9f83db7199774c5648dc182689ad535662be"
+      "sha256": "59a3f5b5540e5f643edc82f16561fae97c67bfaf41ec94347dca5fc1a389b28d"
     },
     {
       "path": "data/us/products.json",
-      "sha256": "9dbaf3f0b16e01480100074f2b529c0e88db0f5b0efd09f4fb5c0a6fa10bc3c2"
+      "sha256": "fa4664acf96aaba6dbfec356b86eb2747483311e1fd7ceaa3b7a5bb11d043513"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "38902f8a29104935120de1eaa4f0913128c9d3294945b246531e715bc348de9a"
+      "sha256": "25f87fae77d9baa7d7ed53eb15bc799e4ec193a2fa4d6d30d2ced7fd9fbac189"
     },
     {
       "path": "data/us/sources.json",
@@ -388,7 +391,7 @@
     },
     {
       "path": "content/us/home.json",
-      "sha256": "9c7c1c79a9d404870b0640334ca12bd1b1ba255a7a6f3aabf13c205ad1356d59"
+      "sha256": "6045c6b29ccc9c084b4eff455ee8a6b8924f0e57f8802258b825e90cafb0efe2"
     },
     {
       "path": "content/us/affiliate.json",
@@ -396,7 +399,7 @@
     },
     {
       "path": "content/us/legal.json",
-      "sha256": "3d04b939e3899febbb599e236296fc4c74d0de7d9307689678abff24e55dfa61"
+      "sha256": "fbb59cdc06d1eb39a42c2bc681b09f71ae5f72d3748f46645c41f75a659aea80"
     },
     {
       "path": "content/us/page-presentations.json",
@@ -404,11 +407,11 @@
     },
     {
       "path": "content/us/editorial.json",
-      "sha256": "79dcb8e953133cd593fc195318141ac85bbec99e38e2c3cc07aaff6cd23621e6"
+      "sha256": "461296048c5577da8f2cef02b2e9583fed1d3670bd71602e1133fccfc5c63c78"
     },
     {
       "path": "content/us/product-editorial.json",
-      "sha256": "0506e7b01c3f3e3f7303b8f7596007c741ef5be4624ffe022b5fc6f356356b9c"
+      "sha256": "cbd9fb501f1d42a99eb7708830d4117aaee932c12b82cdf438bde317bee1bb70"
     },
     {
       "path": "docs/us/rights-register.json",
@@ -416,8 +419,8 @@
     }
   ],
   "blocking_conditions": [
-    "No reviewed US merchant offer or affiliate tracking link exists.",
-    "Manufacturer image rights are not documented.",
-    "US routes and indexing require separate operator approval after the remaining Luna and Sol reviews."
+    "No reviewed US merchant offer or affiliate tracking link exists; commercial output remains disabled.",
+    "Manufacturer image rights are not documented for public product imagery; the release remains image-free.",
+    "Physical small-screen and assistive-technology checks remain follow-up release checks."
   ]
 }

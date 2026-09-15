@@ -16,8 +16,10 @@ test("the catalog index normalizes every real pilot product", () => {
   assert.deepEqual(researchItems, [...researchItems].sort((a, b) => a.brand.localeCompare(b.brand, "en-US") || a.model.localeCompare(b.model, "en-US")));
 });
 
-test("the public catalog excludes all candidate pilot products", () => {
-  assert.equal(getUsPublicCatalogItems().length, 0);
+test("the public catalog contains only the reviewed first-wave products", () => {
+  const publicItems = getUsPublicCatalogItems();
+  assert.equal(publicItems.length, 10);
+  assert(publicItems.every((item) => item.id));
 });
 
 test("catalog filters keep documented matches deterministic", () => {

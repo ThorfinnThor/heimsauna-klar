@@ -1,4 +1,5 @@
 import { spawnSync } from "node:child_process";
+import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const projectRoot = resolve(import.meta.dirname, "../..");
@@ -7,6 +8,12 @@ const previewEnvironment = {
   US_RESEARCH_PREVIEW: "1",
   US_ROUTES_ENABLED: "false",
 };
+
+const publication = JSON.parse(await readFile(resolve(projectRoot, "data/us/publication.json"), "utf8"));
+if (publication.indexing_enabled) {
+  console.log("US protected preview skipped: the indexed first-wave release uses the post-build SEO and live-release checks instead.");
+  process.exit(0);
+}
 
 function run(label, command, args, environment = process.env) {
   console.log(`\n[US protected preview] ${label}`);

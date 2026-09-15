@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "reviewed",
+  "status": "published",
   "entries": [
     {
       "id": "indoor-infrared-saunas",
       "page_type": "comparison",
       "slug": "indoor-infrared-saunas",
-      "publication_status": "reviewed",
+      "publication_status": "published",
       "title": "Indoor infrared sauna comparison",
       "description": "Compare the documented dimensions, capacity and electrical requirements of the current indoor infrared sauna research set.",
       "eyebrow": "Indoor infrared comparison",
@@ -44,19 +44,28 @@
         "jnh-tosi-2-product",
         "jnh-tosi-4-product"
       ],
-      "related_paths": ["/us/saunas/", "/us/sauna-finder/"],
+      "related_paths": [
+        "/us/saunas/",
+        "/us/sauna-finder/"
+      ],
       "presentation_id": "us-comparison-matrix",
       "selection": {
-        "product_types": ["sauna-cabin"],
-        "heat_types": ["infrared"],
-        "placements": ["indoor"]
+        "product_types": [
+          "sauna-cabin"
+        ],
+        "heat_types": [
+          "infrared"
+        ],
+        "placements": [
+          "indoor"
+        ]
       }
     },
     {
       "id": "jnh-lifestyles",
       "page_type": "brand",
       "slug": "jnh-lifestyles",
-      "publication_status": "reviewed",
+      "publication_status": "published",
       "title": "JNH Lifestyles sauna configurations",
       "description": "A source-based view of the JNH Lifestyles Tosi and Arki sauna configurations in the current US research set.",
       "eyebrow": "JNH Lifestyles",
@@ -88,7 +97,10 @@
         "jnh-tosi-4-product",
         "jnh-arki-outdoor-duo-product"
       ],
-      "related_paths": ["/us/compare/indoor-infrared-saunas/", "/us/sauna-finder/"],
+      "related_paths": [
+        "/us/compare/indoor-infrared-saunas/",
+        "/us/sauna-finder/"
+      ],
       "presentation_id": "us-brand-profile",
       "brand_name": "JNH Lifestyles"
     },
@@ -96,7 +108,7 @@
       "id": "infrared-sauna-electrical-requirements",
       "page_type": "guide",
       "slug": "infrared-sauna-electrical-requirements",
-      "publication_status": "reviewed",
+      "publication_status": "published",
       "title": "Infrared sauna electrical requirements",
       "description": "Learn which model-specific electrical facts need to be checked beyond the voltage printed on an infrared sauna listing.",
       "eyebrow": "Electrical planning",
@@ -135,9 +147,15 @@
         "jnh-tosi-4-product",
         "jnh-arki-outdoor-duo-product"
       ],
-      "related_paths": ["/us/sauna-finder/", "/us/compare/indoor-infrared-saunas/"],
+      "related_paths": [
+        "/us/sauna-finder/",
+        "/us/compare/indoor-infrared-saunas/"
+      ],
       "presentation_id": "us-guide-briefing",
-      "linked_product_ids": ["peak-everest", "jnh-tosi-2"]
+      "linked_product_ids": [
+        "peak-everest",
+        "jnh-tosi-2"
+      ]
     }
   ]
 }
