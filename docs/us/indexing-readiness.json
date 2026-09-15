@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "market": "US",
+  "updated_at": "2026-09-15",
+  "status": "staged-editorial-work-required",
+  "purpose": "Defines the first US search-launch slice without enabling indexing. A product can enter this slice only when its model identity, placement, capacity, exterior dimensions, materials and core electrical values are tied to an exact manufacturer page.",
+  "first_wave": {
+    "product_ids": [
+      "peak-shasta",
+      "peak-everest",
+      "peak-mini",
+      "peak-crown",
+      "peak-fuji",
+      "peak-patagonia",
+      "jnh-tosi-1",
+      "jnh-tosi-2",
+      "jnh-tosi-4",
+      "jnh-arki-outdoor-duo"
+    ],
+    "editorial_page_ids": [
+      "indoor-infrared-saunas",
+      "jnh-lifestyles",
+      "infrared-sauna-electrical-requirements"
+    ],
+    "trust_page_ids": [
+      "contact",
+      "methodology",
+      "affiliate-disclosure",
+      "privacy"
+    ],
+    "overview_paths": [
+      "/us/",
+      "/us/saunas/",
+      "/us/compare/",
+      "/us/brands/",
+      "/us/guides/"
+    ]
+  },
+  "data_criteria": {
+    "exact_model_manufacturer_source": true,
+    "required_documented_product_facts": [
+      "product_type",
+      "heat_type",
+      "energy_sources",
+      "placements",
+      "form"
+    ],
+    "required_documented_configuration_facts": [
+      "capacity.seated",
+      "dimensions.exterior",
+      "materials"
+    ],
+    "required_documented_electrical_facts": [
+      "voltage_v",
+      "rated_power_w",
+      "rated_current_a"
+    ],
+    "conflicts_allowed": false,
+    "maximum_source_age_days": 90
+  },
+  "current_result": {
+    "catalog_products": 100,
+    "first_wave_products": 10,
+    "first_wave_data_qualified": 10,
+    "first_wave_indexable_now": 0,
+    "indexing_enabled": false
+  },
+  "remaining_gates": [
+    "Write and review product-specific decision copy for all ten first-wave product pages; the current factual template is useful for research but not sufficient as an indexable search landing page.",
+    "Complete the editorial review and change the US home, comparison, brand and guide documents from draft only after their first-wave scope is accurate.",
+    "Complete the operator review of the US contact, methodology, affiliate disclosure and privacy pages before changing their publication status.",
+    "Promote only the reviewed first-wave products and configurations to published in a separate release.",
+    "Enable indexing only after the publication-state, sitemap, robots, structured-data and live-device checks pass for the exact release snapshot."
+  ],
+  "commercial_scope": "Affiliate approval and image rights are separate gates. They do not prevent a source-based, image-free editorial launch, but no US offer, tracking link, price or manufacturer image may appear before its own approval is documented."
+}

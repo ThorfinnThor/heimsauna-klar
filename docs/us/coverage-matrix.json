@@ -1,52 +1,98 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "market": "US",
-  "status": "draft",
-  "updated_at": "2026-09-14",
-  "scope": "Initial researched US pilot. Counts refer to distinct product models, not size or electrical variants.",
+  "status": "reviewed-current",
+  "updated_at": "2026-09-15",
+  "scope": "Current 100-record US research catalog. Category counts overlap where a sauna kit also belongs to a placement and heat-type segment. Counts describe distinct product models, never size or electrical variants.",
+  "data_complete_definition": "Product type, heat type, energy source, placement, form, seated capacity, exterior dimensions and materials are documented, and one electrical requirement documents voltage, rated power and rated current together.",
   "categories": [
     {
       "id": "indoor-infrared-cabins",
       "label": "Indoor infrared cabins",
-      "product_count": 8,
-      "configuration_count": 8,
-      "product_ids": ["peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4", "peak-mini", "peak-crown", "peak-fuji"],
-      "status": "pilot-covered",
-      "gaps": ["Shipping dimensions and minimum clearances are not published on the checked pages for every model.", "US account approval and affiliate eligibility are not confirmed.", "Peak Rainier and Peak Matterhorn are source-backed candidates only; configuration facts, rights, offers and publication checks remain open."]
+      "product_count": 24,
+      "data_complete_count": 12,
+      "status": "covered-with-open-records",
+      "gaps": [
+        "Several Sunlighten records do not yet contain normalized electrical requirements.",
+        "Shipping dimensions and minimum clearances are not published for every model."
+      ]
     },
     {
       "id": "outdoor-infrared-cabins",
       "label": "Outdoor infrared cabins",
-      "product_count": 2,
-      "configuration_count": 2,
-      "product_ids": ["jnh-arki-outdoor-duo", "peak-patagonia"],
-      "status": "pilot-covered",
-      "gaps": ["Shipping data, minimum clearances, certifications and current delivery terms require a separate check.", "US account approval and affiliate eligibility are not confirmed.", "Peak Kilimanjaro and Peak El Capitan are source-backed candidates only; outdoor installation facts, rights, offers and publication checks remain open."]
+      "product_count": 5,
+      "data_complete_count": 4,
+      "status": "covered-with-open-records",
+      "gaps": [
+        "The Sun Home Luminar 2 record still lacks a documented rated-power value.",
+        "Outdoor installation clearances and site requirements remain model-specific checks."
+      ]
     },
     {
       "id": "indoor-traditional-cabins",
       "label": "Indoor traditional saunas",
-      "product_count": 0,
-      "configuration_count": 0,
-      "product_ids": [],
-      "status": "not-covered",
-      "gaps": ["Needs a US traditional-heater manufacturer with a sourceable product page and electrical documentation."]
+      "product_count": 9,
+      "data_complete_count": 8,
+      "status": "covered-with-open-records",
+      "gaps": [
+        "The Sun Home Nova 3 record does not yet contain normalized exterior dimensions or electrical requirements.",
+        "Included heater and control packages must remain configuration-specific."
+      ]
     },
     {
       "id": "outdoor-traditional-cabins",
       "label": "Outdoor traditional saunas",
-      "product_count": 0,
-      "configuration_count": 0,
-      "product_ids": [],
-      "status": "not-covered",
-      "gaps": ["Sweat Kingdom The Sweat Cabin is a candidate for this segment, but its wall-height and made-to-order configurations need a separate model and quote review before entry."]
+      "product_count": 39,
+      "data_complete_count": 18,
+      "status": "covered-with-open-records",
+      "gaps": [
+        "Several SaunaLife and Thermory kits are cabin structures without a documented included electrical package.",
+        "Foundation, roof, weather exposure and heater selection cannot be inferred from exterior dimensions alone."
+      ]
+    },
+    {
+      "id": "sauna-kits",
+      "label": "Sauna kits",
+      "product_count": 60,
+      "data_complete_count": 26,
+      "status": "covered-with-open-records",
+      "gaps": [
+        "Kit-only records need a clear distinction between the structure and any separately selected heater or controls.",
+        "Some models still rely on product-range context in addition to an exact model page."
+      ]
+    },
+    {
+      "id": "heaters",
+      "label": "Sauna heaters",
+      "product_count": 1,
+      "data_complete_count": 0,
+      "status": "thin",
+      "gaps": [
+        "The heater segment needs exact model identities, compatible room-volume ranges and model-specific electrical documentation."
+      ]
+    },
+    {
+      "id": "accessories-and-portable",
+      "label": "Accessories and portable products",
+      "product_count": 8,
+      "data_complete_count": 0,
+      "status": "research-only",
+      "gaps": [
+        "Accessories should not be presented as sauna cabins or counted toward cabin coverage.",
+        "Portable products need their own comparison intent and specification criteria before search publication."
+      ]
     }
   ],
+  "first_indexing_wave": {
+    "plan": "docs/us/indexing-readiness.json",
+    "product_count": 10,
+    "data_qualified_count": 10,
+    "indexable_now": 0
+  },
   "next_priorities": [
-    "Review the four Peak candidates in the expansion backlog with model-level configuration and manual evidence.",
-    "Add a traditional outdoor pilot only after an exact Sweat Cabin configuration and shipping scope are documented.",
-    "Keep portable and accessory products in a separate taxonomy and select exact Sunlighten model pages before import.",
-    "Decompose the JNH outdoor collection model by model rather than importing a collection page.",
-    "Complete exact Awin account and offer mapping before any publication status change."
+    "Write and review unique decision copy for the ten technically qualified first-wave products.",
+    "Normalize model-level electrical packages for the strongest traditional outdoor candidates before expanding the launch wave.",
+    "Keep heater, accessory and portable pages out of search until their taxonomy and user intent have dedicated editorial coverage.",
+    "Do not enable US indexing from catalog count alone."
   ]
 }
