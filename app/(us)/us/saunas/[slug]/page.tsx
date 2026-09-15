@@ -11,7 +11,7 @@ import {
   getUsResearchProducts,
   getUsSources,
 } from "@/lib/us/catalog";
-import { isUsResearchPreview } from "@/lib/us/content";
+import { getUsProductEditorial, isUsResearchPreview } from "@/lib/us/content";
 import { createUsPageMetadata } from "@/lib/us/seo";
 import { usBreadcrumbJsonLd, usProductJsonLd } from "@/lib/us/structured-data";
 import type { UsDimensions, UsFact, UsMeasurement } from "@/lib/us/types";
@@ -77,6 +77,7 @@ export default async function UsSaunaProductPage({ params }: Props) {
   const sources = getUsSources(sourceIds);
   const offerPresentations = getUsOfferPresentationsForConfiguration(configuration.id);
   const isResearchPreview = product.publication_status !== "published";
+  const editorial = getUsProductEditorial(product.id, { includeNonPublic: isResearchPreview });
   const placement = product.placements.status === "documented" ? product.placements.value.join(" and ") : null;
   const capacity = configuration.capacity.seated.status === "documented" ? configuration.capacity.seated.value : null;
 
@@ -130,6 +131,28 @@ export default async function UsSaunaProductPage({ params }: Props) {
             )}
           </aside>
         </header>
+
+        {editorial ? (
+          <section className="us-product-editorial" aria-labelledby="editorial-title">
+            <header>
+              <p className="eyebrow">{editorial.eyebrow}</p>
+              <h2 id="editorial-title">{editorial.heading}</h2>
+              {editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+            </header>
+            <div className="us-product-editorial-grid">
+              <div>
+                <p className="eyebrow">What the record helps compare</p>
+                <ul>
+                  {editorial.decision_points.map((point) => <li key={point}>{point}</li>)}
+                </ul>
+              </div>
+              <aside>
+                <p className="eyebrow">Open points</p>
+                {editorial.limitations.map((limitation) => <p key={limitation}>{limitation}</p>)}
+              </aside>
+            </div>
+          </section>
+        ) : null}
 
         <section className="us-product-section us-product-overview" aria-labelledby="configuration-title">
           <div>

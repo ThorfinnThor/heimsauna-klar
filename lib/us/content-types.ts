@@ -72,6 +72,18 @@ export interface UsPagePresentation {
   module_order: UsEditorialModule[];
 }
 
+export interface UsProductEditorial {
+  id: string;
+  product_id: string;
+  status: UsPublicationStatus;
+  eyebrow: string;
+  heading: string;
+  paragraphs: string[];
+  decision_points: string[];
+  limitations: string[];
+  source_ids: string[];
+}
+
 export interface UsTrustPage {
   id: string;
   slug: "contact" | "about" | "methodology" | "affiliate-disclosure" | "privacy";

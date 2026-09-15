@@ -2,6 +2,7 @@ import editorialDocument from "../../content/us/editorial.json" with { type: "js
 import homeDocument from "../../content/us/home.json" with { type: "json" };
 import legalDocument from "../../content/us/legal.json" with { type: "json" };
 import presentationsDocument from "../../content/us/page-presentations.json" with { type: "json" };
+import productEditorialDocument from "../../content/us/product-editorial.json" with { type: "json" };
 import publicationDocument from "../../data/us/publication.json" with { type: "json" };
 import { markets } from "../markets.ts";
 import { getUsResearchConfigurations, getUsResearchProducts, getUsSources } from "./catalog.ts";
@@ -13,6 +14,7 @@ import type {
   UsGuidePage,
   UsHomePage,
   UsPagePresentation,
+  UsProductEditorial,
   UsTrustPage,
 } from "./content-types.ts";
 import type { UsFact, UsMarketProduct, UsProductConfiguration } from "./types.ts";
@@ -21,6 +23,7 @@ const editorialPages = editorialDocument.entries as UsEditorialPage[];
 const homePage = homeDocument as UsHomePage;
 const trustPages = legalDocument.pages as UsTrustPage[];
 const presentations = presentationsDocument.entries as UsPagePresentation[];
+const productEditorialEntries = productEditorialDocument.entries as UsProductEditorial[];
 
 type ContentOptions = { includeNonPublic?: boolean };
 
@@ -64,6 +67,13 @@ export function getUsEditorialPage(pageType: UsEditorialPageType, slug: string, 
 
 export function getUsPresentation(id: string, pageType: UsEditorialPageType) {
   return presentations.find((entry) => entry.id === id && entry.page_type === pageType);
+}
+
+export function getUsProductEditorial(productId: string, options: ContentOptions = {}) {
+  const includeNonPublic = options.includeNonPublic ?? false;
+  if (!contentDocumentIsAvailable(productEditorialDocument.status, includeNonPublic)) return undefined;
+  return productEditorialEntries.find((entry) => entry.product_id === productId
+    && isAvailable(entry.status, includeNonPublic));
 }
 
 export function getUsTrustPage(slug: UsTrustPage["slug"], options: ContentOptions = {}) {

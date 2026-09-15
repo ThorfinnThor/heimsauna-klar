@@ -20,6 +20,7 @@ const CONTENT_FILES = {
   legal: "../../content/us/legal.json",
   pagePresentations: "../../content/us/page-presentations.json",
   editorial: "../../content/us/editorial.json",
+  productEditorial: "../../content/us/product-editorial.json",
 };
 
 const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -323,6 +324,30 @@ function validateEditorialContent(bundle, sourceIds, productIds, issues) {
       if (sections.length === 0) issue(issues, "error", `${path}.sections`, "reviewed content needs at least one substantive section");
       if (pageSourceIds.length === 0) issue(issues, "error", `${path}.source_ids`, "reviewed content needs at least one source");
     }
+  }
+
+  const productEditorial = requireArray(bundle.content?.productEditorial?.entries, "content.productEditorial.entries", issues)
+    ? bundle.content.productEditorial.entries
+    : [];
+  ensureUniqueIds(productEditorial, "content.productEditorial.entries", issues);
+  const productEditorialProductIds = new Set();
+  for (const [index, entry] of productEditorial.entries()) {
+    const path = `content.productEditorial.entries[${index}]`;
+    if (!isObject(entry)) continue;
+    if (!PUBLICATION_STATUSES.has(entry.status)) issue(issues, "error", `${path}.status`, "has an unsupported value");
+    requireId(entry.product_id, `${path}.product_id`, issues);
+    if (!productIds.has(entry.product_id)) issue(issues, "error", `${path}.product_id`, `references unknown ID ${entry.product_id}`);
+    if (productEditorialProductIds.has(entry.product_id)) issue(issues, "error", `${path}.product_id`, `duplicates ${entry.product_id}`);
+    productEditorialProductIds.add(entry.product_id);
+    for (const field of ["eyebrow", "heading"]) requireString(entry[field], `${path}.${field}`, issues);
+    for (const field of ["paragraphs", "decision_points", "limitations"]) {
+      const values = requireArray(entry[field], `${path}.${field}`, issues) ? entry[field] : [];
+      if (values.length === 0) issue(issues, "error", `${path}.${field}`, "must not be empty");
+      for (const [valueIndex, value] of values.entries()) requireString(value, `${path}.${field}[${valueIndex}]`, issues);
+    }
+    const entrySourceIds = validateIdArray(entry.source_ids, `${path}.source_ids`, issues);
+    requireReferences(entrySourceIds, sourceIds, `${path}.source_ids`, issues);
+    if (entrySourceIds.length === 0) issue(issues, "error", `${path}.source_ids`, "needs at least one source");
   }
 
   const home = bundle.content?.home;

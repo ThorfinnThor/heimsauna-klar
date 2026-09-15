@@ -29,4 +29,4 @@ The previous coverage matrix described the early four-category pilot. It now ref
 
 ## Next handoff
 
-Luna should prepare the ten product-specific editorial records and refresh the three supporting editorial pages for this exact launch slice. Sol should then review duplication, claims, metadata, structured data, internal links, sitemap membership and the live mobile/desktop output before the separate indexing switch is considered.
+Luna has prepared ten product-specific editorial records for this exact launch slice. Sol should now review duplication, claims, metadata, structured data, internal links, sitemap membership and the live mobile/desktop output before any status promotion or separate indexing switch is considered.
