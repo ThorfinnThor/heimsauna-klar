@@ -19,7 +19,7 @@ test("the current indexed first-wave catalog has a reproducible review report", 
     publication,
     policy,
   });
-  assert.equal(report.summary.products, 244);
+  assert.equal(report.summary.products, 248);
   assert.equal(report.summary.candidatesAwaitingReview, 221);
   assert.equal(report.summary.sourceStale, 0);
   assert.equal(report.summary.sourceReferencesMissing, 0);

@@ -2444,6 +2444,46 @@
       "rights_status": "not-requested",
       "permission_basis": "none",
       "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sk-contrast-image",
+      "entity_id": "sweat-kingdom-sk-contrast",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/sk-contrast",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-regen-sweat-cabin-image",
+      "entity_id": "sweat-kingdom-regen-sweat-cabin",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/regen-the-sweat-cabin-4-person",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-regen-sweat-cabin-deluxe-image",
+      "entity_id": "sweat-kingdom-regen-sweat-cabin-deluxe",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-sweat-cabin-deluxe-6-person-copy",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-regen-sweat-pod-image",
+      "entity_id": "sweat-kingdom-regen-sweat-pod",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/regen-the-sweat-pod-2-4-person",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
     }
   ]
 }

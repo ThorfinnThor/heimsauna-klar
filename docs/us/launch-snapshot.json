@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with thirteen manually reviewed Sweat Kingdom merchant offers. Two hundred twenty-one research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with seventeen manually reviewed Sweat Kingdom merchant offers. Two hundred twenty-one research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -260,7 +260,11 @@
       "finnmark-fd-4",
       "finnmark-fd-5",
       "finnmark-fd-6",
-      "finnmark-fd-7"
+      "finnmark-fd-7",
+      "sweat-kingdom-sk-contrast",
+      "sweat-kingdom-regen-sweat-cabin",
+      "sweat-kingdom-regen-sweat-cabin-deluxe",
+      "sweat-kingdom-regen-sweat-pod"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -506,7 +510,11 @@
       "finnmark-fd-4-standard",
       "finnmark-fd-5-standard",
       "finnmark-fd-6-standard",
-      "finnmark-fd-7-standard"
+      "finnmark-fd-7-standard",
+      "sweat-kingdom-sk-contrast-standard",
+      "sweat-kingdom-regen-sweat-cabin-standard",
+      "sweat-kingdom-regen-sweat-cabin-deluxe-standard",
+      "sweat-kingdom-regen-sweat-pod-standard"
     ],
     "offer_ids": [
       "offer-sweat-kingdom-sweat-cabin",
@@ -521,10 +529,14 @@
       "offer-sweat-kingdom-sk-110",
       "offer-sweat-kingdom-sk-210",
       "offer-sweat-kingdom-sk-310",
-      "offer-sweat-kingdom-sk-mobile"
+      "offer-sweat-kingdom-sk-mobile",
+      "offer-sweat-kingdom-sk-contrast",
+      "offer-sweat-kingdom-regen-sweat-cabin",
+      "offer-sweat-kingdom-regen-sweat-cabin-deluxe",
+      "offer-sweat-kingdom-regen-sweat-pod"
     ],
-    "source_count": 267,
-    "evidence_count": 503,
+    "source_count": 271,
+    "evidence_count": 515,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -553,7 +565,11 @@
       "sweat-kingdom-sk-110-editorial",
       "sweat-kingdom-sk-210-editorial",
       "sweat-kingdom-sk-310-editorial",
-      "sweat-kingdom-sk-mobile-editorial"
+      "sweat-kingdom-sk-mobile-editorial",
+      "sweat-kingdom-sk-contrast-editorial",
+      "sweat-kingdom-regen-sweat-cabin-editorial",
+      "sweat-kingdom-regen-sweat-cabin-deluxe-editorial",
+      "sweat-kingdom-regen-sweat-pod-editorial"
     ],
     "legal_page_ids": [
       "contact",
@@ -808,7 +824,11 @@
       "finnmark-fd-4-image",
       "finnmark-fd-5-image",
       "finnmark-fd-6-image",
-      "finnmark-fd-7-image"
+      "finnmark-fd-7-image",
+      "sweat-kingdom-sk-contrast-image",
+      "sweat-kingdom-regen-sweat-cabin-image",
+      "sweat-kingdom-regen-sweat-cabin-deluxe-image",
+      "sweat-kingdom-regen-sweat-pod-image"
     ]
   },
   "file_hashes": [
@@ -818,15 +838,15 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "a43bce62b761db0844d49c34bd4842e8fe9026c7007a9abad7cfb934917ac0df"
+      "sha256": "d84b36d01d0c433358d96769e14645e5e84716d58abebdfe644711429e61ebe1"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "36952a0cbc013dd35e7af6e823db4ff1925ca9750f625d6a4bdb6ec8b55afefd"
+      "sha256": "239c2d9b69a334b8f88a01efe38625077c5f70aeeff96f932bcf9d3886f71755"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "7a867985404af4cd533784c6595c3b3fd98c2657d72a3f151b55fe86a70edbee"
+      "sha256": "29fba56d065ff1bd7b5d1f388068334970e8b018bd9893c0846e4e23a2c10b16"
     },
     {
       "path": "data/us/merchants.json",
@@ -838,11 +858,11 @@
     },
     {
       "path": "data/us/offers.json",
-      "sha256": "771b916886bc323b2440a5522e92544e0312918ba620238efb463dacbedf929f"
+      "sha256": "1616bae32eb796584873616af0037e3ca22e1ba4939ba824c859547d106f1e30"
     },
     {
       "path": "data/us/mappings.json",
-      "sha256": "87b1519876daf0ad54f8922c6b428d35d9c80f098a493a024ea302fd5a3fd20b"
+      "sha256": "a79c3f43da88c343c50e6f1a764abe45d8d10c73b8cf37e5fe2a01aaa07e6384"
     },
     {
       "path": "content/us/navigation.json",
@@ -870,11 +890,11 @@
     },
     {
       "path": "content/us/product-editorial.json",
-      "sha256": "09be03d958e9f4a4898cd232b8de51095ae174c0db5d2807b01a0154d723b7f2"
+      "sha256": "c4bf7258aa9959bb08019fcf876e1406355f0266214936dff73a84dfbf51af3c"
     },
     {
       "path": "docs/us/rights-register.json",
-      "sha256": "5b9ce766094101f47cea499e26ce6db9bea9f0f518bd7a54565f209741c3133b"
+      "sha256": "bb9f6f09b762c00116271f12e892dcc25ae2e1aefa06461a4613177ac66b35e5"
     }
   ],
   "blocking_conditions": [

@@ -2671,6 +2671,46 @@
       "market": "US",
       "checked_at": "2026-09-16",
       "locator": "Official retailer product page model identity and category"
+    },
+    {
+      "id": "sweat-kingdom-sk-contrast-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/sk-contrast",
+      "title": "Sweat Kingdom SK Contrast product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-cabin-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/regen-the-sweat-cabin-4-person",
+      "title": "Sweat Kingdom REGEN The Sweat Cabin (4 Person) product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-cabin-deluxe-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-sweat-cabin-deluxe-6-person-copy",
+      "title": "Sweat Kingdom REGEN The Sweat Cabin Deluxe (6 Person) product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-pod-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/regen-the-sweat-pod-2-4-person",
+      "title": "Sweat Kingdom REGEN The Sweat Pod (2-4 Person) product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
     }
   ],
   "evidence": [
@@ -6196,6 +6236,90 @@
       "source_id": "source-finnmark-fd-7-product",
       "field_path": "configuration_identity",
       "raw_value": "Finnmark FD-7 Thermo-Aspen Combination Barrel Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-contrast-product",
+      "entity_id": "sweat-kingdom-sk-contrast",
+      "source_id": "sweat-kingdom-sk-contrast-product",
+      "field_path": "product_identity",
+      "raw_value": "SK Contrast, a pre-built outdoor contrast-therapy suite combining a traditional sauna and cold plunge."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-contrast-configuration",
+      "entity_id": "sweat-kingdom-sk-contrast-standard",
+      "source_id": "sweat-kingdom-sk-contrast-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Three footprint options are listed: 8 × 10, 8 × 12 and 8 × 16 feet. The merchant lists tight-knot red cedar, thermo spruce or thermo aspen, an optional shower and a custom layout."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-contrast-electrical",
+      "entity_id": "sweat-kingdom-sk-contrast-standard",
+      "source_id": "sweat-kingdom-sk-contrast-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "The sauna requires a 50 A dedicated breaker with 6/3 hardwire; the cold plunge requires its own 20 A dedicated circuit. Voltage, heater power and phase are not stated."
+    },
+    {
+      "id": "evidence-sweat-kingdom-regen-sweat-cabin-product",
+      "entity_id": "sweat-kingdom-regen-sweat-cabin",
+      "source_id": "sweat-kingdom-regen-sweat-cabin-product",
+      "field_path": "product_identity",
+      "raw_value": "REGEN The Sweat Cabin (4 Person), a traditional red cedar sauna for indoor or outdoor placement."
+    },
+    {
+      "id": "evidence-sweat-kingdom-regen-sweat-cabin-configuration",
+      "entity_id": "sweat-kingdom-regen-sweat-cabin-standard",
+      "source_id": "sweat-kingdom-regen-sweat-cabin-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The 4-person model is listed with a 6-foot wall at 77 inches high × 72.5 inches deep × 72 inches wide. The page also describes a 7-foot wall option at 89 inches high and seating for four to six."
+    },
+    {
+      "id": "evidence-sweat-kingdom-regen-sweat-cabin-electrical",
+      "entity_id": "sweat-kingdom-regen-sweat-cabin-standard",
+      "source_id": "sweat-kingdom-regen-sweat-cabin-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Homecraft Revive 9 kW heater with a 50 A dedicated breaker and 6/3 hardwired connection. Voltage and phase are not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-product",
+      "entity_id": "sweat-kingdom-regen-sweat-cabin-deluxe",
+      "source_id": "sweat-kingdom-regen-sweat-cabin-deluxe-product",
+      "field_path": "product_identity",
+      "raw_value": "REGEN The Sweat Cabin Deluxe (6 Person), a larger traditional red cedar sauna for indoor or outdoor placement."
+    },
+    {
+      "id": "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-configuration",
+      "entity_id": "sweat-kingdom-regen-sweat-cabin-deluxe-standard",
+      "source_id": "sweat-kingdom-regen-sweat-cabin-deluxe-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The deluxe model is listed at 89 inches high × 72.5 inches deep × 83 inches wide for six people, with a cedar beveled roof and tempered glass."
+    },
+    {
+      "id": "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-electrical",
+      "entity_id": "sweat-kingdom-regen-sweat-cabin-deluxe-standard",
+      "source_id": "sweat-kingdom-regen-sweat-cabin-deluxe-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Homecraft Revive 9 kW heater with a 50 A dedicated breaker and 6/3 hardwired connection. Voltage and phase are not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-sweat-kingdom-regen-sweat-pod-product",
+      "entity_id": "sweat-kingdom-regen-sweat-pod",
+      "source_id": "sweat-kingdom-regen-sweat-pod-product",
+      "field_path": "product_identity",
+      "raw_value": "REGEN The Sweat Pod (2-4 Person), a traditional red cedar sauna with regular and large size options."
+    },
+    {
+      "id": "evidence-sweat-kingdom-regen-sweat-pod-configuration",
+      "entity_id": "sweat-kingdom-regen-sweat-pod-standard",
+      "source_id": "sweat-kingdom-regen-sweat-pod-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Regular size: exterior 77 3/8 H × 61 1/4 D × 53 W inches, interior 70 3/8 H × 51 D × 47 3/8 W inches. Large size: exterior 89 3/8 H × 85 1/4 D × 53 W inches for four people."
+    },
+    {
+      "id": "evidence-sweat-kingdom-regen-sweat-pod-electrical",
+      "entity_id": "sweat-kingdom-regen-sweat-pod-standard",
+      "source_id": "sweat-kingdom-regen-sweat-pod-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Regular size uses Homecraft Revive 6 kW, 40 A and 8/3 hardwire. The large four-person option uses Homecraft Revive 9 kW, 50 A and 6/3 hardwire. Voltage and phase are not stated."
     }
   ]
 }

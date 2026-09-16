@@ -19,7 +19,7 @@ const editorialByProductId = new Map(editorialDocument.entries.map((entry) => [e
 const mappingByConfigurationId = new Map(mappingsDocument.mappings.filter((entry) => entry.merchant_id === "sweat-kingdom").map((entry) => [entry.configuration_id, entry]));
 
 test("all reviewed Sweat Kingdom products have exact source, editorial and configuration records", () => {
-  assert.equal(publishedSweatProducts.length, 13);
+  assert.equal(publishedSweatProducts.length, 17);
   assert.equal(candidateSweatProducts.length, 2);
   for (const product of publishedSweatProducts) {
     assert.equal(product.publication_status, "published");
@@ -36,7 +36,7 @@ test("all reviewed Sweat Kingdom products have exact source, editorial and confi
 test("each Sweat Kingdom offer keeps its Awin IDs and exact merchant destination", () => {
   const program = programsDocument.programs.find((entry) => entry.id === "awin-sweat-kingdom-us");
   assert.equal(program?.relationship_status, "approved");
-  assert.equal(sweatOffers.length, 13);
+  assert.equal(sweatOffers.length, 17);
 
   for (const offer of sweatOffers) {
     assert.equal(offer.program_id, program.id);
@@ -53,6 +53,6 @@ test("each Sweat Kingdom offer keeps its Awin IDs and exact merchant destination
 
 test("the reviewed affiliate links use distinct click references", () => {
   const clickrefs = sweatOffers.map((offer) => new URL(offer.affiliate_url).searchParams.get("clickref"));
-  assert.equal(new Set(clickrefs).size, 13);
+  assert.equal(new Set(clickrefs).size, 17);
   assert(clickrefs.every((value) => value?.startsWith("us-") && value.length <= 30));
 });

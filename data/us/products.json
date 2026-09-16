@@ -12569,6 +12569,233 @@
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-16",
       "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "sweat-kingdom-sk-contrast",
+      "market": "US",
+      "slug": "sweat-kingdom-sk-contrast",
+      "brand_name": "Sweat Kingdom",
+      "model": "SK Contrast",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-contrast-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-contrast-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-contrast-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-contrast-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Pre-built contrast-therapy suite with traditional sauna and cold plunge",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-contrast-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sk-contrast-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sk-contrast-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-cabin",
+      "market": "US",
+      "slug": "sweat-kingdom-regen-sweat-cabin",
+      "brand_name": "Sweat Kingdom",
+      "model": "REGEN The Sweat Cabin (4 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Traditional red cedar sauna cabin with beveled roof",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-regen-sweat-cabin-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-regen-sweat-cabin-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-cabin-deluxe",
+      "market": "US",
+      "slug": "sweat-kingdom-regen-sweat-cabin-deluxe",
+      "brand_name": "Sweat Kingdom",
+      "model": "REGEN The Sweat Cabin Deluxe (6 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Six-person traditional red cedar sauna cabin with beveled roof",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-regen-sweat-cabin-deluxe-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-regen-sweat-cabin-deluxe-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-pod",
+      "market": "US",
+      "slug": "sweat-kingdom-regen-sweat-pod",
+      "brand_name": "Sweat Kingdom",
+      "model": "REGEN The Sweat Pod (2-4 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-pod-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-pod-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-pod-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-pod-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Compact traditional red cedar sauna cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-pod-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-regen-sweat-pod-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-regen-sweat-pod-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
     }
   ]
 }

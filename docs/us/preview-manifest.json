@@ -3,7 +3,7 @@
   "snapshot_id": "us-indexed-first-wave-2026-09-16-sweat-kingdom-expanded",
   "market": "US",
   "mode": "public-static-indexed-first-wave",
-  "expected_page_count": 37,
+  "expected_page_count": 41,
   "routes": [
     {
       "path": "/us/",
@@ -225,6 +225,30 @@
       "path": "/us/saunas/sweat-kingdom-sk-mobile/",
       "kind": "product",
       "record_id": "sweat-kingdom-sk-mobile",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-sk-contrast/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-sk-contrast",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-regen-sweat-cabin/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-regen-sweat-cabin",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-regen-sweat-cabin-deluxe/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-regen-sweat-cabin-deluxe",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-regen-sweat-pod/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-regen-sweat-pod",
       "robots": "index, follow"
     }
   ],

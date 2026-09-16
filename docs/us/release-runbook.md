@@ -67,7 +67,7 @@ For the current public research beta, the expected output is:
 
 - 516 DE products and 210 active DE affiliate offers;
 - 33 declared US routes in the release manifest, with 31 currently discoverable;
-- thirteen reviewed US offers, 23 published product pages and 92 research candidates that remain non-public;
+- seventeen reviewed US offers, 27 published product pages and 221 research candidates that remain non-public;
 - 601 static HTML pages checked by the internal-link gate in the current build;
 - `/us/` retained in the final `out/` directory, with reviewed US routes represented in the sitemap and discovery files;
 - Wrangler reads the static `out/` directory, reports no bindings and exits from `--dry-run` without upload.

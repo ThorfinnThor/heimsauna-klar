@@ -157,6 +157,54 @@
       "reviewed_at": "2026-09-16",
       "status": "approved",
       "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-sk-contrast",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "sk-contrast",
+      "configuration_id": "sweat-kingdom-sk-contrast-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-regen-sweat-cabin",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "regen-the-sweat-cabin-4-person",
+      "configuration_id": "sweat-kingdom-regen-sweat-cabin-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-regen-sweat-cabin-deluxe",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-sweat-cabin-deluxe-6-person-copy",
+      "configuration_id": "sweat-kingdom-regen-sweat-cabin-deluxe-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-regen-sweat-pod",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "regen-the-sweat-pod-2-4-person",
+      "configuration_id": "sweat-kingdom-regen-sweat-pod-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
     }
   ]
 }

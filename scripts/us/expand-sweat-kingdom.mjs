@@ -578,6 +578,192 @@ const models = [
       ],
     },
   },
+  {
+    id: "sweat-kingdom-sk-contrast",
+    model: "SK Contrast",
+    handle: "sk-contrast",
+    url: "https://sweatkingdom.com/products/sk-contrast",
+    title: "Sweat Kingdom SK Contrast product page",
+    productType: "sauna-kit",
+    capacity: null,
+    placements: ["outdoor"],
+    form: "Pre-built contrast-therapy suite with traditional sauna and cold plunge",
+    exterior: null,
+    interior: null,
+    materials: ["Tight-knot red cedar", "Thermo spruce", "Thermo aspen", "Waterproof rubber flooring"],
+    heater: "Traditional sauna heater selected with the merchant",
+    energySources: ["electric"],
+    power: null,
+    current: 50,
+    wire: "6/3",
+    stones: true,
+    coldPlunge: true,
+    priceMinor: 3199500,
+    offerType: "fixed-price",
+    clickref: "us-sk-contrast",
+    label: "8 × 10, 8 × 12 or 8 × 16 footprint · sauna and cold plunge suite",
+    availability: "made-to-order",
+    shipping: "The suite is built in the USA and delivered as a completed structure; crane or flatbed access is required.",
+    identityRaw: "SK Contrast, a pre-built outdoor contrast-therapy suite combining a traditional sauna and cold plunge.",
+    configurationRaw: "Three footprint options are listed: 8 × 10, 8 × 12 and 8 × 16 feet. The merchant lists tight-knot red cedar, thermo spruce or thermo aspen, an optional shower and a custom layout.",
+    electricalRaw: "The sauna requires a 50 A dedicated breaker with 6/3 hardwire; the cold plunge requires its own 20 A dedicated circuit. Voltage, heater power and phase are not stated.",
+    editorial: {
+      eyebrow: "Sauna and cold plunge in one build",
+      heading: "SK Contrast combines heat and cold without hiding the footprint choice",
+      summary: "SK Contrast is a pre-built outdoor suite with three footprint options, a traditional sauna and a separate cold-plunge circuit.",
+      paragraphs: [
+        "SK Contrast is not a single cabin size. Sweat Kingdom offers 8 × 10, 8 × 12 and 8 × 16 foot layouts, with several wood packages and an optional shower. That makes the selected footprint more important than a single catalogue dimension.",
+        "The reviewed page separates the electrical work into a 50-amp 6/3 hardwired sauna connection and a dedicated 20-amp circuit for the cold plunge. The heater power, voltage and phase are not published, so the final service plan still needs the merchant's installation documents.",
+      ],
+      decision_points: [
+        "The suite needs a foundation, delivery route and lifting plan for a completed structure.",
+        "An 8 × 16 layout consumes substantially more site depth than the compact 8 × 10 option.",
+        "The cold plunge adds a separate service requirement and maintenance area beyond the sauna room.",
+      ],
+      limitations: [
+        "The reviewed page does not state a seated capacity, interior dimensions, sauna heater power or voltage.",
+        "The price is a starting configuration and may change with footprint, wood, shower and layout selections.",
+      ],
+    },
+  },
+  {
+    id: "sweat-kingdom-regen-sweat-cabin",
+    model: "REGEN The Sweat Cabin (4 Person)",
+    handle: "regen-the-sweat-cabin-4-person",
+    url: "https://sweatkingdom.com/products/regen-the-sweat-cabin-4-person",
+    title: "Sweat Kingdom REGEN The Sweat Cabin (4 Person) product page",
+    capacity: 4,
+    placements: ["indoor", "outdoor"],
+    form: "Traditional red cedar sauna cabin with beveled roof",
+    exterior: inches(72, 72.5, 77),
+    interior: null,
+    materials: ["Red cedar", "Tempered glass", "Cedar beveled roof"],
+    heater: "Homecraft Revive 9 kW heater",
+    energySources: ["electric"],
+    power: 9000,
+    current: 50,
+    wire: "6/3",
+    stones: true,
+    priceMinor: 999500,
+    offerType: "fixed-price",
+    clickref: "us-regen-sweat-cabin",
+    label: "4-person configuration · 6-foot wall · Homecraft Revive 9 kW",
+    availability: "made-to-order",
+    shipping: "The merchant lists a six-to-eight-week lead time; freight and final delivery conditions are confirmed at order time.",
+    identityRaw: "REGEN The Sweat Cabin (4 Person), a traditional red cedar sauna for indoor or outdoor placement.",
+    configurationRaw: "The 4-person model is listed with a 6-foot wall at 77 inches high × 72.5 inches deep × 72 inches wide. The page also describes a 7-foot wall option at 89 inches high and seating for four to six.",
+    electricalRaw: "Homecraft Revive 9 kW heater with a 50 A dedicated breaker and 6/3 hardwired connection. Voltage and phase are not stated on the reviewed page.",
+    editorial: {
+      eyebrow: "REGEN four-person cabin",
+      heading: "The REGEN Sweat Cabin keeps its width while offering two wall heights",
+      summary: "The 4-person REGEN cabin has a 72 × 72.5 inch footprint, a cedar beveled roof and a 9 kW hardwired heater package.",
+      paragraphs: [
+        "The standard 6-foot wall version is 77 inches high, 72.5 inches deep and 72 inches wide. Sweat Kingdom also describes a 7-foot wall at 89 inches high and seating for four to six, so the wall choice affects the room envelope before installation begins.",
+        "The detailed configuration uses a Homecraft Revive 9 kW heater with a 50-amp dedicated 6/3 hardwired connection. The page does not publish voltage or phase, which remain open for the electrician's final plan.",
+      ],
+      decision_points: [
+        "The 6-foot wall is the relevant option where ceiling height is tight; the 7-foot wall needs a separate height check.",
+        "A cedar roof, tempered glass and indoor/outdoor placement are described, but the site foundation is not included.",
+        "The four-person name and the page's four-to-six seating note should not be treated as a measured bench plan.",
+      ],
+      limitations: [
+        "Interior, shipping and minimum-clearance dimensions are not stated.",
+        "Voltage, phase, warranty terms and freight details require confirmation from the merchant documents.",
+      ],
+    },
+  },
+  {
+    id: "sweat-kingdom-regen-sweat-cabin-deluxe",
+    model: "REGEN The Sweat Cabin Deluxe (6 Person)",
+    handle: "the-sweat-cabin-deluxe-6-person-copy",
+    url: "https://sweatkingdom.com/products/the-sweat-cabin-deluxe-6-person-copy",
+    title: "Sweat Kingdom REGEN The Sweat Cabin Deluxe (6 Person) product page",
+    capacity: 6,
+    placements: ["indoor", "outdoor"],
+    form: "Six-person traditional red cedar sauna cabin with beveled roof",
+    exterior: inches(83, 72.5, 89),
+    interior: null,
+    materials: ["Red cedar", "Tempered glass", "Cedar beveled roof"],
+    heater: "Homecraft Revive 9 kW heater",
+    energySources: ["electric"],
+    power: 9000,
+    current: 50,
+    wire: "6/3",
+    stones: true,
+    priceMinor: 1199500,
+    offerType: "fixed-price",
+    clickref: "us-regen-sweat-cabin-deluxe",
+    label: "6-person configuration · 7-foot wall · Homecraft Revive 9 kW",
+    availability: "made-to-order",
+    shipping: "The merchant lists a six-to-eight-week lead time; freight and final delivery conditions are confirmed at order time.",
+    identityRaw: "REGEN The Sweat Cabin Deluxe (6 Person), a larger traditional red cedar sauna for indoor or outdoor placement.",
+    configurationRaw: "The deluxe model is listed at 89 inches high × 72.5 inches deep × 83 inches wide for six people, with a cedar beveled roof and tempered glass.",
+    electricalRaw: "Homecraft Revive 9 kW heater with a 50 A dedicated breaker and 6/3 hardwired connection. Voltage and phase are not stated on the reviewed page.",
+    editorial: {
+      eyebrow: "REGEN six-person cabin",
+      heading: "The Deluxe adds width and height for a larger bench plan",
+      summary: "The six-person REGEN Deluxe measures 83 × 72.5 × 89 inches and is listed with a 9 kW Homecraft heater and cedar roof.",
+      paragraphs: [
+        "With 83 inches of exterior width and an 89-inch wall height, the Deluxe is the larger REGEN cabin rather than a cosmetic finish variant. The 72.5-inch depth remains the same as the smaller Sweat Cabin, so access and door swing still need to be checked against the room or foundation.",
+        "Sweat Kingdom lists a Homecraft Revive 9 kW heater with a 50-amp dedicated 6/3 hardwired connection. Voltage and phase are not stated, and the HUUM option shown elsewhere on the page is not treated as the selected base package.",
+      ],
+      decision_points: [
+        "The 89-inch height is the fixed envelope for this six-person listing and should be checked before delivery.",
+        "The larger width can support a different seating plan, but no interior bench drawing is published.",
+        "Indoor or outdoor placement changes foundation, ventilation and delivery requirements even with the same cabin shell.",
+      ],
+      limitations: [
+        "Interior, shipping and minimum-clearance dimensions are not stated.",
+        "Voltage, phase, warranty terms and freight details require confirmation from the merchant documents.",
+      ],
+    },
+  },
+  {
+    id: "sweat-kingdom-regen-sweat-pod",
+    model: "REGEN The Sweat Pod (2-4 Person)",
+    handle: "regen-the-sweat-pod-2-4-person",
+    url: "https://sweatkingdom.com/products/regen-the-sweat-pod-2-4-person",
+    title: "Sweat Kingdom REGEN The Sweat Pod (2-4 Person) product page",
+    capacity: 2,
+    placements: ["indoor", "outdoor"],
+    form: "Compact traditional red cedar sauna cabin",
+    exterior: inches(53, 61.25, 77.375),
+    interior: inches(47.375, 51, 70.375),
+    materials: ["Red cedar", "Tempered glass"],
+    heater: "Homecraft Revive 6 kW heater for regular size",
+    energySources: ["electric"],
+    power: 6000,
+    current: 40,
+    wire: "8/3",
+    stones: true,
+    priceMinor: 869500,
+    offerType: "fixed-price",
+    clickref: "us-regen-sweat-pod",
+    label: "Regular 1-2 person size · Homecraft Revive 6 kW; 4-person option available",
+    availability: "made-to-order",
+    shipping: "The merchant confirms freight and final delivery conditions at order time.",
+    identityRaw: "REGEN The Sweat Pod (2-4 Person), a traditional red cedar sauna with regular and large size options.",
+    configurationRaw: "Regular size: exterior 77 3/8 H × 61 1/4 D × 53 W inches, interior 70 3/8 H × 51 D × 47 3/8 W inches. Large size: exterior 89 3/8 H × 85 1/4 D × 53 W inches for four people.",
+    electricalRaw: "Regular size uses Homecraft Revive 6 kW, 40 A and 8/3 hardwire. The large four-person option uses Homecraft Revive 9 kW, 50 A and 6/3 hardwire. Voltage and phase are not stated.",
+    editorial: {
+      eyebrow: "REGEN compact pod",
+      heading: "One product page, two very different Sweat Pod footprints",
+      summary: "The regular REGEN Sweat Pod is 53 × 61.25 inches, while the large option extends to 85.25 inches deep for four people.",
+      paragraphs: [
+        "The regular option is the compact one. Its 53-inch width and 61.25-inch depth match the familiar Pod envelope, with a 6 kW Homecraft Revive heater and a 40-amp 8/3 hardwired connection.",
+        "The same product page also offers a four-person version that is 85.25 inches deep and 89.375 inches high. That larger choice uses a 9 kW heater and a 50-amp 6/3 connection, so it should be treated as a separate planning case even though the merchant groups both sizes under one product handle.",
+      ],
+      decision_points: [
+        "The regular 1–2 person footprint is the default record shown in the catalogue.",
+        "Selecting the four-person option adds more than two feet of depth and changes the electrical service.",
+        "Indoor and outdoor placement are both listed, but foundation and access zones sit outside the cabinet dimensions.",
+      ],
+      limitations: [
+        "The catalogue record represents the regular configuration; the large option needs a separate configuration check before purchase.",
+        "Voltage, phase, shipping dimensions and minimum clearances are not stated.",
+      ],
+    },
+  },
 ];
 
 for (const model of models) {
@@ -609,7 +795,7 @@ for (const model of models) {
     slug: model.id,
     brand_name: "Sweat Kingdom",
     model: model.model,
-    product_type: documented("sauna-cabin", evidence.product),
+    product_type: documented(model.productType ?? "sauna-cabin", evidence.product),
     heat_type: documented("traditional", evidence.product),
     energy_sources: model.energySources ? documented(model.energySources, evidence.electrical) : unknown("The reviewed product page does not identify the energy source for the selected heater package."),
     placements: documented(model.placements, evidence.product),
@@ -636,6 +822,13 @@ for (const model of models) {
     inclusion: "included",
     evidence_ids: [evidence.product],
   });
+  if (model.coldPlunge) components.push({
+    id: `${configurationId}-cold-plunge`,
+    component_type: "other",
+    name: "Cold plunge basin",
+    inclusion: "included",
+    evidence_ids: [evidence.configuration, evidence.electrical],
+  });
 
   const requirement = {
     component: "heater",
@@ -658,7 +851,7 @@ for (const model of models) {
     label: model.label,
     manufacturer_sku: unknown("A manufacturer SKU is not stated on the reviewed product page."),
     capacity: {
-      seated: documented(model.capacity, evidence.configuration),
+      seated: model.capacity === null ? unknown("The merchant offers multiple suite layouts but does not state a seated capacity.") : documented(model.capacity, evidence.configuration),
       reclining: unknown("A reclining capacity is not stated on the reviewed product page."),
     },
     dimensions: {
@@ -787,8 +980,10 @@ coverage.updated_at = today;
 coverage.scope = `Current ${products.products.length}-record US research catalog. Category counts overlap where a sauna kit also belongs to a placement and heat-type segment. Counts describe distinct product models, never size or electrical variants.`;
 const indoorTraditional = coverage.categories.find((entry) => entry.id === "indoor-traditional-cabins");
 const outdoorTraditional = coverage.categories.find((entry) => entry.id === "outdoor-traditional-cabins");
-if (indoorTraditional) indoorTraditional.product_count = 20;
-if (outdoorTraditional) outdoorTraditional.product_count = 54;
+const saunaKits = coverage.categories.find((entry) => entry.id === "sauna-kits");
+if (indoorTraditional) indoorTraditional.product_count = 69;
+if (outdoorTraditional) outdoorTraditional.product_count = 91;
+if (saunaKits) saunaKits.product_count = 113;
 
 backlog.updated_at = today;
 backlog.current_catalog.candidate_product_count = products.products.length;

@@ -439,6 +439,143 @@
       "last_attempted_at": "2026-09-16",
       "verification_method": "manual",
       "promotion_status": "eligible"
+    },
+    {
+      "id": "offer-sweat-kingdom-sk-contrast",
+      "market": "US",
+      "market_product_id": "sweat-kingdom-sk-contrast",
+      "configuration_id": "sweat-kingdom-sk-contrast-standard",
+      "merchant_id": "sweat-kingdom",
+      "program_id": "awin-sweat-kingdom-us",
+      "external_product_id": "sk-contrast",
+      "destination_url": "https://sweatkingdom.com/products/sk-contrast",
+      "affiliate_url": "https://www.awin1.com/cread.php?awinmid=125462&awinaffid=3037577&clickref=us-sk-contrast&ued=https%3A%2F%2Fsweatkingdom.com%2Fproducts%2Fsk-contrast",
+      "offer_type": "fixed-price",
+      "price": {
+        "amount_minor": 3199500,
+        "currency": "USD"
+      },
+      "price_scope": "sauna-kit",
+      "included_component_ids": [
+        "sweat-kingdom-sk-contrast-standard-heater",
+        "sweat-kingdom-sk-contrast-standard-stones",
+        "sweat-kingdom-sk-contrast-standard-cold-plunge"
+      ],
+      "excluded_required_components": [],
+      "completeness": "incomplete",
+      "condition": "new",
+      "availability": "made-to-order",
+      "tax_treatment": "calculated-by-merchant",
+      "shipping_summary": "The suite is built in the USA and delivered as a completed structure; crane or flatbed access is required.",
+      "delivery_region_ids": [],
+      "shipping_evidence_ids": [],
+      "delivery_mode": "curbside-freight",
+      "last_successfully_checked_at": "2026-09-16",
+      "last_attempted_at": "2026-09-16",
+      "verification_method": "manual",
+      "promotion_status": "eligible"
+    },
+    {
+      "id": "offer-sweat-kingdom-regen-sweat-cabin",
+      "market": "US",
+      "market_product_id": "sweat-kingdom-regen-sweat-cabin",
+      "configuration_id": "sweat-kingdom-regen-sweat-cabin-standard",
+      "merchant_id": "sweat-kingdom",
+      "program_id": "awin-sweat-kingdom-us",
+      "external_product_id": "regen-the-sweat-cabin-4-person",
+      "destination_url": "https://sweatkingdom.com/products/regen-the-sweat-cabin-4-person",
+      "affiliate_url": "https://www.awin1.com/cread.php?awinmid=125462&awinaffid=3037577&clickref=us-regen-sweat-cabin&ued=https%3A%2F%2Fsweatkingdom.com%2Fproducts%2Fregen-the-sweat-cabin-4-person",
+      "offer_type": "fixed-price",
+      "price": {
+        "amount_minor": 999500,
+        "currency": "USD"
+      },
+      "price_scope": "sauna-kit",
+      "included_component_ids": [
+        "sweat-kingdom-regen-sweat-cabin-standard-heater",
+        "sweat-kingdom-regen-sweat-cabin-standard-stones"
+      ],
+      "excluded_required_components": [],
+      "completeness": "incomplete",
+      "condition": "new",
+      "availability": "made-to-order",
+      "tax_treatment": "calculated-by-merchant",
+      "shipping_summary": "The merchant lists a six-to-eight-week lead time; freight and final delivery conditions are confirmed at order time.",
+      "delivery_region_ids": [],
+      "shipping_evidence_ids": [],
+      "delivery_mode": "curbside-freight",
+      "last_successfully_checked_at": "2026-09-16",
+      "last_attempted_at": "2026-09-16",
+      "verification_method": "manual",
+      "promotion_status": "eligible"
+    },
+    {
+      "id": "offer-sweat-kingdom-regen-sweat-cabin-deluxe",
+      "market": "US",
+      "market_product_id": "sweat-kingdom-regen-sweat-cabin-deluxe",
+      "configuration_id": "sweat-kingdom-regen-sweat-cabin-deluxe-standard",
+      "merchant_id": "sweat-kingdom",
+      "program_id": "awin-sweat-kingdom-us",
+      "external_product_id": "the-sweat-cabin-deluxe-6-person-copy",
+      "destination_url": "https://sweatkingdom.com/products/the-sweat-cabin-deluxe-6-person-copy",
+      "affiliate_url": "https://www.awin1.com/cread.php?awinmid=125462&awinaffid=3037577&clickref=us-regen-sweat-cabin-deluxe&ued=https%3A%2F%2Fsweatkingdom.com%2Fproducts%2Fthe-sweat-cabin-deluxe-6-person-copy",
+      "offer_type": "fixed-price",
+      "price": {
+        "amount_minor": 1199500,
+        "currency": "USD"
+      },
+      "price_scope": "sauna-kit",
+      "included_component_ids": [
+        "sweat-kingdom-regen-sweat-cabin-deluxe-standard-heater",
+        "sweat-kingdom-regen-sweat-cabin-deluxe-standard-stones"
+      ],
+      "excluded_required_components": [],
+      "completeness": "incomplete",
+      "condition": "new",
+      "availability": "made-to-order",
+      "tax_treatment": "calculated-by-merchant",
+      "shipping_summary": "The merchant lists a six-to-eight-week lead time; freight and final delivery conditions are confirmed at order time.",
+      "delivery_region_ids": [],
+      "shipping_evidence_ids": [],
+      "delivery_mode": "curbside-freight",
+      "last_successfully_checked_at": "2026-09-16",
+      "last_attempted_at": "2026-09-16",
+      "verification_method": "manual",
+      "promotion_status": "eligible"
+    },
+    {
+      "id": "offer-sweat-kingdom-regen-sweat-pod",
+      "market": "US",
+      "market_product_id": "sweat-kingdom-regen-sweat-pod",
+      "configuration_id": "sweat-kingdom-regen-sweat-pod-standard",
+      "merchant_id": "sweat-kingdom",
+      "program_id": "awin-sweat-kingdom-us",
+      "external_product_id": "regen-the-sweat-pod-2-4-person",
+      "destination_url": "https://sweatkingdom.com/products/regen-the-sweat-pod-2-4-person",
+      "affiliate_url": "https://www.awin1.com/cread.php?awinmid=125462&awinaffid=3037577&clickref=us-regen-sweat-pod&ued=https%3A%2F%2Fsweatkingdom.com%2Fproducts%2Fregen-the-sweat-pod-2-4-person",
+      "offer_type": "fixed-price",
+      "price": {
+        "amount_minor": 869500,
+        "currency": "USD"
+      },
+      "price_scope": "sauna-kit",
+      "included_component_ids": [
+        "sweat-kingdom-regen-sweat-pod-standard-heater",
+        "sweat-kingdom-regen-sweat-pod-standard-stones"
+      ],
+      "excluded_required_components": [],
+      "completeness": "incomplete",
+      "condition": "new",
+      "availability": "made-to-order",
+      "tax_treatment": "calculated-by-merchant",
+      "shipping_summary": "The merchant confirms freight and final delivery conditions at order time.",
+      "delivery_region_ids": [],
+      "shipping_evidence_ids": [],
+      "delivery_mode": "curbside-freight",
+      "last_successfully_checked_at": "2026-09-16",
+      "last_attempted_at": "2026-09-16",
+      "verification_method": "manual",
+      "promotion_status": "eligible"
     }
   ]
 }

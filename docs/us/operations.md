@@ -8,7 +8,7 @@
 
 The public site is generated from versioned JSON and Next.js routes. GitHub CI validates changes, Cloudflare Builds rebuilds the `main` branch, and Workers Static Assets serves the resulting files. The Awin workflows are manual dispatch jobs; there is no scheduled ingestion or hidden runtime updater.
 
-The German and reviewed US routes are part of the static production output. The US release contains 23 published product pages and 92 research candidates that remain outside the public catalog.
+The German and reviewed US routes are part of the static production output. The US release contains 27 published product pages and 221 research candidates that remain outside the public catalog.
 
 ## Routine checks
 
@@ -31,7 +31,7 @@ The German and reviewed US routes are part of the static production output. The 
 - The sync workflow creates a review branch and pull request after its tests pass. Review the data diff before merging.
 - A product link becomes affiliate-eligible only after exact product/configuration mapping, advertiser approval, allowed host and current tracking URL are documented.
 - A feed failure must leave the last reviewed snapshot intact. It must not delete products or convert unknown availability into an offer.
-- For US, `affiliate_links_enabled` is enabled for thirteen reviewed Sweat Kingdom offers. `feed_sync_enabled` remains `false`; every additional offer needs exact product mapping, current terms and a reviewed tracking URL before activation.
+- For US, `affiliate_links_enabled` is enabled for seventeen reviewed Sweat Kingdom offers. `feed_sync_enabled` remains `false`; every additional offer needs exact product mapping, current terms and a reviewed tracking URL before activation.
 
 ## Incident priorities
 

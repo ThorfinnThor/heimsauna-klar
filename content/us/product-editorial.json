@@ -554,6 +554,102 @@
       "source_ids": [
         "sweat-kingdom-sk-mobile-product"
       ]
+    },
+    {
+      "id": "sweat-kingdom-sk-contrast-editorial",
+      "product_id": "sweat-kingdom-sk-contrast",
+      "status": "published",
+      "eyebrow": "Sauna and cold plunge in one build",
+      "heading": "SK Contrast combines heat and cold without hiding the footprint choice",
+      "summary": "SK Contrast is a pre-built outdoor suite with three footprint options, a traditional sauna and a separate cold-plunge circuit.",
+      "paragraphs": [
+        "SK Contrast is not a single cabin size. Sweat Kingdom offers 8 × 10, 8 × 12 and 8 × 16 foot layouts, with several wood packages and an optional shower. That makes the selected footprint more important than a single catalogue dimension.",
+        "The reviewed page separates the electrical work into a 50-amp 6/3 hardwired sauna connection and a dedicated 20-amp circuit for the cold plunge. The heater power, voltage and phase are not published, so the final service plan still needs the merchant's installation documents."
+      ],
+      "decision_points": [
+        "The suite needs a foundation, delivery route and lifting plan for a completed structure.",
+        "An 8 × 16 layout consumes substantially more site depth than the compact 8 × 10 option.",
+        "The cold plunge adds a separate service requirement and maintenance area beyond the sauna room."
+      ],
+      "limitations": [
+        "The reviewed page does not state a seated capacity, interior dimensions, sauna heater power or voltage.",
+        "The price is a starting configuration and may change with footprint, wood, shower and layout selections."
+      ],
+      "source_ids": [
+        "sweat-kingdom-sk-contrast-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-cabin-editorial",
+      "product_id": "sweat-kingdom-regen-sweat-cabin",
+      "status": "published",
+      "eyebrow": "REGEN four-person cabin",
+      "heading": "The REGEN Sweat Cabin keeps its width while offering two wall heights",
+      "summary": "The 4-person REGEN cabin has a 72 × 72.5 inch footprint, a cedar beveled roof and a 9 kW hardwired heater package.",
+      "paragraphs": [
+        "The standard 6-foot wall version is 77 inches high, 72.5 inches deep and 72 inches wide. Sweat Kingdom also describes a 7-foot wall at 89 inches high and seating for four to six, so the wall choice affects the room envelope before installation begins.",
+        "The detailed configuration uses a Homecraft Revive 9 kW heater with a 50-amp dedicated 6/3 hardwired connection. The page does not publish voltage or phase, which remain open for the electrician's final plan."
+      ],
+      "decision_points": [
+        "The 6-foot wall is the relevant option where ceiling height is tight; the 7-foot wall needs a separate height check.",
+        "A cedar roof, tempered glass and indoor/outdoor placement are described, but the site foundation is not included.",
+        "The four-person name and the page's four-to-six seating note should not be treated as a measured bench plan."
+      ],
+      "limitations": [
+        "Interior, shipping and minimum-clearance dimensions are not stated.",
+        "Voltage, phase, warranty terms and freight details require confirmation from the merchant documents."
+      ],
+      "source_ids": [
+        "sweat-kingdom-regen-sweat-cabin-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-cabin-deluxe-editorial",
+      "product_id": "sweat-kingdom-regen-sweat-cabin-deluxe",
+      "status": "published",
+      "eyebrow": "REGEN six-person cabin",
+      "heading": "The Deluxe adds width and height for a larger bench plan",
+      "summary": "The six-person REGEN Deluxe measures 83 × 72.5 × 89 inches and is listed with a 9 kW Homecraft heater and cedar roof.",
+      "paragraphs": [
+        "With 83 inches of exterior width and an 89-inch wall height, the Deluxe is the larger REGEN cabin rather than a cosmetic finish variant. The 72.5-inch depth remains the same as the smaller Sweat Cabin, so access and door swing still need to be checked against the room or foundation.",
+        "Sweat Kingdom lists a Homecraft Revive 9 kW heater with a 50-amp dedicated 6/3 hardwired connection. Voltage and phase are not stated, and the HUUM option shown elsewhere on the page is not treated as the selected base package."
+      ],
+      "decision_points": [
+        "The 89-inch height is the fixed envelope for this six-person listing and should be checked before delivery.",
+        "The larger width can support a different seating plan, but no interior bench drawing is published.",
+        "Indoor or outdoor placement changes foundation, ventilation and delivery requirements even with the same cabin shell."
+      ],
+      "limitations": [
+        "Interior, shipping and minimum-clearance dimensions are not stated.",
+        "Voltage, phase, warranty terms and freight details require confirmation from the merchant documents."
+      ],
+      "source_ids": [
+        "sweat-kingdom-regen-sweat-cabin-deluxe-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-pod-editorial",
+      "product_id": "sweat-kingdom-regen-sweat-pod",
+      "status": "published",
+      "eyebrow": "REGEN compact pod",
+      "heading": "One product page, two very different Sweat Pod footprints",
+      "summary": "The regular REGEN Sweat Pod is 53 × 61.25 inches, while the large option extends to 85.25 inches deep for four people.",
+      "paragraphs": [
+        "The regular option is the compact one. Its 53-inch width and 61.25-inch depth match the familiar Pod envelope, with a 6 kW Homecraft Revive heater and a 40-amp 8/3 hardwired connection.",
+        "The same product page also offers a four-person version that is 85.25 inches deep and 89.375 inches high. That larger choice uses a 9 kW heater and a 50-amp 6/3 connection, so it should be treated as a separate planning case even though the merchant groups both sizes under one product handle."
+      ],
+      "decision_points": [
+        "The regular 1–2 person footprint is the default record shown in the catalogue.",
+        "Selecting the four-person option adds more than two feet of depth and changes the electrical service.",
+        "Indoor and outdoor placement are both listed, but foundation and access zones sit outside the cabinet dimensions."
+      ],
+      "limitations": [
+        "The catalogue record represents the regular configuration; the large option needs a separate configuration check before purchase.",
+        "Voltage, phase, shipping dimensions and minimum clearances are not stated."
+      ],
+      "source_ids": [
+        "sweat-kingdom-regen-sweat-pod-product"
+      ]
     }
   ]
 }

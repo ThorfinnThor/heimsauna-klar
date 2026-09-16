@@ -11,20 +11,20 @@ import { getUsPublicCatalogItems, getUsResearchCatalogItems } from "../../lib/us
 const researchItems = getUsResearchCatalogItems();
 
 test("the catalog index normalizes every real pilot product", () => {
-  assert.equal(researchItems.length, 244);
+  assert.equal(researchItems.length, 248);
   assert(researchItems.every((item) => item.slug && item.brand && item.model));
   assert.deepEqual(researchItems, [...researchItems].sort((a, b) => a.brand.localeCompare(b.brand, "en-US") || a.model.localeCompare(b.model, "en-US")));
 });
 
 test("the public catalog contains only the reviewed first-wave products", () => {
   const publicItems = getUsPublicCatalogItems();
-  assert.equal(publicItems.length, 23);
+  assert.equal(publicItems.length, 27);
   assert(publicItems.every((item) => item.id));
 });
 
 test("catalog filters keep documented matches deterministic", () => {
-  assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, placement: "outdoor" }).length, 114);
-  assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, capacity: "4-plus" }).length, 89);
+  assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, placement: "outdoor" }).length, 118);
+  assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, capacity: "4-plus" }).length, 91);
   assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, query: "peak" }).length, 11);
   assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, voltage: "120" }).length, 12);
 });

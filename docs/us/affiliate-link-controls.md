@@ -1,6 +1,6 @@
 # US affiliate link controls
 
-**Status:** implemented, active for thirteen reviewed offers
+**Status:** implemented, active for seventeen reviewed offers
 **Scope:** static US output only
 
 ## Output gate
@@ -22,7 +22,7 @@ The environment variable is a one-way emergency switch. It can suppress links th
 
 External affiliate links use a native `a` element, so Next.js does not prefetch them. The resolver supplies `rel="sponsored nofollow noopener noreferrer"` and `target="_blank"`. It parses links only to validate them and returns the same normalized URL without replacing tracking or merchant-destination parameters.
 
-The current repository contains thirteen reviewed US offers for Sweat Kingdom Saunas. Each corresponding product page exposes its own marked Awin deeplink; remaining research candidates continue to show `No reviewed offer`. Feed synchronization remains disabled, so additional offers require an exact feed or manual review.
+The current repository contains seventeen reviewed US offers for Sweat Kingdom Saunas. Each corresponding product page exposes its own marked Awin deeplink; remaining research candidates continue to show `No reviewed offer`. Feed synchronization remains disabled, so additional offers require an exact feed or manual review.
 
 ## Activation procedure
 

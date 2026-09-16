@@ -32009,6 +32009,702 @@
         "source-finnmark-fd-7-product"
       ],
       "publication_status": "candidate"
+    },
+    {
+      "id": "sweat-kingdom-sk-contrast-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sk-contrast",
+      "label": "8 × 10, 8 × 12 or 8 × 16 footprint · sauna and cold plunge suite",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "The merchant offers multiple suite layouts but does not state a seated capacity."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Exterior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Tight-knot red cedar",
+          "Thermo spruce",
+          "Thermo aspen",
+          "Waterproof rubber flooring"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-contrast-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sk-contrast-standard-heater",
+          "component_type": "heater",
+          "name": "Traditional sauna heater selected with the merchant",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-contrast-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sk-contrast-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-contrast-product"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sk-contrast-standard-cold-plunge",
+          "component_type": "other",
+          "name": "Cold plunge basin",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-contrast-configuration",
+            "evidence-sweat-kingdom-sk-contrast-electrical"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sk-contrast-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sk-contrast-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sk-contrast-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sk-contrast-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sk-contrast-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sk-contrast-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-contrast-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sk-contrast-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-cabin-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-regen-sweat-cabin",
+      "label": "4-person configuration · 6-foot wall · Homecraft Revive 9 kW",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-cabin-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 77,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-cabin-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Red cedar",
+          "Tempered glass",
+          "Cedar beveled roof"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-regen-sweat-cabin-standard-heater",
+          "component_type": "heater",
+          "name": "Homecraft Revive 9 kW heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-cabin-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-regen-sweat-cabin-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-cabin-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-regen-sweat-cabin-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 9000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-cabin-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-regen-sweat-cabin-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-cabin-deluxe-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-regen-sweat-cabin-deluxe",
+      "label": "6-person configuration · 7-foot wall · Homecraft Revive 9 kW",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 83,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 89,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Red cedar",
+          "Tempered glass",
+          "Cedar beveled roof"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-regen-sweat-cabin-deluxe-standard-heater",
+          "component_type": "heater",
+          "name": "Homecraft Revive 9 kW heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-regen-sweat-cabin-deluxe-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-regen-sweat-cabin-deluxe-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 9000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-cabin-deluxe-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-regen-sweat-cabin-deluxe-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-regen-sweat-pod-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-regen-sweat-pod",
+      "label": "Regular 1-2 person size · Homecraft Revive 6 kW; 4-person option available",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-pod-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 53,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 61.25,
+              "unit": "in"
+            },
+            "height": {
+              "value": 77.375,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-pod-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 47.375,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 51,
+              "unit": "in"
+            },
+            "height": {
+              "value": 70.375,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-pod-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Red cedar",
+          "Tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-regen-sweat-pod-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-regen-sweat-pod-standard-heater",
+          "component_type": "heater",
+          "name": "Homecraft Revive 6 kW heater for regular size",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-pod-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-regen-sweat-pod-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-pod-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-regen-sweat-pod-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-pod-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-pod-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-pod-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-pod-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-pod-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-regen-sweat-pod-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-regen-sweat-pod-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-regen-sweat-pod-product"
+      ],
+      "publication_status": "published"
     }
   ],
   "certifications": [],
