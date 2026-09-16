@@ -22510,6 +22510,4736 @@
         "source-peak-denali-product"
       ],
       "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-4-x-6-euro-9-0701-standard",
+      "market": "US",
+      "product_id": "finnleo-4-x-6-euro-9-0701",
+      "label": "Euro Sauna 4 x 6 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-4-x-6-euro-9-0701-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-4-x-6-euro-9-0701-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-4-x-6-euro-9-0701-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-5-x-6-euro-9-0702-standard",
+      "market": "US",
+      "product_id": "finnleo-5-x-6-euro-9-0702",
+      "label": "Euro Sauna 5 x 6 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-5-x-6-euro-9-0702-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-5-x-6-euro-9-0702-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-5-x-6-euro-9-0702-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-5-x-7-euro-9-0703-standard",
+      "market": "US",
+      "product_id": "finnleo-5-x-7-euro-9-0703",
+      "label": "Euro Sauna 5 x 7 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-5-x-7-euro-9-0703-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-5-x-7-euro-9-0703-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-5-x-7-euro-9-0703-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-standard",
+      "market": "US",
+      "product_id": "finnleo-6-x-12-euro-sauna-wchanging-room-9-0705",
+      "label": "Euro Sauna 6 x 12 with Changing Room standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-6-x-8-euro-9-0704-standard",
+      "market": "US",
+      "product_id": "finnleo-6-x-8-euro-9-0704",
+      "label": "Euro Sauna 6 x 8 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-6-x-8-euro-9-0704-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-6-x-8-euro-9-0704-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-6-x-8-euro-9-0704-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-standard",
+      "market": "US",
+      "product_id": "finnleo-7-x-10-euro-sauna-wchanging-room-9-0706",
+      "label": "Euro Sauna 7 x 10 with Changing Room standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-centurion-9-0504-standard",
+      "market": "US",
+      "product_id": "finnleo-centurion-9-0504",
+      "label": "Centurion standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-centurion-9-0504-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-centurion-9-0504-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-centurion-9-0504-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-custom-outdoor-sauna-9-0330-standard",
+      "market": "US",
+      "product_id": "finnleo-custom-outdoor-sauna-9-0330",
+      "label": "Finnleo Custom Outdoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-custom-outdoor-sauna-9-0330-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-custom-outdoor-sauna-9-0330-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-custom-outdoor-sauna-9-0330-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-designerb-9-0251-standard",
+      "market": "US",
+      "product_id": "finnleo-designerb-9-0251",
+      "label": "Designer-B Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-designerb-9-0251-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-designerb-9-0251-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-designerb-9-0251-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-designersl2-9-0250-standard",
+      "market": "US",
+      "product_id": "finnleo-designersl2-9-0250",
+      "label": "Designer-SL2 Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-designersl2-9-0250-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-designersl2-9-0250-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-designersl2-9-0250-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-hallmark-44-9-0601-standard",
+      "market": "US",
+      "product_id": "finnleo-hallmark-44-9-0601",
+      "label": "Hallmark 44 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-hallmark-44-9-0601-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-hallmark-44-9-0601-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-hallmark-44-9-0601-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-hallmark-46-9806-6620-standard",
+      "market": "US",
+      "product_id": "finnleo-hallmark-46-9806-6620",
+      "label": "Hallmark 46 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-hallmark-46-9806-6620-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-hallmark-46-9806-6620-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-hallmark-46-9806-6620-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-hallmark-57-9806-6640-standard",
+      "market": "US",
+      "product_id": "finnleo-hallmark-57-9806-6640",
+      "label": "Hallmark 57 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-hallmark-57-9806-6640-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-hallmark-57-9806-6640-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-hallmark-57-9806-6640-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-is440-infrasauna-9-0602-standard",
+      "market": "US",
+      "product_id": "finnleo-is440-infrasauna-9-0602",
+      "label": "IS440 InfraSauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-is440-infrasauna-9-0602-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-is440-infrasauna-9-0602-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-is440-infrasauna-9-0602-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-is565-infrasauna-9805-0840-standard",
+      "market": "US",
+      "product_id": "finnleo-is565-infrasauna-9805-0840",
+      "label": "IS565 InfraSauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-is565-infrasauna-9805-0840-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-is565-infrasauna-9805-0840-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-is565-infrasauna-9805-0840-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550-standard",
+      "market": "US",
+      "product_id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550",
+      "label": "NorthStar Indoor Sauna 4 x 4 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263-standard",
+      "market": "US",
+      "product_id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263",
+      "label": "NorthStar Indoor Sauna 4 x 6 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264-standard",
+      "market": "US",
+      "product_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
+      "label": "NorthStar Indoor Sauna 5 x 6 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265-standard",
+      "market": "US",
+      "product_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
+      "label": "NorthStar Indoor Sauna 5 x 7 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-standard",
+      "market": "US",
+      "product_id": "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266",
+      "label": "NorthStar Outdoor Sauna 4 x 6 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-standard",
+      "market": "US",
+      "product_id": "finnleo-northstar-outdoor-sauna-5-x-6-9630-2267",
+      "label": "NorthStar Outdoor Sauna 5 x 6 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-standard",
+      "market": "US",
+      "product_id": "finnleo-northstar-outdoor-sauna-5-x-7-9630-2268",
+      "label": "NorthStar Outdoor Sauna 5 x 7 standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-permanently-installed-custom-infrasauna-9-0320-standard",
+      "market": "US",
+      "product_id": "finnleo-permanently-installed-custom-infrasauna-9-0320",
+      "label": "Finnleo Custom InfraSauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-permanently-installed-custom-infrasauna-9-0320-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-permanently-installed-custom-infrasauna-9-0320-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-permanently-installed-custom-infrasauna-9-0320-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-permanently-installed-custom-traditional-sauna-9-0300-standard",
+      "market": "US",
+      "product_id": "finnleo-permanently-installed-custom-traditional-sauna-9-0300",
+      "label": "Finnleo Custom Traditional Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-permanently-installed-custom-traditional-sauna-9-0300-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-permanently-installed-custom-traditional-sauna-9-0300-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-permanently-installed-custom-traditional-sauna-9-0300-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-permanently-installed-infrared-sauna-9-0310-standard",
+      "market": "US",
+      "product_id": "finnleo-permanently-installed-infrared-sauna-9-0310",
+      "label": "Finnleo Permanently Installed Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-permanently-installed-infrared-sauna-9-0310-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-permanently-installed-infrared-sauna-9-0310-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-permanently-installed-infrared-sauna-9-0310-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-s810-infrared-sauna-9804-4410-standard",
+      "market": "US",
+      "product_id": "finnleo-s810-infrared-sauna-9804-4410",
+      "label": "S810 Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-s810-infrared-sauna-9804-4410-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-s810-infrared-sauna-9804-4410-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-s810-infrared-sauna-9804-4410-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-s820-infrared-sauna-9804-4420-standard",
+      "market": "US",
+      "product_id": "finnleo-s820-infrared-sauna-9804-4420",
+      "label": "S820 Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-s820-infrared-sauna-9804-4420-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-s820-infrared-sauna-9804-4420-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-s820-infrared-sauna-9804-4420-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-s825-infrared-sauna-9804-4430-standard",
+      "market": "US",
+      "product_id": "finnleo-s825-infrared-sauna-9804-4430",
+      "label": "S825 Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-s825-infrared-sauna-9804-4430-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-s825-infrared-sauna-9804-4430-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-s825-infrared-sauna-9804-4430-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-s830-infrared-sauna-9804-4440-standard",
+      "market": "US",
+      "product_id": "finnleo-s830-infrared-sauna-9804-4440",
+      "label": "S830 Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-s830-infrared-sauna-9804-4440-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-s830-infrared-sauna-9804-4440-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-s830-infrared-sauna-9804-4440-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-s840-infrared-sauna-9804-4450-standard",
+      "market": "US",
+      "product_id": "finnleo-s840-infrared-sauna-9804-4450",
+      "label": "S840 Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-s840-infrared-sauna-9804-4450-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-s840-infrared-sauna-9804-4450-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-s840-infrared-sauna-9804-4450-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-s870-infrared-sauna-9804-4470-standard",
+      "market": "US",
+      "product_id": "finnleo-s870-infrared-sauna-9804-4470",
+      "label": "S870 Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-s870-infrared-sauna-9804-4470-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-s870-infrared-sauna-9804-4470-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-s870-infrared-sauna-9804-4470-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-s880-infrared-sauna-9804-4480-standard",
+      "market": "US",
+      "product_id": "finnleo-s880-infrared-sauna-9804-4480",
+      "label": "S880 Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-s880-infrared-sauna-9804-4480-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-s880-infrared-sauna-9804-4480-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-s880-infrared-sauna-9804-4480-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-sisu-custom-free-standing-saunas-9-0400-standard",
+      "market": "US",
+      "product_id": "finnleo-sisu-custom-free-standing-saunas-9-0400",
+      "label": "Sisu Custom Free-Standing Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-sisu-custom-free-standing-saunas-9-0400-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-sisu-custom-free-standing-saunas-9-0400-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-sisu-custom-free-standing-saunas-9-0400-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-solace-9-0502-standard",
+      "market": "US",
+      "product_id": "finnleo-solace-9-0502",
+      "label": "Solace standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-solace-9-0502-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-solace-9-0502-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-solace-9-0502-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-twilight-9-0501-standard",
+      "market": "US",
+      "product_id": "finnleo-twilight-9-0501",
+      "label": "Twilight standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-twilight-9-0501-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-twilight-9-0501-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-twilight-9-0501-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-vita-ii-9-0503-standard",
+      "market": "US",
+      "product_id": "finnleo-vita-ii-9-0503",
+      "label": "Vita II standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-vita-ii-9-0503-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-vita-ii-9-0503-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-vita-ii-9-0503-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-designerb-9-0251-heater-standard",
+      "market": "US",
+      "product_id": "finnleo-designerb-9-0251-heater",
+      "label": "Designer-B Sauna Heater standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-designerb-9-0251-heater-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-designerb-9-0251-heater-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-designerb-9-0251-heater-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-designersl2-9-0250-heater-standard",
+      "market": "US",
+      "product_id": "finnleo-designersl2-9-0250-heater",
+      "label": "Designer-SL2 Sauna Heater standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-designersl2-9-0250-heater-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-designersl2-9-0250-heater-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-designersl2-9-0250-heater-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-himalaya-9-0260-standard",
+      "market": "US",
+      "product_id": "finnleo-himalaya-9-0260",
+      "label": "Himalaya Sauna Heater standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-himalaya-9-0260-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-himalaya-9-0260-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-himalaya-9-0260-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-karhu-20-home-9053-624-standard",
+      "market": "US",
+      "product_id": "finnleo-karhu-20-home-9053-624",
+      "label": "Karhu 20 Home Wood-Burning Heater standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-karhu-20-home-9053-624-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-karhu-20-home-9053-624-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-karhu-20-home-9053-624-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-laava-9-2220-standard",
+      "market": "US",
+      "product_id": "finnleo-laava-9-2220",
+      "label": "Laava Sauna Heater standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-laava-9-2220-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-laava-9-2220-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-laava-9-2220-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-magma-9-2210-standard",
+      "market": "US",
+      "product_id": "finnleo-magma-9-2210",
+      "label": "Magma Sauna Heater standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-magma-9-2210-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-magma-9-2210-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-magma-9-2210-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnleo-saga-22-9053-627-standard",
+      "market": "US",
+      "product_id": "finnleo-saga-22-9053-627",
+      "label": "Saga 22 Sauna Heater standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Finnleo documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Finnleo specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnleo-saga-22-9053-627-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnleo-saga-22-9053-627-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnleo-saga-22-9053-627-product"
+      ],
+      "publication_status": "candidate"
     }
   ],
   "certifications": [],

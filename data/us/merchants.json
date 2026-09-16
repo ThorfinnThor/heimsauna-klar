@@ -91,6 +91,16 @@
         "redwoodoutdoors.com"
       ],
       "status": "candidate"
+    },
+    {
+      "id": "finnleo",
+      "market": "US",
+      "name": "Finnleo",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "www.finnleo.com"
+      ],
+      "status": "candidate"
     }
   ]
 }

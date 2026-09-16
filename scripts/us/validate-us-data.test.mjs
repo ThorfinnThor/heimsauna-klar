@@ -206,9 +206,9 @@ function validBundle() {
 test("the checked-in US bundle exposes only the published first wave", async () => {
   const bundle = await loadUsBundle();
   assert.doesNotThrow(() => validateUsBundle(bundle));
-  assert.equal(bundle.products.products.length, 158);
+  assert.equal(bundle.products.products.length, 201);
   assert.equal(bundle.products.products.filter((product) => product.publication_status === "published").length, 23);
-  assert.equal(bundle.products.products.filter((product) => product.publication_status === "candidate").length, 135);
+  assert.equal(bundle.products.products.filter((product) => product.publication_status === "candidate").length, 178);
   assert.equal(bundle.offers.offers.length, 13);
   assert.equal(bundle.publication.routes_enabled, true);
   assert.equal(bundle.publication.indexing_enabled, true);

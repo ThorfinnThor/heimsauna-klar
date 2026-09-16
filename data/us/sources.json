@@ -1811,6 +1811,436 @@
       "market": "US",
       "checked_at": "2026-09-16",
       "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-finnleo-4-x-6-euro-9-0701-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/4-x-6-euro-9-0701",
+      "title": "Euro Sauna 4 x 6 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-5-x-6-euro-9-0702-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/5-x-6-euro-9-0702",
+      "title": "Euro Sauna 5 x 6 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-5-x-7-euro-9-0703-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/5-x-7-euro-9-0703",
+      "title": "Euro Sauna 5 x 7 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/6-x-12-euro-sauna-wchanging-room-9-0705",
+      "title": "Euro Sauna 6 x 12 with Changing Room product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-6-x-8-euro-9-0704-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/6-x-8-euro-9-0704",
+      "title": "Euro Sauna 6 x 8 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/7-x-10-euro-sauna-wchanging-room-9-0706",
+      "title": "Euro Sauna 7 x 10 with Changing Room product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-centurion-9-0504-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/centurion-9-0504",
+      "title": "Centurion product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-custom-outdoor-sauna-9-0330-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/custom-outdoor-sauna-9-0330",
+      "title": "Finnleo Custom Outdoor Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-designerb-9-0251-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/designerb-9-0251",
+      "title": "Designer-B Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-designersl2-9-0250-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/designersl2-9-0250",
+      "title": "Designer-SL2 Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-hallmark-44-9-0601-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/hallmark-44-9-0601",
+      "title": "Hallmark 44 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-hallmark-46-9806-6620-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/hallmark-46-9806-6620",
+      "title": "Hallmark 46 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-hallmark-57-9806-6640-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/hallmark-57-9806-6640",
+      "title": "Hallmark 57 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-is440-infrasauna-9-0602-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/is440-infrasauna-9-0602",
+      "title": "IS440 InfraSauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-is565-infrasauna-9805-0840-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/is565-infrasauna-9805-0840",
+      "title": "IS565 InfraSauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/northstar-indoor-sauna-4-x-4-9-0550",
+      "title": "NorthStar Indoor Sauna 4 x 4 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/northstar-indoor-sauna-4-x-6-9630-2263",
+      "title": "NorthStar Indoor Sauna 4 x 6 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/northstar-indoor-sauna-5-x-6-9630-2264",
+      "title": "NorthStar Indoor Sauna 5 x 6 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/northstar-indoor-sauna-5-x-7-9630-2265",
+      "title": "NorthStar Indoor Sauna 5 x 7 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/northstar-outdoor-sauna-4-x-6-9630-2266",
+      "title": "NorthStar Outdoor Sauna 4 x 6 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/northstar-outdoor-sauna-5-x-6-9630-2267",
+      "title": "NorthStar Outdoor Sauna 5 x 6 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/northstar-outdoor-sauna-5-x-7-9630-2268",
+      "title": "NorthStar Outdoor Sauna 5 x 7 product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-permanently-installed-custom-infrasauna-9-0320-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/permanently-installed-custom-infrasauna-9-0320",
+      "title": "Finnleo Custom InfraSauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-permanently-installed-custom-traditional-sauna-9-0300-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/permanently-installed-custom-traditional-sauna-9-0300",
+      "title": "Finnleo Custom Traditional Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-permanently-installed-infrared-sauna-9-0310-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/permanently-installed-infrared-sauna-9-0310",
+      "title": "Finnleo Permanently Installed Infrared Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-s810-infrared-sauna-9804-4410-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/s810-infrared-sauna-9804-4410",
+      "title": "S810 Infrared Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-s820-infrared-sauna-9804-4420-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/s820-infrared-sauna-9804-4420",
+      "title": "S820 Infrared Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-s825-infrared-sauna-9804-4430-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/s825-infrared-sauna-9804-4430",
+      "title": "S825 Infrared Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-s830-infrared-sauna-9804-4440-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/s830-infrared-sauna-9804-4440",
+      "title": "S830 Infrared Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-s840-infrared-sauna-9804-4450-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/s840-infrared-sauna-9804-4450",
+      "title": "S840 Infrared Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-s870-infrared-sauna-9804-4470-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/s870-infrared-sauna-9804-4470",
+      "title": "S870 Infrared Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-s880-infrared-sauna-9804-4480-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/s880-infrared-sauna-9804-4480",
+      "title": "S880 Infrared Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-sisu-custom-free-standing-saunas-9-0400-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/sisu-custom-free-standing-saunas-9-0400",
+      "title": "Sisu Custom Free-Standing Sauna product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-solace-9-0502-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/solace-9-0502",
+      "title": "Solace product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-twilight-9-0501-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/twilight-9-0501",
+      "title": "Twilight product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-vita-ii-9-0503-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/vita-ii-9-0503",
+      "title": "Vita II product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-designerb-9-0251-heater-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/designerb-9-0251-heater",
+      "title": "Designer-B Sauna Heater product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-designersl2-9-0250-heater-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/designersl2-9-0250-heater",
+      "title": "Designer-SL2 Sauna Heater product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-himalaya-9-0260-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/himalaya-9-0260",
+      "title": "Himalaya Sauna Heater product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-karhu-20-home-9053-624-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/karhu-20-home-9053-624",
+      "title": "Karhu 20 Home Wood-Burning Heater product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-laava-9-2220-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/laava-9-2220",
+      "title": "Laava Sauna Heater product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-magma-9-2210-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/magma-9-2210",
+      "title": "Magma Sauna Heater product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
+    },
+    {
+      "id": "source-finnleo-saga-22-9053-627-product",
+      "type": "manufacturer-page",
+      "url": "https://www.finnleo.com/products/saga-22-9053-627",
+      "title": "Saga 22 Sauna Heater product page",
+      "publisher": "Finnleo",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and product class"
     }
   ],
   "evidence": [
@@ -4132,6 +4562,608 @@
       "source_id": "source-peak-denali-product",
       "field_path": "configuration_identity",
       "raw_value": "Peak Denali 3-Person Full Spectrum Infrared Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-finnleo-4-x-6-euro-9-0701-product",
+      "entity_id": "finnleo-4-x-6-euro-9-0701",
+      "source_id": "source-finnleo-4-x-6-euro-9-0701-product",
+      "field_path": "product_identity",
+      "raw_value": "Euro Sauna 4 x 6 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-4-x-6-euro-9-0701-configuration",
+      "entity_id": "finnleo-4-x-6-euro-9-0701-standard",
+      "source_id": "source-finnleo-4-x-6-euro-9-0701-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Euro Sauna 4 x 6 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-5-x-6-euro-9-0702-product",
+      "entity_id": "finnleo-5-x-6-euro-9-0702",
+      "source_id": "source-finnleo-5-x-6-euro-9-0702-product",
+      "field_path": "product_identity",
+      "raw_value": "Euro Sauna 5 x 6 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-5-x-6-euro-9-0702-configuration",
+      "entity_id": "finnleo-5-x-6-euro-9-0702-standard",
+      "source_id": "source-finnleo-5-x-6-euro-9-0702-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Euro Sauna 5 x 6 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-5-x-7-euro-9-0703-product",
+      "entity_id": "finnleo-5-x-7-euro-9-0703",
+      "source_id": "source-finnleo-5-x-7-euro-9-0703-product",
+      "field_path": "product_identity",
+      "raw_value": "Euro Sauna 5 x 7 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-5-x-7-euro-9-0703-configuration",
+      "entity_id": "finnleo-5-x-7-euro-9-0703-standard",
+      "source_id": "source-finnleo-5-x-7-euro-9-0703-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Euro Sauna 5 x 7 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-product",
+      "entity_id": "finnleo-6-x-12-euro-sauna-wchanging-room-9-0705",
+      "source_id": "source-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-product",
+      "field_path": "product_identity",
+      "raw_value": "Euro Sauna 6 x 12 with Changing Room is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-configuration",
+      "entity_id": "finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-standard",
+      "source_id": "source-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Euro Sauna 6 x 12 with Changing Room is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-6-x-8-euro-9-0704-product",
+      "entity_id": "finnleo-6-x-8-euro-9-0704",
+      "source_id": "source-finnleo-6-x-8-euro-9-0704-product",
+      "field_path": "product_identity",
+      "raw_value": "Euro Sauna 6 x 8 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-6-x-8-euro-9-0704-configuration",
+      "entity_id": "finnleo-6-x-8-euro-9-0704-standard",
+      "source_id": "source-finnleo-6-x-8-euro-9-0704-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Euro Sauna 6 x 8 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-product",
+      "entity_id": "finnleo-7-x-10-euro-sauna-wchanging-room-9-0706",
+      "source_id": "source-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-product",
+      "field_path": "product_identity",
+      "raw_value": "Euro Sauna 7 x 10 with Changing Room is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-configuration",
+      "entity_id": "finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-standard",
+      "source_id": "source-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Euro Sauna 7 x 10 with Changing Room is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-centurion-9-0504-product",
+      "entity_id": "finnleo-centurion-9-0504",
+      "source_id": "source-finnleo-centurion-9-0504-product",
+      "field_path": "product_identity",
+      "raw_value": "Centurion is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-centurion-9-0504-configuration",
+      "entity_id": "finnleo-centurion-9-0504-standard",
+      "source_id": "source-finnleo-centurion-9-0504-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Centurion is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-custom-outdoor-sauna-9-0330-product",
+      "entity_id": "finnleo-custom-outdoor-sauna-9-0330",
+      "source_id": "source-finnleo-custom-outdoor-sauna-9-0330-product",
+      "field_path": "product_identity",
+      "raw_value": "Finnleo Custom Outdoor Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-custom-outdoor-sauna-9-0330-configuration",
+      "entity_id": "finnleo-custom-outdoor-sauna-9-0330-standard",
+      "source_id": "source-finnleo-custom-outdoor-sauna-9-0330-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Finnleo Custom Outdoor Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-designerb-9-0251-product",
+      "entity_id": "finnleo-designerb-9-0251",
+      "source_id": "source-finnleo-designerb-9-0251-product",
+      "field_path": "product_identity",
+      "raw_value": "Designer-B Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-designerb-9-0251-configuration",
+      "entity_id": "finnleo-designerb-9-0251-standard",
+      "source_id": "source-finnleo-designerb-9-0251-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Designer-B Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-designersl2-9-0250-product",
+      "entity_id": "finnleo-designersl2-9-0250",
+      "source_id": "source-finnleo-designersl2-9-0250-product",
+      "field_path": "product_identity",
+      "raw_value": "Designer-SL2 Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-designersl2-9-0250-configuration",
+      "entity_id": "finnleo-designersl2-9-0250-standard",
+      "source_id": "source-finnleo-designersl2-9-0250-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Designer-SL2 Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-44-9-0601-product",
+      "entity_id": "finnleo-hallmark-44-9-0601",
+      "source_id": "source-finnleo-hallmark-44-9-0601-product",
+      "field_path": "product_identity",
+      "raw_value": "Hallmark 44 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-44-9-0601-configuration",
+      "entity_id": "finnleo-hallmark-44-9-0601-standard",
+      "source_id": "source-finnleo-hallmark-44-9-0601-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Hallmark 44 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-46-9806-6620-product",
+      "entity_id": "finnleo-hallmark-46-9806-6620",
+      "source_id": "source-finnleo-hallmark-46-9806-6620-product",
+      "field_path": "product_identity",
+      "raw_value": "Hallmark 46 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-46-9806-6620-configuration",
+      "entity_id": "finnleo-hallmark-46-9806-6620-standard",
+      "source_id": "source-finnleo-hallmark-46-9806-6620-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Hallmark 46 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-57-9806-6640-product",
+      "entity_id": "finnleo-hallmark-57-9806-6640",
+      "source_id": "source-finnleo-hallmark-57-9806-6640-product",
+      "field_path": "product_identity",
+      "raw_value": "Hallmark 57 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-57-9806-6640-configuration",
+      "entity_id": "finnleo-hallmark-57-9806-6640-standard",
+      "source_id": "source-finnleo-hallmark-57-9806-6640-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Hallmark 57 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-is440-infrasauna-9-0602-product",
+      "entity_id": "finnleo-is440-infrasauna-9-0602",
+      "source_id": "source-finnleo-is440-infrasauna-9-0602-product",
+      "field_path": "product_identity",
+      "raw_value": "IS440 InfraSauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-is440-infrasauna-9-0602-configuration",
+      "entity_id": "finnleo-is440-infrasauna-9-0602-standard",
+      "source_id": "source-finnleo-is440-infrasauna-9-0602-product",
+      "field_path": "configuration_identity",
+      "raw_value": "IS440 InfraSauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-is565-infrasauna-9805-0840-product",
+      "entity_id": "finnleo-is565-infrasauna-9805-0840",
+      "source_id": "source-finnleo-is565-infrasauna-9805-0840-product",
+      "field_path": "product_identity",
+      "raw_value": "IS565 InfraSauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-is565-infrasauna-9805-0840-configuration",
+      "entity_id": "finnleo-is565-infrasauna-9805-0840-standard",
+      "source_id": "source-finnleo-is565-infrasauna-9805-0840-product",
+      "field_path": "configuration_identity",
+      "raw_value": "IS565 InfraSauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product",
+      "entity_id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550",
+      "source_id": "source-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product",
+      "field_path": "product_identity",
+      "raw_value": "NorthStar Indoor Sauna 4 x 4 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-configuration",
+      "entity_id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product",
+      "field_path": "configuration_identity",
+      "raw_value": "NorthStar Indoor Sauna 4 x 4 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product",
+      "entity_id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263",
+      "source_id": "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product",
+      "field_path": "product_identity",
+      "raw_value": "NorthStar Indoor Sauna 4 x 6 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-configuration",
+      "entity_id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product",
+      "field_path": "configuration_identity",
+      "raw_value": "NorthStar Indoor Sauna 4 x 6 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
+      "field_path": "product_identity",
+      "raw_value": "NorthStar Indoor Sauna 5 x 6 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-configuration",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
+      "field_path": "configuration_identity",
+      "raw_value": "NorthStar Indoor Sauna 5 x 6 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
+      "field_path": "product_identity",
+      "raw_value": "NorthStar Indoor Sauna 5 x 7 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-configuration",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
+      "field_path": "configuration_identity",
+      "raw_value": "NorthStar Indoor Sauna 5 x 7 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product",
+      "entity_id": "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266",
+      "source_id": "source-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product",
+      "field_path": "product_identity",
+      "raw_value": "NorthStar Outdoor Sauna 4 x 6 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-configuration",
+      "entity_id": "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-standard",
+      "source_id": "source-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product",
+      "field_path": "configuration_identity",
+      "raw_value": "NorthStar Outdoor Sauna 4 x 6 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-product",
+      "entity_id": "finnleo-northstar-outdoor-sauna-5-x-6-9630-2267",
+      "source_id": "source-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-product",
+      "field_path": "product_identity",
+      "raw_value": "NorthStar Outdoor Sauna 5 x 6 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-configuration",
+      "entity_id": "finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-standard",
+      "source_id": "source-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-product",
+      "field_path": "configuration_identity",
+      "raw_value": "NorthStar Outdoor Sauna 5 x 6 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-product",
+      "entity_id": "finnleo-northstar-outdoor-sauna-5-x-7-9630-2268",
+      "source_id": "source-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-product",
+      "field_path": "product_identity",
+      "raw_value": "NorthStar Outdoor Sauna 5 x 7 is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-configuration",
+      "entity_id": "finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-standard",
+      "source_id": "source-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-product",
+      "field_path": "configuration_identity",
+      "raw_value": "NorthStar Outdoor Sauna 5 x 7 is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-permanently-installed-custom-infrasauna-9-0320-product",
+      "entity_id": "finnleo-permanently-installed-custom-infrasauna-9-0320",
+      "source_id": "source-finnleo-permanently-installed-custom-infrasauna-9-0320-product",
+      "field_path": "product_identity",
+      "raw_value": "Finnleo Custom InfraSauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-permanently-installed-custom-infrasauna-9-0320-configuration",
+      "entity_id": "finnleo-permanently-installed-custom-infrasauna-9-0320-standard",
+      "source_id": "source-finnleo-permanently-installed-custom-infrasauna-9-0320-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Finnleo Custom InfraSauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-permanently-installed-custom-traditional-sauna-9-0300-product",
+      "entity_id": "finnleo-permanently-installed-custom-traditional-sauna-9-0300",
+      "source_id": "source-finnleo-permanently-installed-custom-traditional-sauna-9-0300-product",
+      "field_path": "product_identity",
+      "raw_value": "Finnleo Custom Traditional Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-permanently-installed-custom-traditional-sauna-9-0300-configuration",
+      "entity_id": "finnleo-permanently-installed-custom-traditional-sauna-9-0300-standard",
+      "source_id": "source-finnleo-permanently-installed-custom-traditional-sauna-9-0300-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Finnleo Custom Traditional Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-permanently-installed-infrared-sauna-9-0310-product",
+      "entity_id": "finnleo-permanently-installed-infrared-sauna-9-0310",
+      "source_id": "source-finnleo-permanently-installed-infrared-sauna-9-0310-product",
+      "field_path": "product_identity",
+      "raw_value": "Finnleo Permanently Installed Infrared Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-permanently-installed-infrared-sauna-9-0310-configuration",
+      "entity_id": "finnleo-permanently-installed-infrared-sauna-9-0310-standard",
+      "source_id": "source-finnleo-permanently-installed-infrared-sauna-9-0310-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Finnleo Permanently Installed Infrared Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-s810-infrared-sauna-9804-4410-product",
+      "entity_id": "finnleo-s810-infrared-sauna-9804-4410",
+      "source_id": "source-finnleo-s810-infrared-sauna-9804-4410-product",
+      "field_path": "product_identity",
+      "raw_value": "S810 Infrared Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-s810-infrared-sauna-9804-4410-configuration",
+      "entity_id": "finnleo-s810-infrared-sauna-9804-4410-standard",
+      "source_id": "source-finnleo-s810-infrared-sauna-9804-4410-product",
+      "field_path": "configuration_identity",
+      "raw_value": "S810 Infrared Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-s820-infrared-sauna-9804-4420-product",
+      "entity_id": "finnleo-s820-infrared-sauna-9804-4420",
+      "source_id": "source-finnleo-s820-infrared-sauna-9804-4420-product",
+      "field_path": "product_identity",
+      "raw_value": "S820 Infrared Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-s820-infrared-sauna-9804-4420-configuration",
+      "entity_id": "finnleo-s820-infrared-sauna-9804-4420-standard",
+      "source_id": "source-finnleo-s820-infrared-sauna-9804-4420-product",
+      "field_path": "configuration_identity",
+      "raw_value": "S820 Infrared Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-s825-infrared-sauna-9804-4430-product",
+      "entity_id": "finnleo-s825-infrared-sauna-9804-4430",
+      "source_id": "source-finnleo-s825-infrared-sauna-9804-4430-product",
+      "field_path": "product_identity",
+      "raw_value": "S825 Infrared Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-s825-infrared-sauna-9804-4430-configuration",
+      "entity_id": "finnleo-s825-infrared-sauna-9804-4430-standard",
+      "source_id": "source-finnleo-s825-infrared-sauna-9804-4430-product",
+      "field_path": "configuration_identity",
+      "raw_value": "S825 Infrared Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-s830-infrared-sauna-9804-4440-product",
+      "entity_id": "finnleo-s830-infrared-sauna-9804-4440",
+      "source_id": "source-finnleo-s830-infrared-sauna-9804-4440-product",
+      "field_path": "product_identity",
+      "raw_value": "S830 Infrared Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-s830-infrared-sauna-9804-4440-configuration",
+      "entity_id": "finnleo-s830-infrared-sauna-9804-4440-standard",
+      "source_id": "source-finnleo-s830-infrared-sauna-9804-4440-product",
+      "field_path": "configuration_identity",
+      "raw_value": "S830 Infrared Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-s840-infrared-sauna-9804-4450-product",
+      "entity_id": "finnleo-s840-infrared-sauna-9804-4450",
+      "source_id": "source-finnleo-s840-infrared-sauna-9804-4450-product",
+      "field_path": "product_identity",
+      "raw_value": "S840 Infrared Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-s840-infrared-sauna-9804-4450-configuration",
+      "entity_id": "finnleo-s840-infrared-sauna-9804-4450-standard",
+      "source_id": "source-finnleo-s840-infrared-sauna-9804-4450-product",
+      "field_path": "configuration_identity",
+      "raw_value": "S840 Infrared Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-s870-infrared-sauna-9804-4470-product",
+      "entity_id": "finnleo-s870-infrared-sauna-9804-4470",
+      "source_id": "source-finnleo-s870-infrared-sauna-9804-4470-product",
+      "field_path": "product_identity",
+      "raw_value": "S870 Infrared Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-s870-infrared-sauna-9804-4470-configuration",
+      "entity_id": "finnleo-s870-infrared-sauna-9804-4470-standard",
+      "source_id": "source-finnleo-s870-infrared-sauna-9804-4470-product",
+      "field_path": "configuration_identity",
+      "raw_value": "S870 Infrared Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-s880-infrared-sauna-9804-4480-product",
+      "entity_id": "finnleo-s880-infrared-sauna-9804-4480",
+      "source_id": "source-finnleo-s880-infrared-sauna-9804-4480-product",
+      "field_path": "product_identity",
+      "raw_value": "S880 Infrared Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-s880-infrared-sauna-9804-4480-configuration",
+      "entity_id": "finnleo-s880-infrared-sauna-9804-4480-standard",
+      "source_id": "source-finnleo-s880-infrared-sauna-9804-4480-product",
+      "field_path": "configuration_identity",
+      "raw_value": "S880 Infrared Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-sisu-custom-free-standing-saunas-9-0400-product",
+      "entity_id": "finnleo-sisu-custom-free-standing-saunas-9-0400",
+      "source_id": "source-finnleo-sisu-custom-free-standing-saunas-9-0400-product",
+      "field_path": "product_identity",
+      "raw_value": "Sisu Custom Free-Standing Sauna is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-sisu-custom-free-standing-saunas-9-0400-configuration",
+      "entity_id": "finnleo-sisu-custom-free-standing-saunas-9-0400-standard",
+      "source_id": "source-finnleo-sisu-custom-free-standing-saunas-9-0400-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Sisu Custom Free-Standing Sauna is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-solace-9-0502-product",
+      "entity_id": "finnleo-solace-9-0502",
+      "source_id": "source-finnleo-solace-9-0502-product",
+      "field_path": "product_identity",
+      "raw_value": "Solace is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-solace-9-0502-configuration",
+      "entity_id": "finnleo-solace-9-0502-standard",
+      "source_id": "source-finnleo-solace-9-0502-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Solace is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-twilight-9-0501-product",
+      "entity_id": "finnleo-twilight-9-0501",
+      "source_id": "source-finnleo-twilight-9-0501-product",
+      "field_path": "product_identity",
+      "raw_value": "Twilight is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-twilight-9-0501-configuration",
+      "entity_id": "finnleo-twilight-9-0501-standard",
+      "source_id": "source-finnleo-twilight-9-0501-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Twilight is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-vita-ii-9-0503-product",
+      "entity_id": "finnleo-vita-ii-9-0503",
+      "source_id": "source-finnleo-vita-ii-9-0503-product",
+      "field_path": "product_identity",
+      "raw_value": "Vita II is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-vita-ii-9-0503-configuration",
+      "entity_id": "finnleo-vita-ii-9-0503-standard",
+      "source_id": "source-finnleo-vita-ii-9-0503-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Vita II is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-designerb-9-0251-heater-product",
+      "entity_id": "finnleo-designerb-9-0251-heater",
+      "source_id": "source-finnleo-designerb-9-0251-heater-product",
+      "field_path": "product_identity",
+      "raw_value": "Designer-B Sauna Heater is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-designerb-9-0251-heater-configuration",
+      "entity_id": "finnleo-designerb-9-0251-heater-standard",
+      "source_id": "source-finnleo-designerb-9-0251-heater-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Designer-B Sauna Heater is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-designersl2-9-0250-heater-product",
+      "entity_id": "finnleo-designersl2-9-0250-heater",
+      "source_id": "source-finnleo-designersl2-9-0250-heater-product",
+      "field_path": "product_identity",
+      "raw_value": "Designer-SL2 Sauna Heater is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-designersl2-9-0250-heater-configuration",
+      "entity_id": "finnleo-designersl2-9-0250-heater-standard",
+      "source_id": "source-finnleo-designersl2-9-0250-heater-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Designer-SL2 Sauna Heater is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-himalaya-9-0260-product",
+      "entity_id": "finnleo-himalaya-9-0260",
+      "source_id": "source-finnleo-himalaya-9-0260-product",
+      "field_path": "product_identity",
+      "raw_value": "Himalaya Sauna Heater is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-himalaya-9-0260-configuration",
+      "entity_id": "finnleo-himalaya-9-0260-standard",
+      "source_id": "source-finnleo-himalaya-9-0260-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Himalaya Sauna Heater is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-karhu-20-home-9053-624-product",
+      "entity_id": "finnleo-karhu-20-home-9053-624",
+      "source_id": "source-finnleo-karhu-20-home-9053-624-product",
+      "field_path": "product_identity",
+      "raw_value": "Karhu 20 Home Wood-Burning Heater is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-karhu-20-home-9053-624-configuration",
+      "entity_id": "finnleo-karhu-20-home-9053-624-standard",
+      "source_id": "source-finnleo-karhu-20-home-9053-624-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Karhu 20 Home Wood-Burning Heater is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-laava-9-2220-product",
+      "entity_id": "finnleo-laava-9-2220",
+      "source_id": "source-finnleo-laava-9-2220-product",
+      "field_path": "product_identity",
+      "raw_value": "Laava Sauna Heater is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-laava-9-2220-configuration",
+      "entity_id": "finnleo-laava-9-2220-standard",
+      "source_id": "source-finnleo-laava-9-2220-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Laava Sauna Heater is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-magma-9-2210-product",
+      "entity_id": "finnleo-magma-9-2210",
+      "source_id": "source-finnleo-magma-9-2210-product",
+      "field_path": "product_identity",
+      "raw_value": "Magma Sauna Heater is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-magma-9-2210-configuration",
+      "entity_id": "finnleo-magma-9-2210-standard",
+      "source_id": "source-finnleo-magma-9-2210-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Magma Sauna Heater is represented as a non-publishing research configuration."
+    },
+    {
+      "id": "evidence-finnleo-saga-22-9053-627-product",
+      "entity_id": "finnleo-saga-22-9053-627",
+      "source_id": "source-finnleo-saga-22-9053-627-product",
+      "field_path": "product_identity",
+      "raw_value": "Saga 22 Sauna Heater is listed on the official Finnleo US product page."
+    },
+    {
+      "id": "evidence-finnleo-saga-22-9053-627-configuration",
+      "entity_id": "finnleo-saga-22-9053-627-standard",
+      "source_id": "source-finnleo-saga-22-9053-627-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Saga 22 Sauna Heater is represented as a non-publishing research configuration."
     }
   ]
 }

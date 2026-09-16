@@ -8379,6 +8379,2061 @@
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-16",
       "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-4-x-6-euro-9-0701",
+      "market": "US",
+      "slug": "finnleo-4-x-6-euro-9-0701",
+      "brand_name": "Finnleo",
+      "model": "Euro Sauna 4 x 6",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-4-x-6-euro-9-0701-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-4-x-6-euro-9-0701-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-4-x-6-euro-9-0701-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-4-x-6-euro-9-0701-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-4-x-6-euro-9-0701-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-5-x-6-euro-9-0702",
+      "market": "US",
+      "slug": "finnleo-5-x-6-euro-9-0702",
+      "brand_name": "Finnleo",
+      "model": "Euro Sauna 5 x 6",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-5-x-6-euro-9-0702-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-5-x-6-euro-9-0702-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-5-x-6-euro-9-0702-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-5-x-6-euro-9-0702-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-5-x-6-euro-9-0702-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-5-x-7-euro-9-0703",
+      "market": "US",
+      "slug": "finnleo-5-x-7-euro-9-0703",
+      "brand_name": "Finnleo",
+      "model": "Euro Sauna 5 x 7",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-5-x-7-euro-9-0703-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-5-x-7-euro-9-0703-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-5-x-7-euro-9-0703-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-5-x-7-euro-9-0703-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-5-x-7-euro-9-0703-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-6-x-12-euro-sauna-wchanging-room-9-0705",
+      "market": "US",
+      "slug": "finnleo-6-x-12-euro-sauna-wchanging-room-9-0705",
+      "brand_name": "Finnleo",
+      "model": "Euro Sauna 6 x 12 with Changing Room",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-6-x-8-euro-9-0704",
+      "market": "US",
+      "slug": "finnleo-6-x-8-euro-9-0704",
+      "brand_name": "Finnleo",
+      "model": "Euro Sauna 6 x 8",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-6-x-8-euro-9-0704-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-6-x-8-euro-9-0704-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-6-x-8-euro-9-0704-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-6-x-8-euro-9-0704-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-6-x-8-euro-9-0704-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-7-x-10-euro-sauna-wchanging-room-9-0706",
+      "market": "US",
+      "slug": "finnleo-7-x-10-euro-sauna-wchanging-room-9-0706",
+      "brand_name": "Finnleo",
+      "model": "Euro Sauna 7 x 10 with Changing Room",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-7-x-10-euro-sauna-wchanging-room-9-0706-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-centurion-9-0504",
+      "market": "US",
+      "slug": "finnleo-centurion-9-0504",
+      "brand_name": "Finnleo",
+      "model": "Centurion",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-centurion-9-0504-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-centurion-9-0504-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-centurion-9-0504-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-centurion-9-0504-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-centurion-9-0504-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-custom-outdoor-sauna-9-0330",
+      "market": "US",
+      "slug": "finnleo-custom-outdoor-sauna-9-0330",
+      "brand_name": "Finnleo",
+      "model": "Finnleo Custom Outdoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-custom-outdoor-sauna-9-0330-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-custom-outdoor-sauna-9-0330-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-custom-outdoor-sauna-9-0330-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-custom-outdoor-sauna-9-0330-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-custom-outdoor-sauna-9-0330-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-custom-outdoor-sauna-9-0330-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-designerb-9-0251",
+      "market": "US",
+      "slug": "finnleo-designerb-9-0251",
+      "brand_name": "Finnleo",
+      "model": "Designer-B Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-designerb-9-0251-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-designerb-9-0251-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-designerb-9-0251-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-designerb-9-0251-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-designerb-9-0251-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-designersl2-9-0250",
+      "market": "US",
+      "slug": "finnleo-designersl2-9-0250",
+      "brand_name": "Finnleo",
+      "model": "Designer-SL2 Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-designersl2-9-0250-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-designersl2-9-0250-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-designersl2-9-0250-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-designersl2-9-0250-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-designersl2-9-0250-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-hallmark-44-9-0601",
+      "market": "US",
+      "slug": "finnleo-hallmark-44-9-0601",
+      "brand_name": "Finnleo",
+      "model": "Hallmark 44",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-44-9-0601-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-44-9-0601-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-44-9-0601-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-hallmark-44-9-0601-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-hallmark-44-9-0601-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-hallmark-46-9806-6620",
+      "market": "US",
+      "slug": "finnleo-hallmark-46-9806-6620",
+      "brand_name": "Finnleo",
+      "model": "Hallmark 46",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-46-9806-6620-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-46-9806-6620-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-46-9806-6620-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-hallmark-46-9806-6620-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-hallmark-46-9806-6620-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-hallmark-57-9806-6640",
+      "market": "US",
+      "slug": "finnleo-hallmark-57-9806-6640",
+      "brand_name": "Finnleo",
+      "model": "Hallmark 57",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-57-9806-6640-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-57-9806-6640-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-57-9806-6640-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-hallmark-57-9806-6640-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-hallmark-57-9806-6640-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-is440-infrasauna-9-0602",
+      "market": "US",
+      "slug": "finnleo-is440-infrasauna-9-0602",
+      "brand_name": "Finnleo",
+      "model": "IS440 InfraSauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-is440-infrasauna-9-0602-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-is440-infrasauna-9-0602-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-is440-infrasauna-9-0602-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-is440-infrasauna-9-0602-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-is440-infrasauna-9-0602-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-is440-infrasauna-9-0602-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-is565-infrasauna-9805-0840",
+      "market": "US",
+      "slug": "finnleo-is565-infrasauna-9805-0840",
+      "brand_name": "Finnleo",
+      "model": "IS565 InfraSauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-is565-infrasauna-9805-0840-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-is565-infrasauna-9805-0840-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-is565-infrasauna-9805-0840-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-is565-infrasauna-9805-0840-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-is565-infrasauna-9805-0840-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-is565-infrasauna-9805-0840-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550",
+      "market": "US",
+      "slug": "finnleo-northstar-indoor-sauna-4-x-4-9-0550",
+      "brand_name": "Finnleo",
+      "model": "NorthStar Indoor Sauna 4 x 4",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-northstar-indoor-sauna-4-x-4-9-0550-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263",
+      "market": "US",
+      "slug": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263",
+      "brand_name": "Finnleo",
+      "model": "NorthStar Indoor Sauna 4 x 6",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-northstar-indoor-sauna-4-x-6-9630-2263-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
+      "market": "US",
+      "slug": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
+      "brand_name": "Finnleo",
+      "model": "NorthStar Indoor Sauna 5 x 6",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-northstar-indoor-sauna-5-x-6-9630-2264-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
+      "market": "US",
+      "slug": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
+      "brand_name": "Finnleo",
+      "model": "NorthStar Indoor Sauna 5 x 7",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-northstar-indoor-sauna-5-x-7-9630-2265-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266",
+      "market": "US",
+      "slug": "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266",
+      "brand_name": "Finnleo",
+      "model": "NorthStar Outdoor Sauna 4 x 6",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-northstar-outdoor-sauna-5-x-6-9630-2267",
+      "market": "US",
+      "slug": "finnleo-northstar-outdoor-sauna-5-x-6-9630-2267",
+      "brand_name": "Finnleo",
+      "model": "NorthStar Outdoor Sauna 5 x 6",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-northstar-outdoor-sauna-5-x-6-9630-2267-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-northstar-outdoor-sauna-5-x-7-9630-2268",
+      "market": "US",
+      "slug": "finnleo-northstar-outdoor-sauna-5-x-7-9630-2268",
+      "brand_name": "Finnleo",
+      "model": "NorthStar Outdoor Sauna 5 x 7",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-northstar-outdoor-sauna-5-x-7-9630-2268-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-permanently-installed-custom-infrasauna-9-0320",
+      "market": "US",
+      "slug": "finnleo-permanently-installed-custom-infrasauna-9-0320",
+      "brand_name": "Finnleo",
+      "model": "Finnleo Custom InfraSauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-custom-infrasauna-9-0320-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-custom-infrasauna-9-0320-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-custom-infrasauna-9-0320-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-custom-infrasauna-9-0320-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-permanently-installed-custom-infrasauna-9-0320-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-permanently-installed-custom-infrasauna-9-0320-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-permanently-installed-custom-traditional-sauna-9-0300",
+      "market": "US",
+      "slug": "finnleo-permanently-installed-custom-traditional-sauna-9-0300",
+      "brand_name": "Finnleo",
+      "model": "Finnleo Custom Traditional Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-custom-traditional-sauna-9-0300-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-custom-traditional-sauna-9-0300-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-custom-traditional-sauna-9-0300-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-custom-traditional-sauna-9-0300-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-permanently-installed-custom-traditional-sauna-9-0300-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-permanently-installed-custom-traditional-sauna-9-0300-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-permanently-installed-infrared-sauna-9-0310",
+      "market": "US",
+      "slug": "finnleo-permanently-installed-infrared-sauna-9-0310",
+      "brand_name": "Finnleo",
+      "model": "Finnleo Permanently Installed Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-infrared-sauna-9-0310-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-infrared-sauna-9-0310-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-infrared-sauna-9-0310-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-permanently-installed-infrared-sauna-9-0310-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-permanently-installed-infrared-sauna-9-0310-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-permanently-installed-infrared-sauna-9-0310-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-s810-infrared-sauna-9804-4410",
+      "market": "US",
+      "slug": "finnleo-s810-infrared-sauna-9804-4410",
+      "brand_name": "Finnleo",
+      "model": "S810 Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-s810-infrared-sauna-9804-4410-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-s810-infrared-sauna-9804-4410-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s810-infrared-sauna-9804-4410-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-s810-infrared-sauna-9804-4410-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-s810-infrared-sauna-9804-4410-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-s810-infrared-sauna-9804-4410-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-s820-infrared-sauna-9804-4420",
+      "market": "US",
+      "slug": "finnleo-s820-infrared-sauna-9804-4420",
+      "brand_name": "Finnleo",
+      "model": "S820 Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-s820-infrared-sauna-9804-4420-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-s820-infrared-sauna-9804-4420-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s820-infrared-sauna-9804-4420-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-s820-infrared-sauna-9804-4420-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-s820-infrared-sauna-9804-4420-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-s820-infrared-sauna-9804-4420-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-s825-infrared-sauna-9804-4430",
+      "market": "US",
+      "slug": "finnleo-s825-infrared-sauna-9804-4430",
+      "brand_name": "Finnleo",
+      "model": "S825 Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-s825-infrared-sauna-9804-4430-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-s825-infrared-sauna-9804-4430-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s825-infrared-sauna-9804-4430-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-s825-infrared-sauna-9804-4430-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-s825-infrared-sauna-9804-4430-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-s825-infrared-sauna-9804-4430-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-s830-infrared-sauna-9804-4440",
+      "market": "US",
+      "slug": "finnleo-s830-infrared-sauna-9804-4440",
+      "brand_name": "Finnleo",
+      "model": "S830 Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-s830-infrared-sauna-9804-4440-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-s830-infrared-sauna-9804-4440-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s830-infrared-sauna-9804-4440-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-s830-infrared-sauna-9804-4440-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-s830-infrared-sauna-9804-4440-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-s830-infrared-sauna-9804-4440-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-s840-infrared-sauna-9804-4450",
+      "market": "US",
+      "slug": "finnleo-s840-infrared-sauna-9804-4450",
+      "brand_name": "Finnleo",
+      "model": "S840 Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-s840-infrared-sauna-9804-4450-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-s840-infrared-sauna-9804-4450-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s840-infrared-sauna-9804-4450-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-s840-infrared-sauna-9804-4450-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-s840-infrared-sauna-9804-4450-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-s840-infrared-sauna-9804-4450-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-s870-infrared-sauna-9804-4470",
+      "market": "US",
+      "slug": "finnleo-s870-infrared-sauna-9804-4470",
+      "brand_name": "Finnleo",
+      "model": "S870 Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-s870-infrared-sauna-9804-4470-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-s870-infrared-sauna-9804-4470-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s870-infrared-sauna-9804-4470-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-s870-infrared-sauna-9804-4470-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-s870-infrared-sauna-9804-4470-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-s870-infrared-sauna-9804-4470-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-s880-infrared-sauna-9804-4480",
+      "market": "US",
+      "slug": "finnleo-s880-infrared-sauna-9804-4480",
+      "brand_name": "Finnleo",
+      "model": "S880 Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-s880-infrared-sauna-9804-4480-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnleo-s880-infrared-sauna-9804-4480-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s880-infrared-sauna-9804-4480-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-s880-infrared-sauna-9804-4480-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-s880-infrared-sauna-9804-4480-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-s880-infrared-sauna-9804-4480-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-sisu-custom-free-standing-saunas-9-0400",
+      "market": "US",
+      "slug": "finnleo-sisu-custom-free-standing-saunas-9-0400",
+      "brand_name": "Finnleo",
+      "model": "Sisu Custom Free-Standing Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-sisu-custom-free-standing-saunas-9-0400-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-sisu-custom-free-standing-saunas-9-0400-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-sisu-custom-free-standing-saunas-9-0400-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-sisu-custom-free-standing-saunas-9-0400-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-sisu-custom-free-standing-saunas-9-0400-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-sisu-custom-free-standing-saunas-9-0400-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-solace-9-0502",
+      "market": "US",
+      "slug": "finnleo-solace-9-0502",
+      "brand_name": "Finnleo",
+      "model": "Solace",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-solace-9-0502-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-solace-9-0502-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-solace-9-0502-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-solace-9-0502-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-solace-9-0502-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-solace-9-0502-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-twilight-9-0501",
+      "market": "US",
+      "slug": "finnleo-twilight-9-0501",
+      "brand_name": "Finnleo",
+      "model": "Twilight",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-twilight-9-0501-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-twilight-9-0501-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-twilight-9-0501-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-twilight-9-0501-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-twilight-9-0501-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-twilight-9-0501-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-vita-ii-9-0503",
+      "market": "US",
+      "slug": "finnleo-vita-ii-9-0503",
+      "brand_name": "Finnleo",
+      "model": "Vita II",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnleo-vita-ii-9-0503-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-vita-ii-9-0503-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-vita-ii-9-0503-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-finnleo-vita-ii-9-0503-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-vita-ii-9-0503-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-vita-ii-9-0503-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-designerb-9-0251-heater",
+      "market": "US",
+      "slug": "finnleo-designerb-9-0251-heater",
+      "brand_name": "Finnleo",
+      "model": "Designer-B Sauna Heater",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-finnleo-designerb-9-0251-heater-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-designerb-9-0251-heater-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater",
+        "evidence_ids": [
+          "evidence-finnleo-designerb-9-0251-heater-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-designerb-9-0251-heater-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-designerb-9-0251-heater-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-designersl2-9-0250-heater",
+      "market": "US",
+      "slug": "finnleo-designersl2-9-0250-heater",
+      "brand_name": "Finnleo",
+      "model": "Designer-SL2 Sauna Heater",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-finnleo-designersl2-9-0250-heater-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-designersl2-9-0250-heater-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater",
+        "evidence_ids": [
+          "evidence-finnleo-designersl2-9-0250-heater-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-designersl2-9-0250-heater-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-designersl2-9-0250-heater-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-himalaya-9-0260",
+      "market": "US",
+      "slug": "finnleo-himalaya-9-0260",
+      "brand_name": "Finnleo",
+      "model": "Himalaya Sauna Heater",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-finnleo-himalaya-9-0260-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-himalaya-9-0260-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater",
+        "evidence_ids": [
+          "evidence-finnleo-himalaya-9-0260-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-himalaya-9-0260-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-himalaya-9-0260-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-karhu-20-home-9053-624",
+      "market": "US",
+      "slug": "finnleo-karhu-20-home-9053-624",
+      "brand_name": "Finnleo",
+      "model": "Karhu 20 Home Wood-Burning Heater",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-finnleo-karhu-20-home-9053-624-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-karhu-20-home-9053-624-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater",
+        "evidence_ids": [
+          "evidence-finnleo-karhu-20-home-9053-624-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-karhu-20-home-9053-624-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-karhu-20-home-9053-624-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-laava-9-2220",
+      "market": "US",
+      "slug": "finnleo-laava-9-2220",
+      "brand_name": "Finnleo",
+      "model": "Laava Sauna Heater",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-finnleo-laava-9-2220-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-laava-9-2220-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater",
+        "evidence_ids": [
+          "evidence-finnleo-laava-9-2220-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-laava-9-2220-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-laava-9-2220-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-magma-9-2210",
+      "market": "US",
+      "slug": "finnleo-magma-9-2210",
+      "brand_name": "Finnleo",
+      "model": "Magma Sauna Heater",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-finnleo-magma-9-2210-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-magma-9-2210-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater",
+        "evidence_ids": [
+          "evidence-finnleo-magma-9-2210-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-magma-9-2210-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-magma-9-2210-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "finnleo-saga-22-9053-627",
+      "market": "US",
+      "slug": "finnleo-saga-22-9053-627",
+      "brand_name": "Finnleo",
+      "model": "Saga 22 Sauna Heater",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-finnleo-saga-22-9053-627-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnleo-saga-22-9053-627-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater",
+        "evidence_ids": [
+          "evidence-finnleo-saga-22-9053-627-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnleo-saga-22-9053-627-standard"
+      ],
+      "source_ids": [
+        "source-finnleo-saga-22-9053-627-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
     }
   ]
 }
