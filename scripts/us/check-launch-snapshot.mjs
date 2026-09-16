@@ -63,7 +63,7 @@ if (manifest.snapshot_id !== snapshot.snapshot_id) issues.push("preview manifest
 const expectedPublicationControls = {
   routes_enabled: true,
   indexing_enabled: indexedRelease,
-  affiliate_links_enabled: false,
+  affiliate_links_enabled: true,
   feed_sync_enabled: false,
 };
 for (const [flag, expected] of Object.entries(expectedPublicationControls)) {
@@ -82,7 +82,6 @@ compareExactSet(values(productEditorialDocument.entries), snapshot.records?.prod
 compareExactSet(values(legalDocument.pages), snapshot.records?.legal_page_ids ?? [], "snapshot legal_page_ids", issues);
 if (sourcesDocument.sources.length !== snapshot.records?.source_count) issues.push("snapshot source_count does not match data/us/sources.json");
 if (sourcesDocument.evidence.length !== snapshot.records?.evidence_count) issues.push("snapshot evidence_count does not match data/us/sources.json");
-if (offers.length !== 0) issues.push("protected launch snapshot must not contain an offer");
 
 const configurationIds = new Set(values(configurations));
 const productIds = new Set(values(products));

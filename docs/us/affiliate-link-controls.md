@@ -1,6 +1,6 @@
 # US affiliate link controls
 
-**Status:** implemented, inactive  
+**Status:** implemented, active for thirteen reviewed offers
 **Scope:** static US output only
 
 ## Output gate
@@ -22,7 +22,7 @@ The environment variable is a one-way emergency switch. It can suppress links th
 
 External affiliate links use a native `a` element, so Next.js does not prefetch them. The resolver supplies `rel="sponsored nofollow noopener noreferrer"` and `target="_blank"`. It parses links only to validate them and returns the same normalized URL without replacing tracking or merchant-destination parameters.
 
-The current repository contains no US offers, no approved US program relationship and no published US disclosure. Consequently the six research-preview pages continue to show `No reviewed offer`, and the normal static build removes the complete `/us` tree.
+The current repository contains thirteen reviewed US offers for Sweat Kingdom Saunas. Each corresponding product page exposes its own marked Awin deeplink; remaining research candidates continue to show `No reviewed offer`. Feed synchronization remains disabled, so additional offers require an exact feed or manual review.
 
 ## Activation procedure
 
@@ -34,4 +34,4 @@ The current repository contains no US offers, no approved US program relationshi
 6. Run `npm run us:test`, a research-preview build and the full production build before deployment.
 7. Set `US_AFFILIATE_LINKS_DISABLED=1` and rebuild whenever all US affiliate links must be suppressed immediately.
 
-No account approval, offer or production tracking test is claimed by this implementation.
+The Sweat Kingdom account acceptance was confirmed by the site operator on 2026-09-16 and recorded with the advertiser profile and terms. No conversion or checkout test is claimed. Every Awin redirect is constructed for its exact reviewed product URL and is labelled before the visitor leaves the site.

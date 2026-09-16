@@ -15219,6 +15219,2462 @@
         "sunlighten-luminir-panel-product"
       ],
       "publication_status": "candidate"
+    },
+    {
+      "id": "sweat-kingdom-sweat-cabin-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sweat-cabin",
+      "label": "6-foot wall height · Harvia KIP 8 kW base package",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-sweat-cabin-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 77,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-cabin-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Premium red cedar"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-cabin-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sweat-cabin-standard-heater",
+          "component_type": "heater",
+          "name": "Harvia KIP 8 kW heater with built-in controls",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-cabin-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sweat-cabin-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-cabin-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sweat-cabin-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for the selected Harvia KIP package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 8000,
+                "evidence_ids": [
+                  "evidence-sweat-cabin-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "The page states 50 A for the alternative Homecraft 9 kW package, not the selected Harvia KIP 8 kW package."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The required circuit is not stated for the selected Harvia KIP 8 kW package."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "A breaker rating is not stated for the selected Harvia KIP 8 kW package."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-cabin-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "A dedicated circuit is not explicitly stated for the selected Harvia KIP package."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-cabin-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-cabin-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-sweat-barrel-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sweat-barrel",
+      "label": "Regular 2-person size · Harvia KIP 6 kW package",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-barrel-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 48,
+              "unit": "in"
+            },
+            "height": {
+              "value": 72,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-barrel-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Red cedar"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-barrel-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sweat-barrel-standard-heater",
+          "component_type": "heater",
+          "name": "Harvia KIP 6 kW heater with built-in controls",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-barrel-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sweat-barrel-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-barrel-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sweat-barrel-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-barrel-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-barrel-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-barrel-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-barrel-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-barrel-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-barrel-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-barrel-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sweat-barrel-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-sweat-pod-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sweat-pod",
+      "label": "Regular 2-person size · Harvia KIP 6 kW package",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 53,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 61.25,
+              "unit": "in"
+            },
+            "height": {
+              "value": 77.375,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 47.375,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 51,
+              "unit": "in"
+            },
+            "height": {
+              "value": 70.375,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Red cedar",
+          "Tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-pod-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sweat-pod-standard-heater",
+          "component_type": "heater",
+          "name": "Harvia KIP 6 kW heater with built-in controls",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sweat-pod-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sweat-pod-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-pod-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Current is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The required circuit is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "A breaker rating is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-pod-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "A dedicated circuit is not explicitly stated for this exact selected package."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sweat-pod-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-summit-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-summit",
+      "label": "Small 2-person size · Harvia KIP 8 kW package",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-summit-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 64,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 59,
+              "unit": "in"
+            },
+            "height": {
+              "value": 91,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-summit-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 61,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 50,
+              "unit": "in"
+            },
+            "height": {
+              "value": 82,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-summit-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Natural cedar",
+          "Steel roof",
+          "Steel fasteners"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-summit-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-summit-standard-heater",
+          "component_type": "heater",
+          "name": "Harvia KIP 8 kW heater with built-in controls",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-summit-electrical"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-summit-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 8000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-summit-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Current is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The required circuit is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "A breaker rating is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-summit-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "A dedicated circuit is not explicitly stated for this exact selected package."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-summit-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-summit-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-ridge-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-ridge",
+      "label": "2-person size · Homecraft Revive Slim 6 kW package",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-ridge-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 59.5,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 59.25,
+              "unit": "in"
+            },
+            "height": {
+              "value": 89.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-ridge-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 56,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 50,
+              "unit": "in"
+            },
+            "height": {
+              "value": 82,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-ridge-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Natural red cedar",
+          "Steel roof"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-ridge-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-ridge-standard-heater",
+          "component_type": "heater",
+          "name": "Homecraft Revive Slim 6 kW heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-ridge-electrical"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-ridge-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ridge-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ridge-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ridge-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ridge-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ridge-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ridge-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-ridge-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-ridge-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-sweat-pod-blackout-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sweat-pod-blackout",
+      "label": "Regular 2-person size · Harvia KIP 6 kW package",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-blackout-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 53,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 61.25,
+              "unit": "in"
+            },
+            "height": {
+              "value": 77.375,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-blackout-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 47.375,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 51,
+              "unit": "in"
+            },
+            "height": {
+              "value": 70.375,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-blackout-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Red cedar",
+          "Tempered glass",
+          "Blackout weather-protection layers"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-pod-blackout-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sweat-pod-blackout-standard-heater",
+          "component_type": "heater",
+          "name": "Harvia KIP 6 kW heater with built-in controls",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-blackout-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sweat-pod-blackout-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-blackout-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sweat-pod-blackout-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-pod-blackout-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Current is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The required circuit is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "A breaker rating is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-pod-blackout-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "A dedicated circuit is not explicitly stated for this exact selected package."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-pod-blackout-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sweat-pod-blackout-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-sweat-cabin-blackout-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sweat-cabin-blackout",
+      "label": "6-foot wall height · Harvia KIP 8 kW package",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-cabin-blackout-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 77,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-cabin-blackout-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Premium red cedar",
+          "Tempered glass",
+          "Blackout weather-protection layers"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-blackout-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sweat-cabin-blackout-standard-heater",
+          "component_type": "heater",
+          "name": "Harvia KIP 8 kW heater with built-in controls",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-cabin-blackout-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sweat-cabin-blackout-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-cabin-blackout-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sweat-cabin-blackout-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 8000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-cabin-blackout-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Current is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The required circuit is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "A breaker rating is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-cabin-blackout-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "A dedicated circuit is not explicitly stated for this exact selected package."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-cabin-blackout-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sweat-cabin-blackout-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-ascent-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-ascent",
+      "label": "6-person size · Homecraft Revive 9 kW package",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-ascent-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 84,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72,
+              "unit": "in"
+            },
+            "height": {
+              "value": 91,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-ascent-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 81,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 61.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 82,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-ascent-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Natural cedar",
+          "Steel roof",
+          "Steel fasteners"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-ascent-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-ascent-standard-heater",
+          "component_type": "heater",
+          "name": "Homecraft Revive 9 kW WiFi heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-ascent-electrical"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-ascent-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 9000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ascent-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ascent-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ascent-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ascent-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ascent-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-ascent-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-ascent-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-ascent-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-outpost-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-outpost",
+      "label": "4-6 person prefab · Western red cedar interior · Homecraft 9 kW",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-outpost-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 99,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 75,
+              "unit": "in"
+            },
+            "height": {
+              "value": 108,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-outpost-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "LP board-and-batten siding",
+          "Mineral-wool insulation",
+          "Steel roof",
+          "Western red cedar interior"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-outpost-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-outpost-standard-heater",
+          "component_type": "heater",
+          "name": "Homecraft Revive 9 kW heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-outpost-electrical"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-outpost-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 9000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-outpost-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-outpost-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-outpost-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-outpost-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-outpost-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-outpost-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-outpost-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-outpost-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-sk-110-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sk-110",
+      "label": "5 × 6 footprint · 2-3 person base selection",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-110-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Exterior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Western red cedar",
+          "Wool insulation",
+          "Waterproof rubber flooring",
+          "LP Smartside or cedar siding"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-110-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sk-110-standard-heater",
+          "component_type": "heater",
+          "name": "Heater included; exact heater model depends on the selected SK 110 package",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-110-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sk-110-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-110-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sk-110-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Current is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The required circuit is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "A breaker rating is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sk-110-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "A dedicated circuit is not explicitly stated for this exact selected package."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-110-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sk-110-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-sk-210-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sk-210",
+      "label": "6 × 8 footprint · 4 person base selection",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-210-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Exterior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Western red cedar",
+          "Wool insulation",
+          "Waterproof rubber flooring",
+          "LP Smartside or cedar siding"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-210-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sk-210-standard-heater",
+          "component_type": "heater",
+          "name": "Heater included; exact heater model depends on the selected SK 210 package",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-210-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sk-210-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-210-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sk-210-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Current is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The required circuit is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "A breaker rating is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sk-210-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "A dedicated circuit is not explicitly stated for this exact selected package."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-210-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sk-210-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-sk-310-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sk-310",
+      "label": "7 × 10 footprint · 4-5 person base selection",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-310-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Exterior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Western red cedar",
+          "Wool insulation",
+          "Waterproof rubber flooring",
+          "LP Smartside or cedar siding"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-310-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sk-310-standard-heater",
+          "component_type": "heater",
+          "name": "Heater included; exact heater model depends on the selected SK 310 package",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-310-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sk-310-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-310-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sk-310-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Current is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The required circuit is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "A breaker rating is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sk-310-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "A dedicated circuit is not explicitly stated for this exact selected package."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-310-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sk-310-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-sk-mobile-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sk-mobile",
+      "label": "6.5 × 8 footprint · 4-5 person base selection · HUUM Drop 9",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-mobile-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Exterior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated for this exact configuration on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Western red cedar",
+          "Wool insulation",
+          "Waterproof rubber flooring"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-mobile-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sk-mobile-standard-heater",
+          "component_type": "heater",
+          "name": "HUUM Drop 9 heater (base selection)",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-mobile-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sk-mobile-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-mobile-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sk-mobile-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Current is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The required circuit is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "A breaker rating is not stated for this exact selected heater package on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sk-mobile-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "A dedicated circuit is not explicitly stated for this exact selected package."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sk-mobile-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sk-mobile-product"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "sweat-kingdom-sweat-box-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sweat-box",
+      "label": "The Sweat Box (1 Person) documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 1,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-box-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 42,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 42,
+              "unit": "in"
+            },
+            "height": {
+              "value": 80,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-box-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Red cedar",
+          "Tempered glass",
+          "Wool insulation",
+          "Waterproof rubber flooring"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-box-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sweat-box-standard-heater",
+          "component_type": "heater",
+          "name": "Homecraft Revive Slim 4 kW WiFi-controlled heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-box-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sweat-box-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-box-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sweat-box-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 4000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-box-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-box-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-box-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-box-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-box-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-box-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-box-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sweat-box-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sweat-kingdom-sweat-cabin-deluxe-standard",
+      "market": "US",
+      "product_id": "sweat-kingdom-sweat-cabin-deluxe",
+      "label": "The Sweat Cabin Deluxe (6 Person) documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "A manufacturer SKU is not stated on the reviewed product page."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-cabin-deluxe-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 84,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 73.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 89,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-cabin-deluxe-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Premium red cedar",
+          "Dual windows",
+          "Tempered glass",
+          "L bench"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-deluxe-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sweat-kingdom-sweat-cabin-deluxe-standard-heater",
+          "component_type": "heater",
+          "name": "Homecraft Revive 9 kW heater with WiFi control (listed option)",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-cabin-deluxe-electrical"
+          ]
+        },
+        {
+          "id": "sweat-kingdom-sweat-cabin-deluxe-standard-stones",
+          "component_type": "stones",
+          "name": "Sauna stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-cabin-deluxe-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sweat-kingdom-sweat-cabin-deluxe-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated on the reviewed product page."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 9000,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-cabin-deluxe-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-cabin-deluxe-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-cabin-deluxe-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 50,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-cabin-deluxe-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-cabin-deluxe-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "A plug type does not apply to the stated hardwired connection."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sweat-kingdom-sweat-cabin-deluxe-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sweat-kingdom-sweat-cabin-deluxe-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "sweat-kingdom-sweat-cabin-deluxe-product",
+        "sweat-kingdom-saunas-collection"
+      ],
+      "publication_status": "candidate"
     }
   ],
   "certifications": [],

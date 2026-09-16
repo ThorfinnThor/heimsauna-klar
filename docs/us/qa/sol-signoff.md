@@ -6,6 +6,8 @@
 
 **Indexable/commercial launch decision:** No-go until the remaining external gates are complete
 
+> Historical review. This 14 September snapshot was superseded on 16 September 2026 by `us-indexed-first-wave-2026-09-16-sweat-kingdom`, which records one reviewed Sweat Kingdom offer as active. The detailed zero-offer findings below describe the earlier release and are retained for audit history.
+
 ## Reviewed release state
 
 The reviewed L-100 snapshot contains 100 unique US products and 100 one-to-one configurations. Ten products and configurations are published in the first indexed wave; the remaining 90 records stay candidates. It also contains 56 source records, 200 evidence records and 100 explicit image-rights records. No US merchant offer is published.

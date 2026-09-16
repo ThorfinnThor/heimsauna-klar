@@ -121,7 +121,7 @@ test("real pilot data produces eleven known indoor infrared 120 V results", () =
   });
   assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 11);
   assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 11);
-  assert.equal(results.filter((entry) => entry.status === "excluded").length, 78);
+  assert.equal(results.filter((entry) => entry.status === "excluded").length, 93);
   assert.deepEqual(results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId), [
     "peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4", "peak-mini", "peak-crown", "peak-fuji", "peak-rainier", "sun-home-equinox", "sun-home-eclipse-2",
   ]);
@@ -145,7 +145,7 @@ test("the pilot scenario for two indoor infrared seats on 120 V returns seven kn
     ["peak-everest", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-fuji", "sun-home-equinox", "sun-home-eclipse-2"],
   );
   assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 7);
-  assert.equal(results.filter((entry) => entry.status === "excluded").length, 86);
+  assert.equal(results.filter((entry) => entry.status === "excluded").length, 101);
 });
 
 test("the public finder evaluates the complete pilot for six outdoor seats on 240 V", () => {
@@ -183,7 +183,7 @@ test("the public finder evaluates the complete pilot for six outdoor seats on 24
       "redwood-noctra-8",
     ],
   );
-  assert.equal(results.length, 100);
+  assert.equal(results.length, 115);
   assert.deepEqual(results, runUsFinder({
     ...input,
     products: productsDocument.products,

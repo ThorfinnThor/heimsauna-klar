@@ -2,8 +2,8 @@
   "schema_version": 2,
   "market": "US",
   "status": "reviewed-current",
-  "updated_at": "2026-09-15",
-  "scope": "Current 100-record US research catalog. Category counts overlap where a sauna kit also belongs to a placement and heat-type segment. Counts describe distinct product models, never size or electrical variants.",
+  "updated_at": "2026-09-16",
+  "scope": "Current 115-record US research catalog. Category counts overlap where a sauna kit also belongs to a placement and heat-type segment. Counts describe distinct product models, never size or electrical variants.",
   "data_complete_definition": "Product type, heat type, energy source, placement, form, seated capacity, exterior dimensions and materials are documented, and one electrical requirement documents voltage, rated power and rated current together.",
   "categories": [
     {
@@ -31,7 +31,7 @@
     {
       "id": "indoor-traditional-cabins",
       "label": "Indoor traditional saunas",
-      "product_count": 9,
+      "product_count": 20,
       "data_complete_count": 8,
       "status": "covered-with-open-records",
       "gaps": [
@@ -42,7 +42,7 @@
     {
       "id": "outdoor-traditional-cabins",
       "label": "Outdoor traditional saunas",
-      "product_count": 39,
+      "product_count": 54,
       "data_complete_count": 18,
       "status": "covered-with-open-records",
       "gaps": [

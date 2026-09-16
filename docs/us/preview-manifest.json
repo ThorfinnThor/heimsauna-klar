@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "snapshot_id": "us-indexed-first-wave-2026-09-15-l100",
+  "snapshot_id": "us-indexed-first-wave-2026-09-16-sweat-kingdom-expanded",
   "market": "US",
   "mode": "public-static-indexed-first-wave",
-  "expected_page_count": 24,
+  "expected_page_count": 37,
   "routes": [
     {
       "path": "/us/",
@@ -147,6 +147,84 @@
       "path": "/us/saunas/peak-patagonia/",
       "kind": "product",
       "record_id": "peak-patagonia",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-sweat-cabin/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-sweat-cabin",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-sweat-barrel/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-sweat-barrel",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-sweat-pod/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-sweat-pod",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-summit/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-summit",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-ridge/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-ridge",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-sweat-pod-blackout/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-sweat-pod-blackout",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-sweat-cabin-blackout/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-sweat-cabin-blackout",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-ascent/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-ascent",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-outpost/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-outpost",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-sk-110/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-sk-110",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-sk-210/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-sk-210",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-sk-310/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-sk-310",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sweat-kingdom-sk-mobile/",
+      "kind": "product",
+      "record_id": "sweat-kingdom-sk-mobile",
       "robots": "index, follow"
     }
   ],

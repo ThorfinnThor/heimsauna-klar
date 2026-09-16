@@ -84,28 +84,28 @@
       "eyebrow": "Affiliate disclosure",
       "heading": "How merchant links fit into these comparisons",
       "introduction": [
-            "The US section currently has no published affiliate offer. If a reviewed merchant relationship is activated later, the affected link will be marked before it leaves Select Your Sauna. A commission can be paid after a qualifying action, without changing the price shown by the merchant."
+        "Some US product offers use Awin affiliate links. A qualifying action after a clearly marked click may result in a commission for SeitenHafen361, without changing the price shown by the merchant."
       ],
       "sections": [
         {
           "id": "labeling",
           "heading": "A marked link is the point of attribution",
           "paragraphs": [
-            "Awin or another approved network is contacted only when a visitor deliberately opens a marked outbound link. The page does not load a tracking request in the background. The network and merchant then apply their own attribution, privacy and retention rules."
+            "A link labelled Affiliate link opens the Awin redirect and then the merchant's product page. No tracking request is loaded in the background."
           ]
         },
         {
           "id": "editorial-independence",
           "heading": "Commission does not set the comparison result",
           "paragraphs": [
-            "Product inclusion, comparison scope and Finder logic are based on the documented product and configuration records. There are no paid rankings or claims of first-hand testing. A merchant link does not replace the source used for a technical statement."
+            "Product inclusion, comparison scope and Finder logic follow the documented product and configuration records. There are no paid rankings or first-hand testing claims."
           ]
         },
         {
           "id": "scope-and-status",
-          "heading": "Publication follows a separate approval gate",
+          "heading": "Offers remain configuration-specific",
           "paragraphs": [
-            "An affiliate link can be shown only after the program, merchant, exact configuration, destination, tracking URL, freshness and disclosure have all been reviewed. Until that gate is opened, the US pages remain without affiliate offers."
+            "Prices, availability and included components are checked for the exact offer. The merchant's current product page and terms govern the purchase."
           ]
         }
       ],
@@ -148,7 +148,7 @@
           "id": "tracking-and-links",
           "heading": "Analytics, cookies and external links",
           "paragraphs": [
-            "The checked-in public client contains no first-party analytics SDK, advertising pixel, analytics cookie, local storage or session storage. External merchant, manufacturer and source sites are opened only after a visitor follows a link. An approved affiliate link may pass through a partner network, which then applies its own privacy and attribution rules."
+            "The checked-in public client contains no first-party advertising pixel or marketing cookie. External merchant pages open only after a visitor follows a link. A link marked Affiliate link passes through Awin, which can process attribution and request metadata under its own privacy and retention rules."
           ]
         },
         {

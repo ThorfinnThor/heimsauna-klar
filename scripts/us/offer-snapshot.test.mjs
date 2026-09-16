@@ -14,8 +14,8 @@ function snapshot(overrides = {}) {
     schema_version: 1,
     market: "US",
     snapshot: {
-      attempt_id: "fixture-success-2026-09-14",
-      attempted_at: "2026-09-14",
+      attempt_id: "fixture-success-2026-09-16",
+      attempted_at: "2026-09-16",
       source_status: "succeeded",
       complete: true,
     },
@@ -45,8 +45,8 @@ function validOffer(overrides = {}) {
     tax_treatment: "unknown",
     delivery_region_ids: [],
     shipping_evidence_ids: [],
-    last_successfully_checked_at: "2026-09-14",
-    last_attempted_at: "2026-09-14",
+    last_successfully_checked_at: "2026-09-16",
+    last_attempted_at: "2026-09-16",
     verification_method: "manual",
     promotion_status: "inactive",
     ...overrides,
@@ -68,7 +68,8 @@ test("a failed or incomplete source cannot reset the checked-in offer snapshot",
 test("a successful unchanged snapshot is idempotent", () => {
   const report = reviewUsOfferSnapshot(current, snapshot());
   assert.equal(report.status, "no-changes");
-  assert.deepEqual(report.summary, { before: 0, after: 0, added: [], updated: [], removed: [], errors: 0 });
+  const currentOfferCount = current.offers.offers.length;
+  assert.deepEqual(report.summary, { before: currentOfferCount, after: currentOfferCount, added: [], updated: [], removed: [], errors: 0 });
 });
 
 test("a partial successful response cannot remove an existing offer", () => {
@@ -80,7 +81,7 @@ test("a partial successful response cannot remove an existing offer", () => {
 });
 
 test("a future successful-check date is rejected", () => {
-  const candidate = snapshot({ offers: [validOffer({ last_successfully_checked_at: "2026-09-15", last_attempted_at: "2026-09-15" })] });
+  const candidate = snapshot({ offers: [validOffer({ last_successfully_checked_at: "2026-09-17", last_attempted_at: "2026-09-17" })] });
   const report = reviewUsOfferSnapshot(current, candidate);
   assert.equal(report.status, "rejected");
   assert(report.issues.some((issue) => issue.path.endsWith("last_successfully_checked_at")));
@@ -100,7 +101,7 @@ test("a validated additive snapshot is written atomically without changing other
     const result = await applyUsOfferSnapshot({ report, offersPath });
     assert.equal(result.applied, true);
     const written = JSON.parse(await readFile(offersPath, "utf8"));
-    assert.equal(written.offers.length, 1);
+    assert.equal(written.offers.length, current.offers.offers.length + 1);
     assert.equal(written.snapshot, undefined);
     const backup = JSON.parse(await readFile(result.backup_path, "utf8"));
     assert.deepEqual(backup, current.offers);

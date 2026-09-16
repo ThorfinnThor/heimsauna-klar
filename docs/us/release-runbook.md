@@ -1,17 +1,17 @@
 # SelectYourSauna release and rollback runbook
 
 **Runbook version:** 1.0  
-**Reviewed:** 14 September 2026  
+**Reviewed:** 16 September 2026
 **Ticket:** S-23  
 **Worker:** `heimsauna-klar`  
 **Production domain:** `https://selectyoursauna.com`  
-**US snapshot:** `us-public-noindex-beta-2026-09-14-l100`
+**US snapshot:** `us-indexed-first-wave-2026-09-16-sweat-kingdom-expanded`
 
 **Technical signoff commit:** `dd91656`
 
 This repository produces a static Next.js export in `out/`. Cloudflare Workers Static Assets publishes that directory through the `heimsauna-klar` Worker. There is no application Worker entry point, runtime database or OpenNext bundle.
 
-The current US snapshot is a public research beta. US routes are enabled, while indexing, affiliate links and feed synchronization remain disabled. The production build retains `/us/`, but every US page stays outside search discovery.
+The current US snapshot is an indexed release with 19 product pages. Nine reviewed Sweat Kingdom offers have affiliate output enabled; feed synchronization remains disabled and 90 research candidates stay outside the public product set.
 
 ## Responsibilities
 
@@ -66,10 +66,10 @@ The release stops if any command fails, if the working tree contains unreviewed 
 For the current public research beta, the expected output is:
 
 - 516 DE products and 210 active DE affiliate offers;
-- 114 US pages during `us:ci` and the normal production build;
-- zero US offers and every US page `noindex, follow`;
-- 682 deployable HTML files after the production output gate;
-- `/us/` retained in the final `out/` directory, with no US sitemap or `llms.txt` entry;
+- 33 declared US routes in the release manifest, with 31 currently discoverable;
+- thirteen reviewed US offers, 23 published product pages and 92 research candidates that remain non-public;
+- 601 static HTML pages checked by the internal-link gate in the current build;
+- `/us/` retained in the final `out/` directory, with reviewed US routes represented in the sitemap and discovery files;
 - Wrangler reads the static `out/` directory, reports no bindings and exits from `--dry-run` without upload.
 
 If the release intentionally opens US routes, a new snapshot and manifest must replace the protected snapshot. L-15, S-22 and O-04 must refer to that new snapshot. A release must never open routes by an environment override while the checked-in publication state still says `false`.
@@ -102,7 +102,7 @@ https://selectyoursauna.com/sitemap.xml
 
 Verify a homepage navigation path, one indexable product, one noindex product, one comparison, one planning guide and one active DE affiliate destination. Confirm HTTPS, canonical host, German language, expected robots state, one H1, visible content, working navigation and no horizontal overflow on desktop and mobile.
 
-For the public research beta, add `/us/`, `/us/saunas/`, `/us/sauna-finder/`, `/us/compare/models/`, one product page and the US trust pages to the same smoke test. Confirm the exact release snapshot, English language, self-canonical URLs, `noindex, follow`, absence from sitemap and the absence of merchant offers. An approved US offer is required only for a later commercial release.
+For the public US release, add `/us/`, `/us/saunas/`, `/us/sauna-finder/`, `/us/compare/models/`, one first-wave product, two Sweat Kingdom product pages and the US trust pages to the same smoke test. Confirm the exact release snapshot, English language, self-canonical URLs, intended robots state and sitemap membership. On a Sweat Kingdom product page, verify the visible affiliate label, the Awin redirect and the exact merchant destination without completing a purchase.
 
 ## Rollback
 

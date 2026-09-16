@@ -5452,6 +5452,798 @@
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-15",
       "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
+    },
+    {
+      "id": "sweat-kingdom-sweat-cabin",
+      "market": "US",
+      "slug": "sweat-kingdom-sweat-cabin",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Sweat Cabin (4 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-cabin-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-cabin-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-cabin-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-cabin-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding red cedar sauna cabin",
+        "evidence_ids": [
+          "evidence-sweat-cabin-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sweat-cabin-standard"
+      ],
+      "source_ids": [
+        "sweat-cabin-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after the site owner confirmed the US Awin publisher acceptance; product facts are taken from the official Sweat Kingdom product page."
+    },
+    {
+      "id": "sweat-kingdom-sweat-barrel",
+      "market": "US",
+      "slug": "sweat-kingdom-sweat-barrel",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Sweat Barrel (2 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-barrel-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-barrel-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-barrel-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Traditional red cedar barrel sauna",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-barrel-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sweat-barrel-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sweat-barrel-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-sweat-pod",
+      "market": "US",
+      "slug": "sweat-kingdom-sweat-pod",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Sweat Pod (2 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-pod-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-pod-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-pod-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Compact red cedar sauna cabin with beveled roof",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-pod-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sweat-pod-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sweat-pod-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-summit",
+      "market": "US",
+      "slug": "sweat-kingdom-summit",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Summit (2 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-summit-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-summit-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-summit-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor modular cedar sauna with pitched steel roof",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-summit-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-summit-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-summit-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-ridge",
+      "market": "US",
+      "slug": "sweat-kingdom-ridge",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Ridge (2 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-ridge-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-ridge-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-ridge-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Compact outdoor red cedar sauna with pitched roof",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-ridge-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-ridge-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-ridge-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-sweat-pod-blackout",
+      "market": "US",
+      "slug": "sweat-kingdom-sweat-pod-blackout",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Sweat Pod Blackout (2 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-pod-blackout-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-pod-blackout-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-pod-blackout-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Compact red cedar sauna cabin with blackout exterior protection",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-pod-blackout-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sweat-pod-blackout-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sweat-pod-blackout-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-sweat-cabin-blackout",
+      "market": "US",
+      "slug": "sweat-kingdom-sweat-cabin-blackout",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Sweat Cabin Blackout (4 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-blackout-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-blackout-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-blackout-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Four-person red cedar cabin with blackout exterior protection",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-blackout-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sweat-cabin-blackout-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sweat-cabin-blackout-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-ascent",
+      "market": "US",
+      "slug": "sweat-kingdom-ascent",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Ascent (6 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-ascent-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-ascent-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-ascent-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Six-person outdoor modular cedar sauna with pitched steel roof",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-ascent-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-ascent-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-ascent-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-outpost",
+      "market": "US",
+      "slug": "sweat-kingdom-outpost",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Outpost (4-6 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-outpost-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-outpost-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-outpost-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Fully assembled outdoor prefab traditional sauna",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-outpost-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-outpost-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-outpost-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-sk-110",
+      "market": "US",
+      "slug": "sweat-kingdom-sk-110",
+      "brand_name": "Sweat Kingdom",
+      "model": "SK 110 (2-3 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-110-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-110-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-110-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Modular red cedar sauna cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-110-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sk-110-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sk-110-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-sk-210",
+      "market": "US",
+      "slug": "sweat-kingdom-sk-210",
+      "brand_name": "Sweat Kingdom",
+      "model": "SK 210 (4 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-210-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-210-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-210-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Modular red cedar sauna cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-210-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sk-210-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sk-210-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-sk-310",
+      "market": "US",
+      "slug": "sweat-kingdom-sk-310",
+      "brand_name": "Sweat Kingdom",
+      "model": "SK 310 (4-5 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-310-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-310-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-310-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Large modular red cedar sauna cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-310-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sk-310-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sk-310-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-sk-mobile",
+      "market": "US",
+      "slug": "sweat-kingdom-sk-mobile",
+      "brand_name": "Sweat Kingdom",
+      "model": "SK Mobile (4-5 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-mobile-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-mobile-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not identify the energy source for the selected heater package."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-mobile-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Mobile red cedar sauna cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sk-mobile-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sk-mobile-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sk-mobile-product"
+      ],
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sweat-kingdom-sweat-box",
+      "market": "US",
+      "slug": "sweat-kingdom-sweat-box",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Sweat Box (1 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-box-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-box-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-box-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-box-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Compact red cedar sauna cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-box-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sweat-box-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sweat-box-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "The official product page currently marks this model sold out, so it is kept as a research candidate without an active offer."
+    },
+    {
+      "id": "sweat-kingdom-sweat-cabin-deluxe",
+      "market": "US",
+      "slug": "sweat-kingdom-sweat-cabin-deluxe",
+      "brand_name": "Sweat Kingdom",
+      "model": "The Sweat Cabin Deluxe (6 Person)",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-deluxe-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-deluxe-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-deluxe-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-deluxe-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Six-person red cedar sauna cabin with L bench",
+        "evidence_ids": [
+          "evidence-sweat-kingdom-sweat-cabin-deluxe-product"
+        ]
+      },
+      "configuration_ids": [
+        "sweat-kingdom-sweat-cabin-deluxe-standard"
+      ],
+      "source_ids": [
+        "sweat-kingdom-sweat-cabin-deluxe-product",
+        "sweat-kingdom-saunas-collection"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "next_review_at": "2026-12-15",
+      "change_reason": "The product page shows $8,245 while the current sauna collection shows $11,245. The model is recorded as a candidate until the merchant confirms the current price and selected package."
     }
   ]
 }

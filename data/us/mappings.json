@@ -1,5 +1,162 @@
 {
   "schema_version": 1,
   "market": "US",
-  "mappings": []
+  "mappings": [
+    {
+      "id": "mapping-sweat-kingdom-sweat-cabin",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-sweat-cabin",
+      "configuration_id": "sweat-kingdom-sweat-cabin-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "Exact destination URL and product handle match the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-sweat-barrel",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-large-barrel-sauna-6-person",
+      "configuration_id": "sweat-kingdom-sweat-barrel-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-sweat-pod",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-sweat-pod",
+      "configuration_id": "sweat-kingdom-sweat-pod-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-summit",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-summit",
+      "configuration_id": "sweat-kingdom-summit-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-ridge",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-ridge",
+      "configuration_id": "sweat-kingdom-ridge-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-sweat-pod-blackout",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-sweat-pod-blackout-edition",
+      "configuration_id": "sweat-kingdom-sweat-pod-blackout-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-sweat-cabin-blackout",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-sweat-cabin-blackout-edition",
+      "configuration_id": "sweat-kingdom-sweat-cabin-blackout-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-ascent",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-ascent",
+      "configuration_id": "sweat-kingdom-ascent-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-outpost",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-outpost",
+      "configuration_id": "sweat-kingdom-outpost-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-sk-110",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "the-sk-110",
+      "configuration_id": "sweat-kingdom-sk-110-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-sk-210",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "sk-210",
+      "configuration_id": "sweat-kingdom-sk-210-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-sk-310",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "sk-310",
+      "configuration_id": "sweat-kingdom-sk-310-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    },
+    {
+      "id": "mapping-sweat-kingdom-sk-mobile",
+      "market": "US",
+      "merchant_id": "sweat-kingdom",
+      "external_product_id": "sk-mobile",
+      "configuration_id": "sweat-kingdom-sk-mobile-standard",
+      "matching_method": "manual",
+      "reviewer_role": "research",
+      "reviewed_at": "2026-09-16",
+      "status": "approved",
+      "note": "The destination handle and selected configuration were checked against the official Sweat Kingdom product page."
+    }
+  ]
 }

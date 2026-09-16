@@ -28,7 +28,7 @@ Alternative Versorgungen sind getrennte Optionen. Mehrere Anforderungen innerhal
 
 **Status:** angenommen
 
-US-Routen, Indexierung, Affiliate-Ausgabe und Feed-Sync starten deaktiviert. Die Datenvorlagen enthalten keine synthetischen öffentlichen Produkte. Testdaten bleiben ausschließlich im Testcode.
+US-Routen und Indexierung sind für die geprüfte erste Welle geöffnet. Affiliate-Ausgabe ist für neun geprüfte Sweat-Kingdom-Angebote aktiv; Feed-Sync und Herstellerbild-Nutzung bleiben deaktiviert. Die übrigen Recherche-Datensätze bleiben Kandidaten.
 
 ## ADR-US-006: Keine Bildpflicht im Pilot
 
@@ -40,7 +40,7 @@ Ein Produktbild ist kein Pflichtfeld des technischen Vertrags. Bilder werden ers
 
 Der erste US-Pilot beschränkt sich auf stationäre Indoor- und Outdoor-Saunakabinen sowie klar getrennte Infrarotkabinen. Saunaöfen, Decken, Zubehör und medizinische beziehungsweise therapeutische Leistungsversprechen werden nicht als Kabinenprodukte in den Finder übernommen. Mobile oder maßgefertigte Angebote können als eigene Produkttypen hinzukommen, wenn Konfiguration, Preisumfang und Liefergebiet belegbar sind.
 
-Vier öffentlich auffindbare Awin-Programme sind als Kandidaten erfasst: Sweat Kingdom Saunas (`125462`), Peak Saunas (US) (`118291`), Sunlighten (`63394`) und JNH Lifestyles (`101557`). Die Profile belegen die Existenz des jeweiligen Programms und dienen der Recherche. Sie belegen nicht, dass das deutsche Publisherkonto zugelassen ist. Das bleibt je Programm ein `needs-account-check`.
+Vier öffentlich auffindbare Awin-Programme sind erfasst. Sweat Kingdom Saunas (`125462`) ist nach der vom Betreiber bestätigten Annahme für dieses Publisherkonto als `approved` dokumentiert und hat neun geprüfte Angebote. Peak Saunas (US) (`118291`), Sunlighten (`63394`) und JNH Lifestyles (`101557`) bleiben `needs-account-check`, bis eine Annahme und ein konkreter Deeplink vorliegen.
 
 ## Noch fachlich zu bestätigen
 

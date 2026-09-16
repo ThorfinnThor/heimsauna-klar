@@ -37,4 +37,4 @@ Product schema contains only documented identity and technical properties. Ratin
 
 ## Release controls
 
-The checked-in publication file keeps routes, indexing, affiliate links and feed sync disabled. Enabling routes alone does not enable indexing. Each page and underlying record must also satisfy its publication rule.
+The checked-in publication file controls routes, indexing, affiliate links and feed sync independently. The current US release enables routes, indexing and the reviewed affiliate offer while feed sync remains disabled. Enabling routes alone does not enable indexing. Each page and underlying record must also satisfy its publication rule.

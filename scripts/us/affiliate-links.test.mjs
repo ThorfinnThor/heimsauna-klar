@@ -67,7 +67,7 @@ function approvedFixture() {
   };
 }
 
-test("the checked-in US pilot exposes no affiliate links", () => {
+test("a published research product without an offer exposes no affiliate link", () => {
   assert.deepEqual(getUsAffiliateOffersForConfiguration("peak-shasta-standard"), []);
 });
 

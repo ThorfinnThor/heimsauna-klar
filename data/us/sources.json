@@ -269,7 +269,7 @@
       "title": "Sweat Kingdom The Sweat Cabin product page",
       "publisher": "Sweat Kingdom",
       "market": "US",
-      "checked_at": "2026-09-14",
+      "checked_at": "2026-09-16",
       "locator": "Product description, available wall heights, electrical and warranty sections"
     },
     {
@@ -1211,6 +1211,176 @@
       "market": "US",
       "checked_at": "2026-09-15",
       "locator": "Manufacturer technology page confirms LuminIR infrared panel context; standalone product dimensions remain to be verified"
+    },
+    {
+      "id": "awin-sweat-kingdom-terms",
+      "type": "program-terms",
+      "url": "https://ui.awin.com/merchant-profile-terms/125462",
+      "title": "Sweat Kingdom Saunas Awin program terms",
+      "publisher": "Awin",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Commission schedule and publisher terms"
+    },
+    {
+      "id": "awin-sweat-kingdom-account-approval",
+      "type": "account-approval",
+      "url": "https://ui.awin.com/merchant-profile/125462",
+      "title": "Sweat Kingdom Saunas publisher account approval",
+      "publisher": "Awin publisher account",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "notes": "The site owner confirmed acceptance of the publisher application on 2026-09-16. The public profile identifies the advertiser; account status is not exposed in the public profile."
+    },
+    {
+      "id": "sweat-kingdom-sweat-barrel-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-large-barrel-sauna-6-person",
+      "title": "Sweat Kingdom The Sweat Barrel product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-sweat-pod-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-sweat-pod",
+      "title": "Sweat Kingdom The Sweat Pod product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-summit-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-summit",
+      "title": "Sweat Kingdom The Summit product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-ridge-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-ridge",
+      "title": "Sweat Kingdom The Ridge product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-sweat-pod-blackout-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-sweat-pod-blackout-edition",
+      "title": "Sweat Kingdom The Sweat Pod Blackout Edition product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-sweat-cabin-blackout-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-sweat-cabin-blackout-edition",
+      "title": "Sweat Kingdom The Sweat Cabin Blackout Edition product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-ascent-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-ascent",
+      "title": "Sweat Kingdom The Ascent product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-outpost-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-outpost",
+      "title": "Sweat Kingdom The Outpost product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-sk-110-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-sk-110",
+      "title": "Sweat Kingdom SK 110 product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-sk-210-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/sk-210",
+      "title": "Sweat Kingdom SK 210 product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-sk-310-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/sk-310",
+      "title": "Sweat Kingdom SK 310 product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-sk-mobile-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/sk-mobile",
+      "title": "Sweat Kingdom SK Mobile product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, selected configuration, dimensions, materials, price, availability and electrical sections"
+    },
+    {
+      "id": "sweat-kingdom-saunas-collection",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/collections/saunas",
+      "title": "Sweat Kingdom sauna collection",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Collection price, availability and model listing"
+    },
+    {
+      "id": "sweat-kingdom-sweat-box-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-sweat-box-1-person",
+      "title": "Sweat Kingdom The Sweat Box product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, dimensions, materials, electrical section, availability and price"
+    },
+    {
+      "id": "sweat-kingdom-sweat-cabin-deluxe-product",
+      "type": "manufacturer-page",
+      "url": "https://sweatkingdom.com/products/the-deluxe-sweat-cabin",
+      "title": "Sweat Kingdom The Sweat Cabin Deluxe product page",
+      "publisher": "Sweat Kingdom",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product identity, dimensions, materials, electrical section, availability and price"
     }
   ],
   "evidence": [
@@ -2615,6 +2785,321 @@
       "source_id": "sunlighten-luminir-panel-product",
       "field_path": "manufacturer-product-page.specifications",
       "raw_value": "Sunlighten heating-technology material confirms the LuminIR panel as a component technology. Standalone dimensions, wattage, voltage and compatibility are not stated on the reviewed technology page and remain unknown."
+    },
+    {
+      "id": "evidence-sweat-cabin-product",
+      "entity_id": "sweat-kingdom-sweat-cabin",
+      "source_id": "sweat-cabin-product",
+      "field_path": "product_identity",
+      "raw_value": "The Sweat Cabin (4 Person), traditional sauna for indoor and outdoor use."
+    },
+    {
+      "id": "evidence-sweat-cabin-configuration",
+      "entity_id": "sweat-kingdom-sweat-cabin-standard",
+      "source_id": "sweat-cabin-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "4-person cabin; 6-foot wall exterior 72 × 72.5 × 77 inches; premium red cedar."
+    },
+    {
+      "id": "evidence-sweat-cabin-electrical",
+      "entity_id": "sweat-kingdom-sweat-cabin-standard",
+      "source_id": "sweat-cabin-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Selected Harvia KIP 8 kW heater with built-in controls. The page's 50 A and 6/3 hardwire details refer to the alternative Homecraft 9 kW package and are not assigned to the selected base offer."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-barrel-product",
+      "entity_id": "sweat-kingdom-sweat-barrel",
+      "source_id": "sweat-kingdom-sweat-barrel-product",
+      "field_path": "product_identity",
+      "raw_value": "The Sweat Barrel (2-6 Person), traditional red cedar barrel sauna for indoor and outdoor use."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-barrel-configuration",
+      "entity_id": "sweat-kingdom-sweat-barrel-standard",
+      "source_id": "sweat-kingdom-sweat-barrel-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Regular 2-person configuration; exterior 6 ft wide by 4 ft deep by 6 ft high; red cedar construction."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-barrel-electrical",
+      "entity_id": "sweat-kingdom-sweat-barrel-standard",
+      "source_id": "sweat-kingdom-sweat-barrel-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Selected Harvia KIP 6 kW package; 30 A, 10/2 wire and hardwired connection. Voltage is not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-pod-product",
+      "entity_id": "sweat-kingdom-sweat-pod",
+      "source_id": "sweat-kingdom-sweat-pod-product",
+      "field_path": "product_identity",
+      "raw_value": "The Sweat Pod (2-4 Person), traditional red cedar sauna for indoor and outdoor use."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-pod-configuration",
+      "entity_id": "sweat-kingdom-sweat-pod-standard",
+      "source_id": "sweat-kingdom-sweat-pod-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Regular 1-2 person configuration; exterior 77 3/8 H × 61 1/4 D × 53 W inches; interior 70 3/8 H × 51 D × 47 3/8 W inches."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-pod-electrical",
+      "entity_id": "sweat-kingdom-sweat-pod-standard",
+      "source_id": "sweat-kingdom-sweat-pod-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Selected Harvia KIP 6 kW heater package. The page documents 40 A and 8/3 hardwire for the alternative Homecraft 6 kW option, not for the selected Harvia package, so current and wire remain unassigned."
+    },
+    {
+      "id": "evidence-sweat-kingdom-summit-product",
+      "entity_id": "sweat-kingdom-summit",
+      "source_id": "sweat-kingdom-summit-product",
+      "field_path": "product_identity",
+      "raw_value": "The Summit (2-6 Person), outdoor-rated modular traditional sauna with a pitched steel roof."
+    },
+    {
+      "id": "evidence-sweat-kingdom-summit-configuration",
+      "entity_id": "sweat-kingdom-summit-standard",
+      "source_id": "sweat-kingdom-summit-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Small 2-person configuration; exterior 91 H × 59 D × 64 W inches; interior 82 H × 50 D × 61 W inches; natural cedar and steel exterior components."
+    },
+    {
+      "id": "evidence-sweat-kingdom-summit-electrical",
+      "entity_id": "sweat-kingdom-summit-standard",
+      "source_id": "sweat-kingdom-summit-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Selected Harvia KIP 8 kW heater with built-in controls. The detailed 50 A and 6/3 hardwire specification on the page is labeled for the alternative Homecraft Revive 9 kW package and is not assigned here."
+    },
+    {
+      "id": "evidence-sweat-kingdom-ridge-product",
+      "entity_id": "sweat-kingdom-ridge",
+      "source_id": "sweat-kingdom-ridge-product",
+      "field_path": "product_identity",
+      "raw_value": "The Ridge (2 Person), compact outdoor traditional sauna in natural red cedar."
+    },
+    {
+      "id": "evidence-sweat-kingdom-ridge-configuration",
+      "entity_id": "sweat-kingdom-ridge-standard",
+      "source_id": "sweat-kingdom-ridge-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "2-person configuration; exterior 59.5 W × 59.25 D × 89.5 H inches; interior 56 W × 50 D × 82 H inches."
+    },
+    {
+      "id": "evidence-sweat-kingdom-ridge-electrical",
+      "entity_id": "sweat-kingdom-ridge-standard",
+      "source_id": "sweat-kingdom-ridge-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Homecraft Revive Slim 6 kW heater; 40 A dedicated breaker, 8/3 hardwired connection. Voltage is not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-pod-blackout-product",
+      "entity_id": "sweat-kingdom-sweat-pod-blackout",
+      "source_id": "sweat-kingdom-sweat-pod-blackout-product",
+      "field_path": "product_identity",
+      "raw_value": "The Sweat Pod Blackout Edition, 2-4 person traditional red cedar sauna with added exterior protection."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-pod-blackout-configuration",
+      "entity_id": "sweat-kingdom-sweat-pod-blackout-standard",
+      "source_id": "sweat-kingdom-sweat-pod-blackout-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Regular 1-2 person configuration; exterior 77 3/8 H × 61 1/4 D × 53 W inches; interior 70 3/8 H × 51 D × 47 3/8 W inches; two additional protective layers on side walls and roof."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-pod-blackout-electrical",
+      "entity_id": "sweat-kingdom-sweat-pod-blackout-standard",
+      "source_id": "sweat-kingdom-sweat-pod-blackout-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Selected Harvia KIP 6 kW heater package. The page gives 40 A and 8/3 hardwire only for the alternative Homecraft option, so those values are not assigned to this selection."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-cabin-blackout-product",
+      "entity_id": "sweat-kingdom-sweat-cabin-blackout",
+      "source_id": "sweat-kingdom-sweat-cabin-blackout-product",
+      "field_path": "product_identity",
+      "raw_value": "The Sweat Cabin Blackout Edition, 4-person traditional sauna for indoor and outdoor use."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-cabin-blackout-configuration",
+      "entity_id": "sweat-kingdom-sweat-cabin-blackout-standard",
+      "source_id": "sweat-kingdom-sweat-cabin-blackout-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "4-person, 6-foot wall configuration; exterior 77 H × 72.5 D × 72 W inches; premium red cedar with added side-wall and roof protection."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-cabin-blackout-electrical",
+      "entity_id": "sweat-kingdom-sweat-cabin-blackout-standard",
+      "source_id": "sweat-kingdom-sweat-cabin-blackout-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Selected Harvia KIP 8 kW heater with built-in controls. The page's 50 A and 6/3 hardwire details are for the alternative Homecraft 9 kW package and are not assigned here."
+    },
+    {
+      "id": "evidence-sweat-kingdom-ascent-product",
+      "entity_id": "sweat-kingdom-ascent",
+      "source_id": "sweat-kingdom-ascent-product",
+      "field_path": "product_identity",
+      "raw_value": "The Ascent, six-person outdoor-rated modular traditional sauna in natural cedar."
+    },
+    {
+      "id": "evidence-sweat-kingdom-ascent-configuration",
+      "entity_id": "sweat-kingdom-ascent-standard",
+      "source_id": "sweat-kingdom-ascent-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "6-person configuration; exterior 91 H × 72 D × 84 W inches; interior 82 H × 61.5 D × 81 W inches; pitched steel roof and natural cedar construction."
+    },
+    {
+      "id": "evidence-sweat-kingdom-ascent-electrical",
+      "entity_id": "sweat-kingdom-ascent-standard",
+      "source_id": "sweat-kingdom-ascent-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Homecraft Revive 9 kW WiFi heater; 50 A dedicated breaker, 6/3 hardwired connection. Voltage is not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-sweat-kingdom-outpost-product",
+      "entity_id": "sweat-kingdom-outpost",
+      "source_id": "sweat-kingdom-outpost-product",
+      "field_path": "product_identity",
+      "raw_value": "The Outpost, fully assembled 4-6 person outdoor prefab traditional sauna."
+    },
+    {
+      "id": "evidence-sweat-kingdom-outpost-configuration",
+      "entity_id": "sweat-kingdom-outpost-standard",
+      "source_id": "sweat-kingdom-outpost-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Exterior 8 ft 3 in wide by 6 ft 3 in deep; sloped exterior height ranges from 7 ft 4 in to 9 ft; LP board-and-batten shell, R13 mineral-wool insulation, steel roof and Western red cedar interior selection."
+    },
+    {
+      "id": "evidence-sweat-kingdom-outpost-electrical",
+      "entity_id": "sweat-kingdom-outpost-standard",
+      "source_id": "sweat-kingdom-outpost-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Homecraft Revive 9 kW heater; 50 A dedicated circuit and #8 hardwired connection. Voltage is not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-110-product",
+      "entity_id": "sweat-kingdom-sk-110",
+      "source_id": "sweat-kingdom-sk-110-product",
+      "field_path": "product_identity",
+      "raw_value": "SK 110, a modular traditional sauna offered in 5 × 6, 6 × 8 and 7 × 10 footprints for 2-3, 4-5 or 6-8 people."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-110-configuration",
+      "entity_id": "sweat-kingdom-sk-110-standard",
+      "source_id": "sweat-kingdom-sk-110-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Base selection 5 × 6 footprint for 2-3 people; the page also offers 6 × 8 and 7 × 10 footprints. Western red cedar lining, wool insulation and waterproof rubber flooring are listed."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-110-electrical",
+      "entity_id": "sweat-kingdom-sk-110-standard",
+      "source_id": "sweat-kingdom-sk-110-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "The product page states that a heater and sauna stones are included, but does not identify the selected heater's voltage, power, current or circuit requirement."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-210-product",
+      "entity_id": "sweat-kingdom-sk-210",
+      "source_id": "sweat-kingdom-sk-210-product",
+      "field_path": "product_identity",
+      "raw_value": "SK 210, modular traditional sauna with 6 × 8 footprint for 4 people and a 7 × 10 alternative for 6 people."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-210-configuration",
+      "entity_id": "sweat-kingdom-sk-210-standard",
+      "source_id": "sweat-kingdom-sk-210-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Base selection 6 × 8 footprint for 4 people; the page also offers a 7 × 10 footprint for 6 people. Western red cedar lining, wool insulation and waterproof rubber flooring are listed."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-210-electrical",
+      "entity_id": "sweat-kingdom-sk-210-standard",
+      "source_id": "sweat-kingdom-sk-210-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "The product page states that a heater and sauna stones are included, but does not identify the selected heater's voltage, power, current or circuit requirement."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-310-product",
+      "entity_id": "sweat-kingdom-sk-310",
+      "source_id": "sweat-kingdom-sk-310-product",
+      "field_path": "product_identity",
+      "raw_value": "SK 310, a 7 × 10 footprint modular traditional sauna for 4-5 people."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-310-configuration",
+      "entity_id": "sweat-kingdom-sk-310-standard",
+      "source_id": "sweat-kingdom-sk-310-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "7 × 10 footprint for 4-5 people; Board & Batten LP Smartside, cedar siding alternatives, Western red cedar lining, wool insulation and waterproof rubber flooring are listed."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-310-electrical",
+      "entity_id": "sweat-kingdom-sk-310-standard",
+      "source_id": "sweat-kingdom-sk-310-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "The product page states that a heater and sauna stones are included, but does not identify the selected heater's voltage, power, current or circuit requirement."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-mobile-product",
+      "entity_id": "sweat-kingdom-sk-mobile",
+      "source_id": "sweat-kingdom-sk-mobile-product",
+      "field_path": "product_identity",
+      "raw_value": "SK Mobile, a mobile traditional sauna with a 6.5 × 8 footprint for 4-5 people and selectable HUUM Drop 9 or HUUM Hive Flow Mini heaters."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-mobile-configuration",
+      "entity_id": "sweat-kingdom-sk-mobile-standard",
+      "source_id": "sweat-kingdom-sk-mobile-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Base selection 6.5 × 8 footprint for 4-5 people with HUUM Drop 9 heater. Western red cedar lining, wool insulation and waterproof rubber flooring are listed."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sk-mobile-electrical",
+      "entity_id": "sweat-kingdom-sk-mobile-standard",
+      "source_id": "sweat-kingdom-sk-mobile-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "The selected heater is HUUM Drop 9, but the product page does not state voltage, power, current or circuit requirements for this configuration."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-box-product",
+      "entity_id": "sweat-kingdom-sweat-box",
+      "source_id": "sweat-kingdom-sweat-box-product",
+      "field_path": "product_identity",
+      "raw_value": "The Sweat Box (1 Person), compact traditional red cedar sauna for indoor and outdoor use; the product page currently shows Sold out."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-box-configuration",
+      "entity_id": "sweat-kingdom-sweat-box-standard",
+      "source_id": "sweat-kingdom-sweat-box-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "One-person cabin; exterior height 80 in, depth 42 in and width 42 in; red cedar construction with tempered glass door and flat floor."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-box-electrical",
+      "entity_id": "sweat-kingdom-sweat-box-standard",
+      "source_id": "sweat-kingdom-sweat-box-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Homecraft Revive Slim 4 kW WiFi-controlled heater; 30 A circuit breaker and #10 wire hardwired connection."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-cabin-deluxe-product",
+      "entity_id": "sweat-kingdom-sweat-cabin-deluxe",
+      "source_id": "sweat-kingdom-sweat-cabin-deluxe-product",
+      "field_path": "product_identity",
+      "raw_value": "The Sweat Cabin Deluxe (6 Person), traditional red cedar sauna for indoor and outdoor use with dual windows and an L bench."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-cabin-deluxe-configuration",
+      "entity_id": "sweat-kingdom-sweat-cabin-deluxe-standard",
+      "source_id": "sweat-kingdom-sweat-cabin-deluxe-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "One-size six-person cabin; exterior H 89 in × D 73.5 in × W 84 in; premium red cedar, dual windows and L bench configuration."
+    },
+    {
+      "id": "evidence-sweat-kingdom-sweat-cabin-deluxe-electrical",
+      "entity_id": "sweat-kingdom-sweat-cabin-deluxe-standard",
+      "source_id": "sweat-kingdom-sweat-cabin-deluxe-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "The product page lists a Homecraft Revive 9 kW heater with 50 A dedicated breaker and 6/3 hardwired connection as an option."
     }
   ]
 }

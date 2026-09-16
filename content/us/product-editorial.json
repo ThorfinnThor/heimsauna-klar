@@ -242,6 +242,318 @@
       "source_ids": [
         "jnh-arki-outdoor-duo-product"
       ]
+    },
+    {
+      "id": "sweat-kingdom-sweat-cabin-editorial",
+      "product_id": "sweat-kingdom-sweat-cabin",
+      "status": "published",
+      "eyebrow": "Four-person indoor or outdoor cabin",
+      "heading": "A red cedar cabin with two wall-height choices",
+      "summary": "The Sweat Cabin is a four-person cedar sauna with a 72 × 72.5 inch footprint. The current base offer selects a Harvia KIP 8 kW heater.",
+      "paragraphs": [
+        "Sweat Kingdom lists The Sweat Cabin for indoor and outdoor use, with premium red cedar construction and a large picture window. The 6-foot wall option measures 72 inches wide by 72.5 inches deep and 77 inches high. A 7-foot wall option is listed separately for rooms with more headroom.",
+        "The current base configuration includes a Harvia KIP 8 kW heater and sauna stones. Detailed circuit values on the merchant page refer to a different Homecraft package, so the selected Harvia circuit remains open for the final electrical check."
+      ],
+      "decision_points": [
+        "The 6-foot wall height is the relevant choice where ceiling height is limited.",
+        "The 72.5-inch depth and 72-inch width describe the cabin, not the complete access and clearance envelope.",
+        "The current offer is made to order and the merchant lists a five-week lead time."
+      ],
+      "limitations": [
+        "The source does not state the selected Harvia package's voltage, current or breaker requirement, nor interior dimensions, shipping dimensions or minimum clearances.",
+        "Outdoor foundation, weather exposure and local electrical compliance require a separate check."
+      ],
+      "source_ids": [
+        "sweat-cabin-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-sweat-barrel-editorial",
+      "product_id": "sweat-kingdom-sweat-barrel",
+      "status": "published",
+      "eyebrow": "Compact red cedar barrel",
+      "heading": "A two-person barrel with a four-foot depth",
+      "summary": "The regular Sweat Barrel measures 72 × 48 × 72 inches and pairs the compact shell with a hardwired 6 kW Harvia heater.",
+      "paragraphs": [
+        "The regular Sweat Barrel is the shallowest configuration in the range. Its six-foot width follows the curved barrel profile, while the four-foot depth keeps the floor footprint shorter than the larger four- and six-person versions.",
+        "The selected package includes a Harvia KIP 6 kW heater and sauna stones. Sweat Kingdom specifies a 30-amp hardwired connection with 10/2 wire, but the product page does not publish the supply voltage or installation clearances."
+      ],
+      "decision_points": [
+        "The curved wall reduces usable shoulder space compared with a rectangular cabin of the same exterior width.",
+        "The 72-inch height is the outer barrel diameter, not a complete room-clearance allowance.",
+        "A weatherproof base and roof decision remain part of an outdoor installation."
+      ],
+      "limitations": [
+        "Interior dimensions, voltage, shipping dimensions and minimum clearances are not stated.",
+        "The listed price applies to the selected regular configuration and can change with roof or heater options."
+      ],
+      "source_ids": [
+        "sweat-kingdom-sweat-barrel-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-sweat-pod-editorial",
+      "product_id": "sweat-kingdom-sweat-pod",
+      "status": "published",
+      "eyebrow": "Two-person cabin with two bench levels",
+      "heading": "A narrow cabin that still needs more than five feet of depth",
+      "summary": "The regular Sweat Pod is 53 inches wide and 61.25 inches deep, with upper and lower benches inside its red cedar shell.",
+      "paragraphs": [
+        "At 53 inches wide, the regular Sweat Pod is narrower than the Sweat Cabin and most group models. Its 61.25-inch depth matters in a tight room because the door approach and electrical access still sit outside that listed cabinet footprint.",
+        "The current base selection uses a 6 kW Harvia KIP heater. The page also describes Homecraft electrical requirements, but those figures belong to a different selectable package and are not transferred to this configuration."
+      ],
+      "decision_points": [
+        "The interior width is 47.375 inches, which gives a more realistic measure of side-by-side seating.",
+        "Indoor and outdoor placement are both listed, although outdoor site preparation is not included in the dimensions.",
+        "The beveled roof is included in the selected offer shown on the merchant page."
+      ],
+      "limitations": [
+        "The selected Harvia package has no stated voltage, amperage or wire specification on this page.",
+        "Minimum clearances and shipping dimensions require separate documentation."
+      ],
+      "source_ids": [
+        "sweat-kingdom-sweat-pod-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-summit-editorial",
+      "product_id": "sweat-kingdom-summit",
+      "status": "published",
+      "eyebrow": "Small outdoor modular cabin",
+      "heading": "The Summit keeps a pitched roof over a two-person plan",
+      "summary": "The small Summit measures 64 × 59 × 91 inches and combines a natural cedar cabin with a pitched steel roof for outdoor placement.",
+      "paragraphs": [
+        "The Summit uses a rectangular cabin rather than a barrel shell. The small version provides a 61-inch interior width inside a 64-inch exterior width, while the 91-inch overall height reflects its pitched roof.",
+        "The current merchant selection shows a Harvia KIP 8 kW heater. The product page publishes detailed wiring only for the Homecraft alternative, so the electrical circuit for this exact selection remains open."
+      ],
+      "decision_points": [
+        "The pitched steel roof is part of the structure and raises the exterior height to 91 inches.",
+        "The small configuration is distinct from the deeper four- and six-person Summit sizes.",
+        "Outdoor drainage, foundation and service access are not included in the 64 × 59 inch footprint."
+      ],
+      "limitations": [
+        "The exact circuit, voltage and wire specification for the selected Harvia heater are not stated.",
+        "Shipping dimensions, net weight and minimum clearances remain undocumented."
+      ],
+      "source_ids": [
+        "sweat-kingdom-summit-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-ridge-editorial",
+      "product_id": "sweat-kingdom-ridge",
+      "status": "published",
+      "eyebrow": "Two-person outdoor square cabin",
+      "heading": "A five-foot-class footprint with a full-height roofline",
+      "summary": "The Ridge places a two-person cedar interior inside a 59.5 × 59.25 inch footprint and uses a 6 kW hardwired heater.",
+      "paragraphs": [
+        "The Ridge is nearly square at the base, unlike the deeper Sweat Pod. Its 56-inch interior width and 50-inch interior depth make the seating envelope easier to judge before adding the exterior access and clearance zones.",
+        "Sweat Kingdom pairs this model with a Homecraft Revive Slim 6 kW heater and states a 40-amp dedicated hardwired connection using 8/3 wire. The supply voltage is not published on the reviewed page."
+      ],
+      "decision_points": [
+        "The 89.5-inch exterior height includes the outdoor roof profile.",
+        "The starting price can change with the merchant's selectable finish or package options.",
+        "A level foundation and service path must be planned beyond the listed cabinet dimensions."
+      ],
+      "limitations": [
+        "Voltage, shipping dimensions, weight and minimum clearances are not documented.",
+        "The offer is presented as a starting price rather than one immutable checkout total."
+      ],
+      "source_ids": [
+        "sweat-kingdom-ridge-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-sweat-pod-blackout-editorial",
+      "product_id": "sweat-kingdom-sweat-pod-blackout",
+      "status": "published",
+      "eyebrow": "Weather-protected compact cabin",
+      "heading": "The Blackout Pod keeps the regular cabin dimensions",
+      "summary": "The two-person Blackout Pod retains the 53 × 61.25 inch footprint and adds protective layers to the side walls and roof.",
+      "paragraphs": [
+        "The Blackout edition does not create a larger two-person interior. It uses the same published exterior and interior dimensions as the regular Pod while adding two protective layers to the side walls and roof for outdoor exposure.",
+        "The current base selection shows a 6 kW Harvia KIP heater. The page's 40-amp specification is attached to the Homecraft alternative, so it is not treated as the requirement for this offer."
+      ],
+      "decision_points": [
+        "The added exterior treatment changes weather protection, not seated capacity.",
+        "The 47.375-inch interior width is the useful comparison measure for two occupants.",
+        "The five-week lead time is separate from freight transit and site preparation."
+      ],
+      "limitations": [
+        "The selected Harvia heater's voltage, current and wire requirements are not stated.",
+        "The product page does not publish shipping dimensions, weight or installation clearances."
+      ],
+      "source_ids": [
+        "sweat-kingdom-sweat-pod-blackout-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-sweat-cabin-blackout-editorial",
+      "product_id": "sweat-kingdom-sweat-cabin-blackout",
+      "status": "published",
+      "eyebrow": "Protected four-person cedar cabin",
+      "heading": "A Blackout shell around the shorter Sweat Cabin",
+      "summary": "This four-person Blackout configuration is 72 × 72.5 × 77 inches and adds exterior protection to the standard cedar cabin shape.",
+      "paragraphs": [
+        "The six-foot-wall Blackout Cabin shares the standard model's footprint and 77-inch exterior height. Its distinguishing feature is the added side-wall and roof protection, which is relevant outdoors but does not replace foundation or drainage planning.",
+        "The merchant's current base package selects a Harvia KIP 8 kW heater. The detailed 50-amp requirement on the page belongs to a Homecraft 9 kW alternative, so it remains separate from this record."
+      ],
+      "decision_points": [
+        "The shorter wall option is the relevant envelope where overhead space is constrained.",
+        "The four-person label does not document an interior dimension or reclining capacity.",
+        "Blackout protection addresses the shell while the site, wiring and access path remain project work."
+      ],
+      "limitations": [
+        "Interior dimensions and the selected Harvia heater's circuit values are not stated.",
+        "Shipping dimensions, weight and installation clearances remain open."
+      ],
+      "source_ids": [
+        "sweat-kingdom-sweat-cabin-blackout-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-ascent-editorial",
+      "product_id": "sweat-kingdom-ascent",
+      "status": "published",
+      "eyebrow": "Six-person outdoor modular sauna",
+      "heading": "The Ascent expands the bench width without adding a second size",
+      "summary": "The Ascent has an 84 × 72 inch base, an 81-inch interior width and one documented six-person configuration.",
+      "paragraphs": [
+        "Unlike the multi-size Summit, the Ascent is presented in one six-person shell. The interior is 81 inches wide and 61.5 inches deep, while the pitched roof brings the exterior height to 91 inches.",
+        "Its Homecraft Revive 9 kW heater requires a 50-amp dedicated hardwired connection with 6/3 wire. Voltage is not stated, so an electrician still needs the applicable installation document before specifying service."
+      ],
+      "decision_points": [
+        "The 84-inch width and 72-inch depth describe the sauna only, not the outdoor work zone.",
+        "The pitched steel roof is intended for year-round outdoor exposure.",
+        "The sliding lower bench changes usable floor space inside the cabin."
+      ],
+      "limitations": [
+        "Voltage, shipping dimensions, weight and minimum clearances are not published.",
+        "The merchant price excludes site work and can change before purchase."
+      ],
+      "source_ids": [
+        "sweat-kingdom-ascent-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-outpost-editorial",
+      "product_id": "sweat-kingdom-outpost",
+      "status": "published",
+      "eyebrow": "Delivered prefab outdoor room",
+      "heading": "The Outpost is a placement project, not a flat-pack cabin",
+      "summary": "The Outpost arrives as a fully assembled 4-6 person sauna with a 99 × 75 inch base and a sloped roof reaching 108 inches.",
+      "paragraphs": [
+        "The Outpost changes the logistics more than the seating count. It is a framed, insulated prefab room with board-and-batten siding and a steel roof, so delivery access and final placement have to be resolved before ordering.",
+        "The selected interior is Western red cedar and the listed heater is a Homecraft Revive 9 kW unit. Sweat Kingdom states a 50-amp dedicated hardwired connection with #8 wire, while voltage remains unstated on the reviewed page."
+      ],
+      "decision_points": [
+        "The roof slopes from 88 to 108 inches; the catalog uses the maximum height for conservative space planning.",
+        "A delivery quote and a verified route to the final pad are essential for this assembled structure.",
+        "The 99 × 75 inch shell excludes the foundation, working room and electrical approach."
+      ],
+      "limitations": [
+        "Interior dimensions, voltage, shipping weight and minimum clearances are not documented.",
+        "Shipping, site preparation and placement are not included in the displayed product price."
+      ],
+      "source_ids": [
+        "sweat-kingdom-outpost-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-sk-110-editorial",
+      "product_id": "sweat-kingdom-sk-110",
+      "status": "published",
+      "eyebrow": "Modular cabin with three footprint choices",
+      "heading": "The SK 110 starts with a compact 5 × 6 footprint",
+      "summary": "SK 110 offers a 2-3 person base footprint and can be configured for larger groups, with cedar lining and insulated modular walls.",
+      "paragraphs": [
+        "The SK 110 is sold as a modular cabin rather than one fixed-size shell. The base selection is a 5 × 6 footprint for 2-3 people, while the same product page lists 6 × 8 and 7 × 10 alternatives for larger groups.",
+        "Sweat Kingdom lists a heater and sauna stones with the cabin, along with wool insulation, a vapor barrier, waterproof rubber flooring and a Western red cedar lining. The exact heater and electrical service depend on the selected package and are not published in the reviewed page."
+      ],
+      "decision_points": [
+        "The 5 × 6 footprint is a planning reference, not a complete installation envelope.",
+        "A larger footprint changes capacity within the same SK 110 product family.",
+        "Siding and interior wood options are selectable and can affect the final configuration."
+      ],
+      "limitations": [
+        "The source does not publish exterior height, interior dimensions, heater model or electrical requirements for the base selection.",
+        "Delivery access and foundation requirements require a project-specific check."
+      ],
+      "source_ids": [
+        "sweat-kingdom-sk-110-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-sk-210-editorial",
+      "product_id": "sweat-kingdom-sk-210",
+      "status": "published",
+      "eyebrow": "Four-person modular cabin",
+      "heading": "SK 210 leaves room to grow to a six-person footprint",
+      "summary": "The base SK 210 selection uses a 6 × 8 footprint for four people, with a 7 × 10 alternative for six.",
+      "paragraphs": [
+        "SK 210 is useful when a four-person layout is the starting point but the site may support a larger cabin later. The merchant lists a 6 × 8 footprint for four people and a 7 × 10 footprint for six within the same product page.",
+        "Both variants use the modular construction described by Sweat Kingdom, including cedar lining, wool insulation and waterproof rubber flooring. A heater and stones are included, but the exact heater package and electrical requirements are not stated for the base selection."
+      ],
+      "decision_points": [
+        "The base footprint is 6 × 8; the 7 × 10 option needs a separate site check.",
+        "The listed capacity follows the merchant's footprint labels and does not document reclining space.",
+        "The product footprint excludes foundation, access and service clearances."
+      ],
+      "limitations": [
+        "Exterior height, interior dimensions and electrical circuit details are not published for the selected package.",
+        "Final options and delivery conditions are confirmed by the merchant at order time."
+      ],
+      "source_ids": [
+        "sweat-kingdom-sk-210-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-sk-310-editorial",
+      "product_id": "sweat-kingdom-sk-310",
+      "status": "published",
+      "eyebrow": "Seven-by-ten modular footprint",
+      "heading": "SK 310 is the large cabin for a five-person plan",
+      "summary": "The SK 310 uses a 7 × 10 footprint for four to five people and keeps the modular cedar construction used across the SK range.",
+      "paragraphs": [
+        "The SK 310 is the straightforward large-footprint option in the range. Sweat Kingdom labels its 7 × 10 footprint for four to five people and offers siding and interior wood choices on the product page.",
+        "The build description includes a Western red cedar lining, wool insulation and waterproof rubber flooring. A heater and sauna stones are included, while the page does not identify the exact heater model or the circuit needed for the selected package."
+      ],
+      "decision_points": [
+        "The 7 × 10 footprint needs a clear route for delivery and a suitable foundation.",
+        "The stated four-to-five-person capacity is tied to the footprint label, not a measured interior seating plan.",
+        "Finish choices are part of the configuration and can change the final price."
+      ],
+      "limitations": [
+        "Exterior height, interior dimensions and electrical requirements are not stated on the reviewed page.",
+        "The displayed price is the current base price and can change with selected options."
+      ],
+      "source_ids": [
+        "sweat-kingdom-sk-310-product"
+      ]
+    },
+    {
+      "id": "sweat-kingdom-sk-mobile-editorial",
+      "product_id": "sweat-kingdom-sk-mobile",
+      "status": "published",
+      "eyebrow": "Mobile sauna with a compact trailer footprint",
+      "heading": "The SK Mobile brings a four-to-five-person cabin to a 6.5 × 8 footprint",
+      "summary": "SK Mobile is listed at 6.5 × 8 feet for four to five people and offers a HUUM Drop 9 heater in the base selection.",
+      "paragraphs": [
+        "The SK Mobile differs from the fixed cabins because the product is built around mobility. The merchant lists a 6.5 × 8 footprint for four to five people and lets buyers choose between a HUUM Drop 9 and a HUUM Hive Flow Mini heater.",
+        "Sweat Kingdom describes the same cedar lining, wool insulation and waterproof rubber flooring used on its modular builds. The reviewed page does not publish the trailer specification or the electrical service for the selected HUUM heater, so those details need confirmation before ordering."
+      ],
+      "decision_points": [
+        "The 6.5 × 8 footprint describes the mobile sauna body and not the complete towing or positioning envelope.",
+        "A trailer route, turning radius and final placement surface are part of the site check.",
+        "The heater choice changes the technical requirements even though the seating label stays the same."
+      ],
+      "limitations": [
+        "Trailer dimensions, weight, towing requirements and electrical circuit details are not published on the reviewed page.",
+        "Local transport, registration and placement requirements are outside the listed product data."
+      ],
+      "source_ids": [
+        "sweat-kingdom-sk-mobile-product"
+      ]
     }
   ]
 }

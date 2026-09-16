@@ -90,12 +90,12 @@ if (!compatibilityDate) {
 const expectedPublicationControls = indexedRelease ? {
   routes_enabled: true,
   indexing_enabled: true,
-  affiliate_links_enabled: false,
+  affiliate_links_enabled: true,
   feed_sync_enabled: false,
 } : {
   routes_enabled: true,
   indexing_enabled: false,
-  affiliate_links_enabled: false,
+  affiliate_links_enabled: true,
   feed_sync_enabled: false,
 };
 for (const [flag, expected] of Object.entries(expectedPublicationControls)) {

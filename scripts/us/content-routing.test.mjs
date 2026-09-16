@@ -36,7 +36,7 @@ test("the checked-in editorial manifest exposes the reviewed US pages", () => {
   assert(comparisonPages.every((page) => page.publication_status === "published"));
 });
 
-test("trust pages are published while affiliate output remains disabled", () => {
+test("trust pages and affiliate disclosure are published", () => {
   const slugs = ["contact", "methodology", "affiliate-disclosure", "privacy"];
   for (const slug of slugs) {
     const page = getUsTrustPage(slug);
@@ -46,7 +46,7 @@ test("trust pages are published while affiliate output remains disabled", () => 
     assert(page.sections.length > 0);
     assert.equal(page.contact_email, "info@selectyoursauna.com");
   }
-  assert.equal(affiliateDocument.status, "draft");
+  assert.equal(affiliateDocument.status, "published");
   assert(affiliateDocument.disclosure.length > 0);
 });
 

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "market": "US",
   "status": "pending-permissions",
-  "updated_at": "2026-09-14",
+  "updated_at": "2026-09-16",
   "policy": "No manufacturer image is used in the US pilot until the relevant Awin or merchant permission is documented. Product pages remain source links only.",
   "assets": [
     {
@@ -1001,6 +1001,156 @@
       "merchant_id": "sunlighten",
       "asset_type": "manufacturer-image",
       "source_url": "https://shop-us.sunlighten.com/collections/saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sweat-cabin-image",
+      "entity_id": "sweat-kingdom-sweat-cabin",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-sweat-cabin",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sweat-barrel-image",
+      "entity_id": "sweat-kingdom-sweat-barrel",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-large-barrel-sauna-6-person",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sweat-pod-image",
+      "entity_id": "sweat-kingdom-sweat-pod",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-sweat-pod",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-summit-image",
+      "entity_id": "sweat-kingdom-summit",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-summit",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-ridge-image",
+      "entity_id": "sweat-kingdom-ridge",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-ridge",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sweat-pod-blackout-image",
+      "entity_id": "sweat-kingdom-sweat-pod-blackout",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-sweat-pod-blackout-edition",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sweat-cabin-blackout-image",
+      "entity_id": "sweat-kingdom-sweat-cabin-blackout",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-sweat-cabin-blackout-edition",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-ascent-image",
+      "entity_id": "sweat-kingdom-ascent",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-ascent",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-outpost-image",
+      "entity_id": "sweat-kingdom-outpost",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-outpost",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sk-110-image",
+      "entity_id": "sweat-kingdom-sk-110",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-sk-110",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sk-210-image",
+      "entity_id": "sweat-kingdom-sk-210",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/sk-210",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sk-310-image",
+      "entity_id": "sweat-kingdom-sk-310",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/sk-310",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sk-mobile-image",
+      "entity_id": "sweat-kingdom-sk-mobile",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/sk-mobile",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sweat-box-image",
+      "entity_id": "sweat-kingdom-sweat-box",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-sweat-box-1-person",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sweat-kingdom-sweat-cabin-deluxe-image",
+      "entity_id": "sweat-kingdom-sweat-cabin-deluxe",
+      "merchant_id": "sweat-kingdom",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sweatkingdom.com/products/the-deluxe-sweat-cabin",
       "rights_status": "not-requested",
       "permission_basis": "none",
       "action": "Use no image until written permission or an approved feed license is recorded."

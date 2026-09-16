@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "snapshot_id": "us-indexed-first-wave-2026-09-15-l100",
+  "snapshot_id": "us-indexed-first-wave-2026-09-16-sweat-kingdom-expanded",
   "market": "US",
-  "created_at": "2026-09-15",
-  "input_commit": "indexed-first-wave-2026-09-15",
-  "purpose": "Public indexed US first-wave release for ten source-complete products, three editorial pages and four operator-approved trust pages. The remaining research records stay candidates; affiliate output and feed sync remain disabled.",
+  "created_at": "2026-09-16",
+  "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
+  "purpose": "Public indexed US release with thirteen manually reviewed Sweat Kingdom merchant offers. Ninety-two research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
     "market": "US",
-    "updated_at": "2026-09-15",
+    "updated_at": "2026-09-16",
     "routes_enabled": true,
     "indexing_enabled": true,
-    "affiliate_links_enabled": false,
+    "affiliate_links_enabled": true,
     "feed_sync_enabled": false
   },
   "records": {
@@ -116,7 +116,22 @@
       "redwood-outdoor-shower",
       "sunlighten-solo-system",
       "sunlighten-solo-rise",
-      "sunlighten-luminir-panel"
+      "sunlighten-luminir-panel",
+      "sweat-kingdom-sweat-cabin",
+      "sweat-kingdom-sweat-barrel",
+      "sweat-kingdom-sweat-pod",
+      "sweat-kingdom-summit",
+      "sweat-kingdom-ridge",
+      "sweat-kingdom-sweat-pod-blackout",
+      "sweat-kingdom-sweat-cabin-blackout",
+      "sweat-kingdom-ascent",
+      "sweat-kingdom-outpost",
+      "sweat-kingdom-sk-110",
+      "sweat-kingdom-sk-210",
+      "sweat-kingdom-sk-310",
+      "sweat-kingdom-sk-mobile",
+      "sweat-kingdom-sweat-box",
+      "sweat-kingdom-sweat-cabin-deluxe"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -218,11 +233,40 @@
       "redwood-outdoor-shower-standard",
       "sunlighten-solo-system-standard",
       "sunlighten-solo-rise-standard",
-      "sunlighten-luminir-panel-standard"
+      "sunlighten-luminir-panel-standard",
+      "sweat-kingdom-sweat-cabin-standard",
+      "sweat-kingdom-sweat-barrel-standard",
+      "sweat-kingdom-sweat-pod-standard",
+      "sweat-kingdom-summit-standard",
+      "sweat-kingdom-ridge-standard",
+      "sweat-kingdom-sweat-pod-blackout-standard",
+      "sweat-kingdom-sweat-cabin-blackout-standard",
+      "sweat-kingdom-ascent-standard",
+      "sweat-kingdom-outpost-standard",
+      "sweat-kingdom-sk-110-standard",
+      "sweat-kingdom-sk-210-standard",
+      "sweat-kingdom-sk-310-standard",
+      "sweat-kingdom-sk-mobile-standard",
+      "sweat-kingdom-sweat-box-standard",
+      "sweat-kingdom-sweat-cabin-deluxe-standard"
     ],
-    "offer_ids": [],
-    "source_count": 121,
-    "evidence_count": 200,
+    "offer_ids": [
+      "offer-sweat-kingdom-sweat-cabin",
+      "offer-sweat-kingdom-sweat-barrel",
+      "offer-sweat-kingdom-sweat-pod",
+      "offer-sweat-kingdom-summit",
+      "offer-sweat-kingdom-ridge",
+      "offer-sweat-kingdom-sweat-pod-blackout",
+      "offer-sweat-kingdom-sweat-cabin-blackout",
+      "offer-sweat-kingdom-ascent",
+      "offer-sweat-kingdom-outpost",
+      "offer-sweat-kingdom-sk-110",
+      "offer-sweat-kingdom-sk-210",
+      "offer-sweat-kingdom-sk-310",
+      "offer-sweat-kingdom-sk-mobile"
+    ],
+    "source_count": 138,
+    "evidence_count": 245,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -238,7 +282,20 @@
       "jnh-tosi-1-editorial",
       "jnh-tosi-2-editorial",
       "jnh-tosi-4-editorial",
-      "jnh-arki-outdoor-duo-editorial"
+      "jnh-arki-outdoor-duo-editorial",
+      "sweat-kingdom-sweat-cabin-editorial",
+      "sweat-kingdom-sweat-barrel-editorial",
+      "sweat-kingdom-sweat-pod-editorial",
+      "sweat-kingdom-summit-editorial",
+      "sweat-kingdom-ridge-editorial",
+      "sweat-kingdom-sweat-pod-blackout-editorial",
+      "sweat-kingdom-sweat-cabin-blackout-editorial",
+      "sweat-kingdom-ascent-editorial",
+      "sweat-kingdom-outpost-editorial",
+      "sweat-kingdom-sk-110-editorial",
+      "sweat-kingdom-sk-210-editorial",
+      "sweat-kingdom-sk-310-editorial",
+      "sweat-kingdom-sk-mobile-editorial"
     ],
     "legal_page_ids": [
       "contact",
@@ -349,41 +406,56 @@
       "redwood-outdoor-shower-image",
       "sunlighten-solo-system-image",
       "sunlighten-solo-rise-image",
-      "sunlighten-luminir-panel-image"
+      "sunlighten-luminir-panel-image",
+      "sweat-kingdom-sweat-cabin-image",
+      "sweat-kingdom-sweat-barrel-image",
+      "sweat-kingdom-sweat-pod-image",
+      "sweat-kingdom-summit-image",
+      "sweat-kingdom-ridge-image",
+      "sweat-kingdom-sweat-pod-blackout-image",
+      "sweat-kingdom-sweat-cabin-blackout-image",
+      "sweat-kingdom-ascent-image",
+      "sweat-kingdom-outpost-image",
+      "sweat-kingdom-sk-110-image",
+      "sweat-kingdom-sk-210-image",
+      "sweat-kingdom-sk-310-image",
+      "sweat-kingdom-sk-mobile-image",
+      "sweat-kingdom-sweat-box-image",
+      "sweat-kingdom-sweat-cabin-deluxe-image"
     ]
   },
   "file_hashes": [
     {
       "path": "data/us/publication.json",
-      "sha256": "59a3f5b5540e5f643edc82f16561fae97c67bfaf41ec94347dca5fc1a389b28d"
+      "sha256": "46c84c0b85731df7e67522db96a9ef8254bad1ec5738ff52b896f4a754ddb73b"
     },
     {
       "path": "data/us/products.json",
-      "sha256": "fa4664acf96aaba6dbfec356b86eb2747483311e1fd7ceaa3b7a5bb11d043513"
+      "sha256": "a84af1af122ad36c6654183d4e254241bacbc51dc0c9678e8d237dc877ef374c"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "25f87fae77d9baa7d7ed53eb15bc799e4ec193a2fa4d6d30d2ced7fd9fbac189"
+      "sha256": "bc54340a50d0d575dc328c6b015c6206c18b5487229d204bcba7ca9047ad397b"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "0e5fbb38f58e4287f9c3005cf97d5a7fe3b0fd3b16d5f2c300455c3b97fc9db4"
+      "sha256": "cbbb5407174688d66fa3392666c3d8afb794aa20626c321f02ac57b07bf9c5da"
     },
     {
       "path": "data/us/merchants.json",
-      "sha256": "4da638d446bd4bbadb8ed8e89144c47432485fa1474e78bfd1ca6936687b3ce9"
+      "sha256": "1c2792adb8316b3a61b7453027ad29fd1eb9f514004de2666a19fb4b4af43009"
     },
     {
       "path": "data/us/programs.json",
-      "sha256": "686780ae86b99e7a8137ddd4132dd811b745e91af9c82899b399cafa3a546e1e"
+      "sha256": "6fedcfdc4df91fc2fd2ef13829d48d8f707e3ab17772913e915b14ad80c763ae"
     },
     {
       "path": "data/us/offers.json",
-      "sha256": "db3c606e65b901513a25129578afa1d638afd463a3f436a39b9ff703144a0fd0"
+      "sha256": "771b916886bc323b2440a5522e92544e0312918ba620238efb463dacbedf929f"
     },
     {
       "path": "data/us/mappings.json",
-      "sha256": "2975e109444456a1ce876cf78971f30169412678557b9b1b5c4587de16a68fb7"
+      "sha256": "87b1519876daf0ad54f8922c6b428d35d9c80f098a493a024ea302fd5a3fd20b"
     },
     {
       "path": "content/us/navigation.json",
@@ -395,11 +467,11 @@
     },
     {
       "path": "content/us/affiliate.json",
-      "sha256": "e193f964beafcbbac156e6f0194dee1c86f3c1b1bfa4169ce6c3eec630d7c034"
+      "sha256": "ae0ce53e753c4e746d99953aad250cc4aa1462059421c5e2cdb0f5a5d5188ed8"
     },
     {
       "path": "content/us/legal.json",
-      "sha256": "d168f8e9a354e8560c8bf6a138563aed78c64c7de7cf1ff38841986ef4abd995"
+      "sha256": "6679e91a50a81948969501e3a50f2f375fab842340a94056a4426eb630090f52"
     },
     {
       "path": "content/us/page-presentations.json",
@@ -411,15 +483,15 @@
     },
     {
       "path": "content/us/product-editorial.json",
-      "sha256": "95dc2df17c685d642b54c461cb4d6a6da65211effa5b70b1e5912fe388c69c44"
+      "sha256": "09be03d958e9f4a4898cd232b8de51095ae174c0db5d2807b01a0154d723b7f2"
     },
     {
       "path": "docs/us/rights-register.json",
-      "sha256": "e0d06b1271c272505ad79e49328578a26f2583b424867dc0fb59b65802210115"
+      "sha256": "abe82e9d3745307b248dbe221898b1f362c375ee95a6ef7ccffa026b3dbf46c8"
     }
   ],
   "blocking_conditions": [
-    "No reviewed US merchant offer or affiliate tracking link exists; commercial output remains disabled.",
+    "Awin feed synchronization is not enabled; new offers require an exact feed or manual review before activation.",
     "Manufacturer image rights are not documented for public product imagery; the release remains image-free.",
     "Physical small-screen and assistive-technology checks remain follow-up release checks."
   ]

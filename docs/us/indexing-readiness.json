@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "market": "US",
-  "updated_at": "2026-09-15",
+  "updated_at": "2026-09-16",
   "status": "ready-to-index",
   "purpose": "Defines the first US search-launch slice. A product can enter this slice only when its model identity, placement, capacity, exterior dimensions, materials and core electrical values are tied to an exact manufacturer page.",
   "first_wave": {
@@ -59,7 +59,7 @@
     "maximum_source_age_days": 90
   },
   "current_result": {
-    "catalog_products": 100,
+    "catalog_products": 115,
     "first_wave_products": 10,
     "first_wave_data_qualified": 10,
     "first_wave_editorial_reviewed": 10,
@@ -69,5 +69,5 @@
     "indexing_enabled": true
   },
   "remaining_gates": [],
-  "commercial_scope": "Affiliate approval and image rights are separate gates. They do not prevent a source-based, image-free editorial launch, but no US offer, tracking link, price or manufacturer image may appear before its own approval is documented."
+  "commercial_scope": "13 manually reviewed Sweat Kingdom offers have marked Awin tracking links. Other US records remain non-commercial until their own program approval, exact offer mapping and current price review are documented."
 }

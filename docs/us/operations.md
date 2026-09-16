@@ -1,14 +1,14 @@
 # SelectYourSauna operations guide
 
 **Version:** 1.0  
-**Reviewed:** 14 September 2026  
-**Scope:** Static Cloudflare production and protected US expansion
+**Reviewed:** 16 September 2026
+**Scope:** Static Cloudflare production and published US expansion
 
 ## Current operating model
 
 The public site is generated from versioned JSON and Next.js routes. GitHub CI validates changes, Cloudflare Builds rebuilds the `main` branch, and Workers Static Assets serves the resulting files. The Awin workflows are manual dispatch jobs; there is no scheduled ingestion or hidden runtime updater.
 
-The public German site remains the active production scope. US content is present only as a protected build-time preview and is removed from production output.
+The German and reviewed US routes are part of the static production output. The US release contains 23 published product pages and 92 research candidates that remain outside the public catalog.
 
 ## Routine checks
 
@@ -31,7 +31,7 @@ The public German site remains the active production scope. US content is presen
 - The sync workflow creates a review branch and pull request after its tests pass. Review the data diff before merging.
 - A product link becomes affiliate-eligible only after exact product/configuration mapping, advertiser approval, allowed host and current tracking URL are documented.
 - A feed failure must leave the last reviewed snapshot intact. It must not delete products or convert unknown availability into an offer.
-- For US, `affiliate_links_enabled` and `feed_sync_enabled` stay `false` until O-02 and the related Luna/Sol reviews are complete.
+- For US, `affiliate_links_enabled` is enabled for thirteen reviewed Sweat Kingdom offers. `feed_sync_enabled` remains `false`; every additional offer needs exact product mapping, current terms and a reviewed tracking URL before activation.
 
 ## Incident priorities
 
@@ -70,7 +70,7 @@ follow_up_owner:
 
 - Confirm real delivery to `info@selectyoursauna.com` with a sent and received message.
 - Capture production Cloudflare version/deployment IDs from a host whose trust store accepts the current VPN/proxy certificate chain.
-- Complete the US Awin account and advertiser evidence before creating US offers.
+- Keep the recorded Sweat Kingdom Awin evidence current and obtain separate account evidence before activating Peak Saunas, Sunlighten, JNH Lifestyles or another advertiser.
 - Resolve manufacturer image rights or keep US pages image-free.
 - Run VoiceOver or NVDA, a physical small-screen check and production Cloudflare performance measurements for the authorized US release.
 - The versioned review calendar is defined in `data/us/catalog-review-policy.json`; it becomes an active post-launch operating commitment only after S-24 and owner acceptance. Run `npm run us:catalog:review -- --as-of YYYY-MM-DD` for a reproducible report. The command never changes JSON or publication switches.

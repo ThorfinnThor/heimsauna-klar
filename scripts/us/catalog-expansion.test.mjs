@@ -4,6 +4,7 @@ import test from "node:test";
 import backlog from "../../docs/us/catalog-expansion-backlog.json" with { type: "json" };
 import solGate from "../../docs/us/sol-acceptance-gate.json" with { type: "json" };
 import productsDocument from "../../data/us/products.json" with { type: "json" };
+import offersDocument from "../../data/us/offers.json" with { type: "json" };
 import sourcesDocument from "../../data/us/sources.json" with { type: "json" };
 
 test("the US expansion backlog is research-only and source-addressable", () => {
@@ -12,10 +13,10 @@ test("the US expansion backlog is research-only and source-addressable", () => {
   assert.equal(backlog.autopublish, false);
   assert.equal(backlog.current_catalog.candidate_product_count, productsDocument.products.length);
   assert.equal(backlog.current_catalog.candidate_product_count, productsDocument.products.length);
-  assert.equal(backlog.current_catalog.published_product_count, 0);
-  assert.equal(backlog.current_catalog.active_offer_count, 0);
+  assert.equal(backlog.current_catalog.published_product_count, productsDocument.products.filter((product) => product.publication_status === "published").length);
+  assert.equal(backlog.current_catalog.active_offer_count, offersDocument.offers.filter((offer) => offer.promotion_status === "eligible").length);
   assert.equal(backlog.current_catalog.minimum_before_sol_acceptance, 100);
-  assert.equal(backlog.current_catalog.products_remaining_before_sol_acceptance, 100 - productsDocument.products.length);
+  assert.equal(backlog.current_catalog.products_remaining_before_sol_acceptance, Math.max(0, 100 - productsDocument.products.length));
   assert.equal(solGate.acceptance.minimum_candidate_products, 100);
   assert.equal(solGate.acceptance.minimum_candidate_configurations, 100);
   assert.equal(solGate.current_snapshot.status, "ready-for-sol-review");

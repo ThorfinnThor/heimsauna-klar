@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "draft",
-  "disclosure": "The US section currently has no published affiliate offer. If a reviewed merchant link is activated, it will be marked before the visitor leaves Select Your Sauna. A qualifying action may result in a commission without changing the merchant's price.",
+  "status": "published",
+  "disclosure": "Some US product links are affiliate links. When you open a link marked Affiliate link, Select Your Sauna may receive a commission from a qualifying action. The merchant's price does not change.",
   "principles": [
     {
-      "title": "Mark the outbound link",
-      "copy": "Affiliate attribution begins only when a visitor deliberately opens a clearly marked link. No tracking request is loaded in the background."
+      "title": "Clear labeling",
+      "copy": "Affiliate links are marked next to the affected merchant offer before the visitor leaves Select Your Sauna."
     },
     {
-      "title": "Keep comparisons independent",
-      "copy": "Documented product facts, comparison scope and Finder logic are not ranked by commission. Paid placements and first-hand testing claims are not implied."
+      "title": "Independent comparisons",
+      "copy": "Product inclusion, technical facts, filters and ordering are based on documented records, not commission rates."
     },
     {
-      "title": "Review the exact offer",
-      "copy": "A program, merchant, configuration, destination, tracking URL, freshness check and disclosure must pass review before a US affiliate link can be published."
+      "title": "Exact offer review",
+      "copy": "Each active link is checked against the approved program, merchant, configuration, destination and current offer record."
     }
   ]
 }

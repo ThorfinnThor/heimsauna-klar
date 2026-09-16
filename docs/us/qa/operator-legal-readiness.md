@@ -4,6 +4,8 @@
 **Task:** O-03 / S-18 preparation  
 **Scope:** technical readiness of the protected US trust-page draft
 
+> Historical preparation review. The current release records one reviewed Sweat Kingdom affiliate offer; this document describes the earlier zero-offer state and remains as an audit record.
+
 ## Current result
 
 The four US trust pages are technically integrated, operator-approved and describe the behavior currently visible in the repository. Cloudflare Web Analytics is confirmed active for the production domain. No affiliate output or feed synchronization is enabled.

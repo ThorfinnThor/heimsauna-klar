@@ -11,7 +11,7 @@ import { reviewUsCatalog } from "../../lib/us/catalog-review.ts";
 
 test("the current indexed first-wave catalog has a reproducible review report", () => {
   const report = reviewUsCatalog({
-    asOf: "2026-09-14",
+    asOf: "2026-09-16",
     products: productsDocument.products,
     sources: sourcesDocument.sources,
     programs: programsDocument.programs,
@@ -19,17 +19,17 @@ test("the current indexed first-wave catalog has a reproducible review report", 
     publication,
     policy,
   });
-  assert.equal(report.summary.products, 100);
-  assert.equal(report.summary.candidatesAwaitingReview, 90);
+  assert.equal(report.summary.products, 115);
+  assert.equal(report.summary.candidatesAwaitingReview, 92);
   assert.equal(report.summary.sourceStale, 0);
   assert.equal(report.summary.sourceReferencesMissing, 0);
   assert.equal(report.summary.reviewsDue, 0);
   assert.equal(report.summary.reviewSchedulesInvalid, 0);
-  assert.equal(report.summary.approvedPrograms, 0);
+  assert.equal(report.summary.approvedPrograms, 1);
   assert.equal(report.summary.rightsReady, 0);
   assert.equal(report.summary.publicationProtected, true);
-  assert(report.blockers.includes("90 candidate or draft products still require their first technical review."));
-  assert(report.blockers.some((blocker) => blocker.includes("publisher approval")));
+  assert(report.blockers.includes("92 candidate or draft products still require their first technical review."));
+  assert(!report.blockers.some((blocker) => blocker.includes("publisher approval")));
 });
 
 test("a reviewed product without a future review date is not silently current", () => {

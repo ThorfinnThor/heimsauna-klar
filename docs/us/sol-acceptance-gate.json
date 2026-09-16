@@ -2,8 +2,8 @@
   "schema_version": 1,
   "market": "US",
   "status": "ready-for-sol-review",
-  "updated_at": "2026-09-14",
-  "purpose": "Operator-requested minimum for the later Sol acceptance. This gate does not publish or index US content.",
+  "updated_at": "2026-09-16",
+  "purpose": "Operator-requested minimum for the catalog review. It records the 100-product threshold separately from publication and affiliate approval.",
   "acceptance": {
     "minimum_candidate_products": 100,
     "minimum_candidate_configurations": 100,
@@ -30,10 +30,10 @@
     ]
   },
   "current_snapshot": {
-    "candidate_product_count": 100,
-    "candidate_configuration_count": 100,
-    "published_product_count": 0,
-    "active_offer_count": 0,
+    "candidate_product_count": 115,
+    "candidate_configuration_count": 115,
+    "published_product_count": 23,
+    "active_offer_count": 13,
     "products_remaining": 0,
     "configurations_remaining": 0,
     "status": "ready-for-sol-review"
