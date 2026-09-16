@@ -1154,6 +1154,436 @@
       "rights_status": "not-requested",
       "permission_basis": "none",
       "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-seneca-image",
+      "entity_id": "almost-heaven-seneca",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/seneca",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-allegheny-6-person-cabin-sauna-image",
+      "entity_id": "almost-heaven-allegheny-6-person-cabin-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/allegheny-6-person-cabin-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-appalachia-6-person-cabin-sauna-image",
+      "entity_id": "almost-heaven-appalachia-6-person-cabin-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/appalachia-6-person-cabin-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-vienna-2-person-canopy-barrel-sauna-image",
+      "entity_id": "almost-heaven-vienna-2-person-canopy-barrel-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/vienna-2-person-canopy-barrel-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-sutton-2-person-indoor-sauna-image",
+      "entity_id": "almost-heaven-sutton-2-person-indoor-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/sutton-2-person-indoor-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-worthington-4-6-person-indoor-sauna-image",
+      "entity_id": "almost-heaven-worthington-4-6-person-indoor-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/worthington-4-6-person-indoor-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-olympus-6-person-sauna-image",
+      "entity_id": "almost-heaven-olympus-6-person-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/olympus-6-person-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-shenandoah-4-person-barrel-image",
+      "entity_id": "almost-heaven-shenandoah-4-person-barrel",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/shenandoah-4-person-barrel",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-harmony-infrared-2-3-person-image",
+      "entity_id": "almost-heaven-harmony-infrared-2-3-person",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/harmony-infrared-2-3-person",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-elysian-infrared-2-3-person-image",
+      "entity_id": "almost-heaven-elysian-infrared-2-3-person",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/elysian-infrared-2-3-person",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-essex-barrel-sauna-image",
+      "entity_id": "almost-heaven-essex-barrel-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/essex-barrel-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-spectacle-2-person-indoor-sauna-image",
+      "entity_id": "almost-heaven-spectacle-2-person-indoor-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/spectacle-2-person-indoor-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-serena-3-person-indoor-sauna-image",
+      "entity_id": "almost-heaven-serena-3-person-indoor-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/serena-3-person-indoor-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-oasis-4-person-indoor-sauna-image",
+      "entity_id": "almost-heaven-oasis-4-person-indoor-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/oasis-4-person-indoor-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-kuuma-barrel-sauna-image",
+      "entity_id": "almost-heaven-kuuma-barrel-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/kuuma-barrel-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-takoa-4-6-person-barrel-sauna-image",
+      "entity_id": "almost-heaven-takoa-4-6-person-barrel-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/takoa-4-6-person-barrel-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-magnus-6-person-barrel-sauna-image",
+      "entity_id": "almost-heaven-magnus-6-person-barrel-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/magnus-6-person-barrel-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-evander-6-person-barrel-sauna-image",
+      "entity_id": "almost-heaven-evander-6-person-barrel-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/evander-6-person-barrel-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-solide-compact-4-person-cabin-sauna-image",
+      "entity_id": "almost-heaven-solide-compact-4-person-cabin-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/solide-compact-4-person-cabin-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-blackwater-4-6-person-cube-sauna-image",
+      "entity_id": "almost-heaven-blackwater-4-6-person-cube-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/blackwater-4-6-person-cube-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-watoga-2-4-person-barrel-sauna-image",
+      "entity_id": "almost-heaven-watoga-2-4-person-barrel-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/watoga-2-4-person-barrel-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-salem-2-person-barrel-sauna-image",
+      "entity_id": "almost-heaven-salem-2-person-barrel-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/salem-2-person-barrel-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-wolfpine-indoor-saunas-image",
+      "entity_id": "almost-heaven-wolfpine-indoor-saunas",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/wolfpine-indoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-everwood-indoor-saunas-image",
+      "entity_id": "almost-heaven-everwood-indoor-saunas",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/everwood-indoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-alpina-outdoor-saunas-image",
+      "entity_id": "almost-heaven-alpina-outdoor-saunas",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/alpina-outdoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-saddle-mountain-sauna-image",
+      "entity_id": "almost-heaven-saddle-mountain-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/saddle-mountain-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-view-outdoor-sauna-image",
+      "entity_id": "almost-heaven-view-outdoor-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/view-outdoor-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-timberline-outdoor-sauna-heritage-collection-image",
+      "entity_id": "almost-heaven-timberline-outdoor-sauna-heritage-collection",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/timberline-outdoor-sauna-heritage-collection",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-himalaya-indoor-sauna-image",
+      "entity_id": "almost-heaven-himalaya-indoor-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/himalaya-indoor-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-hinton-2-3-person-infrared-sauna-image",
+      "entity_id": "almost-heaven-hinton-2-3-person-infrared-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/hinton-2-3-person-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-laurel-1-person-infrared-sauna-image",
+      "entity_id": "almost-heaven-laurel-1-person-infrared-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/laurel-1-person-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-tyrol-indoor-saunas-image",
+      "entity_id": "almost-heaven-tyrol-indoor-saunas",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/tyrol-indoor-saunas",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-blackwater-mini-cube-sauna-image",
+      "entity_id": "almost-heaven-blackwater-mini-cube-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/blackwater-mini-cube-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "almost-heaven-auburn-2-3-person-indoor-sauna-image",
+      "entity_id": "almost-heaven-auburn-2-3-person-indoor-sauna",
+      "merchant_id": "almost-heaven",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://almostheaven.com/products/auburn-2-3-person-indoor-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-luminar-5-image",
+      "entity_id": "sun-home-luminar-5",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/products/sun-home-luminar-5",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-eclipse-4-image",
+      "entity_id": "sun-home-eclipse-4",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/products/sun-home-eclipse-4",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-equinox-3-image",
+      "entity_id": "sun-home-equinox-3",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/products/sun-home-equinox-3",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-nova-6-image",
+      "entity_id": "sun-home-nova-6",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/products/sun-home-nova-6",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-solstice-4-image",
+      "entity_id": "sun-home-solstice-4",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/products/sun-home-solstice-4",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-solstice-3-image",
+      "entity_id": "sun-home-solstice-3",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/products/sun-home-solstice-3",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-solstice-2-image",
+      "entity_id": "sun-home-solstice-2",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/products/sun-home-solstice-2",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sun-home-solaris-6-image",
+      "entity_id": "sun-home-solaris-6",
+      "merchant_id": "sun-home",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://sunhomesaunas.com/products/sun-home-solaris-6",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "peak-denali-image",
+      "entity_id": "peak-denali",
+      "merchant_id": "peak-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://peaksaunas.com/products/peak-saunas-denali-3-person-full-spectrum-infrared-sauna-with-two-xl-medical-grade-red-light-therapy-smart-wifi-app-control",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
     }
   ]
 }

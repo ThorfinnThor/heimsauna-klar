@@ -1381,6 +1381,436 @@
       "market": "US",
       "checked_at": "2026-09-16",
       "locator": "Product identity, dimensions, materials, electrical section, availability and price"
+    },
+    {
+      "id": "source-almost-heaven-seneca-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/seneca",
+      "title": "Seneca 6 Person Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-allegheny-6-person-cabin-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/allegheny-6-person-cabin-sauna",
+      "title": "Allegheny 6 Person Cabin Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-appalachia-6-person-cabin-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/appalachia-6-person-cabin-sauna",
+      "title": "Appalachia 6 Person Cabin Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-vienna-2-person-canopy-barrel-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/vienna-2-person-canopy-barrel-sauna",
+      "title": "Vienna 2 Person Canopy Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-sutton-2-person-indoor-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/sutton-2-person-indoor-sauna",
+      "title": "Sutton 2 Person Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-worthington-4-6-person-indoor-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/worthington-4-6-person-indoor-sauna",
+      "title": "Worthington 4-6 Person Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-olympus-6-person-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/olympus-6-person-sauna",
+      "title": "Olympus 6 Person Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-shenandoah-4-person-barrel-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/shenandoah-4-person-barrel",
+      "title": "Shenandoah 4 Person Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-harmony-infrared-2-3-person-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/harmony-infrared-2-3-person",
+      "title": "Harmony Infrared 2-3 Person Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-elysian-infrared-2-3-person-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/elysian-infrared-2-3-person",
+      "title": "Elysian Infrared 2-3 Person Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-essex-barrel-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/essex-barrel-sauna",
+      "title": "Essex 4 Person Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-spectacle-2-person-indoor-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/spectacle-2-person-indoor-sauna",
+      "title": "Spectacle 2 Person Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-serena-3-person-indoor-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/serena-3-person-indoor-sauna",
+      "title": "Serena 3 Person Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-oasis-4-person-indoor-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/oasis-4-person-indoor-sauna",
+      "title": "Oasis 4 Person Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-kuuma-barrel-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/kuuma-barrel-sauna",
+      "title": "Kuuma 4-6 Person Classic Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-takoa-4-6-person-barrel-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/takoa-4-6-person-barrel-sauna",
+      "title": "Takoa Half Moon Classic Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-magnus-6-person-barrel-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/magnus-6-person-barrel-sauna",
+      "title": "Magnus 6 Person Canopy Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-evander-6-person-barrel-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/evander-6-person-barrel-sauna",
+      "title": "Evander Half-Moon Canopy Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-solide-compact-4-person-cabin-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/solide-compact-4-person-cabin-sauna",
+      "title": "Solide Compact 4-6 Person Cabin Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-blackwater-4-6-person-cube-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/blackwater-4-6-person-cube-sauna",
+      "title": "Blackwater 4 Person Cube Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-watoga-2-4-person-barrel-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/watoga-2-4-person-barrel-sauna",
+      "title": "Watoga 2-4 Person Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-salem-2-person-barrel-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/salem-2-person-barrel-sauna",
+      "title": "Salem 2 Person Barrel Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-wolfpine-indoor-saunas-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/wolfpine-indoor-saunas",
+      "title": "Wolfpine Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-everwood-indoor-saunas-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/everwood-indoor-saunas",
+      "title": "Everwood Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-alpina-outdoor-saunas-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/alpina-outdoor-saunas",
+      "title": "Alpina Outdoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-saddle-mountain-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/saddle-mountain-sauna",
+      "title": "Saddle Mountain Outdoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-view-outdoor-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/view-outdoor-sauna",
+      "title": "View Outdoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-timberline-outdoor-sauna-heritage-collection-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/timberline-outdoor-sauna-heritage-collection",
+      "title": "Timberline Outdoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-himalaya-indoor-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/himalaya-indoor-sauna",
+      "title": "Himalaya Salt Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-hinton-2-3-person-infrared-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/hinton-2-3-person-infrared-sauna",
+      "title": "Hinton 2-3 Person Infrared Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-laurel-1-person-infrared-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/laurel-1-person-infrared-sauna",
+      "title": "Laurel 1 Person Infrared Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-tyrol-indoor-saunas-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/tyrol-indoor-saunas",
+      "title": "Tyrol Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-blackwater-mini-cube-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/blackwater-mini-cube-sauna",
+      "title": "Blackwater 1-2 Person Mini-Cube Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-almost-heaven-auburn-2-3-person-indoor-sauna-product",
+      "type": "manufacturer-page",
+      "url": "https://almostheaven.com/products/auburn-2-3-person-indoor-sauna",
+      "title": "Auburn 2-3 Person Indoor Sauna product page",
+      "publisher": "Almost Heaven Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-sun-home-luminar-5-product",
+      "type": "manufacturer-page",
+      "url": "https://sunhomesaunas.com/products/sun-home-luminar-5",
+      "title": "Sun Home Luminar 5-Person Outdoor Full-Spectrum Infrared Sauna product page",
+      "publisher": "Sun Home",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-sun-home-eclipse-4-product",
+      "type": "manufacturer-page",
+      "url": "https://sunhomesaunas.com/products/sun-home-eclipse-4",
+      "title": "Sun Home Eclipse 4-Person Indoor Red Light and Full-Spectrum Infrared Sauna product page",
+      "publisher": "Sun Home",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-sun-home-equinox-3-product",
+      "type": "manufacturer-page",
+      "url": "https://sunhomesaunas.com/products/sun-home-equinox-3",
+      "title": "Sun Home Equinox 3-Person Indoor Full-Spectrum Infrared Sauna product page",
+      "publisher": "Sun Home",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-sun-home-nova-6-product",
+      "type": "manufacturer-page",
+      "url": "https://sunhomesaunas.com/products/sun-home-nova-6",
+      "title": "Sun Home Nova 6-Person Indoor Traditional Sauna product page",
+      "publisher": "Sun Home",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-sun-home-solstice-4-product",
+      "type": "manufacturer-page",
+      "url": "https://sunhomesaunas.com/products/sun-home-solstice-4",
+      "title": "Sun Home Solstice 4-Person Indoor Infrared Sauna product page",
+      "publisher": "Sun Home",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-sun-home-solstice-3-product",
+      "type": "manufacturer-page",
+      "url": "https://sunhomesaunas.com/products/sun-home-solstice-3",
+      "title": "Sun Home Solstice 3-Person Indoor Infrared Sauna product page",
+      "publisher": "Sun Home",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-sun-home-solstice-2-product",
+      "type": "manufacturer-page",
+      "url": "https://sunhomesaunas.com/products/sun-home-solstice-2",
+      "title": "Sun Home Solstice 2-Person Indoor Infrared Sauna product page",
+      "publisher": "Sun Home",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-sun-home-solaris-6-product",
+      "type": "manufacturer-page",
+      "url": "https://sunhomesaunas.com/products/sun-home-solaris-6",
+      "title": "Sun Home Solaris 6-Person Outdoor Custom Traditional Sauna product page",
+      "publisher": "Sun Home",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
+    },
+    {
+      "id": "source-peak-denali-product",
+      "type": "manufacturer-page",
+      "url": "https://peaksaunas.com/products/peak-saunas-denali-3-person-full-spectrum-infrared-sauna-with-two-xl-medical-grade-red-light-therapy-smart-wifi-app-control",
+      "title": "Peak Denali 3-Person Full Spectrum Infrared Sauna product page",
+      "publisher": "Peak Saunas",
+      "market": "US",
+      "checked_at": "2026-09-16",
+      "locator": "Product page model identity and collection membership"
     }
   ],
   "evidence": [
@@ -3100,6 +3530,608 @@
       "source_id": "sweat-kingdom-sweat-cabin-deluxe-product",
       "field_path": "electrical_supply_options",
       "raw_value": "The product page lists a Homecraft Revive 9 kW heater with 50 A dedicated breaker and 6/3 hardwired connection as an option."
+    },
+    {
+      "id": "evidence-almost-heaven-seneca-product",
+      "entity_id": "almost-heaven-seneca",
+      "source_id": "source-almost-heaven-seneca-product",
+      "field_path": "product_identity",
+      "raw_value": "Seneca 6 Person Barrel Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-seneca-configuration",
+      "entity_id": "almost-heaven-seneca-standard",
+      "source_id": "source-almost-heaven-seneca-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Seneca 6 Person Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-allegheny-6-person-cabin-sauna-product",
+      "entity_id": "almost-heaven-allegheny-6-person-cabin-sauna",
+      "source_id": "source-almost-heaven-allegheny-6-person-cabin-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Allegheny 6 Person Cabin Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-allegheny-6-person-cabin-sauna-configuration",
+      "entity_id": "almost-heaven-allegheny-6-person-cabin-sauna-standard",
+      "source_id": "source-almost-heaven-allegheny-6-person-cabin-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Allegheny 6 Person Cabin Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-appalachia-6-person-cabin-sauna-product",
+      "entity_id": "almost-heaven-appalachia-6-person-cabin-sauna",
+      "source_id": "source-almost-heaven-appalachia-6-person-cabin-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Appalachia 6 Person Cabin Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-appalachia-6-person-cabin-sauna-configuration",
+      "entity_id": "almost-heaven-appalachia-6-person-cabin-sauna-standard",
+      "source_id": "source-almost-heaven-appalachia-6-person-cabin-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Appalachia 6 Person Cabin Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-vienna-2-person-canopy-barrel-sauna-product",
+      "entity_id": "almost-heaven-vienna-2-person-canopy-barrel-sauna",
+      "source_id": "source-almost-heaven-vienna-2-person-canopy-barrel-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Vienna 2 Person Canopy Barrel Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-vienna-2-person-canopy-barrel-sauna-configuration",
+      "entity_id": "almost-heaven-vienna-2-person-canopy-barrel-sauna-standard",
+      "source_id": "source-almost-heaven-vienna-2-person-canopy-barrel-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Vienna 2 Person Canopy Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-sutton-2-person-indoor-sauna-product",
+      "entity_id": "almost-heaven-sutton-2-person-indoor-sauna",
+      "source_id": "source-almost-heaven-sutton-2-person-indoor-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Sutton 2 Person Indoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-sutton-2-person-indoor-sauna-configuration",
+      "entity_id": "almost-heaven-sutton-2-person-indoor-sauna-standard",
+      "source_id": "source-almost-heaven-sutton-2-person-indoor-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Sutton 2 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-worthington-4-6-person-indoor-sauna-product",
+      "entity_id": "almost-heaven-worthington-4-6-person-indoor-sauna",
+      "source_id": "source-almost-heaven-worthington-4-6-person-indoor-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Worthington 4-6 Person Indoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-worthington-4-6-person-indoor-sauna-configuration",
+      "entity_id": "almost-heaven-worthington-4-6-person-indoor-sauna-standard",
+      "source_id": "source-almost-heaven-worthington-4-6-person-indoor-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Worthington 4-6 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-olympus-6-person-sauna-product",
+      "entity_id": "almost-heaven-olympus-6-person-sauna",
+      "source_id": "source-almost-heaven-olympus-6-person-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Olympus 6 Person Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-olympus-6-person-sauna-configuration",
+      "entity_id": "almost-heaven-olympus-6-person-sauna-standard",
+      "source_id": "source-almost-heaven-olympus-6-person-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Olympus 6 Person Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-shenandoah-4-person-barrel-product",
+      "entity_id": "almost-heaven-shenandoah-4-person-barrel",
+      "source_id": "source-almost-heaven-shenandoah-4-person-barrel-product",
+      "field_path": "product_identity",
+      "raw_value": "Shenandoah 4 Person Barrel Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-shenandoah-4-person-barrel-configuration",
+      "entity_id": "almost-heaven-shenandoah-4-person-barrel-standard",
+      "source_id": "source-almost-heaven-shenandoah-4-person-barrel-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Shenandoah 4 Person Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-harmony-infrared-2-3-person-product",
+      "entity_id": "almost-heaven-harmony-infrared-2-3-person",
+      "source_id": "source-almost-heaven-harmony-infrared-2-3-person-product",
+      "field_path": "product_identity",
+      "raw_value": "Harmony Infrared 2-3 Person Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-harmony-infrared-2-3-person-configuration",
+      "entity_id": "almost-heaven-harmony-infrared-2-3-person-standard",
+      "source_id": "source-almost-heaven-harmony-infrared-2-3-person-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Harmony Infrared 2-3 Person Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-elysian-infrared-2-3-person-product",
+      "entity_id": "almost-heaven-elysian-infrared-2-3-person",
+      "source_id": "source-almost-heaven-elysian-infrared-2-3-person-product",
+      "field_path": "product_identity",
+      "raw_value": "Elysian Infrared 2-3 Person Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-elysian-infrared-2-3-person-configuration",
+      "entity_id": "almost-heaven-elysian-infrared-2-3-person-standard",
+      "source_id": "source-almost-heaven-elysian-infrared-2-3-person-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Elysian Infrared 2-3 Person Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-essex-barrel-sauna-product",
+      "entity_id": "almost-heaven-essex-barrel-sauna",
+      "source_id": "source-almost-heaven-essex-barrel-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Essex 4 Person Barrel Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-essex-barrel-sauna-configuration",
+      "entity_id": "almost-heaven-essex-barrel-sauna-standard",
+      "source_id": "source-almost-heaven-essex-barrel-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Essex 4 Person Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-spectacle-2-person-indoor-sauna-product",
+      "entity_id": "almost-heaven-spectacle-2-person-indoor-sauna",
+      "source_id": "source-almost-heaven-spectacle-2-person-indoor-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Spectacle 2 Person Indoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-spectacle-2-person-indoor-sauna-configuration",
+      "entity_id": "almost-heaven-spectacle-2-person-indoor-sauna-standard",
+      "source_id": "source-almost-heaven-spectacle-2-person-indoor-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Spectacle 2 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-serena-3-person-indoor-sauna-product",
+      "entity_id": "almost-heaven-serena-3-person-indoor-sauna",
+      "source_id": "source-almost-heaven-serena-3-person-indoor-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Serena 3 Person Indoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-serena-3-person-indoor-sauna-configuration",
+      "entity_id": "almost-heaven-serena-3-person-indoor-sauna-standard",
+      "source_id": "source-almost-heaven-serena-3-person-indoor-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Serena 3 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-oasis-4-person-indoor-sauna-product",
+      "entity_id": "almost-heaven-oasis-4-person-indoor-sauna",
+      "source_id": "source-almost-heaven-oasis-4-person-indoor-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Oasis 4 Person Indoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-oasis-4-person-indoor-sauna-configuration",
+      "entity_id": "almost-heaven-oasis-4-person-indoor-sauna-standard",
+      "source_id": "source-almost-heaven-oasis-4-person-indoor-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Oasis 4 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-kuuma-barrel-sauna-product",
+      "entity_id": "almost-heaven-kuuma-barrel-sauna",
+      "source_id": "source-almost-heaven-kuuma-barrel-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Kuuma 4-6 Person Classic Barrel Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-kuuma-barrel-sauna-configuration",
+      "entity_id": "almost-heaven-kuuma-barrel-sauna-standard",
+      "source_id": "source-almost-heaven-kuuma-barrel-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Kuuma 4-6 Person Classic Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-takoa-4-6-person-barrel-sauna-product",
+      "entity_id": "almost-heaven-takoa-4-6-person-barrel-sauna",
+      "source_id": "source-almost-heaven-takoa-4-6-person-barrel-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Takoa Half Moon Classic Barrel Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-takoa-4-6-person-barrel-sauna-configuration",
+      "entity_id": "almost-heaven-takoa-4-6-person-barrel-sauna-standard",
+      "source_id": "source-almost-heaven-takoa-4-6-person-barrel-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Takoa Half Moon Classic Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-magnus-6-person-barrel-sauna-product",
+      "entity_id": "almost-heaven-magnus-6-person-barrel-sauna",
+      "source_id": "source-almost-heaven-magnus-6-person-barrel-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Magnus 6 Person Canopy Barrel Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-magnus-6-person-barrel-sauna-configuration",
+      "entity_id": "almost-heaven-magnus-6-person-barrel-sauna-standard",
+      "source_id": "source-almost-heaven-magnus-6-person-barrel-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Magnus 6 Person Canopy Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-evander-6-person-barrel-sauna-product",
+      "entity_id": "almost-heaven-evander-6-person-barrel-sauna",
+      "source_id": "source-almost-heaven-evander-6-person-barrel-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Evander Half-Moon Canopy Barrel Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-evander-6-person-barrel-sauna-configuration",
+      "entity_id": "almost-heaven-evander-6-person-barrel-sauna-standard",
+      "source_id": "source-almost-heaven-evander-6-person-barrel-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Evander Half-Moon Canopy Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-solide-compact-4-person-cabin-sauna-product",
+      "entity_id": "almost-heaven-solide-compact-4-person-cabin-sauna",
+      "source_id": "source-almost-heaven-solide-compact-4-person-cabin-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Solide Compact 4-6 Person Cabin Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-solide-compact-4-person-cabin-sauna-configuration",
+      "entity_id": "almost-heaven-solide-compact-4-person-cabin-sauna-standard",
+      "source_id": "source-almost-heaven-solide-compact-4-person-cabin-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Solide Compact 4-6 Person Cabin Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-blackwater-4-6-person-cube-sauna-product",
+      "entity_id": "almost-heaven-blackwater-4-6-person-cube-sauna",
+      "source_id": "source-almost-heaven-blackwater-4-6-person-cube-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Blackwater 4 Person Cube Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-blackwater-4-6-person-cube-sauna-configuration",
+      "entity_id": "almost-heaven-blackwater-4-6-person-cube-sauna-standard",
+      "source_id": "source-almost-heaven-blackwater-4-6-person-cube-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Blackwater 4 Person Cube Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-watoga-2-4-person-barrel-sauna-product",
+      "entity_id": "almost-heaven-watoga-2-4-person-barrel-sauna",
+      "source_id": "source-almost-heaven-watoga-2-4-person-barrel-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Watoga 2-4 Person Barrel Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-watoga-2-4-person-barrel-sauna-configuration",
+      "entity_id": "almost-heaven-watoga-2-4-person-barrel-sauna-standard",
+      "source_id": "source-almost-heaven-watoga-2-4-person-barrel-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Watoga 2-4 Person Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-salem-2-person-barrel-sauna-product",
+      "entity_id": "almost-heaven-salem-2-person-barrel-sauna",
+      "source_id": "source-almost-heaven-salem-2-person-barrel-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Salem 2 Person Barrel Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-salem-2-person-barrel-sauna-configuration",
+      "entity_id": "almost-heaven-salem-2-person-barrel-sauna-standard",
+      "source_id": "source-almost-heaven-salem-2-person-barrel-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Salem 2 Person Barrel Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-wolfpine-indoor-saunas-product",
+      "entity_id": "almost-heaven-wolfpine-indoor-saunas",
+      "source_id": "source-almost-heaven-wolfpine-indoor-saunas-product",
+      "field_path": "product_identity",
+      "raw_value": "Wolfpine Indoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-wolfpine-indoor-saunas-configuration",
+      "entity_id": "almost-heaven-wolfpine-indoor-saunas-standard",
+      "source_id": "source-almost-heaven-wolfpine-indoor-saunas-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Wolfpine Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-everwood-indoor-saunas-product",
+      "entity_id": "almost-heaven-everwood-indoor-saunas",
+      "source_id": "source-almost-heaven-everwood-indoor-saunas-product",
+      "field_path": "product_identity",
+      "raw_value": "Everwood Indoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-everwood-indoor-saunas-configuration",
+      "entity_id": "almost-heaven-everwood-indoor-saunas-standard",
+      "source_id": "source-almost-heaven-everwood-indoor-saunas-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Everwood Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-alpina-outdoor-saunas-product",
+      "entity_id": "almost-heaven-alpina-outdoor-saunas",
+      "source_id": "source-almost-heaven-alpina-outdoor-saunas-product",
+      "field_path": "product_identity",
+      "raw_value": "Alpina Outdoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-alpina-outdoor-saunas-configuration",
+      "entity_id": "almost-heaven-alpina-outdoor-saunas-standard",
+      "source_id": "source-almost-heaven-alpina-outdoor-saunas-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Alpina Outdoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-saddle-mountain-sauna-product",
+      "entity_id": "almost-heaven-saddle-mountain-sauna",
+      "source_id": "source-almost-heaven-saddle-mountain-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Saddle Mountain Outdoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-saddle-mountain-sauna-configuration",
+      "entity_id": "almost-heaven-saddle-mountain-sauna-standard",
+      "source_id": "source-almost-heaven-saddle-mountain-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Saddle Mountain Outdoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-view-outdoor-sauna-product",
+      "entity_id": "almost-heaven-view-outdoor-sauna",
+      "source_id": "source-almost-heaven-view-outdoor-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "View Outdoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-view-outdoor-sauna-configuration",
+      "entity_id": "almost-heaven-view-outdoor-sauna-standard",
+      "source_id": "source-almost-heaven-view-outdoor-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "View Outdoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-timberline-outdoor-sauna-heritage-collection-product",
+      "entity_id": "almost-heaven-timberline-outdoor-sauna-heritage-collection",
+      "source_id": "source-almost-heaven-timberline-outdoor-sauna-heritage-collection-product",
+      "field_path": "product_identity",
+      "raw_value": "Timberline Outdoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-timberline-outdoor-sauna-heritage-collection-configuration",
+      "entity_id": "almost-heaven-timberline-outdoor-sauna-heritage-collection-standard",
+      "source_id": "source-almost-heaven-timberline-outdoor-sauna-heritage-collection-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Timberline Outdoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-himalaya-indoor-sauna-product",
+      "entity_id": "almost-heaven-himalaya-indoor-sauna",
+      "source_id": "source-almost-heaven-himalaya-indoor-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Himalaya Salt Indoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-himalaya-indoor-sauna-configuration",
+      "entity_id": "almost-heaven-himalaya-indoor-sauna-standard",
+      "source_id": "source-almost-heaven-himalaya-indoor-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Himalaya Salt Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-hinton-2-3-person-infrared-sauna-product",
+      "entity_id": "almost-heaven-hinton-2-3-person-infrared-sauna",
+      "source_id": "source-almost-heaven-hinton-2-3-person-infrared-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Hinton 2-3 Person Infrared Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-hinton-2-3-person-infrared-sauna-configuration",
+      "entity_id": "almost-heaven-hinton-2-3-person-infrared-sauna-standard",
+      "source_id": "source-almost-heaven-hinton-2-3-person-infrared-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Hinton 2-3 Person Infrared Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-laurel-1-person-infrared-sauna-product",
+      "entity_id": "almost-heaven-laurel-1-person-infrared-sauna",
+      "source_id": "source-almost-heaven-laurel-1-person-infrared-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Laurel 1 Person Infrared Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-laurel-1-person-infrared-sauna-configuration",
+      "entity_id": "almost-heaven-laurel-1-person-infrared-sauna-standard",
+      "source_id": "source-almost-heaven-laurel-1-person-infrared-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Laurel 1 Person Infrared Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-tyrol-indoor-saunas-product",
+      "entity_id": "almost-heaven-tyrol-indoor-saunas",
+      "source_id": "source-almost-heaven-tyrol-indoor-saunas-product",
+      "field_path": "product_identity",
+      "raw_value": "Tyrol Indoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-tyrol-indoor-saunas-configuration",
+      "entity_id": "almost-heaven-tyrol-indoor-saunas-standard",
+      "source_id": "source-almost-heaven-tyrol-indoor-saunas-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Tyrol Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-blackwater-mini-cube-sauna-product",
+      "entity_id": "almost-heaven-blackwater-mini-cube-sauna",
+      "source_id": "source-almost-heaven-blackwater-mini-cube-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Blackwater 1-2 Person Mini-Cube Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-blackwater-mini-cube-sauna-configuration",
+      "entity_id": "almost-heaven-blackwater-mini-cube-sauna-standard",
+      "source_id": "source-almost-heaven-blackwater-mini-cube-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Blackwater 1-2 Person Mini-Cube Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-almost-heaven-auburn-2-3-person-indoor-sauna-product",
+      "entity_id": "almost-heaven-auburn-2-3-person-indoor-sauna",
+      "source_id": "source-almost-heaven-auburn-2-3-person-indoor-sauna-product",
+      "field_path": "product_identity",
+      "raw_value": "Auburn 2-3 Person Indoor Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-almost-heaven-auburn-2-3-person-indoor-sauna-configuration",
+      "entity_id": "almost-heaven-auburn-2-3-person-indoor-sauna-standard",
+      "source_id": "source-almost-heaven-auburn-2-3-person-indoor-sauna-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Auburn 2-3 Person Indoor Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-luminar-5-product",
+      "entity_id": "sun-home-luminar-5",
+      "source_id": "source-sun-home-luminar-5-product",
+      "field_path": "product_identity",
+      "raw_value": "Sun Home Luminar 5-Person Outdoor Full-Spectrum Infrared Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-sun-home-luminar-5-configuration",
+      "entity_id": "sun-home-luminar-5-standard",
+      "source_id": "source-sun-home-luminar-5-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Sun Home Luminar 5-Person Outdoor Full-Spectrum Infrared Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-eclipse-4-product",
+      "entity_id": "sun-home-eclipse-4",
+      "source_id": "source-sun-home-eclipse-4-product",
+      "field_path": "product_identity",
+      "raw_value": "Sun Home Eclipse 4-Person Indoor Red Light and Full-Spectrum Infrared Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-sun-home-eclipse-4-configuration",
+      "entity_id": "sun-home-eclipse-4-standard",
+      "source_id": "source-sun-home-eclipse-4-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Sun Home Eclipse 4-Person Indoor Red Light and Full-Spectrum Infrared Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-equinox-3-product",
+      "entity_id": "sun-home-equinox-3",
+      "source_id": "source-sun-home-equinox-3-product",
+      "field_path": "product_identity",
+      "raw_value": "Sun Home Equinox 3-Person Indoor Full-Spectrum Infrared Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-sun-home-equinox-3-configuration",
+      "entity_id": "sun-home-equinox-3-standard",
+      "source_id": "source-sun-home-equinox-3-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Sun Home Equinox 3-Person Indoor Full-Spectrum Infrared Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-nova-6-product",
+      "entity_id": "sun-home-nova-6",
+      "source_id": "source-sun-home-nova-6-product",
+      "field_path": "product_identity",
+      "raw_value": "Sun Home Nova 6-Person Indoor Traditional Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-sun-home-nova-6-configuration",
+      "entity_id": "sun-home-nova-6-standard",
+      "source_id": "source-sun-home-nova-6-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Sun Home Nova 6-Person Indoor Traditional Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-solstice-4-product",
+      "entity_id": "sun-home-solstice-4",
+      "source_id": "source-sun-home-solstice-4-product",
+      "field_path": "product_identity",
+      "raw_value": "Sun Home Solstice 4-Person Indoor Infrared Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-sun-home-solstice-4-configuration",
+      "entity_id": "sun-home-solstice-4-standard",
+      "source_id": "source-sun-home-solstice-4-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Sun Home Solstice 4-Person Indoor Infrared Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-solstice-3-product",
+      "entity_id": "sun-home-solstice-3",
+      "source_id": "source-sun-home-solstice-3-product",
+      "field_path": "product_identity",
+      "raw_value": "Sun Home Solstice 3-Person Indoor Infrared Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-sun-home-solstice-3-configuration",
+      "entity_id": "sun-home-solstice-3-standard",
+      "source_id": "source-sun-home-solstice-3-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Sun Home Solstice 3-Person Indoor Infrared Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-solstice-2-product",
+      "entity_id": "sun-home-solstice-2",
+      "source_id": "source-sun-home-solstice-2-product",
+      "field_path": "product_identity",
+      "raw_value": "Sun Home Solstice 2-Person Indoor Infrared Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-sun-home-solstice-2-configuration",
+      "entity_id": "sun-home-solstice-2-standard",
+      "source_id": "source-sun-home-solstice-2-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Sun Home Solstice 2-Person Indoor Infrared Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-sun-home-solaris-6-product",
+      "entity_id": "sun-home-solaris-6",
+      "source_id": "source-sun-home-solaris-6-product",
+      "field_path": "product_identity",
+      "raw_value": "Sun Home Solaris 6-Person Outdoor Custom Traditional Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-sun-home-solaris-6-configuration",
+      "entity_id": "sun-home-solaris-6-standard",
+      "source_id": "source-sun-home-solaris-6-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Sun Home Solaris 6-Person Outdoor Custom Traditional Sauna is represented as a non-publishing review configuration."
+    },
+    {
+      "id": "evidence-peak-denali-product",
+      "entity_id": "peak-denali",
+      "source_id": "source-peak-denali-product",
+      "field_path": "product_identity",
+      "raw_value": "Peak Denali 3-Person Full Spectrum Infrared Sauna listed on the official US product page."
+    },
+    {
+      "id": "evidence-peak-denali-configuration",
+      "entity_id": "peak-denali-standard",
+      "source_id": "source-peak-denali-product",
+      "field_path": "configuration_identity",
+      "raw_value": "Peak Denali 3-Person Full Spectrum Infrared Sauna is represented as a non-publishing review configuration."
     }
   ]
 }

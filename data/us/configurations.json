@@ -17675,6 +17675,4841 @@
         "sweat-kingdom-saunas-collection"
       ],
       "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-seneca-standard",
+      "market": "US",
+      "product_id": "almost-heaven-seneca",
+      "label": "Seneca 6 Person Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-almost-heaven-seneca-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-seneca-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-seneca-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-seneca-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-allegheny-6-person-cabin-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-allegheny-6-person-cabin-sauna",
+      "label": "Allegheny 6 Person Cabin Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-almost-heaven-allegheny-6-person-cabin-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-allegheny-6-person-cabin-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-allegheny-6-person-cabin-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-allegheny-6-person-cabin-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-appalachia-6-person-cabin-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-appalachia-6-person-cabin-sauna",
+      "label": "Appalachia 6 Person Cabin Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-almost-heaven-appalachia-6-person-cabin-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-appalachia-6-person-cabin-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-appalachia-6-person-cabin-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-appalachia-6-person-cabin-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-vienna-2-person-canopy-barrel-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-vienna-2-person-canopy-barrel-sauna",
+      "label": "Vienna 2 Person Canopy Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-almost-heaven-vienna-2-person-canopy-barrel-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-vienna-2-person-canopy-barrel-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-vienna-2-person-canopy-barrel-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-vienna-2-person-canopy-barrel-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-sutton-2-person-indoor-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-sutton-2-person-indoor-sauna",
+      "label": "Sutton 2 Person Indoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-almost-heaven-sutton-2-person-indoor-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-sutton-2-person-indoor-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-sutton-2-person-indoor-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-sutton-2-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-worthington-4-6-person-indoor-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-worthington-4-6-person-indoor-sauna",
+      "label": "Worthington 4-6 Person Indoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-almost-heaven-worthington-4-6-person-indoor-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-worthington-4-6-person-indoor-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-worthington-4-6-person-indoor-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-worthington-4-6-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-olympus-6-person-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-olympus-6-person-sauna",
+      "label": "Olympus 6 Person Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-almost-heaven-olympus-6-person-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-olympus-6-person-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-olympus-6-person-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-olympus-6-person-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-shenandoah-4-person-barrel-standard",
+      "market": "US",
+      "product_id": "almost-heaven-shenandoah-4-person-barrel",
+      "label": "Shenandoah 4 Person Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-almost-heaven-shenandoah-4-person-barrel-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-shenandoah-4-person-barrel-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-shenandoah-4-person-barrel-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-shenandoah-4-person-barrel-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-harmony-infrared-2-3-person-standard",
+      "market": "US",
+      "product_id": "almost-heaven-harmony-infrared-2-3-person",
+      "label": "Harmony Infrared 2-3 Person Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-almost-heaven-harmony-infrared-2-3-person-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-harmony-infrared-2-3-person-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-harmony-infrared-2-3-person-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-harmony-infrared-2-3-person-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-elysian-infrared-2-3-person-standard",
+      "market": "US",
+      "product_id": "almost-heaven-elysian-infrared-2-3-person",
+      "label": "Elysian Infrared 2-3 Person Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-almost-heaven-elysian-infrared-2-3-person-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-elysian-infrared-2-3-person-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-elysian-infrared-2-3-person-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-elysian-infrared-2-3-person-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-essex-barrel-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-essex-barrel-sauna",
+      "label": "Essex 4 Person Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-almost-heaven-essex-barrel-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-essex-barrel-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-essex-barrel-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-essex-barrel-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-spectacle-2-person-indoor-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-spectacle-2-person-indoor-sauna",
+      "label": "Spectacle 2 Person Indoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-almost-heaven-spectacle-2-person-indoor-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-spectacle-2-person-indoor-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-spectacle-2-person-indoor-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-spectacle-2-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-serena-3-person-indoor-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-serena-3-person-indoor-sauna",
+      "label": "Serena 3 Person Indoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-almost-heaven-serena-3-person-indoor-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-serena-3-person-indoor-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-serena-3-person-indoor-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-serena-3-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-oasis-4-person-indoor-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-oasis-4-person-indoor-sauna",
+      "label": "Oasis 4 Person Indoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-almost-heaven-oasis-4-person-indoor-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-oasis-4-person-indoor-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-oasis-4-person-indoor-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-oasis-4-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-kuuma-barrel-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-kuuma-barrel-sauna",
+      "label": "Kuuma 4-6 Person Classic Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-almost-heaven-kuuma-barrel-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-kuuma-barrel-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-kuuma-barrel-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-kuuma-barrel-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-takoa-4-6-person-barrel-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-takoa-4-6-person-barrel-sauna",
+      "label": "Takoa Half Moon Classic Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-almost-heaven-takoa-4-6-person-barrel-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-takoa-4-6-person-barrel-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-takoa-4-6-person-barrel-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-takoa-4-6-person-barrel-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-magnus-6-person-barrel-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-magnus-6-person-barrel-sauna",
+      "label": "Magnus 6 Person Canopy Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-almost-heaven-magnus-6-person-barrel-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-magnus-6-person-barrel-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-magnus-6-person-barrel-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-magnus-6-person-barrel-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-evander-6-person-barrel-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-evander-6-person-barrel-sauna",
+      "label": "Evander Half-Moon Canopy Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-almost-heaven-evander-6-person-barrel-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-evander-6-person-barrel-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-evander-6-person-barrel-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-evander-6-person-barrel-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-solide-compact-4-person-cabin-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-solide-compact-4-person-cabin-sauna",
+      "label": "Solide Compact 4-6 Person Cabin Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-almost-heaven-solide-compact-4-person-cabin-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-solide-compact-4-person-cabin-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-solide-compact-4-person-cabin-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-solide-compact-4-person-cabin-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-blackwater-4-6-person-cube-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-blackwater-4-6-person-cube-sauna",
+      "label": "Blackwater 4 Person Cube Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-almost-heaven-blackwater-4-6-person-cube-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-blackwater-4-6-person-cube-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-blackwater-4-6-person-cube-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-blackwater-4-6-person-cube-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-watoga-2-4-person-barrel-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-watoga-2-4-person-barrel-sauna",
+      "label": "Watoga 2-4 Person Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-almost-heaven-watoga-2-4-person-barrel-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-watoga-2-4-person-barrel-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-watoga-2-4-person-barrel-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-watoga-2-4-person-barrel-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-salem-2-person-barrel-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-salem-2-person-barrel-sauna",
+      "label": "Salem 2 Person Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-almost-heaven-salem-2-person-barrel-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-salem-2-person-barrel-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-salem-2-person-barrel-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-salem-2-person-barrel-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-wolfpine-indoor-saunas-standard",
+      "market": "US",
+      "product_id": "almost-heaven-wolfpine-indoor-saunas",
+      "label": "Wolfpine Indoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "A model-level seated capacity is not stated on the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-wolfpine-indoor-saunas-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-wolfpine-indoor-saunas-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-wolfpine-indoor-saunas-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-everwood-indoor-saunas-standard",
+      "market": "US",
+      "product_id": "almost-heaven-everwood-indoor-saunas",
+      "label": "Everwood Indoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "A model-level seated capacity is not stated on the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-everwood-indoor-saunas-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-everwood-indoor-saunas-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-everwood-indoor-saunas-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-alpina-outdoor-saunas-standard",
+      "market": "US",
+      "product_id": "almost-heaven-alpina-outdoor-saunas",
+      "label": "Alpina Outdoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "A model-level seated capacity is not stated on the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-alpina-outdoor-saunas-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-alpina-outdoor-saunas-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-alpina-outdoor-saunas-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-saddle-mountain-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-saddle-mountain-sauna",
+      "label": "Saddle Mountain Outdoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "A model-level seated capacity is not stated on the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-saddle-mountain-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-saddle-mountain-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-saddle-mountain-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-view-outdoor-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-view-outdoor-sauna",
+      "label": "View Outdoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "A model-level seated capacity is not stated on the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-view-outdoor-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-view-outdoor-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-view-outdoor-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-timberline-outdoor-sauna-heritage-collection-standard",
+      "market": "US",
+      "product_id": "almost-heaven-timberline-outdoor-sauna-heritage-collection",
+      "label": "Timberline Outdoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "A model-level seated capacity is not stated on the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-timberline-outdoor-sauna-heritage-collection-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-timberline-outdoor-sauna-heritage-collection-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-timberline-outdoor-sauna-heritage-collection-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-himalaya-indoor-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-himalaya-indoor-sauna",
+      "label": "Himalaya Salt Indoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "A model-level seated capacity is not stated on the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-himalaya-indoor-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-himalaya-indoor-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-himalaya-indoor-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-hinton-2-3-person-infrared-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-hinton-2-3-person-infrared-sauna",
+      "label": "Hinton 2-3 Person Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-almost-heaven-hinton-2-3-person-infrared-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-hinton-2-3-person-infrared-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-hinton-2-3-person-infrared-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-hinton-2-3-person-infrared-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-laurel-1-person-infrared-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-laurel-1-person-infrared-sauna",
+      "label": "Laurel 1 Person Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 1,
+          "evidence_ids": [
+            "evidence-almost-heaven-laurel-1-person-infrared-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-laurel-1-person-infrared-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-laurel-1-person-infrared-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-laurel-1-person-infrared-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-tyrol-indoor-saunas-standard",
+      "market": "US",
+      "product_id": "almost-heaven-tyrol-indoor-saunas",
+      "label": "Tyrol Indoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "A model-level seated capacity is not stated on the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-tyrol-indoor-saunas-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-tyrol-indoor-saunas-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-tyrol-indoor-saunas-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-blackwater-mini-cube-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-blackwater-mini-cube-sauna",
+      "label": "Blackwater 1-2 Person Mini-Cube Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 1,
+          "evidence_ids": [
+            "evidence-almost-heaven-blackwater-mini-cube-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-blackwater-mini-cube-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-blackwater-mini-cube-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-blackwater-mini-cube-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "almost-heaven-auburn-2-3-person-indoor-sauna-standard",
+      "market": "US",
+      "product_id": "almost-heaven-auburn-2-3-person-indoor-sauna",
+      "label": "Auburn 2-3 Person Indoor Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-almost-heaven-auburn-2-3-person-indoor-sauna-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "almost-heaven-auburn-2-3-person-indoor-sauna-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-almost-heaven-auburn-2-3-person-indoor-sauna-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-almost-heaven-auburn-2-3-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sun-home-luminar-5-standard",
+      "market": "US",
+      "product_id": "sun-home-luminar-5",
+      "label": "Sun Home Luminar 5-Person Outdoor Full-Spectrum Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-sun-home-luminar-5-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "sun-home-luminar-5-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sun-home-luminar-5-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sun-home-luminar-5-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sun-home-eclipse-4-standard",
+      "market": "US",
+      "product_id": "sun-home-eclipse-4",
+      "label": "Sun Home Eclipse 4-Person Indoor Red Light and Full-Spectrum Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-sun-home-eclipse-4-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "sun-home-eclipse-4-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sun-home-eclipse-4-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sun-home-eclipse-4-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sun-home-equinox-3-standard",
+      "market": "US",
+      "product_id": "sun-home-equinox-3",
+      "label": "Sun Home Equinox 3-Person Indoor Full-Spectrum Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-sun-home-equinox-3-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "sun-home-equinox-3-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sun-home-equinox-3-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sun-home-equinox-3-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sun-home-nova-6-standard",
+      "market": "US",
+      "product_id": "sun-home-nova-6",
+      "label": "Sun Home Nova 6-Person Indoor Traditional Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-sun-home-nova-6-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "sun-home-nova-6-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sun-home-nova-6-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sun-home-nova-6-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sun-home-solstice-4-standard",
+      "market": "US",
+      "product_id": "sun-home-solstice-4",
+      "label": "Sun Home Solstice 4-Person Indoor Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-sun-home-solstice-4-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "sun-home-solstice-4-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sun-home-solstice-4-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sun-home-solstice-4-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sun-home-solstice-3-standard",
+      "market": "US",
+      "product_id": "sun-home-solstice-3",
+      "label": "Sun Home Solstice 3-Person Indoor Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-sun-home-solstice-3-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "sun-home-solstice-3-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sun-home-solstice-3-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sun-home-solstice-3-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sun-home-solstice-2-standard",
+      "market": "US",
+      "product_id": "sun-home-solstice-2",
+      "label": "Sun Home Solstice 2-Person Indoor Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-sun-home-solstice-2-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "sun-home-solstice-2-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sun-home-solstice-2-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sun-home-solstice-2-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sun-home-solaris-6-standard",
+      "market": "US",
+      "product_id": "sun-home-solaris-6",
+      "label": "Sun Home Solaris 6-Person Outdoor Custom Traditional Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-sun-home-solaris-6-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "sun-home-solaris-6-electrical-unknown",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sun-home-solaris-6-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sun-home-solaris-6-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "peak-denali-standard",
+      "market": "US",
+      "product_id": "peak-denali",
+      "label": "Peak Denali 3-Person Full Spectrum Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-peak-denali-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification or manual."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification or manual."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manual."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual product specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "peak-denali-electrical-unknown",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-peak-denali-configuration"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-peak-denali-product"
+      ],
+      "publication_status": "candidate"
     }
   ],
   "certifications": [],

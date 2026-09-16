@@ -6244,6 +6244,2141 @@
       "spec_checked_at": "2026-09-16",
       "next_review_at": "2026-12-15",
       "change_reason": "The product page shows $8,245 while the current sauna collection shows $11,245. The model is recorded as a candidate until the merchant confirms the current price and selected package."
+    },
+    {
+      "id": "almost-heaven-seneca",
+      "market": "US",
+      "slug": "almost-heaven-seneca",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Seneca 6 Person Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-seneca-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-seneca-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-seneca-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor barrel sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-seneca-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-seneca-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-seneca-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-allegheny-6-person-cabin-sauna",
+      "market": "US",
+      "slug": "almost-heaven-allegheny-6-person-cabin-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Allegheny 6 Person Cabin Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-allegheny-6-person-cabin-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-allegheny-6-person-cabin-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-allegheny-6-person-cabin-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor cabin sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-allegheny-6-person-cabin-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-allegheny-6-person-cabin-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-allegheny-6-person-cabin-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-appalachia-6-person-cabin-sauna",
+      "market": "US",
+      "slug": "almost-heaven-appalachia-6-person-cabin-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Appalachia 6 Person Cabin Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-appalachia-6-person-cabin-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-appalachia-6-person-cabin-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-appalachia-6-person-cabin-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor cabin sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-appalachia-6-person-cabin-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-appalachia-6-person-cabin-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-appalachia-6-person-cabin-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-vienna-2-person-canopy-barrel-sauna",
+      "market": "US",
+      "slug": "almost-heaven-vienna-2-person-canopy-barrel-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Vienna 2 Person Canopy Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-vienna-2-person-canopy-barrel-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-vienna-2-person-canopy-barrel-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-vienna-2-person-canopy-barrel-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor canopy barrel sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-vienna-2-person-canopy-barrel-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-vienna-2-person-canopy-barrel-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-vienna-2-person-canopy-barrel-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-sutton-2-person-indoor-sauna",
+      "market": "US",
+      "slug": "almost-heaven-sutton-2-person-indoor-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Sutton 2 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-sutton-2-person-indoor-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-sutton-2-person-indoor-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-sutton-2-person-indoor-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-sutton-2-person-indoor-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-sutton-2-person-indoor-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-sutton-2-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-worthington-4-6-person-indoor-sauna",
+      "market": "US",
+      "slug": "almost-heaven-worthington-4-6-person-indoor-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Worthington 4-6 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-worthington-4-6-person-indoor-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-worthington-4-6-person-indoor-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-worthington-4-6-person-indoor-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-worthington-4-6-person-indoor-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-worthington-4-6-person-indoor-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-worthington-4-6-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-olympus-6-person-sauna",
+      "market": "US",
+      "slug": "almost-heaven-olympus-6-person-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Olympus 6 Person Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-olympus-6-person-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-olympus-6-person-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not state a single placement context."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-almost-heaven-olympus-6-person-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-olympus-6-person-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-olympus-6-person-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-shenandoah-4-person-barrel",
+      "market": "US",
+      "slug": "almost-heaven-shenandoah-4-person-barrel",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Shenandoah 4 Person Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-shenandoah-4-person-barrel-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-shenandoah-4-person-barrel-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-shenandoah-4-person-barrel-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor barrel sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-shenandoah-4-person-barrel-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-shenandoah-4-person-barrel-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-shenandoah-4-person-barrel-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-harmony-infrared-2-3-person",
+      "market": "US",
+      "slug": "almost-heaven-harmony-infrared-2-3-person",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Harmony Infrared 2-3 Person Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-harmony-infrared-2-3-person-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-almost-heaven-harmony-infrared-2-3-person-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-harmony-infrared-2-3-person-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-harmony-infrared-2-3-person-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-harmony-infrared-2-3-person-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-harmony-infrared-2-3-person-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-elysian-infrared-2-3-person",
+      "market": "US",
+      "slug": "almost-heaven-elysian-infrared-2-3-person",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Elysian Infrared 2-3 Person Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-elysian-infrared-2-3-person-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-almost-heaven-elysian-infrared-2-3-person-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-elysian-infrared-2-3-person-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-elysian-infrared-2-3-person-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-elysian-infrared-2-3-person-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-elysian-infrared-2-3-person-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-essex-barrel-sauna",
+      "market": "US",
+      "slug": "almost-heaven-essex-barrel-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Essex 4 Person Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-essex-barrel-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-essex-barrel-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-essex-barrel-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor barrel sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-essex-barrel-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-essex-barrel-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-essex-barrel-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-spectacle-2-person-indoor-sauna",
+      "market": "US",
+      "slug": "almost-heaven-spectacle-2-person-indoor-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Spectacle 2 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-spectacle-2-person-indoor-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-spectacle-2-person-indoor-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-spectacle-2-person-indoor-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-spectacle-2-person-indoor-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-spectacle-2-person-indoor-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-spectacle-2-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-serena-3-person-indoor-sauna",
+      "market": "US",
+      "slug": "almost-heaven-serena-3-person-indoor-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Serena 3 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-serena-3-person-indoor-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-serena-3-person-indoor-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-serena-3-person-indoor-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-serena-3-person-indoor-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-serena-3-person-indoor-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-serena-3-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-oasis-4-person-indoor-sauna",
+      "market": "US",
+      "slug": "almost-heaven-oasis-4-person-indoor-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Oasis 4 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-oasis-4-person-indoor-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-oasis-4-person-indoor-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-oasis-4-person-indoor-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-oasis-4-person-indoor-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-oasis-4-person-indoor-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-oasis-4-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-kuuma-barrel-sauna",
+      "market": "US",
+      "slug": "almost-heaven-kuuma-barrel-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Kuuma 4-6 Person Classic Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-kuuma-barrel-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-kuuma-barrel-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-kuuma-barrel-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor barrel sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-kuuma-barrel-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-kuuma-barrel-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-kuuma-barrel-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-takoa-4-6-person-barrel-sauna",
+      "market": "US",
+      "slug": "almost-heaven-takoa-4-6-person-barrel-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Takoa Half Moon Classic Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-takoa-4-6-person-barrel-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-takoa-4-6-person-barrel-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-takoa-4-6-person-barrel-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor barrel sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-takoa-4-6-person-barrel-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-takoa-4-6-person-barrel-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-takoa-4-6-person-barrel-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-magnus-6-person-barrel-sauna",
+      "market": "US",
+      "slug": "almost-heaven-magnus-6-person-barrel-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Magnus 6 Person Canopy Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-magnus-6-person-barrel-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-magnus-6-person-barrel-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-magnus-6-person-barrel-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor canopy barrel sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-magnus-6-person-barrel-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-magnus-6-person-barrel-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-magnus-6-person-barrel-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-evander-6-person-barrel-sauna",
+      "market": "US",
+      "slug": "almost-heaven-evander-6-person-barrel-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Evander Half-Moon Canopy Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-evander-6-person-barrel-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-evander-6-person-barrel-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-evander-6-person-barrel-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor canopy barrel sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-evander-6-person-barrel-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-evander-6-person-barrel-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-evander-6-person-barrel-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-solide-compact-4-person-cabin-sauna",
+      "market": "US",
+      "slug": "almost-heaven-solide-compact-4-person-cabin-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Solide Compact 4-6 Person Cabin Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-solide-compact-4-person-cabin-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-solide-compact-4-person-cabin-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not state a single placement context."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Cabin sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-solide-compact-4-person-cabin-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-solide-compact-4-person-cabin-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-solide-compact-4-person-cabin-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-blackwater-4-6-person-cube-sauna",
+      "market": "US",
+      "slug": "almost-heaven-blackwater-4-6-person-cube-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Blackwater 4 Person Cube Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-blackwater-4-6-person-cube-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-blackwater-4-6-person-cube-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-blackwater-4-6-person-cube-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor cube sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-blackwater-4-6-person-cube-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-blackwater-4-6-person-cube-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-blackwater-4-6-person-cube-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-watoga-2-4-person-barrel-sauna",
+      "market": "US",
+      "slug": "almost-heaven-watoga-2-4-person-barrel-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Watoga 2-4 Person Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-watoga-2-4-person-barrel-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-watoga-2-4-person-barrel-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-watoga-2-4-person-barrel-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor barrel sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-watoga-2-4-person-barrel-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-watoga-2-4-person-barrel-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-watoga-2-4-person-barrel-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-salem-2-person-barrel-sauna",
+      "market": "US",
+      "slug": "almost-heaven-salem-2-person-barrel-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Salem 2 Person Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-salem-2-person-barrel-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-salem-2-person-barrel-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-salem-2-person-barrel-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor barrel sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-salem-2-person-barrel-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-salem-2-person-barrel-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-salem-2-person-barrel-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-wolfpine-indoor-saunas",
+      "market": "US",
+      "slug": "almost-heaven-wolfpine-indoor-saunas",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Wolfpine Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-wolfpine-indoor-saunas-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-wolfpine-indoor-saunas-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-wolfpine-indoor-saunas-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-wolfpine-indoor-saunas-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-wolfpine-indoor-saunas-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-wolfpine-indoor-saunas-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-everwood-indoor-saunas",
+      "market": "US",
+      "slug": "almost-heaven-everwood-indoor-saunas",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Everwood Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-everwood-indoor-saunas-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-everwood-indoor-saunas-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-everwood-indoor-saunas-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-everwood-indoor-saunas-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-everwood-indoor-saunas-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-everwood-indoor-saunas-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-alpina-outdoor-saunas",
+      "market": "US",
+      "slug": "almost-heaven-alpina-outdoor-saunas",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Alpina Outdoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-alpina-outdoor-saunas-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-alpina-outdoor-saunas-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-alpina-outdoor-saunas-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-alpina-outdoor-saunas-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-alpina-outdoor-saunas-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-alpina-outdoor-saunas-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-saddle-mountain-sauna",
+      "market": "US",
+      "slug": "almost-heaven-saddle-mountain-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Saddle Mountain Outdoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-saddle-mountain-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-saddle-mountain-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-saddle-mountain-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-saddle-mountain-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-saddle-mountain-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-saddle-mountain-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-view-outdoor-sauna",
+      "market": "US",
+      "slug": "almost-heaven-view-outdoor-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "View Outdoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-view-outdoor-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-view-outdoor-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-view-outdoor-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-view-outdoor-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-view-outdoor-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-view-outdoor-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-timberline-outdoor-sauna-heritage-collection",
+      "market": "US",
+      "slug": "almost-heaven-timberline-outdoor-sauna-heritage-collection",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Timberline Outdoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-timberline-outdoor-sauna-heritage-collection-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-timberline-outdoor-sauna-heritage-collection-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-timberline-outdoor-sauna-heritage-collection-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-timberline-outdoor-sauna-heritage-collection-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-timberline-outdoor-sauna-heritage-collection-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-timberline-outdoor-sauna-heritage-collection-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-himalaya-indoor-sauna",
+      "market": "US",
+      "slug": "almost-heaven-himalaya-indoor-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Himalaya Salt Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-himalaya-indoor-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-himalaya-indoor-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-himalaya-indoor-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-himalaya-indoor-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-himalaya-indoor-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-himalaya-indoor-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-hinton-2-3-person-infrared-sauna",
+      "market": "US",
+      "slug": "almost-heaven-hinton-2-3-person-infrared-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Hinton 2-3 Person Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-hinton-2-3-person-infrared-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-almost-heaven-hinton-2-3-person-infrared-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-hinton-2-3-person-infrared-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-hinton-2-3-person-infrared-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-hinton-2-3-person-infrared-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-hinton-2-3-person-infrared-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-laurel-1-person-infrared-sauna",
+      "market": "US",
+      "slug": "almost-heaven-laurel-1-person-infrared-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Laurel 1 Person Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-laurel-1-person-infrared-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-almost-heaven-laurel-1-person-infrared-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-laurel-1-person-infrared-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-laurel-1-person-infrared-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-laurel-1-person-infrared-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-laurel-1-person-infrared-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-tyrol-indoor-saunas",
+      "market": "US",
+      "slug": "almost-heaven-tyrol-indoor-saunas",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Tyrol Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-tyrol-indoor-saunas-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-tyrol-indoor-saunas-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-tyrol-indoor-saunas-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-tyrol-indoor-saunas-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-tyrol-indoor-saunas-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-tyrol-indoor-saunas-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-blackwater-mini-cube-sauna",
+      "market": "US",
+      "slug": "almost-heaven-blackwater-mini-cube-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Blackwater 1-2 Person Mini-Cube Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-blackwater-mini-cube-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-blackwater-mini-cube-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-blackwater-mini-cube-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor cube sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-blackwater-mini-cube-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-blackwater-mini-cube-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-blackwater-mini-cube-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "almost-heaven-auburn-2-3-person-indoor-sauna",
+      "market": "US",
+      "slug": "almost-heaven-auburn-2-3-person-indoor-sauna",
+      "brand_name": "Almost Heaven Saunas",
+      "model": "Auburn 2-3 Person Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-almost-heaven-auburn-2-3-person-indoor-sauna-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-almost-heaven-auburn-2-3-person-indoor-sauna-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-almost-heaven-auburn-2-3-person-indoor-sauna-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-almost-heaven-auburn-2-3-person-indoor-sauna-product"
+        ]
+      },
+      "configuration_ids": [
+        "almost-heaven-auburn-2-3-person-indoor-sauna-standard"
+      ],
+      "source_ids": [
+        "source-almost-heaven-auburn-2-3-person-indoor-sauna-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "sun-home-luminar-5",
+      "market": "US",
+      "slug": "sun-home-luminar-5",
+      "brand_name": "Sun Home",
+      "model": "Sun Home Luminar 5-Person Outdoor Full-Spectrum Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-luminar-5-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sun-home-luminar-5-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-luminar-5-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor infrared sauna",
+        "evidence_ids": [
+          "evidence-sun-home-luminar-5-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-luminar-5-standard"
+      ],
+      "source_ids": [
+        "source-sun-home-luminar-5-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "sun-home-eclipse-4",
+      "market": "US",
+      "slug": "sun-home-eclipse-4",
+      "brand_name": "Sun Home",
+      "model": "Sun Home Eclipse 4-Person Indoor Red Light and Full-Spectrum Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-eclipse-4-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sun-home-eclipse-4-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-eclipse-4-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna",
+        "evidence_ids": [
+          "evidence-sun-home-eclipse-4-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-eclipse-4-standard"
+      ],
+      "source_ids": [
+        "source-sun-home-eclipse-4-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "sun-home-equinox-3",
+      "market": "US",
+      "slug": "sun-home-equinox-3",
+      "brand_name": "Sun Home",
+      "model": "Sun Home Equinox 3-Person Indoor Full-Spectrum Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-equinox-3-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sun-home-equinox-3-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-equinox-3-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna",
+        "evidence_ids": [
+          "evidence-sun-home-equinox-3-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-equinox-3-standard"
+      ],
+      "source_ids": [
+        "source-sun-home-equinox-3-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "sun-home-nova-6",
+      "market": "US",
+      "slug": "sun-home-nova-6",
+      "brand_name": "Sun Home",
+      "model": "Sun Home Nova 6-Person Indoor Traditional Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-nova-6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sun-home-nova-6-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-nova-6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna",
+        "evidence_ids": [
+          "evidence-sun-home-nova-6-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-nova-6-standard"
+      ],
+      "source_ids": [
+        "source-sun-home-nova-6-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "sun-home-solstice-4",
+      "market": "US",
+      "slug": "sun-home-solstice-4",
+      "brand_name": "Sun Home",
+      "model": "Sun Home Solstice 4-Person Indoor Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-4-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-4-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-solstice-4-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-4-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-solstice-4-standard"
+      ],
+      "source_ids": [
+        "source-sun-home-solstice-4-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "sun-home-solstice-3",
+      "market": "US",
+      "slug": "sun-home-solstice-3",
+      "brand_name": "Sun Home",
+      "model": "Sun Home Solstice 3-Person Indoor Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-3-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-3-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-solstice-3-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-3-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-solstice-3-standard"
+      ],
+      "source_ids": [
+        "source-sun-home-solstice-3-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "sun-home-solstice-2",
+      "market": "US",
+      "slug": "sun-home-solstice-2",
+      "brand_name": "Sun Home",
+      "model": "Sun Home Solstice 2-Person Indoor Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-2-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-2-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-solstice-2-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna",
+        "evidence_ids": [
+          "evidence-sun-home-solstice-2-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-solstice-2-standard"
+      ],
+      "source_ids": [
+        "source-sun-home-solstice-2-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "sun-home-solaris-6",
+      "market": "US",
+      "slug": "sun-home-solaris-6",
+      "brand_name": "Sun Home",
+      "model": "Sun Home Solaris 6-Person Outdoor Custom Traditional Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sun-home-solaris-6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sun-home-solaris-6-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sun-home-solaris-6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor traditional sauna",
+        "evidence_ids": [
+          "evidence-sun-home-solaris-6-product"
+        ]
+      },
+      "configuration_ids": [
+        "sun-home-solaris-6-standard"
+      ],
+      "source_ids": [
+        "source-sun-home-solaris-6-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
+    },
+    {
+      "id": "peak-denali",
+      "market": "US",
+      "slug": "peak-denali",
+      "brand_name": "Peak Saunas",
+      "model": "Peak Denali 3-Person Full Spectrum Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-peak-denali-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-peak-denali-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The official product page does not state a normalized US energy source in the reviewed collection record."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not state a single placement context."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-peak-denali-product"
+        ]
+      },
+      "configuration_ids": [
+        "peak-denali-standard"
+      ],
+      "source_ids": [
+        "source-peak-denali-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official US manufacturer product page; technical review remains open before publication."
     }
   ]
 }
