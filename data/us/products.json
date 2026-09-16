@@ -11919,6 +11919,656 @@
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-16",
       "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "thermasol-aalto",
+      "market": "US",
+      "slug": "thermasol-aalto",
+      "brand_name": "ThermaSol",
+      "model": "ThermaSol Aalto Sauna Cabin",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-aalto-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-aalto-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-aalto-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-aalto-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-aalto-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-aalto-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "thermasol-nordic-misty",
+      "market": "US",
+      "slug": "thermasol-nordic-misty",
+      "brand_name": "ThermaSol",
+      "model": "ThermaSol Nordic Misty Sauna Cabin",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-nordic-misty-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-nordic-misty-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-nordic-misty-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-nordic-misty-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-nordic-misty-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-nordic-misty-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "thermasol-nordic-dawn",
+      "market": "US",
+      "slug": "thermasol-nordic-dawn",
+      "brand_name": "ThermaSol",
+      "model": "ThermaSol Nordic Dawn Sauna Cabin",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-nordic-dawn-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-nordic-dawn-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-nordic-dawn-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-nordic-dawn-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-nordic-dawn-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-nordic-dawn-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "thermasol-spectra",
+      "market": "US",
+      "slug": "thermasol-spectra",
+      "brand_name": "ThermaSol",
+      "model": "ThermaSol Spectra Sauna Cabin",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-spectra-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-spectra-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-spectra-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-spectra-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-spectra-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-spectra-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "thermasol-vera",
+      "market": "US",
+      "slug": "thermasol-vera",
+      "brand_name": "ThermaSol",
+      "model": "ThermaSol Vera Sauna Cabin",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-vera-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-vera-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-vera-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-vera-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-vera-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-vera-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "thermasol-vue",
+      "market": "US",
+      "slug": "thermasol-vue",
+      "brand_name": "ThermaSol",
+      "model": "ThermaSol Vue Sauna Cabin",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-vue-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-vue-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-vue-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-vue-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-vue-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-vue-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "finnmark-fd-1",
+      "market": "US",
+      "slug": "finnmark-fd-1",
+      "brand_name": "Finnmark",
+      "model": "Finnmark FD-1 Full-Spectrum Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnmark-fd-1-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnmark-fd-1-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-1-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnmark-fd-1-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnmark-fd-1-standard"
+      ],
+      "source_ids": [
+        "source-finnmark-fd-1-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "finnmark-fd-2",
+      "market": "US",
+      "slug": "finnmark-fd-2",
+      "brand_name": "Finnmark",
+      "model": "Finnmark FD-2 Full-Spectrum Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnmark-fd-2-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnmark-fd-2-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-2-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnmark-fd-2-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnmark-fd-2-standard"
+      ],
+      "source_ids": [
+        "source-finnmark-fd-2-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "finnmark-fd-3",
+      "market": "US",
+      "slug": "finnmark-fd-3",
+      "brand_name": "Finnmark",
+      "model": "Finnmark FD-3 Full-Spectrum Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnmark-fd-3-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-finnmark-fd-3-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-3-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnmark-fd-3-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnmark-fd-3-standard"
+      ],
+      "source_ids": [
+        "source-finnmark-fd-3-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "finnmark-fd-4",
+      "market": "US",
+      "slug": "finnmark-fd-4",
+      "brand_name": "Finnmark",
+      "model": "Finnmark FD-4 Trinity Infrared and Steam Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnmark-fd-4-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnmark-fd-4-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-4-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnmark-fd-4-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnmark-fd-4-standard"
+      ],
+      "source_ids": [
+        "source-finnmark-fd-4-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "finnmark-fd-5",
+      "market": "US",
+      "slug": "finnmark-fd-5",
+      "brand_name": "Finnmark",
+      "model": "Finnmark FD-5 Trinity XL Infrared and Steam Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-finnmark-fd-5-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnmark-fd-5-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-5-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna cabin",
+        "evidence_ids": [
+          "evidence-finnmark-fd-5-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnmark-fd-5-standard"
+      ],
+      "source_ids": [
+        "source-finnmark-fd-5-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "finnmark-fd-6",
+      "market": "US",
+      "slug": "finnmark-fd-6",
+      "brand_name": "Finnmark",
+      "model": "Finnmark FD-6 Cedar Combination Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-finnmark-fd-6-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnmark-fd-6-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-6-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna kit",
+        "evidence_ids": [
+          "evidence-finnmark-fd-6-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnmark-fd-6-standard"
+      ],
+      "source_ids": [
+        "source-finnmark-fd-6-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+    },
+    {
+      "id": "finnmark-fd-7",
+      "market": "US",
+      "slug": "finnmark-fd-7",
+      "brand_name": "Finnmark",
+      "model": "Finnmark FD-7 Thermo-Aspen Combination Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-finnmark-fd-7-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-finnmark-fd-7-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-7-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna kit",
+        "evidence_ids": [
+          "evidence-finnmark-fd-7-product"
+        ]
+      },
+      "configuration_ids": [
+        "finnmark-fd-7-standard"
+      ],
+      "source_ids": [
+        "source-finnmark-fd-7-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
     }
   ]
 }

@@ -30540,6 +30540,1475 @@
         "source-cedarbrook-8x8-indoor-product"
       ],
       "publication_status": "candidate"
+    },
+    {
+      "id": "thermasol-aalto-standard",
+      "market": "US",
+      "product_id": "thermasol-aalto",
+      "label": "ThermaSol Aalto Sauna Cabin standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-thermasol-aalto-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "thermasol-aalto-electrical-unknown",
+          "evidence_ids": [
+            "evidence-thermasol-aalto-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-thermasol-aalto-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "thermasol-nordic-misty-standard",
+      "market": "US",
+      "product_id": "thermasol-nordic-misty",
+      "label": "ThermaSol Nordic Misty Sauna Cabin standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-thermasol-nordic-misty-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "thermasol-nordic-misty-electrical-unknown",
+          "evidence_ids": [
+            "evidence-thermasol-nordic-misty-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-thermasol-nordic-misty-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "thermasol-nordic-dawn-standard",
+      "market": "US",
+      "product_id": "thermasol-nordic-dawn",
+      "label": "ThermaSol Nordic Dawn Sauna Cabin standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-thermasol-nordic-dawn-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "thermasol-nordic-dawn-electrical-unknown",
+          "evidence_ids": [
+            "evidence-thermasol-nordic-dawn-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-thermasol-nordic-dawn-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "thermasol-spectra-standard",
+      "market": "US",
+      "product_id": "thermasol-spectra",
+      "label": "ThermaSol Spectra Sauna Cabin standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-thermasol-spectra-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "thermasol-spectra-electrical-unknown",
+          "evidence_ids": [
+            "evidence-thermasol-spectra-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-thermasol-spectra-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "thermasol-vera-standard",
+      "market": "US",
+      "product_id": "thermasol-vera",
+      "label": "ThermaSol Vera Sauna Cabin standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-thermasol-vera-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "thermasol-vera-electrical-unknown",
+          "evidence_ids": [
+            "evidence-thermasol-vera-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-thermasol-vera-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "thermasol-vue-standard",
+      "market": "US",
+      "product_id": "thermasol-vue",
+      "label": "ThermaSol Vue Sauna Cabin standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-thermasol-vue-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "thermasol-vue-electrical-unknown",
+          "evidence_ids": [
+            "evidence-thermasol-vue-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-thermasol-vue-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnmark-fd-1-standard",
+      "market": "US",
+      "product_id": "finnmark-fd-1",
+      "label": "Finnmark FD-1 Full-Spectrum Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-finnmark-fd-1-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnmark-fd-1-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnmark-fd-1-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnmark-fd-1-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnmark-fd-2-standard",
+      "market": "US",
+      "product_id": "finnmark-fd-2",
+      "label": "Finnmark FD-2 Full-Spectrum Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-finnmark-fd-2-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnmark-fd-2-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnmark-fd-2-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnmark-fd-2-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnmark-fd-3-standard",
+      "market": "US",
+      "product_id": "finnmark-fd-3",
+      "label": "Finnmark FD-3 Full-Spectrum Infrared Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-finnmark-fd-3-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnmark-fd-3-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnmark-fd-3-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnmark-fd-3-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnmark-fd-4-standard",
+      "market": "US",
+      "product_id": "finnmark-fd-4",
+      "label": "Finnmark FD-4 Trinity Infrared and Steam Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-finnmark-fd-4-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnmark-fd-4-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnmark-fd-4-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnmark-fd-4-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnmark-fd-5-standard",
+      "market": "US",
+      "product_id": "finnmark-fd-5",
+      "label": "Finnmark FD-5 Trinity XL Infrared and Steam Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-finnmark-fd-5-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnmark-fd-5-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnmark-fd-5-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnmark-fd-5-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnmark-fd-6-standard",
+      "market": "US",
+      "product_id": "finnmark-fd-6",
+      "label": "Finnmark FD-6 Cedar Combination Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-finnmark-fd-6-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnmark-fd-6-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnmark-fd-6-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnmark-fd-6-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "finnmark-fd-7-standard",
+      "market": "US",
+      "product_id": "finnmark-fd-7",
+      "label": "Finnmark FD-7 Thermo-Aspen Combination Barrel Sauna standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-finnmark-fd-7-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable manufacturer documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual technical specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "finnmark-fd-7-electrical-unknown",
+          "evidence_ids": [
+            "evidence-finnmark-fd-7-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-finnmark-fd-7-product"
+      ],
+      "publication_status": "candidate"
     }
   ],
   "certifications": [],

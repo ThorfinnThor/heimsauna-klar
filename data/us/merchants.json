@@ -121,6 +121,16 @@
         "cedarbrooksauna.com"
       ],
       "status": "candidate"
+    },
+    {
+      "id": "saunacompanyusa",
+      "market": "US",
+      "name": "Sauna Company USA",
+      "kind": "retailer",
+      "allowed_hosts": [
+        "saunacompanyusa.com"
+      ],
+      "status": "candidate"
     }
   ]
 }
