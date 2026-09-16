@@ -19,8 +19,8 @@ const editorialByProductId = new Map(editorialDocument.entries.map((entry) => [e
 const mappingByConfigurationId = new Map(mappingsDocument.mappings.filter((entry) => entry.merchant_id === "sweat-kingdom").map((entry) => [entry.configuration_id, entry]));
 
 test("all reviewed Sweat Kingdom products have exact source, editorial and configuration records", () => {
-  assert.equal(publishedSweatProducts.length, 17);
-  assert.equal(candidateSweatProducts.length, 2);
+  assert.equal(publishedSweatProducts.length, 18);
+  assert.equal(candidateSweatProducts.length, 1);
   for (const product of publishedSweatProducts) {
     assert.equal(product.publication_status, "published");
     assert.equal(product.source_ids.length, 1);
@@ -31,6 +31,8 @@ test("all reviewed Sweat Kingdom products have exact source, editorial and confi
     assert.equal(configuration?.publication_status, "published");
     assert.equal(editorialByProductId.get(product.id)?.status, "published");
   }
+  assert.equal(sweatOffers.some((offer) => offer.market_product_id === "sweat-kingdom-sweat-box"), false);
+  assert.equal(productsDocument.products.find((product) => product.id === "sweat-kingdom-sweat-box")?.publication_status, "published");
 });
 
 test("each Sweat Kingdom offer keeps its Awin IDs and exact merchant destination", () => {

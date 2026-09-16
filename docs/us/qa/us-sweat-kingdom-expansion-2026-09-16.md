@@ -5,7 +5,7 @@
 
 ## Result
 
-The US catalogue now contains 248 products and 248 one-to-one configurations. Twenty-seven products are published and 221 remain candidates for later technical review. Sweat Kingdom contributes seventeen eligible Awin offers after a manual check of the exact merchant destination URLs.
+The US catalogue now contains 248 products and 248 one-to-one configurations. Twenty-eight products are published and 220 remain candidates for later technical review. Sweat Kingdom contributes seventeen eligible Awin offers after a manual check of the exact merchant destination URLs.
 
 The expansion adds four previously missing model pages:
 
@@ -20,11 +20,15 @@ Each new published record has an exact manufacturer source, a source-bound edito
 
 The model pages do not expose every field needed for a fully complete electrical or installation record. Voltage, phase, shipping dimensions, weights and minimum clearances remain explicitly unknown where the source does not state them. SK Contrast also has multiple footprints and no stated seated capacity, so the catalogue preserves those choices instead of inventing a single dimension or capacity.
 
-The older Sweat Box record remains a candidate because the merchant page was sold out at review time. The older Sweat Cabin Deluxe record remains a candidate because its displayed price conflicted with the current collection price. Neither candidate receives an affiliate offer.
+The Sweat Box is now public as a researched catalogue record even though the merchant page was sold out at review time. It has no price or affiliate offer until availability returns. The older Sweat Cabin Deluxe record remains a candidate because its displayed price conflicted with the current collection price.
+
+## Catalog parity check
+
+The official [Saunas collection](https://sweatkingdom.com/collections/saunas), [Sauna Units collection](https://sweatkingdom.com/collections/sauna-units) and [all-products catalogue](https://sweatkingdom.com/collections/all) were compared with the local model list. There are currently **zero additional sauna models** in those public collections that are missing from the US catalogue. The remaining Awin feed-only entries, if any, are not counted as sauna models until the feed is explicitly synchronized and manually classified. Heaters, accessories, installation and service items are intentionally not imported as sauna models.
 
 ## Verification
 
 - `npm run us:data:check` passed with 248 products, 248 configurations, 17 offers and 0 warnings.
 - `npm run us:test` passed all 129 US tests.
-- The launch snapshot contains 27 published products, 221 candidates, 41 declared routes and 248 explicit rights records.
+- The launch snapshot contains 28 published products, 220 candidates, 42 declared routes and 248 explicit rights records.
 - Coverage counts are 69 indoor traditional cabins, 91 outdoor traditional cabins and 113 sauna kits. Categories overlap by design.

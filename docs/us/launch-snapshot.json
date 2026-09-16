@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with seventeen manually reviewed Sweat Kingdom merchant offers. Two hundred twenty-one research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with seventeen manually reviewed Sweat Kingdom merchant offers. Two hundred twenty research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -569,7 +569,8 @@
       "sweat-kingdom-sk-contrast-editorial",
       "sweat-kingdom-regen-sweat-cabin-editorial",
       "sweat-kingdom-regen-sweat-cabin-deluxe-editorial",
-      "sweat-kingdom-regen-sweat-pod-editorial"
+      "sweat-kingdom-regen-sweat-pod-editorial",
+      "sweat-kingdom-sweat-box-editorial"
     ],
     "legal_page_ids": [
       "contact",
@@ -838,11 +839,11 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "d84b36d01d0c433358d96769e14645e5e84716d58abebdfe644711429e61ebe1"
+      "sha256": "d46c50c94a60a2d7678c24b4cadc52eb83115846a077a6bfc61c53270192e86c"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "239c2d9b69a334b8f88a01efe38625077c5f70aeeff96f932bcf9d3886f71755"
+      "sha256": "619bd121e92eb9955eaeb3d6b3f647f56d9491526afb6b8805bf8da53098e900"
     },
     {
       "path": "data/us/sources.json",
@@ -890,7 +891,7 @@
     },
     {
       "path": "content/us/product-editorial.json",
-      "sha256": "c4bf7258aa9959bb08019fcf876e1406355f0266214936dff73a84dfbf51af3c"
+      "sha256": "17bed4fb69435d9103a504eafd0467d2aa1d60537bd34e7f922c1c19549f6309"
     },
     {
       "path": "docs/us/rights-register.json",

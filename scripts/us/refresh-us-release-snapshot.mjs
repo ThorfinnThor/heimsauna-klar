@@ -33,7 +33,7 @@ manifest.expected_page_count = manifest.routes.length;
 
 snapshot.snapshot_id = releaseId;
 snapshot.input_commit = "sweat-kingdom-affiliate-expansion-2026-09-16";
-snapshot.purpose = "Public indexed US release with seventeen manually reviewed Sweat Kingdom merchant offers. Two hundred twenty-one research records stay candidates; feed synchronization and manufacturer image use remain disabled.";
+snapshot.purpose = "Public indexed US release with seventeen manually reviewed Sweat Kingdom merchant offers. Two hundred twenty research records stay candidates; feed synchronization and manufacturer image use remain disabled.";
 snapshot.status = "public-indexed-first-wave";
 snapshot.publication_controls = { ...publication };
 snapshot.records = {

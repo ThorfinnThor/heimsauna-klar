@@ -934,6 +934,42 @@ for (const model of models) {
   });
 }
 
+// Keep the sold-out Sweat Box visible as a researched product. It is not an
+// active offer, but a public record lets the catalogue retain the model if the
+// merchant brings it back later.
+const sweatBoxProduct = products.products.find((entry) => entry.id === "sweat-kingdom-sweat-box");
+const sweatBoxConfiguration = configurations.configurations.find((entry) => entry.id === "sweat-kingdom-sweat-box-standard");
+const sweatBoxSource = sources.sources.find((entry) => entry.id === "sweat-kingdom-sweat-box-product");
+if (sweatBoxProduct && sweatBoxConfiguration) {
+  sweatBoxProduct.publication_status = "published";
+  sweatBoxProduct.spec_checked_at = today;
+  sweatBoxProduct.next_review_at = nextReview;
+  sweatBoxProduct.change_reason = "Published as a researched catalogue record; the official product page was sold out at review time, so no active offer is exposed.";
+  sweatBoxConfiguration.publication_status = "published";
+  upsert(editorial.entries, "sweat-kingdom-sweat-box-editorial", {
+    id: "sweat-kingdom-sweat-box-editorial",
+    product_id: "sweat-kingdom-sweat-box",
+    status: "published",
+    eyebrow: "Sold-out one-person cabin",
+    heading: "A compact Sweat Box kept visible for a possible return",
+    summary: "The Sweat Box is a 42-inch square, one-person cedar cabin with a documented 4 kW hardwired heater package.",
+    paragraphs: [
+      "The Sweat Box is the smallest traditional cabin in the reviewed Sweat Kingdom range. Its published exterior is 42 inches wide, 42 inches deep and 80 inches high, with red cedar, tempered glass and a flat floor.",
+      "The product page currently marks the model sold out. The catalogue therefore keeps the technical record and its source, but does not present a price or affiliate purchase link until the merchant lists an available offer again.",
+    ],
+    decision_points: [
+      "The square footprint is easier to place than a larger cabin, but door swing and service access still sit outside the 42-inch shell.",
+      "The documented Homecraft Revive Slim 4 kW heater uses a 30-amp hardwired connection; voltage and phase are not stated.",
+      "A future restock should trigger a fresh price, availability and destination check before an offer is activated.",
+    ],
+    limitations: [
+      "The page does not state interior, shipping or minimum-clearance dimensions.",
+      "The model was sold out when reviewed, so no current price or delivery promise is shown.",
+    ],
+    source_ids: sweatBoxSource ? [sweatBoxSource.id] : ["sweat-kingdom-sweat-box-product"],
+  });
+}
+
 // The original Sweat Cabin offer showed the base price but described an upgraded
 // Homecraft package. Keep the exact base variant and technical fields aligned.
 const cabinSource = sources.sources.find((entry) => entry.id === "sweat-cabin-product");

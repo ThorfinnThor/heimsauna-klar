@@ -23,7 +23,7 @@ The profiles and terms are recorded in `data/us/sources.json`. Merchant hosts re
 
 ## Product coverage
 
-The catalog contains 248 products and 248 exact configurations. Seventeen products have approved commercial mappings to Sweat Kingdom. Two hundred twenty-one records remain research candidates and do not receive affiliate output.
+The catalog contains 248 products and 248 exact configurations. Seventeen products have approved commercial mappings to Sweat Kingdom. Two hundred twenty records remain research candidates and do not receive affiliate output; the sold-out Sweat Box is public but has no offer.
 
 Products without a reviewed offer remain non-commercial. They must not receive a price, affiliate CTA or offer-bearing Product schema until a current offer exists for the exact configuration.
 
