@@ -111,6 +111,16 @@
         "www.harvia.com"
       ],
       "status": "candidate"
+    },
+    {
+      "id": "cedarbrook",
+      "market": "US",
+      "name": "Cedarbrook Sauna + Steam",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "cedarbrooksauna.com"
+      ],
+      "status": "candidate"
     }
   ]
 }

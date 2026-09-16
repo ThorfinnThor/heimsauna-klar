@@ -11119,6 +11119,806 @@
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-16",
       "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-1-person-indoor",
+      "market": "US",
+      "slug": "cedarbrook-1-person-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "1 Person Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-1-person-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-1-person-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-1-person-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-1-person-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-1-person-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-1-person-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-3x4-indoor",
+      "market": "US",
+      "slug": "cedarbrook-3x4-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "3 x 4 Indoor Home Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-3x4-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-3x4-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-3x4-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-3x4-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-3x4-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-3x4-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-4x4-indoor",
+      "market": "US",
+      "slug": "cedarbrook-4x4-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "4 x 4 Indoor Home Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x4-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x4-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-4x4-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x4-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-4x4-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-4x4-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-4x5-indoor",
+      "market": "US",
+      "slug": "cedarbrook-4x5-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "4 x 5 Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x5-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x5-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-4x5-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x5-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-4x5-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-4x5-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-4x7-indoor",
+      "market": "US",
+      "slug": "cedarbrook-4x7-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "4 x 7 Modular Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x7-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x7-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-4x7-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x7-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-4x7-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-4x7-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-4x6-near-infrared",
+      "market": "US",
+      "slug": "cedarbrook-4x6-near-infrared",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "4 x 6 Indoor Near Infrared Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x6-near-infrared-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x6-near-infrared-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-4x6-near-infrared-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-4x6-near-infrared-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-4x6-near-infrared-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-4x6-near-infrared-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-5x5-indoor",
+      "market": "US",
+      "slug": "cedarbrook-5x5-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "5 x 5 Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-5x5-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-5x5-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-5x5-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-5x5-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-5x5-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-5x5-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-5x6-indoor",
+      "market": "US",
+      "slug": "cedarbrook-5x6-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "5 x 6 Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-5x6-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-5x6-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-5x6-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-5x6-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-5x6-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-5x6-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-5x8-indoor",
+      "market": "US",
+      "slug": "cedarbrook-5x8-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "5 x 8 Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-5x8-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-5x8-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-5x8-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-5x8-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-5x8-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-5x8-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-6x6-indoor",
+      "market": "US",
+      "slug": "cedarbrook-6x6-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "6 x 6 Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-6x6-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-6x6-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-6x6-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-6x6-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-6x6-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-6x6-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-6x7-indoor",
+      "market": "US",
+      "slug": "cedarbrook-6x7-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "6 x 7 Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-6x7-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-6x7-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-6x7-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-6x7-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-6x7-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-6x7-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-6x8-indoor",
+      "market": "US",
+      "slug": "cedarbrook-6x8-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "6 x 8 Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-6x8-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-6x8-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-6x8-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-6x8-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-6x8-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-6x8-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-7x7-indoor",
+      "market": "US",
+      "slug": "cedarbrook-7x7-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "7 x 7 Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-7x7-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-7x7-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-7x7-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-7x7-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-7x7-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-7x7-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-7x7-ada-indoor",
+      "market": "US",
+      "slug": "cedarbrook-7x7-ada-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "7 x 7 ADA Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-7x7-ada-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-7x7-ada-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-7x7-ada-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-7x7-ada-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-7x7-ada-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-7x7-ada-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-8x10-indoor",
+      "market": "US",
+      "slug": "cedarbrook-8x10-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "8 x 10 Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-8x10-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-8x10-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-8x10-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-8x10-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-8x10-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-8x10-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
+    },
+    {
+      "id": "cedarbrook-8x8-indoor",
+      "market": "US",
+      "slug": "cedarbrook-8x8-indoor",
+      "brand_name": "Cedarbrook Sauna + Steam",
+      "model": "8 x 8 Indoor Sauna Kit",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-8x8-indoor-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-cedarbrook-8x8-indoor-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-cedarbrook-8x8-indoor-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna kit",
+        "evidence_ids": [
+          "evidence-cedarbrook-8x8-indoor-product"
+        ]
+      },
+      "configuration_ids": [
+        "cedarbrook-8x8-indoor-standard"
+      ],
+      "source_ids": [
+        "source-cedarbrook-8x8-indoor-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Cedarbrook product page; technical review remains open before publication."
     }
   ]
 }

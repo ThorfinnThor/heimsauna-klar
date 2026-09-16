@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with thirteen manually reviewed Sweat Kingdom merchant offers. One hundred ninety-two research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with thirteen manually reviewed Sweat Kingdom merchant offers. Two hundred eight research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -231,7 +231,23 @@
       "harvia-ventura",
       "harvia-concept-r-105",
       "harvia-virta-wall-hlw90e",
-      "harvia-legend-po70fc"
+      "harvia-legend-po70fc",
+      "cedarbrook-1-person-indoor",
+      "cedarbrook-3x4-indoor",
+      "cedarbrook-4x4-indoor",
+      "cedarbrook-4x5-indoor",
+      "cedarbrook-4x7-indoor",
+      "cedarbrook-4x6-near-infrared",
+      "cedarbrook-5x5-indoor",
+      "cedarbrook-5x6-indoor",
+      "cedarbrook-5x8-indoor",
+      "cedarbrook-6x6-indoor",
+      "cedarbrook-6x7-indoor",
+      "cedarbrook-6x8-indoor",
+      "cedarbrook-7x7-indoor",
+      "cedarbrook-7x7-ada-indoor",
+      "cedarbrook-8x10-indoor",
+      "cedarbrook-8x8-indoor"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -448,7 +464,23 @@
       "harvia-ventura-standard",
       "harvia-concept-r-105-standard",
       "harvia-virta-wall-hlw90e-standard",
-      "harvia-legend-po70fc-standard"
+      "harvia-legend-po70fc-standard",
+      "cedarbrook-1-person-indoor-standard",
+      "cedarbrook-3x4-indoor-standard",
+      "cedarbrook-4x4-indoor-standard",
+      "cedarbrook-4x5-indoor-standard",
+      "cedarbrook-4x7-indoor-standard",
+      "cedarbrook-4x6-near-infrared-standard",
+      "cedarbrook-5x5-indoor-standard",
+      "cedarbrook-5x6-indoor-standard",
+      "cedarbrook-5x8-indoor-standard",
+      "cedarbrook-6x6-indoor-standard",
+      "cedarbrook-6x7-indoor-standard",
+      "cedarbrook-6x8-indoor-standard",
+      "cedarbrook-7x7-indoor-standard",
+      "cedarbrook-7x7-ada-indoor-standard",
+      "cedarbrook-8x10-indoor-standard",
+      "cedarbrook-8x8-indoor-standard"
     ],
     "offer_ids": [
       "offer-sweat-kingdom-sweat-cabin",
@@ -465,8 +497,8 @@
       "offer-sweat-kingdom-sk-310",
       "offer-sweat-kingdom-sk-mobile"
     ],
-    "source_count": 238,
-    "evidence_count": 445,
+    "source_count": 254,
+    "evidence_count": 477,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -721,7 +753,23 @@
       "harvia-ventura-image",
       "harvia-concept-r-105-image",
       "harvia-virta-wall-hlw90e-image",
-      "harvia-legend-po70fc-image"
+      "harvia-legend-po70fc-image",
+      "cedarbrook-1-person-indoor-image",
+      "cedarbrook-3x4-indoor-image",
+      "cedarbrook-4x4-indoor-image",
+      "cedarbrook-4x5-indoor-image",
+      "cedarbrook-4x7-indoor-image",
+      "cedarbrook-4x6-near-infrared-image",
+      "cedarbrook-5x5-indoor-image",
+      "cedarbrook-5x6-indoor-image",
+      "cedarbrook-5x8-indoor-image",
+      "cedarbrook-6x6-indoor-image",
+      "cedarbrook-6x7-indoor-image",
+      "cedarbrook-6x8-indoor-image",
+      "cedarbrook-7x7-indoor-image",
+      "cedarbrook-7x7-ada-indoor-image",
+      "cedarbrook-8x10-indoor-image",
+      "cedarbrook-8x8-indoor-image"
     ]
   },
   "file_hashes": [
@@ -731,19 +779,19 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "3a06bde26b1d9f747aa2da76d4b741192078a98d70907dd8cf0af49c50d8e32b"
+      "sha256": "3418e319d433315abbac581e840f73c3d63fb60fc3743757d237c6a3a7ee0d71"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "f0edb2d55d0efcd16c68ccc1829771a660877092a71ce2379992de3a2562e377"
+      "sha256": "24ba2ef014558465da2ba3863208b62f3908fdd3ff5711b8656397ef0ca97793"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "9704d1803bd47820a242ad3ea702c15e987d605c2a3a80664eb385b6a3c9cda2"
+      "sha256": "30b298bb7266ff41df1cf73cfe4f8cfd351028fe190a95dad5f332eac08194ab"
     },
     {
       "path": "data/us/merchants.json",
-      "sha256": "61c7fa7855d94fcb9803d7c200f5f0aba181e7550127e3fdfccc3733dd5af79e"
+      "sha256": "a79797715015aa0fc7978fd8086af246f5d6d0a103d27faa7eb8972429476947"
     },
     {
       "path": "data/us/programs.json",
@@ -787,7 +835,7 @@
     },
     {
       "path": "docs/us/rights-register.json",
-      "sha256": "ad01ec708cd9135b52dfa9018bf846af61896e01c048639cacd57eebc0d9de22"
+      "sha256": "a8041955f7e711be7f4fbe3bedfe4977787cca72ae2eebf362452a3d3cd17b47"
     }
   ],
   "blocking_conditions": [

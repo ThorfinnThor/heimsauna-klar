@@ -28780,6 +28780,1766 @@
         "source-harvia-legend-po70fc-product"
       ],
       "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-1-person-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-1-person-indoor",
+      "label": "1 Person Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-1-person-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-1-person-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-1-person-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-3x4-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-3x4-indoor",
+      "label": "3 x 4 Indoor Home Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-3x4-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-3x4-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-3x4-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-4x4-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-4x4-indoor",
+      "label": "4 x 4 Indoor Home Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-4x4-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-4x4-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-4x4-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-4x5-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-4x5-indoor",
+      "label": "4 x 5 Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-4x5-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-4x5-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-4x5-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-4x7-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-4x7-indoor",
+      "label": "4 x 7 Modular Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-4x7-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-4x7-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-4x7-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-4x6-near-infrared-standard",
+      "market": "US",
+      "product_id": "cedarbrook-4x6-near-infrared",
+      "label": "4 x 6 Indoor Near Infrared Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-4x6-near-infrared-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-4x6-near-infrared-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-4x6-near-infrared-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-5x5-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-5x5-indoor",
+      "label": "5 x 5 Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-5x5-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-5x5-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-5x5-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-5x6-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-5x6-indoor",
+      "label": "5 x 6 Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-5x6-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-5x6-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-5x6-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-5x8-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-5x8-indoor",
+      "label": "5 x 8 Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-5x8-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-5x8-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-5x8-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-6x6-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-6x6-indoor",
+      "label": "6 x 6 Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-6x6-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-6x6-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-6x6-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-6x7-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-6x7-indoor",
+      "label": "6 x 7 Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-6x7-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-6x7-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-6x7-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-6x8-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-6x8-indoor",
+      "label": "6 x 8 Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-6x8-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-6x8-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-6x8-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-7x7-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-7x7-indoor",
+      "label": "7 x 7 Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-7x7-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-7x7-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-7x7-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-7x7-ada-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-7x7-ada-indoor",
+      "label": "7 x 7 ADA Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-7x7-ada-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-7x7-ada-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-7x7-ada-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-8x10-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-8x10-indoor",
+      "label": "8 x 10 Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-8x10-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-8x10-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-8x10-indoor-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "cedarbrook-8x8-indoor-standard",
+      "market": "US",
+      "product_id": "cedarbrook-8x8-indoor",
+      "label": "8 x 8 Indoor Sauna Kit standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Cedarbrook page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Cedarbrook documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Cedarbrook specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "cedarbrook-8x8-indoor-electrical-unknown",
+          "evidence_ids": [
+            "evidence-cedarbrook-8x8-indoor-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-cedarbrook-8x8-indoor-product"
+      ],
+      "publication_status": "candidate"
     }
   ],
   "certifications": [],
