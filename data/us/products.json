@@ -10434,6 +10434,691 @@
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-16",
       "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-legend-sauna-virta-11kw",
+      "market": "US",
+      "slug": "harvia-legend-sauna-virta-11kw",
+      "brand_name": "Harvia",
+      "model": "Legend Sauna with Virta 11 kW",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-legend-sauna-virta-11kw-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-legend-sauna-virta-11kw-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-legend-sauna-virta-11kw-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-legend-sauna-virta-11kw-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-legend-sauna-virta-11kw-standard"
+      ],
+      "source_ids": [
+        "source-harvia-legend-sauna-virta-11kw-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-solide-compact-vision",
+      "market": "US",
+      "slug": "harvia-solide-compact-vision",
+      "brand_name": "Harvia",
+      "model": "Solide Compact Vision",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-solide-compact-vision-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-solide-compact-vision-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-solide-compact-vision-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-solide-compact-vision-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-solide-compact-vision-standard"
+      ],
+      "source_ids": [
+        "source-harvia-solide-compact-vision-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-solide-compact",
+      "market": "US",
+      "slug": "harvia-solide-compact",
+      "brand_name": "Harvia",
+      "model": "Solide Compact",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-solide-compact-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-solide-compact-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-solide-compact-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-solide-compact-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-solide-compact-standard"
+      ],
+      "source_ids": [
+        "source-harvia-solide-compact-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-variant-view-s1620sv",
+      "market": "US",
+      "slug": "harvia-variant-view-s1620sv",
+      "brand_name": "Harvia",
+      "model": "Variant View S1620SV",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-variant-view-s1620sv-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-variant-view-s1620sv-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-variant-view-s1620sv-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-variant-view-s1620sv-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-variant-view-s1620sv-standard"
+      ],
+      "source_ids": [
+        "source-harvia-variant-view-s1620sv-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-variant-s1515l",
+      "market": "US",
+      "slug": "harvia-variant-s1515l",
+      "brand_name": "Harvia",
+      "model": "Variant S1515L",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-variant-s1515l-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-variant-s1515l-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-variant-s1515l-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-variant-s1515l-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-variant-s1515l-standard"
+      ],
+      "source_ids": [
+        "source-harvia-variant-s1515l-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-polaris-large",
+      "market": "US",
+      "slug": "harvia-polaris-large",
+      "brand_name": "Harvia",
+      "model": "Polaris Large",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-polaris-large-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-polaris-large-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-polaris-large-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-polaris-large-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-polaris-large-standard"
+      ],
+      "source_ids": [
+        "source-harvia-polaris-large-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-solide-s2119ld",
+      "market": "US",
+      "slug": "harvia-solide-s2119ld",
+      "brand_name": "Harvia",
+      "model": "Solide S2119LD",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-solide-s2119ld-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-solide-s2119ld-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-solide-s2119ld-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-solide-s2119ld-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-solide-s2119ld-standard"
+      ],
+      "source_ids": [
+        "source-harvia-solide-s2119ld-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-block-right-medium",
+      "market": "US",
+      "slug": "harvia-block-right-medium",
+      "brand_name": "Harvia",
+      "model": "Block Right Medium",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-block-right-medium-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-block-right-medium-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-block-right-medium-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-block-right-medium-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-block-right-medium-standard"
+      ],
+      "source_ids": [
+        "source-harvia-block-right-medium-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-alaska-view",
+      "market": "US",
+      "slug": "harvia-alaska-view",
+      "brand_name": "Harvia",
+      "model": "Alaska View",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-alaska-view-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-alaska-view-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-alaska-view-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-alaska-view-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-alaska-view-standard"
+      ],
+      "source_ids": [
+        "source-harvia-alaska-view-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-fenix-1620s",
+      "market": "US",
+      "slug": "harvia-fenix-1620s",
+      "brand_name": "Harvia",
+      "model": "Fenix 1620S",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-fenix-1620s-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-fenix-1620s-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-fenix-1620s-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-fenix-1620s-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-fenix-1620s-standard"
+      ],
+      "source_ids": [
+        "source-harvia-fenix-1620s-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-ventura",
+      "market": "US",
+      "slug": "harvia-ventura",
+      "brand_name": "Harvia",
+      "model": "Ventura Sauna Cabin",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-ventura-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-ventura-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-ventura-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna",
+        "evidence_ids": [
+          "evidence-harvia-ventura-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-ventura-standard"
+      ],
+      "source_ids": [
+        "source-harvia-ventura-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-concept-r-105",
+      "market": "US",
+      "slug": "harvia-concept-r-105",
+      "brand_name": "Harvia",
+      "model": "Concept R 10.5 kW",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-harvia-concept-r-105-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-concept-r-105-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater",
+        "evidence_ids": [
+          "evidence-harvia-concept-r-105-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-concept-r-105-standard"
+      ],
+      "source_ids": [
+        "source-harvia-concept-r-105-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-virta-wall-hlw90e",
+      "market": "US",
+      "slug": "harvia-virta-wall-hlw90e",
+      "brand_name": "Harvia",
+      "model": "Virta Wall HLW90E 9.0 kW",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-harvia-virta-wall-hlw90e-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-virta-wall-hlw90e-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater",
+        "evidence_ids": [
+          "evidence-harvia-virta-wall-hlw90e-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-virta-wall-hlw90e-standard"
+      ],
+      "source_ids": [
+        "source-harvia-virta-wall-hlw90e-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+    },
+    {
+      "id": "harvia-legend-po70fc",
+      "market": "US",
+      "slug": "harvia-legend-po70fc",
+      "brand_name": "Harvia",
+      "model": "Legend PO70FC 6.8 kW WiFi",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-harvia-legend-po70fc-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-legend-po70fc-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not state one placement context for this candidate."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Sauna heater",
+        "evidence_ids": [
+          "evidence-harvia-legend-po70fc-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-legend-po70fc-standard"
+      ],
+      "source_ids": [
+        "source-harvia-legend-po70fc-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-16",
+      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
     }
   ]
 }

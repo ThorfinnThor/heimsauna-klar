@@ -27240,6 +27240,1546 @@
         "source-finnleo-saga-22-9053-627-product"
       ],
       "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-legend-sauna-virta-11kw-standard",
+      "market": "US",
+      "product_id": "harvia-legend-sauna-virta-11kw",
+      "label": "Legend Sauna with Virta 11 kW standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-legend-sauna-virta-11kw-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-legend-sauna-virta-11kw-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-legend-sauna-virta-11kw-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-solide-compact-vision-standard",
+      "market": "US",
+      "product_id": "harvia-solide-compact-vision",
+      "label": "Solide Compact Vision standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-solide-compact-vision-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-solide-compact-vision-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-solide-compact-vision-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-solide-compact-standard",
+      "market": "US",
+      "product_id": "harvia-solide-compact",
+      "label": "Solide Compact standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-solide-compact-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-solide-compact-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-solide-compact-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-variant-view-s1620sv-standard",
+      "market": "US",
+      "product_id": "harvia-variant-view-s1620sv",
+      "label": "Variant View S1620SV standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-variant-view-s1620sv-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-variant-view-s1620sv-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-variant-view-s1620sv-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-variant-s1515l-standard",
+      "market": "US",
+      "product_id": "harvia-variant-s1515l",
+      "label": "Variant S1515L standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-variant-s1515l-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-variant-s1515l-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-variant-s1515l-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-polaris-large-standard",
+      "market": "US",
+      "product_id": "harvia-polaris-large",
+      "label": "Polaris Large standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-polaris-large-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-polaris-large-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-polaris-large-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-solide-s2119ld-standard",
+      "market": "US",
+      "product_id": "harvia-solide-s2119ld",
+      "label": "Solide S2119LD standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-solide-s2119ld-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-solide-s2119ld-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-solide-s2119ld-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-block-right-medium-standard",
+      "market": "US",
+      "product_id": "harvia-block-right-medium",
+      "label": "Block Right Medium standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-block-right-medium-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-block-right-medium-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-block-right-medium-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-alaska-view-standard",
+      "market": "US",
+      "product_id": "harvia-alaska-view",
+      "label": "Alaska View standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-alaska-view-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-alaska-view-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-alaska-view-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-fenix-1620s-standard",
+      "market": "US",
+      "product_id": "harvia-fenix-1620s",
+      "label": "Fenix 1620S standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-fenix-1620s-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-fenix-1620s-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-fenix-1620s-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-ventura-standard",
+      "market": "US",
+      "product_id": "harvia-ventura",
+      "label": "Ventura Sauna Cabin standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-ventura-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-ventura-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-ventura-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-concept-r-105-standard",
+      "market": "US",
+      "product_id": "harvia-concept-r-105",
+      "label": "Concept R 10.5 kW standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-concept-r-105-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-concept-r-105-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-concept-r-105-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-virta-wall-hlw90e-standard",
+      "market": "US",
+      "product_id": "harvia-virta-wall-hlw90e",
+      "label": "Virta Wall HLW90E 9.0 kW standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-virta-wall-hlw90e-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-virta-wall-hlw90e-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-virta-wall-hlw90e-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-legend-po70fc-standard",
+      "market": "US",
+      "product_id": "harvia-legend-po70fc",
+      "label": "Legend PO70FC 6.8 kW WiFi standard configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "Seated capacity is not normalized from the reviewed product page."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "Reclining capacity is not stated in the reviewed product record."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "unknown",
+          "reason": "Complete exterior dimensions require the individual technical specification."
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Complete interior dimensions require the individual technical specification."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia documentation."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated in the reviewed catalog record."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated in the reviewed catalog record."
+      },
+      "materials": {
+        "status": "unknown",
+        "reason": "Model-level materials require the individual Harvia specification."
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-legend-po70fc-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-legend-po70fc-configuration"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "Voltage is not stated in the reviewed catalog record."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated in the reviewed catalog record."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated in the reviewed catalog record."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated in the reviewed catalog record."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated in the reviewed catalog record."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated in the reviewed catalog record."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated in the reviewed catalog record."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated in the reviewed catalog record."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-legend-po70fc-product"
+      ],
+      "publication_status": "candidate"
     }
   ],
   "certifications": [],

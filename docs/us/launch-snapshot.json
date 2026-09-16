@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with thirteen manually reviewed Sweat Kingdom merchant offers. One hundred seventy-eight research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with thirteen manually reviewed Sweat Kingdom merchant offers. One hundred ninety-two research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -217,7 +217,21 @@
       "finnleo-karhu-20-home-9053-624",
       "finnleo-laava-9-2220",
       "finnleo-magma-9-2210",
-      "finnleo-saga-22-9053-627"
+      "finnleo-saga-22-9053-627",
+      "harvia-legend-sauna-virta-11kw",
+      "harvia-solide-compact-vision",
+      "harvia-solide-compact",
+      "harvia-variant-view-s1620sv",
+      "harvia-variant-s1515l",
+      "harvia-polaris-large",
+      "harvia-solide-s2119ld",
+      "harvia-block-right-medium",
+      "harvia-alaska-view",
+      "harvia-fenix-1620s",
+      "harvia-ventura",
+      "harvia-concept-r-105",
+      "harvia-virta-wall-hlw90e",
+      "harvia-legend-po70fc"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -420,7 +434,21 @@
       "finnleo-karhu-20-home-9053-624-standard",
       "finnleo-laava-9-2220-standard",
       "finnleo-magma-9-2210-standard",
-      "finnleo-saga-22-9053-627-standard"
+      "finnleo-saga-22-9053-627-standard",
+      "harvia-legend-sauna-virta-11kw-standard",
+      "harvia-solide-compact-vision-standard",
+      "harvia-solide-compact-standard",
+      "harvia-variant-view-s1620sv-standard",
+      "harvia-variant-s1515l-standard",
+      "harvia-polaris-large-standard",
+      "harvia-solide-s2119ld-standard",
+      "harvia-block-right-medium-standard",
+      "harvia-alaska-view-standard",
+      "harvia-fenix-1620s-standard",
+      "harvia-ventura-standard",
+      "harvia-concept-r-105-standard",
+      "harvia-virta-wall-hlw90e-standard",
+      "harvia-legend-po70fc-standard"
     ],
     "offer_ids": [
       "offer-sweat-kingdom-sweat-cabin",
@@ -437,8 +465,8 @@
       "offer-sweat-kingdom-sk-310",
       "offer-sweat-kingdom-sk-mobile"
     ],
-    "source_count": 224,
-    "evidence_count": 417,
+    "source_count": 238,
+    "evidence_count": 445,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -679,7 +707,21 @@
       "finnleo-karhu-20-home-9053-624-image",
       "finnleo-laava-9-2220-image",
       "finnleo-magma-9-2210-image",
-      "finnleo-saga-22-9053-627-image"
+      "finnleo-saga-22-9053-627-image",
+      "harvia-legend-sauna-virta-11kw-image",
+      "harvia-solide-compact-vision-image",
+      "harvia-solide-compact-image",
+      "harvia-variant-view-s1620sv-image",
+      "harvia-variant-s1515l-image",
+      "harvia-polaris-large-image",
+      "harvia-solide-s2119ld-image",
+      "harvia-block-right-medium-image",
+      "harvia-alaska-view-image",
+      "harvia-fenix-1620s-image",
+      "harvia-ventura-image",
+      "harvia-concept-r-105-image",
+      "harvia-virta-wall-hlw90e-image",
+      "harvia-legend-po70fc-image"
     ]
   },
   "file_hashes": [
@@ -689,19 +731,19 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "74d094661f52b601731d9498f363cef175149c5ce453b9b788eaa8958fb2760a"
+      "sha256": "3a06bde26b1d9f747aa2da76d4b741192078a98d70907dd8cf0af49c50d8e32b"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "6a6f27dc8c73274e6a860a49e931f6431f199f240adcee357d67d58c3c722741"
+      "sha256": "f0edb2d55d0efcd16c68ccc1829771a660877092a71ce2379992de3a2562e377"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "64ef58b54704199cea29f663b4f5d4699b5f28c02ca3201f4543acc0b735ca28"
+      "sha256": "9704d1803bd47820a242ad3ea702c15e987d605c2a3a80664eb385b6a3c9cda2"
     },
     {
       "path": "data/us/merchants.json",
-      "sha256": "5905a9d7921809d81ce22432389456267382dc56d9d937d951b542e0fb747175"
+      "sha256": "61c7fa7855d94fcb9803d7c200f5f0aba181e7550127e3fdfccc3733dd5af79e"
     },
     {
       "path": "data/us/programs.json",
@@ -745,7 +787,7 @@
     },
     {
       "path": "docs/us/rights-register.json",
-      "sha256": "a7b57eb155064d528d7bc2b0e71f96b2a7f275dac325e7a6bd8d31aeb67d92e5"
+      "sha256": "ad01ec708cd9135b52dfa9018bf846af61896e01c048639cacd57eebc0d9de22"
     }
   ],
   "blocking_conditions": [

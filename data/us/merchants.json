@@ -101,6 +101,16 @@
         "www.finnleo.com"
       ],
       "status": "candidate"
+    },
+    {
+      "id": "harvia",
+      "market": "US",
+      "name": "Harvia",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "www.harvia.com"
+      ],
+      "status": "candidate"
     }
   ]
 }
