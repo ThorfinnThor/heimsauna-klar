@@ -73,7 +73,7 @@ test("a structured comparison deterministically selects the ten documented indoo
     products: [...productsDocument.products].reverse(),
     configurations: [...configurationsDocument.configurations].reverse(),
   });
-  assert.deepEqual(selected.map((entry) => entry.product.id), ["jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-everest", "peak-fuji", "sun-home-eclipse-2", "sun-home-equinox", "sunray-aspen", "sunray-evansport", "sunray-sedona"]);
+  assert.deepEqual(selected.map((entry) => entry.product.id), ["jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-everest", "peak-fuji", "salus-element", "salus-laurel-king", "sun-home-eclipse-2", "sun-home-equinox", "sunray-aspen", "sunray-evansport", "sunray-sedona"]);
 });
 
 test("a public comparison only exposes published records", () => {

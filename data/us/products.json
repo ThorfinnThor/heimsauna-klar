@@ -13189,6 +13189,454 @@
       "spec_checked_at": "2026-09-18",
       "next_review_at": "2026-12-18",
       "change_reason": "Added from an exact official SunRay US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "salus-laurel-king",
+      "market": "US",
+      "slug": "salus-laurel-king",
+      "brand_name": "Salus Saunas",
+      "model": "Laurel King Far Infrared Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-salus-laurel-king-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-salus-laurel-king-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-salus-laurel-king-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-salus-laurel-king-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor far-infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-salus-laurel-king-product"
+        ]
+      },
+      "configuration_ids": [
+        "salus-laurel-king-standard"
+      ],
+      "source_ids": [
+        "source-salus-laurel-king-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "salus-element",
+      "market": "US",
+      "slug": "salus-element",
+      "brand_name": "Salus Saunas",
+      "model": "Element 2-Person Full-Spectrum Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-salus-element-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-salus-element-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-salus-element-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-salus-element-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor full-spectrum infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-salus-element-product"
+        ]
+      },
+      "configuration_ids": [
+        "salus-element-standard"
+      ],
+      "source_ids": [
+        "source-salus-element-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "salus-ally",
+      "market": "US",
+      "slug": "salus-ally",
+      "brand_name": "Salus Saunas",
+      "model": "Ally 2-Person Traditional Indoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-salus-ally-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-salus-ally-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-salus-ally-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-salus-ally-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna cabin",
+        "evidence_ids": [
+          "evidence-salus-ally-product"
+        ]
+      },
+      "configuration_ids": [
+        "salus-ally-standard"
+      ],
+      "source_ids": [
+        "source-salus-ally-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "salus-monarch-king",
+      "market": "US",
+      "slug": "salus-monarch-king",
+      "brand_name": "Salus Saunas",
+      "model": "Monarch King 4-Person Traditional Outdoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-salus-monarch-king-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-salus-monarch-king-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-salus-monarch-king-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-salus-monarch-king-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor traditional cabin sauna",
+        "evidence_ids": [
+          "evidence-salus-monarch-king-product"
+        ]
+      },
+      "configuration_ids": [
+        "salus-monarch-king-standard"
+      ],
+      "source_ids": [
+        "source-salus-monarch-king-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "salus-governor-king",
+      "market": "US",
+      "slug": "salus-governor-king",
+      "brand_name": "Salus Saunas",
+      "model": "Governor King 4-Person Traditional Outdoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-salus-governor-king-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-salus-governor-king-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-salus-governor-king-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-salus-governor-king-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor traditional cabin sauna",
+        "evidence_ids": [
+          "evidence-salus-governor-king-product"
+        ]
+      },
+      "configuration_ids": [
+        "salus-governor-king-standard"
+      ],
+      "source_ids": [
+        "source-salus-governor-king-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "salus-nordic-ii",
+      "market": "US",
+      "slug": "salus-nordic-ii",
+      "brand_name": "Salus Saunas",
+      "model": "Nordic II 3-Person Traditional Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-salus-nordic-ii-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-salus-nordic-ii-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-salus-nordic-ii-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-salus-nordic-ii-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor traditional barrel sauna",
+        "evidence_ids": [
+          "evidence-salus-nordic-ii-product"
+        ]
+      },
+      "configuration_ids": [
+        "salus-nordic-ii-standard"
+      ],
+      "source_ids": [
+        "source-salus-nordic-ii-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "salus-renew-king",
+      "market": "US",
+      "slug": "salus-renew-king",
+      "brand_name": "Salus Saunas",
+      "model": "Renew King 3-Person Hybrid Outdoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-salus-renew-king-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-salus-renew-king-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-salus-renew-king-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-salus-renew-king-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor hybrid infrared and traditional sauna cabin",
+        "evidence_ids": [
+          "evidence-salus-renew-king-product"
+        ]
+      },
+      "configuration_ids": [
+        "salus-renew-king-standard"
+      ],
+      "source_ids": [
+        "source-salus-renew-king-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "salus-deluxe-panorama",
+      "market": "US",
+      "slug": "salus-deluxe-panorama",
+      "brand_name": "Salus Saunas",
+      "model": "Deluxe Panorama 6-Person Traditional Outdoor Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-salus-deluxe-panorama-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-salus-deluxe-panorama-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-salus-deluxe-panorama-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-salus-deluxe-panorama-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor traditional glass cabin sauna",
+        "evidence_ids": [
+          "evidence-salus-deluxe-panorama-product"
+        ]
+      },
+      "configuration_ids": [
+        "salus-deluxe-panorama-standard"
+      ],
+      "source_ids": [
+        "source-salus-deluxe-panorama-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
     }
   ]
 }

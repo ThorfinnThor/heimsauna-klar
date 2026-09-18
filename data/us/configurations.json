@@ -33957,6 +33957,1562 @@
         "source-sunray-grandby-product"
       ],
       "publication_status": "candidate"
+    },
+    {
+      "id": "salus-laurel-king-standard",
+      "market": "US",
+      "product_id": "salus-laurel-king",
+      "label": "Laurel King Far Infrared Indoor Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-salus-laurel-king-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 46,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 40,
+              "unit": "in"
+            },
+            "height": {
+              "value": 78,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-laurel-king-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 40,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 35,
+              "unit": "in"
+            },
+            "height": {
+              "value": 67,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-laurel-king-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Natural untreated hemlock"
+        ],
+        "evidence_ids": [
+          "evidence-salus-laurel-king-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "salus-laurel-king-standard-component-1",
+          "component_type": "infrared-system",
+          "name": "Six carbon far-infrared heating elements",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-laurel-king-product"
+          ]
+        },
+        {
+          "id": "salus-laurel-king-standard-component-2",
+          "component_type": "lighting",
+          "name": "Chromotherapy and red-light feature",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-laurel-king-product"
+          ]
+        },
+        {
+          "id": "salus-laurel-king-standard-component-3",
+          "component_type": "other",
+          "name": "Bluetooth and auxiliary audio",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-laurel-king-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "salus-laurel-king-standard-electrical",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-salus-laurel-king-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-salus-laurel-king-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-salus-laurel-king-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-salus-laurel-king-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-salus-laurel-king-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": false,
+                "evidence_ids": [
+                  "evidence-salus-laurel-king-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-salus-laurel-king-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-salus-laurel-king-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "salus-element-standard",
+      "market": "US",
+      "product_id": "salus-element",
+      "label": "Element 2-Person Full-Spectrum Infrared Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-salus-element-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 47,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 41,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-element-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 43,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 36,
+              "unit": "in"
+            },
+            "height": {
+              "value": 68,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-element-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Reforested Canadian hemlock"
+        ],
+        "evidence_ids": [
+          "evidence-salus-element-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "salus-element-standard-component-1",
+          "component_type": "infrared-system",
+          "name": "Three PureTech near-zero EMF panels",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-element-product"
+          ]
+        },
+        {
+          "id": "salus-element-standard-component-2",
+          "component_type": "infrared-system",
+          "name": "Three near-infrared red-light emitters",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-element-product"
+          ]
+        },
+        {
+          "id": "salus-element-standard-component-3",
+          "component_type": "lighting",
+          "name": "Chromotherapy and red-light feature",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-element-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "salus-element-standard-electrical",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-salus-element-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-salus-element-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-salus-element-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-salus-element-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-salus-element-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": false,
+                "evidence_ids": [
+                  "evidence-salus-element-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-salus-element-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-salus-element-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "salus-ally-standard",
+      "market": "US",
+      "product_id": "salus-ally",
+      "label": "Ally 2-Person Traditional Indoor Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-salus-ally-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 60,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 46,
+              "unit": "in"
+            },
+            "height": {
+              "value": 83,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-ally-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 56,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 38,
+              "unit": "in"
+            },
+            "height": {
+              "value": 78,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-ally-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Pacific clear cedar",
+          "Red cedar benches"
+        ],
+        "evidence_ids": [
+          "evidence-salus-ally-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "salus-ally-standard-component-1",
+          "component_type": "heater",
+          "name": "Harvia KIP 6 kW sauna stove",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-ally-product"
+          ]
+        },
+        {
+          "id": "salus-ally-standard-component-2",
+          "component_type": "other",
+          "name": "Tempered glass front and door",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-ally-product"
+          ]
+        },
+        {
+          "id": "salus-ally-standard-component-3",
+          "component_type": "controls",
+          "name": "Touchscreen, FM and Bluetooth controls",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-ally-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "salus-ally-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-salus-ally-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-salus-ally-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-salus-ally-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-salus-ally-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-salus-ally-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-salus-ally-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-salus-ally-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-salus-ally-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-salus-ally-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "salus-monarch-king-standard",
+      "market": "US",
+      "product_id": "salus-monarch-king",
+      "label": "Monarch King 4-Person Traditional Outdoor Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-salus-monarch-king-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 81,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 69,
+              "unit": "in"
+            },
+            "height": {
+              "value": 84,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-monarch-king-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 76,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 64,
+              "unit": "in"
+            },
+            "height": {
+              "value": 79,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-monarch-king-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermally modified pine",
+          "Alder benches"
+        ],
+        "evidence_ids": [
+          "evidence-salus-monarch-king-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "salus-monarch-king-standard-component-1",
+          "component_type": "heater",
+          "name": "Electric heater package",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-monarch-king-product"
+          ]
+        },
+        {
+          "id": "salus-monarch-king-standard-component-2",
+          "component_type": "other",
+          "name": "Thermally modified pine cabin",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-monarch-king-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "salus-monarch-king-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-salus-monarch-king-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-salus-monarch-king-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-salus-monarch-king-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-salus-monarch-king-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-salus-monarch-king-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-salus-monarch-king-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-salus-monarch-king-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-salus-monarch-king-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "salus-governor-king-standard",
+      "market": "US",
+      "product_id": "salus-governor-king",
+      "label": "Governor King 4-Person Traditional Outdoor Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-salus-governor-king-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 81,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 87,
+              "unit": "in"
+            },
+            "height": {
+              "value": 83,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-governor-king-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 78,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 78,
+              "unit": "in"
+            },
+            "height": {
+              "value": 77,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-governor-king-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermally modified pine",
+          "Alder benches"
+        ],
+        "evidence_ids": [
+          "evidence-salus-governor-king-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "salus-governor-king-standard-component-1",
+          "component_type": "heater",
+          "name": "Electric heater package",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-governor-king-product"
+          ]
+        },
+        {
+          "id": "salus-governor-king-standard-component-2",
+          "component_type": "other",
+          "name": "Thermally modified pine cabin",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-governor-king-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "salus-governor-king-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-salus-governor-king-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-salus-governor-king-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-salus-governor-king-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-salus-governor-king-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-salus-governor-king-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-salus-governor-king-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-salus-governor-king-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-salus-governor-king-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "salus-nordic-ii-standard",
+      "market": "US",
+      "product_id": "salus-nordic-ii",
+      "label": "Nordic II 3-Person Traditional Barrel Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-salus-nordic-ii-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 81,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 63,
+              "unit": "in"
+            },
+            "height": {
+              "value": 85,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-nordic-ii-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 78,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 55,
+              "unit": "in"
+            },
+            "height": {
+              "value": 78,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-nordic-ii-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermally modified pine",
+          "Alder benches"
+        ],
+        "evidence_ids": [
+          "evidence-salus-nordic-ii-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "salus-nordic-ii-standard-component-1",
+          "component_type": "heater",
+          "name": "Electric or wood-burning heater options",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-nordic-ii-product"
+          ]
+        },
+        {
+          "id": "salus-nordic-ii-standard-component-2",
+          "component_type": "other",
+          "name": "Barrel stave construction",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-nordic-ii-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "salus-nordic-ii-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-salus-nordic-ii-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-salus-nordic-ii-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-salus-nordic-ii-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-salus-nordic-ii-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-salus-nordic-ii-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-salus-nordic-ii-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-salus-nordic-ii-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-salus-nordic-ii-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "salus-renew-king-standard",
+      "market": "US",
+      "product_id": "salus-renew-king",
+      "label": "Renew King 3-Person Hybrid Outdoor Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-salus-renew-king-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 79.2,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 70.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 87.8,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-renew-king-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 53.4,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-renew-king-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "All-weather exterior",
+          "Canadian red cedar interior"
+        ],
+        "evidence_ids": [
+          "evidence-salus-renew-king-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "salus-renew-king-standard-component-1",
+          "component_type": "heater",
+          "name": "Harvia 6 kW traditional stove",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-renew-king-product"
+          ]
+        },
+        {
+          "id": "salus-renew-king-standard-component-2",
+          "component_type": "infrared-system",
+          "name": "Nine full-spectrum infrared emitters",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-renew-king-product"
+          ]
+        },
+        {
+          "id": "salus-renew-king-standard-component-3",
+          "component_type": "controls",
+          "name": "Chromotherapy and Bluetooth controls",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-renew-king-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "salus-renew-king-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-salus-renew-king-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 8000,
+                "evidence_ids": [
+                  "evidence-salus-renew-king-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-salus-renew-king-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-salus-renew-king-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-salus-renew-king-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-salus-renew-king-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-salus-renew-king-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-salus-renew-king-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-salus-renew-king-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "salus-deluxe-panorama-standard",
+      "market": "US",
+      "product_id": "salus-deluxe-panorama",
+      "label": "Deluxe Panorama 6-Person Traditional Outdoor Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 6,
+          "evidence_ids": [
+            "evidence-salus-deluxe-panorama-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 92,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 71,
+              "unit": "in"
+            },
+            "height": {
+              "value": 84,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-deluxe-panorama-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 89,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 68,
+              "unit": "in"
+            },
+            "height": {
+              "value": 78,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-salus-deluxe-panorama-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermally modified aspen benches",
+          "Glass cabin"
+        ],
+        "evidence_ids": [
+          "evidence-salus-deluxe-panorama-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "salus-deluxe-panorama-standard-component-1",
+          "component_type": "heater",
+          "name": "15 kW electric heater option",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-deluxe-panorama-product"
+          ]
+        },
+        {
+          "id": "salus-deluxe-panorama-standard-component-2",
+          "component_type": "heater",
+          "name": "Wood-burning stove option",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-deluxe-panorama-product"
+          ]
+        },
+        {
+          "id": "salus-deluxe-panorama-standard-component-3",
+          "component_type": "other",
+          "name": "Sloped roof",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-salus-deluxe-panorama-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "salus-deluxe-panorama-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-salus-deluxe-panorama-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 15000,
+                "evidence_ids": [
+                  "evidence-salus-deluxe-panorama-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 100,
+                "evidence_ids": [
+                  "evidence-salus-deluxe-panorama-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 100,
+                "evidence_ids": [
+                  "evidence-salus-deluxe-panorama-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 100,
+                "evidence_ids": [
+                  "evidence-salus-deluxe-panorama-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-salus-deluxe-panorama-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-salus-deluxe-panorama-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-salus-deluxe-panorama-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-salus-deluxe-panorama-product"
+      ],
+      "publication_status": "candidate"
     }
   ],
   "certifications": [],

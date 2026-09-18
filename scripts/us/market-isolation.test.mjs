@@ -33,9 +33,9 @@ test("currency output follows the selected market", () => {
 
 test("the public US release exposes the reviewed first wave and approved offers", () => {
   assert.deepEqual(getEnabledMarkets().map((market) => market.code), ["DE", "US"]);
-  assert.equal(getUsResearchProducts().length, 255);
+  assert.equal(getUsResearchProducts().length, 263);
   assert.equal(getUsPublicProducts().length, 28);
   assert.equal(getUsPublicConfigurations().length, 28);
   assert.equal(getUsPublicOffers().length, 17);
-  assert.deepEqual(getUsResearchStats(), { products: 255, configurations: 255, offers: 17, publicProducts: 28 });
+  assert.deepEqual(getUsResearchStats(), { products: 263, configurations: 263, offers: 17, publicProducts: 28 });
 });

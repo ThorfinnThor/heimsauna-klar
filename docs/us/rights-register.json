@@ -2554,6 +2554,86 @@
       "rights_status": "not-requested",
       "permission_basis": "none",
       "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "salus-laurel-king-image",
+      "entity_id": "salus-laurel-king",
+      "merchant_id": "salus-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.salussaunas.com/products/laurel-king-2-person-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "salus-element-image",
+      "entity_id": "salus-element",
+      "merchant_id": "salus-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.salussaunas.com/products/element-2-person-full-spectrum-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "salus-ally-image",
+      "entity_id": "salus-ally",
+      "merchant_id": "salus-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.salussaunas.com/products/ally-2-person-traditional-indoor-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "salus-monarch-king-image",
+      "entity_id": "salus-monarch-king",
+      "merchant_id": "salus-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.salussaunas.com/products/monarch-king",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "salus-governor-king-image",
+      "entity_id": "salus-governor-king",
+      "merchant_id": "salus-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.salussaunas.com/products/governor-king",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "salus-nordic-ii-image",
+      "entity_id": "salus-nordic-ii",
+      "merchant_id": "salus-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.salussaunas.com/products/nordic-ii-3-person-barrel-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "salus-renew-king-image",
+      "entity_id": "salus-renew-king",
+      "merchant_id": "salus-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.salussaunas.com/products/renew-king",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "salus-deluxe-panorama-image",
+      "entity_id": "salus-deluxe-panorama",
+      "merchant_id": "salus-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.salussaunas.com/products/deluxe-panorama-outdoor-6-person-glass-cabin-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
     }
   ]
 }

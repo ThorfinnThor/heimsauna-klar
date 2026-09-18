@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 227 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 235 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -271,7 +271,15 @@
       "sunray-evansport",
       "sunray-aspen",
       "sunray-cayenne",
-      "sunray-grandby"
+      "sunray-grandby",
+      "salus-laurel-king",
+      "salus-element",
+      "salus-ally",
+      "salus-monarch-king",
+      "salus-governor-king",
+      "salus-nordic-ii",
+      "salus-renew-king",
+      "salus-deluxe-panorama"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -528,7 +536,15 @@
       "sunray-evansport-standard",
       "sunray-aspen-standard",
       "sunray-cayenne-standard",
-      "sunray-grandby-standard"
+      "sunray-grandby-standard",
+      "salus-laurel-king-standard",
+      "salus-element-standard",
+      "salus-ally-standard",
+      "salus-monarch-king-standard",
+      "salus-governor-king-standard",
+      "salus-nordic-ii-standard",
+      "salus-renew-king-standard",
+      "salus-deluxe-panorama-standard"
     ],
     "offer_ids": [
       "offer-sweat-kingdom-sweat-cabin",
@@ -549,8 +565,8 @@
       "offer-sweat-kingdom-regen-sweat-cabin-deluxe",
       "offer-sweat-kingdom-regen-sweat-pod"
     ],
-    "source_count": 278,
-    "evidence_count": 536,
+    "source_count": 286,
+    "evidence_count": 560,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -850,7 +866,15 @@
       "sunray-evansport-image",
       "sunray-aspen-image",
       "sunray-cayenne-image",
-      "sunray-grandby-image"
+      "sunray-grandby-image",
+      "salus-laurel-king-image",
+      "salus-element-image",
+      "salus-ally-image",
+      "salus-monarch-king-image",
+      "salus-governor-king-image",
+      "salus-nordic-ii-image",
+      "salus-renew-king-image",
+      "salus-deluxe-panorama-image"
     ]
   },
   "file_hashes": [
@@ -860,19 +884,19 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "fddf24a1ff1a4aa864e0792e0f80f41dc15e1cb2b0fe3798f73e861ddfdb78bd"
+      "sha256": "b785109f230a75d493b4bc5071ee0b31ceb7d5bb78accbac580ec0f72c7e7e51"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "09e1bc342cdab25c15f2311a90f7f71ed36da19c3ba318397166f83421089a33"
+      "sha256": "b71c7381b2f9b7756c1de7bd843167ee378607083f65c59f5f752344219247f2"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "51a843830111f2c0f084ca07856c2ca918fadade1d762c7243884d042e351dfe"
+      "sha256": "707ba3dd33eca5f49486239872f0e6b89617628015803dce6a21b6c3ac8d63f0"
     },
     {
       "path": "data/us/merchants.json",
-      "sha256": "9c5e14fa6ba165fd9ad38712bd5d0ca70dfdfe1f83c7a6679a03905cbf9241fd"
+      "sha256": "414feba63f2362c4503fcd84823ed087b594dc8031d54c8a1f23ec79917eb1ba"
     },
     {
       "path": "data/us/programs.json",
@@ -916,7 +940,7 @@
     },
     {
       "path": "docs/us/rights-register.json",
-      "sha256": "d464b97d12557842b665e8094b3a6f6e03c0300a9acefcb6079e118ddadc4395"
+      "sha256": "e71501e9db41d5c1cb21cf213aa1587f8c9add5a47ab6329bd81bcbd206df3d1"
     }
   ],
   "blocking_conditions": [

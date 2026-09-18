@@ -141,6 +141,16 @@
         "sunraysaunas.com"
       ],
       "status": "candidate"
+    },
+    {
+      "id": "salus-saunas",
+      "market": "US",
+      "name": "Salus Saunas",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "salussaunas.com"
+      ],
+      "status": "candidate"
     }
   ]
 }
