@@ -13637,6 +13637,571 @@
       "spec_checked_at": "2026-09-18",
       "next_review_at": "2026-12-18",
       "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "tylo-reflection-4",
+      "market": "US",
+      "slug": "tylo-reflection-4",
+      "brand_name": "Tylo",
+      "model": "Reflection 4",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-tylo-reflection-4-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-tylo-reflection-4-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-reflection-4-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-reflection-4-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna cabin",
+        "evidence_ids": [
+          "evidence-tylo-reflection-4-product"
+        ]
+      },
+      "configuration_ids": [
+        "tylo-reflection-4-standard"
+      ],
+      "source_ids": [
+        "source-tylo-reflection-4-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "tylo-reflection-3",
+      "market": "US",
+      "slug": "tylo-reflection-3",
+      "brand_name": "Tylo",
+      "model": "Reflection 3",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-tylo-reflection-3-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-tylo-reflection-3-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-reflection-3-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-reflection-3-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna cabin",
+        "evidence_ids": [
+          "evidence-tylo-reflection-3-product"
+        ]
+      },
+      "configuration_ids": [
+        "tylo-reflection-3-standard"
+      ],
+      "source_ids": [
+        "source-tylo-reflection-3-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "tylo-halmstad-4",
+      "market": "US",
+      "slug": "tylo-halmstad-4",
+      "brand_name": "Tylo",
+      "model": "Halmstad 4",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-tylo-halmstad-4-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-tylo-halmstad-4-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-halmstad-4-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-halmstad-4-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor traditional sauna cabin",
+        "evidence_ids": [
+          "evidence-tylo-halmstad-4-product"
+        ]
+      },
+      "configuration_ids": [
+        "tylo-halmstad-4-standard"
+      ],
+      "source_ids": [
+        "source-tylo-halmstad-4-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "tylo-lulea-4",
+      "market": "US",
+      "slug": "tylo-lulea-4",
+      "brand_name": "Tylo",
+      "model": "Lulea 4",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-tylo-lulea-4-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-tylo-lulea-4-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-lulea-4-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-lulea-4-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor traditional sauna cabin",
+        "evidence_ids": [
+          "evidence-tylo-lulea-4-product"
+        ]
+      },
+      "configuration_ids": [
+        "tylo-lulea-4-standard"
+      ],
+      "source_ids": [
+        "source-tylo-lulea-4-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "tylo-kiruna-2",
+      "market": "US",
+      "slug": "tylo-kiruna-2",
+      "brand_name": "Tylo",
+      "model": "Kiruna 2",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-tylo-kiruna-2-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-tylo-kiruna-2-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-kiruna-2-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-kiruna-2-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-tylo-kiruna-2-product"
+        ]
+      },
+      "configuration_ids": [
+        "tylo-kiruna-2-standard"
+      ],
+      "source_ids": [
+        "source-tylo-kiruna-2-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "geyser-hekla",
+      "market": "US",
+      "slug": "geyser-hekla",
+      "brand_name": "GeyserSteam",
+      "model": "Hekla",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-geyser-hekla-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-geyser-hekla-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-hekla-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-hekla-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor/outdoor hybrid traditional and infrared cabin",
+        "evidence_ids": [
+          "evidence-geyser-hekla-product"
+        ]
+      },
+      "configuration_ids": [
+        "geyser-hekla-standard"
+      ],
+      "source_ids": [
+        "source-geyser-hekla-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "geyser-lukaku",
+      "market": "US",
+      "slug": "geyser-lukaku",
+      "brand_name": "GeyserSteam",
+      "model": "Lukaku",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-geyser-lukaku-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-geyser-lukaku-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-lukaku-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-lukaku-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor/outdoor hybrid traditional and infrared cabin",
+        "evidence_ids": [
+          "evidence-geyser-lukaku-product"
+        ]
+      },
+      "configuration_ids": [
+        "geyser-lukaku-standard"
+      ],
+      "source_ids": [
+        "source-geyser-lukaku-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "geyser-autana",
+      "market": "US",
+      "slug": "geyser-autana",
+      "brand_name": "GeyserSteam",
+      "model": "Autana",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-geyser-autana-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-geyser-autana-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-autana-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-autana-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor/outdoor hybrid traditional and infrared cabin",
+        "evidence_ids": [
+          "evidence-geyser-autana-product"
+        ]
+      },
+      "configuration_ids": [
+        "geyser-autana-standard"
+      ],
+      "source_ids": [
+        "source-geyser-autana-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "geyser-valera",
+      "market": "US",
+      "slug": "geyser-valera",
+      "brand_name": "GeyserSteam",
+      "model": "Valera",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-geyser-valera-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-geyser-valera-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-valera-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-valera-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor/outdoor hybrid traditional and infrared cabin",
+        "evidence_ids": [
+          "evidence-geyser-valera-product"
+        ]
+      },
+      "configuration_ids": [
+        "geyser-valera-standard"
+      ],
+      "source_ids": [
+        "source-geyser-valera-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "geyser-balerion",
+      "market": "US",
+      "slug": "geyser-balerion",
+      "brand_name": "GeyserSteam",
+      "model": "Balerion",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-geyser-balerion-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-geyser-balerion-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-balerion-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-balerion-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor/outdoor full-spectrum infrared cabin",
+        "evidence_ids": [
+          "evidence-geyser-balerion-product"
+        ]
+      },
+      "configuration_ids": [
+        "geyser-balerion-standard"
+      ],
+      "source_ids": [
+        "source-geyser-balerion-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
     }
   ]
 }

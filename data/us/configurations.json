@@ -35513,6 +35513,1793 @@
         "source-salus-deluxe-panorama-product"
       ],
       "publication_status": "candidate"
+    },
+    {
+      "id": "tylo-reflection-4-standard",
+      "market": "US",
+      "product_id": "tylo-reflection-4",
+      "label": "Reflection 4 documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-tylo-reflection-4-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 89,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 79,
+              "unit": "in"
+            },
+            "height": {
+              "value": 87,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-tylo-reflection-4-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Aspen",
+          "Smoked tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-reflection-4-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "tylo-reflection-4-standard-component-1",
+          "component_type": "heater",
+          "name": "Crown 8 heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-reflection-4-product"
+          ]
+        },
+        {
+          "id": "tylo-reflection-4-standard-component-2",
+          "component_type": "controls",
+          "name": "Bliss controls and Tylo app",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-reflection-4-product"
+          ]
+        },
+        {
+          "id": "tylo-reflection-4-standard-component-3",
+          "component_type": "other",
+          "name": "Bluetooth sound and chromotherapy",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-reflection-4-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "tylo-reflection-4-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-tylo-reflection-4-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 8000,
+                "evidence_ids": [
+                  "evidence-tylo-reflection-4-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated on the reviewed product page."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated on the reviewed product page."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-tylo-reflection-4-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-tylo-reflection-4-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "tylo-reflection-3-standard",
+      "market": "US",
+      "product_id": "tylo-reflection-3",
+      "label": "Reflection 3 documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-tylo-reflection-3-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 71,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 79,
+              "unit": "in"
+            },
+            "height": {
+              "value": 87,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-tylo-reflection-3-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Aspen",
+          "Smoked tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-reflection-3-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "tylo-reflection-3-standard-component-1",
+          "component_type": "heater",
+          "name": "Crown 8 heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-reflection-3-product"
+          ]
+        },
+        {
+          "id": "tylo-reflection-3-standard-component-2",
+          "component_type": "controls",
+          "name": "Bliss controls and Tylo app",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-reflection-3-product"
+          ]
+        },
+        {
+          "id": "tylo-reflection-3-standard-component-3",
+          "component_type": "other",
+          "name": "Bluetooth sound and chromotherapy",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-reflection-3-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "tylo-reflection-3-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-tylo-reflection-3-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 8000,
+                "evidence_ids": [
+                  "evidence-tylo-reflection-3-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated on the reviewed product page."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated on the reviewed product page."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-tylo-reflection-3-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-tylo-reflection-3-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "tylo-halmstad-4-standard",
+      "market": "US",
+      "product_id": "tylo-halmstad-4",
+      "label": "Halmstad 4 documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-tylo-halmstad-4-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 86,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 62,
+              "unit": "in"
+            },
+            "height": {
+              "value": 81,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-tylo-halmstad-4-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Clear hemlock",
+          "Clear tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-halmstad-4-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "tylo-halmstad-4-standard-component-1",
+          "component_type": "heater",
+          "name": "Sense Bliss 6 heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-halmstad-4-product"
+          ]
+        },
+        {
+          "id": "tylo-halmstad-4-standard-component-2",
+          "component_type": "controls",
+          "name": "Bliss controls and Tylo app",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-halmstad-4-product"
+          ]
+        },
+        {
+          "id": "tylo-halmstad-4-standard-component-3",
+          "component_type": "other",
+          "name": "Bluetooth sound and chromotherapy",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-halmstad-4-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "tylo-halmstad-4-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-tylo-halmstad-4-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 25,
+                "evidence_ids": [
+                  "evidence-tylo-halmstad-4-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 25,
+                "evidence_ids": [
+                  "evidence-tylo-halmstad-4-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 25,
+                "evidence_ids": [
+                  "evidence-tylo-halmstad-4-electrical"
+                ]
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated on the reviewed product page."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-tylo-halmstad-4-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-tylo-halmstad-4-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "tylo-lulea-4-standard",
+      "market": "US",
+      "product_id": "tylo-lulea-4",
+      "label": "Lulea 4 documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-tylo-lulea-4-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 86,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 61,
+              "unit": "in"
+            },
+            "height": {
+              "value": 94,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-tylo-lulea-4-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Clear hemlock",
+          "Tinted tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-lulea-4-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "tylo-lulea-4-standard-component-1",
+          "component_type": "heater",
+          "name": "Sense Bliss 8 heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-lulea-4-product"
+          ]
+        },
+        {
+          "id": "tylo-lulea-4-standard-component-2",
+          "component_type": "controls",
+          "name": "Bliss controls and Tylo app",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-lulea-4-product"
+          ]
+        },
+        {
+          "id": "tylo-lulea-4-standard-component-3",
+          "component_type": "other",
+          "name": "Bluetooth sound and chromotherapy",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-lulea-4-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "tylo-lulea-4-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-tylo-lulea-4-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 8000,
+                "evidence_ids": [
+                  "evidence-tylo-lulea-4-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 35,
+                "evidence_ids": [
+                  "evidence-tylo-lulea-4-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 35,
+                "evidence_ids": [
+                  "evidence-tylo-lulea-4-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 35,
+                "evidence_ids": [
+                  "evidence-tylo-lulea-4-electrical"
+                ]
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated on the reviewed product page."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-tylo-lulea-4-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-tylo-lulea-4-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "tylo-kiruna-2-standard",
+      "market": "US",
+      "product_id": "tylo-kiruna-2",
+      "label": "Kiruna 2 documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-tylo-kiruna-2-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 51,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 42,
+              "unit": "in"
+            },
+            "height": {
+              "value": 78,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-tylo-kiruna-2-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Clear hemlock",
+          "Tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-tylo-kiruna-2-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "tylo-kiruna-2-standard-component-1",
+          "component_type": "infrared-system",
+          "name": "CarbonFlex heating panels",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-kiruna-2-product"
+          ]
+        },
+        {
+          "id": "tylo-kiruna-2-standard-component-2",
+          "component_type": "controls",
+          "name": "Aspire controls and Tylo app",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-kiruna-2-product"
+          ]
+        },
+        {
+          "id": "tylo-kiruna-2-standard-component-3",
+          "component_type": "other",
+          "name": "Bluetooth sound and chromotherapy",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-kiruna-2-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "tylo-kiruna-2-standard-electrical",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-tylo-kiruna-2-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-tylo-kiruna-2-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-tylo-kiruna-2-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-tylo-kiruna-2-electrical"
+                ]
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "Connection type is not stated on the reviewed product page."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-tylo-kiruna-2-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-tylo-kiruna-2-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "geyser-hekla-standard",
+      "market": "US",
+      "product_id": "geyser-hekla",
+      "label": "Hekla documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-geyser-hekla-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 57,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 55,
+              "unit": "in"
+            },
+            "height": {
+              "value": 83,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-geyser-hekla-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Scandinavian thermo wood",
+          "Tempered glass",
+          "Aluminum frame"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-hekla-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "geyser-hekla-standard-component-1",
+          "component_type": "heater",
+          "name": "6 kW electric heater with lava rocks",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-hekla-product"
+          ]
+        },
+        {
+          "id": "geyser-hekla-standard-component-2",
+          "component_type": "infrared-system",
+          "name": "Optional infrared panels and red light",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-hekla-product"
+          ]
+        },
+        {
+          "id": "geyser-hekla-standard-component-3",
+          "component_type": "other",
+          "name": "Two-level benches",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-hekla-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "geyser-hekla-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 220,
+                "evidence_ids": [
+                  "evidence-geyser-hekla-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-geyser-hekla-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-geyser-hekla-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-geyser-hekla-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-geyser-hekla-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-geyser-hekla-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-geyser-hekla-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-geyser-hekla-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-geyser-hekla-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "geyser-lukaku-standard",
+      "market": "US",
+      "product_id": "geyser-lukaku",
+      "label": "Lukaku documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 8,
+          "evidence_ids": [
+            "evidence-geyser-lukaku-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 86,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 87,
+              "unit": "in"
+            },
+            "height": {
+              "value": 86,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-geyser-lukaku-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermo wood",
+          "Tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-lukaku-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "geyser-lukaku-standard-component-1",
+          "component_type": "heater",
+          "name": "13.5 kW Vevor heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-lukaku-product"
+          ]
+        },
+        {
+          "id": "geyser-lukaku-standard-component-2",
+          "component_type": "infrared-system",
+          "name": "Optional infrared add-on",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-lukaku-product"
+          ]
+        },
+        {
+          "id": "geyser-lukaku-standard-component-3",
+          "component_type": "other",
+          "name": "LED lighting and two-level benches",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-lukaku-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "geyser-lukaku-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-geyser-lukaku-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 13500,
+                "evidence_ids": [
+                  "evidence-geyser-lukaku-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 65,
+                "evidence_ids": [
+                  "evidence-geyser-lukaku-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 65,
+                "evidence_ids": [
+                  "evidence-geyser-lukaku-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 65,
+                "evidence_ids": [
+                  "evidence-geyser-lukaku-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-geyser-lukaku-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-geyser-lukaku-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-geyser-lukaku-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-geyser-lukaku-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "geyser-autana-standard",
+      "market": "US",
+      "product_id": "geyser-autana",
+      "label": "Autana documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 8,
+          "evidence_ids": [
+            "evidence-geyser-autana-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 86,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 87,
+              "unit": "in"
+            },
+            "height": {
+              "value": 86,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-geyser-autana-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermo wood",
+          "Tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-autana-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "geyser-autana-standard-component-1",
+          "component_type": "heater",
+          "name": "13.5 kW Vevor heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-autana-product"
+          ]
+        },
+        {
+          "id": "geyser-autana-standard-component-2",
+          "component_type": "infrared-system",
+          "name": "Optional infrared add-on",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-autana-product"
+          ]
+        },
+        {
+          "id": "geyser-autana-standard-component-3",
+          "component_type": "other",
+          "name": "LED lighting and floor kit",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-autana-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "geyser-autana-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-geyser-autana-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 13500,
+                "evidence_ids": [
+                  "evidence-geyser-autana-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 65,
+                "evidence_ids": [
+                  "evidence-geyser-autana-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 65,
+                "evidence_ids": [
+                  "evidence-geyser-autana-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 65,
+                "evidence_ids": [
+                  "evidence-geyser-autana-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-geyser-autana-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-geyser-autana-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-geyser-autana-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-geyser-autana-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "geyser-valera-standard",
+      "market": "US",
+      "product_id": "geyser-valera",
+      "label": "Valera documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-geyser-valera-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 86,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 60,
+              "unit": "in"
+            },
+            "height": {
+              "value": 86,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-geyser-valera-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermo wood",
+          "Tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-valera-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "geyser-valera-standard-component-1",
+          "component_type": "heater",
+          "name": "9 kW Vevor heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-valera-product"
+          ]
+        },
+        {
+          "id": "geyser-valera-standard-component-2",
+          "component_type": "infrared-system",
+          "name": "Optional infrared and red-light add-ons",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-valera-product"
+          ]
+        },
+        {
+          "id": "geyser-valera-standard-component-3",
+          "component_type": "other",
+          "name": "LED lighting and floor kit",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-valera-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "geyser-valera-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 220,
+                "evidence_ids": [
+                  "evidence-geyser-valera-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 9000,
+                "evidence_ids": [
+                  "evidence-geyser-valera-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-geyser-valera-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-geyser-valera-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 40,
+                "evidence_ids": [
+                  "evidence-geyser-valera-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-geyser-valera-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-geyser-valera-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-geyser-valera-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-geyser-valera-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "geyser-balerion-standard",
+      "market": "US",
+      "product_id": "geyser-balerion",
+      "label": "Balerion documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 8,
+          "evidence_ids": [
+            "evidence-geyser-balerion-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 86,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 87,
+              "unit": "in"
+            },
+            "height": {
+              "value": 86,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-geyser-balerion-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermo wood",
+          "Tempered glass"
+        ],
+        "evidence_ids": [
+          "evidence-geyser-balerion-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "geyser-balerion-standard-component-1",
+          "component_type": "infrared-system",
+          "name": "Full-spectrum infrared panels and rods",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-balerion-product"
+          ]
+        },
+        {
+          "id": "geyser-balerion-standard-component-2",
+          "component_type": "other",
+          "name": "LED lighting and two-level benches",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-balerion-product"
+          ]
+        },
+        {
+          "id": "geyser-balerion-standard-component-3",
+          "component_type": "other",
+          "name": "Ventilation openings",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-geyser-balerion-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "geyser-balerion-standard-electrical",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-geyser-balerion-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 5000,
+                "evidence_ids": [
+                  "evidence-geyser-balerion-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-geyser-balerion-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-geyser-balerion-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-geyser-balerion-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-geyser-balerion-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-geyser-balerion-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-geyser-balerion-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-geyser-balerion-product"
+      ],
+      "publication_status": "candidate"
     }
   ],
   "certifications": [],

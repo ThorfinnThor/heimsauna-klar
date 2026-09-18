@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 235 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 245 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -279,7 +279,17 @@
       "salus-governor-king",
       "salus-nordic-ii",
       "salus-renew-king",
-      "salus-deluxe-panorama"
+      "salus-deluxe-panorama",
+      "tylo-reflection-4",
+      "tylo-reflection-3",
+      "tylo-halmstad-4",
+      "tylo-lulea-4",
+      "tylo-kiruna-2",
+      "geyser-hekla",
+      "geyser-lukaku",
+      "geyser-autana",
+      "geyser-valera",
+      "geyser-balerion"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -544,7 +554,17 @@
       "salus-governor-king-standard",
       "salus-nordic-ii-standard",
       "salus-renew-king-standard",
-      "salus-deluxe-panorama-standard"
+      "salus-deluxe-panorama-standard",
+      "tylo-reflection-4-standard",
+      "tylo-reflection-3-standard",
+      "tylo-halmstad-4-standard",
+      "tylo-lulea-4-standard",
+      "tylo-kiruna-2-standard",
+      "geyser-hekla-standard",
+      "geyser-lukaku-standard",
+      "geyser-autana-standard",
+      "geyser-valera-standard",
+      "geyser-balerion-standard"
     ],
     "offer_ids": [
       "offer-sweat-kingdom-sweat-cabin",
@@ -565,8 +585,8 @@
       "offer-sweat-kingdom-regen-sweat-cabin-deluxe",
       "offer-sweat-kingdom-regen-sweat-pod"
     ],
-    "source_count": 286,
-    "evidence_count": 560,
+    "source_count": 296,
+    "evidence_count": 590,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -874,7 +894,17 @@
       "salus-governor-king-image",
       "salus-nordic-ii-image",
       "salus-renew-king-image",
-      "salus-deluxe-panorama-image"
+      "salus-deluxe-panorama-image",
+      "tylo-reflection-4-image",
+      "tylo-reflection-3-image",
+      "tylo-halmstad-4-image",
+      "tylo-lulea-4-image",
+      "tylo-kiruna-2-image",
+      "geyser-hekla-image",
+      "geyser-lukaku-image",
+      "geyser-autana-image",
+      "geyser-valera-image",
+      "geyser-balerion-image"
     ]
   },
   "file_hashes": [
@@ -884,19 +914,19 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "b785109f230a75d493b4bc5071ee0b31ceb7d5bb78accbac580ec0f72c7e7e51"
+      "sha256": "d54e89fa5d14b36bbc43f7353d3aff3049242bd3107b4007231e1f5172a5118d"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "b71c7381b2f9b7756c1de7bd843167ee378607083f65c59f5f752344219247f2"
+      "sha256": "3a0d476bda2752711eebddc35ec4e58cd1cc287aa9deb4f9c9d1b6522675cb36"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "707ba3dd33eca5f49486239872f0e6b89617628015803dce6a21b6c3ac8d63f0"
+      "sha256": "7c21ea6632b5e1b645f4db51075e055e7182bd27a835392e8a57f0bc02345510"
     },
     {
       "path": "data/us/merchants.json",
-      "sha256": "414feba63f2362c4503fcd84823ed087b594dc8031d54c8a1f23ec79917eb1ba"
+      "sha256": "86f3d1ba078f3bc687b13bf36a4308dfd7d126ce31a6dfa3e8ba489056781949"
     },
     {
       "path": "data/us/programs.json",
@@ -940,7 +970,7 @@
     },
     {
       "path": "docs/us/rights-register.json",
-      "sha256": "e71501e9db41d5c1cb21cf213aa1587f8c9add5a47ab6329bd81bcbd206df3d1"
+      "sha256": "517bba00bb40e36fd8e651765ae06f873561e181273f1d5b59f3491b8f5f2149"
     }
   ],
   "blocking_conditions": [

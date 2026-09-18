@@ -151,6 +151,26 @@
         "salussaunas.com"
       ],
       "status": "candidate"
+    },
+    {
+      "id": "tylo",
+      "market": "US",
+      "name": "Tylo",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "tylo.com"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "geysersteam",
+      "market": "US",
+      "name": "GeyserSteam",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "geysersteamroom.com"
+      ],
+      "status": "candidate"
     }
   ]
 }

@@ -2634,6 +2634,106 @@
       "rights_status": "not-requested",
       "permission_basis": "none",
       "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "tylo-reflection-4-image",
+      "entity_id": "tylo-reflection-4",
+      "merchant_id": "tylo",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://tylo.com/products/reflection-collection/reflection-4/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "tylo-reflection-3-image",
+      "entity_id": "tylo-reflection-3",
+      "merchant_id": "tylo",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://tylo.com/products/reflection-collection/reflection-3/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "tylo-halmstad-4-image",
+      "entity_id": "tylo-halmstad-4",
+      "merchant_id": "tylo",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://tylo.com/products/halmstad-collection/halmstad-4/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "tylo-lulea-4-image",
+      "entity_id": "tylo-lulea-4",
+      "merchant_id": "tylo",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://tylo.com/products/lulea-collection/lulea-4/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "tylo-kiruna-2-image",
+      "entity_id": "tylo-kiruna-2",
+      "merchant_id": "tylo",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://tylo.com/products/kiruna-collection/kiruna-2/",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "geyser-hekla-image",
+      "entity_id": "geyser-hekla",
+      "merchant_id": "geysersteam",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.geysersteamroom.com/products/geysersteam%E2%84%A2-2-4-person-indoor-outdoor-traditional-sauna-traditional-infrared-red-light-timberline-brown-copy",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "geyser-lukaku-image",
+      "entity_id": "geyser-lukaku",
+      "merchant_id": "geysersteam",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.geysersteamroom.com/products/outdoor-traditional-sauna-black-4-6-person",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "geyser-autana-image",
+      "entity_id": "geyser-autana",
+      "merchant_id": "geysersteam",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.geysersteamroom.com/products/autana-4-6-person-indoor-outdoor-traditional-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "geyser-valera-image",
+      "entity_id": "geyser-valera",
+      "merchant_id": "geysersteam",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.geysersteamroom.com/products/valera-3-4-person-indoor-outdoor-traditional-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "geyser-balerion-image",
+      "entity_id": "geyser-balerion",
+      "merchant_id": "geysersteam",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.geysersteamroom.com/products/doragon-4-6-person-indoor-outdoor-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
     }
   ]
 }

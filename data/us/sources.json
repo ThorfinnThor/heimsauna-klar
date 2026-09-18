@@ -2861,6 +2861,106 @@
       "market": "US",
       "checked_at": "2026-09-18",
       "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-tylo-reflection-4-product",
+      "type": "manufacturer-page",
+      "url": "https://tylo.com/products/reflection-collection/reflection-4/",
+      "title": "Reflection 4 product page",
+      "publisher": "Tylo",
+      "market": "US",
+      "checked_at": "2026-09-18",
+      "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-tylo-reflection-3-product",
+      "type": "manufacturer-page",
+      "url": "https://tylo.com/products/reflection-collection/reflection-3/",
+      "title": "Reflection 3 product page",
+      "publisher": "Tylo",
+      "market": "US",
+      "checked_at": "2026-09-18",
+      "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-tylo-halmstad-4-product",
+      "type": "manufacturer-page",
+      "url": "https://tylo.com/products/halmstad-collection/halmstad-4/",
+      "title": "Halmstad 4 product page",
+      "publisher": "Tylo",
+      "market": "US",
+      "checked_at": "2026-09-18",
+      "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-tylo-lulea-4-product",
+      "type": "manufacturer-page",
+      "url": "https://tylo.com/products/lulea-collection/lulea-4/",
+      "title": "Lulea 4 product page",
+      "publisher": "Tylo",
+      "market": "US",
+      "checked_at": "2026-09-18",
+      "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-tylo-kiruna-2-product",
+      "type": "manufacturer-page",
+      "url": "https://tylo.com/products/kiruna-collection/kiruna-2/",
+      "title": "Kiruna 2 product page",
+      "publisher": "Tylo",
+      "market": "US",
+      "checked_at": "2026-09-18",
+      "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-geyser-hekla-product",
+      "type": "manufacturer-page",
+      "url": "https://www.geysersteamroom.com/products/geysersteam%E2%84%A2-2-4-person-indoor-outdoor-traditional-sauna-traditional-infrared-red-light-timberline-brown-copy",
+      "title": "Hekla product page",
+      "publisher": "GeyserSteam",
+      "market": "US",
+      "checked_at": "2026-09-18",
+      "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-geyser-lukaku-product",
+      "type": "manufacturer-page",
+      "url": "https://www.geysersteamroom.com/products/outdoor-traditional-sauna-black-4-6-person",
+      "title": "Lukaku product page",
+      "publisher": "GeyserSteam",
+      "market": "US",
+      "checked_at": "2026-09-18",
+      "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-geyser-autana-product",
+      "type": "manufacturer-page",
+      "url": "https://www.geysersteamroom.com/products/autana-4-6-person-indoor-outdoor-traditional-infrared-sauna",
+      "title": "Autana product page",
+      "publisher": "GeyserSteam",
+      "market": "US",
+      "checked_at": "2026-09-18",
+      "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-geyser-valera-product",
+      "type": "manufacturer-page",
+      "url": "https://www.geysersteamroom.com/products/valera-3-4-person-indoor-outdoor-traditional-infrared-sauna",
+      "title": "Valera product page",
+      "publisher": "GeyserSteam",
+      "market": "US",
+      "checked_at": "2026-09-18",
+      "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-geyser-balerion-product",
+      "type": "manufacturer-page",
+      "url": "https://www.geysersteamroom.com/products/doragon-4-6-person-indoor-outdoor-infrared-sauna",
+      "title": "Balerion product page",
+      "publisher": "GeyserSteam",
+      "market": "US",
+      "checked_at": "2026-09-18",
+      "locator": "Product identity, dimensions, materials, electrical and included components"
     }
   ],
   "evidence": [
@@ -6785,6 +6885,216 @@
       "source_id": "source-salus-deluxe-panorama-product",
       "field_path": "electrical_supply_options",
       "raw_value": "Deluxe Panorama 6-Person Traditional Outdoor Sauna: {\"voltage\":240,\"power\":15000,\"current\":100,\"connection\":\"hardwired\"}"
+    },
+    {
+      "id": "evidence-tylo-reflection-4-product",
+      "entity_id": "tylo-reflection-4",
+      "source_id": "source-tylo-reflection-4-product",
+      "field_path": "product_identity",
+      "raw_value": "Tylo lists Reflection 4 as an indoor traditional sauna for three or four people with Aspen interior, smoked glass and a Crown 8 heater."
+    },
+    {
+      "id": "evidence-tylo-reflection-4-configuration",
+      "entity_id": "tylo-reflection-4-standard",
+      "source_id": "source-tylo-reflection-4-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The official page lists a 79 in D × 89 in W × 87 in H foundation, 240 V supply and an 8 kW Crown heater; amperage and connection type are not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-tylo-reflection-4-electrical",
+      "entity_id": "tylo-reflection-4-standard",
+      "source_id": "source-tylo-reflection-4-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Reflection 4: {\"voltage\":240,\"power\":8000,\"current\":null,\"connection\":null}"
+    },
+    {
+      "id": "evidence-tylo-reflection-3-product",
+      "entity_id": "tylo-reflection-3",
+      "source_id": "source-tylo-reflection-3-product",
+      "field_path": "product_identity",
+      "raw_value": "Tylo lists Reflection 3 as an indoor traditional sauna for three or four people with Aspen interior, smoked glass and a Crown 8 heater."
+    },
+    {
+      "id": "evidence-tylo-reflection-3-configuration",
+      "entity_id": "tylo-reflection-3-standard",
+      "source_id": "source-tylo-reflection-3-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The official page lists a 79 in D × 71 in W × 87 in H foundation, 240 V supply and an 8 kW Crown heater; amperage and connection type are not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-tylo-reflection-3-electrical",
+      "entity_id": "tylo-reflection-3-standard",
+      "source_id": "source-tylo-reflection-3-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Reflection 3: {\"voltage\":240,\"power\":8000,\"current\":null,\"connection\":null}"
+    },
+    {
+      "id": "evidence-tylo-halmstad-4-product",
+      "entity_id": "tylo-halmstad-4",
+      "source_id": "source-tylo-halmstad-4-product",
+      "field_path": "product_identity",
+      "raw_value": "Tylo lists Halmstad 4 as an indoor traditional sauna for two to four people with clear hemlock and a Sense Bliss 6 heater."
+    },
+    {
+      "id": "evidence-tylo-halmstad-4-configuration",
+      "entity_id": "tylo-halmstad-4-standard",
+      "source_id": "source-tylo-halmstad-4-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The official page lists a 62 in D × 86 in W × 81 in H foundation, 240 V / 25 A requirements and a Sense Bliss 6 heater; wattage and connection type are not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-tylo-halmstad-4-electrical",
+      "entity_id": "tylo-halmstad-4-standard",
+      "source_id": "source-tylo-halmstad-4-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Halmstad 4: {\"voltage\":240,\"power\":null,\"current\":25,\"connection\":null}"
+    },
+    {
+      "id": "evidence-tylo-lulea-4-product",
+      "entity_id": "tylo-lulea-4",
+      "source_id": "source-tylo-lulea-4-product",
+      "field_path": "product_identity",
+      "raw_value": "Tylo lists Lulea 4 as an outdoor traditional sauna for three or four people with clear hemlock and a Sense Bliss 8 heater."
+    },
+    {
+      "id": "evidence-tylo-lulea-4-configuration",
+      "entity_id": "tylo-lulea-4-standard",
+      "source_id": "source-tylo-lulea-4-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The official page lists a 61 in D × 86 in W × 94 in H foundation, an 85 in D × 102 in W roof, 240 V / 35 A requirements and an 8 kW heater; connection type is not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-tylo-lulea-4-electrical",
+      "entity_id": "tylo-lulea-4-standard",
+      "source_id": "source-tylo-lulea-4-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Lulea 4: {\"voltage\":240,\"power\":8000,\"current\":35,\"connection\":null}"
+    },
+    {
+      "id": "evidence-tylo-kiruna-2-product",
+      "entity_id": "tylo-kiruna-2",
+      "source_id": "source-tylo-kiruna-2-product",
+      "field_path": "product_identity",
+      "raw_value": "Tylo lists Kiruna 2 as an indoor infrared sauna for one to three people with CarbonFlex panels and clear hemlock."
+    },
+    {
+      "id": "evidence-tylo-kiruna-2-configuration",
+      "entity_id": "tylo-kiruna-2-standard",
+      "source_id": "source-tylo-kiruna-2-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The official page lists a 42 in D × 51 in W × 78 in H foundation and 120 V / 15 A requirements; wattage and connection type are not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-tylo-kiruna-2-electrical",
+      "entity_id": "tylo-kiruna-2-standard",
+      "source_id": "source-tylo-kiruna-2-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Kiruna 2: {\"voltage\":120,\"power\":null,\"current\":15,\"connection\":null}"
+    },
+    {
+      "id": "evidence-geyser-hekla-product",
+      "entity_id": "geyser-hekla",
+      "source_id": "source-geyser-hekla-product",
+      "field_path": "product_identity",
+      "raw_value": "GeyserSteam lists Hekla as an indoor/outdoor 2–3 person traditional sauna with optional infrared and red-light add-ons."
+    },
+    {
+      "id": "evidence-geyser-hekla-configuration",
+      "entity_id": "geyser-hekla-standard",
+      "source_id": "source-geyser-hekla-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The official page lists 57 in W × 55 in D × 83 in H, a 6,000 W heater and a 220 V / 30 A connection; infrared and red-light add-ons have separate power requirements."
+    },
+    {
+      "id": "evidence-geyser-hekla-electrical",
+      "entity_id": "geyser-hekla-standard",
+      "source_id": "source-geyser-hekla-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Hekla: {\"voltage\":220,\"power\":6000,\"current\":30,\"connection\":\"hardwired\"}"
+    },
+    {
+      "id": "evidence-geyser-lukaku-product",
+      "entity_id": "geyser-lukaku",
+      "source_id": "source-geyser-lukaku-product",
+      "field_path": "product_identity",
+      "raw_value": "GeyserSteam lists Lukaku as an indoor/outdoor 6–8 person traditional and infrared sauna."
+    },
+    {
+      "id": "evidence-geyser-lukaku-configuration",
+      "entity_id": "geyser-lukaku-standard",
+      "source_id": "source-geyser-lukaku-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The official page lists 86 in W × 87 in D × 86 in H, a 13.5 kW heater and 240 V / 65 A electrical service."
+    },
+    {
+      "id": "evidence-geyser-lukaku-electrical",
+      "entity_id": "geyser-lukaku-standard",
+      "source_id": "source-geyser-lukaku-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Lukaku: {\"voltage\":240,\"power\":13500,\"current\":65,\"connection\":\"hardwired\"}"
+    },
+    {
+      "id": "evidence-geyser-autana-product",
+      "entity_id": "geyser-autana",
+      "source_id": "source-geyser-autana-product",
+      "field_path": "product_identity",
+      "raw_value": "GeyserSteam lists Autana as an indoor/outdoor 4–6 person traditional and infrared sauna."
+    },
+    {
+      "id": "evidence-geyser-autana-configuration",
+      "entity_id": "geyser-autana-standard",
+      "source_id": "source-geyser-autana-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The official page lists 86 in W × 87 in D × 86 in H, a 13.5 kW heater and 240 V / 65 A electrical service."
+    },
+    {
+      "id": "evidence-geyser-autana-electrical",
+      "entity_id": "geyser-autana-standard",
+      "source_id": "source-geyser-autana-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Autana: {\"voltage\":240,\"power\":13500,\"current\":65,\"connection\":\"hardwired\"}"
+    },
+    {
+      "id": "evidence-geyser-valera-product",
+      "entity_id": "geyser-valera",
+      "source_id": "source-geyser-valera-product",
+      "field_path": "product_identity",
+      "raw_value": "GeyserSteam lists Valera as an indoor/outdoor 4–5 person traditional and infrared sauna."
+    },
+    {
+      "id": "evidence-geyser-valera-configuration",
+      "entity_id": "geyser-valera-standard",
+      "source_id": "source-geyser-valera-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The official page lists 86 in W × 60 in D × 86 in H, a 9 kW heater and 220 V / 40 A electrical service."
+    },
+    {
+      "id": "evidence-geyser-valera-electrical",
+      "entity_id": "geyser-valera-standard",
+      "source_id": "source-geyser-valera-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Valera: {\"voltage\":220,\"power\":9000,\"current\":40,\"connection\":\"hardwired\"}"
+    },
+    {
+      "id": "evidence-geyser-balerion-product",
+      "entity_id": "geyser-balerion",
+      "source_id": "source-geyser-balerion-product",
+      "field_path": "product_identity",
+      "raw_value": "GeyserSteam lists Balerion as an indoor/outdoor 6–8 person infrared sauna with full-spectrum panels and infrared rods."
+    },
+    {
+      "id": "evidence-geyser-balerion-configuration",
+      "entity_id": "geyser-balerion-standard",
+      "source_id": "source-geyser-balerion-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "The official page lists 86 in W × 87 in D × 86 in H, 5,000 W at 240 V and a 30 A breaker."
+    },
+    {
+      "id": "evidence-geyser-balerion-electrical",
+      "entity_id": "geyser-balerion-standard",
+      "source_id": "source-geyser-balerion-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Balerion: {\"voltage\":240,\"power\":5000,\"current\":30,\"connection\":\"hardwired\"}"
     }
   ]
 }
