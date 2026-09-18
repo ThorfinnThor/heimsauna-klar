@@ -2,14 +2,14 @@
   "schema_version": 2,
   "market": "US",
   "status": "reviewed-current",
-  "updated_at": "2026-09-16",
-  "scope": "Current 248-record US research catalog. Category counts overlap where a sauna kit also belongs to a placement and heat-type segment. Counts describe distinct product models, never size or electrical variants.",
+  "updated_at": "2026-09-18",
+  "scope": "Current 255-record US research catalog. Category counts overlap where a sauna kit also belongs to a placement and heat-type segment. Counts describe distinct product models, never size or electrical variants.",
   "data_complete_definition": "Product type, heat type, energy source, placement, form, seated capacity, exterior dimensions and materials are documented, and one electrical requirement documents voltage, rated power and rated current together.",
   "categories": [
     {
       "id": "indoor-infrared-cabins",
       "label": "Indoor infrared cabins",
-      "product_count": 43,
+      "product_count": 46,
       "data_complete_count": 12,
       "status": "covered-with-open-records",
       "gaps": [
@@ -20,7 +20,7 @@
     {
       "id": "outdoor-infrared-cabins",
       "label": "Outdoor infrared cabins",
-      "product_count": 6,
+      "product_count": 8,
       "data_complete_count": 4,
       "status": "covered-with-open-records",
       "gaps": [
@@ -31,8 +31,8 @@
     {
       "id": "indoor-traditional-cabins",
       "label": "Indoor traditional saunas",
-      "product_count": 69,
-      "data_complete_count": 8,
+      "product_count": 70,
+      "data_complete_count": 9,
       "status": "covered-with-open-records",
       "gaps": [
         "The Sun Home Nova 3 record does not yet contain normalized exterior dimensions or electrical requirements.",
@@ -42,8 +42,8 @@
     {
       "id": "outdoor-traditional-cabins",
       "label": "Outdoor traditional saunas",
-      "product_count": 91,
-      "data_complete_count": 18,
+      "product_count": 93,
+      "data_complete_count": 20,
       "status": "covered-with-open-records",
       "gaps": [
         "Several SaunaLife and Thermory kits are cabin structures without a documented included electrical package.",

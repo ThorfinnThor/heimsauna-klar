@@ -107,7 +107,7 @@ function resultFor({ query, productValue = product(), configurationValue = confi
   return runUsFinder({ products: [productValue], configurations: [configurationValue], offers, query, asOf: "2026-09-13" })[0];
 }
 
-test("real pilot data produces eleven known indoor infrared 120 V results", () => {
+test("real pilot data produces fourteen known indoor infrared 120 V results", () => {
   const results = runUsFinder({
     products: productsDocument.products,
     configurations: configurationsDocument.configurations,
@@ -119,15 +119,15 @@ test("real pilot data produces eleven known indoor infrared 120 V results", () =
     },
     asOf: "2026-09-13",
   });
-  assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 11);
+  assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 14);
   assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 36);
-  assert.equal(results.filter((entry) => entry.status === "excluded").length, 201);
+  assert.equal(results.filter((entry) => entry.status === "excluded").length, 205);
   assert.deepEqual(results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId), [
-    "peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4", "peak-mini", "peak-crown", "peak-fuji", "peak-rainier", "sun-home-equinox", "sun-home-eclipse-2",
+    "peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4", "peak-mini", "peak-crown", "peak-fuji", "peak-rainier", "sun-home-equinox", "sun-home-eclipse-2", "sunray-sedona", "sunray-evansport", "sunray-aspen",
   ]);
 });
 
-test("the pilot scenario for two indoor infrared seats on 120 V returns seven known configurations", () => {
+test("the pilot scenario for two indoor infrared seats on 120 V returns ten known configurations", () => {
   const results = runUsFinder({
     products: productsDocument.products,
     configurations: configurationsDocument.configurations,
@@ -142,10 +142,10 @@ test("the pilot scenario for two indoor infrared seats on 120 V returns seven kn
   });
   assert.deepEqual(
     results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId),
-    ["peak-everest", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-fuji", "sun-home-equinox", "sun-home-eclipse-2"],
+    ["peak-everest", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-fuji", "sun-home-equinox", "sun-home-eclipse-2", "sunray-sedona", "sunray-evansport", "sunray-aspen"],
   );
   assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 31);
-  assert.equal(results.filter((entry) => entry.status === "excluded").length, 210);
+  assert.equal(results.filter((entry) => entry.status === "excluded").length, 214);
 });
 
 test("the public finder evaluates the complete pilot for six outdoor seats on 240 V", () => {
@@ -183,7 +183,7 @@ test("the public finder evaluates the complete pilot for six outdoor seats on 24
       "redwood-noctra-8",
     ],
   );
-  assert.equal(results.length, 248);
+  assert.equal(results.length, 255);
   assert.deepEqual(results, runUsFinder({
     ...input,
     products: productsDocument.products,
@@ -205,9 +205,9 @@ test("adding a room envelope keeps the pilot honest when installation clearances
     },
     asOf: "2026-09-13",
   });
-  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 38);
+  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 41);
   const roomVerification = results.filter((entry) => entry.status === "needs-verification" && entry.unknownCriteria.includes("space:installation-clearances"));
-  assert.equal(roomVerification.length, 13);
+  assert.equal(roomVerification.length, 16);
 });
 
 test("hard capacity uses the full requested group size", () => {

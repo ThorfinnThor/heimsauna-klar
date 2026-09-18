@@ -12796,6 +12796,399 @@
       "spec_checked_at": "2026-09-16",
       "next_review_at": "2026-12-15",
       "change_reason": "Added after manual review of the exact Sweat Kingdom product page and approved Awin relationship."
+    },
+    {
+      "id": "sunray-bristow",
+      "market": "US",
+      "slug": "sunray-bristow",
+      "brand_name": "SunRay Saunas",
+      "model": "Bristow 2-Person Outdoor Wet/Dry Traditional Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunray-bristow-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sunray-bristow-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-bristow-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-bristow-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor traditional sauna cabin",
+        "evidence_ids": [
+          "evidence-sunray-bristow-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunray-bristow-standard"
+      ],
+      "source_ids": [
+        "source-sunray-bristow-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official SunRay US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "sunray-aurora",
+      "market": "US",
+      "slug": "sunray-aurora",
+      "brand_name": "SunRay Saunas",
+      "model": "Aurora 2-4 Person Traditional Wet/Dry Barrel Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunray-aurora-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-sunray-aurora-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-aurora-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor",
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-aurora-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Traditional barrel sauna",
+        "evidence_ids": [
+          "evidence-sunray-aurora-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunray-aurora-standard"
+      ],
+      "source_ids": [
+        "source-sunray-aurora-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official SunRay US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "sunray-sedona",
+      "market": "US",
+      "slug": "sunray-sedona",
+      "brand_name": "SunRay Saunas",
+      "model": "Sedona 1-2 Person Indoor Infrared Cedar Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunray-sedona-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunray-sedona-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-sedona-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-sedona-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunray-sedona-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunray-sedona-standard"
+      ],
+      "source_ids": [
+        "source-sunray-sedona-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official SunRay US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "sunray-evansport",
+      "market": "US",
+      "slug": "sunray-evansport",
+      "brand_name": "SunRay Saunas",
+      "model": "Evansport 2-Person Indoor Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunray-evansport-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunray-evansport-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-evansport-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-evansport-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunray-evansport-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunray-evansport-standard"
+      ],
+      "source_ids": [
+        "source-sunray-evansport-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official SunRay US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "sunray-aspen",
+      "market": "US",
+      "slug": "sunray-aspen",
+      "brand_name": "SunRay Saunas",
+      "model": "Aspen 3-Person Indoor Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunray-aspen-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunray-aspen-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-aspen-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-aspen-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunray-aspen-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunray-aspen-standard"
+      ],
+      "source_ids": [
+        "source-sunray-aspen-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official SunRay US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "sunray-cayenne",
+      "market": "US",
+      "slug": "sunray-cayenne",
+      "brand_name": "SunRay Saunas",
+      "model": "Cayenne 4-Person Outdoor Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunray-cayenne-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunray-cayenne-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-cayenne-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-cayenne-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunray-cayenne-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunray-cayenne-standard"
+      ],
+      "source_ids": [
+        "source-sunray-cayenne-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official SunRay US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "sunray-grandby",
+      "market": "US",
+      "slug": "sunray-grandby",
+      "brand_name": "SunRay Saunas",
+      "model": "Grandby 3-Person Outdoor Infrared Sauna",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-sunray-grandby-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-sunray-grandby-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-grandby-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-grandby-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Outdoor infrared sauna cabin",
+        "evidence_ids": [
+          "evidence-sunray-grandby-product"
+        ]
+      },
+      "configuration_ids": [
+        "sunray-grandby-standard"
+      ],
+      "source_ids": [
+        "source-sunray-grandby-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-18",
+      "next_review_at": "2026-12-18",
+      "change_reason": "Added from an exact official SunRay US product page; editorial and publication review remain open."
     }
   ]
 }

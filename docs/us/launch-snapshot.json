@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with seventeen manually reviewed Sweat Kingdom merchant offers. Two hundred twenty research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 227 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -264,7 +264,14 @@
       "sweat-kingdom-sk-contrast",
       "sweat-kingdom-regen-sweat-cabin",
       "sweat-kingdom-regen-sweat-cabin-deluxe",
-      "sweat-kingdom-regen-sweat-pod"
+      "sweat-kingdom-regen-sweat-pod",
+      "sunray-bristow",
+      "sunray-aurora",
+      "sunray-sedona",
+      "sunray-evansport",
+      "sunray-aspen",
+      "sunray-cayenne",
+      "sunray-grandby"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -514,7 +521,14 @@
       "sweat-kingdom-sk-contrast-standard",
       "sweat-kingdom-regen-sweat-cabin-standard",
       "sweat-kingdom-regen-sweat-cabin-deluxe-standard",
-      "sweat-kingdom-regen-sweat-pod-standard"
+      "sweat-kingdom-regen-sweat-pod-standard",
+      "sunray-bristow-standard",
+      "sunray-aurora-standard",
+      "sunray-sedona-standard",
+      "sunray-evansport-standard",
+      "sunray-aspen-standard",
+      "sunray-cayenne-standard",
+      "sunray-grandby-standard"
     ],
     "offer_ids": [
       "offer-sweat-kingdom-sweat-cabin",
@@ -535,8 +549,8 @@
       "offer-sweat-kingdom-regen-sweat-cabin-deluxe",
       "offer-sweat-kingdom-regen-sweat-pod"
     ],
-    "source_count": 271,
-    "evidence_count": 515,
+    "source_count": 278,
+    "evidence_count": 536,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -829,7 +843,14 @@
       "sweat-kingdom-sk-contrast-image",
       "sweat-kingdom-regen-sweat-cabin-image",
       "sweat-kingdom-regen-sweat-cabin-deluxe-image",
-      "sweat-kingdom-regen-sweat-pod-image"
+      "sweat-kingdom-regen-sweat-pod-image",
+      "sunray-bristow-image",
+      "sunray-aurora-image",
+      "sunray-sedona-image",
+      "sunray-evansport-image",
+      "sunray-aspen-image",
+      "sunray-cayenne-image",
+      "sunray-grandby-image"
     ]
   },
   "file_hashes": [
@@ -839,19 +860,19 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "d46c50c94a60a2d7678c24b4cadc52eb83115846a077a6bfc61c53270192e86c"
+      "sha256": "fddf24a1ff1a4aa864e0792e0f80f41dc15e1cb2b0fe3798f73e861ddfdb78bd"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "619bd121e92eb9955eaeb3d6b3f647f56d9491526afb6b8805bf8da53098e900"
+      "sha256": "09e1bc342cdab25c15f2311a90f7f71ed36da19c3ba318397166f83421089a33"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "29fba56d065ff1bd7b5d1f388068334970e8b018bd9893c0846e4e23a2c10b16"
+      "sha256": "51a843830111f2c0f084ca07856c2ca918fadade1d762c7243884d042e351dfe"
     },
     {
       "path": "data/us/merchants.json",
-      "sha256": "20cbdbc9f256a2de6a4f0c273f03a29e0440886e00a579e4378ea4ddda2fd6de"
+      "sha256": "9c5e14fa6ba165fd9ad38712bd5d0ca70dfdfe1f83c7a6679a03905cbf9241fd"
     },
     {
       "path": "data/us/programs.json",
@@ -895,7 +916,7 @@
     },
     {
       "path": "docs/us/rights-register.json",
-      "sha256": "bb9f6f09b762c00116271f12e892dcc25ae2e1aefa06461a4613177ac66b35e5"
+      "sha256": "d464b97d12557842b665e8094b3a6f6e03c0300a9acefcb6079e118ddadc4395"
     }
   ],
   "blocking_conditions": [

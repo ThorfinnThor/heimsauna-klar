@@ -32705,6 +32705,1258 @@
         "sweat-kingdom-regen-sweat-pod-product"
       ],
       "publication_status": "published"
+    },
+    {
+      "id": "sunray-bristow-standard",
+      "market": "US",
+      "product_id": "sunray-bristow",
+      "label": "Bristow 2-Person Outdoor Wet/Dry Traditional Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-sunray-bristow-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 50,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 50,
+              "unit": "in"
+            },
+            "height": {
+              "value": 98,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sunray-bristow-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 45,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 45,
+              "unit": "in"
+            },
+            "height": {
+              "value": 73,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sunray-bristow-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Canadian hemlock",
+          "Metal roof"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-bristow-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sunray-bristow-standard-component-1",
+          "component_type": "heater",
+          "name": "4.5 kW Harvia electric heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-bristow-product"
+          ]
+        },
+        {
+          "id": "sunray-bristow-standard-component-2",
+          "component_type": "lighting",
+          "name": "Chromotherapy lighting",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-bristow-product"
+          ]
+        },
+        {
+          "id": "sunray-bristow-standard-component-3",
+          "component_type": "other",
+          "name": "Bluetooth speaker system",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-bristow-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sunray-bristow-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 220,
+                "evidence_ids": [
+                  "evidence-sunray-bristow-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 4500,
+                "evidence_ids": [
+                  "evidence-sunray-bristow-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sunray-bristow-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sunray-bristow-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sunray-bristow-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sunray-bristow-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sunray-bristow-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sunray-bristow-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sunray-bristow-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sunray-aurora-standard",
+      "market": "US",
+      "product_id": "sunray-aurora",
+      "label": "Aurora 2-4 Person Traditional Wet/Dry Barrel Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-sunray-aurora-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 61,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sunray-aurora-configuration"
+          ]
+        },
+        "interior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 69,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 51,
+              "unit": "in"
+            },
+            "height": {
+              "value": 69,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sunray-aurora-configuration"
+          ]
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Western red cedar",
+          "Tempered glass",
+          "Stainless steel hardware"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-aurora-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sunray-aurora-standard-component-1",
+          "component_type": "heater",
+          "name": "6 kW Harvia electric heater with stones",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-aurora-product"
+          ]
+        },
+        {
+          "id": "sunray-aurora-standard-component-2",
+          "component_type": "other",
+          "name": "Flat floor kit",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-aurora-product"
+          ]
+        },
+        {
+          "id": "sunray-aurora-standard-component-3",
+          "component_type": "other",
+          "name": "Shingled roof",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-aurora-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sunray-aurora-standard-electrical",
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 220,
+                "evidence_ids": [
+                  "evidence-sunray-aurora-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-sunray-aurora-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sunray-aurora-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sunray-aurora-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-sunray-aurora-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-sunray-aurora-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sunray-aurora-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sunray-aurora-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sunray-aurora-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sunray-sedona-standard",
+      "market": "US",
+      "product_id": "sunray-sedona",
+      "label": "Sedona 1-2 Person Indoor Infrared Cedar Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-sunray-sedona-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 36,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 42,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sunray-sedona-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Western red cedar"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-sedona-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sunray-sedona-standard-component-1",
+          "component_type": "infrared-system",
+          "name": "Five carbon-nano infrared heaters",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-sedona-product"
+          ]
+        },
+        {
+          "id": "sunray-sedona-standard-component-2",
+          "component_type": "lighting",
+          "name": "Chromotherapy lighting",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-sedona-product"
+          ]
+        },
+        {
+          "id": "sunray-sedona-standard-component-3",
+          "component_type": "other",
+          "name": "Bluetooth speaker system",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-sedona-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sunray-sedona-standard-electrical",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-sunray-sedona-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-sunray-sedona-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": false,
+                "evidence_ids": [
+                  "evidence-sunray-sedona-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sunray-sedona-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sunray-sedona-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sunray-evansport-standard",
+      "market": "US",
+      "product_id": "sunray-evansport",
+      "label": "Evansport 2-Person Indoor Infrared Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-sunray-evansport-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 48,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 45,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sunray-evansport-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Canadian hemlock"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-evansport-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sunray-evansport-standard-component-1",
+          "component_type": "infrared-system",
+          "name": "Seven carbon-nano infrared heaters",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-evansport-product"
+          ]
+        },
+        {
+          "id": "sunray-evansport-standard-component-2",
+          "component_type": "controls",
+          "name": "Dual LED control panels",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-evansport-product"
+          ]
+        },
+        {
+          "id": "sunray-evansport-standard-component-3",
+          "component_type": "other",
+          "name": "Bluetooth speaker system",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-evansport-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sunray-evansport-standard-electrical",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-sunray-evansport-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 1665,
+                "evidence_ids": [
+                  "evidence-sunray-evansport-electrical"
+                ]
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-sunray-evansport-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": false,
+                "evidence_ids": [
+                  "evidence-sunray-evansport-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sunray-evansport-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sunray-evansport-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sunray-aspen-standard",
+      "market": "US",
+      "product_id": "sunray-aspen",
+      "label": "Aspen 3-Person Indoor Infrared Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-sunray-aspen-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 59,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 47,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sunray-aspen-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Canadian hemlock"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-aspen-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sunray-aspen-standard-component-1",
+          "component_type": "infrared-system",
+          "name": "Carbon-nano infrared heaters",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-aspen-product"
+          ]
+        },
+        {
+          "id": "sunray-aspen-standard-component-2",
+          "component_type": "lighting",
+          "name": "Chromotherapy lighting",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-aspen-product"
+          ]
+        },
+        {
+          "id": "sunray-aspen-standard-component-3",
+          "component_type": "other",
+          "name": "Bluetooth speaker system",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-aspen-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sunray-aspen-standard-electrical",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-sunray-aspen-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-sunray-aspen-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sunray-aspen-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sunray-aspen-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sunray-aspen-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sunray-cayenne-standard",
+      "market": "US",
+      "product_id": "sunray-cayenne",
+      "label": "Cayenne 4-Person Outdoor Infrared Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-sunray-cayenne-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 79,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 52,
+              "unit": "in"
+            },
+            "height": {
+              "value": 87,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sunray-cayenne-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Canadian hemlock",
+          "Metal composite roof"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-cayenne-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sunray-cayenne-standard-component-1",
+          "component_type": "infrared-system",
+          "name": "Ten far-infrared heaters",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-cayenne-product"
+          ]
+        },
+        {
+          "id": "sunray-cayenne-standard-component-2",
+          "component_type": "other",
+          "name": "Weatherproof sealed cabin",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-cayenne-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sunray-cayenne-standard-electrical",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-sunray-cayenne-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 20,
+                "evidence_ids": [
+                  "evidence-sunray-cayenne-electrical"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "documented",
+                "value": 20,
+                "evidence_ids": [
+                  "evidence-sunray-cayenne-electrical"
+                ]
+              },
+              "specified_breaker_a": {
+                "status": "documented",
+                "value": 20,
+                "evidence_ids": [
+                  "evidence-sunray-cayenne-electrical"
+                ]
+              },
+              "connection": {
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-sunray-cayenne-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sunray-cayenne-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sunray-cayenne-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sunray-cayenne-product"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "sunray-grandby-standard",
+      "market": "US",
+      "product_id": "sunray-grandby",
+      "label": "Grandby 3-Person Outdoor Infrared Sauna documented base configuration",
+      "manufacturer_sku": {
+        "status": "unknown",
+        "reason": "The reviewed product page does not expose a stable manufacturer SKU in the catalog record."
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-sunray-grandby-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed product page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 69,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 47,
+              "unit": "in"
+            },
+            "height": {
+              "value": 87,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-sunray-grandby-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed product page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the manufacturer's instructions and a site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not stated on the reviewed product page."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Canadian hemlock",
+          "Metal composite roof"
+        ],
+        "evidence_ids": [
+          "evidence-sunray-grandby-configuration"
+        ]
+      },
+      "components": [
+        {
+          "id": "sunray-grandby-standard-component-1",
+          "component_type": "infrared-system",
+          "name": "Seven far-infrared heaters",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-grandby-product"
+          ]
+        },
+        {
+          "id": "sunray-grandby-standard-component-2",
+          "component_type": "other",
+          "name": "Weatherproof sealed cabin",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-sunray-grandby-product"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "sunray-grandby-standard-electrical",
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-sunray-grandby-electrical"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "Phase is not stated on the reviewed product page."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "Rated power is not stated on the reviewed product page."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated on the reviewed product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-sunray-grandby-electrical"
+                ]
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed product page."
+              },
+              "dedicated_circuit": {
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-sunray-grandby-electrical"
+                ]
+              }
+            }
+          ],
+          "evidence_ids": [
+            "evidence-sunray-grandby-electrical"
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-sunray-grandby-product"
+      ],
+      "publication_status": "candidate"
     }
   ],
   "certifications": [],

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "market": "US",
   "status": "pending-permissions",
-  "updated_at": "2026-09-16",
+  "updated_at": "2026-09-18",
   "policy": "No manufacturer image is used in the US pilot until the relevant Awin or merchant permission is documented. Product pages remain source links only.",
   "assets": [
     {
@@ -2481,6 +2481,76 @@
       "merchant_id": "sweat-kingdom",
       "asset_type": "manufacturer-image",
       "source_url": "https://sweatkingdom.com/products/regen-the-sweat-pod-2-4-person",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunray-bristow-image",
+      "entity_id": "sunray-bristow",
+      "merchant_id": "sunray-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.sunraysaunas.com/products/bristow-2-person-outdoor-traditional-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunray-aurora-image",
+      "entity_id": "sunray-aurora",
+      "merchant_id": "sunray-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.sunraysaunas.com/products/aurora-2-4-person-traditional-barrel-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunray-sedona-image",
+      "entity_id": "sunray-sedona",
+      "merchant_id": "sunray-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.sunraysaunas.com/products/1-2-person-indoor-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunray-evansport-image",
+      "entity_id": "sunray-evansport",
+      "merchant_id": "sunray-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.sunraysaunas.com/products/2-person-indoor-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunray-aspen-image",
+      "entity_id": "sunray-aspen",
+      "merchant_id": "sunray-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.sunraysaunas.com/products/3-person-indoor-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunray-cayenne-image",
+      "entity_id": "sunray-cayenne",
+      "merchant_id": "sunray-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.sunraysaunas.com/products/4-person-outdoor-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "sunray-grandby-image",
+      "entity_id": "sunray-grandby",
+      "merchant_id": "sunray-saunas",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.sunraysaunas.com/products/3-person-outdoor-infrared-sauna",
       "rights_status": "not-requested",
       "permission_basis": "none",
       "action": "Use no image until written permission or an approved feed license is recorded."
