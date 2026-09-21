@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
-import { collections, getCollectionProducts } from "@/lib/collections";
+import { getCollectionProducts, indexableCollections } from "@/lib/collections";
 import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
@@ -33,7 +33,7 @@ export default function ComparisonsHubPage() {
           <p>Jede Seite erklärt ihre Filter und nennt die Grenzen der verfügbaren Hersteller- und Angebotsdaten.</p>
         </div>
         <div className="collection-index-grid">
-          {collections.map((collection) => (
+          {indexableCollections.map((collection) => (
             <Link href={`/de/${collection.section}/${collection.slug}/`} key={collection.id}>
               <small>{collection.kind}</small>
               <strong>{collection.title}</strong>

@@ -32,6 +32,7 @@ export type Collection = {
   description: string;
   intro: string;
   layout: "space" | "outdoor" | "budget" | "heat" | "capacity" | "technical" | "tradeoff";
+  indexable?: boolean;
   related_ids: string[];
   planning: {
     kicker: string;
@@ -66,6 +67,7 @@ export type Collection = {
 };
 
 export const collections = collectionData as Collection[];
+export const indexableCollections = collections.filter((collection) => collection.indexable !== false);
 
 export function getCollection(section: string, slug: string) {
   return collections.find((collection) => collection.section === section && collection.slug === slug);

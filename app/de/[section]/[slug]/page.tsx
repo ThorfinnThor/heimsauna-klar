@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: collection.title,
     description: collection.description,
     path: `/de/${collection.section}/${collection.slug}/`,
+    indexable: collection.indexable !== false,
   });
 }
 

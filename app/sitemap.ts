@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { collections } from "@/lib/collections";
+import { indexableCollections } from "@/lib/collections";
 import { planningGuides } from "@/lib/planning-guides";
 import { getIndexableProducts, products } from "@/lib/products";
 import { isIndexingEnabled, siteUrl } from "@/lib/site";
@@ -26,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/de/saunatechnik/230-v-sauna/`, lastModified: planningUpdated, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/de/vergleiche/`, lastModified: productsUpdated, changeFrequency: "weekly", priority: 0.8 },
     { url: `${siteUrl}/de/vergleiche/230-v-sauna/`, lastModified: productsUpdated, changeFrequency: "weekly", priority: 0.8 },
-    ...collections.map((collection) => ({
+    ...indexableCollections.map((collection) => ({
       url: `${siteUrl}/de/${collection.section}/${collection.slug}/`,
       lastModified: publicationUpdated,
       changeFrequency: "weekly" as const,

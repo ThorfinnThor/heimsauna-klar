@@ -1,4 +1,4 @@
-import { collections } from "@/lib/collections";
+import { indexableCollections } from "@/lib/collections";
 import { planningGuides } from "@/lib/planning-guides";
 import { getCatalogStats, getIndexableProducts, products } from "@/lib/products";
 import { siteUrl } from "@/lib/site";
@@ -16,7 +16,7 @@ export function GET() {
   const planningLinks = planningGuides
     .map((guide) => `- [${guide.title}](${pageUrl(`/de/planung/${guide.slug}/`)}): ${guide.summary}`)
     .join("\n");
-  const collectionLinks = collections
+  const collectionLinks = indexableCollections
     .map((collection) => `- [${collection.title}](${pageUrl(`/de/${collection.section}/${collection.slug}/`)}): ${collection.description}`)
     .join("\n");
   const usEntries = getUsSitemapEntries();

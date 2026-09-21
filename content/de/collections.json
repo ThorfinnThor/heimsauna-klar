@@ -1071,5 +1071,625 @@
       "related_kicker": "Andere Sortimente und Wärmearten",
       "related_title": "Infrarotkabinen sowie die Markenübersichten von Artsauna und Home Deluxe öffnen."
     }
+  },
+  {
+    "id": "area-under-two",
+    "section": "vergleiche",
+    "slug": "sauna-bis-2-m2",
+    "kind": "Platzvergleich",
+    "eyebrow": "Kleine Grundfläche · reale Raumplanung",
+    "title": "Sauna bis 2 m² Stellfläche",
+    "accent": "Die Produktkontur ist der Anfang der Planung.",
+    "description": "Saunen bis zwei Quadratmeter Produktfläche vergleichen und Montageabstände, Türbereich, Anschluss und nutzbare Innenfläche realistisch einordnen.",
+    "intro": "Diese Auswahl berechnet die reine Grundfläche aus dokumentierter Breite und Tiefe. Sie zeigt kompakte Kabinen aus mehreren Wärmearten, ohne den zusätzlichen Raum für Aufbau, Luftführung und Nutzung in die Quadratmeterzahl einzurechnen.",
+    "layout": "space",
+    "indexable": false,
+    "related_ids": ["mini-sauna", "1-person-sauna", "sauna-bis-6-m2"],
+    "planning": {
+      "kicker": "Vom Datenblatt zum Raum",
+      "intro": "Eine kleine Produktfläche hilft bei der Vorauswahl. Ob die Kabine tatsächlich passt, ergibt sich aus Außenmaß, Montageanleitung, Türbewegung und dem freien Weg zum Sitzplatz.",
+      "guide_ids": ["platzbedarf", "sauna-fuer-die-wohnung"]
+    },
+    "editorial": {
+      "kicker": "Zwei Flächen sauber trennen",
+      "title": "Unter zwei Quadratmetern bleibt die Einbausituation eine dreidimensionale Aufgabe.",
+      "paragraphs": [
+        "Die Tabelle sortiert nach der rechnerischen Produktfläche. Ein Modell mit 100 mal 150 Zentimetern belegt darin 1,5 Quadratmeter. Wandabstände, ein geöffneter Türflügel und der Platz für Montage oder Wartung liegen außerhalb dieser Zahl und werden deshalb im Grundriss ergänzt.",
+        "Besonders schmale Kabinen können trotz kleiner Fläche tief in den Raum ragen. Quadratische Grundrisse nutzen eine Ecke anders, während kompakte Infrarotkabinen häufig eine aufrechte Sitzposition vorgeben. Breite und Tiefe verdienen daher dieselbe Aufmerksamkeit wie der Flächenwert.",
+        "Die Produktauswahl mischt bewusst finnische Saunen, Kombikabinen und Infrarotmodelle. Ihre Aufstellung, elektrische Versorgung und Wärmeabgabe unterscheiden sich deutlich. Die zwei Quadratmeter beantworten nur die Platzfrage des Produktkörpers und ersetzen keine technische Freigabe."
+      ],
+      "pointsTitle": "Was neben der Fläche in die Skizze gehört",
+      "points": [
+        "Türbewegung und freier Einstieg",
+        "Herstellerabstände an Wand und Decke",
+        "Montageweg sowie Zugang zu Technik und Lüftung",
+        "Außenliegende Steuerung, Leitungen oder Ofenschutz"
+      ],
+      "callout": "Eine Fläche unter zwei Quadratmetern ist ein belastbarer Filter, aber noch kein vollständiger Platznachweis."
+    },
+    "filters": { "footprint_max": 2 },
+    "sort": "footprint",
+    "criteria": [
+      "Breite und Tiefe sind im Produktdatensatz dokumentiert",
+      "Die Grundfläche wird einheitlich aus den Außenmaßen berechnet",
+      "Modelle mit höchstens zwei Quadratmetern bleiben in der Auswahl",
+      "Wärmeart und Aufstellort werden nicht durch den Flächenfilter vereinheitlicht"
+    ],
+    "checks": [
+      "Produktkontur maßstäblich in den Raumplan übertragen.",
+      "Türanschlag, Einstieg und notwendige Laufwege ergänzen.",
+      "Montage- und Lüftungsabstände aus der konkreten Anleitung übernehmen.",
+      "Anschluss und Heizsystem der gewählten Variante getrennt prüfen."
+    ],
+    "module_copy": {
+      "method_kicker": "Berechnung der Auswahl",
+      "method_title": "Die Grenze bezieht sich ausschließlich auf Breite mal Tiefe des Produkts.",
+      "method_note": "Der jüngste Datenstand der enthaltenen Produkte wurde geprüft am",
+      "results_kicker": "Kompakte Produktkonturen",
+      "results_title": "{count} Saunen bleiben rechnerisch bei höchstens zwei Quadratmetern.",
+      "results_intro": "Die Ergebnisse stehen nach aufsteigender Grundfläche. Maße, Kapazität, Wärmeart und Anschluss helfen dabei, ähnlich große Modelle technisch auseinanderzuhalten.",
+      "checks_kicker": "Raumprobe vor Bestellung",
+      "checks_title": "Vier Ergänzungen machen aus der Produktfläche einen brauchbaren Stellplan.",
+      "related_kicker": "Engere Auswahlfragen",
+      "related_title": "Mini-Saunen, Einzelkabinen und Modelle bis sechs Quadratmeter weiter vergleichen."
+    }
+  },
+  {
+    "id": "width-under-120",
+    "section": "vergleiche",
+    "slug": "schmale-sauna-bis-120-cm",
+    "kind": "Nischenvergleich",
+    "eyebrow": "Breite bis 120 cm · Tiefe mitdenken",
+    "title": "Schmale Sauna bis 120 cm Breite",
+    "accent": "Für Nischen zählt mehr als die Frontansicht.",
+    "description": "Saunen bis 120 Zentimeter Außenbreite vergleichen und Tiefe, Türbereich, Innenraum, Montagezugang und Anschluss für schmale Standorte prüfen.",
+    "intro": "Der Vergleich nimmt nur Modelle mit dokumentierter Außenbreite bis 120 Zentimeter auf. Die Tiefe bleibt sichtbar, weil eine schmale Front weder einen kleinen Grundriss noch einen gut nutzbaren Innenraum garantiert.",
+    "layout": "technical",
+    "indexable": false,
+    "related_ids": ["area-under-two", "mini-sauna", "1-person-sauna"],
+    "planning": {
+      "kicker": "Nische vollständig vermessen",
+      "intro": "Wandverlauf, Sockel, Tür, Anschlüsse und Montageweg entscheiden darüber, ob die nominelle Breite am vorgesehenen Ort verfügbar bleibt.",
+      "guide_ids": ["platzbedarf", "sauna-fuer-die-wohnung"]
+    },
+    "editorial": {
+      "kicker": "Schmale Front, unterschiedliche Tiefe",
+      "title": "Die Breite löst eine konkrete Engstelle, der restliche Grundriss bleibt offen.",
+      "paragraphs": [
+        "Eine Außenbreite von höchstens 120 Zentimetern ist für Nischen, kleine Bäder oder freie Wandstücke ein sinnvoller Ausgangswert. Gemessen wird die Kabine an ihrer breitesten dokumentierten Stelle. Überstände, Griffe und erforderliche Seitenabstände können darüber hinausgehen.",
+        "Zwei gleich breite Modelle können sich in der Tiefe stark unterscheiden. Das verändert den Laufweg vor der Kabine, die Position im Raum und die mögliche Sitzanordnung. Der Vergleich zeigt deshalb beide Außenmaße und sortiert nicht nach einem pauschalen Kompaktheitsversprechen.",
+        "Vorhandene Sockelleisten, Heizkörper oder schiefe Wände verkleinern die reale Nische. Für den Aufbau wird zusätzlich Platz benötigt, selbst wenn die fertige Kabine später knapp hineinpasst. Eine Maßaufnahme an mehreren Höhen schützt vor Fehlplanungen an Decke und Boden."
+      ],
+      "pointsTitle": "Messpunkte für schmale Standorte",
+      "points": [
+        "Nischenbreite am Boden, in mittlerer Höhe und unter der Decke",
+        "Gesamttiefe einschließlich freiem Türbereich",
+        "Montageseite und Zugang zu elektrischen Komponenten",
+        "Innenmaß, Sitzbreite und Position der Wärmequelle"
+      ],
+      "callout": "120 Zentimeter Außenbreite beschreiben die Kabine, nicht automatisch den vollständigen Einbauraum."
+    },
+    "filters": { "width_max": 120 },
+    "sort": "footprint",
+    "criteria": [
+      "Die dokumentierte Außenbreite beträgt höchstens 120 Zentimeter",
+      "Tiefe und Höhe bleiben als eigenständige Maße sichtbar",
+      "Die Auswahl umfasst nur Produkte mit belastbaren Abmessungen",
+      "Die Reihenfolge richtet sich nach Grundfläche und enthält keine Qualitätswertung"
+    ],
+    "checks": [
+      "Nische an mehreren Stellen messen und den kleinsten Wert verwenden.",
+      "Türflügel, Einstieg und Verkehrsfläche vor der Kabine einzeichnen.",
+      "Montagerichtung sowie Wartungszugang in der Anleitung prüfen.",
+      "Innenraum und Sitzposition anhand von Innenmaßen oder Zeichnung bewerten."
+    ],
+    "module_copy": {
+      "method_kicker": "Breitenfilter",
+      "method_title": "Aufgenommen werden Kabinen mit höchstens 120 Zentimetern dokumentierter Außenbreite.",
+      "method_note": "Der jüngste Datenstand der enthaltenen Produkte wurde geprüft am",
+      "results_kicker": "Modelle für schmale Standorte",
+      "results_title": "{count} Produkte erfüllen die Breitenbegrenzung.",
+      "results_intro": "Die Übersicht stellt Breite, Tiefe und weitere Kerndaten nebeneinander. Dadurch bleibt erkennbar, welches Modell nur schmal und welches insgesamt kompakt ist.",
+      "checks_kicker": "Nische absichern",
+      "checks_title": "Diese vier Messungen verhindern, dass eine passende Breite am Aufbau oder am Einstieg scheitert.",
+      "related_kicker": "Weitere Raumfilter",
+      "related_title": "Saunen bis zwei Quadratmeter, Mini-Saunen und Ein-Personen-Kabinen öffnen."
+    }
+  },
+  {
+    "id": "compact-two-person",
+    "section": "indoor-sauna",
+    "slug": "kompakte-2-personen-sauna",
+    "kind": "Kapazität und Fläche",
+    "eyebrow": "Zwei Personen · höchstens 2,5 m²",
+    "title": "Kompakte Sauna für 2 Personen",
+    "accent": "Zwei Plätze müssen im Innenraum funktionieren.",
+    "description": "Kompakte Zwei-Personen-Saunen bis 2,5 Quadratmeter vergleichen und Sitzanordnung, Wärmeart, Anschluss, Außenmaß und reale Nutzung einordnen.",
+    "intro": "Diese Auswahl verbindet zwei Datenpunkte. Die ausgewiesene Kapazität liegt bei zwei Personen und die berechnete Produktfläche bei höchstens 2,5 Quadratmetern. Damit bleiben größere Zweierkabinen bewusst außerhalb des Vergleichs.",
+    "layout": "capacity",
+    "indexable": false,
+    "related_ids": ["2-personen-sauna", "infrared-two-person", "area-under-two"],
+    "planning": {
+      "kicker": "Gemeinsame Nutzung",
+      "intro": "Für zwei Personen zählen neben den Außenmaßen die Sitzbreite, die Anordnung der Bänke oder Strahler und ein Einstieg, der auch bei belegten Plätzen funktioniert.",
+      "guide_ids": ["platzbedarf", "230-v-vs-400-v-sauna"]
+    },
+    "editorial": {
+      "kicker": "Kapazitätsangabe einordnen",
+      "title": "Zwei ausgewiesene Plätze sagen wenig über Abstand, Haltung und Wärmeverteilung.",
+      "paragraphs": [
+        "Die Herstellerangabe für zwei Personen beschreibt eine vorgesehene Belegung, jedoch keine einheitliche Sitzbreite. Manche Kabinen ordnen zwei Plätze nebeneinander an, andere nutzen eine Eckbank oder eine sehr aufrechte Sitzhaltung. Produktzeichnungen geben hier mehr Aufschluss als die Personenzahl allein.",
+        "Infrarotkabinen brauchen eine sinnvolle Position zu den verbauten Strahlern. Bei finnischen Modellen beeinflussen Bankhöhe, Ofenlage und Schutzabstand die nutzbare Fläche. Zwei Produkte mit gleichem Außenmaß können deshalb ein deutlich anderes Raumgefühl und eine andere Wärmeverteilung haben.",
+        "Die Grenze von 2,5 Quadratmetern hält die Auswahl kompakt, berücksichtigt aber keine Montagefugen und keinen Türbereich. Wer regelmäßig zu zweit sauniert, sollte die Innenmaße und den Einstieg höher gewichten als wenige eingesparte Zentimeter an der Außenkante."
+      ],
+      "pointsTitle": "Für zwei Personen konkret prüfen",
+      "points": [
+        "Sitzlänge und nutzbare Breite je Platz",
+        "Türöffnung bei vollständig belegter Kabine",
+        "Ofenabstand oder Position der Infrarotstrahler",
+        "Steuerung und Ablage ohne Einschränkung des Sitzraums"
+      ],
+      "callout": "Kompakt ist sinnvoll, wenn beide Plätze nutzbar bleiben und die Aufstellung vollständig geplant ist."
+    },
+    "filters": { "categories": ["indoor", "infrared"], "people_exact": 2, "footprint_max": 2.5 },
+    "sort": "footprint",
+    "criteria": [
+      "Indoor- oder Infrarotkabine mit dokumentierter Kapazität für zwei Personen",
+      "Berechnete Produktfläche von höchstens 2,5 Quadratmetern",
+      "Außenmaße und Wärmeart sind für den Vergleich vorhanden",
+      "Keine Rangfolge nach Komfort oder Produktqualität"
+    ],
+    "checks": [
+      "Innenzeichnung auf zwei tatsächlich nutzbare Sitzplätze prüfen.",
+      "Wärmequelle und Sitzpositionen für beide Personen abgleichen.",
+      "Produktfläche um Montageabstände und Türbereich ergänzen.",
+      "Spannung, Leistung und vorgesehenen Stromkreis bestätigen."
+    ],
+    "module_copy": {
+      "method_kicker": "Doppelfilter",
+      "method_title": "Kapazität für zwei Personen und höchstens 2,5 Quadratmeter Produktfläche gelten gemeinsam.",
+      "method_note": "Der jüngste Datenstand der enthaltenen Produkte wurde geprüft am",
+      "results_kicker": "Kompakte Zweiermodelle",
+      "results_title": "{count} Kabinen erfüllen beide Auswahlkriterien.",
+      "results_intro": "Die Produkte werden nach Stellfläche geordnet. Wärmeart, Maße und Anschluss zeigen, welche technischen Unterschiede hinter einer ähnlichen Größe liegen.",
+      "checks_kicker": "Nutzung zu zweit",
+      "checks_title": "Vier Fragen klären, ob die ausgewiesene Kapazität zum eigenen Nutzungsalltag passt.",
+      "related_kicker": "Zweierkabinen vertiefen",
+      "related_title": "Alle Zwei-Personen-Saunen, Infrarotmodelle und besonders kleine Grundflächen vergleichen."
+    }
+  },
+  {
+    "id": "garden-four-person",
+    "section": "outdoor-sauna",
+    "slug": "gartensauna-4-personen",
+    "kind": "Gartensauna nach Kapazität",
+    "eyebrow": "Vier Personen · Gebäude und Technik",
+    "title": "Gartensauna für 4 Personen",
+    "accent": "Der Platzbedarf endet nicht an der Außenwand.",
+    "description": "Gartensaunen für vier Personen anhand von Außenmaß, Fundamentfläche, Bauform, Ofenkonfiguration, Erschließung und nutzbarer Kapazität vergleichen.",
+    "intro": "Die Auswahl enthält Außensaunen, deren Datensatz eine Kapazität von vier Personen ausweist. Sie verbindet Produktmaße mit den Projektfragen im Garten, weil Fundament, Dach, Zuwegung und Energieversorgung außerhalb des Produktfilters liegen.",
+    "layout": "outdoor",
+    "indexable": false,
+    "related_ids": ["4-personen-sauna", "kleine-gartensauna", "outdoor-under-5000"],
+    "planning": {
+      "kicker": "Gebäude statt Möbelstück",
+      "intro": "Eine Gartensauna benötigt einen tragfähigen Standort, eine zugängliche Montagefläche und eine zum Ofen passende Versorgung. Die Personenzahl beantwortet diese Projektfragen nicht.",
+      "guide_ids": ["boden-und-fundament", "sauna-kosten"]
+    },
+    "editorial": {
+      "kicker": "Vier Plätze im Gartenprojekt",
+      "title": "Kapazität, Bankanordnung und Gebäudefläche müssen gemeinsam betrachtet werden.",
+      "paragraphs": [
+        "Vier Personen können auf zwei gegenüberliegenden Bänken anders sitzen als auf einer langen Bank mit kurzen Zusatzplätzen. Die ausgewiesene Kapazität ist deshalb ein Filter für die Modellwahl. Für den Nutzungskomfort werden Innenzeichnung, Banklängen und die Position des Ofens benötigt.",
+        "Außenmaß und Dachmaß sind nicht immer identisch. Dachüberstände, Regenrinne, Türbewegung und ein sicherer Weg zur Sauna vergrößern die beanspruchte Zone. Das Fundament richtet sich nach dem konkreten Bausatz und seinem Lastabtrag, nicht allein nach Breite mal Tiefe.",
+        "Beim Ofen unterscheiden sich Komplettsets, wählbare Konfigurationen und Produkte ohne eindeutig zugeordnetes Heizgerät. Anschlussleistung, Steuerung und Lieferumfang werden daher pro Variante geprüft. Ein Preisvergleich ohne diese Zuordnung würde unterschiedliche Projekte miteinander vermischen."
+      ],
+      "pointsTitle": "Vom Modell zum Gartenplan",
+      "points": [
+        "Bankplan für vier regulär nutzbare Plätze",
+        "Fundamentkontur samt Dachüberstand und Entwässerung",
+        "Transportweg für Wände, Dach und Ofenkomponenten",
+        "Strom- oder Holzofenplanung mit örtlichen Anforderungen"
+      ],
+      "callout": "Vier Personen sind eine Kapazitätsangabe. Der Gartenplan entsteht aus Bauform, Fundament, Weg und Heizsystem."
+    },
+    "filters": { "categories": ["outdoor"], "people_exact": 4 },
+    "sort": "footprint",
+    "criteria": [
+      "Produktkategorie ist Außensauna",
+      "Dokumentierte Kapazität liegt bei vier Personen",
+      "Außenmaße und Ofenangaben bleiben modellbezogen",
+      "Sortierung nach Produktfläche ohne Bestenliste"
+    ],
+    "checks": [
+      "Bankzeichnung und nutzbare Plätze für die eigene Gruppe prüfen.",
+      "Fundament nach Montageunterlagen des konkreten Modells planen.",
+      "Dachüberstand, Türbereich, Entwässerung und Zugang ergänzen.",
+      "Ofen, Steuerung, Anschluss und Lieferumfang eindeutig zuordnen."
+    ],
+    "module_copy": {
+      "method_kicker": "Auswahl nach Kapazität",
+      "method_title": "Der Vergleich bündelt Gartensaunen mit ausgewiesenen vier Personen, unabhängig von Bauform und Heizkonfiguration.",
+      "method_note": "Der jüngste Datenstand der enthaltenen Produkte wurde geprüft am",
+      "results_kicker": "Vierpersonensaunen für außen",
+      "results_title": "{count} Gartensaunen weisen vier Personen als Kapazität aus.",
+      "results_intro": "Die Reihenfolge folgt der Produktfläche. Außenmaß, Ofendaten und Preisstatus helfen, Gebäudegröße und Lieferumfang vor einer Detailprüfung einzuordnen.",
+      "checks_kicker": "Projekt im Garten",
+      "checks_title": "Diese vier Kontrollen verbinden den Produktvergleich mit dem vorgesehenen Standort.",
+      "related_kicker": "Kapazität und Budget",
+      "related_title": "Alle Vier-Personen-Saunen, kleine Gartenmodelle und Angebote bis 5.000 Euro ansehen."
+    }
+  },
+  {
+    "id": "garden-area-under-four",
+    "section": "outdoor-sauna",
+    "slug": "gartensauna-bis-4-m2",
+    "kind": "Kleine Gartenfläche",
+    "eyebrow": "Außenmodell · bis 4 m² Produktfläche",
+    "title": "Gartensauna bis 4 m²",
+    "accent": "Kleine Gebäude brauchen vollständige Außenplanung.",
+    "description": "Gartensaunen bis vier Quadratmeter Produktfläche vergleichen und Dachform, Fundament, Kapazität, Zugangsweg, Ofen und zusätzliche Außenflächen einordnen.",
+    "intro": "Hier erscheinen Außensaunen, deren dokumentierte Breite und Tiefe eine Produktfläche von höchstens vier Quadratmetern ergeben. Dachüberstände, Terrasse, Schutzabstände und Arbeitsraum für die Montage sind in dieser Grenze nicht enthalten.",
+    "layout": "outdoor",
+    "indexable": false,
+    "related_ids": ["kleine-gartensauna", "garden-four-person", "area-under-two"],
+    "planning": {
+      "kicker": "Kompaktes Gartenbauwerk",
+      "intro": "Eine kleine Kabine reduziert die Produktkontur, aber nicht die Anforderungen an tragfähigen Untergrund, Witterungsschutz, Entwässerung und sichere Erschließung.",
+      "guide_ids": ["boden-und-fundament", "platzbedarf"]
+    },
+    "editorial": {
+      "kicker": "Fläche im Außenraum",
+      "title": "Vier Quadratmeter beschreiben den Grundkörper, während Dach und Zugang darüber hinausreichen können.",
+      "paragraphs": [
+        "Die Produktfläche wird aus den dokumentierten Außenmaßen berechnet und schafft eine konsistente Vorauswahl. Bei Fasssaunen, Elementhäusern und Modellen mit Vorraum entstehen jedoch verschiedene Gebäudeformen. Dieselbe Quadratmeterzahl führt deshalb nicht zu derselben nutzbaren Innenfläche.",
+        "Ein Dachüberstand schützt Bauteile und verändert zugleich die benötigte Grundstücksfläche. Hinzu kommen Entwässerung, Türbewegung und ein befestigter Zugang. Für einen engen Standort sollte der Lageplan diese Zonen enthalten, bevor die Fundamentkontur festgelegt wird.",
+        "Kompakte Außensaunen können mit Elektro- oder Holzofen angeboten werden, teilweise bleibt die Heizquelle konfigurierbar. Dadurch ändern sich Anschluss, Schornstein, Brandschutz und Lieferumfang. Die Flächenauswahl bildet keine gemeinsame technische Lösung für alle Ergebnisse ab."
+      ],
+      "pointsTitle": "Zusatzflächen außerhalb des Filters",
+      "points": [
+        "Dachüberstand, Regenführung und Wartungsseite",
+        "Türbereich, Stufe und rutschfester Zugang",
+        "Fundamentaufbau nach Herstellervorgabe",
+        "Technikzone für Stromanschluss oder Holzofen"
+      ],
+      "callout": "Bis vier Quadratmeter bleibt eine klare Größenklasse. Die belegte Gartenfläche fällt in der Regel größer aus."
+    },
+    "filters": { "categories": ["outdoor"], "footprint_max": 4 },
+    "sort": "footprint",
+    "criteria": [
+      "Außensauna mit dokumentierten Breiten- und Tiefenmaßen",
+      "Berechnete Produktfläche von höchstens vier Quadratmetern",
+      "Bauform, Kapazität und Ofenkonfiguration bleiben sichtbar",
+      "Keine Einbeziehung von Dachüberstand oder Projektnebenflächen in den Filter"
+    ],
+    "checks": [
+      "Außenkontur mit Dachüberstand und Entwässerung im Lageplan ergänzen.",
+      "Fundamentabmessung aus der Modellunterlage ableiten.",
+      "Zugang, Stufe und geöffnete Tür als Bewegungsflächen einzeichnen.",
+      "Heizquelle und daraus folgende Anschlüsse oder Abstände bestätigen."
+    ],
+    "module_copy": {
+      "method_kicker": "Flächenklasse für außen",
+      "method_title": "Breite mal Tiefe bleibt bei den ausgewählten Gartensaunen innerhalb von vier Quadratmetern.",
+      "method_note": "Der jüngste Datenstand der enthaltenen Produkte wurde geprüft am",
+      "results_kicker": "Kompakte Außengebäude",
+      "results_title": "{count} Gartensaunen liegen mit ihrer Produktfläche bei höchstens vier Quadratmetern.",
+      "results_intro": "Die Übersicht ordnet nach Grundfläche und zeigt Bauform, Kapazität, Anschluss und Preis. Zusätzliche Projektflächen werden auf der Detail- und Planungsstufe ergänzt.",
+      "checks_kicker": "Grundstück statt Datenblatt",
+      "checks_title": "Vier Ergänzungen zeigen, wie viel Fläche das vollständige Gartenprojekt tatsächlich beansprucht.",
+      "related_kicker": "Weitere kleine Modelle",
+      "related_title": "Kleine Gartensaunen, Vier-Personen-Modelle und Saunen bis zwei Quadratmeter vergleichen."
+    }
+  },
+  {
+    "id": "infrared-230",
+    "section": "vergleiche",
+    "slug": "230-v-infrarotkabine",
+    "kind": "Anschlussvergleich",
+    "eyebrow": "Infrarot · 230 V ausdrücklich belegt",
+    "title": "Infrarotkabine mit 230 V",
+    "accent": "Die Spannung allein beschreibt den Anschluss noch nicht.",
+    "description": "Infrarotkabinen mit belegten 230 Volt vergleichen und Leistung, Steckertyp, Stromkreis, Aufstellort, Kapazität und Strahlerkonzept getrennt prüfen.",
+    "intro": "Der Filter nimmt nur Infrarotkabinen auf, bei denen 230 Volt im Datensatz ausdrücklich dokumentiert sind. Daraus folgt weder automatisch ein bestimmter Stecker noch die Freigabe für jeden vorhandenen Stromkreis.",
+    "layout": "technical",
+    "indexable": false,
+    "related_ids": ["infrarotkabine", "infrared-one-person", "infrared-two-person"],
+    "planning": {
+      "kicker": "Elektrische Angaben lesen",
+      "intro": "Spannung, Leistungsaufnahme, Absicherung, Steckverbindung und zulässige Leitungsführung bilden zusammen die elektrische Planung der gewählten Kabine.",
+      "guide_ids": ["230-v-vs-400-v-sauna", "stromverbrauch-heimsauna"]
+    },
+    "editorial": {
+      "kicker": "230 Volt richtig einordnen",
+      "title": "Eine übliche Netzspannung ersetzt keine Prüfung von Leistung und Stromkreis.",
+      "paragraphs": [
+        "230 Volt ist bei vielen kompakten Infrarotkabinen dokumentiert und erleichtert die Vorauswahl für Wohnräume. Der Wert sagt jedoch noch nichts darüber aus, ob ein Schutzkontaktstecker mitgeliefert wird, eine feste Verbindung vorgesehen ist oder weitere Verbraucher am selben Stromkreis betrieben werden dürfen.",
+        "Die Leistungsaufnahme beeinflusst Stromstärke und laufenden Verbrauch. Zusätzliche Komponenten wie Licht, Audio oder Steuerung können im Gesamtwert enthalten sein oder separat versorgt werden. Maßgeblich bleiben Typenschild, Anschlussplan und die Anleitung der tatsächlich angebotenen Variante.",
+        "Für den Produktvergleich stehen außerdem Kabinengröße, Personenzahl und Strahleranordnung im Vordergrund. Zwei Modelle mit identischer Spannung können sich bei Aufheizcharakter, Sitzposition und Platzbedarf deutlich unterscheiden. Die elektrische Gemeinsamkeit macht sie nicht funktional gleich."
+      ],
+      "pointsTitle": "Elektrische Unterlagen abgleichen",
+      "points": [
+        "Nennleistung und maximale Stromaufnahme",
+        "Vorgesehener Stecker oder feste Anschlussart",
+        "Absicherung und weitere Verbraucher im Stromkreis",
+        "Zulässige Leitungsführung am geplanten Aufstellort"
+      ],
+      "callout": "230 Volt ist ein verifizierbares Produktmerkmal. Die Eignung des vorhandenen Anschlusses wird separat geklärt."
+    },
+    "filters": { "categories": ["infrared"], "voltages": [230] },
+    "sort": "footprint",
+    "criteria": [
+      "Produkt ist als Infrarotkabine kategorisiert",
+      "230 Volt sind in der geprüften Quelle ausdrücklich ausgewiesen",
+      "Fehlende Stecker- oder Absicherungsangaben werden nicht ergänzt",
+      "Sortierung nach Grundfläche ohne Aussage zur elektrischen Eignung"
+    ],
+    "checks": [
+      "Leistung und maximale Stromaufnahme in der Modellunterlage bestätigen.",
+      "Steckertyp oder festen Anschluss der konkreten Variante prüfen.",
+      "Stromkreis und Absicherung fachlich beurteilen lassen.",
+      "Kabelweg ohne Verlängerung oder Mehrfachsteckdose planen, sofern die Anleitung nichts anderes zulässt."
+    ],
+    "module_copy": {
+      "method_kicker": "Belegter Anschlusswert",
+      "method_title": "Infrarotkategorie und ausdrücklich dokumentierte 230 Volt müssen gemeinsam vorliegen.",
+      "method_note": "Der jüngste Datenstand der enthaltenen Produkte wurde geprüft am",
+      "results_kicker": "230-V-Infrarotkabinen",
+      "results_title": "{count} Infrarotkabinen führen 230 Volt im geprüften Datensatz.",
+      "results_intro": "Die Ergebnisse nennen Fläche, Kapazität, Leistung und Preisstatus. Offene Angaben zu Stecker oder Absicherung bleiben als Datenlücke erkennbar.",
+      "checks_kicker": "Anschluss vor Ort",
+      "checks_title": "Vier technische Kontrollen verbinden die Produktangabe mit der vorhandenen Elektroinstallation.",
+      "related_kicker": "Infrarot nach Größe",
+      "related_title": "Alle Infrarotkabinen sowie Modelle für eine oder zwei Personen vergleichen."
+    }
+  },
+  {
+    "id": "wood-heated",
+    "section": "vergleiche",
+    "slug": "holzbeheizte-sauna",
+    "kind": "Heizart und Einsatz",
+    "eyebrow": "Holzofen · feste und mobile Systeme",
+    "title": "Holzbeheizte Sauna",
+    "accent": "Feuerstätte, Luftführung und Standort gehören zusammen.",
+    "description": "Holzbeheizte Saunen und Saunazelte vergleichen und Ofen, Schornstein, Brandschutz, Verbrennungsluft, Aufbau, Standort und Lieferumfang einordnen.",
+    "intro": "Die Auswahl bündelt Produkte, deren Heizart als Holz dokumentiert ist. Feste Gartensaunen und mobile Saunazelte bleiben dabei klar unterscheidbar, weil Aufbau, Genehmigung, Abstände und Nutzung unterschiedlichen Bedingungen folgen.",
+    "layout": "heat",
+    "indexable": false,
+    "related_ids": ["kleine-gartensauna", "fasssauna", "bio-sauna"],
+    "planning": {
+      "kicker": "Feuerstätte planen",
+      "intro": "Ein Holzofen verlangt eine passende Abgasführung, nicht brennbare Schutzbereiche, ausreichende Verbrennungsluft und die Abstimmung mit den örtlich zuständigen Stellen.",
+      "guide_ids": ["lueftung", "boden-und-fundament"]
+    },
+    "editorial": {
+      "kicker": "Zwei Produktwelten",
+      "title": "Holzbeheizte Gebäude und Saunazelte teilen die Wärmequelle, aber kaum dieselbe Planung.",
+      "paragraphs": [
+        "Bei einer festen Gartensauna werden Ofen, Schutzabstände, Schornsteinführung und Gebäudekonstruktion dauerhaft aufeinander abgestimmt. Fundament, Wetterschutz und der Zugang für Brennstoff gehören zum Projekt. Die konkrete Ausführung richtet sich nach Produktunterlagen und örtlichen Anforderungen.",
+        "Ein Saunazelt ist transportabel und schneller aufgestellt, braucht dennoch einen freigegebenen Ofen, passende Ofendurchführung, sicheren Untergrund und Abstand zu brennbaren Materialien. Wind, Wetter und Belüftung beeinflussen den Betrieb stärker als bei einer geschlossenen Holzkabine.",
+        "Der Lieferumfang variiert erheblich. Ofen, Rauchrohre, Hitzeschutz, Steine oder Bodenmatte können enthalten, optional oder separat erforderlich sein. Für einen fairen Vergleich wird deshalb jedes Set anhand der dokumentierten Komponenten beurteilt und nicht nur nach dem Produktpreis."
+      ],
+      "pointsTitle": "Vor der Modellwahl klären",
+      "points": [
+        "Zulässiger Standort und örtliche Anforderungen an die Feuerstätte",
+        "Ofenleistung, Abgasweg und erforderliche Schutzabstände",
+        "Verbrennungsluft und sichere Lüftung während des Betriebs",
+        "Vollständiger Lieferumfang einschließlich Rohren und Hitzeschutz"
+      ],
+      "callout": "Holz als Heizart verbindet die Auswahl. Bauform und Einsatz bestimmen den weiteren Prüfweg."
+    },
+    "filters": { "voltages": ["wood"] },
+    "sort": "footprint",
+    "criteria": [
+      "Holzbefeuerung ist im Produktdatensatz ausdrücklich dokumentiert",
+      "Mobile und feste Produkte bleiben nach Kategorie erkennbar",
+      "Ofen- und Lieferumfang werden nur aus belegten Angaben übernommen",
+      "Die Auswahl enthält keine pauschale Aussage zur Genehmigungsfähigkeit"
+    ],
+    "checks": [
+      "Ofenmodell und Freigabe für das konkrete Saunasystem bestätigen.",
+      "Schornstein, Durchführung und Schutzabstände vollständig planen.",
+      "Örtliche Vorgaben und zuständige Abnahme vor dem Kauf klären.",
+      "Lieferumfang auf Rauchrohre, Steine und Hitzeschutz kontrollieren."
+    ],
+    "module_copy": {
+      "method_kicker": "Auswahl nach Heizart",
+      "method_title": "Aufgenommen sind Produkte, deren dokumentierte Versorgung ausdrücklich Holz lautet.",
+      "method_note": "Der jüngste Datenstand der enthaltenen Produkte wurde geprüft am",
+      "results_kicker": "Holzbeheizte Systeme",
+      "results_title": "{count} Saunen und mobile Systeme sind mit Holzheizung dokumentiert.",
+      "results_intro": "Kategorie, Maße, Kapazität und Ofenangaben zeigen, welche Ergebnisse feste Gebäude und welche mobile Saunasysteme sind.",
+      "checks_kicker": "Feuer und Abgas",
+      "checks_title": "Vier Prüfbereiche entscheiden über sichere Planung und vollständigen Lieferumfang.",
+      "related_kicker": "Außensaunen nach Bauform",
+      "related_title": "Kleine Gartensaunen, Fasssaunen und alternative Wärmearten gegenüberstellen."
+    }
+  },
+  {
+    "id": "thermo-wood",
+    "section": "vergleiche",
+    "slug": "thermoholz-sauna",
+    "kind": "Materialvergleich",
+    "eyebrow": "Thermoholz · Materialangabe im Kontext",
+    "title": "Sauna aus Thermoholz",
+    "accent": "Entscheidend ist, wo das Material tatsächlich eingesetzt wird.",
+    "description": "Saunen mit Thermoholz, Thermofichte oder Thermo-Espe vergleichen und Materialumfang, Einsatzort, Konstruktion, Außenmaß und Pflegehinweise prüfen.",
+    "intro": "Der Vergleich sucht nach belegten Thermoholz-Angaben in den Produktdaten. Er trennt nicht automatisch zwischen vollständiger Außenhülle, einzelnen Wandprofilen, Innenausbau oder Bankmaterial, weil diese Zuordnung aus der jeweiligen Quelle hervorgehen muss.",
+    "layout": "tradeoff",
+    "indexable": false,
+    "related_ids": ["finnische-sauna", "kleine-gartensauna", "fasssauna"],
+    "planning": {
+      "kicker": "Materialangabe präzisieren",
+      "intro": "Thermoholz beschreibt eine Behandlung und kann verschiedene Holzarten oder Bauteile betreffen. Konstruktion, Oberflächenaufbau und Pflege bleiben modellspezifisch.",
+      "guide_ids": ["boden-und-fundament", "lueftung"]
+    },
+    "editorial": {
+      "kicker": "Bauteil statt Schlagwort",
+      "title": "Thermoholz kann Hülle, Innenwand, Bank oder einzelne Profile bezeichnen.",
+      "paragraphs": [
+        "Thermische Behandlung verändert Holz durch kontrollierte Erwärmung. Welche Eigenschaften für ein Produkt relevant sind, hängt von Holzart, Behandlungsprozess und Einsatzbereich ab. Eine allgemeine Materialbezeichnung reicht deshalb nicht aus, um Wartung oder Witterungsbeständigkeit einer ganzen Sauna abzuleiten.",
+        "Bei Außensaunen ist wichtig, ob Thermoholz an der Fassade, in massiven Wandprofilen oder lediglich im Innenraum eingesetzt wird. Dachaufbau, Stirnkanten, Verbindungen und konstruktiver Holzschutz beeinflussen die Bewitterung ebenfalls. Die Produktquelle sollte den tatsächlichen Aufbau erkennen lassen.",
+        "Im Innenraum zählen Oberflächentemperatur, Haptik und die Eignung für Bänke oder Rückenlehnen. Thermo-Espe und Thermofichte sind dabei keine austauschbaren Begriffe. Pflegehinweise und zulässige Oberflächenbehandlung werden für das konkrete Modell übernommen."
+      ],
+      "pointsTitle": "Materialangabe belastbar lesen",
+      "points": [
+        "Genannte Holzart und thermisch behandeltes Bauteil",
+        "Einsatz im Innenraum, an der Außenhülle oder in beiden Bereichen",
+        "Konstruktiver Schutz von Dach, Kanten und Verbindungen",
+        "Herstellerangaben zu Pflege und Oberflächenbehandlung"
+      ],
+      "callout": "Thermoholz ist ein belegbares Merkmal. Seine Bedeutung entsteht erst durch Holzart, Bauteil und Einsatzort."
+    },
+    "filters": { "wood_contains": "thermo" },
+    "sort": "footprint",
+    "criteria": [
+      "Die Materialangabe enthält Thermoholz, Thermofichte oder Thermo-Espe",
+      "Produktkategorie und Standort bleiben sichtbar",
+      "Nicht dokumentierte Bauteilzuordnungen werden nicht ergänzt",
+      "Sortierung nach Grundfläche ohne Materialrangliste"
+    ],
+    "checks": [
+      "Klären, welche Bauteile tatsächlich aus thermisch behandeltem Holz bestehen.",
+      "Holzart und Oberflächenaufbau in der Produktunterlage bestätigen.",
+      "Pflegehinweise für Innen- und Außenbauteile getrennt prüfen.",
+      "Bei Außenmodellen Dach, Kanten und Entwässerung in die Standortplanung aufnehmen."
+    ],
+    "module_copy": {
+      "method_kicker": "Materialfilter",
+      "method_title": "Die Auswahl basiert auf einer ausdrücklich dokumentierten Thermoholz-Angabe im Produktdatensatz.",
+      "method_note": "Der jüngste Datenstand der enthaltenen Produkte wurde geprüft am",
+      "results_kicker": "Modelle mit Thermoholz",
+      "results_title": "{count} Produkte führen eine thermisch behandelte Holzart oder Thermoholz im Datensatz.",
+      "results_intro": "Die Übersicht zeigt Einsatzort, Maße, Kapazität und Heizsystem. Die Detailquelle klärt, auf welches Bauteil sich die Materialbezeichnung bezieht.",
+      "checks_kicker": "Material vor Kauf",
+      "checks_title": "Vier Kontrollen trennen eine konkrete Konstruktion von einer allgemeinen Materialbezeichnung.",
+      "related_kicker": "Bauformen und Materialien",
+      "related_title": "Finnische Saunen, kleine Außenmodelle und Fasssaunen für weitere Konstruktionsvergleiche öffnen."
+    }
+  },
+  {
+    "id": "integrated-control",
+    "section": "vergleiche",
+    "slug": "sauna-mit-integrierter-steuerung",
+    "kind": "Bedien- und Technikvergleich",
+    "eyebrow": "Steuerung · im System ausgewiesen",
+    "title": "Sauna mit integrierter Steuerung",
+    "accent": "Integriert kann Ofen, Bedienteil oder Kabinensystem meinen.",
+    "description": "Saunen mit dokumentierter integrierter Steuerung vergleichen und Einbauort, Ofenzuordnung, Sensorik, Bedienung, Wartungszugang und Anschluss prüfen.",
+    "intro": "Diese Auswahl basiert auf der Formulierung zur integrierten Steuerung im dokumentierten Heizsystem. Sie behandelt das Merkmal als Ausgangspunkt für die Detailprüfung, weil Position, Funktionsumfang und technische Ausführung je nach Produkt variieren.",
+    "layout": "technical",
+    "indexable": false,
+    "related_ids": ["finnische-sauna", "voltage-400", "brand-artsauna"],
+    "planning": {
+      "kicker": "Bedienkonzept lokalisieren",
+      "intro": "Vor der Auswahl wird geklärt, wo geregelt wird, welche Sensoren dazugehören und ob das Bedienteil im warmen Innenraum, außen an der Kabine oder direkt am Ofen sitzt.",
+      "guide_ids": ["230-v-vs-400-v-sauna", "stromverbrauch-heimsauna"]
+    },
+    "editorial": {
+      "kicker": "Steuerung als Systemteil",
+      "title": "Ein kurzer Ausstattungsbegriff kann mehrere technische Lösungen bezeichnen.",
+      "paragraphs": [
+        "Bei manchen Saunaöfen sitzen Regler direkt am Gerät, bei anderen gehört ein Bedienteil zur Kabine oder zu einem abgestimmten Set. Die Bezeichnung integriert erklärt ohne weitere Unterlagen weder den Montageort noch den Funktionsumfang. Die Modellzuordnung bleibt deshalb ein wesentlicher Teil des Vergleichs.",
+        "Bedienbarkeit hängt vom Einbauort ab. Ein Regler nahe am Boden kann während der Nutzung schwer erreichbar sein, ein außen montiertes Panel benötigt eine passende Leitungsführung. Sensorposition, Temperaturbereich und mögliche Zeitvorwahl ergeben sich aus der jeweiligen Anleitung.",
+        "Für Wartung und Austausch muss die Steuerung zugänglich bleiben. Auch bei einem vollständigen Set werden Ofenleistung, Netzanschluss und Absicherung separat geprüft. Komfortfunktionen ändern nichts an den Anforderungen der elektrischen Installation."
+      ],
+      "pointsTitle": "Steuerung im Datenblatt konkretisieren",
+      "points": [
+        "Einbauort von Regler, Bedienteil und Temperaturfühler",
+        "Eindeutige Zuordnung zum enthaltenen oder wählbaren Ofen",
+        "Bedienfunktionen und zulässige Betriebsarten",
+        "Zugang für Anschluss, Wartung und späteren Austausch"
+      ],
+      "callout": "Eine integrierte Steuerung kann die Bedienung vereinfachen. Ihre technische Ausführung bleibt produktspezifisch."
+    },
+    "filters": { "heater_contains": "integrierter Steuerung" },
+    "sort": "footprint",
+    "criteria": [
+      "Die Heiztechnik nennt eine integrierte Steuerung ausdrücklich",
+      "Ofen und Steuerung werden als konkrete Produktkonfiguration betrachtet",
+      "Fehlende Angaben zu Funktionen oder Einbauort bleiben offen",
+      "Keine Bewertung der Bedienqualität ohne dokumentierte Grundlage"
+    ],
+    "checks": [
+      "Ofenvariante und dazugehörige Steuerung eindeutig zuordnen.",
+      "Position von Bedienteil und Sensoren in der Montageunterlage prüfen.",
+      "Bedienweg und Ablesbarkeit am geplanten Standort bewerten.",
+      "Elektrischen Anschluss sowie Wartungszugang fachgerecht planen."
+    ],
+    "module_copy": {
+      "method_kicker": "Dokumentiertes Bedienmerkmal",
+      "method_title": "Die Heiztechnik muss eine integrierte Steuerung ausdrücklich ausweisen.",
+      "method_note": "Der jüngste Datenstand der enthaltenen Produkte wurde geprüft am",
+      "results_kicker": "Steuerung im Saunasystem",
+      "results_title": "{count} Produkte nennen eine integrierte Steuerung in ihrer dokumentierten Heiztechnik.",
+      "results_intro": "Die Ergebnisse zeigen Maße, Leistung und Produktkontext. Die jeweilige Detailquelle bleibt für Einbauort und Funktionsumfang maßgeblich.",
+      "checks_kicker": "Bedienung und Einbau",
+      "checks_title": "Vier Prüfungen zeigen, ob Steuerung, Ofen und geplanter Standort technisch zusammenpassen.",
+      "related_kicker": "Technik weiter vergleichen",
+      "related_title": "Finnische Saunen, 400-Volt-Modelle und das Artsauna-Sortiment gegenüberstellen."
+    }
+  },
+  {
+    "id": "finnish-four-person",
+    "section": "indoor-sauna",
+    "slug": "finnische-sauna-4-personen",
+    "kind": "Finnische Sauna nach Kapazität",
+    "eyebrow": "Klassische Wärme · vier Personen",
+    "title": "Finnische Sauna für 4 Personen",
+    "accent": "Vier Plätze entstehen aus Bankplan, Volumen und Ofenraum.",
+    "description": "Finnische Saunen für vier Personen anhand von Bankanordnung, Außenmaß, Kabinenvolumen, Ofenleistung, Spannung, Liegeplatz und Lieferumfang vergleichen.",
+    "intro": "Die Auswahl verbindet die Kategorie Indoor, den dokumentierten Saunatyp Finnische Sauna und eine Kapazität von vier Personen. Sie grenzt damit Kombi- und Infrarotkabinen aus, ohne aus der Personenzahl eine einheitliche Raumaufteilung abzuleiten.",
+    "layout": "capacity",
+    "indexable": false,
+    "related_ids": ["4-personen-sauna", "finnische-sauna", "finnish-three-person"],
+    "planning": {
+      "kicker": "Vier Plätze im warmen Innenraum",
+      "intro": "Banklänge, Ebenen, Ofenschutz und der freie Einstieg bestimmen, ob die angegebene Kapazität auch für die geplante Nutzungsdauer angenehm ist.",
+      "guide_ids": ["platzbedarf", "230-v-vs-400-v-sauna"]
+    },
+    "editorial": {
+      "kicker": "Bankplan und Heizleistung",
+      "title": "Eine Vierpersonenkabine wird über nutzbare Plätze und ein abgestimmtes Heizsystem beurteilt.",
+      "paragraphs": [
+        "Vier Sitzplätze können auf einer langen Bank, auf zwei Ebenen oder über Eck verteilt sein. Für gemeinsames Saunieren zählt, ob alle Personen ausreichend Abstand zum Ofen haben und der Einstieg frei bleibt. Ein ausgewiesener Liegeplatz ist ein eigenes Merkmal und folgt nicht automatisch aus der Kapazität.",
+        "Ofenleistung wird zum Kabinenvolumen und zum Aufbau der Wärme abgebenden Flächen passend gewählt. Große Glasanteile oder massive Bauteile können die Auslegung beeinflussen. Die dokumentierte Kilowattzahl wird deshalb immer zusammen mit der freigegebenen Modellkonfiguration gelesen.",
+        "Bei Sets ist zu prüfen, ob Ofen, Steuerung und Steine im Angebot enthalten sind. Spannung und Anschluss bleiben Variantenmerkmale, selbst wenn ähnliche Kabinen unter demselben Modellnamen verkauft werden. Vor der Bestellung braucht die ausgewählte Ausführung einen eindeutigen Anschlussplan."
+      ],
+      "pointsTitle": "Vier-Personen-Nutzung absichern",
+      "points": [
+        "Banklängen, Ebenen und ausgewiesene Liegeplätze",
+        "Abstand aller Plätze zu Ofen und Schutzgitter",
+        "Kabinenvolumen und freigegebene Ofenleistung",
+        "Lieferumfang von Ofen, Steuerung, Steinen und Zubehör"
+      ],
+      "callout": "Die Kapazität ordnet die Auswahl. Komfort und Technik ergeben sich aus Bankplan, Volumen und konkretem Ofenset."
+    },
+    "filters": { "categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 4 },
+    "sort": "footprint",
+    "criteria": [
+      "Indoor-Kategorie und Saunatyp Finnische Sauna sind dokumentiert",
+      "Kapazität ist mit vier Personen ausgewiesen",
+      "Maße, Leistung und Spannung bleiben variantenbezogen",
+      "Sortierung nach Grundfläche ohne Komfort- oder Qualitätsrangfolge"
+    ],
+    "checks": [
+      "Bankplan auf vier nutzbare Sitzplätze und mögliche Liegeflächen prüfen.",
+      "Ofenleistung anhand der freigegebenen Kabinenkonfiguration bestätigen.",
+      "Ofenabstand, Schutzgitter und freien Einstieg im Grundriss kontrollieren.",
+      "Lieferumfang, Steuerung, Spannung und Anschlussplan vollständig abgleichen."
+    ],
+    "module_copy": {
+      "method_kicker": "Drei gemeinsame Merkmale",
+      "method_title": "Indoor-Aufstellung, finnische Wärmeart und vier Personen bilden gemeinsam den Auswahlfilter.",
+      "method_note": "Der jüngste Datenstand der enthaltenen Produkte wurde geprüft am",
+      "results_kicker": "Finnische Vierpersonenkabinen",
+      "results_title": "{count} Indoor-Saunen erfüllen Typ- und Kapazitätsfilter.",
+      "results_intro": "Die Reihenfolge folgt der Stellfläche. Maße, Ofenleistung, Anschluss und Liegeplätze zeigen die Unterschiede hinter derselben Personenzahl.",
+      "checks_kicker": "Gemeinsame Nutzung planen",
+      "checks_title": "Vier Kontrollen verbinden die Kapazitätsangabe mit Bankanordnung und Heizsystem.",
+      "related_kicker": "Kapazität und Wärmeart",
+      "related_title": "Alle Vier-Personen-Saunen, finnischen Modelle und Dreipersonenkabinen vergleichen."
+    }
   }
 ]

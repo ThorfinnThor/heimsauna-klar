@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-21",
   "target_new_pages": 71,
   "publication_policy": "Kein Eintrag wird allein aus dem Seitentitel erzeugt. Vergleiche benötigen eine eigenständige Entscheidungsfrage und mindestens sieben passende verifizierte Produktdatensätze. Ratgeber benötigen vor der Veröffentlichung mindestens zwei fachlich geeignete Quellen.",
   "collections": [
@@ -133,7 +133,8 @@
       "narrative_angle": "Die Seite prüft, welche baulichen Folgen eine echte Nutzung mit vier Personen hat.",
       "filter": { "categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 4 },
       "evidence_basis": "Kapazität, Fläche, Liegeplätze, Leistung und Spannung",
-      "status": "planned"
+      "status": "published",
+      "search_indexing": "draft"
     },
     {
       "id": "garden-four-person",
@@ -144,7 +145,8 @@
       "narrative_angle": "Außenmaß, Fundamentfläche und Kapazität stehen im Mittelpunkt.",
       "filter": { "categories": ["outdoor"], "people_exact": 4 },
       "evidence_basis": "Außenmaße, Grundfläche, Kapazität und Ofenkonfiguration",
-      "status": "planned"
+      "status": "published",
+      "search_indexing": "draft"
     },
     {
       "id": "garden-five-person",
@@ -177,7 +179,8 @@
       "narrative_angle": "Die gemessene Produktfläche wird klar von Montage- und Wandabständen getrennt.",
       "filter": { "footprint_max": 2 },
       "evidence_basis": "Berechnete Grundfläche aus Breite und Tiefe",
-      "status": "planned"
+      "status": "published",
+      "search_indexing": "draft"
     },
     {
       "id": "area-two-to-four",
@@ -199,7 +202,8 @@
       "narrative_angle": "Kleine Gebäude werden nach Kapazität, Dachform und Fundamentbedarf eingeordnet.",
       "filter": { "categories": ["outdoor"], "footprint_max": 4 },
       "evidence_basis": "Außenmaße, Produktfläche, Kapazität und Bauform",
-      "status": "planned"
+      "status": "published",
+      "search_indexing": "draft"
     },
     {
       "id": "width-under-120",
@@ -210,7 +214,8 @@
       "narrative_angle": "Breite, Tiefe und Türbereich werden als zusammenhängende Einbausituation beschrieben.",
       "filter": { "width_max": 120 },
       "evidence_basis": "Dokumentierte Außenmaße und Aufstellort",
-      "status": "planned"
+      "status": "published",
+      "search_indexing": "draft"
     },
     {
       "id": "depth-under-150",
@@ -243,7 +248,8 @@
       "narrative_angle": "Kapazität und tatsächliche Grundfläche werden gemeinsam gefiltert.",
       "filter": { "categories": ["indoor", "infrared"], "people_exact": 2, "footprint_max": 2.5 },
       "evidence_basis": "Kapazität, Grundfläche, Außenmaße und Wärmeart",
-      "status": "planned"
+      "status": "published",
+      "search_indexing": "draft"
     },
     {
       "id": "with-lying-place",
@@ -276,7 +282,8 @@
       "narrative_angle": "Feste Außensauna und mobiles Zelt werden nach Einsatz und Aufbau getrennt betrachtet.",
       "filter": { "voltages": ["wood"] },
       "evidence_basis": "Dokumentierte Heizart, Produktkategorie, Maße und Lieferumfang",
-      "status": "planned"
+      "status": "published",
+      "search_indexing": "draft"
     },
     {
       "id": "sauna-tent",
@@ -320,7 +327,8 @@
       "narrative_angle": "Spannung, Leistung und Steckertyp werden nicht miteinander gleichgesetzt.",
       "filter": { "categories": ["infrared"], "voltages": [230] },
       "evidence_basis": "Explizite Spannung, Leistung und Steckertyp aus den Produktquellen",
-      "status": "planned"
+      "status": "published",
+      "search_indexing": "draft"
     },
     {
       "id": "integrated-control",
@@ -331,7 +339,8 @@
       "narrative_angle": "Bedienkonzept und dokumentierte Heiztechnik bilden den Vergleichskern.",
       "filter": { "heater_contains": "integrierter Steuerung" },
       "evidence_basis": "Heiztechnik- und Steuerungsangaben der Hersteller",
-      "status": "planned"
+      "status": "published",
+      "search_indexing": "draft"
     },
     {
       "id": "optional-heater",
@@ -364,7 +373,8 @@
       "narrative_angle": "Materialvarianten und Einsatzort werden präzise aus den Datensätzen herausgearbeitet.",
       "filter": { "wood_contains": "thermo" },
       "evidence_basis": "Holzart, Einsatzort, Maße und Modellvariante",
-      "status": "planned"
+      "status": "published",
+      "search_indexing": "draft"
     },
     {
       "id": "spruce",

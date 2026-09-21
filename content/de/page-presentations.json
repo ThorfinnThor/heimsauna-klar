@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-21",
   "collections": {
     "mini-sauna": {
       "hero": "editorial",
@@ -376,6 +376,156 @@
           "Für die finnischen Alaska-Modelle und die Alpha-Kombisaunen rücken Ofen, Steuerung und Anschlussplan in den Vordergrund. Wo die ausgewertete Quelle keine eindeutige Spannung nennt, bleibt das Feld offen. So ist auf der Produktseite erkennbar, welche Information beim Händler vor der Bestellung noch bestätigt werden muss."
         ],
         "points": ["Produktgruppe bestimmen", "Versorgungswege einzeichnen", "Konfiguration im Angebot bestätigen"]
+      }
+    },
+    "area-under-two": {
+      "hero": "compact",
+      "results": "table",
+      "method": "steps",
+      "flow": ["insight", "results", "method", "editorial", "checks"],
+      "insight": {
+        "kicker": "Produktmaß und Nutzungszone",
+        "title": "Zwei Quadratmeter lassen sich exakt berechnen, der vollständige Raumbedarf muss gezeichnet werden.",
+        "copy": [
+          "Die Flächengrenze schafft eine saubere Vorauswahl aus unterschiedlichen Saunaarten. Sie erfasst den rechteckigen Produktkörper und hält zusätzliche Abstände bewusst aus der Berechnung heraus, damit dokumentierte Maße und Planungsannahmen nicht vermischt werden.",
+          "Im eigenen Grundriss wird die Kontur um Tür, Einstieg, Montagefugen und Luftweg ergänzt. So bleibt sichtbar, ob ein besonders schmales Modell tief in den Raum ragt oder eine quadratische Kabine trotz ähnlicher Fläche besser zum Standort passt."
+        ],
+        "points": ["Produktkontur berechnen", "Zusatzflächen einzeichnen", "Wärmeart separat prüfen"]
+      }
+    },
+    "width-under-120": {
+      "hero": "editorial",
+      "results": "ledger",
+      "method": "panel",
+      "flow": ["method", "insight", "editorial", "results", "checks"],
+      "insight": {
+        "kicker": "Nischenmaß",
+        "title": "Eine passende Breite kann an Tiefe, Türbewegung oder Montagezugang scheitern.",
+        "copy": [
+          "Der Filter beantwortet eine klare Frage zur Außenbreite und lässt die Tiefe unverändert sichtbar. Dadurch werden lange, schmale Kabinen nicht mit insgesamt kleinen Modellen gleichgesetzt und die Raumwirkung bleibt nachvollziehbar.",
+          "Mehrere Messpunkte in der Nische erfassen Sockel, Wandverlauf und Decke. Anschließend werden Türflügel und Wartungsseite ergänzt, denn ein knapp passender Produktkörper kann für Aufbau und spätere Nutzung weiterhin ungeeignet sein."
+        ],
+        "points": ["Nische dreifach messen", "Tiefe und Tür ergänzen", "Montagezugang sichern"]
+      }
+    },
+    "compact-two-person": {
+      "hero": "split",
+      "results": "cards",
+      "method": "split",
+      "flow": ["editorial", "method", "results", "insight", "checks"],
+      "insight": {
+        "kicker": "Zwei reale Sitzplätze",
+        "title": "Die Kapazitätszahl wird erst mit Innenzeichnung und Wärmequelle aussagekräftig.",
+        "copy": [
+          "Zwei Personen können nebeneinander, über Eck oder auf unterschiedlich angeordneten Ebenen sitzen. Der Produktvergleich zeigt deshalb Außenmaß und Wärmeart, während Sitzbreite, Einstieg und Lage von Ofen oder Strahlern in der Detailunterlage geprüft werden.",
+          "Die zusätzliche Flächengrenze hält ausladende Zweierkabinen aus der Auswahl heraus. Sie ist für knappe Räume hilfreich, darf aber nicht dazu führen, dass die dauerhaft gewünschte Sitzposition zugunsten weniger Zentimeter aufgegeben wird."
+        ],
+        "points": ["Innenplan lesen", "Wärmequelle lokalisieren", "Gemeinsamen Einstieg prüfen"]
+      }
+    },
+    "garden-four-person": {
+      "hero": "index",
+      "results": "ledger",
+      "method": "steps",
+      "flow": ["insight", "editorial", "checks", "method", "results"],
+      "insight": {
+        "kicker": "Vier Plätze im Bauprojekt",
+        "title": "Kapazität und Gebäudeplanung laufen in zwei verbundenen Prüflinien.",
+        "copy": [
+          "Die Personenzahl grenzt Modelle mit ausgewiesener Viererbelegung ab. Ob die Sitzplätze für die eigene Gruppe funktionieren, ergibt sich aus Bankplan, Ebenen, Ofenposition und freiem Einstieg, nicht aus dem Kapazitätsfeld allein.",
+          "Im Garten kommen Fundament, Dachüberstand, Entwässerung und Transportweg hinzu. Die Produktfläche erleichtert den Größenvergleich, während die vollständige belegte Zone aus Montageunterlagen und Standortplan entwickelt wird."
+        ],
+        "points": ["Bankplan prüfen", "Fundamentzone bestimmen", "Ofenset eindeutig zuordnen"]
+      }
+    },
+    "garden-area-under-four": {
+      "hero": "split",
+      "results": "table",
+      "method": "panel",
+      "flow": ["method", "editorial", "insight", "results", "checks"],
+      "insight": {
+        "kicker": "Kleine Grundkörper",
+        "title": "Bauform und Dach entscheiden, wie sich vier Quadratmeter im Garten tatsächlich verhalten.",
+        "copy": [
+          "Fass, rechteckige Kabine und kleines Saunahaus können rechnerisch in derselben Flächenklasse liegen. Ihre Innenraumnutzung, Dachkante und Fundamentausbildung unterscheiden sich dennoch, weshalb die Ergebnisse nach Bauform gelesen werden müssen.",
+          "Die Filtergrenze gilt für Breite mal Tiefe des Produkts. Ein sicherer Zugang, Entwässerung und technische Schutzbereiche erweitern den Standort; diese Zonen werden vor der Fundamentplanung in den Lageplan übernommen."
+        ],
+        "points": ["Bauform vergleichen", "Dachkontur ergänzen", "Zugang und Technik freihalten"]
+      }
+    },
+    "infrared-230": {
+      "hero": "compact",
+      "results": "cards",
+      "method": "panel",
+      "flow": ["results", "method", "insight", "editorial", "checks"],
+      "insight": {
+        "kicker": "Spannung und Installation",
+        "title": "230 Volt ist ein belastbarer Filter, während Stecker und Stromkreis eigene Angaben benötigen.",
+        "copy": [
+          "Die Auswahl übernimmt die Spannung nur dann, wenn sie in der Produktquelle ausdrücklich genannt wird. Leistung, Steckverbindung und Absicherung werden nicht aus 230 Volt abgeleitet, weil sich die elektrische Ausführung zwischen Kabinen unterscheiden kann.",
+          "Neben der Installation bleiben Strahlerposition, Personenzahl und Außenmaß entscheidend. Gleiche Netzspannung bedeutet weder gleiche Wärmeverteilung noch gleiche Leistungsaufnahme und liefert daher keine Rangfolge zwischen den Modellen."
+        ],
+        "points": ["Leistung bestätigen", "Steckverbindung prüfen", "Stromkreis beurteilen"]
+      }
+    },
+    "wood-heated": {
+      "hero": "editorial",
+      "results": "table",
+      "method": "split",
+      "flow": ["editorial", "insight", "checks", "results", "method"],
+      "insight": {
+        "kicker": "Feste und mobile Feuerstätten",
+        "title": "Holzöfen verbinden die Auswahl, Standort und Konstruktion trennen den Planungsweg.",
+        "copy": [
+          "Eine feste Außensauna wird mit Fundament, Gebäudeschutz und dauerhaftem Abgasweg geplant. Beim Saunazelt rücken die mobile Aufstellung, windstabile Abspannung und die freigegebene Ofendurchführung in den Vordergrund.",
+          "Für beide Systeme bleiben Schutzabstände, Verbrennungsluft und vollständiger Lieferumfang kritisch. Produktpreis und Außenmaß werden erst sinnvoll vergleichbar, wenn Ofen, Rauchrohre und Hitzeschutz eindeutig zugeordnet sind."
+        ],
+        "points": ["Systemart festlegen", "Abgasweg planen", "Lieferumfang kontrollieren"]
+      }
+    },
+    "thermo-wood": {
+      "hero": "index",
+      "results": "cards",
+      "method": "steps",
+      "flow": ["insight", "method", "checks", "editorial", "results"],
+      "insight": {
+        "kicker": "Material im Bauteil",
+        "title": "Thermoholz muss einer Holzart, einem Bauteil und einem Einsatzort zugeordnet werden.",
+        "copy": [
+          "Die Bezeichnung kann eine Außenwand, einzelne Profile, Innenverkleidung oder Bankelemente betreffen. Der Filter findet dokumentierte Materialangaben, behauptet aber keine vollständige Thermoholzkonstruktion, wenn die Quelle das betroffene Bauteil offenlässt.",
+          "Bei Außenmodellen kommen Dach, Stirnkanten und konstruktiver Schutz hinzu. Im Innenraum sind Haptik, Oberflächenbehandlung und Herstellerpflege relevant; diese Aussagen werden für jede Variante aus ihren eigenen Unterlagen gelesen."
+        ],
+        "points": ["Holzart benennen", "Bauteil zuordnen", "Pflegehinweise übernehmen"]
+      }
+    },
+    "integrated-control": {
+      "hero": "compact",
+      "results": "ledger",
+      "method": "split",
+      "flow": ["method", "results", "editorial", "insight", "checks"],
+      "insight": {
+        "kicker": "Bedienung lokalisieren",
+        "title": "Die Steuerung kann am Ofen, an der Kabine oder in einem separaten Bedienteil integriert sein.",
+        "copy": [
+          "Der Datenfilter findet Systeme, deren Heiztechnik eine integrierte Steuerung ausdrücklich nennt. Für den Einbau müssen Position, Sensorik und zugehörige Ofenvariante trotzdem aus der Produktunterlage hervorgehen.",
+          "Bedienkomfort hängt von Erreichbarkeit und Ablesbarkeit ab, während der technische Anschluss von Leistung und Systemfreigabe bestimmt wird. Wartungszugang und Leitungsführung bleiben daher Teil der Standortplanung."
+        ],
+        "points": ["Einbauort finden", "Ofen zuordnen", "Sensorik und Wartung planen"]
+      }
+    },
+    "finnish-four-person": {
+      "hero": "split",
+      "results": "ledger",
+      "method": "panel",
+      "flow": ["editorial", "checks", "insight", "method", "results"],
+      "insight": {
+        "kicker": "Vier Plätze, klassisches Heizsystem",
+        "title": "Bankanordnung und Ofenauslegung machen aus der Kapazität eine konkrete Kabine.",
+        "copy": [
+          "Die Auswahl hält Infrarot- und Kombimodelle außen vor und konzentriert sich auf finnische Indoor-Saunen mit vier ausgewiesenen Plätzen. Banklängen, Ebenen und möglicher Liegeplatz bleiben dennoch zwischen den Modellen verschieden.",
+          "Ofenleistung, Steuerung und Anschluss werden zur konkreten Kabine gelesen. Ein ähnlicher Modellname oder dieselbe Personenzahl reicht nicht aus, um eine elektrische Variante oder den enthaltenen Lieferumfang zu übertragen."
+        ],
+        "points": ["Bankplan lesen", "Volumen und Ofen abgleichen", "Setbestandteile bestätigen"]
       }
     }
   },
