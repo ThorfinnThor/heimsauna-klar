@@ -57,7 +57,12 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
         { name: collection.title, path },
       ])} />
       <SiteHeader />
-      <article data-page-kind="collection" data-page-profile={getCollectionProfile(presentation)}>
+      <article
+        data-page-kind="collection"
+        data-page-id={collection.id}
+        data-page-profile={getCollectionProfile(presentation)}
+        data-page-status={collection.indexable === false ? "draft" : "published"}
+      >
         <CollectionHero
           collection={collection}
           candidates={candidates}
