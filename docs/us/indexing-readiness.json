@@ -36,6 +36,46 @@
       "/us/guides/"
     ]
   },
+  "second_wave": {
+    "status": "published",
+    "product_ids": [
+      "peak-rainier",
+      "peak-matterhorn",
+      "peak-kilimanjaro",
+      "peak-el-capitan",
+      "almost-heaven-hillsboro",
+      "almost-heaven-pinnacle",
+      "almost-heaven-logan",
+      "almost-heaven-princeton",
+      "almost-heaven-rainelle",
+      "almost-heaven-audra",
+      "almost-heaven-bridgeport",
+      "almost-heaven-grandview",
+      "almost-heaven-titan",
+      "almost-heaven-patterson",
+      "almost-heaven-lewisburg",
+      "almost-heaven-grayson",
+      "almost-heaven-charleston",
+      "almost-heaven-huntington",
+      "almost-heaven-madison",
+      "sun-home-equinox",
+      "sun-home-eclipse-2",
+      "redwood-garden-8",
+      "redwood-grove-8",
+      "redwood-vista-6",
+      "redwood-barrel-6",
+      "redwood-barrel-porch-6",
+      "redwood-extra-wide-6"
+    ],
+    "release_requirements": [
+      "strict technical data gate",
+      "exact current manufacturer source",
+      "product-specific source-bound editorial copy",
+      "conflict-free normalized facts",
+      "Sol data, SEO, link, build and visual QA"
+    ],
+    "published_at": "2026-09-22"
+  },
   "data_criteria": {
     "exact_model_manufacturer_source": true,
     "required_documented_product_facts": [
@@ -66,7 +106,13 @@
     "first_wave_supporting_pages_reviewed": 4,
     "first_wave_trust_pages_reviewed": 4,
     "first_wave_indexable_now": 10,
-    "indexing_enabled": true
+    "second_wave_products": 27,
+    "second_wave_data_qualified": 27,
+    "second_wave_editorial_prepared": 27,
+    "second_wave_editorial_reviewed": 27,
+    "indexing_enabled": true,
+    "second_wave_indexable_now": 27,
+    "public_products": 55
   },
   "remaining_gates": [],
   "commercial_scope": "17 manually reviewed Sweat Kingdom offers have marked Awin tracking links. Other US records remain non-commercial until their own program approval, exact offer mapping and current price review are documented."

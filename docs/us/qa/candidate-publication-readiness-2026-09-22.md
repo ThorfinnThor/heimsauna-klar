@@ -1,8 +1,8 @@
 # US candidate publication readiness — 2026-09-22
 
-**Review owner:** Sol  
-**Scope:** 262 non-public US catalog candidates  
-**Decision:** Publish in reviewed waves. Do not bulk-enable all candidate routes.
+**Review owner:** Sol
+**Scope:** Review of the former 262 non-public US catalog candidates
+**Decision:** The first 27-product editorial wave passed Sol's data and copy gate and was published. The remaining 235 records stay non-public until their own evidence and editorial review are complete.
 
 ## Result
 
@@ -10,12 +10,12 @@ The 262 records are valid research candidates, but they are not one homogeneous 
 
 | Cohort | Products | Meaning | Next action |
 | --- | ---: | --- | --- |
-| A — editorial-ready | 27 | Strict technical gate passed with a current exact manufacturer source | Write individual decision copy, run presentation and source QA, then promote |
+| A — published after review | 27 | Strict technical gate, exact manufacturer source and individual decision copy passed | Keep under link and presentation monitoring |
 | B — source review | 25 | Core and electrical facts are present, but the exact current manufacturer source gate is not complete | Verify the exact model source and evidence mapping |
 | C — electrical enrichment | 54 | Product, capacity, dimensions and materials are documented, but the complete electrical trio is missing | Review exact manuals or product pages without inferring values |
 | D — foundational or category-specific enrichment | 156 | One or more core facts are missing, or the product needs a non-cabin review profile | Deepen the record before editorial work |
 
-The 27 Cohort A candidates now have prepared, source-bound product copy. They still require Sol's source, presentation and release QA. The remaining 235 candidates do not yet have this copy. Changing all 262 records to `published` would create thin, repetitive pages and contradict the editorial quality rules in `AGENTS.md`.
+The 27 Cohort A records now have source-bound product copy and public routes. Automated source, data, copy, metadata and internal-link checks passed before release. The remaining 235 candidates do not yet have this publication-ready combination. Bulk-enabling them would create incomplete or repetitive pages and contradict the editorial quality rules in `AGENTS.md`.
 
 ## Cohort A
 
@@ -51,11 +51,11 @@ Cohort A contains six sauna cabins and 21 sauna kits:
 
 ## Release sequence
 
-1. Luna prepares product-specific editorial records for Cohort A. The copy states useful model distinctions, preserves unknowns and avoids repeated page structures or stock phrases.
+1. Luna prepared product-specific editorial records for Cohort A. The copy states useful model distinctions, preserves unknowns and avoids repeated stock phrases.
 2. The product pages remain image-free unless an asset has documented usage rights. Missing image rights do not block a factual, image-free page.
-3. Sol checks data evidence, copy quality, responsive layout, metadata, canonical output, internal links and duplicate-pattern risk.
-4. Only records that pass both reviews move to `published`. Their routes and sitemap entries are released together.
-5. Cohorts B and C are deepened in parallel only after the first wave is stable. Cohort D is split into cabin, kit, heater and portable-specific work because a cabin completeness rule is not appropriate for every product type.
+3. Sol checked data evidence, copy quality, metadata, canonical output, internal links and duplicate-pattern risk before promotion. Responsive browser results are recorded in the wave review report.
+4. The 27 accepted records moved to `published`; their routes and sitemap entries were released together.
+5. Cohorts B and C are deepened only after the published wave is stable. Cohort D remains split into cabin, kit, heater and portable-specific work because a cabin completeness rule is not appropriate for every product type.
 
 The readiness inventory can be reproduced with:
 

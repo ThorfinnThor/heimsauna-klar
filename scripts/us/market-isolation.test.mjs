@@ -31,11 +31,11 @@ test("currency output follows the selected market", () => {
   assert.equal(formatMarketMoney("US", 123456), "$1,234.56");
 });
 
-test("the public US release exposes the reviewed first wave and approved offers", () => {
+test("the public US release exposes the reviewed release waves and approved offers", () => {
   assert.deepEqual(getEnabledMarkets().map((market) => market.code), ["DE", "US"]);
   assert.equal(getUsResearchProducts().length, 290);
-  assert.equal(getUsPublicProducts().length, 28);
-  assert.equal(getUsPublicConfigurations().length, 28);
+  assert.equal(getUsPublicProducts().length, 55);
+  assert.equal(getUsPublicConfigurations().length, 55);
   assert.equal(getUsPublicOffers().length, 17);
-  assert.deepEqual(getUsResearchStats(), { products: 290, configurations: 290, offers: 17, publicProducts: 28 });
+  assert.deepEqual(getUsResearchStats(), { products: 290, configurations: 290, offers: 17, publicProducts: 55 });
 });

@@ -3,7 +3,7 @@
   "snapshot_id": "us-indexed-first-wave-2026-09-16-sweat-kingdom-expanded",
   "market": "US",
   "mode": "public-static-indexed-first-wave",
-  "expected_page_count": 42,
+  "expected_page_count": 69,
   "routes": [
     {
       "path": "/us/",
@@ -147,6 +147,168 @@
       "path": "/us/saunas/peak-patagonia/",
       "kind": "product",
       "record_id": "peak-patagonia",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/peak-rainier/",
+      "kind": "product",
+      "record_id": "peak-rainier",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/peak-matterhorn/",
+      "kind": "product",
+      "record_id": "peak-matterhorn",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/peak-kilimanjaro/",
+      "kind": "product",
+      "record_id": "peak-kilimanjaro",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/peak-el-capitan/",
+      "kind": "product",
+      "record_id": "peak-el-capitan",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-hillsboro/",
+      "kind": "product",
+      "record_id": "almost-heaven-hillsboro",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-pinnacle/",
+      "kind": "product",
+      "record_id": "almost-heaven-pinnacle",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-logan/",
+      "kind": "product",
+      "record_id": "almost-heaven-logan",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-princeton/",
+      "kind": "product",
+      "record_id": "almost-heaven-princeton",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-rainelle/",
+      "kind": "product",
+      "record_id": "almost-heaven-rainelle",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-audra/",
+      "kind": "product",
+      "record_id": "almost-heaven-audra",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-bridgeport/",
+      "kind": "product",
+      "record_id": "almost-heaven-bridgeport",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-grandview/",
+      "kind": "product",
+      "record_id": "almost-heaven-grandview",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-titan/",
+      "kind": "product",
+      "record_id": "almost-heaven-titan",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-patterson/",
+      "kind": "product",
+      "record_id": "almost-heaven-patterson",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-lewisburg/",
+      "kind": "product",
+      "record_id": "almost-heaven-lewisburg",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-grayson/",
+      "kind": "product",
+      "record_id": "almost-heaven-grayson",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-charleston/",
+      "kind": "product",
+      "record_id": "almost-heaven-charleston",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-huntington/",
+      "kind": "product",
+      "record_id": "almost-heaven-huntington",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/almost-heaven-madison/",
+      "kind": "product",
+      "record_id": "almost-heaven-madison",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sun-home-equinox/",
+      "kind": "product",
+      "record_id": "sun-home-equinox",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sun-home-eclipse-2/",
+      "kind": "product",
+      "record_id": "sun-home-eclipse-2",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/redwood-garden-8/",
+      "kind": "product",
+      "record_id": "redwood-garden-8",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/redwood-grove-8/",
+      "kind": "product",
+      "record_id": "redwood-grove-8",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/redwood-vista-6/",
+      "kind": "product",
+      "record_id": "redwood-vista-6",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/redwood-barrel-6/",
+      "kind": "product",
+      "record_id": "redwood-barrel-6",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/redwood-barrel-porch-6/",
+      "kind": "product",
+      "record_id": "redwood-barrel-porch-6",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/redwood-extra-wide-6/",
+      "kind": "product",
+      "record_id": "redwood-extra-wide-6",
       "robots": "index, follow"
     },
     {

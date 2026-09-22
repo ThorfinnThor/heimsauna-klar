@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "market": "US",
-  "status": "ready-for-sol-review",
+  "status": "accepted-second-wave",
   "updated_at": "2026-09-22",
   "purpose": "Operator-requested minimum for the catalog review. It records the 100-product threshold separately from publication and affiliate approval.",
   "acceptance": {
@@ -30,13 +30,13 @@
     ]
   },
   "current_snapshot": {
-    "candidate_product_count": 262,
-    "candidate_configuration_count": 262,
-    "published_product_count": 28,
+    "candidate_product_count": 235,
+    "candidate_configuration_count": 235,
+    "published_product_count": 55,
     "active_offer_count": 17,
     "products_remaining": 0,
     "configurations_remaining": 0,
-    "status": "ready-for-sol-review"
+    "status": "accepted-second-wave"
   },
   "next_batches": [
     {

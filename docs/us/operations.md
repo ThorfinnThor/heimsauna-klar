@@ -8,7 +8,7 @@
 
 The public site is generated from versioned JSON and Next.js routes. GitHub CI validates changes, Cloudflare Builds rebuilds the `main` branch, and Workers Static Assets serves the resulting files. The Awin workflows are manual dispatch jobs; there is no scheduled ingestion or hidden runtime updater.
 
-The German and reviewed US routes are part of the static production output. The US release contains 28 published product pages and 220 research candidates that remain outside the public catalog.
+The German and reviewed US routes are part of the static production output. The US release contains 55 published product pages and 235 research candidates that remain outside the public catalog.
 
 ## Routine checks
 

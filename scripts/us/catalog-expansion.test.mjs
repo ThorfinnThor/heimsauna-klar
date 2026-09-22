@@ -19,7 +19,7 @@ test("the US expansion backlog is research-only and source-addressable", () => {
   assert.equal(backlog.current_catalog.products_remaining_before_sol_acceptance, Math.max(0, 100 - productsDocument.products.length));
   assert.equal(solGate.acceptance.minimum_candidate_products, 100);
   assert.equal(solGate.acceptance.minimum_candidate_configurations, 100);
-  assert.equal(solGate.current_snapshot.status, "ready-for-sol-review");
+  assert.equal(solGate.current_snapshot.status, "accepted-second-wave");
   assert.ok(backlog.entries.length >= 5);
 
   const sourceIds = new Set(sourcesDocument.sources.map((source) => source.id));

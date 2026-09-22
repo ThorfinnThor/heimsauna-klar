@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 262 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 235 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -992,11 +992,11 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "72215c2d3490b1cfb55a489197374fed3e4b644e86fbc10b4334629c07f8b8f9"
+      "sha256": "41088c2ee4d5971406519f4f1838ce3651f1748fc22974dc4185bf7218f71008"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "d7677d624a74e9d57aa4dcd09c1bc026f91913e4331abce2756cb4a5d9b81ed7"
+      "sha256": "b55e01cf431ad1ffd30db7632483910f000235471e415242a13c0a705ae7967a"
     },
     {
       "path": "data/us/sources.json",

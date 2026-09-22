@@ -29,7 +29,7 @@ npm run us:catalog:review -- --as-of 2026-09-14
 
 The command reads products, sources, programs, rights and publication controls and prints a JSON report. It reports missing source references, source dates older than the technical cadence, due or missing review dates, undocumented publisher approval, unapproved rights and protected publication switches. It does not edit files, promote records or enable routes.
 
-The current catalog has 28 published products and 262 non-public candidates. One US affiliate program is documented as approved, 17 reviewed affiliate offers are active, indexing is enabled and feed synchronization remains disabled. Manufacturer-image rights are still unapproved, so current product pages remain image-free unless a separate approved asset record is added.
+The current catalog has 55 published products and 235 non-public candidates. One US affiliate program is documented as approved, 17 reviewed affiliate offers are active, indexing is enabled and feed synchronization remains disabled. Manufacturer-image rights are still unapproved, so current product pages remain image-free unless a separate approved asset record is added.
 
 ## Change workflow
 

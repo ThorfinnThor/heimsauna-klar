@@ -16,9 +16,9 @@ test("the catalog index normalizes every real pilot product", () => {
   assert.deepEqual(researchItems, [...researchItems].sort((a, b) => a.brand.localeCompare(b.brand, "en-US") || a.model.localeCompare(b.model, "en-US")));
 });
 
-test("the public catalog contains only the reviewed first-wave products", () => {
+test("the public catalog contains the reviewed release waves", () => {
   const publicItems = getUsPublicCatalogItems();
-  assert.equal(publicItems.length, 28);
+  assert.equal(publicItems.length, 55);
   assert(publicItems.every((item) => item.id));
 });
 

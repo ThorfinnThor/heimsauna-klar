@@ -79,3 +79,44 @@ test("every first-wave product has distinct source-bound decision copy", () => {
     }
   }
 });
+
+test("the second publication wave has distinct source-bound copy and complete release records", () => {
+  const productById = new Map(getUsResearchProducts().map((product) => [product.id, product]));
+  const headings = new Set();
+  const summaries = new Set();
+  const prohibitedPatterns = [
+    /this research record describes/i,
+    /is recorded as/i,
+    /in summary/i,
+    /first .{0,50} then /i,
+    /it is important to note/i,
+  ];
+
+  assert.equal(readinessPlan.second_wave.product_ids.length, 27);
+  for (const productId of readinessPlan.second_wave.product_ids) {
+    const product = productById.get(productId);
+    assert(product, `${productId} is missing`);
+    assert.equal(product.publication_status, "published", `${productId} is not published`);
+    const configurations = getUsConfigurationsForProduct(productId);
+    assert(configurations.length > 0, `${productId} has no configuration`);
+    assert(configurations.every((configuration) => configuration.publication_status === "published"), `${productId} has a non-public configuration`);
+
+    const editorial = getUsProductEditorial(productId, { includeNonPublic: true });
+    assert(editorial, `${productId} has no editorial record`);
+    assert.equal(editorial.status, "published", `${productId} editorial is not published`);
+    assert(editorial.summary.length >= 80 && editorial.summary.length <= 160, `${productId} has an unsuitable summary length`);
+    assert.equal(headings.has(editorial.heading), false, `${productId} repeats an editorial heading`);
+    assert.equal(summaries.has(editorial.summary), false, `${productId} repeats a summary`);
+    headings.add(editorial.heading);
+    summaries.add(editorial.summary);
+
+    const supportedSourceIds = new Set([
+      ...product.source_ids,
+      ...configurations.flatMap((configuration) => configuration.source_ids),
+    ]);
+    assert(editorial.source_ids.length > 0, `${productId} has no editorial source`);
+    assert(editorial.source_ids.every((sourceId) => supportedSourceIds.has(sourceId)), `${productId} cites a source outside its record`);
+    const copy = [editorial.summary, ...editorial.paragraphs, ...editorial.decision_points, ...editorial.limitations].join(" ");
+    assert(prohibitedPatterns.every((pattern) => !pattern.test(copy)), `${productId} contains a prohibited stock phrase`);
+  }
+});

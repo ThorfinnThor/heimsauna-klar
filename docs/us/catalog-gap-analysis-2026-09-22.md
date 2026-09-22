@@ -25,7 +25,7 @@ This inventory describes the versioned US research catalog after the Finnleo dep
 | Seated capacity | 5+ people | 65 |
 | Seated capacity | Not documented | 81 |
 
-The catalog contains 290 products, 290 configurations, 28 published product records and 17 manually reviewed affiliate offers. This batch deepens the four remaining Finnmark records, corrects FD-4, FD-6 and FD-7 to hybrid because their pages document infrared and traditional heating, and records the model-level dimensions and materials that are stated. The latest heater batch deepened three existing Harvia heater records and added the Concept R Combi 10.5 kW as a candidate with exact model-page evidence. The preceding batches deepened 19 existing Finnleo records with exact model-page evidence for seating capacity, exterior dimensions, materials where stated and electrical requirements. Earlier batches added six sauna tents, six current ThermaSol variants and four Harvia Utu cabins. Installation clearances, shipping dimensions and incomplete electrical fields remain explicitly unknown where the reviewed page does not state them.
+The catalog contains 290 products, 290 configurations, 55 published product records, 235 non-public candidates and 17 manually reviewed affiliate offers. The second editorial wave promoted 27 source-complete Peak Saunas, Almost Heaven, Sun Home and Redwood Outdoors records after individual copy and release review. The preceding data batches deepened Finnmark, Harvia and Finnleo records and added sauna tents, ThermaSol variants and Harvia Utu cabins. Installation clearances, shipping dimensions and incomplete electrical fields remain explicitly unknown where the reviewed page does not state them.
 
 ## Evidence-depth gaps
 
