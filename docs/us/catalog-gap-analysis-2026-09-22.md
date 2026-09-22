@@ -40,6 +40,6 @@ The catalog contains 290 products, 290 configurations, 28 published product reco
 
 1. Complete the remaining Finnleo records, prioritizing the models with the most complete technical documentation. Nineteen records now have a deeper evidence bundle; the other Finnleo candidates still need model-level review.
 2. Replace range-level Almost Heaven placeholders with exact capacity, exterior dimensions, included heater and electrical-package facts.
-3. Keep the Finnmark pages in candidate status until their installation manuals and rights checks are reviewed. FD-4 now has a documented dual supply, while FD-6 and FD-7 retain unknown voltage and circuit details because their traditional heaters are sold separately.
+3. Keep the Finnmark pages in candidate status until their installation manuals and rights checks are reviewed. FD-2 and FD-4 now use official manufacturer specification sheets. FD-6 and FD-7 remain retailer-sourced and retain unknown voltage and circuit details because their traditional heaters are sold separately.
 4. Define portable-specific review fields for tents. Stove inclusion, fuel, chimney diameter, hot-zone clearances and seated capacity should not be inferred from camping-berth counts.
 5. Treat publication as a separate gate. New records remain candidates until their model-specific editorial copy, source review and presentation have passed QA.

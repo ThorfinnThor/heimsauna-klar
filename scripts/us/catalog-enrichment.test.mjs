@@ -194,9 +194,9 @@ test("the Sol-reviewed Harvia heater records preserve source limits", () => {
   assert.deepEqual(configurations.get("harvia-concept-r-combi-105-standard")?.materials.value, ["Ceramic bowl"]);
 });
 
-test("the latest Luna Finnmark batch normalizes the remaining model records without inventing clearances", () => {
+test("the Sol-reviewed Finnmark batch preserves manufacturer facts and source limits", () => {
   const expectations = {
-    "finnmark-fd-2": { heat: "infrared", capacity: 2, exterior: [47, 36, 75] },
+    "finnmark-fd-2": { heat: "infrared", capacity: 2, exterior: [48, 44, 78] },
     "finnmark-fd-4": { heat: "hybrid", capacity: 2, exterior: [48, 48, 83] },
     "finnmark-fd-6": { heat: "hybrid", capacity: 6, exterior: [75, 79, 75] },
     "finnmark-fd-7": { heat: "hybrid", capacity: 6, exterior: [75, 79, 75] },
@@ -213,4 +213,23 @@ test("the latest Luna Finnmark batch normalizes the remaining model records with
     assert.equal(configuration.publication_status, "candidate");
     assert.match(evidence.get(`evidence-${id}-verified-configuration-2026-09-22`)?.raw_value ?? "", /Capacity/);
   }
+
+  const fd2 = configurations.get("finnmark-fd-2-standard");
+  const fd2Electrical = fd2?.electrical_supply_options?.[0]?.requirements?.[0];
+  assert.deepEqual(Object.values(fd2?.dimensions.interior.value).map((measurement) => measurement.value), [43, 40, 70]);
+  assert.equal(fd2Electrical?.voltage_v.value, 120);
+  assert.equal(fd2Electrical?.rated_power_w.value, 1750);
+  assert.equal(fd2Electrical?.rated_current_a.value, 15);
+  assert.equal(fd2Electrical?.plug_type.value, "NEMA 5-15P");
+  assert.equal(fd2Electrical?.phase.status, "unknown");
+  assert(products.get("finnmark-fd-2")?.source_ids.includes("source-finnmark-fd-2-spec-sheet"));
+
+  const fd4 = configurations.get("finnmark-fd-4-standard");
+  const fd4Heater = fd4?.electrical_supply_options?.[1]?.requirements?.[0];
+  assert.deepEqual(Object.values(fd4?.dimensions.interior.value).map((measurement) => measurement.value), [44, 45, 75]);
+  assert.equal(fd4Heater?.rated_current_a.value, 20);
+  assert.equal(fd4Heater?.phase.status, "unknown");
+  assert.equal(fd4Heater?.required_circuit_a.status, "unknown");
+  assert.equal(fd4Heater?.dedicated_circuit.status, "unknown");
+  assert(products.get("finnmark-fd-4")?.source_ids.includes("source-finnmark-fd-4-spec-sheet"));
 });

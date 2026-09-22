@@ -12458,11 +12458,12 @@
         "finnmark-fd-2-standard"
       ],
       "source_ids": [
-        "source-finnmark-fd-2-product"
+        "source-finnmark-fd-2-product",
+        "source-finnmark-fd-2-spec-sheet"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-22",
-      "change_reason": "Exact model-level specifications replaced the earlier range-level placeholder data; unknown installation fields remain explicitly marked until the applicable manual is checked.",
+      "change_reason": "Sol source review replaced retailer-derived values with the model's official Finnmark specification sheet; fields not explicitly stated by the manufacturer remain unknown.",
       "next_review_at": "2026-12-22"
     },
     {
@@ -12570,11 +12571,12 @@
         "finnmark-fd-4-standard"
       ],
       "source_ids": [
-        "source-finnmark-fd-4-product"
+        "source-finnmark-fd-4-product",
+        "source-finnmark-fd-4-spec-sheet"
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-22",
-      "change_reason": "Exact model-level specifications replaced the earlier range-level placeholder data; unknown installation fields remain explicitly marked until the applicable manual is checked.",
+      "change_reason": "Sol source review replaced retailer-derived values with the model's official Finnmark specification sheet; fields not explicitly stated by the manufacturer remain unknown.",
       "next_review_at": "2026-12-22"
     },
     {

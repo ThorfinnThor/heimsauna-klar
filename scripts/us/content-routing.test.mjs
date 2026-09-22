@@ -56,7 +56,7 @@ test("editorial paths are derived from the page type and stable slug", () => {
   assert.equal(usEditorialPath({ page_type: "guide", slug: "sauna-electrical-requirements" }), "/us/guides/sauna-electrical-requirements/");
 });
 
-test("a structured comparison deterministically selects the ten documented indoor two-seat 120 V pilot configurations", () => {
+test("a structured comparison deterministically selects the nineteen documented indoor two-seat 120 V configurations", () => {
   const page = {
     ...basePage,
     page_type: "comparison",
@@ -73,7 +73,7 @@ test("a structured comparison deterministically selects the ten documented indoo
     products: [...productsDocument.products].reverse(),
     configurations: [...configurationsDocument.configurations].reverse(),
   });
-  assert.deepEqual(selected.map((entry) => entry.product.id), ["finnleo-s820-infrared-sauna-9804-4420", "finnleo-s825-infrared-sauna-9804-4430", "finnleo-s830-infrared-sauna-9804-4440", "finnleo-s840-infrared-sauna-9804-4450", "finnleo-s870-infrared-sauna-9804-4470", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-everest", "peak-fuji", "salus-element", "salus-laurel-king", "sun-home-eclipse-2", "sun-home-equinox", "sunray-aspen", "sunray-evansport", "sunray-sedona", "tylo-kiruna-2"]);
+  assert.deepEqual(selected.map((entry) => entry.product.id), ["finnleo-s820-infrared-sauna-9804-4420", "finnleo-s825-infrared-sauna-9804-4430", "finnleo-s830-infrared-sauna-9804-4440", "finnleo-s840-infrared-sauna-9804-4450", "finnleo-s870-infrared-sauna-9804-4470", "finnmark-fd-2", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-everest", "peak-fuji", "salus-element", "salus-laurel-king", "sun-home-eclipse-2", "sun-home-equinox", "sunray-aspen", "sunray-evansport", "sunray-sedona", "tylo-kiruna-2"]);
 });
 
 test("a public comparison only exposes published records", () => {

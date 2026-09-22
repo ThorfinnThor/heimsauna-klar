@@ -619,7 +619,7 @@
       "offer-sweat-kingdom-regen-sweat-cabin-deluxe",
       "offer-sweat-kingdom-regen-sweat-pod"
     ],
-    "source_count": 316,
+    "source_count": 318,
     "evidence_count": 732,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
@@ -965,15 +965,15 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "39c9850cd2cdee511d233a0d027f4760ecf724904812fee70d03b9ea47e7edf3"
+      "sha256": "10e1f1c544d06840968cb0663221bfac588fbb0a992d55a705f187a0dc199308"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "877b3960fad250070f169dbdbc28f33a43002eba95199b5c789f09d4682f4171"
+      "sha256": "2182f85bd95149da45897673bc470ec2acbf34822333ea3e55a97231bc8ca4b3"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "32e93dc3cfa0497263176372534f387d92f97bc02e3e9dd05b09af2a6e7f1d24"
+      "sha256": "42681e912caea4902cd29ecfa56befc833ee36bc132ad10aaa94529a409d59fa"
     },
     {
       "path": "data/us/merchants.json",

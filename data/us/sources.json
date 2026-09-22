@@ -3161,6 +3161,26 @@
       "market": "US",
       "checked_at": "2026-09-22",
       "locator": "Official model number, room-volume range, combi function, dimensions, weight/materials and electrical table"
+    },
+    {
+      "id": "source-finnmark-fd-2-spec-sheet",
+      "type": "spec-sheet",
+      "url": "https://finnmarkdesigns.com/wp-content/uploads/hybrid-2-0-full-spectrum-sauna-spec-sheet.pdf",
+      "title": "Finnmark Hybrid 2.0 Full Spectrum Sauna specification sheet",
+      "publisher": "Finnmark Designs",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer specification sheet: two-person capacity, exterior and interior dimensions, materials, glass and 120 V / 1,750 W / 15 A NEMA 5-15P electrical specification"
+    },
+    {
+      "id": "source-finnmark-fd-4-spec-sheet",
+      "type": "spec-sheet",
+      "url": "https://finnmarkdesigns.com/wp-content/uploads/trinity-specs-web.pdf",
+      "title": "Finnmark Trinity Infrared and Steam Sauna specification sheet",
+      "publisher": "Finnmark Designs",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer specification sheet: two-person capacity, exterior and interior dimensions, materials, glass, included Harvia Vega Compact and separate infrared/heater electrical specifications"
     }
   ],
   "evidence": [
@@ -8209,44 +8229,44 @@
     {
       "id": "evidence-finnmark-fd-2-verified-product-2026-09-22",
       "entity_id": "finnmark-fd-2",
-      "source_id": "source-finnmark-fd-2-product",
+      "source_id": "source-finnmark-fd-2-spec-sheet",
       "field_path": "product_identity_heat_placement",
       "raw_value": "Finnmark FD-2 Full-Spectrum Infrared Sauna: infrared; indoor; Indoor full-spectrum infrared cabin."
     },
     {
       "id": "evidence-finnmark-fd-2-verified-configuration-2026-09-22",
       "entity_id": "finnmark-fd-2-standard",
-      "source_id": "source-finnmark-fd-2-product",
+      "source_id": "source-finnmark-fd-2-spec-sheet",
       "field_path": "configuration.capacity_dimensions_materials",
-      "raw_value": "Capacity: 2 persons; exterior {\"width\":{\"value\":47,\"unit\":\"in\"},\"depth\":{\"value\":36,\"unit\":\"in\"},\"height\":{\"value\":75,\"unit\":\"in\"}}; interior not stated; materials Antimicrobial Western Canadian cedar interior."
+      "raw_value": "Capacity: 2 persons; exterior {\"width\":{\"value\":48,\"unit\":\"in\"},\"depth\":{\"value\":44,\"unit\":\"in\"},\"height\":{\"value\":78,\"unit\":\"in\"}}; interior {\"width\":{\"value\":43,\"unit\":\"in\"},\"depth\":{\"value\":40,\"unit\":\"in\"},\"height\":{\"value\":70,\"unit\":\"in\"}}; materials Thermal Plus exterior, Canadian cedar interior, 8 mm tempered glass."
     },
     {
       "id": "evidence-finnmark-fd-2-verified-electrical-2026-09-22",
       "entity_id": "finnmark-fd-2-standard",
-      "source_id": "source-finnmark-fd-2-product",
+      "source_id": "source-finnmark-fd-2-spec-sheet",
       "field_path": "electrical_supply_options",
-      "raw_value": "[{\"component\":\"infrared-system\",\"power\":2400,\"voltage\":null,\"current\":null,\"phase\":null,\"plug\":null,\"dedicated\":null}]"
+      "raw_value": "[{\"component\":\"infrared-system\",\"power\":1750,\"voltage\":120,\"current\":15,\"phase\":null,\"plug\":\"NEMA 5-15P\",\"dedicated\":null}]"
     },
     {
       "id": "evidence-finnmark-fd-4-verified-product-2026-09-22",
       "entity_id": "finnmark-fd-4",
-      "source_id": "source-finnmark-fd-4-product",
+      "source_id": "source-finnmark-fd-4-spec-sheet",
       "field_path": "product_identity_heat_placement",
       "raw_value": "Finnmark FD-4 Trinity Infrared and Steam Sauna: hybrid; indoor; Indoor infrared and traditional combination cabin."
     },
     {
       "id": "evidence-finnmark-fd-4-verified-configuration-2026-09-22",
       "entity_id": "finnmark-fd-4-standard",
-      "source_id": "source-finnmark-fd-4-product",
+      "source_id": "source-finnmark-fd-4-spec-sheet",
       "field_path": "configuration.capacity_dimensions_materials",
-      "raw_value": "Capacity: 2 persons; exterior {\"width\":{\"value\":48,\"unit\":\"in\"},\"depth\":{\"value\":48,\"unit\":\"in\"},\"height\":{\"value\":83,\"unit\":\"in\"}}; interior {\"width\":{\"value\":44.25,\"unit\":\"in\"},\"depth\":{\"value\":45.5,\"unit\":\"in\"},\"height\":{\"value\":75.5,\"unit\":\"in\"}}; materials Thermo-Aspen exterior, Western Canadian cedar interior, 8 mm tempered glass door."
+      "raw_value": "Capacity: 2 persons; exterior {\"width\":{\"value\":48,\"unit\":\"in\"},\"depth\":{\"value\":48,\"unit\":\"in\"},\"height\":{\"value\":83,\"unit\":\"in\"}}; interior {\"width\":{\"value\":44,\"unit\":\"in\"},\"depth\":{\"value\":45,\"unit\":\"in\"},\"height\":{\"value\":75,\"unit\":\"in\"}}; materials Thermal Aspen exterior, Western Red Cedar interior, 8 mm tempered glass."
     },
     {
       "id": "evidence-finnmark-fd-4-verified-electrical-2026-09-22",
       "entity_id": "finnmark-fd-4-standard",
-      "source_id": "source-finnmark-fd-4-product",
+      "source_id": "source-finnmark-fd-4-spec-sheet",
       "field_path": "electrical_supply_options",
-      "raw_value": "[{\"component\":\"infrared-system\",\"power\":1750,\"voltage\":120,\"current\":15,\"phase\":1,\"plug\":\"NEMA 5-15P\",\"dedicated\":null},{\"component\":\"heater\",\"power\":1900,\"voltage\":120,\"current\":15.9,\"phase\":1,\"plug\":null,\"dedicated\":true}]"
+      "raw_value": "[{\"component\":\"infrared-system\",\"power\":1750,\"voltage\":120,\"current\":15,\"phase\":null,\"plug\":\"NEMA 5-15P\",\"dedicated\":null},{\"component\":\"heater\",\"power\":1900,\"voltage\":120,\"current\":20,\"phase\":null,\"plug\":null,\"dedicated\":null}]"
     },
     {
       "id": "evidence-finnmark-fd-6-verified-product-2026-09-22",

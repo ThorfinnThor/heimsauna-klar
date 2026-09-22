@@ -107,7 +107,7 @@ function resultFor({ query, productValue = product(), configurationValue = confi
   return runUsFinder({ products: [productValue], configurations: [configurationValue], offers, query, asOf: "2026-09-13" })[0];
 }
 
-test("real catalog data produces twenty-four known indoor infrared 120 V results", () => {
+test("real catalog data produces twenty-five known indoor infrared 120 V results", () => {
   const results = runUsFinder({
     products: productsDocument.products,
     configurations: configurationsDocument.configurations,
@@ -119,15 +119,15 @@ test("real catalog data produces twenty-four known indoor infrared 120 V results
     },
     asOf: "2026-09-13",
   });
-  assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 24);
-  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 26);
+  assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 25);
+  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 25);
   assert.equal(results.filter((entry) => entry.status === "excluded").length, 240);
   assert.deepEqual(results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId), [
-    "peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4", "peak-mini", "peak-crown", "peak-fuji", "peak-rainier", "sun-home-equinox", "sun-home-eclipse-2", "finnmark-fd-1", "sunray-sedona", "sunray-evansport", "sunray-aspen", "salus-laurel-king", "salus-element", "tylo-kiruna-2", "finnleo-s810-infrared-sauna-9804-4410", "finnleo-s820-infrared-sauna-9804-4420", "finnleo-s825-infrared-sauna-9804-4430", "finnleo-s830-infrared-sauna-9804-4440", "finnleo-s840-infrared-sauna-9804-4450", "finnleo-s870-infrared-sauna-9804-4470",
+    "peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4", "peak-mini", "peak-crown", "peak-fuji", "peak-rainier", "sun-home-equinox", "sun-home-eclipse-2", "finnmark-fd-1", "finnmark-fd-2", "sunray-sedona", "sunray-evansport", "sunray-aspen", "salus-laurel-king", "salus-element", "tylo-kiruna-2", "finnleo-s810-infrared-sauna-9804-4410", "finnleo-s820-infrared-sauna-9804-4420", "finnleo-s825-infrared-sauna-9804-4430", "finnleo-s830-infrared-sauna-9804-4440", "finnleo-s840-infrared-sauna-9804-4450", "finnleo-s870-infrared-sauna-9804-4470",
   ]);
 });
 
-test("the catalog scenario for two indoor infrared seats on 120 V returns eighteen known configurations", () => {
+test("the catalog scenario for two indoor infrared seats on 120 V returns nineteen known configurations", () => {
   const results = runUsFinder({
     products: productsDocument.products,
     configurations: configurationsDocument.configurations,
@@ -142,9 +142,9 @@ test("the catalog scenario for two indoor infrared seats on 120 V returns eighte
   });
   assert.deepEqual(
     results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId),
-    ["peak-everest", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-fuji", "sun-home-equinox", "sun-home-eclipse-2", "sunray-sedona", "sunray-evansport", "sunray-aspen", "salus-laurel-king", "salus-element", "tylo-kiruna-2", "finnleo-s820-infrared-sauna-9804-4420", "finnleo-s825-infrared-sauna-9804-4430", "finnleo-s830-infrared-sauna-9804-4440", "finnleo-s840-infrared-sauna-9804-4450", "finnleo-s870-infrared-sauna-9804-4470"],
+    ["peak-everest", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-fuji", "sun-home-equinox", "sun-home-eclipse-2", "finnmark-fd-2", "sunray-sedona", "sunray-evansport", "sunray-aspen", "salus-laurel-king", "salus-element", "tylo-kiruna-2", "finnleo-s820-infrared-sauna-9804-4420", "finnleo-s825-infrared-sauna-9804-4430", "finnleo-s830-infrared-sauna-9804-4440", "finnleo-s840-infrared-sauna-9804-4450", "finnleo-s870-infrared-sauna-9804-4470"],
   );
-  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 21);
+  assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 20);
   assert.equal(results.filter((entry) => entry.status === "excluded").length, 251);
 });
 

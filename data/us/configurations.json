@@ -32424,15 +32424,15 @@
           "status": "documented",
           "value": {
             "width": {
-              "value": 47,
+              "value": 48,
               "unit": "in"
             },
             "depth": {
-              "value": 36,
+              "value": 44,
               "unit": "in"
             },
             "height": {
-              "value": 75,
+              "value": 78,
               "unit": "in"
             }
           },
@@ -32441,8 +32441,24 @@
           ]
         },
         "interior": {
-          "status": "unknown",
-          "reason": "Interior dimensions are not stated on the reviewed product page."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 43,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 40,
+              "unit": "in"
+            },
+            "height": {
+              "value": 70,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnmark-fd-2-verified-configuration-2026-09-22"
+          ]
         },
         "shipping": {
           "status": "unknown",
@@ -32464,7 +32480,9 @@
       "materials": {
         "status": "documented",
         "value": [
-          "Antimicrobial Western Canadian cedar interior"
+          "Thermal Plus exterior",
+          "Canadian cedar interior",
+          "8 mm tempered glass"
         ],
         "evidence_ids": [
           "evidence-finnmark-fd-2-verified-configuration-2026-09-22"
@@ -32491,47 +32509,59 @@
             {
               "component": "infrared-system",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated on the reviewed product page."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-2-verified-electrical-2026-09-22"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the reviewed product page."
+                "reason": "Frequency is not stated on the manufacturer specification sheet."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated on the reviewed product page."
+                "reason": "Phase is not stated on the manufacturer specification sheet."
               },
               "rated_power_w": {
                 "status": "documented",
-                "value": 2400,
+                "value": 1750,
                 "evidence_ids": [
                   "evidence-finnmark-fd-2-verified-electrical-2026-09-22"
                 ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated on the reviewed product page."
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-2-verified-electrical-2026-09-22"
+                ]
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated on the reviewed product page."
+                "reason": "The manufacturer specification sheet states amperage but does not label a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "A breaker rating is not stated on the reviewed product page."
+                "reason": "A breaker rating is not stated on the manufacturer specification sheet."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated on the reviewed product page."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnmark-fd-2-verified-electrical-2026-09-22"
+                ]
               },
               "plug_type": {
-                "status": "unknown",
-                "reason": "Plug type is not stated on the reviewed product page."
+                "status": "documented",
+                "value": "NEMA 5-15P",
+                "evidence_ids": [
+                  "evidence-finnmark-fd-2-verified-electrical-2026-09-22"
+                ]
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
+                "reason": "Dedicated-circuit status is not stated on the manufacturer specification sheet."
               }
             }
           ]
@@ -32540,7 +32570,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "source-finnmark-fd-2-product"
+        "source-finnmark-fd-2-product",
+        "source-finnmark-fd-2-spec-sheet"
       ],
       "publication_status": "candidate"
     },
@@ -32774,15 +32805,15 @@
           "status": "documented",
           "value": {
             "width": {
-              "value": 44.25,
+              "value": 44,
               "unit": "in"
             },
             "depth": {
-              "value": 45.5,
+              "value": 45,
               "unit": "in"
             },
             "height": {
-              "value": 75.5,
+              "value": 75,
               "unit": "in"
             }
           },
@@ -32810,9 +32841,9 @@
       "materials": {
         "status": "documented",
         "value": [
-          "Thermo-Aspen exterior",
-          "Western Canadian cedar interior",
-          "8 mm tempered glass door"
+          "Thermal Aspen exterior",
+          "Western Red Cedar interior",
+          "8 mm tempered glass"
         ],
         "evidence_ids": [
           "evidence-finnmark-fd-4-verified-configuration-2026-09-22"
@@ -32856,14 +32887,11 @@
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the reviewed product page."
+                "reason": "Frequency is not stated on the manufacturer specification sheet."
               },
               "phase": {
-                "status": "documented",
-                "value": 1,
-                "evidence_ids": [
-                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
-                ]
+                "status": "unknown",
+                "reason": "Phase is not stated on the manufacturer specification sheet."
               },
               "rated_power_w": {
                 "status": "documented",
@@ -32881,11 +32909,11 @@
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated on the reviewed product page."
+                "reason": "The manufacturer specification sheet states amperage but does not label a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "A breaker rating is not stated on the reviewed product page."
+                "reason": "A breaker rating is not stated on the manufacturer specification sheet."
               },
               "connection": {
                 "status": "documented",
@@ -32903,7 +32931,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
+                "reason": "Dedicated-circuit status is not stated on the manufacturer specification sheet."
               }
             }
           ]
@@ -32925,14 +32953,11 @@
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated on the reviewed product page."
+                "reason": "Frequency is not stated on the manufacturer specification sheet."
               },
               "phase": {
-                "status": "documented",
-                "value": 1,
-                "evidence_ids": [
-                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
-                ]
+                "status": "unknown",
+                "reason": "Phase is not stated on the manufacturer specification sheet."
               },
               "rated_power_w": {
                 "status": "documented",
@@ -32943,33 +32968,30 @@
               },
               "rated_current_a": {
                 "status": "documented",
-                "value": 15.9,
+                "value": 20,
                 "evidence_ids": [
                   "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
                 ]
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated on the reviewed product page."
+                "reason": "The manufacturer specification sheet states amperage but does not label a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "A breaker rating is not stated on the reviewed product page."
+                "reason": "A breaker rating is not stated on the manufacturer specification sheet."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the reviewed product page."
+                "reason": "Connection type is not stated on the manufacturer specification sheet."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated on the reviewed product page."
+                "reason": "Plug type is not stated on the manufacturer specification sheet."
               },
               "dedicated_circuit": {
-                "status": "documented",
-                "value": true,
-                "evidence_ids": [
-                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
-                ]
+                "status": "unknown",
+                "reason": "Dedicated-circuit status is not stated on the manufacturer specification sheet."
               }
             }
           ]
@@ -32978,7 +33000,8 @@
       "certification_ids": [],
       "warranty_ids": [],
       "source_ids": [
-        "source-finnmark-fd-4-product"
+        "source-finnmark-fd-4-product",
+        "source-finnmark-fd-4-spec-sheet"
       ],
       "publication_status": "candidate"
     },
