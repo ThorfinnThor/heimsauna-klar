@@ -76,7 +76,7 @@ for (const product of productsDocument.products.filter((entry) => entry.publicat
     });
   const hasConflict = JSON.stringify({ product, configuration }).includes('"status":"conflict"');
   const editorial = editorialByProductId.get(product.id);
-  const editorialReviewed = ["reviewed", "published"].includes(editorial?.status);
+  const editorialPrepared = Boolean(editorial);
   const coreComplete = productFactsComplete && configurationFactsComplete;
   const row = {
     id: product.id,
@@ -86,7 +86,7 @@ for (const product of productsDocument.products.filter((entry) => entry.publicat
     electricalFactsComplete: Boolean(electricalFactsComplete),
     exactCurrentManufacturerSource,
     conflictFree: !hasConflict,
-    editorialReviewed,
+    editorialPrepared,
   };
 
   if (coreComplete && electricalFactsComplete && exactCurrentManufacturerSource && !hasConflict) {
@@ -113,19 +113,17 @@ const summary = Object.fromEntries(
 );
 
 const candidateCount = Object.values(cohorts).reduce((total, rows) => total + rows.length, 0);
-const reviewedEditorialCount = Object.values(cohorts)
+const preparedEditorialCount = Object.values(cohorts)
   .flat()
-  .filter((row) => row.editorialReviewed).length;
+  .filter((row) => row.editorialPrepared).length;
 
 console.log(JSON.stringify({
   schemaVersion: 1,
   market: "US",
   asOf,
   candidateCount,
-  reviewedEditorialCount,
-  publicationDecision: candidateCount > 0 && reviewedEditorialCount === 0
-    ? "No candidate can be bulk-published. Start with the editorial-ready cohort and require editorial and presentation QA before promotion."
-    : "Review cohort-level blockers before promotion.",
+  preparedEditorialCount,
+  publicationDecision: "No candidate can be bulk-published. The prepared cohort still requires Sol's source, presentation and release QA before promotion.",
   summary,
   editorialReady: cohorts.editorialReady,
 }, null, 2));

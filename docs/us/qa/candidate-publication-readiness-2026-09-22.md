@@ -15,7 +15,7 @@ The 262 records are valid research candidates, but they are not one homogeneous 
 | C — electrical enrichment | 54 | Product, capacity, dimensions and materials are documented, but the complete electrical trio is missing | Review exact manuals or product pages without inferring values |
 | D — foundational or category-specific enrichment | 156 | One or more core facts are missing, or the product needs a non-cabin review profile | Deepen the record before editorial work |
 
-No candidate currently has reviewed product-specific editorial copy. Changing all 262 records to `published` would therefore create thin, repetitive pages and contradict the editorial quality rules in `AGENTS.md`.
+The 27 Cohort A candidates now have prepared, source-bound product copy. They still require Sol's source, presentation and release QA. The remaining 235 candidates do not yet have this copy. Changing all 262 records to `published` would create thin, repetitive pages and contradict the editorial quality rules in `AGENTS.md`.
 
 ## Cohort A
 
@@ -51,7 +51,7 @@ Cohort A contains six sauna cabins and 21 sauna kits:
 
 ## Release sequence
 
-1. Luna writes product-specific editorial records for Cohort A. The copy must state useful model distinctions, preserve unknowns and avoid repeated page structures or stock phrases.
+1. Luna prepares product-specific editorial records for Cohort A. The copy states useful model distinctions, preserves unknowns and avoids repeated page structures or stock phrases.
 2. The product pages remain image-free unless an asset has documented usage rights. Missing image rights do not block a factual, image-free page.
 3. Sol checks data evidence, copy quality, responsive layout, metadata, canonical output, internal links and duplicate-pattern risk.
 4. Only records that pass both reviews move to `published`. Their routes and sitemap entries are released together.
