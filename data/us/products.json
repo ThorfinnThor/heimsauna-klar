@@ -11930,19 +11930,24 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-thermasol-aalto-product"
+          "evidence-thermasol-aalto-manufacturer-product"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "traditional",
         "evidence_ids": [
-          "evidence-thermasol-aalto-product"
+          "evidence-thermasol-aalto-manufacturer-product"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-aalto-manufacturer-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -11950,25 +11955,27 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-thermasol-aalto-product"
+          "evidence-thermasol-aalto-manufacturer-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Freestanding sauna cabin",
         "evidence_ids": [
-          "evidence-thermasol-aalto-product"
+          "evidence-thermasol-aalto-manufacturer-product"
         ]
       },
       "configuration_ids": [
         "thermasol-aalto-standard"
       ],
       "source_ids": [
-        "source-thermasol-aalto-product"
+        "source-thermasol-aalto-product",
+        "source-thermasol-aalto-manufacturer"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Manufacturer specifications replaced the earlier retailer-only placeholder fields; unresolved electrical installation details remain explicit.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "thermasol-nordic-misty",
@@ -12080,19 +12087,24 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-thermasol-spectra-product"
+          "evidence-thermasol-spectra-manufacturer-product"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "traditional",
         "evidence_ids": [
-          "evidence-thermasol-spectra-product"
+          "evidence-thermasol-spectra-manufacturer-product"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-spectra-manufacturer-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -12100,25 +12112,27 @@
           "outdoor"
         ],
         "evidence_ids": [
-          "evidence-thermasol-spectra-product"
+          "evidence-thermasol-spectra-manufacturer-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Freestanding sauna cabin",
         "evidence_ids": [
-          "evidence-thermasol-spectra-product"
+          "evidence-thermasol-spectra-manufacturer-product"
         ]
       },
       "configuration_ids": [
         "thermasol-spectra-standard"
       ],
       "source_ids": [
-        "source-thermasol-spectra-product"
+        "source-thermasol-spectra-product",
+        "source-thermasol-spectra-manufacturer"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Manufacturer specifications replaced the earlier retailer-only placeholder fields; unresolved electrical installation details remain explicit.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "thermasol-vera",
@@ -12180,19 +12194,24 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-thermasol-vue-product"
+          "evidence-thermasol-vue-manufacturer-product"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "traditional",
         "evidence_ids": [
-          "evidence-thermasol-vue-product"
+          "evidence-thermasol-vue-manufacturer-product"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-vue-manufacturer-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -12200,25 +12219,27 @@
           "outdoor"
         ],
         "evidence_ids": [
-          "evidence-thermasol-vue-product"
+          "evidence-thermasol-vue-manufacturer-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Freestanding sauna cabin",
         "evidence_ids": [
-          "evidence-thermasol-vue-product"
+          "evidence-thermasol-vue-manufacturer-product"
         ]
       },
       "configuration_ids": [
         "thermasol-vue-standard"
       ],
       "source_ids": [
-        "source-thermasol-vue-product"
+        "source-thermasol-vue-product",
+        "source-thermasol-vue-manufacturer"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Manufacturer specifications replaced the earlier retailer-only placeholder fields; unresolved electrical installation details remain explicit.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnmark-fd-1",
@@ -12230,19 +12251,24 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-finnmark-fd-1-product"
+          "evidence-finnmark-fd-1-verified-product-2026-09-22"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "infrared",
         "evidence_ids": [
-          "evidence-finnmark-fd-1-product"
+          "evidence-finnmark-fd-1-verified-product-2026-09-22"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-1-verified-electrical-2026-09-22"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -12250,14 +12276,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnmark-fd-1-product"
+          "evidence-finnmark-fd-1-verified-product-2026-09-22"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Indoor full-spectrum infrared cabin",
         "evidence_ids": [
-          "evidence-finnmark-fd-1-product"
+          "evidence-finnmark-fd-1-verified-product-2026-09-22"
         ]
       },
       "configuration_ids": [
@@ -12267,8 +12293,9 @@
         "source-finnmark-fd-1-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact retailer product specifications replaced the earlier range-level placeholder data; capacity, dimensions, materials and electrical requirements are now model-specific.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnmark-fd-2",
@@ -12330,19 +12357,24 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-finnmark-fd-3-product"
+          "evidence-finnmark-fd-3-verified-product-2026-09-22"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "infrared",
         "evidence_ids": [
-          "evidence-finnmark-fd-3-product"
+          "evidence-finnmark-fd-3-verified-product-2026-09-22"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-3-verified-electrical-2026-09-22"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -12350,14 +12382,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnmark-fd-3-product"
+          "evidence-finnmark-fd-3-verified-product-2026-09-22"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Indoor full-spectrum infrared cabin",
         "evidence_ids": [
-          "evidence-finnmark-fd-3-product"
+          "evidence-finnmark-fd-3-verified-product-2026-09-22"
         ]
       },
       "configuration_ids": [
@@ -12367,8 +12399,9 @@
         "source-finnmark-fd-3-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact retailer product specifications replaced the earlier range-level placeholder data; capacity, dimensions, materials and electrical requirements are now model-specific.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnmark-fd-4",
@@ -12430,19 +12463,24 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-finnmark-fd-5-product"
+          "evidence-finnmark-fd-5-verified-product-2026-09-22"
         ]
       },
       "heat_type": {
         "status": "documented",
-        "value": "traditional",
+        "value": "hybrid",
         "evidence_ids": [
-          "evidence-finnmark-fd-5-product"
+          "evidence-finnmark-fd-5-verified-product-2026-09-22"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-5-verified-electrical-2026-09-22"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -12450,14 +12488,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnmark-fd-5-product"
+          "evidence-finnmark-fd-5-verified-product-2026-09-22"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Indoor infrared and traditional combination cabin",
         "evidence_ids": [
-          "evidence-finnmark-fd-5-product"
+          "evidence-finnmark-fd-5-verified-product-2026-09-22"
         ]
       },
       "configuration_ids": [
@@ -12467,8 +12505,9 @@
         "source-finnmark-fd-5-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact retailer product specifications replaced the earlier range-level placeholder data; capacity, dimensions, materials and electrical requirements are now model-specific.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnmark-fd-6",
@@ -14202,6 +14241,648 @@
       "spec_checked_at": "2026-09-18",
       "next_review_at": "2026-12-18",
       "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+    },
+    {
+      "id": "thermasol-astra",
+      "market": "US",
+      "slug": "thermasol-astra",
+      "brand_name": "ThermaSol",
+      "model": "Astra",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-astra-manufacturer-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-astra-manufacturer-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-astra-manufacturer-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-astra-manufacturer-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-astra-manufacturer-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-astra-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-astra-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from the current ThermaSol US manufacturer page with model-level capacity, dimensions, materials and heater output; publication review remains open."
+    },
+    {
+      "id": "thermasol-lumaria-medium",
+      "market": "US",
+      "slug": "thermasol-lumaria-medium",
+      "brand_name": "ThermaSol",
+      "model": "Lumaria Medium",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-lumaria-medium-manufacturer-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-lumaria-medium-manufacturer-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-lumaria-medium-manufacturer-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-lumaria-medium-manufacturer-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-lumaria-medium-manufacturer-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-lumaria-medium-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-lumaria-medium-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from the current ThermaSol US manufacturer page with model-level capacity, dimensions, materials and heater output; publication review remains open."
+    },
+    {
+      "id": "thermasol-lumaria-large",
+      "market": "US",
+      "slug": "thermasol-lumaria-large",
+      "brand_name": "ThermaSol",
+      "model": "Lumaria Large",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-lumaria-large-manufacturer-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-lumaria-large-manufacturer-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-lumaria-large-manufacturer-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-lumaria-large-manufacturer-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-lumaria-large-manufacturer-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-lumaria-large-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-lumaria-large-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from the current ThermaSol US manufacturer page with model-level capacity, dimensions, materials and heater output; publication review remains open."
+    },
+    {
+      "id": "thermasol-fortis",
+      "market": "US",
+      "slug": "thermasol-fortis",
+      "brand_name": "ThermaSol",
+      "model": "Fortis",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-fortis-manufacturer-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-fortis-manufacturer-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-fortis-manufacturer-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-fortis-manufacturer-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Freestanding sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-fortis-manufacturer-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-fortis-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-fortis-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from the current ThermaSol US manufacturer page with model-level capacity, dimensions, materials and heater output; publication review remains open."
+    },
+    {
+      "id": "thermasol-solaris-small",
+      "market": "US",
+      "slug": "thermasol-solaris-small",
+      "brand_name": "ThermaSol",
+      "model": "Solaris Small",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-solaris-small-manufacturer-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-solaris-small-manufacturer-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-solaris-small-manufacturer-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-solaris-small-manufacturer-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Fully assembled off-grid solar sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-solaris-small-manufacturer-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-solaris-small-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-solaris-small-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from the current ThermaSol US manufacturer page with model-level capacity, dimensions, materials and heater output; publication review remains open."
+    },
+    {
+      "id": "thermasol-solaris-medium",
+      "market": "US",
+      "slug": "thermasol-solaris-medium",
+      "brand_name": "ThermaSol",
+      "model": "Solaris Medium",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-thermasol-solaris-medium-manufacturer-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-thermasol-solaris-medium-manufacturer-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-solaris-medium-manufacturer-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-thermasol-solaris-medium-manufacturer-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Fully assembled off-grid solar sauna cabin",
+        "evidence_ids": [
+          "evidence-thermasol-solaris-medium-manufacturer-product"
+        ]
+      },
+      "configuration_ids": [
+        "thermasol-solaris-medium-standard"
+      ],
+      "source_ids": [
+        "source-thermasol-solaris-medium-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from the current ThermaSol US manufacturer page with model-level capacity, dimensions, materials and heater output; publication review remains open."
+    },
+    {
+      "id": "morzh-sauna-tent",
+      "market": "US",
+      "slug": "morzh-sauna-tent",
+      "brand_name": "MORZH",
+      "model": "MORZH Sauna Tent",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-tent",
+        "evidence_ids": [
+          "evidence-morzh-sauna-tent-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-morzh-sauna-tent-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The tent specification describes stove compatibility but does not normalize the fuel source for every compatible stove."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-morzh-sauna-tent-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Portable insulated sauna tent with chimney opening",
+        "evidence_ids": [
+          "evidence-morzh-sauna-tent-product"
+        ]
+      },
+      "configuration_ids": [
+        "morzh-sauna-tent-standard"
+      ],
+      "source_ids": [
+        "source-morzh-sauna-tent-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added to close the missing portable traditional sauna-tent category; capacity and stove-package details remain open unless the official source states them explicitly."
+    },
+    {
+      "id": "morzh-light",
+      "market": "US",
+      "slug": "morzh-light",
+      "brand_name": "MORZH",
+      "model": "MORZH Light",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-tent",
+        "evidence_ids": [
+          "evidence-morzh-light-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-morzh-light-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The tent specification describes stove compatibility but does not normalize the fuel source for every compatible stove."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-morzh-light-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Lightweight portable sauna tent with chimney opening",
+        "evidence_ids": [
+          "evidence-morzh-light-product"
+        ]
+      },
+      "configuration_ids": [
+        "morzh-light-standard"
+      ],
+      "source_ids": [
+        "source-morzh-light-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added to close the missing portable traditional sauna-tent category; capacity and stove-package details remain open unless the official source states them explicitly."
+    },
+    {
+      "id": "morzh-max",
+      "market": "US",
+      "slug": "morzh-max",
+      "brand_name": "MORZH",
+      "model": "MORZH Max",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-tent",
+        "evidence_ids": [
+          "evidence-morzh-max-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-morzh-max-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The tent specification describes stove compatibility but does not normalize the fuel source for every compatible stove."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-morzh-max-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Large portable sauna tent with removable internal partition and support for two stoves",
+        "evidence_ids": [
+          "evidence-morzh-max-product"
+        ]
+      },
+      "configuration_ids": [
+        "morzh-max-standard"
+      ],
+      "source_ids": [
+        "source-morzh-max-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added to close the missing portable traditional sauna-tent category; capacity and stove-package details remain open unless the official source states them explicitly."
+    },
+    {
+      "id": "morzh-shelter",
+      "market": "US",
+      "slug": "morzh-shelter",
+      "brand_name": "MORZH",
+      "model": "MORZH Shelter",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-tent",
+        "evidence_ids": [
+          "evidence-morzh-shelter-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-morzh-shelter-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The tent specification describes stove compatibility but does not normalize the fuel source for every compatible stove."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-morzh-shelter-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Portable sauna shelter with removable wall, mosquito net and chimney opening",
+        "evidence_ids": [
+          "evidence-morzh-shelter-product"
+        ]
+      },
+      "configuration_ids": [
+        "morzh-shelter-standard"
+      ],
+      "source_ids": [
+        "source-morzh-shelter-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added to close the missing portable traditional sauna-tent category; capacity and stove-package details remain open unless the official source states them explicitly."
+    },
+    {
+      "id": "ox-sweat-skylight",
+      "market": "US",
+      "slug": "ox-sweat-skylight",
+      "brand_name": "Ox Sweat Sauna",
+      "model": "Skylight Sauna Tent",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-tent",
+        "evidence_ids": [
+          "evidence-ox-sweat-skylight-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-ox-sweat-skylight-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "unknown",
+        "reason": "The tent specification describes stove compatibility but does not normalize the fuel source for every compatible stove."
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-ox-sweat-skylight-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Pop-up outdoor sauna tent with stove jack, ventilation opening and fresh-air intake",
+        "evidence_ids": [
+          "evidence-ox-sweat-skylight-product"
+        ]
+      },
+      "configuration_ids": [
+        "ox-sweat-skylight-standard"
+      ],
+      "source_ids": [
+        "source-ox-sweat-skylight-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added to close the missing portable traditional sauna-tent category; capacity and stove-package details remain open unless the official source states them explicitly."
+    },
+    {
+      "id": "saunabox-pulse-pro",
+      "market": "US",
+      "slug": "saunabox-pulse-pro",
+      "brand_name": "SaunaBox",
+      "model": "Pulse PRO",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-tent",
+        "evidence_ids": [
+          "evidence-saunabox-pulse-pro-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "infrared",
+        "evidence_ids": [
+          "evidence-saunabox-pulse-pro-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-saunabox-pulse-pro-electrical"
+        ]
+      },
+      "placements": {
+        "status": "unknown",
+        "reason": "The portable product page does not define a single normalized indoor or outdoor placement."
+      },
+      "form": {
+        "status": "documented",
+        "value": "Portable infrared sauna tent with red-light panels",
+        "evidence_ids": [
+          "evidence-saunabox-pulse-pro-product"
+        ]
+      },
+      "configuration_ids": [
+        "saunabox-pulse-pro-standard"
+      ],
+      "source_ids": [
+        "source-saunabox-pulse-pro-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added to close the missing portable infrared sauna-tent category using the current manufacturer specification; seated capacity remains unstated."
     }
   ]
 }

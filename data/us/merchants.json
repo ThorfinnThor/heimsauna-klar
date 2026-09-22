@@ -171,6 +171,47 @@
         "geysersteamroom.com"
       ],
       "status": "candidate"
+    },
+    {
+      "id": "thermasol",
+      "market": "US",
+      "name": "ThermaSol",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "thermasol.com",
+        "www.thermasol.com"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "morzh",
+      "market": "US",
+      "name": "MORZH",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "morzh.eu"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "ox-sweat",
+      "market": "US",
+      "name": "Ox Sweat Sauna",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "oxsweat.com"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "saunabox",
+      "market": "US",
+      "name": "SaunaBox",
+      "kind": "manufacturer",
+      "allowed_hosts": [
+        "saunabox.com"
+      ],
+      "status": "candidate"
     }
   ]
 }

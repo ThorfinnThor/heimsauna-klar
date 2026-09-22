@@ -2,7 +2,7 @@
   "schema_version": 1,
   "market": "US",
   "status": "pending-permissions",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-22",
   "policy": "No manufacturer image is used in the US pilot until the relevant Awin or merchant permission is documented. Product pages remain source links only.",
   "assets": [
     {
@@ -2731,6 +2731,126 @@
       "merchant_id": "geysersteam",
       "asset_type": "manufacturer-image",
       "source_url": "https://www.geysersteamroom.com/products/doragon-4-6-person-indoor-outdoor-infrared-sauna",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermasol-astra-manufacturer-image",
+      "entity_id": "thermasol-astra",
+      "merchant_id": "thermasol",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.thermasol.com/products/astra",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermasol-lumaria-medium-manufacturer-image",
+      "entity_id": "thermasol-lumaria-medium",
+      "merchant_id": "thermasol",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.thermasol.com/products/lumaria",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermasol-lumaria-large-manufacturer-image",
+      "entity_id": "thermasol-lumaria-large",
+      "merchant_id": "thermasol",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.thermasol.com/products/lumaria",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermasol-fortis-manufacturer-image",
+      "entity_id": "thermasol-fortis",
+      "merchant_id": "thermasol",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.thermasol.com/products/fortis",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermasol-solaris-small-manufacturer-image",
+      "entity_id": "thermasol-solaris-small",
+      "merchant_id": "thermasol",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.thermasol.com/products/solaris",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "thermasol-solaris-medium-manufacturer-image",
+      "entity_id": "thermasol-solaris-medium",
+      "merchant_id": "thermasol",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.thermasol.com/products/solaris",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "morzh-sauna-tent-image",
+      "entity_id": "morzh-sauna-tent",
+      "merchant_id": "morzh",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://morzh.eu/wa-data/public/site/morzh/Technical%20Sertificate%20Morzh%20Lux%20English.pdf",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "morzh-light-image",
+      "entity_id": "morzh-light",
+      "merchant_id": "morzh",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://morzh.eu/wa-data/public/site/morzh/Technical%20Sertificate%20Morzh%20Light%20English.pdf",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "morzh-max-image",
+      "entity_id": "morzh-max",
+      "merchant_id": "morzh",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://morzh.eu/wa-data/public/site/morzh/MORZH%20MAX%20.pdf",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "morzh-shelter-image",
+      "entity_id": "morzh-shelter",
+      "merchant_id": "morzh",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://morzh.eu/wa-data/public/site/morzh/Technical%20Sertificate%20Morzh%20Shelter.pdf",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "ox-sweat-skylight-image",
+      "entity_id": "ox-sweat-skylight",
+      "merchant_id": "ox-sweat",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://oxsweat.com/products/skylight-sauna-tent",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "saunabox-pulse-pro-image",
+      "entity_id": "saunabox-pulse-pro",
+      "merchant_id": "saunabox",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://saunabox.com/products/pulse-pro-portable-ir-sauna-with-redlights",
       "rights_status": "not-requested",
       "permission_basis": "none",
       "action": "Use no image until written permission or an approved feed license is recorded."

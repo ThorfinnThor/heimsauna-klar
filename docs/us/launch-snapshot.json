@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 245 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 257 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -289,7 +289,19 @@
       "geyser-lukaku",
       "geyser-autana",
       "geyser-valera",
-      "geyser-balerion"
+      "geyser-balerion",
+      "thermasol-astra",
+      "thermasol-lumaria-medium",
+      "thermasol-lumaria-large",
+      "thermasol-fortis",
+      "thermasol-solaris-small",
+      "thermasol-solaris-medium",
+      "morzh-sauna-tent",
+      "morzh-light",
+      "morzh-max",
+      "morzh-shelter",
+      "ox-sweat-skylight",
+      "saunabox-pulse-pro"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -564,7 +576,19 @@
       "geyser-lukaku-standard",
       "geyser-autana-standard",
       "geyser-valera-standard",
-      "geyser-balerion-standard"
+      "geyser-balerion-standard",
+      "thermasol-astra-standard",
+      "thermasol-lumaria-medium-standard",
+      "thermasol-lumaria-large-standard",
+      "thermasol-fortis-standard",
+      "thermasol-solaris-small-standard",
+      "thermasol-solaris-medium-standard",
+      "morzh-sauna-tent-standard",
+      "morzh-light-standard",
+      "morzh-max-standard",
+      "morzh-shelter-standard",
+      "ox-sweat-skylight-standard",
+      "saunabox-pulse-pro-standard"
     ],
     "offer_ids": [
       "offer-sweat-kingdom-sweat-cabin",
@@ -585,8 +609,8 @@
       "offer-sweat-kingdom-regen-sweat-cabin-deluxe",
       "offer-sweat-kingdom-regen-sweat-pod"
     ],
-    "source_count": 296,
-    "evidence_count": 590,
+    "source_count": 311,
+    "evidence_count": 639,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -904,7 +928,19 @@
       "geyser-lukaku-image",
       "geyser-autana-image",
       "geyser-valera-image",
-      "geyser-balerion-image"
+      "geyser-balerion-image",
+      "thermasol-astra-manufacturer-image",
+      "thermasol-lumaria-medium-manufacturer-image",
+      "thermasol-lumaria-large-manufacturer-image",
+      "thermasol-fortis-manufacturer-image",
+      "thermasol-solaris-small-manufacturer-image",
+      "thermasol-solaris-medium-manufacturer-image",
+      "morzh-sauna-tent-image",
+      "morzh-light-image",
+      "morzh-max-image",
+      "morzh-shelter-image",
+      "ox-sweat-skylight-image",
+      "saunabox-pulse-pro-image"
     ]
   },
   "file_hashes": [
@@ -914,19 +950,19 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "d54e89fa5d14b36bbc43f7353d3aff3049242bd3107b4007231e1f5172a5118d"
+      "sha256": "8f41c16d3fe73ff4d44e7883abdb5fe49f027e8280735ed72a43b11942a73db0"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "3a0d476bda2752711eebddc35ec4e58cd1cc287aa9deb4f9c9d1b6522675cb36"
+      "sha256": "479b1c1f9c271a49025f010334ce4750e0e67034d02e3a28743ca5792b6af497"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "7c21ea6632b5e1b645f4db51075e055e7182bd27a835392e8a57f0bc02345510"
+      "sha256": "3247042cdb246155d493df7665932a92b3059e88bc256879c23c3f9619478759"
     },
     {
       "path": "data/us/merchants.json",
-      "sha256": "86f3d1ba078f3bc687b13bf36a4308dfd7d126ce31a6dfa3e8ba489056781949"
+      "sha256": "6349efe1ab576784f33b5143dabf9cf3ffc0542c83dd9e1bd3a5f120c75c87fd"
     },
     {
       "path": "data/us/programs.json",
@@ -970,7 +1006,7 @@
     },
     {
       "path": "docs/us/rights-register.json",
-      "sha256": "517bba00bb40e36fd8e651765ae06f873561e181273f1d5b59f3491b8f5f2149"
+      "sha256": "d26da45cc0184d769ec223e5a2799048e302401c614a28f8c422acf2e09605c1"
     }
   ],
   "blocking_conditions": [

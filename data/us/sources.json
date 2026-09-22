@@ -2609,8 +2609,8 @@
       "title": "Finnmark FD-1 Full-Spectrum Infrared Sauna product page",
       "publisher": "Sauna Company USA",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Official retailer product page model identity and category"
+      "checked_at": "2026-09-22",
+      "locator": "Exact product page specifications: heat system, capacity, exterior and interior dimensions, materials and electrical requirements"
     },
     {
       "id": "source-finnmark-fd-2-product",
@@ -2629,8 +2629,8 @@
       "title": "Finnmark FD-3 Full-Spectrum Infrared Sauna product page",
       "publisher": "Sauna Company USA",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Official retailer product page model identity and category"
+      "checked_at": "2026-09-22",
+      "locator": "Exact product page specifications: heat system, capacity, exterior and interior dimensions, materials and electrical requirements"
     },
     {
       "id": "source-finnmark-fd-4-product",
@@ -2649,8 +2649,8 @@
       "title": "Finnmark FD-5 Trinity XL Infrared and Steam Sauna product page",
       "publisher": "Sauna Company USA",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Official retailer product page model identity and category"
+      "checked_at": "2026-09-22",
+      "locator": "Exact product page specifications: heat system, capacity, exterior and interior dimensions, materials and electrical requirements"
     },
     {
       "id": "source-finnmark-fd-6-product",
@@ -2961,6 +2961,156 @@
       "market": "US",
       "checked_at": "2026-09-18",
       "locator": "Product identity, dimensions, materials, electrical and included components"
+    },
+    {
+      "id": "source-thermasol-aalto-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.thermasol.com/products/aalto",
+      "title": "ThermaSol Aalto product page",
+      "publisher": "ThermaSol",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer model identity, capacity, dimensions, materials, weight and included heater"
+    },
+    {
+      "id": "source-thermasol-spectra-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.thermasol.com/products/spectra",
+      "title": "ThermaSol Spectra product page",
+      "publisher": "ThermaSol",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer model identity, capacity, dimensions, materials, weight and included heater"
+    },
+    {
+      "id": "source-thermasol-vue-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.thermasol.com/products/vue",
+      "title": "ThermaSol Vue product page",
+      "publisher": "ThermaSol",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer model identity, capacity, dimensions, materials, weight and included heater"
+    },
+    {
+      "id": "source-thermasol-astra-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.thermasol.com/products/astra",
+      "title": "ThermaSol Astra product page",
+      "publisher": "ThermaSol",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer model identity, capacity, dimensions, materials, weight and included heater"
+    },
+    {
+      "id": "source-thermasol-lumaria-medium-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.thermasol.com/products/lumaria",
+      "title": "ThermaSol Lumaria Medium product page",
+      "publisher": "ThermaSol",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer model identity, capacity, dimensions, materials, weight and included heater"
+    },
+    {
+      "id": "source-thermasol-lumaria-large-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.thermasol.com/products/lumaria",
+      "title": "ThermaSol Lumaria Large product page",
+      "publisher": "ThermaSol",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer model identity, capacity, dimensions, materials, weight and included heater"
+    },
+    {
+      "id": "source-thermasol-fortis-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.thermasol.com/products/fortis",
+      "title": "ThermaSol Fortis product page",
+      "publisher": "ThermaSol",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer model identity, capacity, dimensions, materials, weight and included heater"
+    },
+    {
+      "id": "source-thermasol-solaris-small-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.thermasol.com/products/solaris",
+      "title": "ThermaSol Solaris Small product page",
+      "publisher": "ThermaSol",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer model identity, capacity, dimensions, materials, weight and included heater"
+    },
+    {
+      "id": "source-thermasol-solaris-medium-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.thermasol.com/products/solaris",
+      "title": "ThermaSol Solaris Medium product page",
+      "publisher": "ThermaSol",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Manufacturer model identity, capacity, dimensions, materials, weight and included heater"
+    },
+    {
+      "id": "source-morzh-sauna-tent-manufacturer",
+      "type": "spec-sheet",
+      "url": "https://morzh.eu/wa-data/public/site/morzh/Technical%20Sertificate%20Morzh%20Lux%20English.pdf",
+      "title": "MORZH Sauna Tent official specification",
+      "publisher": "MORZH",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Official model identity, dimensions, construction and transport weight where stated"
+    },
+    {
+      "id": "source-morzh-light-manufacturer",
+      "type": "spec-sheet",
+      "url": "https://morzh.eu/wa-data/public/site/morzh/Technical%20Sertificate%20Morzh%20Light%20English.pdf",
+      "title": "MORZH Light official specification",
+      "publisher": "MORZH",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Official model identity, dimensions, construction and transport weight where stated"
+    },
+    {
+      "id": "source-morzh-max-manufacturer",
+      "type": "spec-sheet",
+      "url": "https://morzh.eu/wa-data/public/site/morzh/MORZH%20MAX%20.pdf",
+      "title": "MORZH Max official specification",
+      "publisher": "MORZH",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Official model identity, dimensions, construction and transport weight where stated"
+    },
+    {
+      "id": "source-morzh-shelter-manufacturer",
+      "type": "spec-sheet",
+      "url": "https://morzh.eu/wa-data/public/site/morzh/Technical%20Sertificate%20Morzh%20Shelter.pdf",
+      "title": "MORZH Shelter official specification",
+      "publisher": "MORZH",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Official model identity, dimensions, construction and transport weight where stated"
+    },
+    {
+      "id": "source-ox-sweat-skylight-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://oxsweat.com/products/skylight-sauna-tent",
+      "title": "Skylight Sauna Tent official specification",
+      "publisher": "Ox Sweat Sauna",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Official model identity, dimensions, construction and transport weight where stated"
+    },
+    {
+      "id": "source-saunabox-pulse-pro-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://saunabox.com/products/pulse-pro-portable-ir-sauna-with-redlights",
+      "title": "SaunaBox Pulse PRO product page",
+      "publisher": "SaunaBox",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Official portable infrared model identity, dimensions, materials and electrical specification"
     }
   ],
   "evidence": [
@@ -7095,6 +7245,349 @@
       "source_id": "source-geyser-balerion-product",
       "field_path": "electrical_supply_options",
       "raw_value": "Balerion: {\"voltage\":240,\"power\":5000,\"current\":30,\"connection\":\"hardwired\"}"
+    },
+    {
+      "id": "evidence-thermasol-aalto-manufacturer-product",
+      "entity_id": "thermasol-aalto",
+      "source_id": "source-thermasol-aalto-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Aalto is listed by ThermaSol as a indoor traditional sauna."
+    },
+    {
+      "id": "evidence-thermasol-aalto-manufacturer-configuration",
+      "entity_id": "thermasol-aalto-standard",
+      "source_id": "source-thermasol-aalto-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials_weights",
+      "raw_value": "Aalto: capacity 4; exterior {\"width\":{\"value\":87,\"unit\":\"in\"},\"depth\":{\"value\":87,\"unit\":\"in\"},\"height\":{\"value\":83,\"unit\":\"in\"}}; materials Thermo-aspen, Brushed Tyrol wood, Transparent glass; assembled weight 1543 lb; shipping weight 1764 lb."
+    },
+    {
+      "id": "evidence-thermasol-aalto-manufacturer-electrical",
+      "entity_id": "thermasol-aalto-standard",
+      "source_id": "source-thermasol-aalto-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Aalto includes a 9 kW heater. The reviewed product page does not state supply voltage or circuit requirements."
+    },
+    {
+      "id": "evidence-thermasol-spectra-manufacturer-product",
+      "entity_id": "thermasol-spectra",
+      "source_id": "source-thermasol-spectra-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Spectra is listed by ThermaSol as a outdoor traditional sauna."
+    },
+    {
+      "id": "evidence-thermasol-spectra-manufacturer-configuration",
+      "entity_id": "thermasol-spectra-standard",
+      "source_id": "source-thermasol-spectra-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials_weights",
+      "raw_value": "Spectra: capacity 4; exterior {\"width\":{\"value\":82,\"unit\":\"in\"},\"depth\":{\"value\":90,\"unit\":\"in\"},\"height\":{\"value\":91,\"unit\":\"in\"}}; materials Thermally modified Tyrol wood, Thermally modified aspen, Parsol dark grey glass; assembled weight 2205 lb; shipping weight 2425 lb."
+    },
+    {
+      "id": "evidence-thermasol-spectra-manufacturer-electrical",
+      "entity_id": "thermasol-spectra-standard",
+      "source_id": "source-thermasol-spectra-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Spectra includes a 8 kW heater. The reviewed product page does not state supply voltage or circuit requirements."
+    },
+    {
+      "id": "evidence-thermasol-vue-manufacturer-product",
+      "entity_id": "thermasol-vue",
+      "source_id": "source-thermasol-vue-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Vue is listed by ThermaSol as a outdoor traditional sauna."
+    },
+    {
+      "id": "evidence-thermasol-vue-manufacturer-configuration",
+      "entity_id": "thermasol-vue-standard",
+      "source_id": "source-thermasol-vue-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials_weights",
+      "raw_value": "Vue: capacity 4; exterior {\"width\":{\"value\":79,\"unit\":\"in\"},\"depth\":{\"value\":87,\"unit\":\"in\"},\"height\":{\"value\":89,\"unit\":\"in\"}}; materials Thermally modified aspen, Tyrol wood, Mirror thermal glass; assembled weight 2425 lb; shipping weight 2646 lb."
+    },
+    {
+      "id": "evidence-thermasol-vue-manufacturer-electrical",
+      "entity_id": "thermasol-vue-standard",
+      "source_id": "source-thermasol-vue-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Vue includes a 9 kW heater. The reviewed product page does not state supply voltage or circuit requirements."
+    },
+    {
+      "id": "evidence-thermasol-astra-manufacturer-product",
+      "entity_id": "thermasol-astra",
+      "source_id": "source-thermasol-astra-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Astra is listed by ThermaSol as a indoor traditional sauna."
+    },
+    {
+      "id": "evidence-thermasol-astra-manufacturer-configuration",
+      "entity_id": "thermasol-astra-standard",
+      "source_id": "source-thermasol-astra-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials_weights",
+      "raw_value": "Astra: capacity 4; exterior {\"width\":{\"value\":85.4,\"unit\":\"in\"},\"depth\":{\"value\":85.4,\"unit\":\"in\"},\"height\":{\"value\":83,\"unit\":\"in\"}}; materials Thermo-aspen, Brushed Tyrol wood, Transparent glass; assembled weight 1323 lb; shipping weight 1543 lb."
+    },
+    {
+      "id": "evidence-thermasol-astra-manufacturer-electrical",
+      "entity_id": "thermasol-astra-standard",
+      "source_id": "source-thermasol-astra-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Astra includes a 9 kW heater. The reviewed product page does not state supply voltage or circuit requirements."
+    },
+    {
+      "id": "evidence-thermasol-lumaria-medium-manufacturer-product",
+      "entity_id": "thermasol-lumaria-medium",
+      "source_id": "source-thermasol-lumaria-medium-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Lumaria Medium is listed by ThermaSol as a indoor traditional sauna."
+    },
+    {
+      "id": "evidence-thermasol-lumaria-medium-manufacturer-configuration",
+      "entity_id": "thermasol-lumaria-medium-standard",
+      "source_id": "source-thermasol-lumaria-medium-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials_weights",
+      "raw_value": "Lumaria Medium: capacity 3; exterior {\"width\":{\"value\":66.9,\"unit\":\"in\"},\"depth\":{\"value\":86.6,\"unit\":\"in\"},\"height\":{\"value\":83,\"unit\":\"in\"}}; materials Thermally modified aspen, Brushed Tyrol wood, Transparent glass; assembled weight 1323 lb; shipping weight 1543 lb."
+    },
+    {
+      "id": "evidence-thermasol-lumaria-medium-manufacturer-electrical",
+      "entity_id": "thermasol-lumaria-medium-standard",
+      "source_id": "source-thermasol-lumaria-medium-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Lumaria Medium includes a 9 kW heater. The reviewed product page does not state supply voltage or circuit requirements."
+    },
+    {
+      "id": "evidence-thermasol-lumaria-large-manufacturer-product",
+      "entity_id": "thermasol-lumaria-large",
+      "source_id": "source-thermasol-lumaria-large-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Lumaria Large is listed by ThermaSol as a indoor traditional sauna."
+    },
+    {
+      "id": "evidence-thermasol-lumaria-large-manufacturer-configuration",
+      "entity_id": "thermasol-lumaria-large-standard",
+      "source_id": "source-thermasol-lumaria-large-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials_weights",
+      "raw_value": "Lumaria Large: capacity 5; exterior {\"width\":{\"value\":86.6,\"unit\":\"in\"},\"depth\":{\"value\":86.6,\"unit\":\"in\"},\"height\":{\"value\":83,\"unit\":\"in\"}}; materials Thermally modified aspen, Brushed Tyrol wood, Transparent glass; assembled weight 1543 lb; shipping weight 1764 lb."
+    },
+    {
+      "id": "evidence-thermasol-lumaria-large-manufacturer-electrical",
+      "entity_id": "thermasol-lumaria-large-standard",
+      "source_id": "source-thermasol-lumaria-large-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Lumaria Large includes a 9 kW heater. The reviewed product page does not state supply voltage or circuit requirements."
+    },
+    {
+      "id": "evidence-thermasol-fortis-manufacturer-product",
+      "entity_id": "thermasol-fortis",
+      "source_id": "source-thermasol-fortis-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Fortis is listed by ThermaSol as a outdoor traditional sauna."
+    },
+    {
+      "id": "evidence-thermasol-fortis-manufacturer-configuration",
+      "entity_id": "thermasol-fortis-standard",
+      "source_id": "source-thermasol-fortis-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials_weights",
+      "raw_value": "Fortis: capacity 4; exterior {\"width\":{\"value\":87,\"unit\":\"in\"},\"depth\":{\"value\":90,\"unit\":\"in\"},\"height\":{\"value\":89,\"unit\":\"in\"}}; materials Thermally modified aspen, Thermally modified Nordic spruce, Parsol dark grey glass; assembled weight 2161 lb; shipping weight 2381 lb."
+    },
+    {
+      "id": "evidence-thermasol-fortis-manufacturer-electrical",
+      "entity_id": "thermasol-fortis-standard",
+      "source_id": "source-thermasol-fortis-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Fortis includes a 8 kW heater. The reviewed product page does not state supply voltage or circuit requirements."
+    },
+    {
+      "id": "evidence-thermasol-solaris-small-manufacturer-product",
+      "entity_id": "thermasol-solaris-small",
+      "source_id": "source-thermasol-solaris-small-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Solaris Small is listed by ThermaSol as a outdoor traditional sauna."
+    },
+    {
+      "id": "evidence-thermasol-solaris-small-manufacturer-configuration",
+      "entity_id": "thermasol-solaris-small-standard",
+      "source_id": "source-thermasol-solaris-small-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials_weights",
+      "raw_value": "Solaris Small: capacity 3; exterior {\"width\":{\"value\":60,\"unit\":\"in\"},\"depth\":{\"value\":86,\"unit\":\"in\"},\"height\":{\"value\":97,\"unit\":\"in\"}}; materials Tile Oak, Tinted glass; assembled weight not stated lb; shipping weight not stated lb."
+    },
+    {
+      "id": "evidence-thermasol-solaris-small-manufacturer-electrical",
+      "entity_id": "thermasol-solaris-small-standard",
+      "source_id": "source-thermasol-solaris-small-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Solaris Small includes a 3 kW heater. The reviewed product page does not state supply voltage or circuit requirements."
+    },
+    {
+      "id": "evidence-thermasol-solaris-medium-manufacturer-product",
+      "entity_id": "thermasol-solaris-medium",
+      "source_id": "source-thermasol-solaris-medium-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Solaris Medium is listed by ThermaSol as a outdoor traditional sauna."
+    },
+    {
+      "id": "evidence-thermasol-solaris-medium-manufacturer-configuration",
+      "entity_id": "thermasol-solaris-medium-standard",
+      "source_id": "source-thermasol-solaris-medium-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials_weights",
+      "raw_value": "Solaris Medium: capacity 5; exterior {\"width\":{\"value\":86,\"unit\":\"in\"},\"depth\":{\"value\":86,\"unit\":\"in\"},\"height\":{\"value\":97,\"unit\":\"in\"}}; materials Tile Oak, Tinted glass; assembled weight not stated lb; shipping weight not stated lb."
+    },
+    {
+      "id": "evidence-thermasol-solaris-medium-manufacturer-electrical",
+      "entity_id": "thermasol-solaris-medium-standard",
+      "source_id": "source-thermasol-solaris-medium-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Solaris Medium includes a 3 kW heater. The reviewed product page does not state supply voltage or circuit requirements."
+    },
+    {
+      "id": "evidence-morzh-sauna-tent-product",
+      "entity_id": "morzh-sauna-tent",
+      "source_id": "source-morzh-sauna-tent-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "MORZH Sauna Tent is documented by MORZH as a portable sauna tent designed around a stove and chimney opening."
+    },
+    {
+      "id": "evidence-morzh-sauna-tent-configuration",
+      "entity_id": "morzh-sauna-tent-standard",
+      "source_id": "source-morzh-sauna-tent-manufacturer",
+      "field_path": "configuration.dimensions_materials_weight",
+      "raw_value": "MORZH Sauna Tent: exterior {\"width\":{\"value\":205,\"unit\":\"cm\"},\"depth\":{\"value\":205,\"unit\":\"cm\"},\"height\":{\"value\":195,\"unit\":\"cm\"}}; transport weight 8.3 kg; materials Oxford 240 outer fabric, 80 g/m² insulation, Taffeta 210 RipStop inner fabric."
+    },
+    {
+      "id": "evidence-morzh-light-product",
+      "entity_id": "morzh-light",
+      "source_id": "source-morzh-light-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "MORZH Light is documented by MORZH as a portable sauna tent designed around a stove and chimney opening."
+    },
+    {
+      "id": "evidence-morzh-light-configuration",
+      "entity_id": "morzh-light-standard",
+      "source_id": "source-morzh-light-manufacturer",
+      "field_path": "configuration.dimensions_materials_weight",
+      "raw_value": "MORZH Light: exterior {\"width\":{\"value\":205,\"unit\":\"cm\"},\"depth\":{\"value\":205,\"unit\":\"cm\"},\"height\":{\"value\":195,\"unit\":\"cm\"}}; transport weight 6.2 kg; materials Oxford 240 PU 2000 polyester fabric."
+    },
+    {
+      "id": "evidence-morzh-max-product",
+      "entity_id": "morzh-max",
+      "source_id": "source-morzh-max-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "MORZH Max is documented by MORZH as a portable sauna tent designed around a stove and chimney opening."
+    },
+    {
+      "id": "evidence-morzh-max-configuration",
+      "entity_id": "morzh-max-standard",
+      "source_id": "source-morzh-max-manufacturer",
+      "field_path": "configuration.dimensions_materials_weight",
+      "raw_value": "MORZH Max: exterior {\"width\":{\"value\":230,\"unit\":\"cm\"},\"depth\":{\"value\":296,\"unit\":\"cm\"},\"height\":{\"value\":197,\"unit\":\"cm\"}}; transport weight 17.7 kg; materials not fully stated."
+    },
+    {
+      "id": "evidence-morzh-shelter-product",
+      "entity_id": "morzh-shelter",
+      "source_id": "source-morzh-shelter-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "MORZH Shelter is documented by MORZH as a portable sauna tent designed around a stove and chimney opening."
+    },
+    {
+      "id": "evidence-morzh-shelter-configuration",
+      "entity_id": "morzh-shelter-standard",
+      "source_id": "source-morzh-shelter-manufacturer",
+      "field_path": "configuration.dimensions_materials_weight",
+      "raw_value": "MORZH Shelter: exterior {\"width\":{\"value\":230,\"unit\":\"cm\"},\"depth\":{\"value\":300,\"unit\":\"cm\"},\"height\":{\"value\":195,\"unit\":\"cm\"}}; transport weight 15 kg; materials Oxford 240 polyester fabric with water-repellent impregnation."
+    },
+    {
+      "id": "evidence-ox-sweat-skylight-product",
+      "entity_id": "ox-sweat-skylight",
+      "source_id": "source-ox-sweat-skylight-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Skylight Sauna Tent is documented by Ox Sweat Sauna as a portable sauna tent designed around a stove and chimney opening."
+    },
+    {
+      "id": "evidence-ox-sweat-skylight-configuration",
+      "entity_id": "ox-sweat-skylight-standard",
+      "source_id": "source-ox-sweat-skylight-manufacturer",
+      "field_path": "configuration.dimensions_materials_weight",
+      "raw_value": "Skylight Sauna Tent: exterior {\"width\":{\"value\":6,\"unit\":\"ft\"},\"depth\":{\"value\":6,\"unit\":\"ft\"},\"height\":{\"value\":7,\"unit\":\"ft\"}}; transport weight not stated; materials Three-layer insulated 420D quilted denier fabric."
+    },
+    {
+      "id": "evidence-saunabox-pulse-pro-product",
+      "entity_id": "saunabox-pulse-pro",
+      "source_id": "source-saunabox-pulse-pro-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Pulse PRO is listed as a portable infrared sauna tent with six infrared panels and integrated red-light panels."
+    },
+    {
+      "id": "evidence-saunabox-pulse-pro-configuration",
+      "entity_id": "saunabox-pulse-pro-standard",
+      "source_id": "source-saunabox-pulse-pro-manufacturer",
+      "field_path": "configuration.dimensions_materials",
+      "raw_value": "The manufacturer lists 36 in L × 36 in W × 68 in H, an insulated OEKO-TEX-certified cover and a heat-reflective liner."
+    },
+    {
+      "id": "evidence-saunabox-pulse-pro-electrical",
+      "entity_id": "saunabox-pulse-pro-standard",
+      "source_id": "source-saunabox-pulse-pro-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "The manufacturer lists 110 V, 1,600 W and 50–60 Hz."
+    },
+    {
+      "id": "evidence-finnmark-fd-1-verified-product-2026-09-22",
+      "entity_id": "finnmark-fd-1",
+      "source_id": "source-finnmark-fd-1-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Finnmark FD-1 Full-Spectrum Infrared Sauna: infrared indoor sauna cabin."
+    },
+    {
+      "id": "evidence-finnmark-fd-1-verified-configuration-2026-09-22",
+      "entity_id": "finnmark-fd-1-standard",
+      "source_id": "source-finnmark-fd-1-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Capacity 1; exterior {\"width\":{\"value\":38,\"unit\":\"in\"},\"depth\":{\"value\":38,\"unit\":\"in\"},\"height\":{\"value\":78,\"unit\":\"in\"}}; interior {\"width\":{\"value\":32,\"unit\":\"in\"},\"depth\":{\"value\":34,\"unit\":\"in\"},\"height\":{\"value\":70,\"unit\":\"in\"}}; materials Thermal Plus aspen exterior, Antimicrobial Western Canadian cedar interior, 8 mm tempered glass door."
+    },
+    {
+      "id": "evidence-finnmark-fd-1-verified-electrical-2026-09-22",
+      "entity_id": "finnmark-fd-1-standard",
+      "source_id": "source-finnmark-fd-1-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "[{\"component\":\"infrared-system\",\"voltage\":120,\"power\":1750,\"current\":15,\"phase\":1,\"plug\":\"NEMA 5-15P\",\"dedicated\":null}]"
+    },
+    {
+      "id": "evidence-finnmark-fd-3-verified-product-2026-09-22",
+      "entity_id": "finnmark-fd-3",
+      "source_id": "source-finnmark-fd-3-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Finnmark FD-3 Full-Spectrum Infrared Sauna: infrared indoor sauna cabin."
+    },
+    {
+      "id": "evidence-finnmark-fd-3-verified-configuration-2026-09-22",
+      "entity_id": "finnmark-fd-3-standard",
+      "source_id": "source-finnmark-fd-3-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Capacity 4; exterior {\"width\":{\"value\":72,\"unit\":\"in\"},\"depth\":{\"value\":46,\"unit\":\"in\"},\"height\":{\"value\":78,\"unit\":\"in\"}}; interior {\"width\":{\"value\":67,\"unit\":\"in\"},\"depth\":{\"value\":41,\"unit\":\"in\"},\"height\":{\"value\":70,\"unit\":\"in\"}}; materials Thermal Plus aspen exterior, Antimicrobial Western Canadian cedar interior, 8 mm tempered glass door."
+    },
+    {
+      "id": "evidence-finnmark-fd-3-verified-electrical-2026-09-22",
+      "entity_id": "finnmark-fd-3-standard",
+      "source_id": "source-finnmark-fd-3-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "[{\"component\":\"infrared-system\",\"voltage\":240,\"power\":3150,\"current\":15,\"phase\":1,\"plug\":\"NEMA 6-15P\",\"dedicated\":null}]"
+    },
+    {
+      "id": "evidence-finnmark-fd-5-verified-product-2026-09-22",
+      "entity_id": "finnmark-fd-5",
+      "source_id": "source-finnmark-fd-5-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Finnmark FD-5 Trinity XL Infrared and Steam Sauna: hybrid indoor sauna cabin."
+    },
+    {
+      "id": "evidence-finnmark-fd-5-verified-configuration-2026-09-22",
+      "entity_id": "finnmark-fd-5-standard",
+      "source_id": "source-finnmark-fd-5-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Capacity 4; exterior {\"width\":{\"value\":75,\"unit\":\"in\"},\"depth\":{\"value\":64,\"unit\":\"in\"},\"height\":{\"value\":83,\"unit\":\"in\"}}; interior {\"width\":{\"value\":71,\"unit\":\"in\"},\"depth\":{\"value\":57.5,\"unit\":\"in\"},\"height\":{\"value\":75.5,\"unit\":\"in\"}}; materials Thermal Plus aspen exterior, Antimicrobial Western Canadian cedar interior, 8 mm tempered glass door."
+    },
+    {
+      "id": "evidence-finnmark-fd-5-verified-electrical-2026-09-22",
+      "entity_id": "finnmark-fd-5-standard",
+      "source_id": "source-finnmark-fd-5-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "[{\"component\":\"infrared-system\",\"voltage\":240,\"power\":2700,\"current\":15,\"phase\":1,\"plug\":\"NEMA 6-15P\",\"dedicated\":true},{\"component\":\"heater\",\"voltage\":240,\"power\":4500,\"current\":null,\"phase\":1,\"plug\":null,\"dedicated\":true}]"
     }
   ]
 }
