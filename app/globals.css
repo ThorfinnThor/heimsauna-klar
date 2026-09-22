@@ -816,7 +816,7 @@ footer {
 }
 .us-editorial-page-profile .us-editorial-hero h1 {
   max-width: 900px;
-  font-size: clamp(60px, 7vw, 96px);
+  font-size: clamp(58px, 6.5vw, 88px);
   line-height: .92;
   hyphens: none;
   overflow-wrap: normal;
