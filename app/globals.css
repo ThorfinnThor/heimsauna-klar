@@ -1407,6 +1407,10 @@ footer {
   row-gap: clamp(36px, 5vw, 64px);
 }
 
+[data-page-kind="collection"][data-page-status="draft"] .collection-insight-compact {
+  grid-template-columns: minmax(0, 1.25fr) minmax(380px, .75fr);
+}
+
 [data-page-kind="collection"][data-page-status="draft"] .collection-method-steps {
   gap: clamp(30px, 4vw, 48px);
 }
