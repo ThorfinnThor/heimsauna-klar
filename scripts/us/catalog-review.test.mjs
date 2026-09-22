@@ -19,8 +19,8 @@ test("the current indexed first-wave catalog has a reproducible review report", 
     publication,
     policy,
   });
-  assert.equal(report.summary.products, 285);
-  assert.equal(report.summary.candidatesAwaitingReview, 257);
+  assert.equal(report.summary.products, 289);
+  assert.equal(report.summary.candidatesAwaitingReview, 261);
   assert.equal(report.summary.sourceStale, 0);
   assert.equal(report.summary.sourceReferencesMissing, 0);
   assert.equal(report.summary.reviewsDue, 0);
@@ -28,7 +28,7 @@ test("the current indexed first-wave catalog has a reproducible review report", 
   assert.equal(report.summary.approvedPrograms, 1);
   assert.equal(report.summary.rightsReady, 0);
   assert.equal(report.summary.publicationProtected, true);
-  assert(report.blockers.includes("257 candidate or draft products still require their first technical review."));
+  assert(report.blockers.includes("261 candidate or draft products still require their first technical review."));
   assert(!report.blockers.some((blocker) => blocker.includes("publisher approval")));
 });
 

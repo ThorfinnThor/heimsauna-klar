@@ -39254,6 +39254,558 @@
         "source-saunabox-pulse-pro-manufacturer"
       ],
       "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-utu-mini-standard",
+      "market": "US",
+      "product_id": "harvia-utu-mini",
+      "label": "Utu Mini documented configuration",
+      "manufacturer_sku": {
+        "status": "documented",
+        "value": "SHU0909",
+        "evidence_ids": [
+          "evidence-harvia-utu-mini-configuration"
+        ]
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 1,
+          "evidence_ids": [
+            "evidence-harvia-utu-mini-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed Harvia US page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 38.19,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 37.76,
+              "unit": "in"
+            },
+            "height": {
+              "value": 81.12,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-harvia-utu-mini-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed Harvia US page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed Harvia US page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia manual and site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not used for this catalog record because the US product page does not state it in the reviewed section."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed Harvia US page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermo aspen",
+          "Tempered safety glass"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-mini-configuration"
+        ]
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-utu-mini-standard-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-utu-mini-electrical"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a supply voltage."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a supply frequency."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state the electrical phase."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state rated heater power for the selected heater option."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state rated current."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a required circuit rating."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a breaker rating."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a normalized connection type."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a plug type."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state whether a dedicated circuit is required."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-utu-mini-manufacturer"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-utu-small-standard",
+      "market": "US",
+      "product_id": "harvia-utu-small",
+      "label": "Utu Small documented configuration",
+      "manufacturer_sku": {
+        "status": "documented",
+        "value": "SHU1212",
+        "evidence_ids": [
+          "evidence-harvia-utu-small-configuration"
+        ]
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-harvia-utu-small-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed Harvia US page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 47.24,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 47.24,
+              "unit": "in"
+            },
+            "height": {
+              "value": 80.16,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-harvia-utu-small-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed Harvia US page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed Harvia US page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia manual and site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not used for this catalog record because the US product page does not state it in the reviewed section."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed Harvia US page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermo aspen",
+          "Tempered safety glass"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-small-configuration"
+        ]
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-utu-small-standard-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-utu-small-electrical"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a supply voltage."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a supply frequency."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state the electrical phase."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state rated heater power for the selected heater option."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state rated current."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a required circuit rating."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a breaker rating."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a normalized connection type."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a plug type."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state whether a dedicated circuit is required."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-utu-small-manufacturer"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-utu-medium-standard",
+      "market": "US",
+      "product_id": "harvia-utu-medium",
+      "label": "Utu Medium documented configuration",
+      "manufacturer_sku": {
+        "status": "documented",
+        "value": "SHU1616",
+        "evidence_ids": [
+          "evidence-harvia-utu-medium-configuration"
+        ]
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-harvia-utu-medium-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed Harvia US page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 63.78,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 63,
+              "unit": "in"
+            },
+            "height": {
+              "value": 80.16,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-harvia-utu-medium-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed Harvia US page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed Harvia US page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia manual and site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not used for this catalog record because the US product page does not state it in the reviewed section."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed Harvia US page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermo aspen",
+          "Tempered safety glass"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-medium-configuration"
+        ]
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-utu-medium-standard-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-utu-medium-electrical"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a supply voltage."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a supply frequency."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state the electrical phase."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state rated heater power for the selected heater option."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state rated current."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a required circuit rating."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a breaker rating."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a normalized connection type."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a plug type."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state whether a dedicated circuit is required."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-utu-medium-manufacturer"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-utu-vision-medium-standard",
+      "market": "US",
+      "product_id": "harvia-utu-vision-medium",
+      "label": "Utu Vision Medium documented configuration",
+      "manufacturer_sku": {
+        "status": "documented",
+        "value": "SHU1616V",
+        "evidence_ids": [
+          "evidence-harvia-utu-vision-medium-configuration"
+        ]
+      },
+      "capacity": {
+        "seated": {
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-harvia-utu-vision-medium-configuration"
+          ]
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A reclining capacity is not stated on the reviewed Harvia US page."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 63.78,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 63,
+              "unit": "in"
+            },
+            "height": {
+              "value": 80.16,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-harvia-utu-vision-medium-configuration"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not stated on the reviewed Harvia US page."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed Harvia US page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "Installation clearances require the applicable Harvia manual and site review."
+        }
+      },
+      "net_weight": {
+        "status": "unknown",
+        "reason": "Net weight is not used for this catalog record because the US product page does not state it in the reviewed section."
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed Harvia US page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Thermo aspen",
+          "Tempered safety glass"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-vision-medium-configuration"
+        ]
+      },
+      "components": [],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-utu-vision-medium-standard-electrical-unknown",
+          "evidence_ids": [
+            "evidence-harvia-utu-vision-medium-electrical"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a supply voltage."
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a supply frequency."
+              },
+              "phase": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state the electrical phase."
+              },
+              "rated_power_w": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state rated heater power for the selected heater option."
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state rated current."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a required circuit rating."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a breaker rating."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a normalized connection type."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state a plug type."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "The reviewed Harvia US product page does not state whether a dedicated circuit is required."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-utu-vision-medium-manufacturer"
+      ],
+      "publication_status": "candidate"
     }
   ],
   "certifications": [],

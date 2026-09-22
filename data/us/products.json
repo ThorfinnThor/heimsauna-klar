@@ -14883,6 +14883,230 @@
       "spec_checked_at": "2026-09-22",
       "next_review_at": "2026-12-22",
       "change_reason": "Added to close the missing portable infrared sauna-tent category using the current manufacturer specification; seated capacity remains unstated."
+    },
+    {
+      "id": "harvia-utu-mini",
+      "market": "US",
+      "slug": "harvia-utu-mini",
+      "brand_name": "Harvia",
+      "model": "Utu Mini",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-utu-mini-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-utu-mini-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-mini-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-mini-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna cabin",
+        "evidence_ids": [
+          "evidence-harvia-utu-mini-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-utu-mini-standard"
+      ],
+      "source_ids": [
+        "source-harvia-utu-mini-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from an exact official Harvia US Utu product page; publication review remains open."
+    },
+    {
+      "id": "harvia-utu-small",
+      "market": "US",
+      "slug": "harvia-utu-small",
+      "brand_name": "Harvia",
+      "model": "Utu Small",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-utu-small-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-utu-small-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-small-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-small-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna cabin",
+        "evidence_ids": [
+          "evidence-harvia-utu-small-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-utu-small-standard"
+      ],
+      "source_ids": [
+        "source-harvia-utu-small-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from an exact official Harvia US Utu product page; publication review remains open."
+    },
+    {
+      "id": "harvia-utu-medium",
+      "market": "US",
+      "slug": "harvia-utu-medium",
+      "brand_name": "Harvia",
+      "model": "Utu Medium",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-utu-medium-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-utu-medium-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-medium-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-medium-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna cabin",
+        "evidence_ids": [
+          "evidence-harvia-utu-medium-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-utu-medium-standard"
+      ],
+      "source_ids": [
+        "source-harvia-utu-medium-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from an exact official Harvia US Utu product page; publication review remains open."
+    },
+    {
+      "id": "harvia-utu-vision-medium",
+      "market": "US",
+      "slug": "harvia-utu-vision-medium",
+      "brand_name": "Harvia",
+      "model": "Utu Vision Medium",
+      "product_type": {
+        "status": "documented",
+        "value": "sauna-cabin",
+        "evidence_ids": [
+          "evidence-harvia-utu-vision-medium-product"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "traditional",
+        "evidence_ids": [
+          "evidence-harvia-utu-vision-medium-product"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-vision-medium-electrical"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-utu-vision-medium-product"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Indoor sauna cabin",
+        "evidence_ids": [
+          "evidence-harvia-utu-vision-medium-product"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-utu-vision-medium-standard"
+      ],
+      "source_ids": [
+        "source-harvia-utu-vision-medium-manufacturer"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from an exact official Harvia US Utu product page; publication review remains open."
     }
   ]
 }

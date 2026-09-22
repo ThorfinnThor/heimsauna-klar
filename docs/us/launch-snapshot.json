@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 257 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 261 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -301,7 +301,11 @@
       "morzh-max",
       "morzh-shelter",
       "ox-sweat-skylight",
-      "saunabox-pulse-pro"
+      "saunabox-pulse-pro",
+      "harvia-utu-mini",
+      "harvia-utu-small",
+      "harvia-utu-medium",
+      "harvia-utu-vision-medium"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -588,7 +592,11 @@
       "morzh-max-standard",
       "morzh-shelter-standard",
       "ox-sweat-skylight-standard",
-      "saunabox-pulse-pro-standard"
+      "saunabox-pulse-pro-standard",
+      "harvia-utu-mini-standard",
+      "harvia-utu-small-standard",
+      "harvia-utu-medium-standard",
+      "harvia-utu-vision-medium-standard"
     ],
     "offer_ids": [
       "offer-sweat-kingdom-sweat-cabin",
@@ -609,8 +617,8 @@
       "offer-sweat-kingdom-regen-sweat-cabin-deluxe",
       "offer-sweat-kingdom-regen-sweat-pod"
     ],
-    "source_count": 311,
-    "evidence_count": 639,
+    "source_count": 315,
+    "evidence_count": 651,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -940,7 +948,11 @@
       "morzh-max-image",
       "morzh-shelter-image",
       "ox-sweat-skylight-image",
-      "saunabox-pulse-pro-image"
+      "saunabox-pulse-pro-image",
+      "harvia-utu-mini-manufacturer-image",
+      "harvia-utu-small-manufacturer-image",
+      "harvia-utu-medium-manufacturer-image",
+      "harvia-utu-vision-medium-manufacturer-image"
     ]
   },
   "file_hashes": [
@@ -950,15 +962,15 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "8f41c16d3fe73ff4d44e7883abdb5fe49f027e8280735ed72a43b11942a73db0"
+      "sha256": "26eec35c4009892736dd11afc956f734442534828beb55061aacf63c13bb41f3"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "479b1c1f9c271a49025f010334ce4750e0e67034d02e3a28743ca5792b6af497"
+      "sha256": "ca057fa534830f7f4e219987ac7240348c641a7ec6095cbebcf780646837cad0"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "3247042cdb246155d493df7665932a92b3059e88bc256879c23c3f9619478759"
+      "sha256": "f8f4a853b8112de48c651d54d95239e816197620d67ab7ed1c67c2abe8827968"
     },
     {
       "path": "data/us/merchants.json",
@@ -1006,7 +1018,7 @@
     },
     {
       "path": "docs/us/rights-register.json",
-      "sha256": "d26da45cc0184d769ec223e5a2799048e302401c614a28f8c422acf2e09605c1"
+      "sha256": "20e98435d6305d5f94b14758b1ed2c670fb2b769a8f0862ba18895bac32d4f4d"
     }
   ],
   "blocking_conditions": [

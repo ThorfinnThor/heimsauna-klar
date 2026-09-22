@@ -25,7 +25,7 @@ This inventory describes the versioned US research catalog after the seventh exp
 | Seated capacity | 5+ people | 59 |
 | Seated capacity | Not documented | 100 |
 
-The catalog contains 285 products, 285 configurations, 28 published product records and 17 manually reviewed affiliate offers. The new batch adds six sauna tents and six current ThermaSol variants. It also deepens ThermaSol Aalto, Spectra and Vue and corrects model-level data for Finnmark FD-1, FD-3 and FD-5. FD-5 is now classified as hybrid rather than traditional because its exact product record documents both full-spectrum infrared and a traditional stone heater.
+The catalog contains 289 products, 289 configurations, 28 published product records and 17 manually reviewed affiliate offers. The new batch adds six sauna tents, six current ThermaSol variants and four Harvia Utu cabins. It also deepens ThermaSol Aalto, Spectra and Vue and corrects model-level data for Finnmark FD-1, FD-3 and FD-5. FD-5 is now classified as hybrid rather than traditional because its exact product record documents both full-spectrum infrared and a traditional stone heater.
 
 ## Evidence-depth gaps
 
@@ -43,4 +43,3 @@ The catalog contains 285 products, 285 configurations, 28 published product reco
 3. Normalize the remaining Finnmark FD-2, FD-4, FD-6 and FD-7 records. The catalog now has one verified hybrid record, but the other combination models still need exact model pages.
 4. Define portable-specific review fields for tents. Stove inclusion, fuel, chimney diameter, hot-zone clearances and seated capacity should not be inferred from camping-berth counts.
 5. Treat publication as a separate gate. New records remain candidates until their model-specific editorial copy, source review and presentation have passed QA.
-

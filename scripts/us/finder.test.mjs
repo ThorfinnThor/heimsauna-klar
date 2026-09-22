@@ -121,7 +121,7 @@ test("real catalog data produces eighteen known indoor infrared 120 V results", 
   });
   assert.equal(results.filter((entry) => entry.status === "meets-known-criteria").length, 18);
   assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 34);
-  assert.equal(results.filter((entry) => entry.status === "excluded").length, 233);
+  assert.equal(results.filter((entry) => entry.status === "excluded").length, 237);
   assert.deepEqual(results.filter((entry) => entry.status === "meets-known-criteria").map((entry) => entry.productId), [
     "peak-shasta", "peak-everest", "jnh-tosi-1", "jnh-tosi-2", "jnh-tosi-4", "peak-mini", "peak-crown", "peak-fuji", "peak-rainier", "sun-home-equinox", "sun-home-eclipse-2", "finnmark-fd-1", "sunray-sedona", "sunray-evansport", "sunray-aspen", "salus-laurel-king", "salus-element", "tylo-kiruna-2",
   ]);
@@ -145,7 +145,7 @@ test("the catalog scenario for two indoor infrared seats on 120 V returns thirte
     ["peak-everest", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-fuji", "sun-home-equinox", "sun-home-eclipse-2", "sunray-sedona", "sunray-evansport", "sunray-aspen", "salus-laurel-king", "salus-element", "tylo-kiruna-2"],
   );
   assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 29);
-  assert.equal(results.filter((entry) => entry.status === "excluded").length, 243);
+  assert.equal(results.filter((entry) => entry.status === "excluded").length, 247);
 });
 
 test("the public finder evaluates the complete pilot for six outdoor seats on 240 V", () => {
@@ -187,7 +187,7 @@ test("the public finder evaluates the complete pilot for six outdoor seats on 24
       "geyser-balerion",
     ],
   );
-  assert.equal(results.length, 285);
+  assert.equal(results.length, 289);
   assert.deepEqual(results, runUsFinder({
     ...input,
     products: productsDocument.products,

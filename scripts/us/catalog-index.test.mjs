@@ -11,7 +11,7 @@ import { getUsPublicCatalogItems, getUsResearchCatalogItems } from "../../lib/us
 const researchItems = getUsResearchCatalogItems();
 
 test("the catalog index normalizes every real pilot product", () => {
-  assert.equal(researchItems.length, 285);
+  assert.equal(researchItems.length, 289);
   assert(researchItems.every((item) => item.slug && item.brand && item.model));
   assert.deepEqual(researchItems, [...researchItems].sort((a, b) => a.brand.localeCompare(b.brand, "en-US") || a.model.localeCompare(b.model, "en-US")));
 });

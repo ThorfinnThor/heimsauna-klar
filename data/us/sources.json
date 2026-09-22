@@ -3111,6 +3111,46 @@
       "market": "US",
       "checked_at": "2026-09-22",
       "locator": "Official portable infrared model identity, dimensions, materials and electrical specification"
+    },
+    {
+      "id": "source-harvia-utu-mini-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.harvia.com/en-US/products/SHU0909/utu-mini",
+      "title": "Harvia Utu Mini US product page",
+      "publisher": "Harvia",
+      "locator": "Official US model identity, item number, indoor placement, capacity, dimensions and material description",
+      "market": "US",
+      "checked_at": "2026-09-22"
+    },
+    {
+      "id": "source-harvia-utu-small-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.harvia.com/en-US/products/SHU1212/shu1212",
+      "title": "Harvia Utu Small US product page",
+      "publisher": "Harvia",
+      "locator": "Official US model identity, item number, indoor placement, capacity, dimensions and material description",
+      "market": "US",
+      "checked_at": "2026-09-22"
+    },
+    {
+      "id": "source-harvia-utu-medium-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.harvia.com/en-US/products/SHU1616/utu-medium",
+      "title": "Harvia Utu Medium US product page",
+      "publisher": "Harvia",
+      "locator": "Official US model identity, item number, indoor placement, capacity, dimensions and material description",
+      "market": "US",
+      "checked_at": "2026-09-22"
+    },
+    {
+      "id": "source-harvia-utu-vision-medium-manufacturer",
+      "type": "manufacturer-page",
+      "url": "https://www.harvia.com/en-US/products/SHU1616V/utu-vision-medium",
+      "title": "Harvia Utu Vision Medium US product page",
+      "publisher": "Harvia",
+      "locator": "Official US model identity, item number, indoor placement, capacity, dimensions and material description",
+      "market": "US",
+      "checked_at": "2026-09-22"
     }
   ],
   "evidence": [
@@ -7588,6 +7628,90 @@
       "source_id": "source-finnmark-fd-5-product",
       "field_path": "electrical_supply_options",
       "raw_value": "[{\"component\":\"infrared-system\",\"voltage\":240,\"power\":2700,\"current\":15,\"phase\":1,\"plug\":\"NEMA 6-15P\",\"dedicated\":true},{\"component\":\"heater\",\"voltage\":240,\"power\":4500,\"current\":null,\"phase\":1,\"plug\":null,\"dedicated\":true}]"
+    },
+    {
+      "id": "evidence-harvia-utu-mini-product",
+      "entity_id": "harvia-utu-mini",
+      "source_id": "source-harvia-utu-mini-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Harvia lists Utu Mini (SHU0909) as an indoor Utu sauna cabin with traditional and/or combi heater options."
+    },
+    {
+      "id": "evidence-harvia-utu-mini-configuration",
+      "entity_id": "harvia-utu-mini-standard",
+      "source_id": "source-harvia-utu-mini-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Utu Mini: seated capacity 1; exterior dimensions {\"width\":{\"value\":38.19,\"unit\":\"in\"},\"depth\":{\"value\":37.76,\"unit\":\"in\"},\"height\":{\"value\":81.12,\"unit\":\"in\"}}; thermo aspen surfaces and tempered safety glass are stated on the product page."
+    },
+    {
+      "id": "evidence-harvia-utu-mini-electrical",
+      "entity_id": "harvia-utu-mini-standard",
+      "source_id": "source-harvia-utu-mini-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Utu Mini supports traditional electric or combi heater options, but the reviewed US product page does not state voltage, circuit or heater power."
+    },
+    {
+      "id": "evidence-harvia-utu-small-product",
+      "entity_id": "harvia-utu-small",
+      "source_id": "source-harvia-utu-small-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Harvia lists Utu Small (SHU1212) as an indoor Utu sauna cabin with traditional and/or combi heater options."
+    },
+    {
+      "id": "evidence-harvia-utu-small-configuration",
+      "entity_id": "harvia-utu-small-standard",
+      "source_id": "source-harvia-utu-small-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Utu Small: seated capacity 2; exterior dimensions {\"width\":{\"value\":47.24,\"unit\":\"in\"},\"depth\":{\"value\":47.24,\"unit\":\"in\"},\"height\":{\"value\":80.16,\"unit\":\"in\"}}; thermo aspen surfaces and tempered safety glass are stated on the product page."
+    },
+    {
+      "id": "evidence-harvia-utu-small-electrical",
+      "entity_id": "harvia-utu-small-standard",
+      "source_id": "source-harvia-utu-small-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Utu Small supports traditional electric or combi heater options, but the reviewed US product page does not state voltage, circuit or heater power."
+    },
+    {
+      "id": "evidence-harvia-utu-medium-product",
+      "entity_id": "harvia-utu-medium",
+      "source_id": "source-harvia-utu-medium-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Harvia lists Utu Medium (SHU1616) as an indoor Utu sauna cabin with traditional and/or combi heater options."
+    },
+    {
+      "id": "evidence-harvia-utu-medium-configuration",
+      "entity_id": "harvia-utu-medium-standard",
+      "source_id": "source-harvia-utu-medium-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Utu Medium: seated capacity 3; exterior dimensions {\"width\":{\"value\":63.78,\"unit\":\"in\"},\"depth\":{\"value\":63,\"unit\":\"in\"},\"height\":{\"value\":80.16,\"unit\":\"in\"}}; thermo aspen surfaces and tempered safety glass are stated on the product page."
+    },
+    {
+      "id": "evidence-harvia-utu-medium-electrical",
+      "entity_id": "harvia-utu-medium-standard",
+      "source_id": "source-harvia-utu-medium-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Utu Medium supports traditional electric or combi heater options, but the reviewed US product page does not state voltage, circuit or heater power."
+    },
+    {
+      "id": "evidence-harvia-utu-vision-medium-product",
+      "entity_id": "harvia-utu-vision-medium",
+      "source_id": "source-harvia-utu-vision-medium-manufacturer",
+      "field_path": "product_identity",
+      "raw_value": "Harvia lists Utu Vision Medium (SHU1616V) as an indoor Utu sauna cabin with traditional and/or combi heater options."
+    },
+    {
+      "id": "evidence-harvia-utu-vision-medium-configuration",
+      "entity_id": "harvia-utu-vision-medium-standard",
+      "source_id": "source-harvia-utu-vision-medium-manufacturer",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Utu Vision Medium: seated capacity 3; exterior dimensions {\"width\":{\"value\":63.78,\"unit\":\"in\"},\"depth\":{\"value\":63,\"unit\":\"in\"},\"height\":{\"value\":80.16,\"unit\":\"in\"}}; thermo aspen surfaces and tempered safety glass are stated on the product page."
+    },
+    {
+      "id": "evidence-harvia-utu-vision-medium-electrical",
+      "entity_id": "harvia-utu-vision-medium-standard",
+      "source_id": "source-harvia-utu-vision-medium-manufacturer",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Utu Vision Medium supports traditional electric or combi heater options, but the reviewed US product page does not state voltage, circuit or heater power."
     }
   ]
 }

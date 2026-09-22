@@ -2854,6 +2854,46 @@
       "rights_status": "not-requested",
       "permission_basis": "none",
       "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "harvia-utu-mini-manufacturer-image",
+      "entity_id": "harvia-utu-mini",
+      "merchant_id": "harvia",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.harvia.com/en-US/products/SHU0909/utu-mini",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "harvia-utu-small-manufacturer-image",
+      "entity_id": "harvia-utu-small",
+      "merchant_id": "harvia",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.harvia.com/en-US/products/SHU1212/shu1212",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "harvia-utu-medium-manufacturer-image",
+      "entity_id": "harvia-utu-medium",
+      "merchant_id": "harvia",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.harvia.com/en-US/products/SHU1616/utu-medium",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "harvia-utu-vision-medium-manufacturer-image",
+      "entity_id": "harvia-utu-vision-medium",
+      "merchant_id": "harvia",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.harvia.com/en-US/products/SHU1616V/utu-vision-medium",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
     }
   ]
 }
