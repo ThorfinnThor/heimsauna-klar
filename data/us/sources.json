@@ -2356,31 +2356,31 @@
       "id": "source-harvia-concept-r-105-product",
       "type": "manufacturer-page",
       "url": "https://www.harvia.com/en-US/products/CP-RB-105/concept-r-105-kw-black",
-      "title": "Concept R 10.5 kW product page",
+      "title": "Concept R 10.5 kW official Harvia US product page",
       "publisher": "Harvia",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Official model number, room-volume range, installation location, dimensions, weight/materials and electrical table"
     },
     {
       "id": "source-harvia-virta-wall-hlw90e-product",
       "type": "manufacturer-page",
       "url": "https://www.harvia.com/en-US/products/HLWE904M/virta-wall-hlw90e-90-kw",
-      "title": "Virta Wall HLW90E 9.0 kW product page",
+      "title": "Virta Wall HLW90E 9.0 kW official Harvia US product page",
       "publisher": "Harvia",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Official model number, room-volume range, installation location, dimensions, weight/materials and electrical table"
     },
     {
       "id": "source-harvia-legend-po70fc-product",
       "type": "manufacturer-page",
       "url": "https://www.harvia.com/en-US/products/HPO704FC/legend-po70fc-68-kw-wifi-black",
-      "title": "Legend PO70FC 6.8 kW WiFi product page",
+      "title": "Legend PO70FC 6.8 kW WiFi official Harvia US product page",
       "publisher": "Harvia",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Official model number, room-volume range, installation location, dimensions, weight/materials and electrical table"
     },
     {
       "id": "source-cedarbrook-1-person-indoor-product",
@@ -3151,6 +3151,16 @@
       "locator": "Official US model identity, item number, indoor placement, capacity, dimensions and material description",
       "market": "US",
       "checked_at": "2026-09-22"
+    },
+    {
+      "id": "source-harvia-concept-r-combi-105-product",
+      "type": "manufacturer-page",
+      "url": "https://www.harvia.com/en-US/products/CP-RCB-105/concept-r-combi-105-kw-black",
+      "title": "Concept R Combi 10.5 kW official Harvia US product page",
+      "publisher": "Harvia",
+      "market": "US",
+      "checked_at": "2026-09-22",
+      "locator": "Official model number, room-volume range, combi function, dimensions, weight/materials and electrical table"
     }
   ],
   "evidence": [
@@ -8111,6 +8121,90 @@
       "source_id": "source-finnleo-is565-infrasauna-9805-0840-product",
       "field_path": "electrical_supply_options",
       "raw_value": "Finnleo lists 240 V, 30 A, hardwired and 6000 W for this model."
+    },
+    {
+      "id": "evidence-harvia-concept-r-105-verified-product-2026-09-22",
+      "entity_id": "harvia-concept-r-105",
+      "source_id": "source-harvia-concept-r-105-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Concept R 10.5 kW (CP-RB-105) is listed by Harvia as an electric traditional sauna heater for the interior/wet-area use context."
+    },
+    {
+      "id": "evidence-harvia-concept-r-105-verified-configuration-2026-09-22",
+      "entity_id": "harvia-concept-r-105-standard",
+      "source_id": "source-harvia-concept-r-105-product",
+      "field_path": "configuration_dimensions_materials",
+      "raw_value": "Concept R 10.5 kW: dimensions {\"width\":{\"value\":17.56,\"unit\":\"in\"},\"depth\":{\"value\":17.72,\"unit\":\"in\"},\"height\":{\"value\":28.15,\"unit\":\"in\"}}; net weight {\"value\":72.1,\"unit\":\"lb\"}; materials Steel; recommended room volume 353–530 ft³."
+    },
+    {
+      "id": "evidence-harvia-concept-r-105-verified-electrical-2026-09-22",
+      "entity_id": "harvia-concept-r-105-standard",
+      "source_id": "source-harvia-concept-r-105-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Concept R 10.5 kW: Harvia lists electric high-voltage 400 V / 230 V 1/3N~ options; the US page's electrical table lists 400 V 3N~. Rated output 10500 W."
+    },
+    {
+      "id": "evidence-harvia-virta-wall-hlw90e-verified-product-2026-09-22",
+      "entity_id": "harvia-virta-wall-hlw90e",
+      "source_id": "source-harvia-virta-wall-hlw90e-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Virta Wall HLW90E 9.0 kW (HLWE904M) is listed by Harvia as an electric traditional sauna heater for the interior/wet-area use context."
+    },
+    {
+      "id": "evidence-harvia-virta-wall-hlw90e-verified-configuration-2026-09-22",
+      "entity_id": "harvia-virta-wall-hlw90e-standard",
+      "source_id": "source-harvia-virta-wall-hlw90e-product",
+      "field_path": "configuration_dimensions_materials",
+      "raw_value": "Virta Wall HLW90E 9.0 kW: dimensions {\"width\":{\"value\":15.35,\"unit\":\"in\"},\"depth\":{\"value\":14.96,\"unit\":\"in\"},\"height\":{\"value\":20.87,\"unit\":\"in\"}}; net weight is not stated; materials Steel, Stainless steel inner components; recommended room volume 283–494 ft³."
+    },
+    {
+      "id": "evidence-harvia-virta-wall-hlw90e-verified-electrical-2026-09-22",
+      "entity_id": "harvia-virta-wall-hlw90e-standard",
+      "source_id": "source-harvia-virta-wall-hlw90e-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Virta Wall HLW90E 9.0 kW: Harvia describes 400 V 3N~, 230 V 1N~ and 230 V 3~ connection options; the normalized record keeps the 400 V 3-phase option shown in the electrical table. Rated output 9000 W."
+    },
+    {
+      "id": "evidence-harvia-legend-po70fc-verified-product-2026-09-22",
+      "entity_id": "harvia-legend-po70fc",
+      "source_id": "source-harvia-legend-po70fc-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Legend PO70FC 6.8 kW WiFi (HPO704FC) is listed by Harvia as an electric traditional sauna heater for the interior/wet-area use context."
+    },
+    {
+      "id": "evidence-harvia-legend-po70fc-verified-configuration-2026-09-22",
+      "entity_id": "harvia-legend-po70fc-standard",
+      "source_id": "source-harvia-legend-po70fc-product",
+      "field_path": "configuration_dimensions_materials",
+      "raw_value": "Legend PO70FC 6.8 kW WiFi: dimensions {\"width\":{\"value\":12.8,\"unit\":\"in\"},\"depth\":{\"value\":12.8,\"unit\":\"in\"},\"height\":{\"value\":41.76,\"unit\":\"in\"}}; net weight {\"value\":39.7,\"unit\":\"lb\"}; materials Steel, Stainless steel ventilation channels; recommended room volume Not stated on the reviewed page."
+    },
+    {
+      "id": "evidence-harvia-legend-po70fc-verified-electrical-2026-09-22",
+      "entity_id": "harvia-legend-po70fc-standard",
+      "source_id": "source-harvia-legend-po70fc-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Legend PO70FC 6.8 kW WiFi: Harvia lists electric high-voltage 400 V / 230 V 1/3N~ options and a 230 V~ / 230 V 3~ / 400 V 3N~ electrical table. Rated output 6800 W."
+    },
+    {
+      "id": "evidence-harvia-concept-r-combi-105-product-2026-09-22",
+      "entity_id": "harvia-concept-r-combi-105",
+      "source_id": "source-harvia-concept-r-combi-105-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Harvia Concept R Combi CP-RCB-105 is an electric combi sauna heater with a built-in evaporator for gentle steam."
+    },
+    {
+      "id": "evidence-harvia-concept-r-combi-105-configuration-2026-09-22",
+      "entity_id": "harvia-concept-r-combi-105-standard",
+      "source_id": "source-harvia-concept-r-combi-105-product",
+      "field_path": "configuration_dimensions_materials",
+      "raw_value": "Dimensions {\"width\":{\"value\":22.05,\"unit\":\"in\"},\"depth\":{\"value\":17.72,\"unit\":\"in\"},\"height\":{\"value\":28.15,\"unit\":\"in\"}}; net weight {\"value\":98.8,\"unit\":\"lb\"}; stone amount 77.2 lb; recommended room volume 353–530 ft³."
+    },
+    {
+      "id": "evidence-harvia-concept-r-combi-105-electrical-2026-09-22",
+      "entity_id": "harvia-concept-r-combi-105-standard",
+      "source_id": "source-harvia-concept-r-combi-105-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Harvia lists electric high-voltage 400 V / 230 V 1/3N~; the US page's electrical table lists 400 V 3N~; output 10.5 kW."
     }
   ]
 }

@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 261 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 262 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -305,7 +305,8 @@
       "harvia-utu-mini",
       "harvia-utu-small",
       "harvia-utu-medium",
-      "harvia-utu-vision-medium"
+      "harvia-utu-vision-medium",
+      "harvia-concept-r-combi-105"
     ],
     "configuration_ids": [
       "peak-shasta-standard",
@@ -596,7 +597,8 @@
       "harvia-utu-mini-standard",
       "harvia-utu-small-standard",
       "harvia-utu-medium-standard",
-      "harvia-utu-vision-medium-standard"
+      "harvia-utu-vision-medium-standard",
+      "harvia-concept-r-combi-105-standard"
     ],
     "offer_ids": [
       "offer-sweat-kingdom-sweat-cabin",
@@ -617,8 +619,8 @@
       "offer-sweat-kingdom-regen-sweat-cabin-deluxe",
       "offer-sweat-kingdom-regen-sweat-pod"
     ],
-    "source_count": 315,
-    "evidence_count": 708,
+    "source_count": 316,
+    "evidence_count": 720,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -952,7 +954,8 @@
       "harvia-utu-mini-manufacturer-image",
       "harvia-utu-small-manufacturer-image",
       "harvia-utu-medium-manufacturer-image",
-      "harvia-utu-vision-medium-manufacturer-image"
+      "harvia-utu-vision-medium-manufacturer-image",
+      "harvia-concept-r-combi-105-image"
     ]
   },
   "file_hashes": [
@@ -962,15 +965,15 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "41f4a4fc4b0eaecc8f5dfb65354c5dab260fe5989e17eb595750fb6654c082a8"
+      "sha256": "4ca96ae359ac49d8922590778684082c950f12575440a51a9b3cda2f15e2f81f"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "e73ee7158d583d23b935931b0d1a16634a7b4f643997b882da3f8406ef333b48"
+      "sha256": "ac06e540156fb92c3d897cb25fc1c7a2f751cf7caf54f4648480179fcf7f6a89"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "1a12af2221fbb215462ca1ef916722e18341aa651a249fbdf43e87bf3cbe63bc"
+      "sha256": "7088ca1c4b89af2dd5e8b806a871b571d06ec16e8507d435bc8317f5a0fdc5ec"
     },
     {
       "path": "data/us/merchants.json",
@@ -1018,7 +1021,7 @@
     },
     {
       "path": "docs/us/rights-register.json",
-      "sha256": "20e98435d6305d5f94b14758b1ed2c670fb2b769a8f0862ba18895bac32d4f4d"
+      "sha256": "f5abf4fac669fa37ca7b554f3a9f9bfe076d67591c9a127b0f329867357d30eb"
     }
   ],
   "blocking_conditions": [

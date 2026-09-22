@@ -2894,6 +2894,16 @@
       "rights_status": "not-requested",
       "permission_basis": "none",
       "action": "Use no image until written permission or an approved feed license is recorded."
+    },
+    {
+      "asset_id": "harvia-concept-r-combi-105-image",
+      "entity_id": "harvia-concept-r-combi-105",
+      "merchant_id": "harvia",
+      "asset_type": "manufacturer-image",
+      "source_url": "https://www.harvia.com/en-US/products/CP-RCB-105/concept-r-combi-105-kw-black",
+      "rights_status": "not-requested",
+      "permission_basis": "none",
+      "action": "Use no image until written permission or an approved feed license is recorded."
     }
   ]
 }

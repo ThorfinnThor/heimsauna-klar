@@ -3,7 +3,7 @@
   "market": "US",
   "status": "reviewed-current",
   "updated_at": "2026-09-22",
-  "scope": "Current 289-record US research catalog. Category counts overlap where a sauna kit also belongs to a placement and heat-type segment. Counts describe distinct product models, never electrical variants.",
+  "scope": "Current 290-record US research catalog. Category counts overlap where a sauna kit also belongs to a placement and heat-type segment. Counts describe distinct product models, never electrical variants.",
   "data_complete_definition": "Product type, heat type, energy source, placement, form, seated capacity, exterior dimensions and materials are documented, and one electrical requirement documents voltage, rated power and rated current together.",
   "categories": [
     {
@@ -64,7 +64,7 @@
     {
       "id": "heaters",
       "label": "Sauna heaters",
-      "product_count": 11,
+      "product_count": 12,
       "data_complete_count": 0,
       "status": "thin",
       "gaps": [

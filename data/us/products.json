@@ -11079,29 +11079,39 @@
         "status": "documented",
         "value": "heater",
         "evidence_ids": [
-          "evidence-harvia-concept-r-105-product"
+          "evidence-harvia-concept-r-105-verified-product-2026-09-22"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "traditional",
         "evidence_ids": [
-          "evidence-harvia-concept-r-105-product"
+          "evidence-harvia-concept-r-105-verified-product-2026-09-22"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-concept-r-105-verified-electrical-2026-09-22"
+        ]
       },
       "placements": {
-        "status": "unknown",
-        "reason": "The reviewed Harvia product page does not state one placement context for this candidate."
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-concept-r-105-verified-product-2026-09-22"
+        ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna heater",
+        "value": "Floor-standing electric sauna heater",
         "evidence_ids": [
-          "evidence-harvia-concept-r-105-product"
+          "evidence-harvia-concept-r-105-verified-product-2026-09-22"
         ]
       },
       "configuration_ids": [
@@ -11111,8 +11121,9 @@
         "source-harvia-concept-r-105-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Model-level Harvia US technical page review added the manufacturer item number, installation context, dimensions, output and electrical details; publication remains protected pending editorial and rights review.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "harvia-virta-wall-hlw90e",
@@ -11124,29 +11135,39 @@
         "status": "documented",
         "value": "heater",
         "evidence_ids": [
-          "evidence-harvia-virta-wall-hlw90e-product"
+          "evidence-harvia-virta-wall-hlw90e-verified-product-2026-09-22"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "traditional",
         "evidence_ids": [
-          "evidence-harvia-virta-wall-hlw90e-product"
+          "evidence-harvia-virta-wall-hlw90e-verified-product-2026-09-22"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-virta-wall-hlw90e-verified-electrical-2026-09-22"
+        ]
       },
       "placements": {
-        "status": "unknown",
-        "reason": "The reviewed Harvia product page does not state one placement context for this candidate."
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-virta-wall-hlw90e-verified-product-2026-09-22"
+        ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna heater",
+        "value": "Wall-mounted electric sauna heater",
         "evidence_ids": [
-          "evidence-harvia-virta-wall-hlw90e-product"
+          "evidence-harvia-virta-wall-hlw90e-verified-product-2026-09-22"
         ]
       },
       "configuration_ids": [
@@ -11156,8 +11177,9 @@
         "source-harvia-virta-wall-hlw90e-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Model-level Harvia US technical page review added the manufacturer item number, installation context, dimensions, output and electrical details; publication remains protected pending editorial and rights review.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "harvia-legend-po70fc",
@@ -11169,29 +11191,39 @@
         "status": "documented",
         "value": "heater",
         "evidence_ids": [
-          "evidence-harvia-legend-po70fc-product"
+          "evidence-harvia-legend-po70fc-verified-product-2026-09-22"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "traditional",
         "evidence_ids": [
-          "evidence-harvia-legend-po70fc-product"
+          "evidence-harvia-legend-po70fc-verified-product-2026-09-22"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Harvia product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-legend-po70fc-verified-electrical-2026-09-22"
+        ]
       },
       "placements": {
-        "status": "unknown",
-        "reason": "The reviewed Harvia product page does not state one placement context for this candidate."
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-legend-po70fc-verified-product-2026-09-22"
+        ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna heater",
+        "value": "Floor-standing electric sauna heater with included Fenix control package",
         "evidence_ids": [
-          "evidence-harvia-legend-po70fc-product"
+          "evidence-harvia-legend-po70fc-verified-product-2026-09-22"
         ]
       },
       "configuration_ids": [
@@ -11201,8 +11233,9 @@
         "source-harvia-legend-po70fc-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Harvia US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Model-level Harvia US technical page review added the manufacturer item number, installation context, dimensions, output and electrical details; publication remains protected pending editorial and rights review.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "cedarbrook-1-person-indoor",
@@ -15191,6 +15224,62 @@
       "spec_checked_at": "2026-09-22",
       "next_review_at": "2026-12-22",
       "change_reason": "Added from an exact official Harvia US Utu product page; publication review remains open."
+    },
+    {
+      "id": "harvia-concept-r-combi-105",
+      "market": "US",
+      "slug": "harvia-concept-r-combi-105",
+      "brand_name": "Harvia",
+      "model": "Concept R Combi 10.5 kW",
+      "product_type": {
+        "status": "documented",
+        "value": "heater",
+        "evidence_ids": [
+          "evidence-harvia-concept-r-combi-105-product-2026-09-22"
+        ]
+      },
+      "heat_type": {
+        "status": "documented",
+        "value": "hybrid",
+        "evidence_ids": [
+          "evidence-harvia-concept-r-combi-105-product-2026-09-22"
+        ]
+      },
+      "energy_sources": {
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-concept-r-combi-105-electrical-2026-09-22"
+        ]
+      },
+      "placements": {
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-concept-r-combi-105-product-2026-09-22"
+        ]
+      },
+      "form": {
+        "status": "documented",
+        "value": "Floor-standing electric combi sauna heater with evaporator",
+        "evidence_ids": [
+          "evidence-harvia-concept-r-combi-105-product-2026-09-22"
+        ]
+      },
+      "configuration_ids": [
+        "harvia-concept-r-combi-105-standard"
+      ],
+      "source_ids": [
+        "source-harvia-concept-r-combi-105-product"
+      ],
+      "publication_status": "candidate",
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "Added from the exact official Harvia US Concept R Combi product page; publication remains protected pending editorial and rights review."
     }
   ]
 }

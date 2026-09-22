@@ -29161,100 +29161,142 @@
       "id": "harvia-concept-r-105-standard",
       "market": "US",
       "product_id": "harvia-concept-r-105",
-      "label": "Concept R 10.5 kW standard configuration",
+      "label": "Concept R 10.5 kW documented configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "CP-RB-105",
+        "evidence_ids": [
+          "evidence-harvia-concept-r-105-verified-product-2026-09-22"
+        ]
       },
       "capacity": {
         "seated": {
           "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "reason": "A heater is not a cabin and has no seated capacity."
         },
         "reclining": {
           "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "reason": "A heater is not a cabin and has no reclining capacity."
         }
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 17.56,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 17.72,
+              "unit": "in"
+            },
+            "height": {
+              "value": 28.15,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-harvia-concept-r-105-verified-configuration-2026-09-22"
+          ]
         },
         "interior": {
           "status": "unknown",
-          "reason": "Complete interior dimensions require the individual technical specification."
+          "reason": "Interior dimensions are not applicable to a standalone heater."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the applicable Harvia documentation."
+          "reason": "The page lists selected safety distances, but complete installation clearances must be checked in the current Harvia manual."
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not stated in the reviewed catalog record."
+        "status": "documented",
+        "value": {
+          "value": 72.1,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-harvia-concept-r-105-verified-configuration-2026-09-22"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated in the reviewed catalog record."
+        "reason": "Shipping weight is not stated on the reviewed product page."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Harvia specification."
+        "status": "documented",
+        "value": [
+          "Steel"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-concept-r-105-verified-configuration-2026-09-22"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "harvia-concept-r-105-electrical-unknown",
+          "id": "harvia-concept-r-105-standard-electrical-400v-3ph",
           "evidence_ids": [
-            "evidence-harvia-concept-r-105-configuration"
+            "evidence-harvia-concept-r-105-verified-electrical-2026-09-22"
           ],
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 400,
+                "evidence_ids": [
+                  "evidence-harvia-concept-r-105-verified-electrical-2026-09-22"
+                ]
               },
               "frequency_hz": {
-                "status": "unknown",
-                "reason": "Frequency is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 60,
+                "evidence_ids": [
+                  "evidence-harvia-concept-r-105-verified-electrical-2026-09-22"
+                ]
               },
               "phase": {
-                "status": "unknown",
-                "reason": "Phase is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 3,
+                "evidence_ids": [
+                  "evidence-harvia-concept-r-105-verified-electrical-2026-09-22"
+                ]
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 10500,
+                "evidence_ids": [
+                  "evidence-harvia-concept-r-105-verified-electrical-2026-09-22"
+                ]
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "Rated current is not stated on the reviewed Harvia US product page."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "Required circuit rating is not stated on the reviewed Harvia US product page."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "Breaker rating is not stated on the reviewed Harvia US product page."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The product page states voltage/phase options but does not normalize the connection type."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the reviewed Harvia US product page."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "Dedicated-circuit requirements must be confirmed in the current Harvia manual and by a qualified electrician."
               }
             }
           ]
@@ -29271,100 +29313,137 @@
       "id": "harvia-virta-wall-hlw90e-standard",
       "market": "US",
       "product_id": "harvia-virta-wall-hlw90e",
-      "label": "Virta Wall HLW90E 9.0 kW standard configuration",
+      "label": "Virta Wall HLW90E 9.0 kW documented configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "HLWE904M",
+        "evidence_ids": [
+          "evidence-harvia-virta-wall-hlw90e-verified-product-2026-09-22"
+        ]
       },
       "capacity": {
         "seated": {
           "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "reason": "A heater is not a cabin and has no seated capacity."
         },
         "reclining": {
           "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "reason": "A heater is not a cabin and has no reclining capacity."
         }
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 15.35,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 14.96,
+              "unit": "in"
+            },
+            "height": {
+              "value": 20.87,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-harvia-virta-wall-hlw90e-verified-configuration-2026-09-22"
+          ]
         },
         "interior": {
           "status": "unknown",
-          "reason": "Complete interior dimensions require the individual technical specification."
+          "reason": "Interior dimensions are not applicable to a standalone heater."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the applicable Harvia documentation."
+          "reason": "The page lists selected safety distances, but complete installation clearances must be checked in the current Harvia manual."
         }
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not stated in the reviewed catalog record."
+        "reason": "Net weight is not stated on the reviewed product page."
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated in the reviewed catalog record."
+        "reason": "Shipping weight is not stated on the reviewed product page."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Harvia specification."
+        "status": "documented",
+        "value": [
+          "Steel",
+          "Stainless steel inner components"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-virta-wall-hlw90e-verified-configuration-2026-09-22"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
         {
-          "id": "harvia-virta-wall-hlw90e-electrical-unknown",
+          "id": "harvia-virta-wall-hlw90e-standard-electrical-400v-3ph",
           "evidence_ids": [
-            "evidence-harvia-virta-wall-hlw90e-configuration"
+            "evidence-harvia-virta-wall-hlw90e-verified-electrical-2026-09-22"
           ],
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 400,
+                "evidence_ids": [
+                  "evidence-harvia-virta-wall-hlw90e-verified-electrical-2026-09-22"
+                ]
               },
               "frequency_hz": {
-                "status": "unknown",
-                "reason": "Frequency is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 60,
+                "evidence_ids": [
+                  "evidence-harvia-virta-wall-hlw90e-verified-electrical-2026-09-22"
+                ]
               },
               "phase": {
-                "status": "unknown",
-                "reason": "Phase is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 3,
+                "evidence_ids": [
+                  "evidence-harvia-virta-wall-hlw90e-verified-electrical-2026-09-22"
+                ]
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 9000,
+                "evidence_ids": [
+                  "evidence-harvia-virta-wall-hlw90e-verified-electrical-2026-09-22"
+                ]
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "Rated current is not stated on the reviewed Harvia US product page."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "Required circuit rating is not stated on the reviewed Harvia US product page."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "Breaker rating is not stated on the reviewed Harvia US product page."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The product page states voltage/phase options but does not normalize the connection type."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the reviewed Harvia US product page."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "Dedicated-circuit requirements must be confirmed in the current Harvia manual and by a qualified electrician."
               }
             }
           ]
@@ -29381,100 +29460,171 @@
       "id": "harvia-legend-po70fc-standard",
       "market": "US",
       "product_id": "harvia-legend-po70fc",
-      "label": "Legend PO70FC 6.8 kW WiFi standard configuration",
+      "label": "Legend PO70FC 6.8 kW WiFi documented configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Harvia page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "HPO704FC",
+        "evidence_ids": [
+          "evidence-harvia-legend-po70fc-verified-product-2026-09-22"
+        ]
       },
       "capacity": {
         "seated": {
           "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "reason": "A heater is not a cabin and has no seated capacity."
         },
         "reclining": {
           "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "reason": "A heater is not a cabin and has no reclining capacity."
         }
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 12.8,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 12.8,
+              "unit": "in"
+            },
+            "height": {
+              "value": 41.76,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-harvia-legend-po70fc-verified-configuration-2026-09-22"
+          ]
         },
         "interior": {
           "status": "unknown",
-          "reason": "Complete interior dimensions require the individual technical specification."
+          "reason": "Interior dimensions are not applicable to a standalone heater."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the applicable Harvia documentation."
+          "reason": "The page lists selected safety distances, but complete installation clearances must be checked in the current Harvia manual."
         }
       },
       "net_weight": {
-        "status": "unknown",
-        "reason": "Net weight is not stated in the reviewed catalog record."
+        "status": "documented",
+        "value": {
+          "value": 39.7,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-harvia-legend-po70fc-verified-configuration-2026-09-22"
+        ]
       },
       "shipping_weight": {
         "status": "unknown",
-        "reason": "Shipping weight is not stated in the reviewed catalog record."
+        "reason": "Shipping weight is not stated on the reviewed product page."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Harvia specification."
+        "status": "documented",
+        "value": [
+          "Steel",
+          "Stainless steel ventilation channels"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-legend-po70fc-verified-configuration-2026-09-22"
+        ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "harvia-legend-po70fc-standard-component-1",
+          "component_type": "heater",
+          "name": "Legend FC electric heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-harvia-legend-po70fc-verified-product-2026-09-22"
+          ]
+        },
+        {
+          "id": "harvia-legend-po70fc-standard-component-2",
+          "component_type": "controls",
+          "name": "Fenix WiFi control panel",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-harvia-legend-po70fc-verified-product-2026-09-22"
+          ]
+        },
+        {
+          "id": "harvia-legend-po70fc-standard-component-3",
+          "component_type": "controls",
+          "name": "Temperature sensor and door sensor",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-harvia-legend-po70fc-verified-product-2026-09-22"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
-          "id": "harvia-legend-po70fc-electrical-unknown",
+          "id": "harvia-legend-po70fc-standard-electrical-400v-3ph",
           "evidence_ids": [
-            "evidence-harvia-legend-po70fc-configuration"
+            "evidence-harvia-legend-po70fc-verified-electrical-2026-09-22"
           ],
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 400,
+                "evidence_ids": [
+                  "evidence-harvia-legend-po70fc-verified-electrical-2026-09-22"
+                ]
               },
               "frequency_hz": {
-                "status": "unknown",
-                "reason": "Frequency is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 60,
+                "evidence_ids": [
+                  "evidence-harvia-legend-po70fc-verified-electrical-2026-09-22"
+                ]
               },
               "phase": {
-                "status": "unknown",
-                "reason": "Phase is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 3,
+                "evidence_ids": [
+                  "evidence-harvia-legend-po70fc-verified-electrical-2026-09-22"
+                ]
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 6800,
+                "evidence_ids": [
+                  "evidence-harvia-legend-po70fc-verified-electrical-2026-09-22"
+                ]
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "Rated current is not stated on the reviewed Harvia US product page."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "Required circuit rating is not stated on the reviewed Harvia US product page."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "Breaker rating is not stated on the reviewed Harvia US product page."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The product page states voltage/phase options but does not normalize the connection type."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the reviewed Harvia US product page."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "Dedicated-circuit requirements must be confirmed in the current Harvia manual and by a qualified electrician."
               }
             }
           ]
@@ -40510,6 +40660,169 @@
       "warranty_ids": [],
       "source_ids": [
         "source-harvia-utu-vision-medium-manufacturer"
+      ],
+      "publication_status": "candidate"
+    },
+    {
+      "id": "harvia-concept-r-combi-105-standard",
+      "market": "US",
+      "product_id": "harvia-concept-r-combi-105",
+      "label": "Concept R Combi 10.5 kW documented configuration",
+      "manufacturer_sku": {
+        "status": "documented",
+        "value": "CP-RCB-105",
+        "evidence_ids": [
+          "evidence-harvia-concept-r-combi-105-product-2026-09-22"
+        ]
+      },
+      "capacity": {
+        "seated": {
+          "status": "unknown",
+          "reason": "A heater is not a cabin and has no seated capacity."
+        },
+        "reclining": {
+          "status": "unknown",
+          "reason": "A heater is not a cabin and has no reclining capacity."
+        }
+      },
+      "dimensions": {
+        "exterior": {
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 22.05,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 17.72,
+              "unit": "in"
+            },
+            "height": {
+              "value": 28.15,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-harvia-concept-r-combi-105-configuration-2026-09-22"
+          ]
+        },
+        "interior": {
+          "status": "unknown",
+          "reason": "Interior dimensions are not applicable to a standalone heater."
+        },
+        "shipping": {
+          "status": "unknown",
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
+        },
+        "minimum_clearances": {
+          "status": "unknown",
+          "reason": "The page lists selected safety distances, but complete installation clearances must be checked in the current Harvia manual."
+        }
+      },
+      "net_weight": {
+        "status": "documented",
+        "value": {
+          "value": 98.8,
+          "unit": "lb"
+        },
+        "evidence_ids": [
+          "evidence-harvia-concept-r-combi-105-configuration-2026-09-22"
+        ]
+      },
+      "shipping_weight": {
+        "status": "unknown",
+        "reason": "Shipping weight is not stated on the reviewed product page."
+      },
+      "materials": {
+        "status": "documented",
+        "value": [
+          "Steel",
+          "Ceramic bowl"
+        ],
+        "evidence_ids": [
+          "evidence-harvia-concept-r-combi-105-configuration-2026-09-22"
+        ]
+      },
+      "components": [
+        {
+          "id": "harvia-concept-r-combi-105-standard-component-1",
+          "component_type": "heater",
+          "name": "10.5 kW electric combi heater with built-in evaporator",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-harvia-concept-r-combi-105-product-2026-09-22"
+          ]
+        }
+      ],
+      "electrical_supply_options": [
+        {
+          "id": "harvia-concept-r-combi-105-standard-electrical-400v-3ph",
+          "evidence_ids": [
+            "evidence-harvia-concept-r-combi-105-electrical-2026-09-22"
+          ],
+          "requirements": [
+            {
+              "component": "heater",
+              "voltage_v": {
+                "status": "documented",
+                "value": 400,
+                "evidence_ids": [
+                  "evidence-harvia-concept-r-combi-105-electrical-2026-09-22"
+                ]
+              },
+              "frequency_hz": {
+                "status": "documented",
+                "value": 60,
+                "evidence_ids": [
+                  "evidence-harvia-concept-r-combi-105-electrical-2026-09-22"
+                ]
+              },
+              "phase": {
+                "status": "documented",
+                "value": 3,
+                "evidence_ids": [
+                  "evidence-harvia-concept-r-combi-105-electrical-2026-09-22"
+                ]
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 10500,
+                "evidence_ids": [
+                  "evidence-harvia-concept-r-combi-105-electrical-2026-09-22"
+                ]
+              },
+              "rated_current_a": {
+                "status": "unknown",
+                "reason": "Rated current is not stated on the reviewed Harvia US product page."
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated on the reviewed Harvia US product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "Breaker rating is not stated on the reviewed Harvia US product page."
+              },
+              "connection": {
+                "status": "unknown",
+                "reason": "The product page states voltage/phase options but does not normalize the connection type."
+              },
+              "plug_type": {
+                "status": "unknown",
+                "reason": "Plug type is not stated on the reviewed Harvia US product page."
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit requirements must be confirmed in the current Harvia manual and by a qualified electrician."
+              }
+            }
+          ]
+        }
+      ],
+      "certification_ids": [],
+      "warranty_ids": [],
+      "source_ids": [
+        "source-harvia-concept-r-combi-105-product"
       ],
       "publication_status": "candidate"
     }

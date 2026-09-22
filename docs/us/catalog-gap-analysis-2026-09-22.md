@@ -10,7 +10,7 @@ This inventory describes the versioned US research catalog after the Finnleo dep
 | Product type | Sauna kit | 113 |
 | Product type | Sauna tent | 6 |
 | Product type | Sauna blanket | 1 |
-| Product type | Heater | 11 |
+| Product type | Heater | 12 |
 | Product type | Accessory | 7 |
 | Heat | Traditional | 201 |
 | Heat | Infrared | 65 |
@@ -25,7 +25,7 @@ This inventory describes the versioned US research catalog after the Finnleo dep
 | Seated capacity | 5+ people | 65 |
 | Seated capacity | Not documented | 81 |
 
-The catalog contains 289 products, 289 configurations, 28 published product records and 17 manually reviewed affiliate offers. The latest two batches deepen 19 existing Finnleo records with exact model-page evidence for seating capacity, exterior dimensions, materials where stated and electrical requirements. The second Finnleo batch also corrects the IS440 and IS565 classification to hybrid because both model pages document infrared and traditional heating. The preceding batches added six sauna tents, six current ThermaSol variants and four Harvia Utu cabins, and corrected model-level data for Finnmark FD-1, FD-3 and FD-5. FD-5 is classified as hybrid because its exact product record documents both full-spectrum infrared and a traditional stone heater.
+The catalog contains 290 products, 290 configurations, 28 published product records and 17 manually reviewed affiliate offers. The latest heater batch deepens three existing Harvia heater records and adds the Concept R Combi 10.5 kW as a candidate with exact model-page evidence. The preceding batches deepen 19 existing Finnleo records with exact model-page evidence for seating capacity, exterior dimensions, materials where stated and electrical requirements. The second Finnleo batch also corrects the IS440 and IS565 classification to hybrid because both model pages document infrared and traditional heating. Earlier batches added six sauna tents, six current ThermaSol variants and four Harvia Utu cabins, and corrected model-level data for Finnmark FD-1, FD-3 and FD-5. FD-5 is classified as hybrid because its exact product record documents both full-spectrum infrared and a traditional stone heater.
 
 ## Evidence-depth gaps
 
