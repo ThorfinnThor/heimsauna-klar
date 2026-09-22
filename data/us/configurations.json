@@ -23617,13 +23617,19 @@
       "product_id": "finnleo-hallmark-44-9-0601",
       "label": "Hallmark 44 standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "hallmark-44-9-0601",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-44-9-0601-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-finnleo-hallmark-44-9-0601-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -23632,8 +23638,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 48,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 48,
+              "unit": "in"
+            },
+            "height": {
+              "value": 80,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-hallmark-44-9-0601-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -23657,8 +23679,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Clear Canadian Hemlock interior and exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-44-9-0601-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -23671,8 +23698,11 @@
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnleo-hallmark-44-9-0601-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -23684,23 +23714,26 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state rated heater power."
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
                 "reason": "Breaker rating is not stated in the reviewed catalog record."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnleo-hallmark-44-9-0601-depth-electrical"
+                ]
               },
               "plug_type": {
                 "status": "unknown",
@@ -23708,7 +23741,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
@@ -23727,13 +23760,19 @@
       "product_id": "finnleo-hallmark-46-9806-6620",
       "label": "Hallmark 46 standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "hallmark-46-9806-6620",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-46-9806-6620-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-finnleo-hallmark-46-9806-6620-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -23742,8 +23781,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 73.375,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 49.25,
+              "unit": "in"
+            },
+            "height": {
+              "value": 80,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-hallmark-46-9806-6620-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -23781,8 +23836,11 @@
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-finnleo-hallmark-46-9806-6620-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -23793,16 +23851,22 @@
                 "reason": "Phase is not stated in the reviewed catalog record."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 4500,
+                "evidence_ids": [
+                  "evidence-finnleo-hallmark-46-9806-6620-depth-electrical"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 18.8,
+                "evidence_ids": [
+                  "evidence-finnleo-hallmark-46-9806-6620-depth-electrical"
+                ]
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -23810,7 +23874,7 @@
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a normalized connection type."
               },
               "plug_type": {
                 "status": "unknown",
@@ -23818,7 +23882,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
@@ -23837,13 +23901,19 @@
       "product_id": "finnleo-hallmark-57-9806-6640",
       "label": "Hallmark 57 standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "hallmark-57-9806-6640",
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-57-9806-6640-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-finnleo-hallmark-57-9806-6640-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -23852,8 +23922,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 85.375,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 61.375,
+              "unit": "in"
+            },
+            "height": {
+              "value": 80,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-hallmark-57-9806-6640-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -23877,8 +23963,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Clear Canadian Hemlock interior and exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-57-9806-6640-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -23891,8 +23982,11 @@
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-finnleo-hallmark-57-9806-6640-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -23903,16 +23997,22 @@
                 "reason": "Phase is not stated in the reviewed catalog record."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-finnleo-hallmark-57-9806-6640-depth-electrical"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 25,
+                "evidence_ids": [
+                  "evidence-finnleo-hallmark-57-9806-6640-depth-electrical"
+                ]
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -23920,7 +24020,7 @@
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a normalized connection type."
               },
               "plug_type": {
                 "status": "unknown",
@@ -23928,7 +24028,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
@@ -25267,13 +25367,19 @@
       "product_id": "finnleo-s810-infrared-sauna-9804-4410",
       "label": "S810 Infrared Sauna standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "s810-infrared-sauna-9804-4410",
+        "evidence_ids": [
+          "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 1,
+          "evidence_ids": [
+            "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -25282,8 +25388,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 36,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 36,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -25307,8 +25429,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Hemlock interior and exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -25321,8 +25448,11 @@
             {
               "component": "infrared-system",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -25334,31 +25464,43 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state rated heater power."
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-electrical"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-electrical"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
                 "reason": "Breaker rating is not stated in the reviewed catalog record."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-electrical"
+                ]
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated in the reviewed catalog record."
               },
               "dedicated_circuit": {
-                "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": false,
+                "evidence_ids": [
+                  "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-electrical"
+                ]
               }
             }
           ]
@@ -25377,13 +25519,19 @@
       "product_id": "finnleo-s820-infrared-sauna-9804-4420",
       "label": "S820 Infrared Sauna standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "s820-infrared-sauna-9804-4420",
+        "evidence_ids": [
+          "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -25392,8 +25540,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 47.75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 40,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -25417,8 +25581,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Hemlock interior and exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -25431,8 +25600,11 @@
             {
               "component": "infrared-system",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -25444,31 +25616,43 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state rated heater power."
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-electrical"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-electrical"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
                 "reason": "Breaker rating is not stated in the reviewed catalog record."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-electrical"
+                ]
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated in the reviewed catalog record."
               },
               "dedicated_circuit": {
-                "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": false,
+                "evidence_ids": [
+                  "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-electrical"
+                ]
               }
             }
           ]
@@ -25487,13 +25671,19 @@
       "product_id": "finnleo-s825-infrared-sauna-9804-4430",
       "label": "S825 Infrared Sauna standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "s825-infrared-sauna-9804-4430",
+        "evidence_ids": [
+          "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -25502,8 +25692,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 64.25,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 42.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -25527,8 +25733,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Hemlock interior and exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -25541,8 +25752,11 @@
             {
               "component": "infrared-system",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -25554,31 +25768,43 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state rated heater power."
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 20,
+                "evidence_ids": [
+                  "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-electrical"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 20,
+                "evidence_ids": [
+                  "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-electrical"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
                 "reason": "Breaker rating is not stated in the reviewed catalog record."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-electrical"
+                ]
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated in the reviewed catalog record."
               },
               "dedicated_circuit": {
-                "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-electrical"
+                ]
               }
             }
           ]
@@ -25597,13 +25823,19 @@
       "product_id": "finnleo-s830-infrared-sauna-9804-4440",
       "label": "S830 Infrared Sauna standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "s830-infrared-sauna-9804-4440",
+        "evidence_ids": [
+          "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -25612,8 +25844,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 71.375,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 42.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -25637,8 +25885,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Hemlock interior and exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -25651,8 +25904,11 @@
             {
               "component": "infrared-system",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -25664,31 +25920,43 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state rated heater power."
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 20,
+                "evidence_ids": [
+                  "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-electrical"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 20,
+                "evidence_ids": [
+                  "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-electrical"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
                 "reason": "Breaker rating is not stated in the reviewed catalog record."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-electrical"
+                ]
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated in the reviewed catalog record."
               },
               "dedicated_circuit": {
-                "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-electrical"
+                ]
               }
             }
           ]
@@ -25707,13 +25975,19 @@
       "product_id": "finnleo-s840-infrared-sauna-9804-4450",
       "label": "S840 Infrared Sauna standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "s840-infrared-sauna-9804-4450",
+        "evidence_ids": [
+          "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 4,
+          "evidence_ids": [
+            "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -25722,8 +25996,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 71.375,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 56.625,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -25747,8 +26037,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Hemlock interior and exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -25761,8 +26056,11 @@
             {
               "component": "infrared-system",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -25774,31 +26072,43 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state rated heater power."
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 20,
+                "evidence_ids": [
+                  "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-electrical"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 20,
+                "evidence_ids": [
+                  "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-electrical"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
                 "reason": "Breaker rating is not stated in the reviewed catalog record."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-electrical"
+                ]
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated in the reviewed catalog record."
               },
               "dedicated_circuit": {
-                "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-electrical"
+                ]
               }
             }
           ]
@@ -25817,13 +26127,19 @@
       "product_id": "finnleo-s870-infrared-sauna-9804-4470",
       "label": "S870 Infrared Sauna standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "s870-infrared-sauna-9804-4470",
+        "evidence_ids": [
+          "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -25832,8 +26148,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 51.875,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 51.875,
+              "unit": "in"
+            },
+            "height": {
+              "value": 76.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -25857,8 +26189,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Hemlock interior and exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -25871,8 +26208,11 @@
             {
               "component": "infrared-system",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -25884,31 +26224,43 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state rated heater power."
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-electrical"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-electrical"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
                 "reason": "Breaker rating is not stated in the reviewed catalog record."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-electrical"
+                ]
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated in the reviewed catalog record."
               },
               "dedicated_circuit": {
-                "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": false,
+                "evidence_ids": [
+                  "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-electrical"
+                ]
               }
             }
           ]

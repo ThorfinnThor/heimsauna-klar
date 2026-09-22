@@ -73,7 +73,7 @@ test("a structured comparison deterministically selects the ten documented indoo
     products: [...productsDocument.products].reverse(),
     configurations: [...configurationsDocument.configurations].reverse(),
   });
-  assert.deepEqual(selected.map((entry) => entry.product.id), ["jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-everest", "peak-fuji", "salus-element", "salus-laurel-king", "sun-home-eclipse-2", "sun-home-equinox", "sunray-aspen", "sunray-evansport", "sunray-sedona", "tylo-kiruna-2"]);
+  assert.deepEqual(selected.map((entry) => entry.product.id), ["finnleo-s820-infrared-sauna-9804-4420", "finnleo-s825-infrared-sauna-9804-4430", "finnleo-s830-infrared-sauna-9804-4440", "finnleo-s840-infrared-sauna-9804-4450", "finnleo-s870-infrared-sauna-9804-4470", "jnh-tosi-2", "jnh-tosi-4", "peak-crown", "peak-everest", "peak-fuji", "salus-element", "salus-laurel-king", "sun-home-eclipse-2", "sun-home-equinox", "sunray-aspen", "sunray-evansport", "sunray-sedona", "tylo-kiruna-2"]);
 });
 
 test("a public comparison only exposes published records", () => {

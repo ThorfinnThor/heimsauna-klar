@@ -1919,8 +1919,8 @@
       "title": "Hallmark 44 product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, electrical requirements, dimensions and material where stated"
     },
     {
       "id": "source-finnleo-hallmark-46-9806-6620-product",
@@ -1929,8 +1929,8 @@
       "title": "Hallmark 46 product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, electrical requirements, dimensions and material where stated"
     },
     {
       "id": "source-finnleo-hallmark-57-9806-6640-product",
@@ -1939,8 +1939,8 @@
       "title": "Hallmark 57 product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, electrical requirements, dimensions and material where stated"
     },
     {
       "id": "source-finnleo-is440-infrasauna-9-0602-product",
@@ -2069,8 +2069,8 @@
       "title": "S810 Infrared Sauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, electrical requirements, dimensions and material where stated"
     },
     {
       "id": "source-finnleo-s820-infrared-sauna-9804-4420-product",
@@ -2079,8 +2079,8 @@
       "title": "S820 Infrared Sauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, electrical requirements, dimensions and material where stated"
     },
     {
       "id": "source-finnleo-s825-infrared-sauna-9804-4430-product",
@@ -2089,8 +2089,8 @@
       "title": "S825 Infrared Sauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, electrical requirements, dimensions and material where stated"
     },
     {
       "id": "source-finnleo-s830-infrared-sauna-9804-4440-product",
@@ -2099,8 +2099,8 @@
       "title": "S830 Infrared Sauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, electrical requirements, dimensions and material where stated"
     },
     {
       "id": "source-finnleo-s840-infrared-sauna-9804-4450-product",
@@ -2109,8 +2109,8 @@
       "title": "S840 Infrared Sauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, electrical requirements, dimensions and material where stated"
     },
     {
       "id": "source-finnleo-s870-infrared-sauna-9804-4470-product",
@@ -2119,8 +2119,8 @@
       "title": "S870 Infrared Sauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, electrical requirements, dimensions and material where stated"
     },
     {
       "id": "source-finnleo-s880-infrared-sauna-9804-4480-product",
@@ -7712,6 +7712,195 @@
       "source_id": "source-harvia-utu-vision-medium-manufacturer",
       "field_path": "electrical_supply_options",
       "raw_value": "Utu Vision Medium supports traditional electric or combi heater options, but the reviewed US product page does not state voltage, circuit or heater power."
+    },
+    {
+      "id": "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-product",
+      "entity_id": "finnleo-s810-infrared-sauna-9804-4410",
+      "source_id": "source-finnleo-s810-infrared-sauna-9804-4410-product",
+      "field_path": "product_identity_and_capacity",
+      "raw_value": "S810 Infrared Sauna is listed on the Finnleo model page with a seating capacity of 1."
+    },
+    {
+      "id": "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-configuration",
+      "entity_id": "finnleo-s810-infrared-sauna-9804-4410-standard",
+      "source_id": "source-finnleo-s810-infrared-sauna-9804-4410-product",
+      "field_path": "configuration.dimensions_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":36,\"unit\":\"in\"},\"depth\":{\"value\":36,\"unit\":\"in\"},\"height\":{\"value\":76.5,\"unit\":\"in\"}}; material Hemlock interior and exterior."
+    },
+    {
+      "id": "evidence-finnleo-s810-infrared-sauna-9804-4410-depth-electrical",
+      "entity_id": "finnleo-s810-infrared-sauna-9804-4410-standard",
+      "source_id": "source-finnleo-s810-infrared-sauna-9804-4410-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 120 V, 15 A and standard 120 V outlet for this model; rated power not stated."
+    },
+    {
+      "id": "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-product",
+      "entity_id": "finnleo-s820-infrared-sauna-9804-4420",
+      "source_id": "source-finnleo-s820-infrared-sauna-9804-4420-product",
+      "field_path": "product_identity_and_capacity",
+      "raw_value": "S820 Infrared Sauna is listed on the Finnleo model page with a seating capacity of 2."
+    },
+    {
+      "id": "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-configuration",
+      "entity_id": "finnleo-s820-infrared-sauna-9804-4420-standard",
+      "source_id": "source-finnleo-s820-infrared-sauna-9804-4420-product",
+      "field_path": "configuration.dimensions_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":47.75,\"unit\":\"in\"},\"depth\":{\"value\":40,\"unit\":\"in\"},\"height\":{\"value\":76.5,\"unit\":\"in\"}}; material Hemlock interior and exterior."
+    },
+    {
+      "id": "evidence-finnleo-s820-infrared-sauna-9804-4420-depth-electrical",
+      "entity_id": "finnleo-s820-infrared-sauna-9804-4420-standard",
+      "source_id": "source-finnleo-s820-infrared-sauna-9804-4420-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 120 V, 15 A and standard 120 V outlet for this model; rated power not stated."
+    },
+    {
+      "id": "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-product",
+      "entity_id": "finnleo-s825-infrared-sauna-9804-4430",
+      "source_id": "source-finnleo-s825-infrared-sauna-9804-4430-product",
+      "field_path": "product_identity_and_capacity",
+      "raw_value": "S825 Infrared Sauna is listed on the Finnleo model page with a seating capacity of 2."
+    },
+    {
+      "id": "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-configuration",
+      "entity_id": "finnleo-s825-infrared-sauna-9804-4430-standard",
+      "source_id": "source-finnleo-s825-infrared-sauna-9804-4430-product",
+      "field_path": "configuration.dimensions_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":64.25,\"unit\":\"in\"},\"depth\":{\"value\":42.5,\"unit\":\"in\"},\"height\":{\"value\":76.5,\"unit\":\"in\"}}; material Hemlock interior and exterior."
+    },
+    {
+      "id": "evidence-finnleo-s825-infrared-sauna-9804-4430-depth-electrical",
+      "entity_id": "finnleo-s825-infrared-sauna-9804-4430-standard",
+      "source_id": "source-finnleo-s825-infrared-sauna-9804-4430-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 120 V, 20 A and dedicated 120 V outlet for this model; rated power not stated."
+    },
+    {
+      "id": "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-product",
+      "entity_id": "finnleo-s830-infrared-sauna-9804-4440",
+      "source_id": "source-finnleo-s830-infrared-sauna-9804-4440-product",
+      "field_path": "product_identity_and_capacity",
+      "raw_value": "S830 Infrared Sauna is listed on the Finnleo model page with a seating capacity of 3."
+    },
+    {
+      "id": "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-configuration",
+      "entity_id": "finnleo-s830-infrared-sauna-9804-4440-standard",
+      "source_id": "source-finnleo-s830-infrared-sauna-9804-4440-product",
+      "field_path": "configuration.dimensions_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":71.375,\"unit\":\"in\"},\"depth\":{\"value\":42.5,\"unit\":\"in\"},\"height\":{\"value\":76.5,\"unit\":\"in\"}}; material Hemlock interior and exterior."
+    },
+    {
+      "id": "evidence-finnleo-s830-infrared-sauna-9804-4440-depth-electrical",
+      "entity_id": "finnleo-s830-infrared-sauna-9804-4440-standard",
+      "source_id": "source-finnleo-s830-infrared-sauna-9804-4440-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 120 V, 20 A and dedicated 120 V outlet for this model; rated power not stated."
+    },
+    {
+      "id": "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-product",
+      "entity_id": "finnleo-s840-infrared-sauna-9804-4450",
+      "source_id": "source-finnleo-s840-infrared-sauna-9804-4450-product",
+      "field_path": "product_identity_and_capacity",
+      "raw_value": "S840 Infrared Sauna is listed on the Finnleo model page with a seating capacity of 4."
+    },
+    {
+      "id": "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-configuration",
+      "entity_id": "finnleo-s840-infrared-sauna-9804-4450-standard",
+      "source_id": "source-finnleo-s840-infrared-sauna-9804-4450-product",
+      "field_path": "configuration.dimensions_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":71.375,\"unit\":\"in\"},\"depth\":{\"value\":56.625,\"unit\":\"in\"},\"height\":{\"value\":76.5,\"unit\":\"in\"}}; material Hemlock interior and exterior."
+    },
+    {
+      "id": "evidence-finnleo-s840-infrared-sauna-9804-4450-depth-electrical",
+      "entity_id": "finnleo-s840-infrared-sauna-9804-4450-standard",
+      "source_id": "source-finnleo-s840-infrared-sauna-9804-4450-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 120 V, 20 A and dedicated 120 V outlet for this model; rated power not stated."
+    },
+    {
+      "id": "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-product",
+      "entity_id": "finnleo-s870-infrared-sauna-9804-4470",
+      "source_id": "source-finnleo-s870-infrared-sauna-9804-4470-product",
+      "field_path": "product_identity_and_capacity",
+      "raw_value": "S870 Infrared Sauna is listed on the Finnleo model page with a seating capacity of 3."
+    },
+    {
+      "id": "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-configuration",
+      "entity_id": "finnleo-s870-infrared-sauna-9804-4470-standard",
+      "source_id": "source-finnleo-s870-infrared-sauna-9804-4470-product",
+      "field_path": "configuration.dimensions_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":51.875,\"unit\":\"in\"},\"depth\":{\"value\":51.875,\"unit\":\"in\"},\"height\":{\"value\":76.5,\"unit\":\"in\"}}; material Hemlock interior and exterior."
+    },
+    {
+      "id": "evidence-finnleo-s870-infrared-sauna-9804-4470-depth-electrical",
+      "entity_id": "finnleo-s870-infrared-sauna-9804-4470-standard",
+      "source_id": "source-finnleo-s870-infrared-sauna-9804-4470-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 120 V, 15 A and standard 120 V outlet for this model; rated power not stated."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-44-9-0601-depth-product",
+      "entity_id": "finnleo-hallmark-44-9-0601",
+      "source_id": "source-finnleo-hallmark-44-9-0601-product",
+      "field_path": "product_identity_and_capacity",
+      "raw_value": "Hallmark 44 is listed on the Finnleo model page with a seating capacity of 2."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-44-9-0601-depth-configuration",
+      "entity_id": "finnleo-hallmark-44-9-0601-standard",
+      "source_id": "source-finnleo-hallmark-44-9-0601-product",
+      "field_path": "configuration.dimensions_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":48,\"unit\":\"in\"},\"depth\":{\"value\":48,\"unit\":\"in\"},\"height\":{\"value\":80,\"unit\":\"in\"}}; material Clear Canadian Hemlock interior and exterior."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-44-9-0601-depth-electrical",
+      "entity_id": "finnleo-hallmark-44-9-0601-standard",
+      "source_id": "source-finnleo-hallmark-44-9-0601-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 120 V, not stated A and 120 V plug-in for this model; rated power not stated."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-46-9806-6620-depth-product",
+      "entity_id": "finnleo-hallmark-46-9806-6620",
+      "source_id": "source-finnleo-hallmark-46-9806-6620-product",
+      "field_path": "product_identity_and_capacity",
+      "raw_value": "Hallmark 46 is listed on the Finnleo model page with a seating capacity of 3."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-46-9806-6620-depth-configuration",
+      "entity_id": "finnleo-hallmark-46-9806-6620-standard",
+      "source_id": "source-finnleo-hallmark-46-9806-6620-product",
+      "field_path": "configuration.dimensions_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":73.375,\"unit\":\"in\"},\"depth\":{\"value\":49.25,\"unit\":\"in\"},\"height\":{\"value\":80,\"unit\":\"in\"}}; material not stated on the exact model page."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-46-9806-6620-depth-electrical",
+      "entity_id": "finnleo-hallmark-46-9806-6620-standard",
+      "source_id": "source-finnleo-hallmark-46-9806-6620-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 240 V, 18.8 A and no connection wording for this model; rated power 4500."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-57-9806-6640-depth-product",
+      "entity_id": "finnleo-hallmark-57-9806-6640",
+      "source_id": "source-finnleo-hallmark-57-9806-6640-product",
+      "field_path": "product_identity_and_capacity",
+      "raw_value": "Hallmark 57 is listed on the Finnleo model page with a seating capacity of 5."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-57-9806-6640-depth-configuration",
+      "entity_id": "finnleo-hallmark-57-9806-6640-standard",
+      "source_id": "source-finnleo-hallmark-57-9806-6640-product",
+      "field_path": "configuration.dimensions_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":85.375,\"unit\":\"in\"},\"depth\":{\"value\":61.375,\"unit\":\"in\"},\"height\":{\"value\":80,\"unit\":\"in\"}}; material Clear Canadian Hemlock interior and exterior."
+    },
+    {
+      "id": "evidence-finnleo-hallmark-57-9806-6640-depth-electrical",
+      "entity_id": "finnleo-hallmark-57-9806-6640-standard",
+      "source_id": "source-finnleo-hallmark-57-9806-6640-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 240 V, 25 A and no connection wording for this model; rated power 6000."
     }
   ]
 }
