@@ -26,7 +26,6 @@ const productById = new Map(products.products.map((entry) => [entry.id, entry]))
 const configurationByProductId = new Map(configurations.configurations.map((entry) => [entry.product_id, entry]));
 const sourceById = new Map(sources.sources.map((entry) => [entry.id, entry]));
 const evidenceIds = new Set(sources.evidence.map((entry) => entry.id));
-const sourceIds = new Set(sources.sources.map((entry) => entry.id));
 const productIds = new Set(products.products.map((entry) => entry.id));
 const rightsIds = new Set(rights.assets.map((entry) => entry.asset_id));
 

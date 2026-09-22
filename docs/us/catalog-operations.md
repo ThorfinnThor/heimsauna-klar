@@ -29,7 +29,7 @@ npm run us:catalog:review -- --as-of 2026-09-14
 
 The command reads products, sources, programs, rights and publication controls and prints a JSON report. It reports missing source references, source dates older than the technical cadence, due or missing review dates, undocumented publisher approval, unapproved rights and protected publication switches. It does not edit files, promote records or enable routes.
 
-The current protected pilot report has ten candidate products awaiting their first review, no stale source record at the chosen date, zero approved US programs, zero approved image-rights assets and protected publication switches. Those are explicit blockers, not failed background jobs.
+The current catalog has 28 published products and 262 non-public candidates. One US affiliate program is documented as approved, 17 reviewed affiliate offers are active, indexing is enabled and feed synchronization remains disabled. Manufacturer-image rights are still unapproved, so current product pages remain image-free unless a separate approved asset record is added.
 
 ## Change workflow
 
@@ -38,6 +38,12 @@ The current protected pilot report has ten candidate products awaiting their fir
 3. Sol checks schema, references, market isolation, static output, internal links, SEO protection and the DE baseline.
 4. Only after the applicable operator and publication decisions may a record move from `candidate` or `draft` to `reviewed` or `published`.
 5. A source failure or uncertain mapping leaves the last reviewed snapshot intact. It never removes products or creates an offer.
+
+## Candidate publication waves
+
+Candidate records are not promoted by changing their status in bulk. Run `npm run us:candidates:readiness -- --as-of YYYY-MM-DD` to divide them into an editorial-ready cohort, an exact-source-review cohort, an electrical-enrichment cohort and a foundational or category-specific cohort. The report uses the same strict cabin-and-kit data gate as the first indexed release. Heaters, accessories, tents and blankets remain in the category-specific cohort until their own review profile is defined.
+
+An editorial-ready result means that editorial production may begin. It is not permission to publish. Product-specific copy, presentation QA, source review and the normal release controls still apply.
 
 ## Ownership and escalation
 
