@@ -16,7 +16,9 @@ test("every research product resolves to its own configuration and source", () =
     const configurations = getUsConfigurationsForProduct(product.id);
     assert(configurations.length > 0, `${product.id} has no configuration`);
     assert(configurations.every((configuration) => configuration.product_id === product.id));
-    assert(configurations.some((configuration) => configuration.electrical_supply_options.length > 0));
+    if (product.energy_sources.status === "documented" && product.energy_sources.value.includes("electric")) {
+      assert(configurations.some((configuration) => configuration.electrical_supply_options.length > 0), `${product.id} is electric but has no electrical supply option`);
+    }
     const sourceIds = [...new Set([...product.source_ids, ...configurations.flatMap((entry) => entry.source_ids)])];
     assert.equal(getUsSources(sourceIds).length, sourceIds.length);
   }
