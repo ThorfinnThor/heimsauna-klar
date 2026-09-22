@@ -10,10 +10,10 @@ This batch addresses the thinnest catalog segment, standalone sauna heaters. Thr
 
 | Record | Action | Technical facts captured |
 | --- | --- | --- |
-| Concept R 10.5 kW, CP-RB-105 | Deepened | SKU, floor installation, 10.5 kW output, 353–530 ft³ room range, dimensions, net weight, steel construction and 400 V 3-phase table entry |
+| Concept R 10.5 kW, CP-RB-105 | Deepened | SKU, floor installation, 10.5 kW output, 353–530 ft³ room range, dimensions, net weight and 400 V 3-phase table entry |
 | Virta Wall HLW90E 9.0 kW, HLWE904M | Deepened | SKU, wall installation, 9 kW output, 283–494 ft³ room range, dimensions, materials, 400 V 3-phase table entry and source note for the page's additional 230 V connection options |
 | Legend PO70FC 6.8 kW WiFi, HPO704FC | Deepened | SKU, floor installation, 6.8 kW output, dimensions, net weight, steel construction, Fenix WiFi control package and electrical table entry |
-| Concept R Combi 10.5 kW, CP-RCB-105 | Added as candidate | SKU, combi/evaporator classification, 10.5 kW output, dimensions, net weight, steel construction, ceramic bowl and 400 V 3-phase table entry |
+| Concept R Combi 10.5 kW, CP-RCB-105 | Added as candidate | SKU, traditional heater with evaporator classification, 10.5 kW output, dimensions, net weight, ceramic bowl and 400 V 3-phase table entry |
 
 ## Guardrails
 
@@ -21,7 +21,11 @@ This batch addresses the thinnest catalog segment, standalone sauna heaters. Thr
 - No affiliate offer, price, rating or image is inferred from the manufacturer page.
 - Product images remain rights-blocked until written permission or an approved feed license is recorded.
 - The Harvia pages list high-voltage connection variants that do not map cleanly to a single US household circuit. The normalized record therefore keeps the page's 400 V 3-phase table entry and leaves current, breaker, connection type and dedicated-circuit status unknown. A qualified electrician and the current installation manual remain required for installation decisions.
-- The official pages state both 50/60 Hz or multiple voltage options in places. The numeric US review field uses 60 Hz for the US page context, while the evidence text preserves the broader manufacturer wording.
+- The official pages state 50/60 Hz or multiple voltage options in places. Frequency therefore remains explicitly unknown in the normalized record because the schema accepts only one exact frequency value.
+
+## Sol acceptance corrections
+
+The acceptance review corrected three overly broad interpretations from the initial batch. Concept R Combi remains a traditional electric sauna heater because the additional function is an evaporator, not infrared heating. Placement remains unknown for both Concept R variants because the reviewed pages do not state a normalized placement context. The Concept R material field also remains unknown because the reviewed page does not identify a model-level housing material.
 
 ## Source pages
 

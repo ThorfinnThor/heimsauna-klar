@@ -8127,14 +8127,14 @@
       "entity_id": "harvia-concept-r-105",
       "source_id": "source-harvia-concept-r-105-product",
       "field_path": "product_identity_heat_placement",
-      "raw_value": "Concept R 10.5 kW (CP-RB-105) is listed by Harvia as an electric traditional sauna heater for the interior/wet-area use context."
+      "raw_value": "Concept R 10.5 kW (CP-RB-105) is listed by Harvia as an electric traditional sauna heater; the reviewed page does not state a normalized placement context."
     },
     {
       "id": "evidence-harvia-concept-r-105-verified-configuration-2026-09-22",
       "entity_id": "harvia-concept-r-105-standard",
       "source_id": "source-harvia-concept-r-105-product",
       "field_path": "configuration_dimensions_materials",
-      "raw_value": "Concept R 10.5 kW: dimensions {\"width\":{\"value\":17.56,\"unit\":\"in\"},\"depth\":{\"value\":17.72,\"unit\":\"in\"},\"height\":{\"value\":28.15,\"unit\":\"in\"}}; net weight {\"value\":72.1,\"unit\":\"lb\"}; materials Steel; recommended room volume 353–530 ft³."
+      "raw_value": "Concept R 10.5 kW: exterior dimensions 17.56 in W × 17.72 in D × 28.15 in H; net weight 72.1 lb; model-level materials are not stated; recommended room volume 353–530 ft³."
     },
     {
       "id": "evidence-harvia-concept-r-105-verified-electrical-2026-09-22",
@@ -8190,7 +8190,7 @@
       "entity_id": "harvia-concept-r-combi-105",
       "source_id": "source-harvia-concept-r-combi-105-product",
       "field_path": "product_identity_heat_placement",
-      "raw_value": "Harvia Concept R Combi CP-RCB-105 is an electric combi sauna heater with a built-in evaporator for gentle steam."
+      "raw_value": "Harvia Concept R Combi CP-RCB-105 is an electric traditional sauna heater with a built-in evaporator for gentle steam; it does not combine infrared and traditional heating."
     },
     {
       "id": "evidence-harvia-concept-r-combi-105-configuration-2026-09-22",

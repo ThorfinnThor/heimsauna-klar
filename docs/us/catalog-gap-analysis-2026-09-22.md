@@ -12,7 +12,7 @@ This inventory describes the versioned US research catalog after the Finnleo dep
 | Product type | Sauna blanket | 1 |
 | Product type | Heater | 12 |
 | Product type | Accessory | 7 |
-| Heat | Traditional | 201 |
+| Heat | Traditional | 202 |
 | Heat | Infrared | 65 |
 | Heat | Hybrid | 3 |
 | Heat | Not normalized | 20 |

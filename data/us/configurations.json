@@ -29171,12 +29171,12 @@
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "A heater is not a cabin and has no seated capacity."
+          "status": "not-applicable",
+          "reason": "A standalone heater has no seated capacity."
         },
         "reclining": {
-          "status": "unknown",
-          "reason": "A heater is not a cabin and has no reclining capacity."
+          "status": "not-applicable",
+          "reason": "A standalone heater has no reclining capacity."
         }
       },
       "dimensions": {
@@ -29201,7 +29201,7 @@
           ]
         },
         "interior": {
-          "status": "unknown",
+          "status": "not-applicable",
           "reason": "Interior dimensions are not applicable to a standalone heater."
         },
         "shipping": {
@@ -29228,13 +29228,8 @@
         "reason": "Shipping weight is not stated on the reviewed product page."
       },
       "materials": {
-        "status": "documented",
-        "value": [
-          "Steel"
-        ],
-        "evidence_ids": [
-          "evidence-harvia-concept-r-105-verified-configuration-2026-09-22"
-        ]
+        "status": "unknown",
+        "reason": "Model-level materials are not stated on the reviewed Harvia product page."
       },
       "components": [],
       "electrical_supply_options": [
@@ -29254,11 +29249,8 @@
                 ]
               },
               "frequency_hz": {
-                "status": "documented",
-                "value": 60,
-                "evidence_ids": [
-                  "evidence-harvia-concept-r-105-verified-electrical-2026-09-22"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed page states 50/60 Hz, while this field accepts one exact frequency; the installation frequency is not normalized."
               },
               "phase": {
                 "status": "documented",
@@ -29323,12 +29315,12 @@
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "A heater is not a cabin and has no seated capacity."
+          "status": "not-applicable",
+          "reason": "A standalone heater has no seated capacity."
         },
         "reclining": {
-          "status": "unknown",
-          "reason": "A heater is not a cabin and has no reclining capacity."
+          "status": "not-applicable",
+          "reason": "A standalone heater has no reclining capacity."
         }
       },
       "dimensions": {
@@ -29353,7 +29345,7 @@
           ]
         },
         "interior": {
-          "status": "unknown",
+          "status": "not-applicable",
           "reason": "Interior dimensions are not applicable to a standalone heater."
         },
         "shipping": {
@@ -29401,11 +29393,8 @@
                 ]
               },
               "frequency_hz": {
-                "status": "documented",
-                "value": 60,
-                "evidence_ids": [
-                  "evidence-harvia-virta-wall-hlw90e-verified-electrical-2026-09-22"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed page states 50/60 Hz, while this field accepts one exact frequency; the installation frequency is not normalized."
               },
               "phase": {
                 "status": "documented",
@@ -29470,12 +29459,12 @@
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "A heater is not a cabin and has no seated capacity."
+          "status": "not-applicable",
+          "reason": "A standalone heater has no seated capacity."
         },
         "reclining": {
-          "status": "unknown",
-          "reason": "A heater is not a cabin and has no reclining capacity."
+          "status": "not-applicable",
+          "reason": "A standalone heater has no reclining capacity."
         }
       },
       "dimensions": {
@@ -29500,7 +29489,7 @@
           ]
         },
         "interior": {
-          "status": "unknown",
+          "status": "not-applicable",
           "reason": "Interior dimensions are not applicable to a standalone heater."
         },
         "shipping": {
@@ -29582,11 +29571,8 @@
                 ]
               },
               "frequency_hz": {
-                "status": "documented",
-                "value": 60,
-                "evidence_ids": [
-                  "evidence-harvia-legend-po70fc-verified-electrical-2026-09-22"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed page states 50/60 Hz, while this field accepts one exact frequency; the installation frequency is not normalized."
               },
               "phase": {
                 "status": "documented",
@@ -40677,12 +40663,12 @@
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "A heater is not a cabin and has no seated capacity."
+          "status": "not-applicable",
+          "reason": "A standalone heater has no seated capacity."
         },
         "reclining": {
-          "status": "unknown",
-          "reason": "A heater is not a cabin and has no reclining capacity."
+          "status": "not-applicable",
+          "reason": "A standalone heater has no reclining capacity."
         }
       },
       "dimensions": {
@@ -40707,7 +40693,7 @@
           ]
         },
         "interior": {
-          "status": "unknown",
+          "status": "not-applicable",
           "reason": "Interior dimensions are not applicable to a standalone heater."
         },
         "shipping": {
@@ -40736,7 +40722,6 @@
       "materials": {
         "status": "documented",
         "value": [
-          "Steel",
           "Ceramic bowl"
         ],
         "evidence_ids": [
@@ -40771,11 +40756,8 @@
                 ]
               },
               "frequency_hz": {
-                "status": "documented",
-                "value": 60,
-                "evidence_ids": [
-                  "evidence-harvia-concept-r-combi-105-electrical-2026-09-22"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed page does not state one exact frequency for this model."
               },
               "phase": {
                 "status": "documented",

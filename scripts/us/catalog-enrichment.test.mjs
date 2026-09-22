@@ -166,3 +166,30 @@ test("the JNH Tosi one- and two-person supply requirements cite the model pages"
     assert.doesNotMatch(JSON.stringify(productEditorial.get(productId)), /required circuit (?:field|value|rating) (?:is )?not/i);
   }
 });
+
+test("the Sol-reviewed Harvia heater records preserve source limits", () => {
+  const heaterIds = [
+    "harvia-concept-r-105",
+    "harvia-virta-wall-hlw90e",
+    "harvia-legend-po70fc",
+    "harvia-concept-r-combi-105",
+  ];
+  for (const id of heaterIds) {
+    const product = products.get(id);
+    const configuration = configurations.get(`${id}-standard`);
+    const requirement = configuration?.electrical_supply_options?.[0]?.requirements?.[0];
+    assert(product, `missing product ${id}`);
+    assert(configuration, `missing configuration ${id}-standard`);
+    assert.equal(product.publication_status, "candidate");
+    assert.equal(product.product_type.value, "heater");
+    assert.equal(configuration.capacity.seated.status, "not-applicable");
+    assert.equal(configuration.dimensions.interior.status, "not-applicable");
+    assert.equal(requirement?.frequency_hz.status, "unknown");
+  }
+
+  assert.equal(products.get("harvia-concept-r-combi-105")?.heat_type.value, "traditional");
+  assert.equal(products.get("harvia-concept-r-105")?.placements.status, "unknown");
+  assert.equal(products.get("harvia-concept-r-combi-105")?.placements.status, "unknown");
+  assert.equal(configurations.get("harvia-concept-r-105-standard")?.materials.status, "unknown");
+  assert.deepEqual(configurations.get("harvia-concept-r-combi-105-standard")?.materials.value, ["Ceramic bowl"]);
+});

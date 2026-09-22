@@ -11099,13 +11099,8 @@
         ]
       },
       "placements": {
-        "status": "documented",
-        "value": [
-          "indoor"
-        ],
-        "evidence_ids": [
-          "evidence-harvia-concept-r-105-verified-product-2026-09-22"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not state a normalized placement context."
       },
       "form": {
         "status": "documented",
@@ -15240,7 +15235,7 @@
       },
       "heat_type": {
         "status": "documented",
-        "value": "hybrid",
+        "value": "traditional",
         "evidence_ids": [
           "evidence-harvia-concept-r-combi-105-product-2026-09-22"
         ]
@@ -15255,13 +15250,8 @@
         ]
       },
       "placements": {
-        "status": "documented",
-        "value": [
-          "indoor"
-        ],
-        "evidence_ids": [
-          "evidence-harvia-concept-r-combi-105-product-2026-09-22"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Harvia product page does not state a normalized placement context."
       },
       "form": {
         "status": "documented",
@@ -15279,7 +15269,7 @@
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-22",
       "next_review_at": "2026-12-22",
-      "change_reason": "Added from the exact official Harvia US Concept R Combi product page; publication remains protected pending editorial and rights review."
+      "change_reason": "Added from the exact official Harvia US Concept R Combi product page; the Sol review corrected the heat type to traditional because the combi function adds an evaporator, not infrared heating. Publication remains protected pending editorial and rights review."
     }
   ]
 }
