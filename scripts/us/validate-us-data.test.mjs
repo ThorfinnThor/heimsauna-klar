@@ -207,8 +207,8 @@ test("the checked-in US bundle exposes the published release waves", async () =>
   const bundle = await loadUsBundle();
   assert.doesNotThrow(() => validateUsBundle(bundle));
   assert.equal(bundle.products.products.length, 290);
-  assert.equal(bundle.products.products.filter((product) => product.publication_status === "published").length, 55);
-  assert.equal(bundle.products.products.filter((product) => product.publication_status === "candidate").length, 235);
+  assert.equal(bundle.products.products.filter((product) => product.publication_status === "published").length, 71);
+  assert.equal(bundle.products.products.filter((product) => product.publication_status === "candidate").length, 219);
   assert.equal(bundle.offers.offers.length, 17);
   assert.equal(bundle.publication.routes_enabled, true);
   assert.equal(bundle.publication.indexing_enabled, true);

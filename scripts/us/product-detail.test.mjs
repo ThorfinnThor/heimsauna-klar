@@ -121,7 +121,7 @@ test("the second publication wave has distinct source-bound copy and complete re
   }
 });
 
-test("the third publication wave is source-bound, conflict-free and held for Sol review", () => {
+test("the third publication wave is source-bound, conflict-free and published after Sol review", () => {
   const productById = new Map(getUsResearchProducts().map((product) => [product.id, product]));
   const headings = new Set();
   const summaries = new Set();
@@ -138,9 +138,9 @@ test("the third publication wave is source-bound, conflict-free and held for Sol
     return Object.values(value).some(hasConflict);
   };
 
-  assert.equal(readinessPlan.third_wave.status, "prepared-for-sol-review");
-  assert.equal(readinessPlan.third_wave.product_ids.length, 17);
-  assert.equal(readinessPlan.third_wave.held_product_ids.length, 3);
+  assert.equal(readinessPlan.third_wave.status, "published");
+  assert.equal(readinessPlan.third_wave.product_ids.length, 16);
+  assert.equal(readinessPlan.third_wave.held_product_ids.length, 4);
 
   const releaseIds = new Set(readinessPlan.third_wave.product_ids);
   for (const heldId of readinessPlan.third_wave.held_product_ids) {
@@ -150,12 +150,12 @@ test("the third publication wave is source-bound, conflict-free and held for Sol
   for (const productId of readinessPlan.third_wave.product_ids) {
     const product = productById.get(productId);
     assert(product, `${productId} is missing`);
-    assert.equal(product.publication_status, "candidate", `${productId} was published before Sol approval`);
+    assert.equal(product.publication_status, "published", `${productId} was not published after Sol approval`);
     assert.equal(hasConflict(product), false, `${productId} contains a conflicting product fact`);
 
     const configurations = getUsConfigurationsForProduct(productId);
     assert(configurations.length > 0, `${productId} has no configuration`);
-    assert(configurations.every((configuration) => configuration.publication_status === "candidate"), `${productId} has a prematurely published configuration`);
+    assert(configurations.every((configuration) => configuration.publication_status === "published"), `${productId} has an unpublished configuration after Sol approval`);
     assert(configurations.every((configuration) => !hasConflict(configuration)), `${productId} contains a conflicting configuration fact`);
 
     const editorial = getUsProductEditorial(productId, { includeNonPublic: true });

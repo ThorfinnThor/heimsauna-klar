@@ -11590,7 +11590,7 @@
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not listed on the reviewed product page."
+        "reason": "The manufacturer page gives a listed weight but does not identify it as net weight."
       },
       "shipping_weight": {
         "status": "unknown",
@@ -11674,7 +11674,7 @@
         "redwood-horizon-6-product",
         "redwood-outdoor-saunas"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "redwood-duo-2-standard",
@@ -11869,7 +11869,7 @@
       },
       "net_weight": {
         "status": "unknown",
-        "reason": "Net weight is not listed on the reviewed product page."
+        "reason": "The manufacturer page gives a listed weight but does not identify it as net weight."
       },
       "shipping_weight": {
         "status": "unknown",
@@ -11953,7 +11953,7 @@
         "redwood-summit-6-product",
         "redwood-outdoor-saunas"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "redwood-barrel-6-standard",
@@ -12413,7 +12413,7 @@
         "redwood-outdoor-saunas",
         "redwood-extra-wide-porch-6-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "redwood-extra-wide-6-standard",
@@ -12729,7 +12729,7 @@
         "redwood-outdoor-saunas",
         "redwood-barrel-8-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "redwood-noctra-8-standard",
@@ -12895,7 +12895,7 @@
         "redwood-outdoor-saunas",
         "redwood-noctra-8-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "thermory-luik-kodiak-standard",
@@ -23177,11 +23177,8 @@
       "product_id": "finnleo-centurion-9-0504",
       "label": "Centurion standard configuration",
       "manufacturer_sku": {
-        "status": "documented",
-        "value": "centurion-9-0504",
-        "evidence_ids": [
-          "evidence-finnleo-centurion-9-0504-depth-configuration"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not explicitly label a manufacturer SKU; the URL slug is not treated as one."
       },
       "capacity": {
         "seated": {
@@ -24090,11 +24087,8 @@
       "product_id": "finnleo-is440-infrasauna-9-0602",
       "label": "IS440 InfraSauna standard configuration",
       "manufacturer_sku": {
-        "status": "documented",
-        "value": "is440-infrasauna-9-0602",
-        "evidence_ids": [
-          "evidence-finnleo-is440-infrasauna-9-0602-depth-configuration"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not explicitly label a manufacturer SKU; the URL slug is not treated as one."
       },
       "capacity": {
         "seated": {
@@ -24252,11 +24246,8 @@
       "product_id": "finnleo-is565-infrasauna-9805-0840",
       "label": "IS565 InfraSauna standard configuration",
       "manufacturer_sku": {
-        "status": "documented",
-        "value": "is565-infrasauna-9805-0840",
-        "evidence_ids": [
-          "evidence-finnleo-is565-infrasauna-9805-0840-depth-configuration"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not explicitly label a manufacturer SKU; the URL slug is not treated as one."
       },
       "capacity": {
         "seated": {
@@ -24369,8 +24360,11 @@
                 ]
               },
               "specified_breaker_a": {
-                "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-finnleo-is565-infrasauna-9805-0840-depth-electrical"
+                ]
               },
               "connection": {
                 "status": "documented",
@@ -24384,11 +24378,8 @@
                 "reason": "Plug type is not stated in the reviewed catalog record."
               },
               "dedicated_circuit": {
-                "status": "documented",
-                "value": true,
-                "evidence_ids": [
-                  "evidence-finnleo-is565-infrasauna-9805-0840-depth-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The exact Finnleo model page specifies a 30-amp breaker but does not state that the circuit is dedicated."
               }
             }
           ]
@@ -24399,7 +24390,7 @@
       "source_ids": [
         "source-finnleo-is565-infrasauna-9805-0840-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550-standard",
@@ -24407,11 +24398,8 @@
       "product_id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550",
       "label": "NorthStar Indoor Sauna 4 x 4 standard configuration",
       "manufacturer_sku": {
-        "status": "documented",
-        "value": "northstar-indoor-sauna-4-x-4-9-0550",
-        "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-configuration"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not explicitly label a manufacturer SKU; the URL slug is not treated as one."
       },
       "capacity": {
         "seated": {
@@ -24553,11 +24541,8 @@
       "product_id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263",
       "label": "NorthStar Indoor Sauna 4 x 6 standard configuration",
       "manufacturer_sku": {
-        "status": "documented",
-        "value": "northstar-indoor-sauna-4-x-6-9630-2263",
-        "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-configuration"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not explicitly label a manufacturer SKU; the URL slug is not treated as one."
       },
       "capacity": {
         "seated": {
@@ -24663,11 +24648,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The exact Finnleo model page lists 30 A but does not identify it as a required circuit or breaker rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -24694,7 +24676,7 @@
       "source_ids": [
         "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264-standard",
@@ -24702,19 +24684,17 @@
       "product_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
       "label": "NorthStar Indoor Sauna 5 x 6 standard configuration",
       "manufacturer_sku": {
-        "status": "documented",
-        "value": "northstar-indoor-sauna-5-x-6-9630-2264",
-        "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-configuration"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not explicitly label a manufacturer SKU; the URL slug is not treated as one."
       },
       "capacity": {
         "seated": {
-          "status": "documented",
-          "value": 2,
+          "status": "conflict",
           "evidence_ids": [
-            "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-product"
-          ]
+            "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-capacity-description-2026-09-22",
+            "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-capacity-field-2026-09-22"
+          ],
+          "note": "The official model description says the cabin comfortably seats three, while the seating-capacity field states two."
         },
         "reclining": {
           "status": "unknown",
@@ -24812,11 +24792,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The exact Finnleo model page lists 30 A but does not identify it as a required circuit or breaker rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -24851,11 +24828,8 @@
       "product_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
       "label": "NorthStar Indoor Sauna 5 x 7 standard configuration",
       "manufacturer_sku": {
-        "status": "documented",
-        "value": "northstar-indoor-sauna-5-x-7-9630-2265",
-        "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-configuration"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not explicitly label a manufacturer SKU; the URL slug is not treated as one."
       },
       "capacity": {
         "seated": {
@@ -24961,11 +24935,8 @@
                 ]
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The exact Finnleo model page lists 30 A but does not identify it as a required circuit or breaker rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -24992,7 +24963,7 @@
       "source_ids": [
         "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-standard",
@@ -26792,11 +26763,8 @@
       "product_id": "finnleo-solace-9-0502",
       "label": "Solace standard configuration",
       "manufacturer_sku": {
-        "status": "documented",
-        "value": "solace-9-0502",
-        "evidence_ids": [
-          "evidence-finnleo-solace-9-0502-depth-configuration"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not explicitly label a manufacturer SKU; the URL slug is not treated as one."
       },
       "capacity": {
         "seated": {
@@ -26948,11 +26916,8 @@
       "product_id": "finnleo-twilight-9-0501",
       "label": "Twilight standard configuration",
       "manufacturer_sku": {
-        "status": "documented",
-        "value": "twilight-9-0501",
-        "evidence_ids": [
-          "evidence-finnleo-twilight-9-0501-depth-configuration"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not explicitly label a manufacturer SKU; the URL slug is not treated as one."
       },
       "capacity": {
         "seated": {
@@ -27098,11 +27063,8 @@
       "product_id": "finnleo-vita-ii-9-0503",
       "label": "Vita II standard configuration",
       "manufacturer_sku": {
-        "status": "documented",
-        "value": "vita-ii-9-0503",
-        "evidence_ids": [
-          "evidence-finnleo-vita-ii-9-0503-depth-configuration"
-        ]
+        "status": "unknown",
+        "reason": "The reviewed Finnleo page does not explicitly label a manufacturer SKU; the URL slug is not treated as one."
       },
       "capacity": {
         "seated": {
@@ -34521,11 +34483,8 @@
                 ]
               },
               "specified_breaker_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-sunray-bristow-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state a breaker rating."
               },
               "connection": {
                 "status": "documented",
@@ -34557,7 +34516,7 @@
       "source_ids": [
         "source-sunray-bristow-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "sunray-aurora-standard",
@@ -34722,11 +34681,8 @@
                 ]
               },
               "specified_breaker_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-sunray-aurora-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state a breaker rating."
               },
               "connection": {
                 "status": "documented",
@@ -34758,7 +34714,7 @@
       "source_ids": [
         "source-sunray-aurora-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "sunray-sedona-standard",
@@ -36165,11 +36121,8 @@
                 ]
               },
               "specified_breaker_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-salus-ally-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state a breaker rating."
               },
               "connection": {
                 "status": "documented",
@@ -36183,11 +36136,8 @@
                 "reason": "Plug type is not stated on the reviewed product page."
               },
               "dedicated_circuit": {
-                "status": "documented",
-                "value": true,
-                "evidence_ids": [
-                  "evidence-salus-ally-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state that a dedicated circuit is required."
               }
             }
           ],
@@ -36201,7 +36151,7 @@
       "source_ids": [
         "source-salus-ally-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "salus-monarch-king-standard",
@@ -37771,9 +37721,18 @@
         },
         {
           "id": "tylo-lulea-4-standard-component-3",
-          "component_type": "other",
-          "name": "Bluetooth sound and chromotherapy",
+          "component_type": "lighting",
+          "name": "Chromotherapy lighting",
           "inclusion": "included",
+          "evidence_ids": [
+            "evidence-tylo-lulea-4-product"
+          ]
+        },
+        {
+          "id": "tylo-lulea-4-standard-component-4",
+          "component_type": "other",
+          "name": "Optional Bluetooth sound bar",
+          "inclusion": "excluded",
           "evidence_ids": [
             "evidence-tylo-lulea-4-product"
           ]
@@ -37822,15 +37781,12 @@
                 ]
               },
               "specified_breaker_a": {
-                "status": "documented",
-                "value": 35,
-                "evidence_ids": [
-                  "evidence-tylo-lulea-4-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state a breaker rating."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated on the reviewed product page."
+                "reason": "The reviewed product page does not state the connection type."
               },
               "plug_type": {
                 "status": "unknown",
@@ -37838,7 +37794,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
+                "reason": "The reviewed product page does not state that a dedicated circuit is required."
               }
             }
           ],
@@ -37852,7 +37808,7 @@
       "source_ids": [
         "source-tylo-lulea-4-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "tylo-kiruna-2-standard",
@@ -38176,29 +38132,20 @@
                 ]
               },
               "specified_breaker_a": {
-                "status": "documented",
-                "value": 30,
-                "evidence_ids": [
-                  "evidence-geyser-hekla-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state a breaker rating."
               },
               "connection": {
-                "status": "documented",
-                "value": "hardwired",
-                "evidence_ids": [
-                  "evidence-geyser-hekla-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state the connection type."
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated on the reviewed product page."
               },
               "dedicated_circuit": {
-                "status": "documented",
-                "value": true,
-                "evidence_ids": [
-                  "evidence-geyser-hekla-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state that a dedicated circuit is required."
               }
             }
           ],
@@ -38212,7 +38159,7 @@
       "source_ids": [
         "source-geyser-hekla-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "geyser-lukaku-standard",
@@ -38360,29 +38307,20 @@
                 ]
               },
               "specified_breaker_a": {
-                "status": "documented",
-                "value": 65,
-                "evidence_ids": [
-                  "evidence-geyser-lukaku-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state a breaker rating."
               },
               "connection": {
-                "status": "documented",
-                "value": "hardwired",
-                "evidence_ids": [
-                  "evidence-geyser-lukaku-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state the connection type."
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated on the reviewed product page."
               },
               "dedicated_circuit": {
-                "status": "documented",
-                "value": true,
-                "evidence_ids": [
-                  "evidence-geyser-lukaku-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state that a dedicated circuit is required."
               }
             }
           ],
@@ -38396,7 +38334,7 @@
       "source_ids": [
         "source-geyser-lukaku-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "geyser-autana-standard",
@@ -38729,29 +38667,20 @@
                 ]
               },
               "specified_breaker_a": {
-                "status": "documented",
-                "value": 40,
-                "evidence_ids": [
-                  "evidence-geyser-valera-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state a breaker rating."
               },
               "connection": {
-                "status": "documented",
-                "value": "hardwired",
-                "evidence_ids": [
-                  "evidence-geyser-valera-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state the connection type."
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated on the reviewed product page."
               },
               "dedicated_circuit": {
-                "status": "documented",
-                "value": true,
-                "evidence_ids": [
-                  "evidence-geyser-valera-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state that a dedicated circuit is required."
               }
             }
           ],
@@ -38765,7 +38694,7 @@
       "source_ids": [
         "source-geyser-valera-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "geyser-balerion-standard",
@@ -38920,22 +38849,16 @@
                 ]
               },
               "connection": {
-                "status": "documented",
-                "value": "hardwired",
-                "evidence_ids": [
-                  "evidence-geyser-balerion-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state the connection type."
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated on the reviewed product page."
               },
               "dedicated_circuit": {
-                "status": "documented",
-                "value": true,
-                "evidence_ids": [
-                  "evidence-geyser-balerion-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The reviewed product page does not state that a dedicated circuit is required."
               }
             }
           ],
@@ -38949,7 +38872,7 @@
       "source_ids": [
         "source-geyser-balerion-product"
       ],
-      "publication_status": "candidate"
+      "publication_status": "published"
     },
     {
       "id": "thermasol-astra-standard",

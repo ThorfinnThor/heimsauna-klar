@@ -2,7 +2,8 @@ import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "../..");
-const today = "2026-09-22";
+const today = "2026-09-23";
+const nextReviewAt = "2026-12-10";
 const readJson = async (path) => JSON.parse(await readFile(resolve(root, path), "utf8"));
 const writeJson = async (path, value) => writeFile(resolve(root, path), `${JSON.stringify(value, null, 2)}\n`, "utf8");
 
@@ -17,7 +18,7 @@ if (plan.third_wave?.status !== "sol-approved") {
   throw new Error("Third wave must be explicitly marked sol-approved before promotion.");
 }
 const waveIds = new Set(plan.third_wave.product_ids ?? []);
-if (waveIds.size !== 17) throw new Error(`Expected 17 third-wave products, found ${waveIds.size}`);
+if (waveIds.size !== 16) throw new Error(`Expected 16 third-wave products, found ${waveIds.size}`);
 
 const productById = new Map(products.products.map((entry) => [entry.id, entry]));
 const configurationsByProductId = new Map();
@@ -47,6 +48,7 @@ for (const productId of waveIds) {
   }
   product.publication_status = "published";
   product.content_updated_at = today;
+  product.next_review_at = nextReviewAt;
   product.change_reason = "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.";
   for (const configuration of productConfigurations) configuration.publication_status = "published";
 }

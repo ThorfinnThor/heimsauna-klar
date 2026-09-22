@@ -11,11 +11,11 @@ const save = async (file, value) => writeFile(resolve(root, file), `${JSON.strin
 const entries = [
   {
     product_id: "redwood-horizon-6",
-    eyebrow: "Six-person outdoor sauna with porch",
+    eyebrow: "Four-to-six-person outdoor sauna with porch",
     heading: "Horizon makes the porch part of the footprint decision",
-    summary: "Redwood Outdoors Horizon is a six-person outdoor sauna kit measuring 72.75 × 92.5 × 76.5 inches, with a documented 240 V, 6 kW and 30 A heater entry.",
+    summary: "Redwood Outdoors Horizon seats four to six and measures 72.75 × 92.5 × 76.5 inches, with a documented 240 V, 6 kW and 30 A heater entry.",
     paragraphs: [
-      "Horizon is not simply a barrel with a decorative step. Its documented 92.5-inch depth includes a porch-oriented layout that affects the base, approach and usable space in front of the sauna. The 72.75-inch width and heat-treated Hemlock construction belong to this exact six-person model.",
+      "Horizon is not simply a barrel with a decorative step. Its documented 92.5-inch depth includes a porch-oriented layout that affects the base, approach and usable space in front of the sauna. The 72.75-inch width, four-to-six-person capacity and heat-treated Hemlock construction belong to this exact model.",
       "The source records a 6 kW heater option at 240 volts and 30 amps. Those figures establish the model's electrical scale, while the final circuit, outdoor disconnect, working clearances and foundation still depend on the installation documents and the chosen site.",
     ],
     decision_points: [
@@ -171,21 +171,21 @@ const entries = [
   },
   {
     product_id: "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
-    eyebrow: "Five-person 5 × 7 indoor sauna",
+    eyebrow: "Four-to-five-person 5 × 7 indoor sauna",
     heading: "NorthStar 5 × 7 turns the longer wall into usable capacity",
-    summary: "Finnleo NorthStar 5 × 7 is a five-person indoor cabin measuring 84 × 60 × 84 inches with a documented 240 V, 6 kW and 30 A heater entry.",
+    summary: "Finnleo NorthStar 5 × 7 is a four-to-five-person indoor cabin measuring 84 × 60 × 84 inches with a documented 240 V, 6 kW and 30 A heater entry.",
     paragraphs: [
-      "The 84-inch width distinguishes this model from the two-person 5 × 6 while the 60-inch depth remains the same. Finnleo documents five seats, Nordic White Spruce surfaces and clear Abachi or Aspen benches and backrests for the exact cabin.",
+      "The 84-inch width distinguishes this model from the narrower 5 × 6 while the 60-inch depth remains the same. Finnleo documents a four-to-five-person range, Nordic White Spruce surfaces and clear Abachi or Aspen benches and backrests for the exact cabin.",
       "The heater entry remains 6 kW at 240 volts and 30 amps. That makes the larger seating claim particularly dependent on the documented cabin layout and heater selection, not on simply scaling the smaller NorthStar description.",
     ],
     decision_points: [
       "The seven-foot width needs a broader wall and delivery route than the 5 × 6 model.",
-      "Five-person capacity is documented for this size only.",
+      "Finnleo states a four-to-five-person range; the catalog stores five only as the documented upper bound for filtering.",
       "Its normalized heater record is 6 kW, 240 V and 30 A.",
     ],
     limitations: [
       "Interior bench dimensions and minimum clearances are not complete in the record.",
-      "Five seats do not establish the same comfort level for every group or session.",
+      "The upper bound of five does not establish the same comfort level for every group or session.",
     ],
     source_ids: ["source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"],
   },
@@ -251,9 +251,9 @@ const entries = [
   },
   {
     product_id: "tylo-lulea-4",
-    eyebrow: "Four-person outdoor hemlock cabin",
+    eyebrow: "Three-to-four-person outdoor hemlock cabin",
     heading: "Lulea 4's roof is wider than its 86-inch foundation",
-    summary: "Tylo Lulea 4 is a four-person outdoor traditional sauna with an 86 × 61 × 94-inch foundation and a documented 240 V, 8 kW and 35 A heater entry.",
+    summary: "Tylo Lulea 4 seats three to four and has an 86 × 61 × 94-inch foundation with a documented 240 V, 8 kW and 35 A heater entry.",
     paragraphs: [
       "The foundation dimensions do not describe the widest part of Lulea 4. Tylo's source also records an 85 × 102-inch roof, so a fence line, wall or cover must be checked against the overhang rather than the 86-inch cabin width alone. Clear Hemlock and tinted tempered glass are documented.",
       "A Sense Bliss 8 heater, Bliss controls and app support are included in the configuration record. The electrical figures are 240 volts, 8 kW and 35 amps; the normalized source does not state the final connection method.",
@@ -281,7 +281,7 @@ const entries = [
     decision_points: [
       "Compare the included traditional heater separately from optional infrared and red-light packages.",
       "The exact page documents a two-to-three-person capacity and two-level benches.",
-      "The base heater entry is hardwired at 220 V, 6 kW and 30 A.",
+      "The base heater entry is 220 V, 6 kW and 30 A; the connection method is not stated.",
     ],
     limitations: [
       "Optional infrared panels require additional power that is not included in the base electrical record.",
@@ -321,7 +321,7 @@ const entries = [
     decision_points: [
       "The 60-inch depth is Valera's main footprint difference from the larger Lukaku shell.",
       "Four-to-five-person capacity is the current manufacturer range.",
-      "The base heater entry is hardwired at 220 V, 9 kW and 40 A.",
+      "The base heater entry is 220 V, 9 kW and 40 A; the connection method is not stated.",
     ],
     limitations: [
       "Optional infrared and red-light equipment would change the technical plan.",

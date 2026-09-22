@@ -2,7 +2,7 @@
   "schema_version": 2,
   "market": "US",
   "status": "reviewed-current",
-  "updated_at": "2026-09-22",
+  "updated_at": "2026-09-23",
   "scope": "Current 290-record US research catalog. Category counts overlap where a sauna kit also belongs to a placement and heat-type segment. Counts describe distinct product models, never electrical variants.",
   "data_complete_definition": "Product type, heat type, energy source, placement, form, seated capacity, exterior dimensions and materials are documented, and one electrical requirement documents voltage, rated power and rated current together.",
   "categories": [
@@ -32,10 +32,11 @@
       "id": "indoor-traditional-cabins",
       "label": "Indoor traditional saunas",
       "product_count": 85,
-      "data_complete_count": 16,
+      "data_complete_count": 15,
       "status": "covered-with-open-records",
       "gaps": [
         "The Sun Home Nova 3 record does not yet contain normalized exterior dimensions or electrical requirements.",
+        "Finnleo NorthStar 5 x 6 remains held because its official page gives conflicting seating capacities of two and three.",
         "Included heater and control packages must remain configuration-specific."
       ]
     },

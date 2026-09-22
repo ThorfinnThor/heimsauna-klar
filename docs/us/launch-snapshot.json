@@ -4,7 +4,7 @@
   "market": "US",
   "created_at": "2026-09-16",
   "input_commit": "sweat-kingdom-affiliate-expansion-2026-09-16",
-  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 235 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
+  "purpose": "Public indexed US release with 17 manually reviewed Sweat Kingdom merchant offers. 219 research records stay candidates; feed synchronization and manufacturer image use remain disabled.",
   "status": "public-indexed-first-wave",
   "publication_controls": {
     "schema_version": 1,
@@ -620,7 +620,7 @@
       "offer-sweat-kingdom-regen-sweat-pod"
     ],
     "source_count": 318,
-    "evidence_count": 736,
+    "evidence_count": 738,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -1009,15 +1009,15 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "82494d9db0db51da47ab026325c54206326ebd40b8ea768b3c432ed018f0623f"
+      "sha256": "53bbb51516ba0854dbb943a7ba12f56706a75c1e2fcd070860efc1d1f46bc29a"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "327c3e553bc758f7ec6d5f0e7b2647e807402c768eaca1e379a75ec20f42c11b"
+      "sha256": "ee46635812a7b44d2dc6533a11b5ab0ebe8294b806b00c0a3e1be03244168d82"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "e24ac1ac8cdb761081b7a53201f262280dd834963acc652eed725e9f6ed8c638"
+      "sha256": "df2113be5779c4bae5ea02984556bb828256b8bf310d29b2afffc1a38a514ba7"
     },
     {
       "path": "data/us/merchants.json",
@@ -1061,7 +1061,7 @@
     },
     {
       "path": "content/us/product-editorial.json",
-      "sha256": "b281e76fc1ca8cbbe9b6f4030d2d5f938572e97c49e6c7f4afbe1eb3ecb04041"
+      "sha256": "effb39bc5519af0e8ef13e4dce003a209159a88c0faf425c05911e05fcd59fc6"
     },
     {
       "path": "docs/us/rights-register.json",

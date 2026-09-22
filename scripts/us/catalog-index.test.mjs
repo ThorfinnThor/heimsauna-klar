@@ -18,7 +18,7 @@ test("the catalog index normalizes every real pilot product", () => {
 
 test("the public catalog contains the reviewed release waves", () => {
   const publicItems = getUsPublicCatalogItems();
-  assert.equal(publicItems.length, 55);
+  assert.equal(publicItems.length, 71);
   assert(publicItems.every((item) => item.id));
 });
 

@@ -116,6 +116,7 @@ const reviewedIds = [
 
 const products = new Map(productsDocument.products.map((product) => [product.id, product]));
 const configurations = new Map(configurationsDocument.configurations.map((configuration) => [configuration.id, configuration]));
+const sources = new Map(sourcesDocument.sources.map((source) => [source.id, source]));
 const evidence = new Map(sourcesDocument.evidence.map((entry) => [entry.id, entry]));
 const productEditorial = new Map(productEditorialDocument.entries.map((entry) => [entry.product_id, entry]));
 
@@ -149,6 +150,46 @@ test("Redwood heater amperage is not presented as a documented circuit rating", 
         }
       }
     }
+  }
+});
+
+test("Horizon and Summit keep the current model-page evidence behind their release facts", () => {
+  const expected = {
+    "redwood-horizon-6": {
+      exterior: { width: 72.75, depth: 92.5, height: 76.5 },
+      listedWeight: 1150,
+    },
+    "redwood-summit-6": {
+      exterior: { width: 82, depth: 69.5, height: 82.75 },
+      listedWeight: 1100,
+    },
+  };
+
+  for (const [productId, facts] of Object.entries(expected)) {
+    const product = products.get(productId);
+    const configuration = configurations.get(`${productId}-standard`);
+    const requirement = configuration?.electrical_supply_options?.[0]?.requirements?.[0];
+    const source = sources.get(`${productId}-product`);
+    const rawEvidence = evidence.get(`evidence-${productId}-configuration`)?.raw_value ?? "";
+    assert(product, `missing product ${productId}`);
+    assert(configuration, `missing configuration ${productId}-standard`);
+    assert.equal(product.spec_checked_at, "2026-09-22");
+    assert.equal(source?.checked_at, "2026-09-22");
+    assert.match(source?.locator ?? "", /Exact manufacturer product page/);
+    assert.equal(configuration.dimensions.exterior.value.width.value, facts.exterior.width);
+    assert.equal(configuration.dimensions.exterior.value.depth.value, facts.exterior.depth);
+    assert.equal(configuration.dimensions.exterior.value.height.value, facts.exterior.height);
+    assert.equal(configuration.net_weight.status, "unknown");
+    assert.match(configuration.net_weight.reason, /listed weight.*not identify.*net weight/i);
+    assert.equal(requirement?.voltage_v.value, 240);
+    assert.equal(requirement?.rated_power_w.value, 6000);
+    assert.equal(requirement?.rated_current_a.value, 30);
+    assert.equal(requirement?.required_circuit_a.status, "unknown");
+    assert.match(rawEvidence, /Canadian Thermowood/);
+    assert.match(rawEvidence, /heat-treated hemlock/);
+    assert.match(rawEvidence, new RegExp(`listed weight ${facts.listedWeight.toLocaleString("en-US")} lb`));
+    assert.match(rawEvidence, /6 kW Harvia KIP option at 240 V and 30 A/);
+    assert.match(rawEvidence, /does not identify 30 A as a required circuit or breaker rating/);
   }
 });
 
@@ -261,4 +302,57 @@ test("the latest Luna Finnleo batch records included heaters without inventing c
   assert.equal(configurations.get("finnleo-twilight-9-0501-standard")?.capacity.reclining.value, 3);
   assert.match(evidence.get("evidence-finnleo-solace-9-0502-depth-product")?.raw_value ?? "", /4–5 seated/);
   assert.match(evidence.get("evidence-finnleo-twilight-9-0501-depth-product")?.raw_value ?? "", /4–5 seated/);
+});
+
+test("the Sol-reviewed Finnleo release facts preserve conflicts, ranges and source semantics", () => {
+  const northstar46 = configurations.get("finnleo-northstar-indoor-sauna-4-x-6-9630-2263-standard");
+  const northstar56 = configurations.get("finnleo-northstar-indoor-sauna-5-x-6-9630-2264-standard");
+  const northstar57 = configurations.get("finnleo-northstar-indoor-sauna-5-x-7-9630-2265-standard");
+  const is565 = configurations.get("finnleo-is565-infrasauna-9805-0840-standard");
+
+  assert.equal(northstar56?.capacity.seated.status, "conflict");
+  assert.equal(northstar56?.capacity.seated.evidence_ids.length, 2);
+  assert.match(evidence.get("evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-product")?.raw_value ?? "", /4(?:-|–)5/);
+  const northstar57Copy = productEditorialDocument.entries.find((entry) => entry.product_id === "finnleo-northstar-indoor-sauna-5-x-7-9630-2265");
+  assert.match([northstar57Copy?.heading, northstar57Copy?.summary, ...(northstar57Copy?.paragraphs ?? [])].join(" "), /four-to-five/i);
+
+  for (const configuration of [northstar46, northstar56, northstar57, is565]) {
+    assert.equal(configuration?.manufacturer_sku.status, "unknown");
+  }
+  for (const configuration of [northstar46, northstar56, northstar57]) {
+    const requirement = configuration?.electrical_supply_options?.[0]?.requirements?.[0];
+    assert.equal(requirement?.required_circuit_a.status, "unknown");
+    assert.equal(requirement?.specified_breaker_a.status, "unknown");
+  }
+  const is565Requirement = is565?.electrical_supply_options?.[0]?.requirements?.[0];
+  assert.equal(is565Requirement?.required_circuit_a.value, 30);
+  assert.equal(is565Requirement?.specified_breaker_a.value, 30);
+  assert.equal(is565Requirement?.connection.value, "hardwired");
+  assert.equal(is565Requirement?.dedicated_circuit.status, "unknown");
+});
+
+test("the Sol-reviewed wave keeps breaker, connection and dedicated-circuit claims separate", () => {
+  const cases = [
+    ["tylo-lulea-4", "unknown", "unknown", "unknown"],
+    ["geyser-hekla", "unknown", "unknown", "unknown"],
+    ["geyser-lukaku", "unknown", "unknown", "unknown"],
+    ["geyser-valera", "unknown", "unknown", "unknown"],
+    ["geyser-balerion", 30, "unknown", "unknown"],
+    ["sunray-bristow", "unknown", "hardwired", true],
+    ["sunray-aurora", "unknown", "hardwired", true],
+    ["salus-ally", "unknown", "hardwired", "unknown"],
+  ];
+  for (const [productId, breaker, connection, dedicated] of cases) {
+    const requirement = configurations.get(`${productId}-standard`)?.electrical_supply_options?.[0]?.requirements?.[0];
+    if (breaker === "unknown") assert.equal(requirement?.specified_breaker_a.status, "unknown", `${productId} breaker`);
+    else assert.equal(requirement?.specified_breaker_a.value, breaker, `${productId} breaker`);
+    if (connection === "unknown") assert.equal(requirement?.connection.status, "unknown", `${productId} connection`);
+    else assert.equal(requirement?.connection.value, connection, `${productId} connection`);
+    if (dedicated === "unknown") assert.equal(requirement?.dedicated_circuit.status, "unknown", `${productId} dedicated circuit`);
+    else assert.equal(requirement?.dedicated_circuit.value, dedicated, `${productId} dedicated circuit`);
+  }
+
+  const luleaComponents = configurations.get("tylo-lulea-4-standard")?.components ?? [];
+  assert(luleaComponents.some((component) => component.name === "Chromotherapy lighting" && component.inclusion === "included"));
+  assert(luleaComponents.some((component) => component.name === "Optional Bluetooth sound bar" && component.inclusion === "excluded"));
 });

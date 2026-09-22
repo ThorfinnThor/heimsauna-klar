@@ -429,8 +429,8 @@
       "title": "Redwood Outdoors Summit Outdoor Sauna 6 Person product page",
       "publisher": "Redwood Outdoors",
       "market": "US",
-      "checked_at": "2026-09-15",
-      "locator": "Manufacturer product listing for capacity, layout, material and heater options"
+      "checked_at": "2026-09-22",
+      "locator": "Exact manufacturer product page: Specifications and Heater Options & Power Requirements"
     },
     {
       "id": "redwood-extra-wide-6-product",
@@ -459,8 +459,8 @@
       "title": "Redwood Outdoors Horizon Outdoor Sauna 6 Person product page",
       "publisher": "Redwood Outdoors",
       "market": "US",
-      "checked_at": "2026-09-15",
-      "locator": "Manufacturer product listing for capacity, porch layout, material and heater options"
+      "checked_at": "2026-09-22",
+      "locator": "Exact manufacturer product page: Specifications and Heater Options & Power Requirements"
     },
     {
       "id": "redwood-vista-6-product",
@@ -4206,7 +4206,7 @@
       "entity_id": "redwood-horizon-6-standard",
       "source_id": "redwood-horizon-6-product",
       "field_path": "manufacturer-product-page.specifications",
-      "raw_value": "Redwood Outdoors Horizon specifications list seating for 4 to 6 people, exterior dimensions of 92.5 L x 72.75 W x 76.5 H in, a listed weight of 1,150 lb, Canadian Thermowood and a 6 kW Harvia KIP heater with upgrade options. The listing identifies 120 V lighting and 240 V heater service but does not state one fixed circuit rating; the generic weight is not classified as net or shipping weight."
+      "raw_value": "Redwood Outdoors Horizon product page: seating capacity 4-6; exterior dimensions 92.5 L x 72.75 W x 76.5 H in; listed weight 1,150 lb; specifications label the wood Canadian Thermowood, while the product description and material section identify it as heat-treated hemlock; 120 V lighting and 240 V heater service; included 6 kW Harvia KIP option at 240 V and 30 A. The page does not identify 30 A as a required circuit or breaker rating."
     },
     {
       "id": "evidence-redwood-duo-2-product",
@@ -4234,7 +4234,7 @@
       "entity_id": "redwood-summit-6-standard",
       "source_id": "redwood-summit-6-product",
       "field_path": "manufacturer-product-page.specifications",
-      "raw_value": "Redwood Outdoors Summit listing confirms seating for up to 6 people, heat-treated hemlock construction and configurable electric heater options. Complete dimensions, weight and one fixed electrical configuration were not stated in the reviewed listing."
+      "raw_value": "Redwood Outdoors Summit product page: seating capacity 6; exterior dimensions 69.5 L x 82 W x 82.75 H in; listed weight 1,100 lb; specifications label the wood Canadian Thermowood, while the product description and material section identify it as heat-treated hemlock; 120 V lighting and 240 V heater service; included 6 kW Harvia KIP option at 240 V and 30 A. The page does not identify 30 A as a required circuit or breaker rating."
     },
     {
       "id": "evidence-redwood-barrel-6-product",
@@ -6810,7 +6810,7 @@
       "entity_id": "sunray-bristow-standard",
       "source_id": "source-sunray-bristow-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Bristow 2-Person Outdoor Wet/Dry Traditional Sauna: {\"voltage\":220,\"power\":4500,\"current\":30,\"connection\":\"dedicated hardwired circuit\"}"
+      "raw_value": "The exact Bristow page states 220 V, 4,500 W and a 30 A dedicated hardwired circuit. It does not state a breaker rating."
     },
     {
       "id": "evidence-sunray-aurora-product",
@@ -6831,7 +6831,7 @@
       "entity_id": "sunray-aurora-standard",
       "source_id": "source-sunray-aurora-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Aurora 2-4 Person Traditional Wet/Dry Barrel Sauna: {\"voltage\":220,\"power\":6000,\"current\":30,\"connection\":\"dedicated hardwired circuit\"}"
+      "raw_value": "The exact Aurora page states 220 V, 6,000 W and a 30 A dedicated hardwired circuit. It does not state a breaker rating."
     },
     {
       "id": "evidence-sunray-sedona-product",
@@ -6999,7 +6999,7 @@
       "entity_id": "salus-ally-standard",
       "source_id": "source-salus-ally-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Ally 2-Person Traditional Indoor Sauna: {\"voltage\":240,\"power\":6000,\"current\":30,\"connection\":\"hardwired\"}"
+      "raw_value": "The exact Ally page states a 220/240 V hardwired 30 A connection for the 6 kW heater. It does not state a breaker rating or dedicated-circuit requirement."
     },
     {
       "id": "evidence-salus-monarch-king-product",
@@ -7174,7 +7174,7 @@
       "entity_id": "tylo-lulea-4",
       "source_id": "source-tylo-lulea-4-product",
       "field_path": "product_identity",
-      "raw_value": "Tylo lists Lulea 4 as an outdoor traditional sauna for three or four people with clear hemlock and a Sense Bliss 8 heater."
+      "raw_value": "Tylo lists Lulea 4 as an outdoor traditional sauna for three or four people with clear hemlock, a Sense Bliss 8 heater, included chromotherapy lighting and an optional Bluetooth sound bar."
     },
     {
       "id": "evidence-tylo-lulea-4-configuration",
@@ -7188,7 +7188,7 @@
       "entity_id": "tylo-lulea-4-standard",
       "source_id": "source-tylo-lulea-4-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Lulea 4: {\"voltage\":240,\"power\":8000,\"current\":35,\"connection\":null}"
+      "raw_value": "The exact Tylo Lulea 4 page states electrical requirements of 240 V / 35 A and an 8 kW heater. It does not state a breaker rating, connection type or dedicated-circuit requirement."
     },
     {
       "id": "evidence-tylo-kiruna-2-product",
@@ -7230,7 +7230,7 @@
       "entity_id": "geyser-hekla-standard",
       "source_id": "source-geyser-hekla-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Hekla: {\"voltage\":220,\"power\":6000,\"current\":30,\"connection\":\"hardwired\"}"
+      "raw_value": "The exact Hekla page states 220 V, 30 AMP connection required and a 6,000 W heater. It does not state a breaker rating, hardwired connection or dedicated circuit."
     },
     {
       "id": "evidence-geyser-lukaku-product",
@@ -7251,7 +7251,7 @@
       "entity_id": "geyser-lukaku-standard",
       "source_id": "source-geyser-lukaku-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Lukaku: {\"voltage\":240,\"power\":13500,\"current\":65,\"connection\":\"hardwired\"}"
+      "raw_value": "The exact Lukaku page states a 13.5 kW heater and 240 V / 65 A electrical service. It does not state a breaker rating, connection type or dedicated circuit."
     },
     {
       "id": "evidence-geyser-autana-product",
@@ -7293,7 +7293,7 @@
       "entity_id": "geyser-valera-standard",
       "source_id": "source-geyser-valera-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Valera: {\"voltage\":220,\"power\":9000,\"current\":40,\"connection\":\"hardwired\"}"
+      "raw_value": "The exact Valera page states a 9 kW heater and 220 V / 40 A electrical service. It does not state a breaker rating, connection type or dedicated circuit."
     },
     {
       "id": "evidence-geyser-balerion-product",
@@ -7314,7 +7314,7 @@
       "entity_id": "geyser-balerion-standard",
       "source_id": "source-geyser-balerion-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Balerion: {\"voltage\":240,\"power\":5000,\"current\":30,\"connection\":\"hardwired\"}"
+      "raw_value": "The exact Balerion page states 5,000 W at 240 V and a 30 AMP breaker. It does not state a connection type or dedicated-circuit requirement."
     },
     {
       "id": "evidence-thermasol-aalto-manufacturer-product",
@@ -7979,7 +7979,7 @@
       "entity_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
       "source_id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
       "field_path": "product_identity_capacity_heat_and_placement",
-      "raw_value": "NorthStar Indoor Sauna 5 x 6 is listed on the Finnleo model page with a seating capacity of 2; the page identifies the model as an indoor traditional sauna."
+      "raw_value": "NorthStar Indoor Sauna 5 x 6 is listed on the Finnleo model page; its description says it comfortably seats three, while the seating-capacity field states two. The page identifies the model as an indoor traditional sauna."
     },
     {
       "id": "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-configuration",
@@ -7993,14 +7993,28 @@
       "entity_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264-standard",
       "source_id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Finnleo lists 240 V, 30 A, no normalized connection wording and 6000 W for this model."
+      "raw_value": "Finnleo lists 240 V, 30 A and 6,000 W for this model. The page says it uses a single 240 V source, but it does not label 30 A as a required circuit or breaker rating."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-capacity-description-2026-09-22",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
+      "field_path": "manufacturer-product-page.description.capacity",
+      "raw_value": "The official description says the NSI-56 can comfortably seat three."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-capacity-field-2026-09-22",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
+      "field_path": "manufacturer-product-page.seating-capacity",
+      "raw_value": "The official seating-capacity field states 2."
     },
     {
       "id": "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-product",
       "entity_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
       "source_id": "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
       "field_path": "product_identity_capacity_heat_and_placement",
-      "raw_value": "NorthStar Indoor Sauna 5 x 7 is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna."
+      "raw_value": "NorthStar Indoor Sauna 5 x 7 is listed on the Finnleo model page with a seating-capacity range of 4-5; the page identifies the model as an indoor traditional sauna. The normalized value 5 is the documented upper bound used for capacity filtering."
     },
     {
       "id": "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-configuration",
@@ -8014,7 +8028,7 @@
       "entity_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265-standard",
       "source_id": "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Finnleo lists 240 V, 30 A, no normalized connection wording and 6000 W for this model."
+      "raw_value": "Finnleo lists 240 V, 30 A and 6,000 W for this model. The page says it uses a single 240 V source, but it does not label 30 A as a required circuit or breaker rating."
     },
     {
       "id": "evidence-finnleo-vita-ii-9-0503-depth-product",
@@ -8140,7 +8154,7 @@
       "entity_id": "finnleo-is565-infrasauna-9805-0840-standard",
       "source_id": "source-finnleo-is565-infrasauna-9805-0840-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Finnleo lists 240 V, 30 A, hardwired and 6000 W for this model."
+      "raw_value": "Finnleo says to hardwire the IS565 to a 240 V 30-amp breaker and lists 6.0 kW and 30 A in the technical specifications. The page does not state that the circuit is dedicated."
     },
     {
       "id": "evidence-harvia-concept-r-105-verified-product-2026-09-22",

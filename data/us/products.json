@@ -4010,9 +4010,11 @@
         "redwood-horizon-6-product",
         "redwood-outdoor-saunas"
       ],
-      "publication_status": "candidate",
-      "spec_checked_at": "2026-09-15",
-      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23",
+      "next_review_at": "2026-12-10"
     },
     {
       "id": "redwood-duo-2",
@@ -4122,9 +4124,11 @@
         "redwood-summit-6-product",
         "redwood-outdoor-saunas"
       ],
-      "publication_status": "candidate",
-      "spec_checked_at": "2026-09-15",
-      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
+      "publication_status": "published",
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23",
+      "next_review_at": "2026-12-10"
     },
     {
       "id": "redwood-barrel-6",
@@ -4292,9 +4296,11 @@
         "redwood-outdoor-saunas",
         "redwood-extra-wide-porch-6-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-15",
-      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23",
+      "next_review_at": "2026-12-10"
     },
     {
       "id": "redwood-extra-wide-6",
@@ -4405,9 +4411,11 @@
         "redwood-outdoor-saunas",
         "redwood-barrel-8-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-15",
-      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23",
+      "next_review_at": "2026-12-10"
     },
     {
       "id": "redwood-noctra-8",
@@ -4461,9 +4469,11 @@
         "redwood-outdoor-saunas",
         "redwood-noctra-8-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-15",
-      "change_reason": "Official US manufacturer product page reviewed in the Luna catalog-enrichment batch; unresolved fields remain explicitly unknown."
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23",
+      "next_review_at": "2026-12-10"
     },
     {
       "id": "thermory-luik-kodiak",
@@ -9138,10 +9148,11 @@
       "source_ids": [
         "source-finnleo-is565-infrasauna-9805-0840-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-22",
-      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
-      "next_review_at": "2026-12-22"
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "next_review_at": "2026-12-10",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550",
@@ -9250,10 +9261,11 @@
       "source_ids": [
         "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-22",
-      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
-      "next_review_at": "2026-12-22"
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "next_review_at": "2026-12-10",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
@@ -9362,10 +9374,11 @@
       "source_ids": [
         "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-22",
-      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
-      "next_review_at": "2026-12-22"
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "next_review_at": "2026-12-10",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266",
@@ -13062,10 +13075,11 @@
       "source_ids": [
         "source-sunray-bristow-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official SunRay US product page; editorial and publication review remain open."
+      "next_review_at": "2026-12-10",
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "sunray-aurora",
@@ -13119,10 +13133,11 @@
       "source_ids": [
         "source-sunray-aurora-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official SunRay US product page; editorial and publication review remain open."
+      "next_review_at": "2026-12-10",
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "sunray-sedona",
@@ -13567,10 +13582,11 @@
       "source_ids": [
         "source-salus-ally-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+      "next_review_at": "2026-12-10",
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "salus-monarch-king",
@@ -14071,10 +14087,11 @@
       "source_ids": [
         "source-tylo-lulea-4-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+      "next_review_at": "2026-12-10",
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "tylo-kiruna-2",
@@ -14184,10 +14201,11 @@
       "source_ids": [
         "source-geyser-hekla-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-22",
-      "next_review_at": "2026-12-22",
-      "change_reason": "The exact manufacturer page was rechecked. The normalized record now separates the included traditional heater from optional infrared or red-light add-ons."
+      "next_review_at": "2026-12-10",
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "geyser-lukaku",
@@ -14241,10 +14259,11 @@
       "source_ids": [
         "source-geyser-lukaku-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-22",
-      "next_review_at": "2026-12-22",
-      "change_reason": "The exact manufacturer page was rechecked. The normalized record now separates the included traditional heater from optional infrared or red-light add-ons."
+      "next_review_at": "2026-12-10",
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "geyser-autana",
@@ -14355,10 +14374,11 @@
       "source_ids": [
         "source-geyser-valera-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-22",
-      "next_review_at": "2026-12-22",
-      "change_reason": "The exact manufacturer page was rechecked. The normalized record now separates the included traditional heater from optional infrared or red-light add-ons."
+      "next_review_at": "2026-12-10",
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "geyser-balerion",
@@ -14412,10 +14432,11 @@
       "source_ids": [
         "source-geyser-balerion-product"
       ],
-      "publication_status": "candidate",
+      "publication_status": "published",
       "spec_checked_at": "2026-09-22",
-      "next_review_at": "2026-12-22",
-      "change_reason": "The exact manufacturer page currently identifies the model as Balerion. The retained Shopify URL handle contains an older name, but the page title and specifications match this catalog record."
+      "next_review_at": "2026-12-10",
+      "change_reason": "Sol-approved third US publication wave: source, technical data, product-specific copy, SEO, links, build and presentation checks completed.",
+      "content_updated_at": "2026-09-23"
     },
     {
       "id": "thermasol-astra",

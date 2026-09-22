@@ -3,7 +3,7 @@
   "snapshot_id": "us-indexed-first-wave-2026-09-16-sweat-kingdom-expanded",
   "market": "US",
   "mode": "public-static-indexed-first-wave",
-  "expected_page_count": 69,
+  "expected_page_count": 85,
   "routes": [
     {
       "path": "/us/",
@@ -294,6 +294,18 @@
       "robots": "index, follow"
     },
     {
+      "path": "/us/saunas/redwood-horizon-6/",
+      "kind": "product",
+      "record_id": "redwood-horizon-6",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/redwood-summit-6/",
+      "kind": "product",
+      "record_id": "redwood-summit-6",
+      "robots": "index, follow"
+    },
+    {
       "path": "/us/saunas/redwood-barrel-6/",
       "kind": "product",
       "record_id": "redwood-barrel-6",
@@ -306,9 +318,27 @@
       "robots": "index, follow"
     },
     {
+      "path": "/us/saunas/redwood-extra-wide-porch-6/",
+      "kind": "product",
+      "record_id": "redwood-extra-wide-porch-6",
+      "robots": "index, follow"
+    },
+    {
       "path": "/us/saunas/redwood-extra-wide-6/",
       "kind": "product",
       "record_id": "redwood-extra-wide-6",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/redwood-barrel-8/",
+      "kind": "product",
+      "record_id": "redwood-barrel-8",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/redwood-noctra-8/",
+      "kind": "product",
+      "record_id": "redwood-noctra-8",
       "robots": "index, follow"
     },
     {
@@ -396,6 +426,24 @@
       "robots": "index, follow"
     },
     {
+      "path": "/us/saunas/finnleo-is565-infrasauna-9805-0840/",
+      "kind": "product",
+      "record_id": "finnleo-is565-infrasauna-9805-0840",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/finnleo-northstar-indoor-sauna-4-x-6-9630-2263/",
+      "kind": "product",
+      "record_id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/finnleo-northstar-indoor-sauna-5-x-7-9630-2265/",
+      "kind": "product",
+      "record_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
+      "robots": "index, follow"
+    },
+    {
       "path": "/us/saunas/sweat-kingdom-sk-contrast/",
       "kind": "product",
       "record_id": "sweat-kingdom-sk-contrast",
@@ -417,6 +465,54 @@
       "path": "/us/saunas/sweat-kingdom-regen-sweat-pod/",
       "kind": "product",
       "record_id": "sweat-kingdom-regen-sweat-pod",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sunray-bristow/",
+      "kind": "product",
+      "record_id": "sunray-bristow",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/sunray-aurora/",
+      "kind": "product",
+      "record_id": "sunray-aurora",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/salus-ally/",
+      "kind": "product",
+      "record_id": "salus-ally",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/tylo-lulea-4/",
+      "kind": "product",
+      "record_id": "tylo-lulea-4",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/geyser-hekla/",
+      "kind": "product",
+      "record_id": "geyser-hekla",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/geyser-lukaku/",
+      "kind": "product",
+      "record_id": "geyser-lukaku",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/geyser-valera/",
+      "kind": "product",
+      "record_id": "geyser-valera",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/saunas/geyser-balerion/",
+      "kind": "product",
+      "record_id": "geyser-balerion",
       "robots": "index, follow"
     }
   ],

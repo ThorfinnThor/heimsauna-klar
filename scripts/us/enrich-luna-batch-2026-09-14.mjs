@@ -86,9 +86,9 @@ const sourceDefinitions = [
   ["redwood-garden-8-product", "https://www.redwoodoutdoors.com/products/garden-outdoor-sauna-8-person", "Redwood Outdoors Garden Outdoor Sauna 8 Person product page", "Redwood Outdoors", "Product page specifications for capacity, material, seating and included heater"],
   ["redwood-grove-8-product", "https://www.redwoodoutdoors.com/products/grove-outdoor-sauna-8-person", "Redwood Outdoors Grove Outdoor Sauna 8 Person product page", "Redwood Outdoors", "Product page specifications for capacity, accessibility-focused layout and material"],
   ["redwood-vista-6-product", "https://www.redwoodoutdoors.com/products/vista-outdoor-sauna-6-person", "Redwood Outdoors Vista Outdoor Sauna 6 Person product page", "Redwood Outdoors", "Product page specifications for capacity, dimensions, material and heater options"],
-  ["redwood-horizon-6-product", "https://www.redwoodoutdoors.com/products/horizon-outdoor-sauna-6-person", "Redwood Outdoors Horizon Outdoor Sauna 6 Person product page", "Redwood Outdoors", "Manufacturer product listing for capacity, porch layout, material and heater options"],
+  ["redwood-horizon-6-product", "https://www.redwoodoutdoors.com/products/horizon-outdoor-sauna-6-person-porch", "Redwood Outdoors Horizon Outdoor Sauna 6 Person product page", "Redwood Outdoors", "Exact manufacturer product page: Specifications and Heater Options & Power Requirements"],
   ["redwood-duo-2-product", "https://www.redwoodoutdoors.com/products/duo-outdoor-sauna-2-person", "Redwood Outdoors Duo Outdoor Sauna 2 Person product page", "Redwood Outdoors", "Manufacturer product listing for capacity, compact layout, material and heater options"],
-  ["redwood-summit-6-product", "https://www.redwoodoutdoors.com/products/summit-outdoor-sauna-6-person", "Redwood Outdoors Summit Outdoor Sauna 6 Person product page", "Redwood Outdoors", "Manufacturer product listing for capacity, layout, material and heater options"],
+  ["redwood-summit-6-product", "https://www.redwoodoutdoors.com/products/summit-outdoor-sauna-6-person", "Redwood Outdoors Summit Outdoor Sauna 6 Person product page", "Redwood Outdoors", "Exact manufacturer product page: Specifications and Heater Options & Power Requirements"],
   ["redwood-barrel-6-product", "https://www.redwoodoutdoors.com/products/6-person-barrel-sauna", "Redwood Outdoors Barrel Outdoor Sauna 6 Person product page", "Redwood Outdoors", "Product page specifications for capacity, dimensions, weight, material and heater options"],
   ["redwood-barrel-porch-6-product", "https://www.redwoodoutdoors.com/products/barrel-sauna-porch-6-person", "Redwood Outdoors Barrel Outdoor Sauna with Porch 6 Person product page", "Redwood Outdoors", "Product page specifications for capacity, porch layout, material and heater options"],
   ["redwood-extra-wide-6-product", "https://www.redwoodoutdoors.com/products/extra-wide-barrel-sauna-6-person", "Redwood Outdoors Extra-Wide Barrel Sauna 6 Person product page", "Redwood Outdoors", "Product page specifications for capacity, dimensions, weight, material and heater options"],
@@ -604,9 +604,9 @@ const productFacts = {
   },
   "redwood-horizon-6": {
     source: "redwood-horizon-6-product", evidence: "evidence-redwood-horizon-6-product", configEvidence: "evidence-redwood-horizon-6-configuration",
-    heat: "traditional", energy: ["electric"], capacity: 6, material: ["Heat-treated hemlock"], power: 6000, current: 30,
+    heat: "traditional", energy: ["electric"], capacity: 6, exterior: dimension(72.75, 92.5, 76.5), material: ["Heat-treated hemlock"], power: 6000, current: 30,
     productRaw: "Horizon Outdoor Sauna with Porch 6 Person; Redwood Outdoors outdoor sauna with a built-on porch, heat-treated hemlock and configurable heater options.",
-    configRaw: "Redwood Outdoors Horizon listing confirms seating for up to 6 people, a built-on porch, heat-treated hemlock construction and selectable electric heater options. Complete dimensions, weight and one fixed electrical configuration were not stated in the reviewed listing.",
+    configRaw: "Redwood Outdoors Horizon product page: seating capacity 4-6; exterior dimensions 92.5 L x 72.75 W x 76.5 H in; listed weight 1,150 lb; specifications label the wood Canadian Thermowood, while the product description and material section identify it as heat-treated hemlock; 120 V lighting and 240 V heater service; included 6 kW Harvia KIP option at 240 V and 30 A. The page does not identify 30 A as a required circuit or breaker rating.",
   },
   "redwood-duo-2": {
     source: "redwood-duo-2-product", evidence: "evidence-redwood-duo-2-product", configEvidence: "evidence-redwood-duo-2-configuration",
@@ -616,9 +616,9 @@ const productFacts = {
   },
   "redwood-summit-6": {
     source: "redwood-summit-6-product", evidence: "evidence-redwood-summit-6-product", configEvidence: "evidence-redwood-summit-6-configuration",
-    heat: "traditional", energy: ["electric"], capacity: 6, material: ["Heat-treated hemlock"], power: 6000, current: 30,
+    heat: "traditional", energy: ["electric"], capacity: 6, exterior: dimension(82, 69.5, 82.75), material: ["Heat-treated hemlock"], power: 6000, current: 30,
     productRaw: "Summit Outdoor Sauna 6 Person; Redwood Outdoors outdoor sauna with traditional two-level seating and configurable heater options.",
-    configRaw: "Redwood Outdoors Summit listing confirms seating for up to 6 people, heat-treated hemlock construction and configurable electric heater options. Complete dimensions, weight and one fixed electrical configuration were not stated in the reviewed listing.",
+    configRaw: "Redwood Outdoors Summit product page: seating capacity 6; exterior dimensions 69.5 L x 82 W x 82.75 H in; listed weight 1,100 lb; specifications label the wood Canadian Thermowood, while the product description and material section identify it as heat-treated hemlock; 120 V lighting and 240 V heater service; included 6 kW Harvia KIP option at 240 V and 30 A. The page does not identify 30 A as a required circuit or breaker rating.",
   },
   "redwood-barrel-6": {
     source: "redwood-barrel-6-product", evidence: "evidence-redwood-barrel-6-product", configEvidence: "evidence-redwood-barrel-6-configuration",

@@ -20,7 +20,7 @@ test("the current indexed catalog has a reproducible review report", () => {
     policy,
   });
   assert.equal(report.summary.products, 290);
-  assert.equal(report.summary.candidatesAwaitingReview, 235);
+  assert.equal(report.summary.candidatesAwaitingReview, 219);
   assert.equal(report.summary.sourceStale, 0);
   assert.equal(report.summary.sourceReferencesMissing, 0);
   assert.equal(report.summary.reviewsDue, 0);
@@ -28,7 +28,7 @@ test("the current indexed catalog has a reproducible review report", () => {
   assert.equal(report.summary.approvedPrograms, 1);
   assert.equal(report.summary.rightsReady, 0);
   assert.equal(report.summary.publicationProtected, true);
-  assert(report.blockers.includes("235 candidate or draft products still require their first technical review."));
+  assert(report.blockers.includes("219 candidate or draft products still require their first technical review."));
   assert(!report.blockers.some((blocker) => blocker.includes("publisher approval")));
 });
 
