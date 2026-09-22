@@ -1368,6 +1368,7 @@ footer {
 .collection-insight-split h2 { color: var(--white); }
 .collection-insight-split .collection-insight-reading > p, .collection-insight-split .collection-insight-reading li { color: rgba(255,255,255,.78); }
 .collection-insight-split .collection-insight-reading ul, .collection-insight-split .collection-insight-reading li { border-color: rgba(255,255,255,.22); }
+.collection-insight-compact { grid-template-columns: minmax(0, 1.25fr) minmax(380px, .75fr); }
 .collection-insight-compact > div:first-child { padding: 26px; background: var(--cream); }
 
 /* Review pages use calmer proportions while their longer, query-specific copy is assessed. */
