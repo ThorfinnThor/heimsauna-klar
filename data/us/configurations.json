@@ -24477,11 +24477,8 @@
                 "reason": "Phase is not stated in the reviewed catalog record."
               },
               "rated_power_w": {
-                "status": "documented",
-                "value": 2200,
-                "evidence_ids": [
-                  "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The exact Finnleo model page lists 1.7 kW and 2.2 kW heater options without identifying one as the single standard configuration."
               },
               "rated_current_a": {
                 "status": "unknown",

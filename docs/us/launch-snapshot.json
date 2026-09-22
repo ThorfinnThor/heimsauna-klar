@@ -966,11 +966,11 @@
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "42e129bb829930d7de7530d255aeeda159dac687b0a08dead9ce58fa0ebdc1c0"
+      "sha256": "e73ee7158d583d23b935931b0d1a16634a7b4f643997b882da3f8406ef333b48"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "91a9c98069e268423780635a0ac0083664b6489c13a0825265adbc4480375d45"
+      "sha256": "1a12af2221fbb215462ca1ef916722e18341aa651a249fbdf43e87bf3cbe63bc"
     },
     {
       "path": "data/us/merchants.json",
@@ -1010,7 +1010,7 @@
     },
     {
       "path": "content/us/editorial.json",
-      "sha256": "26546ba7eab5c6a9ea5bf76eb9bdf15d232a8e496fc3a447ae4f8b6560adf9f1"
+      "sha256": "7036659778ef66074ba54be59dc34c0b01241b9dcc5715a65b86c9a7a2ec2cca"
     },
     {
       "path": "content/us/product-editorial.json",

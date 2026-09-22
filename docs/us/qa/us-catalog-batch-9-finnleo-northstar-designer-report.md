@@ -8,7 +8,7 @@ Geprüft wurden vier NorthStar-Innenkabinen, die Designer-Modelle Vita II, Centu
 
 ## Ergänzte und korrigierte Angaben
 
-Für die zehn Modelle wurden Sitzkapazität, Außenmaße und Materialangaben aus den jeweiligen Modellseiten übernommen. Die elektrischen Angaben wurden nur dort normalisiert, wo Spannung, Leistung oder Stromstärke eindeutig genannt sind. Nicht genannte Anschlussdetails bleiben als unbekannt markiert.
+Für die zehn Modelle wurden Sitzkapazität, Außenmaße und Materialangaben aus den jeweiligen Modellseiten übernommen. Die elektrischen Angaben wurden nur dort normalisiert, wo Spannung, Leistung oder Stromstärke eindeutig genannt sind. Nicht genannte Anschlussdetails bleiben als unbekannt markiert. Beim NorthStar 4' x 4' bleibt die Leistung offen, weil die Modellseite zwei Junior-Heizervarianten mit 1,7 und 2,2 kW nennt.
 
 IS440 und IS565 sind als Hybridmodelle erfasst, weil Finnleo für beide Kabinen ausdrücklich eine Wahl zwischen Infrarot- und traditioneller Beheizung beschreibt. Beim IS440 bleibt die Leistung offen, weil die Seite zwei verfügbare Leistungsstufen nennt. Beim IS565 sind 240 V, 30 A und 6,0 kW sowie die fest verdrahtete Versorgung dokumentiert.
 
