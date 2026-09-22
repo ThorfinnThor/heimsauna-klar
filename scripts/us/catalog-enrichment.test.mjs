@@ -193,3 +193,24 @@ test("the Sol-reviewed Harvia heater records preserve source limits", () => {
   assert.equal(configurations.get("harvia-concept-r-105-standard")?.materials.status, "unknown");
   assert.deepEqual(configurations.get("harvia-concept-r-combi-105-standard")?.materials.value, ["Ceramic bowl"]);
 });
+
+test("the latest Luna Finnmark batch normalizes the remaining model records without inventing clearances", () => {
+  const expectations = {
+    "finnmark-fd-2": { heat: "infrared", capacity: 2, exterior: [47, 36, 75] },
+    "finnmark-fd-4": { heat: "hybrid", capacity: 2, exterior: [48, 48, 83] },
+    "finnmark-fd-6": { heat: "hybrid", capacity: 6, exterior: [75, 79, 75] },
+    "finnmark-fd-7": { heat: "hybrid", capacity: 6, exterior: [75, 79, 75] },
+  };
+  for (const [id, expected] of Object.entries(expectations)) {
+    const product = products.get(id);
+    const configuration = configurations.get(`${id}-standard`);
+    assert(product, `missing product ${id}`);
+    assert(configuration, `missing configuration ${id}-standard`);
+    assert.equal(product.heat_type.value, expected.heat);
+    assert.equal(configuration.capacity.seated.value, expected.capacity);
+    assert.deepEqual(Object.values(configuration.dimensions.exterior.value).map((measurement) => measurement.value), expected.exterior);
+    assert.equal(configuration.dimensions.minimum_clearances.status, "unknown");
+    assert.equal(configuration.publication_status, "candidate");
+    assert.match(evidence.get(`evidence-${id}-verified-configuration-2026-09-22`)?.raw_value ?? "", /Capacity/);
+  }
+});

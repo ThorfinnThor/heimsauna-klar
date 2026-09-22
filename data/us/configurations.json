@@ -32401,7 +32401,7 @@
       "id": "finnmark-fd-2-standard",
       "market": "US",
       "product_id": "finnmark-fd-2",
-      "label": "Finnmark FD-2 Full-Spectrum Infrared Sauna standard configuration",
+      "label": "Finnmark FD-2 Full-Spectrum Infrared Sauna documented configuration",
       "manufacturer_sku": {
         "status": "unknown",
         "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
@@ -32409,32 +32409,48 @@
       "capacity": {
         "seated": {
           "status": "documented",
-          "value": 3,
+          "value": 2,
           "evidence_ids": [
-            "evidence-finnmark-fd-2-configuration"
+            "evidence-finnmark-fd-2-verified-configuration-2026-09-22"
           ]
         },
         "reclining": {
           "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 47,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 36,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnmark-fd-2-verified-configuration-2026-09-22"
+          ]
         },
         "interior": {
           "status": "unknown",
-          "reason": "Complete interior dimensions require the individual technical specification."
+          "reason": "Interior dimensions are not stated on the reviewed product page."
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the applicable manufacturer documentation."
+          "reason": "Installation clearances require the linked installation manual and a site review."
         }
       },
       "net_weight": {
@@ -32446,58 +32462,76 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual technical specification."
+        "status": "documented",
+        "value": [
+          "Antimicrobial Western Canadian cedar interior"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-2-verified-configuration-2026-09-22"
+        ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnmark-fd-2-standard-infrared-system-1",
+          "component_type": "infrared-system",
+          "name": "Full-spectrum infrared heating system",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnmark-fd-2-verified-configuration-2026-09-22"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
-          "id": "finnmark-fd-2-electrical-unknown",
+          "id": "finnmark-fd-2-standard-electrical-1",
           "evidence_ids": [
-            "evidence-finnmark-fd-2-configuration"
+            "evidence-finnmark-fd-2-verified-electrical-2026-09-22"
           ],
           "requirements": [
             {
               "component": "infrared-system",
               "voltage_v": {
                 "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "reason": "Voltage is not stated on the reviewed product page."
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated in the reviewed catalog record."
+                "reason": "Frequency is not stated on the reviewed product page."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated in the reviewed catalog record."
+                "reason": "Phase is not stated on the reviewed product page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 2400,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-2-verified-electrical-2026-09-22"
+                ]
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "Rated current is not stated on the reviewed product page."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "Required circuit rating is not stated on the reviewed product page."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "A breaker rating is not stated on the reviewed product page."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "Connection type is not stated on the reviewed product page."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the reviewed product page."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
               }
             }
           ]
@@ -32697,7 +32731,7 @@
       "id": "finnmark-fd-4-standard",
       "market": "US",
       "product_id": "finnmark-fd-4",
-      "label": "Finnmark FD-4 Trinity Infrared and Steam Sauna standard configuration",
+      "label": "Finnmark FD-4 Trinity Infrared and Steam Sauna documented configuration",
       "manufacturer_sku": {
         "status": "unknown",
         "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
@@ -32705,32 +32739,64 @@
       "capacity": {
         "seated": {
           "status": "documented",
-          "value": 4,
+          "value": 2,
           "evidence_ids": [
-            "evidence-finnmark-fd-4-configuration"
+            "evidence-finnmark-fd-4-verified-configuration-2026-09-22"
           ]
         },
         "reclining": {
           "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 48,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 48,
+              "unit": "in"
+            },
+            "height": {
+              "value": 83,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnmark-fd-4-verified-configuration-2026-09-22"
+          ]
         },
         "interior": {
-          "status": "unknown",
-          "reason": "Complete interior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 44.25,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 45.5,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75.5,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnmark-fd-4-verified-configuration-2026-09-22"
+          ]
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the applicable manufacturer documentation."
+          "reason": "Installation clearances require the linked installation manual and a site review."
         }
       },
       "net_weight": {
@@ -32742,58 +32808,168 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual technical specification."
+        "status": "documented",
+        "value": [
+          "Thermo-Aspen exterior",
+          "Western Canadian cedar interior",
+          "8 mm tempered glass door"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-4-verified-configuration-2026-09-22"
+        ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnmark-fd-4-standard-infrared-system-1",
+          "component_type": "infrared-system",
+          "name": "Full-spectrum infrared heating system",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnmark-fd-4-verified-configuration-2026-09-22"
+          ]
+        },
+        {
+          "id": "finnmark-fd-4-standard-heater-2",
+          "component_type": "heater",
+          "name": "Harvia Vega Compact 1.9 kW traditional heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnmark-fd-4-verified-configuration-2026-09-22"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
-          "id": "finnmark-fd-4-electrical-unknown",
+          "id": "finnmark-fd-4-standard-electrical-1",
           "evidence_ids": [
-            "evidence-finnmark-fd-4-configuration"
+            "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+          ],
+          "requirements": [
+            {
+              "component": "infrared-system",
+              "voltage_v": {
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
+              },
+              "frequency_hz": {
+                "status": "unknown",
+                "reason": "Frequency is not stated on the reviewed product page."
+              },
+              "phase": {
+                "status": "documented",
+                "value": 1,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
+              },
+              "rated_power_w": {
+                "status": "documented",
+                "value": 1750,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
+              },
+              "rated_current_a": {
+                "status": "documented",
+                "value": 15,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
+              },
+              "required_circuit_a": {
+                "status": "unknown",
+                "reason": "Required circuit rating is not stated on the reviewed product page."
+              },
+              "specified_breaker_a": {
+                "status": "unknown",
+                "reason": "A breaker rating is not stated on the reviewed product page."
+              },
+              "connection": {
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
+              },
+              "plug_type": {
+                "status": "documented",
+                "value": "NEMA 5-15P",
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
+              },
+              "dedicated_circuit": {
+                "status": "unknown",
+                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
+              }
+            }
+          ]
+        },
+        {
+          "id": "finnmark-fd-4-standard-electrical-2",
+          "evidence_ids": [
+            "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
           ],
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated in the reviewed catalog record."
+                "reason": "Frequency is not stated on the reviewed product page."
               },
               "phase": {
-                "status": "unknown",
-                "reason": "Phase is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 1,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 1900,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 15.9,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "Required circuit rating is not stated on the reviewed product page."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "A breaker rating is not stated on the reviewed product page."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "Connection type is not stated on the reviewed product page."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the reviewed product page."
               },
               "dedicated_circuit": {
-                "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+                ]
               }
             }
           ]
@@ -33068,7 +33244,7 @@
       "id": "finnmark-fd-6-standard",
       "market": "US",
       "product_id": "finnmark-fd-6",
-      "label": "Finnmark FD-6 Cedar Combination Barrel Sauna standard configuration",
+      "label": "Finnmark FD-6 Cedar Combination Barrel Sauna documented configuration",
       "manufacturer_sku": {
         "status": "unknown",
         "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
@@ -33076,32 +33252,64 @@
       "capacity": {
         "seated": {
           "status": "documented",
-          "value": 5,
+          "value": 6,
           "evidence_ids": [
-            "evidence-finnmark-fd-6-configuration"
+            "evidence-finnmark-fd-6-verified-configuration-2026-09-22"
           ]
         },
         "reclining": {
           "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 79,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnmark-fd-6-verified-configuration-2026-09-22"
+          ]
         },
         "interior": {
-          "status": "unknown",
-          "reason": "Complete interior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 66,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72,
+              "unit": "in"
+            },
+            "height": {
+              "value": 71,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnmark-fd-6-verified-configuration-2026-09-22"
+          ]
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the applicable manufacturer documentation."
+          "reason": "Installation clearances require the linked installation manual and a site review."
         }
       },
       "net_weight": {
@@ -33113,58 +33321,87 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual technical specification."
+        "status": "documented",
+        "value": [
+          "Clear-grade Western Canadian cedar, 1.5 in staves",
+          "Clear-grade Western Canadian cedar interior",
+          "8 mm glass with rubber gasket"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-6-verified-configuration-2026-09-22"
+        ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnmark-fd-6-standard-infrared-system-1",
+          "component_type": "infrared-system",
+          "name": "Spectrum Plus infrared heater panels",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnmark-fd-6-verified-configuration-2026-09-22"
+          ]
+        },
+        {
+          "id": "finnmark-fd-6-standard-heater-2",
+          "component_type": "heater",
+          "name": "4.5 kW traditional heater",
+          "inclusion": "excluded",
+          "evidence_ids": [
+            "evidence-finnmark-fd-6-verified-configuration-2026-09-22"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
-          "id": "finnmark-fd-6-electrical-unknown",
+          "id": "finnmark-fd-6-standard-electrical-1",
           "evidence_ids": [
-            "evidence-finnmark-fd-6-configuration"
+            "evidence-finnmark-fd-6-verified-electrical-2026-09-22"
           ],
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
                 "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "reason": "Voltage is not stated on the reviewed product page."
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated in the reviewed catalog record."
+                "reason": "Frequency is not stated on the reviewed product page."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated in the reviewed catalog record."
+                "reason": "Phase is not stated on the reviewed product page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 4500,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-6-verified-electrical-2026-09-22"
+                ]
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "Rated current is not stated on the reviewed product page."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "Required circuit rating is not stated on the reviewed product page."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "A breaker rating is not stated on the reviewed product page."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "Connection type is not stated on the reviewed product page."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the reviewed product page."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
               }
             }
           ]
@@ -33181,7 +33418,7 @@
       "id": "finnmark-fd-7-standard",
       "market": "US",
       "product_id": "finnmark-fd-7",
-      "label": "Finnmark FD-7 Thermo-Aspen Combination Barrel Sauna standard configuration",
+      "label": "Finnmark FD-7 Thermo-Aspen Combination Barrel Sauna documented configuration",
       "manufacturer_sku": {
         "status": "unknown",
         "reason": "The reviewed retailer page does not expose a stable manufacturer SKU in this catalog record."
@@ -33189,32 +33426,64 @@
       "capacity": {
         "seated": {
           "status": "documented",
-          "value": 5,
+          "value": 6,
           "evidence_ids": [
-            "evidence-finnmark-fd-7-configuration"
+            "evidence-finnmark-fd-7-verified-configuration-2026-09-22"
           ]
         },
         "reclining": {
           "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "reason": "A reclining capacity is not stated on the reviewed product page."
         }
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 79,
+              "unit": "in"
+            },
+            "height": {
+              "value": 75,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnmark-fd-7-verified-configuration-2026-09-22"
+          ]
         },
         "interior": {
-          "status": "unknown",
-          "reason": "Complete interior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 66,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72,
+              "unit": "in"
+            },
+            "height": {
+              "value": 71,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnmark-fd-7-verified-configuration-2026-09-22"
+          ]
         },
         "shipping": {
           "status": "unknown",
-          "reason": "Shipping dimensions are not stated in the reviewed catalog record."
+          "reason": "Shipping dimensions are not stated on the reviewed product page."
         },
         "minimum_clearances": {
           "status": "unknown",
-          "reason": "Installation clearances require the applicable manufacturer documentation."
+          "reason": "Installation clearances require the linked installation manual and a site review."
         }
       },
       "net_weight": {
@@ -33226,58 +33495,87 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual technical specification."
+        "status": "documented",
+        "value": [
+          "Thermally modified European aspen (Thermo-Aspen), 1.5 in staves",
+          "Thermally modified European aspen interior",
+          "8 mm glass with rubber gasket"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-7-verified-configuration-2026-09-22"
+        ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnmark-fd-7-standard-infrared-system-1",
+          "component_type": "infrared-system",
+          "name": "Spectrum Plus infrared heater panels",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnmark-fd-7-verified-configuration-2026-09-22"
+          ]
+        },
+        {
+          "id": "finnmark-fd-7-standard-heater-2",
+          "component_type": "heater",
+          "name": "4.5 kW traditional heater",
+          "inclusion": "excluded",
+          "evidence_ids": [
+            "evidence-finnmark-fd-7-verified-configuration-2026-09-22"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
-          "id": "finnmark-fd-7-electrical-unknown",
+          "id": "finnmark-fd-7-standard-electrical-1",
           "evidence_ids": [
-            "evidence-finnmark-fd-7-configuration"
+            "evidence-finnmark-fd-7-verified-electrical-2026-09-22"
           ],
           "requirements": [
             {
               "component": "heater",
               "voltage_v": {
                 "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "reason": "Voltage is not stated on the reviewed product page."
               },
               "frequency_hz": {
                 "status": "unknown",
-                "reason": "Frequency is not stated in the reviewed catalog record."
+                "reason": "Frequency is not stated on the reviewed product page."
               },
               "phase": {
                 "status": "unknown",
-                "reason": "Phase is not stated in the reviewed catalog record."
+                "reason": "Phase is not stated on the reviewed product page."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 4500,
+                "evidence_ids": [
+                  "evidence-finnmark-fd-7-verified-electrical-2026-09-22"
+                ]
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "Rated current is not stated on the reviewed product page."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "Required circuit rating is not stated on the reviewed product page."
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "A breaker rating is not stated on the reviewed product page."
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "Connection type is not stated on the reviewed product page."
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the reviewed product page."
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "Dedicated-circuit status is not stated on the reviewed product page."
               }
             }
           ]

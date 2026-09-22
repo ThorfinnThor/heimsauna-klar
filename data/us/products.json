@@ -12419,19 +12419,24 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-finnmark-fd-2-product"
+          "evidence-finnmark-fd-2-verified-product-2026-09-22"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "infrared",
         "evidence_ids": [
-          "evidence-finnmark-fd-2-product"
+          "evidence-finnmark-fd-2-verified-product-2026-09-22"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-2-verified-electrical-2026-09-22"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -12439,14 +12444,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnmark-fd-2-product"
+          "evidence-finnmark-fd-2-verified-product-2026-09-22"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Indoor full-spectrum infrared cabin",
         "evidence_ids": [
-          "evidence-finnmark-fd-2-product"
+          "evidence-finnmark-fd-2-verified-product-2026-09-22"
         ]
       },
       "configuration_ids": [
@@ -12456,8 +12461,9 @@
         "source-finnmark-fd-2-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact model-level specifications replaced the earlier range-level placeholder data; unknown installation fields remain explicitly marked until the applicable manual is checked.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnmark-fd-3",
@@ -12525,19 +12531,24 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-finnmark-fd-4-product"
+          "evidence-finnmark-fd-4-verified-product-2026-09-22"
         ]
       },
       "heat_type": {
         "status": "documented",
-        "value": "traditional",
+        "value": "hybrid",
         "evidence_ids": [
-          "evidence-finnmark-fd-4-product"
+          "evidence-finnmark-fd-4-verified-product-2026-09-22"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-4-verified-electrical-2026-09-22"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -12545,14 +12556,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnmark-fd-4-product"
+          "evidence-finnmark-fd-4-verified-product-2026-09-22"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Indoor infrared and traditional combination cabin",
         "evidence_ids": [
-          "evidence-finnmark-fd-4-product"
+          "evidence-finnmark-fd-4-verified-product-2026-09-22"
         ]
       },
       "configuration_ids": [
@@ -12562,8 +12573,9 @@
         "source-finnmark-fd-4-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact model-level specifications replaced the earlier range-level placeholder data; unknown installation fields remain explicitly marked until the applicable manual is checked.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnmark-fd-5",
@@ -12631,19 +12643,24 @@
         "status": "documented",
         "value": "sauna-kit",
         "evidence_ids": [
-          "evidence-finnmark-fd-6-product"
+          "evidence-finnmark-fd-6-verified-product-2026-09-22"
         ]
       },
       "heat_type": {
         "status": "documented",
-        "value": "traditional",
+        "value": "hybrid",
         "evidence_ids": [
-          "evidence-finnmark-fd-6-product"
+          "evidence-finnmark-fd-6-verified-product-2026-09-22"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-6-verified-electrical-2026-09-22"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -12651,14 +12668,14 @@
           "outdoor"
         ],
         "evidence_ids": [
-          "evidence-finnmark-fd-6-product"
+          "evidence-finnmark-fd-6-verified-product-2026-09-22"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna kit",
+        "value": "Outdoor infrared and traditional combination barrel",
         "evidence_ids": [
-          "evidence-finnmark-fd-6-product"
+          "evidence-finnmark-fd-6-verified-product-2026-09-22"
         ]
       },
       "configuration_ids": [
@@ -12668,8 +12685,9 @@
         "source-finnmark-fd-6-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact model-level specifications replaced the earlier range-level placeholder data; unknown installation fields remain explicitly marked until the applicable manual is checked.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnmark-fd-7",
@@ -12681,19 +12699,24 @@
         "status": "documented",
         "value": "sauna-kit",
         "evidence_ids": [
-          "evidence-finnmark-fd-7-product"
+          "evidence-finnmark-fd-7-verified-product-2026-09-22"
         ]
       },
       "heat_type": {
         "status": "documented",
-        "value": "traditional",
+        "value": "hybrid",
         "evidence_ids": [
-          "evidence-finnmark-fd-7-product"
+          "evidence-finnmark-fd-7-verified-product-2026-09-22"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed retailer page does not provide a normalized US energy-source record in this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnmark-fd-7-verified-electrical-2026-09-22"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -12701,14 +12724,14 @@
           "outdoor"
         ],
         "evidence_ids": [
-          "evidence-finnmark-fd-7-product"
+          "evidence-finnmark-fd-7-verified-product-2026-09-22"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna kit",
+        "value": "Outdoor infrared and traditional combination barrel",
         "evidence_ids": [
-          "evidence-finnmark-fd-7-product"
+          "evidence-finnmark-fd-7-verified-product-2026-09-22"
         ]
       },
       "configuration_ids": [
@@ -12718,8 +12741,9 @@
         "source-finnmark-fd-7-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Sauna Company USA product page; technical and rights review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact model-level specifications replaced the earlier range-level placeholder data; unknown installation fields remain explicitly marked until the applicable manual is checked.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "sweat-kingdom-sk-contrast",

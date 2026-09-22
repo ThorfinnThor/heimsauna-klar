@@ -31,8 +31,8 @@
     {
       "id": "indoor-traditional-cabins",
       "label": "Indoor traditional saunas",
-    "product_count": 85,
-    "data_complete_count": 17,
+      "product_count": 84,
+      "data_complete_count": 17,
       "status": "covered-with-open-records",
       "gaps": [
         "The Sun Home Nova 3 record does not yet contain normalized exterior dimensions or electrical requirements.",
@@ -42,7 +42,7 @@
     {
       "id": "outdoor-traditional-cabins",
       "label": "Outdoor traditional saunas",
-      "product_count": 106,
+      "product_count": 104,
       "data_complete_count": 27,
       "status": "covered-with-open-records",
       "gaps": [

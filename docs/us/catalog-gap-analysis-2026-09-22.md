@@ -25,7 +25,7 @@ This inventory describes the versioned US research catalog after the Finnleo dep
 | Seated capacity | 5+ people | 65 |
 | Seated capacity | Not documented | 81 |
 
-The catalog contains 290 products, 290 configurations, 28 published product records and 17 manually reviewed affiliate offers. The latest heater batch deepens three existing Harvia heater records and adds the Concept R Combi 10.5 kW as a candidate with exact model-page evidence. The preceding batches deepen 19 existing Finnleo records with exact model-page evidence for seating capacity, exterior dimensions, materials where stated and electrical requirements. The second Finnleo batch also corrects the IS440 and IS565 classification to hybrid because both model pages document infrared and traditional heating. Earlier batches added six sauna tents, six current ThermaSol variants and four Harvia Utu cabins, and corrected model-level data for Finnmark FD-1, FD-3 and FD-5. FD-5 is classified as hybrid because its exact product record documents both full-spectrum infrared and a traditional stone heater.
+The catalog contains 290 products, 290 configurations, 28 published product records and 17 manually reviewed affiliate offers. This batch deepens the four remaining Finnmark records, corrects FD-4, FD-6 and FD-7 to hybrid because their pages document infrared and traditional heating, and records the model-level dimensions and materials that are stated. The latest heater batch deepened three existing Harvia heater records and added the Concept R Combi 10.5 kW as a candidate with exact model-page evidence. The preceding batches deepened 19 existing Finnleo records with exact model-page evidence for seating capacity, exterior dimensions, materials where stated and electrical requirements. Earlier batches added six sauna tents, six current ThermaSol variants and four Harvia Utu cabins. Installation clearances, shipping dimensions and incomplete electrical fields remain explicitly unknown where the reviewed page does not state them.
 
 ## Evidence-depth gaps
 
@@ -40,6 +40,6 @@ The catalog contains 290 products, 290 configurations, 28 published product reco
 
 1. Complete the remaining Finnleo records, prioritizing the models with the most complete technical documentation. Nineteen records now have a deeper evidence bundle; the other Finnleo candidates still need model-level review.
 2. Replace range-level Almost Heaven placeholders with exact capacity, exterior dimensions, included heater and electrical-package facts.
-3. Normalize the remaining Finnmark FD-2, FD-4, FD-6 and FD-7 records. The catalog now has one verified hybrid record, but the other combination models still need exact model pages.
+3. Keep the Finnmark pages in candidate status until their installation manuals and rights checks are reviewed. FD-4 now has a documented dual supply, while FD-6 and FD-7 retain unknown voltage and circuit details because their traditional heaters are sold separately.
 4. Define portable-specific review fields for tents. Stove inclusion, fuel, chimney diameter, hot-zone clearances and seated capacity should not be inferred from camping-berth counts.
 5. Treat publication as a separate gate. New records remain candidates until their model-specific editorial copy, source review and presentation have passed QA.

@@ -2619,8 +2619,8 @@
       "title": "Finnmark FD-2 Full-Spectrum Infrared Sauna product page",
       "publisher": "Sauna Company USA",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Official retailer product page model identity and category"
+      "checked_at": "2026-09-22",
+      "locator": "Exact product page specifications: capacity, exterior dimensions, cedar interior and full-spectrum infrared power"
     },
     {
       "id": "source-finnmark-fd-3-product",
@@ -2639,8 +2639,8 @@
       "title": "Finnmark FD-4 Trinity Infrared and Steam Sauna product page",
       "publisher": "Sauna Company USA",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Official retailer product page model identity and category"
+      "checked_at": "2026-09-22",
+      "locator": "Exact product page specifications: capacity, dimensions, materials, included Harvia heater and separate infrared/heater electrical requirements"
     },
     {
       "id": "source-finnmark-fd-5-product",
@@ -2659,8 +2659,8 @@
       "title": "Finnmark FD-6 Cedar Combination Barrel Sauna product page",
       "publisher": "Sauna Company USA",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Official retailer product page model identity and category"
+      "checked_at": "2026-09-22",
+      "locator": "Exact product page specifications: 4–6-person capacity, barrel dimensions, cedar construction, infrared system and separately sold 4.5 kW heater"
     },
     {
       "id": "source-finnmark-fd-7-product",
@@ -2669,8 +2669,8 @@
       "title": "Finnmark FD-7 Thermo-Aspen Combination Barrel Sauna product page",
       "publisher": "Sauna Company USA",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Official retailer product page model identity and category"
+      "checked_at": "2026-09-22",
+      "locator": "Exact product page specifications: 4–6-person capacity, barrel dimensions, Thermo-Aspen construction, infrared system and separately sold 4.5 kW heater"
     },
     {
       "id": "sweat-kingdom-sk-contrast-product",
@@ -8205,6 +8205,90 @@
       "source_id": "source-harvia-concept-r-combi-105-product",
       "field_path": "electrical_supply_options",
       "raw_value": "Harvia lists electric high-voltage 400 V / 230 V 1/3N~; the US page's electrical table lists 400 V 3N~; output 10.5 kW."
+    },
+    {
+      "id": "evidence-finnmark-fd-2-verified-product-2026-09-22",
+      "entity_id": "finnmark-fd-2",
+      "source_id": "source-finnmark-fd-2-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Finnmark FD-2 Full-Spectrum Infrared Sauna: infrared; indoor; Indoor full-spectrum infrared cabin."
+    },
+    {
+      "id": "evidence-finnmark-fd-2-verified-configuration-2026-09-22",
+      "entity_id": "finnmark-fd-2-standard",
+      "source_id": "source-finnmark-fd-2-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Capacity: 2 persons; exterior {\"width\":{\"value\":47,\"unit\":\"in\"},\"depth\":{\"value\":36,\"unit\":\"in\"},\"height\":{\"value\":75,\"unit\":\"in\"}}; interior not stated; materials Antimicrobial Western Canadian cedar interior."
+    },
+    {
+      "id": "evidence-finnmark-fd-2-verified-electrical-2026-09-22",
+      "entity_id": "finnmark-fd-2-standard",
+      "source_id": "source-finnmark-fd-2-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "[{\"component\":\"infrared-system\",\"power\":2400,\"voltage\":null,\"current\":null,\"phase\":null,\"plug\":null,\"dedicated\":null}]"
+    },
+    {
+      "id": "evidence-finnmark-fd-4-verified-product-2026-09-22",
+      "entity_id": "finnmark-fd-4",
+      "source_id": "source-finnmark-fd-4-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Finnmark FD-4 Trinity Infrared and Steam Sauna: hybrid; indoor; Indoor infrared and traditional combination cabin."
+    },
+    {
+      "id": "evidence-finnmark-fd-4-verified-configuration-2026-09-22",
+      "entity_id": "finnmark-fd-4-standard",
+      "source_id": "source-finnmark-fd-4-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Capacity: 2 persons; exterior {\"width\":{\"value\":48,\"unit\":\"in\"},\"depth\":{\"value\":48,\"unit\":\"in\"},\"height\":{\"value\":83,\"unit\":\"in\"}}; interior {\"width\":{\"value\":44.25,\"unit\":\"in\"},\"depth\":{\"value\":45.5,\"unit\":\"in\"},\"height\":{\"value\":75.5,\"unit\":\"in\"}}; materials Thermo-Aspen exterior, Western Canadian cedar interior, 8 mm tempered glass door."
+    },
+    {
+      "id": "evidence-finnmark-fd-4-verified-electrical-2026-09-22",
+      "entity_id": "finnmark-fd-4-standard",
+      "source_id": "source-finnmark-fd-4-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "[{\"component\":\"infrared-system\",\"power\":1750,\"voltage\":120,\"current\":15,\"phase\":1,\"plug\":\"NEMA 5-15P\",\"dedicated\":null},{\"component\":\"heater\",\"power\":1900,\"voltage\":120,\"current\":15.9,\"phase\":1,\"plug\":null,\"dedicated\":true}]"
+    },
+    {
+      "id": "evidence-finnmark-fd-6-verified-product-2026-09-22",
+      "entity_id": "finnmark-fd-6",
+      "source_id": "source-finnmark-fd-6-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Finnmark FD-6 Cedar Combination Barrel Sauna: hybrid; outdoor; Outdoor infrared and traditional combination barrel."
+    },
+    {
+      "id": "evidence-finnmark-fd-6-verified-configuration-2026-09-22",
+      "entity_id": "finnmark-fd-6-standard",
+      "source_id": "source-finnmark-fd-6-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Capacity: 4–6 persons; catalog value stores the documented maximum for filtering; exterior {\"width\":{\"value\":75,\"unit\":\"in\"},\"depth\":{\"value\":79,\"unit\":\"in\"},\"height\":{\"value\":75,\"unit\":\"in\"}}; interior {\"width\":{\"value\":66,\"unit\":\"in\"},\"depth\":{\"value\":72,\"unit\":\"in\"},\"height\":{\"value\":71,\"unit\":\"in\"}}; materials Clear-grade Western Canadian cedar, 1.5 in staves, Clear-grade Western Canadian cedar interior, 8 mm glass with rubber gasket."
+    },
+    {
+      "id": "evidence-finnmark-fd-6-verified-electrical-2026-09-22",
+      "entity_id": "finnmark-fd-6-standard",
+      "source_id": "source-finnmark-fd-6-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "[{\"component\":\"heater\",\"power\":4500,\"voltage\":null,\"current\":null,\"phase\":null,\"plug\":null,\"dedicated\":null}]"
+    },
+    {
+      "id": "evidence-finnmark-fd-7-verified-product-2026-09-22",
+      "entity_id": "finnmark-fd-7",
+      "source_id": "source-finnmark-fd-7-product",
+      "field_path": "product_identity_heat_placement",
+      "raw_value": "Finnmark FD-7 Thermo-Aspen Combination Barrel Sauna: hybrid; outdoor; Outdoor infrared and traditional combination barrel."
+    },
+    {
+      "id": "evidence-finnmark-fd-7-verified-configuration-2026-09-22",
+      "entity_id": "finnmark-fd-7-standard",
+      "source_id": "source-finnmark-fd-7-product",
+      "field_path": "configuration.capacity_dimensions_materials",
+      "raw_value": "Capacity: 4–6 persons; catalog value stores the documented maximum for filtering; exterior {\"width\":{\"value\":75,\"unit\":\"in\"},\"depth\":{\"value\":79,\"unit\":\"in\"},\"height\":{\"value\":75,\"unit\":\"in\"}}; interior {\"width\":{\"value\":66,\"unit\":\"in\"},\"depth\":{\"value\":72,\"unit\":\"in\"},\"height\":{\"value\":71,\"unit\":\"in\"}}; materials Thermally modified European aspen (Thermo-Aspen), 1.5 in staves, Thermally modified European aspen interior, 8 mm glass with rubber gasket."
+    },
+    {
+      "id": "evidence-finnmark-fd-7-verified-electrical-2026-09-22",
+      "entity_id": "finnmark-fd-7-standard",
+      "source_id": "source-finnmark-fd-7-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "[{\"component\":\"heater\",\"power\":4500,\"voltage\":null,\"current\":null,\"phase\":null,\"plug\":null,\"dedicated\":null}]"
     }
   ]
 }

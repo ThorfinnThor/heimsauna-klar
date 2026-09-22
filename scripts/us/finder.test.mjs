@@ -211,7 +211,7 @@ test("adding a room envelope keeps the pilot honest when installation clearances
   });
   assert.equal(results.filter((entry) => entry.status === "needs-verification").length, 39);
   const roomVerification = results.filter((entry) => entry.status === "needs-verification" && entry.unknownCriteria.includes("space:installation-clearances"));
-  assert.equal(roomVerification.length, 24);
+  assert.equal(roomVerification.length, 25);
 });
 
 test("hard capacity uses the full requested group size", () => {
