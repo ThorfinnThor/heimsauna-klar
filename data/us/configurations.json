@@ -23666,7 +23666,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "reason": "A reclining capacity is not stated on the exact Finnleo model page."
         }
       },
       "dimensions": {
@@ -24106,7 +24106,7 @@
         },
         "reclining": {
           "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "reason": "A reclining capacity is not stated on the exact Finnleo model page."
         }
       },
       "dimensions": {
@@ -24232,11 +24232,8 @@
                 "reason": "Plug type is not stated on the exact Finnleo model page."
               },
               "dedicated_circuit": {
-                "status": "documented",
-                "value": false,
-                "evidence_ids": [
-                  "evidence-finnleo-is440-infrasauna-9-0602-depth-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
@@ -26810,8 +26807,11 @@
           ]
         },
         "reclining": {
-          "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-finnleo-solace-9-0502-depth-product"
+          ]
         }
       },
       "dimensions": {
@@ -26963,8 +26963,11 @@
           ]
         },
         "reclining": {
-          "status": "unknown",
-          "reason": "Reclining capacity is not stated in the reviewed product record."
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-finnleo-twilight-9-0501-depth-product"
+          ]
         }
       },
       "dimensions": {

@@ -237,7 +237,7 @@ test("the Sol-reviewed Finnmark batch preserves manufacturer facts and source li
 test("the latest Luna Finnleo batch records included heaters without inventing circuit data", () => {
   const cases = [
     ["finnleo-hallmark-44-9-0601", "Piccolo Mini sauna heater", 120, "plug-in", "unknown"],
-    ["finnleo-is440-infrasauna-9-0602", "Piccolo Mini traditional sauna heater", 120, "plug-in", false],
+    ["finnleo-is440-infrasauna-9-0602", "Piccolo Mini traditional sauna heater", 120, "plug-in", "unknown"],
     ["finnleo-solace-9-0502", "Designer-SL2 sauna heater", 240, null, "unknown"],
     ["finnleo-twilight-9-0501", "Designer-SL2 sauna heater", null, null, "unknown"],
   ];
@@ -257,4 +257,8 @@ test("the latest Luna Finnleo batch records included heaters without inventing c
     else assert.equal(requirement?.dedicated_circuit.value, dedicated);
     assert.match(evidence.get(`evidence-${id}-depth-electrical`)?.raw_value ?? "", /Finnleo/);
   }
+  assert.equal(configurations.get("finnleo-solace-9-0502-standard")?.capacity.reclining.value, 2);
+  assert.equal(configurations.get("finnleo-twilight-9-0501-standard")?.capacity.reclining.value, 3);
+  assert.match(evidence.get("evidence-finnleo-solace-9-0502-depth-product")?.raw_value ?? "", /4–5 seated/);
+  assert.match(evidence.get("evidence-finnleo-twilight-9-0501-depth-product")?.raw_value ?? "", /4–5 seated/);
 });

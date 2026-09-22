@@ -6,10 +6,10 @@ This Luna batch deepens four existing Finnleo candidate records using their offi
 | --- | --- | --- |
 | Hallmark 44 | Piccolo Mini heater, 120 V plug-in supply, indoor portable form | Heater power, current, breaker and circuit details |
 | IS440 InfraSauna | Two-person indoor hybrid, low-EMR/EF infrared system, Piccolo Mini heater, 120 V plug-in supply, 1.7 or 2.1 kW options | A single rated power, current, breaker and circuit details |
-| Solace | Designer-SL2 heater, 6.0 kW at 240 V, indoor traditional form | Current, connection, breaker, circuit and installation clearances |
-| Twilight | Designer-SL2 heater, indoor traditional form | Voltage, power, current, connection, circuit and installation clearances |
+| Solace | Designer-SL2 heater, 6.0 kW at 240 V, 4–5 seated and 2 reclining, indoor traditional form | Current, connection, breaker, circuit and installation clearances |
+| Twilight | Designer-SL2 heater, 4–5 seated and up to 3 reclining, indoor traditional form | Voltage, power, current, connection, circuit and installation clearances |
 
-The entries remain candidates because technical completeness and publication rights are separate gates. The batch adds no inferred breaker or dedicated-circuit value. Existing exterior dimensions, capacity and materials remain tied to the official Finnleo pages already recorded for these models.
+The entries remain candidates because technical completeness and publication rights are separate gates. The batch adds no inferred breaker or dedicated-circuit value. A household plug-in statement is not treated as proof that a dedicated circuit is unnecessary. Existing exterior dimensions, capacity and materials remain tied to the official Finnleo pages already recorded for these models.
 
 ## Sources
 

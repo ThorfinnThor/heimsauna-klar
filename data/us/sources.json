@@ -7874,7 +7874,7 @@
       "entity_id": "finnleo-hallmark-44-9-0601",
       "source_id": "source-finnleo-hallmark-44-9-0601-product",
       "field_path": "product_identity_and_capacity",
-      "raw_value": "Hallmark 44 is listed on the Finnleo model page with a seating capacity of 2. The model page identifies the model's form and included heating equipment."
+      "raw_value": "Hallmark 44 is listed on the Finnleo model page with 2 seated. The model page identifies the model's form and included heating equipment."
     },
     {
       "id": "evidence-finnleo-hallmark-44-9-0601-depth-configuration",
@@ -8063,7 +8063,7 @@
       "entity_id": "finnleo-twilight-9-0501",
       "source_id": "source-finnleo-twilight-9-0501-product",
       "field_path": "product_identity_capacity_heat_and_placement",
-      "raw_value": "Twilight is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna. The model page identifies the model's form and included heating equipment."
+      "raw_value": "Twilight is listed on the Finnleo model page with 4–5 seated; the catalog stores the documented maximum 5 for filtering. The model page identifies the model's form and included heating equipment."
     },
     {
       "id": "evidence-finnleo-twilight-9-0501-depth-configuration",
@@ -8084,7 +8084,7 @@
       "entity_id": "finnleo-solace-9-0502",
       "source_id": "source-finnleo-solace-9-0502-product",
       "field_path": "product_identity_capacity_heat_and_placement",
-      "raw_value": "Solace is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna. The model page identifies the model's form and included heating equipment."
+      "raw_value": "Solace is listed on the Finnleo model page with 4–5 seated; the catalog stores the documented maximum 5 for filtering. The model page identifies the model's form and included heating equipment."
     },
     {
       "id": "evidence-finnleo-solace-9-0502-depth-configuration",
@@ -8105,7 +8105,7 @@
       "entity_id": "finnleo-is440-infrasauna-9-0602",
       "source_id": "source-finnleo-is440-infrasauna-9-0602-product",
       "field_path": "product_identity_capacity_heat_and_placement",
-      "raw_value": "IS440 InfraSauna is listed on the Finnleo model page with a seating capacity of 2; the page identifies the model as an indoor hybrid sauna. The model page identifies the model's form and included heating equipment."
+      "raw_value": "IS440 InfraSauna is listed on the Finnleo model page with 2 seated. The model page identifies the model's form and included heating equipment."
     },
     {
       "id": "evidence-finnleo-is440-infrasauna-9-0602-depth-configuration",

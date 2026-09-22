@@ -25,6 +25,8 @@ const evidenceById = new Map(sources.evidence.map((entry) => [entry.id, entry]))
 const records = [
   {
     id: "finnleo-hallmark-44-9-0601",
+    capacityRaw: "2 seated",
+    reclining: null,
     productForm: "Indoor portable traditional sauna cabin",
     energy: ["electric"],
     components: [{ type: "heater", name: "Piccolo Mini sauna heater", inclusion: "included" }],
@@ -38,6 +40,8 @@ const records = [
   },
   {
     id: "finnleo-is440-infrasauna-9-0602",
+    capacityRaw: "2 seated",
+    reclining: null,
     productForm: "Indoor hybrid infrared and traditional sauna cabin",
     energy: ["electric"],
     components: [
@@ -49,11 +53,13 @@ const records = [
     power: null,
     current: null,
     connection: "plug-in",
-    dedicated: false,
+    dedicated: null,
     rawElectrical: "Finnleo lists 1.7 or 2.1 kW heating options at 120 V and says the IS440 plugs into a household outlet; no single rated power, current or circuit rating is stated for the configuration.",
   },
   {
     id: "finnleo-solace-9-0502",
+    capacityRaw: "4–5 seated; the catalog stores the documented maximum 5 for filtering",
+    reclining: 2,
     productForm: "Indoor traditional sauna cabin",
     energy: ["electric"],
     components: [{ type: "heater", name: "Designer-SL2 sauna heater", inclusion: "included" }],
@@ -67,6 +73,8 @@ const records = [
   },
   {
     id: "finnleo-twilight-9-0501",
+    capacityRaw: "4–5 seated; the catalog stores the documented maximum 5 for filtering",
+    reclining: 3,
     productForm: "Indoor traditional sauna cabin",
     energy: ["electric"],
     components: [{ type: "heater", name: "Designer-SL2 sauna heater", inclusion: "included" }],
@@ -92,7 +100,7 @@ for (const record of records) {
 
   sourceById.get(sourceId).checked_at = checkedAt;
   sourceById.get(sourceId).locator = "Exact Finnleo model page with model-specific capacity, dimensions, materials, included heater and electrical details where stated";
-  productEvidence.raw_value = `${productEvidence.raw_value.split(" The model page identifies")[0]} The model page identifies the model's form and included heating equipment.`;
+  productEvidence.raw_value = `${product.model} is listed on the Finnleo model page with ${record.capacityRaw}. The model page identifies the model's form and included heating equipment.`;
   configurationEvidence.raw_value = `${configurationEvidence.raw_value.split(" Included components:")[0]} Included components: ${record.components.map((component) => component.name).join(", ")}.`;
   electricalEvidence.raw_value = record.rawElectrical;
 
@@ -110,6 +118,9 @@ for (const record of records) {
     inclusion: component.inclusion,
     evidence_ids: [productEvidence.id],
   }));
+  configuration.capacity.reclining = record.reclining === null
+    ? unknown("A reclining capacity is not stated on the exact Finnleo model page.")
+    : documented(record.reclining, productEvidence.id);
   const requirement = configuration.electrical_supply_options[0]?.requirements?.[0];
   if (!requirement) throw new Error(`Missing electrical requirement for ${record.id}`);
   requirement.component = record.component;
