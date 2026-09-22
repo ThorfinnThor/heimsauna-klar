@@ -654,7 +654,34 @@
       "sweat-kingdom-regen-sweat-cabin-editorial",
       "sweat-kingdom-regen-sweat-cabin-deluxe-editorial",
       "sweat-kingdom-regen-sweat-pod-editorial",
-      "sweat-kingdom-sweat-box-editorial"
+      "sweat-kingdom-sweat-box-editorial",
+      "peak-rainier-editorial",
+      "peak-matterhorn-editorial",
+      "peak-kilimanjaro-editorial",
+      "peak-el-capitan-editorial",
+      "almost-heaven-hillsboro-editorial",
+      "almost-heaven-pinnacle-editorial",
+      "almost-heaven-logan-editorial",
+      "almost-heaven-princeton-editorial",
+      "almost-heaven-rainelle-editorial",
+      "almost-heaven-audra-editorial",
+      "almost-heaven-bridgeport-editorial",
+      "almost-heaven-grandview-editorial",
+      "almost-heaven-titan-editorial",
+      "almost-heaven-patterson-editorial",
+      "almost-heaven-lewisburg-editorial",
+      "almost-heaven-grayson-editorial",
+      "almost-heaven-charleston-editorial",
+      "almost-heaven-huntington-editorial",
+      "almost-heaven-madison-editorial",
+      "sun-home-equinox-editorial",
+      "sun-home-eclipse-2-editorial",
+      "redwood-garden-8-editorial",
+      "redwood-grove-8-editorial",
+      "redwood-vista-6-editorial",
+      "redwood-barrel-6-editorial",
+      "redwood-barrel-porch-6-editorial",
+      "redwood-extra-wide-6-editorial"
     ],
     "legal_page_ids": [
       "contact",
@@ -1017,7 +1044,7 @@
     },
     {
       "path": "content/us/product-editorial.json",
-      "sha256": "17bed4fb69435d9103a504eafd0467d2aa1d60537bd34e7f922c1c19549f6309"
+      "sha256": "ec4bd7f7d8f66d244669c19e0b6522b7af486d9de49dff74ef81b304de1a6e4c"
     },
     {
       "path": "docs/us/rights-register.json",
