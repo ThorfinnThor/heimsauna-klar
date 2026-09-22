@@ -36861,7 +36861,7 @@
         {
           "id": "salus-renew-king-standard-component-1",
           "component_type": "heater",
-          "name": "Harvia 6 kW traditional stove",
+          "name": "Traditional sauna stove; official page conflicts between 6 kW and 8 kW",
           "inclusion": "included",
           "evidence_ids": [
             "evidence-salus-renew-king-product"
@@ -36908,32 +36908,36 @@
                 "reason": "Phase is not stated on the reviewed product page."
               },
               "rated_power_w": {
-                "status": "documented",
-                "value": 8000,
+                "status": "conflict",
                 "evidence_ids": [
-                  "evidence-salus-renew-king-electrical"
-                ]
+                  "evidence-salus-renew-king-electrical-section-2026-09-22",
+                  "evidence-salus-renew-king-features-section-2026-09-22"
+                ],
+                "note": "The same official product page states both 8 kW and 6 kW for the traditional heater."
               },
               "rated_current_a": {
-                "status": "documented",
-                "value": 40,
+                "status": "conflict",
                 "evidence_ids": [
-                  "evidence-salus-renew-king-electrical"
-                ]
+                  "evidence-salus-renew-king-electrical-section-2026-09-22",
+                  "evidence-salus-renew-king-features-section-2026-09-22"
+                ],
+                "note": "The same official product page states both 40 A and 30 A service."
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 40,
+                "status": "conflict",
                 "evidence_ids": [
-                  "evidence-salus-renew-king-electrical"
-                ]
+                  "evidence-salus-renew-king-electrical-section-2026-09-22",
+                  "evidence-salus-renew-king-features-section-2026-09-22"
+                ],
+                "note": "The same official product page states both 40 A and 30 A service."
               },
               "specified_breaker_a": {
-                "status": "documented",
-                "value": 40,
+                "status": "conflict",
                 "evidence_ids": [
-                  "evidence-salus-renew-king-electrical"
-                ]
+                  "evidence-salus-renew-king-electrical-section-2026-09-22",
+                  "evidence-salus-renew-king-features-section-2026-09-22"
+                ],
+                "note": "The same official product page states both a 40 A breaker and 30 A service."
               },
               "connection": {
                 "status": "documented",
@@ -36956,7 +36960,8 @@
             }
           ],
           "evidence_ids": [
-            "evidence-salus-renew-king-electrical"
+            "evidence-salus-renew-king-electrical-section-2026-09-22",
+            "evidence-salus-renew-king-features-section-2026-09-22"
           ]
         }
       ],
@@ -37061,8 +37066,8 @@
         {
           "id": "salus-deluxe-panorama-standard-component-1",
           "component_type": "heater",
-          "name": "15 kW electric heater option",
-          "inclusion": "included",
+          "name": "15 kW electric heater option; selected package is not captured in this base record",
+          "inclusion": "unknown",
           "evidence_ids": [
             "evidence-salus-deluxe-panorama-product"
           ]
@@ -37070,8 +37075,8 @@
         {
           "id": "salus-deluxe-panorama-standard-component-2",
           "component_type": "heater",
-          "name": "Wood-burning stove option",
-          "inclusion": "included",
+          "name": "Wood-burning stove option; selected package is not captured in this base record",
+          "inclusion": "unknown",
           "evidence_ids": [
             "evidence-salus-deluxe-panorama-product"
           ]
@@ -37115,25 +37120,16 @@
                 ]
               },
               "rated_current_a": {
-                "status": "documented",
-                "value": 100,
-                "evidence_ids": [
-                  "evidence-salus-deluxe-panorama-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The page specifies two separate 50 A breakers, not one aggregate rated-current value."
               },
               "required_circuit_a": {
-                "status": "documented",
-                "value": 100,
-                "evidence_ids": [
-                  "evidence-salus-deluxe-panorama-electrical"
-                ]
+                "status": "unknown",
+                "reason": "The page specifies two separate 50 A breakers; the current scalar field cannot represent the split circuits safely."
               },
               "specified_breaker_a": {
-                "status": "documented",
-                "value": 100,
-                "evidence_ids": [
-                  "evidence-salus-deluxe-panorama-electrical"
-                ]
+                "status": "unknown",
+                "reason": "Two separate 50 A breakers are specified. They must not be normalized as one 100 A breaker."
               },
               "connection": {
                 "status": "documented",
@@ -38121,8 +38117,8 @@
         {
           "id": "geyser-hekla-standard-component-2",
           "component_type": "infrared-system",
-          "name": "Optional infrared panels and red light",
-          "inclusion": "included",
+          "name": "infrared panels and red light offered as an optional add-on",
+          "inclusion": "excluded",
           "evidence_ids": [
             "evidence-geyser-hekla-product"
           ]
@@ -38305,8 +38301,8 @@
         {
           "id": "geyser-lukaku-standard-component-2",
           "component_type": "infrared-system",
-          "name": "Optional infrared add-on",
-          "inclusion": "included",
+          "name": "infrared offered as an optional add-on",
+          "inclusion": "excluded",
           "evidence_ids": [
             "evidence-geyser-lukaku-product"
           ]
@@ -38413,11 +38409,12 @@
       },
       "capacity": {
         "seated": {
-          "status": "documented",
-          "value": 8,
+          "status": "conflict",
           "evidence_ids": [
-            "evidence-geyser-autana-configuration"
-          ]
+            "evidence-geyser-autana-capacity-heading-2026-09-22",
+            "evidence-geyser-autana-capacity-table-2026-09-22"
+          ],
+          "note": "The official heading states 6–8 people, while the specification table states 4–6 people."
         },
         "reclining": {
           "status": "unknown",
@@ -38489,8 +38486,8 @@
         {
           "id": "geyser-autana-standard-component-2",
           "component_type": "infrared-system",
-          "name": "Optional infrared add-on",
-          "inclusion": "included",
+          "name": "infrared offered as an optional add-on",
+          "inclusion": "excluded",
           "evidence_ids": [
             "evidence-geyser-autana-product"
           ]
@@ -38673,8 +38670,8 @@
         {
           "id": "geyser-valera-standard-component-2",
           "component_type": "infrared-system",
-          "name": "Optional infrared and red-light add-ons",
-          "inclusion": "included",
+          "name": "infrared and red-light offered as an optional add-on",
+          "inclusion": "excluded",
           "evidence_ids": [
             "evidence-geyser-valera-product"
           ]

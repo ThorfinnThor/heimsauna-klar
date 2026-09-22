@@ -2849,8 +2849,8 @@
       "title": "Renew King 3-Person Hybrid Outdoor Sauna product page",
       "publisher": "Salus Saunas",
       "market": "US",
-      "checked_at": "2026-09-18",
-      "locator": "Product identity, dimensions, materials, electrical and included components"
+      "checked_at": "2026-09-22",
+      "locator": "Exact manufacturer product page: hybrid identity, dimensions and materials; conflicting electrical statements in Electrical Requirements and Features & Specifications"
     },
     {
       "id": "source-salus-deluxe-panorama-product",
@@ -2859,8 +2859,8 @@
       "title": "Deluxe Panorama 6-Person Traditional Outdoor Sauna product page",
       "publisher": "Salus Saunas",
       "market": "US",
-      "checked_at": "2026-09-18",
-      "locator": "Product identity, dimensions, materials, electrical and included components"
+      "checked_at": "2026-09-22",
+      "locator": "Exact manufacturer product page: six-person glass cabin dimensions, materials and 15 kW electric option requiring two separate 50 A breakers"
     },
     {
       "id": "source-tylo-reflection-4-product",
@@ -2919,8 +2919,8 @@
       "title": "Hekla product page",
       "publisher": "GeyserSteam",
       "market": "US",
-      "checked_at": "2026-09-18",
-      "locator": "Product identity, dimensions, materials, electrical and included components"
+      "checked_at": "2026-09-22",
+      "locator": "Exact manufacturer product page: current title, specification table, included traditional heater and optional add-ons"
     },
     {
       "id": "source-geyser-lukaku-product",
@@ -2929,8 +2929,8 @@
       "title": "Lukaku product page",
       "publisher": "GeyserSteam",
       "market": "US",
-      "checked_at": "2026-09-18",
-      "locator": "Product identity, dimensions, materials, electrical and included components"
+      "checked_at": "2026-09-22",
+      "locator": "Exact manufacturer product page: current title, specification table, included traditional heater and optional add-ons"
     },
     {
       "id": "source-geyser-autana-product",
@@ -2939,8 +2939,8 @@
       "title": "Autana product page",
       "publisher": "GeyserSteam",
       "market": "US",
-      "checked_at": "2026-09-18",
-      "locator": "Product identity, dimensions, materials, electrical and included components"
+      "checked_at": "2026-09-22",
+      "locator": "Exact manufacturer product page: current title, specification table, included traditional heater and optional add-ons"
     },
     {
       "id": "source-geyser-valera-product",
@@ -2949,18 +2949,18 @@
       "title": "Valera product page",
       "publisher": "GeyserSteam",
       "market": "US",
-      "checked_at": "2026-09-18",
-      "locator": "Product identity, dimensions, materials, electrical and included components"
+      "checked_at": "2026-09-22",
+      "locator": "Exact manufacturer product page: current title, specification table, included traditional heater and optional add-ons"
     },
     {
       "id": "source-geyser-balerion-product",
       "type": "manufacturer-page",
       "url": "https://www.geysersteamroom.com/products/doragon-4-6-person-indoor-outdoor-infrared-sauna",
-      "title": "Balerion product page",
+      "title": "Balerion 6–8 Person Indoor & Outdoor Infrared Sauna product page",
       "publisher": "GeyserSteam",
       "market": "US",
-      "checked_at": "2026-09-18",
-      "locator": "Product identity, dimensions, materials, electrical and included components"
+      "checked_at": "2026-09-22",
+      "locator": "Exact manufacturer product page: current Balerion identity, 6–8-person capacity, dimensions, full-spectrum infrared system and electrical requirements; URL retains a legacy handle"
     },
     {
       "id": "source-thermasol-aalto-manufacturer",
@@ -7216,7 +7216,7 @@
       "entity_id": "geyser-hekla",
       "source_id": "source-geyser-hekla-product",
       "field_path": "product_identity",
-      "raw_value": "GeyserSteam lists Hekla as an indoor/outdoor 2–3 person traditional sauna with optional infrared and red-light add-ons."
+      "raw_value": "GeyserSteam lists Hekla as a 2–3 person indoor/outdoor traditional sauna. Infrared panels and red light are optional add-ons with separate power requirements."
     },
     {
       "id": "evidence-geyser-hekla-configuration",
@@ -7237,7 +7237,7 @@
       "entity_id": "geyser-lukaku",
       "source_id": "source-geyser-lukaku-product",
       "field_path": "product_identity",
-      "raw_value": "GeyserSteam lists Lukaku as an indoor/outdoor 6–8 person traditional and infrared sauna."
+      "raw_value": "GeyserSteam lists Lukaku as a 6–8 person indoor/outdoor sauna with a 13.5 kW traditional heater; infrared is offered as an optional add-on."
     },
     {
       "id": "evidence-geyser-lukaku-configuration",
@@ -7258,7 +7258,7 @@
       "entity_id": "geyser-autana",
       "source_id": "source-geyser-autana-product",
       "field_path": "product_identity",
-      "raw_value": "GeyserSteam lists Autana as an indoor/outdoor 4–6 person traditional and infrared sauna."
+      "raw_value": "GeyserSteam lists Autana as an indoor/outdoor sauna with a 13.5 kW traditional heater; infrared is offered as an optional add-on. The page conflicts on maximum capacity."
     },
     {
       "id": "evidence-geyser-autana-configuration",
@@ -7279,7 +7279,7 @@
       "entity_id": "geyser-valera",
       "source_id": "source-geyser-valera-product",
       "field_path": "product_identity",
-      "raw_value": "GeyserSteam lists Valera as an indoor/outdoor 4–5 person traditional and infrared sauna."
+      "raw_value": "GeyserSteam lists Valera as a 4–5 person indoor/outdoor sauna with a 9 kW traditional heater; infrared and red light are optional add-ons."
     },
     {
       "id": "evidence-geyser-valera-configuration",
@@ -8309,6 +8309,34 @@
       "source_id": "source-finnmark-fd-7-product",
       "field_path": "electrical_supply_options",
       "raw_value": "[{\"component\":\"heater\",\"power\":4500,\"voltage\":null,\"current\":null,\"phase\":null,\"plug\":null,\"dedicated\":null}]"
+    },
+    {
+      "id": "evidence-salus-renew-king-electrical-section-2026-09-22",
+      "entity_id": "salus-renew-king-standard",
+      "source_id": "source-salus-renew-king-product",
+      "field_path": "electrical_supply_options.requirements.electrical_section",
+      "raw_value": "Official Electrical Requirements: traditional heater 8 kW; 40 A breaker; the 40 A breaker feeds the infrared system, traditional heater and lighting."
+    },
+    {
+      "id": "evidence-salus-renew-king-features-section-2026-09-22",
+      "entity_id": "salus-renew-king-standard",
+      "source_id": "source-salus-renew-king-product",
+      "field_path": "electrical_supply_options.requirements.features_section",
+      "raw_value": "Official Features & Specifications: Harvia WALL 6 kW traditional stove; 240 V / 30 A service."
+    },
+    {
+      "id": "evidence-geyser-autana-capacity-heading-2026-09-22",
+      "entity_id": "geyser-autana-standard",
+      "source_id": "source-geyser-autana-product",
+      "field_path": "capacity.heading",
+      "raw_value": "Official product heading: Autana - 6 - 8 person Indoor & Outdoor Traditional & Infrared Sauna."
+    },
+    {
+      "id": "evidence-geyser-autana-capacity-table-2026-09-22",
+      "entity_id": "geyser-autana-standard",
+      "source_id": "source-geyser-autana-product",
+      "field_path": "capacity.specification_table",
+      "raw_value": "Official specification table: Capacity 4-6 person."
     }
   ]
 }

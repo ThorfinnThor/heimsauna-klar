@@ -183,10 +183,12 @@ test("the public finder evaluates the complete pilot for six outdoor seats on 24
       "redwood-noctra-8",
       "salus-deluxe-panorama",
       "geyser-lukaku",
-      "geyser-autana",
       "geyser-balerion",
     ],
   );
+  const autana = results.find((entry) => entry.productId === "geyser-autana");
+  assert.equal(autana.status, "needs-verification");
+  assert(autana.unknownCriteria.includes("capacity:at-least-6"));
   assert.equal(results.length, 290);
   assert.deepEqual(results, runUsFinder({
     ...input,

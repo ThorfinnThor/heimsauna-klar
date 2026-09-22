@@ -76,6 +76,41 @@
     ],
     "published_at": "2026-09-22"
   },
+  "third_wave": {
+    "status": "prepared-for-sol-review",
+    "product_ids": [
+      "redwood-horizon-6",
+      "redwood-summit-6",
+      "redwood-extra-wide-porch-6",
+      "redwood-barrel-8",
+      "redwood-noctra-8",
+      "finnleo-is565-infrasauna-9805-0840",
+      "finnleo-northstar-indoor-sauna-4-x-6-9630-2263",
+      "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
+      "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
+      "sunray-bristow",
+      "sunray-aurora",
+      "salus-ally",
+      "tylo-lulea-4",
+      "geyser-hekla",
+      "geyser-lukaku",
+      "geyser-valera",
+      "geyser-balerion"
+    ],
+    "held_product_ids": [
+      "salus-renew-king",
+      "salus-deluxe-panorama",
+      "geyser-autana"
+    ],
+    "release_requirements": [
+      "strict technical data gate",
+      "exact current manufacturer source",
+      "product-specific source-bound editorial copy",
+      "conflict-free normalized facts",
+      "Sol data, SEO, link, build and visual QA"
+    ],
+    "prepared_at": "2026-09-22"
+  },
   "data_criteria": {
     "exact_model_manufacturer_source": true,
     "required_documented_product_facts": [
@@ -112,7 +147,12 @@
     "second_wave_editorial_reviewed": 27,
     "indexing_enabled": true,
     "second_wave_indexable_now": 27,
-    "public_products": 55
+    "public_products": 55,
+    "third_wave_products": 17,
+    "third_wave_data_qualified": 17,
+    "third_wave_editorial_prepared": 17,
+    "third_wave_editorial_reviewed": 0,
+    "third_wave_indexable_now": 0
   },
   "remaining_gates": [],
   "commercial_scope": "17 manually reviewed Sweat Kingdom offers have marked Awin tracking links. Other US records remain non-commercial until their own program approval, exact offer mapping and current price review are documented."

@@ -19,6 +19,19 @@ function daysBetween(asOf, checkedAt) {
   return Math.floor((end - start) / 86_400_000);
 }
 
+function isExactManufacturerProductPage(source) {
+  if (source?.type !== "manufacturer-page") return false;
+  let pathname;
+  try {
+    pathname = new URL(source.url).pathname.toLowerCase();
+  } catch {
+    return false;
+  }
+  const locator = source.locator?.toLowerCase() ?? "";
+  const exactLocator = /\b(product specifications?|manufacturer product|exact .+ model page|product identity)\b/.test(locator);
+  return pathname.includes("/product") && exactLocator;
+}
+
 function asOfArgument() {
   const index = process.argv.indexOf("--as-of");
   const value = index >= 0 ? process.argv[index + 1] : null;
@@ -68,8 +81,7 @@ for (const product of productsDocument.products.filter((entry) => entry.publicat
       && documented(requirement.rated_current_a)));
   const exactCurrentManufacturerSource = product.source_ids
     .map((sourceId) => sourceById.get(sourceId))
-    .filter((source) => source?.type === "manufacturer-page")
-    .filter((source) => source.locator?.toLowerCase().includes("product page specifications"))
+    .filter(isExactManufacturerProductPage)
     .some((source) => {
       const age = daysBetween(asOf, source.checked_at);
       return age !== null && age >= 0 && age <= MAXIMUM_SOURCE_AGE_DAYS;
@@ -126,4 +138,5 @@ console.log(JSON.stringify({
   publicationDecision: "No candidate can be bulk-published. The prepared cohort still requires Sol's source, presentation and release QA before promotion.",
   summary,
   editorialReady: cohorts.editorialReady,
+  sourceReview: cohorts.sourceReview,
 }, null, 2));

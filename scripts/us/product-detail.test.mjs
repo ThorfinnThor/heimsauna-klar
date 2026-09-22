@@ -120,3 +120,60 @@ test("the second publication wave has distinct source-bound copy and complete re
     assert(prohibitedPatterns.every((pattern) => !pattern.test(copy)), `${productId} contains a prohibited stock phrase`);
   }
 });
+
+test("the third publication wave is source-bound, conflict-free and held for Sol review", () => {
+  const productById = new Map(getUsResearchProducts().map((product) => [product.id, product]));
+  const headings = new Set();
+  const summaries = new Set();
+  const prohibitedPatterns = [
+    /this research record describes/i,
+    /is recorded as/i,
+    /in summary/i,
+    /first .{0,50} then /i,
+    /it is important to note/i,
+  ];
+  const hasConflict = (value) => {
+    if (!value || typeof value !== "object") return false;
+    if (value.status === "conflict") return true;
+    return Object.values(value).some(hasConflict);
+  };
+
+  assert.equal(readinessPlan.third_wave.status, "prepared-for-sol-review");
+  assert.equal(readinessPlan.third_wave.product_ids.length, 17);
+  assert.equal(readinessPlan.third_wave.held_product_ids.length, 3);
+
+  const releaseIds = new Set(readinessPlan.third_wave.product_ids);
+  for (const heldId of readinessPlan.third_wave.held_product_ids) {
+    assert.equal(releaseIds.has(heldId), false, `${heldId} is both held and release-ready`);
+  }
+
+  for (const productId of readinessPlan.third_wave.product_ids) {
+    const product = productById.get(productId);
+    assert(product, `${productId} is missing`);
+    assert.equal(product.publication_status, "candidate", `${productId} was published before Sol approval`);
+    assert.equal(hasConflict(product), false, `${productId} contains a conflicting product fact`);
+
+    const configurations = getUsConfigurationsForProduct(productId);
+    assert(configurations.length > 0, `${productId} has no configuration`);
+    assert(configurations.every((configuration) => configuration.publication_status === "candidate"), `${productId} has a prematurely published configuration`);
+    assert(configurations.every((configuration) => !hasConflict(configuration)), `${productId} contains a conflicting configuration fact`);
+
+    const editorial = getUsProductEditorial(productId, { includeNonPublic: true });
+    assert(editorial, `${productId} has no editorial record`);
+    assert.equal(editorial.status, "published", `${productId} editorial is not prepared`);
+    assert(editorial.summary.length >= 80 && editorial.summary.length <= 160, `${productId} has an unsuitable summary length`);
+    assert.equal(headings.has(editorial.heading), false, `${productId} repeats an editorial heading`);
+    assert.equal(summaries.has(editorial.summary), false, `${productId} repeats a summary`);
+    headings.add(editorial.heading);
+    summaries.add(editorial.summary);
+
+    const supportedSourceIds = new Set([
+      ...product.source_ids,
+      ...configurations.flatMap((configuration) => configuration.source_ids),
+    ]);
+    assert(editorial.source_ids.length > 0, `${productId} has no editorial source`);
+    assert(editorial.source_ids.every((sourceId) => supportedSourceIds.has(sourceId)), `${productId} cites a source outside its record`);
+    const copy = [editorial.summary, ...editorial.paragraphs, ...editorial.decision_points, ...editorial.limitations].join(" ");
+    assert(prohibitedPatterns.every((pattern) => !pattern.test(copy)), `${productId} contains a prohibited stock phrase`);
+  }
+});

@@ -13755,7 +13755,7 @@
       },
       "heat_type": {
         "status": "documented",
-        "value": "traditional",
+        "value": "hybrid",
         "evidence_ids": [
           "evidence-salus-renew-king-product"
         ]
@@ -13792,9 +13792,9 @@
         "source-salus-renew-king-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "The official page confirms a hybrid traditional/infrared cabin but conflicts on traditional-heater output and circuit sizing. The record remains a candidate until Salus resolves the 6 kW / 30 A versus 8 kW / 40 A discrepancy."
     },
     {
       "id": "salus-deluxe-panorama",
@@ -13848,9 +13848,9 @@
         "source-salus-deluxe-panorama-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official Salus US product page; editorial and publication review remain open."
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "The exact manufacturer page verifies the cabin and 15 kW electric option. Its two separate 50 A breakers cannot be represented as one 100 A circuit, so scalar current fields remain unknown pending split-circuit modeling."
     },
     {
       "id": "tylo-reflection-4",
@@ -14173,7 +14173,7 @@
       },
       "form": {
         "status": "documented",
-        "value": "Indoor/outdoor hybrid traditional and infrared cabin",
+        "value": "Indoor/outdoor traditional cabin with optional infrared and red-light add-ons",
         "evidence_ids": [
           "evidence-geyser-hekla-product"
         ]
@@ -14185,9 +14185,9 @@
         "source-geyser-hekla-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "The exact manufacturer page was rechecked. The normalized record now separates the included traditional heater from optional infrared or red-light add-ons."
     },
     {
       "id": "geyser-lukaku",
@@ -14230,7 +14230,7 @@
       },
       "form": {
         "status": "documented",
-        "value": "Indoor/outdoor hybrid traditional and infrared cabin",
+        "value": "Indoor/outdoor traditional cabin with an optional infrared add-on",
         "evidence_ids": [
           "evidence-geyser-lukaku-product"
         ]
@@ -14242,9 +14242,9 @@
         "source-geyser-lukaku-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "The exact manufacturer page was rechecked. The normalized record now separates the included traditional heater from optional infrared or red-light add-ons."
     },
     {
       "id": "geyser-autana",
@@ -14287,7 +14287,7 @@
       },
       "form": {
         "status": "documented",
-        "value": "Indoor/outdoor hybrid traditional and infrared cabin",
+        "value": "Indoor/outdoor traditional cabin with an optional infrared add-on",
         "evidence_ids": [
           "evidence-geyser-autana-product"
         ]
@@ -14299,9 +14299,9 @@
         "source-geyser-autana-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "The exact manufacturer page confirms the traditional base heater and optional infrared add-on, but its heading and specification table conflict on maximum capacity. Publication remains blocked until clarified."
     },
     {
       "id": "geyser-valera",
@@ -14344,7 +14344,7 @@
       },
       "form": {
         "status": "documented",
-        "value": "Indoor/outdoor hybrid traditional and infrared cabin",
+        "value": "Indoor/outdoor traditional cabin with optional infrared and red-light add-ons",
         "evidence_ids": [
           "evidence-geyser-valera-product"
         ]
@@ -14356,9 +14356,9 @@
         "source-geyser-valera-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "The exact manufacturer page was rechecked. The normalized record now separates the included traditional heater from optional infrared or red-light add-ons."
     },
     {
       "id": "geyser-balerion",
@@ -14413,9 +14413,9 @@
         "source-geyser-balerion-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-18",
-      "next_review_at": "2026-12-18",
-      "change_reason": "Added from an exact official US product page; editorial and publication review remain open."
+      "spec_checked_at": "2026-09-22",
+      "next_review_at": "2026-12-22",
+      "change_reason": "The exact manufacturer page currently identifies the model as Balerion. The retained Shopify URL handle contains an older name, but the page title and specifications match this catalog record."
     },
     {
       "id": "thermasol-astra",

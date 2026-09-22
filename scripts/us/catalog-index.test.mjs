@@ -24,7 +24,7 @@ test("the public catalog contains the reviewed release waves", () => {
 
 test("catalog filters keep documented matches deterministic", () => {
   assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, placement: "outdoor" }).length, 141);
-  assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, capacity: "4-plus" }).length, 114);
+  assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, capacity: "4-plus" }).length, 113);
   assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, query: "peak" }).length, 11);
   assert.equal(filterUsCatalogItems(researchItems, { ...defaultUsCatalogFilters, voltage: "120" }).length, 32);
 });
