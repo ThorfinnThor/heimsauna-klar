@@ -1920,7 +1920,7 @@
       "publisher": "Finnleo",
       "market": "US",
       "checked_at": "2026-09-22",
-      "locator": "Exact Finnleo model page with seating capacity, electrical requirements, dimensions and material where stated"
+      "locator": "Exact Finnleo model page with model-specific capacity, dimensions, materials, included heater and electrical details where stated"
     },
     {
       "id": "source-finnleo-hallmark-46-9806-6620-product",
@@ -1950,7 +1950,7 @@
       "publisher": "Finnleo",
       "market": "US",
       "checked_at": "2026-09-22",
-      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
+      "locator": "Exact Finnleo model page with model-specific capacity, dimensions, materials, included heater and electrical details where stated"
     },
     {
       "id": "source-finnleo-is565-infrasauna-9805-0840-product",
@@ -2150,7 +2150,7 @@
       "publisher": "Finnleo",
       "market": "US",
       "checked_at": "2026-09-22",
-      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
+      "locator": "Exact Finnleo model page with model-specific capacity, dimensions, materials, included heater and electrical details where stated"
     },
     {
       "id": "source-finnleo-twilight-9-0501-product",
@@ -2160,7 +2160,7 @@
       "publisher": "Finnleo",
       "market": "US",
       "checked_at": "2026-09-22",
-      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
+      "locator": "Exact Finnleo model page with model-specific capacity, dimensions, materials, included heater and electrical details where stated"
     },
     {
       "id": "source-finnleo-vita-ii-9-0503-product",
@@ -7874,21 +7874,21 @@
       "entity_id": "finnleo-hallmark-44-9-0601",
       "source_id": "source-finnleo-hallmark-44-9-0601-product",
       "field_path": "product_identity_and_capacity",
-      "raw_value": "Hallmark 44 is listed on the Finnleo model page with a seating capacity of 2."
+      "raw_value": "Hallmark 44 is listed on the Finnleo model page with a seating capacity of 2. The model page identifies the model's form and included heating equipment."
     },
     {
       "id": "evidence-finnleo-hallmark-44-9-0601-depth-configuration",
       "entity_id": "finnleo-hallmark-44-9-0601-standard",
       "source_id": "source-finnleo-hallmark-44-9-0601-product",
       "field_path": "configuration.dimensions_materials",
-      "raw_value": "Exterior dimensions {\"width\":{\"value\":48,\"unit\":\"in\"},\"depth\":{\"value\":48,\"unit\":\"in\"},\"height\":{\"value\":80,\"unit\":\"in\"}}; material Clear Canadian Hemlock interior and exterior."
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":48,\"unit\":\"in\"},\"depth\":{\"value\":48,\"unit\":\"in\"},\"height\":{\"value\":80,\"unit\":\"in\"}}; material Clear Canadian Hemlock interior and exterior. Included components: Piccolo Mini sauna heater."
     },
     {
       "id": "evidence-finnleo-hallmark-44-9-0601-depth-electrical",
       "entity_id": "finnleo-hallmark-44-9-0601-standard",
       "source_id": "source-finnleo-hallmark-44-9-0601-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Finnleo lists 120 V, not stated A and 120 V plug-in for this model; rated power not stated."
+      "raw_value": "Finnleo lists a 120 V plug-in Hallmark 44 with a Piccolo Mini heater; rated power, current and circuit rating are not stated on the model page."
     },
     {
       "id": "evidence-finnleo-hallmark-46-9806-6620-depth-product",
@@ -8063,63 +8063,63 @@
       "entity_id": "finnleo-twilight-9-0501",
       "source_id": "source-finnleo-twilight-9-0501-product",
       "field_path": "product_identity_capacity_heat_and_placement",
-      "raw_value": "Twilight is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna."
+      "raw_value": "Twilight is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna. The model page identifies the model's form and included heating equipment."
     },
     {
       "id": "evidence-finnleo-twilight-9-0501-depth-configuration",
       "entity_id": "finnleo-twilight-9-0501-standard",
       "source_id": "source-finnleo-twilight-9-0501-product",
       "field_path": "configuration.dimensions_and_materials",
-      "raw_value": "Exterior dimensions {\"width\":{\"value\":84,\"unit\":\"in\"},\"depth\":{\"value\":72,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Cedar interior walls; Abachi and heat-treated Alder benches, backrests, skirt and heater guard; oil-rubbed Cedar exterior."
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":84,\"unit\":\"in\"},\"depth\":{\"value\":72,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Cedar interior walls; Abachi and heat-treated Alder benches, backrests, skirt and heater guard; oil-rubbed Cedar exterior. Included components: Designer-SL2 sauna heater."
     },
     {
       "id": "evidence-finnleo-twilight-9-0501-depth-electrical",
       "entity_id": "finnleo-twilight-9-0501-standard",
       "source_id": "source-finnleo-twilight-9-0501-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Finnleo lists no voltage V, no amperage A, no normalized connection wording and no single rated power W for this model."
+      "raw_value": "Finnleo lists the Designer-SL2 heater for Twilight but does not state voltage, power, current or circuit details on the model page."
     },
     {
       "id": "evidence-finnleo-solace-9-0502-depth-product",
       "entity_id": "finnleo-solace-9-0502",
       "source_id": "source-finnleo-solace-9-0502-product",
       "field_path": "product_identity_capacity_heat_and_placement",
-      "raw_value": "Solace is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna."
+      "raw_value": "Solace is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna. The model page identifies the model's form and included heating equipment."
     },
     {
       "id": "evidence-finnleo-solace-9-0502-depth-configuration",
       "entity_id": "finnleo-solace-9-0502-standard",
       "source_id": "source-finnleo-solace-9-0502-product",
       "field_path": "configuration.dimensions_and_materials",
-      "raw_value": "Exterior dimensions {\"width\":{\"value\":84,\"unit\":\"in\"},\"depth\":{\"value\":72,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Nordic White Spruce interior and exterior; Abachi benches and backrests."
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":84,\"unit\":\"in\"},\"depth\":{\"value\":72,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Nordic White Spruce interior and exterior; Abachi benches and backrests. Included components: Designer-SL2 sauna heater."
     },
     {
       "id": "evidence-finnleo-solace-9-0502-depth-electrical",
       "entity_id": "finnleo-solace-9-0502-standard",
       "source_id": "source-finnleo-solace-9-0502-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Finnleo lists 240 V, no amperage A, no normalized connection wording and 6000 W for this model."
+      "raw_value": "Finnleo lists the Designer-SL2 heater at 6.0 kW and 240 V for Solace; current, connection and circuit rating are not stated on the model page."
     },
     {
       "id": "evidence-finnleo-is440-infrasauna-9-0602-depth-product",
       "entity_id": "finnleo-is440-infrasauna-9-0602",
       "source_id": "source-finnleo-is440-infrasauna-9-0602-product",
       "field_path": "product_identity_capacity_heat_and_placement",
-      "raw_value": "IS440 InfraSauna is listed on the Finnleo model page with a seating capacity of 2; the page identifies the model as an indoor hybrid sauna."
+      "raw_value": "IS440 InfraSauna is listed on the Finnleo model page with a seating capacity of 2; the page identifies the model as an indoor hybrid sauna. The model page identifies the model's form and included heating equipment."
     },
     {
       "id": "evidence-finnleo-is440-infrasauna-9-0602-depth-configuration",
       "entity_id": "finnleo-is440-infrasauna-9-0602-standard",
       "source_id": "source-finnleo-is440-infrasauna-9-0602-product",
       "field_path": "configuration.dimensions_and_materials",
-      "raw_value": "Exterior dimensions {\"width\":{\"value\":48.25,\"unit\":\"in\"},\"depth\":{\"value\":48.25,\"unit\":\"in\"},\"height\":{\"value\":80,\"unit\":\"in\"}}; material Hemlock interior and exterior."
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":48.25,\"unit\":\"in\"},\"depth\":{\"value\":48.25,\"unit\":\"in\"},\"height\":{\"value\":80,\"unit\":\"in\"}}; material Hemlock interior and exterior. Included components: Low-EMR/EF infrared panel system, Piccolo Mini traditional sauna heater."
     },
     {
       "id": "evidence-finnleo-is440-infrasauna-9-0602-depth-electrical",
       "entity_id": "finnleo-is440-infrasauna-9-0602-standard",
       "source_id": "source-finnleo-is440-infrasauna-9-0602-product",
       "field_path": "electrical_supply_options",
-      "raw_value": "Finnleo lists 120 V, no amperage A, plug-in and no single rated power W for this model."
+      "raw_value": "Finnleo lists 1.7 or 2.1 kW heating options at 120 V and says the IS440 plugs into a household outlet; no single rated power, current or circuit rating is stated for the configuration."
     },
     {
       "id": "evidence-finnleo-is565-infrasauna-9805-0840-depth-product",

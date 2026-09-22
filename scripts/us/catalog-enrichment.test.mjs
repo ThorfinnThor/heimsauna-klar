@@ -233,3 +233,28 @@ test("the Sol-reviewed Finnmark batch preserves manufacturer facts and source li
   assert.equal(fd4Heater?.dedicated_circuit.status, "unknown");
   assert(products.get("finnmark-fd-4")?.source_ids.includes("source-finnmark-fd-4-spec-sheet"));
 });
+
+test("the latest Luna Finnleo batch records included heaters without inventing circuit data", () => {
+  const cases = [
+    ["finnleo-hallmark-44-9-0601", "Piccolo Mini sauna heater", 120, "plug-in", "unknown"],
+    ["finnleo-is440-infrasauna-9-0602", "Piccolo Mini traditional sauna heater", 120, "plug-in", false],
+    ["finnleo-solace-9-0502", "Designer-SL2 sauna heater", 240, null, "unknown"],
+    ["finnleo-twilight-9-0501", "Designer-SL2 sauna heater", null, null, "unknown"],
+  ];
+  for (const [id, componentName, voltage, connection, dedicated] of cases) {
+    const product = products.get(id);
+    const configuration = configurations.get(`${id}-standard`);
+    const requirement = configuration?.electrical_supply_options?.[0]?.requirements?.[0];
+    assert(product, `missing product ${id}`);
+    assert(configuration, `missing configuration ${id}-standard`);
+    assert(configuration.components.some((component) => component.name === componentName));
+    if (voltage === null) assert.equal(requirement?.voltage_v.status, "unknown");
+    else assert.equal(requirement?.voltage_v.value, voltage);
+    if (connection === null) assert.equal(requirement?.connection.status, "unknown");
+    else assert.equal(requirement?.connection.value, connection);
+    assert.equal(requirement?.required_circuit_a.status, "unknown");
+    if (dedicated === "unknown") assert.equal(requirement?.dedicated_circuit.status, "unknown");
+    else assert.equal(requirement?.dedicated_circuit.value, dedicated);
+    assert.match(evidence.get(`evidence-${id}-depth-electrical`)?.raw_value ?? "", /Finnleo/);
+  }
+});

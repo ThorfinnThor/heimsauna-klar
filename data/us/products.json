@@ -8877,18 +8877,28 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-44-9-0601-depth-electrical"
+        ]
       },
       "placements": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-hallmark-44-9-0601-depth-product"
+        ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Indoor portable traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-hallmark-44-9-0601-product"
+          "evidence-finnleo-hallmark-44-9-0601-depth-product"
         ]
       },
       "configuration_ids": [
@@ -8899,7 +8909,7 @@
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-22",
-      "change_reason": "Exact Finnleo model-page specifications added for capacity, dimensions, materials and electrical requirements where stated.",
+      "change_reason": "Luna batch adds model-specific Finnleo component and electrical facts from the official product page; installation fields not stated there remain unknown.",
       "next_review_at": "2026-12-22"
     },
     {
@@ -9047,7 +9057,7 @@
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-22",
-      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "change_reason": "Luna batch adds model-specific Finnleo component and electrical facts from the official product page; installation fields not stated there remain unknown.",
       "next_review_at": "2026-12-22"
     },
     {
@@ -10089,7 +10099,7 @@
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-22",
-      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "change_reason": "Luna batch adds model-specific Finnleo component and electrical facts from the official product page; installation fields not stated there remain unknown.",
       "next_review_at": "2026-12-22"
     },
     {
@@ -10145,7 +10155,7 @@
       ],
       "publication_status": "candidate",
       "spec_checked_at": "2026-09-22",
-      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "change_reason": "Luna batch adds model-specific Finnleo component and electrical facts from the official product page; installation fields not stated there remain unknown.",
       "next_review_at": "2026-12-22"
     },
     {

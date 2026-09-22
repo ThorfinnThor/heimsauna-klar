@@ -23720,7 +23720,17 @@
           "evidence-finnleo-hallmark-44-9-0601-depth-configuration"
         ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnleo-hallmark-44-9-0601-standard-component-1",
+          "component_type": "heater",
+          "name": "Piccolo Mini sauna heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-hallmark-44-9-0601-depth-product"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
           "id": "finnleo-hallmark-44-9-0601-electrical-unknown",
@@ -23747,11 +23757,11 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "The exact Finnleo model page does not state rated heater power."
+                "reason": "The exact Finnleo model page does not state one single rated power for this configuration."
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "The exact Finnleo model page does not state rated current."
+                "reason": "The exact Finnleo model page does not state a rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
@@ -23759,7 +23769,7 @@
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "Breaker rating is not stated on the exact Finnleo model page."
               },
               "connection": {
                 "status": "documented",
@@ -23770,7 +23780,7 @@
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the exact Finnleo model page."
               },
               "dedicated_circuit": {
                 "status": "unknown",
@@ -24150,7 +24160,26 @@
           "evidence-finnleo-is440-infrasauna-9-0602-depth-configuration"
         ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnleo-is440-infrasauna-9-0602-standard-component-1",
+          "component_type": "infrared-system",
+          "name": "Low-EMR/EF infrared panel system",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-is440-infrasauna-9-0602-depth-product"
+          ]
+        },
+        {
+          "id": "finnleo-is440-infrasauna-9-0602-standard-component-2",
+          "component_type": "heater",
+          "name": "Piccolo Mini traditional sauna heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-is440-infrasauna-9-0602-depth-product"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
           "id": "finnleo-is440-infrasauna-9-0602-electrical-unknown",
@@ -24159,7 +24188,7 @@
           ],
           "requirements": [
             {
-              "component": "infrared-system",
+              "component": "other",
               "voltage_v": {
                 "status": "documented",
                 "value": 120,
@@ -24189,7 +24218,7 @@
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "Breaker rating is not stated on the exact Finnleo model page."
               },
               "connection": {
                 "status": "documented",
@@ -24200,7 +24229,7 @@
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the exact Finnleo model page."
               },
               "dedicated_circuit": {
                 "status": "documented",
@@ -26836,7 +26865,17 @@
           "evidence-finnleo-solace-9-0502-depth-configuration"
         ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnleo-solace-9-0502-standard-component-1",
+          "component_type": "heater",
+          "name": "Designer-SL2 sauna heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-solace-9-0502-depth-product"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
           "id": "finnleo-solace-9-0502-electrical-unknown",
@@ -26878,7 +26917,7 @@
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "Breaker rating is not stated on the exact Finnleo model page."
               },
               "connection": {
                 "status": "unknown",
@@ -26886,7 +26925,7 @@
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the exact Finnleo model page."
               },
               "dedicated_circuit": {
                 "status": "unknown",
@@ -26979,7 +27018,17 @@
           "evidence-finnleo-twilight-9-0501-depth-configuration"
         ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnleo-twilight-9-0501-standard-component-1",
+          "component_type": "heater",
+          "name": "Designer-SL2 sauna heater",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-twilight-9-0501-depth-product"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
           "id": "finnleo-twilight-9-0501-electrical-unknown",
@@ -27015,7 +27064,7 @@
               },
               "specified_breaker_a": {
                 "status": "unknown",
-                "reason": "Breaker rating is not stated in the reviewed catalog record."
+                "reason": "Breaker rating is not stated on the exact Finnleo model page."
               },
               "connection": {
                 "status": "unknown",
@@ -27023,7 +27072,7 @@
               },
               "plug_type": {
                 "status": "unknown",
-                "reason": "Plug type is not stated in the reviewed catalog record."
+                "reason": "Plug type is not stated on the exact Finnleo model page."
               },
               "dedicated_circuit": {
                 "status": "unknown",
