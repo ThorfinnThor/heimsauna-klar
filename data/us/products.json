@@ -8671,18 +8671,28 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-centurion-9-0504-depth-electrical"
+        ]
       },
       "placements": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+        "status": "documented",
+        "value": [
+          "indoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-centurion-9-0504-depth-product"
+        ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Indoor traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-centurion-9-0504-product"
+          "evidence-finnleo-centurion-9-0504-depth-product"
         ]
       },
       "configuration_ids": [
@@ -8692,8 +8702,9 @@
         "source-finnleo-centurion-9-0504-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnleo-custom-outdoor-sauna-9-0330",
@@ -8988,14 +8999,19 @@
       },
       "heat_type": {
         "status": "documented",
-        "value": "infrared",
+        "value": "hybrid",
         "evidence_ids": [
-          "evidence-finnleo-is440-infrasauna-9-0602-product"
+          "evidence-finnleo-is440-infrasauna-9-0602-depth-product"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-is440-infrasauna-9-0602-depth-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -9003,14 +9019,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnleo-is440-infrasauna-9-0602-product"
+          "evidence-finnleo-is440-infrasauna-9-0602-depth-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Indoor sauna",
+        "value": "Indoor hybrid infrared and traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-is440-infrasauna-9-0602-product"
+          "evidence-finnleo-is440-infrasauna-9-0602-depth-product"
         ]
       },
       "configuration_ids": [
@@ -9020,8 +9036,9 @@
         "source-finnleo-is440-infrasauna-9-0602-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnleo-is565-infrasauna-9805-0840",
@@ -9038,14 +9055,19 @@
       },
       "heat_type": {
         "status": "documented",
-        "value": "infrared",
+        "value": "hybrid",
         "evidence_ids": [
-          "evidence-finnleo-is565-infrasauna-9805-0840-product"
+          "evidence-finnleo-is565-infrasauna-9805-0840-depth-product"
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-is565-infrasauna-9805-0840-depth-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -9053,14 +9075,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnleo-is565-infrasauna-9805-0840-product"
+          "evidence-finnleo-is565-infrasauna-9805-0840-depth-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Indoor sauna",
+        "value": "Indoor hybrid infrared and traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-is565-infrasauna-9805-0840-product"
+          "evidence-finnleo-is565-infrasauna-9805-0840-depth-product"
         ]
       },
       "configuration_ids": [
@@ -9070,8 +9092,9 @@
         "source-finnleo-is565-infrasauna-9805-0840-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550",
@@ -9094,8 +9117,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -9103,14 +9131,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product"
+          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Indoor sauna",
+        "value": "Indoor traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product"
+          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-product"
         ]
       },
       "configuration_ids": [
@@ -9120,8 +9148,9 @@
         "source-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263",
@@ -9144,8 +9173,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -9153,14 +9187,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
+          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Indoor sauna",
+        "value": "Indoor traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
+          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-product"
         ]
       },
       "configuration_ids": [
@@ -9170,8 +9204,9 @@
         "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
@@ -9194,8 +9229,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -9203,14 +9243,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product"
+          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Indoor sauna",
+        "value": "Indoor traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product"
+          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-product"
         ]
       },
       "configuration_ids": [
@@ -9220,8 +9260,9 @@
         "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
@@ -9244,8 +9285,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -9253,14 +9299,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
+          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Indoor sauna",
+        "value": "Indoor traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
+          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-product"
         ]
       },
       "configuration_ids": [
@@ -9270,8 +9316,9 @@
         "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnleo-northstar-outdoor-sauna-4-x-6-9630-2266",
@@ -10000,8 +10047,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-solace-9-0502-depth-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -10009,14 +10061,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnleo-solace-9-0502-product"
+          "evidence-finnleo-solace-9-0502-depth-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Indoor sauna",
+        "value": "Indoor traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-solace-9-0502-product"
+          "evidence-finnleo-solace-9-0502-depth-product"
         ]
       },
       "configuration_ids": [
@@ -10026,8 +10078,9 @@
         "source-finnleo-solace-9-0502-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnleo-twilight-9-0501",
@@ -10050,8 +10103,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-twilight-9-0501-depth-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -10059,14 +10117,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnleo-twilight-9-0501-product"
+          "evidence-finnleo-twilight-9-0501-depth-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Indoor sauna",
+        "value": "Indoor traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-twilight-9-0501-product"
+          "evidence-finnleo-twilight-9-0501-depth-product"
         ]
       },
       "configuration_ids": [
@@ -10076,8 +10134,9 @@
         "source-finnleo-twilight-9-0501-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnleo-vita-ii-9-0503",
@@ -10100,8 +10159,13 @@
         ]
       },
       "energy_sources": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
+        "status": "documented",
+        "value": [
+          "electric"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-vita-ii-9-0503-depth-electrical"
+        ]
       },
       "placements": {
         "status": "documented",
@@ -10109,14 +10173,14 @@
           "indoor"
         ],
         "evidence_ids": [
-          "evidence-finnleo-vita-ii-9-0503-product"
+          "evidence-finnleo-vita-ii-9-0503-depth-product"
         ]
       },
       "form": {
         "status": "documented",
-        "value": "Indoor sauna",
+        "value": "Indoor traditional sauna cabin",
         "evidence_ids": [
-          "evidence-finnleo-vita-ii-9-0503-product"
+          "evidence-finnleo-vita-ii-9-0503-depth-product"
         ]
       },
       "configuration_ids": [
@@ -10126,8 +10190,9 @@
         "source-finnleo-vita-ii-9-0503-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-22",
+      "change_reason": "Exact Finnleo model-page specifications added for capacity, placement, dimensions, materials and electrical requirements where stated.",
+      "next_review_at": "2026-12-22"
     },
     {
       "id": "finnleo-designerb-9-0251-heater",

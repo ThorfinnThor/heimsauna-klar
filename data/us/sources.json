@@ -1879,8 +1879,8 @@
       "title": "Centurion product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
     },
     {
       "id": "source-finnleo-custom-outdoor-sauna-9-0330-product",
@@ -1949,8 +1949,8 @@
       "title": "IS440 InfraSauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
     },
     {
       "id": "source-finnleo-is565-infrasauna-9805-0840-product",
@@ -1959,8 +1959,8 @@
       "title": "IS565 InfraSauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
     },
     {
       "id": "source-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product",
@@ -1969,8 +1969,8 @@
       "title": "NorthStar Indoor Sauna 4 x 4 product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
     },
     {
       "id": "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product",
@@ -1979,8 +1979,8 @@
       "title": "NorthStar Indoor Sauna 4 x 6 product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
     },
     {
       "id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
@@ -1989,8 +1989,8 @@
       "title": "NorthStar Indoor Sauna 5 x 6 product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
     },
     {
       "id": "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
@@ -1999,8 +1999,8 @@
       "title": "NorthStar Indoor Sauna 5 x 7 product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
     },
     {
       "id": "source-finnleo-northstar-outdoor-sauna-4-x-6-9630-2266-product",
@@ -2149,8 +2149,8 @@
       "title": "Solace product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
     },
     {
       "id": "source-finnleo-twilight-9-0501-product",
@@ -2159,8 +2159,8 @@
       "title": "Twilight product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
     },
     {
       "id": "source-finnleo-vita-ii-9-0503-product",
@@ -2169,8 +2169,8 @@
       "title": "Vita II product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-22",
+      "locator": "Exact Finnleo model page with seating capacity, dimensions, material and electrical details where stated"
     },
     {
       "id": "source-finnleo-designerb-9-0251-heater-product",
@@ -7901,6 +7901,216 @@
       "source_id": "source-finnleo-hallmark-57-9806-6640-product",
       "field_path": "electrical_supply_options",
       "raw_value": "Finnleo lists 240 V, 25 A and no connection wording for this model; rated power 6000."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-product",
+      "entity_id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550",
+      "source_id": "source-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product",
+      "field_path": "product_identity_capacity_heat_and_placement",
+      "raw_value": "NorthStar Indoor Sauna 4 x 4 is listed on the Finnleo model page with a seating capacity of 2; the page identifies the model as an indoor traditional sauna."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-configuration",
+      "entity_id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product",
+      "field_path": "configuration.dimensions_and_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":48,\"unit\":\"in\"},\"depth\":{\"value\":48,\"unit\":\"in\"},\"height\":{\"value\":80,\"unit\":\"in\"}}; material Nordic White Spruce interior and exterior; Clear Abachi or Aspen benches and backrests."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-electrical",
+      "entity_id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-4-x-4-9-0550-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 120 V, no amperage A, plug-in and 2200 W for this model."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-product",
+      "entity_id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263",
+      "source_id": "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product",
+      "field_path": "product_identity_capacity_heat_and_placement",
+      "raw_value": "NorthStar Indoor Sauna 4 x 6 is listed on the Finnleo model page with a seating capacity of 2; the page identifies the model as an indoor traditional sauna."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-configuration",
+      "entity_id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product",
+      "field_path": "configuration.dimensions_and_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":72,\"unit\":\"in\"},\"depth\":{\"value\":48,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Nordic White Spruce interior and exterior; Clear Abachi or Aspen benches and backrests."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-electrical",
+      "entity_id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 240 V, 30 A, no normalized connection wording and 4500 W for this model."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-product",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
+      "field_path": "product_identity_capacity_heat_and_placement",
+      "raw_value": "NorthStar Indoor Sauna 5 x 6 is listed on the Finnleo model page with a seating capacity of 2; the page identifies the model as an indoor traditional sauna."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-configuration",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
+      "field_path": "configuration.dimensions_and_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":72,\"unit\":\"in\"},\"depth\":{\"value\":60,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Nordic White Spruce interior and exterior; Clear Aspen or Abachi benches and backrests."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-electrical",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 240 V, 30 A, no normalized connection wording and 6000 W for this model."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-product",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
+      "field_path": "product_identity_capacity_heat_and_placement",
+      "raw_value": "NorthStar Indoor Sauna 5 x 7 is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-configuration",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
+      "field_path": "configuration.dimensions_and_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":84,\"unit\":\"in\"},\"depth\":{\"value\":60,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Nordic White Spruce interior and exterior; Clear Abachi or Aspen benches and backrests."
+    },
+    {
+      "id": "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-electrical",
+      "entity_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265-standard",
+      "source_id": "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 240 V, 30 A, no normalized connection wording and 6000 W for this model."
+    },
+    {
+      "id": "evidence-finnleo-vita-ii-9-0503-depth-product",
+      "entity_id": "finnleo-vita-ii-9-0503",
+      "source_id": "source-finnleo-vita-ii-9-0503-product",
+      "field_path": "product_identity_capacity_heat_and_placement",
+      "raw_value": "Vita II is listed on the Finnleo model page with a seating capacity of 3; the page identifies the model as an indoor traditional sauna."
+    },
+    {
+      "id": "evidence-finnleo-vita-ii-9-0503-depth-configuration",
+      "entity_id": "finnleo-vita-ii-9-0503-standard",
+      "source_id": "source-finnleo-vita-ii-9-0503-product",
+      "field_path": "configuration.dimensions_and_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":63,\"unit\":\"in\"},\"depth\":{\"value\":63,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Hemlock interior and exterior; Abachi and heat-treated Alder deck, benches, backrest and upper bench skirt."
+    },
+    {
+      "id": "evidence-finnleo-vita-ii-9-0503-depth-electrical",
+      "entity_id": "finnleo-vita-ii-9-0503-standard",
+      "source_id": "source-finnleo-vita-ii-9-0503-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists no voltage V, no amperage A, no normalized connection wording and no single rated power W for this model."
+    },
+    {
+      "id": "evidence-finnleo-centurion-9-0504-depth-product",
+      "entity_id": "finnleo-centurion-9-0504",
+      "source_id": "source-finnleo-centurion-9-0504-product",
+      "field_path": "product_identity_capacity_heat_and_placement",
+      "raw_value": "Centurion is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna."
+    },
+    {
+      "id": "evidence-finnleo-centurion-9-0504-depth-configuration",
+      "entity_id": "finnleo-centurion-9-0504-standard",
+      "source_id": "source-finnleo-centurion-9-0504-product",
+      "field_path": "configuration.dimensions_and_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":84,\"unit\":\"in\"},\"depth\":{\"value\":72,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Black Taika wall paneling; clear vertical-grain Canadian Hemlock benches and backrests."
+    },
+    {
+      "id": "evidence-finnleo-centurion-9-0504-depth-electrical",
+      "entity_id": "finnleo-centurion-9-0504-standard",
+      "source_id": "source-finnleo-centurion-9-0504-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 240 V, no amperage A, no normalized connection wording and 7000 W for this model."
+    },
+    {
+      "id": "evidence-finnleo-twilight-9-0501-depth-product",
+      "entity_id": "finnleo-twilight-9-0501",
+      "source_id": "source-finnleo-twilight-9-0501-product",
+      "field_path": "product_identity_capacity_heat_and_placement",
+      "raw_value": "Twilight is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna."
+    },
+    {
+      "id": "evidence-finnleo-twilight-9-0501-depth-configuration",
+      "entity_id": "finnleo-twilight-9-0501-standard",
+      "source_id": "source-finnleo-twilight-9-0501-product",
+      "field_path": "configuration.dimensions_and_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":84,\"unit\":\"in\"},\"depth\":{\"value\":72,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Cedar interior walls; Abachi and heat-treated Alder benches, backrests, skirt and heater guard; oil-rubbed Cedar exterior."
+    },
+    {
+      "id": "evidence-finnleo-twilight-9-0501-depth-electrical",
+      "entity_id": "finnleo-twilight-9-0501-standard",
+      "source_id": "source-finnleo-twilight-9-0501-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists no voltage V, no amperage A, no normalized connection wording and no single rated power W for this model."
+    },
+    {
+      "id": "evidence-finnleo-solace-9-0502-depth-product",
+      "entity_id": "finnleo-solace-9-0502",
+      "source_id": "source-finnleo-solace-9-0502-product",
+      "field_path": "product_identity_capacity_heat_and_placement",
+      "raw_value": "Solace is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor traditional sauna."
+    },
+    {
+      "id": "evidence-finnleo-solace-9-0502-depth-configuration",
+      "entity_id": "finnleo-solace-9-0502-standard",
+      "source_id": "source-finnleo-solace-9-0502-product",
+      "field_path": "configuration.dimensions_and_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":84,\"unit\":\"in\"},\"depth\":{\"value\":72,\"unit\":\"in\"},\"height\":{\"value\":84,\"unit\":\"in\"}}; material Nordic White Spruce interior and exterior; Abachi benches and backrests."
+    },
+    {
+      "id": "evidence-finnleo-solace-9-0502-depth-electrical",
+      "entity_id": "finnleo-solace-9-0502-standard",
+      "source_id": "source-finnleo-solace-9-0502-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 240 V, no amperage A, no normalized connection wording and 6000 W for this model."
+    },
+    {
+      "id": "evidence-finnleo-is440-infrasauna-9-0602-depth-product",
+      "entity_id": "finnleo-is440-infrasauna-9-0602",
+      "source_id": "source-finnleo-is440-infrasauna-9-0602-product",
+      "field_path": "product_identity_capacity_heat_and_placement",
+      "raw_value": "IS440 InfraSauna is listed on the Finnleo model page with a seating capacity of 2; the page identifies the model as an indoor hybrid sauna."
+    },
+    {
+      "id": "evidence-finnleo-is440-infrasauna-9-0602-depth-configuration",
+      "entity_id": "finnleo-is440-infrasauna-9-0602-standard",
+      "source_id": "source-finnleo-is440-infrasauna-9-0602-product",
+      "field_path": "configuration.dimensions_and_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":48.25,\"unit\":\"in\"},\"depth\":{\"value\":48.25,\"unit\":\"in\"},\"height\":{\"value\":80,\"unit\":\"in\"}}; material Hemlock interior and exterior."
+    },
+    {
+      "id": "evidence-finnleo-is440-infrasauna-9-0602-depth-electrical",
+      "entity_id": "finnleo-is440-infrasauna-9-0602-standard",
+      "source_id": "source-finnleo-is440-infrasauna-9-0602-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 120 V, no amperage A, plug-in and no single rated power W for this model."
+    },
+    {
+      "id": "evidence-finnleo-is565-infrasauna-9805-0840-depth-product",
+      "entity_id": "finnleo-is565-infrasauna-9805-0840",
+      "source_id": "source-finnleo-is565-infrasauna-9805-0840-product",
+      "field_path": "product_identity_capacity_heat_and_placement",
+      "raw_value": "IS565 InfraSauna is listed on the Finnleo model page with a seating capacity of 5; the page identifies the model as an indoor hybrid sauna."
+    },
+    {
+      "id": "evidence-finnleo-is565-infrasauna-9805-0840-depth-configuration",
+      "entity_id": "finnleo-is565-infrasauna-9805-0840-standard",
+      "source_id": "source-finnleo-is565-infrasauna-9805-0840-product",
+      "field_path": "configuration.dimensions_and_materials",
+      "raw_value": "Exterior dimensions {\"width\":{\"value\":73.75,\"unit\":\"in\"},\"depth\":{\"value\":61.75,\"unit\":\"in\"},\"height\":{\"value\":80,\"unit\":\"in\"}}; material Hemlock interior and exterior."
+    },
+    {
+      "id": "evidence-finnleo-is565-infrasauna-9805-0840-depth-electrical",
+      "entity_id": "finnleo-is565-infrasauna-9805-0840-standard",
+      "source_id": "source-finnleo-is565-infrasauna-9805-0840-product",
+      "field_path": "electrical_supply_options",
+      "raw_value": "Finnleo lists 240 V, 30 A, hardwired and 6000 W for this model."
     }
   ]
 }

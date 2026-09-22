@@ -23177,13 +23177,19 @@
       "product_id": "finnleo-centurion-9-0504",
       "label": "Centurion standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "centurion-9-0504",
+        "evidence_ids": [
+          "evidence-finnleo-centurion-9-0504-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-finnleo-centurion-9-0504-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -23192,8 +23198,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 84,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72,
+              "unit": "in"
+            },
+            "height": {
+              "value": 84,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-centurion-9-0504-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -23217,8 +23239,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Black Taika wall paneling; clear vertical-grain Canadian Hemlock benches and backrests"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-centurion-9-0504-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -23231,8 +23258,11 @@
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-finnleo-centurion-9-0504-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -23243,16 +23273,19 @@
                 "reason": "Phase is not stated in the reviewed catalog record."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 7000,
+                "evidence_ids": [
+                  "evidence-finnleo-centurion-9-0504-depth-electrical"
+                ]
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -23260,7 +23293,7 @@
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a normalized connection type."
               },
               "plug_type": {
                 "status": "unknown",
@@ -23268,7 +23301,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
@@ -24047,13 +24080,19 @@
       "product_id": "finnleo-is440-infrasauna-9-0602",
       "label": "IS440 InfraSauna standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "is440-infrasauna-9-0602",
+        "evidence_ids": [
+          "evidence-finnleo-is440-infrasauna-9-0602-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-finnleo-is440-infrasauna-9-0602-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -24062,8 +24101,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 48.25,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 48.25,
+              "unit": "in"
+            },
+            "height": {
+              "value": 80,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-is440-infrasauna-9-0602-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -24087,8 +24142,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Hemlock interior and exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-is440-infrasauna-9-0602-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -24101,8 +24161,11 @@
             {
               "component": "infrared-system",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnleo-is440-infrasauna-9-0602-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -24114,31 +24177,37 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state one single rated power for this configuration."
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
                 "reason": "Breaker rating is not stated in the reviewed catalog record."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnleo-is440-infrasauna-9-0602-depth-electrical"
+                ]
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated in the reviewed catalog record."
               },
               "dedicated_circuit": {
-                "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": false,
+                "evidence_ids": [
+                  "evidence-finnleo-is440-infrasauna-9-0602-depth-electrical"
+                ]
               }
             }
           ]
@@ -24157,13 +24226,19 @@
       "product_id": "finnleo-is565-infrasauna-9805-0840",
       "label": "IS565 InfraSauna standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "is565-infrasauna-9805-0840",
+        "evidence_ids": [
+          "evidence-finnleo-is565-infrasauna-9805-0840-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-finnleo-is565-infrasauna-9805-0840-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -24172,8 +24247,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 73.75,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 61.75,
+              "unit": "in"
+            },
+            "height": {
+              "value": 80,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-is565-infrasauna-9805-0840-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -24197,8 +24288,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Hemlock interior and exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-is565-infrasauna-9805-0840-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -24211,8 +24307,11 @@
             {
               "component": "infrared-system",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-finnleo-is565-infrasauna-9805-0840-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -24223,32 +24322,47 @@
                 "reason": "Phase is not stated in the reviewed catalog record."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-finnleo-is565-infrasauna-9805-0840-depth-electrical"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-finnleo-is565-infrasauna-9805-0840-depth-electrical"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-finnleo-is565-infrasauna-9805-0840-depth-electrical"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
                 "reason": "Breaker rating is not stated in the reviewed catalog record."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": "hardwired",
+                "evidence_ids": [
+                  "evidence-finnleo-is565-infrasauna-9805-0840-depth-electrical"
+                ]
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated in the reviewed catalog record."
               },
               "dedicated_circuit": {
-                "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-finnleo-is565-infrasauna-9805-0840-depth-electrical"
+                ]
               }
             }
           ]
@@ -24267,13 +24381,19 @@
       "product_id": "finnleo-northstar-indoor-sauna-4-x-4-9-0550",
       "label": "NorthStar Indoor Sauna 4 x 4 standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "northstar-indoor-sauna-4-x-4-9-0550",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -24282,8 +24402,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 48,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 48,
+              "unit": "in"
+            },
+            "height": {
+              "value": 80,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -24307,8 +24443,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Nordic White Spruce interior and exterior; Clear Abachi or Aspen benches and backrests"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -24321,8 +24462,11 @@
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 120,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -24333,32 +24477,41 @@
                 "reason": "Phase is not stated in the reviewed catalog record."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 2200,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-electrical"
+                ]
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
                 "reason": "Breaker rating is not stated in the reviewed catalog record."
               },
               "connection": {
-                "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": "plug-in",
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-electrical"
+                ]
               },
               "plug_type": {
                 "status": "unknown",
                 "reason": "Plug type is not stated in the reviewed catalog record."
               },
               "dedicated_circuit": {
-                "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": true,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-4-x-4-9-0550-depth-electrical"
+                ]
               }
             }
           ]
@@ -24377,13 +24530,19 @@
       "product_id": "finnleo-northstar-indoor-sauna-4-x-6-9630-2263",
       "label": "NorthStar Indoor Sauna 4 x 6 standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "northstar-indoor-sauna-4-x-6-9630-2263",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -24392,8 +24551,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 48,
+              "unit": "in"
+            },
+            "height": {
+              "value": 84,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -24417,8 +24592,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Nordic White Spruce interior and exterior; Clear Abachi or Aspen benches and backrests"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -24431,8 +24611,11 @@
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -24443,16 +24626,25 @@
                 "reason": "Phase is not stated in the reviewed catalog record."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 4500,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-electrical"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-electrical"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-depth-electrical"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -24460,7 +24652,7 @@
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a normalized connection type."
               },
               "plug_type": {
                 "status": "unknown",
@@ -24468,7 +24660,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
@@ -24487,13 +24679,19 @@
       "product_id": "finnleo-northstar-indoor-sauna-5-x-6-9630-2264",
       "label": "NorthStar Indoor Sauna 5 x 6 standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "northstar-indoor-sauna-5-x-6-9630-2264",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -24502,8 +24700,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 60,
+              "unit": "in"
+            },
+            "height": {
+              "value": 84,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -24527,8 +24741,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Nordic White Spruce interior and exterior; Clear Aspen or Abachi benches and backrests"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -24541,8 +24760,11 @@
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -24553,16 +24775,25 @@
                 "reason": "Phase is not stated in the reviewed catalog record."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-electrical"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-electrical"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-5-x-6-9630-2264-depth-electrical"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -24570,7 +24801,7 @@
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a normalized connection type."
               },
               "plug_type": {
                 "status": "unknown",
@@ -24578,7 +24809,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
@@ -24597,13 +24828,19 @@
       "product_id": "finnleo-northstar-indoor-sauna-5-x-7-9630-2265",
       "label": "NorthStar Indoor Sauna 5 x 7 standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "northstar-indoor-sauna-5-x-7-9630-2265",
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -24612,8 +24849,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 84,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 60,
+              "unit": "in"
+            },
+            "height": {
+              "value": 84,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -24637,8 +24890,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Nordic White Spruce interior and exterior; Clear Abachi or Aspen benches and backrests"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -24651,8 +24909,11 @@
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -24663,16 +24924,25 @@
                 "reason": "Phase is not stated in the reviewed catalog record."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-electrical"
+                ]
               },
               "rated_current_a": {
-                "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-electrical"
+                ]
               },
               "required_circuit_a": {
-                "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 30,
+                "evidence_ids": [
+                  "evidence-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-depth-electrical"
+                ]
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -24680,7 +24950,7 @@
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a normalized connection type."
               },
               "plug_type": {
                 "status": "unknown",
@@ -24688,7 +24958,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
@@ -26499,13 +26769,19 @@
       "product_id": "finnleo-solace-9-0502",
       "label": "Solace standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "solace-9-0502",
+        "evidence_ids": [
+          "evidence-finnleo-solace-9-0502-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-finnleo-solace-9-0502-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -26514,8 +26790,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 84,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72,
+              "unit": "in"
+            },
+            "height": {
+              "value": 84,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-solace-9-0502-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -26539,8 +26831,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Nordic White Spruce interior and exterior; Abachi benches and backrests"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-solace-9-0502-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -26553,8 +26850,11 @@
             {
               "component": "heater",
               "voltage_v": {
-                "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 240,
+                "evidence_ids": [
+                  "evidence-finnleo-solace-9-0502-depth-electrical"
+                ]
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -26565,16 +26865,19 @@
                 "reason": "Phase is not stated in the reviewed catalog record."
               },
               "rated_power_w": {
-                "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "status": "documented",
+                "value": 6000,
+                "evidence_ids": [
+                  "evidence-finnleo-solace-9-0502-depth-electrical"
+                ]
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -26582,7 +26885,7 @@
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a normalized connection type."
               },
               "plug_type": {
                 "status": "unknown",
@@ -26590,7 +26893,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
@@ -26609,13 +26912,19 @@
       "product_id": "finnleo-twilight-9-0501",
       "label": "Twilight standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "twilight-9-0501",
+        "evidence_ids": [
+          "evidence-finnleo-twilight-9-0501-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 5,
+          "evidence_ids": [
+            "evidence-finnleo-twilight-9-0501-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -26624,8 +26933,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 84,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72,
+              "unit": "in"
+            },
+            "height": {
+              "value": 84,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-twilight-9-0501-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -26649,8 +26974,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Cedar interior walls; Abachi and heat-treated Alder benches, backrests, skirt and heater guard; oil-rubbed Cedar exterior"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-twilight-9-0501-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -26664,7 +26994,7 @@
               "component": "heater",
               "voltage_v": {
                 "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a supply voltage."
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -26676,15 +27006,15 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state one single rated power for this configuration."
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -26692,7 +27022,7 @@
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a normalized connection type."
               },
               "plug_type": {
                 "status": "unknown",
@@ -26700,7 +27030,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
@@ -26719,13 +27049,19 @@
       "product_id": "finnleo-vita-ii-9-0503",
       "label": "Vita II standard configuration",
       "manufacturer_sku": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "status": "documented",
+        "value": "vita-ii-9-0503",
+        "evidence_ids": [
+          "evidence-finnleo-vita-ii-9-0503-depth-configuration"
+        ]
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 3,
+          "evidence_ids": [
+            "evidence-finnleo-vita-ii-9-0503-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -26734,8 +27070,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 63,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 63,
+              "unit": "in"
+            },
+            "height": {
+              "value": 84,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-vita-ii-9-0503-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -26759,8 +27111,13 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Hemlock interior and exterior; Abachi and heat-treated Alder deck, benches, backrest and upper bench skirt"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-vita-ii-9-0503-depth-configuration"
+        ]
       },
       "components": [],
       "electrical_supply_options": [
@@ -26774,7 +27131,7 @@
               "component": "heater",
               "voltage_v": {
                 "status": "unknown",
-                "reason": "Voltage is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a supply voltage."
               },
               "frequency_hz": {
                 "status": "unknown",
@@ -26786,15 +27143,15 @@
               },
               "rated_power_w": {
                 "status": "unknown",
-                "reason": "Rated power is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state one single rated power for this configuration."
               },
               "rated_current_a": {
                 "status": "unknown",
-                "reason": "Rated current is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a rated current."
               },
               "required_circuit_a": {
                 "status": "unknown",
-                "reason": "Required circuit rating is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a required circuit rating."
               },
               "specified_breaker_a": {
                 "status": "unknown",
@@ -26802,7 +27159,7 @@
               },
               "connection": {
                 "status": "unknown",
-                "reason": "Connection type is not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state a normalized connection type."
               },
               "plug_type": {
                 "status": "unknown",
@@ -26810,7 +27167,7 @@
               },
               "dedicated_circuit": {
                 "status": "unknown",
-                "reason": "Dedicated-circuit requirements are not stated in the reviewed catalog record."
+                "reason": "The exact Finnleo model page does not state whether a dedicated circuit is required."
               }
             }
           ]
