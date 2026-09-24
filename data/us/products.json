@@ -8437,14 +8437,14 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-finnleo-4-x-6-euro-9-0701-product"
+          "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-product"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "traditional",
         "evidence_ids": [
-          "evidence-finnleo-4-x-6-euro-9-0701-product"
+          "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-product"
         ]
       },
       "energy_sources": {
@@ -8452,14 +8452,19 @@
         "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
       },
       "placements": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-product"
+        ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Customizable free-standing outdoor sauna",
         "evidence_ids": [
-          "evidence-finnleo-4-x-6-euro-9-0701-product"
+          "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-product"
         ]
       },
       "configuration_ids": [
@@ -8469,8 +8474,9 @@
         "source-finnleo-4-x-6-euro-9-0701-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-24",
+      "change_reason": "Finnleo Euro Outdoor model pages reviewed for capacity, overall dimensions, material options and included/optional components; model-specific electrical details remain unconfirmed.",
+      "next_review_at": "2026-12-24"
     },
     {
       "id": "finnleo-5-x-6-euro-9-0702",
@@ -8482,14 +8488,14 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-finnleo-5-x-6-euro-9-0702-product"
+          "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-product"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "traditional",
         "evidence_ids": [
-          "evidence-finnleo-5-x-6-euro-9-0702-product"
+          "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-product"
         ]
       },
       "energy_sources": {
@@ -8497,14 +8503,19 @@
         "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
       },
       "placements": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-product"
+        ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Customizable free-standing outdoor sauna",
         "evidence_ids": [
-          "evidence-finnleo-5-x-6-euro-9-0702-product"
+          "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-product"
         ]
       },
       "configuration_ids": [
@@ -8514,8 +8525,9 @@
         "source-finnleo-5-x-6-euro-9-0702-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-24",
+      "change_reason": "Finnleo Euro Outdoor model pages reviewed for capacity, overall dimensions, material options and included/optional components; model-specific electrical details remain unconfirmed.",
+      "next_review_at": "2026-12-24"
     },
     {
       "id": "finnleo-5-x-7-euro-9-0703",
@@ -8527,14 +8539,14 @@
         "status": "documented",
         "value": "sauna-cabin",
         "evidence_ids": [
-          "evidence-finnleo-5-x-7-euro-9-0703-product"
+          "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-product"
         ]
       },
       "heat_type": {
         "status": "documented",
         "value": "traditional",
         "evidence_ids": [
-          "evidence-finnleo-5-x-7-euro-9-0703-product"
+          "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-product"
         ]
       },
       "energy_sources": {
@@ -8542,14 +8554,19 @@
         "reason": "The reviewed Finnleo product page does not provide a normalized US energy-source record for this catalog candidate."
       },
       "placements": {
-        "status": "unknown",
-        "reason": "The reviewed Finnleo product page does not state one placement context for this candidate."
+        "status": "documented",
+        "value": [
+          "outdoor"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-product"
+        ]
       },
       "form": {
         "status": "documented",
-        "value": "Sauna cabin",
+        "value": "Customizable free-standing outdoor sauna",
         "evidence_ids": [
-          "evidence-finnleo-5-x-7-euro-9-0703-product"
+          "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-product"
         ]
       },
       "configuration_ids": [
@@ -8559,8 +8576,9 @@
         "source-finnleo-5-x-7-euro-9-0703-product"
       ],
       "publication_status": "candidate",
-      "spec_checked_at": "2026-09-16",
-      "change_reason": "Added from an exact official Finnleo US product page; technical review remains open before publication."
+      "spec_checked_at": "2026-09-24",
+      "change_reason": "Finnleo Euro Outdoor model pages reviewed for capacity, overall dimensions, material options and included/optional components; model-specific electrical details remain unconfirmed.",
+      "next_review_at": "2026-12-24"
     },
     {
       "id": "finnleo-6-x-12-euro-sauna-wchanging-room-9-0705",

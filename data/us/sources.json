@@ -1816,31 +1816,31 @@
       "id": "source-finnleo-4-x-6-euro-9-0701-product",
       "type": "manufacturer-page",
       "url": "https://www.finnleo.com/products/4-x-6-euro-9-0701",
-      "title": "Euro Sauna 4 x 6 product page",
+      "title": "4' x 6' Euro outdoor sauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-24",
+      "locator": "Outdoor model page: capacity, separate sauna-size and overall-dimension fields, construction options, floor, roof kit and accessories"
     },
     {
       "id": "source-finnleo-5-x-6-euro-9-0702-product",
       "type": "manufacturer-page",
       "url": "https://www.finnleo.com/products/5-x-6-euro-9-0702",
-      "title": "Euro Sauna 5 x 6 product page",
+      "title": "5' x 6' Euro outdoor sauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-24",
+      "locator": "Outdoor model page: seating range, separate sauna-size and overall-dimension fields, construction options, floor, roof kit and accessories"
     },
     {
       "id": "source-finnleo-5-x-7-euro-9-0703-product",
       "type": "manufacturer-page",
       "url": "https://www.finnleo.com/products/5-x-7-euro-9-0703",
-      "title": "Euro Sauna 5 x 7 product page",
+      "title": "5' x 7' Euro outdoor sauna product page",
       "publisher": "Finnleo",
       "market": "US",
-      "checked_at": "2026-09-16",
-      "locator": "Product page model identity and product class"
+      "checked_at": "2026-09-24",
+      "locator": "Outdoor model page: seating range, separate sauna-size and overall-dimension fields, construction options, floor, roof kit and accessories"
     },
     {
       "id": "source-finnleo-6-x-12-euro-sauna-wchanging-room-9-0705-product",
@@ -8351,6 +8351,48 @@
       "source_id": "source-geyser-autana-product",
       "field_path": "capacity.specification_table",
       "raw_value": "Official specification table: Capacity 4-6 person."
+    },
+    {
+      "id": "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-product",
+      "entity_id": "finnleo-4-x-6-euro-9-0701",
+      "source_id": "source-finnleo-4-x-6-euro-9-0701-product",
+      "field_path": "product_identity_capacity_and_included_items",
+      "raw_value": "Finnleo lists seating capacity as 2. Finnleo describes an outdoor Euro model with configurable benches. Listed items and options are captured separately in the configuration record."
+    },
+    {
+      "id": "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-configuration",
+      "entity_id": "finnleo-4-x-6-euro-9-0701-standard",
+      "source_id": "source-finnleo-4-x-6-euro-9-0701-product",
+      "field_path": "configuration.overall_dimensions_materials_and_components",
+      "raw_value": "Finnleo publishes overall dimensions {\"width\":{\"value\":72,\"unit\":\"in\"},\"depth\":{\"value\":48,\"unit\":\"in\"},\"height\":{\"value\":88,\"unit\":\"in\"}} separately from the named sauna size. Exterior is cedar; interior options are Nordic White Spruce, Hemlock, or Cedar. The page states the floor is included and roof kit optional."
+    },
+    {
+      "id": "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-product",
+      "entity_id": "finnleo-5-x-6-euro-9-0702",
+      "source_id": "source-finnleo-5-x-6-euro-9-0702-product",
+      "field_path": "product_identity_capacity_and_included_items",
+      "raw_value": "Finnleo gives a 2–3 person range; the catalog's normalized seated-capacity field only accepts a single integer, so no value is inferred. Finnleo describes an outdoor Euro model with configurable benches. Listed items and options are captured separately in the configuration record."
+    },
+    {
+      "id": "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-configuration",
+      "entity_id": "finnleo-5-x-6-euro-9-0702-standard",
+      "source_id": "source-finnleo-5-x-6-euro-9-0702-product",
+      "field_path": "configuration.overall_dimensions_materials_and_components",
+      "raw_value": "Finnleo publishes overall dimensions {\"width\":{\"value\":60,\"unit\":\"in\"},\"depth\":{\"value\":72,\"unit\":\"in\"},\"height\":{\"value\":88,\"unit\":\"in\"}} separately from the named sauna size. Exterior is cedar; interior options are Nordic White Spruce, Hemlock, or Cedar. The page states the floor is included and roof kit optional."
+    },
+    {
+      "id": "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-product",
+      "entity_id": "finnleo-5-x-7-euro-9-0703",
+      "source_id": "source-finnleo-5-x-7-euro-9-0703-product",
+      "field_path": "product_identity_capacity_and_included_items",
+      "raw_value": "Finnleo gives a 2–3 person range; the catalog's normalized seated-capacity field only accepts a single integer, so no value is inferred. Finnleo describes an outdoor Euro model with configurable benches. Listed items and options are captured separately in the configuration record."
+    },
+    {
+      "id": "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-configuration",
+      "entity_id": "finnleo-5-x-7-euro-9-0703-standard",
+      "source_id": "source-finnleo-5-x-7-euro-9-0703-product",
+      "field_path": "configuration.overall_dimensions_materials_and_components",
+      "raw_value": "Finnleo publishes overall dimensions {\"width\":{\"value\":84,\"unit\":\"in\"},\"depth\":{\"value\":60,\"unit\":\"in\"},\"height\":{\"value\":88,\"unit\":\"in\"}} separately from the named sauna size. Exterior is cedar; interior options are Nordic White Spruce, Hemlock, or Cedar. The page states the floor is included and roof kit optional."
     }
   ]
 }

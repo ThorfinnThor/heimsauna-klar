@@ -22518,12 +22518,15 @@
       "label": "Euro Sauna 4 x 6 standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "reason": "The exact Finnleo page does not identify a manufacturer SKU; its URL identifier is not treated as an SKU."
       },
       "capacity": {
         "seated": {
-          "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "status": "documented",
+          "value": 2,
+          "evidence_ids": [
+            "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-product"
+          ]
         },
         "reclining": {
           "status": "unknown",
@@ -22532,8 +22535,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 72,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 48,
+              "unit": "in"
+            },
+            "height": {
+              "value": 88,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -22557,10 +22576,44 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Cedar exterior",
+          "Interior options: Nordic White Spruce, Hemlock, or Cedar"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-configuration"
+        ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnleo-4-x-6-euro-9-0701-standard-component-1",
+          "component_type": "other",
+          "name": "Floor",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-configuration"
+          ]
+        },
+        {
+          "id": "finnleo-4-x-6-euro-9-0701-standard-component-2",
+          "component_type": "other",
+          "name": "Optional roof kit",
+          "inclusion": "excluded",
+          "evidence_ids": [
+            "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-configuration"
+          ]
+        },
+        {
+          "id": "finnleo-4-x-6-euro-9-0701-standard-component-3",
+          "component_type": "other",
+          "name": "Bucket and ladle",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-4-x-6-euro-9-0701-euro-depth-configuration"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
           "id": "finnleo-4-x-6-euro-9-0701-electrical-unknown",
@@ -22628,12 +22681,12 @@
       "label": "Euro Sauna 5 x 6 standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "reason": "The exact Finnleo page does not identify a manufacturer SKU; its URL identifier is not treated as an SKU."
       },
       "capacity": {
         "seated": {
           "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "reason": "Finnleo gives a 2–3 person range; the catalog's normalized seated-capacity field only accepts a single integer, so no value is inferred."
         },
         "reclining": {
           "status": "unknown",
@@ -22642,8 +22695,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 60,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 72,
+              "unit": "in"
+            },
+            "height": {
+              "value": 88,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -22667,10 +22736,44 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Cedar exterior",
+          "Interior options: Nordic White Spruce, Hemlock, or Cedar"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-configuration"
+        ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnleo-5-x-6-euro-9-0702-standard-component-1",
+          "component_type": "other",
+          "name": "Floor",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-configuration"
+          ]
+        },
+        {
+          "id": "finnleo-5-x-6-euro-9-0702-standard-component-2",
+          "component_type": "other",
+          "name": "Optional roof kit",
+          "inclusion": "excluded",
+          "evidence_ids": [
+            "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-configuration"
+          ]
+        },
+        {
+          "id": "finnleo-5-x-6-euro-9-0702-standard-component-3",
+          "component_type": "other",
+          "name": "Bucket and ladle",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-5-x-6-euro-9-0702-euro-depth-configuration"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
           "id": "finnleo-5-x-6-euro-9-0702-electrical-unknown",
@@ -22738,12 +22841,12 @@
       "label": "Euro Sauna 5 x 7 standard configuration",
       "manufacturer_sku": {
         "status": "unknown",
-        "reason": "The reviewed Finnleo page does not expose a normalized manufacturer SKU in this catalog record."
+        "reason": "The exact Finnleo page does not identify a manufacturer SKU; its URL identifier is not treated as an SKU."
       },
       "capacity": {
         "seated": {
           "status": "unknown",
-          "reason": "Seated capacity is not normalized from the reviewed product page."
+          "reason": "Finnleo gives a 2–3 person range; the catalog's normalized seated-capacity field only accepts a single integer, so no value is inferred."
         },
         "reclining": {
           "status": "unknown",
@@ -22752,8 +22855,24 @@
       },
       "dimensions": {
         "exterior": {
-          "status": "unknown",
-          "reason": "Complete exterior dimensions require the individual technical specification."
+          "status": "documented",
+          "value": {
+            "width": {
+              "value": 84,
+              "unit": "in"
+            },
+            "depth": {
+              "value": 60,
+              "unit": "in"
+            },
+            "height": {
+              "value": 88,
+              "unit": "in"
+            }
+          },
+          "evidence_ids": [
+            "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-configuration"
+          ]
         },
         "interior": {
           "status": "unknown",
@@ -22777,10 +22896,44 @@
         "reason": "Shipping weight is not stated in the reviewed catalog record."
       },
       "materials": {
-        "status": "unknown",
-        "reason": "Model-level materials require the individual Finnleo specification."
+        "status": "documented",
+        "value": [
+          "Cedar exterior",
+          "Interior options: Nordic White Spruce, Hemlock, or Cedar"
+        ],
+        "evidence_ids": [
+          "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-configuration"
+        ]
       },
-      "components": [],
+      "components": [
+        {
+          "id": "finnleo-5-x-7-euro-9-0703-standard-component-1",
+          "component_type": "other",
+          "name": "Floor",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-configuration"
+          ]
+        },
+        {
+          "id": "finnleo-5-x-7-euro-9-0703-standard-component-2",
+          "component_type": "other",
+          "name": "Optional roof kit",
+          "inclusion": "excluded",
+          "evidence_ids": [
+            "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-configuration"
+          ]
+        },
+        {
+          "id": "finnleo-5-x-7-euro-9-0703-standard-component-3",
+          "component_type": "other",
+          "name": "Bucket and ladle",
+          "inclusion": "included",
+          "evidence_ids": [
+            "evidence-finnleo-5-x-7-euro-9-0703-euro-depth-configuration"
+          ]
+        }
+      ],
       "electrical_supply_options": [
         {
           "id": "finnleo-5-x-7-euro-9-0703-electrical-unknown",

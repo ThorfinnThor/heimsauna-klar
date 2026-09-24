@@ -620,7 +620,7 @@
       "offer-sweat-kingdom-regen-sweat-pod"
     ],
     "source_count": 318,
-    "evidence_count": 738,
+    "evidence_count": 744,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
@@ -1009,15 +1009,15 @@
     },
     {
       "path": "data/us/products.json",
-      "sha256": "53bbb51516ba0854dbb943a7ba12f56706a75c1e2fcd070860efc1d1f46bc29a"
+      "sha256": "a7e22f1039ccef695f3535db01a084b0e3d98a074a6bb36c88a93849372397a4"
     },
     {
       "path": "data/us/configurations.json",
-      "sha256": "ee46635812a7b44d2dc6533a11b5ab0ebe8294b806b00c0a3e1be03244168d82"
+      "sha256": "ba4f9bdce9feba28e9ab2b4eebc599e42ffc5e634e3c4651f68cdeefb0262f81"
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "df2113be5779c4bae5ea02984556bb828256b8bf310d29b2afffc1a38a514ba7"
+      "sha256": "aa1044e63724192596f8fcfd2d7f39faa30cdd96869b99344d47e58909c2d08d"
     },
     {
       "path": "data/us/merchants.json",

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "market": "US",
   "status": "reviewed-current",
-  "updated_at": "2026-09-23",
+  "updated_at": "2026-09-24",
   "scope": "Current 290-record US research catalog. Category counts overlap where a sauna kit also belongs to a placement and heat-type segment. Counts describe distinct product models, never electrical variants.",
   "data_complete_definition": "Product type, heat type, energy source, placement, form, seated capacity, exterior dimensions and materials are documented, and one electrical requirement documents voltage, rated power and rated current together.",
   "categories": [
@@ -43,12 +43,13 @@
     {
       "id": "outdoor-traditional-cabins",
       "label": "Outdoor traditional saunas",
-      "product_count": 103,
+      "product_count": 106,
       "data_complete_count": 24,
       "status": "covered-with-open-records",
       "gaps": [
         "Several SaunaLife and Thermory kits are cabin structures without a documented included electrical package.",
-        "Foundation, roof, weather exposure and heater selection cannot be inferred from exterior dimensions alone."
+        "Foundation, roof, weather exposure and heater selection cannot be inferred from exterior dimensions alone.",
+        "Three Finnleo Euro Outdoor records now have exact page-backed overall dimensions and finish options, but two state capacity as a range and model-level electrical requirements remain open."
       ]
     },
     {
@@ -93,6 +94,7 @@
   "next_priorities": [
     "Write and review unique decision copy for the ten technically qualified first-wave products.",
     "Normalize model-level electrical packages for the strongest traditional outdoor candidates before expanding the launch wave.",
+    "Resolve Finnleo Euro Outdoor page inconsistencies and capacity ranges before any of those candidates can be considered for publication.",
     "Define a dedicated portable-sauna review method before publishing the newly documented tent models.",
     "Do not enable US indexing from catalog count alone."
   ]
