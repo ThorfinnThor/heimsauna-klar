@@ -10,7 +10,7 @@ const headerCopy = {
       { href: "/de/#finder", label: "Sauna-Finder" },
       { href: "/de/produkte/", label: "Produkte" },
       { href: "/de/vergleiche/", label: "Vergleiche" },
-      { href: "/de/planung/", label: "Planung" },
+      { href: "/de/planung/", label: "Ratgeber" },
       { href: "/de/saunatechnik/230-v-sauna/", label: "230 V verstehen" },
     ],
     cta: { href: "/de/#finder", label: "Passenden Typ finden" },
@@ -20,6 +20,7 @@ const headerCopy = {
     navigationLabel: "Primary navigation",
     items: [
       { href: "/us/saunas/", label: "Saunas" },
+      { href: "/us/guides/", label: "Guides" },
       { href: "/us/sauna-finder/", label: "Sauna Finder" },
     ],
     cta: { href: "/us/sauna-finder/", label: "Find a configuration" },
@@ -36,7 +37,6 @@ function getUsNavigationItems() {
   const items = [...headerCopy.US.items];
   for (const entry of [
     { type: "comparison" as const, href: "/us/compare/", label: "Compare" },
-    { type: "guide" as const, href: "/us/guides/", label: "Guides" },
     { type: "brand" as const, href: "/us/brands/", label: "Brands" },
   ]) {
     if (getUsEditorialPages(entry.type, { includeNonPublic }).length > 0) items.push({ href: entry.href, label: entry.label });
@@ -103,11 +103,17 @@ export function SiteFooter({ market = "DE" }: { market?: MarketCode }) {
         {isGerman ? (
           <>
             <Link href="/de/ueber-uns/">Über uns &amp; Methodik</Link>
+            <Link href="/de/planung/">Ratgeber</Link>
             <Link href="/de/rechtliches/#impressum">Impressum</Link>
             <Link href="/de/rechtliches/#datenschutz">Datenschutz</Link>
             <Link href="/de/transparenz/affiliate/">Affiliate</Link>
           </>
-        ) : usTrustLinks.map((item) => <Link href={item.href} key={item.slug}>{item.label}</Link>)}
+        ) : (
+          <>
+            <Link href="/us/guides/">Guides</Link>
+            {usTrustLinks.map((item) => <Link href={item.href} key={item.slug}>{item.label}</Link>)}
+          </>
+        )}
       </div>
       <p className="footer-note">{isGerman ? "Betreiber" : "Operated by"}: SeitenHafen361 · Schayan Yousefian</p>
     </footer>

@@ -1739,8 +1739,20 @@ html[data-market="US"] .not-found-copy[data-market="US"] {
 .legal-subsection p { margin: 0; color: var(--ink-soft); font-size: 15px; line-height: 1.65; }
 
 @media (max-width: 1050px) {
-  .site-header { grid-template-columns: 1fr auto; }
-  .nav { display: none; }
+  .site-header {
+    height: auto;
+    min-height: 88px;
+    padding-block: 16px;
+    grid-template-columns: 1fr auto;
+    row-gap: 14px;
+  }
+  .site-header .nav {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    font-size: 15px;
+  }
   .hero { grid-template-columns: 1fr; }
   .hero-copy { min-height: 690px; padding-right: 0; }
   .hero-visual { min-height: 620px; }
