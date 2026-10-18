@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T12:25:04.348Z",
+  "generated_at": "2026-10-18T09:53:30.455Z",
   "source": "Awin authenticated product feeds",
   "secret_included": false,
   "matching_policy": "Exact normalized merchant product URL only; no fuzzy product activation",
   "products_total": 516,
-  "newly_matched_offers": 208,
+  "newly_matched_offers": 206,
   "active_affiliate_offers": 210,
   "targets": [
     {
@@ -14,12 +14,13 @@
       "advertiser_name": "Artsauna DE",
       "feed_id": "97646",
       "feed_name": "Default",
-      "feed_rows": 47,
+      "feed_rows": 61,
       "catalog_offers": 15,
-      "exact_matches": 14,
+      "exact_matches": 13,
       "invalid_tracking_links": 0,
       "unmatched_product_ids": [
-        "artsauna-fjora-m"
+        "artsauna-aalborg",
+        "artsauna-visby-300"
       ]
     },
     {
@@ -28,7 +29,7 @@
       "advertiser_name": "Home Deluxe DE",
       "feed_id": "84368",
       "feed_name": "Default",
-      "feed_rows": 4357,
+      "feed_rows": 3453,
       "catalog_offers": 34,
       "exact_matches": 34,
       "invalid_tracking_links": 0,
@@ -40,7 +41,7 @@
       "advertiser_name": "Benz24 DE/AT",
       "feed_id": "43829",
       "feed_name": "BENZ24 Deutschland",
-      "feed_rows": 93184,
+      "feed_rows": 88870,
       "catalog_offers": 11,
       "exact_matches": 11,
       "invalid_tracking_links": 0,
@@ -64,13 +65,11 @@
       "advertiser_name": "Saunaloft DE",
       "feed_id": "83153",
       "feed_name": "awinfeed.csv",
-      "feed_rows": 4084,
+      "feed_rows": 7446,
       "catalog_offers": 18,
-      "exact_matches": 17,
+      "exact_matches": 18,
       "invalid_tracking_links": 0,
-      "unmatched_product_ids": [
-        "artsauna-nolvik-xl"
-      ]
+      "unmatched_product_ids": []
     },
     {
       "merchant_id": "gartenhausfabrik",
@@ -78,7 +77,7 @@
       "advertiser_name": "Gartenhausfabrik DE",
       "feed_id": "92070",
       "feed_name": "Default",
-      "feed_rows": 10413,
+      "feed_rows": 10432,
       "catalog_offers": 20,
       "exact_matches": 20,
       "invalid_tracking_links": 0,
@@ -90,11 +89,14 @@
       "advertiser_name": "Wellness Point DE/AT",
       "feed_id": "109984",
       "feed_name": "DE-Feed",
-      "feed_rows": 151,
+      "feed_rows": 142,
       "catalog_offers": 17,
-      "exact_matches": 17,
+      "exact_matches": 15,
       "invalid_tracking_links": 0,
-      "unmatched_product_ids": []
+      "unmatched_product_ids": [
+        "wellness-point-finnische-sauna-alaska-ii",
+        "wellness-point-infrarotkabine-helsinki-beta"
+      ]
     },
     {
       "merchant_id": "demmelhuber",
@@ -102,7 +104,7 @@
       "advertiser_name": "Demmelhuber DE",
       "feed_id": "39421",
       "feed_name": "AWIN_DHV-default",
-      "feed_rows": 3935,
+      "feed_rows": 3925,
       "catalog_offers": 92,
       "exact_matches": 92,
       "invalid_tracking_links": 0,

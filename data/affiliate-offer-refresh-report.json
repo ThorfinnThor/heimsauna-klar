@@ -1,0 +1,2112 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-18",
+  "method": "structured price data (JSON-LD Product offers, itemprop/product:price meta) read from each offer URL",
+  "counts": {
+    "updated": 80,
+    "no-structured-price": 25,
+    "confirmed": 97,
+    "redirected-away": 1,
+    "from-price": 1,
+    "ambiguous-variants": 1,
+    "implausible-change": 3,
+    "unreachable": 2
+  },
+  "entries": [
+    {
+      "product_id": "karibu-sauna-sandra-6705",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-sandra-1-45-x-1-45-m-6705",
+      "stored_price": 1656.76,
+      "outcome": "updated",
+      "page_prices": [
+        1693.17
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-antonia-6717",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-antonia-1-45-x-1-45-m-6717",
+      "stored_price": 1799.88,
+      "outcome": "updated",
+      "page_prices": [
+        1802.54
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-selena-6729",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-selena-1-95-x-1-45-m-6729",
+      "stored_price": 1821.22,
+      "outcome": "updated",
+      "page_prices": [
+        1818.12
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-saja-85924",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-saja-1-51-x-1-96-m-85898",
+      "stored_price": 2742.82,
+      "outcome": "updated",
+      "page_prices": [
+        2553.63
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-jella-6741",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-jella-1-95-x-1-45-m-6744",
+      "stored_price": 2147.98,
+      "outcome": "updated",
+      "page_prices": [
+        2027.13
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fanja-85868",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-fanja-1-96-x-1-51-m-59778",
+      "stored_price": 1949.32,
+      "outcome": "updated",
+      "page_prices": [
+        1920.74
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-kuopio-238x238",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/weka-design-saunahaus-kuopio-sparset-natu.html",
+      "stored_price": 4698.06,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-saunahaus-monterey-34032",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/detail/index/sArticle/25710",
+      "stored_price": 8678.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        8678.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-hytti-3-93863m",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hytti-3-2-31-x-1-96-m-38-mm-93872",
+      "stored_price": 2638.21,
+      "outcome": "updated",
+      "page_prices": [
+        2496.98
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-hytti-2-97707",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hytti-2-1-96-x-1-96-m-38-mm-93869",
+      "stored_price": 2504.35,
+      "outcome": "updated",
+      "page_prices": [
+        2367.94
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-hytti-1-exclusive-99937",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hytti-1-1-96-x-1-46-m-38-mm-93865",
+      "stored_price": 2058.98,
+      "outcome": "updated",
+      "page_prices": [
+        2150.26
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-1-86283",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-1-naturbelassen.html",
+      "stored_price": 3389,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-1-86283",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-1-terragrau.html",
+      "stored_price": 3901,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-1-86283",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-skrollan-1-3-37-x-1-96-cm-mit-vorraum-86287",
+      "stored_price": 4478.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4478.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-cuben-80796",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-80796",
+      "stored_price": 4371.67,
+      "outcome": "updated",
+      "page_prices": [
+        3975.66
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-cuben-80796",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-terragrau-81132",
+      "stored_price": 4784.17,
+      "outcome": "updated",
+      "page_prices": [
+        4388.16
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-1-214",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-ares-1-1-91-x-2-76-m-38-mm-222",
+      "stored_price": 3546.66,
+      "outcome": "updated",
+      "page_prices": [
+        3658.29
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-2-34043",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-ares-2-2-31-x-2-76-m-38-mm-314",
+      "stored_price": 4105.37,
+      "outcome": "updated",
+      "page_prices": [
+        3905.53
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-2-35976",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-2-3-69-x-3-09-m-mit-vorraum-35977",
+      "stored_price": 5438.67,
+      "outcome": "updated",
+      "page_prices": [
+        5086.89
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-1-92821m",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-fasssauna-1-2-25-x-1-75-m-38-mm-404",
+      "stored_price": 3078.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3078.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-2-92829",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-fasssauna-2-2-25-x-2-95-m-38-mm-92827",
+      "stored_price": 3927.19,
+      "outcome": "updated",
+      "page_prices": [
+        3720.35
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-quadro-1-109m",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-fasssauna-quadro-1-1-99-x-1-75-m-38-mm-34264",
+      "stored_price": 2324.59,
+      "outcome": "confirmed",
+      "page_prices": [
+        2324.59
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-quadro-1-plus-35445m",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-fasssauna-quadro-1-plus-2-42-x-1-75-m-38-mm-35447",
+      "stored_price": 2905.05,
+      "outcome": "updated",
+      "page_prices": [
+        2798
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-hygge-86314",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/karibu-saunahaus-hygge-terragrau.html",
+      "stored_price": 6415.7,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-saunahaus-hygge-86314",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-86314",
+      "stored_price": 5071.76,
+      "outcome": "updated",
+      "page_prices": [
+        5048.17
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-hygge-86314",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-terragrau-86313",
+      "stored_price": 5790.66,
+      "outcome": "confirmed",
+      "page_prices": [
+        5790.66
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-miramar-510",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-miramar-2-20-x-4-29-m-73-mm-510",
+      "stored_price": 7228.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        7228.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-2-86299",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-2-naturbelassen.html",
+      "stored_price": 3479,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-2-86299",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-2-terragrau.html",
+      "stored_price": 4019,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-2-86299",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-skrollan-2-3-37-x-2-31-cm-mit-vorraum-86294",
+      "stored_price": 3882.26,
+      "outcome": "confirmed",
+      "page_prices": [
+        3882.26
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-3-86304",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-3-naturbleassen.html",
+      "stored_price": 4059,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-3-86304",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/karibu-saunahaus-skrollan-3-terragrau.html",
+      "stored_price": 4439.9,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-3-86304",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-skrollan-3-3-96-x-2-31-cm-mit-vorraum-86311",
+      "stored_price": 4412.91,
+      "outcome": "confirmed",
+      "page_prices": [
+        4412.91
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-1-35866",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-1-3-09-x-3-09-m-mit-vorraum-35863",
+      "stored_price": 4745.42,
+      "outcome": "updated",
+      "page_prices": [
+        4437.81
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-4-36295",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-4-4-90-x-3-69-m-mit-vorraum-36292",
+      "stored_price": 6256.02,
+      "outcome": "updated",
+      "page_prices": [
+        5838.81
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-5-36307",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-5-5-09-x-3-69-m-mit-vorraum-36298",
+      "stored_price": 6444.85,
+      "outcome": "updated",
+      "page_prices": [
+        6401.16
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-angkor-3-185",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-angkor-3-2-77-x-2-76-m-38-mm-185",
+      "stored_price": 4778.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4778.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-3-92830",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-fasssauna-3-2-25-x-3-85-m-38-mm-92830",
+      "stored_price": 4784.17,
+      "outcome": "confirmed",
+      "page_prices": [
+        4784.17
+      ]
+    },
+    {
+      "product_id": "karibu-fasshaus-3-27454",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-3-2-19-x-3-85-m-27453",
+      "stored_price": 3941.47,
+      "outcome": "updated",
+      "page_prices": [
+        3934.41
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-laguna-198",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-laguna-2-20-x-2-88-m-73-mm-198",
+      "stored_price": 4628.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4628.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasshaus-2-27450",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-2-2-19-x-2-95-m-27450",
+      "stored_price": 2903.16,
+      "outcome": "confirmed",
+      "page_prices": [
+        2903.16
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-angkor-2-182",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-angkor-2-2-37-x-2-76-m-38-mm-182",
+      "stored_price": 4378.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4378.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sinai-3",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-sinai-2-36-x-1-84-m-40-mm-62933",
+      "stored_price": 2912.64,
+      "outcome": "updated",
+      "page_prices": [
+        3014.38
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-askja",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-askja-2-16-x-2-34-m-35230",
+      "stored_price": 2698.89,
+      "outcome": "confirmed",
+      "page_prices": [
+        2698.89
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sahib-2",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-sahib-2-2-36-x-1-84-m-40-mm-75877",
+      "stored_price": 2478.12,
+      "outcome": "updated",
+      "page_prices": [
+        2874.12
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-tanami",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-tanami-2-36-x-1-84-m-40-mm-54467",
+      "stored_price": 2643.11,
+      "outcome": "confirmed",
+      "page_prices": [
+        2643.11
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sonara",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-sonara-2-36-x-1-84-m-40-mm-75819",
+      "stored_price": 2817.09,
+      "outcome": "updated",
+      "page_prices": [
+        2373.84
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-malin",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-malin-2-31-x-1-96-m-75782",
+      "stored_price": 2387.38,
+      "outcome": "updated",
+      "page_prices": [
+        2329.63
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-gobin",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-gobin-2-31-x-1-96-m-75757",
+      "stored_price": 2649.64,
+      "outcome": "updated",
+      "page_prices": [
+        2288.37
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-mojave",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-mojave-1-96-x-1-96-m-40-mm-71394",
+      "stored_price": 2478.12,
+      "outcome": "updated",
+      "page_prices": [
+        2234.97
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fiona-3",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-fiona-3-2-31-x-1-96-m-49442",
+      "stored_price": 2519.13,
+      "outcome": "updated",
+      "page_prices": [
+        2205.87
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-jarin",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-jarin-1-96-x-1-96-m-71344",
+      "stored_price": 2477.27,
+      "outcome": "updated",
+      "page_prices": [
+        2164.62
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sahib-1",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-sahib-1-1-93-x-1-84-m-40-mm-75854",
+      "stored_price": 2186.71,
+      "outcome": "confirmed",
+      "page_prices": [
+        2186.71
+      ]
+    },
+    {
+      "product_id": "karibu-88m",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-irava-3-2-16-x-1-38-m-95",
+      "stored_price": 2668.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2668.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-horna",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-horna-2-31-x-1-96-m-6196",
+      "stored_price": 2117.25,
+      "outcome": "updated",
+      "page_prices": [
+        2106.87
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-rodin",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-rodin-1-96-x-1-96-m-75722",
+      "stored_price": 2092.13,
+      "outcome": "updated",
+      "page_prices": [
+        2082.12
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-nybro",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-nybro-2-31-x-1-96-m-6195",
+      "stored_price": 2065.63,
+      "outcome": "confirmed",
+      "page_prices": [
+        2065.63
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-lilja",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-lilja-1-96-x-1-70-m-59781",
+      "stored_price": 2108.88,
+      "outcome": "updated",
+      "page_prices": [
+        2058.64
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-siirin",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-siirin-1-96-x-1-7-m-71369",
+      "stored_price": 2313.11,
+      "outcome": "confirmed",
+      "page_prices": [
+        2313.11
+      ]
+    },
+    {
+      "product_id": "weka-farsund-390x187-fenster",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/weka-gartensauna-saunahaus-farsund-mit.html",
+      "stored_price": 4267.39,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "weka-elementsauna-kaarina-175x192",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/weka-sauna-elementsauna-kaarina-fichte.html",
+      "stored_price": 2297.18,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-mainburg-3-36285",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-3-3-69-x-3-69-m-mit-vorraum-36278",
+      "stored_price": 5490.38,
+      "outcome": "updated",
+      "page_prices": [
+        5613.52
+      ]
+    },
+    {
+      "product_id": "weka-kurikka-14930301046",
+      "merchant": "Benz24",
+      "url": "https://benz24.de/weka-saunahaus-kurikka-sparset-natur.html",
+      "stored_price": 6114.93,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-hytti-0-359",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hytti-0-1-96-x-1-13-m-38-mm-358",
+      "stored_price": 2077.27,
+      "outcome": "updated",
+      "page_prices": [
+        2003.49
+      ]
+    },
+    {
+      "product_id": "karibu-hytti-6-123m",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-hytti-6-3-96-x-2-31-m-38-mm-126",
+      "stored_price": 4128.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4128.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-adelina-6755",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-adelina-1-95-x-1-69-m-6755",
+      "stored_price": 2106.92,
+      "outcome": "updated",
+      "page_prices": [
+        2064.56
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ainur-6105",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-ainur-2-31-x-1-96-m-6098",
+      "stored_price": 3395.29,
+      "outcome": "updated",
+      "page_prices": [
+        3055.62
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-airi-34291",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-airi-1-96-x-1-96-m-34291",
+      "stored_price": 2849.37,
+      "outcome": "updated",
+      "page_prices": [
+        2862.41
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amara-71286",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-amara-2-36-x-1-84-m-40-mm-71285",
+      "stored_price": 2937.75,
+      "outcome": "updated",
+      "page_prices": [
+        2643.11
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-1-66744",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-amelia-1-1-96-x-1-70-m-66743",
+      "stored_price": 2313.11,
+      "outcome": "updated",
+      "page_prices": [
+        2061.73
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-3-66762",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-amelia-3-2-31-x-1-96-m-66760",
+      "stored_price": 2602.85,
+      "outcome": "updated",
+      "page_prices": [
+        2322.72
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-arvika-6219",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-arvika-2-31-x-2-31-m-6197",
+      "stored_price": 2855.52,
+      "outcome": "updated",
+      "page_prices": [
+        2227.08
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-1-93002",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-avari-1-1-55-x-1-22-m-93002",
+      "stored_price": 1740.49,
+      "outcome": "updated",
+      "page_prices": [
+        1735.63
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-2-93006",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-avari-2-2-16-x-1-22-m-93006",
+      "stored_price": 2028.12,
+      "outcome": "updated",
+      "page_prices": [
+        2024.38
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-75631",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-bodin-1-96-x-1-51-m-75631",
+      "stored_price": 2235.94,
+      "outcome": "confirmed",
+      "page_prices": [
+        2235.94
+      ]
+    },
+    {
+      "product_id": "artsauna-kiruna-120",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/infrarotkabine-kiruna-120",
+      "stored_price": 1149,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-trondheim-90-natur",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/infrarotkabine-trondheim-90-natur",
+      "stored_price": 1299,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-trondheim-90-schwarz",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/infrarotkabine-trondheim-90",
+      "stored_price": 1299,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-trondheim-120-natur",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/infrarotkabine-trondheim-120-natur-neu",
+      "stored_price": 1399,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-trondheim-120-schwarz",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/infrarotkabine-trondheim-120",
+      "stored_price": 1399,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-aarhus-140",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/infrarotsauna-aarhus140",
+      "stored_price": 1999,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-malmo-140-natur",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/infrarotkabine-malmo140-natur",
+      "stored_price": 2499,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-malmo-140-schwarz",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/infrarotkabine-malmo140-schwarz",
+      "stored_price": 2499,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-bergen-115",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/infrarotkabine-bergen115",
+      "stored_price": 1499,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-aalborg",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/infrarotkabine-warmekabine-aalborg-mit-triplex-heizsystem-hemlockholz",
+      "stored_price": 1699,
+      "outcome": "redirected-away",
+      "detail": "https://artsauna.de/products/infrarotkabine-aalborg"
+    },
+    {
+      "product_id": "artsauna-visby-180",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/outdoor-sauna-visby180",
+      "stored_price": 4299,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-visby-300",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/outdoor-sauna-visby300",
+      "stored_price": 5899,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-fjora-m",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/cube-fasssauna-fjora-m",
+      "stored_price": 2499,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-fjora-l",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/fasssauna-quadratisch-fjora",
+      "stored_price": 2999,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "artsauna-fjora-l",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/fasssauna-fjora-quadratisch",
+      "stored_price": 2379,
+      "outcome": "confirmed",
+      "page_prices": [
+        2379
+      ]
+    },
+    {
+      "product_id": "artsauna-fjora-xl",
+      "merchant": "Artsauna",
+      "url": "https://artsauna.de/products/cube-fasssauna-fjora-xl",
+      "stored_price": 3499,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "home-deluxe-nero-s",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/infrarotkabinen/infrarotkabine-nero_29878_75373/",
+      "stored_price": 1199,
+      "outcome": "confirmed",
+      "page_prices": [
+        1199
+      ]
+    },
+    {
+      "product_id": "home-deluxe-nero-m",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/infrarotkabinen/infrarotkabine-nero_29878_75374/",
+      "stored_price": 1349,
+      "outcome": "confirmed",
+      "page_prices": [
+        1348.9999
+      ]
+    },
+    {
+      "product_id": "home-deluxe-nero-l",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/infrarotkabinen/infrarotkabine-nero_29878_75375/",
+      "stored_price": 1549,
+      "outcome": "confirmed",
+      "page_prices": [
+        1549
+      ]
+    },
+    {
+      "product_id": "home-deluxe-nero-xl",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/infrarotkabinen/infrarotkabine-nero_29878_75376/",
+      "stored_price": 1749,
+      "outcome": "confirmed",
+      "page_prices": [
+        1749
+      ]
+    },
+    {
+      "product_id": "home-deluxe-nero-xxl",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/infrarotkabinen/infrarotkabine-nero_29878_75377/",
+      "stored_price": 1949,
+      "outcome": "confirmed",
+      "page_prices": [
+        1949
+      ]
+    },
+    {
+      "product_id": "home-deluxe-sonora-s",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/infrarotkabine-sonora-s_20323_49240/",
+      "stored_price": 1099,
+      "outcome": "confirmed",
+      "page_prices": [
+        1099
+      ]
+    },
+    {
+      "product_id": "home-deluxe-sonora-m",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/infrarotkabine-sonora-m_20324_49241/",
+      "stored_price": 1349,
+      "outcome": "confirmed",
+      "page_prices": [
+        1349
+      ]
+    },
+    {
+      "product_id": "home-deluxe-redsun-m-vollspektrum",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/infrarotkabine-redsun-m-mit-vollspektrumstrahler_8028_6195/",
+      "stored_price": 1049,
+      "outcome": "confirmed",
+      "page_prices": [
+        1049
+      ]
+    },
+    {
+      "product_id": "home-deluxe-redsun-deluxe-s",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/infrarotkabine-redsun-deluxe-s_14918_23350/",
+      "stored_price": 1099,
+      "outcome": "confirmed",
+      "page_prices": [
+        1099
+      ]
+    },
+    {
+      "product_id": "home-deluxe-redsun-deluxe-m",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/infrarotkabine-redsun-deluxe-m_14914_23346/",
+      "stored_price": 1149,
+      "outcome": "confirmed",
+      "page_prices": [
+        1149
+      ]
+    },
+    {
+      "product_id": "home-deluxe-redsun-deluxe-plus-m",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/infrarotkabine-redsun-deluxe-plus-m_14922_23354/",
+      "stored_price": 1199,
+      "outcome": "confirmed",
+      "page_prices": [
+        1199
+      ]
+    },
+    {
+      "product_id": "home-deluxe-redsun-deluxe-xxl",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/infrarotkabine-redsun-deluxe-xxl_14934_23366/",
+      "stored_price": 1749,
+      "outcome": "confirmed",
+      "page_prices": [
+        1749
+      ]
+    },
+    {
+      "product_id": "home-deluxe-sahara-l",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/infrarotkabine-sahara-l-mit-vollspektrumstrahler_9229_7362/",
+      "stored_price": 1499,
+      "outcome": "confirmed",
+      "page_prices": [
+        1499
+      ]
+    },
+    {
+      "product_id": "home-deluxe-sahara-xxl",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/infrarotkabine-sahara-xxl-mit-vollspektrumstrahler_9233_7366/",
+      "stored_price": 1699,
+      "outcome": "confirmed",
+      "page_prices": [
+        1699
+      ]
+    },
+    {
+      "product_id": "home-deluxe-shadow-m",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/traditionelle-sauna-shadow-m_20331_49248/",
+      "stored_price": 1699,
+      "outcome": "confirmed",
+      "page_prices": [
+        1699
+      ]
+    },
+    {
+      "product_id": "home-deluxe-shadow-l",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/traditionelle-sauna-shadow-l_20336_49253/",
+      "stored_price": 1899,
+      "outcome": "confirmed",
+      "page_prices": [
+        1899
+      ]
+    },
+    {
+      "product_id": "home-deluxe-lahti-m",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/outdoor-fasssauna-lahti-m_17289_32798/",
+      "stored_price": 1899,
+      "outcome": "confirmed",
+      "page_prices": [
+        1899
+      ]
+    },
+    {
+      "product_id": "home-deluxe-lahti-l",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/outdoor-fasssauna-lahti-l_17291_32802/",
+      "stored_price": 2199,
+      "outcome": "confirmed",
+      "page_prices": [
+        2199
+      ]
+    },
+    {
+      "product_id": "home-deluxe-lahti-deluxe-l",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/outdoor-fasssauna-lahti-deluxe-l_20005_48670/",
+      "stored_price": 2499,
+      "outcome": "confirmed",
+      "page_prices": [
+        2499
+      ]
+    },
+    {
+      "product_id": "home-deluxe-cube-deluxe-l",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/outdoor-sauna-cube-deluxe-l_21974_55739/",
+      "stored_price": 2599,
+      "outcome": "confirmed",
+      "page_prices": [
+        2599
+      ]
+    },
+    {
+      "product_id": "home-deluxe-hygge-deluxe",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/gartensauna-hygge-deluxe_27591_71857/",
+      "stored_price": 4299,
+      "outcome": "confirmed",
+      "page_prices": [
+        4299
+      ]
+    },
+    {
+      "product_id": "home-deluxe-aruna-s",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/indoor-saunen/traditionelle-sauna-aruna-s_29343_74636/",
+      "stored_price": 1349,
+      "outcome": "confirmed",
+      "page_prices": [
+        1349
+      ]
+    },
+    {
+      "product_id": "home-deluxe-aruna-m",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/indoor-saunen/traditionelle-sauna-aruna-m_29348_74637/",
+      "stored_price": 1399,
+      "outcome": "confirmed",
+      "page_prices": [
+        1399.0001
+      ]
+    },
+    {
+      "product_id": "home-deluxe-aruna-l",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/saunen-infrarotkabinen/indoor-saunen/traditionelle-sauna-aruna-l_29353_74638/",
+      "stored_price": 1599,
+      "outcome": "confirmed",
+      "page_prices": [
+        1599
+      ]
+    },
+    {
+      "product_id": "home-deluxe-shadow-xl",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/traditionelle-sauna-shadow-xl_20342_49259/",
+      "stored_price": 2399,
+      "outcome": "confirmed",
+      "page_prices": [
+        2399
+      ]
+    },
+    {
+      "product_id": "home-deluxe-shadow-big-xl",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/traditionelle-sauna-shadow-xl-big_20588_49577/",
+      "stored_price": 2999,
+      "outcome": "confirmed",
+      "page_prices": [
+        2999
+      ]
+    },
+    {
+      "product_id": "home-deluxe-skyline-l",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/traditionelle-sauna-skyline-l_2987_1569/",
+      "stored_price": 1799,
+      "outcome": "confirmed",
+      "page_prices": [
+        1799
+      ]
+    },
+    {
+      "product_id": "home-deluxe-skyline-xl",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/traditionelle-sauna-skyline-xl_7220_5443/",
+      "stored_price": 1999,
+      "outcome": "confirmed",
+      "page_prices": [
+        1999
+      ]
+    },
+    {
+      "product_id": "home-deluxe-skyline-big-xl",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/traditionelle-sauna-skyline-big-xl_2982_1565/",
+      "stored_price": 2899,
+      "outcome": "confirmed",
+      "page_prices": [
+        2899
+      ]
+    },
+    {
+      "product_id": "home-deluxe-skyline-big-xl-kunststeinwand",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/traditionelle-sauna-skyline-big-xl-mit-kunststeinwand_8621_6767/",
+      "stored_price": 3199,
+      "outcome": "confirmed",
+      "page_prices": [
+        3199
+      ]
+    },
+    {
+      "product_id": "home-deluxe-lahti-xl",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/outdoor-fasssauna-lahti-xl_20004_48669/",
+      "stored_price": 2599,
+      "outcome": "confirmed",
+      "page_prices": [
+        2599
+      ]
+    },
+    {
+      "product_id": "home-deluxe-lagom-deluxe",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/fasssauna-mit-holzofen-lagom-deluxe_27593_71858/",
+      "stored_price": 4999,
+      "outcome": "confirmed",
+      "page_prices": [
+        4999
+      ]
+    },
+    {
+      "product_id": "home-deluxe-cube-xl",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/outdoor-sauna-cube-xl_21482_51137/",
+      "stored_price": 2799,
+      "outcome": "confirmed",
+      "page_prices": [
+        2799
+      ]
+    },
+    {
+      "product_id": "home-deluxe-redsun-m",
+      "merchant": "Home Deluxe",
+      "url": "https://www.homedeluxe.de/infrarotkabine-redsun-m_2056_1138/",
+      "stored_price": 999,
+      "outcome": "confirmed",
+      "page_prices": [
+        999
+      ]
+    },
+    {
+      "product_id": "intergard-innensauna-205x168-40",
+      "merchant": "InterGard",
+      "url": "https://www.intergardshop.de/innensauna-fichte-205x168cm",
+      "stored_price": 2506.87,
+      "outcome": "confirmed",
+      "page_prices": [
+        2506.87
+      ]
+    },
+    {
+      "product_id": "intergard-innensauna-205x205-40",
+      "merchant": "InterGard",
+      "url": "https://www.intergardshop.de/innensauna-fichte-205x205cm",
+      "stored_price": 2723.23,
+      "outcome": "confirmed",
+      "page_prices": [
+        2723.23
+      ]
+    },
+    {
+      "product_id": "intergard-innensauna-eck-205x205-40",
+      "merchant": "InterGard",
+      "url": "https://www.intergardshop.de/innensauna-fichte-eckmodell",
+      "stored_price": 2801.9,
+      "outcome": "confirmed",
+      "page_prices": [
+        2801.9
+      ]
+    },
+    {
+      "product_id": "fjordholz-saunahaus-arcos-m",
+      "merchant": "GartenHausfabrik",
+      "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-M",
+      "stored_price": 4739,
+      "outcome": "updated",
+      "page_prices": [
+        5039
+      ]
+    },
+    {
+      "product_id": "fjordholz-saunahaus-arcos-s",
+      "merchant": "GartenHausfabrik",
+      "url": "https://www.gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Arcos-S",
+      "stored_price": 5439,
+      "outcome": "updated",
+      "page_prices": [
+        5779
+      ]
+    },
+    {
+      "product_id": "fjordholz-mini-fasssauna-cubus-1",
+      "merchant": "GartenHausfabrik",
+      "url": "https://www.gartenhausfabrik.de/Fjordholz-Mini-Fass-Sauna-Modell-Cubus-1",
+      "stored_price": 1559,
+      "outcome": "from-price",
+      "page_prices": [
+        1659
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-kombisauna-luxe-micro-kombi",
+      "merchant": "GartenHausfabrik",
+      "url": "https://www.gartenhausfabrik.de/Fass-Kombisauna-Modell-Luxe-Micro-Kombi",
+      "stored_price": 3949,
+      "outcome": "updated",
+      "page_prices": [
+        4199
+      ]
+    },
+    {
+      "product_id": "fjordholz-fasssauna-cubus-2",
+      "merchant": "GartenHausfabrik",
+      "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-2",
+      "stored_price": 3239,
+      "outcome": "updated",
+      "page_prices": [
+        3449
+      ]
+    },
+    {
+      "product_id": "fjordholz-fasssauna-cubus-3",
+      "merchant": "GartenHausfabrik",
+      "url": "https://www.gartenhausfabrik.de/Fass-Sauna-Modell-Cubus-3",
+      "stored_price": 4979,
+      "outcome": "updated",
+      "page_prices": [
+        5289
+      ]
+    },
+    {
+      "product_id": "saunaloft-tyla-144-5x130",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/premium-massivholzsauna-tyla-massanfertigung/sw10348.52",
+      "stored_price": 3199,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        3489,
+        75282,
+        77449.17,
+        77720.06,
+        79616.33,
+        80429.02,
+        80699.92,
+        82325.29,
+        83408.88,
+        83679.77,
+        85034.25,
+        85576.05,
+        86117.84,
+        86659.63,
+        87201.42,
+        88285.01,
+        88555.9,
+        89368.59,
+        90181.28,
+        90452.17,
+        90723.07,
+        90993.97,
+        92348.45,
+        92890.24,
+        93432.03,
+        93973.82,
+        94244.72,
+        94515.61,
+        95057.41,
+        95599.2,
+        96411.89,
+        96682.78,
+        96953.68,
+        97495.47,
+        98037.26,
+        98849.95,
+        99662.64,
+        99933.53,
+        100204.43,
+        100475.33,
+        100746.22,
+        101558.91,
+        101829.81,
+        103455.18,
+        103726.08,
+        104809.66,
+        105080.56,
+        106705.93,
+        107247.73,
+        107518.62,
+        108060.41,
+        108331.31,
+        108602.21,
+        110498.48,
+        111311.17,
+        111852.96,
+        113749.23,
+        114291.02,
+        115103.71,
+        115374.61,
+        116999.98,
+        117541.77,
+        118354.46,
+        118625.36,
+        121063.42,
+        121605.21,
+        122417.9,
+        122688.8,
+        124855.97,
+        125939.55,
+        126210.45,
+        129461.2,
+        129732.09,
+        133253.74,
+        137046.29
+      ]
+    },
+    {
+      "product_id": "artsauna-spitzbergen-180",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/fasssauna-spitzbergen-180-fuer-den-aussenbereich-/-180-cm-oe-190-cm",
+      "stored_price": 1789,
+      "outcome": "confirmed",
+      "page_prices": [
+        1789
+      ]
+    },
+    {
+      "product_id": "artsauna-nolvik-m",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/fasssauna-nolvik-m/301841.2",
+      "stored_price": 1399,
+      "outcome": "updated",
+      "page_prices": [
+        1599
+      ]
+    },
+    {
+      "product_id": "artsauna-nolvik-xl",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/fasssauna-nolvik-xl/301841.4",
+      "stored_price": 2049,
+      "outcome": "confirmed",
+      "page_prices": [
+        2049
+      ]
+    },
+    {
+      "product_id": "fjordholz-saunahaus-kalle",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Design-Saunahaus-Modell-Kalle",
+      "stored_price": 6849,
+      "outcome": "updated",
+      "page_prices": [
+        7419
+      ]
+    },
+    {
+      "product_id": "fjordholz-saunahaus-kalle-l",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Modell-Kalle-L",
+      "stored_price": 8919,
+      "outcome": "updated",
+      "page_prices": [
+        9669
+      ]
+    },
+    {
+      "product_id": "fjordholz-fasssauna-fite",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fass-Sauna-Fite",
+      "stored_price": 7619,
+      "outcome": "updated",
+      "page_prices": [
+        5349
+      ]
+    },
+    {
+      "product_id": "fjordholz-fasssauna-jona",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fass-Sauna-Jona",
+      "stored_price": 7159,
+      "outcome": "implausible-change",
+      "page_prices": [
+        4519
+      ]
+    },
+    {
+      "product_id": "fjordholz-fasssauna-ida",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fass-Sauna-Ida",
+      "stored_price": 11239,
+      "outcome": "updated",
+      "page_prices": [
+        7729
+      ]
+    },
+    {
+      "product_id": "fjordholz-design-saunahaus-siiri-premium",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fjordholz-Design-Saunahaus-Siiri",
+      "stored_price": 8129,
+      "outcome": "updated",
+      "page_prices": [
+        8619
+      ]
+    },
+    {
+      "product_id": "fjordholz-design-saunahaus-paradiso-black-e",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fjordholz-Saunahaus-Modell-Paradiso-Black-Edition",
+      "stored_price": 8329,
+      "outcome": "updated",
+      "page_prices": [
+        7839
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-ando",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Ando",
+      "stored_price": 6439,
+      "outcome": "implausible-change",
+      "page_prices": [
+        3929
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-bus-130-standard",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-130-Standard",
+      "stored_price": 3409,
+      "outcome": "updated",
+      "page_prices": [
+        3069
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-bus-160-standard",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fjordholz-Fass-Sauna-Modell-Bus-160-Standard",
+      "stored_price": 3699,
+      "outcome": "updated",
+      "page_prices": [
+        3369
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-icon-200-s-fichte",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-200-S-Fichte",
+      "stored_price": 3779,
+      "outcome": "updated",
+      "page_prices": [
+        4099
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-icon-220-thermo",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-220-Thermo",
+      "stored_price": 5379,
+      "outcome": "updated",
+      "page_prices": [
+        5829
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-icon-385-thermo",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Icon-385-Thermo",
+      "stored_price": 7939,
+      "outcome": "updated",
+      "page_prices": [
+        8609
+      ]
+    },
+    {
+      "product_id": "fjordholz-fass-sauna-lauri",
+      "merchant": "GartenHausfabrik",
+      "url": "https://gartenhausfabrik.de/Fass-Sauna-Modell-Lauri",
+      "stored_price": 6479,
+      "outcome": "implausible-change",
+      "page_prices": [
+        3959
+      ]
+    },
+    {
+      "product_id": "awt-e1805",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1805-aus-pinienholz-/-180-x-180-cm/14879",
+      "stored_price": 2999,
+      "outcome": "confirmed",
+      "page_prices": [
+        2999
+      ]
+    },
+    {
+      "product_id": "sentiotec-alaska-corner",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-alaska-corner-206-aus-fichte-mit-8-kw-ofen-/-206-x-206-x-204/1-030-269.1",
+      "stored_price": 5199,
+      "outcome": "confirmed",
+      "page_prices": [
+        5199
+      ]
+    },
+    {
+      "product_id": "awt-e1801b",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1801b-aus-pinienholz-/-160-x-160/14877",
+      "stored_price": 2499,
+      "outcome": "confirmed",
+      "page_prices": [
+        2499
+      ]
+    },
+    {
+      "product_id": "awt-e1802",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1802-aus-pinienholz-/-180-x-180/14878",
+      "stored_price": 2999,
+      "outcome": "confirmed",
+      "page_prices": [
+        2999
+      ]
+    },
+    {
+      "product_id": "awt-e1803b",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1803b-aus-pinienholz-/-150-x-120/14881.2",
+      "stored_price": 2199,
+      "outcome": "confirmed",
+      "page_prices": [
+        2199
+      ]
+    },
+    {
+      "product_id": "awt-e1804c",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1804c-aus-pinienholz-/-120-x-120/14926-1",
+      "stored_price": 2399,
+      "outcome": "confirmed",
+      "page_prices": [
+        2399
+      ]
+    },
+    {
+      "product_id": "awt-e1804a",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-e1804a-aus-pinienholz-/-180-x-120-cm/14924",
+      "stored_price": 2299,
+      "outcome": "confirmed",
+      "page_prices": [
+        2299
+      ]
+    },
+    {
+      "product_id": "awt-e1804b",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-e1804b-aus-pinienholz-/-150-x-120-cm/14925",
+      "stored_price": 2199,
+      "outcome": "confirmed",
+      "page_prices": [
+        2199
+      ]
+    },
+    {
+      "product_id": "artsauna-espoo150-premium",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-espoo-150-aus-hemlockholz-/-150-x-150-x-200",
+      "stored_price": 1599,
+      "outcome": "confirmed",
+      "page_prices": [
+        1599
+      ]
+    },
+    {
+      "product_id": "dewello-minto-150-130",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-minto/-150cm-x-130cm",
+      "stored_price": 2099,
+      "outcome": "confirmed",
+      "page_prices": [
+        2099
+      ]
+    },
+    {
+      "product_id": "sanotechnik-riga",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/finnische-sauna-riga-mit-ofen-150x120-cm",
+      "stored_price": 1689,
+      "outcome": "updated",
+      "page_prices": [
+        1899
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-alaska-infrarot-90",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_alaska_inkl-_infrarotsauna_90x90cm.html",
+      "stored_price": 2399,
+      "outcome": "confirmed",
+      "page_prices": [
+        2399
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-arizona-infrarot-145",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_arizona_inkl-_infrarotsauna_145x90cm.html",
+      "stored_price": 2999,
+      "outcome": "confirmed",
+      "page_prices": [
+        2999
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-california-infrarot-145",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_california_inkl-_infrarotsauna.html",
+      "stored_price": 2799,
+      "outcome": "confirmed",
+      "page_prices": [
+        2799
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-colorado-infrarot-100",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_colorado_inkl-_infrarotsauna_100x90cm.html",
+      "stored_price": 2299,
+      "outcome": "confirmed",
+      "page_prices": [
+        2299
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-florida-infrarot-145",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_florida_inkl-_infrarotsauna_145x90cm.html",
+      "stored_price": 2999,
+      "outcome": "confirmed",
+      "page_prices": [
+        2999
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-kansas-infrarot-100",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_kansas_inkl-_infrarotsauna_100x100cm.html",
+      "stored_price": 2499,
+      "outcome": "confirmed",
+      "page_prices": [
+        2499
+      ]
+    },
+    {
+      "product_id": "wellness-point-dampfdusche-virginia-infrarot-100",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/dampfdusche_virginia_inkl-_infrarotsauna_100x100cm.html",
+      "stored_price": 2399,
+      "outcome": "confirmed",
+      "page_prices": [
+        2399
+      ]
+    },
+    {
+      "product_id": "wellness-point-finnische-sauna-alaska-i",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/finnische-sauna-alaska-i.html",
+      "stored_price": 1999,
+      "outcome": "confirmed",
+      "page_prices": [
+        1999
+      ]
+    },
+    {
+      "product_id": "wellness-point-finnische-sauna-alaska-ii",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_ii.html",
+      "stored_price": 2149,
+      "outcome": "unreachable",
+      "detail": "HTTP 404"
+    },
+    {
+      "product_id": "wellness-point-finnische-sauna-alaska-iii",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/finnische_sauna_alaska_iii.html",
+      "stored_price": 2349,
+      "outcome": "confirmed",
+      "page_prices": [
+        2349
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-goteborg",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_goeteborg.html",
+      "stored_price": 1849,
+      "outcome": "confirmed",
+      "page_prices": [
+        1849
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-helsinki-beta",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_beta.html",
+      "stored_price": 2099,
+      "outcome": "unreachable",
+      "detail": "HTTP 404"
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-oslo-alpha",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_oslo.html",
+      "stored_price": 1399,
+      "outcome": "confirmed",
+      "page_prices": [
+        1399
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotkabine-stockholm-alpha",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/infrarotkabine_stockholm.html",
+      "stored_price": 1299,
+      "outcome": "confirmed",
+      "page_prices": [
+        1299
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotsauna-alpha-i",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_i.html",
+      "stored_price": 1999,
+      "outcome": "confirmed",
+      "page_prices": [
+        1999
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotsauna-alpha-ii",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_ii.html",
+      "stored_price": 2499,
+      "outcome": "confirmed",
+      "page_prices": [
+        2499
+      ]
+    },
+    {
+      "product_id": "wellness-point-infrarotsauna-alpha-iii",
+      "merchant": "Wellness-Point",
+      "url": "https://wellness-point.com/produkte/detail/infrarotsauna_alpha_iii.html",
+      "stored_price": 3499,
+      "outcome": "confirmed",
+      "page_prices": [
+        3499
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-quadro-3-117",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-fasssauna-quadro-3-1-99-x-3-55-m-38-mm-117",
+      "stored_price": 3971.51,
+      "outcome": "updated",
+      "page_prices": [
+        3781.42
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-infrarot-asta-6700",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-infrarotkabine-asta-2-31-x-2-31-m-6700",
+      "stored_price": 4037.37,
+      "outcome": "confirmed",
+      "page_prices": [
+        4037.37
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-elea-6762",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-elea-1-95-x-1-69-m-6762",
+      "stored_price": 2065.63,
+      "outcome": "confirmed",
+      "page_prices": [
+        2065.63
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-jada-6806",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-jada-2-24-x-1-6-m-6806",
+      "stored_price": 2247.11,
+      "outcome": "updated",
+      "page_prices": [
+        1824.22
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-mia-86545",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-mia-1-96-x-1-7-m-86545",
+      "stored_price": 2264.52,
+      "outcome": "updated",
+      "page_prices": [
+        2298.01
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-tabea-6816",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-tabea-1-96-x-1-96-m-6816",
+      "stored_price": 2601.86,
+      "outcome": "updated",
+      "page_prices": [
+        2015.31
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-infrarot-ava-6692",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-infrarotkabine-ava-2-31-x-1-96-m-6692",
+      "stored_price": 3649.62,
+      "outcome": "confirmed",
+      "page_prices": [
+        3649.62
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda-2-2503",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-alcinda-2-2-31-x-2-31-m-2503",
+      "stored_price": 3414.99,
+      "outcome": "updated",
+      "page_prices": [
+        2742.13
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodo-6208",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-bodo-1-96-x-1-78-m-6208",
+      "stored_price": 2057.38,
+      "outcome": "confirmed",
+      "page_prices": [
+        2057.38
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-carin-75668",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-carin-1-96-x-1-51-m-75668",
+      "stored_price": 2413.93,
+      "outcome": "confirmed",
+      "page_prices": [
+        2413.93
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-faurin-6199",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-faurin-1-7-x-1-51-m-6199",
+      "stored_price": 1653.77,
+      "outcome": "updated",
+      "page_prices": [
+        1653.11
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fiona-1-59672",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-fiona-1-1-96-x-1-51-m-59672",
+      "stored_price": 2184.23,
+      "outcome": "updated",
+      "page_prices": [
+        1875.87
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fiona-2-52595",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-fiona-2-1-96-x-1-70-m-52595",
+      "stored_price": 2267.95,
+      "outcome": "updated",
+      "page_prices": [
+        1958.37
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-irava-1-90",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-irava-1-1-55-x-1-22-m-90",
+      "stored_price": 2325.28,
+      "outcome": "updated",
+      "page_prices": [
+        2214.28
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-irava-2-92",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-irava-2-2-16-x-1-22-m-92",
+      "stored_price": 2618.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2618.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-kotka-6214",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-kotka-1-96-x-1-96-m-6214",
+      "stored_price": 2296.62,
+      "outcome": "updated",
+      "page_prices": [
+        2422.02
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-larin-75615",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-larin-1-51-x-1-51-m-75615",
+      "stored_price": 2192.3,
+      "outcome": "updated",
+      "page_prices": [
+        2084.26
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-oulu-6211",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-oulu-1-96-x-1-96-m-6211",
+      "stored_price": 2255.37,
+      "outcome": "updated",
+      "page_prices": [
+        2009.4
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sodin-75692",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-sodin-1-96-x-1-7-m-75692",
+      "stored_price": 2383.79,
+      "outcome": "confirmed",
+      "page_prices": [
+        2383.79
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-taurin-80642",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-taurin-1-7-x-1-51-m-80642",
+      "stored_price": 2137.44,
+      "outcome": "confirmed",
+      "page_prices": [
+        2137.44
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-tonja-85844",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-tonja-1-70-x-1-51-m-85844",
+      "stored_price": 2235.94,
+      "outcome": "updated",
+      "page_prices": [
+        1860.67
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-tromso-6203",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-tromsoe-1-96-x-1-78-m-6203",
+      "stored_price": 2192.3,
+      "outcome": "updated",
+      "page_prices": [
+        2024.38
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-variado-80669",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-variado-1-96-x-1-18-m-80669",
+      "stored_price": 2263.22,
+      "outcome": "updated",
+      "page_prices": [
+        2135.48
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-angkor-1-179",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-angkor-1-1-91-x-2-76-m-38-mm-179",
+      "stored_price": 4078.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4078.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-3-341",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-saunahaus-ares-3-2-77-x-2-76-m-38-mm-341",
+      "stored_price": 4134.04,
+      "outcome": "updated",
+      "page_prices": [
+        4124.16
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-jutta-6183",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-massivholzsauna-jutta-1-96-x-1-96-m-6183",
+      "stored_price": 1983.29,
+      "outcome": "updated",
+      "page_prices": [
+        1971.97
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-daria-59780",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-daria-1-96-x-1-70-m-59780",
+      "stored_price": 2067.01,
+      "outcome": "updated",
+      "page_prices": [
+        2005.46
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-nanja-59777",
+      "merchant": "Demmelhuber",
+      "url": "https://demmelhuber.net/karibu-sauna-nanja-1-51-x-1-51-m-59777",
+      "stored_price": 1909.87,
+      "outcome": "updated",
+      "page_prices": [
+        1752.12
+      ]
+    },
+    {
+      "product_id": "harvia-kammi-barrel-180",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180/sw10343set.2",
+      "stored_price": 3999,
+      "outcome": "confirmed",
+      "page_prices": [
+        3999,
+        4449
+      ]
+    },
+    {
+      "product_id": "harvia-kammi-barrel-180",
+      "merchant": "Saunaloft",
+      "url": "https://shop-saunaloft.de/harvia-fasssauna-kammi-180/sw10343set.1",
+      "stored_price": 4449,
+      "outcome": "confirmed",
+      "page_prices": [
+        3999,
+        4449
+      ]
+    }
+  ]
+}
