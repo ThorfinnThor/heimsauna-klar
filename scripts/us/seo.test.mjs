@@ -6,6 +6,7 @@ import {
   evaluateUsSeoDecision,
   getUsSeoDecision,
   getUsSitemapEntries,
+  isUsPathConcentratedOut,
 } from "../../lib/us/seo.ts";
 import {
   usBreadcrumbJsonLd,
@@ -16,12 +17,30 @@ import productsDocument from "../../data/us/products.json" with { type: "json" }
 import configurationsDocument from "../../data/us/configurations.json" with { type: "json" };
 import editorialDocument from "../../content/us/editorial.json" with { type: "json" };
 import equivalenceMatrix from "../../docs/us/seo-equivalence-matrix.json" with { type: "json" };
+import publicationDocument from "../../data/us/publication.json" with { type: "json" };
 
 const openRelease = { routesEnabled: true, indexingEnabled: true };
 
 test("the checked-in US release exposes the reviewed first wave and sitemap routes", () => {
   assert.equal(getUsSeoDecision({ path: "/us/", pageClass: "overview" }).indexable, true);
-  assert(getUsSitemapEntries().length >= 10);
+  assert.equal(getUsSeoDecision({ path: "/us/saunas/", pageClass: "overview" }).indexable, true);
+  assert(getUsSitemapEntries().length >= 5);
+});
+
+test("the index concentration keeps product details and thin overviews out of the index", () => {
+  assert.equal(publicationDocument.index_concentration.status, "active");
+  const product = productsDocument.products.find((entry) => entry.publication_status === "published");
+  const detail = getUsSeoDecision({ path: `/us/saunas/${product.slug}/`, pageClass: "detail" });
+  assert.equal(detail.indexable, false);
+  assert.equal(detail.follow, true);
+  assert.equal(detail.sitemap, false);
+  for (const path of publicationDocument.index_concentration.noindex_paths) {
+    assert.equal(isUsPathConcentratedOut(path), true, path);
+    assert.equal(getUsSeoDecision({ path, pageClass: "overview" }).indexable, false, path);
+  }
+  const sitemapPaths = getUsSitemapEntries().map((entry) => entry.path);
+  assert.equal(sitemapPaths.some((path) => /^\/us\/saunas\/[^/]+\/$/.test(path)), false);
+  assert.equal(isUsPathConcentratedOut("/us/saunas/"), false);
 });
 
 test("only published substantive pages become indexable in an open release", () => {

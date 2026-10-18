@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07",
+  "updated_at": "2026-10-18",
   "scope": "verified_product_detail_pages",
   "default_decision": "noindex",
   "methodology": "Produktseiten bleiben vollständig statisch und im Katalog erreichbar. Eine automatische Indexfreigabe setzt ein aktuelles Angebot, mindestens eine veröffentlichte Quelle und eine eigenständige redaktionelle Einordnung voraus. Freigegebene produktspezifische redaktionelle Ergänzungen werden satzweise als sichtbare Einordnung berücksichtigt. Mehrere Quellen können eine geringere Zahl exklusiver redaktioneller Punkte ausgleichen. Affiliate-Status und Händlerprovision beeinflussen die Entscheidung nicht.",
@@ -13,5 +13,13 @@
     "multiple_sources_can_substitute_unique_points": true,
     "minimum_sources_for_substitution": 2
   },
-  "manual_overrides": {}
+  "manual_overrides": {},
+  "index_concentration": {
+    "status": "active",
+    "decided_at": "2026-10-18",
+    "reason": "Sichtbarkeit seit 17.09.2026 praktisch null. Produktdetailseiten hatten seit dem Start fast keine Nachfrage in der Search Console (306 indexierbare Seiten, zusammen unter 40 Impressionen). Der Index wird auf die Ratgeber- und Kollektionsseiten konzentriert. Produktseiten bleiben erreichbar und verlinkt, aber noindex,follow.",
+    "keep_product_ids": [
+      "artsauna-kiruna-120"
+    ]
+  }
 }

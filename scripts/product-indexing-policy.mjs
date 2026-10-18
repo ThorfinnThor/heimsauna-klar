@@ -37,6 +37,18 @@ function assertPolicy(policy) {
   if (!policy.manual_overrides || typeof policy.manual_overrides !== "object" || Array.isArray(policy.manual_overrides)) {
     throw new Error("Product indexing policy needs a manual_overrides object");
   }
+  const concentration = policy.index_concentration;
+  if (concentration !== undefined) {
+    if (!["active", "paused"].includes(concentration.status) || !Array.isArray(concentration.keep_product_ids)) {
+      throw new Error("Product indexing policy has an invalid index_concentration block");
+    }
+  }
+}
+
+// Index concentration (2026-10-18): while active, only explicitly kept product
+// pages stay indexable. It can only remove pages from the index, never add one.
+function isConcentrationActive(policy) {
+  return policy.index_concentration?.status === "active";
 }
 
 function roundShare(value) {
@@ -53,6 +65,10 @@ export function buildProductIndexing(products, policy, editorialOverrides = {}) 
     for (const point of editorialPoints(product, editorialOverrides)) {
       frequencies.set(point, (frequencies.get(point) ?? 0) + 1);
     }
+  }
+
+  for (const productId of policy.index_concentration?.keep_product_ids ?? []) {
+    if (!productIds.has(productId)) throw new Error(`Index concentration keeps unknown product ${productId}`);
   }
 
   for (const [productId, override] of Object.entries(policy.manual_overrides)) {
@@ -84,8 +100,13 @@ export function buildProductIndexing(products, policy, editorialOverrides = {}) 
 
       const automaticDecision = reasons.length === 0 ? "index" : policy.default_decision;
       const override = policy.manual_overrides[product.product_id];
-      const decision = override?.decision ?? automaticDecision;
+      let decision = override?.decision ?? automaticDecision;
       if (override) reasons.push(`manual-override: ${override.reason}`);
+      if (decision === "index" && isConcentrationActive(policy)
+        && !policy.index_concentration.keep_product_ids.includes(product.product_id)) {
+        decision = "noindex";
+        reasons.push("index-concentration");
+      }
       if (decision === "index" && reasons.length === 0) {
         reasons.push(publishedSourceCount >= policy.rules.minimum_sources_for_substitution
           ? "distinct-editorial-or-multiple-sources"
