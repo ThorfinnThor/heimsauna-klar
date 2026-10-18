@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T12:25:04.348Z",
+  "generated_at": "2026-10-18T09:53:30.455Z",
   "source": "Awin authenticated product feed list",
   "secret_included": false,
   "eligible_feeds": [
@@ -50,6 +50,66 @@
       "membershipStatus": "active",
       "feedId": "34321",
       "feedName": "Awin-DE",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "14578",
+      "advertiserName": "Contorion DE",
+      "membershipStatus": "active",
+      "feedId": "32189",
+      "feedName": "Default",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "14757",
+      "advertiserName": "Fressnapf-Online-Shop DE",
+      "membershipStatus": "active",
+      "feedId": "44979",
+      "feedName": "Awin Feed ab 01.09.2020",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "14757",
+      "advertiserName": "Fressnapf-Online-Shop DE",
+      "membershipStatus": "active",
+      "feedId": "86383",
+      "feedName": "Awin_Idealo_Feed",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "14757",
+      "advertiserName": "Fressnapf-Online-Shop DE",
+      "membershipStatus": "active",
+      "feedId": "87850",
+      "feedName": "Marketplace",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "14979",
+      "advertiserName": "ZooRoyal DE",
+      "membershipStatus": "active",
+      "feedId": "33481",
+      "feedName": "ZooRoyal",
+      "language": "German",
+      "lastUpdated": null,
+      "productCount": null
+    },
+    {
+      "advertiserId": "14979",
+      "advertiserName": "ZooRoyal DE",
+      "membershipStatus": "active",
+      "feedId": "100925",
+      "feedName": "CSS_Feed",
       "language": "German",
       "lastUpdated": null,
       "productCount": null
@@ -119,7 +179,7 @@
       "advertiserName": "Ecovacs DE",
       "membershipStatus": "active",
       "feedId": "98163",
-      "feedName": "Ecovacs DE Product Feed",
+      "feedName": "DFDE-online",
       "language": "German",
       "lastUpdated": null,
       "productCount": null
