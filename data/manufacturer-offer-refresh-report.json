@@ -1,0 +1,4032 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-18",
+  "method": "structured price data (JSON-LD Product offers, itemprop/product:price meta) read from each offer URL",
+  "counts": {
+    "from-price": 39,
+    "ambiguous-variants": 18,
+    "redirected-away": 1,
+    "unreachable": 4,
+    "unavailable": 6,
+    "confirmed": 261,
+    "updated": 39,
+    "sale": 18,
+    "no-structured-price": 1,
+    "implausible-change": 4
+  },
+  "entries": [
+    {
+      "product_id": "karibu-sauna-sandra-6705",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-sandra/6705",
+      "stored_price": 1599.99,
+      "outcome": "from-price",
+      "page_prices": [
+        1779.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sandra-6705",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-sandra-mit-fronteinstieg",
+      "stored_price": 1525.83,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1445,
+        1479.99,
+        1499.99,
+        1500,
+        1727,
+        1782,
+        1820,
+        1864,
+        1875,
+        1919,
+        1983,
+        2038,
+        2102,
+        2157
+      ]
+    },
+    {
+      "product_id": "weka-infrarotkabine-milo-1-f",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/infrarotkabine-milo-1-f/ws548101000001",
+      "stored_price": 2199,
+      "outcome": "redirected-away",
+      "detail": "https://www.weka-holzbau.com/de/wellness-sauna/infrarotkabinen/"
+    },
+    {
+      "product_id": "karibu-sauna-antonia-6717",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-antonia/6717",
+      "stored_price": 1649.99,
+      "outcome": "from-price",
+      "page_prices": [
+        1829.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-antonia-6717",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-antonia-mit-eckeinstieg",
+      "stored_price": 1561.55,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1483,
+        1499.99,
+        1552,
+        1579.99,
+        1764,
+        1819,
+        1858,
+        1902,
+        1913,
+        1957,
+        2020,
+        2104,
+        2139,
+        2194
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-selena-6730",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-selena/6730",
+      "stored_price": 1799.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2229.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-selena-6730",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-selena-mit-fronteinstieg",
+      "stored_price": 1900.93,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1620,
+        1675,
+        1777,
+        1832,
+        1902,
+        1957,
+        1995,
+        2039,
+        2051,
+        2094,
+        2158,
+        2213,
+        2277,
+        2341
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-eda-71099",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-eda/71099",
+      "stored_price": 1049.99,
+      "outcome": "from-price",
+      "page_prices": [
+        1679.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ria-71093",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-ria/71093",
+      "stored_price": 999.99,
+      "outcome": "from-price",
+      "page_prices": [
+        1179.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sandra-6711",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-sandra/6711",
+      "stored_price": 1599.99,
+      "outcome": "from-price",
+      "page_prices": [
+        1849.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-antonia-6723",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-antonia/6723",
+      "stored_price": 1649.99,
+      "outcome": "from-price",
+      "page_prices": [
+        1899.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-selena-6729",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-selena/6729",
+      "stored_price": 1799.99,
+      "outcome": "from-price",
+      "page_prices": [
+        1979.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-saja-85911",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-saja/85911",
+      "stored_price": 2149.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2779.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-saja-85911",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
+      "stored_price": 2341.35,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1920,
+        1975,
+        2077,
+        2132,
+        2295,
+        2350,
+        2458,
+        2513
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-saja-85924",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-saja/85924",
+      "stored_price": 2149.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2849.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-saja-85924",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
+      "stored_price": 2393.74,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1920,
+        1975,
+        2077,
+        2132,
+        2295,
+        2350,
+        2458,
+        2513
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fanja-85872",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-fanja/85872",
+      "stored_price": 2099.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2599.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fanja-85872",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg",
+      "stored_price": 2197.26,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1877,
+        1932,
+        2033,
+        2088,
+        2252,
+        2307,
+        2414,
+        2469
+      ]
+    },
+    {
+      "product_id": "weka-infrarotkabine-mila-137x99",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-137x99-naturbelassen/543.1310.75.00",
+      "stored_price": 3599,
+      "outcome": "unreachable",
+      "detail": "HTTP 404"
+    },
+    {
+      "product_id": "weka-infrarotkabine-mila-137x99",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/weka-infrarot-waermekabine-mila-2-543-graphit-gr-2",
+      "stored_price": 2671.63,
+      "outcome": "unavailable",
+      "page_prices": [
+        3077.66
+      ]
+    },
+    {
+      "product_id": "weka-infrarotkabine-mila-108x99",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-mila-108x99-naturbelassen/543.1010.75.00",
+      "stored_price": 2898.99,
+      "outcome": "unreachable",
+      "detail": "HTTP 404"
+    },
+    {
+      "product_id": "weka-infrarotkabine-mila-108x99",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/weka-infrarot-waermekabine-mila-1-543-graphit-gr-1",
+      "stored_price": 2417.76,
+      "outcome": "unavailable",
+      "page_prices": [
+        2677.88
+      ]
+    },
+    {
+      "product_id": "weka-infrarotkabine-tanilla-eck-99x99",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-eck-99x99-naturbelassen/542.1010.33.20",
+      "stored_price": 2849,
+      "outcome": "confirmed",
+      "page_prices": [
+        2849
+      ]
+    },
+    {
+      "product_id": "weka-infrarotkabine-tanilla-eck-99x99",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/weka-infrarot-kabine-tanilla-eck-542-eck-inkl-lendenstuetze",
+      "stored_price": 2210,
+      "outcome": "updated",
+      "page_prices": [
+        2229.11
+      ]
+    },
+    {
+      "product_id": "weka-infrarotkabine-tanilla-137x99",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-137x99-naturbelassen/543.1310.33.20",
+      "stored_price": 2749,
+      "outcome": "confirmed",
+      "page_prices": [
+        2749
+      ]
+    },
+    {
+      "product_id": "weka-infrarotkabine-tanilla-137x99",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/weka-infrarot-kabine-tanilla-2-543-gr-2-inkl-lendenstuetze",
+      "stored_price": 2309.99,
+      "outcome": "updated",
+      "page_prices": [
+        2309
+      ]
+    },
+    {
+      "product_id": "weka-infrarotkabine-vaala-99x98",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-99x98-naturbelassen/550.1010.19.30",
+      "stored_price": 1236.76,
+      "outcome": "updated",
+      "page_prices": [
+        1648.99
+      ]
+    },
+    {
+      "product_id": "weka-infrarotkabine-vaala-99x98",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/weka-infrarot-waermekabine-ir-kabine-550-vaala-gr-1",
+      "stored_price": 1294.16,
+      "outcome": "updated",
+      "page_prices": [
+        1371.02
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-eda-71098",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-eda/71098",
+      "stored_price": 1049.99,
+      "outcome": "from-price",
+      "page_prices": [
+        1479.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-eda-71097",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-eda/71097",
+      "stored_price": 1049.99,
+      "outcome": "from-price",
+      "page_prices": [
+        1229.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-jella-6741",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-jella/6741",
+      "stored_price": 1849.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2029.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-jella-6741",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-38-mm-aktions-massivholzsauna-jella-mit-eckeinstieg",
+      "stored_price": 1728.27,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1658,
+        1713,
+        1814,
+        1869,
+        1939,
+        1994,
+        2033,
+        2077,
+        2088,
+        2132,
+        2196,
+        2251,
+        2314,
+        2369
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-saja-85918",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-saja/85918",
+      "stored_price": 2149.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2329.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-saja-85918",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
+      "stored_price": 1978.16,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1920,
+        1975,
+        2077,
+        2132,
+        2295,
+        2350,
+        2458,
+        2513
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-saja-85894",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-saja/85894",
+      "stored_price": 2149.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2779.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-saja-85894",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-saja-mit-eckeinstieg",
+      "stored_price": 2341.35,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1920,
+        1975,
+        2077,
+        2132,
+        2295,
+        2350,
+        2458,
+        2513
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fanja-85868",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-fanja/85868",
+      "stored_price": 2099.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2529.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fanja-85868",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-68-mm-sauna-fanja-mit-fronteinstieg",
+      "stored_price": 2144.87,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1877,
+        1932,
+        2033,
+        2088,
+        2252,
+        2307,
+        2414,
+        2469
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-laadi-1-130x105",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-1-130x105-naturbelassen/191.0102.00.00",
+      "stored_price": 3999,
+      "outcome": "confirmed",
+      "page_prices": [
+        3999
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-laadi-1-130x105",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/weka-design-saunahaus-laadi-1-mit-thermoholz-28-42-mm",
+      "stored_price": 3500,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        3849.9,
+        4249.9
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-laadi-3-130x240",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-3-130x240-naturbelassen/191.0104.00.00",
+      "stored_price": 5299,
+      "outcome": "updated",
+      "page_prices": [
+        5799
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-laadi-3-130x240",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/weka-design-saunahaus-laadi-3-mit-thermoholz-28-42-mm",
+      "stored_price": 5310,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        5649.95,
+        6049.9
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-schneeflocke-1",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-schneeflocke-1-saunaofen-klassik-9-0-naturbelassen/ws533202000001",
+      "stored_price": 2949,
+      "outcome": "updated",
+      "page_prices": [
+        3904
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-schneeflocke-2",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/p/saunahaus-schneeflocke-2-saunaofen-bioaktiv-9-0-naturbelassen/ws533202000002",
+      "stored_price": 3249,
+      "outcome": "updated",
+      "page_prices": [
+        4304
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-kuopio-238x238",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-kuopio-wekaline-238x238-naturbelassen/533.2525.60100",
+      "stored_price": 5299,
+      "outcome": "sale",
+      "page_prices": [
+        3199.01
+      ]
+    },
+    {
+      "product_id": "harvia-domo-large",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/DOMO-L/domo-large",
+      "stored_price": 3390,
+      "outcome": "confirmed",
+      "page_prices": [
+        3390
+      ]
+    },
+    {
+      "product_id": "harvia-domo-small",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/DOMO-S/domo-small",
+      "stored_price": 2990,
+      "outcome": "confirmed",
+      "page_prices": [
+        2990
+      ]
+    },
+    {
+      "product_id": "harvia-domo-medium",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/DOMO-M/domo-medium",
+      "stored_price": 3190,
+      "outcome": "confirmed",
+      "page_prices": [
+        3190
+      ]
+    },
+    {
+      "product_id": "harvia-utu-mini",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/SHU0909/utu-mini",
+      "stored_price": 5490,
+      "outcome": "confirmed",
+      "page_prices": [
+        5490
+      ]
+    },
+    {
+      "product_id": "harvia-panorama-mini",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/PANORAMA-MN/panorama-mini",
+      "stored_price": 5370,
+      "outcome": "confirmed",
+      "page_prices": [
+        5370
+      ]
+    },
+    {
+      "product_id": "harvia-panorama-small",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/PANORAMA-S/panorama-small",
+      "stored_price": 5770,
+      "outcome": "confirmed",
+      "page_prices": [
+        5770
+      ]
+    },
+    {
+      "product_id": "harvia-panorama-large",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/PANORAMA-L/panorama-large",
+      "stored_price": 6330,
+      "outcome": "confirmed",
+      "page_prices": [
+        6330
+      ]
+    },
+    {
+      "product_id": "harvia-utu-small",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/SHU1212/utu-small",
+      "stored_price": 6240,
+      "outcome": "confirmed",
+      "page_prices": [
+        6240
+      ]
+    },
+    {
+      "product_id": "harvia-utu-medium",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/SHU1616/utu-medium",
+      "stored_price": 8730,
+      "outcome": "confirmed",
+      "page_prices": [
+        8730
+      ]
+    },
+    {
+      "product_id": "harvia-urban-black-small",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/URB1212FG/urban-black-small",
+      "stored_price": 8110,
+      "outcome": "confirmed",
+      "page_prices": [
+        8110
+      ]
+    },
+    {
+      "product_id": "harvia-urban-black-medium",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/URB1616FG/urban-black-medium",
+      "stored_price": 10380,
+      "outcome": "confirmed",
+      "page_prices": [
+        10380
+      ]
+    },
+    {
+      "product_id": "harvia-block-right-medium",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/SHB1620ALD/block-right-medium",
+      "stored_price": 12500,
+      "outcome": "confirmed",
+      "page_prices": [
+        12500
+      ]
+    },
+    {
+      "product_id": "harvia-block-right-large",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/SHB2020ALD/block-right-large",
+      "stored_price": 13620,
+      "outcome": "confirmed",
+      "page_prices": [
+        13620
+      ]
+    },
+    {
+      "product_id": "harvia-fuji-aspen-small",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/FUJI-AS-S/fuji-aspen-small",
+      "stored_price": 14650,
+      "outcome": "confirmed",
+      "page_prices": [
+        14650
+      ]
+    },
+    {
+      "product_id": "harvia-fuji-aspen-large",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/FUJI-AS-L/fuji-aspen-large",
+      "stored_price": 15850,
+      "outcome": "confirmed",
+      "page_prices": [
+        15850
+      ]
+    },
+    {
+      "product_id": "harvia-ventura-medium",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/SHV1620/ventura-medium",
+      "stored_price": 15140,
+      "outcome": "confirmed",
+      "page_prices": [
+        15140
+      ]
+    },
+    {
+      "product_id": "harvia-ventura-large",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/SHV2020/ventura-large",
+      "stored_price": 16440,
+      "outcome": "confirmed",
+      "page_prices": [
+        16440
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-olbia-66606",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-olbia-ohne-ofen/66606",
+      "stored_price": 5299.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        5299.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-monterey-34032",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-monterey/34032",
+      "stored_price": 7999.99,
+      "outcome": "from-price",
+      "page_prices": [
+        8349.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-hytti-3-93863m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-hytti-3/93863M",
+      "stored_price": 2149.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2149.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-hytti-2-97707",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-hytti-2/97707",
+      "stored_price": 1999.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2249.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-hytti-1-exclusive-99937",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-hytti-1-exklusive/99937",
+      "stored_price": 1649.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2129.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-1-86283",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Saunahaus-Skrollan-1-mit-Vorraum",
+      "stored_price": 3799.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3799.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-cuben-80796",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Saunahaus-Cuben-mit-Vorraum",
+      "stored_price": 4499.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4499.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-1-214",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-ares-1/214",
+      "stored_price": 3499.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3499.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-1-214",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-1-hybridhaus-mit-metallrahmen",
+      "stored_price": 2930.55,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        3077,
+        3495,
+        3514,
+        3733,
+        3933,
+        4171
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-2-34043",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-ares-2/34043",
+      "stored_price": 3799.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3799.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-2-34043",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-saunahaus-ares-2-hybridhaus-mit-metallrahmen-38-mm",
+      "stored_price": 3168.7,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        3327,
+        3746,
+        3778,
+        3983,
+        4199,
+        4461
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-2-35976",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Mainburg-2",
+      "stored_price": 5299.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        5299.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-1-92821m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/fasssauna-1/92821M",
+      "stored_price": 2399.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2399.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-2-92829",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/fasssauna-2/92822M",
+      "stored_price": 3599.99,
+      "outcome": "from-price",
+      "page_prices": [
+        3699.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-quadro-1-109m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/fasssauna-quadro-1/109M",
+      "stored_price": 1999.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        1999.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-quadro-1-109m",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-saunahaus-fasssauna-quadro-1-38-mm",
+      "stored_price": 1680.85,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1764,
+        2185,
+        2445
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-quadro-1-plus-35445m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/fasssauna-quadro-1-plus/35445M",
+      "stored_price": 2449.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2449.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-quadro-1-plus-35445m",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/karibu-saunahaus-fasssauna-quadro-1-plus-38-mm",
+      "stored_price": 2056.12,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        2158,
+        2579,
+        2820
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-hygge-86314",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Saunahaus-Hygge-mit-Vorraum",
+      "stored_price": 5799.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        5799.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-laguna-196",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-laguna/196",
+      "stored_price": 3949.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3949.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-miramar-510",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-miramar/510",
+      "stored_price": 6549.99,
+      "outcome": "from-price",
+      "page_prices": [
+        7029.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-2-86299",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Saunahaus-Skrollan-2-mit-Vorraum",
+      "stored_price": 3899.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3899.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-skrollan-3-86304",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Saunahaus-Skrollan-3-mit-Vorraum",
+      "stored_price": 4549.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4549.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-1-35866",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-mainburg-1/35866",
+      "stored_price": 4999.99,
+      "outcome": "from-price",
+      "page_prices": [
+        5399.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-3-36281",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-mainburg-3/36281",
+      "stored_price": 5899.99,
+      "outcome": "from-price",
+      "page_prices": [
+        6779.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-4-36295",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-mainburg-4/36295",
+      "stored_price": 6699.99,
+      "outcome": "from-price",
+      "page_prices": [
+        7099.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-5-36307",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-mainburg-5/36307",
+      "stored_price": 7439.99,
+      "outcome": "from-price",
+      "page_prices": [
+        8099.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-angkor-2-181",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-angkor-2/181",
+      "stored_price": 3699.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3699.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-angkor-3-185",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-angkor-3/185",
+      "stored_price": 4099.99,
+      "outcome": "from-price",
+      "page_prices": [
+        4579.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-4-66789",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-ares-4/66789",
+      "stored_price": 5299.99,
+      "outcome": "from-price",
+      "page_prices": [
+        5899.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-breit-67219m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/fasssauna-breit/67219M",
+      "stored_price": 5499.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        5499.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-3-92830",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/fasssauna-3/92830",
+      "stored_price": 4999.99,
+      "outcome": "from-price",
+      "page_prices": [
+        5479.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasshaus-3-27454",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/fasshaus-3/27454",
+      "stored_price": 4449.99,
+      "outcome": "from-price",
+      "page_prices": [
+        4929.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-delano-66702",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-delano/66702",
+      "stored_price": 5399.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        5399.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-laguna-198",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-laguna/198",
+      "stored_price": 3949.99,
+      "outcome": "from-price",
+      "page_prices": [
+        4429.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-delano-66708",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-delano/66708",
+      "stored_price": 6179.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        6179.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-monterey-douglasie-70710",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-monterey-douglasie/70710",
+      "stored_price": 8549.99,
+      "outcome": "from-price",
+      "page_prices": [
+        9199.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-1-5-66613m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/fasssauna-1-5/66613M",
+      "stored_price": 2799.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2799.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasssauna-quadro-2-66638",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/ch/fasssauna-quadro-2/66638",
+      "stored_price": 2299.99,
+      "outcome": "updated",
+      "page_prices": [
+        2847.05
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-olbia-66607",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-olbia-inkl.-9kw-ofen-finnisch-und-steuerung-easy/66607",
+      "stored_price": 5799.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        5799.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-olbia-66608",
+      "merchant": "Karibu",
+      "url": "https://en.karibu.de/saunahaus-olbia-inkl.-9kw-bio-ofen-und-steuerung-easy/66608",
+      "stored_price": 5999,
+      "outcome": "updated",
+      "page_prices": [
+        5999.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-4-36293",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-mainburg-4/36293",
+      "stored_price": 6699.99,
+      "outcome": "from-price",
+      "page_prices": [
+        7179.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-4-36297",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-mainburg-4/36297",
+      "stored_price": 7879.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        7879.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-5-36302",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-mainburg-5/36302",
+      "stored_price": 7439.99,
+      "outcome": "from-price",
+      "page_prices": [
+        8519.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-mainburg-5-36306",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-mainburg-5/36306",
+      "stored_price": 8279.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        8279.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasshaus-2-27450",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/fasshaus-2/27450",
+      "stored_price": 3199.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3199.99
+      ]
+    },
+    {
+      "product_id": "karibu-fasshaus-3-1128",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/fasshaus-fasssauna-3-aktionsset-huum-wifi-steuergeraet-sparset/1128",
+      "stored_price": 4799.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4799.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-1-anbaudach-65875m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-ares-1-mit-2-70-m-anbaudach/65875M",
+      "stored_price": 4649.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4649.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-2-anbaudach-65922",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-ares-2-mit-2-70-m-anbaudach/65922",
+      "stored_price": 4949.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        4949.99
+      ]
+    },
+    {
+      "product_id": "karibu-saunahaus-ares-2-anbaudach-65933",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-ares-2-mit-2-70-m-anbaudach/65933",
+      "stored_price": 6349.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        6349.99
+      ]
+    },
+    {
+      "product_id": "karibu-28107",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-marla-4-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28107",
+      "stored_price": 3479.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3479.99
+      ]
+    },
+    {
+      "product_id": "karibu-28105",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-marla-2-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28105",
+      "stored_price": 3239.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3239.99
+      ]
+    },
+    {
+      "product_id": "karibu-28106",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-marla-3-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28106",
+      "stored_price": 3179.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3179.99
+      ]
+    },
+    {
+      "product_id": "karibu-28104",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-marla-1-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28104",
+      "stored_price": 3139.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3139.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Alcinda",
+      "stored_price": 3099.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3099.99
+      ]
+    },
+    {
+      "product_id": "karibu-28090",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-hannah-4-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28090",
+      "stored_price": 3039.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3039.99
+      ]
+    },
+    {
+      "product_id": "karibu-28100",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-mila-7-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28100",
+      "stored_price": 3019.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3019.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ainur",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Ainur",
+      "stored_price": 2999.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2999.99
+      ]
+    },
+    {
+      "product_id": "karibu-28088",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-hannah-2-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28088",
+      "stored_price": 2989.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2989.99
+      ]
+    },
+    {
+      "product_id": "karibu-28092",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-hannah-5-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28092",
+      "stored_price": 2989.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2989.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amara",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Amara",
+      "stored_price": 2979.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2979.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sinai-3",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Sinai-3",
+      "stored_price": 2949.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2949.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-askja",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Askja",
+      "stored_price": 2949.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2949.99
+      ]
+    },
+    {
+      "product_id": "karibu-28089",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-hannah-3-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28089",
+      "stored_price": 2939.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2939.99
+      ]
+    },
+    {
+      "product_id": "karibu-34283m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-airi/34283M",
+      "stored_price": 2899.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2899.99
+      ]
+    },
+    {
+      "product_id": "karibu-28099",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-mila-6-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28099",
+      "stored_price": 2869.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2869.99
+      ]
+    },
+    {
+      "product_id": "karibu-28098",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-mila-5-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28098",
+      "stored_price": 2819.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2819.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sahib-2",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Sahib-2",
+      "stored_price": 2779.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2779.99
+      ]
+    },
+    {
+      "product_id": "karibu-28097",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-mila-4-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28097",
+      "stored_price": 2769.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2769.99
+      ]
+    },
+    {
+      "product_id": "karibu-28096",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-mila-3-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28096",
+      "stored_price": 2719.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2719.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-tanami",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Tanami",
+      "stored_price": 2649.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2649.99
+      ]
+    },
+    {
+      "product_id": "karibu-28095",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-mila-2-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28095",
+      "stored_price": 2619.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2619.99
+      ]
+    },
+    {
+      "product_id": "karibu-66609m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-4/66609M",
+      "stored_price": 2599.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2599.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sonara",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Sonara",
+      "stored_price": 2599.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2599.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-malin",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Malin",
+      "stored_price": 2599.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2599.99
+      ]
+    },
+    {
+      "product_id": "karibu-28094",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-mila-1-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28094",
+      "stored_price": 2569.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2569.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-3",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Amelia-3",
+      "stored_price": 2549.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2549.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-gobin",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Gobin",
+      "stored_price": 2549.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2549.99
+      ]
+    },
+    {
+      "product_id": "karibu-28087",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-hannah-1-im-sparset-9kw-bio-ofen-mit-huum-wifi-steuerung/28087",
+      "stored_price": 2469.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2469.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-mojave",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Mojave",
+      "stored_price": 2449.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2449.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-fiona-3",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Fiona-3",
+      "stored_price": 2449.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2449.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-jarin",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Jarin",
+      "stored_price": 2399.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2399.99
+      ]
+    },
+    {
+      "product_id": "karibu-66736m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-gateway/66736M",
+      "stored_price": 2399.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2399.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-arvika",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Arvika",
+      "stored_price": 2379.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2379.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-sahib-1",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Sahib-1",
+      "stored_price": 2349.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2349.99
+      ]
+    },
+    {
+      "product_id": "karibu-88m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-irava-3/88M",
+      "stored_price": 2349.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2349.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-horna",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Horna",
+      "stored_price": 2329.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2329.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-rodin",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Rodin",
+      "stored_price": 2299.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2299.99
+      ]
+    },
+    {
+      "product_id": "karibu-67329m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-nome/67329M",
+      "stored_price": 2299.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2299.99
+      ]
+    },
+    {
+      "product_id": "karibu-93461",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-kalle-7/93461",
+      "stored_price": 2299.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2299.99
+      ]
+    },
+    {
+      "product_id": "karibu-93462",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-kalle-8/93462",
+      "stored_price": 2299.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2299.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-nybro",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Nybro",
+      "stored_price": 2279.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2279.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-lilja",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna/innensauna/",
+      "stored_price": 2249.99,
+      "outcome": "no-structured-price"
+    },
+    {
+      "product_id": "karibu-sauna-siirin",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Siirin",
+      "stored_price": 2249.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2249.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-1",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/Sauna-Amelia-1",
+      "stored_price": 2249.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2249.99
+      ]
+    },
+    {
+      "product_id": "karibu-93459",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-kalle-5/93459",
+      "stored_price": 2249.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2249.99
+      ]
+    },
+    {
+      "product_id": "harvia-kammi-barrel-large",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/KAMMI-BAR-220/kammi-barrel-large",
+      "stored_price": 3490,
+      "outcome": "confirmed",
+      "page_prices": [
+        3490
+      ]
+    },
+    {
+      "product_id": "harvia-kammi-cube-large",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/KAMMI-CUBE-220/kammi-cube-large",
+      "stored_price": 3990,
+      "outcome": "confirmed",
+      "page_prices": [
+        3990
+      ]
+    },
+    {
+      "product_id": "harvia-kaski-panorama-180",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/KASKI-180-P/kaski-panorama-180",
+      "stored_price": 8240,
+      "outcome": "confirmed",
+      "page_prices": [
+        8240
+      ]
+    },
+    {
+      "product_id": "harvia-kaski-panorama-220",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/KASKI-220-P/kaski-panorama-220",
+      "stored_price": 8840,
+      "outcome": "confirmed",
+      "page_prices": [
+        8840
+      ]
+    },
+    {
+      "product_id": "harvia-kaski-panorama-240-canopy",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/KASKI-240-P-C/kaski-panorama-240-canopy",
+      "stored_price": 9210,
+      "outcome": "confirmed",
+      "page_prices": [
+        9210
+      ]
+    },
+    {
+      "product_id": "harvia-solide-vision",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/SLD-VIS/solide-vision",
+      "stored_price": 4990,
+      "outcome": "confirmed",
+      "page_prices": [
+        4990
+      ]
+    },
+    {
+      "product_id": "harvia-alpina-panorama-medium",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/ALP-M-P-DGR/alpina-panorama-medium",
+      "stored_price": 18890,
+      "outcome": "confirmed",
+      "page_prices": [
+        18890
+      ]
+    },
+    {
+      "product_id": "harvia-lux-medium",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/LUX-MC/lux-medium",
+      "stored_price": 37750,
+      "outcome": "confirmed",
+      "page_prices": [
+        37750
+      ]
+    },
+    {
+      "product_id": "harvia-urban-white-small",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/URW1212FG/urban-white-small",
+      "stored_price": 8110,
+      "outcome": "confirmed",
+      "page_prices": [
+        8110
+      ]
+    },
+    {
+      "product_id": "harvia-urban-white-medium",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/en-de/product/URW1616FG/urban-white-medium",
+      "stored_price": 10380,
+      "outcome": "confirmed",
+      "page_prices": [
+        10380
+      ]
+    },
+    {
+      "product_id": "harvia-alpina-panorama-large",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/ALP-L-P-DGR/alpina-panorama-large",
+      "stored_price": 25070,
+      "outcome": "confirmed",
+      "page_prices": [
+        25070
+      ]
+    },
+    {
+      "product_id": "harvia-lux-large",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/LUX-LC/lux-large",
+      "stored_price": 49750,
+      "outcome": "confirmed",
+      "page_prices": [
+        49750
+      ]
+    },
+    {
+      "product_id": "harvia-lindea-small",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/LINDEA-V-S-T-L/lindea-small",
+      "stored_price": 12240,
+      "outcome": "confirmed",
+      "page_prices": [
+        12240
+      ]
+    },
+    {
+      "product_id": "harvia-lindea-large",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/LINDEA-V-L-T-L/lindea-large",
+      "stored_price": 15970,
+      "outcome": "confirmed",
+      "page_prices": [
+        15970
+      ]
+    },
+    {
+      "product_id": "harvia-soma-sienna-duo",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/SGV1210MT/soma-sienna-duo",
+      "stored_price": 1990,
+      "outcome": "confirmed",
+      "page_prices": [
+        1990
+      ]
+    },
+    {
+      "product_id": "harvia-onni-sienna-one",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/SGN1010MT/onni-sienna-one",
+      "stored_price": 3240,
+      "outcome": "confirmed",
+      "page_prices": [
+        3240
+      ]
+    },
+    {
+      "product_id": "harvia-onni-onyx-one",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/SGN1010CBT/onni-onyx-one",
+      "stored_price": 3550,
+      "outcome": "confirmed",
+      "page_prices": [
+        3550
+      ]
+    },
+    {
+      "product_id": "harvia-onni-sienna-duo",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/SGN1310MT/onni-sienna-duo",
+      "stored_price": 3720,
+      "outcome": "confirmed",
+      "page_prices": [
+        3720
+      ]
+    },
+    {
+      "product_id": "harvia-onni-onyx-duo",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/SGN1310CBT/onni-onyx-duo",
+      "stored_price": 4260,
+      "outcome": "confirmed",
+      "page_prices": [
+        4260
+      ]
+    },
+    {
+      "product_id": "harvia-minimy",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/MINIMY-120-B/minimy",
+      "stored_price": 5440,
+      "outcome": "confirmed",
+      "page_prices": [
+        5440
+      ]
+    },
+    {
+      "product_id": "harvia-vitamy",
+      "merchant": "Harvia",
+      "url": "https://shop.harvia.com/de-de/product/VITAMY-164-B/vitamy",
+      "stored_price": 7300,
+      "outcome": "confirmed",
+      "page_prices": [
+        7300
+      ]
+    },
+    {
+      "product_id": "weka-kemi-188x140-glastuer",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-188x140-glastuer/529.1520.32122",
+      "stored_price": 2999,
+      "outcome": "unreachable",
+      "detail": "HTTP 404"
+    },
+    {
+      "product_id": "weka-kemi-188x188-glastuer",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-188x188-glastuer/529.2020.30100",
+      "stored_price": 3699,
+      "outcome": "sale",
+      "page_prices": [
+        2199
+      ]
+    },
+    {
+      "product_id": "weka-kemi-238x188-glastuer",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-238x188-glastuer/529.2520.30100",
+      "stored_price": 4249,
+      "outcome": "sale",
+      "page_prices": [
+        2499
+      ]
+    },
+    {
+      "product_id": "weka-kemi-eck-188x140",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-eck-188x140-eckeinstieg-glastuer/528.2015.30102",
+      "stored_price": 3099,
+      "outcome": "sale",
+      "page_prices": [
+        1899
+      ]
+    },
+    {
+      "product_id": "weka-kemi-eck-188x188",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-eck-188x188-eckeinstieg-glastuer/528.2020.30102",
+      "stored_price": 3899,
+      "outcome": "sale",
+      "page_prices": [
+        2299
+      ]
+    },
+    {
+      "product_id": "weka-kemi-panorama-209x168",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-panorama-209x168-2-fenster-glastuer/529.2116.32100",
+      "stored_price": 4249,
+      "outcome": "confirmed",
+      "page_prices": [
+        4249
+      ]
+    },
+    {
+      "product_id": "weka-kemi-panorama-209x210",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-panorama-209x210-2-fenster-glastuer/529.2121.32100",
+      "stored_price": 4499,
+      "outcome": "confirmed",
+      "page_prices": [
+        4499
+      ]
+    },
+    {
+      "product_id": "weka-bergen-196x195-fenster",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-bergen-196x195-fenster-glastuer/530.2020.42100",
+      "stored_price": 3048.99,
+      "outcome": "implausible-change",
+      "page_prices": [
+        1798.99
+      ]
+    },
+    {
+      "product_id": "weka-bergen-246x195-fenster",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-bergen-246x195-fenster-glastuer/531.2520.42100",
+      "stored_price": 4099,
+      "outcome": "sale",
+      "page_prices": [
+        2499
+      ]
+    },
+    {
+      "product_id": "weka-turku-195x195-fenster",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-turku-195x195-fenster-eckeinstieg-glastuer/536.2020.42100",
+      "stored_price": 3599,
+      "outcome": "updated",
+      "page_prices": [
+        3999
+      ]
+    },
+    {
+      "product_id": "weka-turku-245x195-fenster",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-turku-245x195-fenster-eckeinstieg-glastuer/536.2520.42100",
+      "stored_price": 4099,
+      "outcome": "sale",
+      "page_prices": [
+        2499
+      ]
+    },
+    {
+      "product_id": "weka-cubilis-195x145",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-cubilis-wekaline-195x145-fenster-glastuer/536.2015.52102",
+      "stored_price": 4699,
+      "outcome": "sale",
+      "page_prices": [
+        2799
+      ]
+    },
+    {
+      "product_id": "weka-cubilis-195x195",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-cubilis-wekaline-195x195-fenster-glastuer/536.2020.52102",
+      "stored_price": 4999,
+      "outcome": "sale",
+      "page_prices": [
+        2999
+      ]
+    },
+    {
+      "product_id": "weka-valida-139x139",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-valida-139x139-glastuer/537.1515.40.00",
+      "stored_price": 1199,
+      "outcome": "updated",
+      "page_prices": [
+        1499
+      ]
+    },
+    {
+      "product_id": "weka-farsund-390x187-fenster",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-farsund-390x187-glastuer-ruheraum-fenster-naturbelassen/533.3920.80100",
+      "stored_price": 5499,
+      "outcome": "sale",
+      "page_prices": [
+        3299
+      ]
+    },
+    {
+      "product_id": "weka-luua-234x249",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-luua-234x249-glastuer-satteldach-vormontiert-schwarz/191.0109.00.00",
+      "stored_price": 12999,
+      "outcome": "confirmed",
+      "page_prices": [
+        12999
+      ]
+    },
+    {
+      "product_id": "weka-luua-cube-210x254",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-luua-cube-210-0x254-5-glastuer-flachdach-vormontiert-schwarz/191.0108.00.00",
+      "stored_price": 12799,
+      "outcome": "confirmed",
+      "page_prices": [
+        12799
+      ]
+    },
+    {
+      "product_id": "weka-viira-1-150x202",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-viira-1-149-6x201-6-glastuer-dachbahnen-naturbelassen/191.0100.00.00",
+      "stored_price": 5499,
+      "outcome": "updated",
+      "page_prices": [
+        5999
+      ]
+    },
+    {
+      "product_id": "weka-viira-2-229x229",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-viira-2-229x229-glastuer-fenster-dachbahn-naturbelassen/191.0101.00.00",
+      "stored_price": 7799,
+      "outcome": "updated",
+      "page_prices": [
+        7999
+      ]
+    },
+    {
+      "product_id": "weka-polaris-1-75kw",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-polaris-1-298x298-saunaofen-klassik-7-5-naturbelassen/ws149303000001",
+      "stored_price": 6199,
+      "outcome": "updated",
+      "page_prices": [
+        7549
+      ]
+    },
+    {
+      "product_id": "weka-polaris-2-75kw",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-polaris-2-298x298-saunaofen-bioaktiv-7-5-naturbelassen/ws149303000002",
+      "stored_price": 6399,
+      "outcome": "updated",
+      "page_prices": [
+        7849
+      ]
+    },
+    {
+      "product_id": "weka-winterzauber-1-9kw",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-winterzauber-1-saunaofen-klassik-9-0-anthrazit/ws533252500001",
+      "stored_price": 5199,
+      "outcome": "updated",
+      "page_prices": [
+        6924
+      ]
+    },
+    {
+      "product_id": "weka-winterzauber-2-9kw",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-winterzauber-2-saunaofen-bioaktiv-9-0-anthrazit/ws533252500002",
+      "stored_price": 5499,
+      "outcome": "updated",
+      "page_prices": [
+        7324
+      ]
+    },
+    {
+      "product_id": "weka-salo-601x298-grau",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-salo-601x298-einzeltuer-anbau-grau/213.3030.45294",
+      "stored_price": 7759,
+      "outcome": "sale",
+      "page_prices": [
+        4699
+      ]
+    },
+    {
+      "product_id": "weka-hamina-108x102",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-hamina-108-00x102-50-ganzglastuer-halogenspot-naturbelassen/558.1010.00.00",
+      "stored_price": 2999,
+      "outcome": "sale",
+      "page_prices": [
+        1798.99
+      ]
+    },
+    {
+      "product_id": "weka-hamina-136x102",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-hamina-136-50x102-50-ganzglastuer-halogenspot-naturbelassen/558.1310.00.00",
+      "stored_price": 3149,
+      "outcome": "updated",
+      "page_prices": [
+        3499
+      ]
+    },
+    {
+      "product_id": "weka-osby-140x99",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-osby-140x99-2-fensterelemente-ganzglastuer-weiss/556.1310.00.00",
+      "stored_price": 3799,
+      "outcome": "confirmed",
+      "page_prices": [
+        3799
+      ]
+    },
+    {
+      "product_id": "weka-osby-212x125",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-osby-212x125-2-fensterelemente-ganzglastuer-weiss/556.2012.00.00",
+      "stored_price": 5699.01,
+      "outcome": "confirmed",
+      "page_prices": [
+        5699.01
+      ]
+    },
+    {
+      "product_id": "weka-osby-eck-200x138",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-osby-eck-200x138-2-fensterelemente-eckeinstieg-weiss/557.1913.00.00",
+      "stored_price": 4299.01,
+      "outcome": "implausible-change",
+      "page_prices": [
+        2599
+      ]
+    },
+    {
+      "product_id": "weka-ranua-109x98",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-ranua-109x98-ganzglastuer-naturbelassen/548.1010.42.00",
+      "stored_price": 2759,
+      "outcome": "sale",
+      "page_prices": [
+        1699
+      ]
+    },
+    {
+      "product_id": "weka-ranua-140x98",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-ranua-140x98-ganzglastuer-naturbelassen/548.1310.42.00",
+      "stored_price": 3349.01,
+      "outcome": "confirmed",
+      "page_prices": [
+        3349.01
+      ]
+    },
+    {
+      "product_id": "weka-tanilla-108x99",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-tanilla-108x99-ganzglastuer-naturbelassen/543.1010.33.20",
+      "stored_price": 2199,
+      "outcome": "implausible-change",
+      "page_prices": [
+        1399
+      ]
+    },
+    {
+      "product_id": "weka-vaala-127x98",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-127x98-steuerung-ganzglastuer-naturbelassen/550.1310.19.30",
+      "stored_price": 1699,
+      "outcome": "updated",
+      "page_prices": [
+        1899
+      ]
+    },
+    {
+      "product_id": "weka-uppsala-212x121-klassik",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/infrarotsauna-uppsala-212x121-3-6-kw-klassik-glastuer/547.2012.13.00",
+      "stored_price": 5599,
+      "outcome": "sale",
+      "page_prices": [
+        3399
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-elva-230x180",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-elva-230x180-naturbelassen/191.0110.00.00",
+      "stored_price": 8699,
+      "outcome": "confirmed",
+      "page_prices": [
+        8699
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-keila-190x211",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-keila-190x211-glastuer-ruheraum-naturbelassen/191.0111.00.00",
+      "stored_price": 9999,
+      "outcome": "confirmed",
+      "page_prices": [
+        9999
+      ]
+    },
+    {
+      "product_id": "weka-elementsauna-kaarina-151x192",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/elementsauna-kaarina-151x192-glastuer/506.1520.10100",
+      "stored_price": 2699,
+      "outcome": "sale",
+      "page_prices": [
+        1599
+      ]
+    },
+    {
+      "product_id": "weka-elementsauna-kaarina-175x192",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/elementsauna-kaarina-175x192-2-fenster-glastuer/506.1820.50100",
+      "stored_price": 2699,
+      "outcome": "updated",
+      "page_prices": [
+        2999
+      ]
+    },
+    {
+      "product_id": "weka-elementsauna-halmstad-192x175-glastuer",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/elementsauna-halmstad-192x175-glastuer/506.2018.10100",
+      "stored_price": 2599,
+      "outcome": "confirmed",
+      "page_prices": [
+        2599
+      ]
+    },
+    {
+      "product_id": "weka-elementsauna-halmstad-192x175-holztuer",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/elementsauna-halmstad-192x175-holztuer/506.2018.00.00",
+      "stored_price": 2299,
+      "outcome": "updated",
+      "page_prices": [
+        1599
+      ]
+    },
+    {
+      "product_id": "weka-elementsauna-laukkala-139x139",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-laukkala-139x139-saunaleuchte-glastuer/528.1515.50.01",
+      "stored_price": 1899,
+      "outcome": "updated",
+      "page_prices": [
+        2199
+      ]
+    },
+    {
+      "product_id": "weka-elementsauna-laukkala-187x188",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-laukkala-187x188-glastuer/528.2015.51.02",
+      "stored_price": 2549,
+      "outcome": "sale",
+      "page_prices": [
+        1499
+      ]
+    },
+    {
+      "product_id": "weka-fasssauna-198-207x186",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/fasssauna-198-207-6x186-6-glastuer-naturbelassen/198.2125.80100",
+      "stored_price": 3499,
+      "outcome": "updated",
+      "page_prices": [
+        3699
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-sonnenwende-plus-ruheraum-dachbahnen-saunaofen-klassik-9-0/ws533392000001",
+      "stored_price": 4499,
+      "outcome": "updated",
+      "page_prices": [
+        5924
+      ]
+    },
+    {
+      "product_id": "karibu-ventura-71108",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-ventura/71108M",
+      "stored_price": 1899.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        1899.99
+      ]
+    },
+    {
+      "product_id": "karibu-cuben-80800",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-cuben-mit-vorraum/80800",
+      "stored_price": 4499.99,
+      "outcome": "from-price",
+      "page_prices": [
+        5279.99
+      ]
+    },
+    {
+      "product_id": "karibu-mainburg-3-36285",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-mainburg-3/36285",
+      "stored_price": 5899.99,
+      "outcome": "from-price",
+      "page_prices": [
+        7109.99
+      ]
+    },
+    {
+      "product_id": "karibu-angkor-3-186",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-angkor-3/186",
+      "stored_price": 4099.99,
+      "outcome": "from-price",
+      "page_prices": [
+        4879.99
+      ]
+    },
+    {
+      "product_id": "weka-kurikka-14930301046",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-kurikka-298x298-einzeltuer-2-fenster-naturbelassen/149.3030.10.46",
+      "stored_price": 6699,
+      "outcome": "confirmed",
+      "page_prices": [
+        6699
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-412-4126250803",
+      "merchant": "WEKA",
+      "url": "https://www.weka-holzbau.com/de/p/saunahaus-412/4126250803",
+      "stored_price": 7499,
+      "outcome": "confirmed",
+      "page_prices": [
+        7499
+      ]
+    },
+    {
+      "product_id": "karibu-hytti-0-359",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-hytti-0/359",
+      "stored_price": 1579.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2359.99
+      ]
+    },
+    {
+      "product_id": "karibu-hytti-1-93866",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-hytti-1/93866",
+      "stored_price": 1749.99,
+      "outcome": "from-price",
+      "page_prices": [
+        2529.99
+      ]
+    },
+    {
+      "product_id": "karibu-hytti-2-exclusive-99902m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-hytti-2-exklusive/99902M",
+      "stored_price": 1899.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        1899.99
+      ]
+    },
+    {
+      "product_id": "karibu-hytti-3-exclusive-99904m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-hytti-3-exklusive/99904M",
+      "stored_price": 1949,
+      "outcome": "updated",
+      "page_prices": [
+        2049.99
+      ]
+    },
+    {
+      "product_id": "karibu-hytti-6-123m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-hytti-6/123M",
+      "stored_price": 3449.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3449.99
+      ]
+    },
+    {
+      "product_id": "karibu-paradise-66711m",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/saunahaus-paradise/66711M",
+      "stored_price": 8799.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        8799.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-adelina-6168",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-adelina/6168",
+      "stored_price": 1899.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        1899.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-adelina-6169",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-adelina/6169",
+      "stored_price": 1969.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        1969.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-adelina-6755",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-adelina/6755",
+      "stored_price": 2229.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2229.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-adelina-6756",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-adelina/6756",
+      "stored_price": 2379.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2379.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-adelina-6758",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-adelina/6758",
+      "stored_price": 2679.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2679.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-adelina-6759",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-adelina/6759",
+      "stored_price": 2299.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2299.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-adelina-6760",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-adelina/6760",
+      "stored_price": 2449.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2449.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-adelina-6761",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-adelina/6761",
+      "stored_price": 2749.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2749.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ainur-6098",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-ainur/6098",
+      "stored_price": 2999.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2999.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ainur-6099",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-ainur/6099",
+      "stored_price": 3069.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3069.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ainur-6100",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-ainur/6100",
+      "stored_price": 3329.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3329.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ainur-6101",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-ainur/6101",
+      "stored_price": 3479.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3479.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ainur-6102",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-ainur/6102",
+      "stored_price": 3779.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3779.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ainur-6103",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-ainur/6103",
+      "stored_price": 3399.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3399.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ainur-6104",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-ainur/6104",
+      "stored_price": 3549.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3549.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-ainur-6105",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-ainur/6105",
+      "stored_price": 3849.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3849.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-airi-34283",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-airi/34283",
+      "stored_price": 2899.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2899.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-airi-34291",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-airi/34291",
+      "stored_price": 3229.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3229.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-airi-34292",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-airi/34292",
+      "stored_price": 3379.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3379.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-airi-34294",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-airi/34294",
+      "stored_price": 3679.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3679.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-airi-34301",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-airi/34301",
+      "stored_price": 2969.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2969.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-airi-34309",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-airi/34309",
+      "stored_price": 3299.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3299.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-airi-34315",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-airi/34315",
+      "stored_price": 3449.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3449.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-airi-34316",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-airi/34316",
+      "stored_price": 3749.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3749.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda-2503",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-alcinda/2503",
+      "stored_price": 3099.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3099.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda-6106",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-alcinda/6106",
+      "stored_price": 3429.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3429.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda-6107",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-alcinda/6107",
+      "stored_price": 3579.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3579.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda-6108",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-alcinda/6108",
+      "stored_price": 3879.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3879.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda-6109",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-alcinda/6109",
+      "stored_price": 3169.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3169.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda-6110",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-alcinda/6110",
+      "stored_price": 3499.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3499.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda-6111",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-alcinda/6111",
+      "stored_price": 3649.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3649.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-alcinda-6112",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-alcinda/6112",
+      "stored_price": 3949.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3949.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amara-71285",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amara/71285",
+      "stored_price": 2979.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2979.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amara-71286",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amara/71286",
+      "stored_price": 3309.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3309.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amara-71287",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amara/71287",
+      "stored_price": 3459.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3459.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amara-71288",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amara/71288",
+      "stored_price": 3759.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3759.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amara-71289",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amara/71289",
+      "stored_price": 3049.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3049.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amara-71290",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amara/71290",
+      "stored_price": 3379.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3379.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amara-71291",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amara/71291",
+      "stored_price": 3529.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3529.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amara-71292",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amara/71292",
+      "stored_price": 3829.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3829.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-1-66743",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-1/66743",
+      "stored_price": 2249.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2249.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-1-66744",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-1/66744",
+      "stored_price": 2579.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2579.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-1-66745",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-1/66745",
+      "stored_price": 2729.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2729.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-1-66746",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-1/66746",
+      "stored_price": 3029.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3029.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-1-66747",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-1/66747",
+      "stored_price": 2319.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2319.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-1-66748",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-1/66748",
+      "stored_price": 2649.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2649.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-1-66749",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-1/66749",
+      "stored_price": 2799.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2799.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-1-66750",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-1/66750",
+      "stored_price": 3099.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3099.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-3-66760",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-3/66760",
+      "stored_price": 2549.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2549.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-3-66762",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-3/66762",
+      "stored_price": 2879.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2879.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-3-66763",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-3/66763",
+      "stored_price": 3029.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3029.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-3-66764",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-3/66764",
+      "stored_price": 3329.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3329.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-3-66765",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-3/66765",
+      "stored_price": 2619.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2619.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-3-66767",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-3/66767",
+      "stored_price": 3099.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3099.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-3-66768",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-3/66768",
+      "stored_price": 2949.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2949.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-amelia-3-66769",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-amelia-3/66769",
+      "stored_price": 3399.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3399.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-arvika-6197",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-arvika/6197",
+      "stored_price": 2379.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2379.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-arvika-6217",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-arvika/6217",
+      "stored_price": 2709.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2709.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-arvika-6218",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-arvika/6218",
+      "stored_price": 2859.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2859.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-arvika-6219",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-arvika/6219",
+      "stored_price": 3159.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3159.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-1-93001",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-1/93001",
+      "stored_price": 1699.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        1699.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-1-93002",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-1/93002",
+      "stored_price": 1879.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        1879.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-1-93003",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-1/93003",
+      "stored_price": 2129.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2129.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-1-93004",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-1/93004",
+      "stored_price": 2329.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2329.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-2-93005",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-2/93005",
+      "stored_price": 2049.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2049.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-2-93006",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-2/93006",
+      "stored_price": 2229.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2229.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-2-93007",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-2/93007",
+      "stored_price": 2479.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2479.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-2-93008",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-2/93008",
+      "stored_price": 2679.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2679.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-3-66880",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-3/66880",
+      "stored_price": 2199.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2199.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-3-66883",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-3/66883",
+      "stored_price": 2379.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2379.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-3-66884",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-3/66884",
+      "stored_price": 2629.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2629.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-3-66886",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-3/66886",
+      "stored_price": 2829.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2829.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-4-66609",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-4/66609",
+      "stored_price": 2599.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2599.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-4-66610",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-4/66610",
+      "stored_price": 2779.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2779.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-4-66611",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-4/66611",
+      "stored_price": 3029.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3029.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-avari-4-66612",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-avari-4/66612",
+      "stored_price": 3229.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        3229.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-46837",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/46837",
+      "stored_price": 2499.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2499.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-47113",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/47113",
+      "stored_price": 2169.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2169.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-47829",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/47829",
+      "stored_price": 2099.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2099.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-56735",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/56735",
+      "stored_price": 2949.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2949.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-59630",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/59630",
+      "stored_price": 2429.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2429.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-59631",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/59631",
+      "stored_price": 2579.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2579.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-59632",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/59632",
+      "stored_price": 2879.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2879.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-59633",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/59633",
+      "stored_price": 2649.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2649.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-75629",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/75629",
+      "stored_price": 2099.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2099.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-75630",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/75630",
+      "stored_price": 2169.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2169.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-75631",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/75631",
+      "stored_price": 2429.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2429.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-75632",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/75632",
+      "stored_price": 2579.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2579.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-75633",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/75633",
+      "stored_price": 2879.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2879.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-75634",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/75634",
+      "stored_price": 2499.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2499.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-75635",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/75635",
+      "stored_price": 2649.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2649.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-75636",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/75636",
+      "stored_price": 2949.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2949.99
+      ]
+    },
+    {
+      "product_id": "karibu-sauna-bodin-75650",
+      "merchant": "Karibu",
+      "url": "https://www.karibu.de/sauna-bodin/75650",
+      "stored_price": 2099.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        2099.99
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-412-4126250801",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-412/4126250801",
+      "stored_price": 7699,
+      "outcome": "confirmed",
+      "page_prices": [
+        7699
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-412-4126250802",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-412/4126250802",
+      "stored_price": 7849,
+      "outcome": "confirmed",
+      "page_prices": [
+        7849
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-412-4126250803-batch2",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-412/4126250803",
+      "stored_price": 7499,
+      "outcome": "confirmed",
+      "page_prices": [
+        7499
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-412-4126350801",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-412/4126350801",
+      "stored_price": 8499,
+      "outcome": "confirmed",
+      "page_prices": [
+        8499
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-412-4126350802",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-412/4126350802",
+      "stored_price": 8699,
+      "outcome": "confirmed",
+      "page_prices": [
+        8699
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-412-4126350803",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-412/4126350803",
+      "stored_price": 8299,
+      "outcome": "confirmed",
+      "page_prices": [
+        8299
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-412-4126450801",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-412/4126450801",
+      "stored_price": 8499,
+      "outcome": "confirmed",
+      "page_prices": [
+        8499
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-412-4126450802",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-412/4126450802",
+      "stored_price": 8699,
+      "outcome": "confirmed",
+      "page_prices": [
+        8699
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-412-4126450803",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-412/4126450803",
+      "stored_price": 8299,
+      "outcome": "confirmed",
+      "page_prices": [
+        8299
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-kaapi-200x115-glastur-grungrau-534201187000",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x115-glastuer-gruengrau/534201187000",
+      "stored_price": 1798.99,
+      "outcome": "confirmed",
+      "page_prices": [
+        1798.99
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-kaapi-200x115-glastur-naturbelassen-534201180000",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x115-glastuer-naturbelassen/534201180000",
+      "stored_price": 1399,
+      "outcome": "updated",
+      "page_prices": [
+        1599
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-kaapi-200x150-glastur-grungrau-534201587000",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x150-glastuer-gruengrau/534201587000",
+      "stored_price": 1798.99,
+      "outcome": "updated",
+      "page_prices": [
+        1999
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-kaapi-200x150-glastur-naturbelassen-534201580000",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x150-glastuer-naturbelassen/534201580000",
+      "stored_price": 1599,
+      "outcome": "updated",
+      "page_prices": [
+        1798.99
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-kaapi-200x200-glastur-grungrau-534202087000",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x200-glastuer-gruengrau/534202087000",
+      "stored_price": 1999,
+      "outcome": "updated",
+      "page_prices": [
+        2249
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-kaapi-200x200-glastur-naturbelassen-534202080000",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x200-glastuer-naturbelassen/534202080000",
+      "stored_price": 1798.99,
+      "outcome": "updated",
+      "page_prices": [
+        1999
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-kaapi-235x200-glastur-grungrau-534242087000",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-kaapi-235x200-glastuer-gruengrau/534242087000",
+      "stored_price": 2299,
+      "outcome": "updated",
+      "page_prices": [
+        2449
+      ]
+    },
+    {
+      "product_id": "weka-saunahaus-kaapi-235x200-glastur-naturbelassen-534242080000",
+      "merchant": "WEKA",
+      "url": "https://weka-holzbau.com/p/saunahaus-kaapi-235x200-glastuer-naturbelassen/534242080000",
+      "stored_price": 1999,
+      "outcome": "updated",
+      "page_prices": [
+        2199
+      ]
+    },
+    {
+      "product_id": "mobiba-mb-10-m3-wabetarnung",
+      "merchant": "Mobiba Deutschland",
+      "url": "https://mobibadeutschland.de/zeltsauna-mobiba-mb-10-m3",
+      "stored_price": 520,
+      "outcome": "confirmed",
+      "page_prices": [
+        520
+      ]
+    },
+    {
+      "product_id": "mobiba-mb-103-m3-firmentarnung",
+      "merchant": "Mobiba Deutschland",
+      "url": "https://mobibadeutschland.de/mobile-sauna-mobiba-mb-103-m3-firmentarnung",
+      "stored_price": 965,
+      "outcome": "confirmed",
+      "page_prices": [
+        965
+      ]
+    },
+    {
+      "product_id": "mobiba-mb-15-wabetarnung",
+      "merchant": "Mobiba Deutschland",
+      "url": "https://mobibadeutschland.de/saunazelt-mobiba-mb-15",
+      "stored_price": 780,
+      "outcome": "confirmed",
+      "page_prices": [
+        780
+      ]
+    },
+    {
+      "product_id": "weka-valida-3-gtf-400v",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/weka-sauna-valida-3-537-gtf-gr-3-ohne-saunaofen",
+      "stored_price": 2510,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        1752.5,
+        1996.68,
+        2400.12,
+        2557.17,
+        2832.81
+      ]
+    },
+    {
+      "product_id": "weka-mikkeli-400v-9kw",
+      "merchant": "Mein-Saunashop",
+      "url": "https://www.mein-saunashop.de/weka-blockbohlen-saunahaus-mikkeli-inkl-elementsauna",
+      "stored_price": 3676.78,
+      "outcome": "ambiguous-variants",
+      "page_prices": [
+        4258.9,
+        4449.95,
+        4548.9
+      ]
+    },
+    {
+      "product_id": "morzh-cube-2-4",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/cube-fuer-2-4-personen/",
+      "stored_price": 910,
+      "outcome": "confirmed",
+      "page_prices": [
+        910
+      ]
+    },
+    {
+      "product_id": "morzh-cube-xl",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/morzh-cube-xl/",
+      "stored_price": 1020,
+      "outcome": "confirmed",
+      "page_prices": [
+        1020
+      ]
+    },
+    {
+      "product_id": "morzh-lux-2-3",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/lux-fuer-2-3-personen/",
+      "stored_price": 890,
+      "outcome": "confirmed",
+      "page_prices": [
+        890
+      ]
+    },
+    {
+      "product_id": "morzh-lux-xl",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/morzh-lux-xl/",
+      "stored_price": 990,
+      "outcome": "confirmed",
+      "page_prices": [
+        990
+      ]
+    },
+    {
+      "product_id": "morzh-max-4-8",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/max-fuer-4-8-personen/",
+      "stored_price": 1580,
+      "outcome": "confirmed",
+      "page_prices": [
+        1580
+      ]
+    },
+    {
+      "product_id": "morzh-max-xl-bis-12",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/max-xl-bis-12-personen/",
+      "stored_price": 1720,
+      "outcome": "confirmed",
+      "page_prices": [
+        1720
+      ]
+    },
+    {
+      "product_id": "morzh-cube-double",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/morz-cube-double/",
+      "stored_price": 1850,
+      "outcome": "unavailable",
+      "page_prices": [
+        1850
+      ]
+    },
+    {
+      "product_id": "dewello-kenora-140",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-kenora-140cm-x-140cm/a-722",
+      "stored_price": 3099,
+      "outcome": "updated",
+      "page_prices": [
+        2999
+      ]
+    },
+    {
+      "product_id": "dewello-lakefield-pro-140",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-lakefield-pro-140x140cm/a-447",
+      "stored_price": 2889,
+      "outcome": "updated",
+      "page_prices": [
+        2789
+      ]
+    },
+    {
+      "product_id": "dewello-windsor-120",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/saunen/infrarotkabinen/tronitechnik-infrarotsauna-2-personen-infrarotkabine-sauna-keramikstrahler-bodenstrahler-120cm-x-100cm-x-190cm/a-348",
+      "stored_price": 1399,
+      "outcome": "confirmed",
+      "page_prices": [
+        1399
+      ]
+    },
+    {
+      "product_id": "dewello-kenora-130",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/infrarotkabine-kenora-130x105/a-720",
+      "stored_price": 2399,
+      "outcome": "sale",
+      "page_prices": [
+        2299
+      ]
+    },
+    {
+      "product_id": "dewello-kingston-130",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-kingston-130x105cm/a-485",
+      "stored_price": 2199,
+      "outcome": "confirmed",
+      "page_prices": [
+        2199
+      ]
+    },
+    {
+      "product_id": "dewello-ottawa-140",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-infrarotsauna-ottawa/a-497",
+      "stored_price": 2199,
+      "outcome": "confirmed",
+      "page_prices": [
+        2199
+      ]
+    },
+    {
+      "product_id": "dewello-calgary-90",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-infrarotsauna-calgary-90-x-90cm-mit-vollspektrumstrahler/a-490",
+      "stored_price": 1199,
+      "outcome": "confirmed",
+      "page_prices": [
+        1199
+      ]
+    },
+    {
+      "product_id": "dewello-saltcoats-120",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/infrarotkabine-saltcoats-120cm-x-120cm/a-495",
+      "stored_price": 1899,
+      "outcome": "confirmed",
+      "page_prices": [
+        1899
+      ]
+    },
+    {
+      "product_id": "tronitechnik-manila-140",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/tronitechnik-infrarotkabine-manila-140x100/a-704",
+      "stored_price": 1299,
+      "outcome": "unreachable",
+      "detail": "HTTP 404"
+    },
+    {
+      "product_id": "dewello-pierson-pro-135",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-pierson-pro-135x105cm/a-459",
+      "stored_price": 2799,
+      "outcome": "confirmed",
+      "page_prices": [
+        2799
+      ]
+    },
+    {
+      "product_id": "dewello-montreal-140",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-walnuss-sauna-montreal-140x140/a-494",
+      "stored_price": 2049,
+      "outcome": "unavailable",
+      "page_prices": [
+        2049
+      ]
+    },
+    {
+      "product_id": "dewello-haley-160",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-haley-160x160cm/a-358",
+      "stored_price": 2199,
+      "outcome": "confirmed",
+      "page_prices": [
+        2199
+      ]
+    },
+    {
+      "product_id": "tronitechnik-manila-120",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/tronitechnik-infrarotkabine-manila-120x100/a-702",
+      "stored_price": 1149,
+      "outcome": "unavailable",
+      "page_prices": [
+        1149
+      ]
+    },
+    {
+      "product_id": "dewello-pierson-135",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-pierson-135x105cm/a-351",
+      "stored_price": 1799,
+      "outcome": "confirmed",
+      "page_prices": [
+        1799
+      ]
+    },
+    {
+      "product_id": "dewello-pierson-90",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-pierson-90x90cm/a-387",
+      "stored_price": 1499,
+      "outcome": "confirmed",
+      "page_prices": [
+        1499
+      ]
+    },
+    {
+      "product_id": "dewello-toronto-102",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-102x102cm/a-394",
+      "stored_price": 2089,
+      "outcome": "updated",
+      "page_prices": [
+        1989
+      ]
+    },
+    {
+      "product_id": "dewello-toronto-127",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-127x106cm/a-395",
+      "stored_price": 2489,
+      "outcome": "updated",
+      "page_prices": [
+        2389
+      ]
+    },
+    {
+      "product_id": "saunazeltpro-panorama-210-set",
+      "merchant": "Mobiba Deutschland",
+      "url": "https://mobibadeutschland.de/set-saunazeltpro-panorama-210-mit-ofen-hitzewerk-1.5-gt",
+      "stored_price": 1500,
+      "outcome": "implausible-change",
+      "page_prices": [
+        33
+      ]
+    },
+    {
+      "product_id": "mobiba-rb-200-k5-sp-zhiga-2",
+      "merchant": "Mobiba Deutschland",
+      "url": "https://mobibadeutschland.de/zeltsauna-rucksacksauna-rb-200-k5-sp-ofen-zhiga-2",
+      "stored_price": 935,
+      "outcome": "confirmed",
+      "page_prices": [
+        935
+      ]
+    },
+    {
+      "product_id": "mobiba-mb-18-22",
+      "merchant": "Mobiba Deutschland",
+      "url": "https://mobibadeutschland.de/saunazelt-mobiba-mb-18-22",
+      "stored_price": 779,
+      "outcome": "confirmed",
+      "page_prices": [
+        779
+      ]
+    },
+    {
+      "product_id": "mobiba-rb-200-k5-sp-zhiga-3",
+      "merchant": "Mobiba Deutschland",
+      "url": "https://mobibadeutschland.de/zeltsauna-rucksacksauna-rb-200-k5-sp-ofen-zhiga-3",
+      "stored_price": 880,
+      "outcome": "confirmed",
+      "page_prices": [
+        880
+      ]
+    },
+    {
+      "product_id": "dewello-melville-130",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/infrarotkabine-melville-130x105-dual-therm/a-687",
+      "stored_price": 1799,
+      "outcome": "confirmed",
+      "page_prices": [
+        1799
+      ]
+    },
+    {
+      "product_id": "dewello-hamlin-90",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-hamlin-90x90cm/a-381",
+      "stored_price": 1399,
+      "outcome": "confirmed",
+      "page_prices": [
+        1399
+      ]
+    },
+    {
+      "product_id": "dewello-milton-90",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-milton-90x90cm/a-440",
+      "stored_price": 1649,
+      "outcome": "confirmed",
+      "page_prices": [
+        1649
+      ]
+    },
+    {
+      "product_id": "dewello-lakefield-120",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-lakefield-120x120cm/a-350",
+      "stored_price": 1649,
+      "outcome": "confirmed",
+      "page_prices": [
+        1649
+      ]
+    },
+    {
+      "product_id": "dewello-kenora-160",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/infrarotkabine-kenora-150x120/a-721",
+      "stored_price": 2899,
+      "outcome": "sale",
+      "page_prices": [
+        2799
+      ]
+    },
+    {
+      "product_id": "dewello-toronto-160",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-160x110cm/a-396",
+      "stored_price": 2599,
+      "outcome": "updated",
+      "page_prices": [
+        2499
+      ]
+    },
+    {
+      "product_id": "dewello-calgary-115",
+      "merchant": "TroniTechnik",
+      "url": "https://www.tronitechnik.de/dewello-infrarotkabine-infrarotsauna-calgary-115-x-105cm-vollspektrumstrahler/a-491",
+      "stored_price": 1299,
+      "outcome": "confirmed",
+      "page_prices": [
+        1299
+      ]
+    },
+    {
+      "product_id": "morzh-cube-double-bundle",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/cube-double-bundel/",
+      "stored_price": 2259,
+      "outcome": "unavailable",
+      "page_prices": [
+        2421
+      ]
+    },
+    {
+      "product_id": "morzh-cube-xl-bundle",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/morzh-cube-xl-bundle/",
+      "stored_price": 1674,
+      "outcome": "confirmed",
+      "page_prices": [
+        1674
+      ]
+    },
+    {
+      "product_id": "morzh-lux-bundle",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/morzh-lux-bundle/",
+      "stored_price": 1557,
+      "outcome": "confirmed",
+      "page_prices": [
+        1557
+      ]
+    },
+    {
+      "product_id": "morzh-lux-xl-bundle",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/morzh-lux-xl-bundle/",
+      "stored_price": 1638,
+      "outcome": "updated",
+      "page_prices": [
+        1647
+      ]
+    },
+    {
+      "product_id": "morzh-max-bundle",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/morzh-max-bundle/",
+      "stored_price": 2178,
+      "outcome": "confirmed",
+      "page_prices": [
+        2178
+      ]
+    },
+    {
+      "product_id": "morzh-max-xl-bundle",
+      "merchant": "Morzh Deutschland",
+      "url": "https://morzh.de/produkt/morzh-max-xl-bundle/",
+      "stored_price": 2241,
+      "outcome": "updated",
+      "page_prices": [
+        2304
+      ]
+    }
+  ]
+}
