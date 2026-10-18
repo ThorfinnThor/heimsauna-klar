@@ -64,7 +64,8 @@ for (const file of usFiles) {
   if (!description) issues.push(`${route}: missing description`);
   const expectedContent = expectedContentByRoute.get(route);
   if (expectedContent) {
-    const expectedTitle = `${expectedContent.title} | Select Your Sauna`;
+    // Mirrors lib/metadata.ts: titles over 40 characters go out without the suffix.
+    const expectedTitle = expectedContent.title.length > 40 ? expectedContent.title : `${expectedContent.title} | Select Your Sauna`;
     if (title !== expectedTitle) issues.push(`${route}: title is not synchronized with its versioned content record`);
     if (description !== expectedContent.description) issues.push(`${route}: description is not synchronized with its versioned content record`);
   }

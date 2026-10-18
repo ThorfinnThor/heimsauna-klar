@@ -12,6 +12,8 @@ type PageMetadataInput = {
   languageAlternates?: Record<string, string>;
 };
 
+const TITLE_WITH_SUFFIX_MAX = 40;
+
 export function createPageMetadata({
   title,
   description,
@@ -35,7 +37,9 @@ export function createPageMetadata({
 
   return {
     metadataBase: new URL(siteUrl),
-    title,
+    // The layouts append " | Select Your Sauna" (20 characters). Longer titles
+    // are cut off in search results, so they go out without the suffix.
+    title: title.length > TITLE_WITH_SUFFIX_MAX ? { absolute: title } : title,
     description,
     ...(type === "article" ? {
       authors: marketCode === "DE"
