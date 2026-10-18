@@ -144,7 +144,8 @@ export async function fetchPrice(url) {
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   for (const url of process.argv.slice(2)) {
-    const { text, ...rest } = await fetchPrice(url);
-    console.log(url, JSON.stringify(rest));
+    const fetched = await fetchPrice(url);
+    delete fetched.text;
+    console.log(url, JSON.stringify(fetched));
   }
 }
