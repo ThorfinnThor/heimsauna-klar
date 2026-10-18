@@ -40,3 +40,4 @@ yarn-error.log*
 /.open-next/
 /outputs/
 /work/
+*.tsbuildinfo

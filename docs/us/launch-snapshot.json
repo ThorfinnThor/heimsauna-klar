@@ -630,12 +630,15 @@
       "offer-sweat-kingdom-regen-sweat-cabin-deluxe",
       "offer-sweat-kingdom-regen-sweat-pod"
     ],
-    "source_count": 318,
+    "source_count": 319,
     "evidence_count": 744,
     "editorial_page_ids": [
       "indoor-infrared-saunas",
       "jnh-lifestyles",
-      "infrared-sauna-electrical-requirements"
+      "infrared-sauna-electrical-requirements",
+      "two-person-home-saunas",
+      "120-volt-plug-in-saunas",
+      "sauna-running-cost"
     ],
     "product_editorial_ids": [
       "peak-shasta-editorial",
@@ -1028,7 +1031,7 @@
     },
     {
       "path": "data/us/sources.json",
-      "sha256": "aa1044e63724192596f8fcfd2d7f39faa30cdd96869b99344d47e58909c2d08d"
+      "sha256": "161a5d3d17e839759d7e7d89e54bb1450d5d7dcf90d68007321439fb63c2a7df"
     },
     {
       "path": "data/us/merchants.json",
@@ -1064,11 +1067,11 @@
     },
     {
       "path": "content/us/page-presentations.json",
-      "sha256": "5998b99cad60f917ea2ee5a72d193ebe298c4cc51ac70ea839110303ff8b8992"
+      "sha256": "2ded8e34ad0c5e7a7b58c990beb665d04cc47f43b315251cbadd0e68a9e7bc66"
     },
     {
       "path": "content/us/editorial.json",
-      "sha256": "7036659778ef66074ba54be59dc34c0b01241b9dcc5715a65b86c9a7a2ec2cca"
+      "sha256": "fd765610a8592b0d29f8936e87e8b02707457374698232e167e22a5f5da38ef0"
     },
     {
       "path": "content/us/product-editorial.json",

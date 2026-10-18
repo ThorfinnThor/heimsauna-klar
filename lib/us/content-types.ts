@@ -1,7 +1,7 @@
 import type { UsHeatType, UsPlacement, UsProductType, UsPublicationStatus } from "./types.ts";
 
 export type UsEditorialPageType = "comparison" | "brand" | "guide";
-export type UsEditorialModule = "selection" | "catalog" | "sections" | "sources" | "related";
+export type UsEditorialModule = "selection" | "catalog" | "sections" | "sources" | "related" | "running-cost";
 export type UsEditorialLayout = "matrix" | "profile" | "briefing";
 
 export interface UsEditorialSection {
@@ -18,6 +18,7 @@ export interface UsComparisonSelection {
   placements?: UsPlacement[];
   brands?: string[];
   minimum_seated_capacity?: number;
+  maximum_seated_capacity?: number;
   voltages_v?: number[];
 }
 

@@ -32,6 +32,7 @@ export interface UsSource {
     | "program-terms"
     | "account-approval"
     | "certification-record"
+    | "official-statistics"
     | "other";
   url: string;
   title: string;
