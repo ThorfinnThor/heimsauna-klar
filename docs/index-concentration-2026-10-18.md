@@ -49,21 +49,16 @@ Mechanics:
 
 Rollback: set both `status` fields to `paused`, run `npm run indexing:generate`.
 
-## Known blocker (pre-existing, not caused by this change)
+## Offer freshness (resolved the same day)
 
-All 601 offers were last checked between 2026-08-27 and 2026-09-08. With the
-30-day freshness rule every offer is stale since ~2026-10-08, so
-`npm run data:check` fails on `main` today ("sauna-bis-2500-euro has no
-matching verified products") and every new Cloudflare build fails. The live
-site still serves the build of 2026-09-26. Refresh the offers (Awin sync plus
-manual manufacturer checks) before this or any other change can deploy.
+All 601 offers had been older than the 30-day freshness rule, so `data:check`
+failed on `main` and no build could deploy. Fixed before this change shipped:
+#7 re-read the 391 manufacturer offers and #8 synced the Awin links and re-read
+the 210 affiliate offers at their shop pages
+(`scripts/refresh-manufacturer-offers.mjs`, reports in `data/`). Offers whose
+price could not be read stay on their old date and count as stale.
 
-The US test "catalog filters keep documented matches deterministic"
-(144 vs 141) also fails on `main` independently of this change.
-
-Verification of this branch ran with the offer date pinned to 2026-09-26 (the
-last successful build): data check, Next export, US SEO crawl, output gate,
-links, static SEO, diversity, security and discovery checks pass.
+Re-run that script at least every four weeks, or the build fails again.
 
 ## What brings the US forward
 
