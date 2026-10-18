@@ -1,0 +1,59 @@
+name: Refresh offer prices
+
+# Offers older than OFFER_FRESHNESS_DAYS (30) count as stale and fail
+# data:check, which blocks every build. This re-reads every offer at its
+# source page twice a month and publishes the result when all checks pass.
+on:
+  schedule:
+    - cron: "17 4 1,15 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: offer-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Re-check manufacturer offers
+        run: node scripts/refresh-manufacturer-offers.mjs --apply
+      - name: Re-check affiliate offers
+        run: node scripts/refresh-manufacturer-offers.mjs --affiliate --apply
+      - run: npm run indexing:generate
+      - run: node scripts/update-de-baseline-for-offer-refresh.mjs
+      - run: npm run lint
+      - run: npm test
+      - run: npm run us:ci
+      - name: Summary
+        shell: bash
+        run: |
+          {
+            echo "### Offer refresh"
+            echo "Manufacturer: \`$(node -p "JSON.stringify(require('./data/manufacturer-offer-refresh-report.json').counts)")\`"
+            echo "Affiliate: \`$(node -p "JSON.stringify(require('./data/affiliate-offer-refresh-report.json').counts)")\`"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Publish refreshed offers
+        shell: bash
+        run: |
+          files="data/products.json data/product-indexing.json docs/us/de-data-baseline.json data/manufacturer-offer-refresh-report.json data/affiliate-offer-refresh-report.json"
+          if [ -z "$(git status --porcelain -- $files)" ]; then
+            echo "No offer changes."
+            exit 0
+          fi
+          git config user.name "selectyoursauna-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add $files
+          git commit -m "chore(data): refresh offer prices at the source"
+          git push origin HEAD:main
