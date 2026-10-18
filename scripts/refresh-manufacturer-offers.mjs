@@ -13,24 +13,28 @@
 // variant prices without the stored one, implausible change) stays untouched
 // and is listed in the report for a manual check.
 //
-// Usage: node scripts/refresh-manufacturer-offers.mjs [--apply] [--date YYYY-MM-DD]
+// --affiliate re-checks affiliate offers instead, at their shop page (`url`);
+// the Awin sync only maintains affiliate links, not prices or check dates.
+//
+// Usage: node scripts/refresh-manufacturer-offers.mjs [--affiliate] [--apply] [--date YYYY-MM-DD]
 import { readFile, writeFile } from "node:fs/promises";
 import { fetchPrice, formatDePrice } from "./manufacturer-price-extract.mjs";
 
 const apply = process.argv.includes("--apply");
+const affiliate = process.argv.includes("--affiliate");
 const dateArg = process.argv.indexOf("--date");
 const today = dateArg > 0 ? process.argv[dateArg + 1] : new Date().toISOString().slice(0, 10);
 const MAX_CHANGE = 0.35;
 const OUT_OF_STOCK = new Set(["OutOfStock", "SoldOut", "Discontinued"]);
 
 const productsUrl = new URL("../data/products.json", import.meta.url);
-const reportUrl = new URL("../data/manufacturer-offer-refresh-report.json", import.meta.url);
+const reportUrl = new URL(affiliate ? "../data/affiliate-offer-refresh-report.json" : "../data/manufacturer-offer-refresh-report.json", import.meta.url);
 const products = JSON.parse(await readFile(productsUrl, "utf8"));
 
 const jobs = [];
 for (const product of products) {
   product.commercial.offers.forEach((offer, index) => {
-    if (!offer.affiliate) jobs.push({ product, offer, index });
+    if (Boolean(offer.affiliate) === affiliate) jobs.push({ product, offer, index });
   });
 }
 
@@ -119,5 +123,5 @@ if (apply) {
   for (const product of touched) if (product.updated_at < today) product.updated_at = today;
   await writeFile(productsUrl, `${JSON.stringify(products, null, 2)}\n`, "utf8");
   await writeFile(reportUrl, `${JSON.stringify({ schema_version: 1, checked_at: today, method: "structured price data (JSON-LD Product offers, itemprop/product:price meta) read from each offer URL", counts, entries }, null, 2)}\n`, "utf8");
-  console.log(`Applied: ${touched.size} products touched; report at data/manufacturer-offer-refresh-report.json`);
+  console.log(`Applied: ${touched.size} products touched; report at ${reportUrl.pathname.split("/").slice(-2).join("/")}`);
 }
