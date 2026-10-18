@@ -35,11 +35,12 @@ const SOURCE_TYPES = new Set([
   "program-terms",
   "account-approval",
   "certification-record",
+  "official-statistics",
   "other",
 ]);
 const AUTHORITATIVE_PRODUCT_SOURCE_TYPES = new Set(["manufacturer-page", "manual", "spec-sheet"]);
 const EDITORIAL_PAGE_TYPES = new Set(["comparison", "brand", "guide"]);
-const EDITORIAL_MODULES = new Set(["selection", "catalog", "sections", "sources", "related"]);
+const EDITORIAL_MODULES = new Set(["selection", "catalog", "sections", "sources", "related", "running-cost"]);
 const TRUST_PAGE_SLUGS = new Set(["contact", "about", "methodology", "affiliate-disclosure", "privacy"]);
 
 function isObject(value) {
@@ -308,9 +309,14 @@ function validateEditorialContent(bundle, sourceIds, productIds, issues) {
       if (page.selection.minimum_seated_capacity !== undefined && (!Number.isInteger(page.selection.minimum_seated_capacity) || page.selection.minimum_seated_capacity <= 0)) {
         issue(issues, "error", `${path}.selection.minimum_seated_capacity`, "must be a positive integer");
       }
+      if (page.selection.maximum_seated_capacity !== undefined && (!Number.isInteger(page.selection.maximum_seated_capacity) || page.selection.maximum_seated_capacity <= 0
+        || page.selection.maximum_seated_capacity < (page.selection.minimum_seated_capacity ?? 1))) {
+        issue(issues, "error", `${path}.selection.maximum_seated_capacity`, "must be a positive integer not below the minimum");
+      }
       const criteria = ["product_ids", "product_types", "heat_types", "placements", "brands", "voltages_v"]
         .some((field) => Array.isArray(page.selection[field]) && page.selection[field].length > 0)
-        || page.selection.minimum_seated_capacity !== undefined;
+        || page.selection.minimum_seated_capacity !== undefined
+        || page.selection.maximum_seated_capacity !== undefined;
       if (!criteria) issue(issues, "error", `${path}.selection`, "needs at least one explicit comparison criterion");
     } else if (page.page_type === "brand") {
       requireString(page.brand_name, `${path}.brand_name`, issues);

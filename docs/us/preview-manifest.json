@@ -3,7 +3,7 @@
   "snapshot_id": "us-indexed-first-wave-2026-09-16-sweat-kingdom-expanded",
   "market": "US",
   "mode": "public-static-indexed-first-wave",
-  "expected_page_count": 85,
+  "expected_page_count": 88,
   "routes": [
     {
       "path": "/us/",
@@ -63,6 +63,24 @@
       "path": "/us/guides/infrared-sauna-electrical-requirements/",
       "kind": "guide",
       "record_id": "infrared-sauna-electrical-requirements",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/compare/two-person-home-saunas/",
+      "kind": "comparison",
+      "record_id": "two-person-home-saunas",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/compare/120-volt-plug-in-saunas/",
+      "kind": "comparison",
+      "record_id": "120-volt-plug-in-saunas",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/us/guides/sauna-running-cost/",
+      "kind": "guide",
+      "record_id": "sauna-running-cost",
       "robots": "index, follow"
     },
     {

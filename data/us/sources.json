@@ -3181,6 +3181,16 @@
       "market": "US",
       "checked_at": "2026-09-22",
       "locator": "Manufacturer specification sheet: two-person capacity, exterior and interior dimensions, materials, glass, included Harvia Vega Compact and separate infrared/heater electrical specifications"
+    },
+    {
+      "id": "eia-electric-power-monthly-table-5-6-b",
+      "type": "official-statistics",
+      "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_b",
+      "title": "Electric Power Monthly, Table 5.6.B: Average price of electricity to ultimate customers by end-use sector, by state, year-to-date",
+      "publisher": "U.S. Energy Information Administration",
+      "market": "US",
+      "checked_at": "2026-10-18",
+      "locator": "Residential column, July 2026 YTD"
     }
   ],
   "evidence": [

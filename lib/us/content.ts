@@ -122,6 +122,7 @@ export function selectUsComparisonConfigurations(
     for (const configuration of configurations.filter((entry) => entry.product_id === product.id)) {
       const seated = documentedValue(configuration.capacity.seated);
       if (selection.minimum_seated_capacity !== undefined && (seated === null || seated < selection.minimum_seated_capacity)) continue;
+      if (selection.maximum_seated_capacity !== undefined && (seated === null || seated > selection.maximum_seated_capacity)) continue;
       if (selection.voltages_v?.length && !configurationHasVoltage(configuration, selection.voltages_v)) continue;
       selected.push({ product, configuration });
     }

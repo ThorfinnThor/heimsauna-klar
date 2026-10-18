@@ -156,6 +156,277 @@
         "peak-everest",
         "jnh-tosi-2"
       ]
+    },
+    {
+      "id": "two-person-home-saunas",
+      "page_type": "comparison",
+      "slug": "two-person-home-saunas",
+      "publication_status": "published",
+      "title": "2-person home saunas: size, power and wiring compared",
+      "description": "Every published 2-person sauna configuration in our US catalog with exterior size, voltage and rated power, and what separates infrared from traditional models.",
+      "eyebrow": "Two-person saunas",
+      "heading": "A 2-person sauna is either a 120-volt infrared cabin or a 240-volt heater project",
+      "introduction": [
+        "Two seats is the most common size in our US catalog, and it splits cleanly into two groups. The infrared cabins run on roughly 1.5 to 3.4 kW, and most of them on 120 volts. The traditional saunas use a 4.5 to 8 kW heater and, where the manufacturer documents it, a 220 or 240 volt supply on a 30 or 40 amp circuit.",
+        "That split decides more about the project than the wood or the styling. The table below lists every published configuration with exactly two documented seats, so you can compare footprint and electrical demand before looking at prices."
+      ],
+      "sections": [
+        {
+          "id": "footprint",
+          "heading": "The footprint starts at about four by three and a half feet",
+          "paragraphs": [
+            "The smallest 2-person cabin in the set is the JNH Tosi 2-Person at 47.3 by 39.5 inches on the outside. The Peak Crown, Everest and Fuji follow at 48 to 53 inches wide and 44 inches deep. Traditional cabins need more room because the heater, its guard and the clearance around it take up part of the bench area: the Salus Ally measures 60 by 46 inches, the Almost Heaven Hillsboro 63 by about 45, and the Sweat Kingdom Sweat Pod 53 by 61.",
+            "Exterior size is not the whole space requirement. Manufacturers specify clearances to walls and ceilings in their installation manuals, and a door that opens outward needs its own swing. Treat the exterior dimension as the minimum and check the manual of the exact model before you measure the room."
+          ]
+        },
+        {
+          "id": "power",
+          "heading": "Rated power differs by a factor of three between the two groups",
+          "paragraphs": [
+            "The infrared configurations in this set are rated between 1,540 and 3,350 watts. The traditional ones start at 4,500 watts and reach 8,000 watts for the Sweat Kingdom Summit. That difference shows up twice: in the circuit the sauna needs and in the electricity bill.",
+            "Rated power is the maximum draw. A traditional heater runs at full power while it heats the room and then cycles on its thermostat, so the hourly figure is an upper bound for the time the heater is on. Our running cost guide turns these ratings into dollars per hour for every state."
+          ],
+          "points": [
+            "Infrared, 120 volts: JNH Tosi 2-Person, JNH Arki Outdoor Duo, Peak Crown, Peak Everest, Peak Fuji, Sun Home Eclipse 2",
+            "Infrared, 240 volts: Peak Patagonia",
+            "Traditional, 220 or 240 volts or not documented: Almost Heaven, Finnleo, Salus, SunRay and Sweat Kingdom models"
+          ]
+        },
+        {
+          "id": "circuit",
+          "heading": "Check the circuit, not only the voltage",
+          "paragraphs": [
+            "Even within the 120-volt group the required circuit differs. The Tosi 2-Person is documented for a 15 amp circuit, the Everest, Fuji and Arki Outdoor Duo for 20 amps, and the Sun Home Eclipse 2 draws 23.5 amps and requires a 30 amp circuit. A 120-volt plug therefore does not mean that any existing outlet is suitable.",
+            "Several Sweat Kingdom records document power and amperage but not the voltage. Where a field is open, the table says so instead of guessing. The installation instructions of the exact configuration and a licensed electrician decide what your home needs."
+          ]
+        }
+      ],
+      "source_ids": [
+        "almost-heaven-hillsboro-product",
+        "almost-heaven-saunas-collection",
+        "jnh-arki-outdoor-duo-product",
+        "jnh-tosi-2-product",
+        "peak-crown-product",
+        "peak-everest-product",
+        "peak-fuji-product",
+        "peak-patagonia-product",
+        "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product",
+        "source-salus-ally-product",
+        "source-sunray-bristow-product",
+        "sun-home-craftsmanship",
+        "sun-home-eclipse-2-product",
+        "sweat-kingdom-regen-sweat-pod-product",
+        "sweat-kingdom-ridge-product",
+        "sweat-kingdom-summit-product",
+        "sweat-kingdom-sweat-barrel-product",
+        "sweat-kingdom-sweat-pod-blackout-product",
+        "sweat-kingdom-sweat-pod-product"
+      ],
+      "related_paths": [
+        "/us/compare/120-volt-plug-in-saunas/",
+        "/us/guides/sauna-running-cost/",
+        "/us/guides/infrared-sauna-electrical-requirements/",
+        "/us/sauna-finder/"
+      ],
+      "presentation_id": "us-comparison-matrix",
+      "selection": {
+        "minimum_seated_capacity": 2,
+        "maximum_seated_capacity": 2
+      }
+    },
+    {
+      "id": "120-volt-plug-in-saunas",
+      "page_type": "comparison",
+      "slug": "120-volt-plug-in-saunas",
+      "publication_status": "published",
+      "title": "120-volt plug-in saunas: which models exist and what circuit they need",
+      "description": "All published 120-volt sauna configurations in our US catalog. Every one of them is infrared, and the required circuit ranges from 15 to 30 amps.",
+      "eyebrow": "120-volt saunas",
+      "heading": "Every 120-volt sauna in our catalog is infrared, and not every one fits a standard circuit",
+      "introduction": [
+        "A sauna that plugs into a household outlet avoids the 240-volt line that a traditional heater needs. In our US catalog that option exists only for infrared cabins: every published configuration with a documented 120-volt supply uses infrared heating, with a rated power between 1.2 and 2.8 kW.",
+        "The plug is only half of the answer. The table lists each configuration with its rated power, and the sections below explain why the circuit behind the outlet matters as much as the voltage."
+      ],
+      "sections": [
+        {
+          "id": "no-traditional",
+          "heading": "No traditional sauna in the catalog runs on 120 volts",
+          "paragraphs": [
+            "The smallest traditional heater in our published US records is rated at 4,000 watts, and the typical one at 6,000 watts. At 120 volts that would mean a current of 33 to 50 amps, far beyond a household circuit. This is why the traditional models in the catalog document 220 or 240 volt supplies, and why a plug-in option exists only for the lower-powered infrared cabins.",
+            "If a traditional sauna is the goal, plan for a dedicated 240-volt circuit from the start. If avoiding new wiring is the goal, the choice is between the infrared models below."
+          ]
+        },
+        {
+          "id": "circuit-rating",
+          "heading": "The required circuit ranges from 15 to 30 amps",
+          "paragraphs": [
+            "Manufacturers document the current their cabin draws and the circuit it needs. The Peak Mini draws 10 amps; the JNH Tosi 1-Person, Tosi 2-Person, Peak Rainier and Peak Shasta are specified for 15 amp circuits; the Peak Everest and Fuji, JNH Tosi Red 4-Person, JNH Arki Outdoor Duo and Sun Home Equinox for 20 amps. The Sun Home Eclipse 2 draws 23.5 amps and requires a 30 amp circuit despite its 120-volt supply.",
+            "Several manufacturers also ask for a dedicated circuit, meaning nothing else draws power from it. The rating of an existing circuit is printed on its breaker, but whether the wiring, the outlet type and the other loads on that circuit fit the sauna is a question for the manual of the exact model and a licensed electrician."
+          ]
+        },
+        {
+          "id": "size",
+          "heading": "Plug-in cabins come in one to four seats",
+          "paragraphs": [
+            "The set covers one-person cabins from the 31 by 32 inch Peak Mini to the Peak Rainier and Shasta at 42 by 40 inches, two-person cabins from 47 to 55 inches wide, and two larger models: the Sun Home Equinox for three and the JNH Tosi Red 4-Person at 70.9 by 47.3 inches. All but the Arki Outdoor Duo are indoor cabins."
+          ]
+        }
+      ],
+      "source_ids": [
+        "jnh-arki-outdoor-duo-product",
+        "jnh-tosi-1-product",
+        "jnh-tosi-2-product",
+        "jnh-tosi-4-product",
+        "peak-crown-product",
+        "peak-everest-product",
+        "peak-fuji-product",
+        "peak-mini-product",
+        "peak-rainier-product",
+        "peak-saunas-manuals",
+        "peak-saunas-model-reference",
+        "peak-shasta-product",
+        "sun-home-craftsmanship",
+        "sun-home-eclipse-2-product",
+        "sun-home-equinox-product"
+      ],
+      "related_paths": [
+        "/us/guides/infrared-sauna-electrical-requirements/",
+        "/us/compare/two-person-home-saunas/",
+        "/us/guides/sauna-running-cost/",
+        "/us/compare/indoor-infrared-saunas/"
+      ],
+      "presentation_id": "us-comparison-matrix",
+      "selection": {
+        "voltages_v": [
+          120
+        ]
+      }
+    },
+    {
+      "id": "sauna-running-cost",
+      "page_type": "guide",
+      "slug": "sauna-running-cost",
+      "publication_status": "published",
+      "title": "How much does a home sauna cost to run? Per hour, by model and by state",
+      "description": "Running cost per hour for every published US sauna configuration with documented rated power, calculated with 2026 residential electricity prices for all 50 states and DC.",
+      "eyebrow": "Running cost",
+      "heading": "A typical infrared sauna costs about 37 cents an hour to run, a traditional one about a dollar",
+      "introduction": [
+        "The cost of a sauna session is the heater's power multiplied by the time it runs and by your electricity price. We know the rated power of most configurations in our US catalog and the average residential electricity price of every state, published by the U.S. Energy Information Administration. The tables below combine the two.",
+        "At the 2026 US average of 18.19 cents per kWh, an hour at full power costs about $0.37 for a typical 2.05 kW infrared cabin and about $1.09 for a typical 6 kW traditional sauna. The state you live in moves that figure by a factor of almost four."
+      ],
+      "sections": [
+        {
+          "id": "method",
+          "heading": "How the numbers are calculated",
+          "paragraphs": [
+            "For each configuration we take the highest documented electrical load, add up the components of one supply option, and multiply kilowatts by the price per kWh. The prices are the residential averages for January to July 2026 from table 5.6.B of the EIA's Electric Power Monthly. Configurations without a documented rated power are left out rather than estimated.",
+            "The result is the cost of one hour at full rated power. That is an upper bound for the time the heater is actually on: traditional heaters run at full power while they heat the room and then switch on and off to hold the temperature."
+          ]
+        },
+        {
+          "id": "session",
+          "heading": "From cost per hour to cost per session",
+          "paragraphs": [
+            "A session costs the hourly figure multiplied by the hours the heater runs, including the warm-up. A traditional sauna that heats for 45 minutes and is used for 30 more runs for 1.25 hours at most, which at the US average and 6 kW is about $1.36. An infrared cabin used for 40 minutes including a short warm-up at 2.05 kW stays below 25 cents.",
+            "Warm-up time depends on the room size, the insulation and the starting temperature, so we do not attach a fixed number to each model. Use your own heating time with the hourly figure from the table."
+          ]
+        },
+        {
+          "id": "states",
+          "heading": "Where you live matters more than which model you pick",
+          "paragraphs": [
+            "Residential electricity cost 12.36 cents per kWh in North Dakota and 33.25 cents in California in the first seven months of 2026, and 46.28 cents in Hawaii. The same 6 kW heater costs $0.74 an hour in North Dakota, $2.00 in California and $2.78 in Hawaii.",
+            "Your utility bill shows your actual price per kWh, which can differ from the state average because of tariffs, time-of-use rates and fixed charges. Replace the state figure with your own rate for a precise result."
+          ]
+        }
+      ],
+      "source_ids": [
+        "eia-electric-power-monthly-table-5-6-b",
+        "almost-heaven-audra-product",
+        "almost-heaven-bridgeport-product",
+        "almost-heaven-charleston-product",
+        "almost-heaven-grandview-product",
+        "almost-heaven-grayson-product",
+        "almost-heaven-hillsboro-product",
+        "almost-heaven-huntington-product",
+        "almost-heaven-lewisburg-product",
+        "almost-heaven-logan-product",
+        "almost-heaven-madison-product",
+        "almost-heaven-patterson-product",
+        "almost-heaven-pinnacle-product",
+        "almost-heaven-princeton-product",
+        "almost-heaven-rainelle-product",
+        "almost-heaven-saunas-collection",
+        "almost-heaven-titan-product",
+        "jnh-arki-outdoor-duo-product",
+        "jnh-tosi-1-product",
+        "jnh-tosi-2-product",
+        "jnh-tosi-4-product",
+        "peak-crown-product",
+        "peak-el-capitan-product",
+        "peak-everest-product",
+        "peak-fuji-product",
+        "peak-kilimanjaro-product",
+        "peak-matterhorn-product",
+        "peak-mini-product",
+        "peak-patagonia-product",
+        "peak-rainier-product",
+        "peak-saunas-manuals",
+        "peak-saunas-model-reference",
+        "peak-shasta-product",
+        "redwood-barrel-6-product",
+        "redwood-barrel-8-product",
+        "redwood-barrel-porch-6-product",
+        "redwood-extra-wide-6-product",
+        "redwood-extra-wide-porch-6-product",
+        "redwood-garden-8-product",
+        "redwood-grove-8-product",
+        "redwood-horizon-6-product",
+        "redwood-noctra-8-product",
+        "redwood-outdoor-saunas",
+        "redwood-summit-6-product",
+        "redwood-vista-6-product",
+        "source-finnleo-is565-infrasauna-9805-0840-product",
+        "source-finnleo-northstar-indoor-sauna-4-x-6-9630-2263-product",
+        "source-finnleo-northstar-indoor-sauna-5-x-7-9630-2265-product",
+        "source-geyser-balerion-product",
+        "source-geyser-hekla-product",
+        "source-geyser-lukaku-product",
+        "source-geyser-valera-product",
+        "source-salus-ally-product",
+        "source-sunray-aurora-product",
+        "source-sunray-bristow-product",
+        "source-tylo-lulea-4-product",
+        "sun-home-craftsmanship",
+        "sun-home-eclipse-2-product",
+        "sun-home-equinox-product",
+        "sweat-cabin-product",
+        "sweat-kingdom-ascent-product",
+        "sweat-kingdom-outpost-product",
+        "sweat-kingdom-regen-sweat-cabin-deluxe-product",
+        "sweat-kingdom-regen-sweat-cabin-product",
+        "sweat-kingdom-regen-sweat-pod-product",
+        "sweat-kingdom-ridge-product",
+        "sweat-kingdom-sk-110-product",
+        "sweat-kingdom-sk-210-product",
+        "sweat-kingdom-sk-310-product",
+        "sweat-kingdom-sk-contrast-product",
+        "sweat-kingdom-sk-mobile-product",
+        "sweat-kingdom-summit-product",
+        "sweat-kingdom-sweat-barrel-product",
+        "sweat-kingdom-sweat-box-product",
+        "sweat-kingdom-sweat-cabin-blackout-product",
+        "sweat-kingdom-sweat-pod-blackout-product",
+        "sweat-kingdom-sweat-pod-product"
+      ],
+      "related_paths": [
+        "/us/compare/two-person-home-saunas/",
+        "/us/compare/120-volt-plug-in-saunas/",
+        "/us/guides/infrared-sauna-electrical-requirements/",
+        "/us/saunas/"
+      ],
+      "presentation_id": "us-guide-running-cost"
     }
   ]
 }

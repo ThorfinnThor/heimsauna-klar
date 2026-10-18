@@ -23,6 +23,7 @@ import type {
   UsTrustPage,
 } from "@/lib/us/content-types";
 import type { UsDimensions, UsFact, UsProductConfiguration } from "@/lib/us/types";
+import { costPerHourUsd, formatUsd, median, ratedPowerW, statePricesSorted, usElectricityPrices } from "@/lib/us/running-cost";
 import {
   usBreadcrumbJsonLd,
   usEditorialJsonLd,
@@ -72,6 +73,11 @@ function voltageLabel(configuration: UsProductConfiguration) {
   return voltages.length > 0 ? voltages.map((value) => `${value} V`).join(" or ") : "Not documented";
 }
 
+function powerLabel(configuration: UsProductConfiguration) {
+  const watts = ratedPowerW(configuration);
+  return watts === null ? "Not documented" : `${(watts / 1000).toLocaleString("en-US", { maximumFractionDigits: 2 })} kW`;
+}
+
 function relatedLabel(path: string) {
   const slug = path.split("/").filter(Boolean).at(-1) ?? path;
   return slug.split("-").map((part) => `${part.charAt(0).toUpperCase()}${part.slice(1)}`).join(" ");
@@ -117,7 +123,7 @@ function ComparisonMatrix({ page, items }: { page: UsComparisonPage; items: UsEd
       {items.length > 0 ? (
         <div className="us-comparison-table-wrap">
           <table>
-            <thead><tr><th>Configuration</th><th>Capacity</th><th>Exterior W × D × H</th><th>Electrical</th></tr></thead>
+            <thead><tr><th>Configuration</th><th>Capacity</th><th>Exterior W × D × H</th><th>Electrical</th><th>Rated power</th></tr></thead>
             <tbody>
               {items.map(({ product, configuration }) => {
                 const capacity = documentedValue(configuration.capacity.seated);
@@ -127,6 +133,7 @@ function ComparisonMatrix({ page, items }: { page: UsComparisonPage; items: UsEd
                     <td>{capacity === null ? "Not documented" : `${capacity} seated`}</td>
                     <td>{dimensionsLabel(configuration)}</td>
                     <td>{voltageLabel(configuration)}</td>
+                    <td>{powerLabel(configuration)}</td>
                   </tr>
                 );
               })}
@@ -141,11 +148,86 @@ function ComparisonMatrix({ page, items }: { page: UsComparisonPage; items: UsEd
           {page.selection.heat_types?.length ? <div><dt>Heat type</dt><dd>{page.selection.heat_types.join(", ")}</dd></div> : null}
           {page.selection.placements?.length ? <div><dt>Placement</dt><dd>{page.selection.placements.join(", ")}</dd></div> : null}
           {page.selection.minimum_seated_capacity ? <div><dt>Minimum capacity</dt><dd>{page.selection.minimum_seated_capacity} seated</dd></div> : null}
+          {page.selection.maximum_seated_capacity ? <div><dt>Maximum capacity</dt><dd>{page.selection.maximum_seated_capacity} seated</dd></div> : null}
           {page.selection.voltages_v?.length ? <div><dt>Voltage</dt><dd>{page.selection.voltages_v.map((value) => `${value} V`).join(" or ")}</dd></div> : null}
           {page.selection.brands?.length ? <div><dt>Brand</dt><dd>{page.selection.brands.join(", ")}</dd></div> : null}
           {page.selection.product_ids?.length ? <div><dt>Explicit records</dt><dd>{page.selection.product_ids.length}</dd></div> : null}
         </dl>
       </details>
+    </section>
+  );
+}
+
+function RunningCost({ items }: { items: UsEditorialProduct[] }) {
+  const rows = items
+    .map((item) => ({ ...item, watts: ratedPowerW(item.configuration) }))
+    .filter((row): row is UsEditorialProduct & { watts: number } => row.watts !== null)
+    .sort((left, right) => left.watts - right.watts
+      || left.product.brand_name.localeCompare(right.product.brand_name, "en-US")
+      || left.product.model.localeCompare(right.product.model, "en-US"));
+  const states = statePricesSorted();
+  const cheapest = states[0];
+  const dearest = states[states.length - 1];
+  const heatLabel = (item: UsEditorialProduct) => item.product.heat_type.status === "documented" ? item.product.heat_type.value : "not documented";
+  const typical = (heat: string) => median(rows.filter((row) => heatLabel(row) === heat).map((row) => row.watts));
+  const infraredW = typical("infrared");
+  const traditionalW = typical("traditional");
+  const average = usElectricityPrices.us_average;
+  return (
+    <section className="us-comparison-matrix us-running-cost" aria-labelledby="running-cost-title">
+      <header>
+        <p className="eyebrow">Calculated from the catalog</p>
+        <h2 id="running-cost-title">Cost of one hour at full rated power</h2>
+        <p>
+          Rated power of {rows.length} published configurations multiplied by the average residential electricity
+          price of {average.toFixed(2)} cents per kWh ({usElectricityPrices.period_label}, U.S. Energy Information
+          Administration). The cheapest state, {cheapest.state}, averaged {cheapest.cents.toFixed(2)} cents and the most
+          expensive, {dearest.state}, {dearest.cents.toFixed(2)} cents.
+        </p>
+      </header>
+      <div className="us-comparison-table-wrap">
+        <table>
+          <thead><tr><th>Configuration</th><th>Heat type</th><th>Rated power</th><th>{cheapest.state}</th><th>US average</th><th>{dearest.state}</th></tr></thead>
+          <tbody>
+            {rows.map((row) => (
+              <tr key={row.configuration.id}>
+                <th><Link href={`/us/saunas/${row.product.slug}/`}>{row.product.brand_name} {row.product.model}</Link></th>
+                <td>{heatLabel(row)}</td>
+                <td>{powerLabel(row.configuration)}</td>
+                <td>{formatUsd(costPerHourUsd(row.watts, cheapest.cents))}</td>
+                <td>{formatUsd(costPerHourUsd(row.watts, average))}</td>
+                <td>{formatUsd(costPerHourUsd(row.watts, dearest.cents))}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {infraredW !== null && traditionalW !== null ? (
+        <>
+          <header>
+            <h3 id="running-cost-states-title">By state, for a typical infrared and a typical traditional sauna</h3>
+            <p>
+              Typical means the median rated power in this catalog: {(infraredW / 1000).toLocaleString("en-US", { maximumFractionDigits: 2 })} kW
+              for infrared and {(traditionalW / 1000).toLocaleString("en-US", { maximumFractionDigits: 2 })} kW for traditional configurations.
+            </p>
+          </header>
+          <div className="us-comparison-table-wrap">
+            <table aria-describedby="running-cost-states-title">
+              <thead><tr><th>State</th><th>Cents per kWh</th><th>Infrared, per hour</th><th>Traditional, per hour</th></tr></thead>
+              <tbody>
+                {states.map(({ state, cents }) => (
+                  <tr key={state}>
+                    <th>{state}</th>
+                    <td>{cents.toFixed(2)}</td>
+                    <td>{formatUsd(costPerHourUsd(infraredW, cents))}</td>
+                    <td>{formatUsd(costPerHourUsd(traditionalW, cents))}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
+      ) : null}
     </section>
   );
 }
@@ -315,6 +397,10 @@ export function UsEditorialIndex({ pageType, pages }: { pageType: UsEditorialPag
 
 export function UsEditorialPageView({ page, presentation, isPreview }: { page: UsEditorialPage; presentation: UsPagePresentation; isPreview: boolean }) {
   const products = pageProducts(page, isPreview);
+  const usesRunningCost = presentation.module_order.includes("running-cost");
+  const allProducts = usesRunningCost
+    ? selectUsComparisonConfigurations({ ...page, page_type: "comparison", selection: { heat_types: ["infrared", "traditional", "hybrid"] } } as UsComparisonPage, { includeNonPublic: isPreview })
+    : [];
   const sources = getUsEditorialSources(page);
   const pagePath = usEditorialPath(page);
   const sectionLabel = page.page_type === "comparison" ? "Comparisons" : page.page_type === "brand" ? "Brands" : "Guides";
@@ -325,6 +411,7 @@ export function UsEditorialPageView({ page, presentation, isPreview }: { page: U
     sections: <EditorialSections page={page} />,
     sources: <EditorialSources page={page} />,
     related: <RelatedPages page={page} />,
+    "running-cost": usesRunningCost ? <RunningCost items={allProducts} /> : null,
   };
   return (
     <article className={`us-editorial-page us-editorial-page-${presentation.layout}`}>

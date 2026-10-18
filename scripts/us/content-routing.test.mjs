@@ -30,9 +30,10 @@ const basePage = {
 };
 
 test("the checked-in editorial manifest exposes the reviewed US pages", () => {
-  assert.equal(getUsEditorialPages().length, 3);
+  assert.equal(getUsEditorialPages().length, 6);
   const comparisonPages = getUsEditorialPages("comparison", { includeNonPublic: true });
-  assert.deepEqual(comparisonPages.map((page) => page.slug), ["indoor-infrared-saunas"]);
+  assert.deepEqual(comparisonPages.map((page) => page.slug), ["indoor-infrared-saunas", "two-person-home-saunas", "120-volt-plug-in-saunas"]);
+  assert.deepEqual(getUsEditorialPages("guide").map((page) => page.slug), ["infrared-sauna-electrical-requirements", "sauna-running-cost"]);
   assert(comparisonPages.every((page) => page.publication_status === "published"));
 });
 
