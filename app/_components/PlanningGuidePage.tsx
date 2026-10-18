@@ -9,6 +9,7 @@ import {
 } from "@/lib/page-presentations";
 import { getPlanningGuide, getPlanningJourney, getPriceSnapshot, type PlanningGuide } from "@/lib/planning-guides";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
+import { formatSquareMetres, getFootprintGroups } from "@/lib/footprint";
 
 function formatEuro(value: number) {
   return new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 2 }).format(value);
@@ -83,6 +84,7 @@ function PlanningModuleBlock({ context, module }: { context: PlanningPageContext
   if (module === "insight") return <PlanningInsight presentation={context.presentation} />;
   if (module === "sections") return <PlanningSections guide={context.guide} variant={context.presentation.sections} />;
   if (module === "snapshot") return <GuidePriceSnapshot />;
+  if (module === "footprint") return <FootprintByCapacity />;
   if (module === "checks") return <PlanningChecks guide={context.guide} />;
   return <PlanningSources guide={context.guide} />;
 }
@@ -164,6 +166,53 @@ function GuidePriceSnapshot() {
     <section className="price-snapshot page-shell" aria-labelledby="price-snapshot-title" data-page-module="snapshot">
       <div className="price-snapshot-head"><div><p className="eyebrow">Katalog-Momentaufnahme</p><h2 id="price-snapshot-title">Produktpreise, die wir belegen können.</h2></div><p>Die Preiswerte stammen aus den dokumentierten Angeboten. Montage- und Projektkosten sind nicht enthalten.</p></div>
       <div className="price-snapshot-grid">{getPriceSnapshot().map((item) => <article key={item.id}><small>{item.label} · {item.count} Preise</small><strong>{formatEuro(item.median)}</strong><span>Median · Spanne {formatEuro(item.minimum)} bis {formatEuro(item.maximum)}</span></article>)}</div>
+    </section>
+  );
+}
+
+function FootprintByCapacity() {
+  const groups = getFootprintGroups();
+  const modelCount = groups.reduce((sum, group) => sum + group.rows.reduce((rowSum, row) => rowSum + row.count, 0), 0);
+  return (
+    <section className="footprint-data page-shell" aria-labelledby="footprint-title" data-page-module="footprint">
+      <div>
+        <p className="eyebrow">Aus {modelCount} geprüften Modellen</p>
+        <h2 id="footprint-title">So viel Stellfläche brauchen Saunen nach Personenzahl</h2>
+        <p data-editorial-copy="true">
+          Die Werte stammen aus den Herstellermaßen aller geprüften Modelle im Katalog: Außenbreite mal Außentiefe, ohne die
+          Wand- und Deckenabstände aus der jeweiligen Montageanleitung. Der typische Wert ist der Median, also das Modell in der
+          Mitte der Spanne. Für den Raumplan zählt am Ende immer die Zeichnung des gewählten Modells.
+        </p>
+      </div>
+      {groups.map((group) => (
+        <div className="footprint-group" key={group.id}>
+          <h3>{group.label}</h3>
+          <div className="collection-table-wrap">
+            <table className="footprint-table">
+              <thead>
+                <tr><th scope="col">Personen</th><th scope="col">Modelle</th><th scope="col">Kleinste Stellfläche</th><th scope="col">Typisch</th><th scope="col">Größte</th><th scope="col">Höhe typisch / max.</th></tr>
+              </thead>
+              <tbody>
+                {group.rows.map((row) => (
+                  <tr key={row.capacity}>
+                    <th scope="row">{row.capacity}</th>
+                    <td>{row.count}</td>
+                    <td>
+                      {formatSquareMetres(row.smallest.squareMetres)}{" "}
+                      <Link href={`/de/produkte/${row.smallest.product.product_id}/`}>
+                        {row.smallest.product.brand} {row.smallest.product.model} ({row.smallest.product.dimensions_cm.width} × {row.smallest.product.dimensions_cm.depth} cm)
+                      </Link>
+                    </td>
+                    <td>{formatSquareMetres(row.medianSquareMetres)}</td>
+                    <td>{formatSquareMetres(row.largestSquareMetres)}</td>
+                    <td>{Math.round(row.medianHeightCm)} / {Math.round(row.maxHeightCm)} cm</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ))}
     </section>
   );
 }

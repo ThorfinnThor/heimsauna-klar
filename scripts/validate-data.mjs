@@ -445,7 +445,11 @@ for (const [slug, presentation] of Object.entries(pagePresentations.planning_gui
   if (!["summary", "split", "briefing", "question", "compact"].includes(presentation.hero)) throw new Error(`${slug} has an invalid planning hero`);
   if (!["staggered", "technical", "timeline", "cards", "ledger", "alternating"].includes(presentation.sections)) throw new Error(`${slug} has an invalid section view`);
   if (!["callout", "matrix", "brief"].includes(presentation.insight_style)) throw new Error(`${slug} has an invalid insight view`);
-  const requiredModules = guide.catalog_snapshot === "product_prices" ? [...planningModules, "snapshot"] : planningModules;
+  const requiredModules = [
+    ...planningModules,
+    ...(guide.catalog_snapshot === "product_prices" ? ["snapshot"] : []),
+    ...(guide.catalog_footprint === true ? ["footprint"] : []),
+  ];
   if (!Array.isArray(presentation.flow) || presentation.flow.length !== requiredModules.length || new Set(presentation.flow).size !== requiredModules.length || requiredModules.some((module) => !presentation.flow.includes(module))) {
     throw new Error(`${slug} must use every applicable planning module exactly once`);
   }

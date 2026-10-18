@@ -5,13 +5,24 @@
     "title": "Wie viel Platz braucht eine Sauna?",
     "accent": "So wird aus dem Außenmaß ein belastbarer Grundriss.",
     "description": "Der Platzbedarf einer Sauna umfasst Kabine, Herstellerabstände, Türbereich, Montageweg, Lüftung und die passende Ofenauslegung.",
-    "updated_at": "2026-08-29",
+    "updated_at": "2026-10-18",
+    "catalog_footprint": true,
     "summary": "Zum Außenmaß kommen die Abstände aus der Montageanleitung, der Schwenkbereich der Tür, Bewegungsfläche und freier Raum für die Luftführung. Auch die Raumhöhe und der Weg der Bauteile bis zum Standort können ein Modell ausschließen.",
     "sections": [
       {
         "title": "Vier Konturen gehören in den Grundriss",
         "copy": "Die Produktzeichnung liefert nur die Kontur der Kabine. Im Raumplan müssen außerdem die Abstände aus der konkreten Montageanleitung, die geöffnete Tür und die Fläche für Einstieg oder Wartung erscheinen. Karibu nennt für seine Kabinen beispielsweise mindestens zehn Zentimeter zur Außenwand und Decke. Dieser Wert darf nicht auf Modelle anderer Systeme übertragen werden.",
         "points": ["Außenmaß maßstäblich einzeichnen", "Modellspezifische Wand- und Deckenabstände ergänzen", "Geöffnete Tür und Bewegungsfläche darstellen", "Lüftungsöffnungen sichtbar markieren"]
+      },
+      {
+        "title": "Die Personenzahl sagt wenig über die Fläche",
+        "copy": "Auch bei gleicher Personenzahl unterscheiden sich die Kabinen deutlich, weil Bankanordnung, Liegeflächen und der Platz für den Ofen verschieden geplant sind. Die Tabelle zeigt deshalb für jede Größe die Spanne vom kleinsten bis zum größten Modell. Wer wenig Platz hat, wählt zuerst nach Breite und Tiefe aus und prüft danach, wie viele Plätze das Modell im Sitzen und im Liegen tatsächlich bietet.",
+        "points": ["Verfügbares Raummaß zuerst festlegen", "Modelle nach Breite und Tiefe vorauswählen", "Sitz- und Liegeplätze im Datenblatt vergleichen"]
+      },
+      {
+        "title": "Draußen braucht die Sauna mehr Grundfläche",
+        "copy": "Bei Gartensaunen und Saunahäusern kommen Wandstärke, Vordach und oft ein Vorraum hinzu. Darum liegt die typische Stellfläche draußen klar über der von Innenkabinen mit gleicher Personenzahl, wie die zweite Tabelle zeigt. Für den Standort zählen außerdem das Fundament, der Abstand zur Grundstücksgrenze und ein freier Weg für die Montage. Diese Vorgaben stehen in der Anleitung des Modells und können je nach Gemeinde unterschiedlich geregelt sein.",
+        "points": ["Fundamentmaß aus der Anleitung übernehmen", "Vordach und Vorraum in die Grundfläche einrechnen", "Grenzabstand beim örtlichen Bauamt klären"]
       },
       {
         "title": "Unter einer niedrigen Decke zählt der Aufbauweg",
