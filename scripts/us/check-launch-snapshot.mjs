@@ -150,11 +150,20 @@ const expectedRoutes = [
   ...visibleLegal.map((page) => `/us/${page.slug}/`),
   ...visibleProducts.map((product) => `/us/saunas/${product.slug}/`),
 ];
+// Index concentration (2026-10-18): product details and listed thin overviews
+// are noindex,follow while active (see lib/us/seo.ts isUsPathConcentratedOut).
+const concentration = publication.index_concentration;
+function isConcentratedOut(route) {
+  if (concentration?.status !== "active") return false;
+  if (concentration.noindex_product_details && route.kind === "product") return true;
+  return (concentration.noindex_paths ?? []).includes(route.path);
+}
 const manifestRoutes = manifest.routes.map((route) => route.path);
 if (manifest.expected_page_count !== manifest.routes.length) issues.push("preview manifest expected_page_count does not match its route list");
 compareExactSet(manifestRoutes, expectedRoutes, "preview manifest routes", issues);
 for (const route of manifest.routes) {
-  const shouldIndex = indexedRelease && !["finder", "comparison-tool"].includes(route.kind);
+  const shouldIndex = indexedRelease && !["finder", "comparison-tool"].includes(route.kind)
+    && !isConcentratedOut(route);
   const expectedRobots = shouldIndex ? "index, follow" : "noindex, follow";
   if (route.robots !== expectedRobots) issues.push(`${route.path}: expected robots ${expectedRobots}`);
   if (route.kind === "product" && !productIds.has(route.record_id)) issues.push(`${route.path}: unknown product record ${route.record_id}`);

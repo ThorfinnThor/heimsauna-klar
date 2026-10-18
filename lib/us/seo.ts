@@ -89,10 +89,30 @@ export function evaluateUsSeoDecision({
   };
 }
 
+type UsIndexConcentration = {
+  status: "active" | "paused";
+  noindex_product_details: boolean;
+  noindex_paths: string[];
+};
+
+const indexConcentration = (publicationDocument as { index_concentration?: UsIndexConcentration }).index_concentration;
+
+/**
+ * Index concentration (2026-10-18): while active, product detail pages and the
+ * listed thin overview pages are noindex,follow and leave the sitemap. It can
+ * only remove pages from the index, never add one.
+ */
+export function isUsPathConcentratedOut(path: string): boolean {
+  if (indexConcentration?.status !== "active") return false;
+  const canonicalPath = normalizeUsPath(path);
+  if (indexConcentration.noindex_product_details && /^\/us\/saunas\/[^/]+\/$/.test(canonicalPath)) return true;
+  return indexConcentration.noindex_paths.includes(canonicalPath);
+}
+
 export function getUsSeoDecision(input: UsSeoDecisionInput): UsSeoDecision {
   return evaluateUsSeoDecision(input, {
     routesEnabled: markets.US.enabled,
-    indexingEnabled: publicationDocument.indexing_enabled,
+    indexingEnabled: publicationDocument.indexing_enabled && !isUsPathConcentratedOut(input.path),
   });
 }
 

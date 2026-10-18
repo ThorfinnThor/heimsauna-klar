@@ -1,38 +1,38 @@
 {
   "schema_version": 1,
-  "policy_updated_at": "2026-09-07",
+  "policy_updated_at": "2026-10-18",
   "generated_from_products_updated_at": "2026-10-18",
   "summary": {
     "total_verified_products": 516,
-    "index": 306,
-    "noindex": 210,
+    "index": 1,
+    "noindex": 515,
     "categories": {
       "indoor": {
         "total": 258,
-        "index": 116,
-        "noindex": 142
+        "index": 0,
+        "noindex": 258
       },
       "infrared": {
         "total": 80,
-        "index": 67,
-        "noindex": 13
+        "index": 1,
+        "noindex": 79
       },
       "outdoor": {
         "total": 158,
-        "index": 103,
-        "noindex": 55
+        "index": 0,
+        "noindex": 158
       },
       "tent": {
         "total": 20,
-        "index": 20,
-        "noindex": 0
+        "index": 0,
+        "noindex": 20
       }
     }
   },
   "entries": [
     {
       "product_id": "artsauna-aalborg",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -43,12 +43,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "artsauna-aarhus-140",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -59,12 +59,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "artsauna-bergen-115",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -75,12 +75,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "artsauna-espoo150-premium",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -91,12 +91,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "artsauna-fjora-l",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -107,12 +107,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "artsauna-fjora-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -123,12 +123,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "artsauna-fjora-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -139,7 +139,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -192,7 +192,7 @@
     },
     {
       "product_id": "artsauna-nolvik-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -203,12 +203,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "artsauna-nolvik-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -219,12 +219,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "artsauna-spitzbergen-180",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -235,7 +235,7 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -304,7 +304,7 @@
     },
     {
       "product_id": "artsauna-visby-180",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -315,12 +315,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "artsauna-visby-300",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -331,12 +331,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "awt-e1801b",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -347,12 +347,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "awt-e1802",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -363,12 +363,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "awt-e1803b",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -379,12 +379,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "awt-e1804a",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -395,12 +395,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "awt-e1804b",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -411,12 +411,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "awt-e1804c",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -427,12 +427,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "awt-e1805",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -443,12 +443,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-calgary-115",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -459,12 +459,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-calgary-90",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -475,12 +475,12 @@
         "frequent_editorial_share": 0.375
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-haley-160",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -491,12 +491,12 @@
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-hamlin-90",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -507,12 +507,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-kenora-130",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -523,12 +523,12 @@
         "frequent_editorial_share": 0.5625
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-kenora-140",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -539,12 +539,12 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-kenora-160",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -555,12 +555,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-kingston-130",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -571,12 +571,12 @@
         "frequent_editorial_share": 0.6
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-lakefield-120",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -587,12 +587,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-lakefield-pro-140",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -603,12 +603,12 @@
         "frequent_editorial_share": 0.5625
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-melville-130",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -619,12 +619,12 @@
         "frequent_editorial_share": 0.0909
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-milton-90",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -635,12 +635,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-minto-150-130",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -651,7 +651,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -673,7 +673,7 @@
     },
     {
       "product_id": "dewello-ottawa-140",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -684,12 +684,12 @@
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-pierson-135",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -700,12 +700,12 @@
         "frequent_editorial_share": 0.5625
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "dewello-pierson-90",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -716,7 +716,7 @@
         "frequent_editorial_share": 0.4375
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -755,7 +755,7 @@
     },
     {
       "product_id": "dewello-toronto-102",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -766,7 +766,7 @@
         "frequent_editorial_share": 0.4375
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -788,7 +788,7 @@
     },
     {
       "product_id": "dewello-toronto-160",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -799,7 +799,7 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -821,7 +821,7 @@
     },
     {
       "product_id": "fjordholz-design-saunahaus-paradiso-black-e",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -832,12 +832,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-design-saunahaus-siiri-premium",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -848,12 +848,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fass-kombisauna-luxe-micro-kombi",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -864,12 +864,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fass-sauna-ando",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -880,12 +880,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fass-sauna-bus-130-standard",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -896,12 +896,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fass-sauna-bus-160-standard",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -912,12 +912,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fass-sauna-icon-200-s-fichte",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -928,12 +928,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fass-sauna-icon-220-thermo",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -944,12 +944,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fass-sauna-icon-385-thermo",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -960,12 +960,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fass-sauna-lauri",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -976,12 +976,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fasssauna-cubus-2",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -992,12 +992,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fasssauna-cubus-3",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1008,12 +1008,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fasssauna-fite",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1024,12 +1024,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fasssauna-ida",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1040,12 +1040,12 @@
         "frequent_editorial_share": 0.1667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-fasssauna-jona",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1056,12 +1056,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-mini-fasssauna-cubus-1",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1072,12 +1072,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-saunahaus-arcos-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1088,12 +1088,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-saunahaus-arcos-s",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1104,12 +1104,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-saunahaus-kalle",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1120,12 +1120,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "fjordholz-saunahaus-kalle-l",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1136,12 +1136,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-alpina-panorama-large",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1152,12 +1152,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-alpina-panorama-medium",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1168,12 +1168,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-block-right-large",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1184,7 +1184,7 @@
         "frequent_editorial_share": 0.4375
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -1205,7 +1205,7 @@
     },
     {
       "product_id": "harvia-domo-large",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1216,12 +1216,12 @@
         "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-domo-medium",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1232,12 +1232,12 @@
         "frequent_editorial_share": 0.3529
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-domo-small",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1248,7 +1248,7 @@
         "frequent_editorial_share": 0.1765
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -1269,7 +1269,7 @@
     },
     {
       "product_id": "harvia-fuji-aspen-large",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1280,12 +1280,12 @@
         "frequent_editorial_share": 0.375
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-fuji-aspen-small",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1296,12 +1296,12 @@
         "frequent_editorial_share": 0.2353
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-kammi-barrel-180",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -1312,12 +1312,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-kammi-barrel-large",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1328,12 +1328,12 @@
         "frequent_editorial_share": 0.25
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-kammi-cube-large",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1344,12 +1344,12 @@
         "frequent_editorial_share": 0.25
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-kaski-panorama-180",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1360,12 +1360,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-kaski-panorama-220",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1376,12 +1376,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-kaski-panorama-240-canopy",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1392,12 +1392,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-lindea-large",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1408,12 +1408,12 @@
         "frequent_editorial_share": 0.25
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-lindea-small",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1424,12 +1424,12 @@
         "frequent_editorial_share": 0.25
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-lux-large",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1440,12 +1440,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-lux-medium",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1456,12 +1456,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-minimy",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1472,12 +1472,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-onni-onyx-duo",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1488,12 +1488,12 @@
         "frequent_editorial_share": 0.1667
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-onni-onyx-one",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1504,12 +1504,12 @@
         "frequent_editorial_share": 0.1667
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-onni-sienna-duo",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1520,12 +1520,12 @@
         "frequent_editorial_share": 0.1667
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-onni-sienna-one",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1536,12 +1536,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-panorama-large",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1552,12 +1552,12 @@
         "frequent_editorial_share": 0.4118
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-panorama-mini",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1568,7 +1568,7 @@
         "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -1589,7 +1589,7 @@
     },
     {
       "product_id": "harvia-solide-vision",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1600,12 +1600,12 @@
         "frequent_editorial_share": 0.25
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-soma-sienna-duo",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1616,7 +1616,7 @@
         "frequent_editorial_share": 0.1667
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -1637,7 +1637,7 @@
     },
     {
       "product_id": "harvia-urban-black-small",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1648,12 +1648,12 @@
         "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-urban-white-medium",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1664,12 +1664,12 @@
         "frequent_editorial_share": 0.0833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "harvia-urban-white-small",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1680,7 +1680,7 @@
         "frequent_editorial_share": 0.25
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -1701,7 +1701,7 @@
     },
     {
       "product_id": "harvia-utu-mini",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1712,7 +1712,7 @@
         "frequent_editorial_share": 0.1667
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -1765,7 +1765,7 @@
     },
     {
       "product_id": "harvia-vitamy",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1776,12 +1776,12 @@
         "frequent_editorial_share": 0.1667
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-aruna-l",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1792,12 +1792,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-aruna-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1808,12 +1808,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-aruna-s",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1824,12 +1824,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-cube-deluxe-l",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1840,12 +1840,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-cube-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1856,12 +1856,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-hygge-deluxe",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1872,12 +1872,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-lagom-deluxe",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1888,12 +1888,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-lahti-deluxe-l",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1904,12 +1904,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-lahti-l",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1920,12 +1920,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-lahti-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1936,12 +1936,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-lahti-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1952,12 +1952,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-nero-l",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1968,12 +1968,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-nero-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1984,12 +1984,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-nero-s",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2000,12 +2000,12 @@
         "frequent_editorial_share": 0.2
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-nero-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2016,12 +2016,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-nero-xxl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2032,12 +2032,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-redsun-deluxe-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2048,12 +2048,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-redsun-deluxe-plus-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2064,12 +2064,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-redsun-deluxe-s",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2080,12 +2080,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-redsun-deluxe-xxl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2096,12 +2096,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-redsun-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2112,12 +2112,12 @@
         "frequent_editorial_share": 0.2
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-redsun-m-vollspektrum",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2128,12 +2128,12 @@
         "frequent_editorial_share": 0.2
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-sahara-l",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2144,12 +2144,12 @@
         "frequent_editorial_share": 0.2
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-sahara-xxl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2160,12 +2160,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-shadow-big-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2176,12 +2176,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-shadow-l",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2192,12 +2192,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-shadow-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2208,12 +2208,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-shadow-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2224,12 +2224,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-skyline-big-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2240,12 +2240,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-skyline-big-xl-kunststeinwand",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2256,12 +2256,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-skyline-l",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2272,12 +2272,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-skyline-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2288,12 +2288,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-sonora-m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2304,12 +2304,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "home-deluxe-sonora-s",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2320,12 +2320,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "intergard-innensauna-205x168-40",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2336,12 +2336,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "intergard-innensauna-205x205-40",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2352,12 +2352,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "intergard-innensauna-eck-205x205-40",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2368,7 +2368,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -2526,7 +2526,7 @@
     },
     {
       "product_id": "karibu-28098",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2537,7 +2537,7 @@
         "frequent_editorial_share": 0.6471
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -2779,7 +2779,7 @@
     },
     {
       "product_id": "karibu-angkor-3-186",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2790,12 +2790,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-cuben-80800",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -2806,12 +2806,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-fasshaus-2-27450",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -2822,7 +2822,7 @@
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -2877,7 +2877,7 @@
     },
     {
       "product_id": "karibu-fasshaus-3-27454",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -2888,7 +2888,7 @@
         "frequent_editorial_share": 0.6667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -2909,7 +2909,7 @@
     },
     {
       "product_id": "karibu-fasssauna-1-92821m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -2920,12 +2920,12 @@
         "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-fasssauna-2-92829",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -2936,12 +2936,12 @@
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-fasssauna-3-92830",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -2952,7 +2952,7 @@
         "frequent_editorial_share": 0.5833
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -2991,7 +2991,7 @@
     },
     {
       "product_id": "karibu-fasssauna-quadro-1-109m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 3,
@@ -3002,12 +3002,12 @@
         "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-fasssauna-quadro-1-plus-35445m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 3,
@@ -3018,7 +3018,7 @@
         "frequent_editorial_share": 0.4167
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -3039,7 +3039,7 @@
     },
     {
       "product_id": "karibu-fasssauna-quadro-3-117",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -3050,12 +3050,12 @@
         "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-hytti-0-359",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -3066,12 +3066,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-hytti-1-93866",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -3082,12 +3082,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-hytti-2-exclusive-99902m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -3098,12 +3098,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-hytti-3-exclusive-99904m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -3114,12 +3114,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-hytti-6-123m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -3130,12 +3130,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-mainburg-3-36285",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -3146,12 +3146,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-paradise-66711m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -3162,7 +3162,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -3606,7 +3606,7 @@
     },
     {
       "product_id": "karibu-sauna-alcinda-2-2503",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -3617,7 +3617,7 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -3910,7 +3910,7 @@
     },
     {
       "product_id": "karibu-sauna-amelia-1",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -3921,7 +3921,7 @@
         "frequent_editorial_share": 0.6471
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -4213,7 +4213,7 @@
     },
     {
       "product_id": "karibu-sauna-antonia-6717",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 3,
@@ -4224,12 +4224,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-antonia-6723",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -4240,7 +4240,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -4903,7 +4903,7 @@
     },
     {
       "product_id": "karibu-sauna-bodo-6208",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -4914,12 +4914,12 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-carin-75668",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -4930,12 +4930,12 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-daria-59780",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -4946,12 +4946,12 @@
         "frequent_editorial_share": 0.2
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-eda-71097",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -4962,12 +4962,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-eda-71098",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -4978,12 +4978,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-eda-71099",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -4994,12 +4994,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-elea-6762",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5010,12 +5010,12 @@
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-fanja-85868",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 3,
@@ -5026,12 +5026,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-fanja-85872",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -5042,12 +5042,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-faurin-6199",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5058,12 +5058,12 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-fiona-1-59672",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5074,12 +5074,12 @@
         "frequent_editorial_share": 0.4667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-fiona-2-52595",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5090,7 +5090,7 @@
         "frequent_editorial_share": 0.5714
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5143,7 +5143,7 @@
     },
     {
       "product_id": "karibu-sauna-infrarot-asta-6700",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5154,12 +5154,12 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-infrarot-ava-6692",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5170,12 +5170,12 @@
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-irava-1-90",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5186,12 +5186,12 @@
         "frequent_editorial_share": 0.2857
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-irava-2-92",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5202,12 +5202,12 @@
         "frequent_editorial_share": 0.2667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-jada-6806",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5218,7 +5218,7 @@
         "frequent_editorial_share": 0.4667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5239,7 +5239,7 @@
     },
     {
       "product_id": "karibu-sauna-jella-6741",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 3,
@@ -5250,12 +5250,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-jutta-6183",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5266,12 +5266,12 @@
         "frequent_editorial_share": 0.2
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-kotka-6214",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5282,12 +5282,12 @@
         "frequent_editorial_share": 0.5714
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-larin-75615",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5298,12 +5298,12 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-lilja",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -5314,7 +5314,7 @@
         "frequent_editorial_share": 0.6875
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5335,7 +5335,7 @@
     },
     {
       "product_id": "karibu-sauna-mia-86545",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5346,7 +5346,7 @@
         "frequent_editorial_share": 0.4667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5367,7 +5367,7 @@
     },
     {
       "product_id": "karibu-sauna-nanja-59777",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5378,7 +5378,7 @@
         "frequent_editorial_share": 0.2667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5399,7 +5399,7 @@
     },
     {
       "product_id": "karibu-sauna-oulu-6211",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5410,12 +5410,12 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-ria-71093",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5426,7 +5426,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -5447,7 +5447,7 @@
     },
     {
       "product_id": "karibu-sauna-sahib-1",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -5458,7 +5458,7 @@
         "frequent_editorial_share": 0.6471
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5479,7 +5479,7 @@
     },
     {
       "product_id": "karibu-sauna-saja-85894",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -5490,12 +5490,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-saja-85911",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -5506,12 +5506,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-saja-85918",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -5522,12 +5522,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-saja-85924",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 3,
@@ -5538,12 +5538,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-sandra-6705",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 3,
@@ -5554,12 +5554,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-sandra-6711",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5570,12 +5570,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-selena-6729",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -5586,12 +5586,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-selena-6730",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -5602,12 +5602,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-siirin",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -5618,7 +5618,7 @@
         "frequent_editorial_share": 0.6875
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5639,7 +5639,7 @@
     },
     {
       "product_id": "karibu-sauna-sodin-75692",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5650,7 +5650,7 @@
         "frequent_editorial_share": 0.5714
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5671,7 +5671,7 @@
     },
     {
       "product_id": "karibu-sauna-tabea-6816",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5682,7 +5682,7 @@
         "frequent_editorial_share": 0.4667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5703,7 +5703,7 @@
     },
     {
       "product_id": "karibu-sauna-taurin-80642",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5714,12 +5714,12 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-tonja-85844",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5730,12 +5730,12 @@
         "frequent_editorial_share": 0.25
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-tromso-6203",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5746,12 +5746,12 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-sauna-variado-80669",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5762,12 +5762,12 @@
         "frequent_editorial_share": 0.5333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-saunahaus-angkor-1-179",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5778,7 +5778,7 @@
         "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5799,7 +5799,7 @@
     },
     {
       "product_id": "karibu-saunahaus-angkor-2-182",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5810,7 +5810,7 @@
         "frequent_editorial_share": 0.5833
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5849,7 +5849,7 @@
     },
     {
       "product_id": "karibu-saunahaus-ares-1-214",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 3,
@@ -5860,7 +5860,7 @@
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5898,7 +5898,7 @@
     },
     {
       "product_id": "karibu-saunahaus-ares-2-34043",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 3,
@@ -5909,7 +5909,7 @@
         "frequent_editorial_share": 0.6667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5946,7 +5946,7 @@
     },
     {
       "product_id": "karibu-saunahaus-ares-3-341",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -5957,7 +5957,7 @@
         "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -5979,7 +5979,7 @@
     },
     {
       "product_id": "karibu-saunahaus-cuben-80796",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 3,
@@ -5990,7 +5990,7 @@
         "frequent_editorial_share": 0.5
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -6062,7 +6062,7 @@
     },
     {
       "product_id": "karibu-saunahaus-hytti-1-exclusive-99937",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -6073,12 +6073,12 @@
         "frequent_editorial_share": 0.25
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-saunahaus-hytti-2-97707",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -6089,12 +6089,12 @@
         "frequent_editorial_share": 0.3125
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-saunahaus-hytti-3-93863m",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -6105,7 +6105,7 @@
         "frequent_editorial_share": 0.4167
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -6226,7 +6226,7 @@
     },
     {
       "product_id": "karibu-saunahaus-mainburg-4-36293",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6237,7 +6237,7 @@
         "frequent_editorial_share": 0.5625
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -6344,7 +6344,7 @@
     },
     {
       "product_id": "karibu-saunahaus-mainburg-5-36307",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -6355,7 +6355,7 @@
         "frequent_editorial_share": 0.6667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -6378,7 +6378,7 @@
     },
     {
       "product_id": "karibu-saunahaus-miramar-510",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -6389,12 +6389,12 @@
         "frequent_editorial_share": 0.6667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-saunahaus-monterey-34032",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -6405,7 +6405,7 @@
         "frequent_editorial_share": 0.6667
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -6427,7 +6427,7 @@
     },
     {
       "product_id": "karibu-saunahaus-olbia-66606",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6438,7 +6438,7 @@
         "frequent_editorial_share": 0.5833
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -6477,7 +6477,7 @@
     },
     {
       "product_id": "karibu-saunahaus-skrollan-1-86283",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 4,
@@ -6488,12 +6488,12 @@
         "frequent_editorial_share": 0.5833
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "karibu-saunahaus-skrollan-2-86299",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 4,
@@ -6504,7 +6504,7 @@
         "frequent_editorial_share": 0.5833
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -6525,7 +6525,7 @@
     },
     {
       "product_id": "karibu-ventura-71108",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6536,12 +6536,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "mobiba-mb-10-m3-wabetarnung",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6552,12 +6552,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "mobiba-mb-103-m3-firmentarnung",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6568,12 +6568,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "mobiba-mb-15-wabetarnung",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6584,12 +6584,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "mobiba-mb-18-22",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6600,12 +6600,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "mobiba-rb-200-k5-sp-zhiga-2",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6616,12 +6616,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "mobiba-rb-200-k5-sp-zhiga-3",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6632,12 +6632,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-cube-2-4",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6648,12 +6648,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-cube-double",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6664,12 +6664,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-cube-double-bundle",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6680,12 +6680,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-cube-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6696,12 +6696,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-cube-xl-bundle",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6712,12 +6712,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-lux-2-3",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6728,12 +6728,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-lux-bundle",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6744,12 +6744,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-lux-xl",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6760,12 +6760,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-lux-xl-bundle",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6776,12 +6776,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-max-4-8",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6792,12 +6792,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-max-bundle",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6808,12 +6808,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-max-xl-bis-12",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6824,12 +6824,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "morzh-max-xl-bundle",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6840,12 +6840,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "sanotechnik-riga",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6856,12 +6856,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "saunaloft-tyla-144-5x130",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6872,12 +6872,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "saunazeltpro-panorama-210-set",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6888,12 +6888,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "sentiotec-alaska-corner",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6904,7 +6904,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
@@ -6942,7 +6942,7 @@
     },
     {
       "product_id": "weka-bergen-196x195-fenster",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6953,12 +6953,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-bergen-246x195-fenster",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6969,12 +6969,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-cubilis-195x145",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -6985,12 +6985,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-cubilis-195x195",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7001,12 +7001,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-elementsauna-halmstad-192x175-glastuer",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7017,12 +7017,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-elementsauna-halmstad-192x175-holztuer",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7033,12 +7033,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-elementsauna-kaarina-151x192",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7049,12 +7049,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-elementsauna-kaarina-175x192",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7065,12 +7065,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-elementsauna-laukkala-139x139",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7081,12 +7081,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-elementsauna-laukkala-187x188",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7097,12 +7097,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-farsund-390x187-fenster",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7113,12 +7113,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-fasssauna-198-207x186",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7129,12 +7129,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-hamina-108x102",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7145,12 +7145,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-hamina-136x102",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7161,12 +7161,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-infrarotkabine-mila-108x99",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7177,12 +7177,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-infrarotkabine-mila-137x99",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7193,12 +7193,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-infrarotkabine-milo-1-f",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7209,12 +7209,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-infrarotkabine-tanilla-137x99",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7225,12 +7225,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-infrarotkabine-tanilla-eck-99x99",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7241,12 +7241,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-infrarotkabine-vaala-99x98",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7257,12 +7257,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-kemi-188x140-glastuer",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7273,12 +7273,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-kemi-188x188-glastuer",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7289,12 +7289,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-kemi-238x188-glastuer",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7305,12 +7305,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-kemi-eck-188x140",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7321,12 +7321,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-kemi-eck-188x188",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7337,12 +7337,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-kemi-panorama-209x168",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7353,12 +7353,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-kemi-panorama-209x210",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7369,12 +7369,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-kurikka-14930301046",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7385,12 +7385,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-luua-234x249",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7401,12 +7401,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-luua-cube-210x254",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7417,12 +7417,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-mikkeli-400v-9kw",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7433,12 +7433,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-osby-140x99",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7449,12 +7449,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-osby-212x125",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7465,12 +7465,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-osby-eck-200x138",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7481,7 +7481,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -7518,7 +7518,7 @@
     },
     {
       "product_id": "weka-ranua-109x98",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7529,12 +7529,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-ranua-140x98",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7545,12 +7545,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-salo-601x298-grau",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7561,12 +7561,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-saunahaus-412-4126250801",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7577,7 +7577,7 @@
         "frequent_editorial_share": 0.3333
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -7598,7 +7598,7 @@
     },
     {
       "product_id": "weka-saunahaus-412-4126250803",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7609,7 +7609,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -7726,7 +7726,7 @@
     },
     {
       "product_id": "weka-saunahaus-elva-230x180",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7737,7 +7737,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
@@ -7870,7 +7870,7 @@
     },
     {
       "product_id": "weka-saunahaus-keila-190x211",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7881,12 +7881,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-saunahaus-kuopio-238x238",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7897,12 +7897,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-saunahaus-laadi-1-130x105",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7913,12 +7913,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-saunahaus-laadi-3-130x240",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 2,
@@ -7929,12 +7929,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-saunahaus-schneeflocke-1",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7945,12 +7945,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-saunahaus-schneeflocke-2",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7961,12 +7961,12 @@
         "frequent_editorial_share": 0.1667
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7977,12 +7977,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-tanilla-108x99",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -7993,12 +7993,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-turku-195x195-fenster",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8009,12 +8009,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-turku-245x195-fenster",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8025,12 +8025,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-uppsala-212x121-klassik",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8041,12 +8041,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-vaala-127x98",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8057,12 +8057,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-valida-139x139",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8073,12 +8073,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-valida-3-gtf-400v",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8089,12 +8089,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-or-multiple-sources"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-viira-1-150x202",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8105,12 +8105,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-viira-2-229x229",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8121,12 +8121,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-winterzauber-1-9kw",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8137,12 +8137,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "weka-winterzauber-2-9kw",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8153,12 +8153,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-dampfdusche-alaska-infrarot-90",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8169,12 +8169,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-dampfdusche-arizona-infrarot-145",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8185,12 +8185,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-dampfdusche-california-infrarot-145",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8201,12 +8201,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-dampfdusche-colorado-infrarot-100",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8217,12 +8217,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-dampfdusche-florida-infrarot-145",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8233,12 +8233,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-dampfdusche-kansas-infrarot-100",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8249,12 +8249,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-dampfdusche-virginia-infrarot-100",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8265,12 +8265,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-finnische-sauna-alaska-i",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8281,12 +8281,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-finnische-sauna-alaska-ii",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8297,12 +8297,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-finnische-sauna-alaska-iii",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8313,12 +8313,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-infrarotkabine-goteborg",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8329,12 +8329,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-infrarotkabine-helsinki-beta",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8345,12 +8345,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-infrarotkabine-oslo-alpha",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8361,12 +8361,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-infrarotkabine-stockholm-alpha",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8377,12 +8377,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-infrarotsauna-alpha-i",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8393,12 +8393,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-infrarotsauna-alpha-ii",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8409,12 +8409,12 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     },
     {
       "product_id": "wellness-point-infrarotsauna-alpha-iii",
-      "decision": "index",
+      "decision": "noindex",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -8425,7 +8425,7 @@
         "frequent_editorial_share": 0
       },
       "reasons": [
-        "distinct-editorial-evidence"
+        "index-concentration"
       ]
     }
   ]

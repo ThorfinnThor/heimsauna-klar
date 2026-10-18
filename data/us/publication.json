@@ -5,5 +5,16 @@
   "routes_enabled": true,
   "indexing_enabled": true,
   "affiliate_links_enabled": true,
-  "feed_sync_enabled": false
+  "feed_sync_enabled": false,
+  "index_concentration": {
+    "status": "active",
+    "decided_at": "2026-10-18",
+    "reason": "The US section has had no search impressions since its indexed release on 2026-09-15, and the site lost its visibility on 2026-09-17. Index only the pages with substantial original content; product details and thin overview pages stay reachable as noindex,follow until they carry product-specific depth.",
+    "noindex_product_details": true,
+    "noindex_paths": [
+      "/us/guides/",
+      "/us/compare/",
+      "/us/brands/"
+    ]
+  }
 }

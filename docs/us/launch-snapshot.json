@@ -13,7 +13,18 @@
     "routes_enabled": true,
     "indexing_enabled": true,
     "affiliate_links_enabled": true,
-    "feed_sync_enabled": false
+    "feed_sync_enabled": false,
+    "index_concentration": {
+      "status": "active",
+      "decided_at": "2026-10-18",
+      "reason": "The US section has had no search impressions since its indexed release on 2026-09-15, and the site lost its visibility on 2026-09-17. Index only the pages with substantial original content; product details and thin overview pages stay reachable as noindex,follow until they carry product-specific depth.",
+      "noindex_product_details": true,
+      "noindex_paths": [
+        "/us/guides/",
+        "/us/compare/",
+        "/us/brands/"
+      ]
+    }
   },
   "records": {
     "product_ids": [
@@ -1005,7 +1016,7 @@
   "file_hashes": [
     {
       "path": "data/us/publication.json",
-      "sha256": "46c84c0b85731df7e67522db96a9ef8254bad1ec5738ff52b896f4a754ddb73b"
+      "sha256": "93d2406174383046a817a9888e7d9ba82245bf3222b2d3d2d4a006a88ef54e24"
     },
     {
       "path": "data/us/products.json",
