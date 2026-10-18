@@ -534,7 +534,7 @@
       "hero": "question",
       "sections": "staggered",
       "insight_style": "matrix",
-      "flow": ["insight", "sections", "checks", "sources"],
+      "flow": ["insight", "footprint", "sections", "checks", "sources"],
       "insight": {
         "kicker": "Vom Raum zum Maß",
         "title": "Vier Flächen gehören in den Raumplan.",

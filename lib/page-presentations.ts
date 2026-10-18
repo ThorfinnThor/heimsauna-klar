@@ -16,7 +16,7 @@ export type CollectionPresentation = {
   insight: EditorialInsight;
 };
 
-export type PlanningModule = "insight" | "sections" | "snapshot" | "checks" | "sources";
+export type PlanningModule = "insight" | "sections" | "snapshot" | "footprint" | "checks" | "sources";
 export type PlanningPresentation = {
   hero: "summary" | "split" | "briefing" | "question" | "compact";
   sections: "staggered" | "technical" | "timeline" | "cards" | "ledger" | "alternating";

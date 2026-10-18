@@ -11,6 +11,7 @@ export type PlanningGuide = {
   updated_at: string;
   summary: string;
   catalog_snapshot?: "product_prices";
+  catalog_footprint?: boolean;
   sections: Array<{ title: string; copy: string; points: string[] }>;
   checklist: string[];
   module_copy: {
