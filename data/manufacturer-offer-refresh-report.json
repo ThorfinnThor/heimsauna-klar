@@ -8,9 +8,7 @@
     "redirected-away": 1,
     "unreachable": 4,
     "unavailable": 6,
-    "confirmed": 261,
-    "updated": 39,
-    "sale": 18,
+    "confirmed": 318,
     "no-structured-price": 1,
     "implausible-change": 4
   },
@@ -303,8 +301,8 @@
       "product_id": "weka-infrarotkabine-tanilla-eck-99x99",
       "merchant": "Mein-Saunashop",
       "url": "https://www.mein-saunashop.de/weka-infrarot-kabine-tanilla-eck-542-eck-inkl-lendenstuetze",
-      "stored_price": 2210,
-      "outcome": "updated",
+      "stored_price": 2229.11,
+      "outcome": "confirmed",
       "page_prices": [
         2229.11
       ]
@@ -323,8 +321,8 @@
       "product_id": "weka-infrarotkabine-tanilla-137x99",
       "merchant": "Mein-Saunashop",
       "url": "https://www.mein-saunashop.de/weka-infrarot-kabine-tanilla-2-543-gr-2-inkl-lendenstuetze",
-      "stored_price": 2309.99,
-      "outcome": "updated",
+      "stored_price": 2309,
+      "outcome": "confirmed",
       "page_prices": [
         2309
       ]
@@ -333,8 +331,8 @@
       "product_id": "weka-infrarotkabine-vaala-99x98",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-99x98-naturbelassen/550.1010.19.30",
-      "stored_price": 1236.76,
-      "outcome": "updated",
+      "stored_price": 1648.99,
+      "outcome": "confirmed",
       "page_prices": [
         1648.99
       ]
@@ -343,8 +341,8 @@
       "product_id": "weka-infrarotkabine-vaala-99x98",
       "merchant": "Mein-Saunashop",
       "url": "https://www.mein-saunashop.de/weka-infrarot-waermekabine-ir-kabine-550-vaala-gr-1",
-      "stored_price": 1294.16,
-      "outcome": "updated",
+      "stored_price": 1371.02,
+      "outcome": "confirmed",
       "page_prices": [
         1371.02
       ]
@@ -508,8 +506,8 @@
       "product_id": "weka-saunahaus-laadi-3-130x240",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-laadi-3-130x240-naturbelassen/191.0104.00.00",
-      "stored_price": 5299,
-      "outcome": "updated",
+      "stored_price": 5799,
+      "outcome": "confirmed",
       "page_prices": [
         5799
       ]
@@ -529,8 +527,8 @@
       "product_id": "weka-saunahaus-schneeflocke-1",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-schneeflocke-1-saunaofen-klassik-9-0-naturbelassen/ws533202000001",
-      "stored_price": 2949,
-      "outcome": "updated",
+      "stored_price": 3904,
+      "outcome": "confirmed",
       "page_prices": [
         3904
       ]
@@ -539,8 +537,8 @@
       "product_id": "weka-saunahaus-schneeflocke-2",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/p/saunahaus-schneeflocke-2-saunaofen-bioaktiv-9-0-naturbelassen/ws533202000002",
-      "stored_price": 3249,
-      "outcome": "updated",
+      "stored_price": 4304,
+      "outcome": "confirmed",
       "page_prices": [
         4304
       ]
@@ -549,8 +547,8 @@
       "product_id": "weka-saunahaus-kuopio-238x238",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-kuopio-wekaline-238x238-naturbelassen/533.2525.60100",
-      "stored_price": 5299,
-      "outcome": "sale",
+      "stored_price": 3199.01,
+      "outcome": "confirmed",
       "page_prices": [
         3199.01
       ]
@@ -1123,8 +1121,8 @@
       "product_id": "karibu-fasssauna-quadro-2-66638",
       "merchant": "Karibu",
       "url": "https://www.karibu.de/ch/fasssauna-quadro-2/66638",
-      "stored_price": 2299.99,
-      "outcome": "updated",
+      "stored_price": 2847.05,
+      "outcome": "confirmed",
       "page_prices": [
         2847.05
       ]
@@ -1143,8 +1141,8 @@
       "product_id": "karibu-saunahaus-olbia-66608",
       "merchant": "Karibu",
       "url": "https://en.karibu.de/saunahaus-olbia-inkl.-9kw-bio-ofen-und-steuerung-easy/66608",
-      "stored_price": 5999,
-      "outcome": "updated",
+      "stored_price": 5999.99,
+      "outcome": "confirmed",
       "page_prices": [
         5999.99
       ]
@@ -1918,8 +1916,8 @@
       "product_id": "weka-kemi-188x188-glastuer",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-188x188-glastuer/529.2020.30100",
-      "stored_price": 3699,
-      "outcome": "sale",
+      "stored_price": 2199,
+      "outcome": "confirmed",
       "page_prices": [
         2199
       ]
@@ -1928,8 +1926,8 @@
       "product_id": "weka-kemi-238x188-glastuer",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-238x188-glastuer/529.2520.30100",
-      "stored_price": 4249,
-      "outcome": "sale",
+      "stored_price": 2499,
+      "outcome": "confirmed",
       "page_prices": [
         2499
       ]
@@ -1938,8 +1936,8 @@
       "product_id": "weka-kemi-eck-188x140",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-eck-188x140-eckeinstieg-glastuer/528.2015.30102",
-      "stored_price": 3099,
-      "outcome": "sale",
+      "stored_price": 1899,
+      "outcome": "confirmed",
       "page_prices": [
         1899
       ]
@@ -1948,8 +1946,8 @@
       "product_id": "weka-kemi-eck-188x188",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-eck-188x188-eckeinstieg-glastuer/528.2020.30102",
-      "stored_price": 3899,
-      "outcome": "sale",
+      "stored_price": 2299,
+      "outcome": "confirmed",
       "page_prices": [
         2299
       ]
@@ -1988,8 +1986,8 @@
       "product_id": "weka-bergen-246x195-fenster",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-bergen-246x195-fenster-glastuer/531.2520.42100",
-      "stored_price": 4099,
-      "outcome": "sale",
+      "stored_price": 2499,
+      "outcome": "confirmed",
       "page_prices": [
         2499
       ]
@@ -1998,8 +1996,8 @@
       "product_id": "weka-turku-195x195-fenster",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-turku-195x195-fenster-eckeinstieg-glastuer/536.2020.42100",
-      "stored_price": 3599,
-      "outcome": "updated",
+      "stored_price": 3999,
+      "outcome": "confirmed",
       "page_prices": [
         3999
       ]
@@ -2008,8 +2006,8 @@
       "product_id": "weka-turku-245x195-fenster",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-turku-245x195-fenster-eckeinstieg-glastuer/536.2520.42100",
-      "stored_price": 4099,
-      "outcome": "sale",
+      "stored_price": 2499,
+      "outcome": "confirmed",
       "page_prices": [
         2499
       ]
@@ -2018,8 +2016,8 @@
       "product_id": "weka-cubilis-195x145",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-cubilis-wekaline-195x145-fenster-glastuer/536.2015.52102",
-      "stored_price": 4699,
-      "outcome": "sale",
+      "stored_price": 2799,
+      "outcome": "confirmed",
       "page_prices": [
         2799
       ]
@@ -2028,8 +2026,8 @@
       "product_id": "weka-cubilis-195x195",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-cubilis-wekaline-195x195-fenster-glastuer/536.2020.52102",
-      "stored_price": 4999,
-      "outcome": "sale",
+      "stored_price": 2999,
+      "outcome": "confirmed",
       "page_prices": [
         2999
       ]
@@ -2038,8 +2036,8 @@
       "product_id": "weka-valida-139x139",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-valida-139x139-glastuer/537.1515.40.00",
-      "stored_price": 1199,
-      "outcome": "updated",
+      "stored_price": 1499,
+      "outcome": "confirmed",
       "page_prices": [
         1499
       ]
@@ -2048,8 +2046,8 @@
       "product_id": "weka-farsund-390x187-fenster",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-farsund-390x187-glastuer-ruheraum-fenster-naturbelassen/533.3920.80100",
-      "stored_price": 5499,
-      "outcome": "sale",
+      "stored_price": 3299,
+      "outcome": "confirmed",
       "page_prices": [
         3299
       ]
@@ -2078,8 +2076,8 @@
       "product_id": "weka-viira-1-150x202",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-viira-1-149-6x201-6-glastuer-dachbahnen-naturbelassen/191.0100.00.00",
-      "stored_price": 5499,
-      "outcome": "updated",
+      "stored_price": 5999,
+      "outcome": "confirmed",
       "page_prices": [
         5999
       ]
@@ -2088,8 +2086,8 @@
       "product_id": "weka-viira-2-229x229",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-viira-2-229x229-glastuer-fenster-dachbahn-naturbelassen/191.0101.00.00",
-      "stored_price": 7799,
-      "outcome": "updated",
+      "stored_price": 7999,
+      "outcome": "confirmed",
       "page_prices": [
         7999
       ]
@@ -2098,8 +2096,8 @@
       "product_id": "weka-polaris-1-75kw",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-polaris-1-298x298-saunaofen-klassik-7-5-naturbelassen/ws149303000001",
-      "stored_price": 6199,
-      "outcome": "updated",
+      "stored_price": 7549,
+      "outcome": "confirmed",
       "page_prices": [
         7549
       ]
@@ -2108,8 +2106,8 @@
       "product_id": "weka-polaris-2-75kw",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-polaris-2-298x298-saunaofen-bioaktiv-7-5-naturbelassen/ws149303000002",
-      "stored_price": 6399,
-      "outcome": "updated",
+      "stored_price": 7849,
+      "outcome": "confirmed",
       "page_prices": [
         7849
       ]
@@ -2118,8 +2116,8 @@
       "product_id": "weka-winterzauber-1-9kw",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-winterzauber-1-saunaofen-klassik-9-0-anthrazit/ws533252500001",
-      "stored_price": 5199,
-      "outcome": "updated",
+      "stored_price": 6924,
+      "outcome": "confirmed",
       "page_prices": [
         6924
       ]
@@ -2128,8 +2126,8 @@
       "product_id": "weka-winterzauber-2-9kw",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-winterzauber-2-saunaofen-bioaktiv-9-0-anthrazit/ws533252500002",
-      "stored_price": 5499,
-      "outcome": "updated",
+      "stored_price": 7324,
+      "outcome": "confirmed",
       "page_prices": [
         7324
       ]
@@ -2138,8 +2136,8 @@
       "product_id": "weka-salo-601x298-grau",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-salo-601x298-einzeltuer-anbau-grau/213.3030.45294",
-      "stored_price": 7759,
-      "outcome": "sale",
+      "stored_price": 4699,
+      "outcome": "confirmed",
       "page_prices": [
         4699
       ]
@@ -2148,8 +2146,8 @@
       "product_id": "weka-hamina-108x102",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-hamina-108-00x102-50-ganzglastuer-halogenspot-naturbelassen/558.1010.00.00",
-      "stored_price": 2999,
-      "outcome": "sale",
+      "stored_price": 1798.99,
+      "outcome": "confirmed",
       "page_prices": [
         1798.99
       ]
@@ -2158,8 +2156,8 @@
       "product_id": "weka-hamina-136x102",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-hamina-136-50x102-50-ganzglastuer-halogenspot-naturbelassen/558.1310.00.00",
-      "stored_price": 3149,
-      "outcome": "updated",
+      "stored_price": 3499,
+      "outcome": "confirmed",
       "page_prices": [
         3499
       ]
@@ -2198,8 +2196,8 @@
       "product_id": "weka-ranua-109x98",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-ranua-109x98-ganzglastuer-naturbelassen/548.1010.42.00",
-      "stored_price": 2759,
-      "outcome": "sale",
+      "stored_price": 1699,
+      "outcome": "confirmed",
       "page_prices": [
         1699
       ]
@@ -2228,8 +2226,8 @@
       "product_id": "weka-vaala-127x98",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-vaala-127x98-steuerung-ganzglastuer-naturbelassen/550.1310.19.30",
-      "stored_price": 1699,
-      "outcome": "updated",
+      "stored_price": 1899,
+      "outcome": "confirmed",
       "page_prices": [
         1899
       ]
@@ -2238,8 +2236,8 @@
       "product_id": "weka-uppsala-212x121-klassik",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/infrarotsauna-uppsala-212x121-3-6-kw-klassik-glastuer/547.2012.13.00",
-      "stored_price": 5599,
-      "outcome": "sale",
+      "stored_price": 3399,
+      "outcome": "confirmed",
       "page_prices": [
         3399
       ]
@@ -2268,8 +2266,8 @@
       "product_id": "weka-elementsauna-kaarina-151x192",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/elementsauna-kaarina-151x192-glastuer/506.1520.10100",
-      "stored_price": 2699,
-      "outcome": "sale",
+      "stored_price": 1599,
+      "outcome": "confirmed",
       "page_prices": [
         1599
       ]
@@ -2278,8 +2276,8 @@
       "product_id": "weka-elementsauna-kaarina-175x192",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/elementsauna-kaarina-175x192-2-fenster-glastuer/506.1820.50100",
-      "stored_price": 2699,
-      "outcome": "updated",
+      "stored_price": 2999,
+      "outcome": "confirmed",
       "page_prices": [
         2999
       ]
@@ -2298,8 +2296,8 @@
       "product_id": "weka-elementsauna-halmstad-192x175-holztuer",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/elementsauna-halmstad-192x175-holztuer/506.2018.00.00",
-      "stored_price": 2299,
-      "outcome": "updated",
+      "stored_price": 1599,
+      "outcome": "confirmed",
       "page_prices": [
         1599
       ]
@@ -2308,8 +2306,8 @@
       "product_id": "weka-elementsauna-laukkala-139x139",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-laukkala-139x139-saunaleuchte-glastuer/528.1515.50.01",
-      "stored_price": 1899,
-      "outcome": "updated",
+      "stored_price": 2199,
+      "outcome": "confirmed",
       "page_prices": [
         2199
       ]
@@ -2318,8 +2316,8 @@
       "product_id": "weka-elementsauna-laukkala-187x188",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-laukkala-187x188-glastuer/528.2015.51.02",
-      "stored_price": 2549,
-      "outcome": "sale",
+      "stored_price": 1499,
+      "outcome": "confirmed",
       "page_prices": [
         1499
       ]
@@ -2328,8 +2326,8 @@
       "product_id": "weka-fasssauna-198-207x186",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/fasssauna-198-207-6x186-6-glastuer-naturbelassen/198.2125.80100",
-      "stored_price": 3499,
-      "outcome": "updated",
+      "stored_price": 3699,
+      "outcome": "confirmed",
       "page_prices": [
         3699
       ]
@@ -2338,8 +2336,8 @@
       "product_id": "weka-saunahaus-sonnenwende-plus-390x187",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-sonnenwende-plus-ruheraum-dachbahnen-saunaofen-klassik-9-0/ws533392000001",
-      "stored_price": 4499,
-      "outcome": "updated",
+      "stored_price": 5924,
+      "outcome": "confirmed",
       "page_prices": [
         5924
       ]
@@ -2438,8 +2436,8 @@
       "product_id": "karibu-hytti-3-exclusive-99904m",
       "merchant": "Karibu",
       "url": "https://www.karibu.de/saunahaus-hytti-3-exklusive/99904M",
-      "stored_price": 1949,
-      "outcome": "updated",
+      "stored_price": 2049.99,
+      "outcome": "confirmed",
       "page_prices": [
         2049.99
       ]
@@ -3498,8 +3496,8 @@
       "product_id": "weka-saunahaus-kaapi-200x115-glastur-naturbelassen-534201180000",
       "merchant": "WEKA",
       "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x115-glastuer-naturbelassen/534201180000",
-      "stored_price": 1399,
-      "outcome": "updated",
+      "stored_price": 1599,
+      "outcome": "confirmed",
       "page_prices": [
         1599
       ]
@@ -3508,8 +3506,8 @@
       "product_id": "weka-saunahaus-kaapi-200x150-glastur-grungrau-534201587000",
       "merchant": "WEKA",
       "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x150-glastuer-gruengrau/534201587000",
-      "stored_price": 1798.99,
-      "outcome": "updated",
+      "stored_price": 1999,
+      "outcome": "confirmed",
       "page_prices": [
         1999
       ]
@@ -3518,8 +3516,8 @@
       "product_id": "weka-saunahaus-kaapi-200x150-glastur-naturbelassen-534201580000",
       "merchant": "WEKA",
       "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x150-glastuer-naturbelassen/534201580000",
-      "stored_price": 1599,
-      "outcome": "updated",
+      "stored_price": 1798.99,
+      "outcome": "confirmed",
       "page_prices": [
         1798.99
       ]
@@ -3528,8 +3526,8 @@
       "product_id": "weka-saunahaus-kaapi-200x200-glastur-grungrau-534202087000",
       "merchant": "WEKA",
       "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x200-glastuer-gruengrau/534202087000",
-      "stored_price": 1999,
-      "outcome": "updated",
+      "stored_price": 2249,
+      "outcome": "confirmed",
       "page_prices": [
         2249
       ]
@@ -3538,8 +3536,8 @@
       "product_id": "weka-saunahaus-kaapi-200x200-glastur-naturbelassen-534202080000",
       "merchant": "WEKA",
       "url": "https://weka-holzbau.com/p/saunahaus-kaapi-200x200-glastuer-naturbelassen/534202080000",
-      "stored_price": 1798.99,
-      "outcome": "updated",
+      "stored_price": 1999,
+      "outcome": "confirmed",
       "page_prices": [
         1999
       ]
@@ -3548,8 +3546,8 @@
       "product_id": "weka-saunahaus-kaapi-235x200-glastur-grungrau-534242087000",
       "merchant": "WEKA",
       "url": "https://weka-holzbau.com/p/saunahaus-kaapi-235x200-glastuer-gruengrau/534242087000",
-      "stored_price": 2299,
-      "outcome": "updated",
+      "stored_price": 2449,
+      "outcome": "confirmed",
       "page_prices": [
         2449
       ]
@@ -3558,8 +3556,8 @@
       "product_id": "weka-saunahaus-kaapi-235x200-glastur-naturbelassen-534242080000",
       "merchant": "WEKA",
       "url": "https://weka-holzbau.com/p/saunahaus-kaapi-235x200-glastuer-naturbelassen/534242080000",
-      "stored_price": 1999,
-      "outcome": "updated",
+      "stored_price": 2199,
+      "outcome": "confirmed",
       "page_prices": [
         2199
       ]
@@ -3694,8 +3692,8 @@
       "product_id": "dewello-kenora-140",
       "merchant": "TroniTechnik",
       "url": "https://www.tronitechnik.de/dewello-infrarotkabine-kenora-140cm-x-140cm/a-722",
-      "stored_price": 3099,
-      "outcome": "updated",
+      "stored_price": 2999,
+      "outcome": "confirmed",
       "page_prices": [
         2999
       ]
@@ -3704,8 +3702,8 @@
       "product_id": "dewello-lakefield-pro-140",
       "merchant": "TroniTechnik",
       "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-lakefield-pro-140x140cm/a-447",
-      "stored_price": 2889,
-      "outcome": "updated",
+      "stored_price": 2789,
+      "outcome": "confirmed",
       "page_prices": [
         2789
       ]
@@ -3724,8 +3722,8 @@
       "product_id": "dewello-kenora-130",
       "merchant": "TroniTechnik",
       "url": "https://www.tronitechnik.de/infrarotkabine-kenora-130x105/a-720",
-      "stored_price": 2399,
-      "outcome": "sale",
+      "stored_price": 2299,
+      "outcome": "confirmed",
       "page_prices": [
         2299
       ]
@@ -3842,8 +3840,8 @@
       "product_id": "dewello-toronto-102",
       "merchant": "TroniTechnik",
       "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-102x102cm/a-394",
-      "stored_price": 2089,
-      "outcome": "updated",
+      "stored_price": 1989,
+      "outcome": "confirmed",
       "page_prices": [
         1989
       ]
@@ -3852,8 +3850,8 @@
       "product_id": "dewello-toronto-127",
       "merchant": "TroniTechnik",
       "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-127x106cm/a-395",
-      "stored_price": 2489,
-      "outcome": "updated",
+      "stored_price": 2389,
+      "outcome": "confirmed",
       "page_prices": [
         2389
       ]
@@ -3942,8 +3940,8 @@
       "product_id": "dewello-kenora-160",
       "merchant": "TroniTechnik",
       "url": "https://www.tronitechnik.de/infrarotkabine-kenora-150x120/a-721",
-      "stored_price": 2899,
-      "outcome": "sale",
+      "stored_price": 2799,
+      "outcome": "confirmed",
       "page_prices": [
         2799
       ]
@@ -3952,8 +3950,8 @@
       "product_id": "dewello-toronto-160",
       "merchant": "TroniTechnik",
       "url": "https://www.tronitechnik.de/dewello-infrarotkabine-dualtherm-hemlock-zeder-toronto-160x110cm/a-396",
-      "stored_price": 2599,
-      "outcome": "updated",
+      "stored_price": 2499,
+      "outcome": "confirmed",
       "page_prices": [
         2499
       ]
@@ -4002,8 +4000,8 @@
       "product_id": "morzh-lux-xl-bundle",
       "merchant": "Morzh Deutschland",
       "url": "https://morzh.de/produkt/morzh-lux-xl-bundle/",
-      "stored_price": 1638,
-      "outcome": "updated",
+      "stored_price": 1647,
+      "outcome": "confirmed",
       "page_prices": [
         1647
       ]
@@ -4022,8 +4020,8 @@
       "product_id": "morzh-max-xl-bundle",
       "merchant": "Morzh Deutschland",
       "url": "https://morzh.de/produkt/morzh-max-xl-bundle/",
-      "stored_price": 2241,
-      "outcome": "updated",
+      "stored_price": 2304,
+      "outcome": "confirmed",
       "page_prices": [
         2304
       ]
