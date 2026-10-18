@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "captured_at": "2026-09-21",
+  "captured_at": "2026-10-18",
   "source_commit": "131fe60dd49a59a3d5a6920cddd460e12fb6e705",
-  "purpose": "Reviewed DE baseline after the first ten query-specific collection pages were added. Updating this file requires an explicit DE data review. The shared CSP permits the operator-enabled Cloudflare Web Analytics beacon.",
+  "purpose": "Reviewed DE baseline after the first ten query-specific collection pages were added. Updating this file requires an explicit DE data review. The shared CSP permits the operator-enabled Cloudflare Web Analytics beacon. 2026-10-18: offer prices and check dates re-read at the source (data/manufacturer-offer-refresh-report.json); product, merchant and indexing counts unchanged.",
   "metrics": {
     "product_count": 516,
     "merchant_count": 18,
@@ -10,9 +10,9 @@
     "active_affiliate_offer_count": 210
   },
   "files": {
-    "data/products.json": "5009d3eee51845cb99f0d5e418a3855f996e2d7e1c18c5ed2e6ca668713fc449",
+    "data/products.json": "34be0001c0848564a35b4d9b0172186f334169035ce475e98c3fab799d1542f7",
     "data/merchants.json": "bdb392d4bb3431ea5cba8efbcc9cf774c82d48ed9c3ee59228cc754f58dcd45b",
-    "data/product-indexing.json": "1577f508c620d64cf34bd7bc15c85463cec0beecfaa8863307221d958621bd8b",
+    "data/product-indexing.json": "7a8c748e2590a4886ef8ea18a16a740b46081e1ceed99afdda65ea989b5aa43f",
     "data/site-publication.json": "abe0b1022bd5cbaaadde8efbaa29f9ee4d4aee5d50918b65dafe6b634c851205",
     "content/de/affiliate.json": "aa96fe809030d93e8bb7d814e0b87fadfcf8d0d3c780041833c62d7550c814f9",
     "content/de/collections.json": "2c36d8d8933ad93ed969c23345708931b554224d125353592865eae2cff0049d",
