@@ -56,6 +56,23 @@ export function HomePage() {
         </aside>
       </section>
 
+      <section className="entry-points page-shell" aria-labelledby="entry-points-title">
+        <div className="collection-index-head">
+          <div><p className="eyebrow">{home.entry_points.kicker}</p><h2 id="entry-points-title">{home.entry_points.title}</h2></div>
+          <p>{home.entry_points.copy}</p>
+        </div>
+        <div className="entry-point-grid">
+          {home.entry_points.groups.map((group, index) => (
+            <section key={group.title} aria-labelledby={`entry-group-${index + 1}`}>
+              <h3 id={`entry-group-${index + 1}`}>{group.title}</h3>
+              <p>{group.copy}</p>
+              <ul>{group.links.map((link) => <li key={link.href}><Link href={link.href}>{link.label} <span aria-hidden="true">↗</span></Link></li>)}</ul>
+            </section>
+          ))}
+        </div>
+        <Link className="text-link" href={home.entry_points.all_href}>{home.entry_points.all_label} <Arrow /></Link>
+      </section>
+
       <section className="catalog-preview" aria-labelledby="catalog-title">
         <div className="catalog-preview-head">
           <div>
@@ -115,6 +132,7 @@ export function HomePage() {
                 <div><dt>Strom</dt><dd>{item.power}</dd></div>
                 <div><dt>Ideal für</dt><dd>{item.idealFor}</dd></div>
               </dl>
+              {"href" in item && item.href ? <Link className="text-link" href={item.href}>{item.link_label} <Arrow /></Link> : null}
             </article>
           ))}
         </div>

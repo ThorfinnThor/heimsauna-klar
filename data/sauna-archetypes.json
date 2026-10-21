@@ -6,7 +6,9 @@
     "summary": "Die naheliegende Richtung für kleine Innenräume. Je nach Kabine und Ofen kommen 230 V oder ein fachgerecht geplanter 400-V-Anschluss infrage.",
     "space": "ab ca. 1,5 m²",
     "power": "230 V oder 400 V",
-    "idealFor": "Wohnung, Bad, Keller"
+    "idealFor": "Wohnung, Bad, Keller",
+    "href": "/de/indoor-sauna/mini-sauna/",
+    "link_label": "Kompakte Innensaunen vergleichen"
   },
   {
     "id": "infrared-compact",
@@ -15,7 +17,9 @@
     "summary": "Oft die einfachere Option bei knapper Fläche und kleinerem Budget, mit einem anderen Wärmegefühl als eine klassische Sauna.",
     "space": "ab ca. 1,0 m²",
     "power": "meist 230 V",
-    "idealFor": "1 Person, wenig Platz"
+    "idealFor": "1 Person, wenig Platz",
+    "href": "/de/indoor-sauna/1-person-infrarotkabine/",
+    "link_label": "Infrarotkabinen für 1 Person"
   },
   {
     "id": "outdoor-small",
@@ -24,7 +28,9 @@
     "summary": "Mehr Freiheit bei der Größe, dafür müssen Fundament, Wetterschutz, Genehmigung und Zuleitung gemeinsam geplant werden.",
     "space": "ab ca. 4 m²",
     "power": "230/400 V oder Holz",
-    "idealFor": "kleiner Garten"
+    "idealFor": "kleiner Garten",
+    "href": "/de/outdoor-sauna/kleine-gartensauna/",
+    "link_label": "Kleine Gartensaunen vergleichen"
   },
   {
     "id": "portable",

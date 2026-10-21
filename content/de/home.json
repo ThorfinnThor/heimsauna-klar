@@ -19,5 +19,64 @@
     { "title": "Daten mit Quelle", "copy": "Maße, Leistung und Preise werden erst veröffentlicht, wenn Herkunft und Prüfdatum dokumentiert sind." },
     { "title": "Einsatz und Grenzen", "copy": "Zu jedem Modell nennen wir geeignete Einsatzbereiche und bekannte Einschränkungen." },
     { "title": "Quellen und Einordnung trennen", "copy": "Technische Angaben stammen aus den verlinkten Quellen. Unsere Einordnung wird davon klar getrennt ausgewiesen." }
-  ]
+  ],
+  "entry_points": {
+    "kicker": "Direkt zum passenden Vergleich",
+    "title": "Nach Größe, Standort oder Planungsfrage einsteigen.",
+    "copy": "Jede Übersicht filtert den Katalog nach einem messbaren Kriterium und nennt die Grenzen der Daten. Die Ratgeber klären vorher, ob Raum, Untergrund und Anschluss zur gewählten Größe passen.",
+    "all_href": "/de/vergleiche/",
+    "all_label": "Alle Vergleiche nach Kategorie",
+    "groups": [
+      {
+        "title": "Innensauna nach Personenzahl",
+        "copy": "Kapazität, Außenmaß und Anschluss je Kabinengröße.",
+        "links": [
+          { "href": "/de/indoor-sauna/1-person-sauna/", "label": "1-Person-Sauna" },
+          { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Sauna für 2 Personen" },
+          { "href": "/de/indoor-sauna/3-personen-sauna/", "label": "Sauna für 3 Personen" },
+          { "href": "/de/indoor-sauna/finnische-sauna-2-personen/", "label": "Finnische Sauna für 2 Personen" },
+          { "href": "/de/indoor-sauna/finnische-sauna-3-personen/", "label": "Finnische Sauna für 3 Personen" },
+          { "href": "/de/indoor-sauna/mini-sauna/", "label": "Mini-Sauna für kleine Räume" }
+        ]
+      },
+      {
+        "title": "Infrarotkabinen",
+        "copy": "Einzel- und Mehrplatzkabinen mit Strahler- und Anschlussdaten.",
+        "links": [
+          { "href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabine für 1 Person" },
+          { "href": "/de/indoor-sauna/2-personen-infrarotkabine/", "label": "Infrarotkabine für 2 Personen" },
+          { "href": "/de/indoor-sauna/infrarotkabine-ab-3-personen/", "label": "Infrarotkabine ab 3 Personen" },
+          { "href": "/de/indoor-sauna/infrarotkabine-bis-2000-euro/", "label": "Infrarotkabine bis 2.000 Euro" },
+          { "href": "/de/indoor-sauna/infrarotkabine/", "label": "Alle Infrarotkabinen" }
+        ]
+      },
+      {
+        "title": "Garten und größere Gruppen",
+        "copy": "Außenmodelle und Kabinen ab vier Plätzen nach Stellfläche.",
+        "links": [
+          { "href": "/de/outdoor-sauna/kleine-gartensauna/", "label": "Kleine Gartensauna" },
+          { "href": "/de/outdoor-sauna/fasssauna/", "label": "Fasssauna" },
+          { "href": "/de/outdoor-sauna/gartensauna-bis-5000-euro/", "label": "Gartensauna bis 5.000 Euro" },
+          { "href": "/de/vergleiche/4-personen-sauna/", "label": "4-Personen-Sauna" },
+          { "href": "/de/vergleiche/5-personen-sauna/", "label": "Sauna für 5 Personen" },
+          { "href": "/de/vergleiche/sauna-ab-6-personen/", "label": "Sauna ab 6 Personen" }
+        ]
+      },
+      {
+        "title": "Planung vor dem Kauf",
+        "copy": "Maße, Untergrund, Luftweg und Kosten mit Quellen geprüft.",
+        "links": [
+          { "href": "/de/planung/platzbedarf/", "label": "Sauna-Abmessungen und Platzbedarf" },
+          { "href": "/de/planung/sauna-kosten/", "label": "Was kostet eine Heimsauna?" },
+          { "href": "/de/planung/boden-und-fundament/", "label": "Boden und Fundament" },
+          { "href": "/de/planung/lueftung/", "label": "Sauna-Lüftung planen" },
+          { "href": "/de/planung/sauna-bei-niedriger-deckenhoehe/", "label": "Sauna bei niedriger Deckenhöhe" },
+          { "href": "/de/planung/sauna-im-badezimmer/", "label": "Sauna im Badezimmer" },
+          { "href": "/de/planung/sauna-im-keller/", "label": "Sauna im Keller" },
+          { "href": "/de/planung/saunagroesse-3-6-kw/", "label": "Saunagröße für 3,6 kW" },
+          { "href": "/de/planung/stromverbrauch-heimsauna/", "label": "Stromverbrauch berechnen" }
+        ]
+      }
+    ]
+  }
 }

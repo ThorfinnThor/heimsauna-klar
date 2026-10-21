@@ -1,4 +1,8 @@
 {
+  "collection_links_heading": {
+    "kicker": "Passende Vergleiche",
+    "title": "Produktübersichten zu dieser Planungsfrage"
+  },
   "groups": [
     {
       "id": "standort",
@@ -6,7 +10,13 @@
       "eyebrow": "Standort wählen",
       "title": "Welcher Raum kann die Sauna tragen?",
       "description": "Feuchtigkeit, Zugang und Nutzung unterscheiden sich je nach Aufstellort. Wohnung, Keller oder Badezimmer müssen jeweils als vollständiger Raum mit Luftführung, Boden und Anschluss funktionieren.",
-      "guide_slugs": ["sauna-fuer-die-wohnung", "sauna-im-keller", "sauna-im-badezimmer"]
+      "guide_slugs": ["sauna-fuer-die-wohnung", "sauna-im-keller", "sauna-im-badezimmer"],
+      "collection_links": [
+        { "href": "/de/indoor-sauna/mini-sauna/", "label": "Mini-Sauna für kleine Räume" },
+        { "href": "/de/indoor-sauna/1-person-sauna/", "label": "1-Person-Sauna" },
+        { "href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabine für 1 Person" },
+        { "href": "/de/outdoor-sauna/kleine-gartensauna/", "label": "Kleine Gartensauna" }
+      ]
     },
     {
       "id": "raum-und-aufbau",
@@ -14,7 +24,13 @@
       "eyebrow": "Raum und Aufbau",
       "title": "Passen Maß, Höhe und Untergrund?",
       "description": "Außenmaß, Montagefreiraum, Herstellerabstände und Untergrund bestimmen, welche Kabine tatsächlich aufgestellt werden kann.",
-      "guide_slugs": ["platzbedarf", "sauna-bei-niedriger-deckenhoehe", "boden-und-fundament"]
+      "guide_slugs": ["platzbedarf", "sauna-bei-niedriger-deckenhoehe", "boden-und-fundament"],
+      "collection_links": [
+        { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Sauna für 2 Personen" },
+        { "href": "/de/indoor-sauna/3-personen-sauna/", "label": "Sauna für 3 Personen" },
+        { "href": "/de/vergleiche/sauna-bis-6-m2/", "label": "Sauna bis 6 m² Stellfläche" },
+        { "href": "/de/outdoor-sauna/fasssauna/", "label": "Fasssauna" }
+      ]
     },
     {
       "id": "technik",
@@ -22,7 +38,14 @@
       "eyebrow": "Technik abstimmen",
       "title": "Passen Luftweg, Anschluss und Ofen?",
       "description": "Lüftung, Spannung, Leistung, wirksames Volumen und Temperaturregelung müssen als ein System geprüft werden.",
-      "guide_slugs": ["lueftung", "230-v-vs-400-v-sauna", "saunagroesse-3-6-kw", "temperatur-3-6-kw-sauna"]
+      "guide_slugs": ["lueftung", "230-v-vs-400-v-sauna", "saunagroesse-3-6-kw", "temperatur-3-6-kw-sauna"],
+      "collection_links": [
+        { "href": "/de/saunatechnik/230-v-sauna/", "label": "230-V-Sauna technisch verstehen" },
+        { "href": "/de/vergleiche/230-v-sauna/", "label": "230-V-Saunen vergleichen" },
+        { "href": "/de/vergleiche/400-v-sauna/", "label": "400-V-Saunen vergleichen" },
+        { "href": "/de/indoor-sauna/finnische-sauna-2-personen/", "label": "Finnische Sauna für 2 Personen" },
+        { "href": "/de/indoor-sauna/finnische-sauna-3-personen/", "label": "Finnische Sauna für 3 Personen" }
+      ]
     },
     {
       "id": "budget",
@@ -30,69 +53,157 @@
       "eyebrow": "Budget prüfen",
       "title": "Was kosten Kauf und Betrieb wirklich?",
       "description": "Produktpreis, Projektnebenkosten und Stromverbrauch gehören in getrennte, nachvollziehbare Rechnungen.",
-      "guide_slugs": ["sauna-kosten", "stromverbrauch-heimsauna"]
+      "guide_slugs": ["sauna-kosten", "stromverbrauch-heimsauna"],
+      "collection_links": [
+        { "href": "/de/vergleiche/sauna-bis-2500-euro/", "label": "Sauna bis 2.500 Euro" },
+        { "href": "/de/vergleiche/indoor-sauna-bis-2000-euro/", "label": "Indoor-Sauna bis 2.000 Euro" },
+        { "href": "/de/indoor-sauna/infrarotkabine-bis-2000-euro/", "label": "Infrarotkabine bis 2.000 Euro" },
+        { "href": "/de/outdoor-sauna/gartensauna-bis-5000-euro/", "label": "Gartensauna bis 5.000 Euro" }
+      ]
     }
   ],
   "guide_paths": {
     "platzbedarf": {
       "related_slugs": ["sauna-bei-niedriger-deckenhoehe", "sauna-fuer-die-wohnung", "saunagroesse-3-6-kw"],
       "product_href": "/de/indoor-sauna/mini-sauna/",
-      "product_label": "Kompakte Modelle vergleichen"
+      "product_label": "Kompakte Modelle vergleichen",
+      "collection_links": [
+        { "href": "/de/indoor-sauna/1-person-sauna/", "label": "Abmessungen von 1-Person-Saunen" },
+        { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Sauna für 2 Personen: Maße im Vergleich" },
+        { "href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabine für 1 Person" },
+        { "href": "/de/outdoor-sauna/kleine-gartensauna/", "label": "Kleine Gartensauna nach Stellfläche" }
+      ]
     },
     "lueftung": {
       "related_slugs": ["sauna-im-badezimmer", "sauna-im-keller", "temperatur-3-6-kw-sauna"],
       "product_href": "/de/vergleiche/sauna-bis-6-m2/",
-      "product_label": "Kompakte Modelle nach Maß und Anschluss ansehen"
+      "product_label": "Kompakte Modelle nach Maß und Anschluss ansehen",
+      "collection_links": [
+        { "href": "/de/vergleiche/finnische-sauna/", "label": "Finnische Saunen vergleichen" },
+        { "href": "/de/vergleiche/bio-sauna/", "label": "Bio-Sauna im Vergleich" },
+        { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Innensauna für 2 Personen" }
+      ]
     },
     "boden-und-fundament": {
       "related_slugs": ["platzbedarf", "sauna-kosten", "lueftung"],
       "product_href": "/de/outdoor-sauna/kleine-gartensauna/",
-      "product_label": "Kleine Gartensaunen vergleichen"
+      "product_label": "Kleine Gartensaunen vergleichen",
+      "collection_links": [
+        { "href": "/de/outdoor-sauna/fasssauna/", "label": "Fasssauna im Garten" },
+        { "href": "/de/outdoor-sauna/gartensauna-bis-5000-euro/", "label": "Gartensauna bis 5.000 Euro" },
+        { "href": "/de/vergleiche/sauna-ab-6-personen/", "label": "Große Saunen ab 6 Personen" }
+      ]
     },
     "sauna-kosten": {
       "related_slugs": ["stromverbrauch-heimsauna", "boden-und-fundament", "230-v-vs-400-v-sauna"],
       "product_href": "/de/vergleiche/sauna-bis-4000-euro/",
-      "product_label": "Modelle bis 4.000 Euro ansehen"
+      "product_label": "Modelle bis 4.000 Euro ansehen",
+      "collection_links": [
+        { "href": "/de/vergleiche/sauna-bis-2500-euro/", "label": "Sauna bis 2.500 Euro" },
+        { "href": "/de/vergleiche/indoor-sauna-bis-2000-euro/", "label": "Indoor-Sauna bis 2.000 Euro" },
+        { "href": "/de/indoor-sauna/infrarotkabine-bis-2000-euro/", "label": "Infrarotkabine bis 2.000 Euro" },
+        { "href": "/de/outdoor-sauna/gartensauna-bis-5000-euro/", "label": "Gartensauna bis 5.000 Euro" }
+      ]
     },
     "230-v-vs-400-v-sauna": {
       "related_slugs": ["stromverbrauch-heimsauna", "saunagroesse-3-6-kw", "temperatur-3-6-kw-sauna"],
       "product_href": "/de/vergleiche/230-v-sauna/",
-      "product_label": "230-V-Modelle vergleichen"
+      "product_label": "230-V-Modelle vergleichen",
+      "collection_links": [
+        { "href": "/de/vergleiche/400-v-sauna/", "label": "400-V-Saunen vergleichen" },
+        { "href": "/de/saunatechnik/230-v-sauna/", "label": "230-V-Sauna technisch einordnen" },
+        { "href": "/de/indoor-sauna/infrarotkabine/", "label": "Infrarotkabinen im Vergleich" }
+      ]
     },
     "sauna-fuer-die-wohnung": {
       "related_slugs": ["platzbedarf", "sauna-im-badezimmer", "sauna-bei-niedriger-deckenhoehe"],
       "product_href": "/de/indoor-sauna/mini-sauna/",
-      "product_label": "Kompakte Innenmodelle ansehen"
+      "product_label": "Kompakte Innenmodelle ansehen",
+      "collection_links": [
+        { "href": "/de/indoor-sauna/1-person-sauna/", "label": "Kleine Sauna für 1 Person" },
+        { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Innensauna für 2 Personen" },
+        { "href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabine für 1 Person" },
+        { "href": "/de/indoor-sauna/2-personen-infrarotkabine/", "label": "Infrarotkabine für 2 Personen" }
+      ]
     },
     "sauna-im-keller": {
       "related_slugs": ["lueftung", "platzbedarf", "sauna-bei-niedriger-deckenhoehe"],
       "product_href": "/de/indoor-sauna/mini-sauna/",
-      "product_label": "Kompakte Indoor-Modelle prüfen"
+      "product_label": "Kompakte Indoor-Modelle prüfen",
+      "collection_links": [
+        { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Sauna für 2 Personen" },
+        { "href": "/de/indoor-sauna/3-personen-sauna/", "label": "Sauna für 3 Personen" },
+        { "href": "/de/indoor-sauna/finnische-sauna-2-personen/", "label": "Finnische Sauna für 2 Personen" }
+      ]
     },
     "sauna-bei-niedriger-deckenhoehe": {
       "related_slugs": ["platzbedarf", "sauna-fuer-die-wohnung", "sauna-im-badezimmer"],
       "product_href": "/de/indoor-sauna/mini-sauna/",
-      "product_label": "Kompakte Modelle vergleichen"
+      "product_label": "Kompakte Modelle vergleichen",
+      "collection_links": [
+        { "href": "/de/indoor-sauna/1-person-sauna/", "label": "1-Person-Sauna mit Höhenangaben" },
+        { "href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabine für 1 Person" },
+        { "href": "/de/indoor-sauna/2-personen-infrarotkabine/", "label": "Infrarotkabine für 2 Personen" }
+      ]
     },
     "sauna-im-badezimmer": {
       "related_slugs": ["lueftung", "sauna-fuer-die-wohnung", "platzbedarf"],
       "product_href": "/de/indoor-sauna/mini-sauna/",
-      "product_label": "Kompakte Innenmodelle ansehen"
+      "product_label": "Kompakte Innenmodelle ansehen",
+      "collection_links": [
+        { "href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabine für 1 Person" },
+        { "href": "/de/indoor-sauna/2-personen-infrarotkabine/", "label": "Infrarotkabine für 2 Personen" },
+        { "href": "/de/indoor-sauna/1-person-sauna/", "label": "1-Person-Sauna" },
+        { "href": "/de/vergleiche/bio-sauna/", "label": "Bio-Sauna im Vergleich" }
+      ]
     },
     "stromverbrauch-heimsauna": {
       "related_slugs": ["sauna-kosten", "230-v-vs-400-v-sauna", "temperatur-3-6-kw-sauna"],
       "product_href": "/de/vergleiche/230-v-sauna/",
-      "product_label": "230-V-Modelle mit Leistungsdaten"
+      "product_label": "230-V-Modelle mit Leistungsdaten",
+      "collection_links": [
+        { "href": "/de/indoor-sauna/infrarotkabine/", "label": "Infrarotkabinen mit Leistungsdaten" },
+        { "href": "/de/vergleiche/400-v-sauna/", "label": "400-V-Saunen vergleichen" },
+        { "href": "/de/vergleiche/finnische-sauna/", "label": "Finnische Saunen vergleichen" }
+      ]
     },
     "saunagroesse-3-6-kw": {
       "related_slugs": ["temperatur-3-6-kw-sauna", "230-v-vs-400-v-sauna", "platzbedarf"],
       "product_href": "/de/vergleiche/230-v-sauna/",
-      "product_label": "Modelle mit ausgewiesener Leistung vergleichen"
+      "product_label": "Modelle mit ausgewiesener Leistung vergleichen",
+      "collection_links": [
+        { "href": "/de/indoor-sauna/finnische-sauna-2-personen/", "label": "Finnische Sauna für 2 Personen" },
+        { "href": "/de/indoor-sauna/finnische-sauna-3-personen/", "label": "Finnische Sauna für 3 Personen" },
+        { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Sauna für 2 Personen" },
+        { "href": "/de/vergleiche/400-v-sauna/", "label": "400-V-Saunen vergleichen" }
+      ]
     },
     "temperatur-3-6-kw-sauna": {
       "related_slugs": ["saunagroesse-3-6-kw", "lueftung", "230-v-vs-400-v-sauna"],
       "product_href": "/de/vergleiche/finnische-sauna/",
-      "product_label": "Finnische Saunen nach Technik vergleichen"
+      "product_label": "Finnische Saunen nach Technik vergleichen",
+      "collection_links": [
+        { "href": "/de/indoor-sauna/finnische-sauna-2-personen/", "label": "Finnische Sauna für 2 Personen" },
+        { "href": "/de/indoor-sauna/finnische-sauna-3-personen/", "label": "Finnische Sauna für 3 Personen" },
+        { "href": "/de/vergleiche/bio-sauna/", "label": "Bio-Sauna im Vergleich" }
+      ]
+    }
+  },
+  "footprint_links": {
+    "indoor": {
+      "1": { "href": "/de/indoor-sauna/1-person-sauna/", "label": "1-Person-Saunen" },
+      "2": { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Saunen für 2 Personen" },
+      "3": { "href": "/de/indoor-sauna/3-personen-sauna/", "label": "Saunen für 3 Personen" },
+      "4": { "href": "/de/vergleiche/4-personen-sauna/", "label": "4-Personen-Saunen" },
+      "5": { "href": "/de/vergleiche/5-personen-sauna/", "label": "Saunen für 5 Personen" },
+      "6 und mehr": { "href": "/de/vergleiche/sauna-ab-6-personen/", "label": "Saunen ab 6 Personen" }
+    },
+    "outdoor": {
+      "2": { "href": "/de/outdoor-sauna/kleine-gartensauna/", "label": "Kleine Gartensaunen" },
+      "3": { "href": "/de/outdoor-sauna/kleine-gartensauna/", "label": "Kleine Gartensaunen" },
+      "4": { "href": "/de/vergleiche/4-personen-sauna/", "label": "4-Personen-Saunen" },
+      "5": { "href": "/de/vergleiche/5-personen-sauna/", "label": "Saunen für 5 Personen" },
+      "6 und mehr": { "href": "/de/vergleiche/sauna-ab-6-personen/", "label": "Saunen ab 6 Personen" }
     }
   }
 }

@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "npm run data:check && next build --webpack && npm run us:seo:check && npm run us:output:gate && npm run links:check && npm run seo:check && npm run diversity:check && npm run security:check && npm run discovery:check",
+    "build": "npm run data:check && next build --webpack && npm run us:seo:check && npm run us:output:gate && npm run links:check && npm run links:inbound -- --summary --min-contextual=2 && npm run seo:check && npm run diversity:check && npm run security:check && npm run discovery:check",
     "build:cloudflare": "npm run build",
     "cloudflare:upload": "npx --yes wrangler@4.129.0 deploy",
     "cloudflare:dry-run": "npx --yes wrangler@4.129.0 deploy --dry-run",
@@ -35,6 +35,7 @@
     "us:test": "node --test scripts/us/*.test.mjs",
     "us:ci": "npm run us:matrix:check && npm run us:indexing:plan:check && npm run us:test && npm run us:de-baseline:check && npm run us:preview:test",
     "links:check": "node scripts/check-internal-links.mjs",
+    "links:inbound": "node scripts/report-inbound-links.mjs",
     "seo:check": "node scripts/check-static-seo.mjs",
     "diversity:check": "node scripts/check-content-diversity.mjs",
     "security:check": "node scripts/check-security-headers.mjs",
