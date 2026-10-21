@@ -2,7 +2,9 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import {
+  collectionSectionLabels,
   collections,
+  getCollectionPath,
   getCollectionProducts,
   getFootprintSquareMeters,
   getLowestPrice,
@@ -24,12 +26,6 @@ import {
 } from "@/lib/products";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
-const sectionLabels: Record<Collection["section"], string> = {
-  "indoor-sauna": "Indoor-Sauna",
-  "outdoor-sauna": "Outdoor-Sauna",
-  vergleiche: "Vergleiche",
-};
-
 type CollectionPageContext = {
   collection: Collection;
   candidates: Product[];
@@ -46,14 +42,14 @@ export function ProductCollectionPage({ collection }: { collection: Collection }
   const planningGuides = collection.planning.guide_ids.map(getPlanningGuide).filter((guide): guide is PlanningGuide => Boolean(guide));
   const presentation = getCollectionPresentation(collection.id);
   const pageContext = { collection, candidates, planningGuides, presentation };
-  const path = `/de/${collection.section}/${collection.slug}/`;
+  const path = getCollectionPath(collection);
 
   return (
     <main>
       <StructuredData data={collectionPageJsonLd({ title: collection.title, description: collection.description, path })} />
       <StructuredData data={breadcrumbJsonLd([
         { name: "Start", path: "/de/" },
-        { name: "Produkte", path: "/de/produkte/" },
+        { name: "Vergleiche", path: "/de/vergleiche/" },
         { name: collection.title, path },
       ])} />
       <SiteHeader />
@@ -88,8 +84,9 @@ function CollectionHero({ collection, candidates, minimumFootprint, lowestPrice,
   return (
     <header className={`collection-hero collection-hero-${hero} page-shell`}>
       <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
-        <Link href="/de/">Start</Link><span>/</span><Link href="/de/produkte/">Produkte</Link><span>/</span>
-        <span>{sectionLabels[collection.section]}</span><span>/</span><span>{collection.title}</span>
+        <Link href="/de/">Start</Link><span>/</span><Link href="/de/vergleiche/">Vergleiche</Link><span>/</span>
+        {collection.section === "vergleiche" ? null : <><Link href={`/de/vergleiche/#${collection.section}`}>{collectionSectionLabels[collection.section]}</Link><span>/</span></>}
+        <span>{collection.title}</span>
       </nav>
       <div className="collection-hero-copy">
         <p className="eyebrow">{collection.eyebrow}</p>

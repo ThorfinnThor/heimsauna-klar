@@ -17,12 +17,16 @@
       {
         "title": "Die Personenzahl sagt wenig über die Fläche",
         "copy": "Auch bei gleicher Personenzahl unterscheiden sich die Kabinen deutlich, weil Bankanordnung, Liegeflächen und der Platz für den Ofen verschieden geplant sind. Die Tabelle zeigt deshalb für jede Größe die Spanne vom kleinsten bis zum größten Modell. Wer wenig Platz hat, wählt zuerst nach Breite und Tiefe aus und prüft danach, wie viele Plätze das Modell im Sitzen und im Liegen tatsächlich bietet.",
-        "points": ["Verfügbares Raummaß zuerst festlegen", "Modelle nach Breite und Tiefe vorauswählen", "Sitz- und Liegeplätze im Datenblatt vergleichen"]
+        "points": ["Verfügbares Raummaß zuerst festlegen", "Modelle nach Breite und Tiefe vorauswählen", "Sitz- und Liegeplätze im Datenblatt vergleichen"],
+        "links_lead": "Außenmaße und Stellflächen einzelner Modelle stehen in den Vergleichen für",
+        "links": [{ "href": "/de/indoor-sauna/1-person-sauna/", "label": "1-Person-Saunen" }, { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Saunen für 2 Personen" }, { "href": "/de/indoor-sauna/3-personen-sauna/", "label": "Saunen für 3 Personen" }, { "href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabinen für 1 Person" }]
       },
       {
         "title": "Draußen braucht die Sauna mehr Grundfläche",
         "copy": "Bei Gartensaunen und Saunahäusern kommen Wandstärke, Vordach und oft ein Vorraum hinzu. Darum liegt die typische Stellfläche draußen klar über der von Innenkabinen mit gleicher Personenzahl, wie die zweite Tabelle zeigt. Für den Standort zählen außerdem das Fundament, der Abstand zur Grundstücksgrenze und ein freier Weg für die Montage. Diese Vorgaben stehen in der Anleitung des Modells und können je nach Gemeinde unterschiedlich geregelt sein.",
-        "points": ["Fundamentmaß aus der Anleitung übernehmen", "Vordach und Vorraum in die Grundfläche einrechnen", "Grenzabstand beim örtlichen Bauamt klären"]
+        "points": ["Fundamentmaß aus der Anleitung übernehmen", "Vordach und Vorraum in die Grundfläche einrechnen", "Grenzabstand beim örtlichen Bauamt klären"],
+        "links_lead": "Gartenmodelle mit dokumentierten Außenmaßen vergleichen die Übersichten",
+        "links": [{ "href": "/de/outdoor-sauna/kleine-gartensauna/", "label": "Kleine Gartensauna" }, { "href": "/de/outdoor-sauna/fasssauna/", "label": "Fasssauna" }, { "href": "/de/outdoor-sauna/gartensauna-bis-5000-euro/", "label": "Gartensauna bis 5.000 Euro" }]
       },
       {
         "title": "Unter einer niedrigen Decke zählt der Aufbauweg",
@@ -118,7 +122,9 @@
       {
         "title": "Im Garten gibt das Saunahaus die Fundamentgeometrie vor",
         "copy": "Die geprüfte WEKA-Anleitung setzt ein waagerechtes und rechtwinkliges Fundament voraus und empfiehlt für das dort beschriebene Saunahaus ein Plattenfundament. Diese Ausführung ist kein allgemeines Rezept für jedes Grundstück. Fundamentart, Frostsicherheit und Abmessungen müssen zum Produkt, Boden und Standort passen.",
-        "points": ["Fundamentzeichnung des gewählten Modells beschaffen", "Boden und Gelände am Standort beurteilen lassen", "Höhenlage und Wasserablauf festlegen", "Rechtwinkligkeit über beide Diagonalen kontrollieren"]
+        "points": ["Fundamentzeichnung des gewählten Modells beschaffen", "Boden und Gelände am Standort beurteilen lassen", "Höhenlage und Wasserablauf festlegen", "Rechtwinkligkeit über beide Diagonalen kontrollieren"],
+        "links_lead": "Die Grundflächen konkreter Gartenmodelle stehen in den Übersichten",
+        "links": [{ "href": "/de/outdoor-sauna/kleine-gartensauna/", "label": "Kleine Gartensauna" }, { "href": "/de/outdoor-sauna/fasssauna/", "label": "Fasssauna" }, { "href": "/de/outdoor-sauna/gartensauna-bis-5000-euro/", "label": "Gartensauna bis 5.000 Euro" }]
       },
       {
         "title": "Sperrschicht, Verankerung und Luft unter dem Boden erfüllen verschiedene Aufgaben",
@@ -160,7 +166,9 @@
       {
         "title": "Lieferumfang und Projektumfang sind selten identisch",
         "copy": "Ein Angebot kann nur die Holzkabine enthalten, während ein anderes Ofen, Steuerung oder Dachpaket einschließt. Transport, Entladung, Montage, Elektroanschluss, Fundament, Dacheindeckung, Wetterschutz, Saunasteine und Beleuchtung müssen deshalb einzeln als enthalten, optional oder bauseits markiert werden.",
-        "points": ["Produkt und enthaltene Technik", "Lieferung bis zum tatsächlichen Standort", "Montage und notwendige Facharbeiten", "Boden, Fundament und Wetterschutz", "Betriebsbereites Zubehör"]
+        "points": ["Produkt und enthaltene Technik", "Lieferung bis zum tatsächlichen Standort", "Montage und notwendige Facharbeiten", "Boden, Fundament und Wetterschutz", "Betriebsbereites Zubehör"],
+        "links_lead": "Den Lieferumfang einzelner Angebote zeigen die Preisvergleiche",
+        "links": [{ "href": "/de/vergleiche/sauna-bis-2500-euro/", "label": "Sauna bis 2.500 Euro" }, { "href": "/de/vergleiche/indoor-sauna-bis-2000-euro/", "label": "Indoor-Sauna bis 2.000 Euro" }, { "href": "/de/indoor-sauna/infrarotkabine-bis-2000-euro/", "label": "Infrarotkabine bis 2.000 Euro" }, { "href": "/de/outdoor-sauna/gartensauna-bis-5000-euro/", "label": "Gartensauna bis 5.000 Euro" }]
       },
       {
         "title": "Eine leere Position ist keine Null",
@@ -242,7 +250,9 @@
       {
         "title": "Die passende Ecke umfasst mehr als Breite und Tiefe",
         "copy": "Im Grundriss erscheinen Kabine, Wandabstände, geöffnete Tür und der freie Zugang zu Lüftungsöffnungen oder Steuerung. Heizkörper, Schranktüren und der normale Weg durch das Zimmer bleiben ebenfalls nutzbar. Bei einer niedrigen oder unebenen Decke muss zusätzlich ein Raumschnitt angelegt werden.",
-        "points": ["Raum an mehreren Stellen vermessen", "Herstellerabstände in den Grundriss eintragen", "Tür, Bedienung und Lüftungsöffnungen zugänglich halten", "Alltägliche Laufwege nicht überplanen"]
+        "points": ["Raum an mehreren Stellen vermessen", "Herstellerabstände in den Grundriss eintragen", "Tür, Bedienung und Lüftungsöffnungen zugänglich halten", "Alltägliche Laufwege nicht überplanen"],
+        "links_lead": "Breite und Tiefe kompakter Kabinen vergleichen die Seiten",
+        "links": [{ "href": "/de/indoor-sauna/mini-sauna/", "label": "Mini-Sauna für kleine Räume" }, { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Sauna für 2 Personen" }, { "href": "/de/indoor-sauna/2-personen-infrarotkabine/", "label": "Infrarotkabine für 2 Personen" }]
       },
       {
         "title": "Das größte Bauteil gibt den Transportweg vor",
@@ -298,7 +308,9 @@
       {
         "title": "Treppenlauf, Decke und Leitungsweg begrenzen die Modellauswahl",
         "copy": "Lange Bauteile müssen durch Kellertür, Treppe und jede Kurve passen. Im Raum wird neben der fertigen Kabinenhöhe auch Platz für den Aufbau benötigt. Für den Ofenanschluss können Leitungsweg und Position der Steuerung entscheidend sein. Diese Punkte lassen sich anhand von Paketliste, Montageanleitung und Anschlussplan konkret prüfen.",
-        "points": ["Paketmaße mit dem gesamten Kellerzugang vergleichen", "Niedrigste Raumhöhe und Montagefreiraum erfassen", "Leitungsweg und Absicherung fachlich prüfen lassen"]
+        "points": ["Paketmaße mit dem gesamten Kellerzugang vergleichen", "Niedrigste Raumhöhe und Montagefreiraum erfassen", "Leitungsweg und Absicherung fachlich prüfen lassen"],
+        "links_lead": "Kabinenhöhen und Stellflächen stehen in den Vergleichen",
+        "links": [{ "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Sauna für 2 Personen" }, { "href": "/de/indoor-sauna/3-personen-sauna/", "label": "Sauna für 3 Personen" }, { "href": "/de/indoor-sauna/finnische-sauna-3-personen/", "label": "Finnische Sauna für 3 Personen" }]
       }
     ],
     "checklist": ["Raumzustand und vorhandene Schäden dokumentieren", "Feuchteursachen vor einer Verkleidung klären", "Paketmaße mit Treppe, Türen und Kurven abgleichen", "Lichte Höhe und Montagefreiraum an mehreren Stellen messen", "Luftabfuhr des Kellerraums und Trocknung der Kabine planen", "Kontroll- und Wartungszugang hinter der Kabine erhalten", "Anschluss und Absicherung fachlich bestätigen"],
@@ -329,7 +341,9 @@
       {
         "title": "Ein Raumschnitt zeigt drei verschiedene Höhen",
         "copy": "Die lichte Raumhöhe, die fertige Kabinenhöhe und die während der Montage benötigte Höhe sind getrennte Werte. Besonders Deckenelemente können beim Auflegen oder Verschrauben mehr Platz benötigen, als nach dem Aufbau sichtbar bleibt. Bei Rohren, Unterzügen oder Gefälle zählt die niedrigste Stelle über der gesamten Kabinenfläche.",
-        "points": ["Niedrigste lichte Höhe im Aufstellbereich messen", "Fertighöhe des konkreten Modells eintragen", "Montagebewegung der Deckenelemente aus der Anleitung ableiten", "Leitungen und Unterzüge im Schnitt darstellen"]
+        "points": ["Niedrigste lichte Höhe im Aufstellbereich messen", "Fertighöhe des konkreten Modells eintragen", "Montagebewegung der Deckenelemente aus der Anleitung ableiten", "Leitungen und Unterzüge im Schnitt darstellen"],
+        "links_lead": "Die Fertighöhen kompakter Modelle stehen in den Übersichten",
+        "links": [{ "href": "/de/indoor-sauna/mini-sauna/", "label": "Mini-Sauna" }, { "href": "/de/indoor-sauna/1-person-sauna/", "label": "1-Person-Sauna" }, { "href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabine für 1 Person" }]
       },
       {
         "title": "Wenig Kopfraum verändert auch die Nutzung",
@@ -375,7 +389,9 @@
       {
         "title": "Dusche, Kabinentür und Laufweg dürfen sich nicht überschneiden",
         "copy": "Der Raumplan muss die geöffnete Saunatür ebenso zeigen wie Duschabtrennung, Badmöbel und den Zugang zu Armaturen. Zusätzlich gelten die Abstände der konkreten Kabine. Karibu nennt für seine Systeme beispielsweise mindestens zehn Zentimeter zu Außenwand und Decke. Für andere Modelle kann ein anderer Wert gelten.",
-        "points": ["Badezimmer mit allen festen Einbauten aufnehmen", "Kabinenkontur und Herstellerabstände ergänzen", "Türbewegungen und täglichen Laufweg einzeichnen", "Wartungszugang zu Installationen erhalten"]
+        "points": ["Badezimmer mit allen festen Einbauten aufnehmen", "Kabinenkontur und Herstellerabstände ergänzen", "Türbewegungen und täglichen Laufweg einzeichnen", "Wartungszugang zu Installationen erhalten"],
+        "links_lead": "Kompakte Kabinen mit dokumentierter Stellfläche zeigen die Übersichten",
+        "links": [{ "href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabine für 1 Person" }, { "href": "/de/indoor-sauna/2-personen-infrarotkabine/", "label": "Infrarotkabine für 2 Personen" }, { "href": "/de/indoor-sauna/1-person-sauna/", "label": "1-Person-Sauna" }]
       },
       {
         "title": "Der Boden muss eben sein und im Alltag sauber bleiben",
@@ -477,7 +493,9 @@
       {
         "title": "Das Ergebnis wird mit einem konkreten Ofen verglichen",
         "copy": "Harvia gibt für den Delta D36E mit 3,6 kW einen Saunavolumenbereich von 2 bis 4,5 m³ an. Diese Spanne gehört zu diesem Modell und seinen Einbauvorgaben. Ein anderer Ofen mit derselben Nennleistung kann anders freigegeben sein. Auch Mindesthöhe, Schutzabstände, Steuerung und Anschluss müssen passen.",
-        "points": ["Wirksames Volumen mit der Modellfreigabe vergleichen", "Mindesthöhe und Schutzabstände kontrollieren", "Steuerung und elektrische Versorgung zuordnen", "Keine Freigabe zwischen verschiedenen 3,6-kW-Öfen übertragen"]
+        "points": ["Wirksames Volumen mit der Modellfreigabe vergleichen", "Mindesthöhe und Schutzabstände kontrollieren", "Steuerung und elektrische Versorgung zuordnen", "Keine Freigabe zwischen verschiedenen 3,6-kW-Öfen übertragen"],
+        "links_lead": "Kabinen mit ausgewiesener Ofenleistung listen die Vergleiche",
+        "links": [{ "href": "/de/indoor-sauna/finnische-sauna-2-personen/", "label": "Finnische Sauna für 2 Personen" }, { "href": "/de/indoor-sauna/finnische-sauna-3-personen/", "label": "Finnische Sauna für 3 Personen" }, { "href": "/de/vergleiche/400-v-sauna/", "label": "400-V-Saunen" }]
       }
     ],
     "checklist": ["Innenlänge, Innenbreite und Innenhöhe der beheizten Kabine ermitteln", "Geometrisches Volumen in Kubikmetern berechnen", "Glas und wärmeabgebende Flächen vollständig aufnehmen", "Wirksames Volumen nach der dokumentierten Herstellermethode bestimmen", "Volumenbereich des exakten Ofenmodells abgleichen", "Mindesthöhe, Schutzabstände, Steuerung und Anschluss ebenfalls prüfen"],

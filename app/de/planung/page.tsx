@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
+import { LinkChips } from "@/app/_components/ContentLinks";
 import { getPlanningGuide, planningGroups } from "@/lib/planning-guides";
 import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
@@ -41,6 +42,7 @@ export default function PlanningHubPage() {
                 <div><p className="eyebrow">{group.eyebrow}</p><h3 id={`${group.id}-title`}>{group.title}</h3><p>{group.description}</p></div>
               </div>
               <div className="planning-hub-grid">{guides.map((guide, index) => <Link href={`/de/planung/${guide.slug}/`} key={guide.slug}><small>{group.number}.{index + 1}</small><strong>{guide.title}</strong><span>{guide.description} ↗</span></Link>)}</div>
+              <LinkChips links={group.collection_links} label="Passende Vergleiche" ariaLabel={`Passende Vergleiche zu ${group.eyebrow}`} />
             </section>
           );
         })}

@@ -7,9 +7,18 @@ import {
   type PlanningModule,
   type PlanningPresentation,
 } from "@/lib/page-presentations";
-import { getPlanningGuide, getPlanningJourney, getPriceSnapshot, type PlanningGuide } from "@/lib/planning-guides";
+import {
+  getFootprintLink,
+  getPlanningGuide,
+  getPlanningJourney,
+  getPriceSnapshot,
+  planningCollectionLinksHeading,
+  type ContentLink,
+  type PlanningGuide,
+} from "@/lib/planning-guides";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 import { formatSquareMetres, getFootprintGroups } from "@/lib/footprint";
+import { InlineLinkList } from "./ContentLinks";
 
 function formatEuro(value: number) {
   return new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 2 }).format(value);
@@ -48,7 +57,7 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
       <article data-page-kind="planning-guide" data-page-profile={getPlanningProfile(presentation)}>
         <PlanningHero guide={guide} presentation={presentation} productHref={journey?.product_href ?? "/de/produkte/"} productLabel={journey?.product_label ?? "Produkte filtern"} />
         {presentation.flow.map((module) => <PlanningModuleBlock context={context} module={module} key={module} />)}
-        <PlanningRelated guide={guide} guides={relatedGuides} />
+        <PlanningRelated guide={guide} guides={relatedGuides} collectionLinks={journey?.collection_links ?? []} />
       </article>
       <SiteFooter />
     </main>
@@ -116,12 +125,13 @@ function PlanningSection({ section, index, variant }: {
   variant: PlanningPresentation["sections"];
 }) {
   const number = `0${index + 1}`;
-  if (variant === "technical") return <section className="planning-section planning-section-technical"><header><span>{number}</span><h2>{section.title}</h2></header><div><p data-editorial-copy="true">{section.copy}</p>{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
-  if (variant === "timeline") return <section className="planning-section planning-section-timeline"><span>{number}</span><div><p className="eyebrow">Planungsabschnitt</p><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p></div>{section.points.length > 0 ? <ol>{section.points.map((point, pointIndex) => <li key={point}><small>{index + 1}.{pointIndex + 1}</small>{point}</li>)}</ol> : null}</section>;
-  if (variant === "cards") return <article className="planning-section planning-section-card"><span>{number}</span><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</article>;
-  if (variant === "ledger") return <section className="planning-section planning-section-ledger"><header><span>{number}</span><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p></header>{section.points.length > 0 ? <dl>{section.points.map((point, pointIndex) => <div key={point}><dt>{String(pointIndex + 1).padStart(2, "0")}</dt><dd>{point}</dd></div>)}</dl> : null}</section>;
-  if (variant === "alternating") return <section className="planning-section planning-section-alternating"><div><span>{number}</span><h2>{section.title}</h2></div><div><p data-editorial-copy="true">{section.copy}</p>{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
-  return <section className="planning-section planning-section-staggered"><span>{number}</span><div><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
+  const links = <InlineLinkList className="planning-section-links" lead={section.links_lead} links={section.links} />;
+  if (variant === "technical") return <section className="planning-section planning-section-technical"><header><span>{number}</span><h2>{section.title}</h2></header><div><p data-editorial-copy="true">{section.copy}</p>{links}{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
+  if (variant === "timeline") return <section className="planning-section planning-section-timeline"><span>{number}</span><div><p className="eyebrow">Planungsabschnitt</p><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{links}</div>{section.points.length > 0 ? <ol>{section.points.map((point, pointIndex) => <li key={point}><small>{index + 1}.{pointIndex + 1}</small>{point}</li>)}</ol> : null}</section>;
+  if (variant === "cards") return <article className="planning-section planning-section-card"><span>{number}</span><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{links}{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</article>;
+  if (variant === "ledger") return <section className="planning-section planning-section-ledger"><header><span>{number}</span><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{links}</header>{section.points.length > 0 ? <dl>{section.points.map((point, pointIndex) => <div key={point}><dt>{String(pointIndex + 1).padStart(2, "0")}</dt><dd>{point}</dd></div>)}</dl> : null}</section>;
+  if (variant === "alternating") return <section className="planning-section planning-section-alternating"><div><span>{number}</span><h2>{section.title}</h2></div><div><p data-editorial-copy="true">{section.copy}</p>{links}{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
+  return <section className="planning-section planning-section-staggered"><span>{number}</span><div><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{links}{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
 }
 
 function PlanningChecks({ guide }: { guide: PlanningGuide }) {
@@ -152,11 +162,17 @@ function PlanningSources({ guide }: { guide: PlanningGuide }) {
   );
 }
 
-function PlanningRelated({ guide, guides }: { guide: PlanningGuide; guides: PlanningGuide[] }) {
+function PlanningRelated({ guide, guides, collectionLinks }: { guide: PlanningGuide; guides: PlanningGuide[]; collectionLinks: ContentLink[] }) {
   return (
     <aside className="collection-related page-shell" aria-labelledby="related-planning-title" data-page-module="related">
       <div><p className="eyebrow">{guide.module_copy.related_kicker}</p><h2 id="related-planning-title">{guide.module_copy.related_title}</h2></div>
       <div className="collection-related-grid">{guides.map((item) => <Link href={`/de/planung/${item.slug}/`} key={item.slug}><small>Planungsseite</small><strong>{item.title}</strong><span>Weiterlesen ↗</span></Link>)}</div>
+      {collectionLinks.length > 0 ? (
+        <div className="related-collection-links">
+          <div><p className="eyebrow">{planningCollectionLinksHeading.kicker}</p><h3>{planningCollectionLinksHeading.title}</h3></div>
+          <div className="collection-related-grid">{collectionLinks.map((link) => <Link href={link.href} key={link.href}><small>Vergleich</small><strong>{link.label}</strong><span>Modelle ansehen ↗</span></Link>)}</div>
+        </div>
+      ) : null}
     </aside>
   );
 }
@@ -190,7 +206,7 @@ function FootprintByCapacity() {
           <div className="collection-table-wrap">
             <table className="footprint-table">
               <thead>
-                <tr><th scope="col">Personen</th><th scope="col">Modelle</th><th scope="col">Kleinste Stellfläche</th><th scope="col">Typisch</th><th scope="col">Größte</th><th scope="col">Höhe typisch / max.</th></tr>
+                <tr><th scope="col">Personen</th><th scope="col">Modelle</th><th scope="col">Kleinste Stellfläche</th><th scope="col">Typisch</th><th scope="col">Größte</th><th scope="col">Höhe typisch / max.</th><th scope="col">Alle Modelle</th></tr>
               </thead>
               <tbody>
                 {group.rows.map((row) => (
@@ -206,6 +222,7 @@ function FootprintByCapacity() {
                     <td>{formatSquareMetres(row.medianSquareMetres)}</td>
                     <td>{formatSquareMetres(row.largestSquareMetres)}</td>
                     <td>{Math.round(row.medianHeightCm)} / {Math.round(row.maxHeightCm)} cm</td>
+                    <td><FootprintRowLink link={getFootprintLink(group.id, row.capacity)} /></td>
                   </tr>
                 ))}
               </tbody>
@@ -215,4 +232,9 @@ function FootprintByCapacity() {
       ))}
     </section>
   );
+}
+
+function FootprintRowLink({ link }: { link?: ContentLink }) {
+  if (!link) return <span aria-hidden="true">–</span>;
+  return <Link href={link.href}>{link.label} vergleichen</Link>;
 }

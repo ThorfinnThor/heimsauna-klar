@@ -13,6 +13,10 @@ const featuredCollectionIds = [
   "kleine-gartensauna",
   "sauna-bis-2500-euro",
   "2-personen-sauna",
+  "infrared-one-person",
+  "infrared-two-person",
+  "outdoor-under-5000",
+  "fasssauna",
   "infrarotkabine",
   "finnische-sauna",
   "voltage-400",
@@ -59,7 +63,7 @@ export default function ProductsPage() {
           ))}
         </div>
         <div className="collection-index-actions">
-          <Link className="button button-primary" href="/de/vergleiche/">Alle {collections.length} Vergleiche öffnen</Link>
+          <Link className="button button-primary" href="/de/vergleiche/">Alle Vergleiche öffnen</Link>
           <a className="text-link" href="#catalog-results">Direkt zu den Produkten ↓</a>
         </div>
       </section>

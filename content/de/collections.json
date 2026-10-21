@@ -10,7 +10,7 @@
     "description": "Mini-Saunen und kompakte Infrarotkabinen bis drei Quadratmeter Stellfläche mit belegten Maßen, Anschlussdaten und Preisen.",
     "intro": "Diese Auswahl endet bei 3,0 m² rechnerischer Produktfläche. Sie enthält klassische Innenkabinen und Infrarotkabinen, weil beide für kleine Räume gesucht werden. Wärmeart und technische Daten bleiben im Vergleich getrennt sichtbar.",
     "layout": "space",
-    "related_ids": ["1-person-sauna", "2-personen-sauna", "sauna-bis-6-m2"],
+    "related_ids": ["1-person-sauna", "2-personen-sauna", "infrared-one-person", "sauna-bis-6-m2"],
     "planning": {"kicker": "Der Raum setzt die Grenze", "intro": "Raumhöhe, geöffnete Tür, Montageweg und Trocknung können ein kompaktes Modell trotz passender Stellfläche ausschließen.", "guide_ids": ["sauna-bei-niedriger-deckenhoehe", "sauna-im-keller"]},
     "editorial": {
       "kicker": "Raumlogik · vor dem Preis",
@@ -47,7 +47,7 @@
       "checks_kicker": "Passt die Kabine wirklich in die Nische?",
       "checks_title": "Vier Prüfungen schließen die häufigsten Raumkonflikte aus.",
       "related_kicker": "Kleine Auswahl anders eingrenzen",
-      "related_title": "Personenzahl und größere Flächengrenzen im Vergleich."
+      "related_title": "Personenzahl, Infrarotkabinen für eine Person und größere Flächengrenzen im Vergleich."
     }
   },
   {
@@ -61,7 +61,7 @@
     "description": "Verifizierte Saunen und Infrarotkabinen, deren Herstellerkapazität auf eine Person begrenzt ist.",
     "intro": "Aufgenommen werden Innenmodelle, deren veröffentlichte Maximalkapazität eine Person beträgt. Klassische Sauna und Infrarotkabine bleiben dabei unterschiedliche Wärmearten; sortiert wird nur nach Stellfläche.",
     "layout": "space",
-    "related_ids": ["mini-sauna", "2-personen-sauna", "infrarotkabine"],
+    "related_ids": ["mini-sauna", "2-personen-sauna", "infrarotkabine", "infrared-one-person"],
     "planning": {"kicker": "Kapazität einordnen", "intro": "Eine Person auf dem Datenblatt beantwortet noch nicht die Fragen zu Sitzmaß, Zugang und Wärmeart.", "guide_ids": ["platzbedarf", "sauna-fuer-die-wohnung"]},
     "editorial": {
       "kicker": "Allein nutzen · richtig einordnen",
@@ -98,7 +98,7 @@
       "checks_kicker": "Komfort lässt sich nicht aus der Personenzahl ablesen",
       "checks_title": "Diese vier Angaben machen eine Einzelkabine beurteilbar.",
       "related_kicker": "Mehr Platz oder anderes Wärmeprinzip",
-      "related_title": "Mini-Saunen, Zweierkabinen und Infrarot separat ansehen."
+      "related_title": "Mini-Saunen, Zweierkabinen, Infrarot und Infrarotkabinen für eine Person separat ansehen."
     }
   },
   {
@@ -112,7 +112,7 @@
     "description": "Verifizierte Outdoor-Saunen bis fünf Quadratmeter rechnerischer Stellfläche im Vergleich nach Maß, Kapazität und Preis.",
     "intro": "Diese Vorauswahl enthält Outdoor-Modelle mit höchstens 5,0 m² rechnerischer Stellfläche. Fundament, Dachüberstand und vorgeschriebene Abstände sind darin noch nicht enthalten.",
     "layout": "outdoor",
-    "related_ids": ["fasssauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
+    "related_ids": ["fasssauna", "outdoor-under-5000", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
     "planning": {"kicker": "Die freie Gartenfläche reicht als Maß nicht aus", "intro": "Fundament, Dachüberstand, Entwässerung, Wartungszugang und örtliche Abstände vergrößern die beanspruchte Zone.", "guide_ids": ["boden-und-fundament", "sauna-kosten"]},
     "editorial": {
       "kicker": "Standort und Produkt zusammen betrachten",
@@ -149,7 +149,7 @@
       "checks_kicker": "Vom Produktmaß zur bebauten Zone",
       "checks_title": "Vier Standortfragen gehören vor die Bestellung.",
       "related_kicker": "Andere Bauformen und Budgets",
-      "related_title": "Fasssauna, 6-m²-Auswahl und Preisrahmen weiter vergleichen."
+      "related_title": "Fasssauna, Gartensaunen bis 5.000 Euro, 6-m²-Auswahl und Preisrahmen weiter vergleichen."
     }
   },
   {
@@ -163,7 +163,7 @@
     "description": "Sauna-Angebote bis 2.500 Euro nach dokumentiertem Preis sortiert und mit Prüfdatum, Maßen sowie Anschlussdaten eingeordnet.",
     "intro": "Die Grenze bezieht sich auf den zuletzt dokumentierten Produktpreis. Aufbau, Lieferung, Elektroarbeiten, Fundament und Zubehör können zusätzliche Kosten verursachen.",
     "layout": "budget",
-    "related_ids": ["sauna-bis-4000-euro", "mini-sauna", "1-person-sauna"],
+    "related_ids": ["indoor-under-2000", "sauna-bis-4000-euro", "mini-sauna", "1-person-sauna"],
     "planning": {"kicker": "Preis richtig lesen", "intro": "Der dokumentierte Produktpreis ist eine Startzahl; Lieferung, Anschluss und Betrieb gehören in die Rechnung.", "guide_ids": ["sauna-kosten", "stromverbrauch-heimsauna"]},
     "editorial": {
       "kicker": "Budget · vollständige Projektkosten",
@@ -200,7 +200,7 @@
       "checks_kicker": "Was im Preis fehlen kann",
       "checks_title": "Vier Positionen verhindern einen unvollständigen Budgetvergleich.",
       "related_kicker": "Budget erweitern oder Größe begrenzen",
-      "related_title": "4.000-Euro-Auswahl und kompakte Modelle danebenstellen."
+      "related_title": "2.000- und 4.000-Euro-Auswahl sowie kompakte Modelle danebenstellen."
     }
   },
   {
@@ -214,7 +214,7 @@
     "description": "Verifizierte Indoor-Saunen und Infrarotkabinen mit einer ausgewiesenen Kapazität von zwei Personen – mit Stellfläche, Anschluss und Preisstand.",
     "intro": "Die Auswahl umfasst Innenmodelle, deren veröffentlichte Maximalkapazität zwei Personen beträgt. Die Reihenfolge richtet sich nach der dokumentierten Stellfläche.",
     "layout": "space",
-    "related_ids": ["1-person-sauna", "3-personen-sauna", "mini-sauna"],
+    "related_ids": ["1-person-sauna", "finnish-two-person", "3-personen-sauna", "mini-sauna"],
     "planning": {"kicker": "Gemeinsam planen", "intro": "Zwei Plätze müssen mit Bankbreite, Zugang, Luftweg und Leistung zusammenpassen.", "guide_ids": ["platzbedarf", "lueftung"]},
     "editorial": {
       "kicker": "Zwei Personen · Platz im Alltag",
@@ -251,7 +251,7 @@
       "checks_kicker": "Zu zweit im tatsächlichen Innenraum",
       "checks_title": "Vier Maße und Technikangaben sind aussagekräftiger als die Kapazitätszahl.",
       "related_kicker": "Kapazität nach oben oder unten verschieben",
-      "related_title": "Einzelkabinen, Dreiermodelle und Mini-Saunen vergleichen."
+      "related_title": "Einzelkabinen, finnische Zweierkabinen, Dreiermodelle und Mini-Saunen vergleichen."
     }
   },
   {
@@ -265,7 +265,7 @@
     "description": "Alle verifizierten Infrarotkabinen im Katalog, sortiert nach rechnerischer Stellfläche und ergänzt um Anschluss, Kapazität und Preis.",
     "intro": "Diese Seite enthält ausschließlich Datensätze mit dem Katalogtyp Infrarotkabine. Infrarotkabinen sind nicht automatisch mit einer finnischen Sauna gleichzusetzen.",
     "layout": "heat",
-    "related_ids": ["1-person-sauna", "bio-sauna", "sauna-bis-2500-euro"],
+    "related_ids": ["infrared-one-person", "infrared-two-person", "infrared-under-2000", "bio-sauna"],
     "planning": {"kicker": "Strahler statt Saunaofen", "intro": "Wärmeprofil, Strahleranordnung, Regelung und Anschluss gehören zur Beurteilung einer Infrarotkabine.", "guide_ids": ["sauna-fuer-die-wohnung", "stromverbrauch-heimsauna"]},
     "editorial": {
       "kicker": "Wärmeprofil · Strahler · Regelung",
@@ -302,7 +302,7 @@
       "checks_kicker": "Wärmequelle im Sitzraum",
       "checks_title": "Vier technische Fragen unterscheiden ähnliche Kabinen.",
       "related_kicker": "Andere Wärmearten",
-      "related_title": "Einzelkabine, Bio-Sauna und klassisches Budgetmodell abgleichen."
+      "related_title": "Infrarotkabinen für eine oder zwei Personen, die 2.000-Euro-Auswahl und die Bio-Sauna abgleichen."
     }
   },
   {
@@ -367,7 +367,7 @@
     "description": "Verifizierte Fasssaunen im Vergleich nach Stellfläche, Außenmaß, Kapazität, Anschluss und dokumentiertem Preis.",
     "intro": "Diese Auswahl enthält Outdoor-Produkte, deren offizielle Modellbezeichnung sie als Fasssauna ausweist. Runde und Quadro-Varianten bleiben als eigenständige Datensätze sichtbar.",
     "layout": "outdoor",
-    "related_ids": ["kleine-gartensauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
+    "related_ids": ["kleine-gartensauna", "outdoor-under-5000", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
     "planning": {"kicker": "Außenaufstellung vorbereiten", "intro": "Die runde oder längliche Form ändert nichts daran, dass Fundament, Zugang und Wetterschutz geplant werden müssen.", "guide_ids": ["boden-und-fundament", "sauna-kosten"]},
     "editorial": {
       "kicker": "Bauform · Standort · Betrieb",
@@ -404,7 +404,7 @@
       "checks_kicker": "Rundbau im Garten",
       "checks_title": "Fünf Details bestimmen Nutzraum und dauerhafte Außenaufstellung.",
       "related_kicker": "Outdoor-Auswahl verbreitern",
-      "related_title": "Kleine Gartensaunen, 6-m²-Modelle und Budgetgrenzen ansehen."
+      "related_title": "Kleine Gartensaunen, Gartensaunen bis 5.000 Euro, 6-m²-Modelle und Budgetgrenzen ansehen."
     }
   },
   {
@@ -418,7 +418,7 @@
     "description": "Sauna-Angebote bis 4.000 Euro mit dokumentiertem Preis, Maßen, Kapazität, Anschlussdaten und Prüfdatum vergleichen.",
     "intro": "Die Preisgrenze bezieht sich auf mindestens ein dokumentiertes Angebot je Datensatz. Lieferung, Montage, Fundament, Elektroarbeiten und Zubehör sind nicht automatisch enthalten.",
     "layout": "budget",
-    "related_ids": ["sauna-bis-2500-euro", "finnische-sauna", "4-personen-sauna"],
+    "related_ids": ["sauna-bis-2500-euro", "outdoor-under-5000", "finnische-sauna", "4-personen-sauna"],
     "planning": {"kicker": "Gesamtkosten planen", "intro": "Auch unter 4.000 Euro bleiben Montage, Fundament, Anschluss und laufender Betrieb eigene Kostenblöcke.", "guide_ids": ["sauna-kosten", "boden-und-fundament"]},
     "editorial": {
       "kicker": "Budget · mehr Auswahl, mehr Variablen",
@@ -455,7 +455,7 @@
       "checks_kicker": "Pakete vergleichbar machen",
       "checks_title": "Vier Kontrollen trennen einen günstigen Preis von einem vollständigen Angebot.",
       "related_kicker": "Engeres Budget oder anderer Produkttyp",
-      "related_title": "2.500-Euro-Auswahl, finnische Sauna und Vierergröße danebenstellen."
+      "related_title": "2.500-Euro-Auswahl, Gartensaunen bis 5.000 Euro, finnische Sauna und Vierergröße danebenstellen."
     }
   },
   {
@@ -469,7 +469,7 @@
     "description": "Verifizierte Modelle mit einer ausgewiesenen Maximalkapazität von vier Personen, sortiert nach Stellfläche.",
     "intro": "Die Liste umfasst Indoor- und Outdoor-Modelle mit Herstellerkapazität vier Personen. Kapazitätsangaben sagen allein nichts über Sitzkomfort oder reale Wärmeverteilung aus.",
     "layout": "capacity",
-    "related_ids": ["3-personen-sauna", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
+    "related_ids": ["3-personen-sauna", "five-person", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
     "planning": {"kicker": "Mehr Platz, mehr Prüfung", "intro": "Bei vier Personen werden Raumvolumen, Luftwechsel, Zugang und Ofenleistung schnell zu einem gemeinsamen System.", "guide_ids": ["platzbedarf", "lueftung"]},
     "editorial": {
       "kicker": "Kapazität · Raumgefühl · Betrieb",
@@ -506,7 +506,7 @@
       "checks_kicker": "Regelmäßige Belegung statt Maximalzahl",
       "checks_title": "Vier Planungsfragen zeigen, ob die Größe im Alltag sinnvoll ist.",
       "related_kicker": "Kapazität und Budget variieren",
-      "related_title": "Dreiermodelle, 6-m²-Auswahl und Angebote bis 4.000 Euro."
+      "related_title": "Dreier- und Fünfermodelle, 6-m²-Auswahl und Angebote bis 4.000 Euro."
     }
   },
   {
@@ -520,7 +520,7 @@
     "description": "Verifizierte Innenmodelle für drei Personen mit Stellfläche, Wärmeart, Anschluss und dokumentiertem Preis vergleichen.",
     "intro": "Diese Auswahl filtert Modelle für die Innenaufstellung, deren veröffentlichte Maximalkapazität drei Personen beträgt. Sortiert wird nach rechnerischer Stellfläche, nicht nach Komfort oder redaktionellem Score.",
     "layout": "capacity",
-    "related_ids": ["2-personen-sauna", "4-personen-sauna", "mini-sauna"],
+    "related_ids": ["2-personen-sauna", "finnish-three-person", "4-personen-sauna", "mini-sauna"],
     "planning": {"kicker": "Kapazität und Raum", "intro": "Für drei Personen müssen Zugang, Luftweg und Aufstellfläche zur Herstellerangabe passen.", "guide_ids": ["platzbedarf", "lueftung"]},
     "editorial": {
       "kicker": "Drei Personen · Alltag planen",
@@ -557,7 +557,7 @@
       "checks_kicker": "Sitzen, liegen oder beides",
       "checks_title": "Vier Angaben übersetzen die Kapazität in eine reale Nutzung.",
       "related_kicker": "Benachbarte Größen",
-      "related_title": "Zweier-, Vierer- und besonders kompakte Modelle vergleichen."
+      "related_title": "Zweier-, finnische Dreier-, Vierer- und besonders kompakte Modelle vergleichen."
     }
   },
   {
@@ -571,7 +571,7 @@
     "description": "Verifizierte finnische Sauna-Datensätze nach Stellfläche, Kapazität, Aufstellort, Anschluss und dokumentiertem Preis verglichen.",
     "intro": "Enthalten sind Produkte, deren Datensatz den Typ Finnische Sauna ausweist. Die Seite ordnet technische Felder ein, ohne aus dem Wärmetyp eine pauschale Qualitäts- oder Komfortwertung abzuleiten.",
     "layout": "technical",
-    "related_ids": ["bio-sauna", "infrarotkabine", "4-personen-sauna"],
+    "related_ids": ["finnish-two-person", "bio-sauna", "infrarotkabine", "4-personen-sauna"],
     "planning": {"kicker": "Leistung und Temperatur", "intro": "Bei klassischer Saunawärme müssen Ofenleistung, wirksames Volumen und der erwartete Heizverlauf zusammenpassen.", "guide_ids": ["lueftung", "temperatur-3-6-kw-sauna"]},
     "editorial": {
       "kicker": "Wärmetyp · technisches System",
@@ -608,7 +608,7 @@
       "checks_kicker": "Technisches System statt Einzelwert",
       "checks_title": "Vier Zusammenhänge müssen in den Unterlagen des Modells stimmen.",
       "related_kicker": "Andere Typen und Größen",
-      "related_title": "Bio-Sauna, Infrarot und Vierergröße getrennt betrachten."
+      "related_title": "Finnische Zweierkabinen, Bio-Sauna, Infrarot und Vierergröße getrennt betrachten."
     }
   },
   {
@@ -675,7 +675,7 @@
     "layout": "budget",
     "filters": {"categories": ["indoor"], "price_max": 2000},
     "sort": "price",
-    "related_ids": ["sauna-bis-2500-euro", "mini-sauna", "2-personen-sauna"],
+    "related_ids": ["sauna-bis-2500-euro", "infrared-under-2000", "mini-sauna", "2-personen-sauna"],
     "planning": {"kicker": "Preis und Lieferumfang trennen", "intro": "Ein günstiges Innenmodell kann eine separate Ofen-, Montage- oder Anschlussplanung verlangen. Diese Positionen gehören neben den Produktpreis in die Rechnung.", "guide_ids": ["sauna-kosten", "stromverbrauch-heimsauna"]},
     "editorial": {
       "kicker": "Enger Preisrahmen · offene Positionen",
@@ -691,7 +691,7 @@
     },
     "criteria": ["Innenaufstellung ist im Datensatz ausgewiesen", "Mindestens ein Angebot liegt bei höchstens 2.000 Euro", "Preis, Maße und Wärmeart sind quellenbezogen dokumentiert"],
     "checks": ["Prüfen, ob der Preis eine Kabine, einen Bausatz oder eine Variante ohne Ofen betrifft.", "Lieferung, Montage, Untergrund und Elektroarbeiten als eigene Kostenpositionen führen.", "Außenmaß und Türbereich mit dem vorgesehenen Raum abgleichen.", "Preis und Verfügbarkeit beim Anbieter vor der Bestellung erneut prüfen."],
-    "module_copy": {"method_kicker": "Einschlusskriterium", "method_title": "Ein verifiziertes Innenangebot bis 2.000 Euro genügt für die Liste.", "method_note": "Der jüngste Angebotsstand dieser Auswahl wurde geprüft am", "results_kicker": "Modelle im Budgetrahmen", "results_title": "{count} Indoor-Saunen liegen mit einem Angebot bei höchstens 2.000 Euro.", "results_intro": "Die Reihenfolge folgt dem niedrigsten dokumentierten Preis. Lieferumfang, Ofenstatus und Anschluss bleiben im einzelnen Datensatz sichtbar.", "checks_kicker": "Vom Preis zum Projekt", "checks_title": "Vier Angaben verhindern einen unvollständigen Budgetvergleich.", "related_kicker": "Budget anders einordnen", "related_title": "Die nächste Preisstufe und kompakte Raumkategorien danebenstellen."}
+    "module_copy": {"method_kicker": "Einschlusskriterium", "method_title": "Ein verifiziertes Innenangebot bis 2.000 Euro genügt für die Liste.", "method_note": "Der jüngste Angebotsstand dieser Auswahl wurde geprüft am", "results_kicker": "Modelle im Budgetrahmen", "results_title": "{count} Indoor-Saunen liegen mit einem Angebot bei höchstens 2.000 Euro.", "results_intro": "Die Reihenfolge folgt dem niedrigsten dokumentierten Preis. Lieferumfang, Ofenstatus und Anschluss bleiben im einzelnen Datensatz sichtbar.", "checks_kicker": "Vom Preis zum Projekt", "checks_title": "Vier Angaben verhindern einen unvollständigen Budgetvergleich.", "related_kicker": "Budget anders einordnen", "related_title": "Die nächste Preisstufe, Infrarotkabinen bis 2.000 Euro und kompakte Raumkategorien danebenstellen."}
   },
   {
     "id": "outdoor-under-5000",
@@ -737,7 +737,7 @@
     "layout": "heat",
     "filters": {"categories": ["infrared"], "price_max": 2000},
     "sort": "footprint",
-    "related_ids": ["infrarotkabine", "1-person-sauna", "2-personen-sauna"],
+    "related_ids": ["infrarotkabine", "infrared-one-person", "infrared-two-person", "indoor-under-2000"],
     "planning": {"kicker": "Kabine und Anschluss zusammen prüfen", "intro": "Sitzposition, Strahleranordnung, Belüftung des Raumes und elektrische Absicherung müssen zur konkreten Kabine passen.", "guide_ids": ["sauna-fuer-die-wohnung", "stromverbrauch-heimsauna"]},
     "editorial": {
       "kicker": "Infrarot · Daten statt Versprechen",
@@ -753,7 +753,7 @@
     },
     "criteria": ["Kategorie Infrarotkabine ist verifiziert", "Mindestens ein Angebot liegt bei höchstens 2.000 Euro", "Maße, Heiztechnik und Anschluss sind im Datensatz ausgewiesen"],
     "checks": ["Strahlerart nicht aus Produktbildern oder Modellnamen ableiten.", "Sitzposition und Kabinenbreite anhand der Zeichnung prüfen.", "230 V nicht mit einer bestimmten Leistungsaufnahme gleichsetzen.", "Medizinische Wirkversprechen nicht aus Produktangaben ableiten."],
-    "module_copy": {"method_kicker": "Aufnahme in den Preisvergleich", "method_title": "Infrarotkabinen mit einem Angebot bis 2.000 Euro werden nach Fläche geordnet.", "method_note": "Der letzte dokumentierte Preisstand dieser Kabinen stammt vom", "results_kicker": "Kabinen mit engem Preisrahmen", "results_title": "{count} Infrarotkabinen erfüllen die Preisgrenze.", "results_intro": "Die Reihenfolge folgt der Stellfläche. Strahlertechnik, Sitzposition und Anschluss müssen am einzelnen Modell geprüft werden.", "checks_kicker": "Technik nicht aus dem Preis lesen", "checks_title": "Vier Angaben machen den Vergleich belastbar.", "related_kicker": "Wärmeart und Kapazität ändern", "related_title": "Die breite Infrarot-Auswahl sowie Einzel- und Zweierkabinen danebenstellen."}
+    "module_copy": {"method_kicker": "Aufnahme in den Preisvergleich", "method_title": "Infrarotkabinen mit einem Angebot bis 2.000 Euro werden nach Fläche geordnet.", "method_note": "Der letzte dokumentierte Preisstand dieser Kabinen stammt vom", "results_kicker": "Kabinen mit engem Preisrahmen", "results_title": "{count} Infrarotkabinen erfüllen die Preisgrenze.", "results_intro": "Die Reihenfolge folgt der Stellfläche. Strahlertechnik, Sitzposition und Anschluss müssen am einzelnen Modell geprüft werden.", "checks_kicker": "Technik nicht aus dem Preis lesen", "checks_title": "Vier Angaben machen den Vergleich belastbar.", "related_kicker": "Wärmeart und Kapazität ändern", "related_title": "Die breite Infrarot-Auswahl, Einzel- und Zweierkabinen sowie Indoor-Saunen bis 2.000 Euro danebenstellen."}
   },
   {
     "id": "five-person",
@@ -768,7 +768,7 @@
     "layout": "capacity",
     "filters": {"people_exact": 5},
     "sort": "footprint",
-    "related_ids": ["4-personen-sauna", "3-personen-sauna", "sauna-bis-6-m2"],
+    "related_ids": ["4-personen-sauna", "3-personen-sauna", "six-plus-person", "sauna-bis-6-m2"],
     "planning": {"kicker": "Kapazität in Raum übersetzen", "intro": "Fünf Plätze brauchen neben der Kabine Bewegungsfläche, einen passenden Zugang und eine Ofen- oder Strahlerplanung für das tatsächliche Volumen.", "guide_ids": ["platzbedarf", "saunagroesse-3-6-kw"]},
     "editorial": {
       "kicker": "Fünf Personen · Nutzung statt Etikett",
@@ -784,7 +784,7 @@
     },
     "criteria": ["Herstellerkapazität beträgt genau fünf Personen", "Verifizierter Datensatz mit Maßen und Wärmeart", "Sortierung nach rechnerischer Produktfläche"],
     "checks": ["Kapazität nicht als Komfort- oder Belastungstest lesen.", "Innenzeichnung und Bankaufteilung beim Anbieter anfordern oder prüfen.", "Heizleistung und Raumvolumen gemeinsam betrachten.", "Außenmodelle mit Fundament und Anlieferungsweg ergänzen."],
-    "module_copy": {"method_kicker": "Kapazitätsfilter", "method_title": "Hier erscheinen nur Modelle mit ausgewiesener Maximalkapazität von fünf Personen.", "method_note": "Die jüngste Prüfung der passenden Datensätze erfolgte am", "results_kicker": "Fünf Plätze im Katalog", "results_title": "{count} Produkte sind für fünf Personen ausgewiesen.", "results_intro": "Die Stellfläche ordnet die Auswahl. Bankgeometrie, Innenmaß und Wärmeart müssen im jeweiligen Datensatz geprüft werden.", "checks_kicker": "Kapazität in Nutzung übersetzen", "checks_title": "Vier Punkte trennen Herstellerangabe und Alltag.", "related_kicker": "Kapazität enger oder weiter fassen", "related_title": "Drei-, Vier- und Sechs-Personen-Auswahlen nebeneinanderstellen."}
+    "module_copy": {"method_kicker": "Kapazitätsfilter", "method_title": "Hier erscheinen nur Modelle mit ausgewiesener Maximalkapazität von fünf Personen.", "method_note": "Die jüngste Prüfung der passenden Datensätze erfolgte am", "results_kicker": "Fünf Plätze im Katalog", "results_title": "{count} Produkte sind für fünf Personen ausgewiesen.", "results_intro": "Die Stellfläche ordnet die Auswahl. Bankgeometrie, Innenmaß und Wärmeart müssen im jeweiligen Datensatz geprüft werden.", "checks_kicker": "Kapazität in Nutzung übersetzen", "checks_title": "Vier Punkte trennen Herstellerangabe und Alltag.", "related_kicker": "Kapazität enger oder weiter fassen", "related_title": "Drei-, Vier- und Sechs-Personen-Auswahlen sowie die 6-m²-Grenze nebeneinanderstellen."}
   },
   {
     "id": "six-plus-person",
@@ -799,7 +799,7 @@
     "layout": "tradeoff",
     "filters": {"people_min": 6},
     "sort": "footprint",
-    "related_ids": ["4-personen-sauna", "kleine-gartensauna", "sauna-bis-6-m2"],
+    "related_ids": ["five-person", "4-personen-sauna", "kleine-gartensauna", "sauna-bis-6-m2"],
     "planning": {"kicker": "Große Kabine, großer Plan", "intro": "Anlieferung, Fundament, Raumhöhe, Wärmeleistung und Wartungszugang müssen vor dem Modellvergleich geklärt werden.", "guide_ids": ["sauna-kosten", "boden-und-fundament"]},
     "editorial": {
       "kicker": "Große Gruppe · konkrete Folgen",
@@ -815,7 +815,7 @@
     },
     "criteria": ["Herstellerkapazität beträgt mindestens sechs Personen", "Maße, Wärmeart und Preisquelle sind verifiziert", "Sortierung nach rechnerischer Produktfläche"],
     "checks": ["Kapazitätsangabe und bequeme Sitzordnung nicht gleichsetzen.", "Lieferweg und Paketmaße vor einer Bestellung klären.", "Heizleistung, Anschluss und Raumvolumen anhand der Anleitung abstimmen.", "Fundament, Wartungszugang und örtliche Anforderungen als eigenes Projekt planen."],
-    "module_copy": {"method_kicker": "Aufnahme in die Großauswahl", "method_title": "Berücksichtigt werden Produkte mit ausgewiesener Maximalkapazität ab sechs Personen.", "method_note": "Der Datenstand der enthaltenen Großmodelle wurde geprüft am", "results_kicker": "Große Kapazitäten", "results_title": "{count} Produkte sind für mindestens sechs Personen ausgewiesen.", "results_intro": "Die Reihenfolge folgt der Produktfläche. Standort, Fundament, Anlieferung und Heizleistung benötigen eine separate Prüfung.", "checks_kicker": "Vom Katalog zum Bauvorhaben", "checks_title": "Vier Standortfragen müssen vor dem Angebot geklärt sein.", "related_kicker": "Weniger Plätze oder kleinere Fläche", "related_title": "Vier-Personen-Modelle und engere Flächengrenzen vergleichen."}
+    "module_copy": {"method_kicker": "Aufnahme in die Großauswahl", "method_title": "Berücksichtigt werden Produkte mit ausgewiesener Maximalkapazität ab sechs Personen.", "method_note": "Der Datenstand der enthaltenen Großmodelle wurde geprüft am", "results_kicker": "Große Kapazitäten", "results_title": "{count} Produkte sind für mindestens sechs Personen ausgewiesen.", "results_intro": "Die Reihenfolge folgt der Produktfläche. Standort, Fundament, Anlieferung und Heizleistung benötigen eine separate Prüfung.", "checks_kicker": "Vom Katalog zum Bauvorhaben", "checks_title": "Vier Standortfragen müssen vor dem Angebot geklärt sein.", "related_kicker": "Weniger Plätze oder kleinere Fläche", "related_title": "Fünf- und Vier-Personen-Modelle sowie engere Flächengrenzen vergleichen."}
   },
   {
     "id": "infrared-one-person",
@@ -830,12 +830,12 @@
     "layout": "space",
     "filters": {"categories": ["infrared"], "people_exact": 1},
     "sort": "footprint",
-    "related_ids": ["infrarotkabine", "1-person-sauna", "mini-sauna"],
+    "related_ids": ["infrarotkabine", "infrared-two-person", "1-person-sauna", "mini-sauna"],
     "planning": {"kicker": "Sitzposition vor Stellfläche", "intro": "Eine kleine Kontur ist nur dann passend, wenn Einstieg, Sitzbreite und Strahlerposition im Raum funktionieren.", "guide_ids": ["platzbedarf", "sauna-fuer-die-wohnung"]},
     "editorial": {"kicker": "Allein nutzen · sauber einordnen", "title": "Eine Einzelkabine muss zur Sitzhaltung passen, nicht nur in eine Nische.", "paragraphs": ["Die Kapazität von einer Person ist eine eindeutige Herstellerangabe. Sie zeigt weder den Abstand zu den Strahlern noch die Bewegungsfreiheit beim Einstieg. Beides gehört in die Prüfung der konkreten Kabinenzeichnung.", "Bei schmalen Modellen können Türanschlag, Sitzwinkel und Kabinenbreite die Nutzung stärker begrenzen als die Grundfläche. Die Produktdaten machen sichtbar, welche dieser Angaben vorhanden sind und wo eine Nachfrage beim Anbieter nötig bleibt.", "Die Auswahl enthält keine eigene Messung und keine Rangfolge nach Wirkung. Sie ordnet verifizierte Daten, damit der Raum und die technische Ausstattung vor einer Bestellung verglichen werden können."], "pointsTitle": "Einzelplatz prüfen", "points": ["Sitzbreite und Türanschlag abgleichen", "Strahlerposition aus der Zeichnung lesen", "Spannung und Leistung getrennt prüfen", "Lüftung des Aufstellraums klären"], "callout": "Die kleinste Kabine ist nicht automatisch die passendste Einzelkabine."},
     "criteria": ["Kategorie Infrarotkabine ist verifiziert", "Herstellerkapazität beträgt genau eine Person", "Maße und Heiztechnik sind quellenbezogen dokumentiert"],
     "checks": ["Sitzfläche und Einstieg anhand der Zeichnung prüfen.", "Strahlertechnik nicht aus dem Modellnamen ableiten.", "Anschluss und Absicherung vor der Bestellung bestätigen.", "Bei gesundheitlichen Fragen keine Produktangabe als Beratung verwenden."],
-    "module_copy": {"method_kicker": "Kapazitätsfilter", "method_title": "Berücksichtigt werden Infrarotkabinen mit ausgewiesener Maximalkapazität von einer Person.", "method_note": "Der jüngste Preisstand der Einzelkabinen wurde geprüft am", "results_kicker": "Einzelkabinen", "results_title": "{count} Infrarotkabinen sind für eine Person ausgewiesen.", "results_intro": "Die Reihenfolge folgt der Produktfläche. Sitzposition, Strahler und Anschluss stehen am jeweiligen Datensatz.", "checks_kicker": "Ein Platz, mehrere Prüfungen", "checks_title": "Vier Angaben entscheiden über die Alltagstauglichkeit.", "related_kicker": "Mehr Platz oder andere Kabinenart", "related_title": "Infrarot-Gesamtauswahl, klassische Einzelkabinen und Mini-Saunen vergleichen."}
+    "module_copy": {"method_kicker": "Kapazitätsfilter", "method_title": "Berücksichtigt werden Infrarotkabinen mit ausgewiesener Maximalkapazität von einer Person.", "method_note": "Der jüngste Preisstand der Einzelkabinen wurde geprüft am", "results_kicker": "Einzelkabinen", "results_title": "{count} Infrarotkabinen sind für eine Person ausgewiesen.", "results_intro": "Die Reihenfolge folgt der Produktfläche. Sitzposition, Strahler und Anschluss stehen am jeweiligen Datensatz.", "checks_kicker": "Ein Platz, mehrere Prüfungen", "checks_title": "Vier Angaben entscheiden über die Alltagstauglichkeit.", "related_kicker": "Mehr Platz oder andere Kabinenart", "related_title": "Infrarot-Gesamtauswahl, Zweierkabinen, klassische Einzelkabinen und Mini-Saunen vergleichen."}
   },
   {
     "id": "infrared-two-person",
@@ -850,12 +850,12 @@
     "layout": "heat",
     "filters": {"categories": ["infrared"], "people_exact": 2},
     "sort": "footprint",
-    "related_ids": ["infrarotkabine", "2-personen-sauna", "infrared-one-person"],
+    "related_ids": ["infrarotkabine", "infrared-one-person", "infrared-three-plus", "2-personen-sauna"],
     "planning": {"kicker": "Zwei Sitzplätze ausmessen", "intro": "Breite, Sitzwinkel und Abstand zur Tür zeigen, ob zwei Personen gleichzeitig bequem Platz finden.", "guide_ids": ["platzbedarf", "sauna-fuer-die-wohnung"]},
     "editorial": {"kicker": "Zwei Plätze · ein Wärmebereich", "title": "Bei einer Zweierkabine muss die Strahleranordnung beide Sitzpositionen erreichen.", "paragraphs": ["Die Herstellerkapazität grenzt die Auswahl ein, sagt aber nichts über die Sitzbreite oder den Abstand der beiden Plätze. Diese Maße sind bei Infrarotkabinen besonders wichtig, weil die Wärmequellen auf die Sitzposition ausgerichtet sein können.", "Ein größeres Modell kann mehr Bewegungsfreiheit geben, erhöht aber meist auch Stellfläche und Preis. Die Liste sortiert deshalb nach Produktfläche und lässt die Entscheidung zwischen Raumreserve und Kompaktheit beim Leser.", "Strahlerart, Leistung und Spannung werden nur übernommen, wenn sie im geprüften Datensatz belegt sind. Unklare Angaben bleiben eine offene Frage für die Produktseite des Anbieters."], "pointsTitle": "Zwei Plätze nachvollziehbar vergleichen", "points": ["Innenbreite und Sitzwinkel abgleichen", "Strahler für beide Plätze prüfen", "Leistung und Spannung getrennt lesen", "Türbereich und Bewegungszone ergänzen"], "callout": "Die Kapazität zählt erst dann, wenn beide Sitzpositionen technisch und räumlich funktionieren."},
     "criteria": ["Kategorie Infrarotkabine ist verifiziert", "Herstellerkapazität beträgt genau zwei Personen", "Maße und Heiztechnik sind dokumentiert"],
     "checks": ["Zwei Plätze nicht mit zwei gleichwertigen Sitzpositionen verwechseln.", "Strahlerposition und Sitzwinkel aus dem Produktdatensatz prüfen.", "Elektrische Anforderungen am Standort fachlich abgleichen.", "Außenmaß um Tür- und Bewegungsfläche ergänzen."],
-    "module_copy": {"method_kicker": "Zweierfilter", "method_title": "Nur Infrarotkabinen mit ausgewiesener Kapazität für zwei Personen werden einbezogen.", "method_note": "Der aktuelle Angebotsstand dieser Auswahl wurde geprüft am", "results_kicker": "Zwei Plätze im Vergleich", "results_title": "{count} Infrarotkabinen sind für zwei Personen ausgewiesen.", "results_intro": "Stellfläche ordnet die Liste. Strahler, Sitzwinkel und Anschluss bleiben modellbezogene Prüfpunkte.", "checks_kicker": "Kapazität und Sitzposition", "checks_title": "Vier technische und räumliche Fragen bleiben offen.", "related_kicker": "Kapazität verschieben", "related_title": "Einzelkabinen, größere Infrarotmodelle und klassische Zweierkabinen ansehen."}
+    "module_copy": {"method_kicker": "Zweierfilter", "method_title": "Nur Infrarotkabinen mit ausgewiesener Kapazität für zwei Personen werden einbezogen.", "method_note": "Der aktuelle Angebotsstand dieser Auswahl wurde geprüft am", "results_kicker": "Zwei Plätze im Vergleich", "results_title": "{count} Infrarotkabinen sind für zwei Personen ausgewiesen.", "results_intro": "Stellfläche ordnet die Liste. Strahler, Sitzwinkel und Anschluss bleiben modellbezogene Prüfpunkte.", "checks_kicker": "Kapazität und Sitzposition", "checks_title": "Vier technische und räumliche Fragen bleiben offen.", "related_kicker": "Kapazität verschieben", "related_title": "Einzelkabinen, Modelle ab drei Personen, die Infrarot-Gesamtauswahl und klassische Zweierkabinen ansehen."}
   },
   {
     "id": "infrared-three-plus",
@@ -870,12 +870,12 @@
     "layout": "capacity",
     "filters": {"categories": ["infrared"], "people_min": 3},
     "sort": "footprint",
-    "related_ids": ["infrarotkabine", "infrared-two-person", "4-personen-sauna"],
+    "related_ids": ["infrarotkabine", "infrared-two-person", "infrared-under-2000", "4-personen-sauna"],
     "planning": {"kicker": "Große Infrarotkabine planen", "intro": "Mehr Sitzplätze verändern Breite, Strahlerabdeckung, Strombedarf und die notwendige Bewegungsfläche.", "guide_ids": ["sauna-fuer-die-wohnung", "stromverbrauch-heimsauna"]},
     "editorial": {"kicker": "Mehrere Sitzpositionen", "title": "Große Infrarotkabinen brauchen ein klares Bild der gemeinsamen Nutzung.", "paragraphs": ["Ab drei Personen reicht es nicht, die maximale Kapazität zu lesen. Entscheidend ist, ob die Sitzplätze auf einer Bank, gegenüber oder über Eck liegen und wie gleichmäßig die dokumentierte Heiztechnik diese Positionen erreicht.", "Die größere Kabine beansprucht mehr Raum und kann eine höhere elektrische Leistung benötigen. Die Vergleichsdaten zeigen Spannung und Leistung getrennt, damit aus der Personenzahl keine unbelegte Anschlussannahme entsteht.", "Die Seite beschreibt veröffentlichte Angaben und keine eigene Wärmemessung. Wer die Kabine mit mehreren Personen nutzen will, sollte Innenzeichnung, Sitzhöhe und Steuerungsanleitung gemeinsam prüfen."], "pointsTitle": "Mehrplatzmodelle einordnen", "points": ["Sitzanordnung und Innenbreite vergleichen", "Strahlerabdeckung je Sitzplatz prüfen", "Leistung und Absicherung klären", "Raumlüftung und Türbereich einplanen"], "callout": "Mehr Sitzplätze brauchen mehr als eine größere Außenkontur."},
     "criteria": ["Kategorie Infrarotkabine ist verifiziert", "Herstellerkapazität beträgt mindestens drei Personen", "Heiztechnik und Außenmaße sind dokumentiert"],
     "checks": ["Kapazität nicht als gleichmäßige Wärmeverteilung interpretieren.", "Innenzeichnung und Sitzanordnung beim Anbieter prüfen.", "Leistung, Spannung und örtliche Absicherung getrennt bewerten.", "Bewegungs- und Lüftungsfläche außerhalb der Kabine ergänzen."],
-    "module_copy": {"method_kicker": "Mehrplatzfilter", "method_title": "Infrarotkabinen ab einer ausgewiesenen Kapazität von drei Personen werden einbezogen.", "method_note": "Die jüngste Datenprüfung der größeren Kabinen erfolgte am", "results_kicker": "Größere Infrarotmodelle", "results_title": "{count} Infrarotkabinen sind für mindestens drei Personen ausgewiesen.", "results_intro": "Die Produktfläche bildet die Reihenfolge. Sitzanordnung, Strahler und Anschluss müssen am Modell geprüft werden.", "checks_kicker": "Von der Kapazität zur Nutzung", "checks_title": "Vier Angaben zeigen, ob mehrere Plätze zusammenpassen.", "related_kicker": "Kompakter vergleichen", "related_title": "Einzel-, Zweier- und klassische Vierpersonenmodelle danebenstellen."}
+    "module_copy": {"method_kicker": "Mehrplatzfilter", "method_title": "Infrarotkabinen ab einer ausgewiesenen Kapazität von drei Personen werden einbezogen.", "method_note": "Die jüngste Datenprüfung der größeren Kabinen erfolgte am", "results_kicker": "Größere Infrarotmodelle", "results_title": "{count} Infrarotkabinen sind für mindestens drei Personen ausgewiesen.", "results_intro": "Die Produktfläche bildet die Reihenfolge. Sitzanordnung, Strahler und Anschluss müssen am Modell geprüft werden.", "checks_kicker": "Von der Kapazität zur Nutzung", "checks_title": "Vier Angaben zeigen, ob mehrere Plätze zusammenpassen.", "related_kicker": "Kompakter vergleichen", "related_title": "Die Infrarot-Gesamtauswahl, Zweierkabinen, das 2.000-Euro-Budget und klassische Vierpersonenmodelle danebenstellen."}
   },
   {
     "id": "finnish-two-person",
@@ -890,12 +890,12 @@
     "layout": "technical",
     "filters": {"categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 2},
     "sort": "footprint",
-    "related_ids": ["2-personen-sauna", "finnische-sauna", "3-personen-sauna"],
+    "related_ids": ["2-personen-sauna", "finnish-three-person", "finnische-sauna", "3-personen-sauna"],
     "planning": {"kicker": "Volumen und Ofen abgleichen", "intro": "Zwei Sitzplätze brauchen einen passenden Ofen, Luftweg und Zugang. Die Herstellerzuordnung des konkreten Modells ist ausschlaggebend.", "guide_ids": ["saunagroesse-3-6-kw", "lueftung"]},
     "editorial": {"kicker": "Klassisches Innenmodell", "title": "Eine Zweierkabine muss nicht auf jede zusätzliche Raumreserve verzichten.", "paragraphs": ["Die Auswahl nutzt die Kapazitätsangabe und den Saunatyp, nicht eine eigene Temperatur- oder Komfortmessung. Innenbreite, Bankhöhe und Liegelänge entscheiden darüber, wie die zwei Plätze im Alltag genutzt werden können.", "Bei einer finnischen Sauna gehören Ofenleistung, Raumvolumen und Lüftung zusammen. Die Produktdaten zeigen nur belegte Werte; fehlende Angaben werden nicht aus ähnlichen Modellen übernommen.", "Die Sortierung nach Fläche macht kompakte Modelle auffindbar. Vor dem Kauf müssen Montageabstände, Anschluss und die freigegebene Ofenkombination mit der konkreten Kabinenanleitung abgeglichen werden."], "pointsTitle": "Technik der Zweierkabine prüfen", "points": ["Raumvolumen und Ofenbereich vergleichen", "Bankgeometrie und Liegelänge prüfen", "Anschluss und Steuerung belegen", "Zuluft und Abluft in den Raumplan eintragen"], "callout": "Zwei Plätze sind eine Kapazität; das Saunaklima entsteht aus dem abgestimmten System."},
     "criteria": ["Kategorie Indoor und Typ Finnische Sauna", "Herstellerkapazität beträgt genau zwei Personen", "Maße und Ofenangaben sind quellenbezogen dokumentiert"],
     "checks": ["Kapazität nicht als Komfortprüfung lesen.", "Ofenleistung mit Raumvolumen und Glasflächen abgleichen.", "Anschluss durch eine Elektrofachkraft am Standort prüfen lassen.", "Lüftung und Montageabstände aus den konkreten Anleitungen übernehmen."],
-    "module_copy": {"method_kicker": "Technischer Filter", "method_title": "Einbezogen werden finnische Indoor-Saunen mit ausgewiesener Kapazität für zwei Personen.", "method_note": "Der jüngste Preis- und Datenstand dieser Auswahl stammt vom", "results_kicker": "Klassische Zweierkabinen", "results_title": "{count} finnische Indoor-Saunen sind für zwei Personen ausgewiesen.", "results_intro": "Die Produktfläche ordnet die Liste. Ofen, Steuerung, Bank und Lüftung bleiben modellbezogene Prüfpunkte.", "checks_kicker": "Kabinensystem statt Einzelwert", "checks_title": "Vier technische Angaben müssen zusammenpassen.", "related_kicker": "Kapazität oder Wärmeart wechseln", "related_title": "Allgemeine Zweierkabinen, finnische Gesamtauswahl und Dreiermodelle ansehen."}
+    "module_copy": {"method_kicker": "Technischer Filter", "method_title": "Einbezogen werden finnische Indoor-Saunen mit ausgewiesener Kapazität für zwei Personen.", "method_note": "Der jüngste Preis- und Datenstand dieser Auswahl stammt vom", "results_kicker": "Klassische Zweierkabinen", "results_title": "{count} finnische Indoor-Saunen sind für zwei Personen ausgewiesen.", "results_intro": "Die Produktfläche ordnet die Liste. Ofen, Steuerung, Bank und Lüftung bleiben modellbezogene Prüfpunkte.", "checks_kicker": "Kabinensystem statt Einzelwert", "checks_title": "Vier technische Angaben müssen zusammenpassen.", "related_kicker": "Kapazität oder Wärmeart wechseln", "related_title": "Allgemeine Zweier- und Dreierkabinen, finnische Dreiermodelle und die finnische Gesamtauswahl ansehen."}
   },
   {
     "id": "finnish-three-person",
@@ -910,12 +910,12 @@
     "layout": "tradeoff",
     "filters": {"categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 3},
     "sort": "footprint",
-    "related_ids": ["3-personen-sauna", "finnische-sauna", "4-personen-sauna"],
+    "related_ids": ["3-personen-sauna", "finnish-two-person", "finnische-sauna", "4-personen-sauna"],
     "planning": {"kicker": "Drei Plätze im Grundriss", "intro": "Banklänge, Türposition, Ofenbereich und Bewegungsfläche müssen gemeinsam in den Raumplan passen.", "guide_ids": ["platzbedarf", "saunagroesse-3-6-kw"]},
     "editorial": {"kicker": "Zwischenmaß · klare Nutzung", "title": "Drei Personen können sitzen oder eine Liegefläche teilen, aber nicht jede Kabine kann beides gleich gut.", "paragraphs": ["Die Kapazitätsangabe beschreibt die vom Hersteller vorgesehene Personenzahl. Sie zeigt nicht, ob drei Personen auf einer Bank, über Eck oder auf mehreren Ebenen sitzen. Dafür braucht es die Innenzeichnung und die Bankmaße.", "Mit wachsendem Volumen ändern sich Ofenleistung, Aufheizverhalten und Luftführung. Die Vergleichsdaten halten diese technischen Angaben getrennt, damit die Dreiergröße nicht allein über ihre Außenfläche bewertet wird.", "Wer regelmäßig allein liegen und gelegentlich zu dritt sitzen möchte, sollte beide Nutzungen im Grundriss markieren. Eine rein rechnerische Personenzahl kann diese Entscheidung nicht vorwegnehmen."], "pointsTitle": "Dreierkabinen sinnvoll lesen", "points": ["Sitz- und Liegekonzept aus der Zeichnung prüfen", "Volumen und Heizleistung gemeinsam betrachten", "Türbereich und Bankzugang ergänzen", "Lüftungsweg und Anschluss dokumentieren"], "callout": "Die richtige Dreierkabine hängt von der gewünschten Nutzung der Bänke ab."},
     "criteria": ["Kategorie Indoor und Typ Finnische Sauna", "Herstellerkapazität beträgt genau drei Personen", "Produktfläche, Ofen und Maße sind verifiziert"],
     "checks": ["Drei Personen nicht mit drei komfortablen Liegeplätzen gleichsetzen.", "Bankhöhe, Innenbreite und Türposition anhand der Zeichnung prüfen.", "Heizleistung und Raumvolumen aus der Anleitung abgleichen.", "Anschluss und Luftführung am vorgesehenen Standort fachlich prüfen lassen."],
-    "module_copy": {"method_kicker": "Kapazität und Saunatyp", "method_title": "Die Auswahl beschränkt sich auf finnische Indoor-Kabinen für genau drei Personen.", "method_note": "Der letzte dokumentierte Angebotsstand wurde geprüft am", "results_kicker": "Dreierkabinen mit klassischem Ofen", "results_title": "{count} finnische Saunen sind für drei Personen ausgewiesen.", "results_intro": "Die Reihenfolge folgt der Produktfläche. Bankaufteilung, Ofenleistung und Lüftung müssen am Modell geprüft werden.", "checks_kicker": "Sitzen, liegen, anschließen", "checks_title": "Vier Punkte übersetzen die Kapazität in einen Raumplan.", "related_kicker": "Eine andere Größe wählen", "related_title": "Zweier-, Vierer- und allgemeine finnische Modelle danebenstellen."}
+    "module_copy": {"method_kicker": "Kapazität und Saunatyp", "method_title": "Die Auswahl beschränkt sich auf finnische Indoor-Kabinen für genau drei Personen.", "method_note": "Der letzte dokumentierte Angebotsstand wurde geprüft am", "results_kicker": "Dreierkabinen mit klassischem Ofen", "results_title": "{count} finnische Saunen sind für drei Personen ausgewiesen.", "results_intro": "Die Reihenfolge folgt der Produktfläche. Bankaufteilung, Ofenleistung und Lüftung müssen am Modell geprüft werden.", "checks_kicker": "Sitzen, liegen, anschließen", "checks_title": "Vier Punkte übersetzen die Kapazität in einen Raumplan.", "related_kicker": "Eine andere Größe wählen", "related_title": "Dreier- und Vierermodelle, finnische Zweierkabinen und die allgemeine finnische Auswahl danebenstellen."}
   },
   {
     "id": "voltage-400",
@@ -961,7 +961,7 @@
     "layout": "tradeoff",
     "filters": {"brands": ["Home Deluxe"]},
     "sort": "footprint",
-    "related_ids": ["infrarotkabine", "finnische-sauna", "outdoor-under-5000"],
+    "related_ids": ["infrarotkabine", "finnische-sauna", "outdoor-under-5000", "brand-wellness-point"],
     "planning": {"kicker": "Baureihe richtig zuordnen", "intro": "NERO, REDSUN, SHADOW, LAHTI oder SKYLINE stehen für unterschiedliche Räume und Heizsysteme. Die Daten der konkreten Variante sind maßgeblich.", "guide_ids": ["platzbedarf", "230-v-vs-400-v-sauna"]},
     "editorial": {
       "kicker": "Modellname und Technik trennen",
@@ -977,7 +977,7 @@
     },
     "criteria": ["Hersteller- oder Markenangabe Home Deluxe", "Eigenständige Produktvariante mit belegten Maßen", "Wärmeart, Aufstellort und Angebot werden separat ausgewiesen"],
     "checks": ["Produktreihe und Größenkürzel vollständig mit dem Händlerangebot abgleichen.", "Infrarot- und Ofensaunen nicht über die Leistung direkt vergleichen.", "Bei Außenmodellen Fundament, Dach und Anlieferung ergänzen.", "Preis und Lieferumfang der ausgewählten Variante vor dem Kauf prüfen."],
-    "module_copy": {"method_kicker": "Sortiment statt Bestenliste", "method_title": "Alle verifizierten Home-Deluxe-Varianten werden nach Wärmeart und Stellfläche nachvollziehbar.", "method_note": "Der aktuelle Angebotsstand der Markenübersicht reicht bis zum", "results_kicker": "Home Deluxe im Katalog", "results_title": "{count} Home-Deluxe-Produkte sind als eigene Varianten dokumentiert.", "results_intro": "Die Karten zeigen Aufstellung, Fläche, Kapazität, Anschluss und Preis. Ähnliche Modellnamen bleiben getrennt, wenn ihre technischen Daten abweichen.", "checks_kicker": "Die richtige Variante öffnen", "checks_title": "Vier Kontrollen verhindern Verwechslungen innerhalb der Baureihen.", "related_kicker": "Nach Wärmeart oder Standort wechseln", "related_title": "Infrarotkabinen, finnische Saunen und Gartensaunen separat vergleichen."}
+    "module_copy": {"method_kicker": "Sortiment statt Bestenliste", "method_title": "Alle verifizierten Home-Deluxe-Varianten werden nach Wärmeart und Stellfläche nachvollziehbar.", "method_note": "Der aktuelle Angebotsstand der Markenübersicht reicht bis zum", "results_kicker": "Home Deluxe im Katalog", "results_title": "{count} Home-Deluxe-Produkte sind als eigene Varianten dokumentiert.", "results_intro": "Die Karten zeigen Aufstellung, Fläche, Kapazität, Anschluss und Preis. Ähnliche Modellnamen bleiben getrennt, wenn ihre technischen Daten abweichen.", "checks_kicker": "Die richtige Variante öffnen", "checks_title": "Vier Kontrollen verhindern Verwechslungen innerhalb der Baureihen.", "related_kicker": "Nach Wärmeart oder Standort wechseln", "related_title": "Infrarotkabinen, finnische Saunen, Gartensaunen und das Wellness-Point-Sortiment separat vergleichen."}
   },
   {
     "id": "brand-artsauna",
@@ -992,7 +992,7 @@
     "layout": "heat",
     "filters": {"brands": ["Artsauna"]},
     "sort": "footprint",
-    "related_ids": ["infrarotkabine", "voltage-400", "kleine-gartensauna"],
+    "related_ids": ["infrarotkabine", "voltage-400", "kleine-gartensauna", "brand-wellness-point"],
     "planning": {"kicker": "Wärmesystem vor Modellgröße", "intro": "Strahlerkabine und Saunaofen stellen andere Anforderungen an Nutzung, Raum und Anschluss. Die Baureihe wird erst danach ausgewählt.", "guide_ids": ["platzbedarf", "stromverbrauch-heimsauna"]},
     "editorial": {
       "kicker": "Zwei Wärmesysteme unter einer Marke",
@@ -1008,7 +1008,7 @@
     },
     "criteria": ["Markenangabe Artsauna ist verifiziert", "Jede Größe bleibt als eigene Produktvariante erhalten", "Aufstellort, Wärmeart und Anschluss werden nicht aus der Modellreihe abgeleitet"],
     "checks": ["Wärmeart der konkreten Reihe vor dem Größenvergleich festlegen.", "Außenmaß um Tür-, Montage- und Bewegungsfläche ergänzen.", "Bei Outdoor-Modellen Fundament und Wetterschutz mitplanen.", "Ofen- oder Strahlerdaten direkt in der verlinkten Quelle bestätigen."],
-    "module_copy": {"method_kicker": "Marke mit technischer Trennung", "method_title": "Die Übersicht nimmt alle verifizierten Artsauna-Modelle auf und hält die Wärmesysteme sichtbar auseinander.", "method_note": "Der jüngste Angebotsstand der Artsauna-Auswahl wurde geprüft am", "results_kicker": "Artsauna nach Produktfläche", "results_title": "{count} Artsauna-Varianten sind im Katalog nachvollziehbar.", "results_intro": "Die Liste beginnt bei kompakten Kabinen und reicht bis zu größeren Außenmodellen. Wärmeart und Anschluss bleiben direkt am Produkt sichtbar.", "checks_kicker": "Reihe, Raum und Technik verbinden", "checks_title": "Vier Angaben führen von der Markenübersicht zum passenden Produkttyp.", "related_kicker": "Wärmeart oder Außenstandort vertiefen", "related_title": "Infrarotkabinen, 400-V-Modelle und kleine Gartensaunen getrennt öffnen."}
+    "module_copy": {"method_kicker": "Marke mit technischer Trennung", "method_title": "Die Übersicht nimmt alle verifizierten Artsauna-Modelle auf und hält die Wärmesysteme sichtbar auseinander.", "method_note": "Der jüngste Angebotsstand der Artsauna-Auswahl wurde geprüft am", "results_kicker": "Artsauna nach Produktfläche", "results_title": "{count} Artsauna-Varianten sind im Katalog nachvollziehbar.", "results_intro": "Die Liste beginnt bei kompakten Kabinen und reicht bis zu größeren Außenmodellen. Wärmeart und Anschluss bleiben direkt am Produkt sichtbar.", "checks_kicker": "Reihe, Raum und Technik verbinden", "checks_title": "Vier Angaben führen von der Markenübersicht zum passenden Produkttyp.", "related_kicker": "Wärmeart oder Außenstandort vertiefen", "related_title": "Infrarotkabinen, 400-V-Modelle, kleine Gartensaunen und das Wellness-Point-Sortiment getrennt öffnen."}
   },
   {
     "id": "brand-wellness-point",

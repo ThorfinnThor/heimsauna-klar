@@ -478,6 +478,75 @@ for (const source of sourceQueue) {
   queueIds.add(source.queue_id);
 }
 
+// Editorial cross-links must point at indexable German pages so internal link
+// equity is not spent on drafts, noindex products or broken routes.
+const indexableLinkTargets = new Set([
+  "/de/",
+  "/de/produkte/",
+  "/de/planung/",
+  "/de/vergleiche/",
+  "/de/vergleiche/230-v-sauna/",
+  "/de/saunatechnik/230-v-sauna/",
+  ...[...planningSlugs].map((slug) => `/de/planung/${slug}/`),
+  ...collections.filter((collection) => collection.indexable !== false).map((collection) => `/de/${collection.section}/${collection.slug}/`),
+]);
+
+function assertContentLinks(links, label, { required = false, min = 1, max = 12 } = {}) {
+  if (links === undefined && !required) return;
+  if (!Array.isArray(links) || links.length < min || links.length > max) throw new Error(`${label} needs between ${min} and ${max} links`);
+  const seen = new Set();
+  for (const link of links) assertContentLink(link, label, seen);
+}
+
+function assertContentLink(link, label, seen = new Set()) {
+  if (!link || typeof link.href !== "string" || typeof link.label !== "string" || link.label.trim() === "") {
+    throw new Error(`${label} has a link without href or label`);
+  }
+  if (!indexableLinkTargets.has(link.href)) throw new Error(`${label} links to ${link.href}, which is not an indexable German page`);
+  if (seen.has(link.href)) throw new Error(`${label} repeats ${link.href}`);
+  seen.add(link.href);
+}
+
+const entryPoints = home.entry_points;
+if (!entryPoints || !Array.isArray(entryPoints.groups) || entryPoints.groups.length === 0) throw new Error("content/de/home.json needs entry point groups");
+for (const key of ["kicker", "title", "copy", "all_label"]) {
+  if (typeof entryPoints[key] !== "string" || entryPoints[key].trim() === "") throw new Error(`Home entry points are missing ${key}`);
+}
+assertContentLink({ href: entryPoints.all_href, label: entryPoints.all_label }, "Home entry points");
+for (const group of entryPoints.groups) {
+  if (typeof group.title !== "string" || typeof group.copy !== "string") throw new Error("Home entry point group needs title and copy");
+  assertContentLinks(group.links, `Home entry group ${group.title}`, { required: true, min: 3 });
+}
+for (const item of archetypes) {
+  if (item.href === undefined) continue;
+  assertContentLink({ href: item.href, label: item.link_label }, `Archetype ${item.id}`);
+}
+for (const key of ["kicker", "title"]) {
+  if (typeof planningNavigation.collection_links_heading?.[key] !== "string") throw new Error(`Planning navigation collection link heading is missing ${key}`);
+}
+for (const group of planningNavigation.groups) assertContentLinks(group.collection_links, `Planning group ${group.id}`, { required: true, min: 2, max: 6 });
+for (const [slug, journey] of Object.entries(planningNavigation.guide_paths)) {
+  assertContentLinks(journey.collection_links, `Planning journey ${slug}`, { required: true, min: 2, max: 4 });
+}
+for (const [groupId, rows] of Object.entries(planningNavigation.footprint_links ?? {})) {
+  if (!["indoor", "outdoor"].includes(groupId)) throw new Error(`Unknown footprint link group ${groupId}`);
+  for (const [capacity, link] of Object.entries(rows)) assertContentLink(link, `Footprint link ${groupId}/${capacity}`);
+}
+for (const guide of planningGuides) {
+  for (const section of guide.sections) {
+    if (section.links === undefined) continue;
+    if (typeof section.links_lead !== "string" || section.links_lead.trim() === "") throw new Error(`${guide.slug} section "${section.title}" needs a links_lead`);
+    assertContentLinks(section.links, `${guide.slug} section "${section.title}"`, { min: 1, max: 5 });
+  }
+}
+for (const collection of collections) {
+  if (collection.indexable === false) continue;
+  for (const relatedId of collection.related_ids) {
+    const related = collections.find((item) => item.id === relatedId);
+    if (related?.indexable === false) throw new Error(`${collection.id} is indexable but links to draft collection ${relatedId}`);
+  }
+}
+
 const archetypeIds = new Set();
 for (const item of archetypes) {
   for (const key of ["id", "label", "title", "summary", "space", "power", "idealFor"]) {

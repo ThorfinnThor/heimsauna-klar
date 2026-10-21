@@ -69,6 +69,16 @@ export type Collection = {
 export const collections = collectionData as Collection[];
 export const indexableCollections = collections.filter((collection) => collection.indexable !== false);
 
+export const collectionSectionLabels: Record<Collection["section"], string> = {
+  "indoor-sauna": "Indoor-Sauna",
+  "outdoor-sauna": "Outdoor-Sauna",
+  vergleiche: "Weitere Vergleiche",
+};
+
+export function getCollectionPath(collection: Pick<Collection, "section" | "slug">) {
+  return `/de/${collection.section}/${collection.slug}/`;
+}
+
 export function getCollection(section: string, slug: string) {
   return collections.find((collection) => collection.section === section && collection.slug === slug);
 }

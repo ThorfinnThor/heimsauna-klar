@@ -2,6 +2,16 @@ import guideData from "@/content/de/planning-guides.json";
 import navigationData from "@/content/de/planning-navigation.json";
 import { getEligibleOffers, products } from "@/lib/products";
 
+export type ContentLink = { href: string; label: string };
+
+export type PlanningSection = {
+  title: string;
+  copy: string;
+  points: string[];
+  links_lead?: string;
+  links?: ContentLink[];
+};
+
 export type PlanningGuide = {
   slug: string;
   eyebrow: string;
@@ -12,7 +22,7 @@ export type PlanningGuide = {
   summary: string;
   catalog_snapshot?: "product_prices";
   catalog_footprint?: boolean;
-  sections: Array<{ title: string; copy: string; points: string[] }>;
+  sections: PlanningSection[];
   checklist: string[];
   module_copy: {
     checklist_kicker: string;
@@ -33,22 +43,31 @@ export type PlanningGroup = {
   title: string;
   description: string;
   guide_slugs: string[];
+  collection_links: ContentLink[];
 };
 
 export type PlanningJourney = {
   related_slugs: string[];
   product_href: string;
   product_label: string;
+  collection_links: ContentLink[];
 };
 
 type PlanningNavigation = {
+  collection_links_heading: { kicker: string; title: string };
   groups: PlanningGroup[];
   guide_paths: Record<string, PlanningJourney>;
+  footprint_links: Record<"indoor" | "outdoor", Record<string, ContentLink>>;
 };
 
 export const planningGuides = guideData as PlanningGuide[];
 const planningNavigation = navigationData as PlanningNavigation;
 export const planningGroups = planningNavigation.groups;
+export const planningCollectionLinksHeading = planningNavigation.collection_links_heading;
+
+export function getFootprintLink(groupId: "indoor" | "outdoor", capacity: string): ContentLink | undefined {
+  return planningNavigation.footprint_links[groupId]?.[capacity];
+}
 
 export function getPlanningGuide(slug: string) {
   return planningGuides.find((guide) => guide.slug === slug);
