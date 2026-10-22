@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-22",
   "notice": "Betreiber dieser Website ist das Einzelunternehmen SeitenHafen361. Die Website dient der unabhängigen Information und dem Vergleich von Saunaprodukten.",
   "impressum": {
     "title": "Impressum",
@@ -36,7 +36,12 @@
       },
       {
         "title": "Cookies, Analyse und Marketing",
-        "copy": "Select Your Sauna setzt keine eigenen Analyse- oder Werbeskripte und keine hierfür bestimmten Cookies ein. Eine Verbindung zum Affiliate-Netzwerk entsteht erst, wenn ein entsprechend gekennzeichneter Link bewusst angeklickt wird. Technisch notwendige Vorgänge des Hosting- und Sicherheitsdienstleisters bleiben hiervon unberührt."
+        "copy": "Select Your Sauna setzt Google Analytics 4 zur Reichweitenmessung nur ein, wenn du im Cookie-Banner ausdrücklich zustimmst. Ohne diese Einwilligung wird kein Analyse-Skript geladen, es entsteht keine Verbindung zu Google und es werden keine Analyse-Cookies gesetzt. Werbeskripte, Werbe-Cookies und Remarketing gibt es nicht. Deine Entscheidung speichern wir im lokalen Speicher deines Browsers (Eintrag „sys-cookie-consent“ mit Auswahl und Zeitpunkt), damit das Banner nicht bei jedem Seitenaufruf erneut erscheint. Dieser Eintrag ist für die gewünschte Speicherung der Einwilligung unbedingt erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG) und bleibt bestehen, bis du ihn in deinem Browser löschst. Eine Verbindung zum Affiliate-Netzwerk entsteht erst, wenn ein entsprechend gekennzeichneter Link bewusst angeklickt wird. Technisch notwendige Vorgänge des Hosting- und Sicherheitsdienstleisters bleiben hiervon unberührt."
+      },
+      {
+        "id": "google-analytics",
+        "title": "Google Analytics 4",
+        "copy": "Mit deiner Einwilligung nutzen wir Google Analytics 4, einen Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Zweck ist die Reichweitenmessung: Wir sehen, welche Seiten wie häufig aufgerufen werden, über welche Wege Besucherinnen und Besucher kommen und wie die Website technisch genutzt wird, um Inhalte und Navigation zu verbessern. Verarbeitet werden dabei insbesondere eine pseudonyme Client-ID, aufgerufene Seiten und Verweildauer, Referrer, Zeitpunkt des Aufrufs, Geräte- und Browserinformationen sowie ein aus der IP-Adresse abgeleiteter ungefährer Standort. Google Analytics 4 speichert IP-Adressen nach Angaben von Google nicht. Google-Signale, Werbefunktionen und personalisierte Werbung sind deaktiviert; in Google Consent Mode bleiben ad_storage, ad_user_data und ad_personalization abgelehnt. Rechtsgrundlage ist deine Einwilligung nach Art. 6 Abs. 1 Buchst. a DSGVO und § 25 Abs. 1 TDDDG (vormals TTDSG). Google Analytics setzt die Cookies „_ga“ und „_ga_BCT08FM2YW“ mit einer Laufzeit von jeweils zwei Jahren; sie werden bei jedem weiteren Besuch verlängert. Die in Google Analytics gespeicherten Ereignisdaten werden nach 14 Monaten automatisch gelöscht. Google verarbeitet die Daten als Auftragsverarbeiter auf Grundlage der Datenverarbeitungsbedingungen für Google-Werbeprodukte. Dabei kann eine Übermittlung an die Google LLC in den USA erfolgen. Google LLC ist unter dem EU-US Data Privacy Framework zertifiziert, für das die Europäische Kommission am 10. Juli 2023 einen Angemessenheitsbeschluss erlassen hat; ergänzend stützt sich Google auf Standardvertragsklauseln. Du kannst deine Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem du im Fußbereich jeder Seite „Cookie-Einstellungen“ öffnest und „Ablehnen“ wählst. Beim Widerruf werden die Google-Analytics-Cookies gelöscht und keine weiteren Daten an Google gesendet."
       },
       {
         "title": "Externe Produkt- und Quellenlinks",
@@ -109,6 +114,35 @@
       "title": "Cloudflare Data Processing Addendum",
       "url": "https://www.cloudflare.com/cloudflare-customer-dpa/",
       "checked_at": "2026-08-26"
+    },
+    {
+      "title": "§ 25 TDDDG · Schutz der Privatsphäre bei Endeinrichtungen",
+      "url": "https://www.gesetze-im-internet.de/ttdsg/__25.html",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "title": "Google · Datenschutzerklärung",
+      "url": "https://policies.google.com/privacy?hl=de",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "title": "Google Analytics · Datenschutz und Datensicherheit",
+      "url": "https://support.google.com/analytics/answer/6004245?hl=de",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "title": "EU-US Data Privacy Framework · Teilnehmerliste",
+      "url": "https://www.dataprivacyframework.gov/list",
+      "checked_at": "2026-10-22"
     }
-  ]
+  ],
+  "consent": {
+    "title": "Cookies und Reichweitenmessung",
+    "text": "Wir möchten mit Google Analytics 4 messen, welche Inhalte genutzt werden. Dafür setzt Google Cookies und erhält Nutzungsdaten, die auch in die USA übermittelt werden können. Das passiert nur, wenn du zustimmst. Werbung und Profilbildung für Werbezwecke gibt es nicht. Du kannst deine Wahl jederzeit über „Cookie-Einstellungen“ im Fußbereich ändern.",
+    "privacy_link_label": "Details in der Datenschutzerklärung",
+    "accept_label": "Akzeptieren",
+    "reject_label": "Ablehnen",
+    "status_granted": "Aktuell: Reichweitenmessung erlaubt.",
+    "status_denied": "Aktuell: Reichweitenmessung abgelehnt."
+  }
 }
