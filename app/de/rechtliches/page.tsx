@@ -33,7 +33,7 @@ export default function LegalPage() {
 
         <section className="legal-block" id="datenschutz" aria-labelledby="privacy-title">
           <p className="eyebrow">02</p>
-          <div><h2 id="privacy-title">{legal.privacy.title}</h2><p>{legal.privacy.intro}</p>{legal.privacy.sections.map((section) => <div className="legal-subsection" key={section.title}><h3>{section.title}</h3><p>{section.copy}</p></div>)}</div>
+          <div><h2 id="privacy-title">{legal.privacy.title}</h2><p>{legal.privacy.intro}</p>{legal.privacy.sections.map((section) => <div className="legal-subsection" id={"id" in section ? section.id : undefined} key={section.title}><h3>{section.title}</h3><p>{section.copy}</p></div>)}</div>
         </section>
 
         <section className="legal-block" id="affiliate" aria-labelledby="affiliate-title">

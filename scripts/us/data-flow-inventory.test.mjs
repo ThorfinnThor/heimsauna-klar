@@ -6,11 +6,15 @@ import test from "node:test";
 const projectRoot = resolve(import.meta.dirname, "../..");
 const inventory = JSON.parse(await readFile(resolve(projectRoot, "docs/us/data-flow-inventory.json"), "utf8"));
 
+// German-only GA4 opt-in. Checked separately below so it cannot leak into US routes.
+const deAnalyticsDirectory = resolve(projectRoot, "app/_analytics");
+
 async function sourceFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   const files = [];
   for (const entry of entries) {
     const path = resolve(directory, entry.name);
+    if (path === deAnalyticsDirectory) continue;
     if (entry.isDirectory()) files.push(...await sourceFiles(path));
     else if (/\.(?:ts|tsx|js|jsx)$/.test(entry.name)) files.push(path);
   }
@@ -63,10 +67,41 @@ test("the deployment is static and the CSP blocks silent browser egress", async 
   ]);
   assert.match(wrangler, /\[assets\]/);
   assert.doesNotMatch(wrangler, /^main\s*=/m);
-  assert.match(headers, /connect-src 'self'/);
-  assert.match(headers, /frame-src 'none'/);
-  assert.match(headers, /img-src 'self' data:/);
+  const globalPolicy = headers.match(/^\/\*\n {2}Content-Security-Policy: ([^\n]+)/m)?.[1] ?? "";
+  assert.match(globalPolicy, /connect-src 'self';/);
+  assert.match(globalPolicy, /frame-src 'none'/);
+  assert.match(globalPolicy, /img-src 'self' data:;/);
+  assert.doesNotMatch(globalPolicy, /google/);
   assert.deepEqual(Object.keys(packageDocument.dependencies).sort(), ["next", "react", "react-dom"]);
+});
+
+test("Google Analytics stays limited to German routes behind an opt-in", async () => {
+  const [usFiles, usLibFiles, deLayout, rootLayout, consent, headers] = await Promise.all([
+    sourceFiles(resolve(projectRoot, "app/(us)")),
+    sourceFiles(resolve(projectRoot, "lib/us")),
+    readFile(resolve(projectRoot, "app/de/layout.tsx"), "utf8"),
+    readFile(resolve(projectRoot, "app/(root)/layout.tsx"), "utf8"),
+    readFile(resolve(deAnalyticsDirectory, "consent.ts"), "utf8"),
+    readFile(resolve(projectRoot, "public/_headers"), "utf8"),
+  ]);
+  const usSource = (await Promise.all([...usFiles, ...usLibFiles].map((file) => readFile(file, "utf8")))).join("\n");
+  assert.doesNotMatch(usSource, /_analytics|CookieConsent|googletagmanager|gtag/);
+  assert.match(deLayout, /<CookieConsent /);
+  assert.match(rootLayout, /<CookieConsent /);
+  for (const signal of ["analytics_storage", "ad_storage", "ad_user_data", "ad_personalization"]) {
+    assert.match(consent, new RegExp(`${signal}: "denied"`));
+  }
+  // The gtag.js script element is created only inside enableAnalytics(), which runs after "Akzeptieren".
+  assert.equal(consent.match(/createElement\("script"\)/g)?.length, 1);
+  assert.match(consent, /export function enableAnalytics\(\) \{[\s\S]*createElement\("script"\)[\s\S]*?\n\}/);
+  const boundary = inventory.market_boundary?.de_only_services ?? [];
+  assert.deepEqual(boundary.map((service) => service.routes), [["/", "/de/*"]]);
+  for (const route of ["/", "/de/*"]) {
+    const block = headers.split(/\n\n/).find((entry) => entry.split("\n").some((line) => line === route)) ?? "";
+    assert.match(block, /! Content-Security-Policy/);
+    assert.match(block, /googletagmanager/);
+  }
+  assert.doesNotMatch(headers, /^\/us\/\*$/m);
 });
 
 test("Awin ingestion uses a secret and persists only sanitized reports", async () => {

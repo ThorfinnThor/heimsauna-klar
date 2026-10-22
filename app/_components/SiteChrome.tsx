@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookieSettingsButton } from "@/app/_analytics/CookieSettingsButton";
 import { getEnabledMarkets, marketPath, type MarketCode } from "@/lib/markets";
 import { getUsEditorialPages, getUsTrustPage, isUsResearchPreview } from "@/lib/us/content";
 
@@ -107,6 +108,7 @@ export function SiteFooter({ market = "DE" }: { market?: MarketCode }) {
             <Link href="/de/rechtliches/#impressum">Impressum</Link>
             <Link href="/de/rechtliches/#datenschutz">Datenschutz</Link>
             <Link href="/de/transparenz/affiliate/">Affiliate</Link>
+            <CookieSettingsButton label="Cookie-Einstellungen" />
           </>
         ) : (
           <>

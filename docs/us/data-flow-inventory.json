@@ -140,11 +140,27 @@
       "region_or_transfer": "Email-routing destination and providers are not evidenced in the repository."
     }
   ],
+  "market_boundary": {
+    "reviewed_at": "2026-10-22",
+    "de_only_services": [
+      {
+        "id": "google-analytics-4-de",
+        "active": true,
+        "routes": ["/", "/de/*"],
+        "trigger": "Visitor accepts the German cookie banner; nothing is requested from Google before that",
+        "recipients": ["Google Ireland Limited", "Google LLC"],
+        "source": "app/_analytics",
+        "retention": "GA event data 14 months (GA property setting); _ga cookies two years",
+        "controls": "Consent Mode v2 defaults denied, ad signals stay denied, revocation via footer link deletes _ga cookies"
+      }
+    ],
+    "us_rule": "US routes must not import app/_analytics and keep the strict CSP. Adding analytics to US routes still requires the review listed under proposed controls."
+  },
   "negative_findings": [
     "No first-party analytics or advertising SDK; Cloudflare Web Analytics is an active hosting-layer service",
-    "No Google Analytics or Google Tag Manager",
-    "No analytics, marketing or personalization cookie code",
-    "No localStorage or sessionStorage use",
+    "No Google Analytics or Google Tag Manager on US routes; the German routes load GA4 only after opt-in (see market_boundary)",
+    "No analytics, marketing or personalization cookie code in US routes",
+    "No localStorage or sessionStorage use in US routes",
     "No browser fetch, XMLHttpRequest or sendBeacon call in app or lib",
     "No account, login, checkout, payment or server-backed contact form",
     "No geolocation, camera, microphone or payment browser permission",

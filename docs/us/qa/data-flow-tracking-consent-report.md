@@ -42,3 +42,9 @@ The new drift tests fail if browser collection primitives, common analytics clie
 Repository code cannot establish Cloudflare request-log, Web Analytics, bot/security or retention settings; GitHub Actions log retention and account access; Awin reporting, attribution and transfer terms; or the mailbox routing destination and retention. These operator checks are listed in `docs/us/privacy-review-checklist.md`.
 
 This report does not decide whether consent, an opt-out or particular legal wording is required. It provides the factual technical basis for that decision and prevents unverified compliance claims.
+
+## Addendum 2026-10-22: German GA4 opt-in
+
+The German routes (`/` and `/de/*`) now offer Google Analytics 4 behind an opt-in cookie banner (`app/_analytics`). Consent Mode v2 starts with all four signals denied, gtag.js is requested only after the visitor accepts, and revoking through the footer link deletes the `_ga` cookies and disables measurement. The GA-enabled CSP is attached to `/` and `/de/*` only.
+
+The US scope of this report is unchanged. US routes do not import the analytics module, keep the strict CSP from the `/*` rule and show no banner. `scripts/us/data-flow-inventory.test.mjs` enforces this boundary, and `docs/us/data-flow-inventory.json` records the German service under `market_boundary`. Adding analytics to US routes still requires the review described in `docs/us/privacy-review-checklist.md`.

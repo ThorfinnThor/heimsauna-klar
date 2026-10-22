@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import { CookieConsent } from "@/app/_analytics/CookieConsent";
 import { StructuredData } from "@/app/_components/StructuredData";
+import legal from "@/content/de/legal.json";
 import { isIndexingEnabled, siteUrl } from "@/lib/site";
 import { editorialAuthorJsonLd, organizationJsonLd, websiteJsonLd } from "@/lib/structured-data";
 import "../globals.css";
@@ -32,6 +34,7 @@ export default function GermanRootLayout({ children }: Readonly<{ children: Reac
         <StructuredData data={editorialAuthorJsonLd()} />
         <StructuredData data={websiteJsonLd()} />
         {children}
+        <CookieConsent copy={legal.consent} />
       </body>
     </html>
   );
