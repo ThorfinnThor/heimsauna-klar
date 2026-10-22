@@ -68,7 +68,9 @@ test("the deployment is static and the CSP blocks silent browser egress", async 
   assert.match(wrangler, /\[assets\]/);
   assert.doesNotMatch(wrangler, /^main\s*=/m);
   const globalPolicy = headers.match(/^\/\*\n {2}Content-Security-Policy: ([^\n]+)/m)?.[1] ?? "";
-  assert.match(globalPolicy, /connect-src 'self';/);
+  // Only the operator-enabled Cloudflare Web Analytics beacon may leave the origin.
+  assert.match(globalPolicy, /script-src 'self' 'unsafe-inline' https:\/\/static\.cloudflareinsights\.com;/);
+  assert.match(globalPolicy, /connect-src 'self' https:\/\/cloudflareinsights\.com;/);
   assert.match(globalPolicy, /frame-src 'none'/);
   assert.match(globalPolicy, /img-src 'self' data:;/);
   assert.doesNotMatch(globalPolicy, /google/);
@@ -100,6 +102,7 @@ test("Google Analytics stays limited to German routes behind an opt-in", async (
     const block = headers.split(/\n\n/).find((entry) => entry.split("\n").some((line) => line === route)) ?? "";
     assert.match(block, /! Content-Security-Policy/);
     assert.match(block, /googletagmanager/);
+    assert.doesNotMatch(block, /cloudflareinsights/);
   }
   assert.doesNotMatch(headers, /^\/us\/\*$/m);
 });

@@ -3,22 +3,23 @@
   Cache-Control: public, max-age=604800, immutable
 
 /*
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com/beacon.min.js; script-src-attr 'none'; style-src 'self'; style-src-attr 'none'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'self'; frame-src 'none'; worker-src 'self'; manifest-src 'self'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; script-src-attr 'none'; style-src 'self'; style-src-attr 'none'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; media-src 'self'; frame-src 'none'; worker-src 'self'; manifest-src 'self'; upgrade-insecure-requests
   Strict-Transport-Security: max-age=31536000
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), geolocation=(), microphone=(), payment=(), usb=()
 
-# German routes: same policy plus Google Analytics 4, which loads only after opt-in.
-# US routes keep the strict policy above (docs/us/data-flow-inventory.json).
+# German routes: Google Analytics 4, which loads only after opt-in, and no Cloudflare Web
+# Analytics beacon (German reach measurement runs only through that opt-in).
+# US routes keep the policy above (docs/us/data-flow-inventory.json).
 /
   ! Content-Security-Policy
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com/beacon.min.js https://www.googletagmanager.com; script-src-attr 'none'; style-src 'self'; style-src-attr 'none'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; font-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; media-src 'self'; frame-src 'none'; worker-src 'self'; manifest-src 'self'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; script-src-attr 'none'; style-src 'self'; style-src-attr 'none'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; font-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; media-src 'self'; frame-src 'none'; worker-src 'self'; manifest-src 'self'; upgrade-insecure-requests
 
 /de/*
   ! Content-Security-Policy
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com/beacon.min.js https://www.googletagmanager.com; script-src-attr 'none'; style-src 'self'; style-src-attr 'none'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; font-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; media-src 'self'; frame-src 'none'; worker-src 'self'; manifest-src 'self'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; script-src-attr 'none'; style-src 'self'; style-src-attr 'none'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; font-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; media-src 'self'; frame-src 'none'; worker-src 'self'; manifest-src 'self'; upgrade-insecure-requests
 
 https://heimsauna-klar.shuu9599.workers.dev/*
   X-Robots-Tag: noindex, nofollow
