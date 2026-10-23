@@ -2073,3 +2073,22 @@ html[data-market="US"] .not-found-copy[data-market="US"] {
   .cookie-consent-actions { display: grid; grid-template-columns: 1fr 1fr; }
   .cookie-consent-button { min-width: 0; }
 }
+
+/* Collection dimension profile */
+.collection-profile { padding: 72px 0; }
+.collection-profile-head { margin-bottom: 32px; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 48px; }
+.collection-profile-head h2 { margin: 0; font-family: Georgia, serif; font-size: clamp(30px, 3.4vw, 46px); font-weight: 400; line-height: 1.08; }
+.collection-profile-head p { margin: 0 0 16px; color: var(--ink-soft); line-height: 1.7; }
+.collection-profile-table { min-width: 980px; }
+.collection-profile-table tbody th, .collection-profile-table tfoot th { padding: 18px 15px; border-top: 1px solid var(--line); background: transparent; color: var(--ink); font-size: 15px; font-weight: 750; letter-spacing: 0; text-align: left; text-transform: none; }
+.collection-profile-table td { white-space: nowrap; }
+.collection-profile-table td small, .collection-profile-table tfoot small { display: block; margin-top: 4px; color: var(--ink-soft); font-size: 12px; font-weight: 600; letter-spacing: 0; text-transform: none; }
+.collection-profile-table tfoot th, .collection-profile-table tfoot td { background: var(--cream); color: var(--ink); font-weight: 750; }
+.collection-profile-fits { margin: 24px 0 0; padding: 0; list-style: none; }
+.collection-profile-fits li { padding: 14px 0; border-bottom: 1px solid var(--line); color: var(--ink-soft); }
+.collection-profile-fits strong { color: var(--ink); }
+.collection-profile-note { margin: 16px 0 0; color: var(--ink-soft); font-size: 13px; }
+
+@media (max-width: 1050px) {
+  .collection-profile-head { grid-template-columns: 1fr; gap: 20px; }
+}

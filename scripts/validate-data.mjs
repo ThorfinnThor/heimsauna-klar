@@ -430,7 +430,15 @@ for (const [id, presentation] of Object.entries(pagePresentations.collections)) 
   if (!["editorial", "compact", "index", "split"].includes(presentation.hero)) throw new Error(`${id} has an invalid collection hero`);
   if (!["table", "cards", "ledger"].includes(presentation.results)) throw new Error(`${id} has an invalid results view`);
   if (!["split", "panel", "steps"].includes(presentation.method)) throw new Error(`${id} has an invalid method view`);
-  if (!Array.isArray(presentation.flow) || presentation.flow.length !== collectionModules.length || new Set(presentation.flow).size !== collectionModules.length || collectionModules.some((module) => !presentation.flow.includes(module))) {
+  // The data-driven profile module is optional and appears exactly when the collection defines profile copy.
+  const dimensionProfile = collections.find((collection) => collection.id === id)?.profile;
+  const expectedModules = dimensionProfile ? [...collectionModules, "profile"] : collectionModules;
+  if (dimensionProfile && (typeof dimensionProfile.kicker !== "string" || typeof dimensionProfile.title !== "string" || typeof dimensionProfile.note !== "string"
+    || !Array.isArray(dimensionProfile.paragraphs) || dimensionProfile.paragraphs.length < 2
+    || !Array.isArray(dimensionProfile.fit_checks) || dimensionProfile.fit_checks.some((fit) => !(fit.width > 0) || !(fit.depth > 0)))) {
+    throw new Error(`${id} has an incomplete dimension profile`);
+  }
+  if (!Array.isArray(presentation.flow) || presentation.flow.length !== expectedModules.length || new Set(presentation.flow).size !== expectedModules.length || expectedModules.some((module) => !presentation.flow.includes(module))) {
     throw new Error(`${id} must use every collection module exactly once`);
   }
   validateInsight(presentation.insight, id, 400);
