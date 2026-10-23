@@ -58,7 +58,7 @@
     "eyebrow": "Kompakte Einzelkabinen · Datenvergleich",
     "title": "1-Person-Sauna und Infrarotkabine",
     "accent": "für eine Person.",
-    "description": "Verifizierte Saunen und Infrarotkabinen, deren Herstellerkapazität auf eine Person begrenzt ist.",
+    "description": "Saunen und Infrarotkabinen, die ihr Hersteller für eine Person ausweist: typische Außenmaße, Wärmeart, 230-V-Anschluss und Preisstand im Datenvergleich.",
     "intro": "Aufgenommen werden Innenmodelle, deren veröffentlichte Maximalkapazität eine Person beträgt. Klassische Sauna und Infrarotkabine bleiben dabei unterschiedliche Wärmearten; sortiert wird nur nach Stellfläche.",
     "layout": "space",
     "related_ids": ["mini-sauna", "2-personen-sauna", "infrarotkabine", "infrared-one-person"],
@@ -74,6 +74,18 @@
       "pointsTitle": "Worauf die Zahl nicht antwortet",
       "points": ["Bankbreite, Sitztiefe und Innenhöhe", "Türposition und bequemer Einstieg", "Wärmeart und Anordnung der Wärmequelle", "Belüftung und Anschluss"],
       "callout": "Für eine Person kann eine größere Kabine die bessere Alltagserfahrung sein."
+    },
+    "profile": {
+      "kicker": "Was es für eine Person gibt",
+      "title": "Für eine Person ist das Angebot fast vollständig Infrarot.",
+      "paragraphs": [
+        "Unter den Innenmodellen, die ihr Hersteller ausdrücklich für eine Person ausweist, stellen Infrarotkabinen den weitaus größten Teil. Eine klassische finnische Sauna in Einzelgröße ist im Katalog die Ausnahme, weil Ofen und Sicherheitsabstände auch in einer sehr kleinen Kabine Platz beanspruchen.",
+        "Wer allein sauniert, aber finnische Wärme mit Aufguss möchte, findet die kleinsten Kabinen meist unter den Zweiermodellen. Die kompaktesten davon sind nur wenig größer als eine Infrarotkabine für eine Person, und einige sind laut Hersteller für 230 V ausgelegt. Die Seite zur 2-Personen-Sauna sortiert sie nach Stellfläche.",
+        "Bei den Infrarotkabinen für eine Person liegen die Außenmaße meist um einen Meter Breite und Tiefe. Unterschiede zeigen sich eher bei Strahlertechnik, Leistung und den Herstellerangaben zur Sitzposition. Eine eigene Übersicht nur für Infrarotkabinen für eine Person gibt es unter den verwandten Vergleichen.",
+        "Einige Einträge kombinieren eine Dampfdusche mit einem Infrarotsitz. Sie sind ebenfalls für eine Person ausgewiesen, brauchen aber Wasseranschluss und Abfluss und gehören deshalb eher ins Badezimmer als in einen Wohnraum. Der Ratgeber zur Sauna im Badezimmer beschreibt, was dabei zu prüfen ist."
+      ],
+      "fit_checks": [{"width": 100, "depth": 100}, {"width": 120, "depth": 120}],
+      "note": "Mediane, Spannen und Zählungen werden bei jedem Build aus den aktuellen Produktdaten berechnet. „Preis ab“ ist das niedrigste gültige Angebot mit Prüfdatum, der Median bezieht sich auf das jeweils günstigste Angebot je Modell."
     },
     "rule": "one_person_indoor",
     "sort": "footprint",
@@ -209,9 +221,9 @@
     "slug": "2-personen-sauna",
     "kind": "Kategorie",
     "eyebrow": "Zwei Personen · Innenaufstellung",
-    "title": "2-Personen-Sauna für zu Hause",
-    "accent": "kompakt gemeinsam nutzen.",
-    "description": "Verifizierte Indoor-Saunen und Infrarotkabinen mit einer ausgewiesenen Kapazität von zwei Personen – mit Stellfläche, Anschluss und Preisstand.",
+    "title": "2-Personen-Sauna für innen",
+    "accent": "Maße, Anschluss und Preise.",
+    "description": "Indoor-Saunen und Infrarotkabinen für zwei Personen im Datenvergleich: typische Außenmaße nach Wärmeart, Stellfläche, 230-V-Anschluss, Liegeplätze und Preisstand.",
     "intro": "Die Auswahl umfasst Innenmodelle, deren veröffentlichte Maximalkapazität zwei Personen beträgt. Die Reihenfolge richtet sich nach der dokumentierten Stellfläche.",
     "layout": "space",
     "related_ids": ["1-person-sauna", "finnish-two-person", "3-personen-sauna", "mini-sauna"],
@@ -227,6 +239,18 @@
       "pointsTitle": "Gemeinsam prüfen",
       "points": ["Banklänge und Sitztiefe für zwei Personen", "Innenhöhe und Türposition", "Ofen oder Strahleranordnung", "Leistung, Lüftung und Anschluss"],
       "callout": "Für zwei Personen sind Bankbreite, Zugang und Innenhöhe entscheidend."
+    },
+    "profile": {
+      "kicker": "Maße aus dem Katalog",
+      "title": "Wie viel Platz eine Sauna für zwei Personen tatsächlich braucht.",
+      "paragraphs": [
+        "Die Tabelle fasst die Außenmaße aller Innenmodelle zusammen, die ihr Hersteller für zwei Personen ausweist, getrennt nach Wärmeart. Finnische Zweierkabinen brauchen deutlich mehr Grundfläche als Infrarotkabinen, weil Ofen, Ofenschutz und eine Bank mit ausreichender Sitztiefe in den Raum passen müssen.",
+        "Wer nach einer Sauna für 140 × 200 cm sucht, plant meist eine Nische oder einen abgetrennten Raumteil. Die Zählung unter der Tabelle prüft nur, ob das Außenmaß in einer der beiden Ausrichtungen hineinpasst. Abstand zur Wand für Montage, Tür und Luftzufuhr kommt hinzu und wird im Ratgeber zum Platzbedarf erklärt.",
+        "Liegen ist in einer Zweierkabine eher die Ausnahme. Nur ein Teil der Modelle nennt überhaupt einen Liegeplatz, zwei Liegeplätze sind selten. Wer sich ausstrecken möchte, sollte zuerst auf die Liegeplatzangabe und die Banklänge in der Zeichnung achten und erst danach die Stellfläche vergleichen.",
+        "Einen Steckeranschluss mit 230 V geben die Hersteller bei Infrarotkabinen überwiegend an, bei finnischen Zweierkabinen nur für einen Teil der Modelle. Häufig steht die Anschlussart erst in der Montageanleitung. Solche Modelle zählen in der Tabelle nicht als 230 V und sollten vor dem Kauf mit Hersteller oder Elektrofachbetrieb geklärt werden."
+      ],
+      "fit_checks": [{"width": 140, "depth": 200}],
+      "note": "Mediane, Spannen und Zählungen werden bei jedem Build aus den aktuellen Produktdaten berechnet. „Preis ab“ ist das niedrigste gültige Angebot mit Prüfdatum, der Median bezieht sich auf das jeweils günstigste Angebot je Modell."
     },
     "rule": "two_person_indoor",
     "sort": "footprint",

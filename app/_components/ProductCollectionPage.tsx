@@ -4,11 +4,14 @@ import { StructuredData } from "@/app/_components/StructuredData";
 import {
   collectionSectionLabels,
   collections,
+  countFittingProducts,
   getCollectionPath,
+  getDimensionProfile,
   getCollectionProducts,
   getFootprintSquareMeters,
   getLowestPrice,
   type Collection,
+  type DimensionProfileRow,
 } from "@/lib/collections";
 import {
   getCollectionPresentation,
@@ -106,6 +109,7 @@ function CollectionModuleBlock({ context, module }: { context: CollectionPageCon
   if (module === "insight") return <CollectionInsight presentation={context.presentation} />;
   if (module === "editorial") return <CollectionEditorial collection={context.collection} />;
   if (module === "method") return <CollectionMethod collection={context.collection} planningGuides={context.planningGuides} variant={context.presentation.method} />;
+  if (module === "profile") return <CollectionProfile collection={context.collection} candidates={context.candidates} />;
   if (module === "results") return <CollectionResults collection={context.collection} candidates={context.candidates} variant={context.presentation.results} />;
   return <CollectionChecks collection={context.collection} />;
 }
@@ -187,6 +191,52 @@ function CollectionResultsLedger({ candidates }: { candidates: Product[] }) {
       <p>{formatFootprint(product)}<small>{formatDimensions(product)}</small></p><p>{formatCapacity(product)}<small>{formatConnection(product)}</small></p><p>{formatPrice(product)}</p>
       <Link href={`/de/produkte/${product.product_id}/`} aria-label={`${product.brand} ${product.model} öffnen`}>↗</Link>
     </li>)}</ol>
+  );
+}
+
+const squareMeters = new Intl.NumberFormat("de-DE", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const euros = new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
+
+function formatEuro(value: number | null) {
+  return value === null ? "nicht dokumentiert" : euros.format(value);
+}
+
+function CollectionProfileRow({ row, total }: { row: DimensionProfileRow; total?: boolean }) {
+  return (
+    <tr className={total ? "collection-profile-total" : undefined}>
+      <th scope="row">{row.label}</th>
+      <td>{row.count}</td>
+      <td>{Math.round(row.medianWidth)} × {Math.round(row.medianDepth)} cm</td>
+      <td>{row.minFootprint === row.maxFootprint ? squareMeters.format(row.minFootprint) : `${squareMeters.format(row.minFootprint)}–${squareMeters.format(row.maxFootprint)}`} m²</td>
+      <td>bis {row.maxHeight} cm</td>
+      <td>{row.plugCount} von {row.count}</td>
+      <td>{row.lyingCount} von {row.count}</td>
+      <td>{formatEuro(row.lowestPrice)}<small>Median {formatEuro(row.medianPrice)}</small></td>
+    </tr>
+  );
+}
+
+function CollectionProfile({ collection, candidates }: { collection: Collection; candidates: Product[] }) {
+  const profile = collection.profile;
+  if (!profile || candidates.length === 0) return null;
+  const { rows, total } = getDimensionProfile(candidates);
+  return (
+    <section className="collection-profile page-shell" aria-labelledby="collection-profile-title" data-page-module="profile">
+      <div className="collection-profile-head">
+        <div><p className="eyebrow">{profile.kicker}</p><h2 id="collection-profile-title">{profile.title}</h2></div>
+        <div>{profile.paragraphs.map((paragraph) => <p data-editorial-copy="true" key={paragraph}>{paragraph}</p>)}</div>
+      </div>
+      <div className="collection-table-wrap"><table className="collection-table collection-profile-table">
+        <caption className="visually-hidden">{collection.title}: Maße, Anschluss und Preise nach Wärmeart</caption>
+        <thead><tr><th scope="col">Wärmeart</th><th scope="col">Modelle</th><th scope="col">Außenmaß (Median B × T)</th><th scope="col">Stellfläche</th><th scope="col">Höhe</th><th scope="col">230 V laut Hersteller</th><th scope="col">Mit Liegeplatz</th><th scope="col">Preis ab</th></tr></thead>
+        <tbody>{rows.map((row) => <CollectionProfileRow row={row} key={row.label} />)}</tbody>
+        {rows.length > 1 ? <tfoot><CollectionProfileRow row={total} total /></tfoot> : null}
+      </table></div>
+      <ul className="collection-profile-fits">
+        {profile.fit_checks.map(({ width, depth }) => <li key={`${width}x${depth}`}><strong>{countFittingProducts(candidates, width, depth)} von {candidates.length}</strong> Modellen passen mit ihrem Außenmaß auf {width} × {depth} cm, in einer der beiden Ausrichtungen.</li>)}
+      </ul>
+      <p className="collection-profile-note">{profile.note}</p>
+    </section>
   );
 }
 

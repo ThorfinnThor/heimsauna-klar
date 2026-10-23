@@ -7,7 +7,7 @@ export type EditorialInsight = {
   points: string[];
 };
 
-export type CollectionModule = "insight" | "editorial" | "method" | "results" | "checks";
+export type CollectionModule = "insight" | "editorial" | "method" | "results" | "checks" | "profile";
 export type CollectionPresentation = {
   hero: "editorial" | "compact" | "index" | "split";
   results: "table" | "cards" | "ledger";

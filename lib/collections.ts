@@ -47,6 +47,13 @@ export type Collection = {
     points: string[];
     callout: string;
   };
+  profile?: {
+    kicker: string;
+    title: string;
+    paragraphs: string[];
+    fit_checks: Array<{ width: number; depth: number }>;
+    note: string;
+  };
   rule?: CollectionRule;
   filters?: CollectionFilter;
   sort: "footprint" | "price";
@@ -158,4 +165,56 @@ export function getCollectionProducts(collection: Collection) {
         : getFootprintSquareMeters(a) - getFootprintSquareMeters(b);
       return primary || a.model.localeCompare(b.model, "de");
     });
+}
+
+export type DimensionProfileRow = {
+  label: string;
+  count: number;
+  medianWidth: number;
+  medianDepth: number;
+  minFootprint: number;
+  maxFootprint: number;
+  maxHeight: number;
+  plugCount: number;
+  lyingCount: number;
+  lowestPrice: number | null;
+  medianPrice: number | null;
+};
+
+function median(values: number[]) {
+  const sorted = [...values].sort((a, b) => a - b);
+  const middle = Math.floor(sorted.length / 2);
+  return sorted.length % 2 === 1 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+}
+
+function summarizeDimensions(label: string, group: Product[]): DimensionProfileRow {
+  const footprints = group.map(getFootprintSquareMeters);
+  const prices = group.map(getLowestPrice).filter((price): price is number => price !== null);
+  return {
+    label,
+    count: group.length,
+    medianWidth: median(group.map((product) => product.dimensions_cm.width)),
+    medianDepth: median(group.map((product) => product.dimensions_cm.depth)),
+    minFootprint: Math.min(...footprints),
+    maxFootprint: Math.max(...footprints),
+    maxHeight: Math.max(...group.map((product) => product.dimensions_cm.height)),
+    plugCount: group.filter((product) => product.power.voltage === 230).length,
+    lyingCount: group.filter((product) => product.people.lying_places >= 1).length,
+    lowestPrice: prices.length > 0 ? Math.min(...prices) : null,
+    medianPrice: prices.length > 0 ? median(prices) : null,
+  };
+}
+
+// Per heat type, largest group first, followed by a row for all candidates.
+export function getDimensionProfile(candidates: Product[]) {
+  const groups = new Map<string, Product[]>();
+  for (const product of candidates) groups.set(product.sauna.type, [...(groups.get(product.sauna.type) ?? []), product]);
+  const rows = [...groups.entries()]
+    .sort(([leftType, left], [rightType, right]) => right.length - left.length || leftType.localeCompare(rightType, "de"))
+    .map(([type, group]) => summarizeDimensions(type, group));
+  return { rows, total: summarizeDimensions("Alle Modelle", candidates) };
+}
+
+export function countFittingProducts(candidates: Product[], width: number, depth: number) {
+  return candidates.filter(({ dimensions_cm: size }) => (size.width <= width && size.depth <= depth) || (size.width <= depth && size.depth <= width)).length;
 }
