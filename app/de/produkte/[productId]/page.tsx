@@ -94,6 +94,9 @@ export default async function ProductPage({ params }: Props) {
                           href={offerLink.href}
                           rel={offerLink.affiliate ? "sponsored nofollow noreferrer" : "nofollow noreferrer"}
                           target="_blank"
+                          data-offer-merchant={offer.merchant}
+                          data-offer-product={product.product_id}
+                          data-offer-affiliate={offerLink.affiliate ? "true" : "false"}
                         >
                           {offer.selection_required ? "Konfigurator öffnen ↗" : "Angebot öffnen ↗"}
                         </a>

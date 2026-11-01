@@ -226,7 +226,7 @@
     "description": "Indoor-Saunen und Infrarotkabinen für zwei Personen im Datenvergleich: typische Außenmaße nach Wärmeart, Stellfläche, 230-V-Anschluss, Liegeplätze und Preisstand.",
     "intro": "Die Auswahl umfasst Innenmodelle, deren veröffentlichte Maximalkapazität zwei Personen beträgt. Die Reihenfolge richtet sich nach der dokumentierten Stellfläche.",
     "layout": "space",
-    "related_ids": ["1-person-sauna", "finnish-two-person", "3-personen-sauna", "mini-sauna"],
+    "related_ids": ["1-person-sauna", "finnish-two-person", "3-personen-sauna", "indoor-under-2000"],
     "planning": {"kicker": "Gemeinsam planen", "intro": "Zwei Plätze müssen mit Bankbreite, Zugang, Luftweg und Leistung zusammenpassen.", "guide_ids": ["platzbedarf", "lueftung"]},
     "editorial": {
       "kicker": "Zwei Personen · Platz im Alltag",
@@ -274,8 +274,8 @@
       "results_intro": "Außenfläche schafft eine erste Ordnung. Innenmaße und Sitzanordnung müssen in der Anleitung des einzelnen Modells gelesen werden.",
       "checks_kicker": "Zu zweit im tatsächlichen Innenraum",
       "checks_title": "Vier Maße und Technikangaben sind aussagekräftiger als die Kapazitätszahl.",
-      "related_kicker": "Kapazität nach oben oder unten verschieben",
-      "related_title": "Einzelkabinen, finnische Zweierkabinen, Dreiermodelle und Mini-Saunen vergleichen."
+      "related_kicker": "Kapazität oder Budget verschieben",
+      "related_title": "Einzelkabinen, finnische Zweierkabinen, Dreiermodelle und Indoor-Saunen bis 2.000 Euro vergleichen."
     }
   },
   {
@@ -914,12 +914,12 @@
     "layout": "technical",
     "filters": {"categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 2},
     "sort": "footprint",
-    "related_ids": ["2-personen-sauna", "finnish-three-person", "finnische-sauna", "3-personen-sauna"],
+    "related_ids": ["2-personen-sauna", "finnish-three-person", "finnische-sauna", "brand-home-deluxe"],
     "planning": {"kicker": "Volumen und Ofen abgleichen", "intro": "Zwei Sitzplätze brauchen einen passenden Ofen, Luftweg und Zugang. Die Herstellerzuordnung des konkreten Modells ist ausschlaggebend.", "guide_ids": ["saunagroesse-3-6-kw", "lueftung"]},
     "editorial": {"kicker": "Klassisches Innenmodell", "title": "Eine Zweierkabine muss nicht auf jede zusätzliche Raumreserve verzichten.", "paragraphs": ["Die Auswahl nutzt die Kapazitätsangabe und den Saunatyp, nicht eine eigene Temperatur- oder Komfortmessung. Innenbreite, Bankhöhe und Liegelänge entscheiden darüber, wie die zwei Plätze im Alltag genutzt werden können.", "Bei einer finnischen Sauna gehören Ofenleistung, Raumvolumen und Lüftung zusammen. Die Produktdaten zeigen nur belegte Werte; fehlende Angaben werden nicht aus ähnlichen Modellen übernommen.", "Die Sortierung nach Fläche macht kompakte Modelle auffindbar. Vor dem Kauf müssen Montageabstände, Anschluss und die freigegebene Ofenkombination mit der konkreten Kabinenanleitung abgeglichen werden."], "pointsTitle": "Technik der Zweierkabine prüfen", "points": ["Raumvolumen und Ofenbereich vergleichen", "Bankgeometrie und Liegelänge prüfen", "Anschluss und Steuerung belegen", "Zuluft und Abluft in den Raumplan eintragen"], "callout": "Zwei Plätze sind eine Kapazität; das Saunaklima entsteht aus dem abgestimmten System."},
     "criteria": ["Kategorie Indoor und Typ Finnische Sauna", "Herstellerkapazität beträgt genau zwei Personen", "Maße und Ofenangaben sind quellenbezogen dokumentiert"],
     "checks": ["Kapazität nicht als Komfortprüfung lesen.", "Ofenleistung mit Raumvolumen und Glasflächen abgleichen.", "Anschluss durch eine Elektrofachkraft am Standort prüfen lassen.", "Lüftung und Montageabstände aus den konkreten Anleitungen übernehmen."],
-    "module_copy": {"method_kicker": "Technischer Filter", "method_title": "Einbezogen werden finnische Indoor-Saunen mit ausgewiesener Kapazität für zwei Personen.", "method_note": "Der jüngste Preis- und Datenstand dieser Auswahl stammt vom", "results_kicker": "Klassische Zweierkabinen", "results_title": "{count} finnische Indoor-Saunen sind für zwei Personen ausgewiesen.", "results_intro": "Die Produktfläche ordnet die Liste. Ofen, Steuerung, Bank und Lüftung bleiben modellbezogene Prüfpunkte.", "checks_kicker": "Kabinensystem statt Einzelwert", "checks_title": "Vier technische Angaben müssen zusammenpassen.", "related_kicker": "Kapazität oder Wärmeart wechseln", "related_title": "Allgemeine Zweier- und Dreierkabinen, finnische Dreiermodelle und die finnische Gesamtauswahl ansehen."}
+    "module_copy": {"method_kicker": "Technischer Filter", "method_title": "Einbezogen werden finnische Indoor-Saunen mit ausgewiesener Kapazität für zwei Personen.", "method_note": "Der jüngste Preis- und Datenstand dieser Auswahl stammt vom", "results_kicker": "Klassische Zweierkabinen", "results_title": "{count} finnische Indoor-Saunen sind für zwei Personen ausgewiesen.", "results_intro": "Die Produktfläche ordnet die Liste. Ofen, Steuerung, Bank und Lüftung bleiben modellbezogene Prüfpunkte.", "checks_kicker": "Kabinensystem statt Einzelwert", "checks_title": "Vier technische Angaben müssen zusammenpassen.", "related_kicker": "Kapazität oder Wärmeart wechseln", "related_title": "Allgemeine Zweierkabinen, finnische Dreiermodelle, die finnische Gesamtauswahl und das Home-Deluxe-Sortiment mit kompakten 230-V-Kabinen ansehen."}
   },
   {
     "id": "finnish-three-person",

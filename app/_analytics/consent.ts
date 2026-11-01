@@ -62,9 +62,30 @@ function ensureGtagQueue() {
   return w.gtag;
 }
 
+// Outbound offer clicks become a GA4 event; reported only while consent is granted.
+function trackOfferClick(event: MouseEvent) {
+  const link = (event.target as Element | null)?.closest?.("a[data-offer-merchant]");
+  const w = gtagWindow();
+  if (!(link instanceof HTMLAnchorElement) || !w.gtag || w[`ga-disable-${GA_MEASUREMENT_ID}`] || readConsent() !== "granted") return;
+  w.gtag("event", "offer_click", {
+    merchant: link.dataset.offerMerchant,
+    product_id: link.dataset.offerProduct,
+    affiliate: link.dataset.offerAffiliate === "true",
+    link_domain: new URL(link.href).hostname,
+    transport_type: "beacon",
+  });
+}
+
+let offerTrackingAttached = false;
+
 export function enableAnalytics() {
   const w = gtagWindow();
   const gtag = ensureGtagQueue();
+  if (!offerTrackingAttached) {
+    document.addEventListener("click", trackOfferClick, { capture: true });
+    document.addEventListener("auxclick", trackOfferClick, { capture: true });
+    offerTrackingAttached = true;
+  }
   w[`ga-disable-${GA_MEASUREMENT_ID}`] = false;
   gtag("consent", "update", { analytics_storage: "granted" });
   gtag("js", new Date());
