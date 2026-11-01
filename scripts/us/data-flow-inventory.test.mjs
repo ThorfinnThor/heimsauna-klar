@@ -131,3 +131,19 @@ test("Cloudflare Web Analytics is recorded as an operator-enabled hosting servic
   assert.equal(service?.active, true);
   assert.match(service?.recipients?.join(",") ?? "", /Cloudflare/);
 });
+
+test("the German consent banner ships in the static HTML and is hidden before paint once a valid choice exists", async () => {
+  // Appearing only after hydration made the banner the late mobile LCP element.
+  const read = (path) => readFile(resolve(projectRoot, path), "utf8");
+  const [banner, consent, rootLayout, deLayout, css] = await Promise.all([
+    read("app/_analytics/CookieConsent.tsx"), read("app/_analytics/consent.ts"),
+    read("app/(root)/layout.tsx"), read("app/de/layout.tsx"), read("app/globals.css"),
+  ]);
+  assert.match(banner, /useSyncExternalStore\(subscribe, readConsent, \(\) => null\)/);
+  assert.match(banner, /removeAttribute\(CONSENT_DECIDED_ATTRIBUTE\)/);
+  // The head script applies readConsent's own test: version and an allowed value.
+  assert.match(consent, /s\.version===\$\{CONSENT_VERSION\}/);
+  assert.match(consent, /s\.analytics==="granted"\|\|s\.analytics==="denied"/);
+  for (const layout of [rootLayout, deLayout]) assert.match(layout, /<head>\s*<script dangerouslySetInnerHTML=\{\{ __html: consentHeadScript \}\} \/>\s*<\/head>/);
+  assert.match(css, /html\[data-consent-set\] \.cookie-consent \{ display: none; \}/);
+});

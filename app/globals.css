@@ -2092,3 +2092,6 @@ html[data-market="US"] .not-found-copy[data-market="US"] {
 @media (max-width: 1050px) {
   .collection-profile-head { grid-template-columns: 1fr; gap: 20px; }
 }
+
+/* A reader with a stored choice: the head script in the layouts sets this before first paint. */
+html[data-consent-set] .cookie-consent { display: none; }

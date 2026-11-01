@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import {
   CONSENT_CHANGE_EVENT,
+  CONSENT_DECIDED_ATTRIBUTE,
   CONSENT_STORAGE_KEY,
   OPEN_SETTINGS_EVENT,
   disableAnalytics,
@@ -35,9 +36,12 @@ function subscribe(onChange: () => void) {
   };
 }
 
-// "pending" on the server so the static HTML never contains the banner or a stale choice.
-function useConsent(): ConsentChoice | null | "pending" {
-  return useSyncExternalStore(subscribe, readConsent, () => "pending");
+// "No choice yet" on the server: the static HTML carries the banner so it paints with
+// the page (appearing only after hydration made it the late mobile LCP element). It
+// never carries a stale choice; the head script in the layouts hides the banner
+// before paint for a reader who already decided.
+function useConsent(): ConsentChoice | null {
+  return useSyncExternalStore(subscribe, readConsent, () => null);
 }
 
 export function CookieConsent({ copy }: { copy: CookieConsentCopy }) {
@@ -51,7 +55,10 @@ export function CookieConsent({ copy }: { copy: CookieConsentCopy }) {
   }, [consent]);
 
   useEffect(() => {
-    const open = () => setSettingsOpen(true);
+    const open = () => {
+      document.documentElement.removeAttribute(CONSENT_DECIDED_ATTRIBUTE);
+      setSettingsOpen(true);
+    };
     window.addEventListener(OPEN_SETTINGS_EVENT, open);
     return () => window.removeEventListener(OPEN_SETTINGS_EVENT, open);
   }, []);
@@ -60,7 +67,7 @@ export function CookieConsent({ copy }: { copy: CookieConsentCopy }) {
     if (settingsOpen) titleRef.current?.focus();
   }, [settingsOpen]);
 
-  if (consent === "pending" || (consent !== null && !settingsOpen)) return null;
+  if (consent !== null && !settingsOpen) return null;
 
   const decide = (choice: ConsentChoice) => {
     writeConsent(choice);

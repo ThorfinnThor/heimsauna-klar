@@ -6,6 +6,15 @@ export const GA_SCRIPT_URL = `https://www.googletagmanager.com/gtag/js?id=${GA_M
 export const CONSENT_STORAGE_KEY = "sys-cookie-consent";
 export const CONSENT_VERSION = 1;
 export const CONSENT_CHANGE_EVENT = "sys:consent-change";
+
+// The banner ships in the static HTML so it paints with the page; appearing only
+// after hydration made it the mobile LCP element. This runs in <head> before first
+// paint and marks a reader with a valid stored choice (the same test as
+// readConsent), so globals.css hides the banner for them without a flash. An
+// invalid or outdated entry leaves the attribute off and the banner visible.
+export const CONSENT_DECIDED_ATTRIBUTE = "data-consent-set";
+export const consentHeadScript =
+  `try{var r=localStorage.getItem(${JSON.stringify(CONSENT_STORAGE_KEY)});if(r){var s=JSON.parse(r);if(s&&s.version===${CONSENT_VERSION}&&(s.analytics==="granted"||s.analytics==="denied"))document.documentElement.setAttribute(${JSON.stringify(CONSENT_DECIDED_ATTRIBUTE)},"")}}catch(e){}`;
 export { OPEN_SETTINGS_EVENT } from "./events";
 
 export type ConsentChoice = "granted" | "denied";
