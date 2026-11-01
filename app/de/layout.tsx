@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CookieConsent } from "@/app/_analytics/CookieConsent";
+import { consentHeadScript } from "@/app/_analytics/consent";
 import { StructuredData } from "@/app/_components/StructuredData";
 import legal from "@/content/de/legal.json";
 import { isIndexingEnabled, siteUrl } from "@/lib/site";
@@ -29,6 +30,9 @@ export const metadata: Metadata = {
 export default function GermanRootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="de">
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: consentHeadScript }} />
+      </head>
       <body>
         <StructuredData data={organizationJsonLd()} />
         <StructuredData data={editorialAuthorJsonLd()} />
