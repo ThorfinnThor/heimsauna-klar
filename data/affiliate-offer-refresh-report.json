@@ -1,36 +1,35 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-01",
+  "checked_at": "2026-11-15",
   "method": "structured price data (JSON-LD Product offers, itemprop/product:price meta) read from each offer URL",
   "counts": {
-    "updated": 33,
-    "confirmed": 141,
+    "updated": 52,
+    "confirmed": 123,
     "no-structured-price": 25,
+    "implausible-change": 4,
     "redirected-away": 1,
-    "unreachable": 5,
-    "from-price": 1,
-    "ambiguous-variants": 1,
-    "implausible-change": 3
+    "unreachable": 4,
+    "from-price": 1
   },
   "entries": [
     {
       "product_id": "karibu-sauna-sandra-6705",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-massivholzsauna-sandra-1-45-x-1-45-m-6705",
-      "stored_price": 1693.17,
+      "stored_price": 1653.11,
       "outcome": "updated",
       "page_prices": [
-        1653.11
+        1693.17
       ]
     },
     {
       "product_id": "karibu-sauna-antonia-6717",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-massivholzsauna-antonia-1-45-x-1-45-m-6717",
-      "stored_price": 1802.54,
+      "stored_price": 1799.88,
       "outcome": "updated",
       "page_prices": [
-        1799.88
+        1694.38
       ]
     },
     {
@@ -38,17 +37,17 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-massivholzsauna-selena-1-95-x-1-45-m-6729",
       "stored_price": 1818.12,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        1818.12
+        1821.22
       ]
     },
     {
       "product_id": "karibu-sauna-saja-85924",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-saja-1-51-x-1-96-m-85898",
-      "stored_price": 2553.63,
-      "outcome": "updated",
+      "stored_price": 2535.87,
+      "outcome": "confirmed",
       "page_prices": [
         2535.87
       ]
@@ -68,9 +67,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-fanja-1-96-x-1-51-m-59778",
       "stored_price": 1920.74,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        1920.74
+        2065.63
       ]
     },
     {
@@ -115,9 +114,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-hytti-1-1-96-x-1-46-m-38-mm-93865",
       "stored_price": 2150.26,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2150.26
+        2047.72
       ]
     },
     {
@@ -138,20 +137,20 @@
       "product_id": "karibu-saunahaus-skrollan-1-86283",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-skrollan-1-3-37-x-1-96-cm-mit-vorraum-86287",
-      "stored_price": 4478.99,
-      "outcome": "updated",
+      "stored_price": 3889.77,
+      "outcome": "implausible-change",
       "page_prices": [
-        3889.77
+        8678.99
       ]
     },
     {
       "product_id": "karibu-saunahaus-cuben-80796",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-80796",
-      "stored_price": 3975.66,
+      "stored_price": 3997.96,
       "outcome": "updated",
       "page_prices": [
-        3997.96
+        4371.67
       ]
     },
     {
@@ -159,9 +158,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-cuben-2-76-x-2-76-m-terragrau-81132",
       "stored_price": 4388.16,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        4388.16
+        4784.17
       ]
     },
     {
@@ -188,8 +187,8 @@
       "product_id": "karibu-saunahaus-mainburg-2-35976",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-2-3-69-x-3-09-m-mit-vorraum-35977",
-      "stored_price": 5086.89,
-      "outcome": "updated",
+      "stored_price": 5031.67,
+      "outcome": "confirmed",
       "page_prices": [
         5031.67
       ]
@@ -229,9 +228,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-fasssauna-quadro-1-plus-2-42-x-1-75-m-38-mm-35447",
       "stored_price": 2798,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2798
+        2756.03
       ]
     },
     {
@@ -246,19 +245,19 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-86314",
       "stored_price": 5048.17,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        5048.17
+        5567.22
       ]
     },
     {
       "product_id": "karibu-saunahaus-hygge-86314",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-hygge-5-08-x-2-76-cm-terragrau-86313",
-      "stored_price": 5790.66,
+      "stored_price": 5846.62,
       "outcome": "updated",
       "page_prices": [
-        5846.62
+        6417.28
       ]
     },
     {
@@ -289,10 +288,10 @@
       "product_id": "karibu-saunahaus-skrollan-2-86299",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-skrollan-2-3-37-x-2-31-cm-mit-vorraum-86294",
-      "stored_price": 3882.26,
+      "stored_price": 3898.36,
       "outcome": "updated",
       "page_prices": [
-        3898.36
+        3882.26
       ]
     },
     {
@@ -314,29 +313,29 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-skrollan-3-3-96-x-2-31-cm-mit-vorraum-86311",
       "stored_price": 4412.91,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        4412.91
+        4490.62
       ]
     },
     {
       "product_id": "karibu-saunahaus-mainburg-1-35866",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-1-3-09-x-3-09-m-mit-vorraum-35863",
-      "stored_price": 4437.81,
+      "stored_price": 4505.39,
       "outcome": "updated",
       "page_prices": [
-        4505.39
+        4990.41
       ]
     },
     {
       "product_id": "karibu-saunahaus-mainburg-4-36295",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-4-4-90-x-3-69-m-mit-vorraum-36292",
-      "stored_price": 5838.81,
+      "stored_price": 5790.66,
       "outcome": "updated",
       "page_prices": [
-        5790.66
+        6186.66
       ]
     },
     {
@@ -344,17 +343,17 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-5-5-09-x-3-69-m-mit-vorraum-36298",
       "stored_price": 6401.16,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        6401.16
+        6797.16
       ]
     },
     {
       "product_id": "karibu-saunahaus-angkor-3-185",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-angkor-3-2-77-x-2-76-m-38-mm-185",
-      "stored_price": 4778.99,
-      "outcome": "updated",
+      "stored_price": 4041.67,
+      "outcome": "confirmed",
       "page_prices": [
         4041.67
       ]
@@ -374,9 +373,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-3-2-19-x-3-85-m-27453",
       "stored_price": 3934.41,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        3934.41
+        4459.1
       ]
     },
     {
@@ -394,19 +393,19 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-gartensauna-fasshaus-2-2-19-x-2-95-m-27450",
       "stored_price": 2903.16,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2903.16
+        3299.16
       ]
     },
     {
       "product_id": "karibu-saunahaus-angkor-2-182",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-angkor-2-2-37-x-2-76-m-38-mm-182",
-      "stored_price": 4378.99,
+      "stored_price": 3721.33,
       "outcome": "updated",
       "page_prices": [
-        3721.33
+        3711.67
       ]
     },
     {
@@ -424,9 +423,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-askja-2-16-x-2-34-m-35230",
       "stored_price": 2698.89,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2698.89
+        3004.24
       ]
     },
     {
@@ -454,9 +453,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-massivholzsauna-sonara-2-36-x-1-84-m-40-mm-75819",
       "stored_price": 2373.84,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2373.84
+        2601.86
       ]
     },
     {
@@ -464,9 +463,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-malin-2-31-x-1-96-m-75782",
       "stored_price": 2329.63,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2329.63
+        2601.86
       ]
     },
     {
@@ -474,9 +473,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-gobin-2-31-x-1-96-m-75757",
       "stored_price": 2288.37,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2288.37
+        2607.28
       ]
     },
     {
@@ -484,9 +483,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-massivholzsauna-mojave-1-96-x-1-96-m-40-mm-71394",
       "stored_price": 2234.97,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2234.97
+        2478.12
       ]
     },
     {
@@ -494,9 +493,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-fiona-3-2-31-x-1-96-m-49442",
       "stored_price": 2205.87,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2205.87
+        2478.12
       ]
     },
     {
@@ -504,9 +503,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-jarin-1-96-x-1-96-m-71344",
       "stored_price": 2164.62,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2164.62
+        2436.87
       ]
     },
     {
@@ -514,9 +513,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-massivholzsauna-sahib-1-1-93-x-1-84-m-40-mm-75854",
       "stored_price": 2186.71,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2186.71
+        2395.62
       ]
     },
     {
@@ -534,19 +533,19 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-horna-2-31-x-1-96-m-6196",
       "stored_price": 2106.87,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2106.87
+        2379.12
       ]
     },
     {
       "product_id": "karibu-sauna-rodin",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-rodin-1-96-x-1-96-m-75722",
-      "stored_price": 2082.12,
+      "stored_price": 2145.33,
       "outcome": "updated",
       "page_prices": [
-        2145.33
+        2430
       ]
     },
     {
@@ -554,9 +553,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-nybro-2-31-x-1-96-m-6195",
       "stored_price": 2065.63,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2065.63
+        2337.87
       ]
     },
     {
@@ -564,9 +563,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-lilja-1-96-x-1-70-m-59781",
       "stored_price": 2058.64,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2058.64
+        2189.37
       ]
     },
     {
@@ -597,10 +596,10 @@
       "product_id": "karibu-mainburg-3-36285",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-mainburg-3-3-69-x-3-69-m-mit-vorraum-36278",
-      "stored_price": 5613.52,
+      "stored_price": 5529.32,
       "outcome": "updated",
       "page_prices": [
-        5529.32
+        5526.66
       ]
     },
     {
@@ -624,8 +623,8 @@
       "product_id": "karibu-hytti-6-123m",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-hytti-6-3-96-x-2-31-m-38-mm-126",
-      "stored_price": 4128.99,
-      "outcome": "updated",
+      "stored_price": 3505.41,
+      "outcome": "confirmed",
       "page_prices": [
         3505.41
       ]
@@ -644,10 +643,10 @@
       "product_id": "karibu-sauna-ainur-6105",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-ainur-2-31-x-1-96-m-6098",
-      "stored_price": 3055.62,
+      "stored_price": 3152.6,
       "outcome": "updated",
       "page_prices": [
-        3152.6
+        3105.31
       ]
     },
     {
@@ -665,29 +664,29 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-massivholzsauna-amara-2-36-x-1-84-m-40-mm-71285",
       "stored_price": 2643.11,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2643.11
+        2987.51
       ]
     },
     {
       "product_id": "karibu-sauna-amelia-1-66744",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-amelia-1-1-96-x-1-70-m-66743",
-      "stored_price": 2061.73,
+      "stored_price": 2101.99,
       "outcome": "updated",
       "page_prices": [
-        2101.99
+        1374.99
       ]
     },
     {
       "product_id": "karibu-sauna-amelia-3-66762",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-amelia-3-2-31-x-1-96-m-66760",
-      "stored_price": 2322.72,
+      "stored_price": 2288.37,
       "outcome": "updated",
       "page_prices": [
-        2288.37
+        2635.86
       ]
     },
     {
@@ -695,9 +694,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-arvika-2-31-x-2-31-m-6197",
       "stored_price": 2227.08,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2227.08
+        2420.38
       ]
     },
     {
@@ -1063,7 +1062,7 @@
       "stored_price": 1349,
       "outcome": "confirmed",
       "page_prices": [
-        1349
+        1348.9999
       ]
     },
     {
@@ -1275,91 +1274,17 @@
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/premium-massivholzsauna-tyla-massanfertigung/sw10348.52",
       "stored_price": 3199,
-      "outcome": "ambiguous-variants",
+      "outcome": "updated",
       "page_prices": [
-        3489,
-        75282,
-        77449.17,
-        77720.06,
-        79616.33,
-        80429.02,
-        80699.92,
-        82325.29,
-        83408.88,
-        83679.77,
-        85034.25,
-        85576.05,
-        86117.84,
-        86659.63,
-        87201.42,
-        88285.01,
-        88555.9,
-        89368.59,
-        90181.28,
-        90452.17,
-        90723.07,
-        90993.97,
-        92348.45,
-        92890.24,
-        93432.03,
-        93973.82,
-        94244.72,
-        94515.61,
-        95057.41,
-        95599.2,
-        96411.89,
-        96682.78,
-        96953.68,
-        97495.47,
-        98037.26,
-        98849.95,
-        99662.64,
-        99933.53,
-        100204.43,
-        100475.33,
-        100746.22,
-        101558.91,
-        101829.81,
-        103455.18,
-        103726.08,
-        104809.66,
-        105080.56,
-        106705.93,
-        107247.73,
-        107518.62,
-        108060.41,
-        108331.31,
-        108602.21,
-        110498.48,
-        111311.17,
-        111852.96,
-        113749.23,
-        114291.02,
-        115103.71,
-        115374.61,
-        116999.98,
-        117541.77,
-        118354.46,
-        118625.36,
-        121063.42,
-        121605.21,
-        122417.9,
-        122688.8,
-        124855.97,
-        125939.55,
-        126210.45,
-        129461.2,
-        129732.09,
-        133253.74,
-        137046.29
+        3489
       ]
     },
     {
       "product_id": "artsauna-spitzbergen-180",
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/fasssauna-spitzbergen-180-fuer-den-aussenbereich-/-180-cm-oe-190-cm",
-      "stored_price": 1789,
-      "outcome": "updated",
+      "stored_price": 1609,
+      "outcome": "confirmed",
       "page_prices": [
         1609
       ]
@@ -1378,8 +1303,8 @@
       "product_id": "artsauna-nolvik-xl",
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/fasssauna-nolvik-xl/301841.4",
-      "stored_price": 2049,
-      "outcome": "updated",
+      "stored_price": 2239,
+      "outcome": "confirmed",
       "page_prices": [
         2239
       ]
@@ -1528,8 +1453,8 @@
       "product_id": "awt-e1805",
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1805-aus-pinienholz-/-180-x-180-cm/14879",
-      "stored_price": 2999,
-      "outcome": "updated",
+      "stored_price": 2989,
+      "outcome": "confirmed",
       "page_prices": [
         2989
       ]
@@ -1548,8 +1473,8 @@
       "product_id": "awt-e1801b",
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1801b-aus-pinienholz-/-160-x-160/14877",
-      "stored_price": 2499,
-      "outcome": "updated",
+      "stored_price": 2489,
+      "outcome": "confirmed",
       "page_prices": [
         2489
       ]
@@ -1558,8 +1483,8 @@
       "product_id": "awt-e1802",
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1802-aus-pinienholz-/-180-x-180/14878",
-      "stored_price": 2999,
-      "outcome": "updated",
+      "stored_price": 2989,
+      "outcome": "confirmed",
       "page_prices": [
         2989
       ]
@@ -1568,8 +1493,8 @@
       "product_id": "awt-e1803b",
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1803b-aus-pinienholz-/-150-x-120/14881.2",
-      "stored_price": 2199,
-      "outcome": "updated",
+      "stored_price": 2189,
+      "outcome": "confirmed",
       "page_prices": [
         2189
       ]
@@ -1578,8 +1503,8 @@
       "product_id": "awt-e1804c",
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/finnische-sauna-awt-e1804c-aus-pinienholz-/-120-x-120/14926-1",
-      "stored_price": 2399,
-      "outcome": "updated",
+      "stored_price": 2089,
+      "outcome": "confirmed",
       "page_prices": [
         2089
       ]
@@ -1588,8 +1513,8 @@
       "product_id": "awt-e1804a",
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/finnische-sauna-e1804a-aus-pinienholz-/-180-x-120-cm/14924",
-      "stored_price": 2299,
-      "outcome": "updated",
+      "stored_price": 2289,
+      "outcome": "confirmed",
       "page_prices": [
         2289
       ]
@@ -1598,8 +1523,8 @@
       "product_id": "awt-e1804b",
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/finnische-sauna-e1804b-aus-pinienholz-/-150-x-120-cm/14925",
-      "stored_price": 2199,
-      "outcome": "updated",
+      "stored_price": 2189,
+      "outcome": "confirmed",
       "page_prices": [
         2189
       ]
@@ -1608,10 +1533,10 @@
       "product_id": "artsauna-espoo150-premium",
       "merchant": "Saunaloft",
       "url": "https://shop-saunaloft.de/finnische-sauna-espoo-150-aus-hemlockholz-/-150-x-150-x-200",
-      "stored_price": 1599,
+      "stored_price": 1349,
       "outcome": "updated",
       "page_prices": [
-        1349
+        1249
       ]
     },
     {
@@ -1747,8 +1672,10 @@
       "merchant": "Wellness-Point",
       "url": "https://wellness-point.com/produkte/detail/infrarotkabine_helsinki_beta.html",
       "stored_price": 2099,
-      "outcome": "unreachable",
-      "detail": "HTTP 404"
+      "outcome": "confirmed",
+      "page_prices": [
+        2099
+      ]
     },
     {
       "product_id": "wellness-point-infrarotkabine-oslo-alpha",
@@ -1814,10 +1741,10 @@
       "product_id": "karibu-sauna-infrarot-asta-6700",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-infrarotkabine-asta-2-31-x-2-31-m-6700",
-      "stored_price": 4037.37,
+      "stored_price": 4057.83,
       "outcome": "updated",
       "page_prices": [
-        4057.83
+        4037.37
       ]
     },
     {
@@ -1835,9 +1762,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-massivholzsauna-jada-2-24-x-1-6-m-6806",
       "stored_price": 1824.22,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        1824.22
+        2101.01
       ]
     },
     {
@@ -1854,10 +1781,10 @@
       "product_id": "karibu-sauna-tabea-6816",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-massivholzsauna-tabea-1-96-x-1-96-m-6816",
-      "stored_price": 2015.31,
+      "stored_price": 2023.18,
       "outcome": "updated",
       "page_prices": [
-        2023.18
+        2299.98
       ]
     },
     {
@@ -1874,10 +1801,10 @@
       "product_id": "karibu-sauna-alcinda-2-2503",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-alcinda-2-2-31-x-2-31-m-2503",
-      "stored_price": 2742.13,
+      "stored_price": 2791.34,
       "outcome": "updated",
       "page_prices": [
-        2791.34
+        3164.81
       ]
     },
     {
@@ -1885,9 +1812,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-bodo-1-96-x-1-78-m-6208",
       "stored_price": 2057.38,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2057.38
+        2118.74
       ]
     },
     {
@@ -1915,19 +1842,19 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-fiona-1-1-96-x-1-51-m-59672",
       "stored_price": 1875.87,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        1875.87
+        2148.12
       ]
     },
     {
       "product_id": "karibu-sauna-fiona-2-52595",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-fiona-2-1-96-x-1-70-m-52595",
-      "stored_price": 1958.37,
+      "stored_price": 1977.32,
       "outcome": "updated",
       "page_prices": [
-        1977.32
+        2284.22
       ]
     },
     {
@@ -1975,9 +1902,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-oulu-1-96-x-1-96-m-6211",
       "stored_price": 2009.4,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        2009.4
+        2255.37
       ]
     },
     {
@@ -2005,9 +1932,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-tonja-1-70-x-1-51-m-85844",
       "stored_price": 1860.67,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        1860.67
+        1999.54
       ]
     },
     {
@@ -2035,9 +1962,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-angkor-1-1-91-x-2-76-m-38-mm-179",
       "stored_price": 4078.99,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        4078.99
+        3556.83
       ]
     },
     {
@@ -2045,9 +1972,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-saunahaus-ares-3-2-77-x-2-76-m-38-mm-341",
       "stored_price": 4124.16,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        4124.16
+        4212.85
       ]
     },
     {
@@ -2055,19 +1982,19 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-massivholzsauna-jutta-1-96-x-1-96-m-6183",
       "stored_price": 1971.97,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        1971.97
+        2194.58
       ]
     },
     {
       "product_id": "karibu-sauna-daria-59780",
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-daria-1-96-x-1-70-m-59780",
-      "stored_price": 2005.46,
+      "stored_price": 1999.63,
       "outcome": "updated",
       "page_prices": [
-        1999.63
+        2148.12
       ]
     },
     {
@@ -2075,9 +2002,9 @@
       "merchant": "Demmelhuber",
       "url": "https://demmelhuber.net/karibu-sauna-nanja-1-51-x-1-51-m-59777",
       "stored_price": 1752.12,
-      "outcome": "confirmed",
+      "outcome": "updated",
       "page_prices": [
-        1752.12
+        1900.62
       ]
     },
     {
@@ -2087,8 +2014,7 @@
       "stored_price": 3999,
       "outcome": "confirmed",
       "page_prices": [
-        3999,
-        4449
+        3999
       ]
     },
     {
@@ -2098,7 +2024,6 @@
       "stored_price": 4449,
       "outcome": "confirmed",
       "page_prices": [
-        3999,
         4449
       ]
     }

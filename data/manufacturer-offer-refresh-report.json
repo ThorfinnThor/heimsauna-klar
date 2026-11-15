@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-01",
+  "checked_at": "2026-11-15",
   "method": "structured price data (JSON-LD Product offers, itemprop/product:price meta) read from each offer URL",
   "counts": {
     "from-price": 39,
@@ -8,10 +8,10 @@
     "redirected-away": 1,
     "unreachable": 4,
     "unavailable": 6,
-    "confirmed": 301,
-    "updated": 17,
+    "confirmed": 318,
+    "updated": 1,
     "no-structured-price": 1,
-    "sale": 2,
+    "sale": 1,
     "implausible-change": 2
   },
   "entries": [
@@ -323,10 +323,10 @@
       "product_id": "weka-infrarotkabine-tanilla-137x99",
       "merchant": "Mein-Saunashop",
       "url": "https://www.mein-saunashop.de/weka-infrarot-kabine-tanilla-2-543-gr-2-inkl-lendenstuetze",
-      "stored_price": 2309,
+      "stored_price": 2253.35,
       "outcome": "updated",
       "page_prices": [
-        2253.35
+        2300
       ]
     },
     {
@@ -346,7 +346,7 @@
       "stored_price": 1371.02,
       "outcome": "confirmed",
       "page_prices": [
-        1371.02
+        1371.03
       ]
     },
     {
@@ -522,7 +522,7 @@
       "outcome": "ambiguous-variants",
       "page_prices": [
         5649.95,
-        6049.9
+        5949.9
       ]
     },
     {
@@ -549,8 +549,8 @@
       "product_id": "weka-saunahaus-kuopio-238x238",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-kuopio-wekaline-238x238-naturbelassen/533.2525.60100",
-      "stored_price": 3199.01,
-      "outcome": "updated",
+      "stored_price": 3969,
+      "outcome": "confirmed",
       "page_prices": [
         3969
       ]
@@ -1701,9 +1701,9 @@
       "merchant": "Harvia",
       "url": "https://shop.harvia.com/de-de/product/KAMMI-BAR-220/kammi-barrel-large",
       "stored_price": 3490,
-      "outcome": "confirmed",
+      "outcome": "sale",
       "page_prices": [
-        3490
+        3190
       ]
     },
     {
@@ -1840,8 +1840,8 @@
       "product_id": "harvia-soma-sienna-duo",
       "merchant": "Harvia",
       "url": "https://shop.harvia.com/de-de/product/SGV1210MT/soma-sienna-duo",
-      "stored_price": 1990,
-      "outcome": "sale",
+      "stored_price": 1690,
+      "outcome": "confirmed",
       "page_prices": [
         1690
       ]
@@ -1918,8 +1918,8 @@
       "product_id": "weka-kemi-188x188-glastuer",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-188x188-glastuer/529.2020.30100",
-      "stored_price": 2199,
-      "outcome": "updated",
+      "stored_price": 2769,
+      "outcome": "confirmed",
       "page_prices": [
         2769
       ]
@@ -1928,8 +1928,8 @@
       "product_id": "weka-kemi-238x188-glastuer",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-238x188-glastuer/529.2520.30100",
-      "stored_price": 2499,
-      "outcome": "updated",
+      "stored_price": 3189,
+      "outcome": "confirmed",
       "page_prices": [
         3189
       ]
@@ -1938,8 +1938,8 @@
       "product_id": "weka-kemi-eck-188x140",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-eck-188x140-eckeinstieg-glastuer/528.2015.30102",
-      "stored_price": 1899,
-      "outcome": "updated",
+      "stored_price": 2319,
+      "outcome": "confirmed",
       "page_prices": [
         2319
       ]
@@ -1948,8 +1948,8 @@
       "product_id": "weka-kemi-eck-188x188",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholz-elementsauna-kemi-eck-188x188-eckeinstieg-glastuer/528.2020.30102",
-      "stored_price": 2299,
-      "outcome": "updated",
+      "stored_price": 2919,
+      "outcome": "confirmed",
       "page_prices": [
         2919
       ]
@@ -1978,8 +1978,8 @@
       "product_id": "weka-bergen-196x195-fenster",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-bergen-196x195-fenster-glastuer/530.2020.42100",
-      "stored_price": 3048.99,
-      "outcome": "updated",
+      "stored_price": 2289,
+      "outcome": "confirmed",
       "page_prices": [
         2289
       ]
@@ -1988,8 +1988,8 @@
       "product_id": "weka-bergen-246x195-fenster",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-bergen-246x195-fenster-glastuer/531.2520.42100",
-      "stored_price": 2499,
-      "outcome": "updated",
+      "stored_price": 3069,
+      "outcome": "confirmed",
       "page_prices": [
         3069
       ]
@@ -2008,8 +2008,8 @@
       "product_id": "weka-turku-245x195-fenster",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-turku-245x195-fenster-eckeinstieg-glastuer/536.2520.42100",
-      "stored_price": 2499,
-      "outcome": "updated",
+      "stored_price": 3069,
+      "outcome": "confirmed",
       "page_prices": [
         3069
       ]
@@ -2018,8 +2018,8 @@
       "product_id": "weka-cubilis-195x145",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-cubilis-wekaline-195x145-fenster-glastuer/536.2015.52102",
-      "stored_price": 2799,
-      "outcome": "updated",
+      "stored_price": 3519,
+      "outcome": "confirmed",
       "page_prices": [
         3519
       ]
@@ -2028,8 +2028,8 @@
       "product_id": "weka-cubilis-195x195",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-cubilis-wekaline-195x195-fenster-glastuer/536.2020.52102",
-      "stored_price": 2999,
-      "outcome": "updated",
+      "stored_price": 3749,
+      "outcome": "confirmed",
       "page_prices": [
         3749
       ]
@@ -2038,8 +2038,8 @@
       "product_id": "weka-valida-139x139",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/massivholzsauna-valida-139x139-glastuer/537.1515.40.00",
-      "stored_price": 1499,
-      "outcome": "sale",
+      "stored_price": 1299,
+      "outcome": "confirmed",
       "page_prices": [
         1299
       ]
@@ -2048,8 +2048,8 @@
       "product_id": "weka-farsund-390x187-fenster",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-farsund-390x187-glastuer-ruheraum-fenster-naturbelassen/533.3920.80100",
-      "stored_price": 3299,
-      "outcome": "updated",
+      "stored_price": 4118.99,
+      "outcome": "confirmed",
       "page_prices": [
         4118.99
       ]
@@ -2138,8 +2138,8 @@
       "product_id": "weka-salo-601x298-grau",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/saunahaus-salo-601x298-einzeltuer-anbau-grau/213.3030.45294",
-      "stored_price": 4699,
-      "outcome": "updated",
+      "stored_price": 5819,
+      "outcome": "confirmed",
       "page_prices": [
         5819
       ]
@@ -2148,8 +2148,8 @@
       "product_id": "weka-hamina-108x102",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-hamina-108-00x102-50-ganzglastuer-halogenspot-naturbelassen/558.1010.00.00",
-      "stored_price": 1798.99,
-      "outcome": "updated",
+      "stored_price": 2249,
+      "outcome": "confirmed",
       "page_prices": [
         2249
       ]
@@ -2188,8 +2188,8 @@
       "product_id": "weka-osby-eck-200x138",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-osby-eck-200x138-2-fensterelemente-eckeinstieg-weiss/557.1913.00.00",
-      "stored_price": 4299.01,
-      "outcome": "updated",
+      "stored_price": 3219,
+      "outcome": "confirmed",
       "page_prices": [
         3219
       ]
@@ -2198,8 +2198,8 @@
       "product_id": "weka-ranua-109x98",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/infrarotkabine-ranua-109x98-ganzglastuer-naturbelassen/548.1010.42.00",
-      "stored_price": 1699,
-      "outcome": "updated",
+      "stored_price": 2069.01,
+      "outcome": "confirmed",
       "page_prices": [
         2069.01
       ]
@@ -2238,8 +2238,8 @@
       "product_id": "weka-uppsala-212x121-klassik",
       "merchant": "WEKA",
       "url": "https://www.weka-holzbau.com/de/p/infrarotsauna-uppsala-212x121-3-6-kw-klassik-glastuer/547.2012.13.00",
-      "stored_price": 3399,
-      "outcome": "updated",
+      "stored_price": 4199,
+      "outcome": "confirmed",
       "page_prices": [
         4199
       ]
@@ -3601,11 +3601,11 @@
       "stored_price": 2510,
       "outcome": "ambiguous-variants",
       "page_prices": [
-        1752.5,
+        1752.51,
         1996.68,
-        2398.87,
-        2555.83,
-        2830.24
+        2450,
+        2649.95,
+        2899.95
       ]
     },
     {
@@ -3615,9 +3615,9 @@
       "stored_price": 3676.78,
       "outcome": "ambiguous-variants",
       "page_prices": [
-        4258.9,
+        4238,
         4449.95,
-        4548.9
+        4523
       ]
     },
     {
@@ -3865,7 +3865,7 @@
       "stored_price": 1500,
       "outcome": "implausible-change",
       "page_prices": [
-        325
+        33
       ]
     },
     {
