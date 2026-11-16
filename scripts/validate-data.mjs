@@ -457,7 +457,14 @@ for (const [slug, presentation] of Object.entries(pagePresentations.planning_gui
     ...planningModules,
     ...(guide.catalog_snapshot === "product_prices" ? ["snapshot"] : []),
     ...(guide.catalog_footprint === true ? ["footprint"] : []),
+    ...(guide.catalog_niches ? ["niches"] : []),
   ];
+  const niches = guide.catalog_niches;
+  if (niches && (typeof niches.kicker !== "string" || typeof niches.title !== "string" || typeof niches.note !== "string"
+    || !Array.isArray(niches.paragraphs) || niches.paragraphs.length < 1
+    || !Array.isArray(niches.sizes) || niches.sizes.length < 2 || niches.sizes.some((size) => !(size.width > 0) || !(size.depth > 0)))) {
+    throw new Error(`${slug} has incomplete niche data`);
+  }
   if (!Array.isArray(presentation.flow) || presentation.flow.length !== requiredModules.length || new Set(presentation.flow).size !== requiredModules.length || requiredModules.some((module) => !presentation.flow.includes(module))) {
     throw new Error(`${slug} must use every applicable planning module exactly once`);
   }

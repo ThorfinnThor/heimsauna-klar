@@ -177,6 +177,8 @@ export type DimensionProfileRow = {
   maxHeight: number;
   plugCount: number;
   lyingCount: number;
+  medianKw: number | null;
+  kwCount: number;
   lowestPrice: number | null;
   medianPrice: number | null;
 };
@@ -190,6 +192,7 @@ function median(values: number[]) {
 function summarizeDimensions(label: string, group: Product[]): DimensionProfileRow {
   const footprints = group.map(getFootprintSquareMeters);
   const prices = group.map(getLowestPrice).filter((price): price is number => price !== null);
+  const ratings = group.map((product) => product.power.kw).filter((kw): kw is number => typeof kw === "number" && kw > 0);
   return {
     label,
     count: group.length,
@@ -200,6 +203,8 @@ function summarizeDimensions(label: string, group: Product[]): DimensionProfileR
     maxHeight: Math.max(...group.map((product) => product.dimensions_cm.height)),
     plugCount: group.filter((product) => product.power.voltage === 230).length,
     lyingCount: group.filter((product) => product.people.lying_places >= 1).length,
+    medianKw: ratings.length > 0 ? median(ratings) : null,
+    kwCount: ratings.length,
     lowestPrice: prices.length > 0 ? Math.min(...prices) : null,
     medianPrice: prices.length > 0 ? median(prices) : null,
   };
