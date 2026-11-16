@@ -22,6 +22,13 @@ export type PlanningGuide = {
   summary: string;
   catalog_snapshot?: "product_prices";
   catalog_footprint?: boolean;
+  catalog_niches?: {
+    kicker: string;
+    title: string;
+    paragraphs: string[];
+    sizes: Array<{ width: number; depth: number }>;
+    note: string;
+  };
   sections: PlanningSection[];
   checklist: string[];
   module_copy: {
@@ -102,5 +109,36 @@ export function getPriceSnapshot() {
       median: median(prices),
       maximum: Math.max(...prices),
     }];
+  });
+}
+
+export type NicheFitRow = {
+  width: number;
+  depth: number;
+  total: number;
+  infrared: number;
+  sauna: number;
+  steamShower: number;
+  plug230: number;
+  upTo200cm: number;
+};
+
+// Indoor models whose outer footprint fits a niche in either orientation, split by heat type.
+export function getNicheFit(sizes: Array<{ width: number; depth: number }>): NicheFitRow[] {
+  const indoorProducts = products.filter((product) => product.category === "indoor" || product.category === "infrared");
+  return sizes.map(({ width, depth }) => {
+    const fitting = indoorProducts.filter(({ dimensions_cm: size }) => (size.width <= width && size.depth <= depth) || (size.width <= depth && size.depth <= width));
+    const steamShower = fitting.filter((product) => product.sauna.type.includes("Dampfdusche"));
+    const infrared = fitting.filter((product) => !product.sauna.type.includes("Dampfdusche") && product.category === "infrared");
+    return {
+      width,
+      depth,
+      total: fitting.length,
+      infrared: infrared.length,
+      sauna: fitting.length - infrared.length - steamShower.length,
+      steamShower: steamShower.length,
+      plug230: fitting.filter((product) => product.power.voltage === 230).length,
+      upTo200cm: fitting.filter((product) => product.dimensions_cm.height <= 200).length,
+    };
   });
 }

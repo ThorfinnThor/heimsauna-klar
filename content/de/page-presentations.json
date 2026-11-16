@@ -262,7 +262,7 @@
       "hero": "compact",
       "results": "ledger",
       "method": "steps",
-      "flow": ["editorial", "insight", "method", "checks", "results"],
+      "flow": ["profile", "editorial", "insight", "method", "checks", "results"],
       "insight": {
         "kicker": "Einzelplatz im Raum",
         "title": "Eine Einpersonen-Kabine wird über Sitzposition und Zugang beurteilt.",
@@ -630,7 +630,7 @@
       "hero": "summary",
       "sections": "cards",
       "insight_style": "matrix",
-      "flow": ["sections", "insight", "sources", "checks"],
+      "flow": ["niches", "sections", "insight", "sources", "checks"],
       "insight": {
         "kicker": "Nassraum",
         "title": "Spritzwasserzone und Saunastandort werden getrennt beurteilt.",

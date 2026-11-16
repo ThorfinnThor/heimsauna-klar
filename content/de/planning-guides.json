@@ -380,12 +380,33 @@
   {
     "slug": "sauna-im-badezimmer",
     "eyebrow": "Planung · Badezimmer und Feuchtigkeit",
-    "title": "Sauna im Badezimmer planen",
-    "accent": "Die Nähe zur Dusche löst die Feuchtefrage nicht.",
-    "description": "Eine Sauna im Badezimmer mit Blick auf Spritzwasser, Boden, Lüftung, Trocknung und elektrische Installation planen.",
-    "updated_at": "2026-08-29",
+    "title": "Sauna im Badezimmer",
+    "accent": "Welche Kabinen ins Bad passen und was es dafür braucht.",
+    "description": "Sauna im Bad planen: welche Infrarotkabinen, Saunen und Dampfduschen in typische Badnischen passen, dazu Spritzwasser, Boden, Lüftung und Elektrik.",
+    "updated_at": "2026-11-16",
     "summary": "Im Badezimmer konkurrieren Kabine, Dusche, Laufwege und Installationen um denselben Raum. Die Sauna braucht ihre Herstellerabstände und freie Lüftungsöffnungen. Zugleich müssen Spritzwasser, Trocknung und die elektrische Installation für den konkreten Standort fachlich geklärt sein.",
+    "catalog_niches": {
+      "kicker": "Badnischen im Katalog",
+      "title": "Welche Kabinen in typische Badnischen passen.",
+      "paragraphs": [
+        "Die Tabelle zählt alle Innenmodelle im Katalog, deren Außenmaß in eine Nische der jeweiligen Größe passt, in einer der beiden Ausrichtungen. Bis etwa 100 × 100 cm sind es fast nur Infrarotkabinen und Dampfduschen mit Infrarotsitz. Saunen mit Ofen tauchen erst bei größeren Nischen in nennenswerter Zahl auf.",
+        "Die Spalte zur Höhe ist im Bad wichtig, weil die Dampfduschen mit Infrarotsitz im Katalog 215 cm hoch sind und jede Kabine Abstand zur Decke braucht. Wandabstände, Türschwenk und Lüftungsöffnungen aus der Montageanleitung kommen zu jedem Außenmaß hinzu."
+      ],
+      "sizes": [{"width": 90, "depth": 90}, {"width": 100, "depth": 100}, {"width": 120, "depth": 120}, {"width": 150, "depth": 150}],
+      "note": "Die Zählung entsteht bei jedem Build aus den aktuellen Produktdaten und umfasst Innenmodelle und Infrarotkabinen. Eine passende Zahl ersetzt nicht die Prüfung von Abständen, Elektrik und Feuchteschutz am konkreten Bad."
+    },
     "sections": [
+      {
+        "title": "Infrarotkabine, Sauna mit Ofen oder Dampfdusche mit Infrarot",
+        "copy": "Für kleine Bäder kommen vor allem Infrarotkabinen infrage, weil sie wenig Grundfläche brauchen und meist für 230 V ausgelegt sind. Eine Sauna mit Ofen braucht mehr Platz, eine eigene Zu- und Abluft und je nach Ofen einen eigenen Stromkreis. Dampfduschen mit Infrarotsitz verbinden Dusche und Wärmekabine in einem Gerät, brauchen dafür aber zusätzlich Wasseranschluss und Abfluss am Aufstellort.",
+        "points": ["Gewünschte Wärmeart vor der Größe festlegen", "Anschlussart und Leistung aus dem Datenblatt lesen", "Bei Dampfduschen Wasseranschluss und Abfluss einplanen"],
+        "links_lead": "Kabinen mit Maßen und Anschlussdaten zeigen die Übersichten",
+        "links": [
+          {"href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabine für 1 Person"},
+          {"href": "/de/indoor-sauna/2-personen-infrarotkabine/", "label": "Infrarotkabine für 2 Personen"},
+          {"href": "/de/vergleiche/wellness-point-sauna/", "label": "Wellness-Point mit Dampfdusche-Kombinationen"}
+        ]
+      },
       {
         "title": "Dusche, Kabinentür und Laufweg dürfen sich nicht überschneiden",
         "copy": "Der Raumplan muss die geöffnete Saunatür ebenso zeigen wie Duschabtrennung, Badmöbel und den Zugang zu Armaturen. Zusätzlich gelten die Abstände der konkreten Kabine. Karibu nennt für seine Systeme beispielsweise mindestens zehn Zentimeter zu Außenwand und Decke. Für andere Modelle kann ein anderer Wert gelten.",
@@ -405,11 +426,11 @@
       },
       {
         "title": "Elektrische Schutzbereiche müssen am konkreten Bad geprüft werden",
-        "copy": "Die Nähe zu Dusche oder Wanne macht die Position elektrischer Komponenten zu einer Standortfrage. Harvia weist außerdem darauf hin, dass Luftstrom nahe am Temperaturfühler dessen Messung beeinflussen kann. Ofen, Steuerung, Fühler, Leitungsweg und Absicherung gehören deshalb in einen gemeinsamen Fachplan.",
+        "copy": "Für Badezimmer legt die DIN VDE 0100-701 Schutzbereiche um Dusche und Wanne fest, in denen elektrische Betriebsmittel nur eingeschränkt zulässig sind. Damit wird die Position jeder elektrischen Komponente zu einer Standortfrage. Harvia weist außerdem darauf hin, dass Luftstrom nahe am Temperaturfühler dessen Messung beeinflussen kann. Ofen, Steuerung, Fühler, Leitungsweg und Absicherung gehören deshalb in einen gemeinsamen Fachplan.",
         "points": ["Position von Dusche, Wanne und elektrischen Komponenten dokumentieren", "Fühler und Zuluft nach Herstellerzeichnung anordnen", "Anschluss und Schutzmaßnahmen fachlich planen lassen"]
       }
     ],
-    "checklist": ["Badezimmer mit Dusche, Wanne, Möbeln und Türen maßstäblich zeichnen", "Kabinenabstände und Lüftungsöffnungen aus der Anleitung ergänzen", "Bodengefälle, Spritzwasser und Reinigungszugang prüfen", "Bestehende Feuchteschäden klären", "Luftabfuhr des Badezimmers und Trocknung der Kabine festlegen", "Ofen, Steuerung, Fühler und Leitungsweg gemeinsam planen", "Elektrische Schutzmaßnahmen durch einen Fachbetrieb beurteilen lassen"],
+    "checklist": ["Badezimmer mit Dusche, Wanne, Möbeln und Türen maßstäblich zeichnen", "Kabinenhöhe mit Deckenhöhe und Herstellerabstand abgleichen", "Kabinenabstände und Lüftungsöffnungen aus der Anleitung ergänzen", "Bodengefälle, Spritzwasser und Reinigungszugang prüfen", "Bestehende Feuchteschäden klären", "Luftabfuhr des Badezimmers und Trocknung der Kabine festlegen", "Ofen, Steuerung, Fühler und Leitungsweg gemeinsam planen", "Elektrische Schutzmaßnahmen durch einen Fachbetrieb beurteilen lassen"],
     "module_copy": {
       "checklist_kicker": "Badezimmerplan mit Nutzungszonen",
       "checklist_title": "Duschen, Saunieren, Trocknen und Reinigen müssen nebeneinander funktionieren.",

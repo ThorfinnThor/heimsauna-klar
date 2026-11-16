@@ -9,6 +9,7 @@ import {
 } from "@/lib/page-presentations";
 import {
   getFootprintLink,
+  getNicheFit,
   getPlanningGuide,
   getPlanningJourney,
   getPriceSnapshot,
@@ -94,6 +95,7 @@ function PlanningModuleBlock({ context, module }: { context: PlanningPageContext
   if (module === "sections") return <PlanningSections guide={context.guide} variant={context.presentation.sections} />;
   if (module === "snapshot") return <GuidePriceSnapshot />;
   if (module === "footprint") return <FootprintByCapacity />;
+  if (module === "niches") return <NicheFit guide={context.guide} />;
   if (module === "checks") return <PlanningChecks guide={context.guide} />;
   return <PlanningSources guide={context.guide} />;
 }
@@ -230,6 +232,42 @@ function FootprintByCapacity() {
           </div>
         </div>
       ))}
+    </section>
+  );
+}
+
+function NicheFit({ guide }: { guide: PlanningGuide }) {
+  const niches = guide.catalog_niches;
+  if (!niches) return null;
+  const rows = getNicheFit(niches.sizes);
+  return (
+    <section className="footprint-data page-shell" aria-labelledby="niche-fit-title" data-page-module="niches">
+      <div>
+        <p className="eyebrow">{niches.kicker}</p>
+        <h2 id="niche-fit-title">{niches.title}</h2>
+        {niches.paragraphs.map((paragraph) => <p data-editorial-copy="true" key={paragraph}>{paragraph}</p>)}
+      </div>
+      <div className="collection-table-wrap">
+        <table className="footprint-table">
+          <thead>
+            <tr><th scope="col">Nische (Außenmaß)</th><th scope="col">Modelle</th><th scope="col">Infrarotkabinen</th><th scope="col">Saunen mit Ofen</th><th scope="col">Dampfdusche mit Infrarot</th><th scope="col">230 V laut Hersteller</th><th scope="col">Bis 200 cm hoch</th></tr>
+          </thead>
+          <tbody>
+            {rows.map((row) => (
+              <tr key={`${row.width}x${row.depth}`}>
+                <th scope="row">{row.width} × {row.depth} cm</th>
+                <td>{row.total}</td>
+                <td>{row.infrared}</td>
+                <td>{row.sauna}</td>
+                <td>{row.steamShower}</td>
+                <td>{row.plug230}</td>
+                <td>{row.upTo200cm}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="collection-profile-note">{niches.note}</p>
     </section>
   );
 }

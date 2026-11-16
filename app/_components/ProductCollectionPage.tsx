@@ -195,6 +195,7 @@ function CollectionResultsLedger({ candidates }: { candidates: Product[] }) {
 }
 
 const squareMeters = new Intl.NumberFormat("de-DE", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const kilowatts = new Intl.NumberFormat("de-DE", { maximumFractionDigits: 2 });
 const euros = new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
 
 function formatEuro(value: number | null) {
@@ -211,6 +212,7 @@ function CollectionProfileRow({ row, total }: { row: DimensionProfileRow; total?
       <td>bis {row.maxHeight} cm</td>
       <td>{row.plugCount} von {row.count}</td>
       <td>{row.lyingCount} von {row.count}</td>
+      <td>{row.medianKw === null ? "nicht angegeben" : `${kilowatts.format(row.medianKw)} kW`}<small>{row.kwCount} von {row.count} angegeben</small></td>
       <td>{formatEuro(row.lowestPrice)}<small>Median {formatEuro(row.medianPrice)}</small></td>
     </tr>
   );
@@ -228,7 +230,7 @@ function CollectionProfile({ collection, candidates }: { collection: Collection;
       </div>
       <div className="collection-table-wrap"><table className="collection-table collection-profile-table">
         <caption className="visually-hidden">{collection.title}: Maße, Anschluss und Preise nach Wärmeart</caption>
-        <thead><tr><th scope="col">Wärmeart</th><th scope="col">Modelle</th><th scope="col">Außenmaß (Median B × T)</th><th scope="col">Stellfläche</th><th scope="col">Höhe</th><th scope="col">230 V laut Hersteller</th><th scope="col">Mit Liegeplatz</th><th scope="col">Preis ab</th></tr></thead>
+        <thead><tr><th scope="col">Wärmeart</th><th scope="col">Modelle</th><th scope="col">Außenmaß (Median B × T)</th><th scope="col">Stellfläche</th><th scope="col">Höhe</th><th scope="col">230 V laut Hersteller</th><th scope="col">Mit Liegeplatz</th><th scope="col">Leistung (Median)</th><th scope="col">Preis ab</th></tr></thead>
         <tbody>{rows.map((row) => <CollectionProfileRow row={row} key={row.label} />)}</tbody>
         {rows.length > 1 ? <tfoot><CollectionProfileRow row={total} total /></tfoot> : null}
       </table></div>
