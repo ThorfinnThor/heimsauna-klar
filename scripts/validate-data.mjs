@@ -435,7 +435,8 @@ for (const [id, presentation] of Object.entries(pagePresentations.collections)) 
   const expectedModules = dimensionProfile ? [...collectionModules, "profile"] : collectionModules;
   if (dimensionProfile && (typeof dimensionProfile.kicker !== "string" || typeof dimensionProfile.title !== "string" || typeof dimensionProfile.note !== "string"
     || !Array.isArray(dimensionProfile.paragraphs) || dimensionProfile.paragraphs.length < 2
-    || !Array.isArray(dimensionProfile.fit_checks) || dimensionProfile.fit_checks.some((fit) => !(fit.width > 0) || !(fit.depth > 0)))) {
+    || !Array.isArray(dimensionProfile.fit_checks) || dimensionProfile.fit_checks.some((fit) => !(fit.width > 0) || !(fit.depth > 0))
+    || ![undefined, "type", "voltage"].includes(dimensionProfile.group_by))) {
     throw new Error(`${id} has an incomplete dimension profile`);
   }
   if (!Array.isArray(presentation.flow) || presentation.flow.length !== expectedModules.length || new Set(presentation.flow).size !== expectedModules.length || expectedModules.some((module) => !presentation.flow.includes(module))) {

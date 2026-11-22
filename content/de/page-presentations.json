@@ -298,7 +298,7 @@
       "hero": "editorial",
       "results": "ledger",
       "method": "split",
-      "flow": ["results", "editorial", "insight", "method", "checks"],
+      "flow": ["profile", "results", "editorial", "insight", "method", "checks"],
       "insight": {
         "kicker": "Klassisches Klima zu zweit",
         "title": "Eine finnische Zweierkabine ist ein abgestimmtes System aus Ofen und Raum.",

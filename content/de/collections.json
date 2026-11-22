@@ -920,11 +920,23 @@
     "kind": "Kapazitätsvergleich",
     "eyebrow": "Finnisch · zwei Personen",
     "title": "Finnische Sauna für 2 Personen",
-    "accent": "mit klassischem Saunaklima.",
-    "description": "Klassische Indoor-Saunen für zwei Personen mit verifizierten Maßen, Ofenangaben, Anschlussdaten und Preisstand.",
+    "accent": "Maße, Ofen und Anschluss.",
+    "description": "Finnische Indoor-Saunen für zwei Personen im Datenvergleich: 230 V oder 400 V, optionaler Ofen, typische Maße, Liegeplätze und dokumentierter Preisstand.",
     "intro": "Die Liste enthält Indoor-Modelle vom Typ Finnische Sauna mit ausgewiesener Kapazität für zwei Personen. Ofen, Steuerung und Raumvolumen werden am einzelnen Datensatz geprüft.",
     "layout": "technical",
     "filters": {"categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 2},
+    "profile": {
+      "kicker": "Maße und Anschluss aus dem Katalog",
+      "title": "Welche finnische Zweierkabine an welchen Stromanschluss passt.",
+      "paragraphs": [
+        "Bei einer finnischen Zweierkabine entscheidet der Ofen über den Stromanschluss. Laut Hersteller für 230 V ausgelegt sind im Katalog vor allem kompakte Kabinen mit einem 3,6-kW-Ofen, die wenigen 400-V-Modelle arbeiten mit 9-kW-Öfen. Die Tabelle trennt beide Gruppen, weil sich daraus ergibt, ob ein Starkstromanschluss gelegt werden muss.",
+        "Bei vielen Modellen ist der Ofen nur optional erhältlich. Dann nennt der Hersteller keinen festen Anschluss, und der dokumentierte Preis kann sich auf die Kabine ohne Ofen beziehen. Ofen, Steuerung und Elektroarbeiten müssen in diesem Fall getrennt ausgewählt und in das Budget eingerechnet werden.",
+        "Im Median misst eine finnische Zweierkabine rund 1,55 × 1,45 Meter, die kleinsten Modelle beginnen bei etwa 1,0 × 1,1 Metern. Knapp zwei Drittel nennen einen Liegeplatz. Wer liegen möchte, sollte die Banklänge in der Zeichnung prüfen, bevor die Stellfläche verglichen wird."
+      ],
+      "fit_checks": [{"width": 120, "depth": 120}, {"width": 150, "depth": 150}, {"width": 140, "depth": 200}],
+      "note": "Mediane, Spannen und Zählungen werden bei jedem Build aus den aktuellen Produktdaten berechnet. „Preis ab“ ist das niedrigste gültige Angebot mit Prüfdatum und kann bei Modellen mit optionalem Ofen ohne Ofen gelten.",
+      "group_by": "voltage"
+    },
     "sort": "footprint",
     "related_ids": ["2-personen-sauna", "finnish-three-person", "finnische-sauna", "brand-home-deluxe"],
     "planning": {"kicker": "Volumen und Ofen abgleichen", "intro": "Zwei Sitzplätze brauchen einen passenden Ofen, Luftweg und Zugang. Die Herstellerzuordnung des konkreten Modells ist ausschlaggebend.", "guide_ids": ["saunagroesse-3-6-kw", "lueftung"]},

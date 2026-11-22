@@ -19,7 +19,11 @@
     "decided_at": "2026-10-18",
     "reason": "Sichtbarkeit seit 17.09.2026 praktisch null. Produktdetailseiten hatten seit dem Start fast keine Nachfrage in der Search Console (306 indexierbare Seiten, zusammen unter 40 Impressionen). Der Index wird auf die Ratgeber- und Kollektionsseiten konzentriert. Produktseiten bleiben erreichbar und verlinkt, aber noindex,follow.",
     "keep_product_ids": [
-      "artsauna-kiruna-120"
-    ]
+      "artsauna-kiruna-120",
+      "home-deluxe-aruna-s",
+      "home-deluxe-aruna-m",
+      "home-deluxe-aruna-l"
+    ],
+    "keep_evidence": "2026-11-22: GA4 (letzte 28 Tage, nur Besucher mit Einwilligung) zeigt für die drei Home-Deluxe-Aruna-Seiten 11, 5 und 4 Aufrufe, überwiegend über KI-Assistenten. Sie bleiben indexierbar, damit sie in Suchindizes (auch Bing als Quelle für ChatGPT) erhalten bleiben. Alle drei erfüllen die automatische Index-Regel."
   }
 }
