@@ -36,7 +36,7 @@
       "hero": "split",
       "results": "ledger",
       "method": "steps",
-      "flow": ["editorial", "insight", "method", "checks", "results"],
+      "flow": ["profile", "editorial", "insight", "method", "checks", "results"],
       "insight": {
         "kicker": "Gesamte Grundstückszone",
         "title": "Auch eine kleine Gartensauna benötigt Fundament, Zuwegung und Leitungen.",
@@ -310,7 +310,7 @@
       "hero": "compact",
       "results": "table",
       "method": "panel",
-      "flow": ["insight", "method", "checks", "editorial", "results"],
+      "flow": ["profile", "insight", "method", "checks", "editorial", "results"],
       "insight": {
         "kicker": "Drei Plätze mit klassischem Ofen",
         "title": "Die Nutzung der Bänke entscheidet, wie viel Kabinenfläche sinnvoll ist.",
