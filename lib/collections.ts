@@ -53,6 +53,7 @@ export type Collection = {
     paragraphs: string[];
     fit_checks: Array<{ width: number; depth: number }>;
     note: string;
+    group_by?: "type" | "voltage";
   };
   rule?: CollectionRule;
   filters?: CollectionFilter;
@@ -210,10 +211,25 @@ function summarizeDimensions(label: string, group: Product[]): DimensionProfileR
   };
 }
 
-// Per heat type, largest group first, followed by a row for all candidates.
-export function getDimensionProfile(candidates: Product[]) {
+const voltageGroupLabels: Record<string, string> = {
+  "230": "230 V laut Hersteller",
+  "400": "400 V (Starkstrom)",
+  none: "Anschluss nicht angegeben",
+  wood: "Holzofen",
+};
+
+function getProfileGroup(product: Product, groupBy: "type" | "voltage") {
+  if (groupBy === "type") return product.sauna.type;
+  return voltageGroupLabels[String(product.power.voltage)] ?? `${product.power.voltage} V`;
+}
+
+// Per heat type (or connection), largest group first, followed by a row for all candidates.
+export function getDimensionProfile(candidates: Product[], groupBy: "type" | "voltage" = "type") {
   const groups = new Map<string, Product[]>();
-  for (const product of candidates) groups.set(product.sauna.type, [...(groups.get(product.sauna.type) ?? []), product]);
+  for (const product of candidates) {
+    const label = getProfileGroup(product, groupBy);
+    groups.set(label, [...(groups.get(label) ?? []), product]);
+  }
   const rows = [...groups.entries()]
     .sort(([leftType, left], [rightType, right]) => right.length - left.length || leftType.localeCompare(rightType, "de"))
     .map(([type, group]) => summarizeDimensions(type, group));

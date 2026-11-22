@@ -4,13 +4,13 @@
   "generated_from_products_updated_at": "2026-11-15",
   "summary": {
     "total_verified_products": 516,
-    "index": 1,
-    "noindex": 515,
+    "index": 4,
+    "noindex": 512,
     "categories": {
       "indoor": {
         "total": 258,
-        "index": 0,
-        "noindex": 258
+        "index": 3,
+        "noindex": 255
       },
       "infrared": {
         "total": 80,
@@ -1781,7 +1781,7 @@
     },
     {
       "product_id": "home-deluxe-aruna-l",
-      "decision": "noindex",
+      "decision": "index",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1792,12 +1792,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "index-concentration"
+        "distinct-editorial-evidence"
       ]
     },
     {
       "product_id": "home-deluxe-aruna-m",
-      "decision": "noindex",
+      "decision": "index",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1808,12 +1808,12 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "index-concentration"
+        "distinct-editorial-evidence"
       ]
     },
     {
       "product_id": "home-deluxe-aruna-s",
-      "decision": "noindex",
+      "decision": "index",
       "automatic_decision": "index",
       "signals": {
         "current_offer_count": 1,
@@ -1824,7 +1824,7 @@
         "frequent_editorial_share": 0.1
       },
       "reasons": [
-        "index-concentration"
+        "distinct-editorial-evidence"
       ]
     },
     {
