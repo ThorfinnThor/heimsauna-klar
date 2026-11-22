@@ -121,9 +121,21 @@
     "eyebrow": "Kleiner Garten · nachvollziehbare Auswahl",
     "title": "Kleine Gartensauna im Größenvergleich",
     "accent": "bis 5 m² Stellfläche.",
-    "description": "Verifizierte Outdoor-Saunen bis fünf Quadratmeter rechnerischer Stellfläche im Vergleich nach Maß, Kapazität und Preis.",
+    "description": "Kleine Gartensaunen bis 5 m² im Datenvergleich: Maße und Preise nach Personenzahl, Ofen und Anschluss, Fasssauna oder eckige Kabine.",
     "intro": "Diese Vorauswahl enthält Outdoor-Modelle mit höchstens 5,0 m² rechnerischer Stellfläche. Fundament, Dachüberstand und vorgeschriebene Abstände sind darin noch nicht enthalten.",
     "layout": "outdoor",
+    "profile": {
+      "kicker": "Maße nach Personenzahl",
+      "title": "Wie groß eine kleine Gartensauna für zwei bis sechs Personen ist.",
+      "paragraphs": [
+        "Die Hälfte der kleinen Gartensaunen bis 5 m² ist für vier Personen ausgewiesen, im Median misst die Auswahl rund 2,00 × 1,83 Meter. Die Tabelle zeigt Außenmaß, Anschluss und Preis je Personenzahl; größere Kabinen sind dabei nicht in jeder Stufe teurer. Fundament, Dachüberstand, Wartungsgang und örtliche Grenzabstände sind darin nicht enthalten.",
+        "Nur wenige Modelle nennen einen Ofen für 230 V. Häufiger sind 400-V-Elektroöfen mit 6 bis 9 kW, und bei vielen Gartensaunen ist der Ofen optional, sodass der dokumentierte Preis ohne Ofen gelten kann. Im Garten kommt die Leitung zum Standort hinzu, die ein Elektrofachbetrieb planen und anschließen muss.",
+        "Etwa ein Viertel der Auswahl sind Fasssaunen. Bei gleicher Personenzahl liegen sie in der Grundfläche nah an eckigen Kabinen, mal etwas darunter, mal etwas darüber; der Unterschied liegt eher in Form, Innenhöhe und Bankaufteilung. Wie das Fundament unter beiden Bauformen aussehen kann, beschreibt der Ratgeber zu Boden und Fundament."
+      ],
+      "fit_checks": [{"width": 150, "depth": 200}, {"width": 200, "depth": 200}, {"width": 200, "depth": 250}],
+      "note": "Mediane, Spannen und Zählungen werden bei jedem Build aus den aktuellen Produktdaten berechnet. „Preis ab“ ist das niedrigste gültige Angebot mit Prüfdatum und kann bei Modellen mit optionalem Ofen ohne Ofen gelten.",
+      "group_by": "people"
+    },
     "related_ids": ["fasssauna", "outdoor-under-5000", "sauna-bis-6-m2", "sauna-bis-4000-euro"],
     "planning": {"kicker": "Die freie Gartenfläche reicht als Maß nicht aus", "intro": "Fundament, Dachüberstand, Entwässerung, Wartungszugang und örtliche Abstände vergrößern die beanspruchte Zone.", "guide_ids": ["boden-und-fundament", "sauna-kosten"]},
     "editorial": {
@@ -952,11 +964,23 @@
     "kind": "Kapazitätsvergleich",
     "eyebrow": "Finnisch · drei Personen",
     "title": "Finnische Sauna für 3 Personen",
-    "accent": "nach Raum und Bankaufteilung.",
-    "description": "Finnische Indoor-Saunen für drei Personen mit Produktfläche, Kapazität, Liegeplätzen, Ofenangaben und Preis.",
+    "accent": "Maße, Ofen und Anschluss.",
+    "description": "Finnische Indoor-Saunen für drei Personen im Datenvergleich: typische Maße, 230 V oder Starkstrom, optionaler Ofen, Liegeplätze und dokumentierter Preisstand.",
     "intro": "Aufgenommen werden klassische Indoor-Kabinen mit einer ausgewiesenen Kapazität von drei Personen. Die Liste ordnet die Produktfläche, nicht eine Rangfolge der Saunakultur oder des Komforts.",
     "layout": "tradeoff",
     "filters": {"categories": ["indoor"], "sauna_types": ["Finnische Sauna"], "people_exact": 3},
+    "profile": {
+      "kicker": "Maße und Anschluss aus dem Katalog",
+      "title": "Was eine finnische Sauna für drei Personen an Platz und Strom verlangt.",
+      "paragraphs": [
+        "Finnische Saunen für drei Personen messen im Katalog im Median rund 1,96 × 1,57 Meter und sind damit etwa 40 Zentimeter breiter als die Zweierkabinen. In eine Fläche von 1,50 × 1,50 Metern passen nur wenige Modelle, in 2,00 × 2,50 Meter fast alle. Wand- und Deckenabstände aus der Montageanleitung kommen hinzu.",
+        "Ein 3,6-kW-Ofen an 230 V ist bei dieser Größe die Ausnahme. Häufiger nennen die Hersteller 400-V-Öfen mit 4,5 bis 9 kW, für die ein Starkstromanschluss gelegt werden muss. Welche Ofenleistung zum Raumvolumen passt, legt der Hersteller fest; der Ratgeber zur Saunagröße bei 3,6 kW erklärt, wo die Grenze für Haushaltsstrom liegt.",
+        "Bei den meisten Modellen ohne Anschlussangabe ist der Ofen nur optional erhältlich. Der dokumentierte Preis kann sich dann auf die Kabine ohne Ofen beziehen, und Ofen, Steuerung und Elektroarbeiten kommen hinzu. Gut die Hälfte der Dreierkabinen nennt einen Liegeplatz; die Banklänge dafür steht in der Zeichnung des Modells."
+      ],
+      "fit_checks": [{"width": 150, "depth": 150}, {"width": 200, "depth": 200}, {"width": 200, "depth": 250}],
+      "note": "Mediane, Spannen und Zählungen werden bei jedem Build aus den aktuellen Produktdaten berechnet. „Preis ab“ ist das niedrigste gültige Angebot mit Prüfdatum und kann bei Modellen mit optionalem Ofen ohne Ofen gelten.",
+      "group_by": "voltage"
+    },
     "sort": "footprint",
     "related_ids": ["3-personen-sauna", "finnish-two-person", "finnische-sauna", "4-personen-sauna"],
     "planning": {"kicker": "Drei Plätze im Grundriss", "intro": "Banklänge, Türposition, Ofenbereich und Bewegungsfläche müssen gemeinsam in den Raumplan passen.", "guide_ids": ["platzbedarf", "saunagroesse-3-6-kw"]},

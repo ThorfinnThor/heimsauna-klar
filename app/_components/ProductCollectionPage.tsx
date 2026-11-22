@@ -209,7 +209,7 @@ function CollectionProfileRow({ row, total }: { row: DimensionProfileRow; total?
       <td>{row.count}</td>
       <td>{Math.round(row.medianWidth)} × {Math.round(row.medianDepth)} cm</td>
       <td>{row.minFootprint === row.maxFootprint ? squareMeters.format(row.minFootprint) : `${squareMeters.format(row.minFootprint)}–${squareMeters.format(row.maxFootprint)}`} m²</td>
-      <td>bis {row.maxHeight} cm</td>
+      <td>bis {Math.round(row.maxHeight)} cm</td>
       <td>{row.plugCount} von {row.count}</td>
       <td>{row.lyingCount} von {row.count}</td>
       <td>{row.medianKw === null ? "nicht angegeben" : `${kilowatts.format(row.medianKw)} kW`}<small>{row.kwCount} von {row.count} angegeben</small></td>
@@ -222,6 +222,7 @@ function CollectionProfile({ collection, candidates }: { collection: Collection;
   const profile = collection.profile;
   if (!profile || candidates.length === 0) return null;
   const { rows, total } = getDimensionProfile(candidates, profile.group_by);
+  const groupLabel = profile.group_by === "voltage" ? "Anschluss" : profile.group_by === "people" ? "Personen" : "Wärmeart";
   return (
     <section className="collection-profile page-shell" aria-labelledby="collection-profile-title" data-page-module="profile">
       <div className="collection-profile-head">
@@ -229,8 +230,8 @@ function CollectionProfile({ collection, candidates }: { collection: Collection;
         <div>{profile.paragraphs.map((paragraph) => <p data-editorial-copy="true" key={paragraph}>{paragraph}</p>)}</div>
       </div>
       <div className="collection-table-wrap"><table className="collection-table collection-profile-table">
-        <caption className="visually-hidden">{collection.title}: Maße, Anschluss und Preise nach {profile.group_by === "voltage" ? "Anschluss" : "Wärmeart"}</caption>
-        <thead><tr><th scope="col">{profile.group_by === "voltage" ? "Anschluss" : "Wärmeart"}</th><th scope="col">Modelle</th><th scope="col">Außenmaß (Median B × T)</th><th scope="col">Stellfläche</th><th scope="col">Höhe</th><th scope="col">230 V laut Hersteller</th><th scope="col">Mit Liegeplatz</th><th scope="col">Leistung (Median)</th><th scope="col">Preis ab</th></tr></thead>
+        <caption className="visually-hidden">{collection.title}: Maße, Anschluss und Preise nach {groupLabel}</caption>
+        <thead><tr><th scope="col">{groupLabel}</th><th scope="col">Modelle</th><th scope="col">Außenmaß (Median B × T)</th><th scope="col">Stellfläche</th><th scope="col">Höhe</th><th scope="col">230 V laut Hersteller</th><th scope="col">Mit Liegeplatz</th><th scope="col">Leistung (Median)</th><th scope="col">Preis ab</th></tr></thead>
         <tbody>{rows.map((row) => <CollectionProfileRow row={row} key={row.label} />)}</tbody>
         {rows.length > 1 ? <tfoot><CollectionProfileRow row={total} total /></tfoot> : null}
       </table></div>
