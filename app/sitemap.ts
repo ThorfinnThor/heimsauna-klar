@@ -5,6 +5,7 @@ import { getIndexableProducts, products } from "@/lib/products";
 import { isIndexingEnabled, siteUrl } from "@/lib/site";
 import publication from "@/data/site-publication.json";
 import affiliate from "@/content/de/affiliate.json";
+import home from "@/content/de/home.json";
 import legal from "@/content/de/legal.json";
 import { getUsLanguageAlternates, getUsSitemapEntries } from "@/lib/us/seo";
 
@@ -17,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const planningUpdated = new Date(`${planningGuides.map((guide) => guide.updated_at).sort((a, b) => b.localeCompare(a))[0]}T00:00:00Z`);
   const productsUpdated = new Date(`${products.map((product) => product.updated_at).sort((a, b) => b.localeCompare(a))[0]}T00:00:00Z`);
   return [
-    { url: `${siteUrl}/de/`, lastModified: publicationUpdated, changeFrequency: "weekly", priority: 1 },
+    { url: `${siteUrl}/de/`, lastModified: new Date(`${home.updated_at}T00:00:00Z`), changeFrequency: "weekly", priority: 1 },
     { url: `${siteUrl}/de/produkte/`, lastModified: productsUpdated, changeFrequency: "weekly", priority: 0.8 },
     { url: `${siteUrl}/de/planung/`, lastModified: planningUpdated, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/de/ueber-uns/`, lastModified: publicationUpdated, changeFrequency: "monthly", priority: 0.6 },
