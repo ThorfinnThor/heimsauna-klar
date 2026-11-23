@@ -1,67 +1,47 @@
 import guideData from "@/content/de/planning-guides.json";
 import navigationData from "@/content/de/planning-navigation.json";
+import type { ChecklistBlock, ContentLink, TextBlock } from "@/lib/content-blocks";
 import { getEligibleOffers, products } from "@/lib/products";
 
-export type ContentLink = { href: string; label: string };
+export type { ContentLink } from "@/lib/content-blocks";
 
-export type PlanningSection = {
-  title: string;
-  copy: string;
-  points: string[];
-  links_lead?: string;
-  links?: ContentLink[];
-};
+export type PlanningBlock =
+  | TextBlock
+  | ChecklistBlock
+  | { type: "prices" }
+  | { type: "footprint" }
+  | { type: "niches" };
 
 export type PlanningGuide = {
   slug: string;
-  eyebrow: string;
   title: string;
-  accent: string;
   description: string;
   updated_at: string;
-  summary: string;
+  intro: string[];
   catalog_snapshot?: "product_prices";
   catalog_footprint?: boolean;
   catalog_niches?: {
-    kicker: string;
     title: string;
     paragraphs: string[];
     sizes: Array<{ width: number; depth: number }>;
-    note: string;
   };
-  sections: PlanningSection[];
-  checklist: string[];
-  module_copy: {
-    checklist_kicker: string;
-    checklist_title: string;
-    sources_kicker: string;
-    sources_title: string;
-    source_note: string;
-    related_kicker: string;
-    related_title: string;
-  };
+  blocks: PlanningBlock[];
   sources: Array<{ title: string; url: string; checked_at: string }>;
 };
 
 export type PlanningGroup = {
   id: string;
-  number: string;
-  eyebrow: string;
   title: string;
-  description: string;
   guide_slugs: string[];
   collection_links: ContentLink[];
 };
 
 export type PlanningJourney = {
   related_slugs: string[];
-  product_href: string;
-  product_label: string;
   collection_links: ContentLink[];
 };
 
 type PlanningNavigation = {
-  collection_links_heading: { kicker: string; title: string };
   groups: PlanningGroup[];
   guide_paths: Record<string, PlanningJourney>;
   footprint_links: Record<"indoor" | "outdoor", Record<string, ContentLink>>;
@@ -70,7 +50,6 @@ type PlanningNavigation = {
 export const planningGuides = guideData as PlanningGuide[];
 const planningNavigation = navigationData as PlanningNavigation;
 export const planningGroups = planningNavigation.groups;
-export const planningCollectionLinksHeading = planningNavigation.collection_links_heading;
 
 export function getFootprintLink(groupId: "indoor" | "outdoor", capacity: string): ContentLink | undefined {
   return planningNavigation.footprint_links[groupId]?.[capacity];
@@ -92,9 +71,9 @@ function median(values: number[]) {
 
 export function getPriceSnapshot() {
   const groups = [
-    { id: "all", label: "Gesamtkatalog", products },
-    { id: "indoor", label: "Indoor-Sauna", products: products.filter((product) => product.category === "indoor") },
-    { id: "outdoor", label: "Outdoor-Sauna", products: products.filter((product) => product.category === "outdoor") },
+    { id: "all", label: "Alle Modelle", products },
+    { id: "indoor", label: "Innensauna", products: products.filter((product) => product.category === "indoor") },
+    { id: "outdoor", label: "Gartensauna", products: products.filter((product) => product.category === "outdoor") },
     { id: "infrared", label: "Infrarotkabine", products: products.filter((product) => product.category === "infrared") },
   ];
 

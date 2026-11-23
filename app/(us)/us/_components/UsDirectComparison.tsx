@@ -30,6 +30,13 @@ function getServerSearch() {
   return "";
 }
 
+function versionLabel(option: UsDirectComparisonOption) {
+  return option.configurationLabel
+    .replace(option.model, "")
+    .replace(/(documented )?(base |standard )?configuration/i, "")
+    .replace(/^[\s,–-]+|[\s,–-]+$/g, "");
+}
+
 function SelectionForm({ options, initialSelection }: { options: UsDirectComparisonOption[]; initialSelection: string[] }) {
   const [draftSelection, setDraftSelection] = useState(initialSelection);
   const selectionIsFull = draftSelection.length >= US_DIRECT_COMPARISON_MAXIMUM;
@@ -56,19 +63,18 @@ function SelectionForm({ options, initialSelection }: { options: UsDirectCompari
   }
 
   return (
-    <form className="us-direct-comparison-form" onSubmit={submit}>
-      <fieldset aria-describedby="direct-comparison-help direct-comparison-count">
-        <legend>Choose configurations</legend>
-        <p id="direct-comparison-help">Select at least two and no more than four. Every choice names the exact configuration used in the table.</p>
-        <p id="direct-comparison-count" className="us-direct-comparison-count" aria-live="polite">
+    <form className="finder us-compare" onSubmit={submit}>
+      <fieldset aria-describedby="direct-comparison-count">
+        <legend>Pick two to four saunas</legend>
+        <p id="direct-comparison-count" className="hint" aria-live="polite">
           <strong>{draftSelection.length}</strong> of {US_DIRECT_COMPARISON_MAXIMUM} selected
         </p>
-        <div className="us-direct-comparison-options">
+        <div className="options">
           {options.map((option) => {
             const checked = draftSelection.includes(option.configurationId);
             return (
               <label
-                aria-label={`Compare ${option.brand} ${option.model}, ${option.configurationLabel}`}
+                aria-label={`Compare ${[`${option.brand} ${option.model}`, versionLabel(option)].filter(Boolean).join(", ")}`}
                 htmlFor={`compare-${option.configurationId}`}
                 key={option.configurationId}
               >
@@ -83,29 +89,29 @@ function SelectionForm({ options, initialSelection }: { options: UsDirectCompari
                 />
                 <span>
                   <strong>{option.brand} {option.model}</strong>
-                  <small>{option.configurationLabel}</small>
+                  {versionLabel(option) ? <small>{versionLabel(option)}</small> : null}
                 </span>
               </label>
             );
           })}
         </div>
       </fieldset>
-      <div className="us-direct-comparison-actions">
-        <button className="button" type="submit" disabled={draftSelection.length < US_DIRECT_COMPARISON_MINIMUM}>Compare selected models</button>
-        <button className="us-direct-comparison-clear" type="button" onClick={clear}>Clear selection</button>
+      <div className="actions">
+        <button className="btn" type="submit" disabled={draftSelection.length < US_DIRECT_COMPARISON_MINIMUM}>Compare</button>
+        <button className="linklike" type="button" onClick={clear}>Clear</button>
       </div>
     </form>
   );
 }
 
 const comparisonRows: { label: string; key: keyof Pick<UsDirectComparisonOption, "configurationLabel" | "heatType" | "placement" | "seatedCapacity" | "exteriorDimensions" | "electrical" | "requiredCircuit" | "connection" | "materials"> }[] = [
-  { label: "Configuration", key: "configurationLabel" },
-  { label: "Heat type", key: "heatType" },
-  { label: "Placement", key: "placement" },
-  { label: "Capacity", key: "seatedCapacity" },
-  { label: "Exterior W × D × H", key: "exteriorDimensions" },
-  { label: "Electrical", key: "electrical" },
-  { label: "Required circuit", key: "requiredCircuit" },
+  { label: "Version", key: "configurationLabel" },
+  { label: "Heat", key: "heatType" },
+  { label: "Where", key: "placement" },
+  { label: "Seats", key: "seatedCapacity" },
+  { label: "Outside size (W × D × H)", key: "exteriorDimensions" },
+  { label: "Power", key: "electrical" },
+  { label: "Circuit", key: "requiredCircuit" },
   { label: "Connection", key: "connection" },
   { label: "Materials", key: "materials" },
 ];
@@ -120,50 +126,35 @@ export function UsDirectComparison({ options }: { options: UsDirectComparisonOpt
     return option ? [option] : [];
   });
 
-  if (options.length === 0) {
-    return (
-      <section className="us-catalog-empty" aria-live="polite">
-        <h2>The model comparison is not public yet.</h2>
-        <p>It will use only reviewed US configurations when the catalog is approved for publication.</p>
-      </section>
-    );
-  }
+  if (options.length === 0) return <p aria-live="polite">There are no saunas to compare yet.</p>;
+  const ready = selected.length >= US_DIRECT_COMPARISON_MINIMUM;
 
   return (
     <>
       <SelectionForm key={locationSearch} options={options} initialSelection={selectedIds} />
-      <section className="us-direct-comparison-results" id="model-comparison" aria-labelledby="model-comparison-title" aria-live="polite">
-        <header>
-          <p className="eyebrow">Configuration-level facts</p>
-          <h2 id="model-comparison-title">{selected.length >= US_DIRECT_COMPARISON_MINIMUM ? `${selected.length} models side by side` : "Your comparison table"}</h2>
-          <p>{selected.length >= US_DIRECT_COMPARISON_MINIMUM
-            ? "The table preserves unknown values instead of filling gaps or treating different configurations as one product."
-            : "Choose two to four configurations above. The resulting URL can be bookmarked or shared."}</p>
-        </header>
-        {selected.length >= US_DIRECT_COMPARISON_MINIMUM ? (
-          <div className="us-comparison-table-wrap us-direct-comparison-table">
-            <table>
+      <section id="model-comparison" aria-labelledby="model-comparison-title" aria-live="polite">
+        <h2 id="model-comparison-title">Side by side</h2>
+        {ready ? (
+          <>
+            <p>You can bookmark or share this page with your selection.</p>
+            <div className="table-wrap"><table>
               <thead>
                 <tr>
-                  <th scope="col">Fact</th>
-                  {selected.map((option) => (
-                    <th scope="col" key={option.configurationId}>
-                      <Link href={`/us/saunas/${option.slug}/`}>{option.brand}<br />{option.model}</Link>
-                    </th>
-                  ))}
+                  <th scope="col"><span className="visually-hidden">Spec</span></th>
+                  {selected.map((option) => <th scope="col" key={option.configurationId}><Link href={`/us/saunas/${option.slug}/`}>{option.brand} {option.model}</Link></th>)}
                 </tr>
               </thead>
               <tbody>
                 {comparisonRows.map((row) => (
                   <tr key={row.key}>
                     <th scope="row">{row.label}</th>
-                    {selected.map((option) => <td key={option.configurationId}>{option[row.key]}</td>)}
+                    {selected.map((option) => <td key={option.configurationId}>{row.key === "configurationLabel" ? versionLabel(option) || "standard" : option[row.key]}</td>)}
                   </tr>
                 ))}
               </tbody>
-            </table>
-          </div>
-        ) : <p className="us-direct-comparison-empty">No table is shown until at least two configurations are selected.</p>}
+            </table></div>
+          </>
+        ) : <p>Choose at least two saunas above.</p>}
       </section>
     </>
   );

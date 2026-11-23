@@ -82,6 +82,7 @@ function trackOfferClick(event: MouseEvent) {
     merchant: link.dataset.offerMerchant,
     product_id: link.dataset.offerProduct,
     affiliate: link.dataset.offerAffiliate === "true",
+    placement: link.dataset.offerPlacement,
     link_domain: new URL(link.href).hostname,
     transport_type: "beacon",
   });

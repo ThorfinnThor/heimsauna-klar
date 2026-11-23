@@ -25,12 +25,12 @@ function documentedValue<T>(fact: UsFact<T>): T | null {
 }
 
 function listLabel(values: string[] | null, formatter: (value: string) => string = (value) => value) {
-  return values && values.length > 0 ? values.map(formatter).join(", ") : "Not documented";
+  return values && values.length > 0 ? values.map(formatter).join(", ") : "–";
 }
 
 function dimensionsLabel(configuration: UsProductConfiguration) {
   const dimensions = documentedValue(configuration.dimensions.exterior);
-  if (!dimensions) return "Not documented";
+  if (!dimensions) return "–";
   return [dimensions.width, dimensions.depth, dimensions.height]
     .map((measurement) => `${measurement.value} ${measurement.unit}`)
     .join(" × ");
@@ -51,7 +51,7 @@ function electricalValues<T extends string | number>(
 function electricalLabel(configuration: UsProductConfiguration) {
   const voltages = electricalValues(configuration, (requirement) => requirement.voltage_v);
   const powers = electricalValues(configuration, (requirement) => requirement.rated_power_w);
-  if (voltages.length === 0 && powers.length === 0) return "Not documented";
+  if (voltages.length === 0 && powers.length === 0) return "–";
   return [
     voltages.length > 0 ? voltages.map((value) => `${value} V`).join(" or ") : null,
     powers.length > 0 ? powers.map((value) => `${Number(value).toLocaleString("en-US")} W`).join(" or ") : null,
@@ -61,7 +61,7 @@ function electricalLabel(configuration: UsProductConfiguration) {
 function connectionLabel(configuration: UsProductConfiguration) {
   const connections = electricalValues(configuration, (requirement) => requirement.connection);
   const plugs = electricalValues(configuration, (requirement) => requirement.plug_type);
-  if (connections.length === 0 && plugs.length === 0) return "Not documented";
+  if (connections.length === 0 && plugs.length === 0) return "–";
   return [...connections, ...plugs].join(" · ");
 }
 
@@ -91,12 +91,12 @@ export function buildUsDirectComparisonOptions(
       brand: product.brand_name,
       model: product.model,
       configurationLabel: configuration.label,
-      heatType: heatType ? heatType.replaceAll("-", " ") : "Not documented",
+      heatType: heatType ? heatType.replaceAll("-", " ") : "–",
       placement: listLabel(placements, (value) => value.replaceAll("-", " ")),
-      seatedCapacity: capacity === null ? "Not documented" : `${capacity} seated`,
+      seatedCapacity: capacity === null ? "–" : String(capacity),
       exteriorDimensions: dimensionsLabel(configuration),
       electrical: electricalLabel(configuration),
-      requiredCircuit: circuits.length > 0 ? circuits.map((value) => `${value} A`).join(" or ") : "Not documented",
+      requiredCircuit: circuits.length > 0 ? circuits.map((value) => `${value} A`).join(" or ") : "–",
       connection: connectionLabel(configuration),
       materials: listLabel(materials),
     }];

@@ -10,10 +10,10 @@ import "../globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Select Your Sauna — die passende Sauna für dein Zuhause",
+    default: "Select Your Sauna: Saunen für zu Hause im Vergleich",
     template: "%s | Select Your Sauna",
   },
-  description: "Unabhängige Planungshilfe für Heimsaunen: nach Platz, Stromanschluss, Budget und Nutzungsprofil.",
+  description: "Saunen und Infrarotkabinen für zu Hause im Vergleich: Maße, Stromanschluss und Preise.",
   creator: "Schayan Yousefian",
   publisher: "SeitenHafen361",
   icons: {

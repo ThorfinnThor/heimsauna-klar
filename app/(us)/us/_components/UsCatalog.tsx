@@ -20,10 +20,6 @@ function filtersFromParams(params: { get(name: string): string | null }): UsCata
   });
 }
 
-function displayValue(value: string | number | null, suffix = "") {
-  return value === null ? "Not documented" : `${value}${suffix}`;
-}
-
 const filterChangeEvent = "selectyoursauna:us-catalog-filter";
 
 function subscribeToLocation(callback: () => void) {
@@ -63,71 +59,67 @@ export function UsCatalog({ items }: { items: UsCatalogItem[] }) {
     window.dispatchEvent(new Event(filterChangeEvent));
   }
 
-  if (items.length === 0) {
-    return (
-      <section className="us-catalog-empty" aria-live="polite">
-        <h2>The US catalog is not public yet.</h2>
-        <p>Only products that complete source, configuration, editorial and publication review will appear here.</p>
-      </section>
-    );
-  }
+  if (items.length === 0) return <p aria-live="polite">There are no saunas to show yet.</p>;
 
   return (
     <>
-      <form className="us-catalog-filters" onSubmit={(event) => event.preventDefault()}>
-        <label className="us-catalog-search">
-          <span>Search by brand or model</span>
-          <input value={filters.query} onChange={(event) => update("query", event.target.value)} type="search" />
-        </label>
-        <label>
-          <span>Placement</span>
-          <select value={filters.placement} onChange={(event) => update("placement", event.target.value as UsCatalogFilters["placement"])}>
-            <option value="all">All</option><option value="indoor">Indoor</option><option value="outdoor">Outdoor</option>
-          </select>
-        </label>
-        <label>
-          <span>Seated capacity</span>
-          <select value={filters.capacity} onChange={(event) => update("capacity", event.target.value as UsCatalogFilters["capacity"])}>
-            <option value="all">All</option><option value="1">1 person</option><option value="2">2 people</option><option value="4-plus">4 or more</option>
-          </select>
-        </label>
-        <label>
-          <span>Voltage</span>
-          <select value={filters.voltage} onChange={(event) => update("voltage", event.target.value as UsCatalogFilters["voltage"])}>
-            <option value="all">All</option><option value="120">120 V</option><option value="240">240 V</option>
-          </select>
-        </label>
-        <label>
-          <span>Brand</span>
-          <select value={filters.brand} onChange={(event) => update("brand", event.target.value)}>
-            <option value="all">All</option>{brands.map((brand) => <option value={brand} key={brand}>{brand}</option>)}
-          </select>
-        </label>
+      <form className="filters" onSubmit={(event) => event.preventDefault()}>
+        <div className="fields fields-5">
+          <label>Search
+            <input value={filters.query} onChange={(event) => update("query", event.target.value)} type="search" placeholder="Brand or model" />
+          </label>
+          <label>Indoor or outdoor
+            <select value={filters.placement} onChange={(event) => update("placement", event.target.value as UsCatalogFilters["placement"])}>
+              <option value="all">Any</option><option value="indoor">Indoor</option><option value="outdoor">Outdoor</option>
+            </select>
+          </label>
+          <label>Seats
+            <select value={filters.capacity} onChange={(event) => update("capacity", event.target.value as UsCatalogFilters["capacity"])}>
+              <option value="all">Any</option><option value="1">1</option><option value="2">2</option><option value="4-plus">4 or more</option>
+            </select>
+          </label>
+          <label>Voltage
+            <select value={filters.voltage} onChange={(event) => update("voltage", event.target.value as UsCatalogFilters["voltage"])}>
+              <option value="all">Any</option><option value="120">120 V</option><option value="240">240 V</option>
+            </select>
+          </label>
+          <label>Brand
+            <select value={filters.brand} onChange={(event) => update("brand", event.target.value)}>
+              <option value="all">Any</option>{brands.map((brand) => <option value={brand} key={brand}>{brand}</option>)}
+            </select>
+          </label>
+        </div>
       </form>
 
-      <div className="us-catalog-summary" aria-live="polite">
-        <span><strong>{results.length}</strong> {results.length === 1 ? "product" : "products"}</span>
-        {hasActiveFilters ? <button type="button" onClick={() => {
+      <div className="result-count" aria-live="polite">
+        <p>{results.length} {results.length === 1 ? "sauna" : "saunas"}</p>
+        {hasActiveFilters ? <button className="linklike" type="button" onClick={() => {
           window.history.replaceState(null, "", window.location.pathname);
           window.dispatchEvent(new Event(filterChangeEvent));
         }}>Clear filters</button> : null}
       </div>
-      <div className="us-catalog-grid">
-        {results.map((item) => (
-          <article className="us-catalog-card" key={item.id}>
-            <p className="eyebrow">{item.brand}</p>
-            <h2>{item.model}</h2>
-            <dl>
-              <div><dt>Placement</dt><dd>{item.placements?.join(", ") ?? "Not documented"}</dd></div>
-              <div><dt>Capacity</dt><dd>{displayValue(item.seatedCapacity, item.seatedCapacity === 1 ? " person" : " people")}</dd></div>
-              <div><dt>Electrical</dt><dd>{item.voltages?.map((value) => `${value} V`).join(" or ") ?? "Not documented"}</dd></div>
-              <div><dt>Exterior W × D × H</dt><dd>{item.exteriorDimensions ?? "Not documented"}</dd></div>
-            </dl>
-            <Link href={`/us/saunas/${item.slug}/`}>View details</Link>
-          </article>
-        ))}
-      </div>
-      {results.length === 0 ? <div className="us-catalog-no-results"><h2>No reviewed products match these filters.</h2><p>Clear one or more filters to broaden the list. Products with undocumented values are not treated as matches for a selected technical filter.</p></div> : null}
+      <UsSaunaRows items={results} />
+      {results.length === 0 ? <p>Nothing matches all of these. Try clearing one filter. If a maker doesn&apos;t state a value, the model won&apos;t show up under that filter.</p> : null}
     </>
+  );
+}
+
+export function UsSaunaRows({ items }: { items: UsCatalogItem[] }) {
+  return (
+    <ul className="plist us-results">
+      {items.map((item) => (
+        <li key={item.id}>
+          <div>
+            <h3><Link href={`/us/saunas/${item.slug}/`}>{item.brand} {item.model}</Link></h3>
+            <p>{[
+              [item.heatType, item.placements?.join(" or ")].filter(Boolean).join(", "),
+              item.seatedCapacity === null ? "" : `${item.seatedCapacity} ${item.seatedCapacity === 1 ? "seat" : "seats"}`,
+              item.exteriorDimensions?.replace(/ in(?= ×)/g, "") ?? "",
+              item.voltages?.map((value) => `${value} V`).join(" or ") ?? "",
+            ].filter(Boolean).join(" · ")}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
   );
 }

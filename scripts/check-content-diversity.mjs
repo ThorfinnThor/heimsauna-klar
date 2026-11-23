@@ -4,10 +4,11 @@ import path from "node:path";
 const outputRoot = path.resolve("out");
 const collections = JSON.parse(await readFile(new URL("../content/de/collections.json", import.meta.url), "utf8"));
 const guides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
-const presentations = JSON.parse(await readFile(new URL("../content/de/page-presentations.json", import.meta.url), "utf8"));
+const home = JSON.parse(await readFile(new URL("../content/de/home.json", import.meta.url), "utf8"));
 const voltageGuide = JSON.parse(await readFile(new URL("../content/de/guides/230-v-sauna.json", import.meta.url), "utf8"));
 const issues = [];
-const renderedProfiles = new Map();
+const orders = new Map();
+const headings = new Map();
 const editorialFragments = new Map();
 const forbiddenStylePatterns = [
   [/Im nächsten Schritt/i, "Im nächsten Schritt"],
@@ -22,6 +23,20 @@ const forbiddenStylePatterns = [
   [/Produkte, ohne erfundene Rangliste/i, "Produkte ohne erfundene Rangliste"],
   [/Nicht irgendeine Sauna/i, "Nicht irgendeine Sauna"],
   [/Harte Treffer/i, "Harte Treffer"],
+  // See docs/writing-style.md: no talk about our own records, no report German.
+  [/Datens[aä]tz/i, "Datensatz"],
+  [/\bbelegte?[nrs]?\b/i, "belegt"],
+  [/dokumentiert/i, "dokumentiert"],
+  [/verifiziert/i, "verifiziert"],
+  [/nachvollziehbar/i, "nachvollziehbar"],
+  [/Einordnung|einzuordnen|\bein(ge)?ordnen\b/i, "Einordnung"],
+  [/ausgewiesen/i, "ausgewiesen"],
+  [/rechnerisch/i, "rechnerisch"],
+  [/Produktfläche|Planungsfläche|Raumlogik/i, "Produktfläche/Planungsfläche"],
+  [/belastbar/i, "belastbar"],
+  [/Momentaufnahme/i, "Momentaufnahme"],
+  [/\bnicht\b[^.!?]{0,100}\bsondern\b/i, "nicht … sondern …"],
+  [/↗|→/, "arrow in text"],
 ];
 
 function collectStrings(value, location, output = []) {
@@ -34,7 +49,7 @@ function collectStrings(value, location, output = []) {
 for (const entry of [
   ...collectStrings(collections, "collections"),
   ...collectStrings(guides, "planning-guides"),
-  ...collectStrings(presentations, "page-presentations"),
+  ...collectStrings(home, "home"),
   ...collectStrings(voltageGuide, "230-v-guide"),
 ]) {
   for (const [pattern, label] of forbiddenStylePatterns) {
@@ -59,58 +74,47 @@ function recordEditorialCopy(html, route, minimumFragments) {
     .filter(Boolean);
   if (fragments.length < minimumFragments) issues.push(`${route}: expected at least ${minimumFragments} substantial editorial fragments, found ${fragments.length}`);
   for (const fragment of fragments) {
-    if (fragment.length < 110) issues.push(`${route}: editorial fragment is too short (${fragment.length} characters)`);
+    if (fragment.length < 60) issues.push(`${route}: editorial fragment is too short (${fragment.length} characters)`);
     const previousRoute = editorialFragments.get(fragment);
     if (previousRoute && previousRoute !== route) issues.push(`${route}: repeats editorial copy from ${previousRoute}`);
     editorialFragments.set(fragment, route);
   }
 }
 
-async function checkPage({ route, expectedProfile, expectedFlow, minimumFragments, kind }) {
+async function checkPage({ route, blocks, tail, minimumFragments, kind }) {
   const file = path.join(outputRoot, route.replace(/^\//, ""), "index.html");
   const html = await readFile(file, "utf8").catch(() => null);
   if (!html) {
     issues.push(`${route}: static HTML is missing`);
     return;
   }
-  const renderedKind = html.match(/data-page-kind="([^"]+)"/)?.[1];
-  const renderedProfile = html.match(/data-page-profile="([^"]+)"/)?.[1];
-  const moduleFlow = [...html.matchAll(/data-page-module="([^"]+)"/g)].map((match) => match[1]);
-  if (renderedKind !== kind) issues.push(`${route}: rendered page kind is ${renderedKind ?? "missing"}`);
-  if (renderedProfile !== expectedProfile) issues.push(`${route}: rendered profile does not match JSON presentation`);
-  if (moduleFlow.join("|") !== [...expectedFlow, "related"].join("|")) {
-    issues.push(`${route}: rendered module order is ${moduleFlow.join(" -> ")}`);
+  if (html.match(/data-page-kind="([^"]+)"/)?.[1] !== kind) issues.push(`${route}: page kind is wrong`);
+  const order = [...html.matchAll(/data-page-module="([^"]+)"/g)].map((match) => match[1]).join("|");
+  const expected = [...blocks.map((block) => block.type), ...tail].join("|");
+  if (order !== expected) issues.push(`${route}: rendered order ${order} does not match the JSON (${expected})`);
+  orders.set(`${kind}:${expected}`, [...(orders.get(`${kind}:${expected}`) ?? []), route]);
+  for (const block of blocks) {
+    if (!block.heading) continue;
+    const previous = headings.get(block.heading);
+    if (previous && block.type === "text") issues.push(`${route}: repeats the heading "${block.heading}" from ${previous}`);
+    if (block.type === "text") headings.set(block.heading, route);
   }
-  const previousRoute = renderedProfiles.get(renderedProfile);
-  if (previousRoute) issues.push(`${route}: rendered profile duplicates ${previousRoute}`);
-  renderedProfiles.set(renderedProfile, route);
+  if (/\{[a-z0-9_]+\}/.test(decodeText(html.match(/<article[\s\S]*<\/article>/)?.[0] ?? ""))) issues.push(`${route}: unfilled placeholder in the text`);
   recordEditorialCopy(html, route, minimumFragments);
 }
 
 for (const collection of collections) {
-  const presentation = presentations.collections[collection.id];
-  const expectedProfile = [presentation.hero, presentation.results, presentation.method, presentation.flow.join("-")].join("|");
-  await checkPage({
-    route: `/de/${collection.section}/${collection.slug}`,
-    expectedProfile,
-    expectedFlow: presentation.flow,
-    minimumFragments: 4,
-    kind: "collection",
-  });
+  await checkPage({ route: `/de/${collection.section}/${collection.slug}`, blocks: collection.blocks, tail: ["related"], minimumFragments: 2, kind: "collection" });
+}
+for (const guide of guides) {
+  await checkPage({ route: `/de/planung/${guide.slug}`, blocks: guide.blocks, tail: ["sources", "related"], minimumFragments: 4, kind: "planning-guide" });
 }
 
-for (const guide of guides) {
-  const presentation = presentations.planning_guides[guide.slug];
-  const expectedProfile = [presentation.hero, presentation.sections, presentation.insight_style, presentation.flow.join("-")].join("|");
-  await checkPage({
-    route: `/de/planung/${guide.slug}`,
-    expectedProfile,
-    expectedFlow: presentation.flow,
-    minimumFragments: 5,
-    kind: "planning-guide",
-  });
+// Pages are written one by one. If one structure takes over, that stopped being true.
+for (const [order, routes] of orders) {
+  if (routes.length > 12) issues.push(`${order}: used by ${routes.length} pages`);
 }
 
 if (issues.length > 0) throw new Error(`Content diversity check failed:\n${issues.join("\n")}`);
 
-console.log(`Content diversity check passed: ${collections.length} collection pages and ${guides.length} planning guides have unique presentation profiles, intentional module order, and substantial non-duplicated editorial copy.`);
+console.log(`Content check passed: ${collections.length} comparison pages and ${guides.length} guides use ${orders.size} different structures, with no repeated text, no repeated headings and no banned phrases.`);

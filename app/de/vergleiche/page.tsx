@@ -1,81 +1,44 @@
 import Link from "next/link";
+import { Breadcrumbs } from "@/app/_components/Blocks";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
-import {
-  collectionSectionLabels,
-  getCollectionPath,
-  getCollectionProducts,
-  indexableCollections,
-  type Collection,
-} from "@/lib/collections";
+import { collectionSectionLabels, getCollectionPath, getCollectionProducts, indexableCollections, type Collection } from "@/lib/collections";
 import { createPageMetadata } from "@/lib/metadata";
+import { products } from "@/lib/products";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
-const title = "Sauna-Vergleiche nach Platz, Kapazität und Preis";
-const description = "Vergleichsseiten für Heimsaunen mit nachvollziehbaren Kriterien zu Stellfläche, Personen, Wärmeart, Anschluss und Budget.";
+const title = "Sauna-Vergleiche nach Größe, Personen und Preis";
+const description = "Alle Sauna-Vergleiche im Überblick: Innensaunen, Infrarotkabinen und Gartensaunen nach Personenzahl, Stellfläche, Stromanschluss und Budget.";
 const path = "/de/vergleiche/";
 
 export const metadata = createPageMetadata({ title, description, path });
 
-const sectionOrder: Array<{ section: Collection["section"]; intro: string }> = [
-  { section: "indoor-sauna", intro: "Innenkabinen und Infrarotkabinen nach Personenzahl, Wärmeart, Stellfläche und Preis." },
-  { section: "outdoor-sauna", intro: "Gartensaunen und Fasssaunen, bei denen Fundament, Wetterschutz und Zuleitung mitgeplant werden." },
-  { section: "vergleiche", intro: "Übergreifende Auswahlen nach Budget, Gruppengröße, Saunatyp, Anschluss und Marke." },
-];
+const sections: Collection["section"][] = ["indoor-sauna", "outdoor-sauna", "vergleiche"];
 
 export default function ComparisonsHubPage() {
+  const plugCount = products.filter((product) => product.power.voltage === 230).length;
   return (
     <main>
       <StructuredData data={collectionPageJsonLd({ title, description, path })} />
-      <StructuredData data={breadcrumbJsonLd([
-        { name: "Start", path: "/de/" },
-        { name: "Vergleiche", path },
-      ])} />
+      <StructuredData data={breadcrumbJsonLd([{ name: "Start", path: "/de/" }, { name: "Vergleiche", path }])} />
       <SiteHeader />
-      <section className="page-hero page-shell">
-        <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Vergleiche</span></nav>
-        <p className="eyebrow">Vergleiche · konkrete Auswahlfragen</p>
-        <h1>Saunen vergleichen{" "}<span>mit Kriterien, die zum Standort passen.</span></h1>
-        <p>Die Übersichten sortieren dokumentierte Produkte nach einer klaren Frage. Öffne den Vergleich, der zu deinem Platz, deiner Personenzahl, deiner Wärmeart oder deinem Budget passt.</p>
-        <div className="guide-path-links">
-          <Link className="text-link" href="/de/planung/platzbedarf/">Sauna-Abmessungen vorher planen ↗</Link>
-          <Link className="text-link" href="/de/planung/sauna-kosten/">Kosten einer Heimsauna einordnen ↗</Link>
-          <Link className="text-link" href="/de/produkte/">Alle Produkte im Katalog ansehen ↗</Link>
-        </div>
-      </section>
-      <section className="collection-index page-shell" aria-labelledby="comparison-index-title">
-        <div className="collection-index-head">
-          <div><p className="eyebrow">Auswahl nach Anforderung</p><h2 id="comparison-index-title">Welcher Vergleich passt zu deiner Frage?</h2></div>
-          <p>Jede Seite erklärt ihre Filter und nennt die Grenzen der verfügbaren Hersteller- und Angebotsdaten.</p>
-        </div>
-        <nav className="planning-phase-nav" aria-label="Vergleiche nach Kategorie">
-          {sectionOrder.map((group) => <a href={`#${group.section}`} key={group.section}>{collectionSectionLabels[group.section]}</a>)}
-        </nav>
-        {sectionOrder.map((group) => {
-          const sectionCollections = indexableCollections.filter((collection) => collection.section === group.section);
-          return (
-            <section className="comparison-group" id={group.section} key={group.section} aria-labelledby={`${group.section}-title`}>
-              <div className="comparison-group-head"><h3 id={`${group.section}-title`}>{collectionSectionLabels[group.section]}</h3><p>{group.intro}</p></div>
-              <div className="collection-index-grid">
-                {group.section === "vergleiche" ? (
-                  <Link href="/de/vergleiche/230-v-sauna/">
-                    <small>Anschlussvergleich</small>
-                    <strong>230-V-Saunen vergleichen</strong>
-                    <span>Modelle mit dokumentiertem 230-V-Anschluss ansehen ↗</span>
-                  </Link>
-                ) : null}
-                {sectionCollections.map((collection) => (
-                  <Link href={getCollectionPath(collection)} key={collection.id}>
-                    <small>{collection.kind}</small>
-                    <strong>{collection.title}</strong>
-                    <span>{getCollectionProducts(collection).length} Produkte ansehen ↗</span>
-                  </Link>
-                ))}
-              </div>
-            </section>
-          );
-        })}
-      </section>
+      <div className="wrap page">
+        <Breadcrumbs items={[{ label: "Start", href: "/de/" }, { label: "Vergleiche" }]} />
+        <h1>Sauna-Vergleiche</h1>
+        <p className="text">Jede Liste hat einen anderen Schwerpunkt. Wenn du noch nicht weißt, wie viel Platz du brauchst, hilft der Beitrag <Link href="/de/planung/platzbedarf/">Wie viel Platz braucht eine Sauna?</Link> Was dich das Ganze kostet, steht unter <Link href="/de/planung/sauna-kosten/">Was kostet eine Heimsauna?</Link></p>
+        {sections.map((section) => (
+          <section id={section} key={section}>
+            <h2>{collectionSectionLabels[section]}</h2>
+            <ul className="linklist">
+              {section === "vergleiche" ? <li><Link href="/de/vergleiche/230-v-sauna/">Saunen für 230 Volt</Link> <small>({plugCount})</small></li> : null}
+              {indexableCollections.filter((collection) => collection.section === section).map((collection) => (
+                <li key={collection.id}><Link href={getCollectionPath(collection)}>{collection.title}</Link> <small>({getCollectionProducts(collection).length})</small></li>
+              ))}
+            </ul>
+          </section>
+        ))}
+        <p><Link href="/de/produkte/">Alle Saunen mit Filter</Link></p>
+      </div>
       <SiteFooter />
     </main>
   );

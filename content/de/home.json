@@ -1,83 +1,152 @@
 {
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-11-23",
   "featured_product_ids": [
+    "home-deluxe-aruna-s",
     "karibu-sauna-sandra-6705",
-    "weka-infrarotkabine-milo-1-f",
+    "home-deluxe-redsun-deluxe-s",
     "karibu-sauna-antonia-6717",
     "karibu-saunahaus-olbia-66606",
-    "karibu-saunahaus-monterey-34032",
-    "karibu-saunahaus-hytti-3-93863m"
-  ],
-  "hero": {
-    "lede": "Der Sauna-Finder berücksichtigt Raum, Stromanschluss, Budget und gewünschte Wärmeart. Im Katalog kannst du anschließend technische Daten und Preise vergleichen."
-  },
-  "constraints": [
-    { "title": "Platz", "copy": "Außenmaß, Höhe und nötige Abstände" },
-    { "title": "Strom", "copy": "230 V, 400 V oder holzbefeuert" },
-    { "title": "Budget", "copy": "Produkt, Aufbau und laufende Kosten" }
-  ],
-  "principles": [
-    { "title": "Daten mit Quelle", "copy": "Maße, Leistung und Preise werden erst veröffentlicht, wenn Herkunft und Prüfdatum dokumentiert sind." },
-    { "title": "Einsatz und Grenzen", "copy": "Zu jedem Modell nennen wir geeignete Einsatzbereiche und bekannte Einschränkungen." },
-    { "title": "Quellen und Einordnung trennen", "copy": "Technische Angaben stammen aus den verlinkten Quellen. Unsere Einordnung wird davon klar getrennt ausgewiesen." }
+    "karibu-saunahaus-monterey-34032"
   ],
   "entry_points": {
-    "kicker": "Direkt zum passenden Vergleich",
-    "title": "Nach Größe, Standort oder Planungsfrage einsteigen.",
-    "copy": "Jede Übersicht filtert den Katalog nach einem messbaren Kriterium und nennt die Grenzen der Daten. Die Ratgeber klären vorher, ob Raum, Untergrund und Anschluss zur gewählten Größe passen.",
     "all_href": "/de/vergleiche/",
-    "all_label": "Alle Vergleiche nach Kategorie",
+    "all_label": "Alle Vergleiche",
     "groups": [
       {
-        "title": "Innensauna nach Personenzahl",
-        "copy": "Kapazität, Außenmaß und Anschluss je Kabinengröße.",
+        "title": "Innensaunen",
         "links": [
-          { "href": "/de/indoor-sauna/1-person-sauna/", "label": "1-Person-Sauna" },
-          { "href": "/de/indoor-sauna/2-personen-sauna/", "label": "Sauna für 2 Personen" },
-          { "href": "/de/indoor-sauna/3-personen-sauna/", "label": "Sauna für 3 Personen" },
-          { "href": "/de/indoor-sauna/finnische-sauna-2-personen/", "label": "Finnische Sauna für 2 Personen" },
-          { "href": "/de/indoor-sauna/finnische-sauna-3-personen/", "label": "Finnische Sauna für 3 Personen" },
-          { "href": "/de/indoor-sauna/mini-sauna/", "label": "Mini-Sauna für kleine Räume" }
+          {
+            "href": "/de/indoor-sauna/1-person-sauna/",
+            "label": "1-Person-Sauna"
+          },
+          {
+            "href": "/de/indoor-sauna/2-personen-sauna/",
+            "label": "Sauna für 2 Personen"
+          },
+          {
+            "href": "/de/indoor-sauna/3-personen-sauna/",
+            "label": "Sauna für 3 Personen"
+          },
+          {
+            "href": "/de/indoor-sauna/finnische-sauna-2-personen/",
+            "label": "Finnische Sauna für 2 Personen"
+          },
+          {
+            "href": "/de/indoor-sauna/finnische-sauna-3-personen/",
+            "label": "Finnische Sauna für 3 Personen"
+          },
+          {
+            "href": "/de/indoor-sauna/mini-sauna/",
+            "label": "Mini-Sauna für kleine Räume"
+          }
         ]
       },
       {
         "title": "Infrarotkabinen",
-        "copy": "Einzel- und Mehrplatzkabinen mit Strahler- und Anschlussdaten.",
         "links": [
-          { "href": "/de/indoor-sauna/1-person-infrarotkabine/", "label": "Infrarotkabine für 1 Person" },
-          { "href": "/de/indoor-sauna/2-personen-infrarotkabine/", "label": "Infrarotkabine für 2 Personen" },
-          { "href": "/de/indoor-sauna/infrarotkabine-ab-3-personen/", "label": "Infrarotkabine ab 3 Personen" },
-          { "href": "/de/indoor-sauna/infrarotkabine-bis-2000-euro/", "label": "Infrarotkabine bis 2.000 Euro" },
-          { "href": "/de/indoor-sauna/infrarotkabine/", "label": "Alle Infrarotkabinen" }
+          {
+            "href": "/de/indoor-sauna/1-person-infrarotkabine/",
+            "label": "Infrarotkabine für 1 Person"
+          },
+          {
+            "href": "/de/indoor-sauna/2-personen-infrarotkabine/",
+            "label": "Infrarotkabine für 2 Personen"
+          },
+          {
+            "href": "/de/indoor-sauna/infrarotkabine-ab-3-personen/",
+            "label": "Infrarotkabine ab 3 Personen"
+          },
+          {
+            "href": "/de/indoor-sauna/infrarotkabine-bis-2000-euro/",
+            "label": "Infrarotkabine bis 2.000 Euro"
+          },
+          {
+            "href": "/de/indoor-sauna/infrarotkabine/",
+            "label": "Alle Infrarotkabinen"
+          }
         ]
       },
       {
-        "title": "Garten und größere Gruppen",
-        "copy": "Außenmodelle und Kabinen ab vier Plätzen nach Stellfläche.",
+        "title": "Garten und größere Saunen",
         "links": [
-          { "href": "/de/outdoor-sauna/kleine-gartensauna/", "label": "Kleine Gartensauna" },
-          { "href": "/de/outdoor-sauna/fasssauna/", "label": "Fasssauna" },
-          { "href": "/de/outdoor-sauna/gartensauna-bis-5000-euro/", "label": "Gartensauna bis 5.000 Euro" },
-          { "href": "/de/vergleiche/4-personen-sauna/", "label": "4-Personen-Sauna" },
-          { "href": "/de/vergleiche/5-personen-sauna/", "label": "Sauna für 5 Personen" },
-          { "href": "/de/vergleiche/sauna-ab-6-personen/", "label": "Sauna ab 6 Personen" }
+          {
+            "href": "/de/outdoor-sauna/kleine-gartensauna/",
+            "label": "Kleine Gartensauna"
+          },
+          {
+            "href": "/de/outdoor-sauna/fasssauna/",
+            "label": "Fasssauna"
+          },
+          {
+            "href": "/de/outdoor-sauna/gartensauna-bis-5000-euro/",
+            "label": "Gartensauna bis 5.000 Euro"
+          },
+          {
+            "href": "/de/vergleiche/4-personen-sauna/",
+            "label": "4-Personen-Sauna"
+          },
+          {
+            "href": "/de/vergleiche/5-personen-sauna/",
+            "label": "Sauna für 5 Personen"
+          },
+          {
+            "href": "/de/vergleiche/sauna-ab-6-personen/",
+            "label": "Sauna ab 6 Personen"
+          }
         ]
       },
       {
-        "title": "Planung vor dem Kauf",
-        "copy": "Maße, Untergrund, Luftweg und Kosten mit Quellen geprüft.",
+        "title": "Nach Preis und Strom",
         "links": [
-          { "href": "/de/planung/platzbedarf/", "label": "Sauna-Abmessungen und Platzbedarf" },
-          { "href": "/de/planung/sauna-kosten/", "label": "Was kostet eine Heimsauna?" },
-          { "href": "/de/planung/boden-und-fundament/", "label": "Boden und Fundament" },
-          { "href": "/de/planung/lueftung/", "label": "Sauna-Lüftung planen" },
-          { "href": "/de/planung/sauna-bei-niedriger-deckenhoehe/", "label": "Sauna bei niedriger Deckenhöhe" },
-          { "href": "/de/planung/sauna-im-badezimmer/", "label": "Sauna im Badezimmer" },
-          { "href": "/de/planung/sauna-im-keller/", "label": "Sauna im Keller" },
-          { "href": "/de/planung/saunagroesse-3-6-kw/", "label": "Saunagröße für 3,6 kW" },
-          { "href": "/de/planung/stromverbrauch-heimsauna/", "label": "Stromverbrauch berechnen" }
+          {
+            "href": "/de/vergleiche/indoor-sauna-bis-2000-euro/",
+            "label": "Innensauna bis 2.000 Euro"
+          },
+          {
+            "href": "/de/vergleiche/sauna-bis-2500-euro/",
+            "label": "Sauna bis 2.500 Euro"
+          },
+          {
+            "href": "/de/vergleiche/sauna-bis-4000-euro/",
+            "label": "Sauna bis 4.000 Euro"
+          },
+          {
+            "href": "/de/vergleiche/230-v-sauna/",
+            "label": "Saunen für 230 Volt"
+          },
+          {
+            "href": "/de/vergleiche/400-v-sauna/",
+            "label": "Saunen mit 400 Volt"
+          },
+          {
+            "href": "/de/vergleiche/sauna-bis-6-m2/",
+            "label": "Sauna bis 6 m²"
+          }
         ]
       }
     ]
-  }
+  },
+  "intro": [
+    "Wir haben {total} Saunen und Infrarotkabinen zusammengetragen, mit Maßen, Stromanschluss und Preisen der Händler. Such dir aus, wie viel Platz und Geld du hast, dann siehst du, was geht."
+  ],
+  "featured_intro": "Von der kleinen Innensauna bis zum Saunahaus mit Vorraum. Die Auswahl zeigt die Bandbreite, es ist keine Bestenliste.",
+  "types": [
+    "In einer finnischen Sauna heizt ein Ofen die Luft auf, du kannst Aufgüsse machen und es wird richtig heiß. Dafür braucht sie mehr Platz und oft 400 Volt.",
+    "Eine Infrarotkabine wärmt dich über Strahler. Sie ist kleiner, läuft meist an der Steckdose und ist schneller aufgebaut. Aufgüsse gehen nicht. Eine Bio-Sauna liegt dazwischen: milder als finnisch, dafür feucht."
+  ],
+  "guide_slugs": [
+    "sauna-kosten",
+    "platzbedarf",
+    "230-v-vs-400-v-sauna",
+    "sauna-im-keller",
+    "sauna-im-badezimmer",
+    "boden-und-fundament",
+    "lueftung",
+    "stromverbrauch-heimsauna",
+    "sauna-bei-niedriger-deckenhoehe",
+    "saunagroesse-3-6-kw"
+  ],
+  "sources": [
+    "Maße und technische Daten übernehmen wir von Herstellern und Händlern. Auf jeder Produktseite steht, woher sie stammen. Fehlt eine Angabe, lassen wir das Feld leer und raten nicht. Selbst ausprobiert haben wir die Saunen nicht."
+  ]
 }

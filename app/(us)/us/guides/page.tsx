@@ -4,7 +4,7 @@ import { getUsEditorialPages, isUsResearchPreview } from "@/lib/us/content";
 import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsEditorialIndex } from "../_components/UsEditorial";
 
-export const metadata = createUsPageMetadata({ title: "US home sauna planning guides", description: "Source-based guidance for sauna sizing, placement and electrical planning in the United States.", path: "/us/guides/", pageClass: "overview", hasPublishedContent: getUsEditorialPages("guide").length > 0 });
+export const metadata = createUsPageMetadata({ title: "Home sauna guides", description: "Guides to wiring, running cost and sizing a home sauna in the US.", path: "/us/guides/", pageClass: "overview", hasPublishedContent: getUsEditorialPages("guide").length > 0 });
 
 export default function UsGuideIndexPage() {
   const isPreview = isUsResearchPreview();

@@ -1,25 +1,24 @@
 {
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-11-23",
   "current_status": "active",
-  "title": "Affiliate-Transparenz",
-  "accent": "210 Affiliate-Links sind aktiv.",
-  "description": "Vergütete Awin-Links werden nur für exakt zugeordnete Händlerangebote eingesetzt. Herstellerquellen, Produktauswahl und Sortierung bleiben davon unabhängig.",
+  "title": "Wie wir mit Affiliate-Links umgehen",
+  "description": "Wenn du über einen Link mit dem Zusatz „Affiliate-Link“ kaufst, bekommen wir vom Shop eine Provision. Der Preis bleibt für dich gleich.",
   "principles": [
     {
-      "title": "Herstellerquelle",
-      "copy": "Technische Angaben werden an der Herstellerseite oder Montageanleitung geprüft. Ein vergüteter Händlerlink ersetzt diese Belege nicht."
+      "title": "Reihenfolge",
+      "copy": "Unsere Listen sind nach Preis oder Größe sortiert. Wie viel ein Shop zahlt, spielt dafür keine Rolle."
     },
     {
-      "title": "Sortierung",
-      "copy": "Aufnahme, Filter und Sortierung richten sich nach den dokumentierten Produktdaten. Die Höhe einer Provision wird dafür nicht verwendet."
+      "title": "Shops ohne Provision",
+      "copy": "Wir zeigen auch Shops und Hersteller, an denen wir nichts verdienen. Ihre Links sehen genauso aus, nur der Zusatz fehlt."
     },
     {
       "title": "Kennzeichnung",
-      "copy": "Jeder aktive Affiliate-Link wird am konkreten Link als Affiliate-Link bezeichnet und technisch mit sponsored und nofollow gekennzeichnet."
+      "copy": "Jeder bezahlte Link trägt direkt am Knopf den Zusatz „Affiliate-Link“. Technisch ist er mit sponsored und nofollow markiert."
     },
     {
-      "title": "Preisstand",
-      "copy": "Der ausgewiesene Preis behält sein Prüfdatum. Maßgeblich sind Preis, Verfügbarkeit und Lieferumfang beim Anbieter zum Kaufzeitpunkt."
+      "title": "Preise",
+      "copy": "Neben jedem Preis steht, wann wir ihn zuletzt gesehen haben. Es gilt der Preis, den der Shop beim Kauf anzeigt."
     }
   ],
   "launch_gates": [

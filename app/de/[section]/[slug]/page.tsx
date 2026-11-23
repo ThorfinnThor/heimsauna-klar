@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ProductCollectionPage } from "@/app/_components/ProductCollectionPage";
-import { collections, getCollection } from "@/lib/collections";
+import { collections, getCollection, getCollectionDescription } from "@/lib/collections";
 import { createPageMetadata } from "@/lib/metadata";
 
 type Props = { params: Promise<{ section: string; slug: string }> };
@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!collection) return {};
   return createPageMetadata({
     title: collection.title,
-    description: collection.description,
+    description: getCollectionDescription(collection),
     path: `/de/${collection.section}/${collection.slug}/`,
     indexable: collection.indexable !== false,
   });

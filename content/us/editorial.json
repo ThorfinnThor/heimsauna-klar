@@ -8,29 +8,28 @@
       "page_type": "comparison",
       "slug": "indoor-infrared-saunas",
       "publication_status": "published",
-      "title": "Indoor infrared sauna comparison",
-      "description": "Compare the documented dimensions, capacity and electrical requirements of the current indoor infrared sauna set.",
-      "eyebrow": "Indoor infrared comparison",
-      "heading": "Compare indoor infrared saunas by size, capacity and electrical requirements",
+      "title": "Indoor infrared saunas compared",
+      "description": "Indoor infrared saunas from Peak, JNH and others compared by size, seats, power and the circuit they need.",
+      "eyebrow": "Infrared saunas",
+      "heading": "Indoor infrared saunas compared",
       "introduction": [
-        "The research catalog currently contains 24 infrared products documented for indoor placement in the United States. The table on this page shows the eight published configurations whose current source review supports a public comparison. Model pages keep dimensions, capacity, materials and core electrical values attached to the configuration they describe; an open field remains visible until its own source review is complete.",
-        "This is a specification comparison, not a hands-on test or a quality ranking. A configuration appears only when its product type, heat type and placement are documented in the source record."
+        "These infrared cabins are made for indoor use. Most run on 120 volts, but the circuit behind the outlet differs a lot, from 10 amps up to 30.",
+        "The order says nothing about quality. We compare specs and haven't sat in any of these."
       ],
       "sections": [
         {
           "id": "room-envelope",
-          "heading": "Cabinet dimensions do not define the full room envelope",
+          "heading": "Measure more than the cabin",
           "paragraphs": [
-            "Where exterior measurements are documented, they make it possible to compare the cabinet bodies. The current records do not contain reviewed installation clearances, so those figures cannot establish that a cabin fits tightly between walls or below a ceiling.",
-            "When room dimensions are entered in the sauna finder, a cabinet that fits remains under needs verification until the missing clearance information has been checked in the instructions for that exact model."
+            "The sizes in the table are the cabin's outside dimensions. You also need room for the door to open and the gaps the manual asks for. Most makers don't publish those clearances on the product page, so look in the installation manual before you pick a corner."
           ]
         },
         {
           "id": "electrical-differences",
-          "heading": "Electrical requirements vary among 120-volt models",
+          "heading": "Same voltage, different circuits",
           "paragraphs": [
-            "Within the first source-complete subset, Peak documents 10 amps for the Mini, 15 amps for the Crown and Shasta, and a dedicated 20-amp circuit for the Everest and Fuji. JNH lists 120 volts and 15 amps for the Tosi 1-Person and Tosi 2-Person and says a standard 110-volt, 15-amp outlet is sufficient for its one- and two-person Tosi models. The Tosi Red 4-Person requires dedicated 120-volt, 20-amp service.",
-            "A voltage filter is therefore useful for narrowing the catalog, but it does not approve an outlet or circuit for installation. The plug, circuit requirement and model instructions still need to be checked together."
+            "Peak lists 10 amps for the Mini, 15 for the Crown and Shasta, and a dedicated 20-amp circuit for the Everest and Fuji. JNH says a standard 15-amp outlet is enough for its one- and two-person Tosi, while the Tosi Red for four needs its own 20-amp line.",
+            "So a 120-volt plug doesn't mean any outlet will do. Check the breaker, see what else is on it, and ask an electrician if you're unsure."
           ]
         }
       ],
@@ -66,28 +65,26 @@
       "page_type": "brand",
       "slug": "jnh-lifestyles",
       "publication_status": "published",
-      "title": "JNH Lifestyles sauna configurations",
-      "description": "A source-based view of the JNH Lifestyles Tosi and Arki sauna configurations in the current US comparison set.",
+      "title": "JNH Lifestyles saunas",
+      "description": "The JNH Lifestyles Tosi and Arki saunas: sizes from one to four people, power and circuits compared.",
       "eyebrow": "JNH Lifestyles",
-      "heading": "The documented JNH range spans compact indoor cabins and one outdoor model",
+      "heading": "JNH Lifestyles saunas",
       "introduction": [
-        "Four JNH Lifestyles configurations are currently recorded. The indoor Tosi group covers one, two and four seats, while the Arki Outdoor Duo is documented for outdoor placement and two people.",
-        "The records describe model-specific dimensions and power information. They do not combine the four configurations into one generic product or assume that specifications carry from one size to another."
+        "We list four JNH saunas. The Tosi comes for one, two or four people and stays indoors. The Arki Outdoor Duo is the one for outside and seats two."
       ],
       "sections": [
         {
           "id": "range-boundaries",
-          "heading": "Capacity and placement separate the four configurations",
+          "heading": "Sizes",
           "paragraphs": [
-            "The Tosi 1-Person is the narrowest cabin in the recorded group at 35.5 inches wide. The Tosi 2-Person increases the documented exterior width to 47.3 inches, and the Tosi Red 4-Person reaches 70.9 inches. The Arki Outdoor Duo is a separate outdoor configuration rather than an outdoor version inferred from the Tosi line."
+            "The Tosi 1-Person is 35.5 inches wide, the 2-Person 47.3 and the Red 4-Person 70.9. The Arki is its own design and not an outdoor version of the Tosi."
           ]
         },
         {
           "id": "power-records",
-          "heading": "The larger configurations have different circuit requirements",
+          "heading": "Power",
           "paragraphs": [
-            "All four records list 120 volts. JNH specifies 15 amps for the Tosi 1-Person and Tosi 2-Person and states that a standard 110-volt, 15-amp outlet is sufficient for its one- and two-person Tosi models. The Tosi Red 4-Person and Arki Outdoor Duo document dedicated 20-amp service.",
-            "The product page for each configuration shows the unresolved fields alongside the documented values."
+            "All four run on 120 volts. JNH says a standard 15-amp outlet is fine for the one- and two-person Tosi. The Tosi Red and the Arki each need a dedicated 20-amp circuit."
           ]
         }
       ],
@@ -110,28 +107,27 @@
       "slug": "infrared-sauna-electrical-requirements",
       "publication_status": "published",
       "title": "Infrared sauna electrical requirements",
-      "description": "Learn which model-specific electrical facts need to be checked beyond the voltage printed on an infrared sauna listing.",
-      "eyebrow": "Electrical planning",
-      "heading": "A 120-volt sauna can still require a different circuit and receptacle",
+      "description": "Why a 120-volt infrared sauna may still need its own 20- or 30-amp circuit, with examples from Peak, JNH and others.",
+      "eyebrow": "Wiring",
+      "heading": "What electrical hookup does an infrared sauna need?",
       "introduction": [
-        "Voltage is only one part of an infrared sauna's electrical specification. The model record may also identify rated current, required circuit capacity, a dedicated circuit, connection method and plug type.",
-        "Those fields need to refer to the same configuration. A value from a smaller cabin or another size in the product family is not a substitute for the instructions supplied with the selected model."
+        "Most infrared saunas run on 120 volts, the same as any outlet in the house. What differs is the current. Small ones are happy on a 15-amp circuit, bigger ones want 20 or 30 amps to themselves."
       ],
       "sections": [
         {
           "id": "read-one-option",
-          "heading": "Read each supply option as a complete set",
+          "heading": "What to look for in the specs",
           "paragraphs": [
-            "Each configuration linked from this guide has one recorded electrical supply option. Where the manufacturer record states a required circuit or dedicated circuit, the site keeps that requirement with the voltage rather than reducing the product to a voltage badge.",
-            "If a future configuration documents alternative supply options, each option will be evaluated separately. Requirements that belong to the same option must all be satisfied together."
+            "Look for four things: volts, amps, plug type and the words \"dedicated circuit\". A NEMA 5-15 plug fits a normal outlet. A 5-20 has one blade turned sideways and needs a 20-amp receptacle. Dedicated means nothing else shares the breaker.",
+            "Use the numbers for the exact size you're buying. The four-person version of a sauna often needs a bigger circuit than the two-person one."
           ]
         },
         {
           "id": "unknown-is-open",
-          "heading": "An open circuit field is not permission to use any outlet",
+          "heading": "When the maker doesn't say",
           "paragraphs": [
-            "The Mini and Crown records document 120-volt power information but leave the required circuit rating unresolved. JNH states that a standard 110-volt, 15-amp outlet is sufficient for its one- and two-person Tosi models, while their configuration-specific specifications list 120 volts and 15 amps. The finder keeps these documented requirements attached to the exact model.",
-            "Final installation should follow the documentation for the exact configuration and the applicable local requirements. The finder does not size wiring, approve adapters or replace review by a qualified professional."
+            "Peak lists 120 volts for the Mini and Crown but no circuit size. JNH is clearer: a standard 110-volt, 15-amp outlet is enough for its one- and two-person Tosi models.",
+            "If the circuit isn't stated, ask the seller in writing and show the answer to your electrician. Skip adapters and extension cords."
           ]
         }
       ],
@@ -163,41 +159,40 @@
       "slug": "two-person-home-saunas",
       "publication_status": "published",
       "title": "2-Person Home Saunas: Size, Power and Wiring",
-      "description": "Every published 2-person sauna configuration in our US catalog with exterior size, voltage and rated power, and what separates infrared from traditional models.",
+      "description": "2-person home saunas compared by size, voltage and power: 120-volt infrared cabins and 240-volt traditional saunas.",
       "eyebrow": "Two-person saunas",
-      "heading": "A 2-person sauna is either a 120-volt infrared cabin or a 240-volt heater project",
+      "heading": "2-person saunas compared",
       "introduction": [
-        "Two seats is the most common size in our US catalog, and it splits cleanly into two groups. The infrared cabins run on roughly 1.5 to 3.4 kW, and most of them on 120 volts. The traditional saunas use a 4.5 to 8 kW heater and, where the manufacturer documents it, a 220 or 240 volt supply on a 30 or 40 amp circuit.",
-        "That split decides more about the project than the wood or the styling. The table below lists every published configuration with exactly two documented seats, so you can compare footprint and electrical demand before looking at prices."
+        "Two seats is the most common size on our list, and the choice comes down to two kinds. Infrared cabins draw roughly 1.5 to 3.4 kW and mostly run on 120 volts. Traditional saunas have a 4.5 to 8 kW heater and, where the maker says, need 220 or 240 volts on a 30- or 40-amp circuit."
       ],
       "sections": [
         {
           "id": "footprint",
-          "heading": "The footprint starts at about four by three and a half feet",
+          "heading": "How much room they take",
           "paragraphs": [
-            "The smallest 2-person cabin in the set is the JNH Tosi 2-Person at 47.3 by 39.5 inches on the outside. The Peak Crown, Everest and Fuji follow at 48 to 53 inches wide and 44 inches deep. Traditional cabins need more room because the heater, its guard and the clearance around it take up part of the bench area: the Salus Ally measures 60 by 46 inches, the Almost Heaven Hillsboro 63 by about 45, and the Sweat Kingdom Sweat Pod 53 by 61.",
-            "Exterior size is not the whole space requirement. Manufacturers specify clearances to walls and ceilings in their installation manuals, and a door that opens outward needs its own swing. Treat the exterior dimension as the minimum and check the manual of the exact model before you measure the room."
+            "The smallest is the JNH Tosi 2-Person at 47.3 by 39.5 inches. The Peak Crown, Everest and Fuji are 48 to 53 inches wide and 44 deep. Traditional cabins are bigger because the heater and its guard take up bench space: the Salus Ally is 60 by 46 inches, the Almost Heaven Hillsboro 63 by about 45 and the Sweat Kingdom Sweat Pod 53 by 61.",
+            "Add the clearances from the manual and room for the door."
           ]
         },
         {
           "id": "power",
-          "heading": "Rated power differs by a factor of three between the two groups",
+          "heading": "Power and running cost",
           "paragraphs": [
-            "The infrared configurations in this set are rated between 1,540 and 3,350 watts. The traditional ones start at 4,500 watts and reach 8,000 watts for the Sweat Kingdom Summit. That difference shows up twice: in the circuit the sauna needs and in the electricity bill.",
-            "Rated power is the maximum draw. A traditional heater runs at full power while it heats the room and then cycles on its thermostat, so the hourly figure is an upper bound for the time the heater is on. Our running cost guide turns these ratings into dollars per hour for every state."
+            "Infrared models here are rated from 1,540 to 3,350 watts. Traditional ones start at 4,500 and go up to 8,000 for the Sweat Kingdom Summit. You'll notice that in the wiring and on the bill.",
+            "A traditional heater runs flat out while it warms up and then cycles on and off. The running cost guide has dollar figures for every state."
           ],
           "points": [
             "Infrared, 120 volts: JNH Tosi 2-Person, JNH Arki Outdoor Duo, Peak Crown, Peak Everest, Peak Fuji, Sun Home Eclipse 2",
             "Infrared, 240 volts: Peak Patagonia",
-            "Traditional, 220 or 240 volts or not documented: Almost Heaven, Finnleo, Salus, SunRay and Sweat Kingdom models"
+            "Traditional, 220 or 240 volts or not stated: Almost Heaven, Finnleo, Salus, SunRay and Sweat Kingdom"
           ]
         },
         {
           "id": "circuit",
-          "heading": "Check the circuit, not only the voltage",
+          "heading": "Check the breaker too",
           "paragraphs": [
-            "Even within the 120-volt group the required circuit differs. The Tosi 2-Person is documented for a 15 amp circuit, the Everest, Fuji and Arki Outdoor Duo for 20 amps, and the Sun Home Eclipse 2 draws 23.5 amps and requires a 30 amp circuit. A 120-volt plug therefore does not mean that any existing outlet is suitable.",
-            "Several Sweat Kingdom records document power and amperage but not the voltage. Where a field is open, the table says so instead of guessing. The installation instructions of the exact configuration and a licensed electrician decide what your home needs."
+            "Even among 120-volt models, the circuit differs. The Tosi 2-Person works on 15 amps, the Everest, Fuji and Arki Outdoor Duo need 20, and the Sun Home Eclipse 2 draws 23.5 amps and needs a 30-amp circuit.",
+            "Several Sweat Kingdom models list power and amps but no voltage. Ask before ordering."
           ]
         }
       ],
@@ -239,36 +234,34 @@
       "page_type": "comparison",
       "slug": "120-volt-plug-in-saunas",
       "publication_status": "published",
-      "title": "120V Plug-In Saunas: Models and Circuits",
-      "description": "All published 120-volt sauna configurations in our US catalog. Every one of them is infrared, and the required circuit ranges from 15 to 30 amps.",
+      "title": "120V plug-in saunas compared",
+      "description": "Saunas that plug into 120 volts: all of them infrared, from one to four seats, needing circuits from 15 to 30 amps.",
       "eyebrow": "120-volt saunas",
-      "heading": "Every 120-volt sauna in our catalog is infrared, and not every one fits a standard circuit",
+      "heading": "120-volt plug-in saunas",
       "introduction": [
-        "A sauna that plugs into a household outlet avoids the 240-volt line that a traditional heater needs. In our US catalog that option exists only for infrared cabins: every published configuration with a documented 120-volt supply uses infrared heating, with a rated power between 1.2 and 2.8 kW.",
-        "The plug is only half of the answer. The table lists each configuration with its rated power, and the sections below explain why the circuit behind the outlet matters as much as the voltage."
+        "If you want a sauna without running a 240-volt line, you're looking at infrared. Every 120-volt model we list is an infrared cabin, rated between 1.2 and 2.8 kW. Some of them still need their own circuit."
       ],
       "sections": [
         {
           "id": "no-traditional",
-          "heading": "No traditional sauna in the catalog runs on 120 volts",
+          "heading": "Why no traditional ones?",
           "paragraphs": [
-            "The smallest traditional heater in our published US records is rated at 4,000 watts, and the typical one at 6,000 watts. At 120 volts that would mean a current of 33 to 50 amps, far beyond a household circuit. This is why the traditional models in the catalog document 220 or 240 volt supplies, and why a plug-in option exists only for the lower-powered infrared cabins.",
-            "If a traditional sauna is the goal, plan for a dedicated 240-volt circuit from the start. If avoiding new wiring is the goal, the choice is between the infrared models below."
+            "The smallest traditional heater on our list is 4,000 watts, the typical one 6,000. On 120 volts that would pull 33 to 50 amps, far too much for a household circuit. If you want a stove and steam, plan for 240 volts."
           ]
         },
         {
           "id": "circuit-rating",
-          "heading": "The required circuit ranges from 15 to 30 amps",
+          "heading": "Circuits from 15 to 30 amps",
           "paragraphs": [
-            "Manufacturers document the current their cabin draws and the circuit it needs. The Peak Mini draws 10 amps; the JNH Tosi 1-Person, Tosi 2-Person, Peak Rainier and Peak Shasta are specified for 15 amp circuits; the Peak Everest and Fuji, JNH Tosi Red 4-Person, JNH Arki Outdoor Duo and Sun Home Equinox for 20 amps. The Sun Home Eclipse 2 draws 23.5 amps and requires a 30 amp circuit despite its 120-volt supply.",
-            "Several manufacturers also ask for a dedicated circuit, meaning nothing else draws power from it. The rating of an existing circuit is printed on its breaker, but whether the wiring, the outlet type and the other loads on that circuit fit the sauna is a question for the manual of the exact model and a licensed electrician."
+            "The Peak Mini draws 10 amps. The JNH Tosi for one and two, Peak Rainier and Peak Shasta are made for 15-amp circuits. The Peak Everest and Fuji, JNH Tosi Red 4-Person, JNH Arki Outdoor Duo and Sun Home Equinox need 20. The Sun Home Eclipse 2 draws 23.5 amps and needs 30, even though it runs on 120 volts.",
+            "The number is printed on your breaker. Whether the wiring and outlet match is a question for an electrician."
           ]
         },
         {
           "id": "size",
-          "heading": "Plug-in cabins come in one to four seats",
+          "heading": "Sizes",
           "paragraphs": [
-            "The set covers one-person cabins from the 31 by 32 inch Peak Mini to the Peak Rainier and Shasta at 42 by 40 inches, two-person cabins from 47 to 55 inches wide, and two larger models: the Sun Home Equinox for three and the JNH Tosi Red 4-Person at 70.9 by 47.3 inches. All but the Arki Outdoor Duo are indoor cabins."
+            "One-person cabins start at 31 by 32 inches (Peak Mini) and go up to 42 by 40 (Rainier and Shasta). Two-person models are 47 to 55 inches wide. The Sun Home Equinox seats three, the JNH Tosi Red four at 70.9 by 47.3 inches. Only the Arki Outdoor Duo is made for outdoors."
           ]
         }
       ],
@@ -307,37 +300,34 @@
       "page_type": "guide",
       "slug": "sauna-running-cost",
       "publication_status": "published",
-      "title": "Sauna Running Cost per Hour, by Model and State",
-      "description": "Running cost per hour for every published US sauna configuration with documented rated power, calculated with 2026 residential electricity prices for all 50 states and DC.",
+      "title": "What does it cost to run a sauna?",
+      "description": "Cost per hour for infrared and traditional saunas, calculated with 2026 home electricity prices for all 50 states and DC.",
       "eyebrow": "Running cost",
-      "heading": "A typical infrared sauna costs about 37 cents an hour to run, a traditional one about a dollar",
+      "heading": "What does it cost to run a home sauna?",
       "introduction": [
-        "The cost of a sauna session is the heater's power multiplied by the time it runs and by your electricity price. We know the rated power of most configurations in our US catalog and the average residential electricity price of every state, published by the U.S. Energy Information Administration. The tables below combine the two.",
-        "At the 2026 US average of 18.19 cents per kWh, an hour at full power costs about $0.37 for a typical 2.05 kW infrared cabin and about $1.09 for a typical 6 kW traditional sauna. The state you live in moves that figure by a factor of almost four."
+        "About 37 cents an hour for a typical infrared cabin and about $1.09 for a traditional sauna, at the 2026 US average of 18.19 cents per kWh. Your state changes that by a factor of almost four."
       ],
       "sections": [
         {
           "id": "method",
-          "heading": "How the numbers are calculated",
+          "heading": "How we calculated it",
           "paragraphs": [
-            "For each configuration we take the highest documented electrical load, add up the components of one supply option, and multiply kilowatts by the price per kWh. The prices are the residential averages for January to July 2026 from table 5.6.B of the EIA's Electric Power Monthly. Configurations without a documented rated power are left out rather than estimated.",
-            "The result is the cost of one hour at full rated power. That is an upper bound for the time the heater is actually on: traditional heaters run at full power while they heat the room and then switch on and off to hold the temperature."
+            "Power times price. We take the rated power of each model and the average home electricity price for January to July 2026 from the Energy Information Administration. Models without a stated power are left out.",
+            "The result is the cost at full power. A traditional heater only runs flat out while it heats up, so an actual hour is usually cheaper."
           ]
         },
         {
           "id": "session",
-          "heading": "From cost per hour to cost per session",
+          "heading": "Per session",
           "paragraphs": [
-            "A session costs the hourly figure multiplied by the hours the heater runs, including the warm-up. A traditional sauna that heats for 45 minutes and is used for 30 more runs for 1.25 hours at most, which at the US average and 6 kW is about $1.36. An infrared cabin used for 40 minutes including a short warm-up at 2.05 kW stays below 25 cents.",
-            "Warm-up time depends on the room size, the insulation and the starting temperature, so we do not attach a fixed number to each model. Use your own heating time with the hourly figure from the table."
+            "Count the warm-up. Heat a 6 kW sauna for 45 minutes, use it for 30, and you pay $1.36 at most. Forty minutes in a 2.05 kW infrared cabin stays under 25 cents."
           ]
         },
         {
           "id": "states",
-          "heading": "Where you live matters more than which model you pick",
+          "heading": "Your state matters most",
           "paragraphs": [
-            "Residential electricity cost 12.36 cents per kWh in North Dakota and 33.25 cents in California in the first seven months of 2026, and 46.28 cents in Hawaii. The same 6 kW heater costs $0.74 an hour in North Dakota, $2.00 in California and $2.78 in Hawaii.",
-            "Your utility bill shows your actual price per kWh, which can differ from the state average because of tariffs, time-of-use rates and fixed charges. Replace the state figure with your own rate for a precise result."
+            "North Dakota paid 12.36 cents per kWh, California 33.25 and Hawaii 46.28. The same 6 kW heater costs $0.74, $2.00 or $2.78 an hour. Your own rate is on your bill, so use that if you want it exact."
           ]
         }
       ],

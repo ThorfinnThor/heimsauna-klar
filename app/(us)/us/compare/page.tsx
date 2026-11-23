@@ -5,8 +5,8 @@ import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsEditorialIndex } from "../_components/UsEditorial";
 
 export const metadata = createUsPageMetadata({
-  title: "US sauna comparisons",
-  description: "Curated comparisons of documented US sauna configurations with an explicit selection scope.",
+  title: "Home sauna comparisons",
+  description: "Home sauna comparisons by size, seats and voltage, with specs from the manufacturers.",
   path: "/us/compare/",
   pageClass: "overview",
   hasPublishedContent: getUsEditorialPages("comparison").length > 0,

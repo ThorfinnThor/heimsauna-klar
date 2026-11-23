@@ -21,22 +21,19 @@ export default function GlobalNotFound() {
         />
       </head>
       <body>
-        <main className="not-found-page not-found-copy" data-market="DE">
-          <p className="eyebrow">404</p>
+        <main className="wrap page not-found-copy" data-market="DE">
           <h1>Diese Seite gibt es nicht.</h1>
           <p>
-            Möglicherweise wurde die Adresse geändert oder der Link ist nicht mehr
-            aktuell.
+            Vielleicht ist der Link alt oder die Adresse hat sich geändert.
           </p>
-          <Link className="button button-primary" href="/de/">
+          <Link className="btn" href="/de/">
             Zur Startseite
           </Link>
         </main>
-        <main className="not-found-page not-found-copy" data-market="US">
-          <p className="eyebrow">404</p>
+        <main className="wrap page not-found-copy" data-market="US">
           <h1>This page does not exist.</h1>
           <p>The address may have changed, or the link may no longer be current.</p>
-          <Link className="button button-primary" href="/us/">
+          <Link className="btn" href="/us/">
             Return to the US home page
           </Link>
         </main>

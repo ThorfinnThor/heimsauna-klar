@@ -1,85 +1,39 @@
-import Link from "next/link";
+import { Breadcrumbs } from "@/app/_components/Blocks";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import affiliate from "@/content/de/affiliate.json";
-import { affiliatePrograms, getAffiliateStats, getMerchantOfferCounts, merchants } from "@/lib/affiliate";
+import { affiliatePrograms, getAffiliateStats, getMerchantOfferCounts } from "@/lib/affiliate";
 import { createPageMetadata } from "@/lib/metadata";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
-const description = "Aktueller Affiliate-Status, Händlerabdeckung, Kennzeichnungsregeln und geprüfte Partnerprogramm-Kandidaten von Select Your Sauna.";
-const programStatus = { candidate: "Kandidat", applied: "Beworben", approved: "Freigegeben", rejected: "Abgelehnt" } as const;
+const path = "/de/transparenz/affiliate/";
+const description = "Welche Shops uns eine Provision zahlen, woran du Affiliate-Links erkennst und warum sie die Reihenfolge der Saunen nicht ändern.";
 
-export const metadata = createPageMetadata({
-  title: "Affiliate-Transparenz: Status, Regeln und Partnerprogramme",
-  description,
-  path: "/de/transparenz/affiliate/",
-});
+export const metadata = createPageMetadata({ title: affiliate.title, description, path });
 
 export default function AffiliateTransparencyPage() {
   const stats = getAffiliateStats();
-  const merchantCounts = getMerchantOfferCounts();
-  const path = "/de/transparenz/affiliate/";
-
+  const merchants = getMerchantOfferCounts().filter(({ count }) => count > 0).toSorted((a, b) => b.count - a.count);
+  const approved = affiliatePrograms.filter((program) => program.status === "approved");
   return (
     <main>
       <StructuredData data={collectionPageJsonLd({ title: affiliate.title, description, path })} />
-      <StructuredData data={breadcrumbJsonLd([
-        { name: "Start", path: "/de/" },
-        { name: "Transparenz", path: "/de/rechtliches/" },
-        { name: "Affiliate", path },
-      ])} />
+      <StructuredData data={breadcrumbJsonLd([{ name: "Start", path: "/de/" }, { name: "Affiliate-Links", path }])} />
       <SiteHeader />
-      <article>
-        <header className="page-hero page-shell">
-          <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><Link href="/de/rechtliches/">Transparenz</Link><span>/</span><span>Affiliate</span></nav>
-          <p className="eyebrow">Transparenz</p>
-          <h1>{affiliate.title}{" "}<span>{affiliate.accent}</span></h1>
+      <article className="wrap page">
+        <Breadcrumbs items={[{ label: "Start", href: "/de/" }, { label: "Affiliate-Links" }]} />
+        <h1>{affiliate.title}</h1>
+        <div className="text">
           <p>{affiliate.description}</p>
-          <div className="catalog-metrics" aria-label="Aktueller Affiliate-Status">
-            <span><strong>{stats.affiliateOfferCount}</strong> aktive Affiliate-Links</span>
-            <span><strong>{stats.offerCount}</strong> dokumentierte Angebote</span>
-            <span><strong>{stats.candidateProgramCount}</strong> geprüfte Kandidaten</span>
-            <span><strong>{stats.approvedProgramCount}</strong> freigegebene Programme</span>
-          </div>
-        </header>
-
-        <section className="planning-hub page-shell" aria-labelledby="affiliate-principles-title">
-          <div className="collection-index-head"><div><p className="eyebrow">Feste Regeln</p><h2 id="affiliate-principles-title">Regeln für vergütete Händlerlinks</h2></div><p>Diese Regeln gelten für jeden Händler und jedes Netzwerk.</p></div>
-          <div className="planning-hub-grid">
-            {affiliate.principles.map((principle, index) => <article className="affiliate-principle" key={principle.title}><small>0{index + 1}</small><h3>{principle.title}</h3><span>{principle.copy}</span></article>)}
-          </div>
-        </section>
-
-        <section className="collection-method page-shell" aria-labelledby="merchant-register-title">
-          <div><p className="eyebrow">Händlerregister</p><h2 id="merchant-register-title">Zugelassene Händler und Domains</h2></div>
-          <div>
-            <ul>{merchantCounts.map(({ merchant, count }) => <li key={merchant.id}><strong>{merchant.name}</strong> · {merchant.kind === "manufacturer" ? "Hersteller/Direktanbieter" : "Affiliate-Advertiser"} · {count} Angebote · {merchant.allowed_hosts.join(", ")} · Affiliate-Status: {merchant.affiliate.status === "active" ? "aktiv" : "inaktiv"}</li>)}</ul>
-            <p>Ein abweichender Händlername oder eine nicht registrierte Domain lässt den Datencheck fehlschlagen.</p>
-          </div>
-        </section>
-
-        <section className="planning-hub page-shell" aria-labelledby="program-candidates-title">
-          <div className="collection-index-head"><div><p className="eyebrow">Partnerprogramme · aktueller Stand</p><h2 id="program-candidates-title">Bewerbungen und Freigaben</h2></div><p>Konditionen und Status werden getrennt dokumentiert. Eine Freigabe allein aktiviert noch keinen Produktlink.</p></div>
-          <div className="planning-hub-grid">
-            {affiliatePrograms.map((program) => (
-              <article className="affiliate-principle" key={program.id}>
-                <small>{program.network} · Programm {program.program_id} · {programStatus[program.status]}</small>
-                <h3>{program.name}</h3>
-                <span>{program.focus}</span>
-                <dl className="affiliate-program-facts"><div><dt>Provision</dt><dd>{program.commission_snapshot}</dd></div><div><dt>Cookie</dt><dd>{program.cookie_days === null ? "Im Partnerkonto prüfen" : `${program.cookie_days} Tage`}</dd></div></dl>
-                <p><strong>Advertiser-Abdeckung:</strong> {program.advertiser_merchant_ids.length > 0
-                  ? program.advertiser_merchant_ids.map((merchantId) => merchants.find((merchant) => merchant.id === merchantId)?.name ?? merchantId).join(", ")
-                  : "Noch keinem Katalog-Händler zugeordnet"}</p>
-                <a href={program.url} target="_blank" rel="noreferrer">Bewerbungsseite öffnen ↗</a>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section className="guide-checks page-shell" aria-labelledby="affiliate-gates-title">
-          <div><p className="eyebrow">Aktivierungssperren</p><h2 id="affiliate-gates-title">Voraussetzungen vor der Aktivierung</h2></div>
-          <ol>{affiliate.launch_gates.map((gate, index) => <li key={gate}><span>0{index + 1}</span><div><p>{gate}</p></div></li>)}</ol>
-        </section>
+          <p>Zurzeit sind {stats.affiliateOfferCount} von {stats.offerCount} Angeboten Affiliate-Links. Sie laufen über das Netzwerk Awin.</p>
+          {affiliate.principles.map((principle) => <section key={principle.title}><h2>{principle.title}</h2><p>{principle.copy}</p></section>)}
+        </div>
+        <h2>Diese Shops verlinken wir</h2>
+        <div className="table-wrap"><table className="facts">
+          <thead><tr><th scope="col">Shop</th><th scope="col">Angebote</th><th scope="col">Provision</th></tr></thead>
+          <tbody>{merchants.map(({ merchant, count }) => <tr key={merchant.id}><th scope="row">{merchant.name}</th><td>{count}</td><td>{merchant.affiliate.status === "active" ? "ja" : "nein"}</td></tr>)}</tbody>
+        </table></div>
+        <p className="text">Partnerprogramme, in denen wir angemeldet sind: {approved.map((program) => program.name).join(", ")}.</p>
       </article>
       <SiteFooter />
     </main>
