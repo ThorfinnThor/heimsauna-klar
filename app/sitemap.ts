@@ -28,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/de/vergleiche/230-v-sauna/`, lastModified: productsUpdated, changeFrequency: "weekly", priority: 0.8 },
     ...indexableCollections.map((collection) => ({
       url: `${siteUrl}/de/${collection.section}/${collection.slug}/`,
-      lastModified: publicationUpdated,
+      lastModified: new Date(`${collection.updated_at}T00:00:00Z`),
       changeFrequency: "weekly" as const,
       priority: 0.8,
     })),

@@ -25,6 +25,7 @@ export type Collection = {
   id: string;
   section: "indoor-sauna" | "outdoor-sauna" | "vergleiche";
   slug: string;
+  updated_at: string;
   kind: string;
   eyebrow: string;
   title: string;
