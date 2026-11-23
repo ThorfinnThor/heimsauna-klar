@@ -71,8 +71,8 @@ they carry product-specific decision content.
 ## Addendum 2026-11-22: product pages with measured visits
 
 GA4 (last 28 days, consenting visitors only) shows the Home Deluxe ARUNA S,
-M and L detail pages with 11, 5 and 4 page views, mostly referred by AI
-assistants. All three pass the automatic index rule and were only excluded by
+M and L detail pages with 11, 5 and 4 page views. The referrer per page
+was not measured (an earlier version of this note said "mostly AI assistants"). All three pass the automatic index rule and were only excluded by
 the concentration. They are now in `keep_product_ids`, so they stay
 indexable and in the sitemap, including for Bing as a source for ChatGPT
 search. Every other product page keeps `noindex,follow`; further exceptions

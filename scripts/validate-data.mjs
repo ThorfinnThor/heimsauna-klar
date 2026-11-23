@@ -345,6 +345,7 @@ for (const collection of collections) {
       if (!supportedCollectionFilterKeys.has(key)) throw new Error(`${collection.id} uses unsupported filter ${key}`);
     }
   }
+  assertIsoDate(collection.updated_at, `Collection date for ${collection.id}`);
   if (!["footprint", "price"].includes(collection.sort)) throw new Error(`Unsupported collection sort: ${collection.id}`);
   if (!["space", "outdoor", "budget", "heat", "capacity", "technical", "tradeoff"].includes(collection.layout)) throw new Error(`Unsupported collection layout: ${collection.id}`);
   if (!Array.isArray(collection.related_ids) || collection.related_ids.length < 3 || collection.related_ids.length > 4) throw new Error(`${collection.id} needs three or four related collections`);

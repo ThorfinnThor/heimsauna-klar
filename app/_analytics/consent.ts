@@ -73,6 +73,8 @@ function ensureGtagQueue() {
 
 // Outbound offer clicks become a GA4 event; reported only while consent is granted.
 function trackOfferClick(event: MouseEvent) {
+  // auxclick also fires for the right button; only a middle click opens the offer.
+  if (event.type === "auxclick" && event.button !== 1) return;
   const link = (event.target as Element | null)?.closest?.("a[data-offer-merchant]");
   const w = gtagWindow();
   if (!(link instanceof HTMLAnchorElement) || !w.gtag || w[`ga-disable-${GA_MEASUREMENT_ID}`] || readConsent() !== "granted") return;
