@@ -55,6 +55,7 @@ function assertHttpsUrl(value, label) {
 }
 
 if (!Array.isArray(products)) throw new Error("data/products.json must contain an array");
+assertIsoDate(home.updated_at, "Home page updated_at");
 if (!Array.isArray(home.featured_product_ids) || home.featured_product_ids.length < 4) {
   throw new Error("content/de/home.json must define at least four featured product ids");
 }
