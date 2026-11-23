@@ -2,9 +2,9 @@ import { HomePage } from "../_components/HomePage";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "Welche Sauna passt zu deinem Zuhause?",
+  title: "Saunen für zu Hause im Vergleich",
   description:
-    "Finde den passenden Heimsauna-Typ anhand von Platz, Stromanschluss, Budget und Nutzung — verständlich und unabhängig.",
+    "Über 500 Saunen und Infrarotkabinen für zu Hause: nach Platz, Stromanschluss und Budget filtern und Preise der Händler vergleichen.",
   path: "/de/",
 });
 

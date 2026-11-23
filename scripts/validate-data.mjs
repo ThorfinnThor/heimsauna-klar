@@ -13,7 +13,6 @@ const launchReadiness = JSON.parse(await readFile(new URL("../data/launch-readin
 const sitePublication = JSON.parse(await readFile(new URL("../data/site-publication.json", import.meta.url), "utf8"));
 const planningGuides = JSON.parse(await readFile(new URL("../content/de/planning-guides.json", import.meta.url), "utf8"));
 const planningNavigation = JSON.parse(await readFile(new URL("../content/de/planning-navigation.json", import.meta.url), "utf8"));
-const pagePresentations = JSON.parse(await readFile(new URL("../content/de/page-presentations.json", import.meta.url), "utf8"));
 const home = JSON.parse(await readFile(new URL("../content/de/home.json", import.meta.url), "utf8"));
 const sourceQueue = JSON.parse(await readFile(new URL("../data/source-queue.json", import.meta.url), "utf8"));
 const powerEvidence = JSON.parse(await readFile(new URL("../data/power-evidence.json", import.meta.url), "utf8"));
@@ -211,21 +210,47 @@ for (const merchant of merchants) {
 
 if (!Array.isArray(planningGuides) || planningGuides.length === 0) throw new Error("content/de/planning-guides.json must contain planning guides");
 const planningSlugs = new Set();
+
+function assertText(value, label) {
+  if (typeof value !== "string" || value.trim() === "") throw new Error(`${label} is empty`);
+}
+
+function assertTexts(values, label, minimum = 1) {
+  if (!Array.isArray(values) || values.length < minimum) throw new Error(`${label} needs at least ${minimum} entries`);
+  values.forEach((value, index) => assertText(value, `${label}[${index}]`));
+}
+
+function assertTextBlock(block, label) {
+  assertText(block.heading, `${label} heading`);
+  assertTexts(block.paragraphs, `${label} paragraphs`);
+  if (block.points !== undefined) assertTexts(block.points, `${label} points`, 2);
+  if (block.links !== undefined) assertText(block.links_lead, `${label} links_lead`);
+}
+
 for (const guide of planningGuides) {
-  for (const key of ["slug", "eyebrow", "title", "accent", "description", "updated_at", "summary"]) {
-    if (typeof guide[key] !== "string" || guide[key].trim() === "") throw new Error(`Planning guide is missing ${key}`);
-  }
+  for (const key of ["slug", "title", "description", "updated_at"]) assertText(guide[key], `Planning guide ${guide.slug ?? "<unknown>"} ${key}`);
   if (planningSlugs.has(guide.slug)) throw new Error(`Duplicate planning guide slug: ${guide.slug}`);
   planningSlugs.add(guide.slug);
   assertIsoDate(guide.updated_at, `Planning guide date for ${guide.slug}`);
-  if (!Array.isArray(guide.sections) || guide.sections.length < 3) throw new Error(`${guide.slug} needs at least three sections`);
-  for (const section of guide.sections) {
-    if (!section.title || !section.copy || !Array.isArray(section.points) || (section.points.length > 0 && section.points.length < 3)) throw new Error(`${guide.slug} has an incomplete section`);
+  assertTexts(guide.intro, `${guide.slug} intro`);
+  if (!Array.isArray(guide.blocks) || guide.blocks.length < 3) throw new Error(`${guide.slug} needs at least three blocks`);
+  for (const [index, block] of guide.blocks.entries()) {
+    const label = `${guide.slug} block ${index}`;
+    if (block.type === "text") assertTextBlock(block, label);
+    else if (block.type === "checklist") {
+      assertText(block.heading, `${label} heading`);
+      assertTexts(block.items, `${label} items`, 3);
+    } else if (!["prices", "footprint", "niches"].includes(block.type)) throw new Error(`${label} has unknown type ${block.type}`);
   }
-  if (!Array.isArray(guide.checklist) || guide.checklist.length < 5) throw new Error(`${guide.slug} needs at least five checklist items`);
-  if (!guide.module_copy || typeof guide.module_copy !== "object") throw new Error(`${guide.slug} needs page-specific module copy`);
-  for (const key of ["checklist_kicker", "checklist_title", "sources_kicker", "sources_title", "source_note", "related_kicker", "related_title"]) {
-    if (typeof guide.module_copy[key] !== "string" || guide.module_copy[key].trim() === "") throw new Error(`${guide.slug} module copy is missing ${key}`);
+  // Data modules appear exactly when the guide declares the data behind them.
+  for (const [type, declared] of [["prices", guide.catalog_snapshot === "product_prices"], ["footprint", guide.catalog_footprint === true], ["niches", Boolean(guide.catalog_niches)]]) {
+    if (guide.blocks.filter((block) => block.type === type).length !== (declared ? 1 : 0)) throw new Error(`${guide.slug} does not match its ${type} data`);
+  }
+  const niches = guide.catalog_niches;
+  if (niches) {
+    assertText(niches.title, `${guide.slug} niches title`);
+    assertTexts(niches.paragraphs, `${guide.slug} niches paragraphs`);
+    if (!Array.isArray(niches.sizes) || niches.sizes.length < 2 || niches.sizes.some((size) => !(size.width > 0) || !(size.depth > 0))) throw new Error(`${guide.slug} has incomplete niche data`);
   }
   if (!Array.isArray(guide.sources) || guide.sources.length < 2) throw new Error(`${guide.slug} needs at least two sources`);
   for (const source of guide.sources) {
@@ -243,7 +268,7 @@ if (!planningNavigation.guide_paths || typeof planningNavigation.guide_paths !==
 }
 const groupedPlanningSlugs = new Set();
 for (const group of planningNavigation.groups) {
-  for (const key of ["id", "number", "eyebrow", "title", "description"]) {
+  for (const key of ["id", "title"]) {
     if (typeof group[key] !== "string" || group[key].trim() === "") throw new Error(`Planning group is missing ${key}`);
   }
   if (!Array.isArray(group.guide_slugs) || group.guide_slugs.length === 0) throw new Error(`${group.id} needs guide slugs`);
@@ -262,8 +287,6 @@ for (const slug of planningSlugs) {
   for (const relatedSlug of journey.related_slugs) {
     if (relatedSlug === slug || !planningSlugs.has(relatedSlug)) throw new Error(`${slug} references invalid related guide ${relatedSlug}`);
   }
-  if (typeof journey.product_href !== "string" || !journey.product_href.startsWith("/de/")) throw new Error(`${slug} needs an internal product href`);
-  if (typeof journey.product_label !== "string" || journey.product_label.trim() === "") throw new Error(`${slug} needs a product label`);
 }
 for (const slug of Object.keys(planningNavigation.guide_paths)) {
   if (!planningSlugs.has(slug)) throw new Error(`Planning journey references unknown guide ${slug}`);
@@ -328,7 +351,7 @@ function matchesCollectionFilter(product, filter) {
 }
 
 for (const collection of collections) {
-  for (const key of ["id", "section", "slug", "kind", "eyebrow", "title", "accent", "description", "intro", "layout", "sort"]) {
+  for (const key of ["id", "section", "slug", "title", "description", "sort"]) {
     if (typeof collection[key] !== "string" || collection[key].trim() === "") throw new Error(`Collection is missing ${key}`);
   }
   if (!["indoor-sauna", "outdoor-sauna", "vergleiche"].includes(collection.section)) {
@@ -348,40 +371,33 @@ for (const collection of collections) {
   }
   assertIsoDate(collection.updated_at, `Collection date for ${collection.id}`);
   if (!["footprint", "price"].includes(collection.sort)) throw new Error(`Unsupported collection sort: ${collection.id}`);
-  if (!["space", "outdoor", "budget", "heat", "capacity", "technical", "tradeoff"].includes(collection.layout)) throw new Error(`Unsupported collection layout: ${collection.id}`);
   if (!Array.isArray(collection.related_ids) || collection.related_ids.length < 3 || collection.related_ids.length > 4) throw new Error(`${collection.id} needs three or four related collections`);
   if (new Set(collection.related_ids).size !== collection.related_ids.length || collection.related_ids.includes(collection.id)) throw new Error(`${collection.id} repeats or self-links related collections`);
   for (const relatedId of collection.related_ids) {
     if (!collections.some((item) => item.id === relatedId)) throw new Error(`${collection.id} references unknown related collection ${relatedId}`);
   }
-  if (!collection.planning || typeof collection.planning !== "object") throw new Error(`${collection.id} needs planning links`);
-  for (const key of ["kicker", "intro"]) {
-    if (typeof collection.planning[key] !== "string" || collection.planning[key].trim() === "") throw new Error(`${collection.id} planning is missing ${key}`);
-  }
-  if (!Array.isArray(collection.planning.guide_ids) || collection.planning.guide_ids.length !== 2) throw new Error(`${collection.id} needs exactly two planning links`);
-  if (new Set(collection.planning.guide_ids).size !== collection.planning.guide_ids.length) throw new Error(`${collection.id} repeats planning links`);
-  for (const guideSlug of collection.planning.guide_ids) {
+  if (!Array.isArray(collection.guide_ids) || collection.guide_ids.length < 2) throw new Error(`${collection.id} needs at least two guides`);
+  if (new Set(collection.guide_ids).size !== collection.guide_ids.length) throw new Error(`${collection.id} repeats a guide`);
+  for (const guideSlug of collection.guide_ids) {
     if (!planningSlugs.has(guideSlug)) throw new Error(`${collection.id} references unknown planning guide ${guideSlug}`);
   }
-  if (!collection.editorial || typeof collection.editorial !== "object") throw new Error(`${collection.id} needs editorial copy`);
-  for (const key of ["kicker", "title", "pointsTitle", "callout"]) {
-    if (typeof collection.editorial[key] !== "string" || collection.editorial[key].trim() === "") {
-      throw new Error(`${collection.id} editorial is missing ${key}`);
-    }
+  assertTexts(collection.intro, `${collection.id} intro`);
+  if (!Array.isArray(collection.blocks)) throw new Error(`${collection.id} needs blocks`);
+  for (const [index, block] of collection.blocks.entries()) {
+    const label = `${collection.id} block ${index}`;
+    if (block.type === "text") assertTextBlock(block, label);
+    else if (block.type === "products") assertText(block.heading, `${label} heading`);
+    else if (!["links", "picks", "table"].includes(block.type)) throw new Error(`${label} has unknown type ${block.type}`);
   }
-  if (!Array.isArray(collection.editorial.paragraphs) || collection.editorial.paragraphs.length < 2 || collection.editorial.paragraphs.some((item) => typeof item !== "string" || item.trim() === "")) {
-    throw new Error(`${collection.id} editorial needs at least two paragraphs`);
+  if (collection.blocks.filter((block) => block.type === "products").length !== 1) throw new Error(`${collection.id} needs exactly one product list`);
+  if (!collection.blocks.some((block) => block.type === "text")) throw new Error(`${collection.id} needs at least one text of its own`);
+  if (collection.blocks.filter((block) => block.type === "table").length !== (collection.profile ? 1 : 0)) throw new Error(`${collection.id} table block and profile data do not match`);
+  if (collection.profile) {
+    assertText(collection.profile.title, `${collection.id} profile title`);
+    assertTexts(collection.profile.paragraphs, `${collection.id} profile paragraphs`);
+    if (!Array.isArray(collection.profile.fit_checks) || collection.profile.fit_checks.some((fit) => !(fit.width > 0) || !(fit.depth > 0))
+      || ![undefined, "type", "voltage", "people"].includes(collection.profile.group_by)) throw new Error(`${collection.id} has an incomplete profile`);
   }
-  if (!Array.isArray(collection.editorial.points) || collection.editorial.points.length < 3 || collection.editorial.points.some((item) => typeof item !== "string" || item.trim() === "")) {
-    throw new Error(`${collection.id} editorial needs at least three points`);
-  }
-  if (!Array.isArray(collection.criteria) || collection.criteria.length < 3) throw new Error(`${collection.id} needs at least three criteria`);
-  if (!Array.isArray(collection.checks) || collection.checks.length < 3) throw new Error(`${collection.id} needs at least three checks`);
-  if (!collection.module_copy || typeof collection.module_copy !== "object") throw new Error(`${collection.id} needs page-specific module copy`);
-  for (const key of ["method_kicker", "method_title", "method_note", "results_kicker", "results_title", "results_intro", "checks_kicker", "checks_title", "related_kicker", "related_title"]) {
-    if (typeof collection.module_copy[key] !== "string" || collection.module_copy[key].trim() === "") throw new Error(`${collection.id} module copy is missing ${key}`);
-  }
-  if (!collection.module_copy.results_title.includes("{count}")) throw new Error(`${collection.id} results title needs a {count} placeholder`);
   const route = `${collection.section}/${collection.slug}`;
   if (collectionRoutes.has(route)) throw new Error(`Duplicate collection route: ${route}`);
   collectionRoutes.add(route);
@@ -391,90 +407,6 @@ for (const collection of collections) {
   if (!products.some((product) => product.status === "verified" && collectionMatcher(product))) {
     throw new Error(`${collection.id} has no matching verified products`);
   }
-}
-
-if (pagePresentations.schema_version !== 1) throw new Error("Page presentations have an unsupported schema version");
-assertIsoDate(pagePresentations.updated_at, "Page presentations updated_at");
-if (!pagePresentations.collections || !pagePresentations.planning_guides) {
-  throw new Error("Page presentations need collection and planning guide profiles");
-}
-
-const collectionModules = ["insight", "editorial", "method", "results", "checks"];
-const planningModules = ["insight", "sections", "checks", "sources"];
-
-function validateInsight(insight, label, minimumCopyLength) {
-  if (!insight || typeof insight !== "object") throw new Error(`${label} needs an editorial insight`);
-  for (const key of ["kicker", "title"]) {
-    if (typeof insight[key] !== "string" || insight[key].trim() === "") throw new Error(`${label} insight is missing ${key}`);
-  }
-  if (!Array.isArray(insight.copy) || insight.copy.length < 2 || insight.copy.some((item) => typeof item !== "string" || item.trim() === "")) {
-    throw new Error(`${label} insight needs at least two paragraphs`);
-  }
-  if (insight.copy.join(" ").length < minimumCopyLength) throw new Error(`${label} insight copy is too thin`);
-  if (!Array.isArray(insight.points) || (insight.points.length > 0 && insight.points.length < 3) || insight.points.some((item) => typeof item !== "string" || item.trim() === "")) {
-    throw new Error(`${label} insight needs either no list or at least three decision points`);
-  }
-}
-
-function validateExactKeys(actual, expected, label) {
-  const actualSet = new Set(Object.keys(actual));
-  for (const id of expected) if (!actualSet.has(id)) throw new Error(`${label} is missing ${id}`);
-  for (const id of actualSet) if (!expected.has(id)) throw new Error(`${label} references unknown page ${id}`);
-}
-
-const collectionIds = new Set(collections.map((collection) => collection.id));
-const planningGuideSlugs = new Set(planningGuides.map((guide) => guide.slug));
-validateExactKeys(pagePresentations.collections, collectionIds, "Collection presentations");
-validateExactKeys(pagePresentations.planning_guides, planningGuideSlugs, "Planning presentations");
-
-const collectionProfiles = new Map();
-for (const [id, presentation] of Object.entries(pagePresentations.collections)) {
-  if (!["editorial", "compact", "index", "split"].includes(presentation.hero)) throw new Error(`${id} has an invalid collection hero`);
-  if (!["table", "cards", "ledger"].includes(presentation.results)) throw new Error(`${id} has an invalid results view`);
-  if (!["split", "panel", "steps"].includes(presentation.method)) throw new Error(`${id} has an invalid method view`);
-  // The data-driven profile module is optional and appears exactly when the collection defines profile copy.
-  const dimensionProfile = collections.find((collection) => collection.id === id)?.profile;
-  const expectedModules = dimensionProfile ? [...collectionModules, "profile"] : collectionModules;
-  if (dimensionProfile && (typeof dimensionProfile.kicker !== "string" || typeof dimensionProfile.title !== "string" || typeof dimensionProfile.note !== "string"
-    || !Array.isArray(dimensionProfile.paragraphs) || dimensionProfile.paragraphs.length < 2
-    || !Array.isArray(dimensionProfile.fit_checks) || dimensionProfile.fit_checks.some((fit) => !(fit.width > 0) || !(fit.depth > 0))
-    || ![undefined, "type", "voltage", "people"].includes(dimensionProfile.group_by))) {
-    throw new Error(`${id} has an incomplete dimension profile`);
-  }
-  if (!Array.isArray(presentation.flow) || presentation.flow.length !== expectedModules.length || new Set(presentation.flow).size !== expectedModules.length || expectedModules.some((module) => !presentation.flow.includes(module))) {
-    throw new Error(`${id} must use every collection module exactly once`);
-  }
-  validateInsight(presentation.insight, id, 400);
-  const profile = [presentation.hero, presentation.results, presentation.method, presentation.flow.join("-")].join("|");
-  if (collectionProfiles.has(profile)) throw new Error(`${id} duplicates the presentation profile of ${collectionProfiles.get(profile)}`);
-  collectionProfiles.set(profile, id);
-}
-
-const planningProfiles = new Map();
-for (const [slug, presentation] of Object.entries(pagePresentations.planning_guides)) {
-  const guide = planningGuides.find((item) => item.slug === slug);
-  if (!["summary", "split", "briefing", "question", "compact"].includes(presentation.hero)) throw new Error(`${slug} has an invalid planning hero`);
-  if (!["staggered", "technical", "timeline", "cards", "ledger", "alternating"].includes(presentation.sections)) throw new Error(`${slug} has an invalid section view`);
-  if (!["callout", "matrix", "brief"].includes(presentation.insight_style)) throw new Error(`${slug} has an invalid insight view`);
-  const requiredModules = [
-    ...planningModules,
-    ...(guide.catalog_snapshot === "product_prices" ? ["snapshot"] : []),
-    ...(guide.catalog_footprint === true ? ["footprint"] : []),
-    ...(guide.catalog_niches ? ["niches"] : []),
-  ];
-  const niches = guide.catalog_niches;
-  if (niches && (typeof niches.kicker !== "string" || typeof niches.title !== "string" || typeof niches.note !== "string"
-    || !Array.isArray(niches.paragraphs) || niches.paragraphs.length < 1
-    || !Array.isArray(niches.sizes) || niches.sizes.length < 2 || niches.sizes.some((size) => !(size.width > 0) || !(size.depth > 0)))) {
-    throw new Error(`${slug} has incomplete niche data`);
-  }
-  if (!Array.isArray(presentation.flow) || presentation.flow.length !== requiredModules.length || new Set(presentation.flow).size !== requiredModules.length || requiredModules.some((module) => !presentation.flow.includes(module))) {
-    throw new Error(`${slug} must use every applicable planning module exactly once`);
-  }
-  validateInsight(presentation.insight, slug, 280);
-  const profile = [presentation.hero, presentation.sections, presentation.insight_style, presentation.flow.join("-")].join("|");
-  if (planningProfiles.has(profile)) throw new Error(`${slug} duplicates the presentation profile of ${planningProfiles.get(profile)}`);
-  planningProfiles.set(profile, slug);
 }
 
 const queueIds = new Set();
@@ -527,20 +459,17 @@ function assertContentLink(link, label, seen = new Set()) {
 
 const entryPoints = home.entry_points;
 if (!entryPoints || !Array.isArray(entryPoints.groups) || entryPoints.groups.length === 0) throw new Error("content/de/home.json needs entry point groups");
-for (const key of ["kicker", "title", "copy", "all_label"]) {
+for (const key of ["all_label"]) {
   if (typeof entryPoints[key] !== "string" || entryPoints[key].trim() === "") throw new Error(`Home entry points are missing ${key}`);
 }
 assertContentLink({ href: entryPoints.all_href, label: entryPoints.all_label }, "Home entry points");
 for (const group of entryPoints.groups) {
-  if (typeof group.title !== "string" || typeof group.copy !== "string") throw new Error("Home entry point group needs title and copy");
+  assertText(group.title, "Home entry point group title");
   assertContentLinks(group.links, `Home entry group ${group.title}`, { required: true, min: 3 });
 }
 for (const item of archetypes) {
   if (item.href === undefined) continue;
   assertContentLink({ href: item.href, label: item.link_label }, `Archetype ${item.id}`);
-}
-for (const key of ["kicker", "title"]) {
-  if (typeof planningNavigation.collection_links_heading?.[key] !== "string") throw new Error(`Planning navigation collection link heading is missing ${key}`);
 }
 for (const group of planningNavigation.groups) assertContentLinks(group.collection_links, `Planning group ${group.id}`, { required: true, min: 2, max: 6 });
 for (const [slug, journey] of Object.entries(planningNavigation.guide_paths)) {
@@ -551,12 +480,12 @@ for (const [groupId, rows] of Object.entries(planningNavigation.footprint_links 
   for (const [capacity, link] of Object.entries(rows)) assertContentLink(link, `Footprint link ${groupId}/${capacity}`);
 }
 for (const guide of planningGuides) {
-  for (const section of guide.sections) {
-    if (section.links === undefined) continue;
-    if (typeof section.links_lead !== "string" || section.links_lead.trim() === "") throw new Error(`${guide.slug} section "${section.title}" needs a links_lead`);
-    assertContentLinks(section.links, `${guide.slug} section "${section.title}"`, { min: 1, max: 5 });
-  }
+  for (const block of guide.blocks) if (block.links !== undefined) assertContentLinks(block.links, `${guide.slug} "${block.heading}"`, { min: 1, max: 5 });
 }
+for (const slug of home.guide_slugs ?? []) {
+  if (!planningSlugs.has(slug)) throw new Error(`Home page references unknown planning guide ${slug}`);
+}
+for (const key of ["intro", "types", "sources"]) assertTexts(home[key], `Home page ${key}`);
 for (const collection of collections) {
   if (collection.indexable === false) continue;
   for (const relatedId of collection.related_ids) {

@@ -111,11 +111,12 @@ for (const expected of [
   if (!css.includes(expected)) issues.push(`app/globals.css: missing accessibility baseline ${expected}`);
 }
 for (const [label, foreground, background] of [
-  ["body text", "#17362f", "#fbf8ef"],
-  ["secondary text", "#31554c", "#fbf8ef"],
-  ["accent text and focus", "#b94928", "#fbf8ef"],
-  ["light text on dark panels", "#fffdf8", "#17362f"],
-  ["light accent on dark panels", "#f6b59d", "#17362f"],
+  ["body text", "#1f2622", "#ffffff"],
+  ["muted text", "#55605a", "#f4f5f2"],
+  ["links", "#0f5a43", "#f4f5f2"],
+  ["button text", "#ffffff", "#a9431f"],
+  ["outlined button text", "#a9431f", "#ffffff"],
+  ["hover links and notes", "#8a3516", "#ffffff"],
 ]) {
   const ratio = contrastRatio(foreground, background);
   if (ratio < 4.5) issues.push(`app/globals.css: ${label} contrast is ${ratio.toFixed(2)}:1, below 4.5:1`);
@@ -154,7 +155,7 @@ for (const file of htmlFiles) {
   const html = htmlBuffer.toString("utf8");
   const mainIndex = html.indexOf('<main id="main-content" tabindex="-1">');
   const siteHeaderIndex = html.indexOf('<header class="site-header">');
-  const footerIndex = html.indexOf("<footer>");
+  const footerIndex = html.search(/<footer[ >]/);
   const skipIndex = html.indexOf('<a class="skip-link" href="#main-content">Skip to main content</a>');
 
   if (count(html, /<main(?:\s|>)/g) !== 1) issues.push(`${route}: expected exactly one main landmark`);

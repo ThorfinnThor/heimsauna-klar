@@ -1,4 +1,5 @@
 import collectionData from "@/content/de/collections.json";
+import type { LinksBlock, TextBlock } from "@/lib/content-blocks";
 import { getEligibleOffers, products, type Product } from "@/lib/products";
 
 export type CollectionRule = "mini_indoor" | "one_person_indoor" | "small_garden" | "price_under_2500" | "two_person_indoor" | "infrared" | "bio_sauna" | "barrel_sauna" | "price_under_4000" | "four_person" | "three_person_indoor" | "finnish" | "area_under_6";
@@ -21,67 +22,43 @@ export type CollectionFilter = {
   wood_contains?: string;
 };
 
+export type CollectionBlock =
+  | TextBlock
+  | LinksBlock
+  | { type: "products"; heading: string }
+  | { type: "picks" }
+  | { type: "table" };
+
 export type Collection = {
   id: string;
   section: "indoor-sauna" | "outdoor-sauna" | "vergleiche";
   slug: string;
   updated_at: string;
-  kind: string;
-  eyebrow: string;
   title: string;
-  accent: string;
   description: string;
-  intro: string;
-  layout: "space" | "outdoor" | "budget" | "heat" | "capacity" | "technical" | "tradeoff";
+  intro: string[];
   indexable?: boolean;
-  related_ids: string[];
-  planning: {
-    kicker: string;
-    intro: string;
-    guide_ids: string[];
-  };
-  editorial: {
-    kicker: string;
-    title: string;
-    paragraphs: string[];
-    pointsTitle: string;
-    points: string[];
-    callout: string;
-  };
-  profile?: {
-    kicker: string;
-    title: string;
-    paragraphs: string[];
-    fit_checks: Array<{ width: number; depth: number }>;
-    note: string;
-    group_by?: "type" | "voltage" | "people";
-  };
   rule?: CollectionRule;
   filters?: CollectionFilter;
   sort: "footprint" | "price";
-  criteria: string[];
-  checks: string[];
-  module_copy: {
-    method_kicker: string;
-    method_title: string;
-    method_note: string;
-    results_kicker: string;
-    results_title: string;
-    results_intro: string;
-    checks_kicker: string;
-    checks_title: string;
-    related_kicker: string;
-    related_title: string;
+  profile?: {
+    title: string;
+    paragraphs: string[];
+    fit_checks: Array<{ width: number; depth: number }>;
+    group_by?: "type" | "voltage" | "people";
   };
+  blocks: CollectionBlock[];
+  guide_ids: string[];
+  related_ids: string[];
 };
 
 export const collections = collectionData as Collection[];
 export const indexableCollections = collections.filter((collection) => collection.indexable !== false);
 
 export const collectionSectionLabels: Record<Collection["section"], string> = {
-  "indoor-sauna": "Indoor-Sauna",
-  "outdoor-sauna": "Outdoor-Sauna",
-  vergleiche: "Weitere Vergleiche",
+  "indoor-sauna": "Für drinnen",
+  "outdoor-sauna": "Für den Garten",
+  vergleiche: "Nach Budget, Größe und Technik",
 };
 
 export function getCollectionPath(collection: Pick<Collection, "section" | "slug">) {
@@ -244,4 +221,56 @@ export function getDimensionProfile(candidates: Product[], groupBy: ProfileGroup
 
 export function countFittingProducts(candidates: Product[], width: number, depth: number) {
   return candidates.filter(({ dimensions_cm: size }) => (size.width <= width && size.depth <= depth) || (size.width <= depth && size.depth <= width)).length;
+}
+
+const wholeEuros = new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
+
+// Numbers inside the copy are placeholders filled from the catalog at build time, so
+// the texts stay right when offers change.
+export function fillCollectionText(text: string, candidates: Product[]) {
+  if (!text.includes("{")) return text;
+  const prices = candidates.map(getLowestPrice).filter((price): price is number => price !== null);
+  const values: Record<string, string> = {
+    count: String(candidates.length),
+    area_min: `${Math.min(...candidates.map(getFootprintSquareMeters)).toLocaleString("de-DE", { maximumFractionDigits: 2 })} m²`,
+    price_min: prices.length > 0 ? wholeEuros.format(Math.min(...prices)) : "",
+    price_median: prices.length > 0 ? wholeEuros.format(median(prices)) : "",
+    v230: String(candidates.filter((product) => product.power.voltage === 230).length),
+    indoor: String(candidates.filter((product) => product.sauna.indoor_outdoor === "indoor").length),
+    outdoor: String(candidates.filter((product) => product.sauna.indoor_outdoor === "outdoor").length),
+    finnish: String(candidates.filter((product) => product.sauna.type === "Finnische Sauna").length),
+  };
+  return text.replace(/\{([a-z0-9_]+)\}/g, (match, key: string) => {
+    if (!(key in values) || values[key] === "") throw new Error(`Unknown or empty placeholder ${match} in "${text}"`);
+    return values[key];
+  });
+}
+
+export function getCollectionDescription(collection: Collection) {
+  return fillCollectionText(collection.description, getCollectionProducts(collection));
+}
+
+// Three honest starting points for a list: the cheapest model, the smallest one, and the
+// cheapest for a 230 V supply (or with a place to lie down where 230 V is not a thing).
+export function getCollectionPicks(candidates: Product[]) {
+  // A tent is not what someone looking for a cabin means by "the cheapest".
+  const cabins = candidates.filter((product) => product.category !== "tent" && product.category !== "portable");
+  const byPrice = (cabins.length > 0 ? cabins : candidates)
+    .filter((product) => getLowestPrice(product) !== null)
+    .toSorted((a, b) => (getLowestPrice(a) ?? 0) - (getLowestPrice(b) ?? 0));
+  const bySize = byPrice.toSorted((a, b) => getFootprintSquareMeters(a) - getFootprintSquareMeters(b));
+  const plug = byPrice.find((product) => product.power.voltage === 230);
+  const lying = byPrice.find((product) => (product.people.lying_places ?? 0) > 0);
+  const picks: Array<{ label: string; product: Product }> = [];
+  const add = (label: string, addition: string, product?: Product) => {
+    if (!product) return;
+    const same = picks.find((pick) => pick.product.product_id === product.product_id);
+    if (same) same.label += addition;
+    else picks.push({ label, product });
+  };
+  add("Am günstigsten", "", byPrice[0]);
+  add("Am kleinsten", " und am kleinsten", bySize[0]);
+  add("Am günstigsten mit 230 Volt", ", läuft an 230 Volt", plug);
+  if (picks.length < 3) add("Am günstigsten mit Liegeplatz", ", mit Liegeplatz", lying);
+  return picks.slice(0, 3);
 }

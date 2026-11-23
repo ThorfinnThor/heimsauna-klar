@@ -1,8 +1,10 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { StructuredData } from "@/app/_components/StructuredData";
+import { UsSaunaRows } from "./UsCatalog";
 
 import {
+  getUsEditorialPages,
   getUsEditorialSources,
   getUsHomeSources,
   selectUsBrandConfigurations,
@@ -12,7 +14,6 @@ import {
   type UsEditorialProduct,
 } from "@/lib/us/content";
 import { getUsPublicCatalogItems } from "@/lib/us/catalog-index";
-import type { UsCatalogItem } from "@/lib/us/catalog-filter";
 import type {
   UsComparisonPage,
   UsEditorialPage,
@@ -33,22 +34,10 @@ import {
 } from "@/lib/us/structured-data";
 
 const indexCopy = {
-  comparison: {
-    eyebrow: "Curated comparisons",
-    title: "Compare documented US sauna configurations.",
-    description: "Each comparison has a defined scope and includes only configurations supported by the required source data.",
-  },
-  brand: {
-    eyebrow: "Brand profiles",
-    title: "See which configurations belong to each brand.",
-    description: "Brand pages keep model identity, technical configuration and source coverage separate from merchant offers.",
-  },
-  guide: {
-    eyebrow: "Planning guides",
-    title: "Plan around the requirements that change the project.",
-    description: "Guides address a specific planning question and link technical claims to the source material used for the page.",
-  },
-} satisfies Record<UsEditorialPageType, { eyebrow: string; title: string; description: string }>;
+  comparison: { title: "Sauna comparisons", description: "Lists of saunas that answer one question each, like size or voltage." },
+  brand: { title: "Sauna brands", description: "What each brand makes and how the models differ." },
+  guide: { title: "Guides", description: "Power, running cost and the other things worth checking before you order." },
+} satisfies Record<UsEditorialPageType, { title: string; description: string }>;
 
 function documentedValue<T>(fact: UsFact<T>) {
   return fact.status === "documented" ? fact.value : null;
@@ -60,8 +49,8 @@ function measurement(value: UsDimensions["width"]) {
 
 function dimensionsLabel(configuration: UsProductConfiguration) {
   const dimensions = documentedValue(configuration.dimensions.exterior);
-  if (!dimensions) return "Not documented";
-  return `${measurement(dimensions.width)} × ${measurement(dimensions.depth)} × ${measurement(dimensions.height)}`;
+  if (!dimensions) return "–";
+  return `${measurement(dimensions.width)} × ${measurement(dimensions.depth)} × ${measurement(dimensions.height)}`.replace(/ in(?= ×)/g, "");
 }
 
 function voltageLabel(configuration: UsProductConfiguration) {
@@ -70,90 +59,41 @@ function voltageLabel(configuration: UsProductConfiguration) {
       const voltage = documentedValue(requirement.voltage_v);
       return voltage === null ? [] : [voltage];
     })))].sort((left, right) => left - right);
-  return voltages.length > 0 ? voltages.map((value) => `${value} V`).join(" or ") : "Not documented";
+  return voltages.length > 0 ? voltages.map((value) => `${value} V`).join(" or ") : "–";
 }
 
 function powerLabel(configuration: UsProductConfiguration) {
   const watts = ratedPowerW(configuration);
-  return watts === null ? "Not documented" : `${(watts / 1000).toLocaleString("en-US", { maximumFractionDigits: 2 })} kW`;
+  return watts === null ? "–" : `${(watts / 1000).toLocaleString("en-US", { maximumFractionDigits: 2 })} kW`;
 }
 
 function relatedLabel(path: string) {
-  const slug = path.split("/").filter(Boolean).at(-1) ?? path;
-  return slug.split("-").map((part) => `${part.charAt(0).toUpperCase()}${part.slice(1)}`).join(" ");
+  const fixed: Record<string, string> = {
+    "/us/": "Home",
+    "/us/saunas/": "All saunas",
+    "/us/sauna-finder/": "Sauna finder",
+  };
+  return fixed[path] ?? getUsEditorialPages("comparison").concat(getUsEditorialPages("guide"), getUsEditorialPages("brand")).find((page) => usEditorialPath(page) === path)?.title ?? path;
 }
 
-function ProductCards({ items }: { items: UsEditorialProduct[] }) {
+function ModelTable({ items, title }: { items: UsEditorialProduct[]; title: string }) {
   if (items.length === 0) return null;
   return (
-    <section className="us-editorial-products" aria-labelledby="related-products-title">
-      <header>
-        <p className="eyebrow">Documented configurations</p>
-        <h2 id="related-products-title">Products covered by this page</h2>
-      </header>
-      <div className="us-editorial-product-grid">
-        {items.map(({ product, configuration }) => {
-          const capacity = documentedValue(configuration.capacity.seated);
-          return (
-            <article key={configuration.id}>
-              <p className="eyebrow">{product.brand_name}</p>
-              <h3>{product.model}</h3>
-              <dl>
-                <div><dt>Capacity</dt><dd>{capacity === null ? "Not documented" : `${capacity} seated`}</dd></div>
-                <div><dt>Exterior W × D × H</dt><dd>{dimensionsLabel(configuration)}</dd></div>
-                <div><dt>Electrical</dt><dd>{voltageLabel(configuration)}</dd></div>
-              </dl>
-              <Link href={`/us/saunas/${product.slug}/`}>View configuration <span aria-hidden="true">↗</span></Link>
-            </article>
-          );
-        })}
-      </div>
-    </section>
-  );
-}
-
-function ComparisonMatrix({ page, items }: { page: UsComparisonPage; items: UsEditorialProduct[] }) {
-  return (
-    <section className="us-comparison-matrix" aria-labelledby="comparison-matrix-title">
-      <header>
-        <p className="eyebrow">Defined comparison set</p>
-        <h2 id="comparison-matrix-title">{items.length} documented {items.length === 1 ? "configuration" : "configurations"}</h2>
-        <p>The list follows the criteria recorded for this comparison. A missing value never counts as a match.</p>
-      </header>
-      {items.length > 0 ? (
-        <div className="us-comparison-table-wrap">
-          <table>
-            <thead><tr><th>Configuration</th><th>Capacity</th><th>Exterior W × D × H</th><th>Electrical</th><th>Rated power</th></tr></thead>
-            <tbody>
-              {items.map(({ product, configuration }) => {
-                const capacity = documentedValue(configuration.capacity.seated);
-                return (
-                  <tr key={configuration.id}>
-                    <th><Link href={`/us/saunas/${product.slug}/`}>{product.brand_name} {product.model}</Link></th>
-                    <td>{capacity === null ? "Not documented" : `${capacity} seated`}</td>
-                    <td>{dimensionsLabel(configuration)}</td>
-                    <td>{voltageLabel(configuration)}</td>
-                    <td>{powerLabel(configuration)}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
-      ) : <p className="us-editorial-empty">No published configuration satisfies the recorded comparison rule.</p>}
-      <details className="us-comparison-scope">
-        <summary>How this set is selected</summary>
-        <dl>
-          {page.selection.product_types?.length ? <div><dt>Product type</dt><dd>{page.selection.product_types.join(", ")}</dd></div> : null}
-          {page.selection.heat_types?.length ? <div><dt>Heat type</dt><dd>{page.selection.heat_types.join(", ")}</dd></div> : null}
-          {page.selection.placements?.length ? <div><dt>Placement</dt><dd>{page.selection.placements.join(", ")}</dd></div> : null}
-          {page.selection.minimum_seated_capacity ? <div><dt>Minimum capacity</dt><dd>{page.selection.minimum_seated_capacity} seated</dd></div> : null}
-          {page.selection.maximum_seated_capacity ? <div><dt>Maximum capacity</dt><dd>{page.selection.maximum_seated_capacity} seated</dd></div> : null}
-          {page.selection.voltages_v?.length ? <div><dt>Voltage</dt><dd>{page.selection.voltages_v.map((value) => `${value} V`).join(" or ")}</dd></div> : null}
-          {page.selection.brands?.length ? <div><dt>Brand</dt><dd>{page.selection.brands.join(", ")}</dd></div> : null}
-          {page.selection.product_ids?.length ? <div><dt>Explicit records</dt><dd>{page.selection.product_ids.length}</dd></div> : null}
-        </dl>
-      </details>
+    <section>
+      <h2>{title}</h2>
+      <div className="table-wrap"><table>
+        <thead><tr><th scope="col">Model</th><th scope="col">Seats</th><th scope="col">Outside size (W × D × H)</th><th scope="col">Voltage</th><th scope="col">Power</th></tr></thead>
+        <tbody>{items.map(({ product, configuration }) => (
+          <tr key={configuration.id}>
+            <th scope="row"><Link href={`/us/saunas/${product.slug}/`}>{product.brand_name} {product.model}</Link></th>
+            <td>{documentedValue(configuration.capacity.seated) ?? "–"}</td>
+            <td>{dimensionsLabel(configuration)}</td>
+            <td>{voltageLabel(configuration)}</td>
+            <td>{powerLabel(configuration)}</td>
+          </tr>
+        ))}</tbody>
+      </table></div>
+      <p className="updated">A dash means the manufacturer doesn&apos;t say.</p>
     </section>
   );
 }
@@ -168,85 +108,60 @@ function RunningCost({ items }: { items: UsEditorialProduct[] }) {
   const states = statePricesSorted();
   const cheapest = states[0];
   const dearest = states[states.length - 1];
-  const heatLabel = (item: UsEditorialProduct) => item.product.heat_type.status === "documented" ? item.product.heat_type.value : "not documented";
+  const heatLabel = (item: UsEditorialProduct) => documentedValue(item.product.heat_type) ?? "–";
   const typical = (heat: string) => median(rows.filter((row) => heatLabel(row) === heat).map((row) => row.watts));
   const infraredW = typical("infrared");
   const traditionalW = typical("traditional");
   const average = usElectricityPrices.us_average;
   return (
-    <section className="us-comparison-matrix us-running-cost" aria-labelledby="running-cost-title">
-      <header>
-        <p className="eyebrow">Calculated from the catalog</p>
-        <h2 id="running-cost-title">Cost of one hour at full rated power</h2>
-        <p>
-          Rated power of {rows.length} published configurations multiplied by the average residential electricity
-          price of {average.toFixed(2)} cents per kWh ({usElectricityPrices.period_label}, U.S. Energy Information
-          Administration). The cheapest state, {cheapest.state}, averaged {cheapest.cents.toFixed(2)} cents and the most
-          expensive, {dearest.state}, {dearest.cents.toFixed(2)} cents.
-        </p>
-      </header>
-      <div className="us-comparison-table-wrap">
-        <table>
-          <thead><tr><th>Configuration</th><th>Heat type</th><th>Rated power</th><th>{cheapest.state}</th><th>US average</th><th>{dearest.state}</th></tr></thead>
-          <tbody>
-            {rows.map((row) => (
-              <tr key={row.configuration.id}>
-                <th><Link href={`/us/saunas/${row.product.slug}/`}>{row.product.brand_name} {row.product.model}</Link></th>
-                <td>{heatLabel(row)}</td>
-                <td>{powerLabel(row.configuration)}</td>
-                <td>{formatUsd(costPerHourUsd(row.watts, cheapest.cents))}</td>
-                <td>{formatUsd(costPerHourUsd(row.watts, average))}</td>
-                <td>{formatUsd(costPerHourUsd(row.watts, dearest.cents))}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+    <section>
+      <h2>Cost of one hour, model by model</h2>
+      <p className="text">At full power, with the average home electricity price of {average.toFixed(2)} cents per kWh ({usElectricityPrices.period_label}, EIA). {cheapest.state} is cheapest at {cheapest.cents.toFixed(2)} cents, {dearest.state} most expensive at {dearest.cents.toFixed(2)}.</p>
+      <div className="table-wrap"><table>
+        <thead><tr><th scope="col">Model</th><th scope="col">Heat</th><th scope="col">Power</th><th scope="col">{cheapest.state}</th><th scope="col">US average</th><th scope="col">{dearest.state}</th></tr></thead>
+        <tbody>{rows.map((row) => (
+          <tr key={row.configuration.id}>
+            <th scope="row"><Link href={`/us/saunas/${row.product.slug}/`}>{row.product.brand_name} {row.product.model}</Link></th>
+            <td>{heatLabel(row)}</td>
+            <td>{powerLabel(row.configuration)}</td>
+            <td>{formatUsd(costPerHourUsd(row.watts, cheapest.cents))}</td>
+            <td>{formatUsd(costPerHourUsd(row.watts, average))}</td>
+            <td>{formatUsd(costPerHourUsd(row.watts, dearest.cents))}</td>
+          </tr>
+        ))}</tbody>
+      </table></div>
       {infraredW !== null && traditionalW !== null ? (
         <>
-          <header>
-            <h3 id="running-cost-states-title">By state, for a typical infrared and a typical traditional sauna</h3>
-            <p>
-              Typical means the median rated power in this catalog: {(infraredW / 1000).toLocaleString("en-US", { maximumFractionDigits: 2 })} kW
-              for infrared and {(traditionalW / 1000).toLocaleString("en-US", { maximumFractionDigits: 2 })} kW for traditional configurations.
-            </p>
-          </header>
-          <div className="us-comparison-table-wrap">
-            <table aria-describedby="running-cost-states-title">
-              <thead><tr><th>State</th><th>Cents per kWh</th><th>Infrared, per hour</th><th>Traditional, per hour</th></tr></thead>
-              <tbody>
-                {states.map(({ state, cents }) => (
-                  <tr key={state}>
-                    <th>{state}</th>
-                    <td>{cents.toFixed(2)}</td>
-                    <td>{formatUsd(costPerHourUsd(infraredW, cents))}</td>
-                    <td>{formatUsd(costPerHourUsd(traditionalW, cents))}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <h2 id="running-cost-states-title">Cost per hour by state</h2>
+          <p className="text">For a typical infrared cabin ({(infraredW / 1000).toLocaleString("en-US", { maximumFractionDigits: 2 })} kW) and a typical traditional sauna ({(traditionalW / 1000).toLocaleString("en-US", { maximumFractionDigits: 2 })} kW).</p>
+          <div className="table-wrap"><table aria-describedby="running-cost-states-title">
+            <thead><tr><th scope="col">State</th><th scope="col">Cents per kWh</th><th scope="col">Infrared</th><th scope="col">Traditional</th></tr></thead>
+            <tbody>{states.map(({ state, cents }) => (
+              <tr key={state}>
+                <th scope="row">{state}</th>
+                <td>{cents.toFixed(2)}</td>
+                <td>{formatUsd(costPerHourUsd(infraredW, cents))}</td>
+                <td>{formatUsd(costPerHourUsd(traditionalW, cents))}</td>
+              </tr>
+            ))}</tbody>
+          </table></div>
         </>
       ) : null}
     </section>
   );
 }
 
-function EditorialSections({ page }: { page: { sections: UsEditorialSection[] } }) {
-  if (page.sections.length === 0) return null;
+function Sections({ sections }: { sections: UsEditorialSection[] }) {
   return (
-    <section className="us-editorial-sections" aria-label="Editorial guidance">
-      {page.sections.map((section, index) => (
-        <article key={section.id}>
-          <span>{String(index + 1).padStart(2, "0")}</span>
-          <div>
-            <h2>{section.heading}</h2>
-            {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-            {section.points?.length ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}
-          </div>
-        </article>
+    <div className="text">
+      {sections.map((section) => (
+        <section key={section.id}>
+          <h2>{section.heading}</h2>
+          {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          {section.points?.length ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}
+        </section>
       ))}
-    </section>
+    </div>
   );
 }
 
@@ -254,90 +169,14 @@ function isEditorialPage(page: UsEditorialPage | UsHomePage): page is UsEditoria
   return "page_type" in page;
 }
 
-function EditorialSources({ page }: { page: UsEditorialPage | UsHomePage }) {
+function Sources({ page }: { page: UsEditorialPage | UsHomePage }) {
   const sources = isEditorialPage(page) ? getUsEditorialSources(page) : getUsHomeSources(page);
   if (sources.length === 0) return null;
+  const list = <ul>{sources.map((source) => <li key={source.id}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a>, {source.publisher}</li>)}</ul>;
   return (
-    <section className="us-editorial-sources" aria-labelledby="editorial-sources-title">
-      <header>
-        <p className="eyebrow">Sources behind this page</p>
-        <h2 id="editorial-sources-title">Where the details come from</h2>
-        <p>Manufacturer pages and official collection records provide the facts used in these comparisons. The linked sources make it possible to check a model’s dimensions, capacity and electrical notes at the original reference.</p>
-      </header>
-      <ul>{sources.map((source) => (
-        <li key={source.id}>
-          <a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} <span aria-hidden="true">↗</span></a>
-          <span>{source.publisher}</span>
-        </li>
-      ))}</ul>
-    </section>
-  );
-}
-
-function UsHomeCatalogPreview({ items }: { items: UsCatalogItem[] }) {
-  if (items.length === 0) return null;
-  return (
-    <section className="catalog-preview us-home-catalog-preview" aria-labelledby="us-catalog-preview-title">
-      <div className="catalog-preview-head">
-        <div>
-          <p className="eyebrow">Documented US models</p>
-          <h2 id="us-catalog-preview-title">Compare saunas with the details that affect planning.</h2>
-        </div>
-        <Link className="text-link" href="/us/saunas/">Open the US catalog <span aria-hidden="true">↗</span></Link>
-      </div>
-      <div className="product-preview-grid">
-        {items.slice(0, 4).map((item) => (
-          <article className="product-preview-card" key={item.id}>
-            <div className="product-preview-top">
-              <span>{item.form ?? "Sauna configuration"}</span>
-              <span>{item.placements?.[0] ?? "Placement open"}</span>
-            </div>
-            <p>{item.brand}</p>
-            <h3>{item.model}</h3>
-            <div className="product-preview-specs">
-              <span><small>Exterior W × D × H</small>{item.exteriorDimensions ?? "Not documented"}</span>
-              <span><small>Capacity</small>{item.seatedCapacity === null ? "Not documented" : `${item.seatedCapacity} people`}</span>
-            </div>
-            <div className="product-preview-bottom">
-              <strong>{item.voltages?.map((value) => `${value} V`).join(" / ") ?? "Power open"}</strong>
-              <Link href={`/us/saunas/${item.slug}/`} aria-label={`${item.brand} ${item.model} details`}>View details ↗</Link>
-            </div>
-          </article>
-        ))}
-      </div>
-      <p className="catalog-note">The catalog grows as additional models can be documented from reliable sources. An open field stays open instead of being inferred from a related sauna.</p>
-    </section>
-  );
-}
-
-function UsHomeHero() {
-  return (
-    <section className="hero us-home-hero" aria-labelledby="us-home-hero-title">
-      <div className="hero-copy">
-        <p className="eyebrow">Independent planning · documented US models</p>
-        <h1 id="us-home-hero-title">Which sauna fits <span>your home?</span></h1>
-        <p className="hero-lede">Compare space, capacity, dimensions and electrical requirements. Start with the finder or browse the catalog when you already know what you are looking for.</p>
-        <div className="hero-actions">
-          <Link className="button button-primary" href="/us/sauna-finder/">Start the sauna finder <span aria-hidden="true">↗</span></Link>
-          <Link className="text-link" href="/us/saunas/">Browse the catalog <span aria-hidden="true">↓</span></Link>
-        </div>
-        <ul className="constraint-list" aria-label="Main sauna planning criteria">
-          <li><span>01</span><div><strong>Space</strong><small>Exterior dimensions, height and clearances</small></div></li>
-          <li><span>02</span><div><strong>Power</strong><small>120 V, 240 V or another documented supply</small></div></li>
-          <li><span>03</span><div><strong>Capacity</strong><small>Seating, heat type and intended placement</small></div></li>
-        </ul>
-      </div>
-      <aside className="hero-visual" aria-label="Example plan for a compact sauna">
-        <div className="visual-kicker"><span /> Planning view · 1.8 m²</div>
-        <div className="room-plan">
-          <div className="dimension dimension-top">150 cm</div>
-          <div className="dimension dimension-side">120 cm</div>
-          <div className="sauna-shape"><div className="sauna-glow" /><div className="sauna-door" /><div className="sauna-bench" /></div>
-          <div className="plan-note note-power"><span>120 V</span> supply depends on the model*</div>
-          <div className="plan-note note-capacity"><span>1–2</span> people</div>
-        </div>
-        <p className="visual-footnote">* Check the exact product documentation and local electrical requirements before installation.</p>
-      </aside>
+    <section className="text sources">
+      <h2>Sources</h2>
+      {sources.length > 12 ? <details><summary>{sources.length} manufacturer pages and documents</summary>{list}</details> : list}
     </section>
   );
 }
@@ -345,10 +184,9 @@ function UsHomeHero() {
 function RelatedPages({ page }: { page: Pick<UsEditorialPage, "related_paths"> | UsHomePage }) {
   if (page.related_paths.length === 0) return null;
   return (
-    <nav className="us-editorial-related" aria-labelledby="related-pages-title">
-      <p className="eyebrow">Continue planning</p>
-      <h2 id="related-pages-title">Related pages</h2>
-      <div>{page.related_paths.map((path) => <Link href={path} key={path}>{relatedLabel(path)} <span aria-hidden="true">↗</span></Link>)}</div>
+    <nav aria-label="Related pages">
+      <h2>Read next</h2>
+      <ul>{page.related_paths.map((path) => <li key={path}><Link href={path}>{relatedLabel(path)}</Link></li>)}</ul>
     </nav>
   );
 }
@@ -363,35 +201,14 @@ function pageProducts(page: UsEditorialPage, includeNonPublic: boolean) {
 export function UsEditorialIndex({ pageType, pages }: { pageType: UsEditorialPageType; pages: UsEditorialPage[]; isPreview: boolean }) {
   const copy = indexCopy[pageType];
   return (
-    <>
-      <section className="page-hero page-shell us-editorial-index-hero">
-        <p className="eyebrow">{copy.eyebrow}</p>
-        <h1>{copy.title}</h1>
-        <p>{copy.description}</p>
-      </section>
-      <section className="page-shell us-editorial-index">
-        {pageType === "comparison" ? (
-          <Link className="us-direct-comparison-entry" href="/us/compare/models/">
-            <span>
-              <strong>Build your own comparison</strong>
-              <small>Choose two to four exact configurations and keep the selection in the URL.</small>
-            </span>
-            <span aria-hidden="true">Open tool ↗</span>
-          </Link>
-        ) : null}
-        <div className="us-editorial-index-grid">
-          {pages.map((page, index) => (
-            <Link href={usEditorialPath(page)} key={page.id}>
-              <span>{String(index + 1).padStart(2, "0")}</span>
-              <p className="eyebrow">{page.eyebrow}</p>
-              <h2>{page.heading}</h2>
-              <p>{page.description}</p>
-              <strong>Open page <span aria-hidden="true">↗</span></strong>
-            </Link>
-          ))}
-        </div>
-      </section>
-    </>
+    <div className="wrap page">
+      <h1>{copy.title}</h1>
+      <p className="text">{copy.description}</p>
+      <ul className="articles">
+        {pages.map((page) => <li key={page.id}><Link href={usEditorialPath(page)}>{page.title}</Link><p>{page.description}</p></li>)}
+        {pageType === "comparison" ? <li><Link href="/us/compare/models/">Compare any models side by side</Link><p>Pick two to four saunas and see them in one table.</p></li> : null}
+      </ul>
+    </div>
   );
 }
 
@@ -406,15 +223,15 @@ export function UsEditorialPageView({ page, presentation, isPreview }: { page: U
   const sectionLabel = page.page_type === "comparison" ? "Comparisons" : page.page_type === "brand" ? "Brands" : "Guides";
   const sectionPath = page.page_type === "comparison" ? "/us/compare/" : `/us/${page.page_type}s/`;
   const modules: Record<string, ReactNode> = {
-    selection: page.page_type === "comparison" ? <ComparisonMatrix page={page} items={products} /> : null,
-    catalog: <ProductCards items={products} />,
-    sections: <EditorialSections page={page} />,
-    sources: <EditorialSources page={page} />,
+    selection: page.page_type === "comparison" ? <ModelTable items={products} title={`${products.length} ${products.length === 1 ? "model" : "models"}`} /> : null,
+    catalog: <ModelTable items={products} title={page.page_type === "guide" ? "Models mentioned here" : "The models"} />,
+    sections: <Sections sections={page.sections} />,
+    sources: <Sources page={page} />,
     related: <RelatedPages page={page} />,
     "running-cost": usesRunningCost ? <RunningCost items={allProducts} /> : null,
   };
   return (
-    <article className={`us-editorial-page us-editorial-page-${presentation.layout}`}>
+    <article className="wrap page">
       {!isPreview ? (
         <>
           <StructuredData data={usEditorialJsonLd(page, products, sources)} />
@@ -425,22 +242,21 @@ export function UsEditorialPageView({ page, presentation, isPreview }: { page: U
           ])} />
         </>
       ) : null}
-      <header className="page-shell us-editorial-hero">
-        <p className="eyebrow">{page.eyebrow}</p>
-        <h1>{page.heading}</h1>
-        <div>{page.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
-      </header>
-      <div className="page-shell">
-        {presentation.module_order.map((module) => <div data-module={module} key={module}>{modules[module]}</div>)}
-      </div>
+      <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/us/">Home</Link><span>›</span><Link href={sectionPath}>{sectionLabel}</Link><span>›</span><span>{page.title}</span></nav>
+      <h1>{page.heading}</h1>
+      <div className="text">{page.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
+      {presentation.module_order.map((module) => <div data-module={module} key={module}>{modules[module]}</div>)}
     </article>
   );
 }
 
 export function UsHomePageView({ page, isPreview }: { page: UsHomePage; isPreview: boolean }) {
-  const catalogItems = getUsPublicCatalogItems();
+  const items = getUsPublicCatalogItems();
+  const brands = [...new Set(items.map((item) => item.brand))].sort();
+  const guides = getUsEditorialPages("guide");
+  const comparisons = getUsEditorialPages("comparison");
   return (
-    <>
+    <div className="wrap page">
       {!isPreview ? (
         <>
           <StructuredData data={usOrganizationJsonLd()} />
@@ -448,41 +264,35 @@ export function UsHomePageView({ page, isPreview }: { page: UsHomePage; isPrevie
           <StructuredData data={usHomeJsonLd(page)} />
         </>
       ) : null}
-      <>
-        <UsHomeHero />
-        <UsHomeCatalogPreview items={catalogItems} />
-        <article className="page-shell us-home-editorial">
-          <header className="us-editorial-hero">
-            <p className="eyebrow">{page.eyebrow}</p>
-            <h2>{page.heading}</h2>
-            <div>{page.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
-          </header>
-          <EditorialSections page={page} />
-          <EditorialSources page={page} />
-          <RelatedPages page={page} />
-        </article>
-      </>
-    </>
+      <h1>{page.heading}</h1>
+      <div className="text">{page.introduction.map((paragraph) => <p className="lead" key={paragraph}>{paragraph}</p>)}</div>
+      <p className="actions"><Link className="btn" href="/us/sauna-finder/">Find a sauna by size and power</Link>{items.length > 0 ? <Link href="/us/saunas/">See all {items.length} saunas</Link> : null}</p>
+      {items.length > 0 ? (
+        <>
+          <h2>Some of the saunas we list</h2>
+          <UsSaunaRows items={items.slice(0, 8)} />
+          <p>Brands: {brands.join(", ")}. <Link href="/us/compare/models/">Compare models side by side</Link></p>
+        </>
+      ) : null}
+      <div className="two">
+        {comparisons.length > 0 ? <section><h2>Comparisons</h2><ul>{comparisons.map((item) => <li key={item.id}><Link href={usEditorialPath(item)}>{item.title}</Link></li>)}</ul></section> : null}
+        {guides.length > 0 ? <section><h2>Guides</h2><ul>{guides.map((item) => <li key={item.id}><Link href={usEditorialPath(item)}>{item.title}</Link></li>)}</ul></section> : null}
+      </div>
+      <Sections sections={page.sections} />
+      <Sources page={page} />
+    </div>
   );
 }
 
 export function UsTrustPageView({ page }: { page: UsTrustPage; isPreview: boolean }) {
   return (
-    <article className="page-shell us-trust-page">
-      <header>
-        <p className="eyebrow">{page.eyebrow}</p>
-        <h1>{page.heading}</h1>
+    <article className="wrap page legal">
+      <h1>{page.heading}</h1>
+      <div className="text">
         {page.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-        {page.contact_email ? <a href={`mailto:${page.contact_email}`}>{page.contact_email}</a> : null}
-      </header>
-      <section className="us-editorial-sections" aria-label={`${page.heading} sections`}>
-        {page.sections.map((section, index) => (
-          <article key={section.id}>
-            <span>{String(index + 1).padStart(2, "0")}</span>
-            <div><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
-          </article>
-        ))}
-      </section>
+        {page.contact_email ? <p><a href={`mailto:${page.contact_email}`}>{page.contact_email}</a></p> : null}
+      </div>
+      <Sections sections={page.sections} />
     </article>
   );
 }

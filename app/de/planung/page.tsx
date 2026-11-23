@@ -1,52 +1,40 @@
 import Link from "next/link";
+import { Breadcrumbs, InlineLinks } from "@/app/_components/Blocks";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
-import { LinkChips } from "@/app/_components/ContentLinks";
-import { getPlanningGuide, planningGroups } from "@/lib/planning-guides";
 import { createPageMetadata } from "@/lib/metadata";
+import { getPlanningGuide, planningGroups } from "@/lib/planning-guides";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/structured-data";
 
-export const metadata = createPageMetadata({
-  title: "Sauna planen mit Platz, Lüftung, Boden und Kosten",
-  description: "Planungshilfen zu Platz, Lüftung, Untergrund, Technik und Kosten mit Quellen und produktspezifischen Prüfpunkten.",
-  path: "/de/planung/",
-});
+const title = "Sauna planen: Ratgeber";
+const description = "Ratgeber für die Sauna zu Hause: Platz, Strom, Lüftung, Fundament und Kosten. Kurz erklärt, mit Quellen und passenden Modellen.";
+const path = "/de/planung/";
+
+export const metadata = createPageMetadata({ title, description, path });
 
 export default function PlanningHubPage() {
   return (
     <main>
-      <StructuredData data={collectionPageJsonLd({ title: "Sauna planen", description: metadata.description as string, path: "/de/planung/" })} />
-      <StructuredData data={breadcrumbJsonLd([{ name: "Start", path: "/de/" }, { name: "Planung", path: "/de/planung/" }])} />
+      <StructuredData data={collectionPageJsonLd({ title, description, path })} />
+      <StructuredData data={breadcrumbJsonLd([{ name: "Start", path: "/de/" }, { name: "Ratgeber", path }])} />
       <SiteHeader />
-      <section className="page-hero page-shell">
-        <nav className="breadcrumbs" aria-label="Brotkrümelnavigation"><Link href="/de/">Start</Link><span>/</span><span>Planung</span></nav>
-        <p className="eyebrow">Sauna planen · vor dem Produktvergleich</p>
-        <h1>Sauna planen{" "}<span>Raum, Anschluss und Budget belastbar prüfen.</span></h1>
-        <p>Die Themen sind nach Standort, Aufbau, Technik und Budget geordnet. Jeder Ratgeber beantwortet eine eigene Planungsfrage mit Herstellerunterlagen und nachvollziehbaren Grenzen.</p>
-        <nav className="planning-phase-nav" aria-label="Planungsphasen">
-          {planningGroups.map((group) => <Link href={`#${group.id}`} key={group.id}>{group.number} {group.eyebrow}</Link>)}
-        </nav>
-      </section>
-      <section className="planning-hub page-shell" aria-labelledby="planning-hub-title">
-        <div className="collection-index-head"><div><p className="eyebrow">Themen nach Planungsfrage</p><h2 id="planning-hub-title">Der passende Einstieg hängt vom bereits bekannten Standort ab.</h2></div><p>Jede Seite nennt ihre Quellen und die Grenzen pauschaler Regeln. Wer den Aufstellraum schon festgelegt hat, kann direkt bei Aufbau oder Technik einsteigen.</p></div>
-        {planningGroups.map((group) => {
-          const guides = group.guide_slugs.flatMap((slug) => {
-            const guide = getPlanningGuide(slug);
-            return guide ? [guide] : [];
-          });
-
-          return (
-            <section className="planning-phase" id={group.id} key={group.id} aria-labelledby={`${group.id}-title`}>
-              <div className="planning-phase-head">
-                <span>{group.number}</span>
-                <div><p className="eyebrow">{group.eyebrow}</p><h3 id={`${group.id}-title`}>{group.title}</h3><p>{group.description}</p></div>
-              </div>
-              <div className="planning-hub-grid">{guides.map((guide, index) => <Link href={`/de/planung/${guide.slug}/`} key={guide.slug}><small>{group.number}.{index + 1}</small><strong>{guide.title}</strong><span>{guide.description} ↗</span></Link>)}</div>
-              <LinkChips links={group.collection_links} label="Passende Vergleiche" ariaLabel={`Passende Vergleiche zu ${group.eyebrow}`} />
-            </section>
-          );
-        })}
-      </section>
+      <div className="wrap page">
+        <Breadcrumbs items={[{ label: "Start", href: "/de/" }, { label: "Ratgeber" }]} />
+        <h1>Ratgeber</h1>
+        <p className="text">Vor allem Platz und Strom solltest du klären, bevor du bestellst. Hier steht, was du messen und fragen musst.</p>
+        {planningGroups.map((group) => (
+          <section id={group.id} key={group.id}>
+            <h2>{group.title}</h2>
+            <ul className="articles">
+              {group.guide_slugs.flatMap((slug) => {
+                const guide = getPlanningGuide(slug);
+                return guide ? [<li key={slug}><Link href={`/de/planung/${slug}/`}>{guide.title}</Link><p>{guide.description}</p></li>] : [];
+              })}
+            </ul>
+            <InlineLinks lead="Passende Listen:" links={group.collection_links} />
+          </section>
+        ))}
+      </div>
       <SiteFooter />
     </main>
   );

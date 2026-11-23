@@ -19,7 +19,7 @@ test("the direct comparison exposes every pilot configuration once", () => {
   for (const option of options) {
     const configuration = configurationsDocument.configurations.find((entry) => entry.id === option.configurationId);
     assert.equal(option.productId, configuration?.product_id);
-    assert.notEqual(option.configurationLabel, "Not documented");
+    assert.notEqual(option.configurationLabel, "–");
   }
 });
 

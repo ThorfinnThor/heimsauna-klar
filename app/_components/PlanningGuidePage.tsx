@@ -1,43 +1,24 @@
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
-import {
-  getPlanningPresentation,
-  getPlanningProfile,
-  type PlanningModule,
-  type PlanningPresentation,
-} from "@/lib/page-presentations";
+import { formatSquareMetres, getFootprintGroups } from "@/lib/footprint";
 import {
   getFootprintLink,
   getNicheFit,
   getPlanningGuide,
   getPlanningJourney,
   getPriceSnapshot,
-  planningCollectionLinksHeading,
-  type ContentLink,
+  type PlanningBlock,
   type PlanningGuide,
 } from "@/lib/planning-guides";
+import { shortPrice } from "@/lib/product-facts";
+import { formatGermanDate } from "@/lib/products";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
-import { formatSquareMetres, getFootprintGroups } from "@/lib/footprint";
-import { InlineLinkList } from "./ContentLinks";
-
-function formatEuro(value: number) {
-  return new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 2 }).format(value);
-}
-
-type PlanningPageContext = {
-  guide: PlanningGuide;
-  presentation: PlanningPresentation;
-};
+import { Breadcrumbs, Checklist, TextSection } from "./Blocks";
 
 export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
   const journey = getPlanningJourney(guide.slug);
-  const relatedGuides = journey?.related_slugs.flatMap((slug) => {
-    const relatedGuide = getPlanningGuide(slug);
-    return relatedGuide ? [relatedGuide] : [];
-  }) ?? [];
-  const presentation = getPlanningPresentation(guide.slug);
-  const context = { guide, presentation };
+  const related = journey?.related_slugs.flatMap((slug) => getPlanningGuide(slug) ?? []) ?? [];
   const path = `/de/planung/${guide.slug}/`;
 
   return (
@@ -51,228 +32,104 @@ export function PlanningGuidePage({ guide }: { guide: PlanningGuide }) {
       })} />
       <StructuredData data={breadcrumbJsonLd([
         { name: "Start", path: "/de/" },
-        { name: "Planung", path: "/de/planung/" },
+        { name: "Ratgeber", path: "/de/planung/" },
         { name: guide.title, path },
       ])} />
       <SiteHeader />
-      <article data-page-kind="planning-guide" data-page-profile={getPlanningProfile(presentation)}>
-        <PlanningHero guide={guide} presentation={presentation} productHref={journey?.product_href ?? "/de/produkte/"} productLabel={journey?.product_label ?? "Produkte filtern"} />
-        {presentation.flow.map((module) => <PlanningModuleBlock context={context} module={module} key={module} />)}
-        <PlanningRelated guide={guide} guides={relatedGuides} collectionLinks={journey?.collection_links ?? []} />
+      <article className="wrap page" data-page-kind="planning-guide">
+        <Breadcrumbs items={[{ label: "Start", href: "/de/" }, { label: "Ratgeber", href: "/de/planung/" }, { label: guide.title }]} />
+        <h1>{guide.title}</h1>
+        <p className="updated">Aktualisiert am {formatGermanDate(guide.updated_at)}</p>
+        <div className="text">{guide.intro.map((paragraph) => <p className="lead" data-editorial-copy="true" key={paragraph}>{paragraph}</p>)}</div>
+        {guide.blocks.map((block, index) => <Block block={block} guide={guide} key={`${block.type}-${index}`} />)}
+        <section className="text sources" data-page-module="sources">
+          <h2>Quellen</h2>
+          <ul>{guide.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul>
+        </section>
+        <div className="two" data-page-module="related">
+          <section>
+            <h2>Passt dazu</h2>
+            <ul>{related.map((item) => <li key={item.slug}><Link href={`/de/planung/${item.slug}/`}>{item.title}</Link></li>)}</ul>
+          </section>
+          {journey && journey.collection_links.length > 0 ? (
+            <section>
+              <h2>Modelle vergleichen</h2>
+              <ul>{journey.collection_links.map((link) => <li key={link.href}><Link href={link.href}>{link.label}</Link></li>)}</ul>
+            </section>
+          ) : null}
+        </div>
       </article>
       <SiteFooter />
     </main>
   );
 }
 
-function PlanningHero({ guide, presentation, productHref, productLabel }: {
-  guide: PlanningGuide;
-  presentation: PlanningPresentation;
-  productHref: string;
-  productLabel: string;
-}) {
-  return (
-    <header className={`guide-hero guide-hero-${presentation.hero} page-shell`}>
-      <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
-        <Link href="/de/">Start</Link><span>/</span><Link href="/de/planung/">Planung</Link><span>/</span><span>{guide.title}</span>
-      </nav>
-      <div className="guide-hero-copy">
-        <p className="eyebrow">{guide.eyebrow}</p>
-        <h1>{guide.title}{" "}<span>{guide.accent}</span></h1>
-        <p>{guide.description}</p>
-      </div>
-      <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.summary}</p></div>
-      <div className="guide-path-links" aria-label="Planung anwenden">
-        <Link className="button button-primary" href={productHref}>{productLabel} ↗</Link>
-        <Link className="text-link" href="/de/#finder">Sauna-Finder starten ↗</Link>
-      </div>
-    </header>
-  );
+function Block({ block, guide }: { block: PlanningBlock; guide: PlanningGuide }) {
+  if (block.type === "text") return <TextSection block={block} />;
+  if (block.type === "checklist") return <Checklist block={block} />;
+  if (block.type === "prices") return <PriceTable />;
+  if (block.type === "footprint") return <FootprintTables />;
+  return <NicheTable guide={guide} />;
 }
 
-function PlanningModuleBlock({ context, module }: { context: PlanningPageContext; module: PlanningModule }) {
-  if (module === "insight") return <PlanningInsight presentation={context.presentation} />;
-  if (module === "sections") return <PlanningSections guide={context.guide} variant={context.presentation.sections} />;
-  if (module === "snapshot") return <GuidePriceSnapshot />;
-  if (module === "footprint") return <FootprintByCapacity />;
-  if (module === "niches") return <NicheFit guide={context.guide} />;
-  if (module === "checks") return <PlanningChecks guide={context.guide} />;
-  return <PlanningSources guide={context.guide} />;
-}
-
-function PlanningInsight({ presentation }: { presentation: PlanningPresentation }) {
-  const { insight } = presentation;
+function PriceTable() {
   return (
-    <section className={`planning-insight planning-insight-${presentation.insight_style} page-shell`} aria-labelledby="planning-insight-title" data-page-module="insight">
-      <div><p className="eyebrow">{insight.kicker}</p><h2 id="planning-insight-title">{insight.title}</h2></div>
-      <div className="planning-insight-reading">
-        {insight.copy.map((paragraph) => <p data-editorial-copy="true" key={paragraph}>{paragraph}</p>)}
-        {insight.points.length > 0 ? <ul>{insight.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}
-      </div>
+    <section data-page-module="prices">
+      <h2>Was die Saunen aktuell kosten</h2>
+      <div className="table-wrap"><table>
+        <thead><tr><th scope="col">Art</th><th scope="col">Angebote</th><th scope="col">Günstigstes</th><th scope="col">Die Hälfte kostet weniger als</th><th scope="col">Teuerstes</th></tr></thead>
+        <tbody>{getPriceSnapshot().map((row) => (
+          <tr key={row.id}><th scope="row">{row.label}</th><td>{row.count}</td><td>{shortPrice(row.minimum)}</td><td>{shortPrice(Math.round(row.median))}</td><td>{shortPrice(row.maximum)}</td></tr>
+        ))}</tbody>
+      </table></div>
     </section>
   );
 }
 
-function PlanningSections({ guide, variant }: { guide: PlanningGuide; variant: PlanningPresentation["sections"] }) {
-  return (
-    <section className={`planning-sections planning-sections-${variant} page-shell`} aria-label="Planungsschritte" data-page-module="sections">
-      {guide.sections.map((section, index) => <PlanningSection section={section} index={index} variant={variant} key={section.title} />)}
-    </section>
-  );
-}
-
-function PlanningSection({ section, index, variant }: {
-  section: PlanningGuide["sections"][number];
-  index: number;
-  variant: PlanningPresentation["sections"];
-}) {
-  const number = `0${index + 1}`;
-  const links = <InlineLinkList className="planning-section-links" lead={section.links_lead} links={section.links} />;
-  if (variant === "technical") return <section className="planning-section planning-section-technical"><header><span>{number}</span><h2>{section.title}</h2></header><div><p data-editorial-copy="true">{section.copy}</p>{links}{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
-  if (variant === "timeline") return <section className="planning-section planning-section-timeline"><span>{number}</span><div><p className="eyebrow">Planungsabschnitt</p><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{links}</div>{section.points.length > 0 ? <ol>{section.points.map((point, pointIndex) => <li key={point}><small>{index + 1}.{pointIndex + 1}</small>{point}</li>)}</ol> : null}</section>;
-  if (variant === "cards") return <article className="planning-section planning-section-card"><span>{number}</span><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{links}{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</article>;
-  if (variant === "ledger") return <section className="planning-section planning-section-ledger"><header><span>{number}</span><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{links}</header>{section.points.length > 0 ? <dl>{section.points.map((point, pointIndex) => <div key={point}><dt>{String(pointIndex + 1).padStart(2, "0")}</dt><dd>{point}</dd></div>)}</dl> : null}</section>;
-  if (variant === "alternating") return <section className="planning-section planning-section-alternating"><div><span>{number}</span><h2>{section.title}</h2></div><div><p data-editorial-copy="true">{section.copy}</p>{links}{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
-  return <section className="planning-section planning-section-staggered"><span>{number}</span><div><h2>{section.title}</h2><p data-editorial-copy="true">{section.copy}</p>{links}{section.points.length > 0 ? <ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul> : null}</div></section>;
-}
-
-function PlanningChecks({ guide }: { guide: PlanningGuide }) {
-  return (
-    <section className="guide-checks page-shell" aria-labelledby="planning-checklist-title" data-page-module="checks">
-      <div><p className="eyebrow">{guide.module_copy.checklist_kicker}</p><h2 id="planning-checklist-title">{guide.module_copy.checklist_title}</h2></div>
-      <ol>{guide.checklist.map((item, index) => <li key={item}><span>0{index + 1}</span><div><p>{item}</p></div></li>)}</ol>
-    </section>
-  );
-}
-
-function PlanningSources({ guide }: { guide: PlanningGuide }) {
-  return (
-    <section className="guide-sources page-shell" aria-labelledby="planning-sources-title" data-page-module="sources">
-      <div><p className="eyebrow">{guide.module_copy.sources_kicker}</p><h2 id="planning-sources-title">{guide.module_copy.sources_title}</h2></div>
-      <div>
-        <ol>{guide.sources.map((source) => (
-          <li key={source.url}>
-            <a className="guide-source-link" href={source.url} target="_blank" rel="noreferrer">
-              <span className="guide-source-title">{source.title}</span>
-              <span className="guide-source-arrow" aria-hidden="true">↗</span>
-            </a>
-          </li>
-        ))}</ol>
-        <p className="safety-box"><strong>Hinweis</strong> {guide.module_copy.source_note}</p>
-      </div>
-    </section>
-  );
-}
-
-function PlanningRelated({ guide, guides, collectionLinks }: { guide: PlanningGuide; guides: PlanningGuide[]; collectionLinks: ContentLink[] }) {
-  return (
-    <aside className="collection-related page-shell" aria-labelledby="related-planning-title" data-page-module="related">
-      <div><p className="eyebrow">{guide.module_copy.related_kicker}</p><h2 id="related-planning-title">{guide.module_copy.related_title}</h2></div>
-      <div className="collection-related-grid">{guides.map((item) => <Link href={`/de/planung/${item.slug}/`} key={item.slug}><small>Planungsseite</small><strong>{item.title}</strong><span>Weiterlesen ↗</span></Link>)}</div>
-      {collectionLinks.length > 0 ? (
-        <div className="related-collection-links">
-          <div><p className="eyebrow">{planningCollectionLinksHeading.kicker}</p><h3>{planningCollectionLinksHeading.title}</h3></div>
-          <div className="collection-related-grid">{collectionLinks.map((link) => <Link href={link.href} key={link.href}><small>Vergleich</small><strong>{link.label}</strong><span>Modelle ansehen ↗</span></Link>)}</div>
-        </div>
-      ) : null}
-    </aside>
-  );
-}
-
-function GuidePriceSnapshot() {
-  return (
-    <section className="price-snapshot page-shell" aria-labelledby="price-snapshot-title" data-page-module="snapshot">
-      <div className="price-snapshot-head"><div><p className="eyebrow">Katalog-Momentaufnahme</p><h2 id="price-snapshot-title">Produktpreise, die wir belegen können.</h2></div><p>Die Preiswerte stammen aus den dokumentierten Angeboten. Montage- und Projektkosten sind nicht enthalten.</p></div>
-      <div className="price-snapshot-grid">{getPriceSnapshot().map((item) => <article key={item.id}><small>{item.label} · {item.count} Preise</small><strong>{formatEuro(item.median)}</strong><span>Median · Spanne {formatEuro(item.minimum)} bis {formatEuro(item.maximum)}</span></article>)}</div>
-    </section>
-  );
-}
-
-function FootprintByCapacity() {
+function FootprintTables() {
   const groups = getFootprintGroups();
-  const modelCount = groups.reduce((sum, group) => sum + group.rows.reduce((rowSum, row) => rowSum + row.count, 0), 0);
   return (
-    <section className="footprint-data page-shell" aria-labelledby="footprint-title" data-page-module="footprint">
-      <div>
-        <p className="eyebrow">Aus {modelCount} geprüften Modellen</p>
-        <h2 id="footprint-title">So viel Stellfläche brauchen Saunen nach Personenzahl</h2>
-        <p data-editorial-copy="true">
-          Die Werte stammen aus den Herstellermaßen aller geprüften Modelle im Katalog: Außenbreite mal Außentiefe, ohne die
-          Wand- und Deckenabstände aus der jeweiligen Montageanleitung. Der typische Wert ist der Median, also das Modell in der
-          Mitte der Spanne. Für den Raumplan zählt am Ende immer die Zeichnung des gewählten Modells.
-        </p>
-      </div>
+    <section data-page-module="footprint">
+      <h2>Stellfläche nach Personenzahl</h2>
       {groups.map((group) => (
-        <div className="footprint-group" key={group.id}>
-          <h3>{group.label}</h3>
-          <div className="collection-table-wrap">
-            <table className="footprint-table">
-              <thead>
-                <tr><th scope="col">Personen</th><th scope="col">Modelle</th><th scope="col">Kleinste Stellfläche</th><th scope="col">Typisch</th><th scope="col">Größte</th><th scope="col">Höhe typisch / max.</th><th scope="col">Alle Modelle</th></tr>
-              </thead>
-              <tbody>
-                {group.rows.map((row) => (
-                  <tr key={row.capacity}>
-                    <th scope="row">{row.capacity}</th>
-                    <td>{row.count}</td>
-                    <td>
-                      {formatSquareMetres(row.smallest.squareMetres)}{" "}
-                      <Link href={`/de/produkte/${row.smallest.product.product_id}/`}>
-                        {row.smallest.product.brand} {row.smallest.product.model} ({row.smallest.product.dimensions_cm.width} × {row.smallest.product.dimensions_cm.depth} cm)
-                      </Link>
-                    </td>
-                    <td>{formatSquareMetres(row.medianSquareMetres)}</td>
-                    <td>{formatSquareMetres(row.largestSquareMetres)}</td>
-                    <td>{Math.round(row.medianHeightCm)} / {Math.round(row.maxHeightCm)} cm</td>
-                    <td><FootprintRowLink link={getFootprintLink(group.id, row.capacity)} /></td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+        <div className="table-wrap" key={group.id}>
+          <table>
+            <caption>{group.label}</caption>
+            <thead><tr><th scope="col">Personen</th><th scope="col">Üblich</th><th scope="col">Größte</th><th scope="col">Höhe</th><th scope="col">Kleinstes Modell</th><th scope="col">Alle ansehen</th></tr></thead>
+            <tbody>{group.rows.map((row) => {
+              const link = getFootprintLink(group.id, row.capacity);
+              const smallest = row.smallest.product;
+              return (
+                <tr key={row.capacity}>
+                  <th scope="row">{row.capacity}</th>
+                  <td>{formatSquareMetres(row.medianSquareMetres)}</td>
+                  <td>{formatSquareMetres(row.largestSquareMetres)}</td>
+                  <td>{Math.round(row.medianHeightCm)} cm</td>
+                  <td><Link href={`/de/produkte/${smallest.product_id}/`}>{smallest.brand} {smallest.model}</Link><small>{smallest.dimensions_cm.width} × {smallest.dimensions_cm.depth} cm, {formatSquareMetres(row.smallest.squareMetres)}</small></td>
+                  <td>{link ? <Link href={link.href}>{link.label}</Link> : "–"}</td>
+                </tr>
+              );
+            })}</tbody>
+          </table>
         </div>
       ))}
     </section>
   );
 }
 
-function NicheFit({ guide }: { guide: PlanningGuide }) {
+function NicheTable({ guide }: { guide: PlanningGuide }) {
   const niches = guide.catalog_niches;
   if (!niches) return null;
-  const rows = getNicheFit(niches.sizes);
   return (
-    <section className="footprint-data page-shell" aria-labelledby="niche-fit-title" data-page-module="niches">
-      <div>
-        <p className="eyebrow">{niches.kicker}</p>
-        <h2 id="niche-fit-title">{niches.title}</h2>
-        {niches.paragraphs.map((paragraph) => <p data-editorial-copy="true" key={paragraph}>{paragraph}</p>)}
-      </div>
-      <div className="collection-table-wrap">
-        <table className="footprint-table">
-          <thead>
-            <tr><th scope="col">Nische (Außenmaß)</th><th scope="col">Modelle</th><th scope="col">Infrarotkabinen</th><th scope="col">Saunen mit Ofen</th><th scope="col">Dampfdusche mit Infrarot</th><th scope="col">230 V laut Hersteller</th><th scope="col">Bis 200 cm hoch</th></tr>
-          </thead>
-          <tbody>
-            {rows.map((row) => (
-              <tr key={`${row.width}x${row.depth}`}>
-                <th scope="row">{row.width} × {row.depth} cm</th>
-                <td>{row.total}</td>
-                <td>{row.infrared}</td>
-                <td>{row.sauna}</td>
-                <td>{row.steamShower}</td>
-                <td>{row.plug230}</td>
-                <td>{row.upTo200cm}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <p className="collection-profile-note">{niches.note}</p>
+    <section data-page-module="niches">
+      <h2>{niches.title}</h2>
+      <div className="text">{niches.paragraphs.map((paragraph) => <p data-editorial-copy="true" key={paragraph}>{paragraph}</p>)}</div>
+      <div className="table-wrap"><table>
+        <thead><tr><th scope="col">Nische</th><th scope="col">Modelle</th><th scope="col">Infrarot</th><th scope="col">Sauna mit Ofen</th><th scope="col">Dampfdusche</th><th scope="col">230 Volt</th><th scope="col">bis 2 m hoch</th></tr></thead>
+        <tbody>{getNicheFit(niches.sizes).map((row) => (
+          <tr key={`${row.width}x${row.depth}`}><th scope="row">{row.width} × {row.depth} cm</th><td>{row.total}</td><td>{row.infrared}</td><td>{row.sauna}</td><td>{row.steamShower}</td><td>{row.plug230}</td><td>{row.upTo200cm}</td></tr>
+        ))}</tbody>
+      </table></div>
     </section>
   );
-}
-
-function FootprintRowLink({ link }: { link?: ContentLink }) {
-  if (!link) return <span aria-hidden="true">–</span>;
-  return <Link href={link.href}>{link.label} vergleichen</Link>;
 }

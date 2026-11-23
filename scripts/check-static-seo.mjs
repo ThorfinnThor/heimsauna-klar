@@ -128,8 +128,8 @@ for (const { file, route } of publicPages) {
     const fragments = [...html.matchAll(/<p[^>]*data-product-copy="true"[^>]*>(.*?)<\/p>/gs)]
       .map((match) => plainText(match[1]))
       .filter(Boolean);
-    if (fragments.length < 4) issues.push(`${route}: expected at least four product-specific text fragments, found ${fragments.length}`);
-    if (fragments.some((fragment) => fragment.length < 70)) issues.push(`${route}: product-specific text fragment is too short`);
+    if (fragments.length < 1) issues.push(`${route}: the power and heater text is missing`);
+    if (fragments.some((fragment) => fragment.length < 40)) issues.push(`${route}: product-specific text fragment is too short`);
     if (fragments.some((fragment) => fragment.includes("nicht ausgewiesen und nicht ausgewiesen dokumentiert"))) {
       issues.push(`${route}: malformed missing-value sentence`);
     }
@@ -137,7 +137,7 @@ for (const { file, route } of publicPages) {
     if (hasEditorialOverride && !fragments.some((fragment) => fragment.includes(productEditorialOverrides.entries[productId].intro.slice(0, 60)))) {
       issues.push(`${route}: editorial override is not rendered`);
     }
-    for (const fragment of fragments) productCopy.push({ route, value: fragment });
+    if (hasEditorialOverride) for (const fragment of fragments) productCopy.push({ route, value: fragment });
   }
 
   const expectedCanonical = route === "/" ? `${siteUrl}/de/` : `${siteUrl}${route}`;

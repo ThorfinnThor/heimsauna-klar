@@ -10,7 +10,7 @@ import "../globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Select Your Sauna — die passende Sauna für dein Zuhause",
+    default: "Select Your Sauna: Saunen für zu Hause im Vergleich",
     template: "%s | Select Your Sauna",
   },
   description:

@@ -4,8 +4,8 @@ import { createUsPageMetadata } from "@/lib/us/seo";
 import { UsCatalog } from "../_components/UsCatalog";
 
 export const metadata = createUsPageMetadata({
-  title: "Home sauna products for the United States",
-  description: "Compare documented US sauna configurations by placement, capacity, dimensions and electrical requirements.",
+  title: "Home saunas: all models",
+  description: "Browse home saunas sold in the US by size, seats, indoor or outdoor use and voltage. Traditional, infrared, cabins and kits.",
   path: "/us/saunas/",
   pageClass: "overview",
   hasPublishedContent: getUsPublicCatalogItems().length > 0,
@@ -15,15 +15,10 @@ export default function UsSaunaCatalogPage() {
   const isResearchPreview = isUsResearchPreview();
   const products = isResearchPreview ? getUsResearchCatalogItems() : getUsPublicCatalogItems();
   return (
-    <>
-      <section className="page-hero page-shell us-catalog-hero">
-        <p className="eyebrow">US sauna product catalog</p>
-        <h1>Compare documented US sauna models.</h1>
-        <p>Dimensions, capacity and electrical requirements come from documented US configurations. Missing specifications remain visible.</p>
-      </section>
-      <section className="page-shell us-catalog-section">
-        <UsCatalog items={products} />
-      </section>
-    </>
+    <div className="wrap page">
+      <h1>Home saunas</h1>
+      <p className="text">{products.length} saunas sold in the US, with size, seats and voltage. If something is missing, the manufacturer doesn&apos;t state it.</p>
+      <UsCatalog items={products} />
+    </div>
   );
 }

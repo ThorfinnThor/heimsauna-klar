@@ -14,7 +14,7 @@ import { UsSaunaFinder } from "../_components/UsSaunaFinder";
 
 export const metadata = createUsPageMetadata({
   title: "US home sauna finder",
-  description: "Compare documented US sauna configurations against capacity, room dimensions, electrical supply and budget requirements.",
+  description: "Find home saunas that fit your room, your electrical panel and your budget.",
   path: "/us/sauna-finder/",
   pageClass: "tool",
 });
@@ -27,15 +27,10 @@ export default function UsSaunaFinderPage() {
   const asOf = process.env.NEXT_PUBLIC_OFFER_POLICY_AS_OF ?? usPublication.updated_at;
 
   return (
-    <>
-      <section className="page-hero page-shell us-finder-hero">
-        <p className="eyebrow">US sauna finder</p>
-        <h1>Check a sauna against your project limits.</h1>
-        <p>Capacity, dimensions, power and budget are checked separately. Unknowns stay visible.</p>
-      </section>
-      <section className="page-shell us-finder-section">
-        <UsSaunaFinder products={products} configurations={configurations} offers={offers} asOf={asOf} />
-      </section>
-    </>
+    <div className="wrap page">
+      <h1>Sauna finder</h1>
+      <p className="text">Tell us how much room and power you have. Leave anything blank that doesn&apos;t matter to you.</p>
+      <UsSaunaFinder products={products} configurations={configurations} offers={offers} asOf={asOf} />
+    </div>
   );
 }

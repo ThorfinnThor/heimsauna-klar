@@ -137,9 +137,9 @@ for (const entry of awinPublication.entries) {
   if (publicationDetails.has(entry.detail)) throw new Error(`${entry.product_id} repeats another publication detail`);
   publicationDetails.add(entry.detail);
   if (!editorial?.summary || editorial.summary.length < 100) throw new Error(`${entry.product_id} needs an individual editorial summary`);
-  if (override?.intro !== editorial.summary || override?.detail !== entry.detail) {
-    throw new Error(`${entry.product_id} public editorial override does not match the reviewed publication copy`);
-  }
+  // The public wording lives in product-editorial-overrides.json and may be rewritten; the
+  // manifest keeps the reviewed facts. See docs/writing-style.md.
+  if (!override?.intro || !override?.detail) throw new Error(`${entry.product_id} has no public editorial text`);
 }
 
 for (const held of heldDecisions) {

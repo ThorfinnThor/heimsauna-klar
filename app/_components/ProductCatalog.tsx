@@ -3,12 +3,15 @@
 import Link from "next/link";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import type { FinderFilters, Product } from "@/lib/products";
-import { findProductsForFinder, formatCapacity, formatPower, formatPrice, formatVoltage, getLowestOffer, matchesProductPlace } from "@/lib/products";
+import { findProductsForFinder, getLowestOffer, matchesProductPlace } from "@/lib/products";
+import { ProductRow } from "./ProductRows";
 
 type CategoryFilter = "all" | "sauna" | "infrared";
 type PlaceFilter = "all" | "indoor" | "outdoor" | "mobile";
 type PowerFilter = "all" | "230" | "400" | "wood" | "not-stated";
 type CapacityFilter = "all" | "1" | "2" | "3-plus";
+const pageSize = 60;
+
 type SortOption = "name" | "price" | "footprint" | "capacity";
 
 const finderValues = {
@@ -51,14 +54,15 @@ function getServerLocationSearch() {
 }
 
 function finderSelectionLabels(filters: FinderFilters) {
-  return [
-    filters.place === "indoor" ? "Innenraum" : filters.place === "outdoor" ? "Garten" : filters.place === "mobile" ? "Mobil" : "Aufstellort offen",
-    filters.people === "flex" ? "Personenzahl offen" : `${filters.people} ${filters.people === "1" ? "Person" : "Personen"}`,
-    filters.footprint === "compact" ? "bis 3 m²" : filters.footprint === "standard" ? "bis 6 m²" : "Fläche offen",
-    filters.power === "unknown" ? "Anschluss offen" : filters.power === "wood" ? "Holzofen" : `${filters.power} V`,
-    filters.budget === "lean" ? "bis 2.500 €" : filters.budget === "mid" ? "bis 6.000 €" : "Budget offen",
-    filters.heat === "traditional" ? "Klassische Sauna" : filters.heat === "infrared" ? "Infrarot" : "Wärmeart offen",
-  ];
+  const labels = [
+    filters.place === "indoor" ? "drinnen" : filters.place === "outdoor" ? "im Garten" : filters.place === "mobile" ? "Zelt oder mobil" : "",
+    filters.people === "flex" ? "" : `${filters.people} ${filters.people === "1" ? "Person" : "Personen"}`,
+    filters.footprint === "compact" ? "bis 3 m²" : filters.footprint === "standard" ? "bis 6 m²" : "",
+    filters.power === "unknown" ? "" : filters.power === "wood" ? "Holzofen" : `${filters.power} Volt`,
+    filters.budget === "lean" ? "bis 2.500 €" : filters.budget === "mid" ? "bis 6.000 €" : "",
+    filters.heat === "traditional" ? "Sauna mit Ofen" : filters.heat === "infrared" ? "Infrarot" : "",
+  ].filter(Boolean);
+  return labels.length > 0 ? labels : ["alles egal"];
 }
 
 function matchesCapacity(product: Product, capacity: CapacityFilter) {
@@ -73,7 +77,8 @@ export function ProductCatalog({ products }: { products: Product[] }) {
   const [place, setPlace] = useState<PlaceFilter>("all");
   const [power, setPower] = useState<PowerFilter>("all");
   const [capacity, setCapacity] = useState<CapacityFilter>("all");
-  const [sort, setSort] = useState<SortOption>("name");
+  const [sort, setSort] = useState<SortOption>("price");
+  const [showAll, setShowAll] = useState(false);
   const locationSearch = useSyncExternalStore(subscribeToLocation, getLocationSearch, getServerLocationSearch);
   const finderFilters = useMemo(() => readFinderFilters(locationSearch), [locationSearch]);
 
@@ -122,19 +127,11 @@ export function ProductCatalog({ products }: { products: Product[] }) {
       });
   }, [capacity, category, finderResult, place, power, products, query, sort]);
 
-  const familyCounts = useMemo(() => products.reduce((counts, product) => {
-    if (!product.family) return counts;
-    counts.set(product.family.id, (counts.get(product.family.id) ?? 0) + 1);
-    return counts;
-  }, new Map<string, number>()), [products]);
-
   const finderDifferenceByProduct = useMemo(() => new Map(
     finderResult?.alternativeMatches.map((match) => [match.product.product_id, match.differences]) ?? [],
   ), [finderResult]);
 
-  const saunaProducts = visibleProducts.filter((product) => product.category !== "infrared");
-  const infraredProducts = visibleProducts.filter((product) => product.category === "infrared");
-  const hasActiveFilters = finderFilters !== null || query !== "" || category !== "all" || place !== "all" || power !== "all" || capacity !== "all" || sort !== "name";
+  const hasActiveFilters = finderFilters !== null || query !== "" || category !== "all" || place !== "all" || power !== "all" || capacity !== "all" || sort !== "price";
 
   const resetFilters = () => {
     setQuery("");
@@ -142,7 +139,7 @@ export function ProductCatalog({ products }: { products: Product[] }) {
     setPlace("all");
     setPower("all");
     setCapacity("all");
-    setSort("name");
+    setSort("price");
     window.history.replaceState(null, "", "/de/produkte/#catalog-results");
     window.dispatchEvent(new Event("catalog-location-change"));
   };
@@ -155,186 +152,75 @@ export function ProductCatalog({ products }: { products: Product[] }) {
     window.dispatchEvent(new Event("catalog-location-change"));
   };
 
+  const shown = showAll ? visibleProducts : visibleProducts.slice(0, pageSize);
+
   return (
-    <section className="catalog-list page-shell" id="catalog-results" aria-label="Verifizierte Produkte">
+    <section id="catalog-results" aria-label="Saunen">
       {finderFilters && finderResult ? (
-        <div className="catalog-finder-summary">
-          <div>
-            <p className="result-kicker">Sauna-Finder</p>
-            <h2>{finderResult.matches.length > 0 ? `${finderResult.matches.length} Treffer` : "Keine genaue Übereinstimmung"}</h2>
-            <p>
-              {finderResult.matches.length > 0
-                ? "Diese Produkte entsprechen den ausgewählten Angaben im aktuellen Katalog. Montageabstände und örtliche Anschlussbedingungen müssen zusätzlich geprüft werden."
-                : `${finderResult.alternativeMatches.length} nächstliegende Produkte werden mit ihren Abweichungen angezeigt. So bleibt sichtbar, welches Kriterium für eine passende Auswahl geändert werden müsste.`}
-            </p>
-          </div>
-          <div className="catalog-finder-selection" aria-label="Gewählte Kriterien">
-            {finderSelectionLabels(finderFilters).map((label) => <span key={label}>{label}</span>)}
-          </div>
-          <div className="catalog-finder-actions">
-            <Link href="/de/#finder">Auswahl ändern</Link>
-            <button type="button" onClick={resetFilters}>Alle Produkte anzeigen</button>
-          </div>
+        <div>
+          <h2>{finderResult.matches.length > 0 ? `${finderResult.matches.length} Saunen passen` : "Genau passend haben wir nichts"}</h2>
+          <ul className="chips" aria-label="Deine Auswahl">{finderSelectionLabels(finderFilters).map((label) => <li key={label}>{label}</li>)}</ul>
+          {finderResult.matches.length === 0 ? <p>Diese {finderResult.alternativeMatches.length} Modelle kommen am nächsten. Bei jedem steht, was abweicht.</p> : null}
           {finderResult.relaxations.length > 0 ? (
-            <div className="catalog-finder-relaxations">
-              <strong>Mehr Treffer mit offenerem Kriterium</strong>
-              <div>
-                {finderResult.relaxations.map((relaxation) => (
-                  <button
-                    key={relaxation.key}
-                    type="button"
-                    onClick={() => applyFinderRelaxation(relaxation.key, relaxation.value)}
-                  >
-                    {relaxation.label} <span>{relaxation.matchCount} Treffer</span>
-                  </button>
-                ))}
-              </div>
-            </div>
+            <p className="actions">
+              {finderResult.relaxations.map((relaxation) => (
+                <button className="btn btn-plain" key={relaxation.key} type="button" onClick={() => applyFinderRelaxation(relaxation.key, relaxation.value)}>
+                  {relaxation.label}: {relaxation.matchCount} Modelle
+                </button>
+              ))}
+            </p>
           ) : null}
+          <p className="actions"><Link href="/de/#finder">Auswahl ändern</Link><button className="linklike" type="button" onClick={resetFilters}>Alle Saunen zeigen</button></p>
         </div>
       ) : null}
-      <div className="catalog-controls">
-        <div className="catalog-control catalog-search">
-          <label htmlFor="catalog-query">Suchbegriff</label>
-          <input
-            id="catalog-query"
-            type="search"
-            placeholder="Hersteller, Modell oder Typ"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-          />
-        </div>
-        <div className="catalog-control">
-          <label htmlFor="catalog-category">Bereich</label>
-          <select
-            id="catalog-category"
-            value={category}
-            onChange={(event) => setCategory(event.target.value as CategoryFilter)}
-          >
-            <option value="all">Alle Bereiche</option>
-            <option value="sauna">Sauna &amp; Bio</option>
-            <option value="infrared">Infrarot</option>
-          </select>
-        </div>
-        <div className="catalog-control">
-          <label htmlFor="catalog-place">Aufstellort</label>
-          <select
-            id="catalog-place"
-            value={place}
-            onChange={(event) => setPlace(event.target.value as PlaceFilter)}
-          >
-            <option value="all">Innen &amp; außen</option>
-            <option value="indoor">Innenraum</option>
-            <option value="outdoor">Garten / außen</option>
-            <option value="mobile">Mobil / Zelt</option>
-          </select>
-        </div>
-        <div className="catalog-control">
-          <label htmlFor="catalog-power">Anschluss</label>
-          <select
-            id="catalog-power"
-            value={power}
-            onChange={(event) => setPower(event.target.value as PowerFilter)}
-          >
-            <option value="all">Alle Anschlussstände</option>
-            <option value="230">230 V ausgewiesen</option>
-            <option value="400">400 V ausgewiesen</option>
-            <option value="wood">Holzofen</option>
-            <option value="not-stated">Nicht ausgewiesen</option>
-          </select>
-        </div>
-        <div className="catalog-control">
-          <label htmlFor="catalog-capacity">Kapazität</label>
-          <select
-            id="catalog-capacity"
-            value={capacity}
-            onChange={(event) => setCapacity(event.target.value as CapacityFilter)}
-          >
-            <option value="all">Alle Größen</option>
-            <option value="1">1 Person</option>
-            <option value="2">2 Personen</option>
-            <option value="3-plus">3+ Personen</option>
-          </select>
-        </div>
-        <div className="catalog-control">
-          <label htmlFor="catalog-sort">Sortierung</label>
-          <select
-            id="catalog-sort"
-            value={sort}
-            onChange={(event) => setSort(event.target.value as SortOption)}
-          >
-            <option value="name">Hersteller &amp; Modell</option>
-            <option value="price">Preis aufsteigend</option>
-            <option value="footprint">Stellfläche aufsteigend</option>
-            <option value="capacity">Kapazität absteigend</option>
-          </select>
+
+      <div className="filters">
+        <div className="fields fields-5">
+          <label>Suche
+            <input type="search" placeholder="Marke oder Modell" value={query} onChange={(event) => setQuery(event.target.value)} />
+          </label>
+          <label>Art
+            <select value={category} onChange={(event) => setCategory(event.target.value as CategoryFilter)}>
+              <option value="all">alle</option><option value="sauna">Sauna</option><option value="infrared">Infrarot</option>
+            </select>
+          </label>
+          <label>Ort
+            <select value={place} onChange={(event) => setPlace(event.target.value as PlaceFilter)}>
+              <option value="all">alle</option><option value="indoor">drinnen</option><option value="outdoor">Garten</option><option value="mobile">mobil</option>
+            </select>
+          </label>
+          <label>Strom
+            <select value={power} onChange={(event) => setPower(event.target.value as PowerFilter)}>
+              <option value="all">alle</option><option value="230">230 Volt</option><option value="400">400 Volt</option><option value="wood">Holzofen</option><option value="not-stated">nicht angegeben</option>
+            </select>
+          </label>
+          <label>Personen
+            <select value={capacity} onChange={(event) => setCapacity(event.target.value as CapacityFilter)}>
+              <option value="all">alle</option><option value="1">1</option><option value="2">2</option><option value="3-plus">3 und mehr</option>
+            </select>
+          </label>
+          <label>Sortieren
+            <select value={sort} onChange={(event) => setSort(event.target.value as SortOption)}>
+              <option value="price">Preis</option><option value="footprint">Größe</option><option value="capacity">Personen</option><option value="name">Name</option>
+            </select>
+          </label>
         </div>
       </div>
 
-      <div className="catalog-results-summary">
-        <p aria-live="polite"><strong>{visibleProducts.length}</strong> von {products.length} Produkten</p>
-        {hasActiveFilters && <button type="button" onClick={resetFilters}>Filter zurücksetzen</button>}
+      <div className="result-count">
+        <p aria-live="polite">{visibleProducts.length} {visibleProducts.length === 1 ? "Modell" : "Modelle"}</p>
+        {hasActiveFilters ? <button className="linklike" type="button" onClick={resetFilters}>Filter zurücksetzen</button> : null}
       </div>
 
       {visibleProducts.length > 0 ? (
         <>
-          <ProductGroup id="sauna-bio" title="Sauna & Bio" products={saunaProducts} offset={0} familyCounts={familyCounts} finderDifferenceByProduct={finderDifferenceByProduct} />
-          <ProductGroup id="infrarotkabinen" title="Infrarotkabinen" products={infraredProducts} offset={saunaProducts.length} familyCounts={familyCounts} finderDifferenceByProduct={finderDifferenceByProduct} />
+          <ul className="plist">{shown.map((product) => {
+            const differences = finderDifferenceByProduct.get(product.product_id);
+            return <ProductRow product={product} note={differences?.length ? `Weicht ab: ${differences.join(", ")}` : undefined} key={product.product_id} />;
+          })}</ul>
+          {shown.length < visibleProducts.length ? <p><button className="btn btn-plain" type="button" onClick={() => setShowAll(true)}>Alle {visibleProducts.length} Modelle zeigen</button></p> : null}
         </>
-      ) : (
-        <div className="catalog-empty">
-          <h2>Keine passenden Produkte</h2>
-          <p>Ändere die Filter oder setze sie zurück, um weitere Produkte anzuzeigen.</p>
-          <button type="button" onClick={resetFilters}>Alle Produkte anzeigen</button>
-        </div>
-      )}
-    </section>
-  );
-}
-
-function ProductGroup({ id, title, products, offset, familyCounts, finderDifferenceByProduct }: {
-  id: string;
-  title: string;
-  products: Product[];
-  offset: number;
-  familyCounts: Map<string, number>;
-  finderDifferenceByProduct: Map<string, string[]>;
-}) {
-  if (products.length === 0) return null;
-
-  return (
-    <section className="catalog-group" aria-labelledby={`group-${id}`}>
-      <div className="catalog-group-head">
-        <h2 id={`group-${id}`}>{title}</h2>
-        <span>{products.length} {products.length === 1 ? "Produkt" : "Produkte"}</span>
-      </div>
-      {products.map((product, index) => (
-        <article className="catalog-row" key={product.product_id}>
-          <span className="catalog-index">{String(offset + index + 1).padStart(2, "0")}</span>
-          <div>
-            <p className="type-label">{product.brand} · {product.sauna.type}</p>
-            <h3>{product.model}</h3>
-            {product.family && (
-              <p className="catalog-family-note">
-                Produktreihe {product.family.name} · Ausführung {product.family.variant} · {familyCounts.get(product.family.id)} Varianten
-              </p>
-            )}
-            <p>{product.editorial.disclosure}</p>
-            {finderDifferenceByProduct.get(product.product_id)?.length ? (
-              <p className="catalog-finder-difference">
-                <strong>Abweichung zur Auswahl:</strong> {finderDifferenceByProduct.get(product.product_id)?.join(" · ")}
-              </p>
-            ) : null}
-          </div>
-          <dl>
-            <div><dt>Maße</dt><dd>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm</dd></div>
-            <div><dt>Strom</dt><dd>{formatVoltage(product.power.voltage)}{product.power.kw ? ` · ${formatPower(product.power.kw)}` : ""}</dd></div>
-            <div><dt>Kapazität</dt><dd>{formatCapacity(product)}</dd></div>
-            <div><dt>Preisstatus</dt><dd>{formatPrice(product)}</dd></div>
-          </dl>
-          <Link className="catalog-row-link" href={`/de/produkte/${product.product_id}/`}>Produkt ansehen <span aria-hidden="true">↗</span></Link>
-        </article>
-      ))}
+      ) : <p>Dazu haben wir nichts gefunden. Nimm einen Filter heraus, dann klappt es meistens.</p>}
     </section>
   );
 }

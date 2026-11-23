@@ -1,117 +1,48 @@
 import Link from "next/link";
+import { Breadcrumbs } from "@/app/_components/Blocks";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
 import guide from "@/content/de/guides/230-v-sauna.json";
-import { products } from "@/lib/products";
 import { createPageMetadata } from "@/lib/metadata";
+import { formatGermanDate, products } from "@/lib/products";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 
-export const metadata = createPageMetadata({
-  title: "230-V-Sauna mit Anschluss, Leistung und Grenzen erklärt",
-  description: guide.description,
-  path: "/de/saunatechnik/230-v-sauna/",
-  type: "article",
-});
+const path = "/de/saunatechnik/230-v-sauna/";
 
-export default function GuidePage() {
-  const matchingProducts = products.filter((product) => product.power.voltage === 230);
-  const brandRepresentatives = matchingProducts.filter((product, index, list) => (
-    list.findIndex((candidate) => candidate.brand === product.brand) === index
-  ));
-  const previewProducts = [...brandRepresentatives, ...matchingProducts]
-    .filter((product, index, list) => list.findIndex((candidate) => candidate.product_id === product.product_id) === index)
-    .slice(0, 12);
+export const metadata = createPageMetadata({ title: guide.title, description: guide.description, path, type: "article" });
 
+export default function PlugInSaunaPage() {
+  const count = products.filter((product) => product.power.voltage === 230).length;
   return (
     <main>
-      <StructuredData data={articleJsonLd({
-        title: "230-V-Sauna mit Anschluss, Leistung und Grenzen",
-        description: guide.description,
-        path: "/de/saunatechnik/230-v-sauna/",
-        updatedAt: guide.updated_at,
-        sources: guide.sources.map((source) => source.url),
-      })} />
-      <StructuredData data={breadcrumbJsonLd([
-        { name: "Start", path: "/de/" },
-        { name: "Planung", path: "/de/planung/" },
-        { name: "230-V-Sauna", path: "/de/saunatechnik/230-v-sauna/" },
-      ])} />
+      <StructuredData data={articleJsonLd({ title: guide.title, description: guide.description, path, updatedAt: guide.updated_at, sources: guide.sources.map((source) => source.url) })} />
+      <StructuredData data={breadcrumbJsonLd([{ name: "Start", path: "/de/" }, { name: "Ratgeber", path: "/de/planung/" }, { name: guide.title, path }])} />
       <SiteHeader />
-      <article>
-        <header className="guide-hero page-shell">
-          <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
-            <Link href="/de/">Start</Link><span>/</span><Link href="/de/planung/">Planung</Link><span>/</span><span>230-V-Sauna</span>
-          </nav>
-          <p className="eyebrow">Saunatechnik</p>
-          <h1>230 V bei der Sauna einordnen</h1>
-          <p>{guide.description}</p>
-          <div className="quick-answer"><strong>Kurzantwort</strong><p>{guide.quick_answer}</p></div>
-          <div className="guide-path-links" aria-label="Passende Inhalte"><Link className="button button-primary" href="/de/vergleiche/230-v-sauna/">230-V-Modelle vergleichen ↗</Link><Link className="text-link" href="/de/planung/platzbedarf/">Platzbedarf berechnen ↗</Link></div>
-        </header>
-
-        <section className="guide-checks page-shell" aria-labelledby="checks-title">
-          <div><p className="eyebrow">Vier getrennte technische Fragen</p><h2 id="checks-title">Was die Angabe 230 V offenlässt.</h2></div>
-          <ol>
-            {guide.checks.map((item, index) => (
-              <li key={item.title}><span>0{index + 1}</span><div><h3>{item.title}</h3><p>{item.copy}</p></div></li>
-            ))}
-          </ol>
+      <article className="wrap page">
+        <Breadcrumbs items={[{ label: "Start", href: "/de/" }, { label: "Ratgeber", href: "/de/planung/" }, { label: guide.title }]} />
+        <h1>{guide.title}</h1>
+        <p className="updated">Aktualisiert am {formatGermanDate(guide.updated_at)}</p>
+        <div className="text">
+          {guide.intro.map((paragraph) => <p className="lead" key={paragraph}>{paragraph}</p>)}
+          <p><Link className="btn" href="/de/vergleiche/230-v-sauna/">{count} Saunen für 230 Volt ansehen</Link></p>
+        </div>
+        {guide.sections.map((section) => (
+          <section className="text" key={section.heading}>
+            <h2>{section.heading}</h2>
+            {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          </section>
+        ))}
+        <section className="text">
+          <h2>Im Vergleich mit 400 Volt</h2>
+          <div className="table-wrap"><table>
+            <thead><tr><th scope="col"></th><th scope="col">230 Volt</th><th scope="col">400 Volt</th></tr></thead>
+            <tbody>{guide.comparison.map((row) => <tr key={row.label}><th scope="row">{row.label}</th><td>{row.v230}</td><td>{row.v400}</td></tr>)}</tbody>
+          </table></div>
+          <p>Mehr dazu: <Link href="/de/planung/230-v-vs-400-v-sauna/">230 V oder 400 V für die Sauna?</Link>, <Link href="/de/planung/saunagroesse-3-6-kw/">Wie groß darf eine Sauna mit 3,6 kW sein?</Link>, <Link href="/de/planung/temperatur-3-6-kw-sauna/">Wie heiß wird sie?</Link></p>
         </section>
-
-        <section className="voltage-comparison page-shell" aria-labelledby="comparison-heading">
-          <div>
-            <p className="eyebrow">Orientierung, keine Installationsanleitung</p>
-            <h2 id="comparison-heading">230 V und 400 V im Planungsprozess.</h2>
-          </div>
-          <table className="comparison-table">
-            <caption className="visually-hidden">Planungsvergleich 230 Volt und 400 Volt</caption>
-            <thead>
-              <tr className="comparison-table-head">
-                <th scope="col">Kriterium</th><th scope="col">230 V</th><th scope="col">400 V</th>
-              </tr>
-            </thead>
-            <tbody>
-              {guide.comparison.map((row) => (
-                <tr className="comparison-table-row" key={row.label}>
-                  <th scope="row">{row.label}</th><td>{row.v230}</td><td>{row.v400}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </section>
-
-        <section className="matching-products page-shell" aria-labelledby="matching-title">
-          <div>
-            <p className="eyebrow">Im aktuellen Katalog</p>
-            <h2 id="matching-title">Verifizierte 230-V-Produkte.</h2>
-            <p>Die Vorschau verteilt sich auf verschiedene Marken und ist auf zwölf Modelle begrenzt. Auf der Vergleichsseite stehen alle {matchingProducts.length} Produkte mit dokumentierten Maßen, Anschlussdaten und Preisständen.</p>
-          </div>
-          <div className="matching-product-links">
-            {previewProducts.map((product) => (
-              <Link href={`/de/produkte/${product.product_id}/`} key={product.product_id}>
-                <small>{product.brand} · {product.sauna.type}</small>
-                <strong>{product.model}</strong>
-                <span>{product.dimensions_cm.width} × {product.dimensions_cm.depth} × {product.dimensions_cm.height} cm ↗</span>
-              </Link>
-            ))}
-            <Link className="matching-product-more" href="/de/vergleiche/230-v-sauna/">Alle {matchingProducts.length} 230-V-Produkte vergleichen <span aria-hidden="true">↗</span></Link>
-          </div>
-        </section>
-
-        <section className="guide-sources page-shell">
-          <div><p className="eyebrow">Quellen</p><h2>Technische Angaben und ihre Herkunft.</h2></div>
-          <ol>
-            {guide.sources.map((source) => (
-              <li key={source.url}>
-                <a className="guide-source-link guide-source-link-attributed" href={source.url} target="_blank" rel="noreferrer">
-                  <span className="guide-source-publisher">{source.publisher}</span>
-                  <span className="guide-source-title">{source.title}</span>
-                  <span className="guide-source-arrow" aria-hidden="true">↗</span>
-                </a>
-              </li>
-            ))}
-          </ol>
-          <p className="safety-box"><strong>Hinweis</strong> Diese Seite ersetzt weder die Herstelleranleitung noch die Prüfung durch eine Elektrofachkraft. Maßgeblich sind das konkrete Produkt, der vorhandene Stromkreis und die örtlichen Bedingungen.</p>
+        <section className="text sources">
+          <h2>Quellen</h2>
+          <ul>{guide.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul>
         </section>
       </article>
       <SiteFooter />

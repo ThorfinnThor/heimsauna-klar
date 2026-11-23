@@ -8,23 +8,23 @@
       "slug": "contact",
       "publication_status": "published",
       "title": "Contact Select Your Sauna",
-      "description": "Contact Select Your Sauna about a source, product record or correction.",
+      "description": "How to reach Select Your Sauna about a mistake, a missing spec or a question.",
       "eyebrow": "Contact",
-      "heading": "Questions and corrections",
+      "heading": "Contact",
       "introduction": [
-        "Please include the page address and the specific product or statement when writing about a correction. That makes it possible to check the underlying source record directly."
+        "Found a mistake? Send us the page address and what's wrong, ideally with a link to the right information."
       ],
       "sections": [
         {
           "id": "editorial-contact",
-          "heading": "Editorial contact",
+          "heading": "Email",
           "paragraphs": [
-            "Questions about the documentation method, product specifications or source links can be sent by email. Select Your Sauna does not provide electrical, structural or code approval for an installation."
+            "Write to us about specs, prices or sources. We can't sign off on wiring, structure or building code. Please ask a local professional for that."
           ]
         },
         {
           "id": "operator",
-          "heading": "Site operator",
+          "heading": "Who runs the site",
           "paragraphs": [
             "Select Your Sauna is operated by SeitenHafen361, Schayan Yousefian, Freienwalder Str. 34, 13359 Berlin, Germany."
           ]
@@ -36,40 +36,40 @@
       "id": "methodology",
       "slug": "methodology",
       "publication_status": "published",
-      "title": "How Select Your Sauna documents products",
-      "description": "The source, matching and limitation rules used for the US comparison section.",
-      "eyebrow": "Methodology",
-      "heading": "What a documented sauna result means",
+      "title": "How we compare saunas",
+      "description": "Where our sauna specs come from, what we do when a value is missing, and what we don't do.",
+      "eyebrow": "How we compare",
+      "heading": "How we compare saunas",
       "introduction": [
-        "Select Your Sauna organizes model-specific information so that dimensions, seating, placement and electrical details stay attached to the exact configuration they describe. The US section is an evidence-led comparison service, not a hands-on test, installation approval or checkout service."
+        "We collect specs, put them side by side and let you filter them. We don't test saunas and we don't sell them."
       ],
       "sections": [
         {
           "id": "source-hierarchy",
-          "heading": "Primary sources come first",
+          "heading": "Where the specs come from",
           "paragraphs": [
-            "Manufacturer product pages, manuals and specification sheets are used for core product facts. Retailer and affiliate pages can help identify an offer, but they do not replace a manufacturer source for a technical claim. Each documented value keeps a reference to the source record used for it."
+            "Product pages, manuals and spec sheets from the manufacturers. Shops can tell us a price, but we don't use them for technical specs. Every product page links its sources."
           ]
         },
         {
           "id": "configuration-identity",
-          "heading": "A model family is not one universal specification",
+          "heading": "Every size counts separately",
           "paragraphs": [
-            "Size, placement, heat type, capacity and electrical requirements are checked at configuration level. A value from one size or package is not copied to another. When the sources disagree or leave a field open, the site keeps that uncertainty visible instead of turning it into a positive match."
+            "A two-person and a four-person version of the same sauna often need different circuits, so we never copy a value from one to the other. If sources disagree or a value is missing, we say so."
           ]
         },
         {
           "id": "decision-boundaries",
-          "heading": "The finder narrows a search; it does not approve an installation",
+          "heading": "What the finder can and can't do",
           "paragraphs": [
-            "A result means that the selected facts are documented or that a remaining question is shown for verification. Exterior dimensions do not include every required clearance, door swing, service area, route or local code condition. Electrical information should be checked against the instructions for the exact configuration and local requirements."
+            "It narrows the list. It can't tell you whether a sauna is allowed or safe in your home. Clearances, door swing, wiring and local code are up to the manual and your contractor."
           ]
         },
         {
           "id": "updates-and-corrections",
-          "heading": "Corrections are welcome",
+          "heading": "Corrections",
           "paragraphs": [
-            "If a source changes or a product record contains an error, please send the page address, the affected statement and the supporting source to info@selectyoursauna.com. The record can then be reviewed against the same source rules."
+            "If something is out of date, write to info@selectyoursauna.com with the page and the correct source. We'll check and fix it."
           ]
         }
       ],
@@ -79,33 +79,33 @@
       "id": "affiliate-disclosure",
       "slug": "affiliate-disclosure",
       "publication_status": "published",
-      "title": "Affiliate disclosure for Select Your Sauna",
-      "description": "How marked affiliate links, product selection and merchant relationships are handled in the US section.",
+      "title": "Affiliate disclosure",
+      "description": "Which links earn us a commission, how they are marked, and why they don't change the order of saunas.",
       "eyebrow": "Affiliate disclosure",
-      "heading": "How merchant links fit into these comparisons",
+      "heading": "Affiliate links",
       "introduction": [
-        "Some US product offers use Awin affiliate links. A qualifying action after a clearly marked click may result in a commission for SeitenHafen361, without changing the price shown by the merchant."
+        "Some shop links on this site are affiliate links through Awin. If you buy after clicking one, SeitenHafen361 may get a commission. You pay the same price."
       ],
       "sections": [
         {
           "id": "labeling",
-          "heading": "A marked link is the point of attribution",
+          "heading": "How to spot them",
           "paragraphs": [
-            "A link labelled Affiliate link opens the Awin redirect and then the merchant's product page. No tracking request is loaded in the background."
+            "They say \"Affiliate link\" right under the button. Clicking one takes you through Awin to the shop. Nothing loads in the background before you click."
           ]
         },
         {
           "id": "editorial-independence",
-          "heading": "Commission does not set the comparison result",
+          "heading": "They don't change the order",
           "paragraphs": [
-            "Product inclusion, comparison scope and Finder logic follow the documented product and configuration records. There are no paid rankings or first-hand testing claims."
+            "Which saunas we list, how they're sorted and what the finder shows has nothing to do with commission. Nobody pays to be ranked."
           ]
         },
         {
           "id": "scope-and-status",
-          "heading": "Offers remain configuration-specific",
+          "heading": "Prices",
           "paragraphs": [
-            "Prices, availability and included components are checked for the exact offer. The merchant's current product page and terms govern the purchase."
+            "We check offers for the exact model. The price and terms on the shop's page are the ones that count."
           ]
         }
       ],

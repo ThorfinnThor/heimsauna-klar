@@ -341,8 +341,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 12,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 10,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -357,8 +357,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 12,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 11,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -373,8 +373,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 12,
+        "editorial_point_count": 11,
+        "unique_editorial_point_count": 10,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -389,8 +389,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 13,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -405,8 +405,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 12,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 11,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -421,8 +421,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 12,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 11,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -437,8 +437,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 13,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -513,17 +513,17 @@
     {
       "product_id": "dewello-kenora-130",
       "decision": "noindex",
-      "automatic_decision": "index",
+      "automatic_decision": "noindex",
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 3,
         "frequent_editorial_point_count": 9,
-        "frequent_editorial_share": 0.5625
+        "frequent_editorial_share": 0.6429
       },
       "reasons": [
-        "index-concentration"
+        "insufficient-distinct-evidence"
       ]
     },
     {
@@ -533,10 +533,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 7,
+        "editorial_point_count": 14,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.5333
+        "frequent_editorial_share": 0.5714
       },
       "reasons": [
         "index-concentration"
@@ -565,10 +565,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 9,
-        "frequent_editorial_share": 0.6
+        "frequent_editorial_share": 0.5625
       },
       "reasons": [
         "index-concentration"
@@ -597,10 +597,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 9,
-        "frequent_editorial_share": 0.5625
+        "frequent_editorial_share": 0.6
       },
       "reasons": [
         "index-concentration"
@@ -645,8 +645,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 13,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -694,10 +694,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 9,
-        "frequent_editorial_share": 0.5625
+        "frequent_editorial_share": 0.6
       },
       "reasons": [
         "index-concentration"
@@ -922,8 +922,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 13,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -938,8 +938,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 13,
-        "unique_editorial_point_count": 13,
+        "editorial_point_count": 12,
+        "unique_editorial_point_count": 12,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -1178,10 +1178,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.4375
+        "frequent_editorial_share": 0.4118
       },
       "reasons": [
         "index-concentration"
@@ -1226,10 +1226,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 17,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 6,
-        "frequent_editorial_share": 0.3529
+        "frequent_editorial_share": 0.375
       },
       "reasons": [
         "index-concentration"
@@ -1242,10 +1242,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 17,
-        "unique_editorial_point_count": 7,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 3,
-        "frequent_editorial_share": 0.1765
+        "frequent_editorial_share": 0.1875
       },
       "reasons": [
         "index-concentration"
@@ -1274,10 +1274,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 6,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 6,
-        "frequent_editorial_share": 0.375
+        "frequent_editorial_share": 0.4
       },
       "reasons": [
         "index-concentration"
@@ -3044,10 +3044,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 5,
-        "frequent_editorial_share": 0.3333
+        "frequent_editorial_share": 0.3125
       },
       "reasons": [
         "index-concentration"
@@ -3611,10 +3611,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.5333
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "index-concentration"
@@ -4924,10 +4924,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.5333
+        "frequent_editorial_share": 0.4706
       },
       "reasons": [
         "index-concentration"
@@ -4940,10 +4940,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 3,
-        "frequent_editorial_share": 0.2
+        "frequent_editorial_share": 0.1875
       },
       "reasons": [
         "index-concentration"
@@ -5004,10 +5004,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 7,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.5
+        "frequent_editorial_share": 0.4118
       },
       "reasons": [
         "index-concentration"
@@ -5052,10 +5052,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.5333
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "index-concentration"
@@ -5084,10 +5084,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 3,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.5714
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "index-concentration"
@@ -5148,10 +5148,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.5333
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "index-concentration"
@@ -5180,10 +5180,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 4,
-        "frequent_editorial_share": 0.2857
+        "frequent_editorial_share": 0.25
       },
       "reasons": [
         "index-concentration"
@@ -5196,10 +5196,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 4,
-        "frequent_editorial_share": 0.2667
+        "frequent_editorial_share": 0.25
       },
       "reasons": [
         "index-concentration"
@@ -5212,10 +5212,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.4667
+        "frequent_editorial_share": 0.4375
       },
       "reasons": [
         "index-concentration"
@@ -5276,10 +5276,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 3,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.5714
+        "frequent_editorial_share": 0.5333
       },
       "reasons": [
         "index-concentration"
@@ -5292,10 +5292,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 6,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.5333
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "index-concentration"
@@ -5308,10 +5308,10 @@
       "signals": {
         "current_offer_count": 2,
         "published_source_count": 3,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 11,
-        "frequent_editorial_share": 0.6875
+        "frequent_editorial_share": 0.6471
       },
       "reasons": [
         "index-concentration"
@@ -5340,10 +5340,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
+        "editorial_point_count": 16,
         "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.4667
+        "frequent_editorial_share": 0.4375
       },
       "reasons": [
         "index-concentration"
@@ -5372,10 +5372,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 5,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 4,
-        "frequent_editorial_share": 0.2667
+        "frequent_editorial_share": 0.25
       },
       "reasons": [
         "index-concentration"
@@ -5404,10 +5404,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
+        "editorial_point_count": 16,
         "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.5333
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "index-concentration"
@@ -5644,10 +5644,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 14,
-        "unique_editorial_point_count": 3,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 8,
-        "frequent_editorial_share": 0.5714
+        "frequent_editorial_share": 0.5
       },
       "reasons": [
         "index-concentration"
@@ -5676,10 +5676,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 7,
-        "frequent_editorial_share": 0.4667
+        "frequent_editorial_share": 0.4375
       },
       "reasons": [
         "index-concentration"
@@ -5757,7 +5757,7 @@
         "current_offer_count": 1,
         "published_source_count": 2,
         "editorial_point_count": 15,
-        "unique_editorial_point_count": 4,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 8,
         "frequent_editorial_share": 0.5333
       },
@@ -5772,10 +5772,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
+        "editorial_point_count": 16,
         "unique_editorial_point_count": 4,
         "frequent_editorial_point_count": 5,
-        "frequent_editorial_share": 0.3333
+        "frequent_editorial_share": 0.3125
       },
       "reasons": [
         "index-concentration"
@@ -5951,10 +5951,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 2,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 5,
-        "frequent_editorial_share": 0.3333
+        "frequent_editorial_share": 0.3125
       },
       "reasons": [
         "index-concentration"
@@ -6083,10 +6083,10 @@
       "signals": {
         "current_offer_count": 2,
         "published_source_count": 2,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 5,
-        "frequent_editorial_share": 0.3125
+        "frequent_editorial_share": 0.2941
       },
       "reasons": [
         "index-concentration"
@@ -6231,10 +6231,10 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 4,
+        "editorial_point_count": 17,
+        "unique_editorial_point_count": 5,
         "frequent_editorial_point_count": 9,
-        "frequent_editorial_share": 0.5625
+        "frequent_editorial_share": 0.5294
       },
       "reasons": [
         "index-concentration"
@@ -8179,8 +8179,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 16,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 15,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -8227,8 +8227,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 16,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 15,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -8339,8 +8339,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 16,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 15,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -8355,8 +8355,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 16,
-        "unique_editorial_point_count": 15,
+        "editorial_point_count": 15,
+        "unique_editorial_point_count": 14,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -8371,8 +8371,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 13,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 14,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },
@@ -8419,8 +8419,8 @@
       "signals": {
         "current_offer_count": 1,
         "published_source_count": 1,
-        "editorial_point_count": 15,
-        "unique_editorial_point_count": 14,
+        "editorial_point_count": 16,
+        "unique_editorial_point_count": 15,
         "frequent_editorial_point_count": 0,
         "frequent_editorial_share": 0
       },

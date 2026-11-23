@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return createUsPageMetadata({
     title: `${product.brand_name} ${product.model}`,
     description: editorial?.summary
-      ?? `Documented US configuration details, dimensions and electrical requirements for the ${product.brand_name} ${product.model}.`,
+      ?? `${product.brand_name} ${product.model}: size, seats, power and materials from the manufacturer.`,
     path: `/us/saunas/${product.slug}/`,
     pageClass: "detail",
     publicationStatus: product.publication_status,
@@ -52,18 +52,21 @@ function measurement(value: UsMeasurement) {
 }
 
 function dimensions(value: UsDimensions) {
-  return `${measurement(value.width)} × ${measurement(value.depth)} × ${measurement(value.height)}`;
+  return `${measurement(value.width)} × ${measurement(value.depth)} × ${measurement(value.height)}`.replace(/ in(?= ×)/g, "");
 }
 
 function offerPrice(amountMinor: number) {
   return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(amountMinor / 100);
 }
 
-function FactValue<T>({ fact, format = String }: { fact: UsFact<T>; format?: (value: T) => string }) {
-  if (fact.status === "documented") return <span>{format(fact.value)}</span>;
-  if (fact.status === "conflict") return <span className="us-fact-open">Conflicting sources <small>{fact.note}</small></span>;
-  return <span className="us-fact-open">Not documented <small>{fact.reason}</small></span>;
+// Only facts the manufacturer states become table rows.
+function factRow<T>(label: string, fact: UsFact<T>, format: (value: T) => string = String) {
+  if (fact.status === "documented") return [{ label, value: format(fact.value) }];
+  if (fact.status === "conflict") return [{ label, value: "The manufacturer gives two different values." }];
+  return [];
 }
+
+const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
 
 export default async function UsSaunaProductPage({ params }: Props) {
   const { slug } = await params;
@@ -83,147 +86,83 @@ export default async function UsSaunaProductPage({ params }: Props) {
   const placement = product.placements.status === "documented" ? product.placements.value.join(" and ") : null;
   const capacity = configuration.capacity.seated.status === "documented" ? configuration.capacity.seated.value : null;
 
+  const rows = [
+    ...factRow("Seats", configuration.capacity.seated),
+    ...factRow("Outside (W × D × H)", configuration.dimensions.exterior, dimensions),
+    ...factRow("Inside (W × D × H)", configuration.dimensions.interior, dimensions),
+    ...factRow("Wood and materials", configuration.materials, (value) => value.join(", ")),
+    ...factRow("Weight", configuration.net_weight, (value) => `${value.value} ${value.unit}`),
+    ...factRow("Clearances", configuration.dimensions.minimum_clearances, (value) => Object.entries(value).map(([side, size]) => `${side} ${measurement(size)}`).join(", ")),
+    ...factRow("Shipping size", configuration.dimensions.shipping, dimensions),
+    ...factRow("Model number", configuration.manufacturer_sku),
+  ];
+  const power = configuration.electrical_supply_options.map((option) => option.requirements.flatMap((requirement) => [
+    ...factRow("Voltage", requirement.voltage_v, (value) => `${value} V`),
+    ...factRow("Power", requirement.rated_power_w, (value) => `${value.toLocaleString("en-US")} W`),
+    ...factRow("Circuit", requirement.required_circuit_a, (value) => `${value} A`),
+    ...factRow("Dedicated circuit", requirement.dedicated_circuit, (value) => value ? "required" : "not required"),
+    ...factRow("Connection", requirement.connection),
+    ...factRow("Plug", requirement.plug_type),
+  ])).filter((option) => option.length > 0);
+
   return (
-    <article className="page-shell us-product-page">
-        {!isResearchPreview ? (
-          <>
-            <StructuredData data={usProductJsonLd(product, configuration)} />
-            <StructuredData data={usBreadcrumbJsonLd([
-              { name: "US home", path: "/us/" },
-              { name: "Saunas", path: "/us/saunas/" },
-              { name: `${product.brand_name} ${product.model}`, path: `/us/saunas/${product.slug}/` },
-            ])} />
-          </>
-        ) : null}
-        <nav className="us-breadcrumbs" aria-label="Breadcrumb">
-          <Link href="/us/">US home</Link><span>/</span><Link href="/us/saunas/">Saunas</Link><span>/</span><span>{product.model}</span>
-        </nav>
-        <header className="us-product-hero">
-          <div>
-            <p className="eyebrow">{product.brand_name} · US configuration</p>
-            <h1>{product.model}</h1>
-            <p>{editorial?.summary ?? (
-              <>This product record describes {product.form.status === "documented" ? product.form.value.toLowerCase() : "a sauna configuration"}
-                {placement ? ` for ${placement} placement` : ""}{capacity ? ` with documented seating for ${capacity}` : ""}.
-                Unknown specifications remain open rather than being inferred from a related model.</>
-            )}</p>
-          </div>
-          <aside>
-            {offerPresentations.length > 0 ? (
-              <>
-                <p>{offerPresentations.length === 1 ? "Offer status" : `${offerPresentations.length} offer statuses`}</p>
-                <div className="us-affiliate-offers">
-                  {offerPresentations.map(({ offer, merchant, link, priceVisible, statusLabel }) => (
-                    <div key={offer.id}>
-                      <strong>{merchant?.name ?? "Merchant under review"}</strong>
-                      {priceVisible && offer.price ? <span>{offer.offer_type === "from-price" ? "From " : ""}{offerPrice(offer.price.amount_minor)}</span> : <span>{statusLabel}</span>}
-                      {link ? <a href={link.href} rel={link.rel} target={link.target}>View offer <span aria-hidden="true">↗</span></a> : null}
-                      {link ? <small>Affiliate link</small> : null}
-                    </div>
-                  ))}
-                </div>
-              </>
-            ) : (
-              <>
-                <p>Offer status</p>
-                <strong>No reviewed offer</strong>
-                <span>No merchant or affiliate link is attached to this exact configuration.</span>
-              </>
-            )}
-          </aside>
-        </header>
-
-        {editorial ? (
-          <section className="us-product-editorial" aria-labelledby="editorial-title">
-            <header>
-              <p className="eyebrow">{editorial.eyebrow}</p>
-              <h2 id="editorial-title">{editorial.heading}</h2>
-              {editorial.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-            </header>
-            <div className="us-product-editorial-grid">
-              <div>
-                <p className="eyebrow">What the record helps compare</p>
-                <ul>
-                  {editorial.decision_points.map((point) => <li key={point}>{point}</li>)}
-                </ul>
-              </div>
-              <aside>
-                <p className="eyebrow">Open points</p>
-                {editorial.limitations.map((limitation) => <p key={limitation}>{limitation}</p>)}
-              </aside>
+    <article className="wrap page">
+      {!isResearchPreview ? (
+        <>
+          <StructuredData data={usProductJsonLd(product, configuration)} />
+          <StructuredData data={usBreadcrumbJsonLd([
+            { name: "US home", path: "/us/" },
+            { name: "Saunas", path: "/us/saunas/" },
+            { name: `${product.brand_name} ${product.model}`, path: `/us/saunas/${product.slug}/` },
+          ])} />
+        </>
+      ) : null}
+      <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/us/">Home</Link><span>›</span><Link href="/us/saunas/">Saunas</Link><span>›</span><span>{product.brand_name} {product.model}</span></nav>
+      <h1>{product.brand_name} {product.model}</h1>
+      <div className="product-top">
+        <div>
+          <p className="lead">{editorial?.summary ?? `${product.form.status === "documented" ? capitalize(product.form.value) : "Sauna"}${placement ? ` for ${placement} use` : ""}${capacity ? `, seats ${capacity}` : ""}.`}</p>
+          {editorial?.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        </div>
+        <div className="offer-box">
+          <h2>Where to buy</h2>
+          {offerPresentations.length === 0 ? <p>We don&apos;t have a shop link for this one. Try the manufacturer&apos;s page under Sources.</p> : null}
+          {offerPresentations.map(({ offer, merchant, link, priceVisible, statusLabel }) => (
+            <div className="offer" key={offer.id}>
+              <div className="offer-head"><span>{merchant?.name ?? "Shop"}</span>{priceVisible && offer.price ? <b>{offer.offer_type === "from-price" ? "from " : ""}{offerPrice(offer.price.amount_minor)}</b> : null}</div>
+              {priceVisible && offer.price ? null : <p>{statusLabel}</p>}
+              {link ? <a className="btn" href={link.href} rel={link.rel} target={link.target}>See it at {merchant?.name ?? "the shop"}</a> : null}
+              {link ? <small>Affiliate link</small> : null}
             </div>
-          </section>
-        ) : null}
+          ))}
+        </div>
+      </div>
 
-        <section className="us-product-section us-product-overview" aria-labelledby="configuration-title">
-          <div>
-            <p className="eyebrow">Exact configuration</p>
-            <h2 id="configuration-title">{configuration.label}</h2>
-          </div>
-          <dl className="us-product-facts">
-            <div><dt>Manufacturer SKU</dt><dd><FactValue fact={configuration.manufacturer_sku} /></dd></div>
-            <div><dt>Seated capacity</dt><dd><FactValue fact={configuration.capacity.seated} format={(value) => `${value} ${value === 1 ? "person" : "people"}`} /></dd></div>
-            <div><dt>Exterior W × D × H</dt><dd><FactValue fact={configuration.dimensions.exterior} format={dimensions} /></dd></div>
-            <div><dt>Interior W × D × H</dt><dd><FactValue fact={configuration.dimensions.interior} format={dimensions} /></dd></div>
-            <div><dt>Net weight</dt><dd><FactValue fact={configuration.net_weight} format={(value) => `${value.value} ${value.unit}`} /></dd></div>
-            <div><dt>Materials</dt><dd><FactValue fact={configuration.materials} format={(value) => value.join(", ")} /></dd></div>
-            <div><dt>Minimum clearances</dt><dd><FactValue fact={configuration.dimensions.minimum_clearances} format={(value) => Object.entries(value).map(([side, size]) => `${side}: ${measurement(size)}`).join(", ")} /></dd></div>
-            <div><dt>Shipping dimensions</dt><dd><FactValue fact={configuration.dimensions.shipping} format={dimensions} /></dd></div>
-          </dl>
-        </section>
+      <h2>Specs</h2>
+      <div className="table-wrap"><table className="facts"><tbody>{rows.map((row) => <tr key={row.label}><th scope="row">{row.label}</th><td>{row.value}</td></tr>)}</tbody></table></div>
 
-        <section className="us-product-section" aria-labelledby="electrical-title">
-          <div>
-            <p className="eyebrow">Electrical planning</p>
-            <h2 id="electrical-title">Requirements belong to this configuration.</h2>
-            <p>Voltage alone is not an installation approval. The circuit, connection, plug and local electrical requirements must be checked together.</p>
-          </div>
-          <div className="us-electrical-options">
-            {configuration.electrical_supply_options.length > 0 ? configuration.electrical_supply_options.map((option, optionIndex) => (
-              <section key={option.id}>
-                <h3>Supply option {optionIndex + 1}</h3>
-                {option.requirements.map((requirement, requirementIndex) => (
-                  <dl className="us-product-facts" key={`${option.id}-${requirementIndex}`}>
-                    <div><dt>Component</dt><dd>{requirement.component}</dd></div>
-                    <div><dt>Voltage</dt><dd><FactValue fact={requirement.voltage_v} format={(value) => `${value} V`} /></dd></div>
-                    <div><dt>Rated power</dt><dd><FactValue fact={requirement.rated_power_w} format={(value) => `${value} W`} /></dd></div>
-                    <div><dt>Required circuit</dt><dd><FactValue fact={requirement.required_circuit_a} format={(value) => `${value} A`} /></dd></div>
-                    <div><dt>Connection</dt><dd><FactValue fact={requirement.connection} /></dd></div>
-                    <div><dt>Plug type</dt><dd><FactValue fact={requirement.plug_type} /></dd></div>
-                    <div><dt>Dedicated circuit</dt><dd><FactValue fact={requirement.dedicated_circuit} format={(value) => value ? "Required" : "Not required"} /></dd></div>
-                  </dl>
-                ))}
-              </section>
-            )) : <p>No electrical supply option has been documented for this configuration.</p>}
-          </div>
-        </section>
+      <h2>Power</h2>
+      {power.length === 0 ? <p className="text">The manufacturer doesn&apos;t publish electrical details for this model. Ask for them before you order.</p> : null}
+      {power.map((option, index) => (
+        <div className="table-wrap" key={index}><table className="facts">
+          {power.length > 1 ? <caption>Option {index + 1}</caption> : null}
+          <tbody>{option.map((row, rowIndex) => <tr key={`${row.label}-${rowIndex}`}><th scope="row">{row.label}</th><td>{row.value}</td></tr>)}</tbody>
+        </table></div>
+      ))}
+      <p className="text">Local rules differ, so have an electrician look at the manual before you commit.</p>
 
-        <section className="us-product-section us-product-status" aria-labelledby="status-title">
-          <div>
-            <p className="eyebrow">Scope and open records</p>
-            <h2 id="status-title">What this record does not establish</h2>
-          </div>
-          <div>
-            <p>{configuration.components.length > 0 ? "Included and excluded components are listed in the configuration record." : "Included components have not yet been normalized into the configuration record."}</p>
-            <p>{configuration.certification_ids.length > 0 ? "Certification records are linked to this configuration." : "No certification record has been added. This is a data gap, not a statement that the product lacks certification."}</p>
-            <p>{configuration.warranty_ids.length > 0 ? "Warranty records are linked to this configuration." : "No warranty record has been added for this configuration."}</p>
-          </div>
-        </section>
+      {editorial ? (
+        <div className="two">
+          <section><h2>Worth knowing</h2><ul>{editorial.decision_points.map((point) => <li key={point}>{point}</li>)}</ul></section>
+          {editorial.limitations.length > 0 ? <section><h2>What we couldn&apos;t find out</h2><ul>{editorial.limitations.map((limitation) => <li key={limitation}>{limitation}</li>)}</ul></section> : null}
+        </div>
+      ) : null}
 
-        <section className="us-product-section us-product-sources" aria-labelledby="sources-title">
-          <div>
-            <p className="eyebrow">Sources</p>
-            <h2 id="sources-title">Documents used for this record</h2>
-          </div>
-          <ul>
-            {sources.map((source) => (
-              <li key={source.id}>
-                <a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} <span aria-hidden="true">↗</span></a>
-                <span>{source.publisher}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
+      <section className="text sources">
+        <h2>Sources</h2>
+        <p>We haven&apos;t tried this sauna ourselves. The specs come from:</p>
+        <ul>{sources.map((source) => <li key={source.id}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a>, {source.publisher}</li>)}</ul>
+      </section>
     </article>
   );
 }

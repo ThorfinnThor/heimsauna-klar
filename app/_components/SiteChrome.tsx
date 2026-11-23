@@ -8,13 +8,11 @@ const headerCopy = {
     homeLabel: "Select Your Sauna Startseite",
     navigationLabel: "Hauptnavigation",
     items: [
-      { href: "/de/#finder", label: "Sauna-Finder" },
-      { href: "/de/produkte/", label: "Produkte" },
+      { href: "/de/produkte/", label: "Alle Saunen" },
       { href: "/de/vergleiche/", label: "Vergleiche" },
       { href: "/de/planung/", label: "Ratgeber" },
-      { href: "/de/saunatechnik/230-v-sauna/", label: "230 V verstehen" },
+      { href: "/de/ueber-uns/", label: "Über uns" },
     ],
-    cta: { href: "/de/#finder", label: "Passenden Typ finden" },
   },
   US: {
     homeLabel: "Select Your Sauna home",
@@ -22,15 +20,13 @@ const headerCopy = {
     items: [
       { href: "/us/saunas/", label: "Saunas" },
       { href: "/us/guides/", label: "Guides" },
-      { href: "/us/sauna-finder/", label: "Sauna Finder" },
+      { href: "/us/sauna-finder/", label: "Finder" },
     ],
-    cta: { href: "/us/sauna-finder/", label: "Find a configuration" },
   },
 } satisfies Record<MarketCode, {
   homeLabel: string;
   navigationLabel: string;
   items: Array<{ href: string; label: string }>;
-  cta: { href: string; label: string };
 }>;
 
 function getUsNavigationItems() {
@@ -70,54 +66,69 @@ export function SiteHeader({ market = "DE" }: { market?: MarketCode }) {
   const items = market === "US" ? getUsNavigationItems() : copy.items;
   return (
     <header className="site-header">
-      <Link className="brand" href={marketPath(market)} aria-label={copy.homeLabel}>
-        <span className="brand-icon" aria-hidden="true" />
-        <span>Select Your Sauna</span>
-      </Link>
-      <nav className="nav" aria-label={copy.navigationLabel}>
-        {items.map((item) => <Link href={item.href} key={item.href}>{item.label}</Link>)}
-      </nav>
-      <div className="header-actions">
+      <div className="wrap">
+        <Link className="brand" href={marketPath(market)} aria-label={copy.homeLabel}>
+          <span className="brand-icon" aria-hidden="true" />
+          <span>Select Your Sauna</span>
+        </Link>
+        <nav className="nav" aria-label={copy.navigationLabel}>
+          {items.map((item) => <Link href={item.href} key={item.href}>{item.label}</Link>)}
+        </nav>
         <MarketSwitcher currentMarket={market} />
-        <Link className="header-cta" href={copy.cta.href}>{copy.cta.label}</Link>
       </div>
     </header>
   );
 }
 
 export function SiteFooter({ market = "DE" }: { market?: MarketCode }) {
-  const isGerman = market === "DE";
-  const includeNonPublicUsPages = !isGerman && isUsResearchPreview();
-  const usTrustLinks = isGerman ? [] : [
-    { slug: "methodology" as const, href: "/us/methodology/", label: "Methodology" },
+  return (
+    <footer className="site-footer">
+      <div className="wrap">
+        {market === "DE" ? <GermanFooter /> : <UsFooter />}
+        <p className="footer-note">{market === "DE" ? "Betreiber" : "Operated by"}: SeitenHafen361, Schayan Yousefian</p>
+      </div>
+    </footer>
+  );
+}
+
+function GermanFooter() {
+  return (
+    <div className="footer-cols">
+      <p>Select Your Sauna vergleicht Saunen und Infrarotkabinen für zu Hause. Wir verkaufen selbst nichts. Kaufst du über einen Link mit dem Zusatz „Affiliate-Link“, bekommen wir vom Shop eine Provision. Für dich ändert sich der Preis nicht.</p>
+      <ul>
+        <li><Link href="/de/produkte/">Alle Saunen</Link></li>
+        <li><Link href="/de/vergleiche/">Vergleiche</Link></li>
+        <li><Link href="/de/planung/">Ratgeber</Link></li>
+        <li><Link href="/de/saunatechnik/230-v-sauna/">230-Volt-Saunen erklärt</Link></li>
+      </ul>
+      <ul>
+        <li><Link href="/de/ueber-uns/">Über uns</Link></li>
+        <li><Link href="/de/transparenz/affiliate/">Affiliate-Links</Link></li>
+        <li><Link href="/de/rechtliches/#impressum">Impressum</Link></li>
+        <li><Link href="/de/rechtliches/#datenschutz">Datenschutz</Link></li>
+        <li><CookieSettingsButton label="Cookie-Einstellungen" /></li>
+      </ul>
+    </div>
+  );
+}
+
+function UsFooter() {
+  const includeNonPublic = isUsResearchPreview();
+  const trustLinks = [
+    { slug: "methodology" as const, href: "/us/methodology/", label: "How we compare" },
     { slug: "affiliate-disclosure" as const, href: "/us/affiliate-disclosure/", label: "Affiliate disclosure" },
     { slug: "privacy" as const, href: "/us/privacy/", label: "Privacy" },
     { slug: "contact" as const, href: "/us/contact/", label: "Contact" },
-  ].filter((item) => getUsTrustPage(item.slug, { includeNonPublic: includeNonPublicUsPages }));
+  ].filter((item) => getUsTrustPage(item.slug, { includeNonPublic }));
   return (
-    <footer>
-      <Link className="brand brand-footer" href={marketPath(market)}>
-        <span className="brand-icon" aria-hidden="true" /><span>Select Your Sauna</span>
-      </Link>
-      <p>{isGerman ? "Eine unabhängige Planungs- und Kaufplattform für private Saunen." : "Independent planning and product comparisons for home saunas."}</p>
-      <div className="footer-links">
-        {isGerman ? (
-          <>
-            <Link href="/de/ueber-uns/">Über uns &amp; Methodik</Link>
-            <Link href="/de/planung/">Ratgeber</Link>
-            <Link href="/de/rechtliches/#impressum">Impressum</Link>
-            <Link href="/de/rechtliches/#datenschutz">Datenschutz</Link>
-            <Link href="/de/transparenz/affiliate/">Affiliate</Link>
-            <CookieSettingsButton label="Cookie-Einstellungen" />
-          </>
-        ) : (
-          <>
-            <Link href="/us/guides/">Guides</Link>
-            {usTrustLinks.map((item) => <Link href={item.href} key={item.slug}>{item.label}</Link>)}
-          </>
-        )}
-      </div>
-      <p className="footer-note">{isGerman ? "Betreiber" : "Operated by"}: SeitenHafen361 · Schayan Yousefian</p>
-    </footer>
+    <div className="footer-cols">
+      <p>Select Your Sauna compares home saunas. We don&apos;t sell them. Links marked &ldquo;Affiliate link&rdquo; may earn us a commission at no extra cost to you.</p>
+      <ul>
+        <li><Link href="/us/saunas/">All saunas</Link></li>
+        <li><Link href="/us/sauna-finder/">Sauna finder</Link></li>
+        <li><Link href="/us/guides/">Guides</Link></li>
+      </ul>
+      <ul>{trustLinks.map((item) => <li key={item.slug}><Link href={item.href}>{item.label}</Link></li>)}</ul>
+    </div>
   );
 }

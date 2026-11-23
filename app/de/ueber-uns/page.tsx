@@ -1,98 +1,43 @@
 import Link from "next/link";
+import { Breadcrumbs } from "@/app/_components/Blocks";
 import { SiteFooter, SiteHeader } from "@/app/_components/SiteChrome";
 import { StructuredData } from "@/app/_components/StructuredData";
-import { aboutPageJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 import { createPageMetadata } from "@/lib/metadata";
+import { products } from "@/lib/products";
+import { aboutPageJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 
 const path = "/de/ueber-uns/";
-const title = "Über Select Your Sauna: Redaktion und Methodik";
-const description = "Wer Select Your Sauna betreibt, wie Produktdaten geprüft werden und nach welchen Regeln die Planungshilfen und Vergleiche entstehen.";
+const title = "Über Select Your Sauna";
+const description = "Wer hinter Select Your Sauna steht, woher die Angaben zu den Saunen kommen und womit die Seite Geld verdient.";
 
-export const metadata = createPageMetadata({
-  title,
-  description,
-  path,
-});
+export const metadata = createPageMetadata({ title, description, path });
 
 export default function AboutPage() {
   return (
     <main>
       <StructuredData data={aboutPageJsonLd({ title, description, path })} />
-      <StructuredData data={breadcrumbJsonLd([
-        { name: "Start", path: "/de/" },
-        { name: "Über uns", path },
-      ])} />
+      <StructuredData data={breadcrumbJsonLd([{ name: "Start", path: "/de/" }, { name: "Über uns", path }])} />
       <SiteHeader />
-      <article className="about-page">
-        <header className="about-hero page-shell">
-          <nav className="breadcrumbs" aria-label="Brotkrümelnavigation">
-            <Link href="/de/">Start</Link><span>/</span><span>Über uns</span>
-          </nav>
-          <p className="eyebrow">Über Select Your Sauna</p>
-          <h1>Saunaplanung mit nachvollziehbaren Produktdaten.</h1>
-          <div className="about-hero-copy">
-            <p>Select Your Sauna ist eine deutschsprachige Planungs- und Vergleichsplattform für private Saunen. Betreiber ist das Einzelunternehmen SeitenHafen361 von Schayan Yousefian.</p>
-            <p>Die Website verkauft keine Saunen. Sie führt technische Angaben, Preise und Bezugsquellen zusammen, damit sich Modelle anhand des vorgesehenen Standorts, der verfügbaren Fläche, des Stromanschlusses und des Budgets eingrenzen lassen.</p>
-          </div>
-        </header>
+      <article className="wrap page">
+        <Breadcrumbs items={[{ label: "Start", href: "/de/" }, { label: "Über uns" }]} />
+        <h1>{title}</h1>
+        <div className="text">
+          <p className="lead">Wer eine Sauna für zu Hause sucht, klickt sich durch viele Shops und findet überall andere Angaben. Hier stehen {products.length} Modelle nebeneinander, mit Maßen, Anschluss und Preis.</p>
 
-        <section className="about-purpose page-shell" aria-labelledby="about-purpose-title">
-          <div>
-            <p className="eyebrow">Aufgabe der Website</p>
-            <h2 id="about-purpose-title">Welche Fragen die Inhalte beantworten</h2>
-          </div>
-          <div className="about-purpose-copy">
-            <p>Der Sauna-Finder und die Vergleichsseiten ordnen dokumentierte Produkte nach konkreten Anforderungen. Dazu zählen unter anderem Innen- oder Außenaufstellung, Personenzahl, Produktfläche, Wärmeart, Spannung und Preisrahmen.</p>
-            <p>Planungsratgeber behandeln Themen, die vor der Produktauswahl geklärt werden sollten: Elektroanschluss, Aufstellfläche, Abstände, Belüftung und die Grenzen von Herstellerangaben.</p>
-            <div className="about-actions">
-              <Link className="button button-primary" href="/de/#finder">Sauna-Finder öffnen</Link>
-              <Link className="text-link" href="/de/planung/">Planungsratgeber ansehen →</Link>
-            </div>
-          </div>
-        </section>
+          <h2>Woher die Angaben kommen</h2>
+          <p>Wir lesen Produktseiten, Datenblätter und Montageanleitungen der Hersteller und die Angebote der Shops. Auf jeder Produktseite sind diese Quellen verlinkt. Steht eine Angabe nirgends, bleibt sie leer. Wir übernehmen sie nicht von einem ähnlichen Modell.</p>
+          <p>Aufgebaut oder getestet haben wir die Saunen nicht. Deshalb gibt es hier auch keine Noten und keinen Testsieger. Die Listen sind nach Größe oder Preis sortiert.</p>
 
-        <section className="about-method" aria-labelledby="about-method-title">
-          <div className="page-shell about-method-grid">
-            <div>
-              <p className="eyebrow eyebrow-light">Arbeitsweise</p>
-              <h2 id="about-method-title">So werden Produktangaben geprüft</h2>
-            </div>
-            <ol>
-              <li><span>01</span><div><h3>Quelle erfassen</h3><p>Ausgangspunkt sind öffentlich zugängliche Herstellerseiten, technische Unterlagen und konkrete Angebotsseiten. Die verwendete URL bleibt am Produkt sichtbar.</p></div></li>
-              <li><span>02</span><div><h3>Angaben getrennt führen</h3><p>Maße, Kapazität, Spannung, Ofenart und Preis werden als einzelne Datenpunkte gespeichert. Fehlende technische Angaben werden nicht aus ähnlichen Modellen abgeleitet.</p></div></li>
-              <li><span>03</span><div><h3>Widersprüche kenntlich machen</h3><p>Weichen Quellen voneinander ab oder ist eine Eigenschaft nicht belegt, wird die Lücke im Datensatz ausgewiesen. Ein unbekannter Wert gilt im Finder nicht als bestätigte Übereinstimmung.</p></div></li>
-              <li><span>04</span><div><h3>Einordnung ergänzen</h3><p>Die redaktionelle Einordnung beschreibt Einsatzbereich und Grenzen eines Modells. Sie wird von den übernommenen Hersteller- und Händlerangaben getrennt.</p></div></li>
-            </ol>
-          </div>
-        </section>
+          <h2>Womit die Seite Geld verdient</h2>
+          <p>Manche Links zu Shops sind Affiliate-Links. Kaufst du darüber, bekommen wir eine Provision, dein Preis bleibt gleich. Diese Links sind gekennzeichnet. Mehr dazu steht unter <Link href="/de/transparenz/affiliate/">Affiliate-Links</Link>.</p>
 
-        <section className="about-standards page-shell" aria-labelledby="about-standards-title">
-          <header>
-            <p className="eyebrow">Redaktionelle Regeln</p>
-            <h2 id="about-standards-title">Wie Produkte eingeordnet werden</h2>
-          </header>
-          <div className="about-standard-grid">
-            <article><h3>Bewertung nach Anforderungen</h3><p>Ein Produkt erscheint passend, wenn seine dokumentierten Eigenschaften zu den gewählten Anforderungen passen. Die Reihenfolge ist kein Beleg für einen allgemeinen Testsieg.</p></article>
-            <article><h3>Praxistests nur mit Dokumentation</h3><p>Die aktuellen Inhalte beruhen auf Quellen- und Datenprüfung. Eigene Messungen oder Langzeittests werden nur genannt, wenn sie tatsächlich durchgeführt und beschrieben wurden.</p></article>
-            <article><h3>Kennzeichnung von Werbung</h3><p>Vergütete Links werden gekennzeichnet. Eine mögliche Provision verändert weder den Preis für Nutzer noch die dokumentierten Produkteigenschaften.</p></article>
-          </div>
-          <div className="about-reference-row">
-            <Link className="text-link" href="/de/produkte/">Produktkatalog öffnen →</Link>
-            <Link className="text-link" href="/de/transparenz/affiliate/">Affiliate-Regeln und aktuellen Status lesen →</Link>
-          </div>
-        </section>
-
-        <section className="about-contact page-shell" id="redaktion" aria-labelledby="about-contact-title">
-          <p className="eyebrow">Redaktion und Kontakt</p>
-          <div>
-            <h2 id="about-contact-title">Verantwortung und Rückfragen</h2>
-            <p id="schayan-yousefian">Redaktionell verantwortlich ist Schayan Yousefian, Inhaber des Einzelunternehmens SeitenHafen361. Seine Arbeit für Select Your Sauna umfasst die Quellenprüfung, Datenmodellierung und redaktionelle Einordnung der Inhalte.</p>
-            <p>Die Website bietet keine handwerkliche, elektrotechnische oder baurechtliche Fachberatung. Bei sicherheitsrelevanten Fragen sind die Herstellerunterlagen und die Prüfung durch zuständige Fachleute maßgeblich.</p>
-            <p>Betreiber: SeitenHafen361, Inhaber Schayan Yousefian, Freienwalder Str. 34, 13359 Berlin.</p>
-            <p>Hinweise zu fehlerhaften oder veralteten Produktangaben können per E-Mail an <a className="text-link" href="mailto:info@selectyoursauna.com">info@selectyoursauna.com</a> gesendet werden.</p>
-            <Link className="text-link" href="/de/rechtliches/">Impressum und Datenschutz →</Link>
-          </div>
-        </section>
+          <section id="redaktion">
+            <h2>Wer dahintersteht</h2>
+            <p id="schayan-yousefian">Redaktionell verantwortlich ist Schayan Yousefian, Inhaber des Einzelunternehmens SeitenHafen361, Freienwalder Str. 34, 13359 Berlin.</p>
+            <p>Ist dir ein Fehler aufgefallen oder ein Preis veraltet? Schreib an <a href="mailto:info@selectyoursauna.com">info@selectyoursauna.com</a>. Für Elektrik, Statik und Baurecht sind wir die Falschen, da helfen Fachbetriebe und das Bauamt.</p>
+            <p><Link href="/de/rechtliches/">Impressum und Datenschutz</Link></p>
+          </section>
+        </div>
       </article>
       <SiteFooter />
     </main>

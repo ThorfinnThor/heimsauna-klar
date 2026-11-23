@@ -1,31 +1,57 @@
 {
-  "title": "230-V-Sauna und die tatsächlichen Anforderungen an den Anschluss",
-  "description": "Was 230 V bei einer Sauna über Versorgung, Leistung und Anschluss aussagt und welche Angaben vor der Produktauswahl fehlen können.",
-  "updated_at": "2026-08-29",
-  "quick_answer": "230 V bezeichnet die Versorgungsspannung. Daraus lassen sich weder Steckertyp noch Heizleistung, Absicherung oder erreichbare Temperatur ableiten. Verlässlich sind nur die Anschlussunterlagen der exakten Produktvariante zusammen mit einer Prüfung des vorhandenen Stromkreises.",
-  "checks": [
+  "title": "230-Volt-Sauna erklärt",
+  "description": "Welche Saunen an 230 Volt laufen, ob die normale Steckdose reicht, wie groß die Kabine sein darf und was der Elektriker prüft.",
+  "updated_at": "2026-11-23",
+  "intro": [
+    "Kleine Saunen mit einem Ofen um 3,6 kW und die meisten Infrarotkabinen laufen an 230 Volt. Das spart den Starkstromanschluss. Ob du sie einfach einstecken kannst, steht in der Anleitung des Modells."
+  ],
+  "sections": [
     {
-      "title": "Volt, Kilowatt und Stecker sind drei verschiedene Angaben",
-      "copy": "Die Versorgungsspannung steht neben der Nennleistung und der konkreten Anschlussart. Ein Modell mit 230 V kann je nach Herstelleranforderung andere Bedingungen an Stromkreis und Absicherung stellen. Die Produktvariante muss deshalb mit Artikelnummer und Anleitung eindeutig feststehen."
+      "heading": "Steckdose oder fester Anschluss?",
+      "paragraphs": [
+        "Beides kommt vor. Karibu verkauft zum Beispiel steckerfertige Saunen mit 3,6 kW. Home Deluxe verlangt bei seinen kleinen Saunen mit 3,6 kW einen eigenen, abgesicherten Stromkreis. Eine Steckdose, an der schon Trockner oder Waschmaschine hängen, ist in jedem Fall die falsche."
+      ]
     },
     {
-      "title": "Die Ofenleistung gehört zum wirksamen Kabinenvolumen",
-      "copy": "Hersteller ordnen ihre Öfen einem bestimmten Volumenbereich zu. Glas, ungedämmte Flächen und der Aufbau der Kabine können den Wärmebedarf verändern. Ein anderer Ofen mit derselben Spannung oder Leistung ist dadurch nicht automatisch kompatibel."
+      "heading": "Wie groß darf die Kabine sein?",
+      "paragraphs": [
+        "Das gibt der Ofen vor. Harvia nennt für den Delta D36E mit 3,6 kW einen Bereich von 2 bis 4,5 m³. Viel Glas zählt dabei extra, weil es mehr Wärme verliert als Holz. Für eine Kabine für ein oder zwei Personen passt das gut."
+      ]
     },
     {
-      "title": "Der vorhandene Stromkreis muss zum Modell passen",
-      "copy": "Eine erreichbare Steckdose belegt weder die passende Absicherung noch die Freigabe für das Gerät. Der Elektrofachbetrieb kann Stromkreis, Leitungsweg und Herstelleranforderungen beurteilen. Arbeiten am festen Netz bleiben Facharbeit."
+      "heading": "Wird sie heiß genug?",
+      "paragraphs": [
+        "Wenn Ofen und Kabine zusammenpassen, ja. Karibu weist bei der Sandra mit 3,6 kW darauf hin, dass die Temperatur von den Bedingungen abhängt. Gemeint sind vor allem ein kalter Raum und schlechte Dämmung. Plan mehr Zeit zum Aufheizen ein als bei einem 9-kW-Ofen."
+      ]
     },
     {
-      "title": "Temperaturversprechen brauchen mehr als eine Leistungszahl",
-      "copy": "Bauweise, Isolierung, Lüftung, Umgebungstemperatur und Sensorposition beeinflussen den Heizverlauf. Karibu weist bei einem 3,6-kW-Ofen ausdrücklich auf solche Bedingungen hin. Eine feste Temperatur wird daraus für andere Modelle nicht abgeleitet."
+      "heading": "Was der Elektriker prüft",
+      "paragraphs": [
+        "Er schaut, wie der Stromkreis abgesichert ist, was sonst noch daran hängt und ob die Leitung dick genug ist. Halte dafür den Anschlussplan des Modells bereit."
+      ]
     }
   ],
   "comparison": [
-    { "label": "Versorgung", "v230": "230 V", "v400": "typisch 400 V Drehstrom" },
-    { "label": "Häufige Produktgruppen", "v230": "kompakte Kabinen und Infrarotmodelle", "v400": "klassische Saunen mit höherer Ofenleistung" },
-    { "label": "Offene Standortfrage", "v230": "Stromkreis, Anschlussart und Absicherung", "v400": "Leitungsweg, Anschluss und Absicherung" },
-    { "label": "Belastbare Auswahlbasis", "v230": "exakte Modellunterlagen und Vor-Ort-Prüfung", "v400": "exakte Modellunterlagen und Vor-Ort-Prüfung" }
+    {
+      "label": "Typische Modelle",
+      "v230": "Infrarotkabinen, kleine Saunen",
+      "v400": "Saunen ab drei Personen"
+    },
+    {
+      "label": "Ofenleistung",
+      "v230": "bis etwa 3,6 kW",
+      "v400": "meist 4,5 bis 9 kW"
+    },
+    {
+      "label": "Anschluss",
+      "v230": "Stecker oder fest, je nach Modell",
+      "v400": "immer durch den Elektriker"
+    },
+    {
+      "label": "Aufheizen",
+      "v230": "dauert länger",
+      "v400": "geht schneller"
+    }
   ],
   "sources": [
     {
@@ -34,7 +60,12 @@
       "publisher": "Karibu"
     },
     {
-      "title": "Harvia Montageanleitung: Leistung, Spannung und Sicherheitsabstände prüfen",
+      "title": "Harvia: Delta D36E 3,6 kW mit Volumenbereich",
+      "url": "https://www.harvia.com/de/produkts/HDE364M/delta-d36e-36-kw-schwarz/",
+      "publisher": "Harvia"
+    },
+    {
+      "title": "Harvia: Montageanleitung mit Anschlussdaten",
       "url": "https://pim.harvia.com/rockon-images/CIP/asset/download/3c5b6375-efcf-42bf-86ea-4ff1ab4796a9/306",
       "publisher": "Harvia"
     },

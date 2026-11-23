@@ -195,17 +195,17 @@ export function formatPrice(product: Product) {
 export function formatVoltage(voltage: Product["power"]["voltage"]) {
   if (typeof voltage === "number") return `${voltage} V`;
   if (voltage === "wood") return "Holz";
-  return "nicht ausgewiesen";
+  return "nicht angegeben";
 }
 
 export function formatPower(kw: Product["power"]["kw"]) {
-  if (kw === null) return "nicht ausgewiesen";
+  if (kw === null) return "nicht angegeben";
   return `${kw.toLocaleString("de-DE", { maximumFractionDigits: 2 })} kW`;
 }
 
 export function formatCapacity(product: Product) {
   const people = `${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"}`;
-  return product.people.basis === "conservative-planning" ? `Planungswert bis ${people}` : `bis ${people}`;
+  return product.people.basis === "conservative-planning" ? `etwa ${people}` : `bis ${people}`;
 }
 
 function isKaribuProductPath(url: URL) {
@@ -353,12 +353,12 @@ function matchesFinderFilters(product: Product, filters: FinderFilters, ignored?
 
 function getMatchReasons(product: Product, filters: FinderFilters, footprintM2: number) {
   const reasons = [
-    filters.place === "outdoor" ? "für außen dokumentiert" : filters.place === "mobile" ? "mobil dokumentiert" : filters.place === "open" ? "Aufstellort offen" : "für innen dokumentiert",
+    filters.place === "outdoor" ? "für draußen" : filters.place === "mobile" ? "mobil" : filters.place === "open" ? "Aufstellort offen" : "für drinnen",
     `bis ${product.people.max} ${product.people.max === 1 ? "Person" : "Personen"}`,
-    `${footprintM2.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² Produktfläche`,
+    `${footprintM2.toLocaleString("de-DE", { maximumFractionDigits: 2 })} m² Stellfläche`,
   ];
 
-  if (filters.power !== "unknown") reasons.push(`${formatFinderPower(filters.power)} ausgewiesen`);
+  if (filters.power !== "unknown") reasons.push(`${formatFinderPower(filters.power)}`);
   if (filters.budget !== "open") reasons.push(`bis ${budgetLimits[filters.budget].toLocaleString("de-DE")} €`);
   if (filters.heat === "infrared") reasons.push("Infrarotkabine");
   if (filters.heat === "traditional") reasons.push("klassische Saunakabine");
@@ -371,7 +371,7 @@ function getAlternativeDifferences(product: Product, filters: FinderFilters, foo
   if (filters.heat !== "open") {
     const isInfrared = product.category === "infrared";
     if (filters.heat === "infrared" ? !isInfrared : isInfrared) {
-      differences.push(filters.heat === "infrared" ? "klassische Wärme statt Infrarot" : "Infrarot statt klassischer Sauna");
+      differences.push(filters.heat === "infrared" ? "Sauna statt Infrarot" : "Infrarot statt Sauna");
     }
   }
 
@@ -387,7 +387,7 @@ function getAlternativeDifferences(product: Product, filters: FinderFilters, foo
     const actualPower = product.power.voltage === "wood"
       ? "Holzofen"
       : product.power.voltage === "none"
-        ? "Anschluss nicht ausgewiesen"
+        ? "Anschluss nicht angegeben"
         : `${product.power.voltage} V`;
     differences.push(`${actualPower} statt ${formatFinderPower(filters.power)}`);
   }
@@ -445,11 +445,11 @@ export function findProductsForFinder(productList: Product[], filters: FinderFil
     });
 
   const relaxationDefinitions: Array<Omit<FinderRelaxation, "matchCount"> & { active: boolean }> = [
-    { key: "people", value: "flex", label: "Personenzahl öffnen", active: filters.people !== "flex" },
-    { key: "footprint", value: "open", label: "Fläche öffnen", active: filters.footprint !== "open" },
-    { key: "power", value: "unknown", label: "Anschluss offenlassen", active: filters.power !== "unknown" },
-    { key: "budget", value: "open", label: "Budget öffnen", active: filters.budget !== "open" },
-    { key: "heat", value: "open", label: "Wärmeart öffnen", active: filters.heat !== "open" },
+    { key: "people", value: "flex", label: "Personenzahl egal", active: filters.people !== "flex" },
+    { key: "footprint", value: "open", label: "Größe egal", active: filters.footprint !== "open" },
+    { key: "power", value: "unknown", label: "Anschluss egal", active: filters.power !== "unknown" },
+    { key: "budget", value: "open", label: "Preis egal", active: filters.budget !== "open" },
+    { key: "heat", value: "open", label: "Sauna oder Infrarot egal", active: filters.heat !== "open" },
   ];
   const relaxations = relaxationDefinitions.flatMap(({ active, ...relaxation }) => {
     if (!active) return [];

@@ -6,10 +6,10 @@ import "../globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Select Your Sauna — independent US sauna planning",
+    default: "Select Your Sauna: home saunas compared",
     template: "%s | Select Your Sauna",
   },
-  description: "Independent product comparisons and planning information for home saunas in the United States.",
+  description: "Home saunas sold in the US compared by size, seats and power.",
   creator: "Schayan Yousefian",
   publisher: "SeitenHafen361",
   icons: {
